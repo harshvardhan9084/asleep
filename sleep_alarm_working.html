@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Driver Sleep Alarm</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #38bdf8;
+  }
+  .subtitle {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+  video, canvas {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+  }
+  canvas {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    pointer-events: none;
+  }
+  .status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .status-pill {
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: #334155;
+    color: #cbd5e1;
+  }
+  .status-pill.alert {
+    background: #ef4444;
+    color: #fff;
+    animation: pulse 0.8s infinite alternate;
+  }
+  .status-pill.ok { background: #22c55e; color: #fff; }
+  @keyframes pulse {
+    from { box-shadow: 0 0 0 0 rgba(239,68,68,0.6); }
+    to   { box-shadow: 0 0 0 12px rgba(239,68,68,0); }
+  }
+  .controls {
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  button {
+    flex: 1;
+    min-width: 120px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.2s;
+  }
+  button:active { transform: scale(0.97); }
+  #startBtn { background: #38bdf8; color: #0f172a; }
+  #stopBtn  { background: #475569; color: #e2e8f0; }
+  #testBtn  { background: #f59e0b; color: #0f172a; }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .gauge {
+    margin-top: 14px;
+    height: 8px;
+    background: #334155;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .gauge-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #22c55e, #f59e0b, #ef4444);
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+  .note {
+    margin-top: 14px;
+    font-size: 0.75rem;
+    color: #64748b;
+    text-align: center;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+  <h1>Driver Sleep Alarm</h1>
+  <p class="subtitle">Eye-closure detection for safety · runs 100% locally in your browser</p>
+
+  <div class="container">
+    <video id="video" autoplay muted playsinline></video>
+    <canvas id="overlay"></canvas>
+
+    <div class="status-bar">
+      <span id="statusPill" class="status-pill">Idle</span>
+      <span id="earText" class="status-pill">EAR: --</span>
+      <span id="timerText" class="status-pill">Closed: 0.0s</span>
+    </div>
+
+    <div class="gauge"><div id="gaugeFill" class="gauge-fill"></div></div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="stopBtn" disabled>Stop</button>
+      <button id="testBtn">Test Alarm</button>
+    </div>
+
+    <p class="note">
+      Tip: allow camera access. For camera permissions, open this file from HTTPS or localhost. If eyes stay closed for more than ~1.2 seconds,
+      an alarm will sound. Works best with good lighting and a front-facing camera.
+    </p>
+  </div>
+
+  <!-- face-api.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script>
+    window.addEventListener("error", (e) => {
+      if (e.target && e.target.tagName === "SCRIPT") {
+        statusPill.textContent = "Library failed to load";
+        statusPill.className = "status-pill alert";
+      }
+    }, true);
+
+    const MODEL_URL = "https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model";
+
+    const video      = document.getElementById("video");
+    const overlay    = document.getElementById("overlay");
+    const ctx        = overlay.getContext("2d");
+    const startBtn   = document.getElementById("startBtn");
+    const stopBtn    = document.getElementById("stopBtn");
+    const testBtn    = document.getElementById("testBtn");
+    const statusPill = document.getElementById("statusPill");
+    const earText    = document.getElementById("earText");
+    const timerText  = document.getElementById("timerText");
+    const gaugeFill  = document.getElementById("gaugeFill");
+
+    // Tunables
+    const EAR_THRESHOLD = 0.25;   // below this = eyes closed
+    const ALARM_SECONDS = 1.2;    // closed for this long => alarm
+    const GAUGE_MAX_SECONDS = 2.0;
+
+    let stream = null;
+    let running = false;
+    let detecting = false;
+    let modelsLoaded = false;
+    let closedSince = null;       // timestamp when eyes first closed
+    let alarmActive = false;
+
+    // ----- Audio alarm (Web Audio API beep) -----
+    let audioCtx = null;
+    let beepInterval = null;
+
+    async function ensureAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === "suspended") await audioCtx.resume();
+    }
+
+    function beep() {
+      if (!audioCtx || audioCtx.state !== "running") return;
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = "square";
+      osc.frequency.setValueAtTime(880, audioCtx.currentTime);
+      gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+      osc.connect(gain).connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.18);
+    }
+
+    async function startAlarm() {
+      if (alarmActive) return;
+      alarmActive = true;
+      statusPill.textContent = "WAKE UP!";
+      statusPill.className = "status-pill alert";
+      try {
+        await ensureAudio();
+        if (!alarmActive) return;
+        beep();
+        beepInterval = setInterval(beep, 350);
+      } catch (e) {
+        console.warn("Audio alarm unavailable:", e);
+      }
+    }
+
+    function stopAlarm() {
+      alarmActive = false;
+      if (beepInterval) {
+        clearInterval(beepInterval);
+        beepInterval = null;
+      }
+    }
+
+    // ----- Eye Aspect Ratio -----
+    // 68-landmark model: left eye = points 36..41, right eye = points 42..47
+    function dist(a, b) {
+      return Math.hypot(a.x - b.x, a.y - b.y);
+    }
+    function eyeAspectRatio(eye) {
+      // eye: array of 6 points [p1..p6] going around the eye
+      const v1 = dist(eye[1], eye[5]);
+      const v2 = dist(eye[2], eye[4]);
+      const h  = dist(eye[0], eye[3]);
+      return (v1 + v2) / (2.0 * h);
+    }
+    function getEAR(landmarks) {
+      const left  = [36,37,38,39,40,41].map(i => landmarks.positions[i]);
+      const right = [42,43,44,45,46,47].map(i => landmarks.positions[i]);
+      return (eyeAspectRatio(left) + eyeAspectRatio(right)) / 2.0;
+    }
+
+    // ----- Drawing -----
+    function resizeOverlay() {
+      overlay.width  = video.videoWidth  || 640;
+      overlay.height = video.videoHeight || 480;
+    }
+    function drawEye(eye, color) {
+      ctx.beginPath();
+      ctx.moveTo(eye[0].x, eye[0].y);
+      for (let i = 1; i < eye.length; i++) ctx.lineTo(eye[i].x, eye[i].y);
+      ctx.closePath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    }
+
+    // ----- Main loop -----
+    async function loop() {
+      if (!running) return;
+
+      if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA && !detecting) {
+        detecting = true;
+        try {
+          const result = await faceapi
+            .detectSingleFace(
+              video,
+              new faceapi.TinyFaceDetectorOptions({ inputSize: 224, scoreThreshold: 0.5 })
+            )
+            .withFaceLandmarks();
+
+          resizeOverlay();
+          ctx.clearRect(0, 0, overlay.width, overlay.height);
+
+          if (result) {
+          const lm = result.landmarks;
+          const ear = getEAR(lm);
+
+          const left  = [36,37,38,39,40,41].map(i => lm.positions[i]);
+          const right = [42,43,44,45,46,47].map(i => lm.positions[i]);
+          drawEye(left,  ear < EAR_THRESHOLD ? "#ef4444" : "#22c55e");
+          drawEye(right, ear < EAR_THRESHOLD ? "#ef4444" : "#22c55e");
+
+          earText.textContent = "EAR: " + ear.toFixed(3);
+
+          if (ear < EAR_THRESHOLD) {
+            if (closedSince === null) closedSince = Date.now();
+            const secs = (Date.now() - closedSince) / 1000;
+            timerText.textContent = "Closed: " + secs.toFixed(1) + "s";
+            gaugeFill.style.width = Math.min(100, (secs / GAUGE_MAX_SECONDS) * 100) + "%";
+            if (secs >= ALARM_SECONDS) startAlarm();
+          } else {
+            closedSince = null;
+            timerText.textContent = "Closed: 0.0s";
+            gaugeFill.style.width = "0%";
+            if (alarmActive) {
+              stopAlarm();
+              statusPill.textContent = "Monitoring";
+              statusPill.className = "status-pill ok";
+            }
+          }
+          } else {
+            earText.textContent = "EAR: --";
+            timerText.textContent = "No face";
+            closedSince = null;
+            gaugeFill.style.width = "0%";
+            if (alarmActive) {
+              stopAlarm();
+              statusPill.textContent = "Monitoring";
+              statusPill.className = "status-pill ok";
+            }
+          }
+        } catch (err) {
+          console.error("Face detection error:", err);
+          earText.textContent = "EAR: error";
+          timerText.textContent = "Detection error";
+        } finally {
+          detecting = false;
+        }
+      }
+      if (running) requestAnimationFrame(loop);
+    }
+
+    // ----- Start / Stop -----
+    async function start() {
+      if (running) return;
+
+      startBtn.disabled = true;
+      stopBtn.disabled = true;
+      statusPill.textContent = "Loading models...";
+      statusPill.className = "status-pill";
+
+      try {
+        if (!window.faceapi) {
+          throw new Error("face-api.js failed to load. Check your internet connection.");
+        }
+
+        if (!modelsLoaded) {
+          await Promise.all([
+            faceapi.nets.tinyFaceDetector.loadFromUri(MODEL_URL),
+            faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL)
+          ]);
+          modelsLoaded = true;
+        }
+
+        statusPill.textContent = "Starting camera...";
+
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+          throw new Error("Camera access is unavailable. Open this page on HTTPS or localhost.");
+        }
+
+        stream = await navigator.mediaDevices.getUserMedia({
+          video: {
+            facingMode: { ideal: "user" },
+            width: { ideal: 640 },
+            height: { ideal: 480 }
+          },
+          audio: false
+        });
+
+        video.srcObject = stream;
+        await video.play();
+        resizeOverlay();
+
+        // AudioContext creation/resume is tied to this user click.
+        try { await ensureAudio(); } catch (_) {}
+
+        running = true;
+        detecting = false;
+        closedSince = null;
+        alarmActive = false;
+        statusPill.textContent = "Monitoring";
+        statusPill.className = "status-pill ok";
+        startBtn.disabled = true;
+        stopBtn.disabled = false;
+        requestAnimationFrame(loop);
+      } catch (err) {
+        console.error(err);
+        if (stream) {
+          stream.getTracks().forEach(t => t.stop());
+          stream = null;
+        }
+        video.srcObject = null;
+        statusPill.textContent =
+          err.name === "NotAllowedError" ? "Camera permission denied" :
+          err.name === "NotFoundError" ? "No camera found" :
+          "Startup failed";
+        statusPill.className = "status-pill alert";
+        startBtn.disabled = false;
+        stopBtn.disabled = true;
+        alert("Could not start the sleep alarm.
+
+" + (err.message || err.name));
+      }
+    }
+
+    function stop() {
+      running = false;
+      detecting = false;
+      closedSince = null;
+      stopAlarm();
+      if (stream) { stream.getTracks().forEach(t => t.stop()); stream = null; }
+      video.srcObject = null;
+      ctx.clearRect(0, 0, overlay.width, overlay.height);
+      statusPill.textContent = "Idle";
+      statusPill.className = "status-pill";
+      earText.textContent = "EAR: --";
+      timerText.textContent = "Closed: 0.0s";
+      gaugeFill.style.width = "0%";
+      startBtn.disabled = false;
+      stopBtn.disabled = true;
+    }
+
+    startBtn.addEventListener("click", start);
+    stopBtn.addEventListener("click", stop);
+    let testTimer = null;
+    testBtn.addEventListener("click", async () => {
+      if (testTimer) clearTimeout(testTimer);
+      statusPill.textContent = "Test alarm";
+      statusPill.className = "status-pill alert";
+      await startAlarm();
+      testTimer = setTimeout(() => {
+        stopAlarm();
+        statusPill.textContent = running ? "Monitoring" : "Idle";
+        statusPill.className = running ? "status-pill ok" : "status-pill";
+        testTimer = null;
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
