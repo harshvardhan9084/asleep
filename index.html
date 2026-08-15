@@ -144,290 +144,1382 @@
       an alarm will sound. Works best with good lighting and a front-facing camera.
     </p>
   </div>
+<script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
 
-  <!-- face-api.js from CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
-  <script>
-    window.addEventListener("error", (e) => {
-      if (e.target && e.target.tagName === "SCRIPT") {
-        statusPill.textContent = "Library failed to load";
-        statusPill.className = "status-pill alert";
-      }
-    }, true);
+<script>
+"use strict";
 
-    const MODEL_URL = "https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model";
+/* ============================================================
+   DRIVER SLEEP ALARM
+   Reactive eye-state + PERCLOS + head-pose awareness
+   ============================================================ */
 
-    const video      = document.getElementById("video");
-    const overlay    = document.getElementById("overlay");
-    const ctx        = overlay.getContext("2d");
-    const startBtn   = document.getElementById("startBtn");
-    const stopBtn    = document.getElementById("stopBtn");
-    const testBtn    = document.getElementById("testBtn");
-    const statusPill = document.getElementById("statusPill");
-    const earText    = document.getElementById("earText");
-    const timerText  = document.getElementById("timerText");
-    const gaugeFill  = document.getElementById("gaugeFill");
+const MODEL_URL =
+  "https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model";
 
-    // Tunables
-    const EAR_THRESHOLD = 0.25;   // below this = eyes closed
-    const ALARM_SECONDS = 1.2;    // closed for this long => alarm
-    const GAUGE_MAX_SECONDS = 2.0;
 
-    let stream = null;
-    let running = false;
-    let detecting = false;
-    let modelsLoaded = false;
-    let closedSince = null;       // timestamp when eyes first closed
-    let alarmActive = false;
+/* ============================================================
+   DOM
+   ============================================================ */
 
-    // ----- Audio alarm (Web Audio API beep) -----
-    let audioCtx = null;
-    let beepInterval = null;
+const video      = document.getElementById("video");
+const overlay    = document.getElementById("overlay");
+const ctx        = overlay.getContext("2d");
 
-    async function ensureAudio() {
-      if (!audioCtx) {
-        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      }
-      if (audioCtx.state === "suspended") await audioCtx.resume();
+const startBtn   = document.getElementById("startBtn");
+const stopBtn    = document.getElementById("stopBtn");
+const testBtn   = document.getElementById("testBtn");
+
+const statusPill = document.getElementById("statusPill");
+const earText    = document.getElementById("earText");
+const timerText  = document.getElementById("timerText");
+const gaugeFill  = document.getElementById("gaugeFill");
+
+
+/* ============================================================
+   REACTIVITY SETTINGS
+   ============================================================ */
+
+/*
+   FAST CLOSE DETECTION
+
+   Lower = faster alarm.
+   0.70–1.00 sec is aggressive for a prototype.
+
+   This is intentionally faster than your original 1.2 sec.
+*/
+const ALARM_SECONDS = 0.75;
+
+
+/*
+   EAR thresholds.
+
+   CLOSE_THRESHOLD:
+   Below this, eyes are probably closed.
+
+   OPEN_THRESHOLD:
+   Above this, eyes are confidently open.
+
+   The gap prevents flickering.
+*/
+const CLOSE_THRESHOLD = 0.235;
+const OPEN_THRESHOLD  = 0.285;
+
+
+/*
+   EMA smoothing.
+
+   Higher = more reactive.
+   Lower = smoother.
+
+   0.55 gives much faster response than 0.30.
+*/
+const EMA_ALPHA = 0.55;
+
+
+/*
+   Only require TWO consecutive observations.
+
+   At ~12–15 detections/sec, this is very fast.
+*/
+const CLOSED_CONFIRM_FRAMES = 2;
+const OPEN_CONFIRM_FRAMES   = 2;
+
+
+/*
+   Detection interval.
+
+   ~13 detections/sec.
+
+   We don't need 60 face detections/sec because
+   face detection is expensive.
+*/
+const DETECTION_INTERVAL = 75;
+
+
+/*
+   Don't instantly reset state when one face detection
+   fails.
+*/
+const MAX_MISSED_FRAMES = 4;
+
+
+/* ============================================================
+   PERCLOS
+   ============================================================ */
+
+/*
+   PERCLOS = percentage of observed time that the eyes
+   are considered closed.
+
+   This runs independently from the immediate alarm.
+
+   A rolling 20-second window gives us a useful fatigue signal.
+*/
+const PERCLOS_WINDOW_MS = 20000;
+
+
+/*
+   If approximately 35%+ of observed eye time is closed,
+   fatigue confidence becomes elevated.
+
+   This DOES NOT replace the immediate alarm.
+*/
+const PERCLOS_WARNING = 0.35;
+
+
+/*
+   At 45%+ closed time, the system considers the eye
+   behavior highly suspicious.
+*/
+const PERCLOS_CRITICAL = 0.45;
+
+
+/* ============================================================
+   HEAD POSE
+   ============================================================ */
+
+/*
+   We use the nose/eyes/face geometry to estimate whether
+   the face has rotated significantly.
+
+   If the head is turned strongly, don't aggressively
+   interpret missing/poor eye geometry as sleep.
+*/
+const HEAD_TURN_LIMIT = 0.42;
+
+
+/* ============================================================
+   STATE
+   ============================================================ */
+
+let stream = null;
+
+let running = false;
+let detecting = false;
+
+let modelsLoaded = false;
+
+let detectionTimer = null;
+
+let smoothedEAR = null;
+
+let eyeState = "unknown";
+// unknown | open | closed
+
+let closedFrames = 0;
+let openFrames = 0;
+
+let closedSince = null;
+
+let missedFrames = 0;
+
+let alarmActive = false;
+
+let audioCtx = null;
+let beepInterval = null;
+
+let testTimer = null;
+
+
+/*
+   PERCLOS samples.
+
+   Each entry:
+
+   {
+      time: timestamp,
+      closed: true/false,
+      duration: milliseconds
+   }
+*/
+const perclosSamples = [];
+
+
+/* ============================================================
+   AUDIO
+   ============================================================ */
+
+async function ensureAudio() {
+
+  if (!audioCtx) {
+
+    audioCtx = new (
+      window.AudioContext ||
+      window.webkitAudioContext
+    )();
+  }
+
+  if (audioCtx.state === "suspended") {
+    await audioCtx.resume();
+  }
+}
+
+
+function beep() {
+
+  if (
+    !audioCtx ||
+    audioCtx.state !== "running"
+  ) {
+    return;
+  }
+
+  const osc = audioCtx.createOscillator();
+  const gain = audioCtx.createGain();
+
+  osc.type = "square";
+
+  osc.frequency.setValueAtTime(
+    1050,
+    audioCtx.currentTime
+  );
+
+  gain.gain.setValueAtTime(
+    0.18,
+    audioCtx.currentTime
+  );
+
+  osc.connect(gain);
+  gain.connect(audioCtx.destination);
+
+  osc.start();
+
+  osc.stop(
+    audioCtx.currentTime + 0.16
+  );
+}
+
+
+async function startAlarm() {
+
+  if (alarmActive) {
+    return;
+  }
+
+  alarmActive = true;
+
+  statusPill.textContent =
+    "WAKE UP!";
+
+  statusPill.className =
+    "status-pill alert";
+
+  try {
+
+    await ensureAudio();
+
+    if (!alarmActive) {
+      return;
     }
 
-    function beep() {
-      if (!audioCtx || audioCtx.state !== "running") return;
-      const osc = audioCtx.createOscillator();
-      const gain = audioCtx.createGain();
-      osc.type = "square";
-      osc.frequency.setValueAtTime(880, audioCtx.currentTime);
-      gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
-      osc.connect(gain).connect(audioCtx.destination);
-      osc.start();
-      osc.stop(audioCtx.currentTime + 0.18);
+    beep();
+
+    beepInterval =
+      setInterval(
+        beep,
+        280
+      );
+
+  } catch (err) {
+
+    console.warn(
+      "Audio unavailable:",
+      err
+    );
+  }
+}
+
+
+function stopAlarm() {
+
+  alarmActive = false;
+
+  if (beepInterval) {
+
+    clearInterval(
+      beepInterval
+    );
+
+    beepInterval = null;
+  }
+}
+
+
+/* ============================================================
+   GEOMETRY
+   ============================================================ */
+
+function dist(a, b) {
+
+  return Math.hypot(
+    a.x - b.x,
+    a.y - b.y
+  );
+}
+
+
+function eyeAspectRatio(eye) {
+
+  const vertical1 =
+    dist(eye[1], eye[5]);
+
+  const vertical2 =
+    dist(eye[2], eye[4]);
+
+  const horizontal =
+    dist(eye[0], eye[3]);
+
+  if (horizontal < 0.001) {
+    return 0;
+  }
+
+  return (
+    vertical1 +
+    vertical2
+  ) / (
+    2 * horizontal
+  );
+}
+
+
+function getEAR(landmarks) {
+
+  const p =
+    landmarks.positions;
+
+  const left = [
+    p[36],
+    p[37],
+    p[38],
+    p[39],
+    p[40],
+    p[41]
+  ];
+
+  const right = [
+    p[42],
+    p[43],
+    p[44],
+    p[45],
+    p[46],
+    p[47]
+  ];
+
+  const leftEAR =
+    eyeAspectRatio(left);
+
+  const rightEAR =
+    eyeAspectRatio(right);
+
+  return (
+    leftEAR +
+    rightEAR
+  ) / 2;
+}
+
+
+/* ============================================================
+   FAST EAR FILTER
+   ============================================================ */
+
+function smoothEAR(raw) {
+
+  if (smoothedEAR === null) {
+
+    smoothedEAR = raw;
+
+    return raw;
+  }
+
+  /*
+     Fast exponential moving average.
+
+     Because EMA_ALPHA = 0.55,
+     new measurements have significant influence.
+  */
+
+  smoothedEAR +=
+    EMA_ALPHA *
+    (raw - smoothedEAR);
+
+  return smoothedEAR;
+}
+
+
+/* ============================================================
+   HEAD POSE ESTIMATION
+   ============================================================ */
+
+function estimateHeadTurn(landmarks) {
+
+  const p =
+    landmarks.positions;
+
+  /*
+     Approximate horizontal face symmetry.
+
+     Nose = 30
+     Left face side = 0
+     Right face side = 16
+
+     This is not a full 3D head-pose solver,
+     but it's cheap and useful for this prototype.
+  */
+
+  const nose = p[30];
+
+  const leftSide = p[0];
+  const rightSide = p[16];
+
+  const faceWidth =
+    dist(leftSide, rightSide);
+
+  if (faceWidth < 1) {
+    return 1;
+  }
+
+  const centerX =
+    (leftSide.x + rightSide.x) / 2;
+
+  const offset =
+    Math.abs(
+      nose.x - centerX
+    );
+
+  return offset / faceWidth;
+}
+
+
+/* ============================================================
+   PERCLOS
+   ============================================================ */
+
+function addPerclosSample(
+  closed,
+  duration
+) {
+
+  const now = Date.now();
+
+  perclosSamples.push({
+    time: now,
+    closed,
+    duration
+  });
+
+
+  /*
+     Remove samples older than the window.
+  */
+
+  const cutoff =
+    now - PERCLOS_WINDOW_MS;
+
+  while (
+    perclosSamples.length &&
+    perclosSamples[0].time <
+      cutoff
+  ) {
+
+    perclosSamples.shift();
+  }
+}
+
+
+function calculatePERCLOS() {
+
+  if (!perclosSamples.length) {
+    return 0;
+  }
+
+  let total = 0;
+  let closed = 0;
+
+  for (
+    const sample of perclosSamples
+  ) {
+
+    total += sample.duration;
+
+    if (sample.closed) {
+      closed += sample.duration;
     }
+  }
 
-    async function startAlarm() {
-      if (alarmActive) return;
-      alarmActive = true;
-      statusPill.textContent = "WAKE UP!";
-      statusPill.className = "status-pill alert";
-      try {
-        await ensureAudio();
-        if (!alarmActive) return;
-        beep();
-        beepInterval = setInterval(beep, 350);
-      } catch (e) {
-        console.warn("Audio alarm unavailable:", e);
-      }
-    }
+  if (total <= 0) {
+    return 0;
+  }
 
-    function stopAlarm() {
-      alarmActive = false;
-      if (beepInterval) {
-        clearInterval(beepInterval);
-        beepInterval = null;
-      }
-    }
+  return closed / total;
+}
 
-    // ----- Eye Aspect Ratio -----
-    // 68-landmark model: left eye = points 36..41, right eye = points 42..47
-    function dist(a, b) {
-      return Math.hypot(a.x - b.x, a.y - b.y);
-    }
-    function eyeAspectRatio(eye) {
-      // eye: array of 6 points [p1..p6] going around the eye
-      const v1 = dist(eye[1], eye[5]);
-      const v2 = dist(eye[2], eye[4]);
-      const h  = dist(eye[0], eye[3]);
-      return (v1 + v2) / (2.0 * h);
-    }
-    function getEAR(landmarks) {
-      const left  = [36,37,38,39,40,41].map(i => landmarks.positions[i]);
-      const right = [42,43,44,45,46,47].map(i => landmarks.positions[i]);
-      return (eyeAspectRatio(left) + eyeAspectRatio(right)) / 2.0;
-    }
 
-    // ----- Drawing -----
-    function resizeOverlay() {
-      overlay.width  = video.videoWidth  || 640;
-      overlay.height = video.videoHeight || 480;
-    }
-    function drawEye(eye, color) {
-      ctx.beginPath();
-      ctx.moveTo(eye[0].x, eye[0].y);
-      for (let i = 1; i < eye.length; i++) ctx.lineTo(eye[i].x, eye[i].y);
-      ctx.closePath();
-      ctx.strokeStyle = color;
-      ctx.lineWidth = 2;
-      ctx.stroke();
-    }
+/* ============================================================
+   EYE STATE ENGINE
+   ============================================================ */
 
-    // ----- Main loop -----
-    async function loop() {
-      if (!running) return;
+function updateEyeState(
+  ear,
+  headTurn
+) {
 
-      if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA && !detecting) {
-        detecting = true;
-        try {
-          const result = await faceapi
-            .detectSingleFace(
-              video,
-              new faceapi.TinyFaceDetectorOptions({ inputSize: 224, scoreThreshold: 0.5 })
-            )
-            .withFaceLandmarks();
+  /*
+     If face is strongly turned,
+     don't aggressively classify the eyes.
+  */
 
-          resizeOverlay();
-          ctx.clearRect(0, 0, overlay.width, overlay.height);
+  const faceReliable =
+    headTurn < HEAD_TURN_LIMIT;
 
-          if (result) {
-          const lm = result.landmarks;
-          const ear = getEAR(lm);
 
-          const left  = [36,37,38,39,40,41].map(i => lm.positions[i]);
-          const right = [42,43,44,45,46,47].map(i => lm.positions[i]);
-          drawEye(left,  ear < EAR_THRESHOLD ? "#ef4444" : "#22c55e");
-          drawEye(right, ear < EAR_THRESHOLD ? "#ef4444" : "#22c55e");
+  /* ----------------------------------------------------------
+     CURRENTLY OPEN / UNKNOWN
+     ---------------------------------------------------------- */
 
-          earText.textContent = "EAR: " + ear.toFixed(3);
+  if (
+    eyeState !== "closed"
+  ) {
 
-          if (ear < EAR_THRESHOLD) {
-            if (closedSince === null) closedSince = Date.now();
-            const secs = (Date.now() - closedSince) / 1000;
-            timerText.textContent = "Closed: " + secs.toFixed(1) + "s";
-            gaugeFill.style.width = Math.min(100, (secs / GAUGE_MAX_SECONDS) * 100) + "%";
-            if (secs >= ALARM_SECONDS) startAlarm();
-          } else {
-            closedSince = null;
-            timerText.textContent = "Closed: 0.0s";
-            gaugeFill.style.width = "0%";
-            if (alarmActive) {
-              stopAlarm();
-              statusPill.textContent = "Monitoring";
-              statusPill.className = "status-pill ok";
-            }
-          }
-          } else {
-            earText.textContent = "EAR: --";
-            timerText.textContent = "No face";
-            closedSince = null;
-            gaugeFill.style.width = "0%";
-            if (alarmActive) {
-              stopAlarm();
-              statusPill.textContent = "Monitoring";
-              statusPill.className = "status-pill ok";
-            }
-          }
-        } catch (err) {
-          console.error("Face detection error:", err);
-          earText.textContent = "EAR: error";
-          timerText.textContent = "Detection error";
-        } finally {
-          detecting = false;
-        }
-      }
-      if (running) requestAnimationFrame(loop);
-    }
+    if (
+      faceReliable &&
+      ear < CLOSE_THRESHOLD
+    ) {
 
-    // ----- Start / Stop -----
-    async function start() {
-      if (running) return;
+      closedFrames++;
+      openFrames = 0;
 
-      startBtn.disabled = true;
-      stopBtn.disabled = true;
-      statusPill.textContent = "Loading models...";
-      statusPill.className = "status-pill";
 
-      try {
-        if (!window.faceapi) {
-          throw new Error("face-api.js failed to load. Check your internet connection.");
-        }
+      /*
+         Two consecutive confirmations.
 
-        if (!modelsLoaded) {
-          await Promise.all([
-            faceapi.nets.tinyFaceDetector.loadFromUri(MODEL_URL),
-            faceapi.nets.faceLandmark68Net.loadFromUri(MODEL_URL)
-          ]);
-          modelsLoaded = true;
-        }
+         This is deliberately fast.
+      */
 
-        statusPill.textContent = "Starting camera...";
+      if (
+        closedFrames >=
+        CLOSED_CONFIRM_FRAMES
+      ) {
 
-        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-          throw new Error("Camera access is unavailable. Open this page on HTTPS or localhost.");
-        }
+        eyeState = "closed";
 
-        stream = await navigator.mediaDevices.getUserMedia({
-          video: {
-            facingMode: { ideal: "user" },
-            width: { ideal: 640 },
-            height: { ideal: 480 }
-          },
-          audio: false
-        });
+        closedSince =
+          Date.now();
 
-        video.srcObject = stream;
-        await video.play();
-        resizeOverlay();
-
-        // AudioContext creation/resume is tied to this user click.
-        try { await ensureAudio(); } catch (_) {}
-
-        running = true;
-        detecting = false;
-        closedSince = null;
-        alarmActive = false;
-        statusPill.textContent = "Monitoring";
-        statusPill.className = "status-pill ok";
-        startBtn.disabled = true;
-        stopBtn.disabled = false;
-        requestAnimationFrame(loop);
-      } catch (err) {
-        console.error(err);
-        if (stream) {
-          stream.getTracks().forEach(t => t.stop());
-          stream = null;
-        }
-        video.srcObject = null;
         statusPill.textContent =
-          err.name === "NotAllowedError" ? "Camera permission denied" :
-          err.name === "NotFoundError" ? "No camera found" :
-          "Startup failed";
-        statusPill.className = "status-pill alert";
-        startBtn.disabled = false;
-        stopBtn.disabled = true;
-        alert("Could not start the sleep alarm. \n\n" + (err.message || err.name));
+          "Eyes closed";
+
+        statusPill.className =
+          "status-pill alert";
+      }
+
+    } else {
+
+      closedFrames = 0;
+    }
+  }
+
+
+  /* ----------------------------------------------------------
+     CURRENTLY CLOSED
+     ---------------------------------------------------------- */
+
+  else {
+
+    /*
+       Open threshold is deliberately higher than
+       close threshold.
+
+       This prevents rapid state oscillation.
+    */
+
+    if (
+      faceReliable &&
+      ear > OPEN_THRESHOLD
+    ) {
+
+      openFrames++;
+      closedFrames = 0;
+
+
+      if (
+        openFrames >=
+        OPEN_CONFIRM_FRAMES
+      ) {
+
+        /*
+           Calculate how long the eyes were closed.
+        */
+
+        if (closedSince !== null) {
+
+          const duration =
+            Date.now() -
+            closedSince;
+
+          addPerclosSample(
+            true,
+            duration
+          );
+        }
+
+
+        eyeState = "open";
+
+        closedSince = null;
+
+        stopAlarm();
+
+        statusPill.textContent =
+          "Monitoring";
+
+        statusPill.className =
+          "status-pill ok";
+
+        timerText.textContent =
+          "Closed: 0.0s";
+
+        gaugeFill.style.width =
+          "0%";
+      }
+
+    } else {
+
+      openFrames = 0;
+    }
+  }
+
+
+  /* ----------------------------------------------------------
+     ACTIVE CLOSED TIMER
+     ---------------------------------------------------------- */
+
+  if (
+    eyeState === "closed" &&
+    closedSince !== null
+  ) {
+
+    const closedDuration =
+      Date.now() -
+      closedSince;
+
+    const seconds =
+      closedDuration / 1000;
+
+
+    timerText.textContent =
+      "Closed: " +
+      seconds.toFixed(1) +
+      "s";
+
+
+    gaugeFill.style.width =
+      Math.min(
+        100,
+        (
+          seconds /
+          1.5
+        ) * 100
+      ) + "%";
+
+
+    /*
+       FAST ALARM
+
+       PERCLOS is NOT required.
+
+       If eyes stay closed for 0.75 sec,
+       alarm immediately.
+    */
+
+    if (
+      seconds >= ALARM_SECONDS
+    ) {
+
+      startAlarm();
+    }
+  }
+
+
+  /* ----------------------------------------------------------
+     PERCLOS STATUS
+     ---------------------------------------------------------- */
+
+  const perclos =
+    calculatePERCLOS();
+
+
+  /*
+     Critical PERCLOS can reinforce the alarm,
+     but we don't wait for it.
+  */
+
+  if (
+    perclos >= PERCLOS_CRITICAL &&
+    eyeState === "closed"
+  ) {
+
+    startAlarm();
+  }
+
+
+  /*
+     Optional visual indication.
+
+     Don't overwrite WAKE UP status.
+  */
+
+  if (
+    !alarmActive &&
+    eyeState === "open"
+  ) {
+
+    if (
+      perclos >= PERCLOS_WARNING
+    ) {
+
+      statusPill.textContent =
+        "Fatigue warning";
+
+      statusPill.className =
+        "status-pill alert";
+
+    } else {
+
+      statusPill.textContent =
+        "Monitoring";
+
+      statusPill.className =
+        "status-pill ok";
+    }
+  }
+}
+
+
+/* ============================================================
+   DRAW EYES
+   ============================================================ */
+
+function resizeOverlay() {
+
+  overlay.width =
+    video.videoWidth || 640;
+
+  overlay.height =
+    video.videoHeight || 480;
+}
+
+
+function drawEye(
+  eye,
+  color
+) {
+
+  ctx.beginPath();
+
+  ctx.moveTo(
+    eye[0].x,
+    eye[0].y
+  );
+
+  for (
+    let i = 1;
+    i < eye.length;
+    i++
+  ) {
+
+    ctx.lineTo(
+      eye[i].x,
+      eye[i].y
+    );
+  }
+
+  ctx.closePath();
+
+  ctx.strokeStyle =
+    color;
+
+  ctx.lineWidth = 2;
+
+  ctx.stroke();
+}
+
+
+/* ============================================================
+   FACE DETECTION
+   ============================================================ */
+
+async function detectFrame() {
+
+  if (
+    !running ||
+    detecting
+  ) {
+    return;
+  }
+
+  if (
+    video.readyState <
+    HTMLMediaElement.HAVE_CURRENT_DATA
+  ) {
+    return;
+  }
+
+  detecting = true;
+
+  try {
+
+    const result =
+      await faceapi
+        .detectSingleFace(
+          video,
+          new faceapi.TinyFaceDetectorOptions({
+            inputSize: 224,
+            scoreThreshold: 0.45
+          })
+        )
+        .withFaceLandmarks();
+
+
+    resizeOverlay();
+
+    ctx.clearRect(
+      0,
+      0,
+      overlay.width,
+      overlay.height
+    );
+
+
+    /* ========================================================
+       FACE FOUND
+       ======================================================== */
+
+    if (result) {
+
+      missedFrames = 0;
+
+      const landmarks =
+        result.landmarks;
+
+
+      /*
+         EAR
+      */
+
+      const rawEAR =
+        getEAR(landmarks);
+
+      const ear =
+        smoothEAR(rawEAR);
+
+
+      /*
+         HEAD TURN
+      */
+
+      const headTurn =
+        estimateHeadTurn(
+          landmarks
+        );
+
+
+      /*
+         Eye points
+      */
+
+      const p =
+        landmarks.positions;
+
+      const left = [
+        p[36],
+        p[37],
+        p[38],
+        p[39],
+        p[40],
+        p[41]
+      ];
+
+      const right = [
+        p[42],
+        p[43],
+        p[44],
+        p[45],
+        p[46],
+        p[47]
+      ];
+
+
+      const eyeColor =
+        ear < CLOSE_THRESHOLD
+          ? "#ef4444"
+          : "#22c55e";
+
+
+      drawEye(
+        left,
+        eyeColor
+      );
+
+      drawEye(
+        right,
+        eyeColor
+      );
+
+
+      earText.textContent =
+        "EAR: " +
+        ear.toFixed(3);
+
+
+      /*
+         Feed everything into the
+         reactive state machine.
+      */
+
+      updateEyeState(
+        ear,
+        headTurn
+      );
+    }
+
+
+    /* ========================================================
+       FACE LOST
+       ======================================================== */
+
+    else {
+
+      missedFrames++;
+
+      earText.textContent =
+        "EAR: --";
+
+
+      /*
+         A few missed frames are tolerated.
+
+         This is important because a single missed
+         face detection should NOT instantly reset
+         the sleep timer.
+      */
+
+      if (
+        missedFrames >
+        MAX_MISSED_FRAMES
+      ) {
+
+        eyeState = "unknown";
+
+        closedFrames = 0;
+        openFrames = 0;
+
+        closedSince = null;
+
+        smoothedEAR = null;
+
+        stopAlarm();
+
+        timerText.textContent =
+          "No face";
+
+        gaugeFill.style.width =
+          "0%";
+
+        statusPill.textContent =
+          "No face";
+
+        statusPill.className =
+          "status-pill";
       }
     }
 
-    function stop() {
-      running = false;
-      detecting = false;
-      closedSince = null;
-      stopAlarm();
-      if (stream) { stream.getTracks().forEach(t => t.stop()); stream = null; }
-      video.srcObject = null;
-      ctx.clearRect(0, 0, overlay.width, overlay.height);
-      statusPill.textContent = "Idle";
-      statusPill.className = "status-pill";
-      earText.textContent = "EAR: --";
-      timerText.textContent = "Closed: 0.0s";
-      gaugeFill.style.width = "0%";
-      startBtn.disabled = false;
-      stopBtn.disabled = true;
+  } catch (err) {
+
+    console.error(
+      "Detection error:",
+      err
+    );
+
+    earText.textContent =
+      "EAR: error";
+
+  } finally {
+
+    detecting = false;
+  }
+}
+
+
+/* ============================================================
+   DETECTION LOOP
+   ============================================================ */
+
+function startDetectionLoop() {
+
+  stopDetectionLoop();
+
+  /*
+     Controlled high-frequency detection.
+
+     75ms ~= 13.3 attempts/sec.
+  */
+
+  detectionTimer =
+    setInterval(
+      detectFrame,
+      DETECTION_INTERVAL
+    );
+
+  detectFrame();
+}
+
+
+function stopDetectionLoop() {
+
+  if (detectionTimer) {
+
+    clearInterval(
+      detectionTimer
+    );
+
+    detectionTimer = null;
+  }
+}
+
+
+/* ============================================================
+   START
+   ============================================================ */
+
+async function start() {
+
+  if (running) {
+    return;
+  }
+
+  startBtn.disabled = true;
+  stopBtn.disabled = true;
+
+  statusPill.textContent =
+    "Loading models...";
+
+  statusPill.className =
+    "status-pill";
+
+
+  try {
+
+    if (!window.faceapi) {
+
+      throw new Error(
+        "face-api.js failed to load."
+      );
     }
 
-    startBtn.addEventListener("click", start);
-    stopBtn.addEventListener("click", stop);
-    let testTimer = null;
-    testBtn.addEventListener("click", async () => {
-      if (testTimer) clearTimeout(testTimer);
-      statusPill.textContent = "Test alarm";
-      statusPill.className = "status-pill alert";
-      await startAlarm();
-      testTimer = setTimeout(() => {
-        stopAlarm();
-        statusPill.textContent = running ? "Monitoring" : "Idle";
-        statusPill.className = running ? "status-pill ok" : "status-pill";
-        testTimer = null;
-      }, 2000);
-    });
-  </script>
+
+    /*
+       Models are loaded only once.
+       Browser caching handles subsequent visits.
+    */
+
+    if (!modelsLoaded) {
+
+      await Promise.all([
+
+        faceapi.nets.tinyFaceDetector
+          .loadFromUri(MODEL_URL),
+
+        faceapi.nets.faceLandmark68Net
+          .loadFromUri(MODEL_URL)
+
+      ]);
+
+      modelsLoaded = true;
+    }
+
+
+    statusPill.textContent =
+      "Starting camera...";
+
+
+    if (
+      !navigator.mediaDevices ||
+      !navigator.mediaDevices.getUserMedia
+    ) {
+
+      throw new Error(
+        "Camera access requires HTTPS or localhost."
+      );
+    }
+
+
+    stream =
+      await navigator.mediaDevices.getUserMedia({
+
+        video: {
+
+          facingMode: {
+            ideal: "user"
+          },
+
+          width: {
+            ideal: 640
+          },
+
+          height: {
+            ideal: 480
+          },
+
+          /*
+             Request a reasonably high frame rate.
+             Detection itself is still throttled separately.
+          */
+
+          frameRate: {
+            ideal: 30,
+            max: 30
+          }
+        },
+
+        audio: false
+      });
+
+
+    video.srcObject =
+      stream;
+
+    await video.play();
+
+    resizeOverlay();
+
+
+    /*
+       Unlock audio from the Start click.
+    */
+
+    try {
+      await ensureAudio();
+    } catch (_) {}
+
+
+    /*
+       Reset state.
+    */
+
+    running = true;
+
+    detecting = false;
+
+    smoothedEAR = null;
+
+    eyeState = "unknown";
+
+    closedFrames = 0;
+    openFrames = 0;
+
+    closedSince = null;
+
+    missedFrames = 0;
+
+    alarmActive = false;
+
+    perclosSamples.length = 0;
+
+
+    statusPill.textContent =
+      "Monitoring";
+
+    statusPill.className =
+      "status-pill ok";
+
+
+    startBtn.disabled = true;
+    stopBtn.disabled = false;
+
+
+    startDetectionLoop();
+
+
+  } catch (err) {
+
+    console.error(err);
+
+
+    if (stream) {
+
+      stream
+        .getTracks()
+        .forEach(
+          t => t.stop()
+        );
+
+      stream = null;
+    }
+
+
+    video.srcObject = null;
+
+
+    statusPill.textContent =
+      err.name === "NotAllowedError"
+        ? "Camera permission denied"
+        : err.name === "NotFoundError"
+          ? "No camera found"
+          : "Startup failed";
+
+
+    statusPill.className =
+      "status-pill alert";
+
+
+    startBtn.disabled = false;
+    stopBtn.disabled = true;
+
+
+    alert(
+      "Could not start the sleep alarm.\n\n" +
+      (err.message || err.name)
+    );
+  }
+}
+
+
+/* ============================================================
+   STOP
+   ============================================================ */
+
+function stop() {
+
+  running = false;
+
+  stopDetectionLoop();
+
+  detecting = false;
+
+  stopAlarm();
+
+
+  if (stream) {
+
+    stream
+      .getTracks()
+      .forEach(
+        t => t.stop()
+      );
+
+    stream = null;
+  }
+
+
+  video.srcObject = null;
+
+
+  ctx.clearRect(
+    0,
+    0,
+    overlay.width,
+    overlay.height
+  );
+
+
+  smoothedEAR = null;
+
+  eyeState = "unknown";
+
+  closedFrames = 0;
+  openFrames = 0;
+
+  closedSince = null;
+
+  missedFrames = 0;
+
+  perclosSamples.length = 0;
+
+
+  statusPill.textContent =
+    "Idle";
+
+  statusPill.className =
+    "status-pill";
+
+
+  earText.textContent =
+    "EAR: --";
+
+  timerText.textContent =
+    "Closed: 0.0s";
+
+  gaugeFill.style.width =
+    "0%";
+
+
+  startBtn.disabled = false;
+  stopBtn.disabled = true;
+}
+
+
+/* ============================================================
+   TEST ALARM
+   ============================================================ */
+
+testBtn.addEventListener(
+  "click",
+  async () => {
+
+    if (testTimer) {
+      clearTimeout(testTimer);
+    }
+
+    statusPill.textContent =
+      "Test alarm";
+
+    statusPill.className =
+      "status-pill alert";
+
+
+    await startAlarm();
+
+
+    testTimer =
+      setTimeout(
+        () => {
+
+          stopAlarm();
+
+          statusPill.textContent =
+            running
+              ? "Monitoring"
+              : "Idle";
+
+          statusPill.className =
+            running
+              ? "status-pill ok"
+              : "status-pill";
+
+          testTimer = null;
+
+        },
+        2000
+      );
+  }
+);
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+startBtn.addEventListener(
+  "click",
+  start
+);
+
+stopBtn.addEventListener(
+  "click",
+  stop
+);
+
+</script>
 </body>
 </html>
