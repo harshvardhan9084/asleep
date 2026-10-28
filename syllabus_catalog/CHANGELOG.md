@@ -1,3 +1,4 @@
+- 20261028T191859Z [CRON-20261028-B04-repair] (B04R): rows 402→402, codes 485, ~81 field repairs (66 unit-text lecture-count normalizations + 15 lectures_per_unit fills, RMT limit-formula page-image completion); gates G1/G2/G3/G6 PASS — manifest: runs/20261028T191859Z_CRON-20261028-B04-repair_rows-402-402-codes-485-81-field-repairs-66-unit-.md
 - 20261028T184124Z [CRON-20261028-B04] (B04): rows 204→402, codes 270→485, +198 BCA/BPharm appends, ~142 updates across 4 code eras, 2 regulations-only quarantined, G2/G3 pool+code-reuse evolutions; PUSH BLOCKED (no PAT) — manifest: runs/
 # CHANGELOG — syllabus_extreme_rich.csv
 
