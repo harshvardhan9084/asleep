@@ -1,3 +1,4 @@
+- 20261028T184124Z [CRON-20261028-B04] (B04): rows 204→402, codes 270→485, +198 BCA/BPharm appends, ~142 updates across 4 code eras, 2 regulations-only quarantined, G2/G3 pool+code-reuse evolutions; PUSH BLOCKED (no PAT) — manifest: runs/
 # CHANGELOG — syllabus_extreme_rich.csv
 
 One entry per push; GitHub git log + this file are the authoritative
