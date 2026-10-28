@@ -69,11 +69,13 @@ def canon_course(c):
 def course_from_codes(codes):
     """Printed codes are hard evidence of the course (zero-guess §1b defense):
     if a draft's course metadata contradicts its own printed codes, the codes
-    win. Only unambiguous AKTU prefixes are used; anything else infers nothing.
-    BBC### = BCA 2024-25 bridge/foundation scheme (B2 evidence: BBC101-107 own
-    rows all BCA; the only BBC tokens ever seen in BTech rows were the
-    contamination this block exists to prevent). BVA is deliberately NOT
-    inferred (ambiguous across courses)."""
+    win. ONLY unambiguous prefixes may infer: AKTU re-uses generic B??/K??
+    code families across courses (B2/B3 evidence: BVE301 UHV is printed in
+    BOTH the BTech 2nd-yr common scheme and the BCA y2 2025-26 scheme; BVA
+    value-added codes are likewise not course-unique) — so generic prefixes
+    infer NOTHING. BBC### = BCA 2024-25 foundation scheme (B3 evidence: all
+    BBC101-452 own rows are BCA; the only BBC tokens ever seen in BTech rows
+    were the contamination this block exists to prevent)."""
     out = set()
     for c in codes or []:
         nc = norm_code(c)
@@ -87,8 +89,6 @@ def course_from_codes(codes):
             out.add("MCA")
         elif nc.startswith("MBA") or nc.startswith("KMB"):
             out.add("MBA")
-        elif re.match(r"^[BK][A-Z]{1,3}\d{3}[A-Z]?$", nc):
-            out.add("BTech")
     return out
 
 
@@ -221,6 +221,24 @@ def ladder(dsub, rows, course):
         if dcodes & owned:
             t0.append(r)
     if len(t0) == 1:
+        # CODE-REASSIGNED-ACROSS-SESSIONS retarget (B3 remedy, evidence-recorded):
+        # AKTU re-uses code slots across sessions — BCA y1: BBC102 printed for
+        # Mathematical Foundation in 2024-25 but for INFORMATION SYSTEMS in the
+        # 2025-26 heading print (scheme table prints BBC106 there); the 18:30
+        # run mislumped BBC102;BBC106;BBC205A into the math-foundation row.
+        # When the unique T0 row's name CONTRADICTS the draft name and exactly
+        # one same-course row name-matches, the NAME identity wins and the code
+        # ownership transfers (newest print wins; older row keeps a narrative
+        # history mention — the recorded B02 Microprocessor precedent). Zero
+        # guessing: every transfer is flagged and recorded.
+        if norm_name(dsub.get("name", "")) and norm_name(dsub.get("name", "")) != norm_name(t0[0].get("subject_name", "")):
+            nm = [r for r in rows if r.get("row_kind") == "subject"
+                  and canon_course(r.get("course_name")) == course
+                  and norm_name(r.get("subject_name", "")) == norm_name(dsub.get("name", ""))]
+            if len(nm) == 1:
+                moved = sorted(dcodes & row_owned_codes(t0[0]))
+                return 0, nm, (f"code-reassigned {','.join(moved)}: owned by "
+                               f"{t0[0]['subject_id']}; name identity -> {nm[0]['subject_id']}")
         return 0, t0, "code identity"
     if len(t0) > 1:
         return 0, t0, "TIE code identity across rows"
@@ -525,6 +543,9 @@ RESOLVE_APPEND = {
     "COURSE-META-FROM-CODES": {
         "action": "USE_CODE_DERIVED_COURSE",
         "reason": "The draft's course metadata contradicts the course implied by its own printed codes (root cause of the same 18:30 corruption: BCA docs mislabeled as BTech in draft meta). Printed codes are authoritative hard evidence (RULES §1b); the ladder and all writes use the code-derived course and the correction is flagged here."},
+    "CODE-REASSIGNED-ACROSS-SESSIONS": {
+        "action": "UPDATE_BY_NAME_TRANSFER_CODE_OWNERSHIP",
+        "reason": "AKTU re-uses code slots across sessions within a course. B3 evidence (BCA y1): BBC102 prints as Mathematical Foundation in 2024-25 but as INFORMATION SYSTEMS in the 2025-26 syllabus heading (the 2025-26 scheme table prints BBC106 there); the 18:30 run mislumped BBC102;BBC106;BBC205A into mathematical-foundation. The unique Tier-0 code match's name contradicting the draft name, with exactly one same-course row name-matching, resolves deterministically: the NAME identity row is updated (newest-session fieldwise wins) and code ownership transfers to it (newest print wins; the older row keeps a narrative history mention and follows the status=latest primary-code model). Same recorded pattern as B02's retired KCS403 slot; G2 stays clean because the transfer runs before the gates."},
 }
 
 # B2: doc-level scope from the PRINTED COVER of each ingested document
@@ -567,10 +588,13 @@ def exact_code(tok):
 
 
 def gate_g2(rows):
-    """Ownership = primary_code + all_codes (identity claims).
-    code_history_all is a NARRATIVE field by recorded v6 design (it documents
-    misprints, retirements and disambiguations that legitimately mention other
-    rows' codes) - history mentions are not ownership claims."""
+    """Ownership = primary_code + all_codes (identity claims), scoped PER COURSE
+    (RULES §1b, B3 evidence): AKTU re-uses code families across courses —
+    BVE301 'Universal Human Values' is printed in BOTH the BTech 2nd-yr common
+    scheme and the BCA y2 2025-26 scheme; course boundaries are real, so the
+    same printed code may be owned by one row PER COURSE. Within a course the
+    code is still owned by EXACTLY ONE row. code_history_all remains a
+    NARRATIVE field (history mentions are not ownership claims)."""
     owner = {}
     dups = []
     for r in rows:
@@ -583,11 +607,13 @@ def gate_g2(rows):
             c = norm_code(c)
             if exact_code(c):
                 toks.add(c)
+        ck = canon_course(r.get("course_name", ""))
         for t in toks:
-            if t in owner and owner[t] != r["subject_id"]:
-                dups.append(f"{t}: {owner[t]} AND {r['subject_id']}")
-            owner[t] = r["subject_id"]
-    return (None, len(owner)) if not dups else (f"code owned by 2 rows: {'; '.join(dups[:6])}", len(owner))
+            key = (ck, t)
+            if key in owner and owner[key] != r["subject_id"]:
+                dups.append(f"{t} [{ck}]: {owner[key]} AND {r['subject_id']}")
+            owner[key] = r["subject_id"]
+    return (None, len({t for _, t in owner})) if not dups else (f"code owned by 2 rows: {'; '.join(dups[:6])}", len({t for _, t in owner}))
 
 
 def gate_g3(rows):
@@ -678,6 +704,7 @@ def run(mode, drafts_dir):
     entries = {e["rel"]: e for e in q["entries"]}
     plans, flags = [], []
     crossref_by_key = {}   # key -> crossref note text (§1b)
+    reassignments = []     # recorded code ownership transfers (CODE-REASSIGNED)
     touched = {}          # subject_id -> row dict (updated in place for commit)
     appends = []
     parsed_dir = f"{BASE}/parsed"
@@ -696,12 +723,20 @@ def run(mode, drafts_dir):
             key = f"{stem}::{idx:02d}::{slug(dsub.get('name', ''))}"
             # §1b defense: printed codes override mislabeled draft course meta
             # (root cause of the 2026-10-28 18:30 BCA→BTech corruption).
+            # course_eff is PER-SUBJECT: never mutate the shared dmeta (a leak
+            # would corrupt every later subject's course and ladder).
+            course_eff = dmeta["course"]
             inferred = course_from_codes(dsub.get("codes", []))
-            if len(inferred) == 1 and next(iter(inferred)) != dmeta["course"]:
+            if len(inferred) == 1 and next(iter(inferred)) != course_eff:
                 flags.append((key, "COURSE-META-FROM-CODES",
-                              f"draft course {dmeta['course']} contradicts printed codes; using {next(iter(inferred))}"))
-                dmeta["course"] = next(iter(inferred))
-            tier, targets, info = ladder(dsub, rows, dmeta["course"])
+                              f"draft course {course_eff} contradicts printed codes; using {next(iter(inferred))}"))
+                course_eff = next(iter(inferred))
+            tier, targets, info = ladder(dsub, rows, course_eff)
+            if tier == 0 and info.startswith("code-reassigned "):
+                moved = info.split(" ")[1].split(",")
+                flags.append((key, "CODE-REASSIGNED-ACROSS-SESSIONS", info))
+                reassignments.append({"codes": moved, "to_row": targets[0]["subject_id"],
+                                      "detail": info, "draft_session": dmeta["session"]})
             dflags_l = [str(f).lower() for f in (dsub.get("flags") or [])]
             alt_pair = any("alternative_pair" in f for f in dflags_l)
             if tier == 0 and len(targets) > 1 and alt_pair:
@@ -724,7 +759,7 @@ def run(mode, drafts_dir):
                 if "history narrative mentions" in info:
                     flags.append((key, "HISTORY-ONLY-CODE-MENTION", info))
                 # §1b: cross-course collision detection (owner directive 2026-10-28)
-                xhits = cross_course_hits(dsub, rows, dmeta["course"])
+                xhits = cross_course_hits(dsub, rows, course_eff)
                 if xhits:
                     flags.append((key, "CROSS-COURSE-KEEP-SEPARATE", ";".join(xhits)))
                     crossref_by_key[key] = "same name/code in other course(s): " + ", ".join(xhits)
@@ -763,7 +798,21 @@ def run(mode, drafts_dir):
                     scope_row, policy = op[1]
                     if scope_row is None and ev.get("sha16") in DOC_SCOPE:
                         scope_row = dict(DOC_SCOPE[ev["sha16"]])
-                    new = build_append(dsub, dmeta, ev, scope_row, policy)
+                    dmeta_eff = dict(dmeta)
+                    dmeta_eff["course"] = course_eff  # per-subject §1b course
+                    new = build_append(dsub, dmeta_eff, ev, scope_row, policy)
+                    # §1b: subject_id is globally unique (G3) — the bare slug may
+                    # belong to another course's row (BTech 'data-structure');
+                    # suffix the course, then the session, deterministically.
+                    taken = {r["subject_id"] for r in rows}
+                    sid = new["subject_id"]
+                    if sid in taken:
+                        cand = f"{sid}-{course_eff.lower()}"
+                        if cand in taken:
+                            cand = f"{cand}-{dmeta['session']}"
+                        new["subject_id"] = cand
+                        new["notes"] = (new["notes"] + " | " if new.get("notes") else "") + \
+                            f"subject_id '{sid}' is owned by another course's row; id suffixed to '{cand}' for global uniqueness (course boundaries are real, RULES §1b)"
                     if key in crossref_by_key:  # §1b cross-reference note
                         xr = ("Course-boundary crossref (RULES §1b, owner directive 2026-10-28): "
                               + crossref_by_key[key] + " — kept separate; course boundaries are real.")
@@ -808,6 +857,44 @@ def run(mode, drafts_dir):
 
     flagnames = sorted({f[1].split(" ")[0] for f in flags})
     unresolved = [f for f in flags if f[1].split(" ")[0] not in RESOLVE_APPEND]
+
+    # deterministic post-step: execute recorded code-ownership transfers BEFORE
+    # gates (the transient all_codes dup is resolved here; G2 sees final state)
+    if mode == "commit":
+        by_id = {}
+        for r in rows:
+            by_id.setdefault(r["subject_id"], r)
+        for ra in reassignments:
+            to_row = by_id.get(ra["to_row"])
+            if not to_row:
+                continue
+            for code in [norm_code(c) for c in ra["codes"] if norm_code(c)]:
+                # strip the moved code from every OTHER same-course row that
+                # still claims it in all_codes (narrative history retained)
+                for r in rows:
+                    if r.get("row_kind") != "subject" or r is to_row:
+                        continue
+                    toks = [c.strip() for c in (r.get("all_codes", "") or "").split(";") if c.strip()]
+                    if code in {norm_code(c) for c in toks}:
+                        keep = [c for c in toks if norm_code(c) != code]
+                        r["all_codes"] = ";".join(keep)
+                        if r.get("primary_code", "").strip() == code or norm_code(r.get("primary_code", "")) == code:
+                            # primary follows the newest-era print (status=latest row model)
+                            alt = [c for c in keep if norm_code(c)]
+                            if alt:
+                                r["primary_code"] = alt[-1]
+                        seg = (f"; {code} re-assigned by AKTU to {to_row['subject_name']} per the "
+                               f"{ra['draft_session']} scheme/syllabus print — narrative mention retained "
+                               f"(code-reassigned across sessions; owner directive 2026-10-28 §1b era model)")
+                        r["code_history_all"] = (r.get("code_history_all", "") or "") + seg
+                        r["change_note_vs_previous"] = (r.get("change_note_vs_previous", "") + "; " if r.get("change_note_vs_previous", "") else "") + \
+                            f"{code} ownership transferred to {ra['to_row']} per newest printed scheme/syllabus evidence (recorded B3 remedy)"
+                        touched.setdefault(r["subject_id"], r)
+                if code not in {norm_code(c) for c in (to_row.get("all_codes", "") or "").split(";")}:
+                    to_row["all_codes"] = ((to_row.get("all_codes", "") + ";") if to_row.get("all_codes", "") else "") + code
+                to_row["change_note_vs_previous"] = (to_row.get("change_note_vs_previous", "") + "; " if to_row.get("change_note_vs_previous", "") else "") + \
+                    f"{code} ownership recorded per the {ra['draft_session']} print ({ra['detail'][:110]})"
+                touched.setdefault(to_row["subject_id"], to_row)
 
     print(f"PLANS|{len(plans)} (UPDATE {sum(1 for p in plans if p['op']=='UPDATE')}, APPEND {sum(1 for p in plans if p['op']=='APPEND')}, TIE {sum(1 for p in plans if p['op']=='TIE')}, SKIP {sum(1 for p in plans if p['op']=='SKIP')})")
     for p in plans:

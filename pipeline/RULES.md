@@ -111,10 +111,12 @@ never wildcard patterns (`BOE3**`) or ranges (`KOE031-038`) which live in
 
 - **G1 schema**: header equals the 57-column reference header exactly (order
   preserved). No column may be added/removed/reordered by the pipeline.
-- **G2 code idempotency**: every specific code token (regex
-  `^[A-Z]{2,4}[0-9]{3}[A-Z]?$`) is owned by EXACTLY ONE row across
-  primary_code + all_codes + code_history_all. Wildcards/pool ranges are
-  exempt.
+- **G2 code idempotency** (scoped per course, §1b): within each course, every
+  specific code token (regex `^[A-Z]{2,4}[0-9]{3}[A-Z]?$`) is owned by
+  EXACTLY ONE row across primary_code + all_codes. The SAME printed code may
+  be owned by one row in EACH course when both courses' schemes print it
+  (recorded B3 evidence: BVE301 Universal Human Values in BTech 2nd-yr common
+  AND BCA y2 2025-26). Wildcards/pool ranges are exempt.
 - **G3 subject idempotency**: subject_id unique; (subject_name, course_name)
   unique; every row's primary_code ∈ its own all_codes.
 - **G6 provenance**: every touched row has non-empty source_syllabus and
