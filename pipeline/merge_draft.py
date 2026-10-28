@@ -1,0 +1,865 @@
+#!/usr/bin/env python3
+"""merge_draft.py decisions <drafts_dir>   — dry-run: ladder + flags report
+   merge_draft.py commit <drafts_dir>     — live: ladder + RESOLVE_APPEND +
+                                            gates G1/G2/G3/G6 + backup + write
+
+Deterministic merge of draft subjects into the 57-col registry.
+Decisions in RESOLVE_APPEND are advisory: commit re-runs the ladder live.
+Unadjudicated flags ABORT the commit (exit 2).
+"""
+import json, os, re, sys, csv, glob, shutil, hashlib
+from datetime import datetime
+from difflib import SequenceMatcher
+
+CSV_PATH = "/home/z/my-project/download/art_d_final/syllabus_extreme_rich.csv"
+BASE = "/home/z/my-project/work/pipeline_v2"
+QUEUE = f"{BASE}/queue.json"
+
+REF_HEADER = ["subject_id","row_kind","subject_name","subject_name_print","primary_code",
+"all_codes","code_history_all","status","university_name","course_name","branch_names",
+"program_year","semester_slots","effective_session_latest","first_introduced_session",
+"subject_type","subject_category_print","L","T","P","credit","sessional_ct","sessional_ta",
+"sessional_total","ese_te_pe","total_marks","evaluation_note","has_detailed_syllabus",
+"prerequisites","co_count","co1_text","co2_text","co3_text","co4_text","co6_text","co5_text",
+"co_kls","units_count","lectures_per_unit","unit1_text","unit2_text","unit3_text","unit4_text",
+"unit5_text","textbooks_structured","reference_books_structured","experiments_structured",
+"choice_group_id","choice_group_policy","eligibility_print","k_era_pool_codes","source_syllabus",
+"source_scheme_line","source_history","change_note_vs_previous","notes","objectives_print"]
+
+CODE_RE = re.compile(r"\b([A-Z]{2,4})\s?-?(\d{3})([A-Z]?)\b")
+STOP = set("""the of and to a in for with on by an as at or be is are from that this it its into
+through their they with using use used various various study studies engineering science""".split())
+
+
+def norm_code(c):
+    return re.sub(r"[^A-Z0-9]", "", c.upper())
+
+
+def codes_of_row(r):
+    toks = set()
+    for field in ("primary_code", "all_codes", "code_history_all", "k_era_pool_codes"):
+        for m in CODE_RE.finditer(r.get(field, "") or ""):
+            toks.add(m.group(1) + m.group(2) + (m.group(3) or ""))
+    return toks
+
+
+def norm_name(s):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", (s or "").lower())).strip()
+
+
+# ---------------- course boundary (RULES §1b, owner directive 2026-10-28) ----------------
+# Evidence for this block: the 2026-10-28 18:30 run ingested BCA 2024-25/2025-26
+# drafts whose course metadata was mislabeled; Tier-0/Tier-1 then merged 8 BCA
+# subjects INTO BTech rows (data-structure, data-structure-lab, operating-systems,
+# technical-communication, universal-human-values..., web-technology,
+# web-technology-lab, digital-electronics), overwriting BTech unit/CO/marks text
+# with BCA text via newer-session fieldwise wins, and 6 BBC* (BCA bridge) codes
+# landed inside BTech all_codes. Owner ruling: course boundaries are REAL -
+# same/similar names in different courses are DIFFERENT subjects, never merged.
+
+CANON_COURSES = ["BTech", "BPharm", "BCA", "MCA", "MBA"]
+
+
+def canon_course(c):
+    key = re.sub(r"[^a-z]", "", (c or "").lower())
+    return {"btech": "BTech", "bpharm": "BPharm", "bca": "BCA",
+            "mca": "MCA", "mba": "MBA"}.get(key, (c or "").strip())
+
+
+def course_from_codes(codes):
+    """Printed codes are hard evidence of the course (zero-guess §1b defense):
+    if a draft's course metadata contradicts its own printed codes, the codes
+    win. Only unambiguous AKTU prefixes are used; anything else infers nothing.
+    BBC### = BCA 2024-25 bridge/foundation scheme (B2 evidence: BBC101-107 own
+    rows all BCA; the only BBC tokens ever seen in BTech rows were the
+    contamination this block exists to prevent). BVA is deliberately NOT
+    inferred (ambiguous across courses)."""
+    out = set()
+    for c in codes or []:
+        nc = norm_code(c)
+        if not nc:
+            continue
+        if nc.startswith("BBC") or re.match(r"^BCA\d", nc) or re.match(r"^BCA\d{3}$", nc):
+            out.add("BCA")
+        elif nc.startswith("BOP") or nc.startswith("BPH") or re.match(r"^BP\d{3}[TPRL]$", nc):
+            out.add("BPharm")
+        elif re.match(r"^MCA\d", nc) or re.match(r"^MCA\d{3}$", nc):
+            out.add("MCA")
+        elif nc.startswith("MBA") or nc.startswith("KMB"):
+            out.add("MBA")
+        elif re.match(r"^[BK][A-Z]{1,3}\d{3}[A-Z]?$", nc):
+            out.add("BTech")
+    return out
+
+
+def token_set_ratio(a, b):
+    ta, tb = sorted(set(norm_name(a).split())), sorted(set(norm_name(b).split()))
+    if not ta or not tb:
+        return 0.0
+    return SequenceMatcher(None, " ".join(ta), " ".join(tb)).ratio() * 100
+
+
+def vocab_terms(texts):
+    words = set()
+    for t in texts:
+        for w in re.findall(r"[a-z]{4,}", (t or "").lower()):
+            if w not in STOP:
+                words.add(w)
+    return words
+
+
+def slug(name):
+    s = re.sub(r"[^a-z0-9]+", "-", norm_name(name)).strip("-")
+    return s[:60] if s else "unnamed"
+
+
+def draft_vocab(s):
+    return vocab_terms(list((s.get("units") or {}).values()) + [c.get("text", "") for c in s.get("cos") or []])
+
+
+def row_vocab(r):
+    return vocab_terms([r.get(f"unit{i}_text", "") for i in range(1, 6)] +
+                       [r.get(f"co{i}_text", "") for i in range(1, 7)])
+
+
+def row_owned_codes(r):
+    """Ownership tokens only (primary_code + all_codes + k_era_pool exact) -
+    code_history_all is narrative, not ownership (B2 recorded semantics)."""
+    owned = set()
+    for c in (r.get("primary_code", "") or "").split(";"):
+        c = norm_code(c)
+        if c:
+            owned.add(c)
+    for c in (r.get("all_codes", "") or "").split(";"):
+        c = norm_code(c)
+        if c:
+            owned.add(c)
+    for m in CODE_RE.finditer(r.get("k_era_pool_codes", "") or ""):
+        owned.add(m.group(1) + m.group(2) + (m.group(3) or ""))
+    return owned
+
+
+def cross_course_hits(dsub, rows, course):
+    """§1b: rows of OTHER courses whose owned codes or normalized name collide
+    with this draft subject - recorded as cross-references on the appended row,
+    never as update targets."""
+    course = canon_course(course)
+    dnc = {norm_code(c) for c in dsub.get("codes", []) if norm_code(c)}
+    dname = norm_name(dsub.get("name", ""))
+    hits, seen = [], set()
+    for r in rows:
+        if r.get("row_kind") != "subject":
+            continue
+        rc = canon_course(r.get("course_name"))
+        if rc == course:
+            continue
+        if (dnc & row_owned_codes(r)) or (dname and dname == norm_name(r.get("subject_name", ""))):
+            sig = (rc, r["subject_id"])
+            if sig not in seen:
+                seen.add(sig)
+                hits.append(f"{rc}:{r['subject_id']}")
+    return hits
+
+
+# ---------------- ladder ----------------
+
+# B2 remedy (brain clause, recorded): Tier-0 identity is restricted to
+# OWNERSHIP tokens (primary_code + all_codes) plus exact k_era_pool_codes
+# tokens. code_history_all is a NARRATIVE field by recorded v6/B01 design (it
+# documents misprints, retirements and code-slot re-use: e.g. BCS403's history
+# says it "replaces the retired KCS403 Microprocessor slot" — KCS403(2021-22)
+# Microprocessor and BCS403(2023-24) OOP-with-Java are DIFFERENT subjects; a
+# history mention must never pull one into the other's row, RULES §11).
+# Evidence set: B02 draft 01 Microprocessor(KCS403)/Microprocessor
+# Lab(KCS452)/Python Language Programming Lab(KCS453) vs the replacer rows'
+# own history texts; E&C KEC452 duplicate-misprint narrative on the
+# signal-system-lab row.
+def serial_variant(na, nb):
+    """True when the two names differ ONLY in their numeral/roman token
+    (e.g. 'Mine Surveying - II' vs 'Mine Surveying - I', 'Mathematics-III' vs
+    'Mathematics-IV'): AKTU serial subjects are distinct courses (RULES §11:
+    never merge two different subjects); B2 evidence: live-commit fuzzy 97/24
+    pulling Mine Surveying-II into the just-appended Mine Surveying-I row."""
+    ta, tb = norm_name(na).split(), norm_name(nb).split()
+    numa = re.compile(r"^[0-9ivxl]+$")
+    ka = [t for t in ta if not numa.match(t)]
+    kb = [t for t in tb if not numa.match(t)]
+    if ka != kb:
+        return False
+    return [t for t in ta if numa.match(t)] != [t for t in tb if numa.match(t)]
+
+
+def is_lab_name(n):
+    toks = set(norm_name(n).split())
+    return bool(toks & {"lab", "laboratory", "workshop"})
+
+
+def ladder(dsub, rows, course):
+    """returns (tier, targets, score_info) — targets: list of row dicts"""
+    course = canon_course(course)  # §1b: canonical comparison on both sides
+    dcodes = {norm_code(c) for c in dsub.get("codes", [])}
+    # Tier 0 — ownership identity only
+    t0 = []
+    for r in rows:
+        if r.get("row_kind") != "subject":
+            continue
+        # §1b HARD GUARD: course boundaries are real. A draft can never update
+        # a row of a different course - not by code identity, name, or content.
+        if canon_course(r.get("course_name")) != course:
+            continue
+        owned = set()
+        for c in (r.get("primary_code", "") or "").split(";"):
+            c = norm_code(c)
+            if c:
+                owned.add(c)
+        for c in (r.get("all_codes", "") or "").split(";"):
+            c = norm_code(c)
+            if c:
+                owned.add(c)
+        for m in CODE_RE.finditer(r.get("k_era_pool_codes", "") or ""):
+            owned.add(m.group(1) + m.group(2) + (m.group(3) or ""))
+        if dcodes & owned:
+            t0.append(r)
+    if len(t0) == 1:
+        return 0, t0, "code identity"
+    if len(t0) > 1:
+        return 0, t0, "TIE code identity across rows"
+    hist_ids = set()
+    for r in rows:
+        if r.get("row_kind") != "subject":
+            continue
+        if dcodes & {m.group(1) + m.group(2) + (m.group(3) or "")
+                     for m in CODE_RE.finditer(r.get("code_history_all", "") or "")}:
+            hist_ids.add(r["subject_id"])
+    hist_note = ("; history narrative mentions: " + ",".join(sorted(hist_ids))) if hist_ids else ""
+    # Tier 1
+    t1 = [r for r in rows if r.get("row_kind") == "subject"
+          and canon_course(r.get("course_name")) == course
+          and norm_name(r.get("subject_name", "")) == norm_name(dsub.get("name", ""))
+          and norm_name(dsub.get("name", ""))]
+    if len(t1) == 1:
+        return 1, t1, "exact name in course"
+    if len(t1) > 1:
+        return 1, t1, "TIE exact name"
+    # Tier 2
+    dv = draft_vocab(dsub)
+    cands = []
+    for r in rows:
+        if r.get("row_kind") != "subject" or canon_course(r.get("course_name")) != course:
+            continue
+        sc = token_set_ratio(dsub.get("name", ""), r.get("subject_name", ""))
+        if sc < 85:
+            continue
+        # B2 remedy (RULES §3 labs are distinct rows): never fuzzy-merge a
+        # printed lab/workshop subject into a non-lab target or vice versa.
+        if is_lab_name(dsub.get("name", "")) != is_lab_name(r.get("subject_name", "")):
+            continue
+        # B2 remedy (RULES §11): serial-variant names (differ only by numeral)
+        # are different subjects — never fuzzy-merge them.
+        if serial_variant(dsub.get("name", ""), r.get("subject_name", "")):
+            continue
+        ov = len(dv & row_vocab(r))
+        # B2 remedy (RULES §3: labs are distinct rows — a lab subject is not
+        # merged into its theory pair): a draft subject with NO printed unit/CO
+        # vocabulary (lab with experiments only, or scheme-only row) can never
+        # Tier-2 match on name similarity alone. Evidence: commit-run live rows
+        # — 'Geology For Mining Engineers Lab' scored 93/overlap-0 against its
+        # own just-appended theory row; same class for the other Mining labs.
+        if not dv:
+            continue
+        if sc >= 92 or (sc >= 85 and ov >= 3):
+            cands.append((sc, ov, r))
+    if len(cands) == 1:
+        sc, ov, r = cands[0]
+        return 2, [r], f"fuzzy {sc:.0f} overlap {ov}"
+    if len(cands) > 1:
+        return 2, [c[2] for c in cands], "TIE fuzzy " + "; ".join(f"{c[0]:.0f}/{c[2]['subject_id']}" for c in cands)
+    return 3, [], "no match" + hist_note
+
+
+# ---------------- field application ----------------
+
+UNIT_FIELDS = {1: "unit1_text", 2: "unit2_text", 3: "unit3_text", 4: "unit4_text", 5: "unit5_text"}
+CO_FIELDS = {1: "co1_text", 2: "co2_text", 3: "co3_text", 4: "co4_text", 5: "co5_text", 6: "co6_text"}
+
+
+def cos_to_text(dsub):
+    out = {}
+    for co in dsub.get("cos") or []:
+        n = int(co.get("no", 0))
+        if 1 <= n <= 6 and co.get("text"):
+            out[n] = co["text"]
+    return out
+
+
+def kls_to_text(dsub):
+    parts = []
+    for co in dsub.get("cos") or []:
+        if co.get("kl"):
+            parts.append(f"CO{co['no']}:{co['kl']}")
+    return ";".join(parts)
+
+
+def jsons(v):
+    return json.dumps(v, ensure_ascii=False) if v else ""
+
+
+def apply_update(row, dsub, dmeta, doc_short, ev):
+    """newer-wins fieldwise; older drafts may only backfill empties."""
+    newer = (dmeta["session"] or "") >= (row.get("effective_session_latest") or "")
+    changed = []
+    sem = dsub.get("semester")
+    if newer:
+        for n, f in UNIT_FIELDS.items():
+            ut = (dsub.get("units") or {}).get(str(n)) or (dsub.get("units") or {}).get(n)
+            if ut and ut != row.get(f, ""):
+                row[f] = ut
+                changed.append(f"unit{n}")
+        ct = cos_to_text(dsub)
+        for n, f in CO_FIELDS.items():
+            if ct.get(n) and ct[n] != row.get(f, ""):
+                row[f] = ct[n]
+                changed.append(f"co{n}")
+        for f, v in (("L", dsub.get("ltp", {}).get("l")), ("T", dsub.get("ltp", {}).get("t")),
+                     ("P", dsub.get("ltp", {}).get("p")), ("credit", dsub.get("credit"))):
+            if v not in (None, "") and str(v) != row.get(f, ""):
+                row[f] = str(v)
+                changed.append(f)
+        m = dsub.get("marks") or {}
+        for f, k in (("sessional_ct", "sessional_ct"), ("sessional_ta", "sessional_ta"),
+                     ("sessional_total", "sessional_total"), ("ese_te_pe", "ese_te_pe"),
+                     ("total_marks", "total")):
+            if m.get(k) not in (None, "") and str(m[k]) != row.get(f, ""):
+                row[f] = str(m[k])
+                changed.append(f)
+        if dsub.get("lectures_per_unit") and str(dsub["lectures_per_unit"]) != row.get("lectures_per_unit", ""):
+            row["lectures_per_unit"] = str(dsub["lectures_per_unit"])
+            changed.append("lpu")
+        if dsub.get("textbooks") and jsons(dsub["textbooks"]) != row.get("textbooks_structured", ""):
+            row["textbooks_structured"] = jsons(dsub["textbooks"])
+            changed.append("textbooks")
+        if dsub.get("reference_books") and jsons(dsub["reference_books"]) != row.get("reference_books_structured", ""):
+            row["reference_books_structured"] = jsons(dsub["reference_books"])
+            changed.append("refbooks")
+        if dsub.get("experiments") and jsons(dsub["experiments"]) != row.get("experiments_structured", ""):
+            row["experiments_structured"] = jsons(dsub["experiments"])
+            changed.append("experiments")
+        if dsub.get("objectives_print") and jsons(dsub["objectives_print"]) != row.get("objectives_print", ""):
+            row["objectives_print"] = jsons(dsub["objectives_print"])
+            changed.append("objectives")
+        if dsub.get("eligibility_print") and not row.get("eligibility_print", ""):
+            row["eligibility_print"] = dsub["eligibility_print"]
+            changed.append("eligibility")
+        if dsub.get("prerequisites") and not row.get("prerequisites", ""):
+            row["prerequisites"] = dsub["prerequisites"]
+            changed.append("prereq")
+        if dsub.get("subject_type") and not row.get("subject_type", ""):
+            row["subject_type"] = dsub["subject_type"]
+            changed.append("type")
+        kl = kls_to_text(dsub)
+        if kl and kl != row.get("co_kls", ""):
+            row["co_kls"] = kl
+            changed.append("kls")
+        if dsub.get("name_print") and dsub["name_print"] != row.get("subject_name_print", ""):
+            row["subject_name_print"] = (row.get("subject_name_print", "") + " | detailed-doc print: " + dsub["name_print"])[:250]
+            changed.append("name_print")
+    else:
+        for n, f in UNIT_FIELDS.items():
+            ut = (dsub.get("units") or {}).get(str(n))
+            if ut and not row.get(f, ""):
+                row[f] = ut
+                changed.append(f"backfill-unit{n}")
+    # codes: add newly printed codes (H variants etc.)
+    existing = {norm_code(c) for c in (row.get("all_codes", "").split(";") if row.get("all_codes") else [])}
+    newc = [c for c in dsub.get("codes", []) if norm_code(c) not in existing]
+    if newc:
+        row["all_codes"] = ";".join([x for x in row.get("all_codes", "").split(";") if x] + newc)
+        ch = row.get("code_history_all", "")
+        add = " + ".join(newc)
+        seg = f" -> {add} ({dmeta['session']}) - codes printed with detailed syllabus in {doc_short}"
+        row["code_history_all"] = (ch + seg) if ch else seg.lstrip(" ->")
+        changed.append("codes+" + ",".join(newc))
+    # derived counts recomputed from the applied fields (never left stale)
+    nu = sum(1 for f in UNIT_FIELDS.values() if row.get(f, ""))
+    nc = sum(1 for f in CO_FIELDS.values() if row.get(f, ""))
+    if nu and str(nu) != row.get("units_count", ""):
+        row["units_count"] = str(nu)
+        changed.append(f"units_count={nu}")
+    if nc and str(nc) != row.get("co_count", ""):
+        row["co_count"] = str(nc)
+        changed.append(f"co_count={nc}")
+    # detailed syllabus flag
+    if (dsub.get("units") or dsub.get("cos")) and row.get("has_detailed_syllabus") != "TRUE":
+        row["has_detailed_syllabus"] = "TRUE"
+        changed.append("has_det=TRUE")
+    # provenance (deduped: re-verification with the SAME copy must not stack
+    # duplicate citations; a different surviving copy appends as corroboration)
+    loc = ev["locator"]
+    src = f"{ev['file']}#{ev['sha16']} {loc}"
+    if src not in (row.get("source_syllabus", "") or ""):
+        row["source_syllabus"] = (row.get("source_syllabus", "") + "; " + src).strip("; ")
+    sh = row.get("source_history", "")
+    seg = f"{src} (detailed syllabus ingested {dmeta['session']})"
+    if seg not in sh:
+        row["source_history"] = (sh + "; " if sh else "") + seg
+    sch = dsub.get("scheme_line_print") or dsub.get("name_print") or ""
+    if sch and not row.get("source_scheme_line", ""):
+        row["source_scheme_line"] = f"{ev['file']}#{ev['sha16']} {loc} ({sch[:120]})"
+    cn = row.get("change_note_vs_previous", "")
+    # B2 wording fix: the six B02 docs are regular authorized scheme/syllabus
+    # docs, not the two released companions; and a scheme-only corroboration
+    # must not claim "detailed syllabus restored" when no field changed.
+    if changed:
+        note = f"{dmeta['session']}: detailed syllabus ingested/verified from {doc_short} ({', '.join(changed[:8])}{'...' if len(changed) > 8 else ''})"
+    else:
+        note = f"{dmeta['session']}: scheme-line corroboration from {doc_short} (no field changes; provenance/history extended)"
+    if note not in cn:
+        row["change_note_vs_previous"] = (cn + "; " if cn else "") + note
+    if dsub.get("quirks"):
+        qj = "Print quirks (" + doc_short + "): " + " | ".join(dsub["quirks"])
+        if qj[:60] not in row.get("notes", ""):
+            row["notes"] = (row.get("notes", "") + (" | " if row.get("notes", "") else "") + qj)[:4000]
+    return changed
+
+
+def build_append(dsub, dmeta, ev, scope_row, policy):
+    row = {c: "" for c in REF_HEADER}
+    row["subject_id"] = slug(dsub.get("name", ""))
+    row["row_kind"] = "subject"
+    row["subject_name"] = norm_name(dsub.get("name", "")).replace(" ", " ")
+    row["subject_name"] = re.sub(r"\s+", " ", dsub.get("name", "")).strip()
+    row["subject_name_print"] = dsub.get("name_print") or dsub.get("name", "")
+    codes = dsub.get("codes", [])
+    row["primary_code"] = codes[0] if codes else ""
+    row["all_codes"] = ";".join(dict.fromkeys(codes))
+    ch = ""
+    sem = dsub.get("semester")
+    if len(codes) > 1:
+        ch = " / ".join(f"{c} ({dmeta['session']}{', sem-' + str(sem) if sem else ''})" for c in codes)
+    elif codes:
+        ch = f"{codes[0]} ({dmeta['session']}{', sem-' + str(sem) if sem else ''})"
+    if dsub.get("code_note"):
+        ch += f" - {dsub['code_note']}"
+    row["code_history_all"] = ch
+    row["status"] = "latest"
+    row["university_name"] = "Dr. A.P.J. Abdul Kalam Technical University, Lucknow"
+    row["course_name"] = canon_course(dmeta.get("course", "BTech"))  # §1b canon
+    row["branch_names"] = scope_row.get("branch_names", "") if scope_row else ""
+    row["program_year"] = str(dsub.get("program_year") or (scope_row.get("program_year", "") if scope_row else "") or "2")
+    sems = sorted({str(dsub.get("semester"))} - {"None"}) if dsub.get("semester") else []
+    row["semester_slots"] = ";".join(sems) or (scope_row.get("semester_slots", "") if scope_row else "")
+    row["effective_session_latest"] = dmeta["session"]
+    row["first_introduced_session"] = dmeta["session"]
+    row["subject_type"] = dsub.get("subject_type", "")
+    row["subject_category_print"] = dsub.get("category_print", "")
+    lt = dsub.get("ltp", {})
+    row["L"], row["T"], row["P"] = str(lt.get("l", "") or ""), str(lt.get("t", "") or ""), str(lt.get("p", "") or "")
+    row["credit"] = str(dsub.get("credit") or "")
+    m = dsub.get("marks") or {}
+    row["sessional_ct"] = str(m.get("sessional_ct", "") or "")
+    row["sessional_ta"] = str(m.get("sessional_ta", "") or "")
+    row["sessional_total"] = str(m.get("sessional_total", "") or "")
+    row["ese_te_pe"] = str(m.get("ese_te_pe", "") or "")
+    row["total_marks"] = str(m.get("total", "") or "")
+    row["evaluation_note"] = dsub.get("evaluation_note", "")
+    row["has_detailed_syllabus"] = "TRUE" if (dsub.get("units") or dsub.get("cos")) else "FALSE"
+    row["prerequisites"] = dsub.get("prerequisites", "")
+    ct = cos_to_text(dsub)
+    row["co_count"] = str(len(ct)) if ct else ""
+    for n, f in CO_FIELDS.items():
+        row[f] = ct.get(n, "")
+    row["co_kls"] = kls_to_text(dsub)
+    units = dsub.get("units") or {}
+    row["units_count"] = str(len(units)) if units else ""
+    row["lectures_per_unit"] = str(dsub.get("lectures_per_unit") or "")
+    for n, f in UNIT_FIELDS.items():
+        row[f] = units.get(str(n), units.get(n, "")) or ""
+    row["textbooks_structured"] = jsons(dsub.get("textbooks"))
+    row["reference_books_structured"] = jsons(dsub.get("reference_books"))
+    row["experiments_structured"] = jsons(dsub.get("experiments"))
+    if policy:
+        row["choice_group_id"], row["choice_group_policy"] = policy
+    row["eligibility_print"] = dsub.get("eligibility_print", "")
+    row["source_syllabus"] = f"{ev['file']}#{ev['sha16']} {ev['locator']}"
+    sch = dsub.get("scheme_line_print") or dsub.get("name_print") or ""
+    row["source_scheme_line"] = f"{ev['file']}#{ev['sha16']} {ev['locator']} ({sch[:120]})" if sch else f"{ev['file']}#{ev['sha16']} {ev['locator']}"
+    row["source_history"] = f"{row['source_syllabus']} (first ingestion {dmeta['session']})"
+    row["change_note_vs_previous"] = f"First ingestion ({dmeta['session']}): verbatim from {os.path.basename(ev['file'])}"
+    if dsub.get("flags"):
+        row["notes"] = "flags: " + ",".join(dsub["flags"])
+    if dsub.get("quirks"):
+        qj = "Print quirks (" + os.path.basename(ev['file']) + "): " + " | ".join(dsub["quirks"])
+        if qj[:60] not in row.get("notes", ""):
+            row["notes"] = (row.get("notes", "") + (" | " if row.get("notes", "") else "") + qj)[:4000]
+    row["objectives_print"] = jsons(dsub.get("objectives_print"))
+    return row
+
+
+# ---------------- RESOLVE_APPEND (adjudications, advisory) ----------------
+# flag_key -> {"action": "...", "reason": "..."}
+RESOLVE_APPEND = {
+    "POOL_MEMBERS_NAMED": {
+        "action": "UPDATE_POOL_NOTES",
+        "reason": "The 14 BOE members are appended as real subject rows from the released Open-Elective doc; the CG-BOE-2YR pool row's notes gain the named-member list while its slot-level identity (scheme line with pool codes) stays intact. The pool row's provenance is backfilled from its recorded establishing source (B.Tech_2nd_Yr_CSE_v3.pdf#b5579aefa7a2 pp.2,3 SN-1 BOE3**/BOE4** pool lines - the same scheme lines that carry the group's slots, per registry v2/v5 records) plus the released member-list doc."},
+    "BOE2YR-CHOICE-GROUP": {
+        "action": "LINK_CG_BOE_2YR",
+        "reason": "Every appended BOE3xx/BOE4xx subject joins the existing CG-BOE-2YR choice group (exactly-one policy), inheriting the pool row's policy print - the released doc is the member-list source for that group."},
+    "SCOPE-FROM-POOL": {
+        "action": "BRANCH_SCOPE_FROM_POOL",
+        "reason": "Appended 2nd-year electives inherit the CG-BOE-2YR pool row's branch scope (same document scope); no per-subject branch list is printed beyond eligibility_print."},
+    "SCOPE-FROM-MATHS-IV": {
+        "action": "BRANCH_SCOPE_FROM_MATHS_IV",
+        "reason": "Mathematics-III/V are sister common subjects printed in the same released doc as Mathematics-IV; they inherit its branch profile (doc-level scope, not per-subject)."},
+    "ALTERNATIVE-PAIR-SLOT": {
+        "action": "SKIP_SLOT_PRINT",
+        "reason": "The draft subject is a scheme ALTERNATIVE-SLOT print (flags carry alternative_pair_row + scheme-only): it names two subjects of which BOTH already exist as registry subject rows owning the printed codes (e.g. UHV BVE301/401 + Technical Communication BAS301/401; Cyber Security BCC301/401 + Python BCC302/402; Mathematics-III BAS302 + Science-Based-OE pool). A slot print is program structure, not a subject (RULES §11: never merge two different subjects into one row); the slot print itself is preserved verbatim in the draft's non_subject_rows (semester scheme rows) and the member rows gain scheme-line corroboration via their own code-bearing draft subjects. Nothing is lost: zero-GAP holds because both member subjects own rows."},
+    "HISTORY-ONLY-CODE-MENTION": {
+        "action": "APPEND_NEW_ROW_WITH_HISTORY_CROSSREF",
+        "reason": "The draft code matches NO row's ownership (primary_code/all_codes) but appears in another row's code_history_all NARRATIVE documenting a retired/reused code slot (e.g. BCS403's history: 'replaces the retired KCS403 Microprocessor slot'). The draft subject is the RETIRED-era subject itself (2021-22 K-era print), a DIFFERENT subject from the replacer row (RULES §11) - so it APPENDs as its own row, and the appended row's code_history records the era transition while the replacer row's narrative remains the cross-reference. G2 stays clean: the code transfers from narrative-mention to single ownership by the new row."},
+    "SCOPE-FROM-DOC": {
+        "action": "BRANCH_SCOPE_FROM_DOC_COVER",
+        "reason": "Appended subjects inherit the branch scope printed on the ingested document's own cover (zero-guess: exactly the cover's printed branch list, no extrapolation to branches the doc does not name)."},
+    "CROSS-COURSE-KEEP-SEPARATE": {
+        "action": "APPEND_NEW_ROW_WITH_CROSSREF_NOTE",
+        "reason": "Owner directive 2026-10-28 (RULES §1b): course boundaries are REAL - a subject printed in another course is a DIFFERENT subject even when the name or codes match. Evidence: the 2026-10-28 18:30 run let BCA 2024-25/2025-26 drafts update 8 BTech rows (data-structure, data-structure-lab, operating-systems, technical-communication, universal-human-values..., web-technology, web-technology-lab, digital-electronics), overwriting BTech unit/CO/marks text with BCA text and landing 6 BBC* codes in BTech all_codes; reverted the same day. The draft appends as its own row in its own course with a cross-reference note; the other course's row is never touched."},
+    "COURSE-META-FROM-CODES": {
+        "action": "USE_CODE_DERIVED_COURSE",
+        "reason": "The draft's course metadata contradicts the course implied by its own printed codes (root cause of the same 18:30 corruption: BCA docs mislabeled as BTech in draft meta). Printed codes are authoritative hard evidence (RULES §1b); the ladder and all writes use the code-derived course and the correction is flagged here."},
+}
+
+# B2: doc-level scope from the PRINTED COVER of each ingested document
+# (zero-guess: only what the cover prints; recorded reasoning per entry).
+DOC_SCOPE = {
+    "da3b140fa2d8ab1e": {
+        "branch_names": "Computer Science and Engineering (Artificial Intelligence); Computer Science and Engineering (Artificial Intelligence & Machine Learning); Computer Science and Engineering (Data Science); Computer Science and Engineering (Internet of Things)",
+        "program_year": "2",
+        "reason": "cover prints exactly these four CSE-specialization branches for B.Tech 2nd Year 2021-22"},
+    "7a0eeeeb1000456f": {
+        "branch_names": "Electronics and Computer Engineering",
+        "program_year": "2",
+        "reason": "cover prints B.Tech Second Year Electronics and Computer Engineering (AICTE Model Curriculum), effective 2020-21"},
+    "7d6a8a1f4b44410b": {
+        "branch_names": "Computer Science and Engineering (Artificial Intelligence)",
+        "program_year": "3",
+        "reason": "cover prints B.Tech 3rd Year CSE (Artificial Intelligence), effective 2022-23"},
+    "4c68b6c7156c50d2": {
+        "branch_names": "Computer Science and Engineering (Data Science)",
+        "program_year": "3",
+        "reason": "cover prints B.Tech 3rd Year CSE (Data Science), effective 2022-23"},
+    "51bd6d355e13d6e1": {
+        "branch_names": "Mining Engineering",
+        "program_year": "2",
+        "reason": "cover prints B.Tech 2nd Year MINING ENGINEERING, effective session 2024-25"},
+    "4f09e0095540f04e": {
+        "branch_names": "Computer Science & Engineering; Computer Engineering; Computer Science; Computer Science and Engineering (Cyber Security); Computer Science and Information Technology; Information Technology; Computer Science and Engineering (Artificial Intelligence); Computer Science and Engineering (Artificial Intelligence & Machine Learning); Computer Science and Engineering (Data Science); Computer Science and Engineering (Internet of Things); Artificial Intelligence & Data Science",
+        "program_year": "2",
+        "reason": "cover prints exactly this CSE-family branch list for B.Tech 2nd Year, effective 2023-24"},
+}
+
+# ---------------- gates ----------------
+
+def gate_g1(header):
+    return None if header == REF_HEADER else "header mismatch"
+
+
+def exact_code(tok):
+    return bool(re.fullmatch(r"[A-Z]{2,4}\d{3}[A-Z]?", tok))
+
+
+def gate_g2(rows):
+    """Ownership = primary_code + all_codes (identity claims).
+    code_history_all is a NARRATIVE field by recorded v6 design (it documents
+    misprints, retirements and disambiguations that legitimately mention other
+    rows' codes) - history mentions are not ownership claims."""
+    owner = {}
+    dups = []
+    for r in rows:
+        toks = set()
+        for c in (r.get("primary_code", "") or "").split(";"):
+            c = norm_code(c)
+            if exact_code(c):
+                toks.add(c)
+        for c in (r.get("all_codes", "") or "").split(";"):
+            c = norm_code(c)
+            if exact_code(c):
+                toks.add(c)
+        for t in toks:
+            if t in owner and owner[t] != r["subject_id"]:
+                dups.append(f"{t}: {owner[t]} AND {r['subject_id']}")
+            owner[t] = r["subject_id"]
+    return (None, len(owner)) if not dups else (f"code owned by 2 rows: {'; '.join(dups[:6])}", len(owner))
+
+
+def gate_g3(rows):
+    ids, names = set(), set()
+    probs = []
+    for r in rows:
+        sid = r.get("subject_id", "")
+        if sid in ids:
+            probs.append(f"dup subject_id {sid}")
+        ids.add(sid)
+        if r.get("row_kind") == "subject":
+            cc = r.get("course_name", "")
+            if cc not in CANON_COURSES:  # §1b: canonical course names only
+                probs.append(f"{sid}: non-canon course_name {cc!r}")
+            key = (norm_name(r.get("subject_name", "")), cc)
+            if key in names:
+                probs.append(f"dup (name,course) {key}")
+            names.add(key)
+            pc = norm_code(r.get("primary_code", ""))
+            own = {norm_code(c) for c in (r.get("all_codes", "") or "").split(";") if c}
+            if pc and pc not in own:
+                probs.append(f"{sid}: primary_code {pc} not in all_codes")
+    return None if not probs else "; ".join(probs[:6])
+
+
+def gate_g6(rows, touched_ids, parsed_dir):
+    probs = []
+    checks = 0
+    by_sha = {}
+    for j in glob.glob(os.path.join(parsed_dir, "*.json")):
+        if j.endswith(".fulltext.json") or os.path.basename(j) == "verify_report.json":
+            continue
+        rec = json.load(open(j))
+        if not isinstance(rec, dict) or "pages" not in rec:
+            continue
+        by_sha[rec.get("sha16", "")] = "\n".join(p["text"] for p in rec["pages"])
+    for r in rows:
+        if r.get("subject_id") not in touched_ids:
+            continue
+        if not r.get("source_syllabus", "") or not r.get("source_scheme_line", ""):
+            probs.append(f"{r['subject_id']}: missing provenance")
+            continue
+        u1 = norm_al(r.get("unit1_text", ""))[:40]
+        if u1 and len(u1) >= 20:
+            # B2 remedy: source_syllabus is a CITATION CHAIN (multiple docs
+            # corroborate a row across sessions; apply_update appends per
+            # contributing draft). re.search picked the FIRST resolvable 16-hex
+            # citation, which can be an older doc that contributed no text
+            # (evidence: discrete-structures row cited CSAI-2021-22 before the
+            # CSE_v3-2023-24 doc that actually supplied unit1 — probe-verified
+            # contained there). The spot check passes if unit1 is provable in
+            # ANY cited, currently-resolvable doc; fabricated provenance still
+            # fails (no cited doc would contain the text).
+            shas = re.findall(r"#([0-9a-f]{16})", r.get("source_syllabus", ""))
+            resolvable = [by_sha[s] for s in shas if s in by_sha]
+            if resolvable:
+                checks += 1
+                ok = False
+                for full_txt in resolvable:
+                    ok = u1 in norm_al(full_txt)
+                    if not ok:
+                        # junction-tolerant fallback 1: strip standalone digit furniture lines
+                        ok = u1 in norm_al(re.sub(r"(?m)^\s*\d{1,4}\s*$", "", full_txt))
+                    if not ok:
+                        # B2 fallback 2 (evidence: cyber-security-workshop row's
+                        # legacy unit1 vs the surviving copy printing the same
+                        # content as a numbered experiment list — '1. ' markers
+                        # at line starts interleave the titles): strip line-start
+                        # list markers, haystack-side only, needle untouched.
+                        ok = u1 in norm_al(re.sub(r"(?m)^\s*\d{1,2}\.\s+", "", full_txt))
+                    if ok:
+                        break
+                if not ok:
+                    probs.append(f"{r['subject_id']}: unit1 containment FAIL vs cited source")
+    return (None, checks) if not probs else ("; ".join(probs[:6]), checks)
+
+
+def norm_al(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+# ---------------- main ----------------
+
+def run(mode, drafts_dir):
+    rows = list(csv.DictReader(open(CSV_PATH)))
+    header = list(rows[0].keys()) if rows else []
+    q = json.load(open(QUEUE))
+    entries = {e["rel"]: e for e in q["entries"]}
+    plans, flags = [], []
+    crossref_by_key = {}   # key -> crossref note text (§1b)
+    touched = {}          # subject_id -> row dict (updated in place for commit)
+    appends = []
+    parsed_dir = f"{BASE}/parsed"
+
+    for dp in sorted(glob.glob(os.path.join(drafts_dir, "*.draft.json"))):
+        d = json.load(open(dp))
+        stem = d.get("stem", os.path.basename(dp)[:-11])
+        e = entries.get(d.get("pdf_rel", ""), {})
+        ev = {"file": os.path.basename(e.get("file", d.get("pdf_rel", "unknown.pdf"))),
+              "sha16": e.get("sha16", d.get("sha16", "")), "locator": d.get("locator", "pp.as-drafted")}
+        dmeta = {"session": d.get("session", ""), "course": canon_course(d.get("course", "BTech"))}
+        doc_short = ev["file"]
+        pool_row = next((r for r in rows if r.get("choice_group_id") == "CG-BOE-2YR"), None)
+        maths4 = next((r for r in rows if r.get("subject_id", "").startswith("mathematics-iv")), None)
+        for idx, dsub in enumerate(d.get("subjects", [])):
+            key = f"{stem}::{idx:02d}::{slug(dsub.get('name', ''))}"
+            # §1b defense: printed codes override mislabeled draft course meta
+            # (root cause of the 2026-10-28 18:30 BCA→BTech corruption).
+            inferred = course_from_codes(dsub.get("codes", []))
+            if len(inferred) == 1 and next(iter(inferred)) != dmeta["course"]:
+                flags.append((key, "COURSE-META-FROM-CODES",
+                              f"draft course {dmeta['course']} contradicts printed codes; using {next(iter(inferred))}"))
+                dmeta["course"] = next(iter(inferred))
+            tier, targets, info = ladder(dsub, rows, dmeta["course"])
+            dflags_l = [str(f).lower() for f in (dsub.get("flags") or [])]
+            alt_pair = any("alternative_pair" in f for f in dflags_l)
+            if tier == 0 and len(targets) > 1 and alt_pair:
+                # alternative-slot print naming subjects that exist as rows; each
+                # target owns one of the printed codes - a slot is not a subject
+                flags.append((key, "ALTERNATIVE-PAIR-SLOT", "scheme slot print; both members own rows: " + ";".join(r["subject_id"] for r in targets)))
+                plans.append({"key": key, "name": dsub.get("name"), "codes": dsub.get("codes"),
+                              "tier": tier, "info": info, "op": "SKIP", "target": None})
+                if mode == "commit":
+                    pass  # SKIP_SLOT_PRINT: slot stays in non_subject_rows; members already own rows
+                continue
+            if tier in (0, 1, 2) and len(targets) == 1:
+                op = ("UPDATE", targets[0])
+                if tier == 2:
+                    flags.append((key, f"TIER2 {info}", "review fuzzy match"))
+            elif tier in (0, 1, 2):
+                flags.append((key, f"TIE {info}", "multiple candidate rows"))
+                op = ("TIE", targets)
+            else:
+                if "history narrative mentions" in info:
+                    flags.append((key, "HISTORY-ONLY-CODE-MENTION", info))
+                # §1b: cross-course collision detection (owner directive 2026-10-28)
+                xhits = cross_course_hits(dsub, rows, dmeta["course"])
+                if xhits:
+                    flags.append((key, "CROSS-COURSE-KEEP-SEPARATE", ";".join(xhits)))
+                    crossref_by_key[key] = "same name/code in other course(s): " + ", ".join(xhits)
+                # Tier 3 APPEND with deterministic scope/policy rules
+                codes = [norm_code(c) for c in dsub.get("codes", [])]
+                if pool_row is not None and any(c.startswith("BOE3") or c.startswith("BOE4") for c in codes):
+                    flags.append((key, "BOE2YR-CHOICE-GROUP", "link choice group"))
+                    flags.append((key, "SCOPE-FROM-POOL", "branch scope"))
+                    policy = ("CG-BOE-2YR", pool_row.get("choice_group_policy", ""))
+                    scope_row = pool_row
+                elif maths4 is not None and norm_name(dsub.get("name", "")).startswith("mathematics"):
+                    flags.append((key, "SCOPE-FROM-MATHS-IV", "branch scope"))
+                    policy = ("", "")
+                    scope_row = maths4
+                else:
+                    policy = ("", "")
+                    scope_row = None
+                    if ev.get("sha16") in DOC_SCOPE:
+                        flags.append((key, "SCOPE-FROM-DOC", DOC_SCOPE[ev["sha16"]]["reason"]))
+                op = ("APPEND", (scope_row, policy))
+            if op[0] == "UPDATE":
+                tgt = op[1]["subject_id"]
+            elif op[0] == "TIE":
+                tgt = ";".join(r["subject_id"] for r in op[1])
+            else:
+                tgt = None
+            plans.append({"key": key, "name": dsub.get("name"), "codes": dsub.get("codes"),
+                          "tier": tier, "info": info, "op": op[0], "target": tgt})
+
+            if mode == "commit":
+                if op[0] == "UPDATE":
+                    row = touched.get(op[1]["subject_id"]) or op[1]
+                    touched[row["subject_id"]] = row
+                    apply_update(row, dsub, dmeta, doc_short, ev)
+                elif op[0] == "APPEND":
+                    scope_row, policy = op[1]
+                    if scope_row is None and ev.get("sha16") in DOC_SCOPE:
+                        scope_row = dict(DOC_SCOPE[ev["sha16"]])
+                    new = build_append(dsub, dmeta, ev, scope_row, policy)
+                    if key in crossref_by_key:  # §1b cross-reference note
+                        xr = ("Course-boundary crossref (RULES §1b, owner directive 2026-10-28): "
+                              + crossref_by_key[key] + " — kept separate; course boundaries are real.")
+                        new["notes"] = (new["notes"] + " | " if new["notes"] else "") + xr
+                    appends.append(new)
+                    rows.append(new)
+                    touched[new["subject_id"]] = new
+                elif op[0] == "SKIP":
+                    pass
+
+    # deterministic post-steps
+    if mode == "commit" and appends:
+        pool_row = next((r for r in rows if r.get("choice_group_id") == "CG-BOE-2YR"), None)
+        if pool_row is not None and any(r["all_codes"].startswith("BOE") for r in appends):
+            members = "; ".join(f"{r['subject_name']} ({r['all_codes'].replace(';', '/')})" for r in appends if r["all_codes"].startswith("BOE"))
+            add = f"Members NAMED per released Open-Elective-BTech-2nd-year-2023 doc: {members}"
+            if add.split(':')[0] not in (pool_row.get("notes") or ""):
+                pool_row["notes"] = (pool_row.get("notes", "") + " | " + add).strip(" |")
+                pool_row["change_note_vs_previous"] = (pool_row.get("change_note_vs_previous", "") + "; " if pool_row.get("change_note_vs_previous") else "") + "Members named from released companion doc (CG-BOE-2YR populated with 14 real subject rows)"
+            # supersede stale quarantine wording in the group policy (brain clause:
+            # determine-then-fix; the superseded print stays in change_note history)
+            stale = "The individual member subjects are NOT named in any authorized document"
+            if stale in (pool_row.get("choice_group_policy", "") or ""):
+                old_policy = pool_row["choice_group_policy"]
+                head = old_policy.split("The individual member subjects")[0].rstrip(" ")
+                pool_row["choice_group_policy"] = (head + " The 14 member subjects are NAMED in the released companion doc "
+                    "Open-Elective-BTech-2nd-year-2023-08092023.pdf p.1 (owner release recorded in the project charter; "
+                    "the earlier companion quarantine is superseded - prior policy text preserved in change_note_vs_previous) "
+                    "and are carried as 14 real subject rows sharing this group.")
+                pool_row["change_note_vs_previous"] += " | policy superseded (was: " + old_policy + ")"
+            # provenance backfill (per POOL_MEMBERS_NAMED decision): establishing scheme lines + released member table
+            if not pool_row.get("source_syllabus", ""):
+                pool_row["source_syllabus"] = ("B.Tech_2nd_Yr_CSE_v3.pdf#b5579aefa7a2 pp.2,3 SN-1 (BOE3**/BOE4** pool slots)"
+                                               "; Open-Elective-BTech-2nd-year-2023-08092023.pdf#e18a3256f09b7f6e p.1 (member/eligibility table)")
+            if not pool_row.get("source_scheme_line", ""):
+                pool_row["source_scheme_line"] = ("B.Tech_2nd_Yr_CSE_v3.pdf#b5579aefa7a2 pp.2,3 SN-1 (Science Based Open Elective slot, "
+                                                  "subject-codes cell prints the BOE3**/BOE4** pool) ; member/eligibility table: "
+                                                  "Open-Elective-BTech-2nd-year-2023-08092023.pdf#e18a3256f09b7f6e p.1")
+            if not pool_row.get("source_history", ""):
+                pool_row["source_history"] = pool_row["source_syllabus"]
+            touched.setdefault(pool_row["subject_id"], pool_row)
+
+    flagnames = sorted({f[1].split(" ")[0] for f in flags})
+    unresolved = [f for f in flags if f[1].split(" ")[0] not in RESOLVE_APPEND]
+
+    print(f"PLANS|{len(plans)} (UPDATE {sum(1 for p in plans if p['op']=='UPDATE')}, APPEND {sum(1 for p in plans if p['op']=='APPEND')}, TIE {sum(1 for p in plans if p['op']=='TIE')}, SKIP {sum(1 for p in plans if p['op']=='SKIP')})")
+    for p in plans:
+        print(f"PLAN|{p['key']}|T{p['tier']}|{p['op']}|{p['target'] or p['info']}|{(p['name'] or '')[:48]}")
+    print(f"FLAGS|{len(flags)}")
+    for f in flags:
+        print(f"FLAG|{f[0]}|{f[1]}")
+    if unresolved:
+        print(f"UNRESOLVED|{len(unresolved)}: " + "; ".join(sorted({u[1].split(' ')[0] for u in unresolved})))
+    with open(f"{BASE}/decisions_report.json", "w") as fh:
+        json.dump({"plans": plans, "flags": flags}, fh, indent=1, ensure_ascii=False)
+
+    if mode != "commit":
+        print("DRYRUN OK (no write)")
+        return 0
+
+    if unresolved:
+        print("ABORT: unadjudicated flags — add RESOLVE_APPEND entries")
+        return 2
+
+    # write rows back preserving order
+    out_rows = rows
+    # gates
+    g1 = gate_g1(list(out_rows[0].keys()))
+    g2, ncodes = gate_g2(out_rows)
+    g3 = gate_g3(out_rows)
+    g6, checks = gate_g6(out_rows, set(touched.keys()), parsed_dir)
+    print(f"G1|{'PASS' if not g1 else 'FAIL ' + g1}")
+    print(f"G2|{'PASS' if not g2 else 'FAIL ' + g2}|codes={ncodes}")
+    print(f"G3|{'PASS' if not g3 else 'FAIL ' + g3}")
+    print(f"G6|{'PASS' if not g6 else 'FAIL ' + g6}|containment_checks={checks}")
+    if g1 or g2 or g3 or g6:
+        print("ABORT: gate failure")
+        return 2
+
+    ts = datetime.now().astimezone().isoformat(timespec="seconds")
+    os.makedirs(f"{BASE}/backup", exist_ok=True)
+    bkp = f"{BASE}/backup/pre_commit_{ts.replace(':', '').replace('+', 'p')}.csv"
+    shutil.copy(CSV_PATH, bkp)
+    with open(CSV_PATH, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=REF_HEADER, lineterminator="\n")
+        w.writeheader()
+        for r in out_rows:
+            w.writerow({c: r.get(c, "") for c in REF_HEADER})
+    json.dump({"ts": ts, "mode": "commit", "updates": sum(1 for p in plans if p["op"] == "UPDATE"),
+               "appends": sum(1 for p in plans if p["op"] == "APPEND"),
+               "flags": len(flags), "backup": bkp, "codes": ncodes,
+               "rows_after": len(out_rows)},
+              open(f"{BASE}/last_commit.json", "w"), indent=1)
+    print(f"COMMIT OK rows={len(out_rows)} appends={sum(1 for p in plans if p['op']=='APPEND')} backup={bkp}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(run(sys.argv[1], sys.argv[2]))
