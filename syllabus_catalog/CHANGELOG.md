@@ -1,3 +1,7 @@
+# CRON-20261029-B06 — B06 — 2026-10-29
+
+rows 526→648, codes 855, +122 appends/~57 updates across 10 docs (AE y4 x3 + AG x7) incl. baseline G2/G3 repair (74 rows)
+
 - 20261028T200216Z [CRON-20261028-B05] (B05): rows 402→526, codes 485→651, +124 net appends/~697 update plans across 10 docs (4 BPharm eras + BTech ACT/AE wave), 122 cross-era TIEs adjudicated to same-doc rows, 7 legacy-course duplicates deduped; gates G1/G2/G3/G6 PASS — manifest: runs/20261028T200216Z_CRON-20261028-B05_rows-402-526-codes-485-651-124-net-appends-697-u.md
 - 20261028T191859Z [CRON-20261028-B04-repair] (B04R): rows 402→402, codes 485, ~81 field repairs (66 unit-text lecture-count normalizations + 15 lectures_per_unit fills, RMT limit-formula page-image completion); gates G1/G2/G3/G6 PASS — manifest: runs/20261028T191859Z_CRON-20261028-B04-repair_rows-402-402-codes-485-81-field-repairs-66-unit-.md
 - 20261028T184124Z [CRON-20261028-B04] (B04): rows 204→402, codes 270→485, +198 BCA/BPharm appends, ~142 updates across 4 code eras, 2 regulations-only quarantined, G2/G3 pool+code-reuse evolutions; PUSH BLOCKED (no PAT) — manifest: runs/
