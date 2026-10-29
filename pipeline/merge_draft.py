@@ -546,6 +546,12 @@ RESOLVE_APPEND = {
     "CODE-REASSIGNED-ACROSS-SESSIONS": {
         "action": "UPDATE_BY_NAME_TRANSFER_CODE_OWNERSHIP",
         "reason": "AKTU re-uses code slots across sessions within a course. B3 evidence (BCA y1): BBC102 prints as Mathematical Foundation in 2024-25 but as INFORMATION SYSTEMS in the 2025-26 syllabus heading (the 2025-26 scheme table prints BBC106 there); the 18:30 run mislumped BBC102;BBC106;BBC205A into mathematical-foundation. The unique Tier-0 code match's name contradicting the draft name, with exactly one same-course row name-matching, resolves deterministically: the NAME identity row is updated (newest-session fieldwise wins) and code ownership transfers to it (newest print wins; the older row keeps a narrative history mention and follows the status=latest primary-code model). Same recorded pattern as B02's retired KCS403 slot; G2 stays clean because the transfer runs before the gates."},
+    "TIER2": {
+        "action": "ADJUDICATED_PER_KEY_IN_TIER2_OVERRIDES",
+        "reason": "Tier-2 fuzzy matches are adjudicated per draft-subject key in TIER2_OVERRIDES with recorded evidence: name-variant classes (singular/plural, spacing, era-family) ALLOW the fuzzy target; wrong-subject hits are RETARGETed to the vocabulary-evidence row or FORCE_APPENDed as their own row. The per-key action and reason are printed on the TIER2-OVERRIDE flag line."},
+    "TIER2-OVERRIDE": {
+        "action": "APPLY_RECORDED_ACTION",
+        "reason": "The per-key TIER2_OVERRIDES entry for this draft subject (action + recorded evidence in the flag detail); the ladder result is corrected accordingly before the plan is applied."},
 }
 
 # B2: doc-level scope from the PRINTED COVER of each ingested document
@@ -575,6 +581,56 @@ DOC_SCOPE = {
         "branch_names": "Computer Science & Engineering; Computer Engineering; Computer Science; Computer Science and Engineering (Cyber Security); Computer Science and Information Technology; Information Technology; Computer Science and Engineering (Artificial Intelligence); Computer Science and Engineering (Artificial Intelligence & Machine Learning); Computer Science and Engineering (Data Science); Computer Science and Engineering (Internet of Things); Artificial Intelligence & Data Science",
         "program_year": "2",
         "reason": "cover prints exactly this CSE-family branch list for B.Tech 2nd Year, effective 2023-24"},
+    # ---- B06-recovery batch (10 docs; branch = the printed cover branch; program_year
+    # = the semester span the document details, deterministic Sem I-II->1 / V-VI->3 / VII-VIII->4) ----
+    "b1c7a1e455c74556": {"branch_names": "Agricultural Engineering", "program_year": "1",
+        "reason": "cover prints B.Tech Agricultural Engineering evaluation scheme; Sem I-II rows (2008-09 print)"},
+    "9a8392667e90e4a3": {"branch_names": "Agricultural Engineering", "program_year": "3",
+        "reason": "cover prints B.Tech Agricultural Engineering syllabus 2011-12; details Sem V/VI (EAG-5xx/6xx)"},
+    "e7827e01a2bbd920": {"branch_names": "Agricultural Engineering", "program_year": "1",
+        "reason": "cover prints B.Tech Agricultural Engineering syllabus 2013-14; details Sem I/II (NAG-1xx/2xx)"},
+    "e1289ac95e742765": {"branch_names": "Agricultural Engineering", "program_year": "1",
+        "reason": "cover prints B.Tech Agricultural Engineering syllabus 2016-17; details Sem I/II (RAG1xx/2xx)"},
+    "6cc2ad19ea57c8f7": {"branch_names": "Agricultural Engineering", "program_year": "1",
+        "reason": "cover prints B.Tech Agricultural Engineering AICTE model syllabus 2018-19; details Sem I/II (KAS/KAG 1xx/2xx)"},
+    "39fa4e06a25624cd": {"branch_names": "Aeronautical Engineering", "program_year": "4",
+        "reason": "cover prints B.Tech Aeronautical Engineering y4 CBCS syllabus 2019-20 (RAE7xx/8xx, Sem VII/VIII)"},
+    "3e2c219acdd97acf": {"branch_names": "Agricultural Engineering", "program_year": "1",
+        "reason": "cover prints B.Tech Agricultural Engineering y1 model curriculum 2020-21 (KAS/KAG 1xx/2xx)"},
+    "6eec1505e6f7eab9": {"branch_names": "Aeronautical Engineering", "program_year": "4",
+        "reason": "cover prints B.Tech Aeronautical Engineering y4 syllabus 2021-22; Sem VII (KAE-0xx/7xx)"},
+    "f203b50ecf038f52": {"branch_names": "Aeronautical Engineering", "program_year": "4",
+        "reason": "cover prints B.Tech Aeronautical Engineering y4 syllabus 2025-26; Sem VII (BAE7xx)"},
+    "1a91d3db84efabbc": {"branch_names": "Agricultural Engineering", "program_year": "1",
+        "reason": "cover prints B.Tech Agricultural Engineering course structure 2026-27; details y1 Sem I/II (A-generation 1xx/2xx)"},
+}
+
+# ---------------- TIER2_OVERRIDES (per-key adjudications, evidence-recorded) ----------------
+# Tier-2 fuzzy matches are adjudicated PER KEY: ALLOW the fuzzy target (name-
+# variant classes: singular/plural, spacing, era-family), RETARGET to the
+# evidence-correct row, or FORCE_APPEND when the fuzzy hit is a DIFFERENT
+# subject. Restored for the CRON-20261029-B06-recovery re-run from the
+# published B06 manifest ("TIER2_OVERRIDES mechanism added ... per-key,
+# evidence-recorded"), re-evidenced against the drafts + baseline rows.
+TIER2_OVERRIDES = {
+    "06_btech_ae_y4_syllabus-cbcs_2019-20::08::introduction-to-fem": {
+        "action": "RETARGET", "target": "introduction-to-finite-element-methods",
+        "reason": "The T2 hit on introduction-to-cfd (KAE077) is a DIFFERENT subject — draft 'Introduction to FEM' (RAE075 print) shares only 28 generic CFD/numerical terms with it, while the 2020-21 KAE074 'Introduction to Finite Element Methods' row shares 100 distinctive unit-vocabulary terms (FEM assembly, stiffness, beam/boundary approximation classes): same syllabus content reprinted under the 2019-20 RAE-era slot; the RAE075 code lands on that row as an era code addition (older draft backfills only)."},
+    "06_btech_ae_y4_syllabus-cbcs_2019-20::12::aircraft-rules-and-regulation": {
+        "action": "ALLOW",
+        "reason": "Singular/plural print variant of the same subject: draft 'Aircraft Rules and Regulation' (RAE080, 2019-20 CBCS print) vs the 2020-21 KAE075 'Aircraft Rules and Regulations' row — same AE y4 DE subject family, draft is older so it only backfills/corroborates and adds the RAE080 era code."},
+    "06_btech_ae_y4_syllabus-cbcs_2019-20::17::elements-of-aero-elasticity": {
+        "action": "ALLOW",
+        "reason": "Spacing print variant of the same subject: draft 'Elements of Aero Elasticity' (RAE086 print) vs the 2020-21 KAE078 'Elements of Aeroelasticity' row — identical subject across the RAE/KAE era prints; draft is older (backfill + RAE086 code addition)."},
+    "09_btech_ae_y4_syllabus_2025-26::01::aircraft-maintenance": {
+        "action": "ALLOW",
+        "reason": "Era-family match: draft 'Aircraft Maintenance' (BAE071, 2025-26 BAE-era print, fuzzy 85/overlap 102) vs the 2020-21 KAE-era aircraft-engine-maintenance row — the same AE y4 maintenance subject carried across era schemes with high distinctive-vocabulary overlap; 2025-26 is the newest session so its content fieldwise-wins per RULES §3."},
+    "10_btech_ag_course-structure_2026-27::05::fundamentals-of-electronics-engineering": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (live T2 reject, B06 recorded class 'Electronics vs Electrical'): draft 'Fundamentals of Electronics Engineering' (AEC101C/AEC201C, 2026-27 A-generation) fuzzy-hit the just-appended 'Fundamentals of Electrical Engineering' row (AEE101C/AEE201C) from the SAME document — the print carries BOTH as separate subjects with separate code families (AEE=Electrical, AEC=Electronics); RULES §11 never merges two different subjects."},
+    "10_btech_ag_course-structure_2026-27::11::fundamentals-of-mechanical-engineering": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (live T2 reject): draft 'Fundamentals of Mechanical Engineering' (AME101D/AME201D, 2026-27 AG y1) fuzzy-hit the 2020-21 KME101 'Fundamentals of Mechanical Engineering & Mechatronics' row — the names differ by the substantive token 'Mechatronics' (a different combined subject, different era and branch print); evidence inconclusive for identity, so zero-guess keeps separate rows (RULES §4/§11)."},
 }
 
 # ---------------- gates ----------------
@@ -732,6 +788,18 @@ def run(mode, drafts_dir):
                               f"draft course {course_eff} contradicts printed codes; using {next(iter(inferred))}"))
                 course_eff = next(iter(inferred))
             tier, targets, info = ladder(dsub, rows, course_eff)
+            # per-key Tier-2 adjudication (TIER2_OVERRIDES, evidence-recorded):
+            # applied BEFORE the op decision so the plan reflects the verdict.
+            if tier == 2 and TIER2_OVERRIDES.get(key):
+                ov = TIER2_OVERRIDES[key]
+                if ov["action"] == "FORCE_APPEND":
+                    tier, targets = 3, []
+                elif ov["action"] == "RETARGET":
+                    rt = next((r for r in rows if r.get("subject_id") == ov.get("target")), None)
+                    if rt is not None:
+                        targets = [rt]
+                info = info + " | TIER2 override " + ov["action"] + ": " + ov["reason"][:160]
+                flags.append((key, "TIER2-OVERRIDE", ov["action"] + ": " + ov["reason"]))
             if tier == 0 and info.startswith("code-reassigned "):
                 moved = info.split(" ")[1].split(",")
                 flags.append((key, "CODE-REASSIGNED-ACROSS-SESSIONS", info))

@@ -1,3 +1,7 @@
+# CRON-20261029-B06-recovery — B06R — 2026-10-29
+
+rows 526→647, codes 850, +121 appends/~58 updates — B06 CSV-recovery re-run: prior commit 2d7a5ec shipped CHANGELOG+manifest only (CSV lost); re-derived B06's 10 docs (AE y4 x3 + AG x7) incl. 74-row baseline G2/G3 repair redo; gates G1/G2/G3/G6 PASS
+
 # CRON-20261029-B06 — B06 — 2026-10-29
 
 rows 526→648, codes 855, +122 appends/~57 updates across 10 docs (AE y4 x3 + AG x7) incl. baseline G2/G3 repair (74 rows)
