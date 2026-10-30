@@ -1,3 +1,7 @@
+# CRON-20261031-B12 — B12 — 2026-10-30
+
+rows 1068→1113, codes 1764→1947, +45 appends/~165 updates — BTech Biotechnology y1-y4 wave 2014-15→2025-26 (10 docs, 211 subjects drafted); 8 NPTEL raster pages page-image recovered; 17 TIER2_OVERRIDES + 5 name-transfers + 1 slot-skip adjudicated; gates G1/G2/G3/G6 PASS
+
 # CRON-20261031-B11 — B11 — 2026-10-30
 
 rows 979→1068, codes 1494→1749, +89 appends/~188 updates — BME y3/y4 RBM-era + Biotechnology era wave 2009-10→2026-27 (10 docs, 277 subjects drafted); 41 flags adjudicated (20 recorded B11 TIER2_OVERRIDES); doc02 scanned-page OCR recovery page-image-verified; doc04 folded-lab code strips preserved published AKTU ownership; gates G1/G2/G3/G6 PASS

@@ -657,6 +657,30 @@ DOC_SCOPE = {
         "reason": "cover prints B.Tech 3rd year (Sem V-VI) Agricultural Engineering scheme-syllabus 2015-16; details Sem V/VI (NAG-5xx/6xx)"},
     "8ca5b389f76d66d5": {"branch_names": "Agricultural Engineering", "program_year": "4",
         "reason": "cover prints B.Tech 4th Year (Sem VII-VIII) Agricultural Engineering CBCS syllabus 2019-20; details Sem VII/VIII (RAG7xx/8xx)"},
+    # ---- B12 batch (10 docs, all B.Tech Biotechnology; branch = the printed cover
+    # branch (cover print variants 'Bio Technology'/'Biotechnology'/'Bio-Tchnology'
+    # [sic] normalize to the canonical Biotechnology); program_year = the year the
+    # document details) ----
+    "7f23681aed03cd34": {"branch_names": "Biotechnology", "program_year": "1",
+        "reason": "cover prints B.Tech 1st Year (Bio-Tchnology [sic]) scheme 2016-17; Sem I/II rows (RAS/REE/REC/RME 1xx/2xx)"},
+    "65ba77f6adefc408": {"branch_names": "Biotechnology", "program_year": "1",
+        "reason": "cover prints B.Tech 1st Year Biotechnology syllabus 2022-23; details Sem I/II (BAS/BBT/BEE/BEC/BCS/BME 1xx/2xx)"},
+    "cd99a5656cc12101": {"branch_names": "Biotechnology", "program_year": "2",
+        "reason": "cover prints B.Tech. 2nd Year (Bio Technology) model curriculum 2019-20; details Sem III/IV (KBT3xx/4xx)"},
+    "30cfa6b02bc4d971": {"branch_names": "Biotechnology", "program_year": "2",
+        "reason": "cover prints B.Tech 2nd Year Biotechnology scheme-syllabus 2017-18; details Sem III/IV (RAS/RBT/RCE/RCH 3xx/4xx)"},
+    "cf99d60169de6571": {"branch_names": "Biotechnology", "program_year": "2",
+        "reason": "cover prints B.Tech 2nd Year Biotechnology syllabus 2014-15; details Sem III/IV (NBT-3xx/4xx)"},
+    "abdc219693a0bf7f": {"branch_names": "Biotechnology", "program_year": "3",
+        "reason": "cover prints B.Tech 3rd Year Biotechnology syllabus 2020-21; details Sem V/VI (KBT5xx/6xx)"},
+    "421ea0b792f7ab84": {"branch_names": "Biotechnology", "program_year": "3",
+        "reason": "cover prints B.Tech 3rd Year Biotechnology syllabus 2024-25; details Sem V/VI (BBT5xx/6xx)"},
+    "d227ef4b67bad00f": {"branch_names": "Biotechnology", "program_year": "4",
+        "reason": "cover prints B.Tech Biotechnology y4 CBCS syllabus 2019-20; details Sem VII/VIII (RBT7xx/8xx incl. NPTEL DE slots)"},
+    "25a6635f987a015e": {"branch_names": "Biotechnology", "program_year": "4",
+        "reason": "cover prints B.Tech 4th Year Biotechnology syllabus 2021-22; details Sem VII/VIII (KBT7xx/8xx)"},
+    "310bcbf46eecc945": {"branch_names": "Biotechnology", "program_year": "4",
+        "reason": "cover prints B.Tech 4th Year Biotechnology syllabus 2025-26; details Sem VII/VIII (BBT7xx/8xx)"},
 }
 
 # ---------------- TIER2_OVERRIDES (per-key adjudications, evidence-recorded) ----------------
@@ -961,6 +985,58 @@ TIER2_OVERRIDES = {
     "04_btech_bt_syllabus-aicte_2018-19::19::basic-electrical-engineering-laboratory": {
         "action": "RETARGET", "target": "baisc-electrical-engineering-laboratory",
         "reason": "Same-session sem-2 print of the BEE Laboratory subject converging on the BAISC ELECTRICAL ENGINEERING LABORATORY row (KEE-251P already owned there); the draft's inherited parent code KEE201 was stripped at merge (patch_b11_merge_fixes.py — folded print; basic-electrical-engineering keeps KEE101;KEE201 per the published AKTU scheme); experiments update the laboratory row."},
+    # ---- B12 batch (Biotechnology wave) ----
+    "03_btech_bt_y2_model-curriculum_2019-20::08::genetics-molecular-biology": {
+        "action": "ALLOW",
+        "reason": "Name-variant class ('&' vs 'and'): draft 'Genetics & Molecular Biology' (KBT303, 2019-20) vs the genetics-and-molecular-biology row (EBT-403, 2009-10 detailed print) — the same university-wide BT elective across era prints; fuzzy 93/overlap 39 shared distinctive vocabulary (DNA/recombination/genetic-code canon); 2019-20 newer so it fieldwise-wins and EBT-403 gains a KBT303 era code."},
+    "04_btech_bt_y2_scheme-syllabus_2017-18::12::heat-mass-transfer": {
+        "action": "ALLOW",
+        "reason": "'&' vs 'and' print variant: draft 'Heat & Mass Transfer' (RCH406, 2017-18 BT scheme) vs the heat-and-mass-transfer row (KME501;RME502A;BME501;NBT-402;... multi-era ME-family subject that BT schemes print as an elective — it already owns the BT-era NBT-402 code); fuzzy 90/overlap 45; the RCH406 print joins as an era code."},
+    "04_btech_bt_y2_scheme-syllabus_2017-18::13::genetics-molecular-biology": {
+        "action": "ALLOW",
+        "reason": "Name-variant class ('&' vs 'and'): draft 'Genetics & Molecular Biology' (RBT401, 2017-18) vs the genetics-and-molecular-biology row (EBT-403, 2009-10) — same elective across era prints; fuzzy 93/overlap 39; RBT401 joins as an era code."},
+    "05_btech_bt_y2_syllabus_2014-15::07::genetics-molecular-biology": {
+        "action": "ALLOW",
+        "reason": "Name-variant class ('&' vs 'and'): draft 'Genetics & Molecular Biology' (NBT-404, 2014-15) vs the genetics-and-molecular-biology row (EBT-403, 2009-10) — same elective, NBT era print; fuzzy 93/overlap 38; NBT-404 joins as an era code."},
+    "06_btech_bt_y3_syllabus_2020-21::10::molecular-modeling-drug-design": {
+        "action": "ALLOW",
+        "reason": "Same subject, 'Modeling' vs 'Modeling and' print variant: draft 'Molecular Modeling & Drug Design' (KBT057, 2020-21) vs the molecular-modeling-and-drug-design row (EBT-041;NBT-013, 2009-10); fuzzy 94/overlap 118 — huge shared distinctive vocabulary (molecular mechanics/dynamics, QSAR, docking canon); 2020-21 newer so it fieldwise-wins; KBT057 joins as an era code."},
+    "07_btech_bt_y3_syllabus_2024-25::07::biofuel-alcohol-technology": {
+        "action": "ALLOW",
+        "reason": "Singular/plural print variant: draft 'Biofuel & Alcohol Technology' (BBT054, 2024-25) vs the biofuels-alcohol-technology row (EBT-032;NBT-023, 2009-10 'Biofuels & Alcohol Technology'); fuzzy 98/overlap 61; BBT054 joins as the newest era code."},
+    "07_btech_bt_y3_syllabus_2024-25::10::molecular-modeling-drug-design": {
+        "action": "ALLOW",
+        "reason": "Same subject, 'Modeling' vs 'Modeling and' print variant: draft 'Molecular Modeling & Drug Design' (BBT057, 2024-25) vs the molecular-modeling-and-drug-design row (EBT-041;NBT-013); fuzzy 94/overlap 118; BBT057 joins as the newest era code (fieldwise-wins per RULES §3)."},
+    "08_btech_bt_y4_syllabus-cbcs_2019-20::01::bioseperation-down-stream-processing": {
+        "action": "ALLOW",
+        "reason": "Print-variant class: draft 'Bioseperation & Down Stream Processing' (RBT702, 2019-20) vs the bioseperation-down-stream-process row (NBT701, 2016-17 'Bioseperation & Down Stream Process' — trailing 'ing' print variance, the row keeps its establishing print verbatim); fuzzy 96/overlap 134; RBT702 joins as an era code."},
+    "08_btech_bt_y4_syllabus-cbcs_2019-20::02::genomics-and-proteomics": {
+        "action": "ALLOW",
+        "reason": "'and' vs '&' print variant: draft 'Genomics and Proteomics' (RBT701, 2019-20) vs the genomics-proteomics row (EBT-062, 2009-10 'Genomics & Proteomics'); fuzzy 90/overlap 54; RBT701 joins as an era code."},
+    "08_btech_bt_y4_syllabus-cbcs_2019-20::06::biosafety-bioethics-ipr-patents": {
+        "action": "ALLOW",
+        "reason": "Token-order/comma print variant: draft 'Biosafety, Bioethics, IPR & Patents' (RBT703, 2019-20) vs the bioethics-biosafety-ipr row (EBT-702;NBT702, 2009-10 'Bioethics, Biosafety & IPR') — the same biosafety/bioethics/IPR elective canon across era prints (B11 recorded the same class for the 2016-17 NBT702 print); fuzzy 85/overlap 169; RBT703 joins as an era code."},
+    "09_btech_bt_y4_syllabus_2021-22::01::bioseparation-down-stream-processing": {
+        "action": "ALLOW",
+        "reason": "Spelling-variant class: draft 'Bioseparation & Downstream Processing' (KBT071, 2021-22) vs the bioseperation-down-stream-process row (NBT701, 2016-17 — the row keeps the establishing doc's printed misspelling 'Bioseperation...Down Stream' verbatim per RULES §6); fuzzy 93/overlap 133; KBT071 joins as an era code."},
+    "09_btech_bt_y4_syllabus_2021-22::04::biosafety-bioethics-ipr-patents": {
+        "action": "ALLOW",
+        "reason": "Token-order/comma print variant: draft 'Biosafety, Bioethics, IPR & Patents' (KBT074, 2021-22) vs the bioethics-biosafety-ipr row (EBT-702;NBT702) — same elective canon (B11 recorded class); fuzzy 85/overlap 169; KBT074 joins as an era code."},
+    "10_btech_bt_y4_syllabus_2025-26::02::bioseperation-down-stream-processing": {
+        "action": "ALLOW",
+        "reason": "Print-variant class: draft 'Bioseperation & Down Stream Processing' (BBT702, 2025-26) vs the bioseperation-down-stream-process row (NBT701, 2016-17); fuzzy 96/overlap 132; BBT702 joins as the newest era code."},
+    "08_btech_bt_y4_syllabus-cbcs_2019-20::16::tissue-engineering-nptel": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (B06 recorded wrong-subject fuzzy class): draft 'Tissue Engineering (NPTEL)' (RBT082) is the BT y4 CBCS Departmental Elective-V NPTEL web-course slot whose content is the NPTEL online course (raster p.18-19, transcribed); the fuzzy target 'tissue-engineering' (EBM-032;RBM082, branch Biomedical Engineering, 2011-12 detailed print) is the BME-branch university-taught elective — different printed codes, different course context, overlap only 27. RULES §11: never merge two different subjects; APPEND as its own row."},
+    "08_btech_bt_y4_syllabus-cbcs_2019-20::21::industrial-biotechnology-nptel": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (same recorded class): draft 'Industrial Biotechnology (NPTEL)' (RBT087) is the BT y4 CBCS Departmental Elective-VI NPTEL web-course slot (raster p.24, transcribed); the fuzzy target 'industrial-biotechnology' (NBT053, 2016-17 AKTU-taught elective with its own unit syllabus) is a different subject instance — different printed codes and course context, overlap 17. RULES §11: APPEND as its own row."},
+    "09_btech_bt_y4_syllabus_2021-22::07::biostatistics-design-of-experiments": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (same recorded NPTEL class as 08::16/08::21): draft 'Biostatistics & design of experiments' (KBT073, 2021-22 AKTU-taught DE with verbatim unit syllabus) fuzzy-hit the biostatistics-design-of-experiments-nptel row appended earlier in THIS commit (RBT085 NPTEL web-course slot, raster p.22; fuzzy 92 but overlap only 13 — the shared 'biostatistics/design/experiments' tokens carry the score, the unit canons are unrelated: AKTU DE units vs NPTEL course-plan weeks). RULES §11: never merge two different subjects; the dry-run ladder (no same-commit appends visible) had this draft as a plain Tier-3 APPEND — FORCE_APPEND restores that semantics."},
+    "10_btech_bt_y4_syllabus_2025-26::12::open-elective-iv": {
+        "action": "RETARGET", "target": "open-elective-iv",
+        "reason": "Slot-print convergence across sessions (B07 recorded 'same printed slot, two semester/session prints converge on one row' class): draft 'Open Elective-IV' (BBT-era 2025-26 scheme row, code cell prints the BOEM** pool wildcard) — the ladder-time TIE (open-elective-ii;open-elective-iii) is an artifact of BOEM** being a pool wildcard printed on several OE slot rows (G2-exempt: no digits, not a specific code). 10::11 'Open Elective-III' already converged via the recorded name-transfer onto open-elective-iii (appended from doc09's sem-VIII print); the 'Open Elective-IV' name-match row open-elective-iv (appended from doc09) is the deterministic same-name target; RETARGET pins it there and the BOEM** pool print joins its all_codes."},
 }
 
 # ---------------- gates ----------------
