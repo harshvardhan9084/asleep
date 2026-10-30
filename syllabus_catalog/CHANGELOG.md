@@ -1,3 +1,7 @@
+# CRON-20261031-B11 — B11 — 2026-10-30
+
+rows 979→1068, codes 1494→1749, +89 appends/~188 updates — BME y3/y4 RBM-era + Biotechnology era wave 2009-10→2026-27 (10 docs, 277 subjects drafted); 41 flags adjudicated (20 recorded B11 TIER2_OVERRIDES); doc02 scanned-page OCR recovery page-image-verified; doc04 folded-lab code strips preserved published AKTU ownership; gates G1/G2/G3/G6 PASS
+
 # CRON-20261031-B10 — B10 — 2026-10-30
 
 rows 875→979, codes 1346→1494, +104 appends/~107 updates/!104 repairs — BTech AU y4 five-era completion + Bioinformatics y2/y3 + BME 2009-10/2011-12 + AE/ECE-EI 2016-17 _2 copy (10 docs, 215 subjects drafted); EBM-012 slot reassignment recorded (REHAB→BIOELECTRICITY); HAP sem-IV/V split repaired (§11); G6 durable-corpus fallback + OCR-evidence remedies; gates G1/G2/G3/G6 PASS
