@@ -603,6 +603,27 @@ DOC_SCOPE = {
         "reason": "cover prints B.Tech Aeronautical Engineering y4 syllabus 2025-26; Sem VII (BAE7xx)"},
     "1a91d3db84efabbc": {"branch_names": "Agricultural Engineering", "program_year": "1",
         "reason": "cover prints B.Tech Agricultural Engineering course structure 2026-27; details y1 Sem I/II (A-generation 1xx/2xx)"},
+    # ---- B07 batch (10 docs; branch = printed cover; program_year = semester span detailed) ----
+    "84195404a1800d61": {"branch_names": "Agricultural Engineering", "program_year": "1",
+        "reason": "cover prints B.Tech 1st Year (CSAI-family common scheme) Agricultural Engineering y1 syllabus 2022-23; details Sem I/II (BAS/BEE/BCS 1xx/2xx)"},
+    "ef348f31546b304f": {"branch_names": "Agricultural Engineering", "program_year": "2",
+        "reason": "cover prints B.Tech 2nd Year Agricultural Engineering model curriculum 2019-20; details Sem III/IV (KAG3xx/4xx)"},
+    "9a0417ba1d09dfef": {"branch_names": "Agricultural Engineering", "program_year": "2",
+        "reason": "cover prints B.Tech Second Year Agricultural Engineering Study & Evaluation Scheme with Syllabus 2017-18; details Sem III/IV (RCE/RAG 3xx/4xx)"},
+    "544eb3ca93b0e4a5": {"branch_names": "Agricultural Engineering", "program_year": "2",
+        "reason": "cover prints B.Tech 2nd Year Agricultural Engineering syllabus 2014-15; details Sem III/IV (NAG-3xx/4xx)"},
+    "afe36bc54d1565e0": {"branch_names": "Agricultural Engineering", "program_year": "2",
+        "reason": "cover prints B.Tech 2nd Year (III & IV Sem.) Agricultural Engineering syllabus 2009-10 (filename says y3-4 but print is authoritative); details Sem III/IV (EAG-3xx/4xx)"},
+    "7cc09310bd72356b": {"branch_names": "Agricultural Engineering", "program_year": "3",
+        "reason": "cover prints B.Tech Third Year (Agriculture Engineering) AICTE model curriculum 2020-21; details Sem V/VI (KAG-5xx/6xx)"},
+    "d411cec7864d334a": {"branch_names": "Agricultural Engineering", "program_year": "3",
+        "reason": "cover prints B.Tech 3rd Year Agricultural Engineering syllabus 2018-19; details Sem V/VI (RAG5xx/6xx)"},
+    "02a51ac056f20f11": {"branch_names": "Agricultural Engineering", "program_year": "3",
+        "reason": "cover prints B.Tech Third Year Agricultural Engineering AICTE model curriculum 2024-25; details Sem V/VI (BAG5xx/6xx)"},
+    "69b6c3c47a3fbcb0": {"branch_names": "Agricultural Engineering", "program_year": "3",
+        "reason": "cover prints B.Tech 3rd year (Sem V-VI) Agricultural Engineering scheme-syllabus 2015-16; details Sem V/VI (NAG-5xx/6xx)"},
+    "8ca5b389f76d66d5": {"branch_names": "Agricultural Engineering", "program_year": "4",
+        "reason": "cover prints B.Tech 4th Year (Sem VII-VIII) Agricultural Engineering CBCS syllabus 2019-20; details Sem VII/VIII (RAG7xx/8xx)"},
 }
 
 # ---------------- TIER2_OVERRIDES (per-key adjudications, evidence-recorded) ----------------
@@ -631,6 +652,49 @@ TIER2_OVERRIDES = {
     "10_btech_ag_course-structure_2026-27::11::fundamentals-of-mechanical-engineering": {
         "action": "FORCE_APPEND",
         "reason": "Different subject (live T2 reject): draft 'Fundamentals of Mechanical Engineering' (AME101D/AME201D, 2026-27 AG y1) fuzzy-hit the 2020-21 KME101 'Fundamentals of Mechanical Engineering & Mechatronics' row — the names differ by the substantive token 'Mechatronics' (a different combined subject, different era and branch print); evidence inconclusive for identity, so zero-guess keeps separate rows (RULES §4/§11)."},
+    # ---- B07 (CRON-20261030-B07) per-key adjudications, evidence-recorded ----
+    "03_btech_ag_y2_scheme-syllabus_2017-18::00::engineering-maths-iii": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (fuzzy false positive): draft 'Engineering Maths–III' (RAS304/RAS404 dual-session print, 2017-18 AG y2) fuzzy-hit the Mathematics-I (RAG101) / Mathematics-II (RAG201; NAG-201;KAG 201T) rows — but Maths-III is the THIRD-semester Numerical-Techniques/Statistics/Complex-Variables/Integral-Transforms subject, not its I/II predecessors; the unit vocabulary (Bisection, Newton-Raphson, Runge-Kutta, Fourier/Z-transform, C-R equations) is distinctive and absent from Math-I/II rows. AKTU treats Maths-I/II/III as three separate subjects (RULES §11); APPEND as its own row."},
+    "09_btech_ag_y3s5-6_scheme-syllabus_2015-16::10::irrigation-and-drainage-engineering-lab": {
+        "action": "RETARGET", "target": "irrigation-drainage-engineering-lab",
+        "reason": "Same era-family lab row (B7 live evidence): draft 'Irrigation and Drainage Engineering Lab' (NAG-651, 2015-16) vs the irrigation-drainage-engineering-lab row appended this commit from the 2020-21 KAG-651 print — same lab across era schemes; 'and' token variance fell below the fuzzy threshold; NAG-651 joins as the 2015-16 era code."},
+    "03_btech_ag_y2_scheme-syllabus_2017-18::01::universal-human-values-professional-ethics": {
+        "action": "RETARGET", "target": "universal-human-values-and-professional-ethics",
+        "reason": "Same-course era-family row (B7 live evidence): draft 'Universal Human Values & Professional Ethics' (RVE301/RVE401 dual-session print, 2017-18 AG y2) fuzzy-missed the BTech universal-human-values-and-professional-ethics row (BVE301;BVE401;KVE301;KVE401;... 2023-24) only because the token 'and' drops the overlap below threshold — '&' vs 'and' print variance, same subject. The BPharm RVE401 row (cross-course hit) stays separate per RULES §1b; the BTech row gains the RVE era codes as backfill."},
+    "03_btech_ag_y2_scheme-syllabus_2017-18::20::soil-water-conservation-engineering-lab": {
+        "action": "RETARGET", "target": "soil-and-water-conservation-engineering-lab",
+        "reason": "Same-course era-family row (B7 live evidence): draft 'Soil & Water Conservation Engineering Lab' (RAG454, 2017-18 AG y2) vs the soil-and-water-conservation-engineering-lab row (EAG-653;NAG-551, 2011-12/2015-16) — '&' vs 'and' print variance of the same lab; RAG454 joins as the 2017-18 era code."},
+    "07_btech_ag_y3_syllabus_2018-19::00::irrigation-drainage-engg": {
+        "action": "RETARGET", "target": "irrigation-and-drainage-engineering",
+        "reason": "Abbreviated print of the same era-family subject: draft 'Irrigation & Drainage Engg.' (RAG501, 2018-19 AG y3) vs the irrigation-and-drainage-engineering row (EAG-505, 2011-12) — 'Engg.' is a printed abbreviation of 'Engineering' (fuzzy falls below threshold only because of the abbreviation); the unit vocabulary (ET, border/check-basin/furrow, drip/sprinkler, subsurface drainage) is the shared distinctive core. RETARGET keeps one row per subject (RULES G1); RAG501 joins as a 2018-19 era code; later prints (KAG-601 2020-21, BAG601 2024-25) fieldwise-win on the same row."},
+    "07_btech_ag_y3_syllabus_2018-19::08::irrigation-drainage-engg-lab": {
+        "action": "RETARGET", "target": "irrigation-drainage-engineering-lab",
+        "reason": "Abbreviated print of the same era-family lab subject: draft 'Irrigation & Drainage Engg Lab.' (RAG551, 2018-19) vs the irrigation-and-drainage-engineering-lab row appended in this same commit from the 2020-21 KAG-651 print ('Irrigation & Drainage Engineering Lab') — same lab across era schemes; RETARGET before the append keeps one lab row; RAG551 joins as its 2018-19 era code; NAG-651 (2015-16) and BAG651 (2024-25) then converge on the same row by slug/fuzzy."},
+    "01_btech_ag_y1_syllabus_2022-23::09::soft-skills": {
+        "action": "ALLOW",
+        "reason": "Era-family match, same subject lineage: draft 'Soft Skills' (BAS105/BAS205, 2022-23 print, fuzzy 87/overlap 52) vs the soft-skill-i row (KNC-101, 2020-21 AG y1 model-curriculum NC print). The AICTE-model Soft Skills subject carried KNC-101 (2020-21 audit) then BAS105/BAS205 (2021-22 onward); the 2022-23 doc is the newest session so it fieldwise-wins and KNC-101 stays as the era backfill code. Unit vocabulary (communication/leadership/teamwork modules) is the shared subject core."},
+    "01_btech_ag_y1_syllabus_2022-23::12::basic-electrical-engineering-lab": {
+        "action": "RETARGET", "target": "baisc-electrical-engineering-laboratory",
+        "reason": "TIE between two lab rows resolves on code-era identity: the draft 'Basic Electrical Engineering Lab' (BEE151/BEE251, 2022-23 K-era) is the SAME subject as the 2018-19 'BAISC ELECTRICAL ENGINEERING LABORATORY' row (KEE-151P/KEE-251P, print typo retained in *_print) — the BEE code family replaced KEE-151P/251P for Basic Electrical Engineering lab. The competing 'electrical-engineering-lab' row (AEE151C/AEE251C, 2026-27 AG A-generation, name 'Electrical Engineering Lab') is a DIFFERENT subject printed in a different curriculum (live class as B06's Electronics-vs-Electrical); kept separate. 2022-23 fieldwise-wins; KEE-151P/251P backfill."},
+    "01_btech_ag_y1_syllabus_2022-23::17::workshop-practice-lab": {
+        "action": "ALLOW",
+        "reason": "Era-family match: draft 'Workshop Practice Lab' (BWS151/BWS251, 2022-23) vs the multi-era workshop-practice row (EAG255;NEW-151;NEW-251;NEW-252;KWS101;... 2008-09 onward) — same Workshop Practice (lab) subject carried across code eras (NEW/KWS/EAG/BWS); 2022-23 is newest so it fieldwise-wins and older codes backfill."},
+    "06_btech_ag_y3_scheme-syllabus_2020-21::16::irrigation-drainage-engineering": {
+        "action": "ALLOW",
+        "reason": "Era-family match: draft 'Irrigation & Drainage Engineering' (KAG-601, 2020-21, fuzzy 94/overlap 82) vs the irrigation-and-drainage-engineering row (EAG-505, 2011-12 AG y3) — the same AG core subject across era schemes; shared unit vocabulary (ET, border/check-basin/furrow, drip/sprinkler, subsurface drainage) is the distinctive core; 2020-21 is newer so it fieldwise-wins and EAG-505 backfills."},
+    "08_btech_ag_y3_syllabus_2024-25::16::irrigation-drainage-engineering": {
+        "action": "RETARGET", "target": "irrigation-and-drainage-engineering",
+        "reason": "Era-family match, deterministic target: draft 'IRRIGATION & DRAINAGE ENGINEERING' (BAG601, 2024-25, fuzzy 94/overlap 82) vs the same irrigation-and-drainage-engineering row (EAG-505, 2011-12; RAG501 2018-19; KAG-601 2020-21) — the newest 2024-25 print fieldwise-wins; all older era codes backfill. Same subject, identical module structure across the era prints; RETARGET pins the single canonical row."},
+    "08_btech_ag_y3_syllabus_2024-25::24::remote-sensing-and-gis-applications": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (low overlap): draft 'REMOTE SENSING AND GIS APPLICATIONS' (BAG062, AG y3 2024-25, fuzzy 94 but overlap only 27) vs the remote-sensing-and-applications row (BAC-052, ACT y3 2025-26) — distinct branch curricula (AG vs ACT), distinct code families (BAG vs BAC), and the printed name differs by the substantive token 'GIS'; 27% shared vocabulary is generic RS terminology. Zero-guess (RULES §4/§11): separate rows; G3 subject_id suffix carries the distinction."},
+    "09_btech_ag_y3s5-6_scheme-syllabus_2015-16::07::engineering-properties-of-biological-material": {
+        "action": "ALLOW",
+        "reason": "Name-variant match: draft 'Engineering Properties of Biological Material' (NAG-505, 2015-16, fuzzy 87/overlap 41) vs the engineering-properties-of-biological-materials-food-quality row (EAG-era 2011-12 print 'Engineering Properties of Biological Materials & Food Quality') — singular/plural + 'Food Quality' tail print variant of the same AG subject; 2015-16 backfills (older print)."},
+    "09_btech_ag_y3s5-6_scheme-syllabus_2015-16::13::tractor-system-controls": {
+        "action": "ALLOW",
+        "reason": "Spacing print variant: draft 'Tractor System & Controls' (NAG-603, 2015-16, fuzzy 90/overlap 96) vs the tractor-systems-and-controls row (EAG-605, 2011-12) — singular/plural of the same AG subject with 96% distinctive-vocabulary overlap; 2015-16 backfills (older print)."},
 }
 
 # ---------------- gates ----------------
@@ -790,7 +854,13 @@ def run(mode, drafts_dir):
             tier, targets, info = ladder(dsub, rows, course_eff)
             # per-key Tier-2 adjudication (TIER2_OVERRIDES, evidence-recorded):
             # applied BEFORE the op decision so the plan reflects the verdict.
-            if tier == 2 and TIER2_OVERRIDES.get(key):
+            # B7 remedy: RETARGET overrides also apply at tier 3 (no-match
+            # appends) — evidence: 'Irrigation & Drainage Engg.' (RAG501) and
+            # 'Soil & Water Conservation Engineering Lab' (RAG454) fell below
+            # the token-overlap threshold only because of '&'/'Engg.' print
+            # variance and splintered era-family rows; RETARGET at tier 3
+            # converts the append into an UPDATE on the canonical era row.
+            if TIER2_OVERRIDES.get(key) and (tier == 2 or TIER2_OVERRIDES[key]["action"] == "RETARGET"):
                 ov = TIER2_OVERRIDES[key]
                 if ov["action"] == "FORCE_APPEND":
                     tier, targets = 3, []
@@ -798,6 +868,7 @@ def run(mode, drafts_dir):
                     rt = next((r for r in rows if r.get("subject_id") == ov.get("target")), None)
                     if rt is not None:
                         targets = [rt]
+                        tier = 2
                 info = info + " | TIER2 override " + ov["action"] + ": " + ov["reason"][:160]
                 flags.append((key, "TIER2-OVERRIDE", ov["action"] + ": " + ov["reason"]))
             if tier == 0 and info.startswith("code-reassigned "):
