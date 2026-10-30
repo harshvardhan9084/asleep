@@ -695,6 +695,78 @@ TIER2_OVERRIDES = {
     "09_btech_ag_y3s5-6_scheme-syllabus_2015-16::13::tractor-system-controls": {
         "action": "ALLOW",
         "reason": "Spacing print variant: draft 'Tractor System & Controls' (NAG-603, 2015-16, fuzzy 90/overlap 96) vs the tractor-systems-and-controls row (EAG-605, 2011-12) — singular/plural of the same AG subject with 96% distinctive-vocabulary overlap; 2015-16 backfills (older print)."},
+    # ---- B08 (CRON-20261030-B08) per-key adjudications, evidence-recorded ----
+    "02_btech_ag_y4_syllabus_2016-17::06::soil-and-water-conservation-structures": {
+        "action": "ALLOW",
+        "reason": "Same AG y4 subject across era schemes: draft 'Soil and Water Conservation Structures' (NAG-703, 2016-17 detail print) vs the water-harvesting-soil-and-water-conservation-structures row (KAG-051, 2020-21, fuzzy 87/overlap 71) — the 2020-21 print adds the 'Water Harvesting &' prefix to the same subject name; 71 shared distinctive terms; 2016-17 is older so it only backfills and adds NAG-703 as its era code."},
+    "02_btech_ag_y4_syllabus_2016-17::08::testing-of-agricultural-machinery-and-tractor": {
+        "action": "ALLOW",
+        "reason": "Singular/plural print variant: draft 'Testing of Agricultural Machinery and Tractor' (NAG-031 detail print, 2016-17, fuzzy 99/overlap 41) vs the testing-of-agricultural-machinery-and-tractors row (RAG079A, 2019-20) — same DE-III subject; 2016-17 older so backfill + NAG-031 era-code addition."},
+    "02_btech_ag_y4_syllabus_2016-17::18::renewal-energy-resources": {
+        "action": "ALLOW",
+        "reason": "Print-typo + name-tail variant of the same subject: draft 'Renewal Energy Resources' (NAG-081 detail print, 2016-17, fuzzy 92/overlap 19 — typo 'Renewal' kept verbatim per RULES §6) vs the renewable-energy-sources row (KAG-057, 2020-21); shared RE vocabulary (solar/biogas/wind); 2016-17 backfills and adds NAG-081."},
+    "04_btech_ag_y4_syllabus_2021-22::09::precision-agriculture-and-system-management": {
+        "action": "ALLOW",
+        "reason": "Word-form print variant: draft 'Precision Agriculture and System Management' (KAG-era 2021-22, fuzzy 97/overlap 64) vs the precision-agricultural-and-system-management row (RAG077, 2019-20) — same subject, agricultural/agricultural print variance; 2021-22 is the newer session so its content fieldwise-wins per RULES §3."},
+    "02_btech_ag_y4_syllabus_2016-17::01::precision-agriculture-and-system-management": {
+        "action": "ALLOW",
+        "reason": "Word-form print variant (same class as 04::09): draft 'Precision Agriculture and System Management' (NAG-012 detail print, 2016-17, fuzzy 97/overlap 47) vs the precision-agricultural-and-system-management row (RAG077, 2019-20) — same subject; 2016-17 is older so it only backfills and adds NAG-012 (the 2016-17 detail print of this OE-I subject, moved off the 2015-16 food-processing row by the B08 baseline repair)."},
+    "06_btech_ai-ds_y3_syllabus_2024-25::24::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "Branch-consistent assessment row: the ladder's Tier-0 hit fires the CODE-REASSIGNED name-transfer toward mini-project-or-internship-assessment (primary BAE553; KAG354/BAG554 — AG/AE code family, EMPTY branch_names), which would move CSE-family BCS554 into the AG/AE row (cross-branch pollution, RULES §1b spirit). The CSE&E internship-assessment-mini-project row (branch Computer Science & Engineering;...; all_codes BCC351;KCS354;KEC354;KCS554;BCS554;BCE554) already OWNS BCS554 and matches the 2024-25 AI&DS print — UPDATE there; no transfer needed."},
+    "07_btech_ai-ds_y4_syllabus_2024-25::10::robotics-and-automation": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (live T2 reject, B06 Electronics-vs-Electrical class): draft 'Robotics and Automation' (KAD073, AI&DS Departmental Elective-IV, 2024-25, fuzzy 100/overlap 11) hit the automation-and-robotics row (BOE302/402+H — the university-wide Open Elective slot, CSE branch, 2023-24). Different elective pools (OE-II vs DE-IV), different code families (BOE vs KAD), different branches, and the draft's own print is internally mismatched (KAD073 carries KAD075's ML-Network-Security units/COs per its PRINT-CONTENT-MISMATCH flag, kept verbatim). Zero-guess keeps separate rows (RULES §11)."},
+    "07_btech_ai-ds_y4_syllabus_2024-25::15::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "Branch-consistent assessment row (same class as 06::24): KCS354/KCS554 are ALREADY owned by internship-assessment-mini-project (CSE&E branch, sess 2024-25); the name-transfer toward the AG/AE-named row (empty branch) would pollute across branches. UPDATE the CSE&E row; KCS752 (sem-VII slot print) joins it as a slot code."},
+    "08_btech_ai-ds_y4_syllabus_2025-26::08::mini-projects-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "TIE between internship-assessment-mini-project (fuzzy 94) and mini-project-or-internship-assessment (fuzzy 99) resolves on code-family + branch identity: the draft (BCS752, 2025-26 AI&DS) is the CSE-family assessment slot — the 99-score row is the AG/AE-named row (BAE553;KAG354;BAG554, empty branch); the 94-score row is the CSE&E branch row already carrying BCS554/KCS554/KCS354. 2025-26 is the newest session: fieldwise wins; BCS752 joins."},
+    "09_btech_ai-ml-ai-ds-csd_y2_syllabus-rev_2022-23::09::operating-system-lab": {
+        "action": "RETARGET", "target": "operating-systems-lab-btech",
+        "reason": "Singular/plural print variant, NOT a code reassignment (B06 ALLOW class): draft 'OPERATING SYSTEM LAB' (KCS451, 2022-23 print) vs the KCS451 owner row 'Operating Systems Lab' (KCS451, 2021-22 CSAI print) — the same lab; the bare 'systems'/'system' token variance triggered the name-transfer toward the 2023-24 BCS451 row, which would strand the 2021-22 row codeless and mis-attribute the 2022-23 print. UPDATE the KCS451 owner row; 2022-23 fieldwise wins; KCS451 stays in its family row with KCS452/KCS453."},
+    "02_btech_ag_y4_syllabus_2016-17::26::project": {
+        "action": "RETARGET", "target": "project",
+        "reason": "Same printed subject, two semester slots: the 2016-17 AG y4 document prints 'Project' in BOTH the Sem-VII (NAG-753, P=8) and Sem-VIII (NAG-852, P=12) scheme tables — one slot-subject across two semester tables (G.P. GP-101;GP201 precedent: one row, multiple slot codes). 02::23 appends the row (subject_id 'project'); this entry converges the Sem-VIII slot onto it, keeping (name,course) unique (G3) while both codes land in all_codes."},
+    "07_btech_ai-ds_y4_syllabus_2024-25::16::project": {
+        "action": "RETARGET", "target": "project",
+        "reason": "Same program slot, newest print: draft 'Project' (KCS753/KCS851 CO-only block p.22, 2024-25 AI&DS) vs the project row appended in this commit from the 2016-17 AG slot print (NAG-753;NAG-852) — the shared final-year project slot across branches (internship-assessment-mini-project precedent: one assessment row carries multiple branch code families); 2024-25 supplies the printed CO content (2016-17 prints none) so it fieldwise-wins; KCS753/KCS851 join as slot codes; the 2025-26 prints rename the slot to Project-1/Project-II which keep their own rows."},
+    "02_btech_ag_y4_syllabus_2016-17::24::gp": {
+        "action": "RETARGET", "target": "g-p",
+        "reason": "Same subject, print abbreviation: draft 'GP' (NGP701, Sem-VII scheme row, 2016-17) vs the g-p row ('G.P.', GP-101;GP201, 2008-09, AG branch) — GP/G.P. is the printed abbreviation of General Proficiency in the same AG program (the norm_name tokenization differs only by the abbreviation dot); NGP701/NGP801 join as the 2016-17 era codes; 2016-17 newer so it fieldwise-wins (the G.P. slot prints no units/COs in either document)."},
+    "02_btech_ag_y4_syllabus_2016-17::27::gp": {
+        "action": "RETARGET", "target": "g-p",
+        "reason": "Same subject as 02::24: the Sem-VIII G.P. slot print (NGP801) converges on the g-p row (GP-101;GP201;NGP701;NGP801) — one General Proficiency subject across two semester tables, exactly the g-p row's own GP-101;GP201 two-slot pattern."},
+    # ---- B08 cross-draft convergences (same subject printed by multiple batch
+    # documents across sessions; the OLDER draft's row is appended first in
+    # docs-glob order and the newer drafts RETARGET onto it so fieldwise-wins
+    # (RULES §3) converges each subject into ONE row and G3 (name,course)
+    # stays unique) ----
+    "04_btech_ag_y4_syllabus_2021-22::01::wasteland-development": {
+        "action": "RETARGET", "target": "wasteland-development",
+        "reason": "Same subject reprinted across sessions: 02::17 (2016-17, NAG-043/NAG-073) appended the row earlier in this commit; the 2021-22 print (KAG-era) is newer so it fieldwise-wins on the same row; era codes accumulate."},
+    "04_btech_ag_y4_syllabus_2021-22::02::waste-and-by-products-utilization": {
+        "action": "RETARGET", "target": "waste-and-by-products-utilization",
+        "reason": "Same subject reprinted across sessions: 02::12 (2016-17, NAG-062) appended the row earlier in this commit; the 2021-22 print (KAG-era) is newer so it fieldwise-wins on the same row."},
+    "04_btech_ag_y4_syllabus_2021-22::03::crop-process-engineering": {
+        "action": "RETARGET", "target": "crop-process-engg",
+        "reason": "Print-abbreviation variant (B07 'Irrigation & Drainage Engg.' class): draft 'Crop Process Engineering' (2021-22) vs the crop-process-engg row appended from 02::19 (2016-17 print 'Crop Process Engg', NAG-082) — same subject; 2021-22 newer so it fieldwise-wins; the full-form print is recorded in the row's *_print/history."},
+    "04_btech_ag_y4_syllabus_2021-22::04::tractor-design-principles": {
+        "action": "RETARGET", "target": "tractor-design-principles",
+        "reason": "Same subject reprinted across sessions: 02::20 (2016-17, NAG-083) appended the row earlier in this commit; the 2021-22 print (KAG-era) is newer so it fieldwise-wins on the same row."},
+    "04_btech_ag_y4_syllabus_2021-22::07::design-of-agricultural-machinery": {
+        "action": "RETARGET", "target": "design-of-agricultural-machinery",
+        "reason": "Same subject reprinted across sessions: 02::03 (2016-17, NAG-021 detail print moved off the 2015-16 minor-irrigation row by the B08 baseline repair) appended the row earlier in this commit; the 2021-22 print (KAG-era) is newer so it fieldwise-wins on the same row."},
+    "05_btech_ag_y4_syllabus_2025-26::02::tractor-design-principles": {
+        "action": "RETARGET", "target": "tractor-design-principles",
+        "reason": "Same subject, newest print: 05 (BAG-era 2025-26) fieldwise-wins on the row appended from 02::20 (2016-17) and updated by 04::04 (2021-22); BAG071-era slot codes accumulate."},
+    "05_btech_ag_y4_syllabus_2025-26::03::waste-and-by-products-utilization": {
+        "action": "RETARGET", "target": "waste-and-by-products-utilization",
+        "reason": "Same subject, newest print: 05 (BAG-era 2025-26) fieldwise-wins on the row appended from 02::12 (2016-17) and updated by 04::02 (2021-22)."},
+    "08_btech_ai-ds_y4_syllabus_2025-26::00::deep-learning": {
+        "action": "RETARGET", "target": "deep-learning",
+        "reason": "Same AI&DS y4 Departmental Elective across sessions: 07::07 (KDS078, 2024-25) appended the row earlier in this commit; the 2025-26 print (BAI701-era) is newer so it fieldwise-wins; era codes accumulate. Zero-GAP keeps one row per subject (RULES G1)."},
 }
 
 # ---------------- gates ----------------
@@ -1020,8 +1092,12 @@ def run(mode, drafts_dir):
                         if r.get("primary_code", "").strip() == code or norm_code(r.get("primary_code", "")) == code:
                             # primary follows the newest-era print (status=latest row model)
                             alt = [c for c in keep if norm_code(c)]
-                            if alt:
-                                r["primary_code"] = alt[-1]
+                            # B08 remedy: when the transferred code was the row's ONLY
+                            # ownership token, the row becomes a codeless identity row
+                            # (2015-16 sem-6 prints reused verbatim by the 2016-17 y4
+                            # document) — G3 skips empty primary; notes carry
+                            # needs_review for the owner.
+                            r["primary_code"] = alt[-1] if alt else ""
                         seg = (f"; {code} re-assigned by AKTU to {to_row['subject_name']} per the "
                                f"{ra['draft_session']} scheme/syllabus print — narrative mention retained "
                                f"(code-reassigned across sessions; owner directive 2026-10-28 §1b era model)")

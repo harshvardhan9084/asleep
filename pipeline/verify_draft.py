@@ -261,7 +261,17 @@ def main():
                     or "detailed_syllabus_not_printed" in f
                     or "experiments_only_no_units" in f
                     for f in flags_l)
-                if not (s.get("experiments") or scheme_only):
+                # v11 remedy (B08 evidence: 8 project/assessment subjects across
+                # drafts 07/08 print a real CO table — every CO text passed the
+                # containment check below — but NO unit theory anywhere in the
+                # document: the printed design of project / mini-project /
+                # internship-assessment courses. Flagged `co_only_no_units_
+                # printed` at patch time with fulltext evidence; zero-guess
+                # forbids inventing units. Downgraded to WARN with the flag
+                # cited; a theory subject without cos still hard-fails.)
+                co_only = ("co_only_no_units_printed" in f for f in flags_l)
+                co_only = any(co_only) and bool(s.get("cos"))
+                if not (s.get("experiments") or scheme_only or co_only):
                     problems.append(f"{nm}: no units")
             # v10: atomic_codes (regex-provable) is the ONLY draft_codes source
             # — raw opaque normalizations of compound prints ('KMC 101/201' →

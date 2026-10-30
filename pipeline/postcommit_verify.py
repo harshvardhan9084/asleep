@@ -11,7 +11,11 @@ print(f"rows={len(rows)} cols={len(hdr)}")
 kinds = Counter(r['row_kind'] for r in rows)
 print('row_kinds:', dict(kinds))
 
-# G2-style ownership recount
+# G2-style ownership recount — COURSE-SCOPED per RULES §1b (owner directive
+# 2026-10-28; B03 evidence): AKTU re-uses code families across courses (BVE/KVE
+# in BTech AND BCA/BPharm rows are DIFFERENT subjects), so uniqueness is
+# (code, course), not global. B08 evidence: 4 cross-course shared tokens
+# (BVE301/KVE301/KVE401/RVE401) are legitimate §1b rows since B03/B07.
 CODE_RE = re.compile(r"^[A-Z]{2,4}\d{3}[A-Z]?$")
 own = {}
 dup = []
@@ -25,10 +29,12 @@ for r in rows:
         c = c.strip()
         if CODE_RE.match(c):
             toks.add(c)
+    cc = r.get('course_name', '')
     for t in toks:
-        if t in own and own[t] != r['subject_id']:
-            dup.append(t)
-        own[t] = r['subject_id']
+        key = (t, cc)
+        if key in own and own[key] != r['subject_id']:
+            dup.append(f"{t}[{cc}]")
+        own[key] = r['subject_id']
 print(f"owned codes={len(own)} dups={len(dup)} {dup[:5]}")
 
 # new rows sanity

@@ -1,3 +1,7 @@
+# CRON-20261030-B08 — B08 — 2026-10-30
+
+rows 744→777, codes 1089→1164, +33 appends/~101 updates — BTech AG y4 (5 era prints) + AI-DS/AI-ML y2-y4 wave (8 docs, 134 subjects drafted); 2016-17 NAG code-collision adjudicated; 12 cross-draft convergences; gates G1/G2/G3/G6 PASS
+
 # CRON-20261030-B07 — B07 — 2026-10-30
 
 rows 647→744, codes 1089, +97 appends/~121 updates — BTech AG corpus wave (10 docs, 222 subjects drafted); 5 era-splinters converged; gates G1/G2/G3/G6 PASS
