@@ -1,3 +1,7 @@
+# CRON-20261031-B09 — B09 — 2026-10-30
+
+rows 777→875, codes 1164→1346, +98 appends/~102 updates — BTech AU five-era wave (2009-10→2024-25) + AI-ML y4 ×2 + all-branch y1 2016-17 + AE/ECE-EI 2016-17 (9 docs, 200 subjects drafted); B08 BCA-project cross-course contamination repaired (§1b); 3 live cross-draft convergences; gates G1/G2/G3/G6 PASS
+
 # CRON-20261030-B08 — B08 — 2026-10-30
 
 rows 744→777, codes 1089→1164, +33 appends/~101 updates — BTech AG y4 (5 era prints) + AI-DS/AI-ML y2-y4 wave (8 docs, 134 subjects drafted); 2016-17 NAG code-collision adjudicated; 12 cross-draft convergences; gates G1/G2/G3/G6 PASS

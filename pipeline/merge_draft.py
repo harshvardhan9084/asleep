@@ -767,6 +767,56 @@ TIER2_OVERRIDES = {
     "08_btech_ai-ds_y4_syllabus_2025-26::00::deep-learning": {
         "action": "RETARGET", "target": "deep-learning",
         "reason": "Same AI&DS y4 Departmental Elective across sessions: 07::07 (KDS078, 2024-25) appended the row earlier in this commit; the 2025-26 print (BAI701-era) is newer so it fieldwise-wins; era codes accumulate. Zero-GAP keeps one row per subject (RULES G1)."},
+
+    # ---- B09 adjudications (CRON-20261031-B09; AU/AE-ECE-EI/AI-ML wave) ----
+    "01_btech_ai-ml_y4_syllabus_2024-25::14::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B08 evidence class (recorded 07::15/08::08 overrides): the ladder's Tier-0 unique code owner is internship-assessment-mini-project (CSE&E branch; all_codes BCC351;KCS354;KEC354;KCS554;BCS554;BCE554;KCS752;BCS752) but the name-identity transfer targets mini-project-or-internship-assessment (BAE553;KAG354;BAG554, EMPTY branch_names) — the AG/AE-named row — which would move CSE-family codes KCS354/KCS554/KCS752 across branches (RULES §1b spirit, B08 recorded rejection of this exact transfer). UPDATE the CSE&E code-owner row instead; the 2024-25 AI-ML print corroborates (codes already owned)."},
+    "02_btech_ai-ml_y4_syllabus_2025-26::07::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "Same B08 evidence class: BCS752 was joined to internship-assessment-mini-project from the 2025-26 AI&DS print (recorded 07::xx override 'BCS752 joins'); this 2025-26 AI-ML print is the same university-wide assessment slot — the proposed name-transfer to the AG/AE-named row (BAE553;KAG354;BAG554, empty branch) would pollute cross-branch. UPDATE the code-owner row; corroboration-only (BCS752 already owned)."},
+    "02_btech_ai-ml_y4_syllabus_2025-26::06::project": {
+        "action": "RETARGET", "target": "project-1",
+        "reason": "Joint-print corroboration on the BCS753 slot row (B08-recorded semantics 'the 2025-26 prints rename the slot to Project-1/Project-II which keep their own rows'): after patch_b09_merge_fixes.py stripped BCS851 (its sem-VIII slot row project-ii already owns it; print evidence preserved verbatim in the draft quirks), Tier-0 uniquely owns BCS753 at project-1 — but the ladder's name-transfer (draft 'Project' vs row 'Project-1') would move BCS753 to project-btech, undoing the recorded B08 Project-1/Project-II split; RETARGET pins the update to project-1. This draft's CO table is byte-identical to the 2025-26 content already on project-1, so the update is corroboration-only (source_history + change_note; zero field churn). The 'Project'-named row project-btech receives KCS753/KCS851 + 2024-25 CO content from doc01::15 (T1 name identity), completing the B08 '07::16' convergence course-correctly (the B08 override's unfiltered subject_id match had parked those codes on the BCA row — repaired this commit by repair_bca_project_b09.py)."},
+    "03_btech_all-branch_y1_scheme_2016-17::09::electrical-engineering-laboratory": {
+        "action": "RETARGET", "target": "baisc-electrical-engineering-laboratory",
+        "reason": "TIE (fuzzy 92 baisc-electrical-engineering-laboratory vs 88 electrical-engineering-lab) resolves on era-family identity: this doc's own scheme rows print 'Basic Electrical Engg Lab' for REE151 (sem-1) and REE251 (sem-2) while the detail heading prints 'ELECTRICAL ENGINEERING LABORATORY' — the same y1 lab as the BAISC ELECTRICAL ENGINEERING LABORATORY row (KEE-151P;KEE-251P;BEE151;BEE251, print typo retained in *_print; recorded B07 override already established that the competing electrical-engineering-lab row AEE151C/AEE251C 2026-27 AG A-generation is a DIFFERENT subject). REE151/REE251 join as the 2016-17 era codes; 2016-17 older so backfill-empty only."},
+    "04_btech_applied-electronics-ece-ei_syllabus_2016-17::01::control-systems-i": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'Control Systems-I' (NIC-501, 2016-17 AE/ECE/EI sem-5) vs the control-system row (BEC602, 2025-26 ACT) — unit-1 texts near-identical ('Basic Components of a control system, Feedback and its effect, types of feedback control systems...'), fuzzy 90/overlap 82. 2016-17 older so backfill-empty only; NIC-501 joins as the 2016-17 era code."},
+    "04_btech_applied-electronics-ece-ei_syllabus_2016-17::03::microprocessors": {
+        "action": "ALLOW", "target": "",
+        "reason": "Same 8085-microprocessor course across eras: draft u1 'Evolution of microprocessors, Microprocessor architecture and its operations, 8085 pins description...' vs the microprocessor row (KCS403, 2021-22) u1 'Microprocessor evolution and types, microprocessor architecture and operation...'; fuzzy 97/overlap 46. 2016-17 older so backfill-empty only; NEC-503 joins as the era code."},
+    "04_btech_applied-electronics-ece-ei_syllabus_2016-17::16::computer-architecture-and-organization": {
+        "action": "ALLOW", "target": "",
+        "reason": "Word-order name variant of the same subject: 'Computer Architecture and Organization' vs 'Computer Organization and Architecture' (BCS302;KCS302 row) — fuzzy 100 with shared vocabulary; NEC-012 (2016-17 Elective-I) joins as the era code; older so backfill-empty only."},
+    "04_btech_applied-electronics-ece-ei_syllabus_2016-17::17::microwave-engineering": {
+        "action": "ALLOW", "target": "",
+        "reason": "Same microwave-electronics elective lineage: draft units (rectangular waveguides TE/TM, scattering matrix, klystron/TWT tubes, solid-state, measurements) are the microwave core of the microwave-radar-engineering row (BEC073, 2026-27) whose print adds the transmission-line and RADAR units; fuzzy 88/overlap 61 shared distinctive vocabulary. 2016-17 older so backfill-empty only; NEC-601 joins as the era code."},
+    "06_btech_au_syllabus_2009-10::00::mathematics-iii": {
+        "action": "RETARGET", "target": "mathematics-iii-partial-differential-equations-statistical-a",
+        "reason": "Wrong-subject fuzzy hit retargeted to the canonical Mathematics-III row: the ladder's Tier-2 target basic-mathematics-ii (KAG201, AG y2 basic math) is a DIFFERENT subject; the draft 'Mathematics-III' (EAS301/EAS401, 2009-10 AU: complex variable, statistics, numerical techniques) is the same university-wide Mathematics-III subject as the row 'MATHEMATICS-III (Partial Differential Equations, Statistical and Numerical Techniques)' (BAS302;BAS402, 2023-24) — the printed parenthetical names the same statistical/numerical content. 2009-10 oldest so backfill-empty only; EAS301/EAS401 join as era codes."},
+    "06_btech_au_syllabus_2009-10::20::heat-mass-transfer": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family row already carrying KME501;RME502A;BME501;NBT-402;EAG-404 — EME504 (2009-10 AU, the oldest print) joins as an era code; fuzzy 90/overlap 155; older so backfill-empty only."},
+    "07_btech_au_syllabus_2020-21::01::strength-of-material": {
+        "action": "ALLOW", "target": "",
+        "reason": "Same subject, singular/plural print variant: 'Strength of Material' (KME502, 2020-21 AU) vs the strength-of-materials row (KAE403;NAG-304;EAG-405;EAG-454, 2019-20) — fuzzy 98/overlap 145; 2020-21 is the newest print so it fieldwise-wins on the row; KME502 joins as the AU-era code."},
+    "08_btech_au_y2_model-curriculum_2019-20::07::engineering-mechanics": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject fuzzy hit: the Tier-2 target 'Mechanical Engineering' (BMN302, 2024-25 Mining service course) is a DIFFERENT subject; no Engineering Mechanics row exists in BTech (the strength-of-materials-engineering-mechanics row is the AG COMBINED subject, also different). KME402 (2019-20 AU y2 model curriculum) appends as its own row."},
+    "08_btech_au_y2_model-curriculum_2019-20::08::manufacturing-processes": {
+        "action": "FORCE_APPEND",
+        "reason": "Different course designs despite name containment (fuzzy 88): KME403 (2019-20 AU y2) units are casting/moulding, metal cutting, grinding & super-finishing, welding, unconventional machining — a y2 core course; the Tier-2 target basic-manufacturing-processes (NME-101;NME-201, 2013-14 AG y1) prints Engineering Materials + Basic Metal Forming & Casting — the y1 basic course. Zero-guess: appended as its own row; convergence can be re-evidenced later."},
+    "09_btech_au_y3_syllabus_2018-19::01::heat-mass-transfer": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family: RME502 (2018-19 AU y3) joins the heat-and-mass-transfer row already carrying KME501;RME502A;BME501;NBT-402;EAG-404; fuzzy 90/overlap 159; older so backfill-empty only."},
+    "09_btech_au_y3_syllabus_2018-19::21::mechanical-vibration": {
+        "action": "ALLOW", "target": "",
+        "reason": "Singular/plural print variant of the mechanical-vibrations row (KAE056;BAE056, 2020-21): RME063 (2018-19 AU elective) joins as the era code; fuzzy 98/overlap 80; older so backfill-empty only."},
+    "10_btech_au_y3_syllabus_2024-25::06::advance-manufacturing-processes": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject despite name adjacency (fuzzy 87/overlap 15): BME051 (2024-25 AU elective) units are Advanced Machining (EDM/ECM/USM/ AJM), Advanced Casting, Advanced Welding (EBW/LBW/USW), HERF/electro-magnetic/explosive forming, Additive Manufacturing — the ADVANCED-manufacturing subject; the Tier-2 target basic-manufacturing-processes (NME-101;NME-201) prints the y1 basic materials/forming course. Appends as its own row."},
 }
 
 # ---------------- gates ----------------

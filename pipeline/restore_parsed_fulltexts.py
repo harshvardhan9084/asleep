@@ -51,7 +51,7 @@ def main():
             n_miss += 1
             continue
         doc = fitz.open(pdf)
-        pages = [{"page": i + 1, "text": p.get_text() or ""} for i, p in enumerate(doc)]
+        pages = [{"no": i + 1, "text": p.get_text() or ""} for i, p in enumerate(doc)]
         doc.close()
         stem = os.path.basename(e["rel"])[:-4]
         rec = {"rel": e["rel"], "file": os.path.basename(e["rel"]), "sha16": sha, "pages": pages}
@@ -60,7 +60,7 @@ def main():
         # fulltext dump with page markers (same format as dump_fulltext.py)
         with open(os.path.join(PARSED, f"{stem}.fulltext.txt"), "w") as f:
             for p in pages:
-                f.write(f"===== PAGE {p['page']} =====\n{p['text']}\n")
+                f.write(f"===== PAGE {p['no']} =====\n{p['text']}\n")
         have.add(sha)
         n_ok += 1
     print(f"RESTORED|{n_ok} SKIPPED|{n_skip} MISSING|{n_miss}")

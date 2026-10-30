@@ -21,7 +21,8 @@ def main():
             continue
         parts = []
         for p in rec["pages"]:
-            parts.append(MARK.format(n=p["no"]).strip("\n") + "\n" + p["text"])
+            n = p.get("no", p.get("page"))  # parse_batch writes "no"; restore_parsed_fulltexts (pre-fix) wrote "page"
+            parts.append(MARK.format(n=n).strip("\n") + "\n" + p["text"])
         txt = "\n\n".join(parts)
         fp = os.path.join(out, stem + ".fulltext.txt")
         with open(fp, "w") as f:
