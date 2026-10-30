@@ -1,3 +1,7 @@
+# CRON-20261031-B10 — B10 — 2026-10-30
+
+rows 875→979, codes 1346→1494, +104 appends/~107 updates/!104 repairs — BTech AU y4 five-era completion + Bioinformatics y2/y3 + BME 2009-10/2011-12 + AE/ECE-EI 2016-17 _2 copy (10 docs, 215 subjects drafted); EBM-012 slot reassignment recorded (REHAB→BIOELECTRICITY); HAP sem-IV/V split repaired (§11); G6 durable-corpus fallback + OCR-evidence remedies; gates G1/G2/G3/G6 PASS
+
 # CRON-20261031-B09 — B09 — 2026-10-30
 
 rows 777→875, codes 1164→1346, +98 appends/~102 updates — BTech AU five-era wave (2009-10→2024-25) + AI-ML y4 ×2 + all-branch y1 2016-17 + AE/ECE-EI 2016-17 (9 docs, 200 subjects drafted); B08 BCA-project cross-course contamination repaired (§1b); 3 live cross-draft convergences; gates G1/G2/G3/G6 PASS

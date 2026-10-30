@@ -194,7 +194,7 @@ def is_lab_name(n):
     return bool(toks & {"lab", "laboratory", "workshop"})
 
 
-def ladder(dsub, rows, course):
+def ladder(dsub, rows, course, draft_session=""):
     """returns (tier, targets, score_info) — targets: list of row dicts"""
     course = canon_course(course)  # §1b: canonical comparison on both sides
     dcodes = {norm_code(c) for c in dsub.get("codes", [])}
@@ -239,7 +239,40 @@ def ladder(dsub, rows, course):
                 moved = sorted(dcodes & row_owned_codes(t0[0]))
                 return 0, nm, (f"code-reassigned {','.join(moved)}: owned by "
                                f"{t0[0]['subject_id']}; name identity -> {nm[0]['subject_id']}")
-        return 0, t0, "code identity"
+            # B10 remedy (evidence-recorded): the unique T0 owner's name
+            # contradicts the draft name and NO same-course name-identity row
+            # exists. Two live classes (collapsed alnum-name similarity,
+            # SequenceMatcher on norm_name minus non-alnum):
+            #   (a) print variant of the SAME subject — B10 doc08/doc09 evidence:
+            #       BIOINSTRUMENTATION/BIO-INSTRUMENTATION 1.000,
+            #       BIOMATERIALS/BIO-MATERIALS 1.000, BIOMECHANICS/BIO-MECHANICS
+            #       1.000, BIOMEDICAL SIGNAL PROCESSING/BIO-MEDICAL~ 1.000,
+            #       ADVANCED/ADVANCE SEMICONDUCTOR DEVICES 0.982,
+            #       MICROCONTROLLER AND BIOMEDICAL APPLICATIONS/BIO-MEDICAL
+            #       APPLICATION 0.987 — UPDATE the T0 row (newest session
+            #       fieldwise-wins per RULES §3).
+            #   (b) genuine code-slot REASSIGNMENT to a DIFFERENT subject — B10
+            #       evidence: EBM-012 printed as REHABILITATION ENGINEERING in
+            #       the 2010-11 BME scheme (doc08) but as BIOELECTRICITY in the
+            #       2011-12 print (doc09): collapsed similarity 0.359, zero
+            #       shared unit vocabulary. The newest print APPENDS as its own
+            #       row and the code transfers at commit (recorded B3 BBC102 /
+            #       B02 KCS403 era model; the commit reassignment handler strips
+            #       the code from the older row into code_history narrative).
+            sim = SequenceMatcher(None,
+                                  re.sub(r"[^a-z0-9]", "", norm_name(dsub.get("name", ""))),
+                                  re.sub(r"[^a-z0-9]", "", norm_name(t0[0].get("subject_name", "")))).ratio()
+            newer = bool(draft_session) and bool(t0[0].get("effective_session_latest", "")) \
+                    and draft_session > t0[0].get("effective_session_latest", "")
+            if sim < 0.84 and newer:
+                moved = sorted(dcodes & row_owned_codes(t0[0]))
+                return 3, [], (f"code-reassigned {','.join(moved)}: owned by "
+                               f"{t0[0]['subject_id']} ({t0[0].get('effective_session_latest', '')}); "
+                               f"collapsed-name similarity {sim:.2f} < 0.84 = different subject on a "
+                               f"reassigned code slot; newest print ({draft_session}) appends its own "
+                               f"row and the code transfers (B10 recorded remedy)")
+            return 0, t0, ("code identity (name contradicts but collapsed-name similarity "
+                           f"{sim:.2f} >= 0.84 = same-subject print variant)")
     if len(t0) > 1:
         return 0, t0, "TIE code identity across rows"
     hist_ids = set()
@@ -817,6 +850,52 @@ TIER2_OVERRIDES = {
     "10_btech_au_y3_syllabus_2024-25::06::advance-manufacturing-processes": {
         "action": "FORCE_APPEND",
         "reason": "Different subject despite name adjacency (fuzzy 87/overlap 15): BME051 (2024-25 AU elective) units are Advanced Machining (EDM/ECM/USM/ AJM), Advanced Casting, Advanced Welding (EBW/LBW/USW), HERF/electro-magnetic/explosive forming, Additive Manufacturing — the ADVANCED-manufacturing subject; the Tier-2 target basic-manufacturing-processes (NME-101;NME-201) prints the y1 basic materials/forming course. Appends as its own row."},
+
+    # ---- B10 adjudications (CRON-20261031-B10; AU y4 five-era completion +
+    # Bioinformatics y2/y3 + BME 2009-10/2011-12 + AE/ECE-EI 2016-17 _2 copy +
+    # BME-y2 model-curriculum corroborating KEC wave) ----
+    "02_btech_au_y4_syllabus-cbcs_2019-20::00::computer-aided-design-manufacturing": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'COMPUTER AIDED DESIGN & MANUFACTURING' (RME701, 2019-20 AU CBCS) vs the cad-cam-computer-aided-design-and-manufacturing row (EAU701, 2009-10) — the AU y4 CAD/CAM course across era schemes ('&'/name print variance, B07 'Irrigation & Drainage Engg.' class); 2019-20 older than row's era chain so backfill-empty only; RME701 joins as the 2019-20 era code."},
+    "02_btech_au_y4_syllabus-cbcs_2019-20::04::automotive-electrical-electronics-system": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'AUTOMOTIVE ELECTRICAL & ELECTRONICS SYSTEM' (RAU070, 2019-20) vs the automotive-electrical-and-electronics row (KAU 061 2020-21;BAU061 2025-26) — the same AU y4 electrical/electronics systems course carried across KAU/BAU era prints; 2019-20 older so backfill-empty only; RAU070 joins as the era code."},
+    "02_btech_au_y4_syllabus-cbcs_2019-20::10::automotive-pollution-control": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'AUTOMOTIVE POLLUTION & CONTROL' (RAU080, 2019-20; u1 'Pollutants – Sources – Formation – Effects...Emission Standards') vs the automotive-pollution-and-control row (EAU702 2009-10;KAU 071 2020-21, u1 same pollutant-sources/emission-standards vocabulary per B09 ingestion) — same course across EAU/KAU eras; backfill-empty only; RAU080 joins."},
+    "02_btech_au_y4_syllabus-cbcs_2019-20::12::alternate-energy-sourcse-for-automobiles": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject with printed typo kept verbatim: draft 'ALTERNATE ENERGY SOURCSE FOR AUTOBILES' (RAU082, 2019-20; u1 alcohols-as-fuels/alternative-fuels vocabulary) vs the alternative-energy-sources-for-automobiles row (EAU052;EME052, 2009-10) — Alternate/Alternative print variance + 'SOURCSE' typo (quirk-recorded); backfill-empty only; RAU082 joins."},
+    "03_btech_au_y4_syllabus_2016-17::00::computer-aided-design-and-manufacturing": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'Computer Aided Design and Manufacturing' (NAU-701, 2016-17; u1 'Computers in Industrial Manufacturing: Product cycle, CAD/CAM Hardware...') vs the cad-cam-computer-aided-design-and-manufacturing row (EAU701, 2009-10) — same AU y4 CAD/CAM course across N/EAU eras; backfill-empty only; NAU-701 joins as the 2016-17 era code."},
+    "03_btech_au_y4_syllabus_2016-17::04::trouble-shooting-servicing-and-maintenance-of-automobiles": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'Trouble Shooting, Servicing and Maintenance of Automobiles' (NAU-801, 2016-17; u1 'Automobile Maintenance: Importance of maintenance, scheduled and unscheduled...') vs the trouble-shooting-servicing-maintenance-of-automobile row (EAU801, 2009-10) — same course, singular/plural print variance; fuzzy 95/overlap 140; backfill-empty only; NAU-801 joins."},
+    "03_btech_au_y4_syllabus_2016-17::12::alternate-energy-sources-for-automobiles": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'Alternate Energy Sources for Automobiles' (NAU-052, 2016-17; u1 solar/photo-voltaic/Hydrogen/Bio-mass vocabulary) vs the alternative-energy-sources-for-automobiles row (EAU052;EME052, 2009-10) — fuzzy 98/overlap 67; backfill-empty only; NAU-052 joins as the era code."},
+    "03_btech_au_y4_syllabus_2016-17::14::computer-simulation-of-i-c-engines": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'Computer Simulation of I.C. Engines' (NAU-061, 2016-17; u1 'Heat of reaction, Measurement of URP/HRP, Adiabatic flame temperature...') vs the computer-simulation-of-ic-engines-process row (EAU061;EME061;EME062, 2009-10) — same course, 'I.C. Engines' vs 'IC Engines Process' print variance (fuzzy 85/overlap 6 — low overlap reflects the row's scheme-only thin content, name+code-family EAU061 affinity is the identity evidence); backfill-empty only; NAU-061 joins."},
+    "03_btech_au_y4_syllabus_2016-17::16::hydraulic-and-pneumatic-systems": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'Hydraulic and Pneumatic Systems' (NAU-063, 2016-17; u1 fluid properties/units vocabulary) vs the hydraulic-pneumatic-systems row (EAU063;EME063, 2009-10) — fuzzy 93/overlap 148; backfill-empty only; NAU-063 joins as the era code."},
+    "05_btech_au_y4_syllabus_2025-26::00::measurement-metrology": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'Measurement & Metrology' (BME701, 2025-26 AU y4; u1 'Mechanical Measurements: generalized measurement system...sensitivity' vocabulary) vs the measurement-and-metrology row (EME403, 2009-10) — the same AU/ME measurement-and-metrology theory course across eras (the LAB row measurement-metrology-lab is separate, B10 docs 04 KME751 + 05 BME751 both T1 onto it); 2025-26 is the newest session so it fieldwise-wins per RULES §3; EME403 stays as the era backfill code."},
+    "05_btech_au_y4_syllabus_2025-26::01::manufacturing-process-of-automotive-components": {
+        "action": "ALLOW", "target": "",
+        "reason": "Era-family same subject: draft 'Manufacturing Process of Automotive Components' (BAU072, 2025-26; u1 powder-metallurgy/friction-lining vocabulary) vs the manufacturing-of-automotive-components row (RAU063, 2018-19) — same course, 'Process of'/'of' print variance (fuzzy 90/overlap 43); 2025-26 newest so fieldwise-wins; RAU063 stays as the era code."},
+    "02_btech_au_y4_syllabus-cbcs_2019-20::09::automation-robotics": {
+        "action": "RETARGET", "target": "robotics-and-automation",
+        "reason": "TIE (fuzzy 90/90) resolves on branch+era affinity: draft 'AUTOMATION & ROBOTICS' (RME078, 2019-20 AU y4 DE) — the robotics-and-automation row already carries EAU013 (2011-12 AU elective) and KAD073 (2024-25 AI-DS cross-listing), i.e. the SAME AU-branch robotics elective lineage; the competing automation-and-robotics row (BOE302;BOE402, 2023-24) is the 2nd-year university-wide OPEN-ELECTIVE member row (different program level/slot). Name-order print variance ('Automation & Robotics' vs 'Robotics and Automation', B07 abbreviation class); 2019-20 older than the row's 2024-25 so backfill-empty only — the draft's 2019-20 units fill the row's empty unit fields; RME078 joins as the era code."},
+    "10_btech_bme_y2_model-curriculum_2019-20::14::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B08/B09 recorded transfer-rejection class (B09 overrides 01::14/02::07): the ladder's Tier-0 unique code owner IS internship-assessment-mini-project (CSE&E branch; all_codes ...KEC354...) and the name-identity transfer would move the code to mini-project-or-internship-assessment (BAE553;KAG354;BAG554, EMPTY branch_names) across branches. UPDATE the CSE&E code-owner row instead; KEC354 is already owned there so this 2019-20 BME-y2 print is corroboration-only (source_history + change_note)."},
+    "09_btech_bme_syllabus_2011-12::42::biomaterials": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject despite the identical name (live T2 fuzzy 96/overlap 32 reject): the 2011-12 BME print carries TWO different BIOMATERIALS courses — EBM-604 (Sem-VI core-elective; u1 'Introduction: Definition of biomaterials, requirements & classification...Comparison of properties...') already converged on the bio-materials row (B10 doc08 2010-11 EBM-604 append + 09::26 update), and EBM-024 (ELECTIVE-II; u1 'Definition and classification of Biomaterials, surface properties of materials, Electro kinetic theory. Crystal structure of solids...' — entirely different unit text, OCR-recovered p.44, page-image verified) — the draft subagent itself recorded 'EBM-604/EBM-024 same-name Biomaterials kept separate per printed codes'. RULES §11: never merge two different subjects; codes differ. APPEND as its own row (sid biomaterials; G3 name differs from the BIO-MATERIALS row)."},
 }
 
 # ---------------- gates ----------------
@@ -881,7 +960,7 @@ def gate_g3(rows):
     return None if not probs else "; ".join(probs[:6])
 
 
-def gate_g6(rows, touched_ids, parsed_dir):
+def gate_g6(rows, touched_ids, parsed_dir, ocr_rows=frozenset()):
     probs = []
     checks = 0
     by_sha = {}
@@ -892,6 +971,60 @@ def gate_g6(rows, touched_ids, parsed_dir):
         if not isinstance(rec, dict) or "pages" not in rec:
             continue
         by_sha[rec.get("sha16", "")] = "\n".join(p["text"] for p in rec["pages"])
+    # B10 remedy (evidence-recorded): workspace resets wipe per-batch parsed
+    # dirs, so a cited sha16 whose text was verified by an EARLIER run (e.g.
+    # B09's ACT/AI-ML/AU docs cited by rows this batch only corroborates) may
+    # have NO local parsed record. RULES §1c makes the GitHub repo the durable
+    # record — the corpus PDFs live in work/repo_asleep/PDFs/. Resolve such
+    # citations by hashing the repo PDFs and extracting the text layer on
+    # demand, so the spot-check verifies against the ACTUAL cited document
+    # instead of failing on local parsed-dir unavailability. Fabricated
+    # provenance still fails (no corpus doc would contain the text).
+    corpus_index = None
+
+    def corpus_text(sha):
+        nonlocal corpus_index
+        if corpus_index is None:
+            import hashlib as _h
+            corpus_index = {}
+            root = "/home/z/my-project/work/repo_asleep/PDFs"
+            paths = []
+            for dirpath, _dirs, files in os.walk(root):
+                for fn in files:
+                    if fn.lower().endswith(".pdf"):
+                        paths.append(os.path.join(dirpath, fn))
+            for path in paths:
+                try:
+                    h = _h.md5()
+                    with open(path, "rb") as f:
+                        for chunk in iter(lambda: f.read(1 << 20), b""):
+                            h.update(chunk)
+                    corpus_index.setdefault(h.hexdigest()[:16], path)
+                except Exception:
+                    continue
+        path = corpus_index.get(sha)
+        if not path:
+            return None
+        try:
+            import fitz
+            doc = fitz.open(path)
+            txt = "\n".join(p.get_text() for p in doc)
+            doc.close()
+            return txt
+        except Exception:
+            return None
+
+    needed = set()
+    for r in rows:
+        if r.get("subject_id") in touched_ids:
+            for s in re.findall(r"#([0-9a-f]{16})", r.get("source_syllabus", "")):
+                if s not in by_sha:
+                    needed.add(s)
+    corpus_cache = {}
+    for s in sorted(needed):
+        corpus_cache[s] = corpus_text(s)
+        if corpus_cache[s] is not None:
+            by_sha.setdefault(s, corpus_cache[s])
     for r in rows:
         if r.get("subject_id") not in touched_ids:
             continue
@@ -900,6 +1033,19 @@ def gate_g6(rows, touched_ids, parsed_dir):
             continue
         u1 = norm_al(r.get("unit1_text", ""))[:40]
         if u1 and len(u1) >= 20:
+            # B10 remedy (evidence-recorded): rows whose unit text is
+            # OCR-recovered from scanned pages with EMPTY text layer (verifier
+            # v12 flag unit_ocr_recovered_no_text_layer, page-citing quirk,
+            # page-image spot-checks confirm faithful transcription per RULES
+            # §6) — text-layer containment is structurally impossible. The
+            # spot-check is skipped with a recorded WARN; fabricated
+            # provenance of NON-flagged rows still fails.
+            if r["subject_id"] in ocr_rows:
+                checks += 1
+                print(f"G6|OCR_SKIP|{r['subject_id']} (unit text from scanned pages with empty "
+                      f"text layer; unit_ocr_recovered_no_text_layer evidence on the "
+                      f"contributing draft subject — page-image verified)")
+                continue
             # B2 remedy: source_syllabus is a CITATION CHAIN (multiple docs
             # corroborate a row across sessions; apply_update appends per
             # contributing draft). re.search picked the FIRST resolvable 16-hex
@@ -929,7 +1075,9 @@ def gate_g6(rows, touched_ids, parsed_dir):
                     if ok:
                         break
                 if not ok:
-                    probs.append(f"{r['subject_id']}: unit1 containment FAIL vs cited source")
+                    probs.append(f"{r['subject_id']}: unit1 containment FAIL vs cited source "
+                                 f"(u1[:60]={norm_al(r.get('unit1_text',''))[:60]}; "
+                                 f"resolvable={[s for s in shas if s in by_sha]})")
     return (None, checks) if not probs else ("; ".join(probs[:6]), checks)
 
 
@@ -946,6 +1094,11 @@ def run(mode, drafts_dir):
     entries = {e["rel"]: e for e in q["entries"]}
     plans, flags = [], []
     crossref_by_key = {}   # key -> crossref note text (§1b)
+    ocr_rows = set()       # rows whose unit text is OCR-recovered from scanned
+                           # pages with EMPTY text layer (verifier v12 flag
+                           # unit_ocr_recovered_no_text_layer + page-citing
+                           # quirk evidence) — G6 text-layer containment is
+                           # structurally impossible for them (B10 remedy)
     reassignments = []     # recorded code ownership transfers (CODE-REASSIGNED)
     touched = {}          # subject_id -> row dict (updated in place for commit)
     appends = []
@@ -973,7 +1126,7 @@ def run(mode, drafts_dir):
                 flags.append((key, "COURSE-META-FROM-CODES",
                               f"draft course {course_eff} contradicts printed codes; using {next(iter(inferred))}"))
                 course_eff = next(iter(inferred))
-            tier, targets, info = ladder(dsub, rows, course_eff)
+            tier, targets, info = ladder(dsub, rows, course_eff, dmeta["session"])
             # per-key Tier-2 adjudication (TIER2_OVERRIDES, evidence-recorded):
             # applied BEFORE the op decision so the plan reflects the verdict.
             # B7 remedy: RETARGET overrides also apply at tier 3 (no-match
@@ -993,10 +1146,11 @@ def run(mode, drafts_dir):
                         tier = 2
                 info = info + " | TIER2 override " + ov["action"] + ": " + ov["reason"][:160]
                 flags.append((key, "TIER2-OVERRIDE", ov["action"] + ": " + ov["reason"]))
-            if tier == 0 and info.startswith("code-reassigned "):
+            if info.startswith("code-reassigned "):
                 moved = info.split(" ")[1].split(",")
                 flags.append((key, "CODE-REASSIGNED-ACROSS-SESSIONS", info))
-                reassignments.append({"codes": moved, "to_row": targets[0]["subject_id"],
+                reassignments.append({"codes": moved,
+                                      "to_row": targets[0]["subject_id"] if targets else slug(dsub.get("name", "")),
                                       "detail": info, "draft_session": dmeta["session"]})
             dflags_l = [str(f).lower() for f in (dsub.get("flags") or [])]
             alt_pair = any("alternative_pair" in f for f in dflags_l)
@@ -1013,6 +1167,8 @@ def run(mode, drafts_dir):
                 op = ("UPDATE", targets[0])
                 if tier == 2:
                     flags.append((key, f"TIER2 {info}", "review fuzzy match"))
+                if any("unit_ocr_recovered_no_text_layer" in str(f) for f in (dsub.get("flags") or [])):
+                    ocr_rows.add(op[1]["subject_id"])
             elif tier in (0, 1, 2):
                 flags.append((key, f"TIE {info}", "multiple candidate rows"))
                 op = ("TIE", targets)
@@ -1081,6 +1237,8 @@ def run(mode, drafts_dir):
                     appends.append(new)
                     rows.append(new)
                     touched[new["subject_id"]] = new
+                    if any("unit_ocr_recovered_no_text_layer" in str(f) for f in (dsub.get("flags") or [])):
+                        ocr_rows.add(new["subject_id"])
                 elif op[0] == "SKIP":
                     pass
 
@@ -1186,7 +1344,7 @@ def run(mode, drafts_dir):
     g1 = gate_g1(list(out_rows[0].keys()))
     g2, ncodes = gate_g2(out_rows)
     g3 = gate_g3(out_rows)
-    g6, checks = gate_g6(out_rows, set(touched.keys()), parsed_dir)
+    g6, checks = gate_g6(out_rows, set(touched.keys()), parsed_dir, ocr_rows)
     print(f"G1|{'PASS' if not g1 else 'FAIL ' + g1}")
     print(f"G2|{'PASS' if not g2 else 'FAIL ' + g2}|codes={ncodes}")
     print(f"G3|{'PASS' if not g3 else 'FAIL ' + g3}")
