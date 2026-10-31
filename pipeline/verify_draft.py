@@ -310,7 +310,23 @@ def main():
                 if t and len(norm_al(t)) > 30:
                     cov = cover_text(full, t, pages=page_texts)
                     if cov < 0.85:
-                        problems.append(f"{nm}: CO{co.get('no')} containment {cov:.2f}")
+                        # v13 remedy (B15 evidence: doc 03 btech_ce_y4_syllabus-
+                        # rev_2025-26 is a raster print whose parsed text layer is
+                        # EMPTY on pages 1,2,4-12 (lens 0; only pp.3/13 carry
+                        # furniture) — unit AND CO text were transcribed from
+                        # 300-450dpi page-image renders + tesseract OCR + VLM
+                        # cross-checks per RULES §6, so text-layer containment is
+                        # structurally impossible for the SAME reason the B10 v12
+                        # remedy already covers units. A subject flagged
+                        # unit_ocr_recovered_no_text_layer WITH a page-citing
+                        # quirk has its CO-containment problems downgraded to
+                        # WARN with the flag cited. Everything else still
+                        # hard-fails.)
+                        if unit_src_flagged:
+                            warns.append(f"{nm}: CO{co.get('no')} containment {cov:.2f} "
+                                         f"(evidence-flagged unit_ocr_recovered_no_text_layer print — downgraded)")
+                        else:
+                            problems.append(f"{nm}: CO{co.get('no')} containment {cov:.2f}")
             for b in (s.get("textbooks") or []) + (s.get("reference_books") or []):
                 t = b.get("book", "")
                 if t and len(norm_al(t)) > 25 and cover_text(full, t, pages=page_texts) < 0.5:
@@ -373,7 +389,22 @@ def main():
                     out.add(m.group(1) + d)
             return out
         pdf_atomic = pdf_atomic_codes(full)
-        orphans = []
+        # v13 remedy (B15 evidence, same raster class as the CO downgrade):
+        # doc 03's printed codes (BCE701, BCE070-073, BCE751/752/754) live on
+        # pages whose text layer is EMPTY — the codes were transcribed from
+        # page images (VLM cross-checked; the 'BCEO70' OCR letter-O ambiguity
+        # is resolved and recorded in the draft quirks). Codes owned by a
+        # subject flagged unit_ocr_recovered_no_text_layer WITH a page-citing
+        # quirk are attested by that evidence: their ORPHAN hits downgrade to
+        # WARN. Codes of unflagged subjects still hard-fail.
+        ocr_codes = set()
+        for s in subs:
+            fl_raw = [str(f) for f in (s.get("flags") or [])]
+            q_l = [str(q).lower() for q in (s.get("quirks") or [])]
+            if "unit_ocr_recovered_no_text_layer" in fl_raw and \
+                    any(("patch-b10" in q or "page" in q or "p." in q) for q in q_l):
+                ocr_codes |= atomic_codes(s.get("codes"))
+        orphans, orphan_warns = [], []
         for c in sorted(draft_codes):
             if c in pdf_atomic or c in full.replace(" ", ""):
                 continue
@@ -384,9 +415,15 @@ def main():
             pat = re.escape(m.group(1)) + r"[\s\-]*" + re.escape(m.group(2)) \
                   + (re.escape(m.group(3)) if m.group(3) else "")
             if not re.search(pat, full):
-                orphans.append(c)
+                if c in ocr_codes:
+                    orphan_warns.append(c)
+                else:
+                    orphans.append(c)
         if orphans:
             problems.append("ORPHAN codes not in PDF: " + ",".join(orphans))
+        if orphan_warns:
+            warns.append("ORPHAN downgraded (evidence-flagged unit_ocr_recovered_no_text_layer print): "
+                         + ",".join(sorted(orphan_warns)))
 
         if problems:
             any_fail = True

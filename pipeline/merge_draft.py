@@ -726,6 +726,25 @@ DOC_SCOPE = {
         "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. THIRD YEAR (CIVIL ENGINEERING) On Choice Based Credit System [Effective from session 2018-19]'"},
     "3ce1c2a2b92b5bd8": {"branch_names": "Civil Engineering", "program_year": "3",
         "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. THIRD YEAR (CIVIL ENGINEERING) (Effective from session 2020-21)'"},
+    # ---- B15 batch (9 docs: BTech Civil y4 eras + BTech Chemical Engineering) ----
+    "d5349714f37cc8a4": {"branch_names": "Civil Engineering", "program_year": "4",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. FOURTH YEAR (CIVIL ENGINEERING) On Choice Based Credit System (Effective from session 2019-20)'"},
+    "7cdbdbce0c98abe2": {"branch_names": "Civil Engineering", "program_year": "4",
+        "reason": "raster cover (text layer empty); printed codes BCE701/BCE070-073/BCE75x/BCE851 + printed cover read from 300-450dpi page renders (B.Tech IV Year Civil Engineering rev 2025-26) — RULES §6 visible print authoritative"},
+    "52245ed4397dccfc": {"branch_names": "Civil Engineering", "program_year": "4",
+        "reason": "cover prints 'Syllabus 4th Year [Effective from session 2016-17] B. Tech. Civil Engineering'"},
+    "e8a9f24c9ca8616e": {"branch_names": "Civil Engineering", "program_year": "4",
+        "reason": "cover prints 'Curriculum & Evaluation Scheme (VII & VIII semester) ... B. TECH. FOURTH YEAR CIVIL ENGINEERING' (AICTE model per print)"},
+    "f256be81a97e517b": {"branch_names": "Chemical Engineering;Plastic Engineering;Food Technology", "program_year": "1",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS of B. TECH. First Year CH STREAM (Chemical Eng...)' — the CH-stream first-year common course-structure 2026-27; stream list per cover (Chemical Engineering, Plastic Engineering, Food Technology)"},
+    "6ae3a8ec043ecbe5": {"branch_names": "Chemical Engineering", "program_year": "3",
+        "reason": "cover prints 'Evaluation Scheme & Syllabus For B.Tech. 3rd Year (Chemical Engineering) Based On AICTE MODEL CURRICULUM (Effective from the Session: 2024-25)'"},
+    "a2ca2c50abd0b736": {"branch_names": "Chemical Engineering", "program_year": "4",
+        "reason": "cover prints 'Evaluation Scheme & Syllabus For B.TECH. FINAL YEAR (CHEMICAL ENGINEERING) Based On AICTE MODEL CURRICULUM & NEP2020 (Effective from the Session: 2025-26)'"},
+    "43311ba67427581a": {"branch_names": "Chemical Engineering", "program_year": "3",
+        "reason": "cover prints 'SYLLABUS Bachelor of Chemical Engineering 3rd Year (V & VI Semester) (Effective from Session 2015-2016)' (UPTU-era print)"},
+    "1153e3e75b1356b5": {"branch_names": "Chemical Engineering", "program_year": "3",
+        "reason": "cover prints 'PROPOSED STUDY & EVALUATION SCHEME FOR III YEAR B.TECH. (CHEMICAL ENGINEERING) ON CHOICE BASED CREDIT SYSTEM (CBCS) [EFFECTIVE FROM THE SESSION 2018-19]'"},
 }
 
 # ---------------- TIER2_OVERRIDES (per-key adjudications, evidence-recorded) ----------------
@@ -1174,6 +1193,37 @@ TIER2_OVERRIDES = {
     "10_btech_ce_y3_syllabus_2020-21::20::advance-structural-analysis": {
         "action": "ALLOW",
         "reason": "Print-variant of the same subject ('Advance' [sic] vs 'Advanced', typo kept verbatim in name_print per RULES §6): draft 'Advance Structural Analysis' (KCE-061, 2020-21) vs the advanced-structural-analysis row (BCE061, 2024-25) — fuzzy 98/overlap 60; 2020-21 older so backfills-empty only; KCE061 joins as the era code."},
+    # ---- B15 adjudications (evidence: B15 drafts + published 1304-row CSV @ 9f3b260) ----
+    "02_btech_ce_y4_syllabus-cbcs_2019-20::08::air-noise-pollution-control": {
+        "action": "ALLOW",
+        "reason": "Same CE subject, '&'/'and' name-variant print: draft 'Air & Noise Pollution Control' (RCE-era, 2019-20 CBCS) vs the air-and-noise-pollution-control row (BCE057, Civil, 2024-25) — fuzzy 93/overlap 109 shared distinctive vocabulary (identical class to the recorded B14 KCE-057 ALLOW); 2019-20 older so backfills-empty only; the RCE era code joins."},
+    "02_btech_ce_y4_syllabus-cbcs_2019-20::14::finite-element-methods": {
+        "action": "ALLOW",
+        "reason": "Singular/plural print variant of the same subject: draft 'Finite Element Methods' (2019-20) vs the finite-element-method row (RME053, 2018-19, shared-elective row with empty branch scope) — fuzzy 98/overlap 35 distinctive FEM vocabulary (exact-solution-vs-approximate/principle-of-FEM canon); draft corroborates/backfills and the era code joins."},
+    "02_btech_ce_y4_syllabus-cbcs_2019-20::19::urban-transportation-system-planning": {
+        "action": "ALLOW",
+        "reason": "Era-family rename of the same CE subject: draft 'Urban Transportation System & Planning' (RCE-era sem-VII, 2019-20; u1 'Introduction to transportation planning, the planning concept... Nature of traffic problems in cities') vs the transportation-system-planning row (ECE023, Civil, 2010-11; u1 'Introduction: Overview of transportation system, nature of traffic problems in cities') — identical canon, fuzzy 91/overlap 57; 2019-20 is the NEWEST print so it fieldwise-wins per RULES §3 ('Urban' rename recorded via name_print)."},
+    "04_btech_ce_y4_syllabus_2016-17::04::finite-element-methods": {
+        "action": "ALLOW",
+        "reason": "Singular/plural print variant, same class as 02::14: draft 'Finite Element Methods' (NCE-era, 2016-17) vs the finite-element-method row (RME053, 2018-19) — fuzzy 98/overlap 35; 2016-17 older so backfills-empty only; era code joins."},
+    "04_btech_ce_y4_syllabus_2016-17::19::earthquake-resistant-design": {
+        "action": "ALLOW",
+        "reason": "Same subject; the ROW's name carries the recorded print typo 'EARTQUAKE RESISTANT DESIGN' (ECE064, Civil, 2010-11, kept verbatim per RULES §6) while the 2016-17 draft prints 'Earthquake Resistant Design' — fuzzy 98/overlap 44 identical seismic canon (earth structure/seismic waves/IS-code design); draft newer so it fieldwise-wins and corrects nothing in the *_print."},
+    "05_btech_ce_y4_syllabus_2021-22::03::advance-concrete-design": {
+        "action": "ALLOW",
+        "reason": "Adjective print variant of the same CE subject: draft 'Advance Concrete Design' (KCE073, 2021-22; 'Advance' [sic] kept verbatim) vs the ADVANCED CONCRETE DESIGN row (ECE021, Civil, 2010-11) — fuzzy 98/overlap 29; 2021-21 newer print so it fieldwise-wins per RULES §3."},
+    "07_btech_che_s5-6_syllabus_2024-25::21::sustainability-of-environment": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (recorded wrong-subject class, B06 KME403/basic-manufacturing-processes + B09 biochemistry/chemistry evidence): draft 'Sustainability of Environment' (BCH062, CHE sem-VI DE, 2024-25; u1 'Environment and Biodiversity: Definition, scope...Environmental pollution from chemical process industries, Role of chemical engineering in sustainability, Carbon footprint...') vs the environment-sustainability row (AAC101, AG y1 sem-1, 2026-27; u1 'Environment and Ecosystems: Environment — definition, components (atmosphere, hydrosphere...)') — different unit canon (u1 heading AND content structure differ: chemical-process-industry pollution/sustainability canon vs y1 ecosystems-foundation canon), different program level (y1 foundation audit vs y3 branch DE), different code generations; the fuzzy 95 score is carried by shared environmental vocabulary only. APPEND as its own row."},
+    "08_btech_che_s7-8_syllabus_2025-26::06::mini-project-of-internship-assessment": {
+        "action": "RETARGET", "target": "mini-project-or-internship-assessment",
+        "reason": "TIE resolves on the recorded slot-row ownership model: fuzzy 97 (highest) to the cross-branch assessment-slot row whose all_codes already carry the 2025-26 sister-branch print BCS752 ('BCS752 ownership transferred to mini-project-or-internship-assessment per newest printed scheme/syllabus evidence (recorded B3 remedy)' — published CSV change note) and the 2025-26 CE print BCE752 (03::06 in this same commit T1-updates this exact row); the competing internship-assessment-mini-project row is the CSE-family BCC351-primary row (different row per the recorded B12 split). BCH752 is the 2025-26 CHE print of the same assessment slot; newest session so it fieldwise-wins."},
+    "02_btech_ce_y4_syllabus-cbcs_2019-20::11::mini-project": {
+        "action": "RETARGET", "target": "mini-project-or-internship-assessment",
+        "reason": "dv-guard sent the content-less assessment row to T3 (name-only match cannot Tier-2 — recorded B02 guard class), but slot identity is evidenced: the 2025-26 CE print BCE752 'Mini Project or Internship Assessment' T1-updates this exact row in this same commit (03::06), the row is the recorded cross-branch VII-sem mini-project/internship-assessment slot (BAE553;KAG354;BAG554;BME752;KBT752;BCS752;KCE554... all_codes), and RCE752 is the 2019-20 CE print of that same slot ('Mini Project', 8 topics, sem-VII); older print so it backfills-empty only and RCE752 joins as the era code."},
+    "05_btech_ce_y4_syllabus_2021-22::11::mini-project-internship-assessment": {
+        "action": "RETARGET", "target": "mini-project-or-internship-assessment",
+        "reason": "Same recorded slot-row class as 02::11: draft 'Mini Project / Internship Assessment' (KCE752, 2021-22, sem-VII, 8 topics) is the 2021-22 CE print of the cross-branch assessment slot — connective '/' vs 'or' print variance only; the 2025-26 BCE752 print T1-updates the same row in this commit (03::06) and the B12-recorded ownership model carries the slot's branch families on this one row; 2021-22 older than the row's 2024-25 so it backfills-empty only; KCE752 joins as the era code."},
 }
 
 # ---------------- gates ----------------

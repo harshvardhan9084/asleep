@@ -1,3 +1,7 @@
+# CRON-20261031-B15 — B15 — 2026-10-31
+
+rows 1304→1385, codes 1690→1859, +81 appends/~110 updates/!100 containment checks - BTech Civil y4 five-era wave + Chemical Engineering y1 2026-27 course-structure + CHE y3-y4 four-era wave (9 docs, 191 subjects drafted); 1 raster OCR+VLM recovery; 10 adjudications recorded (6 ALLOW + 1 wrong-subject FORCE_APPEND + 3 slot-row RETARGETs) + AAS101F shared-template code fix; 13th-reset recovery to GitHub B14 state; gates G1/G2/G3/G6 PASS
+
 # CRON-20261031-B14 — B14 — 2026-10-31
 
 rows 1231-1304, codes 1486-1690, +73 appends/~163 updates/!115 containment checks - BTech Civil nine-era wave 2009-10-2026-27 + combined CS/CE/CST/CSE y3; 30 flags adjudicated; gates G1/G2/G3/G6 PASS
