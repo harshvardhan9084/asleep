@@ -1,3 +1,7 @@
+# CRON-20261031-B17 — B17 — 2026-10-31
+
+rows 1456-1478, codes 2666-2720, +22 appends/~134 updates/!79 containment checks - BTech CSD/CSE-AI/CSBS NEP2020 y3-y4 wave (2024-25/2025-26) + 2021-22 HSMC/OE-II list + 2020-21 y1 common + 2018-19 CBCS y3 common + 2026-27 A-era y1 course structure (10 docs, 156 subjects drafted); 10 adjudications recorded (2 HSMC slot-code transfers, 3 CSE&E assessment RETARGETs, 1 TIER2 ALLOW, 5 auto name-transfers); 15th-reset recovery to GitHub B16 state; gates G1/G2/G3/G6 PASS
+
 # CRON-20261031-B16 — B16 — 2026-10-31
 
 rows 1385→1456, codes 1859→2666, +71 appends/~132 updates/!93 containment checks - BTech Chemical Engineering five-era wave (2009-10 UPTU E-era y2-4 + 2014-15 N + 2017-18/2019-20 R + 2019-20/2020-21/2021-22 K) + y1 common docs (2022-23 EXCEPT-AG&BT B-era + 2018-19 AICTE + 2024-25 BNC non-credit) (10 docs, 204 subjects drafted); 24 TIER2/TIE/ALT-PAIR adjudications recorded (4 FORCE_APPEND wrong-subject + 3 RETARGET + 12 ALLOW era-family + 5 same-commit convergence); 14th-reset recovery to GitHub B15 state; gates G1/G2/G3/G6 PASS
