@@ -1,3 +1,7 @@
+# CRON-20261031-B13 — B13 — 2026-10-31
+
+rows 1113-1231, codes 1329-1486, +118 appends/~90 updates/!197 repairs
+
 # CRON-20261031-B12 — B12 — 2026-10-30
 
 rows 1068→1113, codes 1764→1947, +45 appends/~165 updates — BTech Biotechnology y1-y4 wave 2014-15→2025-26 (10 docs, 211 subjects drafted); 8 NPTEL raster pages page-image recovered; 17 TIER2_OVERRIDES + 5 name-transfers + 1 slot-skip adjudicated; gates G1/G2/G3/G6 PASS

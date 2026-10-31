@@ -681,6 +681,28 @@ DOC_SCOPE = {
         "reason": "cover prints B.Tech 4th Year Biotechnology syllabus 2021-22; details Sem VII/VIII (KBT7xx/8xx)"},
     "310bcbf46eecc945": {"branch_names": "Biotechnology", "program_year": "4",
         "reason": "cover prints B.Tech 4th Year Biotechnology syllabus 2025-26; details Sem VII/VIII (BBT7xx/8xx)"},
+    # ---- B13 DOC_SCOPE (added post-commit by repair_b13_branch_scope.py evidence; the
+    # B13 merge ran without these, the repair backfilled branch/py from the same covers) ----
+    "2ac6e53d06c52026": {"branch_names": "Carpet & Textile Technology", "program_year": "2;3;4",
+        "reason": "cover prints 'Syllabus 2nd, 3rd and 4th Year [Effective from session 2009-10] — B.TECH. CARPET & TEXTILE TECHNOLOGY' (multi-year doc; per-row year from semester_slots)"},
+    "85fc0a911e174919": {"branch_names": "Carpet & Textile Technology", "program_year": "2",
+        "reason": "cover prints 'Carpet & Textile Technology' under 'B. TECH. SECOND YEAR' (model-curriculum 2019-20)"},
+    "5e07ff5fe10cd6c3": {"branch_names": "Carpet & Textile Technology", "program_year": "2",
+        "reason": "cover prints 'Study & Evaluation Scheme with Syllabus for B.Tech. Second Year Carpet And Textile Technology' (cover variant 'And')"},
+    "641f700a7ab5d96d": {"branch_names": "Carpet & Textile Technology", "program_year": "3",
+        "reason": "cover prints 'B.TECH. THIRD YEAR CARPET & TEXTILE TECHNOLOGY' (model-curriculum 2020-21)"},
+    "c891df6c0f371cb2": {"branch_names": "Carpet & Textile Technology", "program_year": "3",
+        "reason": "cover prints 'B. TECH. THIRD YEAR (CARPET AND TEXTILE TECHNOLOGY)' (cover variant 'AND')"},
+    "020ea64f9757080b": {"branch_names": "Carpet & Textile Technology", "program_year": "3",
+        "reason": "cover prints 'B. TECH. THIRD YEAR / Carpet & Textile Technology' [Effective from the Session: 2024-25]"},
+    "fe2cf38bfff60b34": {"branch_names": "Carpet & Textile Technology", "program_year": "4",
+        "reason": "cover prints 'B. TECH 4th YEAR Carpet & Textile Technology' (CBCS 2019-20)"},
+    "37283cd70588ae6e": {"branch_names": "Carpet & Textile Technology", "program_year": "4",
+        "reason": "cover doubled-glyph garble 'CARPET C T & TEX XTILE TE ECHNOL LOGY' reconstructed CARPET & TEXTILE TECHNOLOGY (page-image evidence)"},
+    "874148082be7bca8": {"branch_names": "Carpet & Textile Technology", "program_year": "4",
+        "reason": "cover prints 'B. TECH. FOURTH YEAR' + branch 'Carpet & Textile Technology' (2025-26)"},
+    "fb01885f539db1af": {"branch_names": "Computer Science;Computer Engineering;Computer Science and Engineering", "program_year": "4",
+        "reason": "cover prints three branches 'Computer Science', 'Computer Engineering', 'Computer Science and Engineering' — combined CS/CE/CSE scheme; cover authoritative"},
 }
 
 # ---------------- TIER2_OVERRIDES (per-key adjudications, evidence-recorded) ----------------
