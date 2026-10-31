@@ -1,3 +1,7 @@
+# CRON-20261101-B18 — B18 — 2026-10-31
+
+rows 1478-1500, codes 2720-2756, +22 appends/~181 updates/!56 containment checks - BTech CSE-AIML/Cyber-Security/CSE-DS/CSE-IoT y3-y4 wave (2022-23/2024-25/2025-26) 10 docs 203 subjects drafted; 16th-reset recovery to GitHub B17 state; 15 TIER2_OVERRIDES adjudications (code-owner RETARGETs + joint-print Project pins) + 2 TIE strips (page-image evidence); gates G1/G2/G3/G6 PASS
+
 # CRON-20261031-B17 — B17 — 2026-10-31
 
 rows 1456-1478, codes 2666-2720, +22 appends/~134 updates/!79 containment checks - BTech CSD/CSE-AI/CSBS NEP2020 y3-y4 wave (2024-25/2025-26) + 2021-22 HSMC/OE-II list + 2020-21 y1 common + 2018-19 CBCS y3 common + 2026-27 A-era y1 course structure (10 docs, 156 subjects drafted); 10 adjudications recorded (2 HSMC slot-code transfers, 3 CSE&E assessment RETARGETs, 1 TIER2 ALLOW, 5 auto name-transfers); 15th-reset recovery to GitHub B16 state; gates G1/G2/G3/G6 PASS

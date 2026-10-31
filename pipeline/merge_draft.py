@@ -817,6 +817,57 @@ DOC_SCOPE = {
 # published B06 manifest ("TIER2_OVERRIDES mechanism added ... per-key,
 # evidence-recorded"), re-evidenced against the drafts + baseline rows.
 TIER2_OVERRIDES = {
+    # ---- B18 (CRON-20261101-B18) per-key adjudications, evidence-recorded ----
+    # Six mini-project prints (2022-23 KCS554 x2, 2024-25 BCS554 x4) + four
+    # DBMS-lab print variants + DW&DM + Constitution: each RETARGETs to the
+    # PUBLISHED code-owner row (the kind-level CODE-REASSIGNED default would
+    # transfer codes onto print-variant name rows, reversing recorded Task-28/
+    # B08/B12 lineage and ping-ponging BCS551/KCS551 between variant rows).
+    "05_btech_cse-cyber-security_y4_syllabus_2025-26::06::project": {
+        "action": "RETARGET", "target": "project-1",
+        "reason": "B18 joint-print Project pin (recorded B09 precedent, merge_draft.py B17-era entry 'Joint-print corroboration on the BCS753 slot row'): after patch_b18_tie_strips.py stripped BCS851 (its sem-VIII slot row project-ii already owns it), Tier-0 uniquely owns BCS753 at project-1 — but the ladder's name-transfer (draft 'Project' vs row 'Project-1') would move BCS753 to project-btech, undoing the recorded B08 Project-1/Project-II split; RETARGET pins the update to project-1. The 2025-26 Cyber-Security print's shared CO table corroborates project-1's published 2025-26 content (B08 AI-DS print) — corroboration-only; the joint print evidence is preserved verbatim in the draft quirks."},
+    "07_btech_cse-ds_y4_syllabus_2025-26::06::project": {
+        "action": "RETARGET", "target": "project-1",
+        "reason": "B18 joint-print Project pin (recorded B09 precedent): BCS851 stripped (project-ii owns it); Tier-0 uniquely owns BCS753 at project-1; the name-transfer toward project-btech would undo the recorded B08 Project-1/Project-II split; RETARGET pins the update to project-1. 2025-26 CSE-DS print corroborates project-1's published 2025-26 content."},
+    "10_btech_cse-iot_y4_syllabus_2025-26::06::project": {
+        "action": "RETARGET", "target": "project-1",
+        "reason": "B18 joint-print Project pin (recorded B09 precedent): BCS851 stripped (project-ii owns it); Tier-0 uniquely owns BCS753 at project-1; the name-transfer toward project-btech would undo the recorded B08 Project-1/Project-II split; RETARGET pins the update to project-1. 2025-26 CSE-IoT print corroborates project-1's published 2025-26 content."},
+    "01_btech_cse-aiml_y3_syllabus-rev_2022-23::16::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B18 mini-project CSE&E code-owner RETARGET class (recorded B17 override of this exact transfer; B16 rejection): the ladder's Tier-0 code-reassigned name-transfer would move KCS554 OUT of the CSE&E code-owner row internship-assessment-mini-project (all_codes BCC351;KCS354;KEC354;KCS554;BCS554;BCE554;KCS752, KCS554 owner since Task 28 'KCS554 PS 50' + B02 CSAI sem-5 placement prints) into the AG/AE-named cross-branch slot row (primary BAE553, EMPTY branch_names) — cross-branch pollution, RULES §1b spirit. The draft name 'Mini Project or Internship Assessment' is the 2022-23 print form of the same assessment slot (K-era); UPDATE the CSE&E code-owner row; the RETARGET re-points the registered reassignment (no other row claims KCS554)."},
+    "02_btech_cse-aiml_y3_syllabus_2024-25::24::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B18 mini-project CSE&E code-owner RETARGET class (recorded B17 override of this exact transfer): BCS554 is ALREADY owned by the CSE&E code-owner row internship-assessment-mini-project; the name-transfer toward the AG/AE-named cross-branch row (BAE553 primary, empty branch) is rejected per RULES §1b spirit. The draft subject is the 2024-25 AIML y3 scheme-row print (PS=100/Total=100). UPDATE the CSE&E code-owner row; RETARGET re-points the registered reassignment."},
+    "04_btech_cse-cyber-security_y3_syllabus_2024-25::14::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B18 mini-project CSE&E code-owner RETARGET class (recorded B17 override of this exact transfer): draft BCS554 (2024-25 Cyber-Security y3 scheme-row print) — BCS554 is ALREADY owned by the CSE&E code-owner row internship-assessment-mini-project; name-transfer toward the AG/AE-named cross-branch row rejected per RULES §1b spirit. UPDATE the CSE&E code-owner row."},
+    "06_btech_cse-ds_y3_syllabus_2024-25::24::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B18 mini-project CSE&E code-owner RETARGET class (recorded B17 override of this exact transfer; byte-class precedent 06_btech_csd_y3_syllabus_2024-25::24): draft BCS554 (2024-25 CSE-DS y3 scheme-row print 'Mini Project or Internship Assessment*', PS=100/Total=100, footnote 'will be done during summer break after VI Semester... assessed during VII semester' preserved in non_subject_rows) — BCS554 already owned by internship-assessment-mini-project. UPDATE the CSE&E code-owner row."},
+    "08_btech_cse-iot_y3_syllabus-rev_2022-23::27::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B18 mini-project CSE&E code-owner RETARGET class (recorded B17 override of this exact transfer): draft KCS554 (2022-23 CSE-IoT y3 scheme-row print) — KCS554 already owned by the CSE&E code-owner row internship-assessment-mini-project since Task 28. UPDATE the CSE&E code-owner row; RETARGET re-points the registered reassignment."},
+    "09_btech_cse-iot_y3_syllabus_2024-25::24::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B18 mini-project CSE&E code-owner RETARGET class (recorded B17 override of this exact transfer): draft BCS554 (2024-25 CSE-IoT y3 scheme-row print, PS=100/Total=100 coordinate-verified, differs from the sibling 02 print PS50+TE50 — both kept verbatim in the row's scheme history) — BCS554 already owned by internship-assessment-mini-project. UPDATE the CSE&E code-owner row."},
+    "01_btech_cse-aiml_y3_syllabus-rev_2022-23::13::database-management-systems-lab": {
+        "action": "RETARGET", "target": "database-management-system-lab",
+        "reason": "B18 singular/plural print variant, NOT a code reassignment (recorded B06/B17 class, merge_draft.py line-class 'OPERATING SYSTEM LAB' KCS451): draft 'Database Management Systems Lab' (KCS551, 2022-23 AIML print) vs the KCS551 owner row database-management-system-lab ('Database Management System Lab', KCS551, established from B.Tech._3rd_Yr_CSE(AI)_2022_23_revised_.pdf#7d6a8a1f4b44410b — the same 2022-23 CSE-family print family). The bare 'systems'/'system' token variance triggered the name-transfer toward the B-era 'systems' variant row (BCS551 owner), which would strand the K-era row codeless and ping-pong the code against 02::11/04::11/09::11. UPDATE the KCS551 owner row; 2022-23 print corroborates; KCS551 stays in its family row."},
+    "02_btech_cse-aiml_y3_syllabus_2024-25::11::database-management-system-lab": {
+        "action": "RETARGET", "target": "database-management-systems-lab",
+        "reason": "B18 singular/plural print variant, NOT a code reassignment (recorded B06/B17 class): draft 'Database Management System Lab' (BCS551, 2024-25 AIML print) — BCS551 is owned by database-management-systems-lab (B-era variant row). The name-transfer toward the K-era singular row would strand the B-era row codeless and ping-pong the code against 01::13. UPDATE the BCS551 owner row; print variance recorded as a quirk on the updated row (owner open item: variant-name rows pending reconciliation)."},
+    "04_btech_cse-cyber-security_y3_syllabus_2024-25::11::database-management-system-lab": {
+        "action": "RETARGET", "target": "database-management-systems-lab",
+        "reason": "B18 singular/plural print variant, NOT a code reassignment (recorded B06/B17 class): draft 'Database Management System Lab' (BCS551, 2024-25 Cyber-Security print) — BCS551 owned by database-management-systems-lab. UPDATE the BCS551 owner row; RETARGET re-points the registered reassignment (no other row claims BCS551)."},
+    "09_btech_cse-iot_y3_syllabus_2024-25::11::database-management-system-lab": {
+        "action": "RETARGET", "target": "database-management-systems-lab",
+        "reason": "B18 singular/plural print variant, NOT a code reassignment (recorded B06/B17 class): draft 'Database Management System Lab' (BCS551, 2024-25 CSE-IoT print) — BCS551 owned by database-management-systems-lab. UPDATE the BCS551 owner row."},
+    "02_btech_cse-aiml_y3_syllabus_2024-25::04::data-warehouse-data-mining": {
+        "action": "RETARGET", "target": "data-warehousing-and-data-mining",
+        "reason": "B18 DW&DM code-owner RETARGET: draft 'Data Warehouse & Data Mining' (BCS058, 2024-25 AIML y3 print — same '&' name form as the Task-28 establishing print) — BCS058's published owner is data-warehousing-and-data-mining (primary KAI075, all_codes KAI075;BCS058; recorded B08-era code transfer off the name-only row data-warehouse-and-data-mining). The ladder's name-transfer would reverse that recorded ownership onto a codeless variant-name row. UPDATE the published BCS058 owner row; the two variant-name rows remain a recorded owner open item; content corroboration only (same 2024-25 session)."},
+    "06_btech_cse-ds_y3_syllabus_2024-25::25::constitution-of-india-law-and-engineering-indian-tradition-c": {
+        "action": "RETARGET", "target": "constitution-of-india-essence-of-indian-traditional-knowledg",
+        "reason": "B18 Constitution code-owner RETARGET: draft 'Constitution of India. Law and Engineering / Indian Tradition, Culture and Society' (BNC501/BNC502/BNC601/BNC602, 2024-25 CSE-DS scheme-row print, blank credit cells) — the BNC codes' published owner is constitution-of-india-essence-of-indian-traditional-knowledg (recorded Task-28/B08 lineage 'constitution-of-india-or-indian-tradition += BNC...' then transferred). The ladder's name-transfer would move 4 mandatory non-credit codes onto another print-variant row. UPDATE the published BNC owner row; the newer DS print name is recorded in the row's name-print/notes; scheme-row-only (no units/COs printed — zero-guess)."},
     "06_btech_csd_y3_syllabus_2024-25::24::mini-project-or-internship-assessment": {
         "action": "RETARGET", "target": "internship-assessment-mini-project",
         "reason": "B17 mini-project CSE&E code-owner RETARGET class (recorded B16 rejection of this exact transfer): the ladder's Tier-0 code-reassigned name-transfer would move CSE-family BCS554 OUT of the CSE&E code-owner row internship-assessment-mini-project (all_codes BCC351;KCS354;KEC354;KCS554;BCS554;BCE554;KCS752, branch Computer Science & Engineering) into the AG/AE-named cross-branch slot row (primary BAE553, EMPTY branch_names) — cross-branch pollution, RULES §1b spirit. UPDATE the CSE&E code-owner row; the RETARGET re-points the registered reassignment so any OTHER row claiming these codes is stripped to single ownership (G2). The draft subject is the 2024-25 CSD scheme-row print (PS=100, Total=100; no detailed syllabus printed — flagged no_detailed_syllabus_printed)."},
