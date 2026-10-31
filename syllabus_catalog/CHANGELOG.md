@@ -1,3 +1,7 @@
+# CRON-20261031-B16 — B16 — 2026-10-31
+
+rows 1385→1456, codes 1859→2666, +71 appends/~132 updates/!93 containment checks - BTech Chemical Engineering five-era wave (2009-10 UPTU E-era y2-4 + 2014-15 N + 2017-18/2019-20 R + 2019-20/2020-21/2021-22 K) + y1 common docs (2022-23 EXCEPT-AG&BT B-era + 2018-19 AICTE + 2024-25 BNC non-credit) (10 docs, 204 subjects drafted); 24 TIER2/TIE/ALT-PAIR adjudications recorded (4 FORCE_APPEND wrong-subject + 3 RETARGET + 12 ALLOW era-family + 5 same-commit convergence); 14th-reset recovery to GitHub B15 state; gates G1/G2/G3/G6 PASS
+
 # CRON-20261031-B15 — B15 — 2026-10-31
 
 rows 1304→1385, codes 1690→1859, +81 appends/~110 updates/!100 containment checks - BTech Civil y4 five-era wave + Chemical Engineering y1 2026-27 course-structure + CHE y3-y4 four-era wave (9 docs, 191 subjects drafted); 1 raster OCR+VLM recovery; 10 adjudications recorded (6 ALLOW + 1 wrong-subject FORCE_APPEND + 3 slot-row RETARGETs) + AAS101F shared-template code fix; 13th-reset recovery to GitHub B14 state; gates G1/G2/G3/G6 PASS

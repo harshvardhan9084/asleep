@@ -745,6 +745,27 @@ DOC_SCOPE = {
         "reason": "cover prints 'SYLLABUS Bachelor of Chemical Engineering 3rd Year (V & VI Semester) (Effective from Session 2015-2016)' (UPTU-era print)"},
     "1153e3e75b1356b5": {"branch_names": "Chemical Engineering", "program_year": "3",
         "reason": "cover prints 'PROPOSED STUDY & EVALUATION SCHEME FOR III YEAR B.TECH. (CHEMICAL ENGINEERING) ON CHOICE BASED CREDIT SYSTEM (CBCS) [EFFECTIVE FROM THE SESSION 2018-19]'"},
+    # ---- B16 batch (10 docs; branch = printed cover; program_year = semester span detailed) ----
+    "c0a99d3733f78578": {"branch_names": "Chemical Engineering", "program_year": "2-4",
+        "reason": "cover prints 'Syllabus 2nd, 3rd and 4th Year [Effective from session 2009-10] B.TECH. CHEMICAL ENGINEERING' (UPTU-era print)"},
+    "6f38756d90d55d99": {"branch_names": "Chemical Engineering", "program_year": "2",
+        "reason": "cover prints 'Study & Evaluation Scheme with Syllabus for B.Tech. Second Year Chemical Engineering On Choice Based Credit System (Effective from the Session: 2017-18)'"},
+    "7953702843e0bfb6": {"branch_names": "Chemical Engineering", "program_year": "2",
+        "reason": "cover prints 'Syllabus for B. Tech. Chemical Engineering of Second Year (Effective from the Session: 2014-15)' (UPTU-era print)"},
+    "440a08377e3a411c": {"branch_names": "Chemical Engineering", "program_year": "2",
+        "reason": "cover prints 'Evaluation Scheme & Syllabus For B.Tech. 2nd Year (Chemical Engineering) On AICTE MODEL CURRICULUM (Effective from the Session: 2019-20)'"},
+    "108e24cb20fe1213": {"branch_names": "Chemical Engineering", "program_year": "3",
+        "reason": "cover prints 'Evaluation Scheme & Syllabus For B.Tech. 3rd Year (Chemical Engineering) On AICTE MODEL CURRICULUM (Effective from the Session: 2020-21)'"},
+    "8502954d3fcefcb6": {"branch_names": "Chemical Engineering", "program_year": "4",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR B.TECH. FOURTH YEAR (CHEMICAL ENGINEERING) ON CHOICE BASED CREDIT SYSTEM (CBCS)' Session- 2019-20"},
+    "b256e1517a5fc0b7": {"branch_names": "Chemical Engineering", "program_year": "4",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR B.TECH. FOURTH YEAR CHEMICAL ENGINEERING AS PER AICTE MODEL CURRICULUM [Effective from the Session: 2021-22] ... (VII & VIII semester)'"},
+    "7b3d338328997e93": {"branch_names": "Common to All Branches EXCEPT Agriculture Engineering and Biotechnology", "program_year": "1",
+        "reason": "cover prints 'EVALUATION SCHEME AND SYLLABI For B. Tech. 1ST Year Common to All Branches EXCEPT Agriculture Engineering and Biotechnology Effective from the Session: 2022-23' (the EXCEPT scope is the printed eligibility boundary, kept verbatim)"},
+    "c0161d00091ad224": {"branch_names": "", "program_year": "3",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR COMMOM NON CREDIT COURSE (NC) (V & VI Semester) [Effective from the Session: 2024-25] Non Credit Course 2024-25 AICTE Model Curriculum B series' — no branch list printed (university-wide NC courses; branch_names left blank per zero-guess; program_year from the printed V & VI semester span)"},
+    "b686fd84fcbe5544": {"branch_names": "All Branches except Agriculture & Bio Tech", "program_year": "1",
+        "reason": "cover prints 'Evaluation Scheme & Syllabus for B. Tech. (All Branches except Agriculture & Bio Tech) AS PER AICTE MODEL CURRICULUM (Effective from the Session: 2018-19)'"},
 }
 
 # ---------------- TIER2_OVERRIDES (per-key adjudications, evidence-recorded) ----------------
@@ -1224,6 +1245,71 @@ TIER2_OVERRIDES = {
     "05_btech_ce_y4_syllabus_2021-22::11::mini-project-internship-assessment": {
         "action": "RETARGET", "target": "mini-project-or-internship-assessment",
         "reason": "Same recorded slot-row class as 02::11: draft 'Mini Project / Internship Assessment' (KCE752, 2021-22, sem-VII, 8 topics) is the 2021-22 CE print of the cross-branch assessment slot — connective '/' vs 'or' print variance only; the 2025-26 BCE752 print T1-updates the same row in this commit (03::06) and the B12-recorded ownership model carries the slot's branch families on this one row; 2021-22 older than the row's 2024-25 so it backfills-empty only; KCE752 joins as the era code."},
+    # ---- B16 (CRON-20261031-B16) per-key adjudications, evidence-recorded ----
+    "01_btech_che_y2-4_syllabus_2009-10::03::mechanical-operations": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject fuzzy hit (B06 'Electronics vs Electrical' class): draft 'Mechanical Operations' (ECH302, 2009-10 CHE y2; unit vocabulary crushing/grinding/screening/filtration/sedimentation — the CHE unit-operations subject) fuzzy 86-hit mechanical-vibrations (KAE056;BAE056;RME063, AE/ME subject: oscillations/damping/whirling). Zero shared unit vocabulary beyond the generic 'mechanical' token. Appends as its own CHE row; the 2014-15/2017-18/2019-20 CHE prints of the same subject converge on it in this same commit (02::01/03::03/04::07)."},
+    "02_btech_che_y2_scheme-syllabus_2017-18::01::mechanical-operations": {
+        "action": "FORCE_APPEND",
+        "reason": "Same wrong-subject class as 01::03: draft 'Mechanical Operations' (RCH301, 2017-18 CHE y2) vs mechanical-vibrations (AE/ME oscillations subject) — no vocabulary evidence of identity. Appends/converges onto the CHE Mechanical Operations row built in this same commit."},
+    "03_btech_che_y2_syllabus-rev_2014-15::03::mechanical-operations": {
+        "action": "FORCE_APPEND",
+        "reason": "Same wrong-subject class as 01::03: draft 'Mechanical Operations' (NCH301, 2014-15 CHE y2) vs mechanical-vibrations (AE/ME). Appends/converges onto the CHE Mechanical Operations row built in this same commit."},
+    "04_btech_che_y2_syllabus_2019-20::07::mechanical-operations": {
+        "action": "FORCE_APPEND",
+        "reason": "Same wrong-subject class as 01::03: draft 'Mechanical Operations' (KCH301, 2019-20 CHE y2 AICTE-model) vs mechanical-vibrations (AE/ME). Appends/converges onto the CHE Mechanical Operations row built in this same commit."},
+    "01_btech_che_y2-4_syllabus_2009-10::11::chemical-technology-i-organic": {
+        "action": "RETARGET", "target": "chemical-technology-i",
+        "reason": "Same-subject print variant (retarget from the T2 hit chemical-technology-ii NCH602, a DIFFERENT subject): draft 'Chemical Technology-I (Organic)' (ECH404, 2009-10) is the Chemical Technology-I subject (fuzzy 86/15 hit landed on Chem-Tech-II only because both share the 'chemical technology' head); the registry's chemical-technology-i row (NCH505, 2015-16 print) is the same course-by-number subject. '(Organic)' is the printed qualifier of the same slot; 2009-10 is older so it backfills-empty only and ECH404 joins as the era code."},
+    "01_btech_che_y2-4_syllabus_2009-10::31::process-dynamics-control": {
+        "action": "ALLOW",
+        "reason": "Era-family same subject: draft 'Process Dynamics & Control' (ECH602, 2009-10, fuzzy 92/overlap 49) vs the process-dynamics-and-control row — identical CHE control-theory subject (unit vocabulary: control valves, PID, transfer functions, stability); '&' vs 'and' print variance (recorded B07 class). 2009-10 older so it backfills-empty only; ECH602 joins as the era code."},
+    "01_btech_che_y2-4_syllabus_2009-10::41::process-utilities-and-safety-in-chemical-plants": {
+        "action": "ALLOW",
+        "reason": "Era-family same subject: draft 'Process Utilities and Safety in Chemical Plants' (ECH041, 2009-10, fuzzy 91/overlap 131 — massive shared unit vocabulary: fire/explosion hazards, PPE, plant utilities) vs the process-utility-safety-in-chemical-plants row (KCH702 2021-22 print, T1-updated this same commit from 07::03). Name carries the printed 'in Chemical Plants' qualifier; 2009-10 older so backfill-empty only; ECH041 joins as the era code."},
+    "01_btech_che_y2-4_syllabus_2009-10::55::petrochemical-technology": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject fuzzy hit (B06 'Electronics vs Electrical' class): draft 'Petrochemical Technology' (ECH063, 2009-10; petro-feedstock/refining vocabulary) fuzzy 88-hit chemical-technology (BCH603, the inorganic/industrial-chemicals subject) — only the generic 'chemical technology' head is shared. Appends as its own CHE row; the 2019-20 RCH print of the same subject (06::55) converges on it in this same commit."},
+    "05_btech_che_y3_syllabus_2020-21::10::intellectual-property-standardization": {
+        "action": "ALLOW",
+        "reason": "Era-family same subject: draft 'Intellectual Property & Standardization' (KCH058, 2020-21, fuzzy 91/overlap 95) vs the intellectual-property-rights-standardization row — the same IPR & standardization DE subject (IPR types, patents, ISO/IEC standardization vocabulary); '&'/'rights' print variance. 2020-21 vs row's 2021-22 print (07 doc KCH078-era family) — older so backfill-empty only; KCH058 joins as the era code."},
+    "05_btech_che_y3_syllabus_2020-21::12::process-dynamics-control-lab": {
+        "action": "ALLOW",
+        "reason": "Same lab, print variance (dv-guard class): draft 'Process Dynamics & Control Lab' (KCH551, 2020-21, fuzzy 93/overlap 0 — labs carry no unit/CO vocabulary, recorded B02 dv-guard) vs the process-dynamics-and-control-lab row that 01::30 T1-updates in this same commit (ECH-551 print). '&' vs 'and' connective variance (recorded B07 class); KCH551 joins as the era code, backfill-empty only."},
+    "05_btech_che_y3_syllabus_2020-21::13::process-modeling-simulation-lab": {
+        "action": "ALLOW",
+        "reason": "Spelling print variant (recorded Modelling/Modeling class): draft 'Process Modeling & Simulation Lab' (KCH553, 2020-21, fuzzy 93/overlap 11) vs the process-modelling-and-simulation-lab row (British-spelling print). Same CHE simulation lab; 2020-21 older so backfill-empty only; KCH553 joins as the era code."},
+    "05_btech_che_y3_syllabus_2020-21::16::transport-phenomenon": {
+        "action": "ALLOW",
+        "reason": "Singular/plural print variant (recorded B06 class): draft 'Transport Phenomenon' (KCH051, 2020-21, fuzzy 92/overlap 17) vs the transport-phenomena row — same momentum/heat/mass transport subject; KCH051 joins as the era code, backfill-empty only (2020-21 older than the row's session)."},
+    "05_btech_che_y3_syllabus_2020-21::21::environmental-impact-assesment": {
+        "action": "ALLOW",
+        "reason": "Print typo variant (recorded B15 EARTHQUAKE class): draft 'Environmental Impact Assesment' (KCH062, 2020-21, fuzzy 98/overlap 67 — the printed typo 'Assesment' retained verbatim in name_print per RULES §6) vs the environmental-impact-assessment row that 06::06 T1-updates in this same commit (RCH074 print). Same subject; KCH062 joins as the era code."},
+    "06_btech_che_y4_syllabus_2019-20::10::energy-engg-management": {
+        "action": "RETARGET", "target": "energy-engineering-management",
+        "reason": "Abbreviated print of the same era-family subject (recorded B07 'Engg.' abbreviation class): TIE (fuzzy 86/energy-engineering-management vs 87/energy-management) resolves on name-token + era identity: draft 'Energy Engg. & Management' (RCH075, 2019-20) carries the substantive token 'Engg.' (Engineering) and is the 2019-20 print of the SAME DE subject as the energy-engineering-management row (KCH071, 2021-22 'Energy Engineering & Management' print — KCH071 is that row's primary; recorded B07 'Engg.' abbreviation class); the 87-score energy-management hit is the ENERGY MANAGEMENT row appended in this same commit from 01::24 (ECH012, 2009-10 UPTU-era DE print WITHOUT the Engineering token — a different print slot of the era; kept as its own row, RULES §11). RETARGET pins the row; 2019-20 older than 2021-22 so backfill-empty only and RCH075 joins as the era code."},
+    "06_btech_che_y4_syllabus_2019-20::11::project-engg-management": {
+        "action": "RETARGET", "target": "project-engineering-and-management",
+        "reason": "Same-commit era-family convergence (recorded B07 same-commit RETARGET class): draft 'Project Engg. & Management' (RCH076, 2019-20) is the CHE Project Engineering & Management subject whose 2009-10 print (ECH043, 'PROJECT ENGINEERING AND MANAGEMENT', 01::43) appends the canonical row in this same commit; the fuzzy 88 hit project-management (RAU072) is the AU-era university-wide PROJECT MANAGEMENT elective — a different subject (B06 wrong-subject class). RETARGET pins the row; RCH076 joins as the era code, backfill-empty only."},
+    # ---- B16 same-commit convergence adjudications (live-ladder T2 hits on
+    # rows appended EARLIER IN THIS SAME COMMIT — the recorded B15 'live ladder
+    # converged same-commit cross-draft appends' class; decisions dry-run saw
+    # these as T3 no-match because the canonical row did not exist yet) ----
+    "02_btech_che_y2_scheme-syllabus_2017-18::00::environmental-pollution-monitoring-control": {
+        "action": "ALLOW",
+        "reason": "Same-commit era-family convergence: draft 'Environmental Pollution Monitoring & Control' (RCH301, 2017-18) fuzzy 95/115-hits the ENVIRONMENTAL POLLUTION MONITORING AND CONTROL row appended in this same commit from 01::39 (ECH033, 2009-10 print) — identical CHE pollution-monitoring subject ('and' connective variance, B07 recorded class); the later print backfills empty fields and RCH301 joins as the era code per the row's session model."},
+    "04_btech_che_y2_syllabus_2019-20::00::material-and-energy-balance": {
+        "action": "ALLOW",
+        "reason": "Same-commit era-family convergence: draft 'Material And Energy Balance' (KCH301, 2019-20) fuzzy 92/40-hits the Material & Energy Balance row appended in this same commit from 02::04 (RCH301, 2017-18 print) — identical CHE MEB subject ('and' vs '&' connective variance); KCH301 joins as the era code."},
+    "04_btech_che_y2_syllabus_2019-20::09::chemical-engg-thermodynamics": {
+        "action": "ALLOW",
+        "reason": "Same-commit era-family convergence: draft 'Chemical Engg. Thermodynamics' (KCH403, 2019-20) fuzzy 89/45-hits the CHEMICAL ENGINEERING THERMODYNAMICS row appended in this same commit from 01::08 (ECH401, 2009-10 print; 02::10 converges too) — identical subject, 'Engg.' abbreviation class (recorded B07); KCH403 joins as the era code."},
+    "06_btech_che_y4_syllabus_2019-20::00::process-modeling-simulation": {
+        "action": "ALLOW",
+        "reason": "Same-commit era-family convergence: draft 'Process Modeling & Simulation' (RCH701, 2019-20) fuzzy 92/80-hits the PROCESS MODELLING AND SIMULATION row appended in this same commit from 01::45 (ECH701, 2009-10 print) — identical theory subject, recorded Modelling/Modeling spelling + '&'/'and' variance classes; RCH701 joins as the era code."},
+    "07_btech_che_y4_syllabus_2021-22::03::industrial-pollution-abatement-and-waste-management": {
+        "action": "ALLOW",
+        "reason": "Same-commit era-family convergence: draft 'Industrial Pollution Abatement and Waste Management' (KCH074, 2021-22) fuzzy 96/65-hits the INDUSTRIAL POLLUTION ABATEMENT & WASTE MANAGEMENT row appended in this same commit from 01::38 (ECH032, 2009-10 print; 06::07 'IPA & Waste Management' RCH072 converges too) — identical subject, '&'/'and' variance; KCH074 joins as the era code."},
 }
 
 # ---------------- gates ----------------
