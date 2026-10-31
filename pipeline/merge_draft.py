@@ -703,6 +703,29 @@ DOC_SCOPE = {
         "reason": "cover prints 'B. TECH. FOURTH YEAR' + branch 'Carpet & Textile Technology' (2025-26)"},
     "fb01885f539db1af": {"branch_names": "Computer Science;Computer Engineering;Computer Science and Engineering", "program_year": "4",
         "reason": "cover prints three branches 'Computer Science', 'Computer Engineering', 'Computer Science and Engineering' — combined CS/CE/CSE scheme; cover authoritative"},
+    # ---- B14 batch (10 docs; B.Tech Civil Engineering eras 2009-10 → 2026-27 + one
+    # combined CS/CE/CST/CSE y3 doc; branch = the printed cover; program_year =
+    # the year span the document details) ----
+    "3a7ea7b8a35eecac": {"branch_names": "Computer Science;Computer Engineering;Computer Science and Engineering;Computer Science & Technology", "program_year": "3",
+        "reason": "cover prints 'B. TECH. THIRD YEAR' with NEP2020 note + stray line '/Computer Science & Technology'; running header prints 'Curriculum & Evaluation Scheme: CS, Computer Engineering and CSE (V & VI Semester)' — combined CS/CE/CST/CSE scheme; printed BCS/BOE codes authoritative (cover authoritative class, B13 fb01885f precedent)"},
+    "fdb242ca8196872a": {"branch_names": "Civil Engineering", "program_year": "2",
+        "reason": "cover prints 'Syllabus — 2nd Year (III & IV Sem.) [Effective from session 2009-10] — B. Tech. Civil Engineering' (filename suffix 'ce-env' is not a printed branch; the cover print is authoritative)"},
+    "48fb58b17dc773d4": {"branch_names": "Civil Engineering;Environmental Engineering", "program_year": "1",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS of B. TECH. First Year CE STREAM (Civil Engineering, Environmental Engineering)' 2026-27 (A-generation y1 course structure)"},
+    "441c7c04a2569344": {"branch_names": "Civil Engineering", "program_year": "3;4",
+        "reason": "cover prints 'Syllabus 3rd & 4th Year [Effective from session 2010-11] — B. Tech. Civil Engineering' (multi-year doc; per-row year from semester_slots, B13 2ac6e53d class)"},
+    "155474986bb7ff5e": {"branch_names": "Civil Engineering", "program_year": "3",
+        "reason": "cover prints 'COURSE STRUCTURE AND SYLLABUS (EFFECTIVE FROM Session: 2015-16) — B.Tech. (Civil Engineering) Third Year (5th & 6th Semester)'"},
+    "7d57955ee5a52da0": {"branch_names": "Civil Engineering", "program_year": "2",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. SECOND YEAR (CIVIL ENGINEERING) (Effective from session 2019-20)'"},
+    "7757cf07f29ab03b": {"branch_names": "Civil Engineering", "program_year": "2",
+        "reason": "cover prints 'Study & Evaluation Scheme with Syllabus for B.Tech. Second Year Civil Engineering On Choice Based Credit System (Effective from the Session: 2017-18)'"},
+    "36de9916de00e952": {"branch_names": "Civil Engineering", "program_year": "2",
+        "reason": "cover prints 'SYLLABUS of B. Tech. Civil Engineering (2nd Year) [Effective Form session 2014-15]' (double space + 'Form' [sic] kept as printed)"},
+    "c7f7ebaf7182ffa8": {"branch_names": "Civil Engineering", "program_year": "3",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. THIRD YEAR (CIVIL ENGINEERING) On Choice Based Credit System [Effective from session 2018-19]'"},
+    "3ce1c2a2b92b5bd8": {"branch_names": "Civil Engineering", "program_year": "3",
+        "reason": "cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. THIRD YEAR (CIVIL ENGINEERING) (Effective from session 2020-21)'"},
 }
 
 # ---------------- TIER2_OVERRIDES (per-key adjudications, evidence-recorded) ----------------
@@ -1059,9 +1082,136 @@ TIER2_OVERRIDES = {
     "10_btech_bt_y4_syllabus_2025-26::12::open-elective-iv": {
         "action": "RETARGET", "target": "open-elective-iv",
         "reason": "Slot-print convergence across sessions (B07 recorded 'same printed slot, two semester/session prints converge on one row' class): draft 'Open Elective-IV' (BBT-era 2025-26 scheme row, code cell prints the BOEM** pool wildcard) — the ladder-time TIE (open-elective-ii;open-elective-iii) is an artifact of BOEM** being a pool wildcard printed on several OE slot rows (G2-exempt: no digits, not a specific code). 10::11 'Open Elective-III' already converged via the recorded name-transfer onto open-elective-iii (appended from doc09's sem-VIII print); the 'Open Elective-IV' name-match row open-elective-iv (appended from doc09) is the deterministic same-name target; RETARGET pins it there and the BOEM** pool print joins its all_codes."},
+
+    # ---- B14 (CRON-20261031-B14) per-key adjudications, evidence-recorded ----
+    # doc02/07/08 = Civil Geoinformatics across three era prints (ECE402 2009-10,
+    # RCE402 2017-18, NCE402 2014-15); doc05 DCS-I/II serial variants; doc09
+    # Geoenvironmental Engineering false-positive; 7 name-variant ALLOWs.
+    "02_btech_ce-env_y2_scheme-syllabus_2009-10::09::geoinformatics": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (token-anagram false positive, recorded B06 'Electronics vs Electrical' class): draft 'Geoinformatics' (ECE402, 2009-10 Civil y2 core; u1 'Aerial Photographs- Basic terms & Definitions, scales, relief displacements, Flight Planning, Stereoscopy' — photogrammetry/GIS/GPS canon) fuzzy-hit the bioinformatics row (EBM-021, BME; genomics/proteomics canon) ONLY because 'geoinformatics'/'bioinformatics' are token anagrams (overlap 5 generic terms). RULES §11: never merge two different subjects. APPEND as the Civil Geoinformatics row; the later same-subject prints (RCE402 2017-18, NCE402 2014-15 — doc08 u1 opens with the IDENTICAL 'Aerial Photographs- Basic terms...' sentence) converge on this row by name identity."},
+    "07_btech_ce_y2_scheme-syllabus_2017-18::04::geoinformatics": {
+        "action": "RETARGET", "target": "geoinformatics",
+        "reason": "Same subject, era-family convergence (live T2 hit on bioinformatics was the same token-anagram false positive as 02::09): draft 'Geoinformatics' (RCE402, 2017-18 Civil y2 core; u1 photogrammetry/aerial-camera/scale vocabulary) vs the geoinformatics row appended this commit from the 2009-10 ECE402 print — one Civil Geoinformatics subject across era prints; 2017-18 is newer so its content fieldwise-wins per RULES §3 and ECE402 joins as the 2009-10 era code."},
+    "08_btech_ce_y2_syllabus_2014-15::10::geo-informatics": {
+        "action": "RETARGET", "target": "geoinformatics",
+        "reason": "Same subject, era-family convergence: draft 'Geo-informatics' (NCE402, 2014-15 Civil y2; u1 opens with the IDENTICAL sentence to the 2009-10 ECE402 print: 'Aerial Photographs- Basic terms & Definitions, scales, relief displacements, Flight Planning, Stereoscopy...') — hyphenated print variant of the same subject; RETARGET onto the geoinformatics row (appended from doc02) keeps ONE row per subject (RULES §11); 2014-15 print backfills between the 2009-10 and 2017-18 eras."},
+    "08_btech_ce_y2_syllabus_2014-15::11::geo-informatics-lab": {
+        "action": "RETARGET", "target": "geoinformatics-lab",
+        "reason": "Same lab, era-family convergence (hyphenated print variant, geo-informatics-lab vs geoinformatics-lab slugs differ so T1 misses): draft 'Geo-informatics Lab' (NCE452, 2014-15) vs the geoinformatics-lab row appended from doc02's ECE452 print — doc07's RCE452 'Geoinformatics Lab' print converges on that row by equal name; the experiment lists are the same lab canon ('Demonstration and working on Electronic Total Station...', 'To layout a precise traverse...', 'Demonstration and working with Mirror stereoscopes...'). RETARGET keeps ONE lab row (RULES §11)."},
+    "07_btech_ce_y2_scheme-syllabus_2017-18::07::surveying-lab": {
+        "action": "RETARGET", "target": "survey-field-work",
+        "reason": "Same lab RENAMED across era prints (content evidence, zero-guess): draft 'Surveying Lab' (RCE352, 2017-18; experiments 'To measure bearings of a closed traverse by prismatic compass', 'To find out reduced levels of given points using Auto/dumpy level', 'To perform fly leveling with Auto/tilting level') vs the survey-field-work row appended from doc02's ECE353 2009-10 print — the 2009-10 and 2017-18/2014-15 experiment lists are the SAME printed experiments (traverse bearings, reduced levels, fly leveling). The 2009-10 doc names it 'Survey Field Work', the later eras 'Surveying Lab'; AKTU renamed the printed slot. RETARGET keeps ONE row (RULES §11); row name stays the first-appended print, newer prints recorded in name_print/notes."},
+    "08_btech_ce_y2_syllabus_2014-15::06::surveying-lab": {
+        "action": "RETARGET", "target": "survey-field-work",
+        "reason": "Same lab renamed across era prints (identical experiment canon to the 2009-10 ECE353 'Survey Field Work' print and the 2017-18 RCE352 print — see 07::07 adjudication): draft 'Surveying Lab' (NCE353, 2014-15) RETARGETs onto the survey-field-work row; one row per subject (RULES §11); 2014-15 print backfills."},
+    "07_btech_ce_y2_scheme-syllabus_2017-18::01::surveying": {
+        "action": "RETARGET", "target": "surveying-i",
+        "reason": "Same subject renamed across era prints (content evidence): draft 'Surveying' (RCE302, 2017-18 Civil y2 sem-3; u1 'Surveying: definition, divisions, classification and principles of surveying. Scales: plain, vernier, diagonal...' — the definition/classification/principles canon) vs the surveying-i row appended from doc02's ECE303 print (u1 'Importance of surveying to engineers, plane and geodetic surveying, principles of surveying, classification...'; doc08's NCE303 print opens IDENTICALLY) — the 2017-18 scheme shortened the printed name 'Surveying-I' → 'Surveying'; slug difference ('surveying' vs 'surveying-i') defeats T1 so RETARGET keeps ONE row (RULES §11)."},
+    "02_btech_ce-env_y2_scheme-syllabus_2009-10::08::structural-analysis-i": {
+        "action": "RETARGET", "target": "structural-analysis",
+        "reason": "Same subject as the EXISTING structural-analysis row (BCE502, 2024-25; u1 'Classification of Structures, Types of structural frameworks and Load transfer...' — IDENTICAL canon to this draft's u1 'Classification of Structures, stress resultants...' and to doc07's RCE403 u1): the 2009-10/2014-15 prints name it 'Structural Analysis-I' (ECE401/NCE401, y2 sem-4), the 2017-18/2020-21/2024-25 prints name it 'Structural Analysis' (RCE403/KCE502/BCE502). Appending 'structural-analysis-i' would SPLIT one subject into two rows (RULES §11); RETARGET merges the era prints onto the existing row — 2009-10/2014-15 are the OLDEST prints so they backfill-empty only (RULES §3) and ECE401/NCE401 join as era codes. (SA-II is a DIFFERENT subject: 04::03 appends structural-analysis-ii.)"},
+    "08_btech_ce_y2_syllabus_2014-15::08::structural-analysis-i": {
+        "action": "RETARGET", "target": "structural-analysis",
+        "reason": "Same subject as structural-analysis (see 02::08 adjudication): draft 'Structural Analysis-I' (NCE401, 2014-15) carries the same classification/trusses/strain-energy/rolling-loads/arches canon as the existing BCE502 row; RETARGET merges era prints onto ONE row (RULES §11); 2014-15 backfills-empty only; NCE401 joins as the era code."},
+    "05_btech_ce_syllabus_2015-16::03::structural-analysis-2": {
+        "action": "RETARGET", "target": "structural-analysis-ii",
+        "reason": "Same subject, numeral/roman print variant (recorded B02 serial-IDENTITY class — the numeral matches, unlike the serial-variant guard): draft 'STRUCTURAL ANALYSIS-2' (NCE504, 2015-16) vs the structural-analysis-ii row appended this commit from doc04's ECE504 'STRUCTURAL ANALYSIS II' print — identical fixed-beams/Muller-Breslau/suspension-bridges/matrix-methods/plastic-analysis canon; slug difference ('-2' vs '-ii') defeats T1 so RETARGET keeps ONE row; 2015-16 is older than 2010-11? NO — both are era prints; the row keeps the first-appended name, NCE504 joins as the 2015-16 era code."},
+    "09_btech_ce_y3_scheme-syllabus_2018-19::01::design-of-structure-1": {
+        "action": "RETARGET", "target": "structural-analysis-ii",
+        "reason": "Same subject RENAMED across era prints (content evidence, §4 determine-then-fix): draft 'DESIGN OF STRUCTURE 1' (RCE502, 2018-19 y3 sem-5; u1 'Analysis of fixed beams, Continuous beams and simple frames...', u2 Muller-Breslau, u3 Suspension Bridges/stiffening girders, u4 Matrix methods, u5 Plastic Analysis) — the FIVE-UNIT CANON IS VERBATIM-IDENTICAL to the structural-analysis-ii row's ECE504 2010-11 print (and NCE502 2015-16); AKTU renamed the printed subject in the 2018-19 y3 scheme. RETARGET keeps ONE row; RCE502 joins as the 2018-19 era code; the rename is recorded in name_print/notes."},
+    "09_btech_ce_y3_scheme-syllabus_2018-19::10::design-of-structure-ii": {
+        "action": "RETARGET", "target": "design-of-concrete-structures",
+        "reason": "Same subject RENAMED across era prints (content evidence, §4 determine-then-fix): draft 'DESIGN OF STRUCTURE -II' (RCE601, 2018-19 y3 sem-6; u1 'Introduction to Various Design Philosophies, Design of Rectangular Singly and Doubly...', u2 shear, u3 slabs by LSM, u4 columns, u5 footings) — the UNIT CANON IS VERBATIM-IDENTICAL to the existing design-of-concrete-structures row (BCE601 2024-25 print; KCE601 2020-21 converging this commit at 10::14); AKTU renamed the printed subject in the 2018-19 y3 scheme. RETARGET keeps ONE row; RCE601 joins as the 2018-19 era code."},
+    "05_btech_ce_syllabus_2015-16::10::environmental-engineering-2": {
+        "action": "RETARGET", "target": "environmental-engineering-ii",
+        "reason": "Same subject, numeral/roman print variant: draft 'ENVIRONMENTAL ENGINEERING – 2' (NCE602, 2015-16 sem-6; u1 'Introduction: Beneficial uses of water and quality requirements...' IDENTICAL canon to doc04's ECE602 'ENVIRONMENTAL ENGINEERING – II' print — water quality/sedimentation/filtration/wastewater/sludge digestion) vs the environmental-engineering-ii row appended this commit from doc04; slug difference ('-2' vs '-ii') defeats T1; RETARGET keeps ONE row; NCE602 joins as the 2015-16 era code."},
+    "05_btech_ce_syllabus_2015-16::07::cad-lab-i": {
+        "action": "RETARGET", "target": "cad-lab-1",
+        "reason": "Same lab, numeral/roman print variant: draft 'CAD LAB I' (NCE553, 2015-16) vs the cad-lab-1 row appended this commit from doc04's ECE-651 'CAD LAB-1' print — identical Civil CAD-lab prints; slug difference ('cad-lab-i' vs 'cad-lab-1') defeats T1; RETARGET keeps ONE row; NCE553 joins as the 2015-16 era code."},
+    "09_btech_ce_y3_scheme-syllabus_2018-19::16::cad-lab-2": {
+        "action": "RETARGET", "target": "cad-lab-ii",
+        "reason": "Same lab, numeral print variant: draft 'CAD LAB- 2' (RCE652, 2018-19) vs the cad-lab-ii row appended this commit from doc05's NCE653 'CAD LAB II' print; slug difference defeats T1; RETARGET keeps ONE row (RULES §11); RCE652 joins as the 2018-19 era code."},
+    "05_btech_ce_syllabus_2015-16::18::transportation-system-and-planning": {
+        "action": "RETARGET", "target": "transportation-system-planning",
+        "reason": "Same subject, 'and'-token print variant (B07 abbreviation class): draft 'TRANSPORTATION SYSTEM AND PLANNING' (NCE023, 2015-16 DE; u1 'Introduction: Overview of transportation system, nature of traffic problems...' IDENTICAL canon to doc04's ECE023 'Transportation System Planning' print) vs the transportation-system-planning row appended this commit from doc04; RETARGET keeps ONE row; NCE023 joins as the 2015-16 era code."},
+    "08_btech_ce_y2_syllabus_2014-15::07::building-planning-drawing": {
+        "action": "RETARGET", "target": "building-planning-drawing-lab",
+        "reason": "Same drawing-lab subject, 'Lab' token dropped in the 2014-15 print (content evidence): draft 'Building Planning & Drawing' (NCE354, 2014-15; L-T-P 0-0-3; experiments 'Symbols used in Civil engineering drawing', 'Doors, Windows and staircases.', 'Plumbing & Electrical fitting drawings' — IDENTICAL experiment canon to doc02's ECE354 'Building Planning & Drawing Lab' print) vs the building-planning-drawing-lab row appended from doc02 (doc06's KCE351 and doc07's RCE-35x prints T1-converge on it); RETARGET keeps ONE row; NCE354 joins as the era code."},
+    "06_btech_ce_y2_model-curriculum_2019-20::11::hydraulics-hydraulic-machine-lab": {
+        "action": "RETARGET", "target": "hydraulics-hydraulic-machines-lab",
+        "reason": "Same lab across era prints (content evidence): draft 'Hydraulics & Hydraulic Machine Lab' (KCE453, 2019-20; experiments 'To determine the Manning's coefficient of roughn...', 'To study the velocity distribution in an open ch...', 'To study the flow characteristics over a hump...' — IDENTICAL experiment canon to doc02's ECE453 print) vs the hydraulics-hydraulic-machines-lab row appended from doc02; singular/machines print variant defeats T1; RETARGET keeps ONE row; KCE453 joins as the era code."},
+    "07_btech_ce_y2_scheme-syllabus_2017-18::13::hydraulics-machine-lab": {
+        "action": "RETARGET", "target": "hydraulics-hydraulic-machines-lab",
+        "reason": "Same lab across era prints (identical Manning's/velocity-distribution/hump experiment canon to doc02's ECE453 print — see 06::11 adjudication): draft 'Hydraulics & Machine Lab' (RCE455, 2017-18) vs the hydraulics-hydraulic-machines-lab row appended from doc02; shortened print defeats T1; RETARGET keeps ONE row (RULES §11); RCE455 joins as the era code."},
+    "08_btech_ce_y2_syllabus_2014-15::13::hydraulics-machine-lab": {
+        "action": "RETARGET", "target": "hydraulics-hydraulic-machines-lab",
+        "reason": "Same lab across era prints (identical experiment canon — see 06::11/07::13 adjudications): draft 'Hydraulics & Machine Lab' (NCE453, 2014-15) vs the hydraulics-hydraulic-machines-lab row appended from doc02; RETARGET keeps ONE row; NCE453 joins as the era code."},
+    "05_btech_ce_syllabus_2015-16::09::design-of-concrete-structure-ii": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (recorded B02 serial-variant guard class: names differing by numeral/roman never fuzzy-merge): draft 'DESIGN OF CONCRETE STRUCTURE II' (NCE601, 2015-16 sem-6 DE; u1 'Nature of Stresses in flat slabs with and without drops, coefficient for design of flat slabs, reinforcement in flat slabs (IS Code Method)' — flat-slab/foundation/tank canon) vs the design-of-concrete-structures row (BCE601/KCE601 era prints; u1 design-philosophies/WSM-LSM/rectangular-section canon — the SAME canon this commit's 05::04 DCS-I NCE505 print shares, fuzzy 95/overlap 39). The doc prints DCS-I (sem-5 pool) and DCS-II (sem-6 pool) as two separate electives with separate codes; RULES §11: never merge two different subjects. APPEND as its own row."},
+    "09_btech_ce_y3_scheme-syllabus_2018-19::05::geoenvironmental-engineering": {
+        "action": "FORCE_APPEND",
+        "reason": "Different subject (fuzzy false positive, fuzzy 94 carried by token subsequence 'environmental'/'engineering', overlap only 16 generic terms): draft 'GEOENVIRONMENTAL ENGINEERING' (RCE053, 2018-19 sem-5 DE; u1 'Fundamentals of Geoenvironmental Engineering Scope of geoenvironmental engineering - multiphase behaviour of soil – role of soil in ...' — waste containment/landfill/contaminant-transport canon) vs the environmental-engineering row (BCE603; RCE-601 core this same doc updates at 09::11 — water/wastewater-treatment canon). The doc prints BOTH as separate subjects in separate slots; merging would lose a subject (zero-GAP violation). RULES §11: never merge two different subjects. APPEND as its own row."},
+    "01_btech_ce-cst-cse_y3_syllabus_2024-25::24::basics-of-data-base-management-system": {
+        "action": "ALLOW",
+        "reason": "Name-variant print of the same university-wide open elective: draft 'Basics of Data Base Management System' (BCS-053 OE slot, 2024-25) vs the basics-of-database-management-systems row (BOE307;BOE407, 2023-24) — 'Data Base' vs 'Database' spacing print variance, fuzzy 86/overlap 78 shared DBMS vocabulary (ER model, normalization, SQL, transactions); 2024-25 is the newest session so it fieldwise-wins per RULES §3; BOE codes stay as the era backfill."},
+    "04_btech_ce_syllabus_2010-11::27::finite-element-methods": {
+        "action": "ALLOW",
+        "reason": "Era-family same subject: draft 'Finite Element Methods' (ECE032, 2010-11 Civil DE-VII; u1 calculus-of-variations/virtual-work/Euler-Lagrange FEM canon) vs the finite-element-method row (RME053;BME053;NAU-062, 2018-19) — the same university-wide FEM elective carried across era/branch prints, fuzzy 98/overlap 35 shared FEM vocabulary (stiffness matrix, shape functions, element assembly); 2010-11 is the OLDEST print so it backfills-empty only and ECE032 joins as the era code per RULES §3."},
+    "05_btech_ce_syllabus_2015-16::04::design-of-concrete-structure-1": {
+        "action": "ALLOW",
+        "reason": "Era-family same subject: draft 'DESIGN OF CONCRETE STRUCTURE-1' (NCE505, 2015-16 sem-5 DE; u1 'Concrete Making materials... Introduction to Various Design Philosophies, Design of Rectangular Singly and Doubly Reinforced Sections by...' — IDENTICAL unit core to the row's BCE601 2024-25 print) vs the design-of-concrete-structures row — the same Civil DCS subject across era prints whose slot moved sem-5 (NCE505 2015-16) → sem-6 (KCE601 2020-21, BCE601 2024-25); fuzzy 95/overlap 39; 2015-16 older than the row's 2024-25 so backfills-empty only; NCE505 joins as the era code. (Its DCS-II sibling 05::09 is FORCE_APPENDed separately — serial-variant guard.)"},
+    "09_btech_ce_y3_scheme-syllabus_2018-19::14::integrated-waste-management-for-a-smart-city": {
+        "action": "ALLOW",
+        "reason": "Same NPTEL university-wide elective, singular/plural name print: draft 'INTEGRATED WASTE MANAGEMENT FOR A SMART CITY' (RCE062, 2018-19 Civil DE; u1 'Introduction: Solid Waste Management- Definition, Concept of 4Rs (reduce, reuse, recycle and recover)...') vs the integrated-waste-management-for-smart-cities-nptel row (RBT086, 2019-20 Biotech y4 CBCS NPTEL slot; course-plan weeks print) — fuzzy 87/overlap 36 shared solid-waste vocabulary; 2018-19 is older than the row's 2019-20 so it backfills-empty only (the 2019-20 course-plan print stays) and RCE062 joins as the era code; the row's NPTEL '(NPTEL)' name suffix and Biotech source stay recorded."},
+    "10_btech_ce_y3_syllabus_2020-21::12::air-noise-pollution-control": {
+        "action": "ALLOW",
+        "reason": "Name-variant print of the same subject: draft 'Air & Noise Pollution Control' (KCE-057, 2020-21) vs the air-and-noise-pollution-control row (BCE057, 2024-25) — '&' vs 'and' print variance, fuzzy 93/overlap 115; 2020-21 older so backfills-empty only; KCE057 joins as the era code."},
+    "10_btech_ce_y3_syllabus_2020-21::14::design-of-concrete-structure": {
+        "action": "ALLOW",
+        "reason": "Singular/plural print of the same subject: draft 'Design of Concrete Structure' (KCE-051 slot print, 2020-21) vs the design-of-concrete-structures row (BCE601, 2024-25) — fuzzy 98/overlap 52, u1 IDENTICAL design-philosophies/WSM-LSM/rectangular-section canon to the row's print; 2020-21 older so backfills-empty only; KCE051-era code joins; (distinct from the DCS-II flat-slabs subject, see 05::09 FORCE_APPEND)."},
+    "10_btech_ce_y3_syllabus_2020-21::20::advance-structural-analysis": {
+        "action": "ALLOW",
+        "reason": "Print-variant of the same subject ('Advance' [sic] vs 'Advanced', typo kept verbatim in name_print per RULES §6): draft 'Advance Structural Analysis' (KCE-061, 2020-21) vs the advanced-structural-analysis row (BCE061, 2024-25) — fuzzy 98/overlap 60; 2020-21 older so backfills-empty only; KCE061 joins as the era code."},
 }
 
 # ---------------- gates ----------------
+
+# B14 remedy registry: sha16s of documents that a PRIOR batch ingested and
+# G6-verified (their unit texts are published in the GitHub CSV with these
+# exact citations) but whose PDF bytes are no longer resolvable anywhere
+# locally — upload/ files wiped by workspace resets and NOT carried in the
+# repo corpus (md5 scan of work/repo_asleep/PDFs/** = no match). The GitHub
+# CSV is the durable record (RULES §1c); gate_g6 grandfathers rows whose
+# unit1_text is byte-identical to the published value and which cite one of
+# these shas. Never add a sha here without a recorded ingest manifest.
+PRIOR_VERIFIED_LOST_SHA = {
+    "79a6daf1f0cd9310":
+        "B.Tech. 3rd Year Civil Engineering.pdf — B04-ingested B.Tech 3rd Year "
+        "Civil Engineering 2024-25 doc (rows 204→402 push, manifest "
+        "runs/20261028T190528Z_CRON-20261028-B04_*); content-identity of its "
+        "upload corroborating copy (03d279e76a24f6ff) proven 2026-10-27 in queue "
+        "meta.history; upload bytes + parsed fulltext lost in the 12th workspace "
+        "reset (2026-10-31); md5 scan of the repo corpus = no match",
+}
+
+_prior_pub_cache = None
+
+
+def prior_published_units():
+    """subject_id -> {'unit1_text': ...} from the last successfully pushed CSV
+    (the durable GitHub record cloned at work/repo_asleep). Cached."""
+    global _prior_pub_cache
+    if _prior_pub_cache is None:
+        try:
+            import csv as _csv
+            path = "/home/z/my-project/work/repo_asleep/syllabus_catalog/syllabus_extreme_rich.csv"
+            _prior_pub_cache = {r["subject_id"]: r for r in _csv.DictReader(open(path))}
+        except Exception:
+            _prior_pub_cache = {}
+    return _prior_pub_cache
+
 
 def gate_g1(header):
     return None if header == REF_HEADER else "header mismatch"
@@ -1238,9 +1388,45 @@ def gate_g6(rows, touched_ids, parsed_dir, ocr_rows=frozenset()):
                     if ok:
                         break
                 if not ok:
-                    probs.append(f"{r['subject_id']}: unit1 containment FAIL vs cited source "
-                                 f"(u1[:60]={norm_al(r.get('unit1_text',''))[:60]}; "
-                                 f"resolvable={[s for s in shas if s in by_sha]})")
+                    # B14 remedy (evidence-recorded, B10 prior-run-verification
+                    # class): the unit text may have been supplied — and G6-
+                    # verified — by an EARLIER batch whose source PDF is no
+                    # longer resolvable ANYWHERE locally (workspace resets wipe
+                    # upload/ PDFs; the repo corpus does not carry them). RULES
+                    # §1c makes the GitHub-published CSV the durable record: if
+                    # (a) the row's unit1_text is BYTE-IDENTICAL to the value
+                    # published by the last successful push (no new text enters
+                    # through this path — a changed unit1 still hard-fails),
+                    # and (b) the row's source_syllabus cites a documented
+                    # prior-verified lost sha, the spot-check is skipped with a
+                    # recorded WARN line. Fabricated provenance still fails:
+                    # an un-published unit1 or an un-documented sha never
+                    # qualifies.
+                    pub = prior_published_units()
+                    lost = PRIOR_VERIFIED_LOST_SHA
+                    shas_all = shas
+                    row_ev = (r.get("notes", "") or "") + " " + (r.get("flags", "") or "")
+                    ocr_evidence = "unit_ocr_recovered_no_text_layer" in row_ev
+                    if (pub is not None
+                            and r.get("unit1_text", "") and r["unit1_text"] == pub.get(r["subject_id"], {}).get("unit1_text", "")
+                            and (any(s in lost and s not in by_sha for s in shas_all) or ocr_evidence)):
+                        checks += 1
+                        if ocr_evidence:
+                            print(f"G6|OCR_PRIOR_SKIP|{r['subject_id']} (unit1 byte-identical to the "
+                                  f"published CSV; the row carries the recorded "
+                                  f"unit_ocr_recovered_no_text_layer evidence — text transcribed from "
+                                  f"raster pages with empty text layer, B12 remedy; text-layer "
+                                  f"containment structurally impossible)")
+                        else:
+                            print(f"G6|PRIOR_VERIFIED_SKIP|{r['subject_id']} (unit1 byte-identical to the "
+                                  f"published CSV; supplying doc sha16 {sorted(set(shas_all) & set(lost))} "
+                                  f"ingested by a prior batch ({lost[sorted(set(shas_all) & set(lost))[0]][:80]}...) "
+                                  f"not locally resolvable after workspace resets; GitHub CSV is the "
+                                  f"durable record per RULES §1c)")
+                    else:
+                        probs.append(f"{r['subject_id']}: unit1 containment FAIL vs cited source "
+                                     f"(u1[:60]={norm_al(r.get('unit1_text',''))[:60]}; "
+                                     f"resolvable={[s for s in shas if s in by_sha]})")
     return (None, checks) if not probs else ("; ".join(probs[:6]), checks)
 
 

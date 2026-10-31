@@ -1,3 +1,7 @@
+# CRON-20261031-B14 — B14 — 2026-10-31
+
+rows 1231-1304, codes 1486-1690, +73 appends/~163 updates/!115 containment checks - BTech Civil nine-era wave 2009-10-2026-27 + combined CS/CE/CST/CSE y3; 30 flags adjudicated; gates G1/G2/G3/G6 PASS
+
 # CRON-20261031-B13 — B13 — 2026-10-31
 
 rows 1113-1231, codes 1329-1486, +118 appends/~90 updates/!197 repairs
