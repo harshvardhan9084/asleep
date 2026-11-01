@@ -644,6 +644,47 @@ SLOT_CODE_TRANSFERS = {
 # B2: doc-level scope from the PRINTED COVER of each ingested document
 # (zero-guess: only what the cover prints; recorded reasoning per entry).
 DOC_SCOPE = {
+    # ---- B23 covers (zero-guess branch scope per printed cover/scheme title) ----
+    "bddd363be8c50739": {
+        "branch_names": "Electrical Engineering; Electrical & Electronics Engineering",
+        "program_year": "2",
+        "reason": "B23 EE/EE-EN y2 2017-18: cover prints 'Study & Evaluation Scheme with Syllabus for B.Tech. Second Year Electrical Engineering / Electrical & Electronics Engineering On Choice Based Credit System (Effective from the Session: 2017-18)'"},
+    "8bba5a23e7feb769": {
+        "branch_names": "Electrical Engineering",
+        "program_year": "3",
+        "reason": "B23 EE y3 AICTE model 2020-21: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. 3rd YEAR (EE) ELECTRICAL ENGINEERING BASED ON AICTE MODEL (CURRICULUM)'; page headers 'Curriculum & Evaluation Scheme EE (V & VI semester)'"},
+    "d5fe2023680b3af8": {
+        "branch_names": "Electrical Engineering",
+        "program_year": "3",
+        "reason": "B23 EE y3 2024-25: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. 3rd YEAR (EE) ELECTRICAL ENGINEERING BASED ON AICTE MODEL CURRICULUM &NEP2020 [Effective from the Session: 2024-25]'"},
+    "20b42db5d7a9076a": {
+        "branch_names": "Electrical Engineering",
+        "program_year": "4",
+        "reason": "B23 EE y4 CBCS 2019-20: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. IV YEAR ELECTRICAL ENGINEERING — CHOICE BASED CREDIT SYSTEM (CBCS) [Effective from the Session: 2019-20]' (p.1 text layer fragmented; fragments reassembled)"},
+    "6576a3b45d078590": {
+        "branch_names": "Electrical Engineering",
+        "program_year": "4",
+        "reason": "B23 EE y4 2021-22: p.1 cover text layer glyph-scrambled (fragments 'ELECTR(ICAL) ENGIN(EERING)… B. TECH … AICTE MODEL … (VII & VIII semester)'); legible page headers print 'Curriculum & Evaluation Scheme EE (VII & VIII semester)' — single branch print (zero-guess)"},
+    "a0cf580ebf4be896": {
+        "branch_names": "Electrical Engineering; Electrical & Electronics Engineering",
+        "program_year": "3",
+        "reason": "B23 EEE-ECE-EE y3 2018-19: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. III YEAR ELECTRICAL ENGINEERING / & ELECTRONICS ENGINEER(ING) — CHOICE BASED CREDIT SYSTEM (CBCS) [Effective from the Session: 2018-19]' (p.1 fragmented; two-branch shared scheme)"},
+    "39be9cd7bd3de4c2": {
+        "branch_names": "Electrical & Electronics Engineering",
+        "program_year": "2",
+        "reason": "B23 EEE-ECE y2 AICTE model 2019-20: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. 2nd YEAR ELECTRICAL & ELECTRONICS ENGINEERING BASED ON AICTE MODEL CURRICULUM [Effective from the Session: 2019-20]'"},
+    "e7c6f352c36de776": {
+        "branch_names": "Electrical & Electronics Engineering",
+        "program_year": "3",
+        "reason": "B23 EEE-ECE y3 AICTE model rev 2020-21: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. 3rd YEAR (EN) ELECTRICAL & ELECTRONICS ENGINEERING'; page headers 'Curriculum & Evaluation Scheme EN (V & VI semester)'"},
+    "036329f4428dd944": {
+        "branch_names": "Electrical & Electronics Engineering",
+        "program_year": "3",
+        "reason": "B23 EEE-ECE y3 2024-25: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. 3rd YEAR (EN) ELECTRICAL & ELECTRONICS ENGINEERING BASED ON AICTE MODEL CURRICULUM & NEP2020 [Effective from the Session: 2024-25]'"},
+    "18fce1778aaeb500": {
+        "branch_names": "Electrical & Electronics Engineering",
+        "program_year": "4",
+        "reason": "B23 EEE-ECE y4 CBCS 2019-20: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. IV YEAR ELECTRICAL & ELECTRONICS ENGINEERING — CHOICE BASED CREDIT SYSTEM (CBCS) [Effective from the Session: 2019-20]' (p.1 fragmented; fragments reassembled)"},
     # ---- B22 covers (zero-guess branch scope per printed cover/scheme title) ----
     "0579856dc67bbeff": {
         "branch_names": "Electronics and Communication Engineering",
@@ -891,6 +932,124 @@ DOC_SCOPE = {
 # published B06 manifest ("TIER2_OVERRIDES mechanism added ... per-key,
 # evidence-recorded"), re-evidenced against the drafts + baseline rows.
 TIER2_OVERRIDES = {
+    # ---- B23 (CRON-20261101-B23) per-key adjudications, evidence-recorded ----
+    "03_btech_ee_y3_syllabus_2024-25::06::power-systems-ii": {
+        "action": "RETARGET", "target": "power-system-ii",
+        "reason": "B23 same-commit-visibility RETARGET (recorded B06/B09/B10 class): draft 'POWER SYSTEMS-II' (BEE-5xx core, 2024-25 print, detailed units) — the live loop's earlier PS-I update (03::05) added the 2024-25 AICTE phrasing to power-system-i, making it fuzzy-eligible (93) alongside the name-exact power-system-ii (97). PS-I and PS-II are DISTINCT subjects (recorded distinct-row design, cf. Machine-I/II); RETARGET pins the update to the name-exact power-system-ii row (plural/singular print variant)."},
+    "09_btech_eee-ece_y3_syllabus_2024-25::17::power-systems-ii": {
+        "action": "RETARGET", "target": "power-system-ii",
+        "reason": "B23 same-commit-visibility RETARGET (same evidence as 03::06): the 2024-25 EEE-ECE print of the same PS-II course; converges onto the name-exact power-system-ii row; PS-I untouched."},
+    "01_btech_ee_y2_scheme-syllabus_2017-18::02::electrical-measurements-instrumentation": {
+        "action": "RETARGET", "target": "electrical-measurement-measuring-instruments",
+        "reason": "B23 code-owner RETARGET (B22 10::01 recorded class, verbatim evidence): draft 'Electrical Measurements & Instrumentation' (REE302, 2017-18 EE print, detailed units). The ladder's Tier-2 hit electronic-instrumentation-and-measurements (EIM, ECE-family) is rejected: 39% vocab / 0.45 best-unit. The EE-family owner electrical-measurement-measuring-instruments (NEE302;EEE-302;KEE302) matches at 91% shared vocab with best per-unit 1.00 — VERBATIM unit identity; REE302 joins as era code."},
+    "07_btech_eee-ece_y2_model-curriculum_2019-20::01::electrical-measurements-instrumentation": {
+        "action": "RETARGET", "target": "electrical-measurement-measuring-instruments",
+        "reason": "B23 code-owner RETARGET (B22 10::01 recorded class): draft 'Electrical Measurements & Instrumentation' (KEE302, 2019-20 EEE-ECE AICTE model print — the SAME AICTE model measurements course B22's 10::01 re-homed; KEE302 is ALREADY owned by electrical-measurement-measuring-instruments since that recorded RETARGET). The auto CODE-REASSIGNED path (collapsed-name 0.82 < 0.84) would transfer KEE302 OFF its recorded owner — rejected; the print corroborates the owner row (units fieldwise-win)."},
+    "02_btech_ee_y3_model-curriculum-rev-aicte_2020-21::07::microprocessor-and-microcontroller": {
+        "action": "RETARGET", "target": "microprocessor-microcontroller",
+        "reason": "B23 code-owner RETARGET (B20-h vocabulary-evidence class): draft 'Microprocessor and Microcontroller' (KEE602, 2020-21 AICTE EE print, detailed units) — TIE candidates microprocessor-microcontroller (BEC502;KEC-502 canon row) vs advanced-microprocessors-and-microcontrollers (2009-10 elective row): 92% shared vocab / 0.74 best-unit vs 47% / 0.36. The basic MP&MC course is the canon row; KEE602 joins as era code."},
+    "08_btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21::07::microprocessor-and-microcontroller": {
+        "action": "RETARGET", "target": "microprocessor-microcontroller",
+        "reason": "B23 code-owner RETARGET (same evidence as 02::07): the 2020-21 EEE-ECE AICTE print of the same KEE-602 MP&MC course; canon row matches 92%/0.74 vs advanced 47%/0.36."},
+    "04_btech_ee_y4_syllabus-cbcs_2019-20::14::microprocessors-and-microcontrollers": {
+        "action": "RETARGET", "target": "advanced-microprocessors-and-microcontrollers",
+        "reason": "B23 code-owner RETARGET (vocabulary-evidence class): draft 'MICROPROCESSORS AND MICROCONTROLLERS' (REE070, 2019-20 CBCS elective, detailed units) — TIE candidates: advanced-microprocessors-and-microcontrollers matches 100% shared vocab with best per-unit 0.99 (VERBATIM — the 2019-20 print is the same course as the 2009-10 EEE print that established the row in B22); microprocessor-microcontroller only 41%/0.05. REE070 joins as era code."},
+    "10_btech_eee-ece_y4_syllabus-cbcs_2019-20::04::microprocessors-and-microcontrollers": {
+        "action": "RETARGET", "target": "advanced-microprocessors-and-microcontrollers",
+        "reason": "B23 code-owner RETARGET (same evidence as 04::14): the 2019-20 EEE-ECE CBCS print of the same REE-070 course; advanced row matches 100%/0.99."},
+    "03_btech_ee_y3_syllabus_2024-25::02::electrical-machine-ii": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (B14/B15/B19/B20-e class + RULES §11 never-merge-different-subjects): draft 'ELECTRICAL MACHINE-II' (BEE503, 2024-25 print, detailed units) — TIE candidates electrical-machines (NIC-011 open-elective print: 49% vocab / 0.30 best-unit) and electrical-machines-i (KEE402 EM-I row: 40% / 0.12): NEITHER reaches unit identity, and Machine-II must NEVER merge into Machine-I (recorded distinct-row design, cf. electro-mechanical-energy-conversion-i/ii). Appends as its own row with cross-reference notes to both rows."},
+    "09_btech_eee-ece_y3_syllabus_2024-25::02::electrical-machine-ii": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (same evidence as 03::02): the 2024-25 EEE-ECE print of the same BEE-503 EM-II course; converges onto the 03::02-appended row by Tier-1 name identity at commit."},
+    "02_btech_ee_y3_model-curriculum-rev-aicte_2020-21::13::sensors-and-transducers": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (B14/B15/B19/B20-e class, recorded unit evidence): draft 'Sensors and Transducers' (KEE052, AICTE EE print, detailed units) — the Tier-2 candidate transducer-and-sensors (NIC-502, 2016-17) is the applied-MEASUREMENT course (generalized instrument configurations, motion/force/flow/temperature measurement): only 30% shared vocab, best per-unit 0.05. Different subjects sharing a generic title family; appends as its own row with a cross-reference note."},
+    "03_btech_ee_y3_syllabus_2024-25::13::sensors-and-transducers": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (same evidence as 02::13): the 2024-25 EE print of the same AICTE sensors course; converges onto the 02::13-appended row by Tier-1 name identity at commit."},
+    "08_btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21::13::sensors-and-transducers": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (same evidence as 02::13): the 2020-21 EEE-ECE AICTE print of the same course; converges onto the 02::13-appended row by Tier-1 name identity at commit."},
+    "09_btech_eee-ece_y3_syllabus_2024-25::10::sensors-and-transducers": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (same evidence as 02::13): the 2024-25 EEE-ECE print of the same course; converges onto the 02::13-appended row by Tier-1 name identity at commit."},
+    "02_btech_ee_y3_model-curriculum-rev-aicte_2020-21::10::microprocessor-and-microcontroller-lab": {
+        "action": "ALLOW",
+        "reason": "B23 era-family ALLOW: draft 'Microprocessor and Microcontroller Lab' (KEE652, 2020-21 AICTE print, experiments only) — the target microprocessor-microcontroller-lab (BEC552;KEC-552 canon row) is the same lab subject; the low vocab overlap (6) reflects the no-units lab class (experiment lists only), not a content difference; KEE652 joins as era code."},
+    "08_btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21::10::microprocessor-and-microcontroller-lab": {
+        "action": "ALLOW",
+        "reason": "B23 era-family ALLOW (same evidence as 02::10): the 2020-21 EEE-ECE print of the same KEE-652 lab; its PART-A+PART-B experiment lists corroborate the canon lab row."},
+    "02_btech_ee_y3_model-curriculum-rev-aicte_2020-21::19::analog-digital-communication": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (B14/B15/B19/B20-e class, recorded unit evidence): draft 'Analog & Digital Communication' (KEE058, AICTE DE elective, detailed units) — the Tier-2 candidate digital-communication (BEC601/KEC-601 canon) is the pure DIGITAL communication course: only 29% shared vocab, best per-unit 0.42; the AICTE print covers analog modulation + digital basics as one course. Different subject; appends as its own row with a cross-reference note."},
+    "03_btech_ee_y3_syllabus_2024-25::19::analog-digital-communication": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (same evidence as 02::19): the 2024-25 EE print of the same AICTE ADC course; converges onto the 02::19-appended row by Tier-1 name identity at commit."},
+    "08_btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21::19::analog-digital-communication": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (same evidence as 02::19): the 2020-21 EEE-ECE print; converges onto the 02::19-appended row by Tier-1 name identity at commit."},
+    "09_btech_eee-ece_y3_syllabus_2024-25::16::analog-digital-communication": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (same evidence as 02::19): the 2024-25 EEE-ECE print; converges onto the 02::19-appended row by Tier-1 name identity at commit."},
+    "02_btech_ee_y3_model-curriculum-rev-aicte_2020-21::17::neural-networks-fuzzy-system": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW: draft 'Neural Networks & Fuzzy System' (KEE-0xx DE) fuzzy 93, shared vocab 66 vs the B22-appended neural-networks-and-fuzzy-system row (2009-10 EEE print) — same subject; singular/plural print variant."},
+    "03_btech_ee_y3_syllabus_2024-25::17::neural-networks-fuzzy-systems": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW (same evidence as 02::17): the 2024-25 EE print, fuzzy 92/65; converges by name identity."},
+    "08_btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21::17::neural-networks-fuzzy-system": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW (same evidence as 02::17): the 2020-21 EEE-ECE print, fuzzy 93/66."},
+    "09_btech_eee-ece_y3_syllabus_2024-25::14::neural-networks-fuzzy-systems": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW (same evidence as 02::17): the 2024-25 EEE-ECE print, fuzzy 92/66."},
+    "02_btech_ee_y3_model-curriculum-rev-aicte_2020-21::23::electrical-and-hybrid-vehicles": {
+        "action": "ALLOW",
+        "reason": "B23 name-variant ALLOW: draft 'Electrical and Hybrid Vehicles' (KEE-0xx DE) fuzzy 97, shared vocab 38 vs published electric-and-hybrid-vehicles — same subject (Electric/Electrical token variance)."},
+    "04_btech_ee_y4_syllabus-cbcs_2019-20::15::utilization-of-electrical-energy-and-traction": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW: draft 'UTILIZATION OF ELECTRICAL ENERGY AND TRACTION' (REE-0xx elective) fuzzy 88, shared vocab 68 vs the B22-appended utilization-of-electrical-energy-electric-traction row — same subject; the row-name variant pair (electric-traction vs and-traction) is a recorded open item; REE code joins as era code."},
+    "10_btech_eee-ece_y4_syllabus-cbcs_2019-20::05::utilization-of-electrical-energy-and-traction": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW (same evidence as 04::15): the 2019-20 EEE-ECE print, fuzzy 88/68; REN/REE code joins as era code."},
+    "04_btech_ee_y4_syllabus-cbcs_2019-20::19::energy-efficiency-conservation": {
+        "action": "ALLOW",
+        "reason": "B23 name-variant ALLOW: draft 'ENERGY EFFICIENCY & CONSERVATION' (REE-0xx) fuzzy 94, shared vocab 59 vs published ENERGY EFFICIENCY AND ENERGY CONSERVATION (ECH013, 2009-10; B22-corroborated) — same subject, ellipsis print variant."},
+    "10_btech_eee-ece_y4_syllabus-cbcs_2019-20::09::energy-efficiency-conservation": {
+        "action": "ALLOW",
+        "reason": "B23 name-variant ALLOW (same evidence as 04::19): the 2019-20 EEE-ECE print, fuzzy 94/59."},
+    "04_btech_ee_y4_syllabus-cbcs_2019-20::26::ehv-ac-dc-transmission": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW: draft 'EHV AC & DC TRANSMISSION' (REE-0xx) fuzzy 86, shared vocab 95 (near-total) vs the B22-appended hvdc-ac-transmission row — same subject (HVDC/EHV family); REE code joins as era code."},
+    "10_btech_eee-ece_y4_syllabus-cbcs_2019-20::16::ehv-ac-dc-transmission": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW (same evidence as 04::26): the 2019-20 EEE-ECE print, fuzzy 86/95."},
+    "05_btech_ee_y4_syllabus_2021-22::00::advanced-micro-processors-micro-controllers": {
+        "action": "ALLOW",
+        "reason": "B23 era-family ALLOW: draft 'Advanced Micro processors & Micro Controllers' (KEE070, 2021-22 DE print, detailed units) vs the B22-appended advanced-microprocessors-and-microcontrollers row (2009-10 EEE print): fuzzy 88/34 with best per-unit 0.91 (u1 verbatim) — same subject, KEE070 joins as era code."},
+    "05_btech_ee_y4_syllabus_2021-22::06::power-system-dynamics-and-control": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (B14/B15/B19/B20-e class, recorded unit evidence): draft 'Power System dynamics and Control' (KEE076, 2021-22 DE print, detailed units) — the Tier-2 candidate process-dynamics-and-control is the CHEMICAL-engineering course (BCH503/NCH603/RCH602/ECH602/KCH503): 40% vocab / 0.06 best-unit (name-token overlap only); power-system-operation-and-control (31%/0.10) and power-system-analysis (39%/0.07) also fail unit identity. No vocabulary-evidence row exists; appends as its own row with cross-reference notes."},
+    "06_btech_eee-ece-ee_y3_syllabus_2018-19::19::principles-of-communication": {
+        "action": "ALLOW",
+        "reason": "B23 singular/plural ALLOW: draft 'Principles of Communication' (REE-0xx) fuzzy 98, shared vocab 79 vs published principles-of-communications — same subject; REE code joins as era code."},
+    "06_btech_eee-ece-ee_y3_syllabus_2018-19::22::intelligent-sensors-instrumentation": {
+        "action": "ALLOW",
+        "reason": "B23 era-family ALLOW: draft 'Intelligent Sensors & Instrumentation' (REE061, 2018-19 elective, detailed units) vs published intelligent-instrumentation (EEE-022;NIC-022): 87% shared vocab with best per-unit 0.98 (VERBATIM) — same subject; REE061 joins as era code."},
+    "06_btech_eee-ece-ee_y3_syllabus_2018-19::23::bio-medical-instrumentation": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (B14/B15/B19/B20-e class, recorded unit evidence): draft 'Bio-Medical Instrumentation' (REE062, 2018-19 elective, detailed units) — candidates bio-medical-sensors-instrumentation (BEC-052, 2024-25 print): 49% vocab / 0.31 best-unit; bio-instrumentation (EBM/RBM/EEE-051): 30% / 0.07. Neither reaches unit identity and the emphasis differs (sensors-transducers vs clinical instrumentation); appends as its own row with cross-reference notes to both."},
+    "08_btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21::15::bio-medical-instrumentation": {
+        "action": "FORCE_APPEND",
+        "reason": "B23 wrong-subject FORCE_APPEND (same evidence as 06::23): the 2020-21 AICTE print of the same course (fuzzy 87/50 vs the sensors row); converges onto the 06::23-appended row by Tier-1 name identity at commit."},
+    "10_btech_eee-ece_y4_syllabus-cbcs_2019-20::15::optical-fiber-communication": {
+        "action": "ALLOW",
+        "reason": "B23 same-subject ALLOW: draft 'OPTICAL FIBER COMMUNICATION' (REE/REN-0xx elective) fuzzy 88, shared vocab 70 vs published optical-communication (KEC-058;BEC-057, B21/B22 recorded) — same fiber-optics subject; REE code joins as era code."},
+    "07_btech_eee-ece_y2_model-curriculum_2019-20::20::technical-communication": {
+        "action": "RETARGET", "target": "universal-human-values-and-professional-ethics",
+        "reason": "B23 code-owner RETARGET (B02-recorded ownership): draft 'Technical Communication' (scheme-row-only, KAS401 — the sem-IV OR-slot print 'Technical Communication/Universal Human values'; the full slot print is preserved in the draft's non_subject_rows). The auto CODE-REASSIGNED name-transfer would move KAS401 OFF the recorded owner universal-human-values-and-professional-ethics (all_codes include KAS401 since the B02-era ingest) onto the print-variant name row — rejected. RETARGET pins the scheme-line corroboration onto the recorded KAS401 owner; the technical-communication member keeps its own KAS301 row untouched."},
     # ---- B22 (CRON-20261101-B22) per-key adjudications, evidence-recorded ----
     # 16 Tier-2 flags: 6 wrong-subject FORCE_APPENDs (4x Speech Processing ->
     # AG 'Seed Processing' RAG052 + process-instrumentation + basic-signals),

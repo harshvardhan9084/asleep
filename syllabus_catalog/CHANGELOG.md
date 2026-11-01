@@ -1,3 +1,7 @@
+# CRON-20261101-B23 — B23 — 2026-11-01
+
+rows 1712-1765, codes 3389-3531, +53 appends/~198 updates - BTech EE/EEE-ECE wave 2017-18..2024-25 incl. AICTE-model + NEP2020 prints (10 docs 257 subjects drafted); 39 TIER2_OVERRIDES (6 wrong-subject FORCE_APPEND families, 6 code-owner RETARGETs incl. 2 verbatim-identity joins, 2 PS-I/II same-commit pins) + 6 ALTERNATIVE-PAIR-SLOT skips + RS-232 GAP recovery (BEE652 PART-B list); gates G1/G2/G3/G6 PASS
+
 # CRON-20261101-B22 — B22 — 2026-11-01
 
 rows 1615-1712, codes 3182-3389, +97 appends/~173 updates - BTech ECE-y4 multi-era + EE-family wave 2009-10..2026-27 (10 docs 283 subjects drafted); 21st-reset recovery to GitHub B21 state; 20 TIER2_OVERRIDES (6 wrong-subject FORCE_APPENDs incl 4x Speech-Processing vs AG Seed-Processing, KEE-302 EMMI RETARGET, 4 wildcard-wart RETARGETs) + 13 ALTERNATIVE-PAIR-SLOT skips + Mathematics-III slot-code transfer (EAS-301/401); gates G1/G2/G3/G6 PASS
