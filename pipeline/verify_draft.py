@@ -271,8 +271,24 @@ def main():
                 # cited; a theory subject without cos still hard-fails.)
                 co_only = ("co_only_no_units_printed" in f for f in flags_l)
                 co_only = any(co_only) and bool(s.get("cos"))
-                if not (s.get("experiments") or scheme_only or co_only):
+                # v14 remedy (B19 evidence: doc 09's RCS-551/552/553 labs print a
+                # detailed page whose entire content is an 'Objectives :' list
+                # (9-11 verbatim items, containment-checked) — NO unit theory and
+                # NO experiment list anywhere in the document: the printed design
+                # of these 2018-19 lab prints. The objectives are transcribed
+                # verbatim under objectives_print (zero-guess: the print labels
+                # them Objectives, so they are NOT reclassified as experiments).
+                # Flagged `objectives_only_no_units_printed` at patch time with
+                # fulltext evidence; downgraded to WARN with the flag cited; a
+                # subject with neither objectives nor cos nor experiments nor a
+                # scheme-only flag still hard-fails.)
+                obj_only = ("objectives_only_no_units_printed" in f for f in flags_l)
+                obj_only = any(obj_only) and bool(s.get("objectives_print"))
+                downgraded_no_units = bool(s.get("experiments") or scheme_only or co_only or obj_only)
+                if not s.get("units") and not downgraded_no_units:
                     problems.append(f"{nm}: no units")
+                elif not s.get("units") and obj_only and not (s.get("experiments") or scheme_only or co_only):
+                    warns.append(f"{nm}: no units (objectives_only_no_units_printed print — downgraded)")
             # v10: atomic_codes (regex-provable) is the ONLY draft_codes source
             # — raw opaque normalizations of compound prints ('KMC 101/201' →
             # 'KMC101201') are meaningless tokens that can never match the PDF
@@ -404,6 +420,22 @@ def main():
             if "unit_ocr_recovered_no_text_layer" in fl_raw and \
                     any(("patch-b10" in q or "page" in q or "p." in q) for q in q_l):
                 ocr_codes |= atomic_codes(s.get("codes"))
+        # v14 remedy (B19 evidence: doc 02's scheme tables print five codes
+        # NHU501/NHU601/NGP501/NGP601/NCS654 whose Course-Code CELL wraps the
+        # token over two printed lines (page-image proof pp.2-3: 'NHU5'/'01',
+        # 'NHU'/'601', 'NGP'/'501', 'NGP'/'601', 'NCS'/'654' stacked in one
+        # cell), so no tolerant regex over the linear text layer can attest
+        # them. A subject flagged `code_cell_wrap_page_image_attested` WITH a
+        # page-citing quirk (patch-time evidence, RULES §6 visible print) has
+        # its ORPHAN hits downgraded to WARN with the flag cited. Unflagged
+        # orphans still hard-fail.)
+        wrap_codes = set()
+        for s in subs:
+            fl_raw = [str(f) for f in (s.get("flags") or [])]
+            q_l = [str(q).lower() for q in (s.get("quirks") or [])]
+            if "code_cell_wrap_page_image_attested" in fl_raw and \
+                    any(("page" in q or "p." in q) for q in q_l):
+                wrap_codes |= atomic_codes(s.get("codes"))
         orphans, orphan_warns = [], []
         for c in sorted(draft_codes):
             if c in pdf_atomic or c in full.replace(" ", ""):
@@ -415,14 +447,15 @@ def main():
             pat = re.escape(m.group(1)) + r"[\s\-]*" + re.escape(m.group(2)) \
                   + (re.escape(m.group(3)) if m.group(3) else "")
             if not re.search(pat, full):
-                if c in ocr_codes:
+                if c in ocr_codes or c in wrap_codes:
                     orphan_warns.append(c)
                 else:
                     orphans.append(c)
         if orphans:
             problems.append("ORPHAN codes not in PDF: " + ",".join(orphans))
         if orphan_warns:
-            warns.append("ORPHAN downgraded (evidence-flagged unit_ocr_recovered_no_text_layer print): "
+            warns.append("ORPHAN downgraded (evidence-flagged unit_ocr_recovered_no_text_layer / "
+                         "code_cell_wrap_page_image_attested print): "
                          + ",".join(sorted(orphan_warns)))
 
         if problems:

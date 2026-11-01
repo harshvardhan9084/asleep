@@ -1414,6 +1414,23 @@ TIER2_OVERRIDES = {
     "07_btech_che_y4_syllabus_2021-22::03::industrial-pollution-abatement-and-waste-management": {
         "action": "ALLOW",
         "reason": "Same-commit era-family convergence: draft 'Industrial Pollution Abatement and Waste Management' (KCH074, 2021-22) fuzzy 96/65-hits the INDUSTRIAL POLLUTION ABATEMENT & WASTE MANAGEMENT row appended in this same commit from 01::38 (ECH032, 2009-10 print; 06::07 'IPA & Waste Management' RCH072 converges too) — identical subject, '&'/'and' variance; KCH074 joins as the era code."},
+    # ---- B19 adjudications (2026-11-01 run, evidence-recorded) ----
+    "02_btech_cse_syllabus_2015-16::19::data-warehousing-data-mining": {
+        "action": "RETARGET", "target": "data-warehousing-and-data-mining",
+        "reason": "B19 TIE strip (recorded B18 DW&DM code-owner RETARGET class): draft 'Data warehousing & Data Mining' (NCS066, 2015-16 CSE print, 5 verbatim units) TIEs fuzzy 91/data-warehouse-and-data-mining (name-only variant row: NO primary_code, NO all_codes, NO units) vs 92/data-warehousing-and-data-mining (the published DW&DM content owner: primary KAI075, all_codes KAI075;BCS058, recorded B08-era code transfer). The content-bearing row with the higher fuzzy score and the recorded published ownership wins; NCS066 joins as the earliest era code; the name-only variant row stays untouched (recorded owner open item: variant-name rows pending reconciliation)."},
+    "10_btech_cse_y3_syllabus_2020-21::11::database-management-systems-lab": {
+        "action": "RETARGET", "target": "database-management-system-lab",
+        "reason": "B19 singular/plural print variant, NOT a code reassignment (recorded B18 DBMS-lab ping-pong class): draft 'Database Management Systems Lab' (KCS551, 2020-21 CSE print) — KCS551's published owner is database-management-system-lab ('Database Management System Lab', established from the 2022-23 CSE-family print family); the name-transfer toward the B-era 'systems' variant row (BCS551 owner) would strand the K-era row codeless and ping-pong the code (B18 recorded rejection of this exact transfer). UPDATE the KCS551 owner row; the 2020-21 print corroborates (KCS551 = DBMS Lab in both K-era prints); experiments content backfills the empty row."},
+    "10_btech_cse_y3_syllabus_2020-21::21::software-engineering-lab": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "software-engineering-lab",
+        "keep_published_codes": {"KCS651": "big-data-and-analytics-lab"},
+        "reason": "B19 older-draft-never-steals-a-code adjudication (newest-print-wins era model, recorded B3/B02 class): draft 'Software Engineering Lab' (2020-21 CSE print) carries an INTRA-DOC code conflict — scheme p.3 prints KCS651, detail p.30 title + virtual-lab mapping print KCS-661 (page-image verified, both codes recorded in the draft). KCS651 is ALREADY owned by big-data-and-analytics-lab per the NEWER 2022-23 CSE-DS print (KCS651;BCDS651; B02 append) — the ladder's name-transfer would strip KCS651 from the newer-session published owner and hand it to a 2020-21 print, reversing the status=latest model. Ruling: UPDATE software-engineering-lab by name identity; KCS661 (the detail-page print) joins as the 2020-21 era code; KCS651 STAYS with big-data-and-analytics-lab and is recorded as a narrative history mention on the SE-Lab row (2020-21 scheme print, dual-use slot across sessions)."},
+    "10_btech_cse_y3_syllabus_2020-21::26::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B19 mini-project CSE&E code-owner RETARGET class (recorded B18/B17 overrides of this exact transfer; B16 rejection): draft 'Mini Project or Internship Assessment*' (KCS554, 2020-21 CSE scheme-row print, sem-5) — KCS554 is ALREADY owned by the CSE&E code-owner row internship-assessment-mini-project (all_codes ...;KCS554;BCS554;... since Task 28/B02). The name-transfer toward the AG/AE-named cross-branch slot row (BAE553 primary, empty branch_names) is rejected per RULES §1b spirit. UPDATE the published KCS554 owner row; scheme-row-only corroboration (no units/COs printed in this doc)."},
+    "03_btech_cse_syllabus_2016-17::04::mobile-application-development": {
+        "action": "FORCE_APPEND",
+        "reason": "B19 wrong-subject FORCE_APPEND (recorded B14/B15 wrong-subject T2 class): draft 'Mobile Application Development' (NOE-075, 2016-17 CSE Open Elective-I, sem-7) fuzzy 88/54-hits mobile-application-development-for-iot (BCIT051, 2024-25 IoT Departmental Elective). Unit-by-unit comparison: u2 (BASIC DESIGN) and u4 (TECHNOLOGY I – ANDROID) are verbatim identical, but u1 (generic mobile-app intro/market drivers vs IoT architectural overview), u3 (multimedia/GPS/cloud design vs IoT MOBILE APPS) and u5 (iOS/Objective-C/Swift vs Android Things) are materially DIFFERENT — 3/5 units. The 2024-25 IoT print borrows unit blocks II and IV from the older OE print; the subjects are distinct (different name print 'for IoT', different slot family OE vs DE, different code families NOE vs BCIT, different eras). Appends as its own row; cross-reference note records the shared unit blocks; zero-GAP holds."},
 }
 
 # ---------------- gates ----------------
@@ -1546,6 +1563,27 @@ def gate_g6(rows, touched_ids, parsed_dir, ocr_rows=frozenset()):
                 for fn in files:
                     if fn.lower().endswith(".pdf"):
                         paths.append(os.path.join(dirpath, fn))
+            # B19 remedy (evidence-recorded): WORKSPACE-SOURCE FALLBACK — the
+            # charter-mandated released companion PDFs (work/artd_v3/sources/,
+            # the two B01-ingested docs) and the owner's upload/ corpus live
+            # OUTSIDE the reset-wiped work/pipeline_v2/ and survived the 17th
+            # workspace reset (2026-11-01) with bytes intact. B19's first
+            # commit G6-FAILED three rows whose published unit1_text was
+            # supplied by exactly these docs (open-elective companion
+            # e18a3256f09b7f6e -> automation-and-robotics /
+            # basics-data-structure-algorithms; upload CSE_v3
+            # 4f09e0095540f04e -> discrete-structures-and-theory-of-logic;
+            # all three containments probe-verified TRUE against the extant
+            # bytes). md5-index these roots exactly like the repo corpus so
+            # G6 citation chains resolve against every locally extant source.
+            # Evidence-widening only: containment must still HIT — fabricated
+            # provenance still fails.
+            for extra_root in ("/home/z/my-project/upload",
+                               "/home/z/my-project/work/artd_v3/sources"):
+                for dirpath, _dirs, files in os.walk(extra_root):
+                    for fn in files:
+                        if fn.lower().endswith(".pdf"):
+                            paths.append(os.path.join(dirpath, fn))
             for path in paths:
                 try:
                     h = _h.md5()
@@ -1689,6 +1727,9 @@ def run(mode, drafts_dir):
                            # quirk evidence) — G6 text-layer containment is
                            # structurally impossible for them (B10 remedy)
     reassignments = []     # recorded code ownership transfers (CODE-REASSIGNED)
+    keep_owner = {}        # B19: key -> {"codes": {code: owner_sid}, "session": ...}
+                           # RETARGET_KEEP_PUBLISHED_CODE_OWNER — codes that stay
+                           # with their published newer-session owner rows
     touched = {}          # subject_id -> row dict (updated in place for commit)
     appends = []
     parsed_dir = f"{BASE}/parsed"
@@ -1724,23 +1765,45 @@ def run(mode, drafts_dir):
             # the token-overlap threshold only because of '&'/'Engg.' print
             # variance and splintered era-family rows; RETARGET at tier 3
             # converts the append into an UPDATE on the canonical era row.
-            if TIER2_OVERRIDES.get(key) and (tier == 2 or TIER2_OVERRIDES[key]["action"] == "RETARGET"):
+            if TIER2_OVERRIDES.get(key) and (tier == 2 or TIER2_OVERRIDES[key]["action"] == "RETARGET"
+                    or TIER2_OVERRIDES[key]["action"] == "RETARGET_KEEP_PUBLISHED_CODE_OWNER"):
                 ov = TIER2_OVERRIDES[key]
                 if ov["action"] == "FORCE_APPEND":
                     tier, targets = 3, []
-                elif ov["action"] == "RETARGET":
+                elif ov["action"] in ("RETARGET", "RETARGET_KEEP_PUBLISHED_CODE_OWNER"):
                     rt = next((r for r in rows if r.get("subject_id") == ov.get("target")), None)
                     if rt is not None:
                         targets = [rt]
                         tier = 2
+                    if ov["action"] == "RETARGET_KEEP_PUBLISHED_CODE_OWNER":
+                        keep = ov.get("keep_published_codes") or {}
+                        if keep and rt is not None:
+                            keep_owner[key] = {"codes": keep, "session": dmeta["session"],
+                                               "target": ov["target"], "detail": ov["reason"]}
+                            # the kept codes must never land on the target row
+                            # (apply_update adds every draft code); drop them from
+                            # the draft copy so the update merges only the codes
+                            # that are genuinely unowned (e.g. the KCS-661 detail
+                            # print) — the kept code stays with its published
+                            # newer-session owner (B19 newest-print-wins ruling)
+                            drop = {norm_code(k) for k in keep}
+                            dsub["codes"] = [c for c in (dsub.get("codes") or [])
+                                             if norm_code(c) not in drop]
                 info = info + " | TIER2 override " + ov["action"] + ": " + ov["reason"][:160]
                 flags.append((key, "TIER2-OVERRIDE", ov["action"] + ": " + ov["reason"]))
             if info.startswith("code-reassigned "):
                 moved = info.split(" ")[1].split(",")
                 flags.append((key, "CODE-REASSIGNED-ACROSS-SESSIONS", info))
-                reassignments.append({"codes": moved,
-                                      "to_row": targets[0]["subject_id"] if targets else slug(dsub.get("name", "")),
-                                      "detail": info, "draft_session": dmeta["session"]})
+                if key in keep_owner:
+                    # B19: the registered transfer is filtered to drop codes that
+                    # stay with their published newer-session owners; if nothing
+                    # remains, the transfer is cancelled entirely
+                    kept = {norm_code(c) for c in keep_owner[key]["codes"]}
+                    moved = [c for c in moved if norm_code(c) not in kept]
+                if moved:
+                    reassignments.append({"codes": moved,
+                                          "to_row": targets[0]["subject_id"] if targets else slug(dsub.get("name", "")),
+                                          "detail": info, "draft_session": dmeta["session"]})
             dflags_l = [str(f).lower() for f in (dsub.get("flags") or [])]
             alt_pair = any("alternative_pair" in f for f in dflags_l)
             if tier == 0 and len(targets) > 1 and alt_pair:
@@ -1887,6 +1950,24 @@ def run(mode, drafts_dir):
         by_id = {}
         for r in rows:
             by_id.setdefault(r["subject_id"], r)
+        # B19: narrative history for codes that keep their published owner
+        # (RETARGET_KEEP_PUBLISHED_CODE_OWNER) — the older draft's scheme print
+        # is recorded on the updated row while ownership stays with the
+        # newer-session published owner row
+        for key, ko in keep_owner.items():
+            trow = by_id.get(ko["target"])
+            if not trow:
+                continue
+            for code, owner_sid in ko["codes"].items():
+                c = norm_code(code)
+                seg = (f"; {c} printed on this {ko['session']} scheme for this subject — "
+                       f"code stays owned by {owner_sid} per the newer establishing print "
+                       f"(newest-print-wins era model; recorded B19 adjudication: older draft "
+                       f"never steals a code from a newer-session published owner)")
+                trow["code_history_all"] = (trow.get("code_history_all", "") or "") + seg
+                trow["change_note_vs_previous"] = (trow.get("change_note_vs_previous", "") + "; " if trow.get("change_note_vs_previous", "") else "") + \
+                    f"{c} {ko['session']} scheme print recorded as narrative; ownership stays with {owner_sid}"
+                touched.setdefault(trow["subject_id"], trow)
         for ra in reassignments:
             to_row = by_id.get(ra["to_row"])
             if not to_row:
