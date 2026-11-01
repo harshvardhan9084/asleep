@@ -1947,6 +1947,55 @@ REPAIRS = {
     },
 }
 
+# B24 (CRON-20261101-B24) per-key TIER2_OVERRIDES (evidence-recorded;
+# the decision for every flagged subject and every ladder-corrected
+# routing of this batch).
+TIER2_OVERRIDES.update({
+    # ---- B24 (CRON-20261101-B24) per-key adjudications, evidence-recorded ----
+    "01_btech_ei_syllabus_2020-21::08::artificial-neural-networks": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW (B23 recorded class): draft 'Artificial Neural Networks' (KIC-053, 2020-21 EI sem-5 DE, 5 detailed units) — target artificial-neural-network (REC054;NEC 013;EEC 023 multi-era row) is the same course, plural/singular print variant; fuzzy 98 / 99 shared distinctive terms (near-verbatim vocab); KIC-053 joins as era code following the row's recorded cross-branch era-family pattern."},
+    "01_btech_ei_syllabus_2020-21::13::instrumentation-measurements-lab": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW: draft 'Instrumentation & Measurements Lab' (KIC-553(+KIC-551), 2020-21 EI, 14 experiments) — target measurement-instrumentation-lab (KEC-653A, 'Measurement & Instrumentation Lab', 2020-21 ECE print) is the same K-era I&M lab, word-order + singular/plural variant; fuzzy 98; the low overlap (28) is the recorded no-units lab class (experiment lists only, B23 KEE652 evidence), not a content difference; KIC-551/KIC-553 join as era codes."},
+    "01_btech_ei_syllabus_2020-21::23::control-systems-lab": {
+        "action": "RETARGET", "target": "control-system-lab",
+        "reason": "B24 TIE pin (B23 PS-I/PS-II same-commit-visibility class): draft 'CONTROL SYSTEMS LAB' (KIC-652, 2020-21 EI sem-6, 12 experiments) — TIE candidates control-system-lab (97) vs control-system-lab-i (92). control-system-lab is the multi-branch K-era canon row (BEC652;BEC-652;EIC-551;RBM551;KEC-652;KEE552) already carrying EI's own 2010-11 print EIC-551 and the 2020-21 ECE print KEC-652; the 2020-21 EI print is the same lab (plural 'Systems' variant, name-exact to the row). control-system-lab-i (RIC653, 2018-19 'CONTROL SYSTEM LAB-I') is the recorded distinct R-era row — Lab-I naming, not the target. KIC-652 joins as era code."},
+    "02_btech_ei_syllabus_2021-22::06::control-system-ii": {
+        "action": "FORCE_APPEND",
+        "reason": "B24 wrong-subject FORCE_APPEND (B23 Machine-II/PS-II class): draft 'Control System-II' (KIC076, 2021-22 EI sem-7 DE, 5 detailed units) — ladder hit digital-control-system (fuzzy 87/36) is the WRONG subject: Digital Control System (EEE-011;KEE 063;BEE063) is a distinct canon DE, and Control System-II is distinct from Control System-I (recorded I/II distinct-row design, cf. Machine-I/II); no control-system-ii row exists pre-commit. APPEND as its own row; the 2019-20 CBCS print (04::00) converges onto it by name identity at commit."},
+    "04_btech_ei_y4_syllabus-cbcs_2019-20::00::control-system-ii": {
+        "action": "FORCE_APPEND",
+        "reason": "B24 wrong-subject FORCE_APPEND (same evidence as 02::06): draft 'CONTROL SYSTEM II' (RIC701, 2019-20 CBCS EI sem-7, 5 detailed units) — ladder hit digital-control-system (87/35) rejected as wrong subject; RIC701 is the CBCS print of the same Control System-II course as KIC076 (2021-22); converges onto the same-commit control-system-ii row by name identity at commit (B23 recorded convergence class)."},
+    "04_btech_ei_y4_syllabus-cbcs_2019-20::02::control-system-lab-ii": {
+        "action": "FORCE_APPEND",
+        "reason": "B24 wrong-subject FORCE_APPEND (serial-variant class, recorded B02 remedy): draft 'CONTROL SYSTEM LAB II' (RIC751, 2019-20 CBCS EI sem-7, 10 experiments) — ladder hit control-systems-i-lab (NIC-551, fuzzy 95/0) is the WRONG subject: a Lab-II is never merged into a Lab-I/Systems-I row (numeral/roman serial variants never fuzzy-merge); no control-system-lab-ii row exists pre-commit. APPEND as its own row."},
+    "02_btech_ei_syllabus_2021-22::07::computerized-process-control": {
+        "action": "ALLOW",
+        "reason": "B24 spelling-variant ALLOW (recorded z/s class): draft 'Computerized Process Control' (KIC077, 2021-22 EI sem-7 DE, 5 detailed units) — target computerised-process-control (REC078, 2019-20 print) is the same course, Computerized/Computerised spelling variant; fuzzy 96/81 shared process-control vocabulary; KIC077 joins as era code."},
+    "04_btech_ei_y4_syllabus-cbcs_2019-20::12::biomedical-signal-processing": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW (B10 recorded hyphen-variant class): draft 'BIOMEDICAL SIGNAL PROCESSING' (RIC080, 2019-20 CBCS EI sem-8, 5 detailed units) — target bio-medical-signal-processing (EBM-603;RBM602;RBM-602;BEC-056 multi-era row, the row already carrying the 2024-25 ECE print BEC-056) is the same course, hyphen/solidus print variant; fuzzy 98/91; RIC080 joins as era code."},
+    "07_btech_electronics-computer_y3_syllabus_2021-22::05::advanced-digital-design-using-verilog": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW: draft 'ADVANCED DIGITAL DESIGN USING VERILOG' (KECZ-054, 2021-22 elec-computer sem-5 DE, 5 detailed units) — target advanced-digital-system-design-using-verilog (NEC 024R;KEC-054;REC064 multi-era row) is the same DE, the 2021-22 print drops 'System'; fuzzy 91/71; KECZ-054 joins as era code (the code assignment is table+page-10-consistent per the recorded ::06 adjudication)."},
+    "07_btech_electronics-computer_y3_syllabus_2021-22::06::optical-communication-system": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW: draft 'OPTICAL COMMUNICATION SYSTEM' (KECZ-053 after the recorded patch_b24_merge_adjudications print-conflict fix, 2021-22 elec-computer sem-5 DE, 5 detailed units) — target optical-communication (KEC-058;BEC-057;REC075;EEC 701;NEC 701;REN080 multi-era row) is the same course ('System' suffix variant); fuzzy 86/176 (large shared distinctive vocabulary); KECZ-053 joins as era code."},
+    "07_btech_electronics-computer_y3_syllabus_2021-22::10::object-oriented-system-design": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW: draft 'Object Oriented System Design' (KECZ-058, 2021-22 elec-computer sem-5 DE, 5 detailed units) — target object-oriented-system-design (BCS054;KCS054;BCS054H canon row, row name '...with C++') is the same course; fuzzy 89/157; KECZ-058 joins as era code."},
+    "08_btech_electronics-computer_y3_syllabus_2024-25::03::optical-communication-system": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW (same evidence as 07::06): draft 'Optical Communication System' (BECZ051, 2024-25 elec-computer NEP2020 sem-5 DE, 5 detailed units) — target optical-communication multi-era row is the same course; fuzzy 86/176; BECZ051 joins as the NEP2020 branch-variant era code."},
+    "08_btech_electronics-computer_y3_syllabus_2024-25::06::advanced-digital-design-using-verilog": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW (same evidence as 07::05): draft 'Advanced Digital Design using Verilog' (BECZ052, 2024-25 elec-computer NEP2020 sem-5 DE, 5 detailed units) — target advanced-digital-system-design-using-verilog multi-era row is the same DE ('System'-less print variant); fuzzy 91/70; BECZ052 joins as era code."},
+    "10_btech_electronics-computer_y4_syllabus_2025-26::03::electric-vehicle-technology": {
+        "action": "ALLOW",
+        "reason": "B24 name-variant ALLOW (B23 recorded EV-family class): draft 'Electric Vehicle Technology' (BECZ070, 2025-26 elec-computer sem-7 DE, 5 detailed units) — target electric-hybrid-vehicles-technology (BAU602, 'Electric & Hybrid Vehicles Technology', the published EV-technology row; B23 ALLOWed the same family's 'Electric-and-Hybrid-Vehicles' print at 97/38) is the same DE; the 2025-26 print drops 'Hybrid'; fuzzy 87/40 shared EV vocabulary; BECZ070 joins as era code."},
+})
+
 
 
 # B14 remedy registry: sha16s of documents that a PRIOR batch ingested and

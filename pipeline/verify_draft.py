@@ -343,13 +343,25 @@ def main():
                                          f"(evidence-flagged unit_ocr_recovered_no_text_layer print — downgraded)")
                         else:
                             problems.append(f"{nm}: CO{co.get('no')} containment {cov:.2f}")
+            # v15 remedy (B24 evidence: doc-08 VLSI Technology book list prints
+            # one token per line vertically — 'S.' / 'M.' / 'Sze,' … — so
+            # strip_furniture_deep drops the short token lines and the
+            # per-page/joined containment paths both miss the needle even
+            # though raw norm_al(full) contains it verbatim (cover 1.0 raw).
+            # Raw normalized containment is the strongest possible evidence;
+            # the pages-union exists only for junction tolerance and can only
+            # lower the verdict. A book/experiment fully contained in raw
+            # norm_al(full) is therefore never flagged.)
+            _full_norm = norm_al(full)
             for b in (s.get("textbooks") or []) + (s.get("reference_books") or []):
                 t = b.get("book", "")
-                if t and len(norm_al(t)) > 25 and cover_text(full, t, pages=page_texts) < 0.5:
+                if t and len(norm_al(t)) > 25 and cover_text(full, t, pages=page_texts) < 0.5 \
+                        and norm_al(t) not in _full_norm:
                     warns.append(f"{nm}: book not found: {t[:40]}")
             for ex in s.get("experiments") or []:
                 t = ex.get("exp", "")
-                if t and len(norm_al(t)) > 25 and cover_text(full, t, pages=page_texts) < 0.5:
+                if t and len(norm_al(t)) > 25 and cover_text(full, t, pages=page_texts) < 0.5 \
+                        and norm_al(t) not in _full_norm:
                     warns.append(f"{nm}: experiment not found: {t[:40]}")
 
         # GAP: codes on scheme-like lines must all be drafted

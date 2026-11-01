@@ -1,3 +1,7 @@
+# CRON-20261101-B24 — B24 — 2026-11-01
+
+rows 1765-1787, codes 3531-3640, +22 appends/~161 updates - BTech EI/Electrical-Computer/Electronics-Computer wave 2018-19..2025-26 (10 docs 183 subjects drafted); 22nd-reset recovery to GitHub B23 state; 14 TIER2_OVERRIDES (10 name-variant ALLOWs, 3 wrong-subject FORCE_APPENDs incl. Control System-II/Lab-II distinct rows, 1 TIE pin Control-Systems-Lab->canon row) + 4 doc07 print-conflict code pins (table-vs-page 2-vs-1 consensus) + BEE653 ownership transfer + BEE652 PART-B two-list recovery + verifier v15 raw-containment remedy; gates G1/G2/G3/G6 PASS
+
 # CRON-20261101-B23 — B23 — 2026-11-01
 
 rows 1712-1765, codes 3389-3531, +53 appends/~198 updates - BTech EE/EEE-ECE wave 2017-18..2024-25 incl. AICTE-model + NEP2020 prints (10 docs 257 subjects drafted); 39 TIER2_OVERRIDES (6 wrong-subject FORCE_APPEND families, 6 code-owner RETARGETs incl. 2 verbatim-identity joins, 2 PS-I/II same-commit pins) + 6 ALTERNATIVE-PAIR-SLOT skips + RS-232 GAP recovery (BEE652 PART-B list); gates G1/G2/G3/G6 PASS
