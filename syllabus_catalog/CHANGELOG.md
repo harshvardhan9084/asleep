@@ -1,3 +1,7 @@
+# CRON-20261101-B22 — B22 — 2026-11-01
+
+rows 1615-1712, codes 3182-3389, +97 appends/~173 updates - BTech ECE-y4 multi-era + EE-family wave 2009-10..2026-27 (10 docs 283 subjects drafted); 21st-reset recovery to GitHub B21 state; 20 TIER2_OVERRIDES (6 wrong-subject FORCE_APPENDs incl 4x Speech-Processing vs AG Seed-Processing, KEE-302 EMMI RETARGET, 4 wildcard-wart RETARGETs) + 13 ALTERNATIVE-PAIR-SLOT skips + Mathematics-III slot-code transfer (EAS-301/401); gates G1/G2/G3/G6 PASS
+
 # CRON-20261101-B21 — B21 — 2026-11-01
 
 rows 1560-1615, codes 3037-3182, +55 appends/~212 updates/!2 repairs - BTech ECE-family wave 2009-10..2026-27 (10 docs 275 subjects drafted); 20th-reset recovery to GitHub B20 state; TC wrong-merge repaired (BEC-057 Optical Communication re-homed from technical-communication); B10 code-slot-collision ladder fix; 28 TIER2_OVERRIDES + 8 ALTERNATIVE-PAIR-SLOT skips; gates G1/G2/G3/G6 PASS

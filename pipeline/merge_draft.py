@@ -636,11 +636,55 @@ SLOT_CODE_TRANSFERS = {
     "03_btech_common_y4_hsmc-courses_2021-22::01::project-management-entrepreneurship": {
         "codes": ["KHU702", "KHU802"],
         "reason": "B17 HSMC slot-code transfer: the 2021-22 HSMC doc prints 'KHU702/KHU802 PROJECT MANAGEMENT & ENTREPRENEURSHIP' as a REAL subject (5 verbatim units; same HSMC-1/HSMC-2 dual-slot model) — KHU702/KHU802 currently sit on the generic slot rows hsmc-1-hsmc-2 / hsmc-2-hsmc-1. The subject appends with its printed codes; slot rows keep their prints (codeless identity rows, recorded B08 remedy)."},
+    "09_btech_ee_syllabus_2009-10::01::mathematics-iii": {
+        "codes": ["EAS-301", "EAS-401"],
+        "reason": "B22 slot-code transfer (recorded B17 HSMC class): the 2009-10 EE print details 'EAS-301/EAS-401: MATHEMATICS –III' as a REAL subject (verbatim units; the detailed header carries BOTH slot codes on one heading — quirk recorded by the draft). The only current owners of EAS-301/EAS401 are the two 2017-18-era slot-variant rows mathematics-iii-science-based-open-elective (EAS-301) and science-based-open-elective-mathematics-iii (EAS401) — the B02 paired-slot prints ('Mathematics-III/Science Based Open Elective'). The detailed 2009-10 print wins (newest-detailed principle, recorded CODE-REASSIGNED model): the subject appends with its printed codes; the slot rows keep their slot prints/names and narrative history (codeless of EAS-3xx, recorded B08 remedy). G2 clean: the transfer runs before the gates."},
 }
 
 # B2: doc-level scope from the PRINTED COVER of each ingested document
 # (zero-guess: only what the cover prints; recorded reasoning per entry).
 DOC_SCOPE = {
+    # ---- B22 covers (zero-guess branch scope per printed cover/scheme title) ----
+    "0579856dc67bbeff": {
+        "branch_names": "Electronics and Communication Engineering",
+        "program_year": "4",
+        "reason": "B22 ECE y4 2021-22: p.1 cover text layer is glyph-scrambled (draft quirk recorded; fragments 'ELECTRONICS A(ND) ... COMMUNICA(TION)'); the scheme-title prints on pp.2-3 (and the p.3 page image, B22 verification) print 'ELECTRONICS AND COMMUNICATION ENGINEERING / B.Tech. VII Semester / Electronics and Communication Engineering' — single legible branch print; program_year 4 from the printed VII-VIII semester span"},
+    "b875786af75ea86d": {
+        "branch_names": "Electronics Engineering; Electronics & Communication Engineering; Electronics & Telecommunication Engineering",
+        "program_year": "4",
+        "reason": "B22 ECE y4 revised 2019-20: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B.TECH. FINAL YEAR ELECTRONICS ENGINEERING/ ELECTRONICS & COMMUNICATION ENGINEERING/ ELECTRONICS & TELECOMMUNICATION ENGINEERING — CHOICE BASED CREDIT SYSTEM (CBCS) [Effective from the Session: 2019-20]'"},
+    "cd8250b44c898bd0": {
+        "branch_names": "Electronics Engg.; Electronics & Communication Engg.; Electronics & Telecomm Engg.",
+        "program_year": "4",
+        "reason": "B22 ECE y4 2011-12: p.2 scheme title prints 'Study and Evaluation Scheme B. Tech. in Electronics Engg/ Electronics & Communication Engg/ Electronics & Telecomm Engg [Effective from the session 201112] YEAR 4th, SEMESTER-VIII' (p.1 text layer empty)"},
+    "3298dc1f8195fb2f": {
+        "branch_names": "Electronics Engg.; Electronics & Communication Engg.; Electronics & Telecommunication Engg.",
+        "program_year": "4",
+        "reason": "B22 ECE y4 2016-17: cover prints 'Study and Evaluation Scheme B. Tech. in Electronics Engg/Electronics & Communication Engg/Electronics & Telecommunication Engg [Effective from the session 2016-17] YEAR 4th, SEMESTER-VII'"},
+    "a1cfb31bae23d270": {
+        "branch_names": "Electronics Engineering; Electronics and Communication Engineering; Electronics and Telecommunication Engineering",
+        "program_year": "4",
+        "reason": "B22 ECE y4 2025-26: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. FOURTH YEAR — ELECTRONICS ENGINEERING / ELECTRONICS AND COMMUNICATION ENGINEERING / ELECTRONICS AND TELECOMMUNICATION ENGINEERING'"},
+    "a9b82a5ad092f514": {
+        "branch_names": "Electrical Engineering; Electrical and Electronics Engineering",
+        "program_year": "4",
+        "reason": "B22 EE/EE-EN y4 2025-26: cover prints 'Evaluation Scheme & Syllabus For B. Tech. 4th Year — Electrical Engineering & Electrical and Electronics Engineering' (draft D06: the two branches share one scheme)"},
+    "2a559deeb26d4e0d": {
+        "branch_names": "Electrical Engineering; Electrical & Electronics Engineering",
+        "program_year": "2",
+        "reason": "B22 EE-group y2 revised 2014-15: cover prints 'Syllabus for B. Tech. Electrical Engineering / B.Tech. Electrical & Electronics Engg. of Second Year (Effective from the Session: 2014-15)'; p.2 scheme title 'B-Tech. Electrical Engg./Electrical & Electronics Engineering YEAR: 2nd SEMESTER-III'"},
+    "17778c4a3a6a7a09": {
+        "branch_names": "Electrical Engineering; Electrical and Electronics Engineering; Electrical & Computer Engineering",
+        "program_year": "1",
+        "reason": "B22 EE-stream course structure 2026-27: cover prints 'EVALUATION SCHEME & SYLLABUS Of B. TECH. First Year EE STREAM — Electrical Engineering/Electrical and Electronics Engineering/Electrical & Computer Engineering (Effective from the Academic Session: 2026-27)'"},
+    "8f2892a46c32012b": {
+        "branch_names": "Electrical Engg.; Electrical & Electronics Engineering",
+        "program_year": "2,3,4",
+        "reason": "B22 EE 2009-10: cover prints 'Syllabus — 2nd Year, 3rd Year and 4th Year [Effective from the session: 2009-10] B.TECH. ELECTRICAL ENGINEERING'; p.2 scheme title 'B-Tech. Electrical Engg./Electrical & Electronics Engineering (EFFECTIVE FROM SESSION: 2009-10)'"},
+    "eb4a3200ae2e913d": {
+        "branch_names": "Electrical Engineering",
+        "program_year": "2",
+        "reason": "B22 EE y2 AICTE model curriculum 2019-20: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. 2nd YEAR ELECTRICAL ENGINEERING — AICTE MODEL CURRICULUM [Effective from the Session: 2019-20]'; p.2 header 'EVALUATION SCHEME - B.TECH 2nd YEAR (ELECTRICAL ENGINEERING)'"},
     "9f353dd680d7c524": {
         "branch_names": "",
         "program_year": "4",
@@ -847,6 +891,71 @@ DOC_SCOPE = {
 # published B06 manifest ("TIER2_OVERRIDES mechanism added ... per-key,
 # evidence-recorded"), re-evidenced against the drafts + baseline rows.
 TIER2_OVERRIDES = {
+    # ---- B22 (CRON-20261101-B22) per-key adjudications, evidence-recorded ----
+    # 16 Tier-2 flags: 6 wrong-subject FORCE_APPENDs (4x Speech Processing ->
+    # AG 'Seed Processing' RAG052 + process-instrumentation + basic-signals),
+    # 1 code-owner RETARGET (KEE-302 -> EMMI), 9 name-variant/era-family
+    # ALLOWs (unit-vocab evidence recorded per key).
+    "01_btech_ece_y4_syllabus-rcode_2021-22::07::speech-processing": {
+        "action": "FORCE_APPEND",
+        "reason": "B22 wrong-subject FORCE_APPEND (B14/B15/B19/B20-e class): the only Tier-2 candidate seed-processing is the Agricultural Engineering subject 'Seed Processing' (RAG052, 2018-19 AG print: seed industry/seed acts units) — name-similarity 88 is 'speech'/'seed'+'processing' token variance; shared unit vocabulary 4 generic tokens. The 2021-22 ECE print 'Speech Processing' (KEC-078, detailed units) appends as its own row; later Speech-Processing prints (02::18/03::13/04::14) converge onto it by Tier-1 name identity at commit (recorded same-commit visibility class)."},
+    "02_btech_ece_y4_syllabus-rev_2019-20::16::wireless-mobile-communication": {
+        "action": "ALLOW",
+        "reason": "B22 name-variant ALLOW ('&' vs 'and' print class, B18/B19 recorded): draft 'Wireless & Mobile Communication' (2019-20 REC print) fuzzy 94, shared unit vocabulary 135 tokens — same subject as the published wireless-and-mobile-communication row; REC-0xx code joins as era code."},
+    "02_btech_ece_y4_syllabus-rev_2019-20::18::speech-processing": {
+        "action": "FORCE_APPEND",
+        "reason": "B22 wrong-subject FORCE_APPEND (same evidence as 01::07): Tier-2 candidate seed-processing is the AG 'Seed Processing' RAG052 row (seed-industry units; shared vocab 4 generic tokens). The 2019-20 ECE print 'Speech Processing' (REC-08x) appends; converges onto the 01::07-appended speech-processing row by Tier-1 name identity at commit (same-commit visibility class)."},
+    "03_btech_ece_y4_syllabus_2011-12::03::satellite-communications": {
+        "action": "ALLOW",
+        "reason": "B22 singular/plural print variant ALLOW (B18/B19 recorded class): draft 'SATELLITE COMMUNICATIONS' (2011-12 EEC print) fuzzy 98, shared vocab 50 tokens vs published satellite-communication — same subject; EEC-0xx code joins as era code."},
+    "03_btech_ece_y4_syllabus_2011-12::05::artificial-neural-networks": {
+        "action": "ALLOW",
+        "reason": "B22 singular/plural print variant ALLOW (B18/B19 recorded class): draft 'Artificial Neural Networks' (2011-12 EEC print) fuzzy 98, shared vocab 40 tokens vs published artificial-neural-network — same subject."},
+    "03_btech_ece_y4_syllabus_2011-12::09::mobile-and-wireless-communication": {
+        "action": "ALLOW",
+        "reason": "B22 word-order print variant ALLOW (B18/B19 recorded class): draft 'Mobile and Wireless Communication' (2011-12 EEC print) fuzzy 100, shared vocab 44 tokens vs published wireless-and-mobile-communication — same subject; EEC-0xx joins as era code."},
+    "03_btech_ece_y4_syllabus_2011-12::13::speech-processing": {
+        "action": "FORCE_APPEND",
+        "reason": "B22 wrong-subject FORCE_APPEND (same evidence as 01::07): Tier-2 candidate seed-processing is the AG 'Seed Processing' RAG052 row (shared vocab 4 generic tokens). The 2011-12 ECE print 'SPEECH PROCESSING' appends; converges onto the 01::07-appended speech-processing row by Tier-1 name identity at commit."},
+    "04_btech_ece_y4_syllabus_2016-17::10::wireless-mobile-communication": {
+        "action": "ALLOW",
+        "reason": "B22 name-variant ALLOW ('&' vs 'and' print class): draft 'Wireless & Mobile Communication' (2016-17 NEC print) fuzzy 94, shared vocab 134 tokens — same subject as wireless-and-mobile-communication."},
+    "04_btech_ece_y4_syllabus_2016-17::14::speech-processing": {
+        "action": "FORCE_APPEND",
+        "reason": "B22 wrong-subject FORCE_APPEND (same evidence as 01::07): Tier-2 candidate seed-processing is the AG 'Seed Processing' RAG052 row (shared vocab 4 generic tokens). The 2016-17 ECE print 'Speech Processing' appends; converges onto the 01::07-appended speech-processing row by Tier-1 name identity at commit."},
+    "07_btech_ee-group_y2_syllabus-rev_2014-15::15::instrumentation-process-control": {
+        "action": "FORCE_APPEND",
+        "reason": "B22 wrong-subject FORCE_APPEND (B14/B15/B19/B20-e class): the Tier-2 candidate process-instrumentation is the chemical-process print (ECH604/ECH504/REC408; unit vocabulary 'process industries, flow/level/pressure transmitters' family) — draft 'Instrumentation & Process Control' (NEE-403, 2014-15 EE-group, detailed units) shares only 24% vocabulary and best per-unit similarity 0.35: different subjects that merely share the instrumentation token family. Appends as its own row with NEE-403; cross-reference note to process-instrumentation recorded."},
+    "09_btech_ee_syllabus_2009-10::11::microprocessors": {
+        "action": "ALLOW",
+        "reason": "B22 era-family ALLOW (B18/B19 recorded class): draft 'Microprocessors' (2009-10 EEE print) fuzzy 97, shared vocab 57 tokens vs published microprocessor — the row already owns the same-era 2009-10 ECE print codes (EEC- 503/EEC 503, recorded B21); the EEE print is the same subject family; EEE-5xx code joins as era code."},
+    "09_btech_ee_syllabus_2009-10::44::cryptography-and-network-security": {
+        "action": "ALLOW",
+        "reason": "B22 same-subject ALLOW: draft 'Cryptography and Network Security' (2009-10 EEE open-elective print) fuzzy 94, shared vocab 70 tokens vs published cryptography-network-security-btech — same BTech subject; EOE code joins as era code."},
+    "09_btech_ee_syllabus_2009-10::56::energy-efficiency-and-conservation": {
+        "action": "ALLOW",
+        "reason": "B22 name-variant ALLOW (word-order/ellipsis class): draft 'Energy Efficiency and Conservation' (2009-10 EOE scheme-row print) fuzzy 100 vs published ENERGY EFFICIENCY AND ENERGY CONSERVATION (ECH013, 2009-10 ECE print) — same subject name modulo the repeated 'energy' token; scheme-row-only corroborating print; low unit overlap (9) reflects the scheme-row-only class, not content difference."},
+    "10_btech_ee_y2_model-curriculum_2019-20::01::electrical-measurements-instrumentation": {
+        "action": "RETARGET", "target": "electrical-measurement-measuring-instruments",
+        "reason": "B22 code-owner RETARGET (B20-c singular/plural+abbreviated-print class with recorded unit evidence): draft 'Electrical Measurements & Instrumentation' (KEE-302, 2019-20 AICTE EE-model print, detailed units). The ladder's Tier-2 hit electronic-instrumentation-and-measurements (EIM, ECE-family EEC-403) is rejected: shared vocab 40%, best per-unit 0.41, and the print says ELECTRICAL not ELECTRONIC. The published EE-family measurements row electrical-measurement-measuring-instruments (NEE-302, 2014-15 EE-group print) matches better on every axis: shared vocab 45%, best per-unit 0.57 (measurement methods/characteristics/errors/standards/indicating-instruments topic sequence identical), same branch family. KEE-302 joins as era code; 2019-20 units fieldwise-win (RULES §3); NEE-302 print stays in source_history."},
+    "10_btech_ee_y2_model-curriculum_2019-20::02::basic-signals-systems": {
+        "action": "FORCE_APPEND",
+        "reason": "B22 wrong-subject FORCE_APPEND (B14/B15/B19/B20-e class, recorded unit evidence): draft 'Basic Signals & Systems' (KEE-303, 2019-20 AICTE EE-model print, detailed units) vs Tier-2 candidate signals-and-systems (EEC-404/NEC-303/REC303 ECE-canon): shared vocab only 43% with best per-unit SequenceMatcher 0.08 — the AICTE print is a rewritten unit split (State-Variable analysis unit, no sampling unit). Precedent: the B02 AICTE E&C-model print 'Signal System' (KEC403/BEC403) was likewise kept as its OWN row (unit-vocab 38% vs the EE print; best 0.34). Appends as its own row with KEE-303 + cross-reference note to signals-and-systems and signal-system (same signals-course family; kept separate per unit-text evidence, RULES §11)."},
+    "10_btech_ee_y2_model-curriculum_2019-20::08::networks-analysis-synthesis": {
+        "action": "ALLOW",
+        "reason": "B22 plural-variant + era-family ALLOW (B18/B19 recorded class): draft 'Networks Analysis & Synthesis' (KEE-403, AICTE EE-model print) fuzzy 91, shared vocab 58 of 106 tokens (best per-unit 0.46) vs published network-analysis-and-synthesis — the row is the multi-era canon (NEC-301 2014-15, KEC303 2019-20, BEC303, REE305); KEE-403 joins as era code; 2019-20 units fieldwise-win."},
+    "05_btech_ece_y4_syllabus_2025-26::10::open-elective-iii": {
+        "action": "RETARGET", "target": "open-elective-iii",
+        "reason": "B22 same-commit-visibility RETARGET (recorded B06/B09/B10 class): draft 'Open Elective-III' (BOEM** wildcard slot print, 2025-26 ECE y4) — the live loop's 05::06 update wrote the raw wildcard 'BOEM**' onto open-elective-ii (all_codes), so the Tier-0 wildcard scan finds open-elective-ii (same-commit) AND open-elective-iii (static 'BOEM**' owner) — a wildcard-wart TIE, not two real subjects. RETARGET pins the update to the NAME-EXACT row open-elective-iii."},
+    "05_btech_ece_y4_syllabus_2025-26::11::open-elective-iv": {
+        "action": "RETARGET", "target": "open-elective-iv",
+        "reason": "B22 same-commit-visibility RETARGET (recorded class): draft 'Open Elective-IV' (BOEM** wildcard slot print) — Tier-0 wildcard scan finds open-elective-ii (05::06 live update) + open-elective-iii (static) both carrying the 'BOEM**' wart; neither is the name-exact row. RETARGET pins the update to open-elective-iv (name identity; the row owns no wildcard yet and gains the printed 'BOEM**')."},
+    "06_btech_ee-en_y4_syllabus_2025-26::11::open-elective-iii": {
+        "action": "RETARGET", "target": "open-elective-iii",
+        "reason": "B22 same-commit-visibility RETARGET (recorded class): draft 'Open Elective-III' (BOEM** wildcard slot print, 2025-26 EE/EE-EN y4) — the 05::06 live update put 'BOEM**' on open-elective-ii and 05::10's update kept it on open-elective-iii; the wildcard scan TIEs across those warts. RETARGET pins the update to the NAME-EXACT row open-elective-iii."},
+    "06_btech_ee-en_y4_syllabus_2025-26::12::open-elective-iv": {
+        "action": "RETARGET", "target": "open-elective-iv",
+        "reason": "B22 same-commit-visibility RETARGET (recorded class): draft 'Open Elective-IV' (BOEM** wildcard slot print, 2025-26 EE/EE-EN y4) — same wildcard-wart TIE (open-elective-ii + open-elective-iii carry 'BOEM**' from the doc05 updates). RETARGET pins the update to the NAME-EXACT row open-elective-iv."},
     # ---- B18 (CRON-20261101-B18) per-key adjudications, evidence-recorded ----
     # Six mini-project prints (2022-23 KCS554 x2, 2024-25 BCS554 x4) + four
     # DBMS-lab print variants + DW&DM + Constitution: each RETARGETs to the
