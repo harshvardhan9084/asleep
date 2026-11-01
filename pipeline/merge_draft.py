@@ -271,6 +271,36 @@ def ladder(dsub, rows, course, draft_session=""):
                                f"collapsed-name similarity {sim:.2f} < 0.84 = different subject on a "
                                f"reassigned code slot; newest print ({draft_session}) appends its own "
                                f"row and the code transfers (B10 recorded remedy)")
+            if sim < 0.84 and not newer:
+                # B21 remedy (evidence-recorded, fixes the pre-B21 fallthrough that
+                # silently UPDATEd a different subject): a draft print that is NOT
+                # newer than the code owner's establishing print, whose name
+                # similarity is below the print-variant threshold, is a DIFFERENT
+                # subject printed on a collided slot code (evidence B21: doc05
+                # Communication Lab - II 'NEC 652' vs the instrumentation-lab owner
+                # from the same-session AEI print — unit/experiment vocabulary
+                # overlap 0). RULES §3: the published owner keeps the code; the
+                # draft APPENDS as its own row with the collided code dropped to a
+                # narrative quirk (never two owners of one code, G2).
+                moved = sorted(dcodes & row_owned_codes(t0[0]))
+                if moved:
+                    drop = set(moved)
+                    dsub["codes"] = [c for c in (dsub.get("codes") or [])
+                                     if norm_code(c) not in drop]
+                    dsub.setdefault("quirks", []).append(
+                        "Code " + ",".join(moved) + " prints on this subject in the " +
+                        str(draft_session) + " scheme, but the code is owned by " +
+                        t0[0]["subject_id"] + " from its " +
+                        str(t0[0].get("effective_session_latest", "")) +
+                        " establishing print — narrative mention only, ownership unchanged "
+                        "(B21 code-slot-collision remedy: equal-or-older print never takes "
+                        "a code from its published owner, RULES §3; collapsed-name "
+                        f"similarity {sim:.2f} < 0.84 = different subject, not a print variant)")
+                return 3, [], (f"code-slot collision: collapsed-name similarity {sim:.2f} < 0.84 = "
+                               f"different subject; draft print {draft_session} is not newer than the "
+                               f"code owner's ({t0[0].get('effective_session_latest', '')}) so the code "
+                               f"stays with {t0[0]['subject_id']} (RULES §3) and the draft appends "
+                               f"its own row (B21 recorded remedy)")
             return 0, t0, ("code identity (name contradicts but collapsed-name similarity "
                            f"{sim:.2f} >= 0.84 = same-subject print variant)")
     if len(t0) > 1:
@@ -1465,7 +1495,191 @@ TIER2_OVERRIDES = {
         "reason": "B20 wrong-subject FORCE_APPEND (recorded B14/B15/B19 wrong-subject T2 class): draft 'Foundation of Artificial Intelligence and Machine Learning' (BDS401, 2025-26 DS y2 core, 5 verbatim units) fuzzy 85/56-hits artificial-intelligence-and-machine-learning-in-bioinformati (BBI602, 2026-27 Bioinformatics branch elective). Unit-by-unit comparison (patch-b20 evidence): normalized similarity 0.019/0.025/0.021/0.107/0.007 across units 1-5 — COMPLETELY different content (foundations: AI history/first-order-logic/ANN/supervised+unsupervised learning vs bioinformatics applications: expert systems/NLP/ML-algorithms/bioinformatics applications unit). Different subjects (different slot: DS y2 core vs Bioinformatics y3 elective; different code family BDS vs BBI). Appends as its own row with a cross-reference note; zero-GAP holds."},
 }
 
-# ---------------- gates ----------------
+# ---------------- B21 batch additions (evidence-recorded) ----------------
+
+# B21 DOC_SCOPE: branch scope from each ingested document's PRINTED COVER
+# (zero-guess: exactly what the cover prints; B02-recorded pattern).
+DOC_SCOPE.update({
+    "304f365c491eb9dd": {
+        "branch_names": "Electronics Engineering; Electronics and Communication Engineering; Electronics and Telecommunication Engineering; Electronics and Instrumentation Engineering; Instrumentation and Control Engineering; Applied Electronics and Instrumentation; Instrumentation Engineering",
+        "program_year": "2",
+        "reason": "B21 doc01: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. SECOND YEAR ELECTRONICS ENGINEERING/ ELECTRONICS AND COMMUNICATION ENGINEERING/ ELECTRONICS AND TELECOMMUNICATION ENGINEERING/ ELECTRONICS AND INSTRUMENTATION ENGINEERING/ INSTRUMENTATION AND CONTROL ENGINEERING/ APPLIED ELECTRONICS AND INSTRUMENTATION/ INSTRUMENTATION ENGINEERING AS PER AICTE MODEL CURRICULUM [Effective from the Session: 2019-20]' — the ORIGINAL 2019-20 AICTE print (the B02-ingested E&C print 2615fceb4d68/7a0eeeeb was the 2020-21-effective revision with different unit splits; doc01 backfills only per RULES §3)"},
+    "5184dfbd04413ba6": {
+        "branch_names": "Electronics Engineering; Electronics & Communication Engineering; Electronics & Telecommunication Engineering; Electronics & Instrumentation Engineering; Instrumentation & Control Engineering; Applied Electronics and Control Engineering; Biomedical Engineering",
+        "program_year": "2",
+        "reason": "B21 doc02: cover prints 'UTTAR PRADESH TECHNICAL UNIVERSITY LUCKNOW SYLLABUS 2nd Year [Effective from Session 2014-15]' + the 7-branch ECE-group list ending '7. B. Tech. Biomedical Engineering'"},
+    "b98bd23c56a3c812": {
+        "branch_names": "Electronics Engineering; Electronics and Communication Engineering; Electronics and Communication (Advanced Communication Technology); Electronics Engineering (VLSI Design and Technology); Electronics and Instrumentation Engineering; Instrumentation and Control Engineering",
+        "program_year": "1",
+        "reason": "B21 doc03: cover prints 'EVALUATION SCHEME & SYLLABUS of B. TECH. First Year ECE STREAM — Electronics Engineering, Electronics and Communication Engineering, Electronics and Communication (Advanced Communication Technology), Electronics Engineering (VLSI Design and Technology), Electronics and Instrumentation Engineering, Instrumentation and Control Engin[eering]' (2026-27 A-era course structure)"},
+    "2f22738f6f091a8e": {
+        "branch_names": "Electronics Engg.; Electronics & Communication Engg.; Electronics & Telecommunication Engg.",
+        "program_year": "3",
+        "reason": "B21 doc04: cover prints 'G.B. TECHNICAL UNIVERSITY, LUCKNOW Syllabus 3rd & 4th Year [Effective from session 2009-10] 1. B.Tech. Electronics Engg. 2. B.Tech. Electronics & Communication Engg. 3. B.Tech. Electronics & Telecommunication Engg.' (document details Sem III-VI EEC/EIC subjects)"},
+    "1a96cda0c39e4902": {
+        "branch_names": "Electronics Engineering; Electronics & Communication Engineering; Electronics & Telecommunication Engineering",
+        "program_year": "3",
+        "reason": "B21 doc05: cover prints 'DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY Syllabus 3rd Year [Effective from Session 2016-17] 1. B.Tech. Electronics Engineering 2. B.Tech. Electronics & Communication Engineering 3. B.Tech. Electronics & Telecommunication Engineering' (Sem V/VI NEC/NIC)"},
+    "539a5b5954ed22b7": {
+        "branch_names": "Electronics Engineering; Electronics & Communication Engineering; Electronics & Telecommunication Engineering",
+        "program_year": "3",
+        "reason": "B21 doc06: byte-variant twin of doc05 (same cover print, 3rd Year 2016-17, Sem V/VI NEC/NIC); drafts extracted independently per pdf, merge converges them"},
+    "6f590e0fe178d517": {
+        "branch_names": "Electronics and Communication Engineering; Electronics and Instrumentation Engineering; Electronics and Telecommunication Engineering",
+        "program_year": "3",
+        "reason": "B21 doc07: cover text layer is scrambled (glyph-scatter); the draft reassembled it from verified fragments: 'Curriculum & Evaluation Scheme (V & VI semester) ... B.TECH THIRD YEAR ELECTRONICS AND COMMUNICATION ENGINEERING / ELECTRONICS AND INSTRUMENTATION(?) / ELECTRONICS AND TELECOMMUNICATION ENGINEERING ... AS PER AICTE MODEL CURRICULUM [Effective from the Session: 2020-21]' — scheme rows print KEC codes (ECE-family K-era)"},
+    "59146449255604f8": {
+        "branch_names": "Electronics Engineering; Electronics & Communication Engineering; Electronics & Telecommunication Engineering; Electronics & Instrumentation Engineering; Instrumentation & Control Engineering; Applied Electronics & Control Engineering; Biomedical Engineering",
+        "program_year": "2",
+        "reason": "B21 doc08: cover prints 'Study & Evaluation Scheme with Syllabus for B.Tech. Second Year Electronics Engineering / Electronics & Communication Engineering / Electronics & Telecommunication Engineering / Electronics & Instrumentation Engineering / Instrumentation & Control Engineering / Applied Electronics & Control Engineering / Biomedical Engineering On Choice Based Credit System (Effective from the Session: 2017-18)'"},
+    "c631ec6e28ce78f9": {
+        "branch_names": "Electronics Engineering; Electronics & Communication Engineering; Electronics & Telecommunication Engineering",
+        "program_year": "3",
+        "reason": "B21 doc09: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH. III YEAR ELECTRONICS ENGINEERING/ ELECTRONICS & COMMUNICATION ENGINEERING/ ELECTRONICS & TELECOMMUNICATION ENGINEERING ON CHOICE BASED CREDIT SYSTEM (CBCS) [Effective from the Session: 2018-19]'"},
+    "3559fa634ed9fdab": {
+        "branch_names": "Electronics Engineering; Electronics and Communication Engineering; Electronics and Telecommunication Engineering",
+        "program_year": "3",
+        "reason": "B21 doc10: cover prints 'ELECTRONICS AND COMMUNICATION ENGINEERING — EVALUATION SCHEME & SYLLABUS FOR B. TECH. THIRD YEAR ▪ ELECTRONICS ENGINEERING ▪ ELECTRONICS AND COMMUNICATION ENGINEERING ▪ ELECTRONICS AND TELECOMMUNICATION ENGINEERING AS PER AICTE MODEL CURRICULUM [Effective from the Session: 2024-25] Curriculum & Evaluation Scheme (V & VI semester)'"},
+})
+
+# B21 per-key TIER2_OVERRIDES (evidence-recorded; the decision for every flagged
+# subject and every ladder-corrected routing of this batch).
+TIER2_OVERRIDES.update({
+    # ---- wrong-subject optical pair (B21 TC-repair class) ----
+    "07_btech_ece_syllabus_2020-21::10::optical-communication": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject Tier-2 hit (B14/B15/B19/B20 class): draft 'Optical Communication' (KEC-058, 2020-21 ECE DE-II elective slot, verbatim fiber-optics units) fuzzy 86/overlap 176-hit technical-communication — the shared generic token 'communication' carries the name score, and the TC row's own unit/CO vocabulary is OPTICAL-Communication content (its unit1_text prints 'Introduction to Optical Communication: Optical Spectral Band...') because an earlier batch merged the 2025-26 ACT rev print's 'BEC-057 OPTICAL COMMUNICATION' subject into technical-communication (the ACT print p.14 proves BEC-057 = OPTICAL COMMUNICATION with Senior/Keiser/Agrawal fiber-optics books — B21 TC repair strips that content back out this commit). Optical Communication is a DIFFERENT subject from Technical Communication (communication-skills canon row, CG-TC-UHV pair member). No BTech optical-communication row exists pre-commit → APPEND as its own row; the 2024-25 doc10 print (10::09) converges onto it via the ladder's own name-transfer at commit (B09/B10 same-commit append visibility)."},
+    "10_btech_ece_y3_syllabus_2024-25::09::optical-communication": {
+        "action": "ALLOW",
+        "reason": "Commit-mode name-transfer ALLOWED (decisions-mode shows T0 UPDATE technical-communication because same-commit appends are not visible to the dry-run ladder — recorded B09/B10 divergence class): doc 07's draft appended optical-communication earlier in THIS commit (FORCE_APPEND above), so at commit the Tier-0 hit on BEC-057 (owned by technical-communication since the recorded wrong-merge) resolves through the ladder's name-identity branch to the just-appended optical-communication row: 'code-reassigned BEC057: owned by technical-communication; name identity -> optical-communication'. The reassignment executor strips BEC-057 from technical-communication (narrative history retained, B08 remedy) and the B21 REPAIRS executor salvages the ACT citation onto the optical row while stripping the misplaced optical units/COs/books from technical-communication. Draft 2024-25 is newer than the appended row's 2020-21 establishing print → fieldwise wins per RULES §3."},
+    # ---- microwave pair: same subject, code stays with its newer-print owner ----
+    "10_btech_ece_y3_syllabus_2024-25::20::microwave-engineering": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "microwave-radar-engineering",
+        "keep_published_codes": {"BEC-064": "prints MICROWAVE ENGINEERING in the 2024-25 ECE DE-II elective slot, but BEC064/BEC-064 is owned by microcontrollers-and-sensors-for-iot-applications from the newer 2025-26 ACT rev print (published B18/B19 era model) — RULES §3: equal-or-older print never takes a code from its newer-session published owner"},
+        "reason": "Tier-0 hit on the IoT row is the recorded code-slot-collision class (collapsed-name similarity 0.34 — different subject): the TIER2 fuzzy evidence routes the draft to the true canon row microwave-radar-engineering (fuzzy 88 / unit-vocab overlap 69; waveguide/microwave unit canon shared with the row's NEC-601 2016-17 + BEC073 2026-27 era prints — same subject as docs 05/06 'Microwave Engineering' NEC-601 which Tier-0-join the same row this commit). Draft 2024-25 is older than the row's 2026-27 latest print → backfill-empty-only; BEC-064 stays with the IoT row (narrative mention recorded on this row)."},
+    # ---- communication-lab-ii convergence (B21 code-slot-collision class) ----
+    "06_btech_ece_syllabus_2016-17_2::15::communication-lab-ii": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "communication-lab-ii",
+        "keep_published_codes": {"NEC 652": "prints COMMUNICATION LAB – II in the 2016-17 ECE sem-VI scheme, but NEC-652 is owned by instrumentation-lab from the same-session AEI print (btech_applied-electronics-ece-ei_syllabus_2016-17, published) — equal-session prints collide; the published owner keeps the code (RULES §3 + G2 one-owner)"},
+        "reason": "Same-commit convergence (recorded B09/B10 class): doc 05's twin draft (05::25, identical subject) appended communication-lab-ii earlier in THIS commit via the B21 code-slot-collision ladder remedy (collapsed-name similarity 0.556 < 0.84 vs instrumentation-lab — DIFFERENT subject, unit/experiment vocabulary overlap 0; 12 printed experiments on signal/harmonic benches); this twin draft RETARGETs onto that row for corroboration (same session 2016-17 → backfill-empty-only), and the collided NEC 652 print stays with instrumentation-lab."},
+    # ---- mini-project slot (B20 adjudication (b) owned-code rule) ----
+    "01_btech_ece-ei_y2_model-curriculum_2019-20::06::mini-project-or-internship-assessment": {
+        "action": "RETARGET",
+        "target": "internship-assessment-mini-project",
+        "reason": "Rejects the ladder's name-transfer (which would move KEC354 to mini-project-or-internship-assessment): KEC354 is OWNED by internship-assessment-mini-project (published all_codes BCC351;KCS354;KEC354;KCS554;BCS554;BCE554;KCS752 — the B02 E&C AICTE print established it) and the B20 recorded adjudication (b) keeps OWNED sibling slot codes (KCS354/KCS554/KCS752 from the same 2019-20 AICTE model-curriculum family) with that row. Doc 01 is the same-family 2019-20 ECE-group print of the same slot (scheme_row_only, nothing to backfill but the scheme line + the 'Mini Project or Internship Assessment' name_print variant, recorded). The B12/B19 convergence model keeps the two name-variant rows as published; unowned codes join by name (B20), owned codes stay with their owner (B20 adjudication (b) + RULES §3)."},
+    # ---- control-system pair (same-session AEI sibling print owns the codes) ----
+    "05_btech_ece_syllabus_2016-17::03::control-system-i": {
+        "action": "RETARGET",
+        "target": "control-system",
+        "reason": "Rejects the ladder's name-transfer to control-system-i: NIC501 is OWNED by control-system (published all_codes BEC602;BEC-602;NIC-501 — the same-session AEI print btech_applied-electronics-ece-ei_syllabus_2016-17 established NIC-501 there with the detailed syllabus, hist 'NIC-501 (2016-17, sem-5)'). Draft 'Control System -I' is a print variant of the row's 'Control System' (collapsed sim 0.93 ≥ 0.84 = B10 class (a)); unit-vocabulary match 0.95 (92/97 draft terms in the row's vocab). The name-exact control-system-i row is the EI/BME-era canon (EIC-501 2010-11 / RBM501 2017-18) — a pre-existing published row split; this update does not move codes across it. Draft 2016-17 older than the row's 2025-26 latest → backfill-empty-only."},
+    "06_btech_ece_syllabus_2016-17_2::03::control-system-i": {
+        "action": "RETARGET",
+        "target": "control-system",
+        "reason": "Twin of 05::03 (same evidence): NIC501 stays with its published owner control-system; 'Control System -I' is the ECE print variant of the AEI 'Control System'; backfill-empty-only (2016-17 < 2025-26)."},
+    "05_btech_ece_syllabus_2016-17::07::control-system-lab": {
+        "action": "RETARGET",
+        "target": "control-systems-i-lab",
+        "reason": "Rejects the ladder's name-transfer to control-system-lab: NIC551 is OWNED by control-systems-i-lab (published primary NIC-551, 2016-17 AEI print) and the printed experiment lists are IDENTICAL — 12/12 draft experiments match that row's experiments verbatim (vs 6/12 for control-system-lab's BEC652 2025-26 list): same subject, same-session sibling print. The ECE print's name variant 'Control System Lab' is recorded on the row. Draft 2016-17 == row session → corroboration/backfill-empty-only."},
+    "06_btech_ece_syllabus_2016-17_2::06::control-system-lab": {
+        "action": "RETARGET",
+        "target": "control-systems-i-lab",
+        "reason": "Twin of 05::07 (same evidence: 12/12 experiment match with control-systems-i-lab's NIC-551 AEI print)."},
+    # ---- signals & systems TIE (unit-vocabulary + name-exact ECE-era row) ----
+    "08_btech_ece_y2_syllabus_2017-18::03::signals-systems": {
+        "action": "RETARGET",
+        "target": "signals-and-systems",
+        "reason": "TIE resolution (signal-system 93/33 vs signals-and-systems 88/41): unit-vocabulary evidence favors signals-and-systems (normalized unit-term overlap 41/65 draft terms vs 32/65; draft unit-1 prints 'Signals: Representation of Signals, Singularity Functions...' matching that row's 'Signals: Definition, types of signals...' unit-label style) and the row is the ECE-era name-exact class ('SIGNALS AND SYSTEMS', EEC-404 2011-12 ECE print) — the 2017-18 ECE REC-303 print is the same subject's next era print (REC303 joins as era code; 2017-18 newer than 2011-12 → fieldwise wins per RULES §3). signal-system (KEC403, eff 2020-21) is the K-era row whose unit-1 style ('Signals and systems as seen in everyday life...') diverges."},
+    # ---- data-structure & algorithms TIE (name-class match to the canon DSA row) ----
+    "08_btech_ece_y2_syllabus_2017-18::08::data-structure-algorithms": {
+        "action": "RETARGET",
+        "target": "data-structure-and-algorithms",
+        "reason": "TIE resolution (data-structure-and-algorithms 93/46 vs basics-data-structure-algorithms 88/59): the draft prints 'Data Structure & Algorithms' (RCS406, 2017-18 ECE sem-IV scheme row) — '&' vs 'and' is print noise (fuzzy 93, name-class match); basics-data-structure-algorithms is the DISTINCT 2023-24 2nd-yr common subject ('Basics...' name, BOE306/406 + KOE035/045 pool codes) — merging the ECE-era RCS406 into it would pollute the published common-subject row. RCS406 joins the canon DSA row (ECS-508, 2009-10) as an era code; 2017-18 newer → fieldwise wins per RULES §3."},
+    # ---- recorded ALLOWs (same-subject era/print-variant Tier-2 matches) ----
+    "02_btech_ece-group_y2_syllabus_2014-15::00::network-analysis-synthesis": {
+        "action": "ALLOW",
+        "reason": "2014-15 NEC-301 'Network Analysis & Synthesis' is the same subject as the network-analysis-and-synthesis canon row (KEC303 2021-22 K-era + EEC-303 2009-10 era family); NEC-301 joins as an era code (B20 unit-identity ALLOW class)."},
+    "02_btech_ece-group_y2_syllabus_2014-15::01::fundamental-of-electronic-devices": {
+        "action": "ALLOW",
+        "reason": "2014-15 'Fundamental of Electronic Devices' (NEC-302) = the row fundamentals-of-electronics-devices (EEC-301, 2011-12, 'FUNDAMENTALS OF ELECTRONICS DEVICES') — singular/plural print variant, overlap 86 (B20 unit-identity class)."},
+    "02_btech_ece-group_y2_syllabus_2014-15::10::electronic-measurements-and-instrumentation": {
+        "action": "ALLOW",
+        "reason": "2014-15 'Electronic Measurements and Instrumentation' = the row electronic-instrumentation-and-measurements (EEC-403, 2011-12) — token-order print variant, fuzzy 100/overlap 80."},
+    "04_btech_ece_syllabus_2009-10::08::computer-architecture-organization": {
+        "action": "ALLOW",
+        "reason": "2009-10 'Computer Architecture & Organization' (EEC-3xx era) = the row computer-organization-and-architecture (BCS302;KCS302;NEC-012;REC052 — the ECE-era NEC-012/REC052 codes already on it) — token-order print variant, fuzzy 94/overlap 30."},
+    "04_btech_ece_syllabus_2009-10::16::microprocessors": {
+        "action": "ALLOW",
+        "reason": "2009-10 'MICROPROCESSORS' = the row microprocessor (KCS403;NEC-503 — the 2016-17 NEC-503 print already on it) — plural print variant, fuzzy 97/overlap 41."},
+    "04_btech_ece_syllabus_2009-10::17::antenna-wave-propagation": {
+        "action": "ALLOW",
+        "reason": "2009-10 'Antenna & Wave Propagation' = the row antenna-and-wave-propagation (BEC603/BEC-603 canon) — era print variant, fuzzy 92/overlap 85."},
+    "04_btech_ece_syllabus_2009-10::25::microwave-engineering": {
+        "action": "ALLOW",
+        "reason": "2009-10 'Microwave Engineering' (EEC-5xx) = the row microwave-radar-engineering (NEC-601 2016-17 + BEC073 2026-27 era family) — fuzzy 88/unit-vocab overlap 64 (B20 unit-identity ALLOW class at fuzzy 88)."},
+    "05_btech_ece_syllabus_2016-17::17::real-time-systems": {
+        "action": "ALLOW",
+        "reason": "2016-17 'Real Time Systems' = the row real-time-system (NCS-082 2016-17 CSE print + KCS-063 2020-21) — same subject across branches, plural print variant, fuzzy 97."},
+    "06_btech_ece_syllabus_2016-17_2::24::real-time-systems": {
+        "action": "ALLOW",
+        "reason": "Twin of 05::17 — same subject, same row (real-time-system)."},
+    "07_btech_ece_syllabus_2020-21::03::computer-architecture-and-organization": {
+        "action": "ALLOW",
+        "reason": "2020-21 'Computer Architecture and Organization' (KEC-50x) = the row computer-organization-and-architecture — token-order print variant, fuzzy 100."},
+    "07_btech_ece_syllabus_2020-21::09::electronic-measurements-instrumentation": {
+        "action": "ALLOW",
+        "reason": "2020-21 'Electronic Measurements & Instrumentation' = the row electronic-instrumentation-and-measurements (EEC-403 canon) — token-order print variant, fuzzy 95/overlap 44."},
+    "07_btech_ece_syllabus_2020-21::16::antenna-wave-propagation": {
+        "action": "ALLOW",
+        "reason": "2020-21 'Antenna & Wave Propagation' (KEC-60x) = the row antenna-and-wave-propagation (BEC603 canon) — era print variant, fuzzy 92/overlap 140."},
+    "08_btech_ece_y2_syllabus_2017-18::09::microprocessors-microcontrollers": {
+        "action": "ALLOW",
+        "reason": "2017-18 'Microprocessors & Microcontrollers' (REC-303) = the row microprocessor-microcontroller (name-exact class row, fuzzy 97/overlap 41) — the 2017-18 print is that row's own era print."},
+    "08_btech_ece_y2_syllabus_2017-18::11::electronic-measurement-instrumentation": {
+        "action": "ALLOW",
+        "reason": "2017-18 'Electronic Measurement & Instrumentation' = the row electronic-instrumentation-and-measurements — token-order print variant, fuzzy 94/overlap 77."},
+    "09_btech_ece_y3_syllabus_2018-19::09::real-time-systems": {
+        "action": "ALLOW",
+        "reason": "2018-19 'REAL TIME SYSTEMS' = the row real-time-system (NCS-082/KCS-063 canon) — plural print variant, fuzzy 97."},
+    "09_btech_ece_y3_syllabus_2018-19::13::microwave-engineering": {
+        "action": "ALLOW",
+        "reason": "2018-19 'MICROWAVE ENGINEERING' = the row microwave-radar-engineering (NEC-601 era family) — fuzzy 88/overlap 64 (same class as 04::25)."},
+    "09_btech_ece_y3_syllabus_2018-19::20::microcontroller-for-embedded-systems": {
+        "action": "ALLOW",
+        "reason": "2018-19 'MICROCONTROLLER FOR EMBEDDED SYSTEMS' (RIC-603) = the row microcontrollers-for-embedded-systems (NIC-601R, 2016-17 AEI print) — singular/plural print variant, fuzzy 99/overlap 87; RIC603 joins as era code."},
+})
+
+# B21 REPAIRS (brain clause: determine-then-fix, keep proof). Executed at commit
+# AFTER the draft loop (the salvage target row exists by then) and BEFORE the
+# gates. Every field strip is backed by the printed evidence recorded here.
+REPAIRS = {
+    "technical-communication": {
+        "salvage_to": "optical-communication",
+        "strip_fields": ["unit1_text", "unit2_text", "unit3_text", "unit4_text", "unit5_text",
+                          "co1_text", "co2_text", "co3_text", "co4_text", "co5_text", "co6_text",
+                          "textbooks_structured", "lectures_per_unit"],
+        "reset_fields": {"has_detailed_syllabus": "FALSE", "units_count": "0", "co_count": "0"},
+        "move_source_token": "btech_act_y3_syllabus-rev_2025-26.pdf#328fc29743da6525",
+        "reason": ("B21 wrong-merge repair (printed evidence: btech_act_y3_syllabus-rev_2025-26.pdf p.14 "
+                   "prints 'BEC-057 OPTICAL COMMUNICATION 3L:0T:0P 3 Credits' with the full fiber-optics "
+                   "syllabus — Unit-I 'Introduction to Optical Communication: Optical Spectral Band...', "
+                   "CO-1 'Define and explain the basic concepts and theory of optical communication', "
+                   "books Senior/Keiser/Agrawal): an earlier batch merged that ACT print's Optical "
+                   "Communication subject into the technical-communication row (its unit1_text/co1_text/"
+                   "textbooks_structured print optical-communication content while the row's identity, "
+                   "codes BAS301/BAS401/KAS301 + H variants, scheme lines and CG-TC-UHV group are the "
+                   "Technical Communication canon). This commit appends the true optical-communication row "
+                   "(doc07 KEC-058 + doc10 BEC-057 via the recorded name-transfer), the reassignment "
+                   "executor moves BEC-057 off this row, and this repair strips the misplaced optical "
+                   "unit/CO/book fields back off (the row returns to its true authorized state: scheme "
+                   "lines only — the B02-recorded 'detailed syllabus NOT printed in the authorized "
+                   "documents; companion quarantined' note stands). The ACT citation moves to the "
+                   "optical-communication row's source_history so the 2025-26 print stays reachable."),
+    },
+}
+
+
 
 # B14 remedy registry: sha16s of documents that a PRIOR batch ingested and
 # G6-verified (their unit texts are published in the GitHub CSV with these
@@ -2035,6 +2249,39 @@ def run(mode, drafts_dir):
                 to_row["change_note_vs_previous"] = (to_row.get("change_note_vs_previous", "") + "; " if to_row.get("change_note_vs_previous", "") else "") + \
                     f"{code} ownership recorded per the {ra['draft_session']} print ({ra['detail'][:110]})"
                 touched.setdefault(to_row["subject_id"], to_row)
+        # B21 REPAIRS executor (brain clause: determine-then-fix, keep proof):
+        # strip recorded wrong-merge fields from a published row and move the
+        # misplaced source citation to the true subject row (which exists by
+        # now — appends ran in the draft loop above).
+        for sid, rep in REPAIRS.items():
+            rrow = by_id.get(sid)
+            if not rrow:
+                continue
+            salvage = by_id.get(rep.get("salvage_to", ""))
+            tok = rep.get("move_source_token", "")
+            note = rep["reason"]
+            for f in rep.get("strip_fields", []):
+                if rrow.get(f):
+                    rrow[f] = ""
+            for f, v in rep.get("reset_fields", {}).items():
+                rrow[f] = v
+            for col in ("source_syllabus", "source_history"):
+                val = rrow.get(col, "") or ""
+                if tok and tok in val:
+                    rrow[col] = "; ".join(s.strip() for s in val.split(";") if tok not in s)
+                    if salvage is not None:
+                        seg = f"{tok} (recovered from the {sid} wrong-merge, B21 repair)"
+                        if seg not in (salvage.get("source_history", "") or ""):
+                            salvage["source_history"] = ((salvage.get("source_history", "") + "; ") if salvage.get("source_history") else "") + seg
+            rrow["change_note_vs_previous"] = (rrow.get("change_note_vs_previous", "") + "; " if rrow.get("change_note_vs_previous") else "") + \
+                "B21 repair: misplaced optical-communication units/COs/books stripped (the 2025-26 ACT print p.14 proves BEC-057 = OPTICAL COMMUNICATION; the subject now owns row " + rep.get("salvage_to", "") + ")"
+            rrow["notes"] = (rrow.get("notes", "") + " | " if rrow.get("notes") else "") + \
+                "B21 repair note: " + note[:400]
+            touched.setdefault(rrow["subject_id"], rrow)
+            if salvage is not None:
+                salvage["change_note_vs_previous"] = (salvage.get("change_note_vs_previous", "") + "; " if salvage.get("change_note_vs_previous") else "") + \
+                    "B21 repair: the 2025-26 ACT print (328fc29743da6525) had merged this subject's content into technical-communication; stripped there and re-homed on this row (printed evidence recorded)"
+                touched.setdefault(salvage["subject_id"], salvage)
 
     print(f"PLANS|{len(plans)} (UPDATE {sum(1 for p in plans if p['op']=='UPDATE')}, APPEND {sum(1 for p in plans if p['op']=='APPEND')}, TIE {sum(1 for p in plans if p['op']=='TIE')}, SKIP {sum(1 for p in plans if p['op']=='SKIP')})")
     for p in plans:

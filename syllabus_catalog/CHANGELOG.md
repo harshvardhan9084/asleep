@@ -1,3 +1,7 @@
+# CRON-20261101-B21 — B21 — 2026-11-01
+
+rows 1560-1615, codes 3037-3182, +55 appends/~212 updates/!2 repairs - BTech ECE-family wave 2009-10..2026-27 (10 docs 275 subjects drafted); 20th-reset recovery to GitHub B20 state; TC wrong-merge repaired (BEC-057 Optical Communication re-homed from technical-communication); B10 code-slot-collision ladder fix; 28 TIER2_OVERRIDES + 8 ALTERNATIVE-PAIR-SLOT skips; gates G1/G2/G3/G6 PASS
+
 # CRON-20261101-B20 — B20 — 2026-11-01
 
 rows 1500-1560, codes 2970-3037, +10 appends/~153 updates/!59 containment checks - BTech CSE/CSIT y2-y4 multi-era wave (2019-20 CBCS R-era + AICTE-model + 2020-21 IT + 2021-22 K-era + 2024-25 CE&IT/ECE-ACT-VLSI + 2025-26 CE&IT/DS/Hindi-label + 2026-27 Cyber-Security) 10 docs 164 subjects drafted; 18th+19th-reset recovery to GitHub B19 state; 10 TIER2_OVERRIDES adjudications (unit-identity ALLOW + 6 code-owner RETARGETs + RETARGET_KEEP_PUBLISHED_CODE_OWNER + wrong-subject FORCE_APPEND) + ALTERNATIVE-PAIR-SLOT skip + raster pp.12-15 page-image recovery; gates G1/G2/G3/G6 PASS
