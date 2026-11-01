@@ -1,3 +1,7 @@
+# CRON-20261101-B20 — B20 — 2026-11-01
+
+rows 1500-1560, codes 2970-3037, +10 appends/~153 updates/!59 containment checks - BTech CSE/CSIT y2-y4 multi-era wave (2019-20 CBCS R-era + AICTE-model + 2020-21 IT + 2021-22 K-era + 2024-25 CE&IT/ECE-ACT-VLSI + 2025-26 CE&IT/DS/Hindi-label + 2026-27 Cyber-Security) 10 docs 164 subjects drafted; 18th+19th-reset recovery to GitHub B19 state; 10 TIER2_OVERRIDES adjudications (unit-identity ALLOW + 6 code-owner RETARGETs + RETARGET_KEEP_PUBLISHED_CODE_OWNER + wrong-subject FORCE_APPEND) + ALTERNATIVE-PAIR-SLOT skip + raster pp.12-15 page-image recovery; gates G1/G2/G3/G6 PASS
+
 # CRON-20261101-B19 — B19 — 2026-11-01
 
 rows 1500-1550, codes 2756-2970, +50 appends/~168 updates/!104 containment checks - BTech CSE era wave (2026-27 A-era y1 course-structure + 2015-16/2016-17 N-era + 2009-10 E-era + 2017-18/2018-19 R-era + 2019-20 KOE pool + 2022-23/2024-25 Hindi-label prints) 10 docs 218 subjects drafted; 17th-reset recovery to GitHub B18 state; 5 TIER2_OVERRIDES adjudications (TIE strip + 2 code-owner RETARGETs + RETARGET_KEEP_PUBLISHED_CODE_OWNER novelty + wrong-subject FORCE_APPEND) + verifier v14 remedies + G6 workspace-source fallback; gates G1/G2/G3/G6 PASS
