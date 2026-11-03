@@ -12,7 +12,7 @@ Creates staging/batch<NN>/ with NN_<safe-stem>.pdf symlinks and prints:
   BATCH|<NN>   SELECTED|<n>   (exit 0)
 Prints NO_PENDING and exits 0 when nothing qualifies.
 """
-import json, os, sys, hashlib
+import json, os, sys, hashlib, shutil
 
 BASE = "/home/z/my-project/work/pipeline_v2"
 QUEUE = f"{BASE}/queue.json"
@@ -83,7 +83,9 @@ def main():
         link = os.path.join(bdir, stem + ".pdf")
         if os.path.lexists(link):
             os.remove(link)
-        os.symlink(e["file"], link)
+        # sandbox forbids symlink creation entirely (process kill, not OSError)
+        # -> stage a real file copy (B25 remedy, recorded in the B25 manifest)
+        shutil.copyfile(e["file"], link)
         e["status"] = "selected"
         e["batch"] = batch_n
         e["attempts"] = int(e.get("attempts", 0)) + 1
