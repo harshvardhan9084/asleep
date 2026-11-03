@@ -1,0 +1,1142 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2015-16/btech_ft_syllabus_2015-16.pdf",
+ "session": "2015-16",
+ "course": "BTech",
+ "sha16": "6228f90ed89f20f4",
+ "stem": "06_btech_ft_syllabus_2015-16",
+ "subjects": [
+  {
+   "name": "Engineering Economics",
+   "name_print": "NHU-501: ENGINEERING ECONOMICS                                    L : T: P\n  2 : 0: 0",
+   "codes": [
+    "NHU-501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 20,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-1 Introduction to Engineering Economics and Managerial Economics Concept of Efficiency, Theory of Demand , Elasticity of Demand, Supply and Law of Supply indifference Curves, Budget Line, Welfare Analysis, Scope of Managerial Economics, Techniques and Applications of Managerial Economics.",
+    "2": "Unit-2 Market Structure Perfect Competitions Imperfect- Monopolistic, Oligopoly, duopoly sorbent features of price determination and various market conditions.",
+    "3": "Unit-3 Demand Forecasting and cost Estimation Characteristics of Forecasts, Forecasting Horizons, Steps to Forecasting, Forecasting Methods, Seasonal Adjustments, Forecasting Performance Measures, Cost Estimation, Elements of cost, Computation of Material Variances Break-Even Analysis.",
+    "4": "Unit-4 Management Aspects Functions of Management, Project Management, Value Engineering, Project Evaluation, Decision Making"
+   },
+   "quirks": [
+    "Only Units 1-4 printed; Unit-5 not printed for this subject.",
+    "Print: 'Perfect Competitions Imperfect- Monopolistic, Oligopoly, duopoly sorbent features' — 'sorbent' verbatim (likely 'salient').",
+    "Print: 'Theory of Demand , Elasticity of Demand, Supply and Law of Supply indifference Curves' — spacing/missing punctuation as printed.",
+    "Unit-4 ends without a full stop."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-V, p.2): 1 NHU-501 Engineering Economics 2 0 0 15 20 25 50 75 2"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.4",
+   "source_scheme_line": "1 NHU-501 Engineering Economics 2 0 0 15 20 25 50 75 2"
+  },
+  {
+   "name": "Computer Based Numerical Methods",
+   "name_print": "NAS-501: COMPUTER BASED NUMERICAL METHODS                 L : T: P\n      3 :  1: 0",
+   "codes": [
+    "NAS-501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit 1 Problem solving on computer. Algorithms and flow charts. Introduction to numerical computing, approximations and errors in numerical computations. Truncation and round off errors, propagation of errors. Root finding: bisection method, regula falsi method, iteration method, Newton Raphson method, Secant method, systems of nonlinear equations.",
+    "2": "Unit 2 Matrix algebra, Solution of simultaneous linear algebraic equations: Gauss elimination, Gauss Jordan method, LU decomposition, Jacobi method, Gauss Seidel method, SOR method, convergence of iterative methods. Tridiagonal systems and Thomas algorithm, Condition of a system and stability issues.",
+    "3": "Unit 3 Interpolation and Extrapolation: Newton’s forward and backward interpolation formula, Lagrange interpolation formula. Divided differences and Newton’s general formula. Numerical differentiation, Numerical integration : Trapezoidal and Simpson’s rules. Newton-Cotes integration formulas, Romberg integration, Gaussian Quadrature.",
+    "4": "Unit 4 Numerical solution of O.D.E.: Taylor series method, Euler’s method, Runge Kutta methods. Multistep methods: Milne’s method, Adams method, accuracy, Convergence criteria, stiffness, systems of equations.",
+    "5": "Unit 5 Boundary Value problems: Finite difference method, solving eigenvalue problems, polynomial method, power method. Numerical solution of Partial Differential equations. Elliptic, Parabolic and hyperbolic PDEs."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "E. Balagurusamy: Numerical Methods, Tata McGraw hill."
+    },
+    {
+     "no": 2,
+     "book": "Sastry, S. S. “Introductory Methods of Numerical Analysis”, 3 rd ed. Prentice- Hall of India, New Delhi (2002)."
+    },
+    {
+     "no": 3,
+     "book": "“Schaum’s Outlines: Numerical Analysis”, 2 nd ed. Tata Mc Graw Hill Publishing Co. Limited (1968)"
+    },
+    {
+     "no": 4,
+     "book": "Kandasamy, P. Thialagawathy, K. & Gumawathy, K. “Numerical Methods”, S. Chand & Company Ltd., New Delhi (1999)."
+    },
+    {
+     "no": 5,
+     "book": "Balaguruswamy, E. “Numerical Methods. Tata Mc Graw Hill Publishing Company Limited, New Delhi (2001)."
+    },
+    {
+     "no": 6,
+     "book": "V. K. Singh “Numerical and Statistical Methods in Computer” (2005), Paragon International Publishers, New Delhi."
+    },
+    {
+     "no": 7,
+     "book": "Jain, Iyengar and Jain, “Numerical Methods for Scientific and Engineering Computation” (2003), New Age International, New Delhi."
+    },
+    {
+     "no": 8,
+     "book": "Grewal B.S., “Numerical Methods in Engineering and Science”, Khanna Publishers, Delhi."
+    }
+   ],
+   "quirks": [
+    "Books heading printed as 'Books Recommended'; first title (E. Balagurusamy) printed without a number, numbering 1-7 starts from the second title.",
+    "Same author printed two ways: 'E. Balagurusamy' (unnumbered first title) and 'Balaguruswamy, E.' (item 4) — verbatim kept.",
+    "Item 3 author names 'Thialagawathy, K. & Gumawathy, K.' as printed.",
+    "Print: '3 rd ed.', '2 nd ed.' — spacing as printed.",
+    "Unnumbered first book has an unclosed title: 'Numerical Methods. Tata Mc Graw Hill...' in item 4 as printed."
+   ],
+   "flags": [],
+   "notes": [
+    "Books list recorded under reference_books (printed heading 'Books Recommended').",
+    "Scheme row (Semester-V, p.2): 2 NAS-501 Computer Based Numerical Methods 3 1 0 30 20 50 100 150 4"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 pp.4-5",
+   "source_scheme_line": "2 NAS-501 Computer Based Numerical Methods 3 1 0 30 20 50 100 150 4"
+  },
+  {
+   "name": "Machine Design",
+   "name_print": "NME 509 : MACHINE DESIGN\n\nL: T:  P \n2 : 1: 0",
+   "codes": [
+    "NME-509"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 75,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Introduction to the methodology of Engineering design; Design circle for a product/ system; Important considerations in design; Formulation of design concepts; Miscellaneous considerations like wear, environmental, human and aesthetic aspects; Ergonomics considerations. 8",
+    "2": "Unit-II Estimation of design load under static and dynamic conditions; Design for safety; Stress concentration and its effect and its prevention; Consideration of creep, fatigue and thermal stresses in design. 8",
+    "3": "Unit III Design of power transmission systems- belt, pulley and shafts; Design of riveted and welded joints; Design of keys, couplings, lever and brackets. 8",
+    "4": "Unit-IV Design of pressure vessels- thick and thin cylinders, pipe and joints; Elementary ideas and importance of computer aided design; Basics of computer graphics - general introduction to AutoCAD. 8"
+   },
+   "lectures_per_unit": 8,
+   "quirks": [
+    "Code printed as 'NME 509' (space) in detail header; scheme table prints 'NME-509'.",
+    "Trailing lecture-count '8' printed after each of Units I-IV (uniform 8) — kept in unit text.",
+    "Unit labels inconsistent in print: 'Unit-I', 'Unit-II', 'Unit III', 'Unit-IV'.",
+    "Only Units I-IV printed; Unit-5 not printed.",
+    "No books printed for this subject.",
+    "Scheme row prints ESE 75 and Subject Total 75 (25+75=100, printed total 75) — arithmetic as printed."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-V, p.2): 3 NME-509 Machine Design 2 1 0 15 10 25 75 75 3"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.5",
+   "source_scheme_line": "3 NME-509 Machine Design 2 1 0 15 10 25 75 75 3"
+  },
+  {
+   "name": "Principles of Food Preservation",
+   "name_print": "NFT-501  : PRINCIPLES OF FOOD PRESERVATION              L  : T:  P\n                           3 :  1:  0",
+   "codes": [
+    "NFT-501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Basic considerations: Aims and objectives of preservation & processing of foods, Characteristics of tissues and non-tissues foods, Degree of perishability of unmodified foods, Causes of quality deterioration and spoilage of perishable foods, intermediate moisture foods, wastage of foods.",
+    "2": "Unit-II Preservation of foods by low temperatures: (A) Chilling temperatures: Consideration relating to storage of foods at chilling temperatures, Applications and procedures, Controlled and Modified atmosphere storage of foods, Post storage Handling of foods. (B) Freezing temperatures: Freezing process, Slow and fast freezing of foods and its consequence, other occurrences associated with freezing of foods. Technological aspects of pre freezing, Actual freezing, Frozen storage and thawing of foods.",
+    "3": "Unit-III Preservation of foods by high temperatures: Basic concepts in thermal destruction of microorganisms D,Z,F values. Heat resistance and thermophic microorganisms. Cooking, Blanching, Pasteurization and Sterilization of foods. Assessing adequacy of thermal processing of foods, General process of caning of foods, Spoilage in canned foods.",
+    "4": "Unit-IV Preservation by water removal: (a) Principles, Technological aspects and application of evaporative concentration process; Freeze concentration and membrane process for food concentrations. (b) Principles, Technological aspects and application of drying and dehydration of foods, Cabinet, tunnel, belt, bin, drum, spray, vacuum, foam mat, fluidized-bed and freeze drying of foods.",
+    "5": "Unit-V Principles, Technological aspects and application of sugar and salt, Antimicrobial agents, Biological agents, non ionizing and ionizing radiations in preservation of foods. Hurdle technology."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "O.R.Fennema : Principles of Food science"
+    }
+   ],
+   "quirks": [
+    "'thermophic' as printed (likely thermophilic).",
+    "'General process of caning of foods' as printed (likely canning).",
+    "'Characteristics of tissues and non-tissues foods' as printed.",
+    "Books heading printed as 'Book References' with a single unnumbered title."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-V, p.2): 4 NFT-501 Principles of Food Preservation 3 1 0 30 20 50 100 150 4"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.6",
+   "source_scheme_line": "4 NFT-501 Principles of Food Preservation 3 1 0 30 20 50 100 150 4"
+  },
+  {
+   "name": "Fruits, Vegetables & Plantation Products",
+   "name_print": "NFT – 502 :    FRUITS, VEGETABLES AND PLANTATION PRODUCTS                      L : T:  P\n                                                                                                                                 3 : 1:  0",
+   "codes": [
+    "NFT-502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Structural, Compositional and Nutritional aspects of fruits and vegetables. Physiological development: Growth, Maturation, Ripening and Senescence. Post harvest handling including controlled and modified storage. Techniques of processing and preservation of fruits and vegetables by refrigeration and freezing, canning and bottling, drying and dehydration.",
+    "2": "Unit-II Technology of fruits and vegetable products: Juices and pulps, Concentrates and powders, Squashes and cordials. Beverage: Still and carbonated. James, Jellies and Marmalades. Preserves, candies and crystallized fruits. Tomato products: Puree, Paste, Ketchup, Sauce and soup. Chutneys, pickles and other products.",
+    "3": "Unit-III Spices: Composition, Structure and characteristics. Preservation and processing of major and minor spices of India; whole spice, Spice powder, Paste and extracts, Spice oils and oleoresins. Composition, Structure ,characteristics & processing of cashew nut and other dry fruits",
+    "4": "Unit-IV Composition, Production and processing of Tea leaves: Black tea, Green tea and Oolong tea. Instant tea. Production and processing of coffee cherries by wet and dry methods to obtain coffee beans, grinding, storage and preparation of brew, Soluble /Instant coffee, Use of chicory in coffee, decaffeinated coffee.",
+    "5": "Unit-V Production, processing and chemical composition of cocoa beans. Cocoa Processes: Cleaning, roasting, alkalization, cracking and fanning, Nib grinding for cocoa liquor, cocoa butter and cocoa powder. Manufacturing process for chocolate: Ingredients, Mixing, Refining, Conching, Tempering, Moulding etc. to obtain chocolate slabs, chocolate bars. Enrobed and other confectionary products."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "G. Lal, G.S. Siddappa and G.L. Tondan Preservation of fruits & vegetables."
+    },
+    {
+     "no": 2,
+     "book": "B. Shrilakshimi Food Science."
+    },
+    {
+     "no": 3,
+     "book": "Bernard. W. Minifie Chocolate, Cocoa and Confectionary: Science and Technology."
+    },
+    {
+     "no": 4,
+     "book": "R.H.H. Wills et.al. An introduction to the Post-harvest physiology and handling of fruits and vegetables."
+    }
+   ],
+   "quirks": [
+    "Code printed as 'NFT – 502' (en dash with spaces) in detail header; scheme table prints 'NFT-502'.",
+    "Scheme subject name 'Fruits, Vegetables & Plantation Products' vs detail header 'FRUITS, VEGETABLES AND PLANTATION PRODUCTS'.",
+    "'James, Jellies and Marmalades' as printed (likely Jams).",
+    "'B. Shrilakshimi' as printed (commonly Shrilakshmi).",
+    "'Confectionary' spelling as printed (twice).",
+    "'Structure ,characteristics' spacing as printed; Unit-III ends without full stop."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-V, p.2): 5 NFT-502 Fruits, Vegetables & Plantation Products 3 1 0 30 20 50 100 150 4"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.7",
+   "source_scheme_line": "5 NFT-502 Fruits, Vegetables & Plantation Products 3 1 0 30 20 50 100 150 4"
+  },
+  {
+   "name": "Instrumentation and Process Control",
+   "name_print": "NCH- 507 : INSTRUMENTATION AND PROCESS CONTROL\n\nL : T: P\n3 : 1: 0",
+   "codes": [
+    "NCH-507"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Elements of measurement , fumctions and general classifications of measuring instruments. Indicating and recording type of instruments. Elements of measuring instruments,static and dynamic characteristics of measuring instruments.(6)",
+    "2": "Unit-II Principle of operation, construction and application of important industrial instruments for the measurement of temperature, flow, liquid level and composition. (10)",
+    "3": "Unit-III Dynamic behavior of first order, second order and two or more first order systems in series. (10)",
+    "4": "Unit-IV Block and physical diagrams of control system. Open and closed loop control systems. Characteristics of measuring elements, controllers and final control elements. Mode of control actions. (08)"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Eckman, D.P., Industrial Instrumentation, Wiley Eastern Ltd., New York 1990."
+    },
+    {
+     "no": 2,
+     "book": "Process system Analysis & Control, D.R. Coughanoowr, McGraw Hill Publication"
+    },
+    {
+     "no": 3,
+     "book": "Process Control. Peter Harriot, Tata McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Process control, Staphno polies, Prentic Hall India Ltd."
+    }
+   ],
+   "quirks": [
+    "Code printed as 'NCH- 507' (space after dash) in detail header; scheme table prints 'NCH-507'.",
+    "'fumctions' as printed (likely functions).",
+    "'measuring instruments,static and dynamic' — missing space as printed.",
+    "Trailing lecture counts printed after units: (6), (10), (10), (08) — not uniform, kept verbatim in unit text.",
+    "Only Units I-IV printed; Unit-5 not printed.",
+    "Books heading printed as 'Books'; items 2-4 are title-first style as printed ('Staphno polies', 'Prentic Hall' verbatim)."
+   ],
+   "flags": [],
+   "notes": [
+    "Books list recorded under reference_books (printed heading 'Books').",
+    "Scheme row (Semester-V, p.2): 6 NCH-507 Instrumentation and Process Control 3 1 0 30 20 50 100 150 4"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.8",
+   "source_scheme_line": "6 NCH-507 Instrumentation and Process Control 3 1 0 30 20 50 100 150 4"
+  },
+  {
+   "name": "Food Preservation Lab",
+   "name_print": "NFT-551 : FOOD PRESERVATION LAB\n   L : T:  P\n   0 : 0 : 3",
+   "codes": [
+    "NFT-551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 20,
+    "sessional_total": 40,
+    "ese_te_pe": 60,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To check the adequacy of Blanching process"
+    },
+    {
+     "no": 2,
+     "exp": "Extension of shelf life/ preservation of foods by use of low temperature."
+    },
+    {
+     "no": 3,
+     "exp": "Processing and preservation of Peas by use of high temperature."
+    },
+    {
+     "no": 4,
+     "exp": "To determine the effectiveness of sterilization process."
+    },
+    {
+     "no": 5,
+     "exp": "Preservation and processing of certain vegetables by drying and dehydration"
+    },
+    {
+     "no": 6,
+     "exp": "Osmotic concentration/dehydration of certain fruits and vegetables using  concentrated sugar and salts solutions ."
+    },
+    {
+     "no": 7,
+     "exp": "Preservation of fruit pulp with the help of Chemical preservatives."
+    },
+    {
+     "no": 8,
+     "exp": "Preservation of foods by Freezing (Frozen Foods)."
+    }
+   ],
+   "quirks": [
+    "Experiment list printed without a heading (numbered 1-8 directly under the L-T-P line).",
+    "Experiments 1, 4, 5 end without full stop as printed."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-V, p.2): 7 NFT-551 Food Preservation Lab 0 0 3 20 20 40 60 100 2"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.8",
+   "source_scheme_line": "7 NFT-551 Food Preservation Lab 0 0 3 20 20 40 60 100 2"
+  },
+  {
+   "name": "Fruits, Vegetables & Plantation Products Lab",
+   "name_print": "NFT-552 : FRUITS, VEGETABLES AND PLANTATION PRODUCTS LAB\n   L : T:  P\n   0 : 0 : 3",
+   "codes": [
+    "NFT-552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Preparation of Jam/Jelly and its preservation by sugar."
+    },
+    {
+     "no": 2,
+     "exp": "Preparation of tomato puree/ketchup and its preservation by chemical  preservatives."
+    },
+    {
+     "no": 3,
+     "exp": "Preparation of Candied fruits."
+    },
+    {
+     "no": 4,
+     "exp": "Preparation of cordials and squash as per FPO specification."
+    },
+    {
+     "no": 5,
+     "exp": "Preparation of pickles."
+    },
+    {
+     "no": 6,
+     "exp": "Preparation of fermented Pickles (Sauerkraut)."
+    },
+    {
+     "no": 7,
+     "exp": "Preparation of Fruit Preserves."
+    },
+    {
+     "no": 8,
+     "exp": "Preparation of Fruit Leather."
+    },
+    {
+     "no": 9,
+     "exp": "Preparation of Spice pastes."
+    }
+   ],
+   "quirks": [
+    "Detail header subject name 'FRUITS, VEGETABLES AND PLANTATION PRODUCTS LAB' vs scheme '&'-form 'Fruits, Vegetables & Plantation Products Lab'.",
+    "Experiments 1-5 print on p.8, experiments 6-9 continue on p.9."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-V, p.2): 8 NFT-552 Fruits, Vegetables & Plantation Products Lab 0 0 3 10 10 20 30 50 1"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 pp.8-9",
+   "source_scheme_line": "8 NFT-552 Fruits, Vegetables & Plantation Products Lab 0 0 3 10 10 20 30 50 1"
+  },
+  {
+   "name": "Computer Based Numerical Methods Lab",
+   "name_print": "NAS 551 :COMPUTER BASED NUMERICAL TECHNIQUES LAB\n\n L : T : P\n 0 : 0  :3",
+   "codes": [
+    "NAS-551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Solution of single non-linear algebraic equations by Newton Raphson method."
+    },
+    {
+     "no": 2,
+     "exp": "Solution of single non-linear equations by Regulafalsi method."
+    },
+    {
+     "no": 3,
+     "exp": "Solution of system of linear simultaneous by Gauss Elimination method."
+    },
+    {
+     "no": 4,
+     "exp": "Solution of system of linear simultaneous equation by gauss seidel method and successive over relaxation method."
+    },
+    {
+     "no": 5,
+     "exp": "Solution of single first order ordinary differential equations by fourth order Runge-Kutta method."
+    },
+    {
+     "no": 6,
+     "exp": "Solution of Heat equations (Parabolic equations) by finite difference method."
+    },
+    {
+     "no": 7,
+     "exp": "Solution of Laplace equations (elliptic equation) by finite difference method."
+    },
+    {
+     "no": 8,
+     "exp": "Solution of wave equations (Hyperbolic equation) by finite difference method."
+    },
+    {
+     "no": 9,
+     "exp": "Finding Newton’s interpolatory polynomial for n points."
+    },
+    {
+     "no": 10,
+     "exp": "Finding Newton’s interpolatory polynomial based on finite difference table for n points."
+    },
+    {
+     "no": 11,
+     "exp": "Simpson’s 3/8-rule."
+    }
+   ],
+   "quirks": [
+    "Subject name differs: scheme prints 'Computer Based Numerical Methods Lab', detail header prints 'COMPUTER BASED NUMERICAL TECHNIQUES LAB'.",
+    "Code printed as 'NAS 551' (space) and ':COMPUTER' (no space after colon) in detail header.",
+    "Printed preamble line before the list: 'Use of following Techniques in C/C++ Language'.",
+    "'Regulafalsi' as printed; 'gauss seidel' lowercase as printed.",
+    "Experiment 3 reads 'Solution of system of linear simultaneous by Gauss Elimination method.' (word 'equations' absent) as printed.",
+    "Experiment 4 reads '...simultaneous equation by...' (singular) as printed."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-V, p.2): 9 NAS-551 Computer Based Numerical Methods Lab 0 0 3 10 10 20 30 50 1"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.9",
+   "source_scheme_line": "9 NAS-551 Computer Based Numerical Methods Lab 0 0 3 10 10 20 30 50 1"
+  },
+  {
+   "name": "General Proficiency",
+   "name_print": "NGP-501 General Proficiency",
+   "codes": [
+    "NGP-501"
+   ],
+   "semester": 5,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "units": {},
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "quirks": [
+    "Scheme row prints only two mark values (50, 50): under the sessional TOTAL column (x≈609) and Subject Total column (x≈710); L, T, P, CT, TA, ESE and Credit cells printed blank."
+   ],
+   "notes": [
+    "Verbatim scheme row (Semester-V, p.2): 10 NGP-501 General Proficiency 50 50 — detailed syllabus NOT printed anywhere in the document.",
+    "No detailed syllabus, units, books or experiments printed for this subject in this PDF."
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.2 (scheme row only)",
+   "source_scheme_line": "10 NGP-501 General Proficiency 50 50"
+  },
+  {
+   "name": "Industrial Management",
+   "name_print": "NHU 601 INDUSTRIAL MANAGEMENT\n\nL    T   P\n2:  0 : 0",
+   "codes": [
+    "NHU-601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Introduction : Concept, Development, application and scope of Industrial Management. Productivity : Definition, measurement, productivity index, types of production system, Industrial Ownership.",
+    "2": "Unit-II Management Function : Principles of Management- Management Tools – time and motion study, work simplification- process charts and flow diagrams, Production Planning.",
+    "3": "Unit-III Inventory control : Inventory, cost, Deterministic models, Introduction to supply chain management.",
+    "4": "Unit-IV Quality control : Process control, SQC control charts, single, double and sequential sampling, Introduction to TQM."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Khanna O.P. : Industrial Engineering"
+    },
+    {
+     "no": 2,
+     "book": "T.R. Banga : Industrial Engineering and Management"
+    },
+    {
+     "no": 3,
+     "book": "Sharma B.R. : Environmental and Pollution Awareness."
+    }
+   ],
+   "quirks": [
+    "Code printed as 'NHU 601' (space) in detail header; scheme table prints 'NHU-601'.",
+    "Only Units I-IV printed; Unit-5 not printed.",
+    "Reference book 3 prints across the page break (starts p.9, continues p.10).",
+    "Reference book 3 title 'Environmental and Pollution Awareness' as printed (unrelated-sounding title kept verbatim)."
+   ],
+   "flags": [],
+   "notes": [
+    "Books list recorded under reference_books (printed heading 'Reference Books').",
+    "Scheme row (Semester-VI, p.3): 1 NHU-601 Industrial Management 2 0 0 15 10 25 50 75 2"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 pp.9-10",
+   "source_scheme_line": "1 NHU-601 Industrial Management 2 0 0 15 10 25 50 75 2"
+  },
+  {
+   "name": "Cereals, Pulses & Oilseed Products",
+   "name_print": "NFT – 601:   CEREALS, PULSES AND OILSEED PRODUCTS\n\n L : T: P\n 3 : 1: 0",
+   "codes": [
+    "NFT-601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Composition, Structure and Processing characteristic of Cereal grains, Legumes and oilseeds, Post harvest, Post processing practices for their safe storage. Parboiling and Milling of paddy, Quality characteristics, Curing and aging of rice, Processed rice products.",
+    "2": "Unit-II Wheat and its quality characteristics for milling into flour and semolina, Flour milling, Turbo grinding and air classification, Flour grades and their suitability for baking purposes, Assessment of flour quality and characteristics, Milling of Durum wheat, Macaroni products.",
+    "3": "Unit-III Dry and Wet milling of corn, Starches and its conversion products, Cornflakes Manufacture. Malting of barley",
+    "4": "Unit-IV Milling of legume-pulses by traditional and improved processes. Pearling of Millets.",
+    "5": "Unit-V Processing of oil seeds for direct use and consumption, Oil and protein products. Processing of extracted oil refining, hydrogenation, interestrification. Processing of deoiled cake into protein concentrates and isolates, Textured protein, Functional protein preparations. Peanut butter, Margarine and Spread."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "C.F.T.R.I. Mysore Manuals on Rice and its Processing"
+    },
+    {
+     "no": 2,
+     "book": "N.N.Potter Food Science"
+    },
+    {
+     "no": 3,
+     "book": "S.A.Matz Cereal Technology"
+    }
+   ],
+   "quirks": [
+    "Code printed as 'NFT – 601' (en dash with spaces) in detail header; scheme table prints 'NFT-601'.",
+    "Scheme subject name 'Cereals, Pulses & Oilseed Products' vs detail header 'CEREALS, PULSES AND OILSEED PRODUCTS'.",
+    "Unit-III ends without full stop ('Malting of barley').",
+    "'Post harvest, Post processing practices' as printed; 'Processing characteristic' singular as printed."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-VI, p.3): 2 NFT-601 Cereals, Pulses & Oilseed Products 3 1 0 30 20 50 100 150 4"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.10",
+   "source_scheme_line": "2 NFT-601 Cereals, Pulses & Oilseed Products 3 1 0 30 20 50 100 150 4"
+  },
+  {
+   "name": "Dairy Technology",
+   "name_print": "NFT-602  :  DAIRY TECHNOLOGY                                                     L : T: P\n 3 : 1: 0",
+   "codes": [
+    "NFT-602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Fluid Milk: Composition of milk and factor affecting it. Physico-chemical characteristics of milk and milk constituents. Production and collection , cooling and transportation of milk. Packaging storage and distribution of pasteurized milk.:",
+    "2": "Unit-II Whole, Standardized, Toned, Double toned and skim milk. Test for milk quality and Adulteration. UHT processed milk, flavoured, Sterilized milk. Cleaning and sanitization of dairy equipments. Definition, Classification, Composition and physico-chemical properties of cream. Production processes and quality control.",
+    "3": "Unit-III Butter: Definition, Classification, Composition and methods of manufacture, Packaging and storage. Butter oil/Ghee. Ice cream: Definition, Classification and Composition, Constituents and their role. Preparation of mixes and freezing of Ice cream, Overrun, Judging, Grading, and defects of Ice cream.",
+    "4": "Unit-IV Evaporated and Condensed milk: Method of manufacture, Packaging and storage. Defects, Causes, and prevention. Roller and Spray Drying of milk solids. Instantization. Flow ability, Dustiness, Reconstituability, Dispersability, Wet ability, Sink ability and appearance of milk powders.",
+    "5": "Unit-V Byproducts of Dairy Industry and their effective utilization. Manufacture of casein, Whey protein, Lactose from milk and their use in formulated foods. Quality Control tests in Dairy industry."
+   },
+   "quirks": [
+    "Unit-I ends with '.:' as printed.",
+    "'collection , cooling' spacing as printed; 'factor affecting it' as printed; 'equipments' as printed.",
+    "No books printed for this subject.",
+    "L-T-P line prints far above the '3 : 1: 0' value (large blank gap in print)."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-VI, p.3): 3 NFT-602 Dairy Technology 3 1 0 30 20 50 100 150 4"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 pp.10-11",
+   "source_scheme_line": "3 NFT-602 Dairy Technology 3 1 0 30 20 50 100 150 4"
+  },
+  {
+   "name": "Bakery Technology",
+   "name_print": "NFT-603  :  BAKERY TECHNOLOGY                                                     L : T: P\n   3 : 1: 0",
+   "codes": [
+    "NFT-603"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Wheat flour and wheat flour treatments – Grade of flour, constituents of flour – ageing of flour – Tests for flour quality. Yeast  : Characteristics, Preparation, Handling & Storage, Adequacy for use in bakery industry. Ingredients, Technology and quality parameters for baked products: Bread, Biscuits and cakes",
+    "2": "Unit-II Bakery equipment and machinery .Different types of Mixers, kneaders and cutters.Different types of ovens.Packaging machinery for bread and biscuits. 8. Quality control in bakery industry . Quality control of raw materials. Quality control of finished products. Quality control of packaging materials",
+    "3": "Unit-III Technology of bread making  Different methods. Process steps and their significance. Characteristics of good bread. Defects in bread their causes and remedies .",
+    "4": "Unit-IV Technology of Cakes Manufacture. Different cake making processes. Sugar batter method, Flour batter method ,Modified sugar batter method Whipping method, Blending method etc. Process steps and their significance. Importance of baking time and temperature. Recipe balancing .Defects in cakes, their  causes and remedies .",
+    "5": "Unit-V Biscuits . Definition and types.Fermented dough biscuits. Cookies. Types of cookies and their manufacture. Cream biscuits. Process steps and their significance. Defects in biscuits their causes and remedires."
+   },
+   "quirks": [
+    "Unit-II contains stray '8.' ('bread and biscuits. 8. Quality control in bakery industry') as printed.",
+    "'remedires' as printed (likely remedies).",
+    "Spacing anomalies as printed: 'machinery .Different', 'cutters.Different', 'ovens.Packaging', 'balancing .Defects', 'Biscuits . Definition', 'types.Fermented'.",
+    "Units I, II end without full stop; double spaces 'bread making  Different', 'their  causes' as printed.",
+    "No books printed for this subject."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-VI, p.3): 4 NFT-603 Bakery Technology 3 1 0 30 20 50 100 150 4"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.11",
+   "source_scheme_line": "4 NFT-603 Bakery Technology 3 1 0 30 20 50 100 150 4"
+  },
+  {
+   "name": "Chemical Reaction Engineering",
+   "name_print": "NCH- 607: CHEMICAL REACTION ENGINEERING\n\nL :  T: P\n          2 : 1: 0",
+   "codes": [
+    "NCH-607"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Chemical Reactions : Rate of chemical reactions, variable affecting the reaction rate, order of reaction ,reaction rate constant , elementary and non-elementary reaction mechanism. Arrhenius equation, Collision theory and theory of absolute reaction rates, predictability of reaction rate. 8",
+    "2": "Unit-II Kinetics of homogeneous chemical reactions, rate equations for simple and complex reactions, irreversible reaction, parallel reactions,consecutive reactions, auto catalytic reactions and homogeneous catalytic reactions. 8",
+    "3": "Unit-III Interpretation of reactor data in constant volume and variable volume batch reactions, integral and differential method of following kinetic data. Reactor designs for homogeneous, batch, semi-batch, plug flow and continuous stirred tank. Electrochemical reactors 6",
+    "4": "Unit-IV Classification of chemical reactions, Interpretation of reactor data in flow reactions.Isothermal as well as non-isothermal operation, space velocity and residence time in flow reactors. Size comparison of single reactors like batch, plug flow and CSIR for first and second order single reactions. Multiple reactor systems, Plug flow reactions in series and for parallel equal sized CSTR’s in series. 6"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Levenspiel, O.. “Chemical Reaction Engineering”, 3rd ed. New York John Wiley (1998)"
+    },
+    {
+     "no": 2,
+     "book": "Fogler, H.S. “Elements of Chemical Reaction Engineering”, 4th ed. Prentice Hall (1997)."
+    },
+    {
+     "no": 3,
+     "book": "Smith, J. “Chemical Engineering Kinetics “, 3rd edition. McGraw-Hill, . (1990)."
+    }
+   ],
+   "quirks": [
+    "Code printed as 'NCH- 607' (space after dash) in detail header; scheme table prints 'NCH-607'.",
+    "Trailing lecture counts printed after units: 8, 8, 6, 6 — non-uniform, kept verbatim in unit text.",
+    "Only Units I-IV printed; Unit-5 not printed.",
+    "Printed books 1 and 2 run on in the same line ('...(1998) 2. Fogler...'); split at the printed '2.' number.",
+    "'CSIR' as printed in Unit-IV (likely CSTR).",
+    "'O..' double period, 'Kinetics “, 3rd edition. McGraw-Hill, . (1990)' stray punctuation as printed.",
+    "'reactions,consecutive' and 'reactions.Isothermal' missing spaces as printed."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-VI, p.3): 5 NCH-607 Chemical Reaction Engineering 2 1 0 15 10 25 50 75 3"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.12",
+   "source_scheme_line": "5 NCH-607 Chemical Reaction Engineering 2 1 0 15 10 25 50 75 3"
+  },
+  {
+   "name": "Mass Transfer Operations",
+   "name_print": "NCH- 608 :\nMASS TRANSFER OPERATIONS\n\nL : T: P\n         3 : 1: 0",
+   "codes": [
+    "NCH-608"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Unit-I Basic Principles of mass transfer: Molecular diffusion in fluids, mass transfer coeeficients, Interphase mass transfer. Vapour pressure, enthalpy, absolute humidity, dew point, etc., Unsaturated vapour gas mixtures.",
+    "2": "Unit-II Gas absorption: Countercurrent, co-current, multistage continuous contact operations.Distillation : Entrainment, pressure drops , flooding , transfer coefficients and relative volatility. Macabe Thiele and Ponchon method for binary component distillation of azeotropes. Flash vaporization and Multicomponent distillation.",
+    "3": "Unit-III Diffusion: Molecular and turbulent diffusion , diffusion coefficient. Fick’s law of diffusion, measurement and estimation of diffusivity. Diffusion in multicomponent gas mixtures. Diffusion in solids: Molecular, Knud sen and surface diffusion. Inter phase mass transfer: Mass transfer coefficients, diffusion between phases, equilibrium solubility of gases in liquids. Mass transfer theories. Mass transfer in fluidized beds",
+    "4": "Unit-IV Adsorption and Stripping,Equipments, gas-liquid equilibria, Henry’s law, selection of solvent, absorption in tray column, graphical and analytical methods. Adsorption in packed columns. HTU, NTU & HETP concepts, design equations for packed column.",
+    "5": "Unit-V Drying: Batch and freeze drying, rotary driers. Surface vs diffusion controlled operations. Solid-gas equilibria, definitions of moisture contents, types of batch and continuous dryers, rate of batch drying , time of drying, mechanism of batch drying, continuous drying."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Treybal, R “Mass Transfer Operations”, 3rd ed. New York: McGraw-Hill, (1980)."
+    },
+    {
+     "no": 2,
+     "book": "Sherwood T. K., Pigford R. L. and ilke P. “Mass Transfer” McGraw Hill (1975)."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Foust A. S. et.al., “Principles of Unit Operations” John Wiley (1980)."
+    },
+    {
+     "no": 2,
+     "book": "Geankoplis, C.J.. “Transport Processes and Unit Operations”, 3rd ed. Prentice Hall. (1993)"
+    }
+   ],
+   "quirks": [
+    "Code printed as 'NCH- 608 :' with the name on the next line in detail header.",
+    "'coeeficients' as printed (likely coefficients).",
+    "'Knud sen' split as printed; 'Macabe Thiele' as printed (commonly McCabe).",
+    "'ilke P.' as printed (likely Wilke).",
+    "'operations.Distillation', 'Stripping,Equipments,' spacing as printed.",
+    "Books: first pair under printed heading 'Text Books'; the second pair prints with numbering restarting at 1 and no heading — recorded as reference_books; numbering-as-printed noted.",
+    "Units III and V end without full stop as printed."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-VI, p.3): 6 NCH-608 Mass Transfer Operations 3 1 0 30 20 50 100 150 4"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 pp.12-13",
+   "source_scheme_line": "6 NCH-608 Mass Transfer Operations 3 1 0 30 20 50 100 150 4"
+  },
+  {
+   "name": "Advanced Food Processing Lab-I",
+   "name_print": "NFT-651: ADVANCED FOOD PROCESSING LAB                               L : T: P\n    \n 0 : 0 : 3",
+   "codes": [
+    "NFT-651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 6
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 20,
+    "sessional_total": 40,
+    "ese_te_pe": 60,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Preparation of Bread/test baking."
+    },
+    {
+     "no": 2,
+     "exp": "Preparation of Sweet Buns."
+    },
+    {
+     "no": 3,
+     "exp": "Preparation of Pizza base."
+    },
+    {
+     "no": 4,
+     "exp": "Preparation of Biscuits"
+    },
+    {
+     "no": 5,
+     "exp": "Preparation of Nan-khatai."
+    },
+    {
+     "no": 6,
+     "exp": "Praparation of Cookies."
+    },
+    {
+     "no": 7,
+     "exp": "Preparation of Cakes (Egg/ Egg less)."
+    },
+    {
+     "no": 8,
+     "exp": "Preparation of Pastries."
+    },
+    {
+     "no": 9,
+     "exp": "Preparation of RTS/RTC foods."
+    }
+   ],
+   "quirks": [
+    "L-T-P contradiction as printed: scheme row prints P=6 (0 0 6), detail header prints '0 : 0 : 3' — both retained; scheme row used for ltp.",
+    "Subject name differs: scheme prints 'Advanced Food Processing Lab-I', detail header prints 'ADVANCED FOOD PROCESSING LAB'.",
+    "'Praparation' as printed (likely Preparation).",
+    "Experiment 4 ends without full stop as printed."
+   ],
+   "flags": [
+    "ltp_conflict_scheme_vs_detail_header"
+   ],
+   "notes": [
+    "Scheme row (Semester-VI, p.3): 7 NFT-651 Advanced Food Processing Lab-I 0 0 6 20 20 40 60 100 2",
+    "Detail header (p.13) prints L:T:P = 0 : 0 : 3 while scheme row prints P=6; kept scheme value in ltp, both prints recorded."
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.13",
+   "source_scheme_line": "7 NFT-651 Advanced Food Processing Lab-I 0 0 6 20 20 40 60 100 2"
+  },
+  {
+   "name": "Mass Transfer Operations Lab",
+   "name_print": "NCH-655 : MASS TRANSFER OPERATIONS LAB\n\n L : T: P\n    \n 0 : 0 : 3",
+   "codes": [
+    "NCH-655"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Separation factors of the experiments with differential distillation."
+    },
+    {
+     "no": 2,
+     "exp": "Separation factors of the experiments with flash vaporization."
+    },
+    {
+     "no": 3,
+     "exp": "Separation factors of the experiments with vapour liquid equilibrium."
+    },
+    {
+     "no": 4,
+     "exp": "Separation factors of the experiments with liquid – liquid extraction."
+    },
+    {
+     "no": 5,
+     "exp": "Separation factors of the experiments with solid –liquid extraction."
+    },
+    {
+     "no": 6,
+     "exp": "Separation factors of the experiments with ion exchange."
+    },
+    {
+     "no": 7,
+     "exp": "Separation factors of the experiments with membrane separation."
+    },
+    {
+     "no": 8,
+     "exp": "Studies on Bubble cap/ tray/ fractional column."
+    },
+    {
+     "no": 9,
+     "exp": "Studies on Absorption/ Humidification/ Dehumidification columns."
+    },
+    {
+     "no": 10,
+     "exp": "Studies on crystallization and adsorption."
+    }
+   ],
+   "quirks": [
+    "'solid –liquid' spacing as printed; experiment 10 printed as '10.Studies' without space.",
+    "Repeated phrase 'Separation factors of the experiments with' as printed."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (Semester-VI, p.3): 8 NCH-655 Mass Transfer Operations Lab 0 0 3 10 10 20 30 50 1"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.13",
+   "source_scheme_line": "8 NCH-655 Mass Transfer Operations Lab 0 0 3 10 10 20 30 50 1"
+  },
+  {
+   "name": "Seminar",
+   "name_print": "NFT-652 SEMINAR\n\n\n L : T: P\n 0 : 0 : 3",
+   "codes": [
+    "NFT-652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "seminar",
+   "units": {},
+   "quirks": [
+    "Scheme row CT, TA and ESE cells printed blank; only sessional TOTAL 50 and Subject Total 50 printed.",
+    "No units printed; single printed description line recorded in notes."
+   ],
+   "flags": [],
+   "notes": [
+    "Printed description (p.13): 'The student will be required to prepare and deliver a seminar as well as submit a written report on the topic assigned to him/her'",
+    "Scheme row (Semester-VI, p.3): 9 NFT-652 Seminar 0 0 3 50 50 1"
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.13",
+   "source_scheme_line": "9 NFT-652 Seminar 0 0 3 50 50 1"
+  },
+  {
+   "name": "General Proficiency",
+   "name_print": "NGP-601 General Proficiency",
+   "codes": [
+    "NGP-601"
+   ],
+   "semester": 6,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "units": {},
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "quirks": [
+    "Scheme row prints only two mark values (50, 50): under the sessional TOTAL column (x≈609) and Subject Total column (x≈710); L, T, P, CT, TA, ESE and Credit cells printed blank."
+   ],
+   "notes": [
+    "Verbatim scheme row (Semester-VI, p.3): 10 NGP-601 General Proficiency 50 50 — detailed syllabus NOT printed anywhere in the document.",
+    "No detailed syllabus, units, books or experiments printed for this subject in this PDF."
+   ],
+   "source_syllabus": "06_btech_ft_syllabus_2015-16.pdf#6228f90ed89f20f4 p.3 (scheme row only)",
+   "source_scheme_line": "10 NGP-601 General Proficiency 50 50"
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "title_page",
+   "print": "SYLLABUS  Bachelor of Food Technology  3rd Year (V & VI Semester)  (Effective from Session 2015-2016)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_page_header",
+   "print": "STUDY AND EVALUATION SCHEME  B.TECH (FOOD TECHNOLOGY) THIRD YEAR  [Effective from  the Session 2015-16)  /  B.Tech (Food Technology) Year 3rd Semester-V",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 16 5 9 1000 25",
+   "locator": "p.2 (Semester-V scheme; L=16 T=5 P=9, Subject Total=1000, Credit=25)"
+  },
+  {
+   "kind": "scheme_page_header",
+   "print": "STUDY AND EVALUATION SCHEME  B.TECH (FOOD TECHNOLOGY) THIRD YEAR  [Effective from  the Session 2015-16)  /  B.Tech (Food Technology) Year 3rd Semester-VI",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 16 5 1000 25",
+   "locator": "p.3 (Semester-VI scheme; P cell printed blank — per-subject P values sum to 12)"
+  },
+  {
+   "kind": "page_furniture",
+   "print": "(blank page; separator rule '============' only)",
+   "locator": "p.14"
+  }
+ ],
+ "quirks": [
+  "Scheme page header prints mismatched bracket: '[Effective from  the Session 2015-16)' — as printed on both p.2 and p.3.",
+  "Semester-VI TOTAL row prints P cell blank (p.3), though the six lab P values (0 0 6 3 3) sum to 12; verbatim row kept.",
+  "NME-509 scheme row prints ESE 75 and Subject Total 75 while sessional TOTAL is 25 (25+75=100) — arithmetic as printed.",
+  "Document prints 'Bachelor of Food Technology' (p.1) and 'B.TECH (FOOD TECHNOLOGY)' (pp.2-3); canonical course BTech per RULES §1b; printed codes NHU/NAS/NME/NFT/NCH/NGP at 500/600 level are consistent with a 3rd-year B.Tech scheme — no COURSE-META-FROM-CODES contradiction.",
+  "NFT-651: scheme row prints P=6, detail header prints 0:0:3 — both retained (see subject flags).",
+  "NAS-551 name differs between scheme ('...Methods Lab') and detail header ('...TECHNIQUES LAB'); NFT-651 name differs ('...Lab-I' vs '...LAB').",
+  "Subject name separator/typography varies across detail headers: 'NHU-501:', 'NME 509 :', 'NFT – 502 :', 'NCH- 507 :', 'NAS 551 :', 'NHU 601' (dash vs space vs en dash) — codes normalized to dashed form; variants noted per subject."
+ ],
+ "flags": []
+}
