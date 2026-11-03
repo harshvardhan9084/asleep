@@ -1,0 +1,1725 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2018-19/btech_it_structure-syllabus_2018-19.pdf",
+ "session": "2018-19",
+ "course": "BTech",
+ "sha16": "a9045b7f3020dadd",
+ "stem": "10_btech_it_structure-syllabus_2018-19",
+ "subjects": [
+  {
+   "name": "Database Management Systems",
+   "name_print": "RCS-501:Database Management Systems",
+   "codes": [
+    "RCS-501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_print": "3  RCS-501  Database Management Systems  3---0---0  70  20  10  100  3",
+   "units": {
+    "1": "Introduction: Overview, Database system Vs file system, Database system concept and architecture, data model schema and instances, data independence and database language and interfaces, data definitions language, DML, Overall Database Structure. Data Modeling using the Entity Relationship Model: ER model concepts, notation for ER diagram, mapping constraints, keys, Concepts of Super Key, candidate key, primary key, Generalization, aggregation, reduction of an ER diagrams to tables, extended ER model, relationship of higher degree.",
+    "2": "Relational Data Model and Language: Relational data model Concepts, integrity constraints, entity integrity, referential integrity, Keys constraints, Domain constraints, relational algebra, relational calculus, tuple and domain calculus. Introduction on SQL: Characteristics of SQL, advantage of SQL. SQl data type and literals. Types of SQL commands. SQL operators and their procedure. Tables, views and indexes. Queries and sub queries. Aggregate functions. Insert, update and delete operations, Joins, Unions, Intersection, Minus, Cursors, Triggers, Procedures in SQL/PL SQL",
+    "3": "Data Base Design & Normalization: Functional dependencies, normal forms, first, second, third normal forms, BCNF, inclusion dependence, loss less join decompositions, normalization using FD, MVD and JDs alternative approaches to database design",
+    "4": "Transaction Processing Concept: Transaction system, Testing of serializability, serializability of schedules, conflict & view serializable schedule, recoverability, Recovery from transaction failures, log based recovery, checkpoints, deadlock handling. Distributed Database: distributed data storage, concurrency control, directory system.",
+    "5": "Concurrency Control Techniques: Concurrency Control, Locking Techniques for concurrency control, Time stamping protocols for concurrency control, validation based protocol, multiple granularity, Multi version schemes, Recovery with concurrent transaction, case study of Oracle."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Korth, Silbertz, Sudarshan,” Database Concepts”, McGraw Hill"
+    },
+    {
+     "no": 2,
+     "book": "Date C J, “An Introduction to Database Systems”, Addision Wesley"
+    },
+    {
+     "no": 3,
+     "book": "Elmasri, Navathe, “ Fundamentals of Database Systems”, Addision Wesley"
+    },
+    {
+     "no": 4,
+     "book": "O’Neil, Databases, Elsevier Pub."
+    },
+    {
+     "no": 5,
+     "book": "RAMAKRISHNAN\"Database Management Systems\",McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "Leon & Leon,”Database Management Systems”, Vikas Publishing House"
+    },
+    {
+     "no": 7,
+     "book": "Bipin C. Desai, “ An Introduction to Database Systems”, Galgotia Publications"
+    },
+    {
+     "no": 8,
+     "book": "Majumdar & Bhattacharya, “Database Management System”, TMH"
+    },
+    {
+     "no": 9,
+     "book": "R.P. Mahapatra, Database Management System, Khanna Publishing House"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "printed typos kept verbatim: 'SQl data type and literals.' (Unit-II), 'loss less join decompositions' (Unit-III), 'reduction of an ER diagrams to tables' (Unit-I), 'Addision Wesley' (refs 2-3)",
+    "stray line \"9. Course on 'PHP & MySQL', Spoken Tutorial MOOC\" printed after reference 9 (duplicate number 9 artifact), p.4"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Design and Analysis of Algorithm",
+   "name_print": "RCS-502: Design and Analysis of Algorithm",
+   "codes": [
+    "RCS-502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_print": "4  RCS-502  Design and Analysis of Algorithm  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Introduction: Algorithms, Analyzing algorithms, Complexity of algorithms, Growth of functions, Performance measurements, Sorting and order Statistics - Shell sort, Quick sort, Merge sort, Heap sort, Comparison of sorting algorithms, Sorting in linear time.",
+    "2": "Advanced Data Structures: Red-Black trees, B – trees, Binomial Heaps, Fibonacci Heaps, Tries, skip list",
+    "3": "Divide and Conquer with Examples such as Sorting, Matrix Multiplication, Convex hull and Searching. Greedy methods with Examples such as Optimal Reliability Allocation, Knapsack, Minimum Spanning trees – Prim’s and Kruskal’s algorithms, Single source shortest paths - Dijkstra’s and Bellman Ford algorithms.",
+    "4": "Dynamic Programming with Examples such as Knapsack. All pair shortest paths – Warshal’s and Floyd’s algorithms, Resource allocation problem. Backtracking, Branch and Bound with examples such as Travelling Salesman Problem, Graph Coloring, n-Queen Problem, Hamiltonian Cycles and Sum of subsets.",
+    "5": "Selected Topics: Algebraic Computation, Fast Fourier Transform, String Matching, Theory of NP-completeness, Approximation algorithms and Randomized algorithms"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Thomas H. Coreman, Charles E. Leiserson and Ronald L. Rivest, “Introduction to Algorithms”, Printice Hall of India."
+    },
+    {
+     "no": 2,
+     "book": "E. Horowitz & S Sahni, \"Fundamentals of Computer Algorithms\","
+    },
+    {
+     "no": 3,
+     "book": "Aho, Hopcraft, Ullman, “The Design and Analysis of Computer Algorithms” Pearson Education, 2008."
+    },
+    {
+     "no": 4,
+     "book": "LEE \"Design & Analysis of Algorithms (POD)\",McGraw Hill"
+    },
+    {
+     "no": 5,
+     "book": "Richard E.Neapolitan \"Foundations of Algorithms\" Jones & Bartlett Learning"
+    },
+    {
+     "no": 6,
+     "book": "Gajendra Sharma, Design & Analysis of Algorithms, Khanna Publishing House"
+    },
+    {
+     "no": 7,
+     "book": "Jon Kleinberg and Éva Tardos, Algorithm Design, Pearson, 2005."
+    },
+    {
+     "no": 8,
+     "book": "Michael T Goodrich and Roberto Tamassia, Algorithm Design: Foundations, Analysis, and Internet Examples, Second Edition, Wiley, 2006."
+    },
+    {
+     "no": 9,
+     "book": "Harry R. Lewis and Larry Denenberg, Data Structures and Their Algorithms, Harper Collins, 1997"
+    },
+    {
+     "no": 10,
+     "book": "Robert Sedgewick and Kevin Wayne, Algorithms, fourth edition, Addison Wesley, 2011."
+    },
+    {
+     "no": 11,
+     "book": "Harsh Bhasin,”Algorithm Design and Analysis”,First Edition,Oxford University Press."
+    },
+    {
+     "no": 12,
+     "book": "Gilles Brassard and Paul Bratley,Algorithmics:Theory and Practice,Prentice Hall,1995"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "printed typos kept verbatim: 'Coreman' and 'Printice Hall' (ref 1), 'Warshal’s' (Unit-IV), 'Hopcraft' (ref 3)",
+    "reference 2 printed with trailing comma and no publisher: 'E. Horowitz & S Sahni, \"Fundamentals of Computer Algorithms\",'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Principles of Programming Languages",
+   "name_print": "RCS-503: Principles of Programming Languages",
+   "codes": [
+    "RCS-503"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_print": "5  RCS-503  Principles of Programming Languages  3---0---0  70  20  10  100  3",
+   "units": {
+    "1": "Introduction : The Role of Programming Languages: Why Study Programming Languages, Towards Higher-Level languages, Programming paradigms, Programming environments Language Description: Syntactic structure, language Translation Issues: Programming language Syntax, Stages in translation, Formal translation Models",
+    "2": "Data, Data Types, and Basic Statements : Names , variables , binding, type checking, scope, scope rules ,lifetime and garbage collection, primitive data types, strings, array types, associative arrays ,record types, union types, pointers and references , Arithmetic expressions , overloaded operators, type conversions , relational and boolean expressions, assignment statements, mixed mode assignments, control structures, selection ,iterations, branching, guarded statements",
+    "3": "Subprograms and Implementations : Subprograms ,design issues ,local referencing, parameter passing, overloaded methods, generic methods, design issues for functions , semantics of call and return ,implementing simple subprograms , stack and dynamic local variables, nested subprograms, , dynamic scoping.",
+    "4": "Object-Orientation, Concurrency, and Event Handling : Grouping of data and Operations — Constructs for Programming Structures, abstraction Information Hiding, Program Design with Modules, Defined types, Object oriented programming — concept of Object, inheritance, Derived classes and Information hiding – Templates, Semaphores, Monitors, Message passing, Threads, statement level concurrency Exception handling (Using C++ and Java as example language).",
+    "5": "Functional and Logic Programming Languages: Introduction to lambda calculus, fundamentals of functional programming languages, Programming with Programming with ML, Introduction to logic and logic programming – Programming with Prolog."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "“Programming Languages: Design and Implementations” , Terrance W.Pratt, Marvin V. Zelkowitz, T.V.Gopal,Fourth ed.,Prentice Hall"
+    },
+    {
+     "no": 2,
+     "book": "“Programming Language Design Concept”, David A. Watt, Willey India"
+    },
+    {
+     "no": 3,
+     "book": "“Programming languages: Concepts and Constucts”, Ravi Sethi, Second Ed.,Pearson."
+    },
+    {
+     "no": 4,
+     "book": "“Types and programming Languages”, Benjamin C. Pierce. The MIT Press Cambridge, Massachusetts London, England"
+    },
+    {
+     "no": 5,
+     "book": "Concepts of Programming Languages, Robert W. Sebesta, 10 th Ed.,Pearson"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "printed typos kept verbatim: 'Programming with Programming with ML' duplicated phrase (Unit-V), 'nested subprograms, , dynamic scoping.' double comma (Unit-III), 'Constucts' (ref 3), 'Willey India' (ref 2), '10 th Ed.' spacing (ref 5)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Software Project Management",
+   "name_print": "RIT-E11: SOFTWARE PROJECT MANAGEMENT",
+   "codes": [
+    "RIT-E11"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "scheme_print": "6  IT-Elective-1  DEPTT  ELECTIVE COURSE-1  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Introduction and Software Project Planning: Fundamentals of Software Project Management (SPM), Need Identification, Vision and Scope document, Project Management Cycle, SPM Objectives, Management Spectrum, SPM Framework, Software Project Planning, Planning Objectives, Project Plan, Types of project plan, Structure of a Software Project Management Plan, Software project estimation, Estimation methods, Estimation models, Decision process.",
+    "2": "Project Organization and Scheduling Project Elements: Work Breakdown Structure (WBS), Types of WBS, Functions, Activities and Tasks, Project Life Cycle and Product Life Cycle, Ways to Organize Personnel, Project schedule, Scheduling Objectives, Building the project schedule, Scheduling terminology and techniques, Network Diagrams: PERT, CPM, Bar Charts: Milestone Charts, Gantt Charts. (SPI), Interpretation of Earned Value Indicators, Error Tracking, Software Reviews, Types of Review: Inspections, Deskchecks, Walkthroughs, Code Reviews, Pair Programming..",
+    "3": "Project Monitoring and Control: Dimensions of Project Monitoring & Control, Earned Value Analysis, Earned Value Indicators: Budgeted Cost for Work Scheduled (BCWS), Cost Variance (CV), Schedule Variance (SV), Cost Performance Index (CPI), Schedule Performance Index (SPI), Interpretation of Earned Value Indicators, Error Tracking, Software Reviews, Types of Review: Inspections, Deskchecks, Walkthroughs, Code Reviews, Pair Programming.",
+    "4": "Software Quality Assurance and Testing Objectives: Testing Principles, Test Plans, Test Cases, Types of Testing, Levels of Testing, Test Strategies, Program Correctness, Program Verification & validation, Testing Automation & Testing Tools, Concept of Software Quality, Software Quality Attributes, Software Quality Metrics and Indicators, The SEI Capability Maturity Model CMM), SQA Activities, Formal SQA Approaches: Proof of correctness, Statistical quality assurance, Cleanroom process.",
+    "5": "Project Management and Project Management Tools Software Configuration Management: Software Configuration Items and tasks, Baselines, Plan for Change, Change Control, Change Requests Management, Version Control, Risk Management: Risks and risk types, Risk Breakdown Structure (RBS), Risk Management Process: Risk identification, Risk analysis, Risk planning, Risk monitoring, Cost Benefit Analysis, Software Project Management Tools: CASE Tools, Planning and Scheduling Tools, MS-Project."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M. Cotterell, Software Project Management, Tata McGraw-Hill Publication."
+    },
+    {
+     "no": 2,
+     "book": "Royce, Software Project Management, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "Kieron Conway, Software Project Management, Dreamtech Press"
+    },
+    {
+     "no": 4,
+     "book": "S. A. Kelkar, Software Project Management, PHI Publication."
+    },
+    {
+     "no": 5,
+     "book": "Harold R. Kerzner, Project Mangment “A Systems Approach to Planning, Scheduling, and Controlling” Wiley."
+    },
+    {
+     "no": 6,
+     "book": "Mohapatra, Software Project Management, Cengage Learning."
+    },
+    {
+     "no": 7,
+     "book": "P.K. Agarwal, SAM R., Software Project Management, Khanna Publishing House"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "detailed syllabus header prints L-T-P 3-0-0 while the scheme elective slot 'IT-Elective-1 / DEPTT ELECTIVE COURSE-1' prints 3---1---0 credit 4 (p.2); L-T-P recorded from the subject's own header, credit from the scheme slot",
+    "printed typos kept verbatim: 'Pair Programming..' double period (Unit-II), 'The SEI Capability Maturity Model CMM)' unclosed parenthesis (Unit-IV), 'Project Mangment' (ref 5); Earned Value Indicators text repeated in Units II and III as printed"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Software Testing & Audit",
+   "name_print": "RIT-E12: SOFTWARE TESTING & AUDIT",
+   "codes": [
+    "RIT-E12"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "scheme_print": "6  IT-Elective-1  DEPTT  ELECTIVE COURSE-1  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Review of Software Engineering: Overview of Software Evolution, SDLC, Testing Process, Terminologies in Testing: Error, Fault, Failure, Verification, Validation, Difference Between Verification and Validation, Test Cases, Testing Suite, Test ,Oracles, Impracticality of Testing All Data; Impracticality of Testing AllPaths. Verification: Verification Methods, SRS Verification, Source Code Reviews, User Documentation Verification, Software, Project Audit, Tailoring Software Quality Assurance Program by Reviews, Walkthrough, Inspection and Configuration Audits.",
+    "2": "Functional Testing: Boundary Value Analysis, Equivalence Class Testing, Decision Table Based Testing, Cause Effect Graphing Technique. Structural Testing: Control Flow Testing, Path Testing, Independent Paths, Generation of Graph from Program, Identification of Independent Paths, Cyclomatic Complexity, Data Flow Testing, Mutation Testing",
+    "3": "Regression Testing: What is Regression Testing? Regression Test cases selection, Reducing the number of test cases, Code coverage prioritization technique. Reducing the number of test cases: Prioritization guidelines, Priority category, Scheme, Risk Analysis.",
+    "4": "Software Testing Activities: Levels of Testing, Debugging, Testing techniques and their applicability, Exploratory Testing Automated Test Data Generation: Test Data, Approaches to test data generation, test data generation using genetic algorithm, Test Data Generation Tools, Software Testing Tools, and Software test Plan.",
+    "5": "Object Oriented Testing: Definition, Issues, Class Testing, Object Oriented Integration and System Testing. Testing Web Applications: Web Testing, User Interface Testing, Usability Testing, Security Testing, Performance Testing, Database testing, Post Deployment Testing."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Yogesh Singh, “Software Testing”, Cambridge University Press, New York, 2012"
+    },
+    {
+     "no": 2,
+     "book": "K..K. Aggarwal & Yogesh Singh, “Software Engineering”, New Age International Publishers, New Delhi, 2003."
+    },
+    {
+     "no": 3,
+     "book": "Roger S. Pressman, “Software Engineering – A Practitioner’s Approach”, Fifth Edition, McGraw-Hill International Edition, New Delhi,2001."
+    },
+    {
+     "no": 4,
+     "book": "Marc Roper, “Software Testing”, McGraw-Hill Book Co., London, 1994."
+    },
+    {
+     "no": 5,
+     "book": "M.C. Trivedi, Software Testing & Audit, Khanna Publishing House"
+    },
+    {
+     "no": 6,
+     "book": "Boris Beizer, “Software System Testing and Quality Assurance”, Van Nostrand Reinhold, New York, 1984."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "detailed syllabus header prints L-T-P 3-0-0 while the scheme elective slot 'IT-Elective-1 / DEPTT ELECTIVE COURSE-1' prints 3---1---0 credit 4 (p.2); L-T-P recorded from the subject's own header, credit from the scheme slot",
+    "printed typos kept verbatim: 'Test ,Oracles' and 'Impracticality of Testing AllPaths' (Unit-I), 'K..K. Aggarwal' double dot (ref 2); reference 1 printed as '1 Yogesh Singh...' without dot after the number"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Object Oriented Techniques",
+   "name_print": "RIT-E13: OBJECT ORIENTED TECHNIQUES",
+   "codes": [
+    "RIT-E13"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "scheme_print": "6  IT-Elective-1  DEPTT  ELECTIVE COURSE-1  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Introduction: The meaning of Object Orientation, object identity, Encapsulation, information hiding, polymorphism, generosity, importance of modelling, principles of modelling, object oriented modelling, Introduction to UML, conceptual model of the UML, Architecture.",
+    "2": "Basic Structural Modeling: Classes, Relationships, common Mechanisms, and diagrams. Class &Object Diagrams: Terms, concepts, modelling techniques for Class & Object Diagrams. Collaboration Diagrams: Terms, Concepts, depicting a message, polymorphism in collaboration Diagrams, iterated messages, use of self in messages. Sequence Diagrams: Terms, concepts, depicting asynchronous messages with/without priority, call-back mechanism, broadcast messages. Basic Behavioural Modeling: Use cases, Use case Diagrams, Activity Diagrams, State Machine , Process and thread, Event and signals, Time diagram, interaction diagram, Package diagram. Architectural Modeling: Component, Deployment, Component diagrams and Deployment diagrams.",
+    "3": "Object Oriented Analysis: Object oriented design, Object design, Combining three models, Designing algorithms, design optimization, Implementation of control, Adjustment of inheritance, Object representation, Physical packaging, Documenting design considerations. Structured analysis and structured design (SA/SD), Jackson Structured Development (JSD).Mapping object oriented concepts using non-object oriented language, Translating classes into data structures, Passing arguments to methods, Implementing inheritance, associations encapsulation. Object oriented programming style: reusability, extensibility, robustness, programming in the large. Procedural v/s OOP, Object oriented language features. Abstraction and Encapsulation.",
+    "4": "C++ Basics : Overview, Program structure, namespace, identifiers, variables, constants, enum, operators, typecasting, control structures C++ Functions : Simple functions, Call and Return by reference, Inline functions, Macro Vs. Inline functions, Overloading of functions, default arguments, friend functions, virtual functions",
+    "5": "Objects and Classes : Basics of object and class in C++, Private and public members, static data and function members, constructors and their types, destructors, operator overloading, type conversion. Inheritance : Concept of Inheritance, types of inheritance: single, multiple, multilevel, hierarchical, hybrid, protected members, overriding, virtual base class Polymorphism : Pointers in C++, Pointes and Objects, this pointer, virtual and pure virtual functions, Implementing polymorphism"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "James Rumbaugh et. al, “Object Oriented Modeling and Design”, PHI"
+    },
+    {
+     "no": 2,
+     "book": "Grady Booch, James Rumbaugh, Ivar Jacobson, “The Unified Modeling Language User Guide”, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "Object Oriented Programming With C++, E Balagurusamy, TMH"
+    },
+    {
+     "no": 4,
+     "book": "R. S. Salaria, Mastering Object Oriented Programming with C++, Khanna Publishing House"
+    },
+    {
+     "no": 5,
+     "book": "C++ Programming, Black Book, Steven Holzner, dreamtech"
+    },
+    {
+     "no": 6,
+     "book": "Object Oriented Programming in Turbo C++, Robert Lafore, Galgotia"
+    },
+    {
+     "no": 7,
+     "book": "Object Oriented Programming with ANSI and Turbo C++, Ashok Kamthane, Pearson"
+    },
+    {
+     "no": 8,
+     "book": "The Compete Reference C++, Herbert Schlitz, TMH"
+    },
+    {
+     "no": 9,
+     "book": "C++ and Object Oriented Programming Paradigm, PHI"
+    },
+    {
+     "no": 10,
+     "book": "C++ : How to Program, 9th Edition, Deitel and Deitel, PHI"
+    },
+    {
+     "no": 11,
+     "book": "Object Oriented Programming with C++, Saurav Sahay, Oxford"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "detailed syllabus header prints L-T-P 3-0-0 while the scheme elective slot 'IT-Elective-1 / DEPTT ELECTIVE COURSE-1' prints 3---1---0 credit 4 (p.2); L-T-P recorded from the subject's own header, credit from the scheme slot",
+    "printed typos kept verbatim: 'polymorphism, generosity' (Unit-I, print for 'generics'), 'Pointes and Objects' (Unit-V), 'The Compete Reference C++, Herbert Schlitz' (ref 8)",
+    "stray line 'Course on C and CPP (Spoken Tutorial MOOC)' printed after reference list, p.9"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Operation Research",
+   "name_print": "RCS-E11: OPERATION RESEARCH",
+   "codes": [
+    "RCS-E11"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "scheme_print": "6  IT-Elective-1  DEPTT  ELECTIVE COURSE-1  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Definition and scope of operations research (OR), OR model, solving the OR model, art of modelling, phases of OR study. Linear Programming: Two variable Linear Programming model and Graphical method of solution, Simplex method, Dual Simplex method, special cases of Linear Programming, duality, sensitivity analysis.",
+    "2": "Transportation Problems: Types of transportation problems, mathematical models , transportation algorithms, Assignment: Allocation and assignment problems and models, processing of job through machines.",
+    "3": "Network Techniques: Shortest path model, minimum spanning Tree Problem, Max‐Flow problem and Min‐cost problem. Project Management: Phases of project management, guidelines for network construction, CPM and PERT.",
+    "4": "Theory of Games : Rectanagular games, Minimax theorem, graphical solution of 2 x n or m x 2 games, game with mixed strategies, reduction to linear programming model. Quality Systems: Elements of Queuing model, generalized poisson queuing model, single server models.",
+    "5": "Control: Models of inventory, operation of inventory system, quantity discount. Replacement: Replacement models: Equipment’s that deteriorate with time, equipment’s that fail with time."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Wayne L. Winston, “Operations Research” Thomson Learning,2003."
+    },
+    {
+     "no": 2,
+     "book": "Hamdy H. Taha, “Operations Research‐An Introduction” Pearson Education,2003."
+    },
+    {
+     "no": 3,
+     "book": "R. Panneer Seevam, “Operations Research” PHI Learning, 2008."
+    },
+    {
+     "no": 4,
+     "book": "V.K.Khanna, “Total Quality Management” New Age International, 2008."
+    },
+    {
+     "no": 5,
+     "book": "T.Veerarajan \"Operation Research\" Universities Press"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "detailed syllabus header prints L-T-P 3-0-0 while the scheme elective slot 'IT-Elective-1 / DEPTT ELECTIVE COURSE-1' prints 3---1---0 credit 4 (p.2); L-T-P recorded from the subject's own header, credit from the scheme slot",
+    "printed typos kept verbatim: subject name printed 'OPERATION RESEARCH', 'Rectanagular games' (Unit-IV), 'generalized poisson' lowercase (Unit-IV); Unit-I begins directly with 'Definition and scope...' with no 'Introduction:' label; U+2010 hyphen characters in 'Max‐Flow', 'Min‐cost', 'Research‐An' as printed"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Database Management Systems Lab",
+   "name_print": "RCS-551 Database Management Systems Lab",
+   "codes": [
+    "RCS-551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_print": "7  RCS-551  Database Management Systems Lab  0---0---2  50  -  50  100  1",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Installing oracle/ MYSQL"
+    },
+    {
+     "no": 2,
+     "exp": "Creating Entity-Relationship Diagram using case tools."
+    },
+    {
+     "no": 3,
+     "exp": "Writing SQL statements Using ORACLE /MYSQL: Writing basic SQL SELECT statements. Restricting and sorting data. Displaying data from multiple tables. Aggregating data using group function. Manipulating data. eCreating and managing tables."
+    },
+    {
+     "no": 4,
+     "exp": "Normalization"
+    },
+    {
+     "no": 5,
+     "exp": "Creating cursor"
+    },
+    {
+     "no": 6,
+     "exp": "Creating procedure and functions"
+    },
+    {
+     "no": 7,
+     "exp": "Creating packages and triggers"
+    },
+    {
+     "no": 8,
+     "exp": "Design and implementation of payroll processing system"
+    },
+    {
+     "no": 9,
+     "exp": "Design and implementation of Library Information System"
+    },
+    {
+     "no": 10,
+     "exp": "Design and implementation of Student Information System"
+    },
+    {
+     "no": 11,
+     "exp": "Automatic Backup of Files and Recovery of Files"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "lab work list printed under heading 'Objectives:' (p.11); item 3 bulleted sub-items merged into item text",
+    "printed typo 'eCreating and managing tables.' kept verbatim (item 3)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Design and Analysis of Algorithm Lab",
+   "name_print": "RCS-552 Design and Analysis of Algorithm Lab",
+   "codes": [
+    "RCS-552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_print": "8  RCS-552  Design and Analysis of Algorithm Lab  0---0---2  50  -  50  100  1",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Program for Recursive Binary & Linear Search."
+    },
+    {
+     "no": 2,
+     "exp": "Program for Heap Sort."
+    },
+    {
+     "no": 3,
+     "exp": "Program for Merge Sort."
+    },
+    {
+     "no": 4,
+     "exp": "Program for Selection Sort."
+    },
+    {
+     "no": 5,
+     "exp": "Program for Insertion Sort."
+    },
+    {
+     "no": 6,
+     "exp": "Program for Quick Sort."
+    },
+    {
+     "no": 7,
+     "exp": "Knapsack Problem using Greedy Solution"
+    },
+    {
+     "no": 8,
+     "exp": "Perform Travelling Salesman Problem"
+    },
+    {
+     "no": 9,
+     "exp": "Find Minimum Spanning Tree using Kruskal’s Algorithm"
+    },
+    {
+     "no": 10,
+     "exp": "Implement N Queen Problem using Backtracking"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "lab work list printed under heading 'Objective:-' (p.11)",
+    "stray line \"9. Course on 'PHP & MySQL', Spoken Tutorial MOOC\" printed after item 10 (duplicate number 9 artifact), p.11"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Principles of Programming Languages Lab",
+   "name_print": "RCS-553 Principles of Programming Languages Lab",
+   "codes": [
+    "RCS-553"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_print": "9  RCS-553  Principles of Programming Languages Lab  0---0---2  50  -  50  100  1",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Program for linear search in ML"
+    },
+    {
+     "no": 2,
+     "exp": "Program for binary search in ML"
+    },
+    {
+     "no": 3,
+     "exp": "Program for insertion sort in ML"
+    },
+    {
+     "no": 4,
+     "exp": "Program for bubble sort in ML"
+    },
+    {
+     "no": 5,
+     "exp": "Program for merge sort in ML"
+    },
+    {
+     "no": 6,
+     "exp": "Program for Quick sort in ML"
+    },
+    {
+     "no": 7,
+     "exp": "Program for making a dictionary in ML"
+    },
+    {
+     "no": 8,
+     "exp": "Program for merging two unsorted-students-name-list in sorted order"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "lab work list printed under heading 'Objective:-' (p.12)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Object Oriented Techniques Lab",
+   "name_print": "RIT-554  Object Oriented Techniques Lab",
+   "codes": [
+    "RIT-554"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_print": "10  RIT-554  Object Oriented Techniques Lab  0---0---2  50  -  50  100  1",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "The Library System : This application will support the operations of a technical library for a university department. This includes the searching for and lending of technical library materials, including books, videos, and technical journals. All library items have registration code (research area code + running number). Each borrower can borrow up to 10 items. Each type of library item can be borrowed for a different period of time (books 6 weeks, journals 3 days, videos 1 week). If returned after their due date, the employee will be charged a fine, based on the type of item (books 5:-/day, journals and videos 20:- /day). Materials will be lent to employees only if they have (1) no overdue lendables, (2) fewer than 10 articles out, and (3) total fines less than 100. For this case, develop the following: 1.) Use case Diagram 2.) Conceptual/Domain Diagram – You will define your own fields as they are not specifically mentioned on the story."
+    },
+    {
+     "no": 2,
+     "exp": "The Downtown Rental System: DownTown Videos is a chain of 11 video stores scattered throughout a major metropolitan area in the MidWest. The chain started with a single store several years ago and has grown to its present size. Paul Lowes, the owner of the chain, knows that competing with the national chains will require a state-of-the-art movie rental system. You have been asked to develop the system requirements for the new system. Each store has a stock of movies and video games for rent. For the first iteration, just focus on the movies. It is important to keep track of each movie title: to know and to identify its category (classical, drama, comedy, etc), its rental type (new release, standard), movie rating, and other general information such as movie producer, release date, and cost. In addition to tracking each title, the business must track individual copies to note their purchase their purchase date, condition, type (VHS or DVD), and their rental status. Use functions must be provided to maintain this inventory information. Customers, the lifeblood of the business, are also tracked. DownTown considers each household to be a customer, so special mailings and promotions are offered to each household. For any given customer, several people may be authorized to rent videos and games. The primary contact for each customer can also establish several parameters for other members of the household. For example, the parent wants to limit a child’s rental authorization to only PG and PG-13 movies, the system will track that. Each time a movie is rented, the system must keep track of which copies of which movies are rented, the rental date & time, and the household & person renting the movie. Each rental is considered to be open until all of the movies and games have been returned. Customers pay for rentals when checking out videos at the store. For this case, develop the following diagrams: 1.) A use-case diagram. Analyze user functions. 2.) A conceptual model"
+    }
+   ],
+   "objectives_print": [
+    "It is expected that student should analyze, design and develop application based on object oriented techniques. The some case studies are as follows (Subject Teacher may add more):"
+   ],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "no numbered experiment list; two printed case studies recorded as experiments (pp.12-13)",
+    "case study 2 spans pp.12-13 (page-break join at 'other members of the household')",
+    "printed typos kept verbatim: 'The some case studies', 'the employee will be charged a fine' (exp 1), 'to note their purchase their purchase date' duplicated words and 'Use functions must be provided' (exp 2)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Networks",
+   "name_print": "RCS-601: COMPUTER NETWORKS",
+   "codes": [
+    "RCS-601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_print": "3  RCS-601  Computer Networks  3---0---0  70  20  10  100  3",
+   "units": {
+    "1": "Introduction Concepts: Goals and Applications of Networks, Network structure and Architecture, The OSI reference model, services, Network Topology Design - Delay Analysis, Back Bone Design, Local Access Network Design, Physical Layer Transmission Media, Switching methods, ISDN, Terminal Handling",
+    "2": "Medium Access Sub Layer: Medium Access Sub Layer - Channel Allocations, LAN Protocols - ALOHA protocols - Overview of IEEE standards - FDDI. Data Link Layer - Elementary Data Link Protocols, Sliding Window protocols, Error Handling.",
+    "3": "Network Layer: Network Layer - Point - to Pont Networks, routing, Congestion control Internetworking -TCP / IP, IP packet, IP address, IPv6.",
+    "4": "Transport Layer: Transport Layer - Design issues, connection management, session Layer-Design issues, remote procedure call. Presentation Layer-Design issues, Data compression techniques, cryptography - TCP - Window Management.",
+    "5": "Application Layer: Application Layer: File Transfer, Access and Management, Electronic mail, Virtual Terminals, Other application. Example Networks - Internet and Public Networks"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Forouzen, \"Data Communication and Networking\", TMH"
+    },
+    {
+     "no": 2,
+     "book": "A.S. Tanenbaum, Computer Networks, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "W. Stallings, Data and Computer Communication, Macmillan Press"
+    },
+    {
+     "no": 4,
+     "book": "Gary R.Wright,W.Richard Stevens \"TCP/IP Illustrated,Volume2 The Implementation\" Addison-Wesley"
+    },
+    {
+     "no": 5,
+     "book": "Michael A. Gallo and William M. Hancock \"Computer communucation and Networking Technology\" Cengage Learning"
+    },
+    {
+     "no": 6,
+     "book": "Bhavneet Sidhu, An Integrated approach to Computer Networks, Khanna Publishing House"
+    },
+    {
+     "no": 7,
+     "book": "Anuranjan Misra, “Computer Networks”, Acme Learning"
+    },
+    {
+     "no": 8,
+     "book": "G. Shanmugarathinam, ”Essential of TCP/ IP”, Firewall Media"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "printed typos kept verbatim: 'Point - to Pont Networks' (Unit-III), 'Forouzen' (ref 1), 'communucation' (ref 5); 'Internetworking -TCP / IP' spacing (Unit-III)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Compiler Design",
+   "name_print": "RCS-602: COMPILER DESIGN",
+   "codes": [
+    "RCS-602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_print": "4  RCS-602  Compiler Design  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Introduction to Compiler: Phases and Passes, Bootstrapping, Finite state machines and regular expressions and their applications to lexical analysis, Optimization of DFA-Based Pattern Matchers implementation of lexical analyzers, lexical-analyzer generator, LEX compiler, Formal grammars and their application to syntax analysis, BNF notation, ambiguity, YACC. The syntactic specification of programming languages: Context free grammars, derivation and parse trees, capabilities of CFG.",
+    "2": "Basic Parsing Techniques: Parsers, Shift reduce parsing, operator precedence parsing, top down parsing, predictive parsers Automatic Construction of efficient Parsers: LR parsers, the canonical Collection of LR(0) items, constructing SLR parsing tables, constructing Canonical LR parsing tables, Constructing LALR parsing tables, using ambiguous grammars, an automatic parser generator, implementation of LR parsing tables.",
+    "3": "Syntax-Directed Translation: Syntax-directed Translation schemes, Implementation of Syntax-directed Translators, Intermediate code, postfix notation, Parse trees & syntax trees, three address code, quadruple & triples, translation of assignment statements, Boolean expressions, statements that alter the flow of control, postfix translation, translation with a top down parser. More about translation: Array references in arithmetic expressions, procedures call, declarations and case statements.",
+    "4": "Symbol Tables: Data structure for symbols tables, representing scope information. Run-Time Administration: Implementation of simple stack allocation scheme, storage allocation in block structured language. Error Detection & Recovery: Lexical Phase errors, syntactic phase errors semantic errors.",
+    "5": "Code Generation: Design Issues, the Target Language. Addresses in the Target Code, Basic Blocks and Flow Graphs, Optimization of Basic Blocks, Code Generator. Code optimization: Machine-Independent Optimizations, Loop optimization, DAG representation of basic blocks, value numbers and algebraic laws, Global Data-Flow analysis."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Aho, Sethi & Ullman, \"Compilers: Principles, Techniques and Tools”, Pearson Education"
+    },
+    {
+     "no": 2,
+     "book": "V Raghvan, “ Principles of Compiler Design”, TMH"
+    },
+    {
+     "no": 3,
+     "book": "Kenneth Louden,” Compiler Construction”, Cengage Learning."
+    },
+    {
+     "no": 4,
+     "book": "Charles Fischer and Ricard LeBlanc,” Crafting a Compiler with C”, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": ".K. Muneeswaran,Compiler Design,First Edition,Oxford University Press."
+    },
+    {
+     "no": 6,
+     "book": "J.P. Bennet, “Introduction to Compiler Techniques”, Second Edition, Tata McGraw-Hill,2003."
+    },
+    {
+     "no": 7,
+     "book": "Henk Alblas and Albert Nymeyer, “Practice and Principles of Compiler Building with C”, PHI, 2001"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "references heading printed 'REFRENCES:' (typo) kept verbatim",
+    "printed typos kept verbatim: 'V Raghvan' (ref 2), 'Ricard LeBlanc' (ref 4), '.K. Muneeswaran' leading dot (ref 5), 'J.P. Bennet' (ref 6)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Web Technologies",
+   "name_print": "RCS-603: WEB TECHNOLOGIES",
+   "codes": [
+    "RCS-603"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_print": "5  RCS-603  Web Technology  3---0---0  70  20  10  100  3",
+   "units": {
+    "1": "Introduction: Introduction and Web Development Strategies, History of Web and Internet, Protocols governing Web, Writing Web Projects, Connecting to Internet, Introduction to Internet services and tools, Introduction to client-server computing. Core Java: Introduction, Operator, Data type, Variable, Arrays, Methods & Classes, Inheritance, Package and Interface, Exception Handling, Multithread programming, I/O, Java Applet, String handling, Event handling, Introduction to AWT, AWT controls, Layout managers",
+    "2": "Web Page Designing: HTML: list, table, images, frames, forms, CSS, Document type definition, XML: DTD, XML schemes, Object Models, presenting and using XML, Using XML Processors: DOM and SAX, Dynamic HTML",
+    "3": "Scripting: Java script: Introduction, documents, forms, statements, functions, objects; introduction to AJAX, Networking: Internet Addressing, InetAddress, Factory Methods, Instance Methods, TCP/IP Client Sockets, URL, URL Connection, TCP/IP Server Sockets, Datagrams.",
+    "4": "Enterprise Java Bean: Preparing a Class to be a JavaBeans, Creating a JavaBeans, JavaBeans Properties, Types of beans, State full Session bean, Stateless Session bean, Entity bean Java Database Connectivity (JDBC): Merging Data from Multiple Tables: Joining, Manipulating ,Databases with JDBC, Prepared Statements, Transaction Processing, Stored Procedures.",
+    "5": "Servlets: Servlet Overview and Architecture, Interface Servlet and the Servlet Life Cycle, HandlingHTTP get Requests, Handling HTTP post Requests, Redirecting Requests to Other Resources, Session Tracking, Cookies, Session Tracking with HttpSession JavaServer Pages (JSP): Introduction, JavaServer Pages Overview, A First JavaServer Page Example, Implicit Objects, Scripting, Standard Actions, Directives, Custom Tag Libraries.."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Burdman, Jessica, “Collaborative Web Development” Addison Wesley"
+    },
+    {
+     "no": 2,
+     "book": "Xavier, C, “ Web Technology and Design” , New Age International"
+    },
+    {
+     "no": 3,
+     "book": "Ivan Bayross,” HTML, DHTML, Java Script, Perl & CGI”, BPB Publication"
+    },
+    {
+     "no": 4,
+     "book": "Bhave, “Programming with Java”, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Herbert Schieldt, “The Complete Reference:Java”, TMH."
+    },
+    {
+     "no": 6,
+     "book": "Hans Bergsten, “Java Server Pages”, SPD O’Reilly"
+    },
+    {
+     "no": 7,
+     "book": "Tanveer Alam, Internet and Java Programming, Khanna Publishing House"
+    },
+    {
+     "no": 8,
+     "book": "Margaret Levine Young, “The Complete Reference Internet”, TMH"
+    },
+    {
+     "no": 9,
+     "book": "Naughton, Schildt, “The Complete Reference JAVA2”, TMH"
+    },
+    {
+     "no": 10,
+     "book": "Balagurusamy E, “Programming in JAVA”, TMH"
+    },
+    {
+     "no": 11,
+     "book": ". Ramesh Bangia, “Internet and Web Design” , New Age International"
+    },
+    {
+     "no": 12,
+     "book": "Ivan Bayross,” HTML, DHTML, Java Script, Perl & CGI”, BPB Publication"
+    },
+    {
+     "no": 13,
+     "book": "Deitel, “Java for programmers”, Pearson Education"
+    },
+    {
+     "no": 14,
+     "book": "Chris Bates, “Web Programing Building Internet Applications”, 2nd Edition, WILEY, Dreamtech"
+    },
+    {
+     "no": 15,
+     "book": "Joel Sklar , “Principal of web Design” Vikash and Thomas Learning"
+    },
+    {
+     "no": 16,
+     "book": "Horstmann, “CoreJava”, Addison Wesley"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "scheme row prints subject name 'Web Technology' (singular) while detailed syllabus header prints 'RCS-603: WEB TECHNOLOGIES'",
+    "text layer split words mid-line in Units IV-V ('M anipulating', 'Cyc le', 't o Other', 'JavaServer Pages (JSP)'); joined per visible print",
+    "printed typos kept verbatim: 'Java script' (Unit-III), 'State full Session bean' (Unit-IV), 'HandlingHTTP get Requests' (Unit-V), 'Custom Tag Libraries..' double period (Unit-V), 'Schieldt' (ref 5), '. Ramesh Bangia' leading dot (ref 11), ref 12 duplicates ref 3 as printed, 'Programing' (ref 14), 'Principal of web Design ... Vikash' (ref 15), 'CoreJava' (ref 16)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Design and Development of Applications",
+   "name_print": "RIT-E21:  DESIGN AND DEVELOPMENT OF APPLICATIONS",
+   "codes": [
+    "RIT-E21"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "scheme_print": "6  IT-Elective-2  DEPTT  ELECTIVE COURSE-2  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "INTRODUCTION: Introduction to mobile applications – Embedded systems - Market and business drivers for mobile applications – Publishing and delivery of mobile applications – Requirements gathering and validation for mobile applications",
+    "2": "BASIC DESIGN: Introduction – Basics of embedded systems design – Embedded OS - Design constraints for mobile applications, both hardware and software related – Architecting mobile applications – User interfaces for mobile applications – touch events and gestures – Achieving quality constraints – performance, usability, security, availability and modifiability.",
+    "3": "ADVANCED DESIGN: Designing applications with multimedia and web access capabilities – Integration with GPS and social media networking applications – Accessing applications hosted in a cloud computing environment – Design patterns for mobile applications.",
+    "4": "TECHNOLOGY I – ANDROID: Introduction – Establishing the development environment – Android architecture – Activities and views – Interacting with UI – Persisting data using SQLite – Packaging and deployment – Interaction with server side applications – Using Google Maps, GPS and Wi-Fi – Integration with social media applications.",
+    "5": "TECHNOLOGY II –iOS: Introduction to Objective C – iOS features – UI implementation – Touch frameworks – Data persistence using Core Data and SQLite – Location aware applications using Core Location and Map Kit – Integrating calendar and address book with social media application – Using Wi-Fi - iPhone marketplace. Swift: Introduction to Swift, features of swift."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Charlie Collins, Michael Galpin and Matthias Kappler, “Android in Practice”, DreamTech, 2012"
+    },
+    {
+     "no": 2,
+     "book": "AnubhavPradhan , Anil V Despande Composing Mobile Apps,Learn ,explore,apply"
+    },
+    {
+     "no": 3,
+     "book": "James Dovey and Ash Furrow, “Beginning Objective C”, Apress, 2012"
+    },
+    {
+     "no": 4,
+     "book": "Jeff McWherter and Scott Gowell, \"Professional Mobile Application Development\", Wrox, 2012"
+    },
+    {
+     "no": 5,
+     "book": "David Mark, Jack Nutting, Jeff LaMarche and Frederic Olsson, “Beginning iOS 6 .Development: Exploring the iOS SDK”, Apress, 2013."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "detailed syllabus header prints L-T-P 3-0-0 while the scheme elective slot 'IT-Elective-2 / DEPTT ELECTIVE COURSE-2' prints 3---1---0 credit 4 (p.2); L-T-P recorded from the subject's own header, credit from the scheme slot",
+    "printed spacing kept verbatim: 'TECHNOLOGY II –iOS' (Unit-V), 'AnubhavPradhan , Anil V Despande Composing Mobile Apps,Learn ,explore,apply' unquoted (ref 2), 'Beginning iOS 6 .Development' (ref 5)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Datawarehousing & Data Mining",
+   "name_print": "RIT-E22: DATAWAREHOUSING & DATA MINING",
+   "codes": [
+    "RIT-E22"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "scheme_print": "6  IT-Elective-2  DEPTT  ELECTIVE COURSE-2  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Data Warehousing: Overview, Definition, Data Warehousing Components, Building a Data Warehouse, Warehouse Database, Mapping the Data Warehouse to a Multiprocessor Architecture, Difference between Database System and Data Warehouse, Multi Dimensional Data Model, Data Cubes, Stars, Snow Flakes, Fact Constellations, Concept",
+    "2": "Data Warehouse Process and Technology: Warehousing Strategy, Warehouse /management and Support Processes, Warehouse Planning and Implementation, Hardware and Operating Systems for Data Warehousing, Client/Server Computing Model & Data Warehousing. Parallel Processors & Cluster Systems, Distributed DBMS implementations, Warehousing Software, Warehouse Schema Design,",
+    "3": "Data Mining: Overview, Motivation, Definition & Functionalities, Data Processing, Form of Data Pre-processing, Data Cleaning: Missing Values, Noisy Data, (Binning, Clustering, Regression, Computer and Human inspection), Inconsistent Data, Data Integration and Transformation. Data Reduction:-Data Cube Aggregation, Dimensionality reduction, Data Compression, Numerosity Reduction, Discretization and Concept hierarchy generation, Decision Tree.",
+    "4": "Classification: Definition, Data Generalization, Analytical Characterization, Analysis of attribute relevance, Mining Class comparisons, Statistical measures in large Databases, Statistical-Based Algorithms, Distance-Based Algorithms, Decision Tree-Based Algorithms. Clustering: Introduction, Similarity and Distance Measures, Hierarchical and Partitioned Algorithms. Hierarchical Clustering- CURE and Chameleon. Density Based Methods-DBSCAN, OPTICS. Grid Based Methods- STING, CLIQUE. Model Based Method –Statistical Approach, Association rules: Introduction, Large Itemsets, Basic Algorithms, Parallel and Distributed Algorithms, Neural Network approach.",
+    "5": "Data Visualization and Overall Perspective: Aggregation, Historical information, Query Facility, OLAP function and Tools. OLAP Servers, ROLAP, MOLAP, HOLAP, Data Mining interface, Security, Backup and Recovery, Tuning Data Warehouse, Testing Data Warehouse. Warehousing applications and Recent Trends: Types of Warehousing Applications, Web Mining, Spatial Mining and Temporal Mining"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Alex Berson, Stephen J. Smith “Data Warehousing, Data-Mining & OLAP”, TMH"
+    },
+    {
+     "no": 2,
+     "book": "Mark Humphries, Michael W. Hawkins, Michelle C. Dy, “ Data Warehousing: Architecture and Implementation”, Pearson"
+    },
+    {
+     "no": 3,
+     "book": "I Singh, Data Mining and Warehousing, Khanna Publishing House"
+    },
+    {
+     "no": 4,
+     "book": "Margaret H. Dunham, S. Sridhar,”Data Mining:Introductory and Advanced Topics” Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Arun K. Pujari, “Data Mining Techniques” Universities Press"
+    },
+    {
+     "no": 6,
+     "book": "Pieter Adriaans, Dolf Zantinge, “Data-Mining”, Pearson Education"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "detailed syllabus header prints L-T-P 3-0-0 while the scheme elective slot 'IT-Elective-2 / DEPTT ELECTIVE COURSE-2' prints 3---1---0 credit 4 (p.2); L-T-P recorded from the subject's own header, credit from the scheme slot",
+    "subject name printed 'DATAWAREHOUSING & DATA MINING' (one word 'Datawarehousing') kept verbatim",
+    "Unit-I ends abruptly at '...Fact Constellations, Concept' (possible print truncation, kept verbatim)",
+    "Unit-II ends with trailing comma 'Warehouse Schema Design,' as printed; 'Warehouse /management' spacing kept"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Internet of Things",
+   "name_print": "RCS-E21: INTERNET OF THINGS",
+   "codes": [
+    "RCS-E21"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "scheme_print": "6  IT-Elective-2  DEPTT  ELECTIVE COURSE-2  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Internet of Things (IoT): Vision, Definition, Conceptual Framework, Architectural view, technology behind IoT, Sources of the IoT, M2M Communication, IoT Examples . Design Principles for Connected Devices: IoT/M2M systems layers and design standardization, communication technologies, data enrichment and consolidation, ease of designing and affordability.",
+    "2": "Hardware for IoT: Sensors, Digital sensors, actuators, radio frequency identification (RFID) technology, wireless sensor networks, participatory sensing technology. Embedded Platforms for IoT: Embedded computing basics, Overview of IOT supported Hardware platforms such as Arduino, NetArduino, Raspberry pi, Beagle Bone, Intel Galileo boards and ARM cortex.",
+    "3": "Network & Communication aspects in IoT: Wireless Medium access issues, MAC protocol survey, Survey routing protocols, Sensor deployment & Node discovery, Data aggregation & dissemination",
+    "4": "Programming the Ardunio: Ardunio Platform Boards Anatomy, Ardunio IDE, coding, using emulator, using libraries, additions in ardunio, programming the ardunio for IoT.",
+    "5": "Challenges in IoT Design challenges: Development Challenges, Security Challenges, Other challenges IoT Applications : Smart Metering, E-health, City Automation, Automotive Applications, home automation, smart cards, Communicating data with H/W units, mobiles, tablets, Designing of smart street lights in smart city."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Olivier Hersent,DavidBoswarthick, Omar Elloumi“The Internet of Things key applications and protocols”, willey"
+    },
+    {
+     "no": 2,
+     "book": "Jeeva Jose, Internet of Things, Khanna Publishing House"
+    },
+    {
+     "no": 3,
+     "book": "Michael Miller “The Internet of Things”  by Pearson"
+    },
+    {
+     "no": 4,
+     "book": "Raj Kamal “INTERNET OF THINGS”, McGraw-Hill, 1ST Edition, 2016"
+    },
+    {
+     "no": 5,
+     "book": "ArshdeepBahga, Vijay Madisetti “ Internet of Things( A hands on approach)” 1ST edition, VPI publications,2014"
+    },
+    {
+     "no": 6,
+     "book": "Adrian McEwen,Hakin Cassimally “Designing the Internet of Things” Wiley India"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "detailed syllabus header prints L-T-P 3-0-0 while the scheme elective slot 'IT-Elective-2 / DEPTT ELECTIVE COURSE-2' prints 3---1---0 credit 4 (p.2); L-T-P recorded from the subject's own header, credit from the scheme slot",
+    "printed typos kept verbatim: 'Ardunio' throughout Unit-IV (for Arduino), 'IOT' uppercase (Unit-II), 'IoT Examples .' space before period (Unit-I)",
+    "reference typos kept verbatim: 'DavidBoswarthick' and 'willey' (ref 1), 'ArshdeepBahga' (ref 5), 'Hakin Cassimally' (ref 6)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Neural Network",
+   "name_print": "RCS-E22: NEURAL NETWORK",
+   "codes": [
+    "RCS-E22"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "scheme_print": "6  IT-Elective-2  DEPTT  ELECTIVE COURSE-2  3---1---0  70  20  10  100  4",
+   "units": {
+    "1": "Neuro Computing and Neuroscience: Historical notes, human Brain, neuron Model, Knowledge representation, Al and NN. Learning process: Supervised and unsupervised learning, Error correction learning, competitive learning, adaptation, statistical nature of the learning process.",
+    "2": "Data Processing Scaling: Normalization, Transformation (FT/FFT), principal component analysis, regression, co-variance matrix, Eigen values &Eigen vectors. Basic Models of Artificial neurons, activation Functions, aggregation function, single neuron computation, multilayer perceptron, least mean square algorithm, gradient descent rule, nonlinearly separable problems and bench mark problems in NN.",
+    "3": "Multilayered Network Architecture: Back propagation algorithm, heuristics for making BP-algorithm performs better. Accelerated learning BP (like recursive least square, quick prop, RPROP algorithm), approximation properties of RBF networks and comparison with multilayer perceptron.",
+    "4": "Recurrent Network and Temporal Feed-Forward Network: Implementation with BP, self organizing map and SOM algorithm, properties of feature map and computer simulation. Principal component and Independent component analysis, application to image and signal processing",
+    "5": "Complex Valued NN and Complex Valued BP: Analyticity of Activation function, application in 2D information processing. Complexity analysis of network models. Soft computing. Neuro-Fuzzy-genetic algorithm Integration"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "J.A. Anderson, An Introduction to Neural Networks, MIT"
+    },
+    {
+     "no": 2,
+     "book": "Hagen Demuth Beale, Neural Network Design, Cengage Learning"
+    },
+    {
+     "no": 3,
+     "book": "Munesh Chandra Trivedi, NN Jani, Artificial Neural Network Technology, Khanna Publishing House"
+    },
+    {
+     "no": 4,
+     "book": "Laurene V. Fausett, \"Fundamentals of Neural Networks : Architectures, Algorithms and Applications\", Pearson India"
+    },
+    {
+     "no": 5,
+     "book": "Kosko, Neural Network and Fuzzy Sets, PHI"
+    },
+    {
+     "no": 6,
+     "book": "Hagan, Neural Network Design w/CD,Cengage Learning"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "detailed syllabus header prints L-T-P 3-0-0 while the scheme elective slot 'IT-Elective-2 / DEPTT ELECTIVE COURSE-2' prints 3---1---0 credit 4 (p.2); L-T-P recorded from the subject's own header, credit from the scheme slot",
+    "text layer split word mid-line in Unit-I ('neuron Mode l'); joined per visible print to 'neuron Model'",
+    "printed typos kept verbatim: 'Al and NN' (Unit-I, print for 'AI and NN'), 'Eigen values &Eigen vectors' spacing (Unit-II)",
+    "references print two entries under the repeated number 5 ('5. Kosko, Neural Network and Fuzzy Sets, PHI 5. Hagan, Neural Network Design w/CD,Cengage Learning'); recorded as refs 5 and 6"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Networks Lab",
+   "name_print": "RCS-651: COMPUTER NETWORKS LAB",
+   "codes": [
+    "RCS-651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_print": "7  RCS-651  Computer Networks Lab  0---0---2  50  -  50  100  1",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To learn handling and configuration of networking hardware like RJ-45 connector, CAT-6 cable, crimping tool, etc."
+    },
+    {
+     "no": 2,
+     "exp": "Configuration of router, hub, switch etc. (using real devices or simulators)"
+    },
+    {
+     "no": 3,
+     "exp": "Running and using services/commands like ping, traceroute, nslookup, arp, telnet, ftp, etc."
+    },
+    {
+     "no": 4,
+     "exp": "Network packet analysis using tools like Wireshark, tcpdump, etc."
+    },
+    {
+     "no": 5,
+     "exp": "Network simulation using tools like Cisco Packet Tracer, NetSim, OMNeT++, NS2, NS3, etc."
+    },
+    {
+     "no": 6,
+     "exp": "Socket programming using UDP and TCP (e.g., simple DNS, data & time client/server, echo client/server, iterative & concurrent servers)"
+    },
+    {
+     "no": 7,
+     "exp": "Programming using raw sockets"
+    },
+    {
+     "no": 8,
+     "exp": "Programming using RPC"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "printed lab note recorded in non_subject_rows: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.' (p.21)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Compiler Design Lab",
+   "name_print": "RCS-652: COMPILER DESIGN LAB",
+   "codes": [
+    "RCS-652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_print": "8  RCS-652  Compiler Design Lab  0---0---2  50  -  50  100  1",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Implementation of LEXICAL ANALYZER for IF STATEMENT"
+    },
+    {
+     "no": 2,
+     "exp": "Implementation of LEXICAL ANALYZER for ARITHMETIC EXPRESSION"
+    },
+    {
+     "no": 3,
+     "exp": "Construction of NFA from REGULAR EXPRESSION"
+    },
+    {
+     "no": 4,
+     "exp": "Construction of DFA from NFA"
+    },
+    {
+     "no": 5,
+     "exp": "Implementation of SHIFT REDUCE PARSING ALGORITHM"
+    },
+    {
+     "no": 6,
+     "exp": "Implementation of OPERATOR PRECEDENCE PARSER"
+    },
+    {
+     "no": 7,
+     "exp": "Implementation of RECURSIVE DESCENT PARSER"
+    },
+    {
+     "no": 8,
+     "exp": "Implementation of CODE OPTIMIZATION TECHNIQUES"
+    },
+    {
+     "no": 9,
+     "exp": "Implementation of CODE GENERATOR"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "printed lab note recorded in non_subject_rows: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.' (p.21)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Web Technology Lab",
+   "name_print": "RCS-653 Web Technology Lab",
+   "codes": [
+    "RCS-653"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_print": "9  RCS-653  Web Technology Lab  0---0---2  50  -  50  100  1",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write HTML/Java scripts to display your CV in navigator, your Institute website, Department Website and Tutorial website for specific subject"
+    },
+    {
+     "no": 2,
+     "exp": "Design HTML form for keeping student record and validate it using Java script."
+    },
+    {
+     "no": 3,
+     "exp": "Write an HTML program to design an entry form of student details and send it to store at database server like SQL, Oracle or MS Access."
+    },
+    {
+     "no": 4,
+     "exp": "Write programs using Java script for Web Page to display browsers information."
+    },
+    {
+     "no": 5,
+     "exp": "Write a Java applet to display the Application Program screen i.e. calculator and other."
+    },
+    {
+     "no": 6,
+     "exp": "Writing program in XML for creation of DTD, which specifies set of rules. Create a style sheet in CSS/ XSL & display the document in internet explorer."
+    },
+    {
+     "no": 7,
+     "exp": "Program to illustrate JDBC connectivity. Program for maintaining database by sending queries. Design and implement a simple servlet book query with the help of JDBC & SQL. Create MS Access Database, Create on ODBC link, Compile & execute JAVA JDVC Socket."
+    },
+    {
+     "no": 8,
+     "exp": "Install TOMCAT web server and APACHE.  Access the above developed static web pages for books web site, using these servers by putting the web pages developed ."
+    },
+    {
+     "no": 9,
+     "exp": "Assume four users user1, user2, user3 and user4 having the passwords pwd1, pwd2, pwd3 and pwd4 respectively. Write a servlet for doing the following. Create a Cookie and add these four user id’s and passwords to this Cookie. 2. Read the user id and passwords entered in the Login form and authenticate with the values available in the cookies."
+    },
+    {
+     "no": 10,
+     "exp": "Install a database (Mysql or Oracle). Create a table which should contain at least the following fields: name, password, email-id, phone number Write a java program/servlet/JSP to connect to that database and extract data from the tables and display them. Insert the details of the users who register with the web site, whenever a new user clicks the submit button in the registration page."
+    },
+    {
+     "no": 11,
+     "exp": "Write a JSP which insert the details of the 3 or 4 users who register with the web site by using registration form. Authenticate the user when he submits the login form using the user name and password from the database"
+    },
+    {
+     "no": 12,
+     "exp": "Design and implement a simple shopping cart example with session tracking API."
+    }
+   ],
+   "objectives_print": [
+    "It is expected that student will apply concept of Java and Advance Java in Lab :"
+   ],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "experiment 10 spans pp.21-22 (page-break join at 'extract data from the tables and display them')",
+    "printed typos kept verbatim: 'JAVA JDVC Socket' (exp 7), 'web pages developed .' spacing (exp 8); exp 9 contains internal list '...following. Create a Cookie... 2. Read the user id...' as printed"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Data Warehousing & Data Mining Lab",
+   "name_print": "RCS-654: Data Warehousing & Data Mining Lab",
+   "codes": [
+    "RCS-654"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_print": "10  RCS-654  Data Warehousing & Data Mining Lab  0---0---2  50  -  50  100  1",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Implementation of OLAP operations"
+    },
+    {
+     "no": 2,
+     "exp": "Implementation of Varying Arrays"
+    },
+    {
+     "no": 3,
+     "exp": "Implementation of Nested Tables"
+    },
+    {
+     "no": 4,
+     "exp": "Demonstration of any ETL tool"
+    },
+    {
+     "no": 5,
+     "exp": "Write a program of Apriori algorithm using any programming language."
+    },
+    {
+     "no": 6,
+     "exp": "Create data-set in .arff file format. Demonstration of preprocessing on WEKA data-set."
+    },
+    {
+     "no": 7,
+     "exp": "Demonstration of Association rule process on data-set contact lenses.arff /supermarket (or any other data set) using apriori algorithm."
+    },
+    {
+     "no": 8,
+     "exp": "Demonstration of classification rule process on WEKA data-set using j48 algorithm."
+    },
+    {
+     "no": 9,
+     "exp": "Demonstration of classification rule process on WEKA data-set using Naive Bayes algorithm."
+    },
+    {
+     "no": 10,
+     "exp": "Demonstration of clustering rule process on data-set iris.arff using simple k-means."
+    }
+   ],
+   "objectives_print": [
+    "It is expected that student should implement concept of Data Mining and Warehousing. The open source Data Mining Tools like Rapid Miner, Weka etc. can be used to implement the concept of Data Mining and Warehousing. Some examples are as follows (Subject Teacher may add more):"
+   ],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "lab intro prose recorded in objectives_print (p.22)",
+    "printed wording kept verbatim: 'implement concept of Data Mining and Warehousing'",
+    "lab name printed 'Data Warehousing & Data Mining Lab' (two words) while elective RIT-E22 prints 'DATAWAREHOUSING & DATA MINING'"
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW — Evaluation Scheme & Syllabus For B. Tech. Third Year (Information Technology) On Choice Based Credit System (Effective from the Session: 2018-19)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "semester_scheme_header",
+   "print": "B. Tech. (Information Technology) FIFTH EMESTER",
+   "locator": "p.2 (typo 'EMESTER' as printed)"
+  },
+  {
+   "kind": "scheme_row_common_subject_not_detailed",
+   "print": "1  RAS501  MANEGERIAL ECONOMICS  3---0---0  70  20  10  100  3",
+   "locator": "p.2, Fifth Semester scheme (detailed in university common-subject doc, not here)"
+  },
+  {
+   "kind": "scheme_row_common_subject_not_detailed",
+   "print": "2  RAS502/ RUC501  INDUSTRIAL SOCIOLOGY /CYBER SECURITY  3---0---0  70  20  10  100  3",
+   "locator": "p.2, Fifth Semester scheme (detailed in university common-subject doc, not here)"
+  },
+  {
+   "kind": "scheme_total",
+   "print": "TOTAL   1000  24",
+   "locator": "p.2, Fifth Semester scheme"
+  },
+  {
+   "kind": "semester_scheme_header",
+   "print": "SIXTH SEMESTER",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_common_subject_not_detailed",
+   "print": "1  RAS601  INDUSTRIAL MANAGEMENT  3---0---0  70  20  10  100  3",
+   "locator": "p.2, Sixth Semester scheme (detailed in university common-subject doc, not here)"
+  },
+  {
+   "kind": "scheme_row_common_subject_not_detailed",
+   "print": "2  RAS602 / RUC601  CYBER SECURITY/ INDUSTRIAL SOCIOLOGY  3---0---0  70  20  10  100  3",
+   "locator": "p.2, Sixth Semester scheme (detailed in university common-subject doc, not here)"
+  },
+  {
+   "kind": "scheme_total",
+   "print": "TOTAL   1000  24",
+   "locator": "p.2, Sixth Semester scheme"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "DEPARTMENTAL ELECTIVES",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "IT-ELECTIVE -1:  Information Technology  Elective-1 | RIT-E11: SOFTWARE PROJECT MANAGEMENT | RIT-E12: SOFTWARE TESTING & AUDIT | RIT-E13: OBJECT ORIENTED TECHNIQUES | RCS-E11: OPERATION RESEARCH",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "IT-ELECTIVE-2:   Information Technology Elective-2 | RIT-E21:  DESIGN AND DEVELOPMENT OF APPLICATIONS | RIT-E22: DATAWAREHOUSING & DATA MINING | RCS-E21: INTERNET OF THINGS | RCS-E22: NEURAL NETWORK",
+   "locator": "p.3"
+  },
+  {
+   "kind": "semester_scheme_header",
+   "print": "B. Tech. (Information Technology) SIXTH EMESTER (DETAILED SYLLABUS)",
+   "locator": "p.14 (typo 'EMESTER' as printed)"
+  },
+  {
+   "kind": "lab_note",
+   "print": "Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.",
+   "locator": "p.21, after RCS-651 Computer Networks Lab experiment list"
+  },
+  {
+   "kind": "lab_note",
+   "print": "Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.",
+   "locator": "p.21, after RCS-652 Compiler Design Lab experiment list"
+  }
+ ],
+ "quirks": [
+  "No Course Outcomes (COs) or K-levels printed anywhere in this document; cos recorded empty for all 22 subjects",
+  "No eligibility or prerequisites printed anywhere in this document",
+  "No separate 'Textbooks' section printed for any subject (only 'References:' lists); textbooks recorded empty",
+  "Scheme tables print lab rows with Th/Lab (ESE)=50, Sessional Test='-'; Assig/Att=50, Total=100, Credit=1; sessional_ct omitted where printed '-'",
+  "Line-break joins normalized to single spaces from the PyMuPDF text layer; visible print is authoritative (RULES §6); mid-word splits rejoined and listed in subject quirks",
+  "No H-variant or other sessional/lab code variants printed in this document beyond the codes listed per subject"
+ ],
+ "flags": []
+}

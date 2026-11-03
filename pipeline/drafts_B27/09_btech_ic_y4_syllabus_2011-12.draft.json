@@ -1,0 +1,1237 @@
+{
+  "pdf_rel": "repo_asleep/PDFs/5-course/2011-12/btech_ic_y4_syllabus_2011-12.pdf",
+  "session": "2011-12",
+  "course": "BTech",
+  "sha16": "37696a8dd3df79ac",
+  "stem": "09_btech_ic_y4_syllabus_2011-12",
+  "subjects": [
+    {
+      "name": "CONTROL SYSTEMS II",
+      "name_print": "EIC–701 CONTROL SYSTEMS II",
+      "codes": [
+        "EIC-701"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Sampling and Signal Conversion:\nSampled-Data Control Systems, Digital to Analog Conversion, Sample and Hold operations, Sample and Hold Devices, frequency–Domain Characteristic of Zero order Hold.\nThe Z-Transform:\nLinear Difference equations, The Pulse Response, The Definition of the Z-transform, Relationship between the Laplace transform and the Z-transform, Relationship between S-plane and the Z-plane, The constant-Damping Loci, The constant-Frequency Loci, The constant-Damping Ratio Loci, The Inverse Z-Transform, Theorems of the Z-transform, Limitations of the Z-transform, Application of the Z-transform ,Stability Analysis, Systems with Dead-Time.",
+        "2": "Transfer Functions, Block Diagrams, and Signal flow Graphs The Pulse Transfer Function and The Z-Transfer Function, The Pulse Transfer Function of the Zero-Order Hold and the Relation Between G(s) and G(z), Closed loop systems, The Sampled Signal flow Graph, The Modified Z-transfer function, Multirate Discrete Data System. Transform Design of Digital Controls Design of position Servo Design Specifications, Design on the W- plane, Design of the W-plane, the Digital PID Controllers.",
+        "3": "State Space Analysis of Sampled Data Systems Discrete time state equations. Similarity Transformations, The Cayley-Hamilton Theorem, Realization of Pulse Transfer function, State Equations for sampled Data Systems, Concepts of Controllability and Observability, Liapunov Stability Analysis Systems with Dead time.",
+        "4": "Design of digital controls using State Space analysis Formulation of the optimal control Problem Optimal State Regulator, Use of State Regulator results, Eigen value Assignment by State feedback, State observers Stochastic optimal State Estimation.",
+        "5": "Mechanization of Control algorithms Using Micro Processors General Description of Microcontrollers, Digital quantization, Microprocessor based Position Control System."
+      },
+      "unit_text_chapter_print": {
+        "1": "1/1, 2/2; 1/2, 2/3",
+        "2": "2/4; 1/3",
+        "3": "1/4, 2/6",
+        "4": "1/5",
+        "5": "1/7"
+      },
+      "unit_lectures_print": {
+        "1": "4; 6",
+        "2": "6; 4",
+        "3": "7",
+        "4": "6",
+        "5": "7"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "M. Gopal, “Digital Control Engineering”, New Age International Publishers."
+        },
+        {
+          "no": 2,
+          "book": "B.C. Kuo ,“Digital Control Systems”, Oxford University Press."
+        }
+      ],
+      "reference_books": [],
+      "objectives_print": [],
+      "quirks": [
+        "Scheme table (p.1 row 3) prints the name 'Control System II'; the syllabus heading (p.4) prints 'EIC–701 CONTROL SYSTEMS II' (en-dash in code).",
+        "Unit-I and Unit-II each print two sub-rows (two topic blocks with separate Text No./Chapter and LECTURES cells); sub-row counts recorded in order in unit_text_chapter_print / unit_lectures_print.",
+        "Printed lecture counts sum to 40 (4+6+6+4+7+6+7). 'Application of the Z-transform ,Stability' keeps the printed space-before-comma; 'Design on the W- plane' keeps the printed stray space.",
+        "Text Books block is printed above the subject heading (p.4 top); book 2 printed as 'B.C. Kuo ,“Digital Control Systems”' (space before comma)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Telemetry Systems",
+      "name_print": "EIC-702 Telemetry Systems",
+      "codes": [
+        "EIC-702"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Introduction to Telemetry Principles: Basic System, Classification, Non electrical telemetry systems, Voltage and current Telemetry systems, Frequency Telemetering, Power line carrier Communication.",
+        "2": "Multiplexed System: Frequency Division Multiplex System-FDM, IRIG Standards, FM circuits, Phase Modulation Circuits, Receiving end, Phase Locked Local Loop, Mixers. Time Division Multiplexed System – TDM/PAM system, PAM/PM systems, TDM- PCM System, Digital Multiplexer, PCM Reception, Coding for varying level, DPCM, Standards.",
+        "3": "Modems: Modems Introduction, QAM, modem protocol.",
+        "4": "Transmitter and Receiver: Transmitters, Transmission Techniques, Inter stage Coupling, Receiver Antennas: The Ideal structure, dipoles, arrays, current distribution and design consideration, Microwave Antennas.",
+        "5": "Filters: Polynomial, Filters, Active RC Filters, Universal Filter Circuits, Switched Capacitor Filters, Digital Filters\nBasics of Satellite and Fiber Optic Telemetry\nData Acquisition Systems (DAS), µP based DAS, Remote Control"
+      },
+      "unit_text_chapter_print": {
+        "1": "1/1",
+        "2": "1/4,1/5",
+        "3": "1/6",
+        "4": "1/7, 1/9",
+        "5": "1/11; 1/12, 1/13; 1/14"
+      },
+      "unit_lectures_print": {
+        "1": "4",
+        "2": "10",
+        "3": "4",
+        "4": "10",
+        "5": "2; 8; 2"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "D Patranabis, Telemetry Principle; TMH Ed 1 1999."
+        }
+      ],
+      "reference_books": [],
+      "objectives_print": [],
+      "quirks": [
+        "Scheme table (p.1 row 4) prints the name 'Telemetry Principles'; the syllabus heading (p.5) prints 'EIC-702 Telemetry Systems'.",
+        "Unit-V prints three sub-rows (Filters / Basics of Satellite and Fiber Optic Telemetry / Data Acquisition Systems (DAS)) with lecture counts 2; 8; 2 (unit total 12).",
+        "Text Books block is printed above the subject heading; header prints plural 'Text Books:' though a single book is listed; book author printed 'D Patranabis' (sic)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Digital Measurement Techniques",
+      "name_print": "EIC-703 Digital Measurement Techniques",
+      "codes": [
+        "EIC-703"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Philosophy of digital measurements.\nDigital Time Measurement Techniques: Measurement of time interval between two events, error in time interval measurement, Vernier technique for small time measurement, measurement of time interval with constraints, measurement of periodic time, phase, time interval between two events defined by voltage levels, capacitance, quality factor of ringing circuit, decibel meter, logarithmic A/D converter.",
+        "2": "Digital Frequency Measurement Techniques:\nMeasurement of frequency, ratio of two frequencies, product of two frequencies, high frequency, average frequency difference, deviation of power frequency, peak frequency. Fast low-frequency measurement.",
+        "3": "Digitally Programmable Circuits: Resistor, Potentiometer, amplifiers, Schmitt trigger, dual polarity gain amplifiers.\nProgrammable gain amplifier with dual output, two stage programming, programmable biquads.",
+        "4": "Digital to Analog Converters: Output input relation, DACs derived from programmable gain amplifiers, Weighted-resistor DAC, Weighted current DAC, Weighted reference voltage DAC, Ladder DAC, switches.",
+        "5": "Digital Voltage Measurement Techniques: Sampling theorem, time-division multiplexing, quantization, indirect type A/D converters, direct type A/D converters, Input circuitry of a digital voltmeter."
+      },
+      "unit_text_chapter_print": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "unit_lectures_print": {
+        "1": "8",
+        "2": "8",
+        "3": "8",
+        "4": "8",
+        "5": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "T. S. Rathore, “Digital Measurement Technique”, Narosa Publishing House, 1996."
+        }
+      ],
+      "reference_books": [],
+      "objectives_print": [],
+      "quirks": [
+        "Text No./Chapter column prints bare chapter numbers (1..5), not book/chapter pairs.",
+        "Text Book block is printed above the subject heading (p.6 top).",
+        "Printed lecture counts sum to 40 (8 per unit)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "DIGITAL CONTROL SYSTEM LAB II",
+      "name_print": "EIC 751 DIGITAL CONTROL SYSTEM LAB II",
+      "codes": [
+        "EIC-751"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "sessional_ta": 20,
+        "sessional_total": 20,
+        "ese_te_pe": 30,
+        "total": 50
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [],
+      "reference_books": [],
+      "objectives_print": [],
+      "lab_notes_print": [
+        "Minimum of 10 experiments to be performed",
+        "At least four experiments to be done on MATLAB",
+        "Suggestions are -"
+      ],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Discrete Time LTI model"
+        },
+        {
+          "no": 2,
+          "exp": "Discrete pole locations & transients response Small damping (ε = 0.1 Wn= 4π/5T) Medium damping (ε = 0.4 Wn= 11 π /5T) Large damping (ε = 0.8 Wn= π /4T)"
+        },
+        {
+          "no": 3,
+          "exp": "Digital DC motor Speed control with PID controller"
+        },
+        {
+          "no": 4,
+          "exp": "Designing Lead & Lag Compensators"
+        },
+        {
+          "no": 5,
+          "exp": "Kalman Filter design"
+        },
+        {
+          "no": 6,
+          "exp": "State space design for the Inverted pendulum"
+        }
+      ],
+      "quirks": [
+        "Scheme table (p.1 row 7) prints the name 'Control System Lab II'; the lab page (p.11) prints 'EIC 751 DIGITAL CONTROL SYSTEM LAB II' (code printed with space, no dash).",
+        "Experiment list is headed 'Suggestions are -' with 'Minimum of 10 experiments to be performed' and 'At least four experiments to be done on MATLAB' - only 6 suggestions printed; sessional CT cell printed '-', ESE 30.",
+        "Suggestion 2 prints the damping notes inline: 'Small damping (ε = 0.1 Wn= 4π/5T) Medium damping (ε = 0.4 Wn= 11 π /5T) Large damping (ε = 0.8 Wn= π /4T)'."
+      ],
+      "flags": []
+    },
+    {
+      "name": "TELEMETRY LAB",
+      "name_print": "EIC 752 TELEMETRY LAB",
+      "codes": [
+        "EIC-752"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 3
+      },
+      "credit": 2,
+      "marks": {
+        "sessional_ta": 50,
+        "sessional_total": 50,
+        "total": 50
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [],
+      "reference_books": [],
+      "objectives_print": [],
+      "lab_notes_print": [
+        "Minimum of 10 experiments to be performed"
+      ],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Measurement of Temperature Using RTD/ Thermister and amplification to an appropriate level suitable for Tele transmission."
+        },
+        {
+          "no": 2,
+          "exp": "Sampling through a S/H Circuit and reconstruction of the sampled signal. Observe the effect of sampling rate & the width of the sampling pulses."
+        },
+        {
+          "no": 3,
+          "exp": "Realization of PCM signal using ADC and reconstruction using DAC using 4-bit/8 bit systems. Observe the Quantization noise in each case."
+        },
+        {
+          "no": 4,
+          "exp": "Fabricate and test a PRBS Generator."
+        },
+        {
+          "no": 5,
+          "exp": "Realization of data in different formats such as NRZ-L, NRZ-M and NRZ-S."
+        },
+        {
+          "no": 6,
+          "exp": "Clock recovery circuit from NRZ-L data using PLL."
+        },
+        {
+          "no": 7,
+          "exp": "Manchester coding & decoding (Biphase L) of NRZ-L Data."
+        },
+        {
+          "no": 8,
+          "exp": "Coding and decoding NRZ-L into URL-L (Unipolar return to Zero coding)."
+        },
+        {
+          "no": 9,
+          "exp": "ASK – Modulation and Detection"
+        },
+        {
+          "no": 10,
+          "exp": "FSK – Modulation and Detection"
+        },
+        {
+          "no": 11,
+          "exp": "PSK - Modulation and Detection."
+        },
+        {
+          "no": 12,
+          "exp": "Error introduction, Error Detection & Correction using Hamming Code."
+        },
+        {
+          "no": 13,
+          "exp": "Amplitude modulation and Detection of signal obtained from experiment no.1."
+        }
+      ],
+      "quirks": [
+        "Code printed with space 'EIC 752' on p.11; scheme table (p.1 row 8) prints ESE cell '-' (sessional-only, total 50, credit 2).",
+        "Printed typos kept verbatim: 'Thermister' (exp 1), 'URL-L (Unipolar return to Zero coding)' (exp 8), 'PSK - Modulation and Detection.' (exp 11, hyphen and trailing period)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "OPTICAL INSTRUMENTATION",
+      "name_print": "EIC-021 OPTICAL INSTRUMENTATION",
+      "codes": [
+        "EIC-021"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Light Sourcing, Transmitting and Receiving\nConcept of Light, Classification of different phenomenon based on theories of light, Basic light sources and its Characterization, Polarization , Coherent and Incoherent sources, Grating theory ,Application of diffraction grating, Electro-optic effect, Acousto-optic effect and Magneto-optic effect.",
+        "2": "Opto –Electronic devices and Optical Components\nPhoto diode, PIN, Photo-Conductors, Solar cells, ,Phototransistors, Materials used to fabricate LEDs and Lasers Design of LED for Optical communication, Response times of LEDs ,LED drive circuitry, Lasers Classification :Ruby lasers, Neodymium Lasers, He- Ne Lasers, CO2 Lasers, Dye Lasers, Semiconductors Lasers, Lasers Applications.",
+        "3": "Interferometry\nInterference effect, Radio-metry, types of interference phenomenon and its Application, Michelson’s Interferometer and its application Fabry-perot interferometer, Refractometer, Rayleigh’s interferometers, Spectrographs and Monochromators, Spectrophotometers, Calorimeters, Medical Optical Instruments",
+        "4": "Holography:\nPrinciple of Holography, On-axis and Off axis Holography, Application of Holography, Optical data storage.\nOptical Fiber Sensors:\nActive and passive optical fiber sensor, Intensity modulated, displacement type sensors, Multimode active optical fiber sensor (Micro bend sensor)Single Mode fiber sensor-Phase Modulates and polarization sensors",
+        "5": "Fiber optic fundamentals and Measurements:\nFundamental of Fibers, Fiber Optic Communication system, Optical Time domain Reflectometer (OTDR), Time domain dispersion measurement, Frequency Domain dispersion measurement, Laser Doppler velocimeter,"
+      },
+      "unit_lectures_print": {
+        "1": "8",
+        "2": "8",
+        "3": "8",
+        "4": "8",
+        "5": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "J. Wilson & J. F. B. Hawkes, “Optoelectronics: An Introduction” PHI/ Pearson"
+        },
+        {
+          "no": 2,
+          "book": "Rajpal S. Sirohi “Wave Optics and its Application”, Hyderabad, Orient longman Ltd."
+        },
+        {
+          "no": 3,
+          "book": "A. Yariv, “Optical Electronics”, C. B. S. Collage Publishing, New York, 1985."
+        }
+      ],
+      "reference_books": [],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-II pool (p.3): printed there as 'EIC-021 Optical Instrumentation'; semester 7 and marks inherited from the Departmental Elective-II scheme row EIC-02* (p.1).",
+        "Table has no Text No./Chapter column (only UNIT / TOPICS / LECTURES).",
+        "Text Book block printed above the subject heading with header 'Text Book:' though three books are listed.",
+        "Printed typos kept verbatim: 'Polarization , Coherent', 'Grating theory ,Application', 'Solar cells, ,Phototransistors', 'Response times of LEDs ,LED drive circuitry', 'Lasers Classification :Ruby lasers', 'Opto –Electronic', '(Micro bend sensor)Single Mode fiber sensor', unit 5 ends with a trailing comma 'Laser Doppler velocimeter,'."
+      ],
+      "flags": []
+    },
+    {
+      "name": "POWER PLANT INSTRUMENTATION",
+      "name_print": "EIC-022 POWER PLANT INSTRUMENTATION",
+      "codes": [
+        "EIC-022"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Energy sources, their availability, worldwide energy production, energy scenario of India. Introduction to Power generation- Classification: Renewable and non-renewable energy generation resources.\nRenewable: small hydro; modern biomass; wind power; solar; geothermal and bio-fuels.\nNon renewable: fossil fuels (coal, oil and natural gas) and nuclear power.\nBoiler: Types of boilers, boiler safety standards. Boiler instrumentation, control and optimization, combustion control, air to fuel ratio control, three element drum level control, steam temperature and pressure control, boiler interlocks, sequence event recorder, data acquisition systems.",
+        "2": "T hermal Power Plant- Method of power generation, layout and energy conversion process, Types of Turbines & control, Types of Generators, condensers. Types of pumps and Fans, variable speed pumps and Fans, Material handling system, study of all loops-water, steam, fuel etc.",
+        "3": "Hydroelectric Power Plant- Site selection, Hydrology, Estimation electric power to be developed, classification of Hydropower plants, Types of Turbines for hydroelectric power plant, pumped storage plants, storage reservoir plants.",
+        "4": "Wind E nergy: Power in wind, Conversion of wind power, Aerodynamics of wind turbine, types of wind turbine, and modes of operation, power control of wind turbines, Betz limit, Pitch & Yaw control, wind mill, wind pumps, wind farms, different generator protections, data recording, trend analysis, troubleshooting & safety.\nSolar E nergy: solar resource, solar energy conversion systems: Solar PV technology: Block diagram of PV system, advantages and limitations. Solar thermal energy system: Principle, solar collector and its types, solar concentrator and its types, safety.",
+        "5": "Nuclear Power Plant: Nuclear power generation, control station and reactor control.\nComparison of various plants:\nComparison of thermal power plant, hydro electric power plant, wind, solar, nuclear power plant on the basis of: Performance, efficiency, site selection, Economics-capital and running, safety standards, pollution, effluent management and handling. Power plant safety, Pollution monitoring, control Sound, Air, smoke, dust, study of Electrostatic precipitator."
+      },
+      "unit_lectures_print": {
+        "1": "8",
+        "2": "8",
+        "3": "8",
+        "4": "8",
+        "5": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "G.F. Gilman, “Boiler Control Systems Engineering”, ISA Publication."
+        },
+        {
+          "no": 2,
+          "book": "P. K. Nag, “Power plant engineering”, McGraw Hill."
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "B. H. Khan, “Non-conventional energy resources”, McGraw Hill."
+        },
+        {
+          "no": 2,
+          "book": "Chetan Singh Solanki, “Renewable energy Technology”, Prentice Hall Publication."
+        },
+        {
+          "no": 3,
+          "book": "S. P. Sukhatme, “Solar Energy”, Tata McGraw Hill."
+        },
+        {
+          "no": 4,
+          "book": "G. D. Rai, “Nonconventional energy sources”, Khanna Publication."
+        }
+      ],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-II pool (p.3); semester 7 and marks inherited from the Departmental Elective-II scheme row EIC-02* (p.1).",
+        "Table has no Text No./Chapter column (only UNIT / TOPICS / LECTURES).",
+        "Text Books and Reference Books blocks printed above the subject heading (p.8 top).",
+        "Printed typos kept verbatim: 'T hermal Power Plant' (unit 2), 'Wind E nergy' and 'Solar E nergy' (unit 4)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Artificial Neural Networks",
+      "name_print": "EEC-023 Artificial Neural Networks",
+      "codes": [
+        "EEC-023"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Introduction:\nIntroduction and history, human brain, biological neuron, models of neuron, signal flow graph of neuron, feedback, network architecture, knowledge representation, Artificial intelligence and neural networks.\nLearning Process:\nError correction learning, memory based learning, Hebbian learning, competitive learning, Boltzmann learning, learning with and without teacher, learning tasks, memory and adaptation.",
+        "2-3": "Artificial neurons, Neural networks and architectures, introduction, neuron signal function, mathematical preliminaries, Feed forward & feedback architecture.\nGeometry of Binary threshold neurons and their networks, Pattern recognition, convex sets and convex hulls, space of Boolean functions, binary neurons for pattern classification, non linear separable problems, capacity of TLN, XOR solution.\nPerceptrons and LMS\nLearning objective of TLN, pattern space & weight space, perceptron learning algorithm, perceptron convergence theorem, pocket algorithm, α – LMS learning, MSE error surface, steepest descent search, μ – LMS and application.\nBack propagation and other learning algorithms Multilayered architecture, back propagation learning algorithm, practical considerations, structure growing algorithms, applications of feed forward neural networks, reinforcement learning.",
+        "4": "Statistical Pattern Recognition\nBayes’ theorem, classical decisions with Bayes’ theorem, probabilistic interpretation of neuron function, interpreting neuron signals as probabilities, multilayered networks & posterior probabilities, error functions for classification problems.\nRBF Networks\nRegularization networks, generalized RBF networks, RBF network for solving XOR problem, comparison of RBF networks & multilayer perceptrons.\nStochastic Machines:\nStatistical mechanics, simulated annealing, Boltzmann machine.",
+        "5": "Adaptive Resonance Theory\nBuilding blocks of adaptive resonance, Adaptive Resonance Theory 1.\nSelf Organizing Feature MAP\nIntroduction, Maximal eigenvector filtering, principal component analysis, generalized learning laws, competitive learning, vector quantization, Mexican hat networks."
+      },
+      "unit_lectures_print": {
+        "1": "4; 4",
+        "2-3": "2; 3; 5",
+        "4": "4; 2",
+        "5": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Kumar Satish, “Neural Networks”, TMH."
+        },
+        {
+          "no": 2,
+          "book": "Simon Haykin, “Neural Networks”, PHI."
+        }
+      ],
+      "reference_books": [],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-II pool (p.3), where it is printed by short name '3. EEC-023 ANN'; semester 7 and marks inherited from the Departmental Elective-II scheme row EIC-02* (p.1).",
+        "Units II & III are printed as ONE combined table row labelled 'II & III' with three topic blocks and lecture counts 2; 3; 5 (recorded under units key '2-3').",
+        "Unit IV prints three topic blocks (Statistical Pattern Recognition / RBF Networks / Stochastic Machines) but only two lecture cells (4 and 2); which block the '2' belongs to is ambiguous in print (recorded in printed order).",
+        "Printed as-is: 'Adaptive Resonance Theory 1.' (unit 5), 'α – LMS' and 'μ – LMS' spacing, 'Bayes’ theorem' curly apostrophes.",
+        "Table has no Text No./Chapter column (only UNIT / TOPICS / LECTURES); spans pages 9-10; Text Books printed above the heading (p.9 top)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Filter Design",
+      "name_print": "EEC-024 Filter Design",
+      "codes": [
+        "EEC-024"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Review of op-amps circuits, Categorization of filters-Low-pass filter, High-pass filter, band-pass filter, band-reject filter, Gain equalizers, and Delay equalizers.",
+        "2": "Approximation Theory: Butterworth approximation, Chebyshev approximation, Inverse Chebyshev approximation, Basic of sensitivity, Frequency Transformations.",
+        "3": "Three amplifier Biquad: Basic low pass and band pass circuit, realization of the general Biquadratic Functions, summing of four Amplifier biquad, feed forward three amplifier biquad, Passive Ladder structures, Inductor Substitution using Gyrator, Transformation of elements using the FDNR. Active ladder filters. Active R filters.",
+        "4": "Elementary transconductor building blocks, resistors, integrators, amplifiers, summers, gyrator, First and second order filters, higher order filters.",
+        "5": "Switched capacitor filters: The MOS switch, The switched capacitor, first order building blocks, second order sections, sampled data operation, Switched capacitor first and second order filters, Bilinear transformation based SC filter design."
+      },
+      "unit_lectures_print": {
+        "1": "8",
+        "2": "8",
+        "3": "10",
+        "4": "8",
+        "5": "6"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Gobind Daryanani, “Principles of active network synthesis and design”,John Wiley & Sons."
+        },
+        {
+          "no": 2,
+          "book": "R. Schaumann, M. E. Van Valkenburg, “Design of analog filters”, Oxford University Press."
+        }
+      ],
+      "reference_books": [],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-II pool (p.3); semester 7 and marks inherited from the Departmental Elective-II scheme row EIC-02* (p.1).",
+        "Table has no Text No./Chapter column (only UNIT / TOPICS / LECTURES); Text Books printed above the heading (p.10 top).",
+        "Book 1 printed without a space after the comma: 'design”,John Wiley & Sons.'; unit 2 prints 'Basic of sensitivity' (sic).",
+        "Printed lecture counts sum to 40 (8+8+10+8+6)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Optimal Control",
+      "name_print": "EIC–801 Optimal Control",
+      "codes": [
+        "EIC-801"
+      ],
+      "semester": 8,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "General Mathematical Procedures:\nFormulation of the optimal control Problem, Calculus of variations, Minimum principle, Dynamic Programming, Numerical Solution of Two-point Boundary value problem.",
+        "2": "Optimal Feedback Control:\nDiscrete-Time linear State regulator, Continuous-Time Linear state Regulator results of solve other linear problems, Suboptimal Linear regulators, Minimum-time Control of Linear Time-Invariant System.",
+        "3": "Stochastic Optimal Linear Estimation and Control\nStochastic processes and linear systems, Optimal Estimation for Linear Discrete time Systems Stochastic Optimal Linear Regulator,",
+        "4-5": "Microprocessor and DSP control Basic computer Architecture, Microprocessor Control of Control System, Single Board Controllers with Custom Designed Chips, Digital Signal Processors, Effect of finite World Length and Quantization on Controllability and Closed Loop –Pole Placement, Effects of Quantization, and Time Delays in Microprocessor Based control systems."
+      },
+      "unit_text_chapter_print": {
+        "1": "1/10, 2/11",
+        "2": "1/11",
+        "3": "1/12",
+        "4-5": "2/12"
+      },
+      "unit_lectures_print": {
+        "1": "8",
+        "2": "8",
+        "3": "8",
+        "4-5": "16"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "M. Gopal, “Modern Control Engineering”, New Age International Publishers."
+        },
+        {
+          "no": 2,
+          "book": "B.C. Kuo, “Digital Control Systems”, Oxford University Press"
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Brain D.O. Anderson, John B. Moore, “Optimal control Linear Quadratic Methods”, Prentice Hall of India Private Limited"
+        }
+      ],
+      "objectives_print": [],
+      "quirks": [
+        "Section header above this syllabus (p.12) prints 'THEORY CORE 8th SEMESTER'.",
+        "Scheme table (p.2 row 3) prints the name 'Optimal Control Systems'; the syllabus heading (p.12) prints 'EIC–801 Optimal Control' (en-dash in code).",
+        "Units IV & V are printed as ONE combined table row labelled 'IV & V' with a single Text No./Chapter cell (2/12) and 16 lectures (recorded under units key '4-5').",
+        "Unit-3 text ends with a trailing comma 'Stochastic Optimal Linear Regulator,' (sic).",
+        "Reference Book author printed 'Brain D.O. Anderson' (sic); textbook 2 printed without a trailing period.",
+        "Printed lecture counts sum to 40 (8+8+8+16)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "BIO-MEDICAL INSTRUMENTATION",
+      "name_print": "EIC-802 BIO-MEDICAL INSTRUMENTATION",
+      "codes": [
+        "EIC-802"
+      ],
+      "semester": 8,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Introduction: Specifications of bio-medical instrumentation system, Man-Instrumentation system Components, Problems encountered in measuring a living system. Basics of Anatomy and Physiology of the body.\nBioelectric potentials: Resting and action potentials, propagation of action potential, The Physiological potentials – ECG, EEG, EMG, ERG, EOG and Evoked responses.\nElectrodes and Transducers: Electrode theory, Biopotential Electrodes – Surface electrodes, Needle electrodes, Microelectrodes, Biomedical Transducer.",
+        "2": "Cardiovascular Measurements: Electrocardiography – ECG amplifiers, Electrodes and Leads, ECG –Single channel, Three channel, Vector Cardiographs, ECG System for Stresses testing, Holter recording, Blood pressure measurement, Heart sound measurement. Pacemakers and Defibrillators.\nPatient Care & Monitoring: Elements of intensive care monitoring, displays, diagnosis, Calibration & Reparability of patient monitoring equipment.",
+        "3": "Respiratory system Measurements: Physiology of Respiratory system. Measurement of breathing mechanism – Spirometer.\nRespiratory Therapy equipments: Inhalators, Ventilators & Respirators, Humidifiers, and Nebulizers & Aspirators.\nNervous System Measurements: Physiology of nervous system, Neuronal communication, Neuronal firing measurements.",
+        "4": "Ophthalmology Instruments: Electroretinogram, Electro-oculogram, Ophthalmoscope, Tonometer for eye pressure measurement.\nDiagnostic techniques: Ultrasonic diagnosis, Eco - cardiography, Eco-encephalography, Ophthalmic scans, X-ray & Radio-isotope diagnosis and therapy, CAT-Scan, Emission computerized tomography, MRI.",
+        "5": "Bio-telemetry: The components of a Bio-telemetry system, Implantable units, Telemetry for ECG measurements during exercise, for Emergency patient monitoring.\nProsthetic Devices and Therapies: Hearing Aides, Myoelectric Arm, Dia-thermy, Laser applications in medicine."
+      },
+      "unit_text_chapter_print": {
+        "1": "1/1, 2/1 &2; 1/2, 2/3; 2/4 & 16, 3/4",
+        "2": "2/7 & 10 , 3/5 & 6; 1/6",
+        "3": "2/8, 3/8; 3/10",
+        "4": "2/7 & 13; 1/19, 22 & 23, 2/12 &14",
+        "5": "1/9, 3/12; 1/17, 2/7, 10 &13"
+      },
+      "unit_lectures_print": {
+        "1": "3; 3; 2",
+        "2": "6; 2",
+        "3": "5; 3",
+        "4": "2; 6",
+        "5": "4; 4"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "R. S. Khandpur, “Biomedical Instrumentation”, TMH"
+        },
+        {
+          "no": 2,
+          "book": "S. K. Venkata Ram, “Bio-Medical Electronics &Instrumentation (Revised)”, Galgotia."
+        },
+        {
+          "no": 3,
+          "book": "J. G. Webster (editor), “Medical Instrumentation Application & Design”, 3rd Ed WILEY, India"
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Cromwell, “Biomedical Instrumentation and Measurements” PHI"
+        },
+        {
+          "no": 2,
+          "book": "J. G. Webster, “Bio- Instrumentation”, Wiley"
+        },
+        {
+          "no": 3,
+          "book": "S. Ananthi, “A Text Book of Medical Instruments”, New Age International"
+        },
+        {
+          "no": 4,
+          "book": "Carr & Brown, “Introduction to Biomedical Equipment Technology”, Pearson"
+        },
+        {
+          "no": 5,
+          "book": "Pandey & Kumar, “Biomedical Electronics and Instrumentation”, Kataria"
+        }
+      ],
+      "objectives_print": [],
+      "quirks": [
+        "Scheme table (p.2 row 4) prints the name 'Biomedical Instrumentation'; the syllabus heading (p.13) prints 'EIC-802 BIO-MEDICAL INSTRUMENTATION'.",
+        "Each unit prints 2-3 sub-rows with separate Text No./Chapter and LECTURES cells; recorded in order in unit_text_chapter_print / unit_lectures_print (unit totals 8 each, 40 overall).",
+        "TEXT BOOKS / REFERENCE BOOKS blocks printed above the heading (p.13 top); textbook 2 printed 'Bio-Medical Electronics &Instrumentation' (no space after &, sic).",
+        "REFERENCE BOOKS item 5 printed with its number on its own line ('5.' then 'Pandey & Kumar, ...') in the text layer; ref 2 prints 'Bio- Instrumentation' with stray space (sic)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "COMPUTERISED PROCESS CONTROL",
+      "name_print": "EIC-031 COMPUTERISED PROCESS CONTROL",
+      "codes": [
+        "EIC-031"
+      ],
+      "semester": 8,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Basics of Computer-Aided Process Control: Role of computers in process control, Elements of a computer aided Process control System, Classification of a Computer –Aided Process Control System\nComputer-Aided Process–control Architecture:\nCentralized Control Systems, Distributed control Systems, Hierarchical Computer control Systems. Economics of Computer-Aided Process control. Benefits of using Computers in a Process control.\nProcess related Interfaces: Analog Interfaces, Digital Interfaces, Pulse Interfaces, Standard Interfaces",
+        "2": "Industrial communication System: Communication Networking, Industrial communication Systems, Data Transfer Techniques, Computer Aided Process control software, Types of Computer control Process Software, Real Time Operating System.",
+        "3": "Process Modelling for computerized Process control: Process model, Physical model, Control Model, Process modeling.\nModelling Procedure: Goals Definition, Information Preparation, Model Formulation, Solution Finding, Results Analysis, Model Validation",
+        "4": "Advanced Strategies For Computerised Process control: Cascade Control, Predictive control, Adaptive Control, Inferential control, Intelligent Control, Statistical control.",
+        "5": "Examples of Computerized Process Control: Electric Oven Temperature Control, Reheat Furnace Temperature control, Thickness and Flatness control System for metal Rolling, Computer-Aided control of Electric Power Generation Plant."
+      },
+      "unit_text_chapter_print": {
+        "1": "1/4",
+        "2": "1/5",
+        "3": "1/2",
+        "4": "1/7",
+        "5": "1/10"
+      },
+      "unit_lectures_print": {
+        "1": "8",
+        "2": "8",
+        "3": "8",
+        "4": "8",
+        "5": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "S. K. Singh, “Computer Aided Process control”, PHI."
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 2,
+          "book": "C. L. Smith, “Digital computer Process Control”, Ident Educational Publishers."
+        },
+        {
+          "no": 3,
+          "book": "C. D. Johnson, “Process Control Instrumentation Technology”, PHI."
+        },
+        {
+          "no": 4,
+          "book": "Krishan Kant, “Computer Based Industrial Control”"
+        },
+        {
+          "no": 5,
+          "book": "Pradeep B. Deshpande & Raymond H. Ash, “Element of Computer Process Control with Advance Control Applications”, Instrument Society of America, 1981."
+        },
+        {
+          "no": 6,
+          "book": "C. M. Houpis & G. B. Lamond, “Digital Control System Theory”, Tata McGraw Hill."
+        }
+      ],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-III pool (p.3), printed there as '1. EIC-031 Computerized Process Control' (z vs s); semester 8 and marks inherited from the Departmental Elective-III scheme row EIC-03* (p.2).",
+        "REFERENCE BOOKS numbering starts at 2 (printed 2., 3., 4., 5., 6.) below a single 'Text Book:' item 1 - printed numbering kept verbatim; book 4 printed without a trailing period.",
+        "Unit-1 prints 'Classification of a Computer –Aided Process Control System' and 'Computer-Aided Process–control Architecture' with inconsistent dash spacing (sic); section header 'ELECTIVE' printed at p.14 top."
+      ],
+      "flags": []
+    },
+    {
+      "name": "BIOMEDICAL SIGNAL PROCESSING",
+      "name_print": "EIC-032 BIOMEDICAL SIGNAL PROCESSING",
+      "codes": [
+        "EIC-032"
+      ],
+      "semester": 8,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Introduction to Bio-Medical Signals: Classification, Acquisition and Difficulties during Acquisition.\nBasics of Electrocardiography, Electroencephalography, Electromyography & electro-retinography\nRole of Computers in the Analysis, Processing, Monitoring & Control and image reconstruction in bio-medical field.",
+        "2": "ECG: Measurement of Amplitude and Time Intervals, QRS Detection (Different Methods), ST Segment Analysis, Removal of Baseline Wander And Power line Interferences, Arrhythmia Analysis, Portable Arrhythmia Monitors.",
+        "3": "Data Reduction: Turning Point algorithm, AZTEC Algorithm, Fan Algorithm, Huffman and Modified Huffman Coding, Run Length Coding.",
+        "4": "EEG: Neurological Signal Processing, EEG characteristic, linear prediction theory, Sleep EEG, Dynamics of Sleep/Wake transition.\nStudy of pattern of brain waves, Epilepsy-Transition, detection and Estimation.\nEEG Analysis By Spectral Estimation: The Bt Method, Periodogram, Maximum Entropy Method & AR Method, Moving Average Method. The ARMA Methods, Maximum Likelihood Method.",
+        "5": "EP Estimation: by Signal Averaging, Adaptive Filtering:- General Structures of Adaptive filters, LMS Adaptive Filter, Adaptive Noise Cancelling, Wavelet Detection:- Introduction, Detection By Structural features, Matched Filtering, Adaptive Wavelet Detection, Detection of Overlapping Wavelets."
+      },
+      "unit_text_chapter_print": {
+        "1": "3/1& 3; 1/2, 3/3; 1/1, 3/15",
+        "2": "1/12 & 13, 2/ 7",
+        "3": "1/10",
+        "4": "2/5; 2/4",
+        "5": "1/8 & 9; 2/6 & Appendix B"
+      },
+      "unit_lectures_print": {
+        "1": "2; 4; 2",
+        "2": "8",
+        "3": "8",
+        "4": "2; 6",
+        "5": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Willis J. Tomkin, “Biomedical Digital Signal Processing”, PHI."
+        },
+        {
+          "no": 2,
+          "book": "D. C. Reddy, “Biomedical Signal Processing”, McGraw Hill"
+        },
+        {
+          "no": 3,
+          "book": "Crommwell,Weibel and Pfeifer, “Biomedical Instrumentation and Measurement”, PHI"
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Arnon Cohen, “Biomedical Signal Processing (volume-I)”, Licrc Press"
+        },
+        {
+          "no": 2,
+          "book": "Rangaraj M. Rangayyan, “Biomedical Signal Analysis A Case Study Approach”, John Wiley and Sons Inc."
+        },
+        {
+          "no": 3,
+          "book": "John G. Webster, “Medical instrumentation Application and Design”, John Wiley & Sons Inc."
+        }
+      ],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-III pool (p.3), printed there as '2. EIC-032 Bio-medical Signal Processing'; semester 8 and marks inherited from the Departmental Elective-III scheme row EIC-03* (p.2).",
+        "Text Books / Reference Books blocks printed above the heading (p.15 top); textbook 3 author printed 'Crommwell,Weibel and Pfeifer' (sic, missing space after comma); textbook 2 printed without a trailing period.",
+        "Unit-1 and Unit-4 each print multiple sub-rows with lecture counts 2; 4; 2 and 2; 6; unit-2 Text No./Chapter printed '1/12 & 13, 2/ 7' (stray space, sic); unit-5 prints 'Adaptive Filtering:-' and 'Wavelet Detection:-' (sic)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Analytical Instruments",
+      "name_print": "EIC-033 Analytical Instruments",
+      "codes": [
+        "EIC-033"
+      ],
+      "semester": 8,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "UV – Visible Spectroscopy: Introduction, Electromagnetic Radiation, Laws relating to absorption radiation, Absorption Instruments, Ultraviolet and visible absorption spectroscopy, Calorimeters, Double Beam spectrophotometer (Optical Diagram & Block Diagram) Microprocessor based Spectrophotometer (Block Diagram)",
+        "2": "Infrared Spectroscopy, Basic Components of IR Spectrophotometers, Type of Infrared Spectrophotometers, Sample Handling Techniques.",
+        "3": "Flame photometers: principle, constructional details of flame photometers, types of flame photometers, types of flame photometers, clinical flame photometers, accessories for flame photometer, expression for concentration, interferences in flame photometry, procedure for determinations.\nAtomic Absorption Spectrometers: Atomic Absorption Spectroscopy, Atomic Absorption Instrumentation, Sources of interferences, meter scale.",
+        "4": "Mass Spectrometers: Basic Mass Spectrometer, Principle of operation, Type of Mass Spectrometers, components of Mass Spectrometers, inductively coupled plasma-mass spectrometer, trapped ion analyzers, ion cyclotron resonance (ICR) mass spectrometer, quadruple ion trap mass spectrometer, applications of mass spectrometry, gas chromatograph-mass spectrometer, liquid chromatograph-mass spectrometer, tandem mass spectrometry (MS/MS).",
+        "5": "Nuclear Magnetic Resonance (NMR) Spectroscopy, Principle of NMR, types of NMR spectrometers, constructional details of NMR spectrometer, variation T-60A NMR spectrometer, sensitivity enhancement for analytical NMR-spectroscopy, Fourier transform NMR spectroscopy."
+      },
+      "unit_text_chapter_print": {
+        "1": "1/2",
+        "2": "1/3",
+        "3": "1/4; 1/5",
+        "4": "1/9",
+        "5": "1/10"
+      },
+      "unit_lectures_print": {
+        "1": "8",
+        "2": "4",
+        "3": "4; 4",
+        "4": "8",
+        "5": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "R. S. Kandpur, “Handbook Of Analytical Instruments”, TMH 2nd Edition,"
+        },
+        {
+          "no": 2,
+          "book": "Willard, Merritt, Dean and Settle, “Instrumental Methods of Analysis”, 7th Edition, CBS Publishers."
+        }
+      ],
+      "reference_books": [],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-III pool (p.3), printed there as '3. EIC-033 Analytical Instrumentation'; the syllabus heading (p.16) prints 'EIC-033 Analytical Instruments'.",
+        "Text Books block printed above the heading; textbook 1 author printed 'R. S. Kandpur' (sic; the EIC-802 page prints 'Khandpur') and ends with a trailing comma 'TMH 2nd Edition,'.",
+        "Unit-3 repeats the phrase 'types of flame photometers' twice in the print (sic) and prints two sub-rows (Flame photometers 1/4, Atomic Absorption Spectrometers 1/5) with 4; 4 lectures.",
+        "Printed lecture counts sum to 36 as printed (8+4+4+4+8+8); no total is printed.",
+        "'UV – Visible Spectroscopy' keeps the printed en-dash spacing; 'Calorimeters' printed where 'Colorimeters' would be expected (sic)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "MICRO AND SMART SYSTEMS",
+      "name_print": "EIC-034 MICRO AND SMART SYSTEMS",
+      "codes": [
+        "EIC-034"
+      ],
+      "semester": 8,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Introduction, Why miniaturization?, Microsystems versus MEMS, Why micro fabrication?, smart materials, structures and systems, integrated Microsystems, applications of smart materials and Microsystems,.",
+        "2": "Micro sensors, actuators, systems and smart materials: Silicon capacitive accelerometer, piezoresistive pressure sensor, conductometric gas sensor, an electrostatic combo-drive, a magnetic microrelay, portable blood analyzer, piezoelectric inkjet print head, micromirror array for video projection, smart materials and systems.",
+        "3": "Micromachining technologies: silicon as a material for micro machining, thin film deposition, lithography, etching, silicon micromachining, specialized materials for Microsystems, advanced processes for micro fabrication.",
+        "4": "Modeling of solids in Microsystems: Bar, beam, energy methods for elastic bodies, heterogeneous layered beams, bimorph effect, residual stress and stress gradients, poisson effect and the anticlastic curvature of beams, torsion of beams and shear stresses, dealing with large displacements, In-plane stresses.\nModelling of coupled electromechanical systems: electrostatics, Coupled Electro-mechanics: statics, stability and pull-in phenomenon, dynamics. Squeezed film effects in electro-mechanics.",
+        "5": "Integration of micro and smart systems: integration of Microsystems and microelectronics, microsystems packaging, case studies of integrated Microsystems, case study of a smart-structure in vibration control.\nScaling effects in Microsystems: scaling in: mechanical domain, electrostatic domain, magnetic domain, diffusion, effects in the optical domain, biochemical phenomena."
+      },
+      "unit_lectures_print": {
+        "1": "5",
+        "2": "8",
+        "3": "8",
+        "4": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "G. K. Ananthasuresh, K. J. Vinoy, S. Gopalakrishnan, K. N. Bhat and V. K. Atre, “Micro and smart systems”, Wiley India, 2010."
+        }
+      ],
+      "reference_books": [],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-III pool (p.3); semester 8 and marks inherited from the Departmental Elective-III scheme row EIC-03* (p.2).",
+        "Table has no Text No./Chapter column (only UNIT / TOPICS / LECTURES); Text book block printed above the heading with header 'Text book:' (lowercase b).",
+        "Unit-V LECTURES cell is printed BLANK - omitted from unit_lectures_print rather than inferred (units 1-4 print 5; 8; 8; 8).",
+        "Unit-1 ends 'applications of smart materials and Microsystems,.' (printed comma+period, sic); mixed spellings 'Modeling'/'Modelling' in unit 4 kept verbatim."
+      ],
+      "flags": []
+    },
+    {
+      "name": "DIGITAL SYSTEM DESIGN USING VHDL",
+      "name_print": "EEC-032 DIGITAL SYSTEM DESIGN USING VHDL",
+      "codes": [
+        "EEC-032"
+      ],
+      "semester": 8,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Introduction to VHDL, reserve words, structures, modeling, objects, data type and operators, sequential statements and processes, sequential modeling and attributes, conditional assignment, concatenation and case, array loops and assert statements, subprograms.",
+        "2": "Digital System Design Automation– Abstraction Levels, System level design flow, RTL design flow, VHDL.\nRTL Design with VHDL – Basic structures of VHDL, Combinational circuits, Sequential circuits, Writing Test benches, Synthesis issues, VHDL Essential Terminologies\nVHDL Constructs for Structures and Hierarchy Descriptions – Basic Components, Component Instantiations, Iterative networks, Binding Alternatives, Association methods, generic Parameters, Design Configuration",
+        "3": "Concurrent Constructs for RT level Descriptions – Concurrent Signal Assignments, Guarded signal assignment\nSequential Constructs for RT level Descriptions – Process Statement, Sequential WAIT statement, VHDL Subprograms, VHDL library Structure, Packaging Utilities and Components, Sequential Statements.\nVHDL language Utilities - Type Declarations and Usage, VHDL Operators, Operator and Subprogram overloading, Other TYPES and TYPE – related issues, Predefined Attributes",
+        "4": "VHDL Signal Model – Characterizing hardware languages, Signal Assignments, Concurrent and Sequential Assignments, Multiple Concurrent Drivers Standard Resolution",
+        "5": "Hardware Cores and Models - Synthesis rules and styles, Memory and Queue Structures, Arithmetic Cores, Components with Separate Control and Data parts.\nCore Design Test and Testability - Issues Related to Design Test, Simple Test benches."
+      },
+      "unit_lectures_print": {
+        "1": "8",
+        "2": "8",
+        "3": "8",
+        "4": "8",
+        "5": "8"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Z. Navabi, “VHDL-Modular Design and Synthesis of cores and Systems”, TMH – 3rd Edition."
+        },
+        {
+          "no": 2,
+          "book": "R.D.M. Hunter, T. T. Johnson, “Introduction to VHDL” Spriger Publication, 2010."
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "J. Bhaskar, “A VHDL Primer”, Addison Wesley, 1999."
+        },
+        {
+          "no": 2,
+          "book": "M. Ercegovac, T. Lang and L.J. Moreno, ”Introduction to Digital Systems”, Wiley,2000"
+        },
+        {
+          "no": 3,
+          "book": "C. H. Roth, “Digital System Design using VHDL”, PWS Publishing"
+        },
+        {
+          "no": 4,
+          "book": "Enoch O. Hwang , “Digital Logic and Microprocessor design with VHDL” – Thomson publication."
+        }
+      ],
+      "objectives_print": [],
+      "quirks": [
+        "Member of Elective-III pool (p.3), printed there as '5. EEC-032 Digital System Design using VHDL'; semester 8 and marks inherited from the Departmental Elective-III scheme row EIC-03* (p.2).",
+        "TEXT BOOKS / REFERENCE BOOKS blocks printed BELOW the unit table (p.18 bottom), unlike all other subjects in this PDF.",
+        "Table header prints 'Unit / Topic / Lectures' (singular, unlike other tables).",
+        "Printed typos kept verbatim: 'Spriger Publication' (textbook 2); reference 2 opens with a close curly quote '”Introduction to Digital Systems”' and prints 'Wiley,2000' without a space; reference 4 prints 'Enoch O. Hwang ,' with a space before the comma; unit 1 prints 'reserve words' (sic).",
+        "This is the second printed code shared with the Elective-III list page order ('5. EEC-032'); no code collision within this PDF."
+      ],
+      "flags": []
+    }
+  ],
+  "non_subject_rows": [
+    {
+      "kind": "document_title",
+      "print": "Study and Evaluation Scheme B. Tech in Electronics and Instrumentation, Instrumentation and Control, Applied Electronics and Instrumentation [Effective from the session 2011-12]",
+      "locator": "p.1 header block (repeated p.2)"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "1. EOE-07* Open Elective-I** 3 1 0 30 20 50 100 150 4",
+      "locator": "p.1 scheme table row 1"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "2. EIC-02* Departmental Elective-II 3 1 0 30 20 50 100 150 4",
+      "locator": "p.1 scheme table row 2"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "3. EIC-701 Control System II 3 1 0 30 20 50 100 150 4",
+      "locator": "p.1 scheme table row 3"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "4. EIC-702 Telemetry Principles 3 1 0 30 20 50 100 150 4",
+      "locator": "p.1 scheme table row 4"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "5. EIC-703 Digital Measurement Techniques 3 1 0 30 20 50 100 150 4",
+      "locator": "p.1 scheme table row 5"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "6. AUC-001 *Human Values & Professional Ethics 2 0 0 15 10 25 50 75 -",
+      "locator": "p.1 scheme table row 6"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "7. EIC-751 Control System Lab II 0 0 2 - 20 20 30 50 1",
+      "locator": "p.1 scheme table row 7 (PRACTICAL/DESIGN/DRAWING section)"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "8. EIC-752 Telemetry Lab 0 0 3 - 50 50 - 50 2",
+      "locator": "p.1 scheme table row 8 (PRACTICAL/DESIGN/DRAWING section)"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "9. EIC-753 Industrial Training Viva-Voce 0 0 2 - 20 20 30 50 1",
+      "locator": "p.1 scheme table row 9 (PRACTICAL/DESIGN/DRAWING section)"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "10. EIC-754 Project 0 0 2 - 50 50 - 50 1",
+      "locator": "p.1 scheme table row 10 (PRACTICAL/DESIGN/DRAWING section)"
+    },
+    {
+      "kind": "scheme_row_sem7",
+      "print": "11. GP-701 General Proficiency - - - - - 50 - 50 1",
+      "locator": "p.1 scheme table row 11 (PRACTICAL/DESIGN/DRAWING section)"
+    },
+    {
+      "kind": "scheme_total_row",
+      "print": "Total 15 5 9 150 240 440 560 1000 26",
+      "locator": "p.1 scheme table total row (Semester-VII)"
+    },
+    {
+      "kind": "open_elective_pool_list",
+      "print": "** Open Electives-I 1. EOE-071 Entrepreneurship Development 2. EOE-072 Quality Management 3. EOE-073 Operation Research 4. EOE-074 Introduction to Biotechnology",
+      "locator": "p.1 footnote below scheme table"
+    },
+    {
+      "kind": "scheme_row_sem8",
+      "print": "1. EOE-08* Open Elective-II** 3 1 0 30 20 50 100 150 4",
+      "locator": "p.2 scheme table row 1"
+    },
+    {
+      "kind": "scheme_row_sem8",
+      "print": "2. EIC-03* Departmental Elective-III 3 1 0 30 20 50 100 150 4",
+      "locator": "p.2 scheme table row 2"
+    },
+    {
+      "kind": "scheme_row_sem8",
+      "print": "3. EIC-801 Optimal Control Systems 3 1 0 30 20 50 100 150 4",
+      "locator": "p.2 scheme table row 3"
+    },
+    {
+      "kind": "scheme_row_sem8",
+      "print": "4. EIC-802 Biomedical Instrumentation 3 1 0 30 20 50 100 150 4",
+      "locator": "p.2 scheme table row 4"
+    },
+    {
+      "kind": "scheme_row_sem8",
+      "print": "5. AUC-001 *Human Values & Professional Ethics 2 0 0 15 10 25 50 75 -",
+      "locator": "p.2 scheme table row 5"
+    },
+    {
+      "kind": "scheme_row_sem8",
+      "print": "6. EIC-851 Project 0 0 12 - 100 100 250 350 8",
+      "locator": "p.2 scheme table row 6 (PRACTICAL/DESIGN/DRAWING section)"
+    },
+    {
+      "kind": "scheme_row_sem8",
+      "print": "7. GP-801 General Proficiency - - - - - 50 - 50 1",
+      "locator": "p.2 scheme table row 7 (PRACTICAL/DESIGN/DRAWING section)"
+    },
+    {
+      "kind": "scheme_total_row",
+      "print": "Total 12 4 12 120 180 350 650 1000 24",
+      "locator": "p.2 scheme table total row (Semester-VIII)"
+    },
+    {
+      "kind": "open_elective_pool_list",
+      "print": "** Open Electives-II 1. EOE-081 Non Conventional Energy Resources 2. EOE-082 Nonlinear Dynamic Systems 3. EOE-083 Product Development 4. EOE-084 Automation & Robotics",
+      "locator": "p.2 footnote below scheme table"
+    },
+    {
+      "kind": "electives_list",
+      "print": "Elective – II 1. EIC-021 Optical Instrumentation 2. EIC-022 Power Plant Instrumentation 3. EEC-023 ANN 4. EEC-024 Filter Design",
+      "locator": "p.3 LIST OF ELECTIVES"
+    },
+    {
+      "kind": "electives_list",
+      "print": "Elective – III 1. EIC-031 Computerized Process Control 2. EIC-032 Bio-medical Signal Processing 3. EIC-033 Analytical Instrumentation 4. EIC-034 Micro and Smart Systems 5. EEC-032 Digital System Design using VHDL",
+      "locator": "p.3 LIST OF ELECTIVES"
+    },
+    {
+      "kind": "section_header",
+      "print": "ELECTIVES II",
+      "locator": "p.7 top"
+    },
+    {
+      "kind": "section_header",
+      "print": "THEORY CORE 8th SEMESTER",
+      "locator": "p.12 top"
+    },
+    {
+      "kind": "section_header",
+      "print": "ELECTIVE",
+      "locator": "p.14 top"
+    }
+  ],
+  "quirks": [
+    "Text layer is clean native digital print (no OCR recovery needed). PyMuPDF flattens table cells: scheme-row numbers are recorded in printed column order (S.No, Code, Subject, L, T, P, CT, TA, Total, ESE, Subject Total, Credit).",
+    "Syllabus tables print a per-unit LECTURES column instead of a uniform lectures/unit; sub-row lecture counts are recorded per subject in unit_lectures_print and Text No./Chapter cells in unit_text_chapter_print (';' separates sub-rows in printed order).",
+    "Text Books / Reference Books blocks are printed ABOVE the subject heading for EIC-701/702/703/EIC-021/022/EEC-023/EEC-024/EIC-801/802/031/032/033/034; below the unit table for EEC-032.",
+    "No course outcomes (COs/K-levels), objectives, eligibility or prerequisites are printed anywhere in this document; cos: [] means printed blank.",
+    "Printed typos preserved verbatim, e.g. 'T hermal', 'Wind E nergy', 'Solar E nergy' (EIC-022); ',Phototransistors', 'Classification :Ruby lasers', 'C. B. S. Collage Publishing' (EIC-021); 'Spriger Publication', leading close-quote in '”Introduction to Digital Systems”', 'Wiley,2000' (EEC-032); 'R. S. Kandpur' (EIC-033); 'Brain D.O. Anderson' (EIC-801); 'Microsystems,.' (EIC-034); 'Thermister', 'URL-L (Unipolar return to Zero coding)' (EIC-752); 'B.C. Kuo ,“Digital...' (EIC-701). Justification whitespace collapsed to single spaces; hyphenated line-wraps joined (e.g. 'Z-\\nTransform' -> 'Z-Transform', 'PAM/\\nPM' -> 'PAM/PM').",
+    "Scheme tables mark elective slots 'EOE-07*'/'EOE-08*' and 'EIC-02*'/'EIC-03*' with asterisks; only the '** Open Electives-I/II' pool lists are printed as footnotes - no footnote text explains the single asterisk.",
+    "Departmental Elective-II (Sem-VII) / -III (Sem-VIII) pool subjects inherit L-T-P 3-1-0, marks 30/20/50/100/150 and credit 4 from the scheme rows EIC-02* (p.1) / EIC-03* (p.2); no per-elective marks are printed anywhere.",
+    "AUC-001 (Human Values & Professional Ethics) and GP-701/GP-801, EIC-753, EIC-754, EIC-851, EOE-07/08 slots appear only as scheme rows without unit-level syllabus in this PDF; they are preserved in non_subject_rows, not drafted as subjects."
+  ],
+  "flags": []
+}
