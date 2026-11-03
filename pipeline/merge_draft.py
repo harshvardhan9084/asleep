@@ -2126,6 +2126,74 @@ TIER2_OVERRIDES.update({
         "reason": "B24 name-variant ALLOW (B23 recorded EV-family class): draft 'Electric Vehicle Technology' (BECZ070, 2025-26 elec-computer sem-7 DE, 5 detailed units) — target electric-hybrid-vehicles-technology (BAU602, 'Electric & Hybrid Vehicles Technology', the published EV-technology row; B23 ALLOWed the same family's 'Electric-and-Hybrid-Vehicles' print at 97/38) is the same DE; the 2025-26 print drops 'Hybrid'; fuzzy 87/40 shared EV vocabulary; BECZ070 joins as era code."},
 })
 
+# ---- B27 (CRON-20261104-B27) per-key TIER2_OVERRIDES (evidence-recorded) ----
+# Probe evidence (scripts/pipeline_v2/probe_b27_flags.py): per-flag draft name/
+# codes/units vs candidate rows (token overlap + best per-unit Jaccard), plus
+# direct print probes of the contested code slots in the source PDFs.
+TIER2_OVERRIDES.update({
+    # -- name/print-variant ALLOWs (same subject; unit-identity evidence recorded) --
+    "01_btech_ft_y2_syllabus_2015-16::02::composition-quality-safety-of-foods": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW ('&' vs 'and' print class, B18/B19 recorded): draft 'Composition, Quality & Safety of Foods' (NFT-301, 2015-16 FT print, detailed units) = the row composition-quality-and-safety-of-foods (EFT301;KFT301;RFT302, 2009-10 FT print) — fuzzy 95/overlap 83 with best per-unit Jaccard 1.00 (VERBATIM unit identity); NFT-301 joins as era code; 2015-16 newer than the row's 2009-10 -> fieldwise wins."},
+    "01_btech_ft_y2_syllabus_2015-16::03::food-microbiology": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW (modifier print variant): draft 'Food Microbiology' (NFT-302, 2015-16 FT print, detailed units) = the row basic-food-microbiology (EFT401;KFT302;RFT301, 2009-10 FT print 'Basic Food Microbiology') — fuzzy 85/overlap 67 with best per-unit Jaccard 1.00 (VERBATIM unit identity; the 2015-16 print drops the 'Basic' modifier); no name-exact 'Food Microbiology' BTech row exists, so the Tier-2 hit is the same subject; NFT-302 joins as era code."},
+    "01_btech_ft_y2_syllabus_2015-16::08::food-chemistry-nutrition": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW ('&' vs 'and' print class): draft 'Food Chemistry & Nutrition' (NFT-401, 2015-16 FT print, detailed units) = the row food-chemistry-and-nutrition (RFT402, 2017-18 FT print) — fuzzy 92/overlap 86 with best per-unit Jaccard 1.00 (VERBATIM unit identity); NFT-401 joins as era code; 2015-16 older than the row's 2017-18 -> backfill-empty only."},
+    "01_btech_ft_y2_syllabus_2015-16::09::food-biochemistry": {
+        "action": "ALLOW",
+        "reason": "B27 era-RENAME ALLOW (verbatim unit identity, all 5 units word-for-word identical to the row's units): draft 'Food Biochemistry' (NFT-402, 2015-16 FT print: enzymes/kinetics, metabolic pathways, digestion/absorption, post-harvest/postmortem changes, enzymes in food processing) = the row food-chemistry (EFT501;KFT402;KFT403;RFT401, 2009-10 FT print 'Food Chemistry', SAME unit texts) — the 2015-16 scheme renamed the course; fuzzy 90/overlap 53 with best per-unit Jaccard 1.00. Same subject across sessions (RULES §3 era model); the print-name change is recorded on the row (name_print 'Food Biochemistry'), no new row (RULES §11 never split one subject into two)."},
+    "03_btech_ft_y4_syllabus-cbcs_2019-20::02::nutraceuticals-and-functional-foods": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW ('and' vs '&' print class): draft 'Nutraceuticals and Functional Foods' (RFT073, 2019-20 FT CBCS DE, detailed units) = the row nutraceuticals-functional-foods (BFT-055;KFT-055;NFT013, 2024-25 print) — fuzzy 94/overlap 68 with best per-unit Jaccard 0.93; 2019-20 older than the row's 2024-25 -> backfill-empty only; RFT073 joins as era code."},
+    "04_btech_ft_y4_syllabus_2021-22::05::fundamentals-of-food-biotechnology": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW ('Fundamentals of' vs 'Fundamental Aspects of' print variant): draft 'FUNDAMENTALS OF FOOD BIOTECHNOLOGY' (KFT-076, 2021-22 FT DE, detailed units) = the row fundamental-aspects-of-food-biotechnology (BFT074, 2025-26 print) — fuzzy 88/overlap 83 with best per-unit Jaccard 0.88; 2021-22 older than the row's 2025-26 -> backfill-empty only; KFT-076 joins as era code."},
+    "05_btech_handloom-textile_y2_syllabus_2021-22::02::textile-fiber": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW (singular/plural + fiber/fibres spelling class): draft 'Textile Fiber' (KHT-303, 2021-22 HT print, detailed units) = the row textile-fibres (KCT303, 2019-20 Carpet & Textile print 'Textile Fibres') — fuzzy 89/overlap 55 with best per-unit Jaccard 0.88; same BTech course family; KHT-303 joins as era code; 2021-22 newer than the row's 2019-20 -> fieldwise wins."},
+    "09_btech_ic_y4_syllabus_2011-12::12::biomedical-signal-processing": {
+        "action": "ALLOW",
+        "reason": "B27 same-subject ALLOW (hyphen/solidus print class, recorded B24 04::12 evidence): draft 'BIOMEDICAL SIGNAL PROCESSING' (EIC-032, 2011-12 IC elective, detailed units) = the row bio-medical-signal-processing (EBM-603;RBM602;RBM-602;BEC-056;RIC080 — the row ALREADY carries the B24-recorded RIC080 era code) — fuzzy 98/overlap 88 with best per-unit Jaccard 1.00 (VERBATIM); EIC-032 joins as era code."},
+    "09_btech_ic_y4_syllabus_2011-12::13::analytical-instruments": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW (plural/suffix print variant): draft 'Analytical Instruments' (EIC-033, 2011-12 IC elective, detailed units: UV-Visible spectroscopy etc.) = the row analytical-instrumentation (REC081, 2019-20 print) — fuzzy 88/overlap 73 with best per-unit Jaccard 1.00 (VERBATIM); EIC-033 joins as era code; 2011-12 older -> backfill-empty only."},
+    "10_btech_it_structure-syllabus_2018-19::04::software-testing-audit": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW ('&' vs 'and' print class): draft 'Software Testing & Audit' (RIT-E12, 2018-19 IT DE, detailed units) = the row software-testing-and-audit (NCS-071;RIT-052, 2016-17 IT print) — fuzzy 92/overlap 101 with best per-unit Jaccard 1.00 (VERBATIM); RIT-E12 joins as era code; 2018-19 newer than the row's 2016-17 -> fieldwise wins."},
+    "10_btech_it_structure-syllabus_2018-19::06::operation-research": {
+        "action": "ALLOW",
+        "reason": "B27 singular/plural ALLOW: draft 'Operation Research' (RCS-E11, 2018-19 IT elective, detailed units) = the row operations-research (NOE073;KOE075;RCS-051;EOE-073, 2016-17 print) — fuzzy 97/overlap 72 with best per-unit Jaccard 1.00 (VERBATIM); RCS-E11 joins as era code; 2018-19 newer -> fieldwise wins."},
+    "10_btech_it_structure-syllabus_2018-19::14::design-and-development-of-applications": {
+        "action": "ALLOW",
+        "reason": "B27 name-variant ALLOW ('and' vs '&' print class): draft 'Design and Development of Applications' (RIT-E21, 2018-19 IT DE, detailed units: mobile applications) = the row design-development-of-applications (BCS073;KCS075;RIT-061;BCS073H, 2016-17 IT print + 2025-26 CSE prints) — fuzzy 94/overlap 83 with best per-unit Jaccard 1.00 (VERBATIM); RIT-E21 joins as era code."},
+    "10_btech_it_structure-syllabus_2018-19::17::neural-network": {
+        "action": "ALLOW",
+        "reason": "B27 singular/plural ALLOW: draft 'Neural Network' (RCS-E22, 2018-19 IT elective, detailed units) = the row neural-networks (NCS-072;RCS-062, 2016-17 print) — fuzzy 97/overlap 100 with best per-unit Jaccard 1.00 (VERBATIM); RCS-E22 joins as era code; 2018-19 newer -> fieldwise wins."},
+    # -- wrong-subject FORCE_APPENDs (same-name different-content splits, B25 REV082/RCE085 recorded class) --
+    "06_btech_handloom-textile_y3_syllabus-rev_2022-23::15::home-textiles": {
+        "action": "FORCE_APPEND",
+        "reason": "B27 wrong-subject FORCE_APPEND (B25 same-name different-content split class, recorded unit evidence): draft 'Home Textiles' (KHT-062, 2022-23 HT elective, detailed units: furnishings/floor coverings/curtains & draperies/bed linens) vs the only Tier-2 candidate home-textile-i (EHTT602;EHTT705, 2009-10 C&T print whose units are garment marker-planning/sewing/fusing/pressing) — fuzzy 89 name-similarity is generic-token variance; shared vocab 5, best per-unit Jaccard 0.08: DIFFERENT subjects that merely share the home-textile token family. Appends as its own row with a cross-reference note to home-textile-i."},
+    "07_btech_handloom-textile_y3_syllabus_2024-25::04::home-textiles": {
+        "action": "FORCE_APPEND",
+        "reason": "B27 wrong-subject FORCE_APPEND (same evidence as 06::15): draft 'Home Textiles' (BHT-052, 2024-25 HT DE, detailed units: definition/types/fiber selection) — the Tier-2 candidate home-textile-i is the 2009-10 C&T garment-process course (Jaccard 0.06); converges onto the 06::15-appended home-textiles row by Tier-1 name identity at commit (recorded same-commit visibility class)."},
+    "07_btech_handloom-textile_y3_syllabus_2024-25::13::advanced-woven-fabric-manufacture": {
+        "action": "FORCE_APPEND",
+        "reason": "B27 wrong-subject FORCE_APPEND (B25 same-name different-content split class, recorded unit evidence): draft 'Advanced Woven Fabric Manufacture' (BHT-601, 2024-25 HT, detailed units: projectile/rapier looms, weft insertion, loom timing) vs the only Tier-2 candidate advance-fabric-manufacturing (ECT807;RCT 602, 2009-10 C&T print whose units are terry-pile/leno weaving mechanisms) — fuzzy 85 is generic-token variance; shared vocab 20, best per-unit Jaccard 0.11: DIFFERENT subjects. Appends as its own row with a cross-reference note."},
+    "08_btech_handloom-textile_y4_syllabus_2025-26::03::advanced-fabric-structure": {
+        "action": "FORCE_APPEND",
+        "reason": "B27 wrong-subject FORCE_APPEND (B25 same-name different-content split class, recorded unit evidence): draft 'Advanced Fabric Structure' (BHT072, 2025-26 HT, detailed units: extra-warp/weft figuring with dobbies/jacquard, figured patent satin, 3-pick tapestry, figured double cloth, traditional Indian handloom sarees) vs the only Tier-2 candidate advance-fabric-structure (RCT081, 2019-20 C&T CBCS print: extra warp/weft designed fabric, damask/brocade, swivel/lappet, stitched/interchanging double cloths, weft-face tapestries) — fuzzy 98 (near-exact name) but shared vocab 11, best per-unit Jaccard 0.13: the two branch programs (Handloom & Textile Technology vs Carpet & Textile Technology) print DIFFERENT courses under the same name (recorded REV082/RCE085 split class). Appends as its own row with a cross-reference note; the C&T row is never touched (RULES §1b within-course branch identity preserved)."},
+    # -- TIE + code-owner adjudications --
+    "09_btech_ic_y4_syllabus_2011-12::00::control-systems-ii": {
+        "action": "RETARGET", "target": "control-system-ii",
+        "reason": "B27 TIE RETARGET (recorded B23 PS-II class: RETARGET pins the update to the name-exact row): draft 'CONTROL SYSTEMS II' (EIC-701, 2011-12 IC core, detailed units: sampled-data control, z-transforms, digital controllers) — TIE candidates control-system (88/0.17), control-system-i (94/0.20), digital-control-system (85/0.20), control-system-ii (97/1.00). The name-exact control-system-ii row (KIC076;RIC701, 2021-22 EI + 2019-20 CBCS prints) matches VERBATIM (best per-unit Jaccard 1.00, overlap 96); PS/CS-I and CS-II are DISTINCT subjects (recorded distinct-row design). EIC-701 joins as era code."},
+    "10_btech_it_structure-syllabus_2018-19::20::web-technology-lab": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "web-technology-lab",
+        "keep_published_codes": {"RCS653": "computer-graphics-lab"},
+        "reason": "B27 same-session cross-branch print conflict (recorded B19 mechanism; B23 07::20 KAS401 pattern): draft 'Web Technology Lab' (2018-19 IT print, detailed Java/HTML experiments) — the Tier-0 hit RCS653 is owned by computer-graphics-lab, established by the SAME-SESSION CSE y3 2018-19 print (btech_cse_y3_syllabus_2018-19.pdf pp.2+20: scheme row 'RCS-653 Computer Graphics Lab' + DDA/Bresenham experiment list) while THIS IT doc prints 'RCS-653 Web Technology Lab' (pp.2+21, Java/HTML experiments) — two authoritative same-session branch schemes disagree, so 'newest print wins' cannot break the tie and the auto CODE-REASSIGNED name-transfer is REJECTED (it would strip a code from a row whose own establishing print carries it, same session). RETARGET pins the update on the name-exact web-technology-lab row (2022-23, KCS652;BCS552;NCS554;BCS552H;KIT551 — newer print, fieldwise owner of the subject identity); RCS653 stays owned by computer-graphics-lab (G2 single ownership) and the 2018-19 IT scheme print is recorded as narrative history on the updated row. Owner open item: the RCS-653 same-session cross-branch conflict is recorded for reconciliation."},
+})
+
 
 
 # B14 remedy registry: sha16s of documents that a PRIOR batch ingested and
