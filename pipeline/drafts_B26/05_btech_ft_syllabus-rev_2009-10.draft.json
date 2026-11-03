@@ -1565,23 +1565,23 @@
     },
     {
      "no": 9,
-     "exp": "Application of enzymes: Amylase in hydrolysis of starch."
+     "exp": " Amylase in hydrolysis of starch."
     },
     {
      "no": 10,
-     "exp": "Application of enzymes: Invertase in hydrolysis of sucrose."
+     "exp": " Invertase in hydrolysis of sucrose."
     },
     {
      "no": 11,
-     "exp": "Application of enzymes: Protease in hydrolysis of protein"
+     "exp": " Protease in hydrolysis of protein"
     },
     {
      "no": 12,
-     "exp": "Application of enzymes: Lipase in hydrolysis of fat."
+     "exp": " Lipase in hydrolysis of fat."
     },
     {
      "no": 13,
-     "exp": "Application of enzymes: Cellulase and hemicellulase for dehulling of a grain,etc."
+     "exp": " Cellulase and hemicellulase for dehulling of a grain,etc."
     }
    ],
    "objectives_print": [],
@@ -1590,7 +1590,8 @@
    "quirks": [
     "Printed item range '9-13. Application of enzymes:' followed by five sub-lines; expanded here as items 9-13 each carrying its printed sub-line after the printed range label (verbatim words).",
     "Printed typos kept verbatim: 'S.P.Colwick', 'Acadmic Press'.",
-    "Scheme row (p.4): '9 EFT 552 Food Biochemistry & Biotechnology Lab 0 0 3 20 20 40 60 100 2'."
+    "Scheme row (p.4): '9 EFT 552 Food Biochemistry & Biotechnology Lab 0 0 3 20 20 40 60 100 2'.",
+    "Experiments 9-13 print under the grouped heading '9-13. Application of enzymes:' (text layer emits the heading once before item 9); per-item verbatim texts restored (patch-b26 verify remedy, B02 v2 verbatim-join class)"
    ],
    "flags": []
   },
@@ -2199,9 +2200,15 @@
    "quirks": [
     "L-T-P conflict: scheme row (p.5) prints '0 0 2' but the detailed heading prints '0 : 0 : 3'; ltp field carries the scheme print, detail print recorded here.",
     "Scheme row CT/TA/ESE cells printed blank with Subject Total 50 (marks dict carries printed values only).",
-    "Scheme row (p.5): '10 EFT 652 Seminar 0 0 2 [blank CT] [blank TA] 50 [blank ESE] 50 1'."
+    "Scheme row (p.5): '10 EFT 652 Seminar 0 0 2 [blank CT] [blank TA] 50 [blank ESE] 50 1'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
-   "flags": []
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed design: EFT-652 SEMINAR (p.29), EFT-753: PROJECT (p.34: 'The student(s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.'), EFT-754: INDUSTRIAL TRAINING (p.34 heading), EFT-851 PROJECT (p.39: 'prepare a detailed project report on fabrication of an equipment / establishment of a plant ... for assessment.') — prose only, no unitwise syllabus printed"
+   ]
   },
   {
    "name": "Cereals, Pulses & Oilseed Products",
@@ -2652,9 +2659,15 @@
    "quirks": [
     "Scheme row name prints 'Project ( Dissertation)' (space before 'Dissertation)'); detail heading prints 'EFT-753: PROJECT'.",
     "Scheme row CT and ESE cells print '-' (dash) with TA 50 / Total 50 and Subject Total 50; dashes transcribed verbatim.",
-    "Scheme row (p.6): '10 EFT 753 Project ( Dissertation) 0 0 3 - 50 50 - 50 2'."
+    "Scheme row (p.6): '10 EFT 753 Project ( Dissertation) 0 0 3 - 50 50 - 50 2'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
-   "flags": []
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed design: EFT-652 SEMINAR (p.29), EFT-753: PROJECT (p.34: 'The student(s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.'), EFT-754: INDUSTRIAL TRAINING (p.34 heading), EFT-851 PROJECT (p.39: 'prepare a detailed project report on fabrication of an equipment / establishment of a plant ... for assessment.') — prose only, no unitwise syllabus printed"
+   ]
   },
   {
    "name": "Industrial Training Viva Voce**",
@@ -2690,9 +2703,15 @@
     "Name conflict: scheme (p.6) prints 'Industrial Training Viva Voce**'; detailed heading (p.34) prints 'EFT-754 : INDUSTRIAL TRAINING'.",
     "Scheme row CT and ESE cells print '-' (dash) with TA 50 / Total 50 and Subject Total 50; dashes transcribed verbatim.",
     "The '**' refers to the p.6 scheme note: 'Note-**Practical Training (4-6weeks) done after 6th Semesters would be evaluated in 7th semester through Report and viva voce etc.'",
-    "Scheme row (p.6): '11 EFT 754 Industrial Training Viva Voce** 0 0 2 - 50 50 - 50 1'."
+    "Scheme row (p.6): '11 EFT 754 Industrial Training Viva Voce** 0 0 2 - 50 50 - 50 1'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
-   "flags": []
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed design: EFT-652 SEMINAR (p.29), EFT-753: PROJECT (p.34: 'The student(s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.'), EFT-754: INDUSTRIAL TRAINING (p.34 heading), EFT-851 PROJECT (p.39: 'prepare a detailed project report on fabrication of an equipment / establishment of a plant ... for assessment.') — prose only, no unitwise syllabus printed"
+   ]
   },
   {
    "name": "Speciality Foods",
@@ -3101,9 +3120,15 @@
    "quirks": [
     "Printed name 'PROJECT' same as EFT-753's detail heading 'PROJECT' but different code/semester/description — kept as separate subjects (EFT753 Sem VII 0-0-3; EFT851 Sem VIII 0-0-12).",
     "Scheme row CT prints '-' with TA 100 / Total 100, ESE 250, Subject Total 350; dash transcribed verbatim.",
-    "Scheme row (p.7): '6 EFT 851 Project 0 0 12 - 100 100 250 350 8'."
+    "Scheme row (p.7): '6 EFT 851 Project 0 0 12 - 100 100 250 350 8'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
-   "flags": []
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed design: EFT-652 SEMINAR (p.29), EFT-753: PROJECT (p.34: 'The student(s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.'), EFT-754: INDUSTRIAL TRAINING (p.34 heading), EFT-851 PROJECT (p.39: 'prepare a detailed project report on fabrication of an equipment / establishment of a plant ... for assessment.') — prose only, no unitwise syllabus printed"
+   ]
   },
   {
    "name": "Human Values & Professional Ethics",

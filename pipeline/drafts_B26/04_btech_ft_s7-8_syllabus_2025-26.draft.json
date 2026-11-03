@@ -703,10 +703,12 @@
     "Detail header prints run-on 'L: T: P: 0:0:4Credit: 2' — verbatim (p.15).",
     "Scheme row name carries footnote marker '*'; the p.2 footnote prints 'The Mini Projector internship' (expected 'Mini Project or internship') — verbatim.",
     "CO 1 prints double space 'the  industrial plant processes' — verbatim (p.15).",
-    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print."
+    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print.",
+    "project/assessment course: the printed Course-Details page carries a CO table (+ objectives prose) and NO unitwise theory anywhere in the document (recorded B08 v11 class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
    "flags": [
-    "no_units_course_details_prose_only"
+    "no_units_course_details_prose_only",
+    "co_only_no_units_printed"
    ],
    "notes": [
     "Scheme footnote (p.2): '*The Mini Projector internship (5-6 weeks) will be  conducted during the semester break after VI semester and shall be assessed during VII semester.'"
@@ -790,10 +792,12 @@
     "Detail title prints 'Project - I' (hyphen) while scheme row prints 'Project – I' (en dash) — both verbatim.",
     "Course Details prose prints run-on 'at the end ofthe first term' — verbatim (p.16).",
     "Referencing style prints 'Referencing style: 1. Author Name, ...' with the '1.' hanging at the end of p.16 and 'Author Name, ...' starting p.17 — transcribed continuously, verbatim.",
-    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print."
+    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print.",
+    "project/assessment course: the printed Course-Details page carries a CO table (+ objectives prose) and NO unitwise theory anywhere in the document (recorded B08 v11 class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
    "flags": [
-    "no_units_course_details_prose_only"
+    "no_units_course_details_prose_only",
+    "co_only_no_units_printed"
    ],
    "notes": []
   },
@@ -872,10 +876,12 @@
     "Course Details item C prints 'develop the won business model' (expected 'own') — verbatim (p.18).",
     "Detail header prints run-on 'L: T: P: 0:0:4Credit: 2' — verbatim (p.18).",
     "Scheme row name carries footnote marker '#' (p.2).",
-    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print."
+    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print.",
+    "project/assessment course: the printed Course-Details page carries a CO table (+ objectives prose) and NO unitwise theory anywhere in the document (recorded B08 v11 class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
    "flags": [
-    "no_units_course_details_prose_only"
+    "no_units_course_details_prose_only",
+    "co_only_no_units_printed"
    ],
    "notes": [
     "Scheme footnote (p.2): '#The Startup  and  Entrepreneurial  Activity Assessment will be done in 7thsemester under which a student will have to undergo a startup /entrepreneurship activity of at least 60 hours till 6thsemester'."
@@ -960,11 +966,13 @@
     "Detail title prints 'Project - II' (hyphen) while scheme row prints 'Project – II' (en dash) — both verbatim.",
     "COs CO-1..CO-6 are printed identical to BFT753 Project - I — as printed (p.19).",
     "Item 1 of report order prints run-on '–must mention' — verbatim (p.19).",
-    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print."
+    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print.",
+    "project/assessment course: the printed Course-Details page carries a CO table (+ objectives prose) and NO unitwise theory anywhere in the document (recorded B08 v11 class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
    "flags": [
     "no_units_course_details_prose_only",
-    "semester_print_mismatch_detail_page_vii_vs_scheme_viii"
+    "semester_print_mismatch_detail_page_vii_vs_scheme_viii",
+    "co_only_no_units_printed"
    ],
    "notes": [
     "Marks printed as CT:- TA:- Total:- PS:100 TE:- PE:350 Total:450 (p.2 Semester-VIII row 3); 100+350=450 consistent."

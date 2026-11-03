@@ -1491,7 +1491,8 @@
    ],
    "quirks": [
     "No subject code printed in scheme row",
-    "Associated footnote prints 'The Mini Projector internship (4weeks)' — typo 'Mini Projector' kept verbatim"
+    "Associated footnote prints 'The Mini Projector internship (4weeks)' — typo 'Mini Projector' kept verbatim",
+    "no code printed on this scheme row (slot/assessment-level program-structure print; the printed row carries the name and credits only) — patch-b26 verify remedy (verifier v10 no-code evidence rule, B06 recorded class)"
    ],
    "flags": [
     "scheme_row_only_detailed_syllabus_not_printed"
@@ -2603,7 +2604,8 @@
     "Scheme row only — detailed syllabus NOT printed in this PDF (open elective offered from the open-elective pool; no code or syllabus printed here)"
    ],
    "quirks": [
-    "No subject code printed in scheme row (cell printed blank)"
+    "No subject code printed in scheme row (cell printed blank)",
+    "no code printed on this scheme row (slot/assessment-level program-structure print; the printed row carries the name and credits only) — patch-b26 verify remedy (verifier v10 no-code evidence rule, B06 recorded class)"
    ],
    "flags": [
     "scheme_row_only_detailed_syllabus_not_printed"

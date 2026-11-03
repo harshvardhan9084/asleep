@@ -783,10 +783,12 @@
    "cos": [],
    "quirks": [
     "Scheme name prints trailing '**' marker tied to the p1 footnote; detailed title on p11 prints without '**'.",
-    "Description prints 'III B.Tech.VI semester' and a space before the final period ('studies .'); kept verbatim."
+    "Description prints 'III B.Tech.VI semester' and a space before the final period ('studies .'); kept verbatim.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
    "flags": [
-    "detailed_syllabus_prose_not_unitwise"
+    "detailed_syllabus_prose_not_unitwise",
+    "detailed_syllabus_not_printed"
    ],
    "notes": [
     "Parent scheme row (p1, S.No.7): \"NFT752 INDUSTRIAL TRAINING **\" L0 T0 P2, CT \"--\", TA 50, Sessional Total 50, ESE \"--\", Subject Total 50, Credit 1 (column mapping verified from text-layer x-coordinates; nulls mark printed dashes).",
@@ -818,10 +820,13 @@
    "units": {},
    "objectives_print": [],
    "cos": [],
-   "quirks": [],
+   "quirks": [
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
    "flags": [
     "detailed_syllabus_prose_not_unitwise",
-    "duplicate_print_name_distinct_codes"
+    "duplicate_print_name_distinct_codes",
+    "detailed_syllabus_not_printed"
    ],
    "notes": [
     "Parent scheme row (p1, S.No.8): \"NFT753 PROJECT\" L0 T0 P6, CT \"--\", TA 100, Sessional Total 100, ESE \"--\", Subject Total 100, Credit 3 (column mapping verified from text-layer x-coordinates; nulls mark printed dashes).",
@@ -1463,10 +1468,12 @@
    "objectives_print": [],
    "cos": [],
    "quirks": [
-    "Detailed title printed without colon: 'NFT851 SEMINAR'."
+    "Detailed title printed without colon: 'NFT851 SEMINAR'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
    "flags": [
-    "detailed_syllabus_prose_not_unitwise"
+    "detailed_syllabus_prose_not_unitwise",
+    "detailed_syllabus_not_printed"
    ],
    "notes": [
     "Parent scheme row (p2, S.No.5): \"NFT851 SEMINAR\" L0 T0 P3, CT \"--\", TA 100, Sessional Total 100, ESE \"--\", Subject Total 100, Credit 2 (column mapping verified from text-layer x-coordinates; nulls mark printed dashes).",
@@ -1498,11 +1505,13 @@
    "objectives_print": [],
    "cos": [],
    "quirks": [
-    "L-T-P printed '0: 0:12' (missing space); credit prints 7 (unusual, kept verbatim); matches printed Sem-VIII TOTAL row 'TOTAL 12 4 15 1000 25'."
+    "L-T-P printed '0: 0:12' (missing space); credit prints 7 (unusual, kept verbatim); matches printed Sem-VIII TOTAL row 'TOTAL 12 4 15 1000 25'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
    "flags": [
     "detailed_syllabus_prose_not_unitwise",
-    "duplicate_print_name_distinct_codes"
+    "duplicate_print_name_distinct_codes",
+    "detailed_syllabus_not_printed"
    ],
    "notes": [
     "Parent scheme row (p2, S.No.6): \"NFT852 PROJECT\" L0 T0 P12, CT \"--\", TA 100, Sessional Total 100, ESE 150, Subject Total 250, Credit 7 (column mapping verified from text-layer x-coordinates; nulls mark printed dashes).",

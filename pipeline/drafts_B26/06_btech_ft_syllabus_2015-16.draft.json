@@ -1061,9 +1061,12 @@
    "units": {},
    "quirks": [
     "Scheme row CT, TA and ESE cells printed blank; only sessional TOTAL 50 and Subject Total 50 printed.",
-    "No units printed; single printed description line recorded in notes."
+    "No units printed; single printed description line recorded in notes.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
    ],
-   "flags": [],
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
    "notes": [
     "Printed description (p.13): 'The student will be required to prepare and deliver a seminar as well as submit a written report on the topic assigned to him/her'",
     "Scheme row (Semester-VI, p.3): 9 NFT-652 Seminar 0 0 3 50 50 1"
