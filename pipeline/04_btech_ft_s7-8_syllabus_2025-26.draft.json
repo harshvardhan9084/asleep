@@ -1,0 +1,1206 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2025-26/btech_ft_s7-8_syllabus_2025-26.pdf",
+ "session": "2025-26",
+ "course": "BTech",
+ "sha16": "7537580daa99b640",
+ "stem": "04_btech_ft_s7-8_syllabus_2025-26",
+ "subjects": [
+  {
+   "name": "Food Quality and Food Laws",
+   "name_print": "Food Quality and Food Laws",
+   "codes": [
+    "BFT701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P: 3:0:0 (detail p.4); scheme row prints '3 - -'",
+   "credit": 3,
+   "credit_print": "Credit: 3",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Program Core",
+   "learning_mode_print": "Offline",
+   "exam_duration_print": "Examination Duration: 3 Hours",
+   "scheme_line_print": "SN1 | BFT701 | Food Quality and Food Laws | Offline | L-T-P: 3 - - | CT:20 TA:10 Total:30 PS:- TE:70 PE:- | Total:100 | Credit:3",
+   "locator": "pp.4-5 (detailed syllabus); scheme row p.2 Semester-VII SN1",
+   "objectives_print": [
+    "To provide comprehensive understanding of essential ingredients of fertilizers and the production processes of different fertilizers."
+   ],
+   "prerequisites": "Food Technology",
+   "prerequisites_print": "Pre requisites: Food Technology",
+   "cos_header_print": "Course Outcome: On successful completion of the course, the student will be able to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain the concepts of food quality, quality control, quality assurance, Total Quality Control (TQC), and TQM; analyze sensory and statistical quality control methods."
+    },
+    {
+     "no": 2,
+     "text": "Apply instrumental techniques to measure food attributes such as texture, color, volume etc. and interpretation of these results"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concept and objectives of Sensory evaluation Process, Tests and itsv applications in Food Quality Management."
+    },
+    {
+     "no": 4,
+     "text": "Understand the concept of Food Quality Management system and its implementation prerequisites."
+    },
+    {
+     "no": 5,
+     "text": "Explain key FSSAI standards, definitions, and penalties; compare them with international food law systems."
+    }
+   ],
+   "reference_books_heading_print": "REFERENCE BOOKS (columns: SN | Name of Authors/Books/Publisher | Year of Publication/Reprints)",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Amihud Kramer, Bernard A. Twigg, “Quality Control for the Food Industry: Fundamentals v. 1”, The AVI Publishing Company. Inc., Westport, USA 1970[ 3rd Edition]",
+     "year_print": "2017"
+    },
+    {
+     "no": 2,
+     "book": "John M. deMan, John W. Finley, and W. Jeffrey Hurst, “Rheology and Texture in Food Quality” , 4TH Edition, Published by Westport: AVI Publishing",
+     "year_print": "2002"
+    },
+    {
+     "no": 3,
+     "book": "Pomeranz Y., Meloan, Clifton E., “Food Analysis : Theory and practice IS: 6273 (Part-1& Part-2)”  , Westport, Conn., AVI Publishing Company.",
+     "year_print": "2007"
+    },
+    {
+     "no": 4,
+     "book": "Maynard A. Amerine Rose  Marie Pangborn and Edward B. Roessler, “Principles of  Sensory Analysis of  Food”   , Academic Press , NY",
+     "year_print": "2013"
+    },
+    {
+     "no": 5,
+     "book": "Food Safety and Standards Act. [https://www.fssai.gov.in]",
+     "year_print": "2006"
+    }
+   ],
+   "unit_table_headers_print": "Units | Contents | Lecture Hours",
+   "units": {
+    "1": "Ways of describing of Food Quality, Quality control and Quality Assurance functions. Total Quality Control (TQC) and the role of management / TQM. Statistical quality control. Quality costs.",
+    "2": "Quality attributes of foods, their classification and significance. Instrumental measurements of important Food Attribute: Appearance, Color, Volume, Density and Specific gravity, Consistency , Defects etc. Rheological and textural characteristics . Texture profile analysis.",
+    "3": "Application of Sensory Evaluation in Quality Management of foods. Objectives & Panels involved. Lab Setup and Equipments. Sensory Evaluation Tests. Analysis and Interpretation of sensory scores. Application of sensory evaluation in Quality Management of foods. Correlation between instrumental and Sensory analysis of food quality attributes",
+    "4": "Introduction, prerequisite program of Food Quality Management System, Understanding of Good Manufacturing Practices (GMP), Good Hygienic Practices (GHP), Good Agricultural Practices (GAP), ISO series, HACCP systems",
+    "5": "Food standards and Specifications: Compulsory and voluntary trade and Company standards. FSSAI: Definitions, Objectives, Salient Features and Provisions..Comparison with other International Standards."
+   },
+   "quirks": [
+    "Objectives print is about fertilizers ('essential ingredients of fertilizers and the production processes of different fertilizers') — appears copy-pasted from another course; kept verbatim (p.4).",
+    "CO 3 prints 'itsv applications' (typo) — verbatim (p.4).",
+    "Unit V prints 'Provisions..Comparison' (double dot, no space) — verbatim (p.5).",
+    "Printed Lecture Hours are non-uniform: I=7, II=8, III=8, IV=8, V=9; printed Total 40 — lectures_per_unit key omitted (no single per-unit value printed).",
+    "Reference book 1 text cites '1970[ 3rd Edition]' while its Year of Publication/Reprints cell prints '2017' — as printed.",
+    "No K-levels printed for COs."
+   ],
+   "flags": [],
+   "notes": [
+    "Unit I 7 lecture hours; Units II-IV 8 each; Unit V 9; printed Total 40 (pp.4-5)."
+   ]
+  },
+  {
+   "name": "Food Packaging",
+   "name_print": "Food Packaging",
+   "codes": [
+    "BFT071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P: 3:0:0 (detail p.6); scheme pool row prints '3 - -'",
+   "credit": 3,
+   "credit_print": "Credit: 3",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Department Elective – IV",
+   "learning_mode_print": "Offline",
+   "exam_duration_print": "Examination Duration: 3 Hours",
+   "scheme_line_print": "SN2 | BFT 071-074 | Department Elective – IV | Offline | L-T-P: 3 - - | CT:20 TA:10 Total:30 PS:- TE:70 PE:- | Total:100 | Credit:3 (pool row; this subject is pool member BFT 071)",
+   "locator": "pp.6-7 (detailed syllabus); scheme row p.2 Semester-VII SN2 (pool BFT 071-074); pool list p.2 bottom 'BFT 071: Food Packaging'",
+   "objectives_print": [
+    "To provide basic knowledge of packaging, its types and components, package developments.",
+    "To provide knowledge of different types of packaging materials & their forms used in food packaging",
+    "To provide knowledge of package developments and packaging laws and regulations in food industries",
+    "To provide knowledge about package performance and various testing of packaging materials"
+   ],
+   "prerequisites": "Food Technology",
+   "prerequisites_print": "Prerequisites: Food Technology",
+   "cos_header_print": "Course Outcome:: Students completing the course will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic concept of packaging and advancement in food packaging."
+    },
+    {
+     "no": 2,
+     "text": "Understand the different types of packaging material and their properties"
+    },
+    {
+     "no": 3,
+     "text": "Understand the forms/ manufacture of packaging materials used in food packaging"
+    },
+    {
+     "no": 4,
+     "text": "Understand the selection of packages for specific food & agricultural commodities"
+    },
+    {
+     "no": 5,
+     "text": "Gain insight of package printing and packaging/ Labelling laws"
+    }
+   ],
+   "reference_books_heading_print": "REFERENCE BOOKS (columns: SN | Name of Authors/Books/Publisher | Year of Publication/Reprints)",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M. Mahadeviah and R.V. Gowramma, “ Food Packaging Materials”, Tata. Mc Graw Hill co. Ltd. New Delhi",
+     "year_print": "1996/2007"
+    },
+    {
+     "no": 2,
+     "book": "Stanley Sacharow and R.C. Griffin, “Principles of Food Packaging” , AVI Publishing Company 1980",
+     "year_print": "1980"
+    },
+    {
+     "no": 3,
+     "book": "Coles R., McDowell D. and Kirwan, M.J.,” Food Packaging Technology”, Blackwell Publishing Co.",
+     "year_print": "2003"
+    },
+    {
+     "no": 4,
+     "book": " Proceedings of IFCON-1988",
+     "year_print": "1988"
+    }
+   ],
+   "unit_table_headers_print": "Units | Contents | Lecture Hours",
+   "units": {
+    "1": "Basic Concepts: Concept of packaging, Functions of a Food Package, Package development factors and Food package development. Newer trends: Aseptic Packaging, Vacuum and gas packaging, Edible packaging, Active and intelligent packaging.",
+    "2": "Cellulosic and Polymeric packaging materials and forms: Food grade polymeric packaging materials, Rigidplastic packages. Films: Multilayer films, Oriented, Co-extruded films , Laminates and Metalized Polymeric materials, their mechanical sealing and barrier properties: Cellophane, Olefins, Polyamides, Polyesters, PVC, PVDC, PVA, Copolymers.",
+    "3": "Glass containers: Composition, Properties, Bottle making and Closures for glass containers. Metal containers: Bulk containers, Tin-plate containers, Tin free steel containers, Aluminum containers, Latest development in metal cans and protective lacquers.",
+    "4": "Food product characteristics and package requirement, Selection of materials, Forms, Machinery and methods for fresh produce (Fruits, Vegetables, Egg, Meat and Fish), Edible oils and Fats, spice and spice products.",
+    "5": "Evaluation of Food Packaging Materials and Package Performance. Evaluation of OTR/ GTR/ WPTR. Package printing, Packaging Laws and Regulations, Food Safety and Environmental issues related to Food Packaging. Disposal of Non-Biodegradable Packaging Materials and Environmental Concerns."
+   },
+   "lectures_per_unit": 8,
+   "quirks": [
+    "CO header prints double colon 'Course Outcome::' — verbatim (p.6).",
+    "Unit II prints 'Rigidplastic packages' (run-on, expected 'Rigid plastic') — verbatim (p.6).",
+    "Unit III spans pp.6-7 mid-sentence ('Tin free / steel containers').",
+    "No K-levels printed for COs."
+   ],
+   "flags": [],
+   "notes": [
+    "All five units print 8 Lecture Hours each; printed Total 40 (pp.6-7)."
+   ]
+  },
+  {
+   "name": "Food Processing Waste Management",
+   "name_print": "Food Processing Waste Management",
+   "codes": [
+    "BFT072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P: 3:0:0 (detail p.8); scheme pool row prints '3 - -'",
+   "credit": 3,
+   "credit_print": "Credit: 3",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Department Elective – IV",
+   "learning_mode_print": "Offline",
+   "exam_duration_print": "Examination Duration: 3 Hours",
+   "scheme_line_print": "SN2 | BFT 071-074 | Department Elective – IV | Offline | L-T-P: 3 - - | CT:20 TA:10 Total:30 PS:- TE:70 PE:- | Total:100 | Credit:3 (pool row; this subject is pool member BFT 072)",
+   "locator": "pp.8-9 (detailed syllabus); scheme row p.2 Semester-VII SN2 (pool BFT 071-074); pool list p.2 bottom 'BFT 072: Food Processing Waste Management'",
+   "objectives_print": [
+    "To provide knowledge of Food Processing Industry Waste Management.",
+    "To provide knowledge of the various aspects and methods adopted for Waste Management.",
+    "To provide knowledge regarding the environmental considerations and Laws pertaining to these."
+   ],
+   "prerequisites": "Food Technology",
+   "prerequisites_print": "Prerequisites: Food Technology",
+   "cos_header_print": "Course Outcome: Students completing the course will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the byproducts associated with various food processing industries and its utilization"
+    },
+    {
+     "no": 2,
+     "text": "Understand the basic principles of Waste Characteristics pertaining to Food Processing Industry"
+    },
+    {
+     "no": 3,
+     "text": "Understand the basic principles of Waste Management pertaining to Food Processing Industry"
+    },
+    {
+     "no": 4,
+     "text": "Understand the selection of suitable waste treatment method for specific food industry"
+    },
+    {
+     "no": 5,
+     "text": "Understand the laws and regulations pertaining to Waste Management and Disposal."
+    }
+   ],
+   "reference_books_heading_print": "REFERENCE BOOKS (columns: SN | Name of Authors/Books/Publisher | Year of Publication/Reprints)",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "The Environment (Protection) Act 1986. (Act No.29 of 1986)",
+     "year_print": "1986, amended 1991"
+    },
+    {
+     "no": 2,
+     "book": "AFST(I) & CFTRI Proceedings of the Symposium on By-products From Food Industries: Utilization and Disposal",
+     "year_print": "1980"
+    },
+    {
+     "no": 3,
+     "book": "Panoth Abhirami, Lavanya D, Mohan G Naik, Venkatachalapathy N.,” Waste to Wealth: Potential of Rice Bran Wax as Edible coating”, Indian Food Industry Mag, AFST (India), CFTRI, Mysore, Vol No. 38, Issue No. 1: 38-43",
+     "year_print": "2019"
+    },
+    {
+     "no": 4,
+     "book": "J.H. Green, A.Kramer, “Food Processing Waste Management , Westport - Conn : AVI Publishing Company",
+     "year_print": "1981"
+    },
+    {
+     "no": 5,
+     "book": "Training Manual Food Safety Supervisor Course Advance (Level 2)",
+     "year_print": "2017"
+    }
+   ],
+   "unit_table_headers_print": "Units | Contents | Lecture Hours",
+   "units": {
+    "1": "Basic considerations: Standards for emission or discharge of environmental pollutants from food processing Industries as per the updated provision of Environment (Protection) Act, 1986. Elements of importance in the efficient management of food processing wastes. Environmental Labs, Government analysts, Sampling Procedures etc as per EPA, 1986.",
+    "2": "Characterization and Effective Utilization of by-products from Cereals, Pulses and Oilseeds Industries. Fruits, Vegetables and Plantation products, Fermented foods, Dairy Industry and Milk Products Industry, Fish, Meat, Egg and Poultry processing industries.",
+    "3": "Characterization of food Industry effluents, Physical and Chemical parameters, Oxygen demands and their interrelationships, Residues (Solids), Fats, Oils and Grease, Forms of Nitrogen, Sulphur and Phosphorus, Anions and Cations, Surfactants, Colour, Odour, Taste, Toxicity. Unit concept of treatment of Food Industry Effluent. Screening, Sedimentation Floatation as pre - and primary treatments.",
+    "4": "Biological oxidations: Objects, Organisms, Reactions involved, Oxygen requirements, Aeration devices / Equipments used. Systems: Lagoons, Activated sludge process, Oxidation ditches, Rotating biological cont caters and their Variations and advanced modifications. Types, Working Principle, Functioning, Merits and Limitations.",
+    "5": "Advanced wastewater treatment systems. Physical separations, Micro-strainers, Filters, Ultra filtration and reverse osmosis. Physico-chemical separations: Activated Carbon Adsorption, Ion Exchange, Electro-dialysis and Magnetic Separation. Chemical oxidations and treatment Coagulation and flocculation. Removal of Nitrogen and Phosphorus from Food Processing Waste Waters. Disinfection. Handling and disposal of Sludge. Environmental Considerations."
+   },
+   "lectures_per_unit": 8,
+   "quirks": [
+    "Stray character 'F' printed at top of p.8 before 'Subject Code: BFT 072' — page artifact, verbatim.",
+    "Unit IV prints 'Rotating biological cont caters' (expected 'contactors') — verbatim (p.9).",
+    "Reference book 4 prints unclosed quote: 'J.H. Green, A.Kramer, “Food Processing Waste Management , Westport - Conn : AVI Publishing Company' — verbatim (p.8).",
+    "No K-levels printed for COs."
+   ],
+   "flags": [],
+   "notes": [
+    "All five units print 8 Lecture Hours each; printed Total 40 (pp.8-9)."
+   ]
+  },
+  {
+   "name": "Speciality Foods",
+   "name_print": "Speciality Foods",
+   "codes": [
+    "BFT073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P: 3:0:0 (detail p.10); scheme pool row prints '3 - -'",
+   "credit": 3,
+   "credit_print": "Credit: 3",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Department Elective – IV",
+   "learning_mode_print": "Offline",
+   "exam_duration_print": "Examination Duration: 3 Hours",
+   "scheme_line_print": "SN2 | BFT 071-074 | Department Elective – IV | Offline | L-T-P: 3 - - | CT:20 TA:10 Total:30 PS:- TE:70 PE:- | Total:100 | Credit:3 (pool row; this subject is pool member BFT 073)",
+   "locator": "pp.10-11 (detailed syllabus); scheme row p.2 Semester-VII SN2 (pool BFT 071-074); pool list p.2 bottom 'BFT 073: Specialty Foods'",
+   "objectives_print": [
+    "To impart the knowledge about the relationship between food, nutrition and health.",
+    "To understand the nutritional requirements and balanced diets for different age groups.",
+    "To understand the concept of modification in normal diets for management and prevention of various diseases."
+   ],
+   "prerequisites": "Food Technology",
+   "prerequisites_print": "Prerequisites: Food Technology",
+   "cos_header_print": "Course Outcome:: Students completing the course will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic concepts of Food Nutrition and Recommended dietary intakes.  ."
+    },
+    {
+     "no": 2,
+     "text": "Understand Nutritional requirements for different age groups"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concept of Balanced Diets and plan nutritious meals for different age groups"
+    },
+    {
+     "no": 4,
+     "text": "Modify the normal diets that can be used for management and prevention of various diseases"
+    },
+    {
+     "no": 5,
+     "text": "Understand the beneficial effects of conventional and non-conventional foods and food constituents"
+    }
+   ],
+   "reference_books_heading_print": "REFERENCE BOOKS (columns: SN | Name of Authors/Books/Publisher | Year of Publication/Reprints)",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Benzamin T. Burton, Human Nutrition, Tata Mc Graw Hill",
+     "year_print": "1976"
+    },
+    {
+     "no": 2,
+     "book": "P.S. Howe, Basic Nutrition in Health & Disease, W. B. Saunders Co., Philadelphia (7th ed.)",
+     "year_print": "1981"
+    },
+    {
+     "no": 3,
+     "book": "Robert E.C. Wildman, Denis M. Medeiros, Advanced Human Nutrition, CRC Press",
+     "year_print": "2014"
+    },
+    {
+     "no": 4,
+     "book": "Shubhangini A. Joshi Nutrition and Dietetics, Tata McGraw-Hill Education",
+     "year_print": "2010"
+    },
+    {
+     "no": 5,
+     "book": "M. Swaminathan, Advanced Text-Book On Food & Nutrition (Vol- I & II), Banglore Printing and Publishing",
+     "year_print": "2012"
+    },
+    {
+     "no": 6,
+     "book": "N. Shakuntala Manay and M.Swamy: Food Facts & Principles, New Age International",
+     "year_print": "2008"
+    }
+   ],
+   "unit_table_headers_print": "Units | Contents | Lecture Hours",
+   "units": {
+    "1": "Nutrition, Energy requirements of the body, Recommended Dietary Intakes (RDI) and its uses. Factors affecting nutritional requirement of an individual, Malnutrition. Role of nutrients, Effects of deficient or excess intake of the individual essential nutrients.",
+    "2": "Balanced diet and basic food groups; Digestion, absorption and utilization of nutrients in the body. Foods for pregnant ladies and nursing mothers, Infant and baby foods, Adolescent / Teen-age foods, Geriatric foods.",
+    "3": "Therapeutic Diets, Modification in texture and consistency of diet, Modification of normal diet during illness and convalescence. Diet during energy imbalance and metabolic disorders.",
+    "4": "Diets recommended and restricted in Gastrointestinal disorders, Cardiovascular diseases, Kidney and Liver disease. Dietary modification in Food allergy and Fever & Infections. Diet during Gallbladder and Pancreatic disturbances.",
+    "5": "Beneficial Effects of Spices, Gamma-linolenic acid, Spirulina, Antioxidants and other foods for special medicinal purpose. Functional foods & Nutraceuticals, Gluten free foods, Low glycemic index foods, Foods for special dietary use, Organic foods, and Novel & Proprietary foods"
+   },
+   "lectures_per_unit": 8,
+   "quirks": [
+    "Course Title prints 'Speciality Foods' on the detail page (p.10) while the Department Elective-IV list on p.2 prints 'Specialty Foods' — both kept verbatim; name variant recorded.",
+    "CO header prints double colon 'Course Outcome::' — verbatim (p.10).",
+    "CO 1 prints trailing '.  .' (double period) — verbatim (p.10).",
+    "Reference book 1 prints 'Benzamin T. Burton' (expected 'Benjamin') and book 5 prints 'Banglore Printing and Publishing' (expected 'Bangalore') — verbatim typos (p.10).",
+    "No K-levels printed for COs."
+   ],
+   "flags": [],
+   "notes": [
+    "All five units print 8 Lecture Hours each; printed Total 40 (pp.10-11)."
+   ]
+  },
+  {
+   "name": "Fundamental Aspects of Food Biotechnology",
+   "name_print": "Fundamental Aspects of Food Biotechnology",
+   "codes": [
+    "BFT074"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P: 3:0:0 (detail p.12); scheme pool row prints '3 - -'",
+   "credit": 3,
+   "credit_print": "Credit: 3",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Department Elective – IV",
+   "learning_mode_print": "Offline",
+   "exam_duration_print": "Examination Duration: 3 Hours",
+   "scheme_line_print": "SN2 | BFT 071-074 | Department Elective – IV | Offline | L-T-P: 3 - - | CT:20 TA:10 Total:30 PS:- TE:70 PE:- | Total:100 | Credit:3 (pool row; this subject is pool member BFT 074)",
+   "locator": "pp.12-13 (detailed syllabus); scheme row p.2 Semester-VII SN2 (pool BFT 071-074); pool list p.2 bottom 'BFT 074: Fundamental Aspects of Food Biotechnology'",
+   "objectives_print": [
+    "To provide basic knowledge of Food biotechnology and its applications in Food Processing Industry",
+    "To learn about the production of different food products by Microbial means.",
+    "To study the Fundamentals of Tissue Culture and Genetic Engineering"
+   ],
+   "prerequisites": "None",
+   "prerequisites_print": "Prerequisites: None",
+   "cos_header_print": "Course Outcome:: Students completing the course will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the importance of Biotechnology in Food processes."
+    },
+    {
+     "no": 2,
+     "text": "Understand the microbial production of organic acids, vitamins and bio-pigments."
+    },
+    {
+     "no": 3,
+     "text": "Understand the sources ,advantages, production &application of microbial enzymes."
+    },
+    {
+     "no": 4,
+     "text": "Understand the production of fermented food products like beer, wine, tofu and soy sauce."
+    },
+    {
+     "no": 5,
+     "text": "Understand the basics of Tissue Culture, Genetic Engineering and Genetically Modified Foods."
+    }
+   ],
+   "reference_books_heading_print": "REFERENCE BOOKS (columns: SN | Name of Authors/Books/Publisher | Year of Publication/Reprints)",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Crueger and Crueger , Biotechnology: A Textbook of Industrial Microbiology, Sinauer Associates Inc.,U.S.",
+     "year_print": "2017"
+    },
+    {
+     "no": 2,
+     "book": "Frazier, W.S. and Weshoff, D.C., Food Microbiology, McGraw Hill Book Co., New York",
+     "year_print": "1988"
+    },
+    {
+     "no": 3,
+     "book": "Roger, A., Gordon, B. and John, T, Food Biotechnology, Cambridge University Press",
+     "year_print": "1989"
+    },
+    {
+     "no": 4,
+     "book": "Prescott & Dunn Industrial Microbiology, CBS Publishers and Distributors",
+     "year_print": "2004"
+    }
+   ],
+   "unit_table_headers_print": "Units | Contents | Lecture Hours",
+   "units": {
+    "1": "Introduction, history, scope and present status of biotechnology in India with reference to Food Technology. Fermentation, types of fermentation: solid and submerged fermentation. Bioreactor, types of bioreactors, Advantages and disadvantages, applications and design aspects of bioreactors used in food industry.",
+    "2": "Biotechnological methods for the production of organic acids, vitamins and bio-pigments (with reference to the microorganisms involved, substrates used, optimum process parameters and their applications) Production of single cell proteins, microbial lipids (microorganisms involved, raw materials, advantages, commonly used methods, safety concerns)",
+    "3": "Sources of enzymes, advantages of microbial enzymes, production, extraction and purification of enzymes. Biotechnological approach for the production of fermented food products, Beer, Wine, Tofu, Soy Sauce, Tempeh, Kefir.",
+    "4": "Tissue culture technology and its application in food industry. Structure of DNA and RNA, Mutation, Mutagens, Types of Mutations and applications of Mutations in Strain Improvement",
+    "5": "Genetic Engineering and applications, Gene Cloning procedures-general outline, Recombinant DNA Technology, Genetically Modified Foods and their applications. Safety issues related to Genetically Modified Foods."
+   },
+   "lectures_per_unit": 8,
+   "quirks": [
+    "CO header prints double colon 'Course Outcome::' — verbatim (p.12).",
+    "CO 3 prints 'the sources ,advantages, production &application' (spacing) — verbatim (p.12).",
+    "Prerequisites print 'None' (sibling FT electives print 'Food Technology') — as printed (p.12).",
+    "No K-levels printed for COs."
+   ],
+   "flags": [],
+   "notes": [
+    "All five units print 8 Lecture Hours each; printed Total 40 (pp.12-13)."
+   ]
+  },
+  {
+   "name": "Food Quality Evaluation Lab",
+   "name_print": "Food Quality Evaluation Lab",
+   "codes": [
+    "BFT751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "scheme row p.2 prints '0 0 2'; detail page p.14 header prints 'L: T: P: 3:0:0' (contradiction kept verbatim)",
+   "credit": 1,
+   "credit_print": "scheme row prints Credit 1; detail page p.14 prints 'Credit: 3' (contradiction kept verbatim)",
+   "marks": {
+    "ps": 50,
+    "pe": 50,
+    "total": 100
+   },
+   "subject_type": "Program Core",
+   "learning_mode_print": "Offline",
+   "exam_duration_print": "Examination Duration: 3 Hours",
+   "scheme_line_print": "SN4 | BFT751 | Food Quality Evaluation Lab | Offline | L-T-P: 0 0 2 | CT:- TA:- Total:- PS:50 TE:- PE:50 | Total:100 | Credit:1",
+   "locator": "p.14 (detailed syllabus); scheme row p.2 Semester-VII SN4",
+   "objectives_print": [
+    "To provide basic insight into the practical aspects of Food Quality",
+    "To provide knowledge for the assessment of quality of foods from different food categories"
+   ],
+   "prerequisites": "Food Technology",
+   "prerequisites_print": "Prerequisites: Food Technology",
+   "cos_header_print": "Course Outcome:: Students completing the course will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the testing and evaluation of various parameters of food quality"
+    },
+    {
+     "no": 2,
+     "text": "Understand the different techniques to perform sensory evaluation study of foods"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concepts of Food quality and its role in food industry"
+    },
+    {
+     "no": 4,
+     "text": "Understand the quality evaluation of industrial food products"
+    },
+    {
+     "no": 5,
+     "text": "Understand the quality assessment of food products as per FSSAI Act"
+    }
+   ],
+   "reference_books_heading_print": "REFERENCE BOOKS (columns: SN | Name of Authors/Books/Publisher | Year of Publication/Reprints)",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "S.Ranganna, “Handbook of Analysis and Quality Control for Fruit and Vegetable Products”. S, Tata McGraw-Hill Education 2nd Edition",
+     "year_print": "2017"
+    },
+    {
+     "no": 2,
+     "book": "Quality  Y.Pomeranz: Food Analysis: Theory and practice",
+     "year_print": "2000"
+    },
+    {
+     "no": 3,
+     "book": "M.A. Amerine: Principles of Sensory Analysis of Food",
+     "year_print": "2005 (Reprint)"
+    },
+    {
+     "no": 4,
+     "book": "Morris B. Jacobs: The chemical analysis of foods and food products, III Edition, CBS Publishers and distributors New Delhi.",
+     "year_print": "2013 (Reprint)"
+    }
+   ],
+   "units_heading_print": "Course Details / Units Contents (no Lecture Hours column printed for this lab)",
+   "units": {
+    "1": "Sensitivity tests(Threshold/Dilution) to measure Individual Ability for sensory analysis",
+    "2": "Difference tests to evaluate qualitative and quantitative differences and/ or preference between test products",
+    "3": "Assessment of quality of wheat flour (Water Absorption Power, Gluten Content, Sedimentation Value etc.)",
+    "4": "Assessment of quality of Bakery Products: Bread, Biscuits, Cakes etc.",
+    "5": "Assessment of quality of vegetable oils",
+    "6": "Assessment of quality of Fruit &Vegetable Products: Tomato Products, Jam, Jelly, Marmalades, Squashes & Cordials, Canned Products.",
+    "7": "Assessment of Quality of Beverages: Tea & Coffee, Carbonated and RTS Beverages.",
+    "8": "Assessment of Quality of Milk",
+    "9": "Assessment of Quality of Dairy Products like Butter, Ice-cream, Cheese etc.",
+    "10": "Assessment of Quality of Fermented Foods like Yoghurt, Sauerkraut etc."
+   },
+   "quirks": [
+    "LTP/credit contradiction: scheme row (p.2) prints 0 0 2, Credit 1; detail page header (p.14) prints 'L: T: P: 3:0:0 Credit: 3'. Scheme values adopted (Sem-VII credit arithmetic 3+3+3+1+2+5+2 = printed Total Credit 19 confirms 1 credit); detail-page print kept verbatim in ltp_print/credit_print.",
+    "Marks printed as CT:- TA:- Total:- PS:50 TE:- PE:50 Total:100 — as printed (p.2).",
+    "CO header prints double colon 'Course Outcome::' — verbatim (p.14).",
+    "Reference book 2 prints garbled 'Quality  Y.Pomeranz: Food Analysis: Theory and practice' — verbatim (p.14).",
+    "Reference book 1 prints stray '. S,' after the title ('...Products”. S, Tata McGraw-Hill Education 2nd Edition') — verbatim (p.14).",
+    "Lab contents are printed under heading 'Units Contents' as Units I-X with no Lecture Hours column (p.14); transcribed as units 1-10.",
+    "Unit VI prints 'Fruit &Vegetable Products' (missing space after &) and Unit I prints 'Sensitivity tests(Threshold/Dilution)' (missing space) — verbatim.",
+    "No K-levels printed for COs."
+   ],
+   "flags": [
+    "ltp_credit_scheme_vs_detail_mismatch"
+   ],
+   "notes": [
+    "10 lab units printed; no lecture-hour totals printed for this subject."
+   ]
+  },
+  {
+   "name": "Mini Project of Internship Assessment",
+   "name_print": "Mini Project of Internship Assessment",
+   "codes": [
+    "BFT752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "ltp_print": "detail page p.15 prints run-on 'L: T: P: 0:0:4Credit: 2'; scheme row prints '0 0 4'",
+   "credit": 2,
+   "credit_print": "Credit: 2",
+   "marks": {
+    "ps": 100,
+    "total": 100
+   },
+   "subject_type": "Program Core",
+   "learning_mode_print": "(Mode cell printed blank in scheme row)",
+   "exam_duration_print": "Examination Duration: --",
+   "scheme_line_print": "SN5 | BFT752 | Mini Project of Internship Assessment* | (Mode printed blank) | L-T-P: 0 0 4 | CT:- TA:- Total:- PS:100 TE:- PE:- | Total:100 | Credit:2",
+   "locator": "p.15 (detailed syllabus); scheme row p.2 Semester-VII SN5",
+   "objectives_print": [
+    "Student is able to learn process industry practices and understanding the correlation between the theoretical and practical knowledge"
+   ],
+   "prerequisites": "Nil",
+   "prerequisites_print": "Prerequisites: Nil",
+   "cos_header_print": "Course Outcome: Students are expected to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "understand the  industrial plant processes"
+    },
+    {
+     "no": 2,
+     "text": "correlate theoretical and practical knowledge"
+    },
+    {
+     "no": 3,
+     "text": "analyse the problems in industries"
+    },
+    {
+     "no": 4,
+     "text": "develop lifelong learning skills"
+    },
+    {
+     "no": 5,
+     "text": "develop the teamwork"
+    },
+    {
+     "no": 6,
+     "text": "apply the various engineering tools for solving complex problems"
+    }
+   ],
+   "course_details_heading_print": "Course Details (bulleted with 'o' markers as printed; no Units table printed)",
+   "course_details_print": [
+    "The Mini Project or internship (5-6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+    "The Mentor/Teacher shall guide and supervise the activities of the student while the student is undergoing Industrial Training.",
+    "The Industrial Training report is to be prepared in consultation with the Mentor/Teacher and industry. Students are required to submit neatly typed and spiral bound training report after joining the college in 7th Semester.",
+    "The report should include information about working of the industry and specific information of the work done by the student in the industry. The students are also required to attach the Certificate issued by the competent authority from the industry where he/she has undergone training mentioning the successful completion of the training. The report must be duly signed by his/her Mentor.",
+    "The students are required to share their experience during the Industrial training at the start of the term and assessment for the same will be made through presentation.  The student is required to present the report of the skills / knowledge acquired by her/him during the training for his industrial training evaluation. Report should be prepared as per the guidelines of Institute."
+   ],
+   "units": {},
+   "quirks": [
+    "Subject Code prints double space 'BFT  752' — verbatim (p.15).",
+    "Detail header prints run-on 'L: T: P: 0:0:4Credit: 2' — verbatim (p.15).",
+    "Scheme row name carries footnote marker '*'; the p.2 footnote prints 'The Mini Projector internship' (expected 'Mini Project or internship') — verbatim.",
+    "CO 1 prints double space 'the  industrial plant processes' — verbatim (p.15).",
+    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print.",
+    "project/assessment course: the printed Course-Details page carries a CO table (+ objectives prose) and NO unitwise theory anywhere in the document (recorded B08 v11 class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
+   "flags": [
+    "no_units_course_details_prose_only",
+    "co_only_no_units_printed"
+   ],
+   "notes": [
+    "Scheme footnote (p.2): '*The Mini Projector internship (5-6 weeks) will be  conducted during the semester break after VI semester and shall be assessed during VII semester.'"
+   ]
+  },
+  {
+   "name": "Project - I",
+   "name_print": "Project - I",
+   "codes": [
+    "BFT753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 10
+   },
+   "ltp_print": "detail page p.16 prints 'L: T: P: 0:0:10  Credit: 5'; scheme row prints '0 0 10'",
+   "credit": 5,
+   "credit_print": "Credit: 5",
+   "marks": {
+    "ps": 150,
+    "total": 150
+   },
+   "subject_type": "Program Core",
+   "learning_mode_print": "(Mode cell printed blank in scheme row)",
+   "exam_duration_print": "Examination Duration: --",
+   "scheme_line_print": "SN6 | BFT753 | Project – I | (Mode printed blank) | L-T-P: 0 0 10 | CT:- TA:- Total:- PS:150 TE:- PE:- | Total:150 | Credit:5",
+   "locator": "pp.16-17 (detailed syllabus); scheme row p.2 Semester-VII SN6",
+   "objectives_print": [
+    "Student is able to apply their theoretical and practical knowledge during the curriculum and solve the problem in Food Technology"
+   ],
+   "prerequisites": "Nil",
+   "prerequisites_print": "Prerequisites: Nil",
+   "cos_header_print": "Course Outcome: Students are expected to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "demonstrate a sound technical knowledge of their selected project topic."
+    },
+    {
+     "no": 2,
+     "text": "undertake problem identification, formulation and solution."
+    },
+    {
+     "no": 3,
+     "text": "design solutions to complex problems utilising a systems approach."
+    },
+    {
+     "no": 4,
+     "text": "apply concepts for optimization of ongoing processes/product formulations"
+    },
+    {
+     "no": 5,
+     "text": "design and optimize new product development"
+    },
+    {
+     "no": 6,
+     "text": "demonstrate the skills, knowledge, and attitudes of a professional engineer."
+    }
+   ],
+   "course_details_heading_print": "Course Details (prose; no Units table printed)",
+   "course_details_print": [
+    "The student can also choose a state-of-the-art problem of their own interest based on the recent trends in Food Technology / Science in consultation with the guide. They shall work on the designated problem either individually or in groups (no of students in groups decides by faculty).",
+    "During the Project-I the students are required to:",
+    "1. Define the project problem.",
+    "2. Write a project proposal including concise introduction of latest published papers in the following order– a. Project title b. Introduction c. Origin of the problem d. Literature review of research and development at national & international level e. Significance of the problem f. Objective g. Methodology h. Details of collaboration (if any)",
+    "3. Carry out preliminary investigations if any or product design or process design etc.",
+    "4. Summarize the results (if any). The student is required to prepare a month wise work plan (for both semesters) immediately after the allotment of the project and the department is required to maintain a progress report of every student/project. The progress report should reflect monthly progress done by the student as per the work plan. The progress report is to be duly signed by the respective project guide by giving the remarks/marks/grades etc. on the periodic progress done by the student should submit the project report at the end of respective terms to the examiners as a supporting document for evaluation.",
+    "Every student will be examined orally based on the topic of his/her project and relevant area to evaluate his understanding of the problem and the progress made by the student during the term. Students should submit a neatly typed and spiral bound research proposal at the end ofthe first term in the following format. Font: Times New Roman, Font size: 12, Headings: 14, Spacing: 1.5, typed on one side of the A4 size paper with proportionate diagrams, figures, graphs, photographs, tables etc. Referencing style: 1. Author Name, Title of Paper, Publisher/ Journal  Volume, (Year), Page no. (Reference numbers should be mentioned in the main text as a superscript).",
+    "The report should contain:",
+    "Page 1: The cover page - should mention: Project title, Name of the student, Name of the guide, Exam seat number and Year.",
+    "Page 2: Certificate",
+    "Page 3: Index",
+    "Page 4 onwards: Research proposal (as above), experimental investigation details and result if any. Last page: References The department should prepare a template of the format of the project report and supply it to the students so as to maintain the uniformity in the project reports. Students are encouraged to participate and present their project work in various events, competitions, conferences and seminars etc. in consultation with their guide.",
+    "Note: The project guides are required to educate the students about antiplagiarism policy of AKTU and apply the same while doing the project."
+   ],
+   "units": {},
+   "quirks": [
+    "CO-5 prints missing colon: 'CO-5 design and optimize new product development' — verbatim (p.16).",
+    "Detail title prints 'Project - I' (hyphen) while scheme row prints 'Project – I' (en dash) — both verbatim.",
+    "Course Details prose prints run-on 'at the end ofthe first term' — verbatim (p.16).",
+    "Referencing style prints 'Referencing style: 1. Author Name, ...' with the '1.' hanging at the end of p.16 and 'Author Name, ...' starting p.17 — transcribed continuously, verbatim.",
+    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print.",
+    "project/assessment course: the printed Course-Details page carries a CO table (+ objectives prose) and NO unitwise theory anywhere in the document (recorded B08 v11 class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
+   "flags": [
+    "no_units_course_details_prose_only",
+    "co_only_no_units_printed"
+   ],
+   "notes": []
+  },
+  {
+   "name": "Startup and Entrepreneurial Activity Assessment",
+   "name_print": "Startup and Entrepreneurial Activity Assessment",
+   "codes": [
+    "BFT754"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "ltp_print": "detail page p.18 prints run-on 'L: T: P: 0:0:4Credit: 2'; scheme row prints '0 0 4'",
+   "credit": 2,
+   "credit_print": "Credit: 2",
+   "marks": {
+    "ps": 100,
+    "total": 100
+   },
+   "subject_type": "Program Core",
+   "learning_mode_print": "(Mode cell printed blank in scheme row)",
+   "exam_duration_print": "Examination Duration: --",
+   "scheme_line_print": "SN7 | BFT754 | Startup and Entrepreneurial Activity Assessment# | (Mode printed blank) | L-T-P: 0 0 4 | CT:- TA:- Total:- PS:100 TE:- PE:- | Total:100 | Credit:2",
+   "locator": "p.18 (detailed syllabus); scheme row p.2 Semester-VII SN7",
+   "objectives_print": [
+    "Student is able tounderstand the start and entrepreneurial policies of country and able define objective of work for start-up/entrepreneurial activity"
+   ],
+   "prerequisites": "BFT 753",
+   "prerequisites_print": "Prerequisites: BFT 753",
+   "cos_header_print": "Course Outcome: Students are expected to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "demonstrate a sound knowledge of start-up and entrepreneurship"
+    },
+    {
+     "no": 2,
+     "text": "develop the entrepreneurship development skills"
+    },
+    {
+     "no": 3,
+     "text": "skill development of teamwork, leadership, etc"
+    },
+    {
+     "no": 4,
+     "text": "understand the policies of central and state government for start-up skill"
+    },
+    {
+     "no": 5,
+     "text": "understand entrepreneurialopportunity and enterprise planning"
+    },
+    {
+     "no": 6,
+     "text": "develop the own the business model/plan"
+    }
+   ],
+   "course_details_heading_print": "Course Details (items A), B), C) with 'o' sub-bullets as printed; no Units table printed)",
+   "course_details_print": [
+    "A) Institute should organize the motivational talk/workshop/seminar on the following topics in order the motivate the students for start-up/entrepreneurship",
+    "o Introduction to Entrepreneurship development",
+    "o Entrepreneurship Development Skills",
+    "o Various Central and State Level Organizations Which Help the Entrepreneurs, Banks and non-banking financial organisations, Fund Collection for Entrepreneurship",
+    "o Sensing entrepreneurial opportunities, selecting the right opportunity, Site Selection, Feasibility Analysis",
+    "o Business plan - concept, format, components of business plan. Significance of Business Plan. Making of a Business plan",
+    "B) Institute should appoint one mentor for student or group of students to monitor the progress of the student and student should encourage to work on project/idea to convert into start-up. Student should encourage to participate in the start-up hackathon organized ministry of education, other agencies",
+    "C) Student is expected to develop the won business model on selected topic and submit complete report of the same in format provided by institute. Assessment will be done based on the business model develop by the student in form of product/web portal/idea base presentation, etc."
+   ],
+   "units": {},
+   "quirks": [
+    "Objectives print 'Student is able tounderstand ... and able define objective of work' (missing space / missing 'to') — verbatim (p.18).",
+    "CO-5 prints 'entrepreneurialopportunity' (run-on) — verbatim (p.18).",
+    "CO-6 prints 'develop the own the business model/plan' — verbatim (p.18).",
+    "Course Details item C prints 'develop the won business model' (expected 'own') — verbatim (p.18).",
+    "Detail header prints run-on 'L: T: P: 0:0:4Credit: 2' — verbatim (p.18).",
+    "Scheme row name carries footnote marker '#' (p.2).",
+    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print.",
+    "project/assessment course: the printed Course-Details page carries a CO table (+ objectives prose) and NO unitwise theory anywhere in the document (recorded B08 v11 class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
+   "flags": [
+    "no_units_course_details_prose_only",
+    "co_only_no_units_printed"
+   ],
+   "notes": [
+    "Scheme footnote (p.2): '#The Startup  and  Entrepreneurial  Activity Assessment will be done in 7thsemester under which a student will have to undergo a startup /entrepreneurship activity of at least 60 hours till 6thsemester'."
+   ]
+  },
+  {
+   "name": "Project - II",
+   "name_print": "Project - II",
+   "codes": [
+    "BFT851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 18
+   },
+   "ltp_print": "detail page p.19 prints run-on 'L: T: P: 0:0:18Credit: 10'; scheme row prints '0 0 18'",
+   "credit": 10,
+   "credit_print": "Credit: 10",
+   "marks": {
+    "ps": 100,
+    "pe": 350,
+    "total": 450
+   },
+   "subject_type": "Program Core",
+   "learning_mode_print": "(Mode cell printed blank in scheme row)",
+   "exam_duration_print": "Examination Duration: --",
+   "scheme_line_print": "SN3 | BFT851 | Project – II | (Mode printed blank) | L-T-P: 0 0 18 | CT:- TA:- Total:- PS:100 TE:- PE:350 | Total:450 | Credit:10",
+   "locator": "p.19 (detailed syllabus); scheme row p.2 Semester-VIII SN3",
+   "objectives_print": [
+    "Student is able to apply their theoretical and practical knowledge during the curriculum and solve the problem in chemical engineering"
+   ],
+   "prerequisites": "BFT 753",
+   "prerequisites_print": "Prerequisites: BFT 753",
+   "cos_header_print": "Course Outcome: Students are expected to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "demonstrate a sound technical knowledge of their selected project topic."
+    },
+    {
+     "no": 2,
+     "text": "undertake problem identification, formulation and solution."
+    },
+    {
+     "no": 3,
+     "text": "design solutions to complex problems utilising a systems approach."
+    },
+    {
+     "no": 4,
+     "text": "apply concepts for optimization of ongoing processes/product formulations"
+    },
+    {
+     "no": 5,
+     "text": "design and optimize new product development"
+    },
+    {
+     "no": 6,
+     "text": "demonstrate the skills, knowledge, and attitudes of a professional engineer."
+    }
+   ],
+   "course_details_heading_print": "Course Details (prose; no Units table printed)",
+   "course_details_print": [
+    "During the second term (Project Part-II) the students are required to:",
+    "1. Carry out detailed work on previously defined (Project Part-I) project problem.",
+    "2. Write a Project Report, which should be broadly divided into the following sections define by the supervisor. Font: Times New Roman, Font size: 12, Headings: 14, Spacing: 1.5, typed on one side of the A4 size paper with proportionate diagrams, figures, graphs, photographs, tables etc.  Referencing style: Author Name, Title of Paper, Publisher/ Journal  Volume, (Year), Page No. (Reference numbers should be mentioned in the main text as a superscript)",
+    "The Project Report should contain in the following order:",
+    "1. The cover page –must mention: Project title, Name of the student(s), Name of the guide, Exam seat number and Year.",
+    "2. Certificate from guide",
+    "3. Certificate from industry (if any)",
+    "4. Index",
+    "5. Detailed Project Report having sections ‘a’ to ‘g’ from above. The student is required to prepare a month wise work plan (for both semesters) immediately after the allotment of the project and the department is required to maintain a progress report of every student/project. The progress report should reflect monthly progress done by the student as per the work plan. The progress report is to be duly signed by the respective project guide by giving the remarks/marks/grades etc. on the periodic progress done by the student at the mid of the term and should be submitted along with project report at the end of respective terms to the examiners as a supporting document for evaluation.",
+    "Each student is required give presentation of his work for 15 minutes using 20-22 slides. The presentation will be followed by question answer session of 5 min. The department/university will provide template of the format of the project report so as to maintain the uniformity in the project reports.  Students are encouraged to participate and present their project work in various events, competitions, conferences and seminars etc. in consultation with their guide.",
+    "Note: Students must check plagiarism policy of AKTU and apply the same while doing the project."
+   ],
+   "units": {},
+   "quirks": [
+    "Detail page header prints 'Semester: VII (Odd)' although the scheme table (p.2) places BFT851 in SEMESTER-VIII — copy-paste artifact; semester taken as 8 per scheme table, detail print kept verbatim here.",
+    "Objectives print 'solve the problem in chemical engineering' in a Food Technology syllabus (copy-paste artifact from another course) — verbatim (p.19).",
+    "Detail header prints run-on 'L: T: P: 0:0:18Credit: 10' — verbatim (p.19).",
+    "Detail title prints 'Project - II' (hyphen) while scheme row prints 'Project – II' (en dash) — both verbatim.",
+    "COs CO-1..CO-6 are printed identical to BFT753 Project - I — as printed (p.19).",
+    "Item 1 of report order prints run-on '–must mention' — verbatim (p.19).",
+    "No Units/lecture-hours, no reference books, no K-levels printed for this subject; Course Details prose transcribed verbatim in course_details_print.",
+    "project/assessment course: the printed Course-Details page carries a CO table (+ objectives prose) and NO unitwise theory anywhere in the document (recorded B08 v11 class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
+   "flags": [
+    "no_units_course_details_prose_only",
+    "semester_print_mismatch_detail_page_vii_vs_scheme_viii",
+    "co_only_no_units_printed"
+   ],
+   "notes": [
+    "Marks printed as CT:- TA:- Total:- PS:100 TE:- PE:350 Total:450 (p.2 Semester-VIII row 3); 100+350=450 consistent."
+   ]
+  },
+  {
+   "name": "Open Elective – II",
+   "name_print": "Open Elective – II",
+   "codes": [
+    "BOE**"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "scheme row prints '3 - -' (T and P printed as '-'; Sem-VII totals row L-T-P 9-0-20 confirms dashes read as 0)",
+   "credit": 3,
+   "credit_print": "Credit: 3",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Open Elective – II",
+   "learning_mode_print": "Offline/ MOOCs",
+   "scheme_line_print": "SN3 | BOE** | Open Elective – II | Offline/ MOOCs | L-T-P: 3 - - | CT:20 TA:10 Total:30 PS:- TE:70 PE:- | Total:100 | Credit:3",
+   "locator": "p.2 Semester-VII scheme row SN3; Tentative MOOC list p.3",
+   "units": {},
+   "quirks": [
+    "Wildcard pool code 'BOE**' printed as printed; no detailed syllabus section for this row exists in the document.",
+    "p.3 Tentative MOOC list prints blank MOOC Course Code cells for both listed courses — as printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "wildcard_pool_code"
+   ],
+   "notes": [
+    "Verbatim scheme row (p.2, Semester-VII SN3): 'BOE** | Open Elective – II | Offline/ MOOCs | 3 - - | 20 10 30 - 70 - | 100 | 3'.",
+    "Tentative List of MOOC Course offered as Open Elective – II for AY 25-26 Odd Semester Only# (p.3): 'Environmental, Food & Dairy Microbiology' — By Debjani Dutta, St. Xavier’s College, Kolkata — Swayam Portal; 'Human Nutrition and Biochemistry' — By Dr. V. Vijaya Lakshmi — Swayam Portal. MOOC Course Code column printed blank. Footnote: '# subject to approval from academic council of AKTU'."
+   ]
+  },
+  {
+   "name": "Open Elective – III",
+   "name_print": "Open Elective – III",
+   "codes": [
+    "BOEM**"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "scheme row prints '3 - -' (T and P printed as '-')",
+   "credit": 3,
+   "credit_print": "Credit: 3",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Open Elective – III",
+   "learning_mode_print": "MOOC",
+   "scheme_line_print": "SN1 | BOEM** | Open Elective – III | MOOC | L-T-P: 3 - - | CT:20 TA:10 Total:30 PS:- TE:70 PE:- | Total:100 | Credit:3",
+   "locator": "p.2 Semester-VIII scheme row SN1",
+   "units": {},
+   "quirks": [
+    "Wildcard pool code 'BOEM**' printed as printed; no detailed syllabus section for this row exists in the document."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "wildcard_pool_code"
+   ],
+   "notes": [
+    "Verbatim scheme row (p.2, Semester-VIII SN1): 'BOEM** | Open Elective – III | MOOC | 3 - - | 20 10 30 - 70 - | 100 | 3'.",
+    "MOOC footnote (p.2): '** The Internal Assessment of MOOCs will be done by the respective institute, and the External Assessment (End Semester Examination) will be done by the University.'"
+   ]
+  },
+  {
+   "name": "Open Elective-IV",
+   "name_print": "Open Elective-IV",
+   "codes": [
+    "BOEM**"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "scheme row prints '3 - -' (T and P printed as '-')",
+   "credit": 3,
+   "credit_print": "Credit: 3",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Open Elective-IV",
+   "learning_mode_print": "MOOC",
+   "scheme_line_print": "SN2 | BOEM** | Open Elective-IV | MOOC | L-T-P: 3 - - | CT:20 TA:10 Total:30 PS:- TE:70 PE:- | Total:100 | Credit:3",
+   "locator": "p.2 Semester-VIII scheme row SN2",
+   "units": {},
+   "quirks": [
+    "Wildcard pool code 'BOEM**' printed as printed; no detailed syllabus section for this row exists in the document.",
+    "Row name prints 'Open Elective-IV' (no space before 'IV') while SN1 prints 'Open Elective – III' (spaced en dash) — verbatim."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "wildcard_pool_code"
+   ],
+   "notes": [
+    "Verbatim scheme row (p.2, Semester-VIII SN2): 'BOEM** | Open Elective-IV | MOOC | 3 - - | 20 10 30 - 70 - | 100 | 3'.",
+    "MOOC footnote (p.2): '** The Internal Assessment of MOOCs will be done by the respective institute, and the External Assessment (End Semester Examination) will be done by the University.'"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "Evaluation Scheme & Syllabus For B.TECH. FINAL YEAR (FOOD TECHNOLOGY) Based on AICTE MODEL CURRICULUM & NEP2020 (Effective from the Session: 2025-26)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "course_header",
+   "print": "DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY, LUCKNOW — B.TECH IV YEAR VII & VIII SEMESTER FOOD TECHNOLOGY",
+   "locator": "p.2"
+  },
+  {
+   "kind": "semester_header",
+   "print": "SEMESTER-VII",
+   "locator": "p.2"
+  },
+  {
+   "kind": "semester_header",
+   "print": "SEMESTER-VIII",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_legend",
+   "print": "PC- Program Core",
+   "locator": "p.2 (below Semester-VII table)"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "*The Mini Projector internship (5-6 weeks) will be  conducted during the semester break after VI semester and shall be assessed during VII semester.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "#The Startup  and  Entrepreneurial  Activity Assessment will be done in 7thsemester under which a student will have to undergo a startup /entrepreneurship activity of at least 60 hours till 6thsemester",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "** The Internal Assessment of MOOCs will be done by the respective institute, and the External Assessment (End Semester Examination) will be done by the University.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Department Elective - IV | BFT 071: Food Packaging | BFT 072: Food Processing Waste Management | BFT 073: Specialty Foods | BFT 074: Fundamental Aspects of Food Biotechnology",
+   "locator": "p.2 bottom"
+  },
+  {
+   "kind": "semester_summary_row",
+   "print": "Total | 9 0 20 | 750 | 19",
+   "locator": "p.2 Semester-VII totals row (L-T-P 9-0-20; Total 750; Total Credit 19)"
+  },
+  {
+   "kind": "semester_summary_row",
+   "print": "Total | 6 0 18 | 650 | (Total Credit cell printed blank)",
+   "locator": "p.2 Semester-VIII totals row (L-T-P 6-0-18; Total 650)"
+  },
+  {
+   "kind": "mooc_open_elective_list_header",
+   "print": "Tentative List of MOOC Course offered as Open Elective – II for AY 25-26 Odd Semester Only#",
+   "locator": "p.3"
+  },
+  {
+   "kind": "mooc_open_elective_list_row",
+   "print": "MOOC Course Code: (blank) | Title of Course: Environmental, Food & Dairy Microbiology | Details: By Debjani Dutta, St. Xavier’s College, Kolkata Swayam Portal",
+   "locator": "p.3"
+  },
+  {
+   "kind": "mooc_open_elective_list_row",
+   "print": "MOOC Course Code: (blank) | Title of Course: Human Nutrition and Biochemistry | Details: By Dr. V. Vijaya Lakshmi Swayam Portal",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "# subject to approval from academic council of AKTU",
+   "locator": "p.3"
+  },
+  {
+   "kind": "print_artifact",
+   "print": "F",
+   "locator": "p.8 top — stray character printed before 'Subject Code: BFT 072'"
+  },
+  {
+   "kind": "co_po_mapping_table",
+   "print": "CO-PO Mapping (1 to 3 scale) — matrix printed per subject for BFT701, BFT071, BFT072, BFT073, BFT074, BFT751, BFT752, BFT753, BFT754, BFT851; matrix values not transcribed (no field in draft spec §7; full print preserved in parsed fulltext)",
+   "locator": "pp.4-19"
+  }
+ ],
+ "quirks": [
+  "Course print is 'B.TECH. FINAL YEAR (FOOD TECHNOLOGY)' / 'B.TECH IV YEAR VII & VIII SEMESTER FOOD TECHNOLOGY' (pp.1-2); canonical course_name BTech per RULES §1b.",
+  "Scheme header cells wrap in the text layer ('Total Credi/nt', 'C/T /TA') — table furniture, not content.",
+  "Sem-VII footnotes print run-ons '7thsemester' and '6thsemester' — verbatim (p.2).",
+  "Semester-VIII totals row prints L-T-P 6-0-18 and 650 marks; the Total Credit cell is printed blank (3+3+10=16 not printed) — as printed.",
+  "Semester-VIII table prints MOOC rows with 'BOEM**' wildcard codes; Sem-VII prints 'BOE**' for Open Elective – II — wildcards as printed.",
+  "No K-levels (K1-K6) are printed for any course outcome anywhere in the document.",
+  "All subjects print 'Course Outcome' headers; three variants occur: 'Course Outcome: On successful completion of the course, the student will be able to:' (BFT701), 'Course Outcome::/Course Outcome: Students completing the course will be able to' (BFT071-074, BFT751), 'Course Outcome: Students are expected to:' (BFT752/753/754/851).",
+  "Reference-book tables carry two printed columns (Name of Authors/Books/Publisher | Year of Publication/Reprints); year cell captured per book in year_print.",
+  "Stray character 'F' printed at top of p.8 (page artifact).",
+  "Project-type subjects (BFT752/753/754/851) print no Units tables and no reference books; their Course Details prose is captured verbatim in course_details_print."
+ ],
+ "flags": [
+  "wildcard_pool_codes_printed: BOE**, BOEM**",
+  "no_k_levels_printed",
+  "department_elective_iv_pool_fully_detailed: BFT 071, BFT 072, BFT 073, BFT 074 all four electives detailed in this PDF",
+  "scheme_row_only_open_electives: BOE** (Sem-VII OE-II), BOEM** x2 (Sem-VIII OE-III & OE-IV)"
+ ]
+}

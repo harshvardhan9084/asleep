@@ -1,0 +1,1492 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_ft_y2_model-curriculum_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "d50ea38d1e2b1f8d",
+ "stem": "09_btech_ft_y2_model-curriculum_2019-20",
+ "subjects": [
+  {
+   "name": "Material And Energy Balance",
+   "name_print": "Material And Energy Balance",
+   "codes": [
+    "KCH301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "1. Introduction: Units and dimension in chemical engineering, units conversion of dimensional equations, stoichiometric and composition relations, concept of degrees of freedom and linear independence of a set of equations. [Lecture Hours: 5]\n2. Material Balance: Concept of material balance, open and closed systems, steady state and unsteady state, multiple component system, selection of a basis, problem solving strategy. [Lecture Hours: 4]",
+    "2": "3. Material Balance without Chemical Reaction for Single and Multiple Units: Conservation of mass/atom, material balance for Systems without chemical reactions involving single unit and multiple units. [Lecture Hours: 5]\n4. Material Balance with Chemical Reaction for Single and Multiple Units: Concept of excess reactant, extent of reaction, Material balance for systems with chemical reactions involving single unit and multiple units. [Lecture Hours: 6]",
+    "3": "5. Recycle, Bypass, Purge and Industrial Applications: Calculations for a cyclic processes involving recycle/ purge/ bypass, material balances involving gases, vapors, liquids and solids and use of real gas relationships, material balance involving gases, vapors, liquids & solids and uses of real gas relationships, vapor-liquid equilibrium and concepts of humidity & saturation, analysis of systems with bypass, recycle and purge, analysis of processes involving condensation, crystallization and vaporization. [Lecture Hours: 7]",
+    "4": "6. Energy Balance: Conservation of energy with reference to general energy balance with and without chemical reactions, chemical engineering problems involving reversible processes and mechanical energy balance. [Lecture Hours: 4]\n7. Applications of Energy Balance: Calculations of heat of change of phase (solid – liquid & liqid – vapor), heat of reaction, heat of combustion, heat of solutions and mixing, determination of temperatures for adiabatic and non-adiabatic reactions, use of psychometric and enthalpy- concentration diagrams. [Lecture Hours: 6]",
+    "5": "8. Simultaneous Material and Energy Balances: Degrees of freedom analysis for multicomponent systems, combined steady state material and energy balances for units with multiple sub-systems. [Lecture Hours: 3]\n9. Unsteady State Material and Energy Balances: Transient materials and energy balances involving with and without chemical reactions. [Lecture Hours: 2]"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply steady-state and unsteady state material and energy balance on a system."
+    },
+    {
+     "no": 2,
+     "text": "Analyze all the stiochiometric and balances being applied on a system undergoing Chemical Process"
+    },
+    {
+     "no": 3,
+     "text": "Design equipment with inlet and outlet; including recycle- bypass streams for a chemical process ."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Himmelblau D.M. and Riggs J. B.,“ Principles and Calculations in Chemical Engineering”, 8th Ed., Prentice Hall of India.",
+     "year_print": "2012"
+    },
+    {
+     "no": 2,
+     "book": "Felder R.M. and Rousseau R.W., “Elementary Principles of Chemical Processes”, 3rd Ed.., John Wiley.",
+     "year_print": "2005"
+    },
+    {
+     "no": 3,
+     "book": "Bhatt B.I. and Vora S.M., “Stoichiometry”, 5th Ed., Tata McGraw-Hill",
+     "year_print": "2010"
+    },
+    {
+     "no": 4,
+     "book": "Narayanan K.V. and Lakshmikutty B., “Stoichiometry and Process Calculations”, Prentice Hall of India.",
+     "year_print": "2006"
+    },
+    {
+     "no": 5,
+     "book": "Hougen D.A., Watson K.M. and Ragatz R.A., “Chemical Process Principles”, Part-I, 2nd Ed., CBS Publishers.",
+     "year_print": "1995"
+    }
+   ],
+   "objectives_print": [
+    "To provide basic knowledge of principles of material and energy balances applied to chemical engineering systems."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "CO2 prints 'stiochiometric' (typo verbatim) and has no trailing period; CO3's trailing period is printed on its own line after 'chemical process' in the text layer.",
+    "Unit III item 5 prints 'for a cyclic processes' (verbatim) and states the real-gas clause twice ('material balances involving gases... and use of real gas relationships, material balance involving gases... and uses of real gas relationships').",
+    "Unit IV item 7 prints 'liqid – vapor' (typo verbatim), 'psychometric' (for psychrometric) and 'enthalpy- concentration' with hyphen-space.",
+    "Header prints 'SUBJECT CODE:KCH 301' (space inside code); scheme row prints 'Material and Energy Balance' (lowercase 'and') while header prints 'Material And Energy Balance'.",
+    "COURSE DETAILS items numbered continuously 1.-9. across units I-V (other KFT theory subjects restart numbering within each unit)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.4-5; header p4: 'B.TECH II YEAR III SEMESTER FOOD TECHNOLOGY COURSE / SUBJECT CODE:KCH 301 / COURSE TITLE:  Material And Energy Balance / EXAMINATION DURATION: 3 Hrs. / SEMESTER:          III (ODD) / L:3 T:1 P:0 / CREDITS:04 / PRE-REQUISITE: NIL'.",
+    "Scheme row (SEMESTER-III, p2, Sl. No. 3): 'KCH301 | Material and Energy Balance | L3 T1 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 4'.",
+    "COURSE DETAILS prints 'TOTAL 42' lecture hours (p5).",
+    "No TEXT BOOKS section printed in this document (only REFERENCE BOOKS)."
+   ]
+  },
+  {
+   "name": "COMPOSITION, QUALITY & SAFETY OF FOODS",
+   "name_print": "COMPOSITION, QUALITY & SAFETY OF FOODS",
+   "codes": [
+    "KFT301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "1. Composition: Chemical constituents of foods: Desirable and Potentially undesirable food constituents and their importance. [Lecture Hours: 3]\n2 Recommended Dietary Allowances (RDA). Basal metabolic rate and dietary requirements of different age groups. [Lecture Hours: 3]\n3 Composition of foods – General and specific for different foods of plant and animal origin. [Lecture Hours: 2]",
+    "2": "1 Carbohydrates: Classes, Nomenclature and structure. Dietary utilization and disturbances [Lecture Hours: 3]\n2 Lipids: Definition, Classification and structure: Fatty acids composition of natural lipids of plants and animal origin [Lecture Hours: 3]\n3 Essential fatty acids. Role and use of natural lipids and tailor made fats in foods. [Lecture Hours: 3]",
+    "3": "1 Protein: Physico-chemical properties of amino acids, peptides and proteins, structure -function relationship of proteins [Lecture Hours: 5]\n2 Essential Amino acids. Nutritional attributes of food and their implications [Lecture Hours: 3]",
+    "4": "1 Quality: Basic concepts. Nutritional and sensory attributes and their assessment [Lecture Hours: 4]\n2 Causes of undesirable changes leading to quality deterioration in foods and their implications. [Lecture Hours: 3]\n3 Determination of probable cause(s) of observed quality change in foods. [Lecture Hours: 2]",
+    "5": "1 Safety: Operational sense of food safety, Potential Food derived health hazards-Microbial contamination [Lecture Hours: 3]\n2 Pesticide residues, Environmental Contamination. Risk and risk assessment. [Lecture Hours: 2]\n3 HACCP. Adulteration in Foods. Testing food for its safety. [Lecture Hours: 3]"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Characterize the different categories of foods and their components."
+    },
+    {
+     "no": 2,
+     "text": "Understand the Nutritional value of foods, its estimation and Balanced Diet,"
+    },
+    {
+     "no": 3,
+     "text": "Gain insight into the Quality aspects of foods and the relevant parameters and their estimation."
+    },
+    {
+     "no": 4,
+     "text": "Gain insight into Safety of foods, differentiate between Safe and Unsafe foods and know the hazards and risks associated with Unsafe foods."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fennema O.R , “Food Chemistry” , 5TH Edition, Marcel Dekker",
+     "year_print": "2017"
+    },
+    {
+     "no": 2,
+     "book": "Meyer, Lillian Hoagland, “ Food Chemistry”, CBS Publishers & Distributors Pvt. Ltd.,",
+     "year_print": "2004"
+    },
+    {
+     "no": 3,
+     "book": "Kramer, A, Twigg, B A (Eds), “Quality Control for the Food Industry (Volume  I & II)”, The  AVI Publishing Company",
+     "year_print": "1970"
+    },
+    {
+     "no": 4,
+     "book": "Norman N.Potter, Joseph H.Hotchkiss, “ Food Science”, 5th Edition, CBS Publishers & Distributors Pvt. Ltd.,",
+     "year_print": "2007"
+    }
+   ],
+   "objectives_print": [
+    "To provide basic knowledge of  Composition and Nutritional value of foods, Quality of Foods the relevant parameters and information about Safety of foods."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Scheme name cell prints 'Composition, Quality & Safety of  Foods' (double space before 'Foods', normalized).",
+    "Objective prints 'Quality of Foods the relevant parameters' (no punctuation between the clauses, verbatim) and 'of  Composition' with double space (normalized).",
+    "CO2 ends with a comma (verbatim); Unit II items 1-2, Unit III item 2 and Unit IV item 1 have no trailing periods.",
+    "Ref book 1 prints '5TH Edition' (uppercase TH) and spaces before commas ('Fennema O.R ,').",
+    "Unit S.No. prints '1.' with a dot in Unit I but items 2,3 and all items of Units II-V print bare numerals without dots.",
+    "Header prints 'SUBJECT CODE:KFT  301' (double space inside code)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.6-7; header p6: 'B.TECH II YEAR III SEMESTER FOOD TECHNOLOGY COURSE / SUBJECT CODE:KFT  301 / COURSE TITLE: COMPOSITION, QUALITY & SAFETY OF FOODS / EXAMINATION DURATION: 3 Hrs. / SEMESTER:          III (ODD) / L: 3 T:1 P:0 / CREDITS:04 / PRE-REQUISITE: NIL'.",
+    "Scheme row (SEMESTER-III, p2, Sl. No. 4): 'KFT301 | Composition, Quality & Safety of  Foods | L3 T1 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 4'.",
+    "COURSE DETAILS prints 'TOTAL 42' lecture hours (p7)."
+   ]
+  },
+  {
+   "name": "FOOD MICROBIOLOGY",
+   "name_print": "FOOD MICROBIOLOGY",
+   "codes": [
+    "KFT302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "1. General characteristics of microorganism: Classification, morphology, physiology, growth, nutrition and reproduction [Lecture Hours: 4]\n2 Pure culture techniques and maintenance of cultures [Lecture Hours: 2]\n3 Control of microorganisms. [Lecture Hours: 2]",
+    "2": "1 Incidence of microorganism in foods, Sources of contamination [Lecture Hours: 3]\n2 Principles underlying spoilage of foods. Physical and Chemical methods to control microorganisms. [Lecture Hours: 3]\n3 Food poisoning and food borne infections, Microbial toxins, Indicator organisms. [Lecture Hours: 3]",
+    "3": "1 Contamination, spoilage and preservation of cereal products & sugar products [Lecture Hours: 4]\n2 Contamination, spoilage and preservation of fruit and vegetable products, Bakery Products, Microbiological standard of foods. [Lecture Hours: 4]",
+    "4": "1 Contamination, spoilage and preservation of Meat products, Fish and Sea foods, Egg and Poultry products, [Lecture Hours: 4]\n2 Contamination, spoilage and preservation of Milk and Milk products and other foods. Microbiolgical limits. [Lecture Hours: 4]",
+    "5": "1 Food plant sanitation, inspection and control, personnel hygiene [Lecture Hours: 3]\n2 Microbes in food fermentation, putrefaction, Lipolysis. Antagonism and Synergism in microorganisms. [Lecture Hours: 3]\n3 Rapid methods in detection of microorganisms. Standard plate count; Yeast and mould count [Lecture Hours: 3]"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand how microorganisms enter and grow in foods and Understand the growth requirements of common food borne pathogens and spoilage microorganisms."
+    },
+    {
+     "no": 2,
+     "text": "Understand intrinsic and environmental aspects of foods and how they can be modified to affect the growth and metabolism of food borne microorganisms to include spoilage, pathogenic, and beneficial organisms."
+    },
+    {
+     "no": 3,
+     "text": "Be able to attribute the characteristics of a food borne illness with unknown etiology to the most likely organism."
+    },
+    {
+     "no": 4,
+     "text": "To identify and control foodborne diseases and food spoilage"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Banawart GJ, “ Basic Food Microbiology” 2nd  Edition, AVI Publishing Company",
+     "year_print": "1989"
+    },
+    {
+     "no": 2,
+     "book": "Frazier J & Westhoff DC, “ Food Microbiology”, 4th Edition, Tata McGraw Hill",
+     "year_print": "2010"
+    },
+    {
+     "no": 3,
+     "book": "Garbutt J,” Essentials of Food Microbiology” , 2nd Edition, Hodder Arnold",
+     "year_print": "1997"
+    },
+    {
+     "no": 4,
+     "book": "Jay JM, Loessner MJ & Golden DA, “ Modern Food Microbiology”, 7th edition , Springer, NY",
+     "year_print": "2005"
+    },
+    {
+     "no": 5,
+     "book": "Ray B., “ Fundamentals of Food Microbiology”,  5th Edition, CRC Press",
+     "year_print": "2013"
+    }
+   ],
+   "objectives_print": [
+    "To give the students an understanding of the role of microorganisms in food processing and preservation; the relation of microorganisms to food spoilage, foodborne illness, and intoxication; general food processing and quality control and  the role of microorganisms in health promotion."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Header prints CREDITS:04 although its own line prints L:3 T:0 P:0 and the scheme credit column prints 3; credit recorded as 3 (scheme value), contradiction flagged in quirks.",
+    "Ref book 1 author prints 'Banawart GJ' (standard spelling is Banwart; kept verbatim).",
+    "Ref book 3 prints 'Garbutt J,” Essentials of Food Microbiology” ,' (comma before opening quote, space before trailing comma).",
+    "Unit IV item 2 prints 'Microbiolgical limits.' (typo verbatim).",
+    "CO4 has no trailing period; Unit III item 1 has no trailing period and prints '&  sugar products' with double space (normalized); Unit IV item 1 ends with a trailing comma; Unit V item 3 has no trailing period.",
+    "Header is split across pages: 'SUBJECT CODE:KFT  302 / COURSE TITLE: FOOD MICROBIOLOGY / EXAMINATION DURATION: 3 / Hrs. / SEMESTER:          III (ODD) / L:3 T:0 P:0 / CREDITS:04 / PRE-REQUISITE: NIL' at the bottom of p7, OBJECTIVE begins p8."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.7-9 (header bottom p7, OBJECTIVE+COURSE OUTCOME+REFERENCE BOOKS p8, COURSE DETAILS p8-9).",
+    "Scheme row (SEMESTER-III, p2, Sl. No. 5): 'KFT302 | Food Microbiology | L3 T0 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 3'.",
+    "COURSE DETAILS prints 'TOTAL 42' lecture hours (p9)."
+   ]
+  },
+  {
+   "name": "ANALYSIS OF FOOD CONSTITUENTS LAB",
+   "name_print": "ANALYSIS OF FOOD CONSTITUENTS LAB",
+   "codes": [
+    "KFT351"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [
+    {
+     "no": 1,
+     "text": "Gain knowledge of practices for evaluation of appropriate methods for analysis of foods"
+    },
+    {
+     "no": 2,
+     "text": "Understand various methodologies for analysis of components in foods."
+    },
+    {
+     "no": 3,
+     "text": "Knowledge of procedures for sampling, sample storage, preparation, Good Laboratory Practices, and proper record keeping"
+    },
+    {
+     "no": 4,
+     "text": "Describe common instrumentation used in food analysis"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Sampling requirements, procedures and methods."
+    },
+    {
+     "no": 2,
+     "exp": "Determination of moisture content of foods by oven drying and distillation methods."
+    },
+    {
+     "no": 3,
+     "exp": "Determination of Total and Acid insoluble ash content in foods."
+    },
+    {
+     "no": 4,
+     "exp": "Determination of Crude fat content by solvent extraction methods in foods."
+    },
+    {
+     "no": 5,
+     "exp": "Determination of crude Protein by Kjeldhal Lowry methods."
+    },
+    {
+     "no": 6,
+     "exp": "Determination of reducing and total sugar content in foods."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of crude Fibre content in foods."
+    },
+    {
+     "no": 8,
+     "exp": "Determination of specific mineral contents in foods such as Ca, Iron, P, Chloride etc."
+    },
+    {
+     "no": 9,
+     "exp": "Determination of specific vitamin content of food such as ascorbic acid, carotenes etc."
+    },
+    {
+     "no": 10,
+     "exp": "Chromatographic Separation and identification of sugars and amino acids."
+    }
+   ],
+   "objectives_print": [
+    "To study the application and analytical procedures for characterizing the properties of foods and their constituents. These analytical procedures are used to provide information about a wide variety of different characteristics of foods, including their composition, structure, physicochemical properties and sensory attributes."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Header prints 'EXAMINATION DURATION: 2Hrs.' (no space before 'Hrs.').",
+    "LIST OF EXPERIMENTS item 1 prints '1.Sampling' (no space after the number); item 7 prints ' 7.' with a leading space.",
+    "CO1 and CO3 have no trailing periods.",
+    "Header prints 'SUBJECT CODE:KFT  351' (double space inside code)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.9-10 (header+OBJECTIVE+COURSE OUTCOME p9, LIST OF EXPERIMENTS p10).",
+    "Scheme row (SEMESTER-III, p2, Sl. No. 6): 'KFT351 | Analysis of Food Constituents Lab | L0 T0 P2 | CT - TA - Total - | PS25 | TE - | PE25 | End Semester Total 50 | Credit 1'.",
+    "No COURSE DETAILS units and no book list printed for this lab subject."
+   ]
+  },
+  {
+   "name": "FOOD MICROBIOLOGY LAB",
+   "name_print": "FOOD MICROBIOLOGY LAB",
+   "codes": [
+    "KFT352"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [
+    {
+     "no": 1,
+     "text": "Obtain a good understanding of the microscope , microbial stains and culture media used in microbiology."
+    },
+    {
+     "no": 2,
+     "text": "Obtain knowledge on how different processing, storage and environmental conditions affect microbial changes in food systems and how to adjust these conditions to improve or minimize microbial deterioration of foods systems"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Microscope its parts and utility in identification and differentiation of various microorganisms as bacteria, yeast and mold."
+    },
+    {
+     "no": 2,
+     "exp": "Familiarization with common techniques for handling pure culture serial dilution, Inoculation, slide preparation incubation,counting etc."
+    },
+    {
+     "no": 3,
+     "exp": "Micrometry and determination of size of different microbes."
+    },
+    {
+     "no": 4,
+     "exp": "Simple and differential staining of microorganisms and their examination."
+    },
+    {
+     "no": 5,
+     "exp": "Direct total, viable, and non-viable count of microorganisms in milk."
+    },
+    {
+     "no": 6,
+     "exp": "Preparation and sterilization of media and glass ware for microbial counts."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of Standard Plate Count (SPC) in natural and/or processed foods."
+    },
+    {
+     "no": 8,
+     "exp": "Microbiological examination of some selected natural and processed foods.."
+    },
+    {
+     "no": 9,
+     "exp": "Microbiological examination of potable water: Total and coliform count."
+    },
+    {
+     "no": 10,
+     "exp": "Enumeration of coliform organism in some selected processed foods"
+    }
+   ],
+   "objectives_print": [
+    "This is aimed to provide a hands-on opportunity for the students to practice and observe the principles of food microbiology. Students will familiarize themselves with the techniques used to research, regulate, prevent, and control the microorganisms found in food and understand the function of beneficial microorganisms during the food manufacturing process."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "CO1 prints a space before the comma ('microscope ,'); CO2 ends 'foods systems' and has no trailing period.",
+    "Experiment 2 prints 'incubation,counting' (no space after comma).",
+    "Experiment 8 ends with a double period ('foods..'); experiment 10 has no trailing period.",
+    "Header prints 'EXAMINATION DURATION: 2Hrs.' (no space) and 'SUBJECT CODE:KFT  352' (double space inside code)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.10-11 (header+OBJECTIVE+COURSE OUTCOME p10, LIST OF EXPERIMENTS p11).",
+    "Scheme row (SEMESTER-III, p2, Sl. No. 7): 'KFT352 | Food Microbiology Lab | L0 T0 P2 | CT - TA - Total - | PS25 | TE - | PE25 | End Semester Total 50 | Credit 1'.",
+    "No COURSE DETAILS units and no book list printed for this lab subject."
+   ]
+  },
+  {
+   "name": "FLUID FLOW & SOLID HANDLING LAB",
+   "name_print": "FLUID FLOW & SOLID HANDLING LAB",
+   "codes": [
+    "KFT353"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [
+    {
+     "no": 1,
+     "text": "Estimate the friction and measure the frictional losses in fluid flow."
+    },
+    {
+     "no": 2,
+     "text": "Understand the functioning of  various flow measurement devices as venturimeter & orifice meter"
+    },
+    {
+     "no": 3,
+     "text": "Predict the coefficient of discharge for flow through pipes."
+    },
+    {
+     "no": 4,
+     "text": "Practically understand the various Unit Operations involving Solid Handling."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study and verification of the flow pattern in a Bernoulli’s apparatus."
+    },
+    {
+     "no": 2,
+     "exp": "To differentiate between laminar and turbulent flow using Reynolds experiment"
+    },
+    {
+     "no": 3,
+     "exp": "To calibrate & determine the coefficient of discharge of an orifice meter."
+    },
+    {
+     "no": 4,
+     "exp": "To calibrate & determine the coefficient of discharge of an venturi meter."
+    },
+    {
+     "no": 5,
+     "exp": "Measurement of viscosity of Newtonian and non-Newtonian fluid."
+    },
+    {
+     "no": 6,
+     "exp": "To carry out differential and cumulative screen analysis of given sample of solid particles"
+    },
+    {
+     "no": 7,
+     "exp": "To study the performance of Jaw Crusher/Ball mill."
+    },
+    {
+     "no": 8,
+     "exp": "Study of Pipe fittings and Valves."
+    },
+    {
+     "no": 9,
+     "exp": "To study the filtration characteristics of Rotary Vacuum /Plate and Frame filter."
+    },
+    {
+     "no": 10,
+     "exp": "To study the variation of friction factor, ‘f’ for turbulent flow in smooth and rough commercial pipes."
+    }
+   ],
+   "objectives_print": [
+    "To provide practice in estimating friction losses ,  impart training to use various flow measuring devices and  to determine the various parameters related to fluid flow in pipes and in open channels."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Objective prints a space before the comma ('friction losses ,').",
+    "CO2 has a double space after 'of' and no trailing period.",
+    "CO4 ('Practically understand the various Unit Operations involving Solid Handling.') is printed at the top of p12, continuing the COURSE OUTCOME block begun on p11.",
+    "Experiment 4 prints 'an venturi meter' (verbatim); experiments 6 has no trailing period; experiments 9-10 print '9.To study' / '10.To study' (no space after the number).",
+    "Scheme name cell prints 'Fluid Flow & Solid  Handling Lab' (double space, normalized); header prints 'COURSE TITLE: FLUID FLOW & SOLID HANDLING / LAB' wrapped over two lines.",
+    "Header prints 'EXAMINATION DURATION: 2Hrs.' (no space) and 'SUBJECT CODE:KFT  353' (double space inside code)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.11-12 (header+OBJECTIVE+COURSE OUTCOME p11, CO bullet 4 + LIST OF EXPERIMENTS p12).",
+    "Scheme row (SEMESTER-III, p2, Sl. No. 8): 'KFT353 | Fluid Flow & Solid  Handling Lab | L0 T0 P2 | CT - TA - Total - | PS25 | TE - | PE25 | End Semester Total 50 | Credit 1'.",
+    "No COURSE DETAILS units and no book list printed for this lab subject."
+   ]
+  },
+  {
+   "name": "HEAT & MASS TRANSFER",
+   "name_print": "HEAT & MASS TRANSFER",
+   "codes": [
+    "KFT401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "1 Conduction and Convection: Introduction, Conduction: Basic concepts of conduction in solids, liquids and gases [Lecture Hours: 2]\n2 Fourier law of heat conduction. Material properties of importance in heat transfer: Thermal conductivity, Specific heat capacity. [Lecture Hours: 3]\n3 General equation of heat conduction in cartesian co-ordinate, heat conduction through plane and composite walls, cylinders and spheres Critical and optimum insulation thickness.. Principles of convection, Newton’s law of cooling. [Lecture Hours: 4]",
+    "2": "1 Radiation: Basic laws of heat transfer by radiation, Absorptivity, reflectivity and transmissivity, black, white and grey body, emissive power and emissivity, laws of radiation – Planck, Stefan-Boltzmann, Wien’s displacement, Kirchhoff’s law. [Lecture Hours: 4]\n2 Introduction to Heat Transfer Equipments: Classification of heat exchangers, Double pipe, Shell & tube and Plate type heat exchanger, Evaporators. [Lecture Hours: 4]",
+    "3": "1 Diffusion: Classification of mass transfer operation, choice of separation method, Definition of molecular and eddy diffusion, [Lecture Hours: 3]\n2 Ficks first law of diffusion, Concept of N & J Flux, Diffusion coefficient, Dependence of diffusion coefficient on temperature, pressure and composition. [Lecture Hours: 3]\n3 Mass Transfer Coefficients: Mass transfer in laminar and turbulent regions, F and k type mass transfer coefficients, Film, Penetration and surface renewal theories. [Lecture Hours: 3]",
+    "4": "1 Drying: Drying, Different modes of drying operation, Types of batch and continuous dryer [Lecture Hours: 4]\n2 Definitions of moisture contents, Rate of batch drying, Time of drying, Continuous drying. [Lecture Hours: 4]",
+    "5": "1 Crystallization: Crystallization, Crystallization equipment, Classification of crystallizers [Lecture Hours: 4]\n2 Theories of crystallization, Factors governing nucleation and crystal growth rates, controlled growth of crystal. [Lecture Hours: 4]"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic laws of heat transfer."
+    },
+    {
+     "no": 2,
+     "text": "Understand the fundamentals of conductive, convective and radiation heat transfer processes and evaluate Heat Transfer Coefficients for the same."
+    },
+    {
+     "no": 3,
+     "text": "Understand the Heat Exchangers and analyze heat exchanger performance."
+    },
+    {
+     "no": 4,
+     "text": "Understand the various mass transfer operations occurring during Diffusion and Drying etc."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": " F. Kreith, R.M. Manglik, M.S. Bohn,” Principles of Heat Transfer”, 7th Edition, Cengage Learning",
+     "year_print": "2011"
+    },
+    {
+     "no": 2,
+     "book": "Warren McCabe, Smith Julian, Peter Harriott,” Unit Operations in Chemical Engineering”,7th Edition,  Tata McGraw Hill",
+     "year_print": "2005"
+    },
+    {
+     "no": 3,
+     "book": " Holman, JP, “Heat Transfer” , 9th edition ,  Tata McGraw Hill",
+     "year_print": "2008"
+    },
+    {
+     "no": 4,
+     "book": "Treybal, R.E.,  “Mass Transfer Operations”, 3rd edition,  Tata McGraw Hill",
+     "year_print": "1981"
+    }
+   ],
+   "objectives_print": [
+    "This course is designed to introduce a basic study of the phenomena of heat and mass transfer, to develop methodologies for solving a wide variety of practical engineering problems, and to provide useful information concerning the performance and design of particular systems and processes used in food processing operations."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Reference-book table header prints 'Year of Publicatin/ Reprint' (typo verbatim).",
+    "Ref book 2 prints '”,7th Edition' (no space after closing quote).",
+    "Unit I item 3 prints 'cylinders and spheres Critical and optimum insulation thickness..' (no punctuation between 'spheres' and 'Critical', double period verbatim).",
+    "Unit III item 1 ends with a trailing comma; Unit III item 2 prints 'Ficks first law' (no apostrophe); Unit IV item 1 has no trailing period.",
+    "Header prints 'SUBJECT CODE:KFT  401' (double space inside code)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.12-14 (header+OBJECTIVE+COURSE OUTCOME p12, REFERENCE BOOKS + COURSE DETAILS Units I-IV p13, Unit V + TOTAL p14).",
+    "Scheme row (SEMESTER-IV, p3, Sl. No. 3): 'KFT401 | Heat & Mass Transfer | L3 T0 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 3'.",
+    "COURSE DETAILS prints 'TOTAL 42' lecture hours (p14)."
+   ]
+  },
+  {
+   "name": "FOOD CHEMISTRY",
+   "name_print": "FOOD CHEMISTRY",
+   "codes": [
+    "KFT402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "1 Water in Foods: Structure. Properties, Interactions, Water activity, Sorption Isotherms and food stability. [Lecture Hours: 4]\n2 Carbohydrates: Functions, Reactions and properties of simple and complex carbohydrate, Browning reactions, Selection of Natural or Modified carbohydrates for incorporation into processed food. [Lecture Hours: 5]",
+    "2": "1 Lipids: Consistency of commercial fats, Lipolysis, Auto oxidation, Thermal Decomposition and effect of ionizing radiation, [Lecture Hours: 4]\n2 Refining of oils, Modification of oils and fats, Role of food lipids in flavor, Nutritional aspects of natural and modified fats. [Lecture Hours: 4]",
+    "3": "1 Proteins: Structure, Chemical reactions and interactions of amino acids and proteins [Lecture Hours: 4]\n2 De-naturation and it implications, Functional properties of food proteins [Lecture Hours: 3]\n3 Modification of food proteins in processing and storage and its implications. Nutritive value of food proteins [Lecture Hours: 2]",
+    "4": "1 Vitamins, Minerals, Pigments and Flavours: Chemistry and stability of water and fat soluble vitamins, Chemical properties of minerals and their bioavailability, Enrichment and Fortification. [Lecture Hours: 4]\n2 Natural pigments in foods and their retention in processed foods. Flavoring constituents in foods, Development of process and reaction flavour volatiles. [Lecture Hours: 4]",
+    "5": "1 Food Additives: Definitions, sources, uses and functions and regulatory aspects of Food additives. Limits of usage as per FSSAI. [Lecture Hours: 5]\n2 Intentional & Non Intentional additives, Food Adulterants. [Lecture Hours: 3]"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Have knowledge of the properties and structure of water molecules and nature of interaction with food macromolecules."
+    },
+    {
+     "no": 2,
+     "text": "Have knowledge of the structure of amino acids & assimilation to form primary, secondary, tertiary and quaternary structure of food proteins, functional properties of proteins and effect of processing on them"
+    },
+    {
+     "no": 3,
+     "text": "Have Knowledge of structure of fatty acids and physical and chemical properties, effect of deep fat frying and modified fats"
+    },
+    {
+     "no": 4,
+     "text": "Have knowledge of structure and isomerization of monosaccharides and disaccharides; starch, cellulose, pectin, alginate, gums and their chemical modifications and properties of use in foods."
+    },
+    {
+     "no": 5,
+     "text": "Have knowledge of vitamins, minerals, pigments and food additives. Usage of them in processed foods"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fennema OR, “ Food Chemistry”, 5th Edition, CRC Press",
+     "year_print": "2017"
+    },
+    {
+     "no": 2,
+     "book": "Meyer LH, “ Food Chemistry” CBS Publishers & Distributors",
+     "year_print": "2004"
+    },
+    {
+     "no": 3,
+     "book": "DeMan JM, “ Principles of Food Chemistry” 3rd Edition, Aspen Publishers, Gaithersburg",
+     "year_print": "1999"
+    },
+    {
+     "no": 4,
+     "book": "H.-D. Belitz, W. Grosch,” Food Chemistry”, 4th Edition, Springer Science & Business Media",
+     "year_print": "2009"
+    }
+   ],
+   "objectives_print": [
+    "To understand the chemistry of foods - composition of food, role of each component and their interactions. The course is intended to give students an overview of the chemical and physical properties of the major and minor food components and their changes during processing, handling and storage."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "CO2 and CO5 have no trailing periods; CO3 prints 'Have Knowledge' with capital K mid-sentence.",
+    "Unit II item 1 ends with a trailing comma; Unit III item 2 prints 'De-naturation and it implications' (verbatim) and has no trailing period; Unit III item 3 has no trailing period.",
+    "Reference books list is split across the p14/p15 page break (book 1 on p14, books 2-4 on p15).",
+    "Ref book 4 prints 'Grosch,” Food Chemistry”' (comma before opening quote).",
+    "Header prints 'SUBJECT CODE:KFT  402' (double space inside code)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.14-15 (header+OBJECTIVE+COURSE OUTCOME+ref book 1 p14, ref books 2-4 + COURSE DETAILS Units I-V p15).",
+    "Scheme row (SEMESTER-IV, p3, Sl. No. 4): 'KFT402 | Food Chemistry | L3 T1 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 4'.",
+    "COURSE DETAILS prints 'TOTAL 42' lecture hours (p15)."
+   ]
+  },
+  {
+   "name": "FOOD BIOCHEMISTRY",
+   "name_print": "FOOD BIOCHEMISTRY",
+   "codes": [
+    "KFT403"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "1 Nomenclature, Classification and specificity of enzymes and cofactors [Lecture Hours: 4]\n2 Enzyme Kinetics: Factors affecting the rate of enzyme catalyzed reaction, regulation and control of enzyme action. [Lecture Hours: 4]",
+    "2": "1 Metabolic Pathways: Carbohydrates, Proteins and Fats [Lecture Hours: 5]\n2 Catabolism and Anabolism [Lecture Hours: 3]",
+    "3": "1 Digestion, Absorption, Assimilation and Transport of nutrients in human beings [Lecture Hours: 8]",
+    "4": "1 Post harvest and Postmortem biochemical changes in foods [Lecture Hours: 5]\n2 Changes in composition, color, texture, flavor and its implications on quality of foods. [Lecture Hours: 4]",
+    "5": "1 Application of enzymes in food processing: Endogenous enzymes and their role in modification of foods, [Lecture Hours: 5]\n2 Enzymes added to foods during processing sources, conversions and specific applications. [Lecture Hours: 4]"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamental biochemical principles, structure/function of bio-molecules, metabolic pathways and the regulation of biochemical processes."
+    },
+    {
+     "no": 2,
+     "text": "Understand the the mechanism of enzyme action and identify factors affecting their action."
+    },
+    {
+     "no": 3,
+     "text": "Understand and be able to control the major chemical and biochemical (enzymatic) reactions that influence food quality with emphasis on food industry applications."
+    },
+    {
+     "no": 4,
+     "text": "Understand how the properties of different food components and interactions among these components modulate the specific quality attributes of food systems."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "AL Lehninger, “ Principle of Biochemistry”, 7th Edition, W H Freeman & Co.",
+     "year_print": "2017"
+    },
+    {
+     "no": 2,
+     "book": "Lubert Stryen,” Biochemistry”, 6th Edition, W H Freeman & Co.",
+     "year_print": "2006"
+    },
+    {
+     "no": 3,
+     "book": "Shubhangini A. Joshi’ “Nutrition and Dietetics”  2nd Edition Tata Mc GrawHill publishing Company Ltd.",
+     "year_print": "2002"
+    },
+    {
+     "no": 4,
+     "book": "JH Weil, “ General Biochemistry”, 6th Edition, New Age International Private Limited",
+     "year_print": "1990"
+    }
+   ],
+   "objectives_print": [
+    "To furnish a student with knowledge and understanding of the basic biological and chemical processes of living cells and enzymes and how these are harnessed into industrial processes and technologies for the production, processing and preservation of food and related products."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Header is split across the p15/p16 page break: 'SUBJECT CODE:KFT  403 / COURSE TITLE: FOOD BIOCHEMISTRY / EXAMINATION DURATION: 3' ends p15, 'Hrs.' begins p16.",
+    "CO2 prints 'Understand the the mechanism' (duplicated 'the' verbatim).",
+    "Ref book 2 author prints 'Lubert Stryen' (standard spelling Stryer; kept verbatim); ref book 3 prints 'Shubhangini A. Joshi’' with a stray apostrophe and 'Tata Mc GrawHill'; ref book 1 prints 'Principle of Biochemistry'.",
+    "Unit V item 1 ends with a trailing comma; Unit II item 2 ('Catabolism and Anabolism') prints with a leading space in its cell (normalized).",
+    "COURSE DETAILS Unit III contains a single item with 8 lecture hours."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.15-17 (header start p15, OBJECTIVE+COURSE OUTCOME+REFERENCE BOOKS+COURSE DETAILS Units I-II(1) p16, Units II(2)-V + TOTAL p17).",
+    "Scheme row (SEMESTER-IV, p3, Sl. No. 5): 'KFT403 | Food Biochemistry | L3 T1 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 4'.",
+    "COURSE DETAILS prints 'TOTAL 42' lecture hours (p17)."
+   ]
+  },
+  {
+   "name": "HEAT & MASS TRANSFER LAB",
+   "name_print": "HEAT & MASS TRANSFER LAB",
+   "codes": [
+    "KFT451"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply principles of heat and mass transfer to basic engineering systems"
+    },
+    {
+     "no": 2,
+     "text": "Analyse heat transfer by conduction, convection and radiation"
+    },
+    {
+     "no": 3,
+     "text": "Analyse and design heat exchangers;"
+    },
+    {
+     "no": 4,
+     "text": "Analyse diffusional processes and calculate the flux in a diffusion process."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To find out the thermal conductivities of Metal rod."
+    },
+    {
+     "no": 2,
+     "exp": "To find the thermal conductivity of Composite cylinder."
+    },
+    {
+     "no": 3,
+     "exp": "To find out the thermal conductivity of insulating powder."
+    },
+    {
+     "no": 4,
+     "exp": "To find the thermal conductivity of liquid / gases."
+    },
+    {
+     "no": 5,
+     "exp": "To determine the overall heat transfer coefficient in Parallel flow heat exchanger"
+    },
+    {
+     "no": 6,
+     "exp": "To determine the overall heat transfer coefficient in Counter flow heat exchanger"
+    },
+    {
+     "no": 7,
+     "exp": "To determine the overall heat transfer coefficient in Shell and Tube heat exchanger"
+    },
+    {
+     "no": 8,
+     "exp": "Any Experiment on natural convection"
+    },
+    {
+     "no": 9,
+     "exp": "Determination of diffusivity of acetone in air."
+    },
+    {
+     "no": 10,
+     "exp": "To determine the drying characteristics of given sample."
+    }
+   ],
+   "objectives_print": [
+    "To study and verift the various modes of Heat Transfer and to work on the Heat Transfer Equipments along with a practical study of important Mass Transfer Operations relevant to the industry."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Objective prints 'verift' (typo for 'verify', verbatim).",
+    "CO1, CO2 and CO4 have no trailing periods; CO3 ends with a semicolon ('heat exchangers;').",
+    "Experiments 5-7 have no trailing periods.",
+    "Header prints 'SUBJECT CODE:KFT 451' with a single space (all other headers print a double space).",
+    "'LIST OF EXPERIMENTS:' label printed at the bottom of p17, the 10 experiments on p18."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.17-18 (header+OBJECTIVE+COURSE OUTCOME p17, LIST OF EXPERIMENTS p18).",
+    "Scheme row (SEMESTER-IV, p3, Sl. No. 6): 'KFT451 | Heat & Mass Transfer Lab | L0 T0 P2 | CT - TA - Total - | PS25 | TE - | PE25 | End Semester Total 50 | Credit 1'.",
+    "No COURSE DETAILS units and no book list printed for this lab subject."
+   ]
+  },
+  {
+   "name": "FOOD CHEMISTRY LAB",
+   "name_print": "FOOD CHEMISTRY LAB",
+   "codes": [
+    "KFT452"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [
+    {
+     "no": 1,
+     "text": "Use the laboratory techniques common to basic and applied food chemistry."
+    },
+    {
+     "no": 2,
+     "text": "Understand the principles behind analytical technique when presented with a practical problem."
+    },
+    {
+     "no": 3,
+     "text": "Demonstrate practical proficiency in a food analysis laboratory."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Analysis of water for potable and food purposes"
+    },
+    {
+     "no": 2,
+     "exp": "Moisture content in foods in relation to their stability"
+    },
+    {
+     "no": 3,
+     "exp": "Non-enzymatic browning reactions and its determination"
+    },
+    {
+     "no": 4,
+     "exp": "Determination of rate/ extent of hydrolysis of sucrose/starch"
+    },
+    {
+     "no": 5,
+     "exp": "Determination of free fatty acid content in fats and oils"
+    },
+    {
+     "no": 6,
+     "exp": "Detection and estimation of oxidative rancidity in fats/oils"
+    },
+    {
+     "no": 7,
+     "exp": "Determination of heat stability of vitamin C"
+    },
+    {
+     "no": 8,
+     "exp": "Study of some reactions of proteins"
+    },
+    {
+     "no": 9,
+     "exp": "Study of some processing changes in proteins"
+    },
+    {
+     "no": 10,
+     "exp": "Study of some functional properties of proteins"
+    }
+   ],
+   "objectives_print": [
+    "To study the analytical procedures for characterizing the properties of foods constituents and their interactions that affect the quality and stability of foods."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "None of the 10 LIST OF EXPERIMENTS items carries a trailing period (print style).",
+    "Header prints 'EXAMINATION DURATION: 2Hrs.' (no space) and 'SUBJECT CODE:KFT  452' (double space inside code).",
+    "Experiments 1-4 are printed on p18 and experiments 5-10 on p19 (list split across the page break)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.18-19 (header+OBJECTIVE+COURSE OUTCOME+experiments 1-4 p18, experiments 5-10 p19).",
+    "Scheme row (SEMESTER-IV, p3, Sl. No. 7): 'KFT452 | Food Chemistry Lab | L0 T0 P2 | CT - TA - Total - | PS25 | TE - | PE25 | End Semester Total 50 | Credit 1'.",
+    "No COURSE DETAILS units and no book list printed for this lab subject."
+   ]
+  },
+  {
+   "name": "FOOD BIOCHEMISTRY LAB",
+   "name_print": "FOOD BIOCHEMISTRY LAB",
+   "codes": [
+    "KFT453"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [
+    {
+     "no": 1,
+     "text": "Learn fundamental approaches for experimentally investigating biochemical problems,"
+    },
+    {
+     "no": 2,
+     "text": "Learn the enzyme kinetics"
+    },
+    {
+     "no": 3,
+     "text": "Understand the applicability of the biochemical methods to realistic situations"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Determination of enzyme activity and specific activity (Enzyme assay)."
+    },
+    {
+     "no": 2,
+     "exp": "Determination of effect of temperature on enzyme activity."
+    },
+    {
+     "no": 3,
+     "exp": "Determination of effect of pH on enzyme activity."
+    },
+    {
+     "no": 4,
+     "exp": "Determination of effect of substrate concentration on enzyme activity & estimation of Km."
+    },
+    {
+     "no": 5,
+     "exp": "Estimation of enzymatic browning in foods."
+    },
+    {
+     "no": 6,
+     "exp": "Estimation of enhancement in an enzyme activity during ripening of fruits."
+    },
+    {
+     "no": 7,
+     "exp": "Estimation of enhancement in an enzyme activity during sprouting of grains."
+    },
+    {
+     "no": 8,
+     "exp": "Detection/ estimation of catalase and peroxidase activity in vegetable."
+    },
+    {
+     "no": 9,
+     "exp": "Application of enzymes in various foods."
+    }
+   ],
+   "objectives_print": [
+    "To give the students a solid foundation in biology and chemistry and to  develop analytical and critical thinking skills in biological phenomena through scientific methods."
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "CO1 ends with a comma; CO2 and CO3 have no trailing periods.",
+    "Experiment 8 prints 'in vegetable' (singular, verbatim).",
+    "Header prints 'EXAMINATION DURATION: 2Hrs.' (no space) and 'SUBJECT CODE:KFT  453' (double space inside code).",
+    "Experiments 1-8 printed on p19; experiment 9 printed alone on p20 (page break splits the list)."
+   ],
+   "flags": [],
+   "notes": [
+    "Detailed syllabus printed pp.19-20 (header+OBJECTIVE+COURSE OUTCOME+experiments 1-8 p19, experiment 9 p20; p20 carries no other print).",
+    "Scheme row (SEMESTER-IV, p3, Sl. No. 8): 'KFT453 | Food Biochemistry Lab | L0 T0 P2 | CT - TA - Total - | PS25 | TE - | PE25 | End Semester Total 50 | Credit 1'.",
+    "No COURSE DETAILS units and no book list printed for this lab subject."
+   ]
+  },
+  {
+   "name": "Engineering Science Course/Maths IV",
+   "name_print": "Engineering Science Course/Maths IV",
+   "codes": [
+    "KOE031-38",
+    "KAS302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "common",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
+    "'KOE031-38' is a pool range printed with a hyphen ('KOE031-/38' wrapped across lines in the cell).",
+    "Only one L-T-P set (3-1-0) is printed for this combined row (unlike the TC/UHV rows which print stacked sets)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-III, p2, Sl. No. 1): 'KOE031-38/KAS302 | Engineering Science Course/Maths IV | L3 T1 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 4'.",
+    "Codes printed as 'KOE031-/38/ KAS302' wrapped in the cell."
+   ],
+   "cos": []
+  },
+  {
+   "name": "Technical Communication/Universal Human values",
+   "name_print": "Technical Communication/Universal Human values",
+   "codes": [
+    "KAS301",
+    "KVE301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "common",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
+    "Combined row prints STACKED L-T-P sets, one per alternative code (verified from word x-coordinates in the text layer): KAS301 Technical Communication = 2-1-0 and KVE 301 Universal Human values = 3-0-0; the ltp field records the first-listed (KAS301) set. CT/TA/Total/TE/End-Sem/Credit printed once for the combined row.",
+    "Code prints as 'KVE 301' with a space (normalized to KVE301).",
+    "Scheme name prints 'Universal Human values' with lowercase 'v' in 'values' (verbatim)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-III, p2, Sl. No. 2): 'KAS301/KVE 301 | Technical Communication/Universal Human values | L2 T1 P0 (KAS301) / L3 T0 P0 (KVE 301) | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 3'."
+   ],
+   "cos": []
+  },
+  {
+   "name": "Mini Project or Internship Assessment*",
+   "name_print": "Mini Project or Internship Assessment*",
+   "codes": [
+    "KFT354"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "project",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
+    "Scheme prints the 50 in the 'Total' column (under Evaluation Scheme, x-coordinate verified) and 50 in the End Semester Total column; CT/TA/PS/TE/PE cells are blank.",
+    "Trailing '*' in the printed name is tied to the footnote printed under the scheme table (see non_subject_rows scheme_footnote).",
+    "Printed with a leading space in the code cell (' KFT354')."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-III, p2, Sl. No. 9): 'KFT354 | Mini Project or Internship Assessment* | L0 T0 P2 | CT - TA - Total50 | PS - | TE - | PE - | End Semester Total 50 | Credit 1'.",
+    "Footnote (p2): '*The Mini Project or internship (3-4 weeks) conducted during summer break after II semester and will be assessed during III semester.'"
+   ],
+   "cos": []
+  },
+  {
+   "name": "Computer System Security/Python Programming",
+   "name_print": "Computer System Security/Python Programming",
+   "codes": [
+    "KNC301",
+    "KNC302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 0,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50
+   },
+   "subject_type": "common",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
+    "Credit column prints 0 (non-credit audit row); End Semester Total cell is blank — the 'total' key is omitted as printed-blank.",
+    "Only one L-T-P set (2-0-0) is printed for this combined row."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-III, p2, Sl. No. 10): 'KNC301/KNC302 | Computer System Security/Python Programming | L2 T0 P0 | CT15 TA10 Total25 | PS - | TE50 | PE - | End Semester Total (blank) | Credit 0'."
+   ],
+   "cos": []
+  },
+  {
+   "name": "MOOCs (Essential for Hons. Degree)",
+   "name_print": "MOOCs (Essential for Hons. Degree)",
+   "codes": [],
+   "semester": 3,
+   "credit": null,
+   "subject_type": "moocs",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row with NO printed subject code, no L-T-P, no marks and no credit — every value cell is printed blank; only the name is printed.",
+    "Emitted for completeness per the scheme-row rule; no code exists to own."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-III, p2, Sl. No. 11): '(no code) | MOOCs (Essential for Hons. Degree) | all other cells blank'."
+   ],
+   "cos": []
+  },
+  {
+   "name": "Maths IV/Engineering Science Course",
+   "name_print": "Maths IV/Engineering Science Course",
+   "codes": [
+    "KAS402",
+    "KOE041-48"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "common",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
+    "'KOE041-48' is a pool range printed with a hyphen ('KOE041-/48' wrapped across lines in the cell).",
+    "Only one L-T-P set (3-1-0) is printed for this combined row."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-IV, p3, Sl. No. 1): 'KAS402/KOE041-48 | Maths IV/Engineering Science Course | L3 T1 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 4'."
+   ],
+   "cos": []
+  },
+  {
+   "name": "Universal Human Values/ Technical Communication",
+   "name_print": "Universal Human Values/ Technical Communication",
+   "codes": [
+    "KVE401",
+    "KAS401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "common",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
+    "Combined row prints STACKED L-T-P sets, one per alternative code (verified from word x-coordinates in the text layer): KVE401 Universal Human Values = 3-0-0 and KAS401 Technical Communication = 2-1-0; the ltp field records the first-listed (KVE401) set. CT/TA/Total/TE/End-Sem/Credit printed once for the combined row.",
+    "Scheme name cell prints 'Universal Human Values/ Technical Communication' with a space after the slash (verbatim)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-IV, p3, Sl. No. 2): 'KVE401/KAS401 | Universal Human Values/ Technical Communication | L3 T0 P0 (KVE401) / L2 T1 P0 (KAS401) | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 3'."
+   ],
+   "cos": []
+  },
+  {
+   "name": "Python Programming/ Computer System Security",
+   "name_print": "Python Programming/ Computer System Security",
+   "codes": [
+    "KNC402",
+    "KNC401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 0,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50
+   },
+   "subject_type": "common",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
+    "Credit column prints 0 (non-credit audit row); End Semester Total cell is blank — the 'total' key is omitted as printed-blank.",
+    "Only one L-T-P set (2-0-0) is printed for this combined row."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-IV, p3, Sl. No. 9): 'KNC402/KNC401 | Python Programming/ Computer System Security | L2 T0 P0 | CT15 TA10 Total25 | PS - | TE50 | PE - | End Semester Total (blank) | Credit 0'."
+   ],
+   "cos": []
+  },
+  {
+   "name": "MOOCs (Essential for Hons. Degree)",
+   "name_print": "MOOCs (Essential for Hons. Degree)",
+   "codes": [],
+   "semester": 4,
+   "credit": null,
+   "subject_type": "moocs",
+   "units": {},
+   "objectives_print": [],
+   "quirks": [
+    "Scheme-only row with NO printed subject code, no L-T-P, no marks and no credit — every value cell is printed blank; only the name is printed.",
+    "Emitted for completeness per the scheme-row rule; no code exists to own.",
+    "Same printed name as the SEMESTER-III Sl. No. 11 MOOCs row — kept as a separate row because the two rows belong to different semester scheme tables."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Verbatim scheme row (SEMESTER-IV, p3, Sl. No. 10): '(no code) | MOOCs (Essential for Hons. Degree) | all other cells blank'."
+   ],
+   "cos": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_page",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW / Evaluation Scheme & Syllabus / For / B.Tech. 2nd  Year  / (Food Technology) / On / AICTE MODEL CURRICULUM / (Effective from the Session: 2019-20) / DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW",
+   "locator": "p1"
+  },
+  {
+   "kind": "scheme_semester_banner",
+   "print": "B.TECH (Food Technology)  SEMESTER- III",
+   "locator": "p2"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 950 22",
+   "locator": "p2 (SEMESTER-III scheme: End Semester Total 950, Credit 22; excludes the Credit-0 KNC301/KNC302 row's TE 50)"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "*The Mini Project or internship (3-4 weeks) conducted during summer break after II semester and will be assessed during III semester.",
+   "locator": "p2 (below SEMESTER-III scheme table)"
+  },
+  {
+   "kind": "scheme_semester_banner",
+   "print": "SEMESTER- IV",
+   "locator": "p3"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 900 21",
+   "locator": "p3 (SEMESTER-IV scheme: End Semester Total 900, Credit 21; excludes the Credit-0 KNC402/KNC401 row's TE 50)"
+  },
+  {
+   "kind": "page_banner",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY / B.TECH II YEAR III SEMESTER FOOD TECHNOLOGY COURSE",
+   "locator": "p4 (header above KCH301 detail page)"
+  },
+  {
+   "kind": "page_banner",
+   "print": "B.TECH II YEAR III SEMESTER FOOD TECHNOLOGY COURSE",
+   "locator": "p6 (header above KFT301 detail page)"
+  },
+  {
+   "kind": "page_banner",
+   "print": "B.TECH II YEAR IV SEMESTER FOOD TECHNOLOGY COURSE",
+   "locator": "p12 (header above KFT401 detail page)"
+  },
+  {
+   "kind": "subject_unit_total_row",
+   "print": "TOTAL 42",
+   "locator": "p5 (COURSE DETAILS total, KCH301)"
+  },
+  {
+   "kind": "subject_unit_total_row",
+   "print": "TOTAL 42",
+   "locator": "p7 (COURSE DETAILS total, KFT301)"
+  },
+  {
+   "kind": "subject_unit_total_row",
+   "print": "TOTAL 42",
+   "locator": "p9 (COURSE DETAILS total, KFT302)"
+  },
+  {
+   "kind": "subject_unit_total_row",
+   "print": "TOTAL 42",
+   "locator": "p14 (COURSE DETAILS total, KFT401)"
+  },
+  {
+   "kind": "subject_unit_total_row",
+   "print": "TOTAL 42",
+   "locator": "p15 (COURSE DETAILS total, KFT402)"
+  },
+  {
+   "kind": "subject_unit_total_row",
+   "print": "TOTAL 42",
+   "locator": "p17 (COURSE DETAILS total, KFT403)"
+  }
+ ],
+ "quirks": [
+  "Combined scheme rows print STACKED L-T-P sets, one per alternative code (verified from word x-coordinates in the text layer): p2 Sl.2 KAS301=2-1-0 with KVE 301=3-0-0; p3 Sl.2 KVE401=3-0-0 with KAS401=2-1-0; CT/TA/Total/TE/End-Sem/Credit printed once per combined row.",
+  "COURSE DETAILS tables print per-item 'Lecture Hours'; transcribed inside unit text as ' [Lecture Hours: N]' after each printed item (bracketed values are the printed table cells, not inline print); every theory subject's table ends 'TOTAL 42'.",
+  "Text-layer justified-text spacing runs collapsed to single spaces; bullet glyphs and cell line-wraps joined; notable original spacing/casing anomalies recorded per-subject in quirks.",
+  "No TEXT BOOKS sections anywhere in the document — theory subjects print only REFERENCE BOOKS; lab subjects print no book lists.",
+  "No Bloom/K-levels printed for course outcomes anywhere; cos carry no kl.",
+  "subject_type values (core/common/project/moocs) are catalog classifications; the document prints no subject-type column.",
+  "KFT302 header prints CREDITS:04 contradicting its own L:3 T:0 P:0 and the scheme credit 3 (scheme value 3 used; contradiction kept in subject quirks).",
+  "Scheme totals: SEMESTER-III 'Total 950 22' and SEMESTER-IV 'Total 900 21' both exclude the non-credit (Credit 0) KNC rows' TE 50 (arithmetic cross-check consistent).",
+  "KFT453 experiment list runs to p20 ('9. Application of enzymes in various foods.' alone on p20 — the only print on that page).",
+  "KFT403 header line 'EXAMINATION DURATION: 3' ends p15 and 'Hrs.' begins p16 (page-break split, kept verbatim)."
+ ],
+ "flags": []
+}

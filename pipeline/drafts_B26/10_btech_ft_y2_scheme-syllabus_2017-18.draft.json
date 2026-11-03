@@ -818,10 +818,12 @@
    "quirks": [
     "Detailed syllabus NOT printed — scheme row only.",
     "Scheme row (p.2): '2. RVE301/ RAS302 Universal Human Values & Professional Ethics/ Environment & Ecology 3-0-0 70 20 10 100 3' (combined alternative row: RVE301 Universal Human Values & Professional Ethics / RAS302 Environment & Ecology; kept as one subject per printed row).",
-    "Companion row in Sem IV reverses the pair: 'RAS402/ RVE401 Environment & Ecology/ Universal Human Values & Professional Ethics' — kept as a separate subject row per print."
+    "Companion row in Sem IV reverses the pair: 'RAS402/ RVE401 Environment & Ecology/ Universal Human Values & Professional Ethics' — kept as a separate subject row per print.",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: universal-human-values-and-professional-ethics (RVE301) + environment-ecology (RAS302) rows — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ]
   },
   {
@@ -1042,10 +1044,12 @@
    "quirks": [
     "Detailed syllabus NOT printed — scheme row only.",
     "Scheme row (p.3): '2. RAS402/ RVE401 Environment & Ecology/ Universal Human Values & Professional Ethics 3-0-0 70 20 10 100 3' (combined alternative row: RAS402 Environment & Ecology / RVE401 Universal Human Values & Professional Ethics; kept as one subject per printed row).",
-    "Companion row in Sem III reverses the pair: 'RVE301/ RAS302 Universal Human Values & Professional Ethics/ Environment & Ecology' — kept as a separate subject row per print."
+    "Companion row in Sem III reverses the pair: 'RVE301/ RAS302 Universal Human Values & Professional Ethics/ Environment & Ecology' — kept as a separate subject row per print.",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: environment-ecology (RAS402) + universal-human-values-and-professional-ethics (RVE401) rows — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ]
   },
   {

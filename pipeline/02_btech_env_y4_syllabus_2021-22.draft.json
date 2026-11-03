@@ -1,0 +1,1090 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2021-22/btech_env_y4_syllabus_2021-22.pdf",
+ "session": "2021-22",
+ "course": "BTech",
+ "sha16": "bf77e3978ffc422f",
+ "stem": "02_btech_env_y4_syllabus_2021-22",
+ "subjects": [
+  {
+   "name": "Construction Technology and Management",
+   "name_print": "Construction Technology and Management",
+   "codes": [
+    "KNE071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "departmental-elective",
+   "ltp_print": "3L:0T:0P",
+   "credit_print": "3Credits",
+   "units": {
+    "1": "Elements of Management: Project cycle, Organization, planning, scheduling monitoring updating and management system in construction.",
+    "2": "Network Techniques : Bar charts, milestone charts, work break down structure and reparation of networks. Application of network Techniques like PERT, GERT, CPM AON and AOA in construction management. Project monitoring, cost planning, resource allocation through network techniques. Line of balance technique.",
+    "3": "Engineering Economics: Time value of money, Present economy studies, Equivalence concept, financing of projects, economic comparison present worth method Equivalent annual cost method, discounted cash flow method, analytical criteria for postponing of investment retirement and replacement of asset. Depreciation and break even cost analysis.",
+    "4": "Contract Management: Legal aspects of contraction, laws related to contracts, land acquisition, labour safety and welfare. Different types of contracts, their relative advantages and disadvantages. Elements of tender preparation, process of tendering pre-qualification of contracts, Evaluation of tenders, contract negotiation and award of work, monitoring of contract extra items, settlements of disputes, arbitration and commissioning of project.",
+    "5": "Equipment Management: Productivity, operational cost, owning and hiring cost and the work motion study. Simulation techniques for resource scheduling. Construction Equipments for earth moving , Hauling Equipments, Hoisting Equipments , Conveying Equipments , Concrete Production Equipments."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Construction Planning, Equipment and Methods. : R.L. Peurify. T.M.H., International Book Company."
+    },
+    {
+     "no": 2,
+     "book": "PERT & CPM Principles and Applications L.S. Srinath, E.W.P. Ltd., New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Network Analysis Techniques S.K. Bhatnagar, Willey Eastern Ltd."
+    },
+    {
+     "no": 4,
+     "book": "Construction Technology by Sarkar , Oxford"
+    },
+    {
+     "no": 5,
+     "book": "Construction Project Management by KK Chitkara, McGraw Hill Publication."
+    },
+    {
+     "no": 6,
+     "book": "Construction Management and Planning by Sengupta and Guha, McGraw Hill"
+    }
+   ],
+   "scheme_line_print": "KNE 071 | Construction Technology and Management (candidate of group row 'Departmental Elective-IV': L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3)",
+   "locator": "p.6 (syllabus); p.2 (Sem-VII scheme, Departmental Elective-IV candidate)",
+   "quirks": [
+    "Code printed 'KNE-071' on the syllabus page (p.6) and 'KNE 071' in the scheme table (p.2).",
+    "Marks/L-T-P/credit recorded from the 'Departmental Elective-IV' group scheme row (p.2): L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3; the subject's own syllabus page prints no marks.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Unit II prints 'Network Techniques :' (space before colon), 'work break down structure and reparation of networks' ('reparation' as printed), 'CPM AON and AOA' (no comma after CPM) — verbatim.",
+    "Unit IV prints 'Legal aspects of contraction' ('contraction' as printed) — verbatim.",
+    "Unit V prints spaced commas ('earth moving ,', 'Hoisting Equipments ,') — verbatim.",
+    "Text book 1 prints 'R.L. Peurify' and '. :' punctuation; text book 3 prints 'Willey Eastern Ltd.'; text book 4 prints 'by Sarkar , Oxford' — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Engineering Hydrology And Groundwater Management",
+   "name_print": "Engineering Hydrology And Groundwater Management",
+   "codes": [
+    "KNE072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "departmental-elective",
+   "ltp_print": "3L:0T:0P",
+   "credit_print": "3Credits",
+   "units": {
+    "1": "Ground Water Occurrence: Ground water hydrologic cycle, origin of ground water, rock properties effecting ground water, vertical distribution of ground water, zone of aeration and zone of saturation, geologic formation as Aquifers, types of aquifers, porosity, Specific yield and Specific retention, Groundwater Basin Management: Concepts of conjunction use, Case studies.",
+    "2": "Ground Water Movement: Permeability, Darcy’s law, storage coefficient. Transmissivity, differential equation governing ground water flow in three dimensions derivation, ground water flow equation in polar coordinate system. Ground water flow contours their applications.",
+    "3": "Analysis of Pumping Test Data – I: Steady flow groundwater flow towards a well in confined and unconfined aquifers – Dupit’s and Theism’s equations, Assumptions, Formation constants, yield of an open well interface and well tests, Analysis of Pumping Test Data – II: Unsteady flow towards a well – Non equilibrium equations – Thesis solution – Jocob and Chow’s simplifications, Leak aquifers.",
+    "4": "Surface and Subsurface Investigation: Surface methods of exploration – Electrical resistivity and Seismic refraction methods. Subsurface methods – Geophysical logging and resistivity logging. Aerial Photogrammetry applications along with Case Studies in Subsurface Investigation.",
+    "5": "Artificial Recharge of Ground Water: Concept of artificial recharge – recharge methods, relative merits, Applications of GIS and Remote Sensing in Artificial Recharge of Ground water along with Case studies, Saline Water Intrusion in aquifer: Occurrence of saline water intrusions, Ghyben Herzberg relation, Shape of interface, control of seawater intrusion."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Ground water Hydrology by David Keith Todd, John Wiley & Son, New York."
+    },
+    {
+     "no": 2,
+     "book": "Groundwater by H.M.Raghunath, Wiley Eastern Ltd."
+    },
+    {
+     "no": 3,
+     "book": "Groundwater Hydrology by Bhagu R. Chahar, Mc Graw Hill Publication Ltd."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Groundwater by Bawvwr, John Wiley & sons."
+    },
+    {
+     "no": 2,
+     "book": "Groundwater Syatem Planning & Managemnet – R.Willes & W.W.G.Yeh, Printice Hall."
+    },
+    {
+     "no": 3,
+     "book": "Applied Hydrogeology by C.W.Fetta, CBS Publishers & Distributers"
+    },
+    {
+     "no": 4,
+     "book": "Construction Management and Planning by Sengupta and Guha, McGraw Hill"
+    }
+   ],
+   "scheme_line_print": "KNE 072 | Engineering Hydrology and Groundwater Management (candidate of group row 'Departmental Elective-IV': L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3)",
+   "locator": "p.7 (syllabus); p.2 (Sem-VII scheme, Departmental Elective-IV candidate)",
+   "quirks": [
+    "Code printed 'KNE-072' on the syllabus page (p.7) and 'KNE 072' in the scheme table (p.2).",
+    "Marks/L-T-P/credit recorded from the 'Departmental Elective-IV' group scheme row (p.2): L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3; the subject's own syllabus page prints no marks.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Syllabus heading prints 'Engineering Hydrology And Groundwater Management' (capital 'And'); scheme table (p.2) prints 'Engineering Hydrology and Groundwater Management' — both verbatim.",
+    "Unit III prints 'Dupit’s', 'Theism’s', 'Thesis solution', 'Jocob', 'Leak aquifers' — as printed.",
+    "References item 1 prints 'Bawvwr'; item 2 prints 'Syatem', 'Managemnet', 'Printice Hall'; item 3 prints 'C.W.Fetta', 'Distributers' — as printed.",
+    "References item 4 duplicates KNE-071 text book 6 ('Construction Management and Planning by Sengupta and Guha, McGraw Hill') — copy-paste in print, as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Aided Design of Structure",
+   "name_print": "Computer Aided Design of Structure",
+   "codes": [
+    "KNE073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "departmental-elective",
+   "ltp_print": "3L:0T:0P",
+   "credit_print": "3Credits",
+   "units": {
+    "1": "Elements of Computer Aided Design and its advantages over conventional design. Hardware required for CAD works.",
+    "2": "Principles of software design, concept of modular programming, debugging and testing.",
+    "3": "Computer applications in analysis and design of Civil Engineering systems.",
+    "4": "Use of software packages in the area of Structural, Geotechnical, and Environmental fields.",
+    "5": "Expert system, their development and applications, Introduction to Neural Networks."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Computer Aided Design – S. Rajiv, Narosa Publication"
+    },
+    {
+     "no": 2,
+     "book": "A.I. and Expert System – Robert L. Lerine & / Lane E. Drang, McGraw Hill"
+    },
+    {
+     "no": 3,
+     "book": "Neural Computing: Waserman, vonnostrand."
+    },
+    {
+     "no": 4,
+     "book": "Auto CAD 2013, Dummes Bill Fane"
+    },
+    {
+     "no": 5,
+     "book": "5.Cad Frame & Architecture by Pieter Van Der Wolf"
+    }
+   ],
+   "scheme_line_print": "KNE 073 | Computer Aided Design of Structure (candidate of group row 'Departmental Elective-IV': L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3)",
+   "locator": "pp.7-8 (syllabus: heading p.7 bottom, units p.8); p.2 (Sem-VII scheme, Departmental Elective-IV candidate)",
+   "quirks": [
+    "Code printed 'KNE-073' on the syllabus page (p.7) and 'KNE 073' in the scheme table (p.2).",
+    "Marks/L-T-P/credit recorded from the 'Departmental Elective-IV' group scheme row (p.2): L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3; the subject's own syllabus page prints no marks.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Heading printed at p.7 bottom with units on p.8 (subject spans two pages).",
+    "p.8 table header cells split across lines as 'Uni t' / 'Lecture s' — text-layer artifact, as printed.",
+    "No 'Text Books' section printed; only 'Reference:' with 5 items.",
+    "Reference item 2 prints 'Robert L. Lerine & / Lane E. Drang'; item 3 prints 'Waserman, vonnostrand.'; item 4 prints 'Dummes Bill Fane'; item 5 prints a duplicated '5.' inside the item text ('5. 5.Cad Frame & Architecture...') — as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Soil and Water Conservation Engineering",
+   "name_print": "Soil and Water Conservation Engineering",
+   "codes": [
+    "KNE074"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "departmental-elective",
+   "ltp_print": "3L:0T:0P",
+   "credit_print": "3Credits",
+   "units": {
+    "1": "Definition and scope of soil conservation, cause of soil erosion, Mechanism of erosion, universal soil loss equation, soil erosion due to wind and its control, vegetation management, i.e., strip cropping, stubble mulching and other practices.",
+    "2": "Types of soil erosion due to water- sheet erosion, rill erosion, gully erosion, sediment transport in channels, sediment deposition in reservoirs. Methods of soil erosion control: bounding and terracing on agriculture land for gully control, bench terraces, vegetated water ways, chute spillways, drop inlet spillways, check dams, river training works.",
+    "3": "Biological methods of soil erosion control, grass land management, forest management. Soil quality management, drainage works, reclamation of salt affected soils. Water conservation: water harvesting, rainfall- run off relation, water storage in ponds, lakes, reservoirs and aquifers, groundwater recharge through wells, check dams and storage works.",
+    "4": "Water losses: filtration, seepage and evaporation losses, pollution/ contamination of water quality due to agricultural practices i.e., fertilizers and pesticides, self purification of surface water, sources of agricultural water pollution, pollutant dispersion in ground water.",
+    "5": "Need of planned utilization of water resources, economics of water resources utilization. Flood plain zones management, modifying the flood, reducing susceptibility to damage, reducing the impact of flooding."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Alam Singh – Modern Geotechnical Engineering"
+    },
+    {
+     "no": 2,
+     "book": "K. R. Arora – Soil Mechanics and foundation Engineering."
+    },
+    {
+     "no": 3,
+     "book": "N. C. Brady – Principles of Soil Sciences"
+    },
+    {
+     "no": 4,
+     "book": "B. C. Punmia – Soil Mechanics and Foundation Engineering"
+    }
+   ],
+   "scheme_line_print": "KNE 074 | Soil and Water Conservation Engineering (candidate of group row 'Departmental Elective-IV': L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3)",
+   "locator": "p.9 (syllabus); p.2 (Sem-VII scheme, Departmental Elective-IV candidate)",
+   "quirks": [
+    "Code printed 'KNE-074' on the syllabus page (p.9) and 'KNE 074' in the scheme table (p.2).",
+    "Marks/L-T-P/credit recorded from the 'Departmental Elective-IV' group scheme row (p.2): L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3; the subject's own syllabus page prints no marks.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Book-list heading prints 'Suggested reading:' (no separate Text Books section).",
+    "Unit II prints 'water- sheet erosion' and 'bounding and terracing' — as printed; Unit III prints 'rainfall- run off relation' — as printed.",
+    "Reference item 2 prints 'foundation' in lowercase mid-title — as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Water Power Engineering",
+   "name_print": "Water Power Engineering",
+   "codes": [
+    "KNE075"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "departmental-elective",
+   "ltp_print": "3L:0T:0P",
+   "credit_print": "3Credits",
+   "units": {
+    "1": "Water Power Introduction: Source of Energy, Status of hydro power in the World. Hydro – Power Place of Hydro Power in a Power system, Transmission Voltages and Hydro-power, estimation of water power potential, General load curve, load factor, capacity factor, utilization factor, diversity factor, load duration curve, firm power, secondary power, prediction of load illustrative examples.",
+    "2": "Type of Hydro-Power Plants –I Classification of Hydel Plants, run of river plants, general arrangement of run of river plants, valley dam plants, diversion canal plants, high head diversion plants storage and pondage illustrative examples. Type of Hydro Power Plants –II Basic features historical development, advantages of pumped storage plants, types of pumped storage plants, relative merits of two unit and three unit arrangement. Three unit arrangement, reversible pump turbines, problems of operation, topography reservoirs and water conveyance, power house, efficiency of P-S plants, illustrative example.",
+    "3": "Water Conveyance General. Classification of penstocks, design criteria for penstocks, economical diameter of penstock, anchor blocks, conduit valves, types of valves, bends and manifolds, illustrative example, Introduction, water hammer, resonance in penstocks, channel surges, surge tanks illustrative examples. Intakes, type of intakes, losses of intakes, air entrainment at intakes, inlet aeration, canals fore bay, tunnels.",
+    "4": "Turbines Introduction, main types of turbines , hydraulic features, turbine size, constructional features of turbines, layout arrangements, hydraulic of turbines, basic flow equations, draft tubes, cavitations in turbines, governing of turbines, turbine model testing characteristics of turbines, illustrative examples.",
+    "5": "Power House Planning General. (A) surface power stations, power house structure, power house dimensions, lighting and ventilation, variations in design of power house (B) underground power station, history, location of U.G power station, Types of U.G power station, advantages of U.G power house, components of U.G power house, types of layout, limitations of U.G power house structural design of power house, Tidal phenomenon, tidal power- basis principle, historical development, location of tidal power plant, difficulties in tidal power generation, components of tidal power plants, modes of generation, single basin arrangement, double basin system."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Water Power Engineering by M.M. Dandekar and K.N. Sharma, Vani Educational Books"
+    },
+    {
+     "no": 2,
+     "book": "Irrigation and water resources Engg. By G.L. Asawa New age international publishers."
+    },
+    {
+     "no": 3,
+     "book": "Irrigation and water power Engineering by B.C. Punamia, Pande B.B. lal (Laxmi Publications Private Limited)"
+    },
+    {
+     "no": 4,
+     "book": "Irrigation Water Resources and Water Power Engineering by Dr. P.N. Modi, Standard book House New Delhi."
+    }
+   ],
+   "scheme_line_print": "KNE 075 | Water Power Engineering (candidate of group row 'Departmental Elective -V': L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3)",
+   "locator": "p.11 (syllabus); p.2 (Sem-VII scheme, Departmental Elective -V candidate)",
+   "quirks": [
+    "Code printed 'KNE-075' on the syllabus page (p.11) and 'KNE 075' in the scheme table (p.2).",
+    "Marks/L-T-P/credit recorded from the 'Departmental Elective -V' group scheme row (p.2): L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3; the subject's own syllabus page prints no marks.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Book-list heading prints 'Suggested reading:' (no separate Text Books section).",
+    "Unit II prints 'Hydro-Power Plants –I' and 'Hydro Power Plants –II' (attached en-dashes) — as printed.",
+    "Unit IV prints 'turbines ,' (space before comma) and 'hydraulic of turbines' — as printed; Unit V prints 'basis principle' — as printed.",
+    "Reference item 2 prints 'Engg. By G.L. Asawa New age international publishers.'; item 3 prints 'B.C. Punamia' and 'Pande B.B. lal' — as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Integrated Watershed Management",
+   "name_print": "Integrated Watershed Management",
+   "codes": [
+    "KNE076"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "departmental-elective",
+   "ltp_print": "3L:0T:0P",
+   "credit_print": "3Credits",
+   "units": {
+    "1": "INTRODUCTION: Concept of watershed development, objectives of watershed development, need for watershed development in India, Integrated and multidisciplinary approach for watershed management.",
+    "2": "WATER HARVESTING: CHARACTERISTICS OF WATERSHED: size, shape, physiography, slope, climate, drainage, land use, vegetation, geology and soils, hydrology and hydrogeology, socioeconomic characteristics, basic data on watersheds, Rainwater Harvesting, catchment harvesting, harvesting structures, soil moisture conservation, check dams, artificial recharge, farm ponds, percolation tanks.",
+    "3": "PRINCIPLES OF EROSION: Types of erosion, factors affecting erosion, effects of erosion on land fertility and land capability, estimation of soil loss due to erosion, Universal soil loss equation, MEASURES TO CONTROL EROSION: Contour techniques, ploughing, furrowing, trenching, bunding, terracing, gully control, rockfill dams, brushwood dam, Gabion.",
+    "4": "LAND MANAGEMENT: Land use and Land capability classification, management of forest, agricultural, grassland and wild land. Reclamation of saline and alkaline soils.",
+    "5": "Planning of watershed management activities, peoples participation, preparation of action plan, administrative requirements."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Watershed Management by JVS Murthy, - New Age International Publishers."
+    },
+    {
+     "no": 2,
+     "book": "Water Resource Engineering by R.Awurbs and WP James, - Prentice Hall Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Reference:"
+    },
+    {
+     "no": 4,
+     "book": "Land and Water Management by VVN Murthy, - Kalyani Publications."
+    },
+    {
+     "no": 5,
+     "book": "Irrigation and Water Management by D.K.Majumdar, Printice Hall of India."
+    }
+   ],
+   "scheme_line_print": "KNE 076 | Integrated Watershed Management (candidate of group row 'Departmental Elective -V': L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3)",
+   "locator": "p.12 (syllabus); p.2 (Sem-VII scheme, Departmental Elective -V candidate)",
+   "quirks": [
+    "Code printed 'KNE-076' on the syllabus page (p.12) and 'KNE 076' in the scheme table (p.2).",
+    "Marks/L-T-P/credit recorded from the 'Departmental Elective -V' group scheme row (p.2): L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3; the subject's own syllabus page prints no marks.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Book-list heading prints 'Suggested reading:' (no separate Text Books section).",
+    "Suggested reading item 3 is the stray numbered heading 'Reference:' — as printed.",
+    "Stray line 'L T P  3 0 0' printed at the bottom of p.12 (below the Suggested reading list) — as printed.",
+    "Unit headings print in ALL CAPS ('INTRODUCTION:', 'WATER HARVESTING:', 'PRINCIPLES OF EROSION:', 'MEASURES TO CONTROL EROSION:', 'LAND MANAGEMENT:') — as printed.",
+    "Reference item 2 prints 'R.Awurbs'; item 5 prints 'Printice Hall of India' — as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Rural Development Engineering",
+   "name_print": "Rural Development Engineering",
+   "codes": [
+    "KNE077"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "departmental-elective",
+   "ltp_print": "3L:0T:0P",
+   "credit_print": "3Credits",
+   "units": {
+    "1": "Rural Development Planning and Concept of Appropriate Technology: Scope; development plans; various approaches to rural development planning; concept of appropriate technology. Rural development programme/ projects.",
+    "2": "Rural Housing: Low cost construction materials for housing; Architectural considerations for individual and group housing; Composite material - ferro-cement & fly ash, autoclaved calcium silicate bricks and soil-stabilized un-burnt brick; Plinth protection of mud walls; design consideration and construction of: non-erodable mud plaster, Water-proof and fire-retardant roof treatment for thatch roofs. Pre-cast stone masonry; rat-trap bond for walls; Panels for roof, ferro-cement flooring / roofing units, Earthquake resistant measures for low cost houses.",
+    "3": "Water Supply and Rural Sanitation: Sources of water. BIS & WHO water standards. Quality, Storage and distribution for rural water supply works; basic design principles of treatment-low cost water treatment technologies; conservation of water; rainwater harvesting; drainage in rural areas, low cost waste disposal systems; septic tank ; Biogas technology; low cost community & individual Garbage disposal systems, Ferro-cement water storage tanks.",
+    "4": "Low Cost Roads and Transport: Broad categories of Pavement Layers, types of Granular Sub-Bases and Bases, Bituminous Construction, Surface Treatments for roads in rural areas. Soil Stabilization, Lime, LimeFlyash and Cement Treated Course. Crusher-run-Macadam. Use of local materials. Flexible Pavement: Design factors, Basic Principles, Guidelines for Surfacing for Rural Road.",
+    "5": "Low Cost Irrigation: Consideration of low cost irrigation techniques , drip & sprinkler irrigation systems. Watershed and catchments area development - problems and features of watershed management, watershed structures"
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A.G.Madhov Rao, D.S.Ramachandra Murthy, Appropriate Technologies for low cost Housing Oxfordand IBH Publishing Co. Pvt .Ltd."
+    },
+    {
+     "no": 2,
+     "book": "CBRI, Roorkee, Advances in Building Mat erials and Construction."
+    },
+    {
+     "no": 3,
+     "book": "C. Satyanarayana Murthy, Design of Minor Irrigation and Canal Structures. Wiley Eastern Ltd.,"
+    },
+    {
+     "no": 4,
+     "book": "4.Document on Rural Road Development in India Volume1& 2; Central Road Research Institute, New"
+    },
+    {
+     "no": 5,
+     "book": "Delhi."
+    },
+    {
+     "no": 6,
+     "book": "Water supply and sanitary engineering by Rangwala, .Charotar publication"
+    },
+    {
+     "no": 7,
+     "book": "Rural Infrastructure by P.Nair, SBS Publication"
+    },
+    {
+     "no": 8,
+     "book": "Rural Infrastructure by Samalia Bihari Verma, Gyaneshwar Prasad & Sahib Kumari Singh, Sarup & Sons."
+    },
+    {
+     "no": 9,
+     "book": "Rural Development by Katar Singh, SAGE Publication"
+    },
+    {
+     "no": 10,
+     "book": "Information and Communication Technology for Agriculture and rural development by R. Saravanan, New India Publishing agency."
+    }
+   ],
+   "scheme_line_print": "KNE 077 | Rural Development Engineering (candidate of group row 'Departmental Elective -V': L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3)",
+   "locator": "p.13 (syllabus); p.2 (Sem-VII scheme, Departmental Elective -V candidate)",
+   "quirks": [
+    "Code printed 'KNE-077' on the syllabus page (p.13) and 'KNE 077' in the scheme table (p.2).",
+    "Marks/L-T-P/credit recorded from the 'Departmental Elective -V' group scheme row (p.2): L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3; the subject's own syllabus page prints no marks.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Book-list heading prints 'Suggested reading:' (no separate Text Books section).",
+    "Suggested reading items 4-5 split one title across two numbered items ('...Central Road Research Institute, New' / 'Delhi.'), item 4 begins with a duplicated '4.' inside the text, item 6 prints '.Charotar publication', item 1 prints 'A.G.Madhov Rao' and 'Oxfordand IBH', item 2 prints 'Mat erials'; a lone '.' prints after item 10 — as printed.",
+    "Unit III prints 'septic tank ; Biogas technology' (space before semicolon); Unit IV prints 'LimeFlyash' and 'Cement Treated Course'; Unit V prints 'techniques , drip' (space before comma) and ends without a full stop — as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Environmental Statistics And Experimental Design",
+   "name_print": "Environmental Statistics And Experimental Design",
+   "codes": [
+    "KNE078"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "departmental-elective",
+   "ltp_print": "3L:0T:0P",
+   "credit_print": "3Credits",
+   "units": {
+    "1": "Stochastic Processes in the Environment: Probability concepts; Conditional probability and Baye s theorem.",
+    "2": "Environmental Data Analysis: Descriptive statistics; Averaging times; Sample size determination; Sampling frequency and duration.",
+    "3": "Measurement uncertainty; Accuracy and precision; Sample and dynamic blanks; Error propagation; Linear least-squares regression.",
+    "4": "Trend analysis; Non-parametric statistics. Experiment Design and Hypothesis : Testing : Factorial design of experiments; Confidence intervals; Equality of means.",
+    "5": "Test; Analysis of variance (ANOVA); F-test; Significance of factor effects and their interaction."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A.G.Madhov Rao, D.S.Ramachandra Murthy, Appropriate Technologies for low cost Housing Oxfordand IBH Publishing Co. Pvt .Ltd."
+    },
+    {
+     "no": 2,
+     "book": "CBRI, Roorkee, Advances in Building Mat erials and Construction."
+    },
+    {
+     "no": 3,
+     "book": "C. Satyanarayana Murthy, Design of Minor Irrigation and Canal Structures. Wiley Eastern Ltd.,"
+    },
+    {
+     "no": 4,
+     "book": "4.Document on Rural Road Development in India Volume1& 2; Central Road Research Institute, New"
+    },
+    {
+     "no": 5,
+     "book": "Delhi."
+    },
+    {
+     "no": 6,
+     "book": "Water supply and sanitary engineering by Rangwala, .Charotar publication"
+    },
+    {
+     "no": 7,
+     "book": "Rural Infrastructure by P.Nair, SBS Publication"
+    },
+    {
+     "no": 8,
+     "book": "Rural Infrastructure by Samalia Bihari Verma, Gyaneshwar Prasad & Sahib Kumari Singh, Sarup & Sons."
+    },
+    {
+     "no": 9,
+     "book": "Rural Development by Katar Singh, SAGE Publication"
+    },
+    {
+     "no": 10,
+     "book": "Information and Communication Technology for Agriculture and rural development by R. Saravanan, New India Publishing agency."
+    }
+   ],
+   "scheme_line_print": "KNE 078 | Environmental Statistics and Experimental Design (candidate of group row 'Departmental Elective -V': L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3)",
+   "locator": "p.14 (syllabus); p.2 (Sem-VII scheme, Departmental Elective -V candidate)",
+   "quirks": [
+    "Code printed 'KNE-078' on the syllabus page (p.14) and 'KNE 078' in the scheme table (p.2).",
+    "Marks/L-T-P/credit recorded from the 'Departmental Elective -V' group scheme row (p.2): L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3; the subject's own syllabus page prints no marks.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Syllabus heading prints 'Environmental Statistics And Experimental Design' (capital 'And'); scheme table (p.2) prints 'Environmental Statistics and Experimental Design' — both verbatim.",
+    "Unit I prints 'Baye s theorem' — as printed; Unit IV prints 'Hypothesis : Testing :' (odd colon spacing); Unit V begins 'Test;' (the 'Hypothesis Testing' phrase is split across Units IV/V in print) — as printed.",
+    "Suggested reading list (10 items) is identical to KNE-077's list on p.13, including its '4.Document...New'/'Delhi.' split and stray 'Reference:'-style artifacts — copy-paste in print, as printed.",
+    "Book-list heading prints 'Suggested reading:' (no separate Text Books section)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Finishing Lab",
+   "name_print": "Finishing Lab",
+   "codes": [
+    "KNE751A"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "subject_type": "elective-lab",
+   "ltp_print": "0L:0T2P",
+   "credit_print": "1 Credits",
+   "units": {},
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of the environmental problems in the study area."
+    },
+    {
+     "no": 2,
+     "exp": "Sampling work and analysis in the lab."
+    },
+    {
+     "no": 3,
+     "exp": "Field study and primary data collection."
+    },
+    {
+     "no": 4,
+     "exp": "Secondary data collection from agencies."
+    },
+    {
+     "no": 5,
+     "exp": "Statistical analysis of data, model development and estimating pollutant quantities."
+    },
+    {
+     "no": 6,
+     "exp": "Designing of system using software/ model/ data."
+    },
+    {
+     "no": 7,
+     "exp": "Preparing a map using GIS software and report writing"
+    }
+   ],
+   "scheme_line_print": "p.2 row 5: KNE75X | Elective  Lab | 0 0 2 | CT blank TA blank Total blank | PS 25 | TE blank | PE 25 | Total 50 | Credit 1 (p.15 prints this lab's syllabus under code KNE-751A)",
+   "locator": "p.15 (experiments); p.2 (Sem-VII scheme row 5 'KNE75X Elective Lab')",
+   "quirks": [
+    "Code printed 'KNE-751A' on p.15; the Sem-VII scheme table (p.2) prints the umbrella code 'KNE75X' for 'Elective  Lab' (double space, as printed).",
+    "L-T-P prints as '0L:0T2P' (no colon between T and 2P) and credit as '1 Credits' — as printed.",
+    "No marks printed on p.15; the p.2 'KNE75X Elective Lab' row prints PS 25 | PE 25 | Total 50 | Credit 1."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Environmental System Modeling Lab",
+   "name_print": "Environmental System Modeling Lab",
+   "codes": [
+    "KNE751B"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "subject_type": "elective-lab",
+   "ltp_print": "0L:0T2P",
+   "credit_print": "1 Credits",
+   "units": {},
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Exercise on computer simulation of air pollution."
+    },
+    {
+     "no": 2,
+     "exp": "Exercise on computer simulation of surface water quality."
+    },
+    {
+     "no": 3,
+     "exp": "Exercise on computer simulation of soil water balance."
+    },
+    {
+     "no": 4,
+     "exp": "Exercise on application of storm water management model."
+    },
+    {
+     "no": 5,
+     "exp": "Exercise on application of linear programming in environmental engineering."
+    },
+    {
+     "no": 6,
+     "exp": "Exercise on application of transportation problem in environmental engineering"
+    },
+    {
+     "no": 7,
+     "exp": "Exercise on application of dynamic programming in environmental engineering."
+    }
+   ],
+   "scheme_line_print": "p.2 row 5: KNE75X | Elective  Lab | 0 0 2 | CT blank TA blank Total blank | PS 25 | TE blank | PE 25 | Total 50 | Credit 1 (p.15 prints this lab's syllabus under code KNE-751B)",
+   "locator": "p.15 (experiments); p.2 (Sem-VII scheme row 5 'KNE75X Elective Lab')",
+   "quirks": [
+    "Code printed 'KNE-751B' on p.15; the Sem-VII scheme table (p.2) prints the umbrella code 'KNE75X' for 'Elective  Lab' (double space, as printed).",
+    "L-T-P prints as '0L:0T2P' (no colon between T and 2P) and credit as '1 Credits' — as printed.",
+    "No marks printed on p.15; the p.2 'KNE75X Elective Lab' row prints PS 25 | PE 25 | Total 50 | Credit 1.",
+    "Experiment 6 ends without a full stop while 5 and 7 end with one — as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "HSMC-1#/HSMC-2# [Annexure-B(iii)]",
+   "name_print": "HSMC-1#/HSMC-2# [Annexure-B(iii)]",
+   "codes": [
+    "KHU701",
+    "KHU702"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "HSMC",
+   "units": {},
+   "scheme_line_print": "1 | KHU701/ KHU702 | HSMC-1#/HSMC-2# [Annexure-B(iii)] | 3 0 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3",
+   "locator": "p.2 (Sem-VII scheme row 1)",
+   "quirks": [
+    "Scheme row prints two alternative codes 'KHU701/ KHU702' for HSMC-1#/HSMC-2# (annexure reference '[Annexure-B(iii)]' with '#' markers) — as printed.",
+    "Detailed syllabus for the HSMC courses is NOT printed in this document (Annexure-B(iii) not included); no units/COs/books printed.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Open Elective – II [Annexure – B(iv)]",
+   "name_print": "Open Elective – II [Annexure – B(iv)]",
+   "codes": [],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "open-elective",
+   "units": {},
+   "scheme_line_print": "4 | (no code printed) | Open Elective – II [Annexure – B(iv)] | 3 0 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3",
+   "locator": "p.2 (Sem-VII scheme row 4)",
+   "quirks": [
+    "No subject code is printed for this row; syllabus referenced via '[Annexure – B(iv)]' which is not included in this document.",
+    "Detailed syllabus NOT printed in this document.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "no code printed on this scheme row (slot/assessment-level program-structure print; the printed row carries the name and credits only) — patch-b26 verify remedy (verifier v10 no-code evidence rule, B06 recorded class)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Elective Lab",
+   "name_print": "Elective  Lab",
+   "codes": [
+    "KNE75X"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "ese_pe": 25,
+    "ese_te_pe": 25,
+    "total": 50
+   },
+   "marks_print": "CT blank | TA blank | CT+TA Total blank | PS 25 | TE blank | PE 25 | Total 50 | Credit 1",
+   "subject_type": "elective-lab",
+   "units": {},
+   "scheme_line_print": "5 | KNE75X | Elective  Lab | 0 0 2 | CT blank TA blank Total blank | PS 25 | TE blank | PE 25 | Total 50 | Credit 1",
+   "locator": "p.2 (Sem-VII scheme row 5)",
+   "quirks": [
+    "Row prints placeholder-style code 'KNE75X' and name 'Elective  Lab' (double space) — as printed.",
+    "p.15 prints the two elective-lab options KNE-751A 'Finishing Lab' and KNE-751B 'Environmental System Modeling Lab' with experiment lists (emitted as separate subjects); no syllabus is printed under the code KNE75X itself in this document.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Mini Project or Internship Assessment*",
+   "name_print": "Mini Project or Internship Assessment*",
+   "codes": [
+    "KNE752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "total": 50
+   },
+   "marks_print": "CT blank | TA blank | CT+TA Total blank | PS 50 | TE blank | PE blank | Total 50 | Credit 1",
+   "subject_type": "mini-project",
+   "units": {},
+   "scheme_line_print": "6 | KNE752 | Mini Project or Internship Assessment* | 0 0 2 | CT blank TA blank Total blank | PS 50 | TE blank | PE blank | Total 50 | Credit 1",
+   "locator": "p.2 (Sem-VII scheme row 6)",
+   "quirks": [
+    "Name prints trailing asterisk 'Assessment*'; NOTE item 4 (p.2) states the Mini Project or Internship (4 ‐ 6 weeks) is conducted during semester break after VI semester and assessed during VII semester.",
+    "Detailed syllabus NOT printed in this document.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project I",
+   "name_print": "Project I",
+   "codes": [
+    "KNE753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 8
+   },
+   "credit": 4,
+   "marks": {
+    "ps": 50,
+    "ese_pe": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT blank | TA blank | CT+TA Total blank | PS 50 | TE blank | PE 100 | Total 150 | Credit 4",
+   "subject_type": "project",
+   "units": {},
+   "scheme_line_print": "7 | KNE753 | Project I | 0 0 8 | CT blank TA blank Total blank | PS 50 | TE blank | PE 100 | Total 150 | Credit 4",
+   "locator": "p.2 (Sem-VII scheme row 7)",
+   "quirks": [
+    "NOTE item 5 (p.2) states project work is identified during VI semester, initiated in VII semester (KNE 753) and completed in VIII semester (KNE 851).",
+    "Detailed syllabus NOT printed in this document.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "HSMC‐2#/HSMC‐1# [Annexure‐B(iii)]",
+   "name_print": "HSMC‐2#/HSMC‐1# [Annexure‐B(iii)]",
+   "codes": [
+    "KHU801",
+    "KHU802"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "HSMC",
+   "units": {},
+   "scheme_line_print": "1 | KHU801/ KHU802 | HSMC‐2#/HSMC‐1# [Annexure‐B(iii)] | 3 0 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3",
+   "locator": "p.3 (Sem-VIII scheme row 1)",
+   "quirks": [
+    "Scheme row prints two alternative codes 'KHU801/ KHU802'; name prints 'HSMC‐2#/HSMC‐1#' with U+2010 hyphens and HSMC-2 listed before HSMC-1 (order swapped vs the Sem-VII row) — as printed.",
+    "Detailed syllabus for the HSMC courses is NOT printed in this document (Annexure‐B(iii) not included).",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project II",
+   "name_print": "Project II",
+   "codes": [
+    "KNE851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 18
+   },
+   "credit": 9,
+   "marks": {
+    "ps": 100,
+    "ese_pe": 300,
+    "ese_te_pe": 300,
+    "total": 400
+   },
+   "marks_print": "CT blank | TA blank | CT+TA Total blank | PS 100 | TE blank | PE 300 | Total 400 | Credit 9",
+   "subject_type": "project",
+   "units": {},
+   "scheme_line_print": "4 | KNE 851 | Project II | 0 0 18 | CT blank TA blank Total blank | PS 100 | TE blank | PE 300 | Total 400 | Credit 9",
+   "locator": "p.3 (Sem-VIII scheme row 4)",
+   "quirks": [
+    "Code prints 'KNE 851' (with space) in the Sem-VIII table — as printed.",
+    "NOTE item 5 (p.2) states project work completed in VIII semester (KNE 851).",
+    "Detailed syllabus NOT printed in this document.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Open Elective – III",
+   "name_print": "Open Elective – III",
+   "codes": [],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "open-elective",
+   "units": {},
+   "scheme_line_print": "2 | (no code printed) | Open Elective – III | 3 0 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3",
+   "locator": "p.3 (Sem-VIII scheme row 2)",
+   "quirks": [
+    "No subject code is printed for this row; detailed syllabus NOT printed in this document.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "no code printed on this scheme row (slot/assessment-level program-structure print; the printed row carries the name and credits only) — patch-b26 verify remedy (verifier v10 no-code evidence rule, B06 recorded class)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Open Elective – IV",
+   "name_print": "Open Elective – IV",
+   "codes": [],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te": 100,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "subject_type": "open-elective",
+   "units": {},
+   "scheme_line_print": "3 | (no code printed) | Open Elective – IV | 3 0 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3",
+   "locator": "p.3 (Sem-VIII scheme row 3)",
+   "quirks": [
+    "No subject code is printed for this row; detailed syllabus NOT printed in this document.",
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "no code printed on this scheme row (slot/assessment-level program-structure print; the printed row carries the name and credits only) — patch-b26 verify remedy (verifier v10 no-code evidence rule, B06 recorded class)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "Scrambled multi-column cover; strings reassembled from printed text-layer fragments: 'Curriculum & Evaluation Scheme (VII & VIII semester)' | 'EVALUATION SCHEME & SYLLABUS' | 'DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY, UTTAR PRADESH, LUCKNOW' | 'B. TECH.  FOURTH YEAR' | 'ENVIRONMENTAL ENGINEERING' | 'AICTE MODEL CURRICULUM' | '[Effective from the Session: 2021-22]' (page image unavailable in extraction context; raw fragments listed in quirks)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_group_row",
+   "print": "Departmental Elective-IV | 3 0 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3 (candidates KNE 071, KNE 072, KNE 073, KNE 074)",
+   "locator": "p.2 (Sem-VII scheme group row 2)"
+  },
+  {
+   "kind": "scheme_group_row",
+   "print": "Departmental Elective -V | 3 0 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 PE blank | Total 150 | Credit 3 (candidates KNE 075, KNE 076, KNE 077, KNE 078)",
+   "locator": "p.2 (Sem-VII scheme group row 3)"
+  },
+  {
+   "kind": "scheme_row_moocs",
+   "print": "8 | MOOCs (Essential for Hons. Degree) | (all L-T-P/marks/credit cells blank)",
+   "locator": "p.2 (Sem-VII scheme row 8)"
+  },
+  {
+   "kind": "scheme_row_moocs",
+   "print": "5 | MOOCs (Essential for Hons. Degree) | (all L-T-P/marks/credit cells blank)",
+   "locator": "p.3 (Sem-VIII scheme row 5)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total | L 12 | T 0 | P 12 | Total 850 | Credit 18",
+   "locator": "p.2 (Sem-VII scheme, bottom)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total | L 9 | T 0 | P 18 | Total 850 | Credit 18",
+   "locator": "p.3 (Sem-VIII scheme, bottom)"
+  },
+  {
+   "kind": "scheme_note_block",
+   "print": "NOTE: 1. Regular classroom interaction with industry experts is to be ensured in all theory courses (minimum two expert talks from relevant Industry). 2. Working on experiments using virtual labs is to be ensured in lab courses. 3. Student’s visit to Industry/Industry Expert’s project site must be arranged as & when possible. 4. The Mini Project or Internship (4 ‐ 6 weeks) conducted during semester break after VI semester will be assessed during VII semester. 5. Project work is to be identified during VI semester, initiated in VII semester (KNE 753) and completed in VIII semester (KNE 851).",
+   "locator": "p.2 bottom"
+  },
+  {
+   "kind": "section_divider",
+   "print": "B. Tech (IV Year)  VII Semester  Syllabus",
+   "locator": "p.4"
+  },
+  {
+   "kind": "section_divider",
+   "print": "ELECTIVE IV",
+   "locator": "p.5"
+  },
+  {
+   "kind": "section_divider",
+   "print": "ELECTIVE V",
+   "locator": "p.10"
+  }
+ ],
+ "quirks": [
+  "Page-1 cover text layer is scrambled by the multi-column cover layout (fragments like 'Curric'/'culum & Eval', 'DR'/'R. A.P.J', 'UNIV'/'VERSIT' interleaved); the page image was unavailable in this extraction context (Read tool returned the text layer only), so the cover strings in non_subject_rows are reassembled from the printed fragment tokens; the pp.2-15 running headers corroborate 'ENVIRONMENTAL ENGINEERING' and 'Curriculum & Evaluation Scheme (VII & VIII semester)'. Unreconciled loose fragments: 'S PER', 'RADES', 'G', 'W', 'CKNOW', 'Page e 1'.",
+  "Scheme tables print the columns L T P | CT TA Total | PS | TE | PE | Total | Credit with 'End Semester' as a spanning header over TE and PE; every row carries exactly 8 numeric cells, blank cells left blank as printed (verbatim values recorded per subject in marks_print).",
+  "Sem-VII rows 2-3 are group rows ('Departmental Elective-IV', 'Departmental Elective -V') that carry the marks/credit for candidate subjects KNE 071-078; the syllabus pages pp.6-14 print no per-subject marks, COs or K-levels.",
+  "Course outcome (CO) statements and K-levels are NOT printed anywhere in this document; neither are objectives, eligibility or prerequisites.",
+  "Elective-lab pages print '0L:0T2P' (missing colon) and '1 Credits'; the scheme table prints umbrella code 'KNE75X Elective  Lab' while p.15 prints KNE-751A and KNE-751B.",
+  "p.8 table header cells split across lines ('Uni t', 'Lecture s') — text-layer artifact, as printed.",
+  "p.12 prints a stray 'L T P  3 0 0' line at the page bottom (KNE-076) — as printed.",
+  "pp.13-14 print identical 10-item 'Suggested reading' lists under KNE-077 and KNE-078 (copy-paste in print); KNE-076's list contains a stray numbered 'Reference:' item; KNE-072's references item 4 duplicates KNE-071's text book 6.",
+  "Codes print in variant forms: syllabus headings 'KNE-071' style, scheme tables 'KNE 071' style; Sem-VIII HSMC row prints 'HSMC‐2#/HSMC‐1#' with U+2010 hyphens and swapped order vs the Sem-VII row.",
+  "Printed typos kept verbatim across units/books: 'reparation', 'contraction', 'Peurify', 'Willey', 'Dupit’s', 'Theism’s', 'Thesis solution', 'Jocob', 'Leak aquifers', 'Bawvwr', 'Syatem', 'Managemnet', 'Printice', 'Fetta', 'Distributers', 'Waserman', 'vonnostrand', 'Dummes', 'Punamia', 'R.Awurbs', 'Madhov', 'Oxfordand', 'Mat erials', 'LimeFlyash', 'Baye s theorem'."
+ ],
+ "flags": [
+  "scheme_rows_without_detailed_syllabus: 9 (KHU701/KHU702, Open Elective – II, KNE75X, KNE752, KNE753, KHU801/KHU802, Open Elective – III, Open Elective – IV, KNE851)",
+  "elective_lab_options_printed_KNE751A_KNE751B_under_umbrella_code_KNE75X",
+  "placeholder_style_code_printed: KNE75X",
+  "no_cos_klevels_objectives_printed",
+  "no_course_meta_contradiction_codes_KNE_consistent_with_ENV_branch"
+ ]
+}

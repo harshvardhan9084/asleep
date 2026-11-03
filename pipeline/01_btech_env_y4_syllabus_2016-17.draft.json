@@ -1,0 +1,1652 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2016-17/btech_env_y4_syllabus_2016-17.pdf",
+ "session": "2016-17",
+ "course": "BTech",
+ "sha16": "c2eff0f0adde9801",
+ "stem": "01_btech_env_y4_syllabus_2016-17",
+ "subjects": [
+  {
+   "name": "Health Safety and Environment",
+   "name_print": "NEN-701: Health Safety and Environment",
+   "codes": [
+    "NEN701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction : Types of hazards, analysis of hazards , precautions & preventions , grades of hazards , Safety methods, Safety measures . IS 18001:2000/ 9001:2000 ISO 14001:1996 Comparison ,Importance of H.F& S, Industrial scope/Act/Compensation",
+    "2": "Fire hazards : Classification of fire , Grades of fire hazard . Classification of buildings / structures / materials ./ chemicals according to fire load . Fire hazard analysis , consequences & management. Mode of fire , fire fighting , Provision of buildings & Industrial structures from – fire safety angle .",
+    "3": "Different types of fire alarms / detectors & extinguishers , fire fighting requirements as per NBC 1983 / Municipality water supply requirements for fire , required fire flow , storage . wet risers, sprinkler , fire fighting services etc.",
+    "4": "General discussion on toxicology . Physiological effects of various compounds , Classification of hazardous chemicals / conditions . Occupational health & safety concepts .Classes of Explosive",
+    "5": "Protection & prevention measures of accidents & hazards Transportation & storage of chemicals, leakage & accident prevention .Industrial risk & Disaster management Survey of two industries for disaster / safety control systems, Electrical Safety Programme pollution control Practices in pesticides Industries"
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "National Safety Council Publication"
+    },
+    {
+     "no": 2,
+     "book": "Environmental Chemistry by Stanley E. Manahan, VIth Ed. Lewis Publishers, London"
+    },
+    {
+     "no": 3,
+     "book": "CPCB Green Book"
+    },
+    {
+     "no": 4,
+     "book": "www.moef.gov.in"
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Books heading printed 'Reference' only (no separate textbook list).",
+    "Unit-1 prints 'materials ./ chemicals' (stray './') and 'H.F& S' (missing space) - kept verbatim.",
+    "Reference 2 prints 'VI' with superscript 'th' (VIth Ed.) - joined as 'VIth'.",
+    "Scheme table (p2) prints code as 'NEN 701'; syllabus header prints 'NEN-701:'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p2): 'NEN 701 Health Safety and Environment' L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4."
+   ]
+  },
+  {
+   "name": "Estimation and Project Management",
+   "name_print": "NEN-702: Estimation and Project Management",
+   "codes": [
+    "NEN702"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Importance of estimation, different types of estimates, specification: general and detailed. Methods of estimation, Estimates of RC works, Estimates of building.",
+    "2": "Analysis of rates, prime cost, work charge establishment, quantity of materials per unit of work for major civil engineering items, Resource planning through analysis of rates, market rates, PWD schedule of rates and cost indices for building material and labour. Introduction to valuation.",
+    "3": "Project cycle, organization, planning, scheduling, monitoring, updating and management system in construction Bar chart, Milestone chart, Work down structure and preparation of networks. Application of network, Techniques like PERT, GERT,CPM,AON and AOA techniques.",
+    "4": "Project monitoring; cost planning, resources allocation through network techniques. Time value of money, present economy studies, Equivalent concept, financing of projects, economic comparison, present worth method, equivalent annual cost method, discounted cash flow method, depreciation and break even cost analysis.",
+    "5": "Legal aspects of contracts, their relative advantages and disadvantages, Different types of contracts, their relative advantages and disadvantages, Elements of tender preparation, process of tendering, pre-qualification of contracts, Evaluation of tender preparation, process of tendering, Evaluation of tender, contract negotiation and award of work."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Estimating and costing by B.N.Datta."
+    },
+    {
+     "no": 2,
+     "book": "PERT and CPM principle and application by L.S.Srinath."
+    },
+    {
+     "no": 3,
+     "book": "PERT and CPM principle and application by B.C.punamia."
+    },
+    {
+     "no": 4,
+     "book": "Construction planning and management by U.K.Srivastva."
+    },
+    {
+     "no": 5,
+     "book": "Estimating, costing and Valuation in Civil Engineering by M. Chakraborty."
+    },
+    {
+     "no": 6,
+     "book": "Construction, planning, equipment and method by R.L. Peurify."
+    },
+    {
+     "no": 7,
+     "book": "Network analysis techniques by S.K.Bhatnager."
+    },
+    {
+     "no": 8,
+     "book": "Construction Project Management by K.K. Chitkara, Mc Grew Hill Publication."
+    },
+    {
+     "no": 9,
+     "book": "Construction Management and Planning by Sengupta and Guha, Mc Grew Hill Publication."
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Books heading printed 'References:'; no separate textbook list.",
+    "Printed typos kept verbatim: 'Work down structure' (Unit-3), 'GERT,CPM,AON' (missing spaces), 'B.C.punamia', 'U.K.Srivastva', 'R.L. Peurify', 'S.K.Bhatnager', 'Mc Grew Hill Publication' (Refs 8-9).",
+    "Scheme table (p2) prints code as 'NEN 702'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p2): 'NEN 702 Estimation and Project Management' L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4."
+   ]
+  },
+  {
+   "name": "Soil and Water Conservation Engineering",
+   "name_print": "NEN 031 SOIL AND WATER CONSERVATION ENGINEERING",
+   "codes": [
+    "NEN031"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Definition and scope of soil conservation, cause of soil erosion, Mechanism of erosion, universal soil loss equation, soil erosion due to wind and its control, vegetation management, i.e., strip cropping, stubble mulching and other practices,",
+    "2": "Types of soil erosion due to water- sheet erosion, rill erosion, gully erosion, sediment transport in channels, sediment deposition in reservoirs. Methods of soil erosion control: bounding and terracing on agriculture land for gully control, bench terraces, vegetated water ways, chute spillways, drop inlet spillways, check dams, river training works.",
+    "3": "Biological methods of soil erosion control, grass land management, forest management. Soil quality management, drainage works, reclamation of salt affected soils. Water conservation: water harvesting, rainfall- run off relation, water storage in ponds, lakes, reservoirs and aquifers, groundwater recharge through wells, check dams and storage works.",
+    "4": "Water losses: filtration, seepage and evaporation losses, pollution/ contamination of water quality due to agricultural practices i.e., fertilizers and pesticides, self purification of surface water, sources of agricultural water pollution, pollutant dispersion in ground water.",
+    "5": "Need of planned utilization of water resources, economics of water resources utilization. Flood plain zones management, modifying the flood, reducing susceptibility to damage, reducing the impact of flooding."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Alam Singh – Modern Geotechnical Engineering"
+    },
+    {
+     "no": 2,
+     "book": "K. R. Arora – Soil Mechanics and foundation Engineering."
+    },
+    {
+     "no": 3,
+     "book": "N. C. Brady – Principles of Soil Sciences"
+    },
+    {
+     "no": 4,
+     "book": "B. C. Punmia – Soil Mechanics and Foundation Engineering"
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Departmental Elective-3 list (p2) prints 'NEN 031 Soil and Water Conservation Engineering'; syllabus header (p8) prints all caps.",
+    "Unit-1 ends with trailing comma; Unit-2 prints 'bounding' (for bunding) - kept verbatim.",
+    "Scheme row (p2) prints the elective range as 'NEN 031- ... NEN 033 Departmental Electives – III'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p2): 'NEN 031- Departmental Electives – III' (second code line 'NEN 033') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-3 list row (p2): '2 (A) NEN 031 Soil and Water Conservation Engineering' under 'Departmental Elective-3 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Engineering geology",
+   "name_print": "NEN 032 ENGINEERING GEOLOGY",
+   "codes": [
+    "NEN032"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Minerals : Their physical and detailed study of certain rock forming minerals. Rocks : Their origin, structure, Texture and classification of igneous sedimentary and metamorphic rocks and their suitability as Engg. materials.",
+    "2": "Stratification, Lamination bedding. Outcrop-its relation to topography, dip and strike of bed, overlap, outlier and inlier. Rock deformation : Folds, Faults, joints unconformity and their classification, causes and relation to engg. Behaviour of rock masses.",
+    "3": "Earthquake, its causes, classification, seismic zones of India and Geological consideration for construction of building, projects in seismic areas. Landslides, its causes, classification and preventive measures.",
+    "4": "Underground water, Origin, Aquifer, Aquicludes, Artesian Wells, underground provinces of India and its role as geological hazard. Building Stones Engg. properties of rocks, Alkali aggregate reaction, Grouting, Pozzolonic materials.",
+    "5": "Geological investigations for site selection of Dams and reservoirs tunnels, bridges and Highways. Principles of Geophysical explorations methods for subsurface structures."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Tony Waltham : Fundamentals of Engineering Geology ,SPON Press"
+    },
+    {
+     "no": 2,
+     "book": "J.M. Treteth : Geology of Engineers, Princeton, Von. Nostrand."
+    },
+    {
+     "no": 3,
+     "book": "K V G K Gokhale , Text Book of Engineering Geology , B S Publication"
+    },
+    {
+     "no": 4,
+     "book": "Prabin Singh : Engg. and General Geology, Katson Publishing House."
+    },
+    {
+     "no": 5,
+     "book": "Blyth F.G.M. : A Geology for Engineers, Arnold, London."
+    },
+    {
+     "no": 6,
+     "book": "D.S. Arora : Geology for Engineers, Mohindra Capital Publishers, Chandigarh."
+    },
+    {
+     "no": 7,
+     "book": "F G Bell : Funamentals of Engineering Geology , B S Publication"
+    },
+    {
+     "no": 8,
+     "book": "Leggot, R.F. : Geology and Engineering, McGraw Hill, New York."
+    },
+    {
+     "no": 9,
+     "book": "P.K. Mukerjee : A text Book of Geology, Calcutta Word Publishers."
+    },
+    {
+     "no": 10,
+     "book": "B S Sathya narayanswami, “ Engineering Geology”, Dhanpat Rai & Co"
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "DE-3 list (p2) prints 'Engineering geology' (lowercase g); syllabus header (p9) prints 'NEN 032 ENGINEERING GEOLOGY' - both kept.",
+    "Printed typos kept verbatim: Ref 2 'J.M. Treteth ... Von. Nostrand.', Ref 7 'Funamentals', Ref 8 'Leggot', Ref 9 'Calcutta Word Publishers.', Ref 10 'B S Sathya narayanswami'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p2): 'NEN 031- Departmental Electives – III' (second code line 'NEN 033') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-3 list row (p2): '2 (B) NEN 032 Engineering geology' under 'Departmental Elective-3 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Building Materials and Construction",
+   "name_print": "NEN 033 BUILDING MATERIALS & CONSTRUCTION",
+   "codes": [
+    "NEN033"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Building Material: (i) Stone: Classification , Desirable Properties, test on stone, Common Building Stone with uses. (ii) Brick: Properties of good brick earth, manufacturing of brick, lab & field test classification & uses. (iii) Gypsum: properties of gypsum plaster, building products of gypsum and their uses. (iv) Lime : Manufacture of lime, classifications of limes, properties of lime. (v) Pozzolona : Natural and Artificial fly ash, Surkhi (burnt clay pozzolona), rice husk and ash pozzolona, properties and specifications for use in construction. (vi) Timber : Classification and identification of timber, Fundamental Engineering properties. Defects in timber, Factors affecting strength of timber, seasoning and preservation of timber. Wood based products. (vii) Asphalt, Bitumen and Tar : Terminology, specifications and uses, Bituminous materials.",
+    "2": "Plastics: Chemistry, manufacturing process, classification, advantages and disadvantages of plastics, Mechanical properties and their use in construction. Paints varnishes and distempers: Common constituents, types and desirable properties. Cement paints. Ferrous metals: Desirable characteristics of reinforcing steel. Principles of cold working. Detailed Discussion on reinforcing steel: mechanical and physical properties chemical composition. Brief discussion on properties and uses of Aluminum and lead. Glass : Ingredients, properties types and use in construction. Insulating Materials : Thermal and sound insulating material desirable properties and type.",
+    "3": "Components of building, area considerations, Construction Principle and Methods for layout, Damp proofing ant termite treatment, Vertical circulation: staircases and ramp design and construction. Different types of floors and flooring materials (Ground floor and upper floors). Brick and stone masonary construction. Cavity wall, hollow block and Waffle slab construction.",
+    "4": "Doors, Windows and Ventilatiors: Construction details, types and relative advantages & disadvantages. Roof: types, uses and treat ents, Lintels and Chhajja.",
+    "5": "Buildings: Natural Ventilation, Water Supply and Sanitary fittings (Plumbing), Electrical fitting,. Heating, Ventilation & Air conditioning , Mechanical Lifts and Escalators , Fire Fighting (methods), Acoustics. Plastering: types, pointing, Distempering, Colour washing, Painting etc. Principles & Methods of building maintenance"
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "S K Duggal : Building Materials , New Age International"
+    },
+    {
+     "no": 2,
+     "book": "P.C. Varghese : Building Materials , PHI"
+    },
+    {
+     "no": 3,
+     "book": "P.C. Varghese : Building Construction , PHI"
+    },
+    {
+     "no": 4,
+     "book": "B.C. Funmia : A Text Book of Building Construction, Luxmi Publications, Delhi."
+    },
+    {
+     "no": 5,
+     "book": "O.H. Koenisberger : Manual of tropical housing and building Orient Longman"
+    },
+    {
+     "no": 6,
+     "book": "S.P. Arora at al., A Text Book of Building Construction - Dhanpat Rai & Sons,"
+    },
+    {
+     "no": 7,
+     "book": "M.L. Gambhir; Building Material: Products, Properties and System, TMH publication."
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Syllabus header (p10) prints '&' ('BUILDING MATERIALS & CONSTRUCTION'); DE-3 list (p2) prints 'Building Materials and Construction'.",
+    "Printed typos kept verbatim: Unit-1 'Pozzolona'; Unit-3 'ant termite treatment', 'masonary'; Unit-4 'Ventilatiors', 'treat ents'; Unit-5 'Electrical fitting,.'; Ref 4 'B.C. Funmia'; Ref 5 enumerator glued to name in print ('5.O.H. Koenisberger'); Ref 6 'S.P. Arora at al.' with trailing comma; Ref 7 'Building Material: Products, Properties and System'.",
+    "Units 1-4 on p10, Unit 5 and References on p11; unit labels print 'Unit-1', 'Unit-2', 'Unit 3', 'Unit 4', 'Unit 5' (hyphenation varies)."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p2): 'NEN 031- Departmental Electives – III' (second code line 'NEN 033') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-3 list row (p2): '2 (C) NEN 033 Building Materials and Construction' under 'Departmental Elective-3 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Sustainable Agriculture, Building and Sanitation",
+   "name_print": "NEN 041 SUSTAINABLE AGRICULTURE, BUILDING AND SANITATION",
+   "codes": [
+    "NEN041"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Meaning and Scope of Sustainable Development Sustainable agriculture, irrigation techniques, water resources management, watershed management, ground water management, waste water management – recycle and reuse.",
+    "2": "Agro produce processing, organic farming systems – sustainability organic manure, biofertilizr. Post harvest technologies.",
+    "3": "Health , Sanitation and community psychology Psychological aspects of community health , family planning, infant mortality rates information on communicable diseases and prevention , drinking water quality parameters, WHO standards , Water contamination , prevention methods of water treatment, sanitation practices for common facilities such as community toilets, sewage system to pit latrines for waterlogged areas.",
+    "4": "Building of cost effective and energy efficient houses , materials used in rural housing selection based on local availability , cost , strength and durability , thermal comfort , direction of sunlight , passive solar heating , bonding schemes, site selection based on wind direction and solar rays , ventilation and natural lighting , government policies , habitat management pre-fabrication of building components , new materials ,protection against rain .",
+    "5": "Water harvesting system and Techniques, design, development and advantages. Development in India."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Buckman, H.O, and Brady, N.C.(1969): The nature and properties of soils, Euvasia Publishing House (Pvt.) Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Ray Chaudhar; S.P (1996): Land and soil, National Book Trust, New Delhi"
+    },
+    {
+     "no": 3,
+     "book": "Thomson, L.M.(1957) Soil and soil fertility, McGraw Hill Book Company."
+    },
+    {
+     "no": 4,
+     "book": "Rural Water Supply in Developing Countries-IDRC-167e"
+    },
+    {
+     "no": 5,
+     "book": "Sanitation in Developing countries –IDRC 168e"
+    },
+    {
+     "no": 6,
+     "book": "Waste Management “Asian and Pacific Center for Transfer of Technology (N.D.) India”, September 1993."
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "DE-4 list (p2) prints code as 'NEN -041' (space before dash).",
+    "Printed typos kept verbatim: Unit-2 'biofertilizr'; Ref 1 'Euvasia Publishing House', 'Buckman, H.O,'; Ref 2 'Ray Chaudhar; S.P'.",
+    "Units 1-5 and References 1-5 on p12; Reference 6 on p13."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p2): 'NEN 041- Departmental Elective- IV' (second code line 'NEN 043') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-4 list row (p2): '3 (A) NEN -041 Sustainable Agriculture, Building and Sanitation' under 'Departmental Elective-4 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Ground water hydrology & management",
+   "name_print": "NEN 042 GROUND WATER HYDROLOGY AND MANAGEMENT",
+   "codes": [
+    "NEN042"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Ground Water Occurrence: Ground water hydrologic cycle, origin of ground water, rock properties effecting ground water, vertical distribution of ground water, zone of aeration and zone of saturation, geologic formation as Aquifers, types of aquifers, porosity, Specific yield and Specific retention, Groundwater Basin Management: Concepts of conjunction use, Case studies.",
+    "2": "Ground Water Movement: Permeability, Darcy’s law, storage coefficient. Transmissivity, differential equation governing ground water flow in three dimensions derivation, ground water flow equation in polar coordinate system. Ground water flow contours their applications.",
+    "3": "Analysis of Pumping Test Data – I: Steady flow groundwater flow towards a well in confined and unconfined aquifers – Dupit's and Theism's equations, Assumptions, Formation constants, yield of an open well interface and well tests, Analysis of Pumping Test Data – II: Unsteady flow towards a well – Non equilibrium equations – Thesis solution – Jocob and Chow's simplifications, Leak aquifers.",
+    "4": "Surface and Subsurface Investigation: Surface methods of exploration – Electrical resistivity and Seismic refraction methods. Subsurface methods – Geophysical logging and resistivity logging. Aerial Photogrammetry applications along with Case Studies in Subsurface Investigation.",
+    "5": "Artificial Recharge of Ground Water: Concept of artificial recharge – recharge methods, relative merits, Applications of GIS and Remote Sensing in Artificial Recharge of Ground water along with Case studies, Saline Water Intrusion in aquifer: Occurrence of saline water intrusions, Ghyben- Herzberg relation, Shape of interface, control of seawater intrusion."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Ground water Hydrology by David Keith Todd, John Wiley & Son, New York."
+    },
+    {
+     "no": 2,
+     "book": "Groundwater by H.M.Raghunath, Wiley Eastern Ltd."
+    },
+    {
+     "no": 3,
+     "book": "Groundwater Hydrology by Bhagu R. Chahar, Mc Graw Hill Publication Ltd."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Groundwater by Bawvwr, John Wiley & sons."
+    },
+    {
+     "no": 2,
+     "book": "Groundwater Syatem Planning & Managemnet – R.Willes & W.W.G.Yeh, Printice Hall."
+    },
+    {
+     "no": 3,
+     "book": "Applied Hydrogeology by C.W.Fetta, CBS Publishers & Distributers"
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Syllabus header (p13) prints 'AND MANAGEMENT'; DE-4 list (p2) prints 'Ground water hydrology & management'.",
+    "Printed typos kept verbatim: Unit-1 'effecting'; Unit-3 'Dupit's', 'Theism's equations', 'Thesis solution', 'Jocob', 'Leak aquifers'; Unit-5 'Ghyben- Herzberg'; Ref 1 'Bawvwr'; Ref 2 'Syatem Planning & Managemnet', 'Printice Hall'; Ref 3 'C.W.Fetta', 'Distributers'.",
+    "Unit labels print with mixed dashes: 'Unit–1', 'Unit–2', 'Unit-3', 'Unit -4', 'Unit -5'.",
+    "TEXT BOOKS list on p13; 'References :' list begins p14."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p2): 'NEN 041- Departmental Elective- IV' (second code line 'NEN 043') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-4 list row (p2): '3 (B) NEN -042 Ground water hydrology & management' under 'Departmental Elective-4 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "River Engineering",
+   "name_print": "NEN 043 RIVER ENGINEERING",
+   "codes": [
+    "NEN043"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction, classification of Rivers, Mechanics of alluvial rivers including channel and flood plain features, Sediment transport and budgets, River morphology and various classification schemes.",
+    "2": "Behaviour of Rivers: Introduction, River Channel patterns, Straight river channels, causes, characteristics and shapes of meanders and control, cutoff, Braided Rivers, Bed forms, Instability of rivers, Hydraulic geometry, Delta formation and control.",
+    "3": "Mechanics of Alluvial Rivers, Rivers and restoration structures, Socio cultural influences and ethics of stream restoration.",
+    "4": "Bio engineering Techniques, Classification review, Natural Channel Design Analysis, Time Series, Analysis of flow, Sediment and channel geometry data.",
+    "5": "River Training and Protection Works: Introduction, Classification of River Training, Types of training works, Protection for Bridges with reduced waterway, Design of Guide Band, embankment and spurs/dampners and other river/ flood protection works."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "River Behaviour Management and Training (Vol. I & II), CBI&P, New Delhi."
+    },
+    {
+     "no": 2,
+     "book": "Irrigation & Water Power Engineering B. C. Punmia and Pande B. B. Lal."
+    },
+    {
+     "no": 3,
+     "book": "Irrigation Water Resources and Water Power Engineering by Dr. P.N. Modi, Standard Book House, New Delhi."
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "DE-4 list (p2) prints code as 'NEN -043'.",
+    "Printed typos kept verbatim: Unit-5 'Guide Band' (Guide Bund), 'spurs/dampners'; Ref 1 'CBI&P'.",
+    "Books heading printed 'Textbook:'. Unit labels print 'Unit 1' ... 'Unit 5' (one with leading space ' Unit 3')."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p2): 'NEN 041- Departmental Elective- IV' (second code line 'NEN 043') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-4 list row (p2): '3 (C) NEN -043 River Engineering' under 'Departmental Elective-4 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Environmental Impact Assessment and Audit",
+   "name_print": "NEN-801: Environmental Impact Assessment and Audit",
+   "codes": [
+    "NEN801"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to EIA & Audit, Environment & Industries, Input information, Plant operation, Environmental Management planning, Waste Streams impact on water bodies.",
+    "2": "Environmental Impact Assessment planning. Activities, Methodology for Environmental Impact Assessment, Role of Environmental Engineering firm, Role of Regulatory agencies & control boards, Role of the Public.",
+    "3": "Environmental Audit: Introduction , Environmental information Purpose & advantage of studies, General approach of environmental Auditing Environmental Audit , Audit programs in India, Auditing program in major polluting Industries , Reports of the Environmental audit studies .",
+    "4": "Pollution prevention and control laws & acts: Constitution of India & environment , Constitution protection to Environment laws , Administrative & legislative arrangement for Environmental production , Indian Standards , Pollution control acts in India , critical appraisal ,fiscal incentives for environmental protection .",
+    "5": "Guidelines of preparation of project report and its evaluation, methods of clearance from the concern authorities at various labels."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "“Environmental pollution & Control in Chemical process Industries by S.C. Bhatia “ Khanna Publishers”, Delhi"
+    },
+    {
+     "no": 2,
+     "book": "Environmental impact assessment by Canter."
+    },
+    {
+     "no": 3,
+     "book": "Environmental Chemistry by Stanley E. Manahan, VIth Ed. Lewis Publishers, London"
+    },
+    {
+     "no": 4,
+     "book": "Dying Wisdom: Rise, Fall, and potential of India’s Traditional rain water harvesting systems by Anil Agarwal & Sunita Narayan, CSE Publication. New Delhi."
+    },
+    {
+     "no": 5,
+     "book": "Environmental Impact Assessment (Theory and Practice) by Peter Wathern, Routledge (Taylor and Frances Group), London and New York."
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Unit labels printed in caps: 'UNIT 1' ... 'UNIT 5'.",
+    "Printed typos kept verbatim: Unit-5 'concern authorities at various labels' (for 'levels'); Ref 1 unbalanced quotes around title/publisher; Ref 3 'VIth' superscript joined; Ref 4 'India’s' curly apostrophe.",
+    "Scheme table (p3) prints code as 'NEN 801'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p3): 'NEN 801 Environmental Impact Assessment and Audit' L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4."
+   ]
+  },
+  {
+   "name": "Rural Water Supply and Sanitation",
+   "name_print": "NEN 051 RURAL WATER SUPPLY AND SANITATION",
+   "codes": [
+    "NEN051"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Concept of environment and scope of sanitation in rural areas. Magnitude of problems of rural water supply and sanitation. Population to be covered, difficulties. National policy.",
+    "2": "Water supply: Design population and demand loads. Various approaches of planning of water supply schemes in rural areas. Development of proffered sources of water springs. Wells, infiltration wells, radial wells and infiltration galleries, collection of raw water from surface source. Specific practices and problems encountered in rural water supply.",
+    "3": "Improved methods and compact systems of treatment of surface and ground waters for rural water supply. Brief Details of multi-bottom settlers (MBS), diatomaceous earth filter, cloth filter, slow sand filter, chlorine diffusion cartridges. Pumps, pipe materials, appurtenances and improved devices for use in rural water supply. Planning of distribution system in rural areas.",
+    "4": "Community and sanitary latrines. Various methods of collection and disposal of night soil. Planning of waste water collection system in rural areas. Treatment and Disposal of waste water. Compact and simple waste water treatment units and systems in rural areas such as stabilization ponds, septic tanks, Imhoff tank, soak pit etc. Disposal of waste water soakage pits and trenches.",
+    "5": "Disposal of Solid Wastes. Composting, land filling, incineration, Biogas plants, Rural health. Other specific issues and problems encountered in rural sanitation"
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "‘Water Treatment and Sanitation – Simple Method for Rural Area’ by Mann H.T. and Williamson D."
+    },
+    {
+     "no": 2,
+     "book": "‘Water Supply for Rural Areas & Small Communities’ by Wanger E.G. and Lanoix J.N., WHO"
+    },
+    {
+     "no": 3,
+     "book": "‘Water Supply and Sewerage’, by E.W.Steel & T.J.Mcghee, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Manual on Water Supply and Treatment', CPHEEO, Mini. Of Urban Development, Govt. of India."
+    },
+    {
+     "no": 5,
+     "book": "Manual on Sewerage and Sewage Treatment', CPHEEO, Mini. Of Urban Development, Govt. of India"
+    },
+    {
+     "no": 6,
+     "book": "‘Environmental Engineering’ by D. Srinivasan, PHI Learning Pvt. Ltd. 2009"
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "DE-5 list (p3) prints code as 'NEN -051'.",
+    "Books heading printed 'Recommended books:'.",
+    "Printed typos kept verbatim: Unit-2 'proffered sources'; Ref 2 'Wanger E.G.'; Refs 4-5 'Mini. Of Urban Development' and unbalanced quotes (no opening quote mark); Ref 5 runs into Ref 6 on one printed line ('... Govt. of India 6. ‘Environmental Engineering’ ...')."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p3): 'NEN 051- Departmental Elective– V' (second code line 'NEN 053') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-5 list row (p3): '2 (A) NEN -051 Rural Water Supply and Sanitation' under 'Departmental Elective-5 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Environmental Geotechnology",
+   "name_print": "NEN 052 ENVIRONMENTAL GEOTECHNOLOGY",
+   "codes": [
+    "NEN052"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction, Development of Environmental Geotechnology, Aims,Environmental Cycle and their interaction with geotechnology, Natural environment, cycles of nature, environmental geotechnical problems.",
+    "2": "Identification and characteristics of contaminated soil, classification, Characteristics of dust, dust in environment, ion exchange reaction and ion exchange capacity, ion exchange reaction in contaminated soil water system, Site Investigation for detection of sub surface contamination",
+    "3": "Load environment factor design criteria, soil structure vs structure soil interaction, load and environmental loads, Bearing capacity based on load footing interaction, lateral earth pressure, pile foundations, environmental factors affecting pile capacity, under water foundation problems.",
+    "4": "Ash Pond and Mine Tailing Impoundments, Geotechnical re use of waste materials and fills, Grouting and injection process, Grout used for controlling hazardous wastes, Sinkhole: interaction with environment , remedial action",
+    "5": "Sanitary landfills: Selection of waste disposal sites, Landfills for Municipal and Hazardous wastes, Design of liners: clay and synthetic clay liners, Bearing capacity of foundation on sanitary landfills"
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fang, H. Introduction to Environmental Geotechnology."
+    },
+    {
+     "no": 2,
+     "book": "Sharma, H. D. and Sangeeta, P.L. waste containment systems, waste stabilization and landfills: design and evaluation."
+    },
+    {
+     "no": 3,
+     "book": "Koerner, R. M. Designing with geosynthetics"
+    },
+    {
+     "no": 4,
+     "book": "Geoenvironmental Engineering by Haro D. Sharma, Krishna R. Reddy, Wiley House Publishers."
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "DE-5 list (p3) prints code as 'NEN -052'.",
+    "Books heading printed 'Recommended Books:'.",
+    "Printed typos kept verbatim: Unit-1 'Aims,Environmental Cycle' (missing space); Unit-4 're use'; Ref 4 'Haro D. Sharma' and 'Wiley House Publishers'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p3): 'NEN 051- Departmental Elective– V' (second code line 'NEN 053') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-5 list row (p3): '2 (B) NEN -052 Environmental Geotechnology' under 'Departmental Elective-5 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Construction Technology and Management",
+   "name_print": "NEN 053 CONSTRUCTION TECHNOLOGY & MANAGEMENT",
+   "codes": [
+    "NEN053"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Elements of Management : Project cycle, Organisation, planning, scheduling monitoring updating and management system in construction.",
+    "2": "Network Techniques : Bar charts, milestone charts, work break down structure and preparation of networks. Application of network Techniques like PERT, GERT, CPM AON and AOA in construction management. Project monitoring, cost planning, resource allocation through network techniques. Line of balance technique.",
+    "3": "Engineering Economics : Time value of money, Present economy studies, Equivalence concept, financing of projects, economic comparison present worth method Equivalent annual cost method, discounted cash flow method, analytical criteria for postponing of investment retirement and replacement of asset. Depreciation and break even cost analysis.",
+    "4": "Contract Management :Legal aspects of contraction, laws related to contracts, land acquisition, labour safety and welfare. Different types of contracts, their relative advantages and disadvantages. Elements of tender preparation, process of tendering pre-qualification of contracts, Evaluation of tenders, contract negotiation and award of work, monitoring of contract extra items, settlements of disputes, arbitration and commissioning of project.",
+    "5": "Equipment Management : Productivity, operational cost, owning and hiring cost and the work motion study. Simulation techniques for resource scheduling. Construction Equipments for earth moving , Hauling Equipments, Hoisting Equipments , Conveying Equipments , Concrete Production Equipments"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Construction Planning, Equipment and Methods. : R.L. Peurify. T.M.H., International Book Company."
+    },
+    {
+     "no": 2,
+     "book": "PERT & CPM Principles and Applications L.S. Srinath, E.W.P. Ltd., New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Network Analysis Techniques S.K. Bhatnagar, Willey Eastern Ltd."
+    },
+    {
+     "no": 4,
+     "book": "Construction Technology by Sarkar , Oxford"
+    },
+    {
+     "no": 5,
+     "book": "Construction Project Management by KK Chitkara, Mc Graw Hill Publication."
+    },
+    {
+     "no": 6,
+     "book": "Construction Management and Planning by Sengupta and Guha, Mc Graw Hill Publication."
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Syllabus header (p18) prints '&' ('CONSTRUCTION TECHNOLOGY & MANAGEMENT'); DE-5 list (p3) prints 'Construction Technology and Management'.",
+    "Printed typos kept verbatim: Unit-4 'Legal aspects of contraction', 'Contract Management :Legal' (missing space), 'process of tendering pre-qualification' (missing comma); Ref 1 'R.L. Peurify. T.M.H., International Book Company.'; Ref 3 'Willey Eastern Ltd.'; Ref 4 'Sarkar , Oxford'.",
+    "Text Books 1-4 on p18; Text Books 5-6 on p19. Unit labels print 'Unit 1', 'Unit -2', 'Unit 3', 'Unit 4', 'Unit 5'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p3): 'NEN 051- Departmental Elective– V' (second code line 'NEN 053') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-5 list row (p3): '2 (C) NEN -053 Construction Technology and Management' under 'Departmental Elective-5 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Water Power Engineering",
+   "name_print": "NEN 061 WATER POWER ENGINEERING",
+   "codes": [
+    "NEN061"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Water Power Introduction: Source of Energy, Status of hydro power in the World. Hydro – Power Place of Hydro Power in a Power system, Transmission Voltages and Hydro-power, estimation of water power potential, General load curve, load factor, capacity factor, utilization factor, diversity factor, load duration curve, firm power, secondary power, prediction of load illustrative examples.",
+    "2": "Type of Hydro-Power Plants –I Classification of Hydel Plants, run of river plants, general arrangement of run of river plants, valley dam plants, diversion canal plants, high head diversion plants storage and pondage illustrative examples. Type of Hydro Power Plants –II Basic features historical development, advantages of pumped storage plants, types of pumped storage plants, relative merits of two unit and three unit arrangement. Three unit arrangement, reversible pump turbines, problems of operation, topography reservoirs and water conveyance, power house, efficiency of P-S plants, illustrative example.",
+    "3": "Water Conveyance General. Classification of penstocks, design criteria for penstocks, economical diameter of penstock, anchor blocks, conduit valves, types of valves, bends and manifolds, illustrative example, Introduction, water hammer, resonance in penstocks, channel surges, surge tanks illustrative examples. Intakes, type of intakes, losses of intakes, air entrainment at intakes, inlet aeration, canals fore bay, tunnels.",
+    "4": "Turbines Introduction, main types of turbines , hydraulic features, turbine size, constructional features of turbines, layout arrangements, hydraulic of turbines, basic flow equations, draft tubes, cavitations in turbines, governing of turbines, turbine model testing characteristics of turbines, illustrative examples.",
+    "5": "General. (A) surface power stations, power house structure, power house dimensions, lighting and ventilation, variations in design of power house (B) underground power station, history, location of U.G power station, Types of U.G power station, advantages of U.G power house, components of U.G power house, types of layout, limitations of U.G power house structural design of power house, Tidal phenomenon, tidal power- basis principle, historical development, location of tidal power plant, difficulties in tidal power generation, components of tidal power plants, modes of generation, single basin arrangement, double basin system."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Water Power Engineering by M.M. Dandekar and K.N. Sharma, Vani Educational Books"
+    },
+    {
+     "no": 2,
+     "book": "Irrigation and water resources Engg. By G.L. Asawa New age international publishers."
+    },
+    {
+     "no": 3,
+     "book": "Irrigation and water power Engineering by B.C. Punamia, Pande B.B. lal (Laxmi Publications Private Limited)"
+    },
+    {
+     "no": 4,
+     "book": "Irrigation Water Resources and Water Power Engineering by Dr. P.N. Modi, Standard book House New Delhi."
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "DE-6 list (p3) prints code as 'NEN -061'.",
+    "Unit-5 heading printed 'Unit - 5 Power House Planning' (topic inside the unit label); unit body begins 'General. (A) surface power stations ...'.",
+    "Unit-5 spans pages 19-20; Unit labels print 'Unit – 1', 'Unit – 2', 'Unit – 3', 'Unit - 4', 'Unit - 5 Power House Planning'.",
+    "Books heading printed 'Reference Text:'. Printed typos kept verbatim: Ref 3 'B.C. Punamia, Pande B.B. lal'; Ref 4 'Standard book House'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p3): 'NEN 061- Departmental Elective – VI' (second code line 'NEN 063') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-6 list row (p3): '3 (A) NEN -061 Water Power Engineering' under 'Departmental Elective-6 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Integrated Watershed Management",
+   "name_print": "NEN 062 INTEGRATED WATERSHED MANAGEMENT",
+   "codes": [
+    "NEN062"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION: Concept of watershed development, objectives of watershed development, need for watershed development in India, Integrated and multidisciplinary approach for watershed management.,",
+    "2": "WATER HARVESTING: CHARACTERISTICS OF WATERSHED: size, shape, physiography, slope, climate, drainage, land use, vegetation, geology and soils, hydrology and hydrogeology, socio-economic characteristics, basic data on watersheds, Rainwater Harvesting, catchment harvesting, harvesting structures, soil moisture conservation, check dams, artificial recharge, farm ponds, percolation tanks,",
+    "3": "PRINCIPLES OF EROSION: Types of erosion, factors affecting erosion, effects of erosion on land fertility and land capability, estimation of soil loss due to erosion, Universal soil loss equation, MEASURES TO CONTROL EROSION: Contour techniques, ploughing, furrowing, trenching, bunding, terracing, gully control, rockfill dams, brushwood dam, Gabion.",
+    "4": "LAND MANAGEMENT: Land use and Land capability classification, management of forest, agricultural, grassland and wild land. Reclamation of saline and alkaline soils.",
+    "5": "Planning of watershed management activities, peoples participation, preparation of action plan, administrative requirements."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Watershed Management by JVS Murthy, - New Age International Publishers."
+    },
+    {
+     "no": 2,
+     "book": "Water Resource Engineering by R.Awurbs and WP James, - Prentice Hall Publishers."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Land and Water Management by VVN Murthy, - Kalyani Publications."
+    },
+    {
+     "no": 2,
+     "book": "Irrigation and Water Management by D.K.Majumdar, Printice Hall of India"
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "DE-6 list (p3) prints code as 'NEN -062'.",
+    "Books headings printed 'Text books:' and 'Reference:'.",
+    "Printed typos kept verbatim: Unit-1 ends 'management.,' (comma+period); Unit-2 ends with trailing comma; Ref 2 'R.Awurbs'; Ref 2/Ref 1 stray ',-' after author; Ref 2 'Printice Hall of India'."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p3): 'NEN 061- Departmental Elective – VI' (second code line 'NEN 063') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-6 list row (p3): '3 (B) NEN -062 Integrated Watershed Management' under 'Departmental Elective-6 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Transport Phenomena",
+   "name_print": "NEN 063 TRANSPORT PHENOMENA",
+   "codes": [
+    "NEN063"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to transport phenomena, molecular transport mechanisms and general properties, transport with net convective flux, flow turbulence and boundary layer theory.",
+    "2": "Transport in ducts, heat & mass transfer in duct flow, transport in immersed bodies,",
+    "3": "Unsteady state transport and agitation.",
+    "4": "Estimation of transport coefficient, non-Newtonian fluids, rheological characteristics of materials, agitation of non-Newtonian fluids.",
+    "5": "Heat & mass transfer inside a porous catalyst: chemical reaction and phenomenon"
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "R. Byron Bird, Warren E. Steward and Edwin N. Lightfoot, Transport Phenomena by"
+    },
+    {
+     "no": 2,
+     "book": "Suhas V. Patankar, Dudley Brian Spadding, Heat and Mass Transfer in Boundary Layers, Morgan-Grampian."
+    },
+    {
+     "no": 3,
+     "book": "W.M. Kays, M.E. Crawford, Bernhard Weigand, Convective Heat and Mass Transfer, McGraw Hill"
+    },
+    {
+     "no": 4,
+     "book": "Asim K. Dutta, Biological and Bio-Environmental Heat and Mass Transfer, Marcel Dekker."
+    },
+    {
+     "no": 5,
+     "book": "Robert Alber Greenkorn, David P. Kossler, Momentum, Heat and Mass Transfer fundamentals, Marcel Dekker"
+    }
+   ],
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "DE-6 list (p3) prints code as 'NEN -063' (enumeration '3(C)' printed without space).",
+    "Unit labels printed in caps: 'UNIT 1' ... 'UNIT 5'.",
+    "Books heading printed 'REFERENCES:'.",
+    "Printed typos kept verbatim: Unit-2 ends with trailing comma; Ref 1 title ends with dangling 'by'; Ref 2 'Spadding' (Spalding), 'Steward'; Ref 5 enumerator glued in print ('5.Robert')."
+   ],
+   "flags": [],
+   "notes": [
+    "Scheme row (p3): 'NEN 061- Departmental Elective – VI' (second code line 'NEN 063') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4.",
+    "DE-6 list row (p3): '3(C) NEN -063 Transport Phenomena' under 'Departmental Elective-6 (Full Unit Course with Credit: 4)'."
+   ]
+  },
+  {
+   "name": "Entrepreneurship Development",
+   "name_print": "NOE-071 Entrepreneurship Development",
+   "codes": [
+    "NOE071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Pool list (p5) prints code 'NOE-071'; scheme row (p2) prints 'NOE071-'."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed pool listing (p5): 'NOE-071 Entrepreneurship Development' under 'Open Elective**-I'.",
+    "Parent scheme row (p2): 'NOE071- Open Elective – 1' (second code line 'NOE074') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4."
+   ]
+  },
+  {
+   "name": "Quality Management",
+   "name_print": "NOE-072 Quality Management",
+   "codes": [
+    "NOE072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Code NOE072 appears only in the Open Elective-I pool list (p5); the VII-sem scheme row prints the range 'NOE071- ... NOE074'."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed pool listing (p5): 'NOE-072 Quality Management' under 'Open Elective**-I'.",
+    "Parent scheme row (p2): 'NOE071- Open Elective – 1' (second code line 'NOE074') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4 (range covers NOE072/NOE073)."
+   ]
+  },
+  {
+   "name": "Operation Research",
+   "name_print": "NOE-073 Operation Research",
+   "codes": [
+    "NOE073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Printed name 'Operation Research' (for 'Operations Research') kept verbatim.",
+    "Code NOE073 appears only in the Open Elective-I pool list (p5); the VII-sem scheme row prints the range 'NOE071- ... NOE074'."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed pool listing (p5): 'NOE-073 Operation Research' under 'Open Elective**-I'.",
+    "Parent scheme row (p2): 'NOE071- Open Elective – 1' (second code line 'NOE074') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4 (range covers NOE072/NOE073)."
+   ]
+  },
+  {
+   "name": "Introduction to Biotechnology",
+   "name_print": "NOE-074 Introduction to Biotechnology",
+   "codes": [
+    "NOE074"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Pool list (p5) prints code 'NOE-074'; scheme row (p2) prints 'NOE074' as the second code line of the Open Elective-I row."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed pool listing (p5): 'NOE-074 Introduction to Biotechnology' under 'Open Elective**-I'.",
+    "Parent scheme row (p2): 'NOE071- Open Elective – 1' (second code line 'NOE074') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4."
+   ]
+  },
+  {
+   "name": "Non Conventional Energy Resources",
+   "name_print": "NOE-081 Non Conventional Energy Resources",
+   "codes": [
+    "NOE081"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Pool list (p5) prints code 'NOE-081'; scheme row (p3) prints 'NOE081-'."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed pool listing (p5): 'NOE-081 Non Conventional Energy Resources' under 'Open Elective**-II'.",
+    "Parent scheme row (p3): 'NOE081- Open Elective -II' (second code line 'NOE084') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4."
+   ]
+  },
+  {
+   "name": "Nonlinear Dynamic System",
+   "name_print": "NOE -082 Nonlinear Dynamic System",
+   "codes": [
+    "NOE082"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Pool list (p5) prints code with internal space 'NOE -082'.",
+    "Code NOE082 appears only in the Open Elective-II pool list (p5); the VIII-sem scheme row prints the range 'NOE081- ... NOE084'."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed pool listing (p5): 'NOE -082 Nonlinear Dynamic System' under 'Open Elective**-II'.",
+    "Parent scheme row (p3): 'NOE081- Open Elective -II' (second code line 'NOE084') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4 (range covers NOE082/NOE083)."
+   ]
+  },
+  {
+   "name": "Product Development",
+   "name_print": "NOE -083 Product Development",
+   "codes": [
+    "NOE083"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Pool list (p5) prints code with internal space 'NOE -083'.",
+    "Code NOE083 appears only in the Open Elective-II pool list (p5); the VIII-sem scheme row prints the range 'NOE081- ... NOE084'."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed pool listing (p5): 'NOE -083 Product Development' under 'Open Elective**-II'.",
+    "Parent scheme row (p3): 'NOE081- Open Elective -II' (second code line 'NOE084') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4 (range covers NOE082/NOE083)."
+   ]
+  },
+  {
+   "name": "Automation and Robotics",
+   "name_print": "NOE -084 Automation and Robotics",
+   "codes": [
+    "NOE084"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Pool list (p5) prints code with internal space 'NOE -084'; scheme row (p3) prints 'NOE084' as the second code line of the Open Elective-II row."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed pool listing (p5): 'NOE -084 Automation and Robotics' under 'Open Elective**-II'.",
+    "Parent scheme row (p3): 'NOE081- Open Elective -II' (second code line 'NOE084') L3 T1 P0, CT 30, TA 20, Sessional Total 50, ESE 100, Subject Total 150, Credit 4."
+   ]
+  },
+  {
+   "name": "Human Value and Professional Ethics",
+   "name_print": "*Human Value and Professional Ethics",
+   "codes": [
+    "NHU111"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "audit",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Name printed with leading '*' marker ('*Human Value and Professional Ethics') in BOTH scheme tables; no '*' footnote is printed anywhere in the document.",
+    "Credit printed '-' (non-credit) in both tables; excluded from the printed Total rows (L/T/P/credit totals work out only when this row is excluded).",
+    "Listed in both VII semester (p2, S.No. 6) and VIII semester (p3, S.No. 5) scheme tables with identical periods and marks."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Scheme row VII (p2): 'NHU111 *Human Value and Professional Ethics' L2 T0 P0, CT 15, TA 10, Sessional Total 25, ESE 50, Subject Total 75, Credit '-'.",
+    "Scheme row VIII (p3): 'NHU111 *Human Value and Professional Ethics' L2 T0 P0, CT 15, TA 10, Sessional Total 25, ESE 50, Subject Total 75, Credit '-'."
+   ]
+  },
+  {
+   "name": "Seminar",
+   "name_print": "NEN 751 Seminar",
+   "codes": [
+    "NEN751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": null,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Text layer prints two empty cells (CT/TA) then '50 50 - 50 1'; positional read consistent with the Project rows gives TA 50, Sessional Total 50, ESE '-', Subject Total 50, Credit 1; nulls mark printed dashes, sessional_ct omitted as printed-blank.",
+    "Scheme section: 'PRACTICAL / DESIGN / DRAWING' (p2)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Scheme row (p2): 'NEN 751 Seminar' L0 T0 P4, sessional Total 50, ESE '-', Subject Total 50, Credit 1."
+   ]
+  },
+  {
+   "name": "Industrial Training",
+   "name_print": "NEN 752 Industrial Training**",
+   "codes": [
+    "NEN752"
+   ],
+   "semester": 7,
+   "credit": 1,
+   "marks": {
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": null,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "L, T, P and CT cells printed blank (no dashes); text layer shows five empty cells then '- 50 - 50 1'; positional read: TA '-', Sessional Total 50, ESE '-', Subject Total 50, Credit 1; ltp omitted as printed-blank.",
+    "Name carries '**' marker tied to the printed footnote '** 4 weeks Industrial Training after VI sem. to be evaluated in VII semester.' (p2)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Scheme row (p2): 'NEN 752 Industrial Training**' under 'PRACTICAL / DESIGN / DRAWING'.",
+    "Footnote (p2): '** 4 weeks Industrial Training after VI sem. to be evaluated in VII semester.'"
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "NEN 753 Project#",
+   "codes": [
+    "NEN753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 100,
+    "sessional_total": 100,
+    "ese_te_pe": null,
+    "total": 100
+   },
+   "subject_type": "practical",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "CT cell printed blank; text layer: empty then '100 100 - 100 2' → TA 100, Sessional Total 100, ESE '-', Subject Total 100, Credit 2; nulls mark printed dashes.",
+    "Name carries '#' marker tied to the printed footnote '# Project should be initiated in VII sem. beginning and should be completed by the end of VIII semester.' (p2).",
+    "Printed name 'Project' identical to NEN 851 Project (VIII sem) — distinct codes and semesters, kept separate per subject identity."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "duplicate_print_name_distinct_codes"
+   ],
+   "notes": [
+    "Scheme row (p2): 'NEN 753 Project#' L0 T0 P4, sessional Total 100, ESE '-', Subject Total 100, Credit 2.",
+    "Footnote (p2): '# Project should be initiated in VII sem. beginning and should be completed by the end of VIII semester.'"
+   ]
+  },
+  {
+   "name": "General Proficiency",
+   "name_print": "NGP 701 General Proficiency",
+   "codes": [
+    "NGP701"
+   ],
+   "semester": 7,
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": null,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Row prints '-' in L, T, P, CT, TA and ESE columns and '50' in both Sessional-Total and Subject-Total columns (text-layer positional read: '- - - - - 50 - 50 1'); ltp omitted as printed-dash.",
+    "Printed name 'General Proficiency' identical to NGP 801 General Proficiency (VIII sem) — distinct codes and semesters, kept separate per subject identity."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "duplicate_print_name_distinct_codes"
+   ],
+   "notes": [
+    "Scheme row (p2, S.No. 10): 'NGP 701 General Proficiency' under 'PRACTICAL / DESIGN / DRAWING'; Sessional Total 50, ESE '-', Subject Total 50, Credit 1."
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "NEN 851 Project",
+   "codes": [
+    "NEN851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 12
+   },
+   "credit": 8,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 100,
+    "sessional_total": 100,
+    "ese_te_pe": 250,
+    "total": 350
+   },
+   "subject_type": "practical",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "CT cell printed blank; text layer: empty then '100 100 250 350 8' → TA 100, Sessional Total 100, ESE 250, Subject Total 350, Credit 8; sessional_ct omitted as printed-blank.",
+    "Printed name 'Project' identical to NEN 753 Project# (VII sem) — distinct codes and semesters, kept separate per subject identity."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "duplicate_print_name_distinct_codes"
+   ],
+   "notes": [
+    "Scheme row (p3, S.No. 6): 'NEN 851 Project' L0 T0 P12, sessional Total 100, ESE 250, Subject Total 350, Credit 8."
+   ]
+  },
+  {
+   "name": "General Proficiency",
+   "name_print": "NGP 801 General Proficiency",
+   "codes": [
+    "NGP801"
+   ],
+   "semester": 8,
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": null,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "units": {},
+   "objectives_print": [],
+   "cos": [],
+   "experiments": [],
+   "quirks": [
+    "Row prints '-' in L, T, P, CT, TA and ESE columns and '50' in both Sessional-Total and Subject-Total columns (text-layer positional read: '- - - - - 50 - 50 1'); ltp omitted as printed-dash.",
+    "Printed name 'General Proficiency' identical to NGP 701 General Proficiency (VII sem) — distinct codes and semesters, kept separate per subject identity."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "duplicate_print_name_distinct_codes"
+   ],
+   "notes": [
+    "Scheme row (p3, S.No. 7): 'NGP 801 General Proficiency' under 'PRACTICAL / DESIGN / DRAWING'; Sessional Total 50, ESE '-', Subject Total 50, Credit 1."
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "title_page",
+   "print": "Syllabus / 4th Year / [Effective from session 2016‐17] / B. Tech. Environmental Engineering",
+   "locator": "p1"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "Study & Evaluation Scheme / B Tech Environmental Engineering / Effective for session 2016-17 / Final Year, VII Semester",
+   "locator": "p2"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "THEORY SUBJECT",
+   "locator": "p2"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "PRACTICAL / DESIGN / DRAWING",
+   "locator": "p2"
+  },
+  {
+   "kind": "footnote",
+   "print": "** 4 weeks Industrial Training after VI sem. to be evaluated in VII semester.",
+   "locator": "p2"
+  },
+  {
+   "kind": "footnote",
+   "print": "# Project should be initiated in VII sem. beginning and should be completed by the end of VIII semester.",
+   "locator": "p2"
+  },
+  {
+   "kind": "semester_total_row",
+   "print": "Total 15 5 8 1000 25",
+   "locator": "p2 (VII sem Total row: L 15, T 5, P 8, Subject Total 1000, Credit 25)"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "Departmental Elective-3 (Full Unit Course with Credit: 4)",
+   "locator": "p2"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "Departmental Elective-4 (Full Unit Course with Credit: 4)",
+   "locator": "p2"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "Study & Evaluation Scheme / B Tech Environmental Engineering / Effective from session 2016-17 / Final Year, VIII Semester",
+   "locator": "p3"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "THEORY SUBJECT",
+   "locator": "p3"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "PRACTICAL / DESIGN / DRAWING",
+   "locator": "p3"
+  },
+  {
+   "kind": "semester_total_row",
+   "print": "Total 12 4 12 1000 25",
+   "locator": "p3 (VIII sem Total row: L 12, T 4, P 12, Subject Total 1000, Credit 25)"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "Departmental Elective-5 (Full Unit Course with Credit: 4)",
+   "locator": "p3"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "Departmental Elective-6 (Full Unit Course with Credit: 4)",
+   "locator": "p3"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "Open Elective**-I",
+   "locator": "p5"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "Open Elective**-II",
+   "locator": "p5"
+  }
+ ],
+ "quirks": [
+  "Page 4 of the PDF is blank (no printed content).",
+  "Each unit of every detailed syllabus is followed by a standalone printed '8' (lectures per unit); captured as lectures_per_unit.",
+  "Practical-section scheme rows (NEN 751/752/753, NGP 701/801, NEN 851) have blank/dash cells whose column alignment is ambiguous in the text layer; marks transcribed positionally per RULES §6 and per-subject ambiguities noted.",
+  "Course print: title page 'B. Tech. Environmental Engineering', scheme pages 'B Tech Environmental Engineering' (canonical course BTech per RULES §1b).",
+  "Code print varies across the document ('NEN 031', 'NEN-701', 'NEN -041', 'NOE071-', 'NOE -082' etc.); codes[] hold normalized tokens, printed forms in notes/quirks.",
+  "Scheme rows print elective code ranges with a trailing dash ('NOE071-' ... 'NOE074', 'NEN 031-' ... 'NEN 033', 'NEN 041-' ... 'NEN 043', 'NOE081-' ... 'NOE084', 'NEN 051-' ... 'NEN 053', 'NEN 061-' ... 'NEN 063').",
+  "Departmental Elective lists print S.No. as '2 (A)-(C)' for both Elective-3 (p2) and Elective-5 (p3), and '3 (A)-(C)' for both Elective-4 (p2) and Elective-6 (p3)."
+ ],
+ "flags": []
+}

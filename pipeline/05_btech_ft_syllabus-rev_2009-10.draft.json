@@ -1,0 +1,4045 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2009-10/btech_ft_syllabus-rev_2009-10.pdf",
+ "session": "2009-10",
+ "course": "BTech",
+ "sha16": "834e84015a481092",
+ "stem": "05_btech_ft_syllabus-rev_2009-10",
+ "subjects": [
+  {
+   "name": "Applied Engineering Chemistry",
+   "name_print": "ECY 301: APPLIED ENGINEERING CHEMISTRY",
+   "codes": [
+    "ECY301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit I Organic Chemistry [8]. Organic reactions of Industrial Significance. (i)Alcohols, phenols & ethers : Reactions of alcohols with alkaline earth metals , Iodoform reaction, Oxidation, conversion of alcohols into Mesylates &Tosylates ;Crown ethers & epoxides ; Reimer-Tiemann reaction , Kolbes-Schimidt reaction mechanisms (ii) Aldehydes & Ketones : Oxidation & reduction , Perkin reaction ,Claison-Schmidt reaction, Benzoin condensation, Knovenagel reaction, reformatsky reaction,Wittig reaction. (iii)carboxylic acids and their derivatives : Hell-Volhartd Zelinsky reaction ,Hoffmann bromide reaction, Curtius and Lorsen Reaction (iv) Nitrocompounds: Reduction of nitrobenzene under different conditions (v) Amines : Reactions with nitrous acids , Diazotization and reactions of arenedizonium salts",
+    "2": "Unit II [8] (i) Concept of aromaticity in benzoid and non-benzoid compounds, aromatic and non-aromatic compounds (ii)Organomettalic compounds : Applications of Grignard Reagent and Lithium aluminum hydride (iii) Stereochemistry : Conformational analysis : various terms , conformational analysis of cyclohexane and 1,2 –disubstituted cyclohexane . Stereoisomerism of cyclic compounds (cyclohexane), chiral drugs (ibuprofen),the relative and absolute configuration ,stereoselective and stereospecific reactions .",
+    "3": "Unit III [8] Surface Chemistry (i) Catalysis : Acid base catalyzed reaction, enzyme catalyzed reaction and heterogeneous catalyzed reaction (ii) Surface tension determination and Applications (iii) Adsorption Isotherms- Freundlich and Langmuir (iv) Colloids: General methods of preparation and properties, hydrophilic and hydrophobic sols, Electrical Properties of colloids (v) Colligative Properties: Lowering of Vapor Pressure, Elevation in boiling point, lowering in melting point, Osmotic Pressure and their relation with molecular weight",
+    "4": "Unit IV: [8] Analytical Chemistry Instrumental methods of chemical analysis: A brief introduction and applications of Conductometry , Potentiometer, GLC, HPLC , mass spectroscopy and atomic absorption Spectroscopy.",
+    "5": "Unit V: [8] Natural Organic Molecules Biomolecules: Definition, types of biomolecules-nucleosides & nucleotides (DNA and RNA), saccharides (glucose, fructose, maltose and cellulose), lignin, lipids and amino acids (protein structure of apoenzymes, isoenzymes and vitamins) and their industrial applications."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Finar, I.L. “Organic Chemistry : Vol. I & II”."
+    },
+    {
+     "no": 2,
+     "book": "Morrison & Boyd “Organic Chemistry”."
+    },
+    {
+     "no": 3,
+     "book": "March, J. “Organic Chemistry”."
+    },
+    {
+     "no": 4,
+     "book": "Soloman, T. “Organic Chemistry”."
+    },
+    {
+     "no": 5,
+     "book": "Glasstone, S. “Physical Chemistry”"
+    },
+    {
+     "no": 6,
+     "book": "Atkin, P. W. “Physical Chemistry”"
+    },
+    {
+     "no": 7,
+     "book": "Banwell, C. N. “Fundamentals of Molecular Spectroscopy”"
+    },
+    {
+     "no": 8,
+     "book": "Willard Merit & Dean “Instrumental Methods of Chemical Analysis”"
+    },
+    {
+     "no": 9,
+     "book": "Skoog & West “Instrumental Methods of Chemical Analysis”"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Text Books list numbering style shifts from '1.' to '5-' mid-list (verbatim print).",
+    "Printed typos kept verbatim: 'Kolbes-Schimidt', 'Claison-Schmidt', 'Knovenagel', 'Hell-Volhartd', 'Lorsen', 'Organomettalic', 'benzoid', 'Soloman', 'Atkin', 'Willard Merit', 'arenedizonium'.",
+    "Scheme row (p.2): '1 ECY 301 Applied Engineering Chemistry 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mathematics III",
+   "name_print": "EAS 301 MATHEMATICS III",
+   "codes": [
+    "EAS301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit – I : Function of Complex variable Analytic function, C-R equations, Cauchy’s integral theorem, Cauchy’s integral formula for derivatives of analytic function, Taylor’s and Laurent’s series, singularities, Residue theorem, Evaluation of real integrals of the type 10",
+    "2": "Unit – II : Statistical Techniques - I  Moments, Moment generating functions, Skewness, Kurtosis, Curve fitting, Method of least squares, Fitting of straight lines, Polynomials, Exponential curves etc., Correlation, Linear, non –linear and multiple regression analysis, Probability theory. 08",
+    "3": "Unit – III : Statistical Techniques - II  Binomial, Poisson and Normal distributions, Sampling theory (small and large), Tests of significations: Chi-square test, t-test, Analysis of variance (one way) , Application to engineering, medicine, agriculture etc. Time series and forecasting (moving and semi-averages), Statistical quality control methods, Control charts, , R, p, np, and c charts. 08",
+    "4": "Unit – IV : Numerical Techniques – I  Zeroes of transcendental and polynomial equation using Bisection method, Regula-falsi method and Newton-Raphson method, Rate of convergence of above methods. Interpolation: Finite differences, difference tables, Newton’s forward and backward interpolation , Lagrange’s and Newton’s divided difference formula for unequal intervals. 08",
+    "5": "Unit – V : Numerical Techniques –II  Solution of system of linear equations, Gauss- Seidal method, Crout method. Numerical differentiation, Numerical integration , Trapezoidal , Simpson’s one third and three-eight rules, Solution of ordinary differential (first order, second order and simultaneous) equations by Euler’s, Picard’s and forth-order Runge- Kutta mehthods. 08"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Peter V. O’Neil, Advance Engineering Mathematics Thomson (Cengage) Learning, 2007."
+    },
+    {
+     "no": 2,
+     "book": "Jain, Iyenger & Jain, Numerical Methods for Scientific and Engineering Computation, New Age International, New Delhi , 2003."
+    },
+    {
+     "no": 3,
+     "book": "J.N. Kapur, Mathematical Statistics, S. Chand & company Ltd.,2000"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "R.K. Jain & S.R.K. Iyenger, Advance Engineering Mathematics, Narosa Publication House, 2002."
+    },
+    {
+     "no": 2,
+     "book": "Chandrika Prasad, Advanced Mathematics for Engineers, Prasad Mudralaya, 1996."
+    },
+    {
+     "no": 3,
+     "book": "E. Kreysig, Advanced Engineering Mathematics, John Wiley & Sons, 2005."
+    },
+    {
+     "no": 4,
+     "book": "B.S. Grewal, Higher Engineering Mathematics, Khanna Publishers, 2005."
+    },
+    {
+     "no": 5,
+     "book": "Devi Prasad, An introduction to Numerical Analysis, Narosa Publication house, New Delhi 2006."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Book list heading printed 'Test Books :-' (sic, for Text Books).",
+    "Unit-I integrand formulas are printed as images; text layer shows blank slots after 'Evaluation of real integrals of the type' (dropped fragments, print-quirk evidence).",
+    "Trailing printed numbers kept verbatim at unit ends (10, 08, 08, 08, 08).",
+    "Printed typos kept verbatim: 'Iyenger', 'Gauss- Seidal', 'mehthods', 'Kreysig', 'significations', double comma 'charts, , R'.",
+    "Scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4' (row shared with Science Based Open Elective pool)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Composition, Quality and Safety of Foods",
+   "name_print": "EFT-301 COMPOSITION, QUALITY AND SAFETY OF FOODS",
+   "codes": [
+    "EFT301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 9) T (1 – 3) Composition: Chemical constituents of foods: Desirable and Potentially undesirable food constituents and their importance. Recommended Dietary Allowances (RDA). Composition of foods – General and specific for different foods of plant and animal origin.",
+    "2": "Unit-II L (10 – 18) T (4 – 6) Carbohydrates: Classes, Nomenclature and structure. Dietary utilization and disturbances Lipids: Definition, Classification and structure: Fatty acids composition of natural lipids of plants and animal origin, Essential fatty acids. Role and use of natural lipids and tailor made fats in foods.",
+    "3": "Unit-III L (19 – 27) T (7 – 9) Protein: Physico-chemical properties of amino acids, peptides and proteins, structure -function relationship of  proteins, Essential Amino acids. Nutritional attributes of food and their implications.",
+    "4": "Unit- IV L (28 – 36) T (10 – 12) Quality: Basic concepts. Nutritional and sensory attributes and their assessments, causes of undesirable changes leading to quality deterioration in foods and their implications. Determination of probable cause(s) of observed quality change in foods.",
+    "5": "Unit-V L (37 – 45) T (13 – 15) Safety: Operational sense of food safety, Potential Food derived health hazard- Microbial contamination, Nutritional Imbalance. Pesticide residues, Environmental Contamination. Naturally occurring compounds and permitted food additives. Testing food for its safety."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "C. Gopalan : Nutritive value of Indian Foods"
+    },
+    {
+     "no": 2,
+     "book": "L.H. Mayer : Food Chemistry"
+    },
+    {
+     "no": 3,
+     "book": "Kramner & Twigg : Quality control for Food Industry"
+    },
+    {
+     "no": 4,
+     "book": "H.D. Graham : Safety of Foods"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Books printed under heading 'Book References:' (unnumbered, Author : Title style); numbered here by print order.",
+    "Printed typo kept verbatim: 'Kramner' (for Krammer/Kramer).",
+    "Scheme row (p.2): '4 EFT 301 Composition, Quality & Safety of Foods 3 1 0 30 20 50 100 150 4'. Detail heading prints 'AND' where scheme prints '&'.",
+    "Unit IV heading line 'Unit- IV L (28 – 36) T (10 – 12)' printed at end of p.10; unit body begins on p.11."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Process Calculations",
+   "name_print": "ECH 301: PROCESS CALCUALTIONS",
+   "codes": [
+    "ECH301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit I Units their dimensions and conversions, Mass and volume relations, Stoichiometric and composition  relations, Excess reactants, Degree of completion, Conversion, selectivity and yield.  Ideal gas law, Dalton’s Law, Amagat’s Law, and Average molecular weight of gaseous mixtures. Effect of temperature on vapour pressure, Vapour pressure plot (Cox chart), Vapour pressures of miscible  and immiscible liquids and solutions, Raoult’s Law and Henry’s Law. [10]",
+    "2": "Unit II Humidity and saturation Relative Humidity and percent saturation, Dew point, Dry and Wet bulb temperatures, Use of humidity charts for engineering calculations. [6]",
+    "3": "Unit III Stoichiometry & Material Balance  Material balances for systems with and without chemical reactions, species and elemental balance, Analysis of systems with by-pass, recycle and purge. [8]",
+    "4": "Unit IV Energy Balance Heat capacity of gases, liquids and solutions, Heat of fusion and vaporisation. Steady state energy balance  for systems with and without chemical reactions. Calculations and application of heat of reaction, combustion, formation, neutralisation and solution. Enthalpy-concentration charts. Combustion of solids, liquids and gaseous fuels, Calculation of theoretical and actual flame temperatures. [8]",
+    "5": "Unit V Degrees of freedom in steady state processes, solution of simultaneous material and energy balance problems using flow sheeting softwares, Unsteady state material and energy balance [8]"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Himmelblau, D.M. \"Basic Principles and Calculations in Chemical Engineering\", 6th ed. Prentice Hall (1996)."
+    },
+    {
+     "no": 2,
+     "book": "Felder, R.M. & Rousseau, R.W. \"Elementary Principles of Chemical Processes \", 3rd edition. John Wiley. (1999)."
+    },
+    {
+     "no": 3,
+     "book": "Bhatt., B.I. and Vora S.M. \"Stoichiomerty\" IInd edition, Tata McGraw Hill (1984)"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Hougan D. A., Watson K.M. and Ragatz R. A. “Chemical Process principles” Vol. 1 Asia Publishing House (1962)"
+    },
+    {
+     "no": 2,
+     "book": "Luben W.L. and Wenzel, L.A. “Chemical Process Analysis Mass and Energy Balance” Prentice Hall (1988)"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detail heading typo kept verbatim: 'PROCESS CALCUALTIONS' (scheme p.2 prints 'Process Calculations').",
+    "Printed typos kept verbatim: 'Stoichiomerty', 'Hougan', 'Luben'.",
+    "Reference Books printed unnumbered; numbered by print order.",
+    "Scheme row (p.2): '5 ECH 301 Process Calculations 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Fluid Flow and Solid Handling",
+   "name_print": "ECH-307: FLUID FLOW AND SOLID HANDLING",
+   "codes": [
+    "ECH307"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I Solids and Their Handling Properties of solids ,screening, industrial screening equipment. Determination of particle size, screen analysis,Sizereduction of solids,stages of reduction , operating variables, intermediate and fine size reduction, power requirement and mechanism.Power driven machines: Crushers, grinders, and conveyors. 8",
+    "2": "Unit –II Filtration: Theory, continuous and batch equipments. Flow of solids through fluids, classification and sedimentation. 8",
+    "3": "Unit – III Fluid flow: Properties of fluids. Fluid statics: Euler’sequation, Hydrostatic Law and Pressure Measurement. Transport of fluids, energy relationships, pipe fittings, minor losses in pipe flow 8",
+    "4": "Unit IV Flow measurements: Orifice meter. Nozzle and venturimeters, rotameter and pitot tube. 8",
+    "5": "Unit V Pumping and compressing: reciprocating pumps, rotary pumps, centrifugal pumps and blowers.      Introduction to fluidization. 8"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To Determine size distribution of sample cruoled in a dodge crusher"
+    },
+    {
+     "no": 2,
+     "exp": "To Determine efficiency of crusting of a roll crusher."
+    },
+    {
+     "no": 3,
+     "exp": "To determine surface area volume of a sample using screen analysis."
+    },
+    {
+     "no": 4,
+     "exp": "To Determine constants of filtration in case of rotary filter."
+    },
+    {
+     "no": 5,
+     "exp": "To Determine terminal velocity in case of hinderel setting in   sedimentation."
+    },
+    {
+     "no": 6,
+     "exp": "To Calibrate orificemeter"
+    },
+    {
+     "no": 7,
+     "exp": "To Calibrate vanturimeter."
+    },
+    {
+     "no": 8,
+     "exp": "To Calibrate rotameter."
+    },
+    {
+     "no": 9,
+     "exp": "To Verify Bernoulli equation"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "A 9-item numbered experiment list is printed immediately after Unit V (pp.12-13) with no lab heading and before the ECY 351 lab section; transcribed here as this subject's experiments. Its topics overlap the separate ECH-357 lab's own 14-item list (p.14).",
+    "Printed typos kept verbatim: 'Sizereduction', 'Euler’sequation', 'cruoled', 'crusting', 'hinderel setting'.",
+    "Scheme row (p.2): '6 ECH 307 Fluid Flow & Solid Handling 2 1 0 15 10 25 50 75 3'. Detail heading prints 'AND' where scheme prints '&'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Applied Engineering Chemistry Lab",
+   "name_print": "ECY 351: APPLIED ENGINEERING CHEMISTRY LAB",
+   "codes": [
+    "ECY351"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Identification of Organic Compounds in the mixture."
+    },
+    {
+     "no": 2,
+     "exp": "Estimation of Glucose, phenol,aniline."
+    },
+    {
+     "no": 3,
+     "exp": "Applications of TLC in the organic chemistry."
+    },
+    {
+     "no": 4,
+     "exp": "Determination of percentage composition of mixture with the help of viscosity measurements."
+    },
+    {
+     "no": 5,
+     "exp": "Freundlich adsorption isotherm verification."
+    },
+    {
+     "no": 6,
+     "exp": "Distribution of solute between two immiscible solvents ( I2 / water + organic solvent). Distribution law."
+    },
+    {
+     "no": 7,
+     "exp": "Conductivity: (i) Conductivity titration strength of strong acid vs. strong base, (ii) Dissociation constant of a weak acid (CH3COOH)."
+    },
+    {
+     "no": 8,
+     "exp": "Determination of molecular weight of a non volatile substance by (i) elevation in boiling point (ii) depression in freezing point."
+    },
+    {
+     "no": 9,
+     "exp": "Determination of Iron by Specrophotometric method."
+    },
+    {
+     "no": 10,
+     "exp": "Potentiometric titration."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Heading prints 'L : T: P 0 : 0 : 3' (LTP printed inline after the experiment-list region in the text layer; visible print places it with the heading).",
+    "Printed typo kept verbatim: 'Specrophotometric'.",
+    "Scheme row (p.2): '8 ECY 351  Applied Chemistry Lab 0 0 3 10 10 20 30 50 1'. Scheme prints 'Applied Chemistry Lab' where detail heading prints 'APPLIED ENGINEERING CHEMISTRY LAB'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Analysis of Food Constituents Lab",
+   "name_print": "EFT-351 ANALYSIS OF FOOD CONSTITUENTS LAB",
+   "codes": [
+    "EFT351"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "BIS and AOAC Methods of Food analysis."
+    },
+    {
+     "no": 2,
+     "book": "“Hand Book of analysis and quality control for fruit and Vegetable Products”. IInd edition. Tata McGraw-Hill Publishing Company Ltd. New Delhi."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Sampling requirements, procedures and methods."
+    },
+    {
+     "no": 2,
+     "exp": "Determination of moisture content of foods by oven drying and distillation methods."
+    },
+    {
+     "no": 3,
+     "exp": "Determination of Total and Acid insoluble ash content in foods."
+    },
+    {
+     "no": 4,
+     "exp": "Determination of Crude fat content by solvent extraction methods in foods."
+    },
+    {
+     "no": 5,
+     "exp": "Determination of crude Protein by Kjeldhal Lowry methods."
+    },
+    {
+     "no": 6,
+     "exp": "Determination of reducing and total sugar content in foods."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of crude fibre content in foods."
+    },
+    {
+     "no": 8,
+     "exp": "Determination of specific mineral contents in foods such as Calcium, Iron, Phosphorus, Chloride etc."
+    },
+    {
+     "no": 9,
+     "exp": "Determination of specific vitamin content of food such as ascorbic acid, carotenes etc."
+    },
+    {
+     "no": 10,
+     "exp": "Determination of specific Natural and/ or added Colouring Matters in foods."
+    },
+    {
+     "no": 11,
+     "exp": "Determination of specific added food Preservatives in foods."
+    },
+    {
+     "no": 12,
+     "exp": "Chromatographic Separation and identification of sugars and amino acids."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed typos kept verbatim: 'Kjeldhal Lowry'.",
+    "Scheme row (p.2): '9 EFT 351 Analysis of Food Constituents Lab 0 0 4 10 10 20 30 50 1'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Fluid Flow Solid Handling Lab",
+   "name_print": "ECH-357 FLUID FLOW SOLID HANDLING LAB",
+   "codes": [
+    "ECH357"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To determine the coefficient of discharge of an orifice (or a mouth piece) of a given shape. Also to determine the coefficient of velocity and the coefficient of contraction of the orifice (or the mouth piece.)."
+    },
+    {
+     "no": 2,
+     "exp": "To plot the flow net for a given model using the concept of electrical analogy."
+    },
+    {
+     "no": 3,
+     "exp": "To calibrate an orifice meter and study the variation of the coefficient of discharge with the Reynolds number."
+    },
+    {
+     "no": 4,
+     "exp": "To verify Darcy’s law and to find out the coefficient of permeability of the given medium."
+    },
+    {
+     "no": 5,
+     "exp": "To study the transition from laminar to turbulent flow and to determine the lower critical Reynolds number."
+    },
+    {
+     "no": 6,
+     "exp": "To study the velocity distribution in a pipe and also to compute the discharge by integrating the velocity profile."
+    },
+    {
+     "no": 7,
+     "exp": "To study the variation of friction factor, ‘f’ for turbulent flow in smooth and rough commercial pipes."
+    },
+    {
+     "no": 8,
+     "exp": "To determine the loss coefficients for the pipe fittings."
+    },
+    {
+     "no": 9,
+     "exp": "To study the flow behaviour in a pipe bend and to calibrate the pipe bend for discharge measurement."
+    },
+    {
+     "no": 10,
+     "exp": "To study the performance of Jaw Crusher and find out it’s crushing efficiency."
+    },
+    {
+     "no": 11,
+     "exp": "To study the performance of Crushing Rolls and find out it’s crushing efficiency."
+    },
+    {
+     "no": 12,
+     "exp": "To study the settling characteristics.(Free & Hindered settling) of a given suspension of particles."
+    },
+    {
+     "no": 13,
+     "exp": "To study the filtration characteristics of Rotary Vacuum /Plate and Frame filter."
+    },
+    {
+     "no": 14,
+     "exp": "To carry out differential and cumulative screen analysis of given sample of solid particles"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detail heading prints 'FLUID FLOW SOLID HANDLING LAB' (no '&'); scheme (p.2) prints 'Fluid Flow & Solid Handling Lab'.",
+    "Printed typos kept verbatim: 'it’s crushing efficiency' (items 10-11), 'flow behaviour'.",
+    "Scheme row (p.2): '10 ECH 357 Fluid Flow & Solid Handling Lab 0 0 3 10 10 20 30 50 1'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Chemical Engineering Thermodynamics",
+   "name_print": "ECH 401:  CHEMICAL ENGINEERING THERMODYNAMICS",
+   "codes": [
+    "ECH401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit I Basic Concept The firstlaw and conservation of energy. Applications to steady , nonsteady flow and other engineering problems. The second law. Applications to engineering problems relating to equilibrium , maximum and minimum work. 8",
+    "2": "Unit II Properties of Pure Substances Changes in thermodynamic properties and their inter-relationships. The ideal gas. Fugacity and Fugacity coefficients for real gases. 8",
+    "3": "Unit III Multicomponent System Partial molal properties. Mathematical models for the chemical potential. Ideal and non-ideal solutions. Activity and activity coefficients. The Gibbs Duhem equations. Excess properties of mixtures. 8",
+    "4": "Unit IV Phase Equilibria Criteria for equilibrium between different phases in Multicomponent nonreacting systems. Applications to systems of engineering interest, particularly to vapour – liquid equilibria and solubility. 8",
+    "5": "Unit V Chemical Equilibrium The equilibrium constant and the variation of yield in chemical reactions with pressure, temperature and composition. 8"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Smith, J.M., Van Ness, H.C. & Abbot, M.M. “Intro to Chemical Engineering Thermodynamics “, 5th edition. New York: Mc-Graw Hill (1996)”"
+    },
+    {
+     "no": 2,
+     "book": "Daubert T.E., \"Chemical Engineering Thermodynamics\" McGraw Hill (1986)."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Y.V.C.Rao,” Chemical Engineering Thermodynamics” University press (1997)."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed typos kept verbatim: 'The firstlaw', 'Abbot', stray quote marks in book 1 ('“...Mc-Graw Hill (1996)”').",
+    "Detail heading line prints L-T-P as '3 1 0'.",
+    "Scheme row (p.3): '3 ECH 401 Chemical Engineering Thermodynamics 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Heat Transfer",
+   "name_print": "ECH 402: HEAT TRANSFER OPERATIONS",
+   "codes": [
+    "ECH402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit I Introduction to heat transfer and general concepts of heat transfer by conduction, convection and radiation. Conduction: Basic concepts of conduction in solids, liquids and gases, steady state temperature fields and one dimensional conduction without heat generation, e.g., through plane walls, cylindrical and spherical surfaces, composite layers, etc. Insulation materials, critical and optimum insulation thickness. Extended surfaces, fins and their practical applications. Introduction to unsteady state heat transfer. [07]",
+    "2": "Unit II Convection: Fundamentals of convection, Basic concepts and definitions, natural and forced convection, hydrodynamic and thermal boundary layers, laminar and turbulent heat transfer inside and outside tubes,  Dimensional analysis, determination of individual and overall heat transfer coefficients and their temperature dependence, heat transfer in molten metals. [09]",
+    "3": "Unit III Radiation: Basic laws of heat transfer by radiation, black body and gray body concepts, view factors, Kirchoff’s law, solar radiations, combined heat transfer coefficients by convection and radiation. [04]",
+    "4": "Unit IV Heat Transfer with Phase Change: Condensation of pure and mixed vapors, film wise and drop wise condensation, loading in condensers and basic calculation on condensers, heat transfer in boiling liquids, boiling heat transfer coefficients. Evaporation: Elementary principles, types of evaporators. Single and multiple effect evaporators and their calculation, thermocompression. [10]",
+    "5": "Unit V Heat Transfer Equipment: Classification, principles and design criteria, types of exchangers, viz., double pipe, shell and tube, plate type, extended surface, Furnaces and their classification and application. [10]"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Holman, J.P.: “Heat Transfer” 9 th ed. McGraw Hill (1989)."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Coulson, J.M. & Richardson, J.F. “Chemical Engineering :Vol-1”, 6th ed. Butterworth- Heinemann(1999)"
+    },
+    {
+     "no": 2,
+     "book": "McAdams W.H. “Heat Transmission”, 3rd ed., McGraw-Hill, (1954)"
+    },
+    {
+     "no": 3,
+     "book": "Kern D.Q. “Process Heat Transfer” McGraw Hill Book (1950)"
+    },
+    {
+     "no": 4,
+     "book": "Badger W.L. & Bancharo J.T. ,”Introduction to chemical engineering” Tata McGraw Hill"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detail heading prints 'HEAT TRANSFER OPERATIONS' where scheme (p.3) prints 'Heat Transfer'.",
+    "Books section heading 'Books Recommended' (unnumbered single entry, numbered here by print order).",
+    "Printed typos kept verbatim: 'Kirchoff’s', 'Bancharo', '9 th ed.', 'Butterworth- Heinemann(1999)'.",
+    "Scheme row (p.3): '4 ECH 402 Heat Transfer 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Basic Food Microbiology",
+   "name_print": "EFT-401 : BASIC AND FOOD MICROBIOLOGY",
+   "codes": [
+    "EFT401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 8) T (1 – 4) General characteristics of microorganism: Classification, morphology, physiology, growth, nutrition and reproduction; Pure culture techniques and maintenance of cultures, control of microorganism.",
+    "2": "Unit-II L (9 – 14) T (5 – 7) Incidence of microorganism in foods, source of contamination. Principle underlying spoilage and preservation of foods.",
+    "3": "Unit-III L (15 – 24) T (8 –12) Contamination, spoilage and preservation of cereal products, sugar products, fruit and vegetable products, meat products, fish and sea foods egg and poultry products milk and milk products and other foods, Microbiological standard of foods.",
+    "4": "Unit-IV L (25 – 30) T (13 – 15) Food poisoning and food borne infections, food plant sanitation, inspection and control, personnel hygiene, HACCP in food industry. Beneficial microorganisms and their utilization in food fermentation."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M.J.Pelczar Microbiology"
+    },
+    {
+     "no": 2,
+     "book": "James M. Jay Modern Food Microbiology"
+    },
+    {
+     "no": 3,
+     "book": "Adams & M.O..Moss Food Microbiology"
+    },
+    {
+     "no": 4,
+     "book": "W.C.Frazier Food Microbiology"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Only Unit-I to Unit-IV are printed; Unit-V is absent from the detailed syllabus (print ends after Unit-IV books).",
+    "Detail heading prints 'BASIC AND FOOD MICROBIOLOGY' where scheme (p.3) prints 'Basic Food Microbiology'.",
+    "Books printed under 'Book references:' with Author/Title columns; transcribed verbatim ('Adams & M.O..Moss' double period kept).",
+    "Scheme row (p.3): '5 EFT 401 Basic Food Microbiology 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Additives",
+   "name_print": "EFT-402  : FOOD ADDITIVES",
+   "codes": [
+    "EFT402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 8) T (1 – 4) Definitions, uses and functions of:Acid, Base, Buffer systems, Salts and chelating/sequestering agents, Masticatory substances. Low calorie and non nutritive sweeteners, Polyols",
+    "2": "Unit-II L (9 – 16) T (5 – 8) Antioxidants, Emulsifying and stabilizing agents, Anti-caking agents, thickeners, Firming agents. Flour bleaching agents and Bread improvers.",
+    "3": "Unit-III L (17 – 22) T (9 –12) Anti microbial agents / Class I and Class II preservatives as per PFA Act.",
+    "4": "Unit-IV L (23 – 30) T (13 – 15) Colorants, Flavoring agents and related substances, Clarifying agents. Gases and Propellants. Tracers and other additives."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "O.R.Fennema Food Chemistry"
+    },
+    {
+     "no": 2,
+     "book": "N.S.Manay Food Acts and Principles"
+    },
+    {
+     "no": 3,
+     "book": "PFA Rules 1955 PFA Act 1954"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Only Unit-I to Unit-IV are printed; Unit-V is absent from the detailed syllabus (print ends after Unit-IV books).",
+    "Unit-I body printed with one-word-per-line justification in text layer; joined with single spaces here (verbatim words).",
+    "Books printed under 'Book References:' with Author/Title columns; 'PFA Rules 1955 PFA Act 1954' transcribed verbatim.",
+    "Scheme row (p.3): '6 EFT 402 Food Additives 2 1 0 15 10 25 50 75 2'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Basic Food Microbiology Lab",
+   "name_print": "EFT-451 : BASIC AND FOOD MICROBIOLOGY LAB",
+   "codes": [
+    "EFT451"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "H. W. Selley Jr. and Paul J. Van. Microbes in action"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Microscope its parts and utility in identification and differentiation of bacteria, yeast and mold."
+    },
+    {
+     "no": 2,
+     "exp": "Familiarization with common techniques for handling pure culture serial dilution, Inoculation, slide preparation incubation, counting etc."
+    },
+    {
+     "no": 3,
+     "exp": "Micrometry and determination of size of deferent different microbes."
+    },
+    {
+     "no": 4,
+     "exp": "Simple and differential staining of microorganisms and their examination."
+    },
+    {
+     "no": 5,
+     "exp": "Direct total, viable, and non-viable count of microorganisms in milk."
+    },
+    {
+     "no": 6,
+     "exp": "Preparation and sterilization of media and glass ware for microbial counts."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of Standard Plate Count (SPC) in natural and/or processed foods."
+    },
+    {
+     "no": 8,
+     "exp": "Determination of Standard Plate Count (SPC) in natural and/or processed foods."
+    },
+    {
+     "no": 9,
+     "exp": "Microbiological examination of some selected natural and processed foods."
+    },
+    {
+     "no": 10,
+     "exp": "Microbiological examination of some selected natural and processed foods."
+    },
+    {
+     "no": 11,
+     "exp": "Microbiological examination of potable water: Total and coliform count."
+    },
+    {
+     "no": 12,
+     "exp": "Microbiological examination of potable water: Total and coliform count."
+    },
+    {
+     "no": 13,
+     "exp": "Enumeration of coliform organism in some selected processed foods."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detail heading prints 'BASIC AND FOOD MICROBIOLOGY LAB' where scheme (p.3) prints 'Basic Food Microbiology Lab'.",
+    "Printed item numbers 7-8, 9-10, 11-12 are two-per-line ranges in print; expanded here to items 7-12 with identical text per printed line (verbatim).",
+    "Printed typos kept verbatim: 'deferent different', 'Selley', 'H. W. Selley Jr. and Paul J. Van.'",
+    "Scheme row (p.3): '8 EFT 451 Basic Food Microbiology Lab 0 0 3 15 10 25 50 75' with credit cell printed blank.",
+    "Sessional/ESE split for the lab per scheme row: 15/10/25/50/75."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Heat Transfer Operations Lab",
+   "name_print": "ECH 452: HEAT TRANSFER OPERATIONS LAB",
+   "codes": [
+    "ECH452"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To find the thermal conductivity of metallic rod at different temperature and draw the temperature profile for steady and unsteady state conduction."
+    },
+    {
+     "no": 2,
+     "exp": "To find out the thermal conductivity of insulating powder."
+    },
+    {
+     "no": 3,
+     "exp": "To find the thermal conductivity of liquid / gases."
+    },
+    {
+     "no": 4,
+     "exp": "To find the emissivity of grey plate with respect to black plate"
+    },
+    {
+     "no": 5,
+     "exp": "To study the critical heat flux behaviour of a liquid"
+    },
+    {
+     "no": 6,
+     "exp": "To find the heat transfer coefficient for parallel and counter current flow condition for a Double pipe heat exchanger"
+    },
+    {
+     "no": 7,
+     "exp": "To study the shell & Tube heat exchanger and find the heat duty and Over all heat transfer coefficient for parallel flow condition."
+    },
+    {
+     "no": 8,
+     "exp": "To study the shell & Tube heat exchanger and find the heat duty and Over all heat transfer coefficient for counter flow condition."
+    },
+    {
+     "no": 9,
+     "exp": "Compare the heat duty for parallel &Counter flow And find the energy saving."
+    },
+    {
+     "no": 10,
+     "exp": "To study the Plate heat exchanger and find the Over all heat transfer coefficient"
+    },
+    {
+     "no": 11,
+     "exp": "To study the performance of heat pipe."
+    },
+    {
+     "no": 12,
+     "exp": "To find the heat transfer coefficient for open pan evaporator for steady and unsteady state condition."
+    },
+    {
+     "no": 13,
+     "exp": "To study Single/Double/Tripple effect Evaporator and find its Steam economy."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detail heading prints 'HEAT TRANSFER OPERATIONS LAB' where scheme (p.3) prints 'Heat Transfer lab'.",
+    "Printed typos kept verbatim: 'Tripple', 'Over all', '&Counter'.",
+    "Scheme row (p.3): '9 ECH 452 Heat Transfer lab 0 0 3 15 10 25 50 75' with credit cell printed blank."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Engineering & Managerial Economics",
+   "name_print": "EHU-501: ENGINEERING & MANAGERIAL ECONOMICS",
+   "codes": [
+    "EHU501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit –I Introduction : Nature and Significance of economics. Meaning of Science, Engineering and Technology and their relationship with economic development. 4",
+    "2": "Unit-II Basic Concept: The concept of demand and supply. Elasticity of Demand and Supply. Indifference curve analysis, Price effect, Income effect and Substitution .",
+    "3": "Unit -III Money and Banking: Functions of Money. Value of Money, Inflation and Measures to control it. Brief idea of functions of banking system , viz.,Commercial and Central Banking.",
+    "4": "Unit -IV Introduction: Definition ,Nature and Significance of Management. Evaluation of Management thought Contribution of Max Weber, Taylor and Fay",
+    "5": "Unit – V Human Behaviour: Factors of Individual Behaviour, Perception,Learning and Personility development, Interpersonal Relationship and Group Behaviour. 10"
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "No Text Books / Reference Books printed for this subject.",
+    "Only Unit-I ('4') and Unit-V ('10') carry trailing printed lecture numbers; Units II-IV carry none (verbatim).",
+    "Unit-IV ends 'Contribution of Max Weber, Taylor and Fay' — print appears truncated ('Fay'); visible print ends 'Fay' (print-quirk evidence).",
+    "Printed typos kept verbatim: 'Personility', 'viz.,Commercial', 'Evaluation of Management thought'.",
+    "Scheme row (p.4): '1 EHU 501 Engineering & Managerial Economics 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Based Numerical Methods",
+   "name_print": "EAS-501: COMPUTER BASED NUMERICAL METHODS",
+   "codes": [
+    "EAS501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit 1 Problem solving on computer. Algorithms and flow charts. Introduction to numerical computing, approximations and errors in numerical computations. Truncation and round off errors, propagation of errors. Root finding: bisection method, regula falsi method, iteration method, Newton Raphson method, Secant method, systems of nonlinear equations. 08",
+    "2": "Unit 2 Matrix algebra, Solution of simultaneous linear algebraic equations: Gauss elimination, Gauss Jordan method, LU decomposition, Jacobi method, Gauss Seidel method, SOR method, convergence of iterative methods. Tridiagonal systems and Thomas algorithm, Condition of a system and stability issues. 06",
+    "3": "Unit 3 Interpolation and Extrapolation: Newton’s forward and backward interpolation formula, Lagrange interpolation formula. Divided differences and Newton’s general formula. Numerical differentiation, Numerical integration : Trapezoidal and Simpson’s rules. Newton-Cotes integration formulas, Romberg integration, Gaussian Quadrature. 10",
+    "4": "Unit 4 Numerical solution of O.D.E.: Taylor series method, Euler’s method, Runge Kutta methods. Multistep methods: Milne’s method, Adams method, accuracy, Convergence criteria, stiffness, systems of equations. 08",
+    "5": "Unit 5 Boundary Value problems: Finite difference method, solving eigenvalue problems, polynomial method, power method. Numerical solution of Partial Differential equations. Elliptic, Parabolic and hyperbolic PDEs. 08"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "E. Balagurusamy: Numerical Methods, Tata McGraw hill."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Sastry, S. S. “Introductory Methods of Numerical Analysis”, 3 rd ed. Prentice- Hall of India, New Delhi (2002)."
+    },
+    {
+     "no": 2,
+     "book": "“Schaum’s Outlines: Numerical Analysis”, 2 nd ed. Tata Mc Graw Hill Publishing Co. Limited (1968)"
+    },
+    {
+     "no": 3,
+     "book": "Kandasamy, P. Thialagawathy, K. & Gumawathy, K. “Numerical Methods”, S. Chand & Company Ltd., New Delhi (1999)."
+    },
+    {
+     "no": 4,
+     "book": "Balaguruswamy, E. “Numerical Methods. Tata Mc Graw Hill Publishing Company Limited, New Delhi (2001)."
+    },
+    {
+     "no": 5,
+     "book": "V. K. Singh “Numerical and Statistical Methods in Computer” (2005), Paragon International Publishers, New Delhi."
+    },
+    {
+     "no": 6,
+     "book": "Jain, Iyengar and Jain, “Numerical Methods for Scientific and Engineering Computation” (2003), New Age International, New Delhi."
+    },
+    {
+     "no": 7,
+     "book": "Grewal B.S., “Numerical Methods in Engineering and Science”, Khanna Publishers, Delhi."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Trailing printed lecture numbers kept verbatim (08, 06, 10, 08, 08).",
+    "Printed typos kept verbatim: 'Thialagawathy', 'Gumawathy', 'Balaguruswamy', '3 rd ed.', '2 nd ed.'.",
+    "Scheme row (p.4): '2 EAS 501 Computer Based Numerical Methods. 3 1 0 30 20 50 100 150 4' (scheme name prints trailing period)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Machine Design",
+   "name_print": "EME 509 : MACHINE DESIGN",
+   "codes": [
+    "EME509"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I Introduction to the methodology of Engineering design; Design circle for a product/ system; Important considerations in design; Formulation of design concepts; Miscellaneous considerations like wear, environmental, human and aesthetic aspects; Ergonomics considerations. 8",
+    "2": "Unit-II Estimation of design load under static and dynamic conditions; Design for safety; Stress concentration and its effect and its prevention; Consideration of creep, fatigue and thermal stresses in design. 8",
+    "3": "Unit III Design of power transmission systems- belt, pulley and shafts; Design of riveted and welded joints; Design of  keys, couplings, lever and brackets. 8",
+    "4": "Unit-IV Design of pressure vessels- thick and thin cylinders, pipe and joints; Elementary ideas and importance of computer aided design; Basics of computer graphics - general introduction to AutoCAD. 8"
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "L-T-P conflict: scheme row (p.4) prints '2 0 0' but the detailed heading prints '2 : 1: 0'; ltp field carries the detailed heading print, scheme print recorded here.",
+    "Only Unit-I to Unit-IV are printed; Unit-V is absent (print proceeds directly to EFT-501).",
+    "No Text Books / Reference Books printed.",
+    "Printed typo kept verbatim: 'Design circle' (for cycle).",
+    "Scheme row (p.4): '3 EME509 Machine Design 2 0 0 15 10 25 50 75 2'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Chemistry",
+   "name_print": "EFT– 501 : FOOD CHEMISTRY",
+   "codes": [
+    "EFT501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 9) T (1 – 3) (a) Water in Foods: Structure. Properties, Interactions, Water activity, and stability. (b) Carbohydrates: Functions, Reactions and properties of simple and complex carbohydrate, Selection of Natural or Modified carbohydrates for incorporation into processed food.",
+    "2": "Unit-II L (10 – 18) T (4 – 6) Lipids: Consistency of commercial fats Lipolysis, Auto oxidation, Thermal Decomposition and effect of ionizing radiation, Refining of oils, Modification of oils and fats, Role of food lipids in flavor, Nutritional aspects of natural ands modified fats.",
+    "3": "Unit-III L (19 – 27) T (7 – 9) Proteins: Nutritive and supplementary value of food protein, Chemical reactions and interactions of amino acids and proteins, De-naturation and it implications, Functional properties of food proteins, Modification of food proteins in processing and storage and its implications.",
+    "4": "Unit-IV L (28 – 36) T (10 – 12) Vitamins, Minerals, Pigments and Flavours: Chemistry and stability of water and fat-soluble vitamins, Chemical properties of minerals and their bioavailability, Enrichment and fortification. Natural pigments in foods and their retention in processed foods. Flavoring constituents in foods, Development of process and reaction flavour volatiles.",
+    "5": "Unit-V L (37 – 45) T (13 – 15) Characteristics of muscle tissues, Milk, Egg and edible plant tissues, Integrated approach to food chemistry."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "O.R. Fennema Food Chemistry"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed typos kept verbatim: 'natural ands modified fats', 'De-naturation and it implications'.",
+    "Books printed under 'Book references:' (single unnumbered entry, numbered by print order).",
+    "Scheme row (p.4): '4 EFT 501 Food Chemistry 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Biochemistry & Biotechnology",
+   "name_print": "EFT– 502 : FOOD BIOCHEMISTRY AND BIOTECHNOLOGY",
+   "codes": [
+    "EFT502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 9) T (1 – 3) Nomenclature, Classification and specificity of enzymes and cofactors, Enzyme Kinetics: Factors affecting the rate of enzyme catalyzed reaction, regulation and control of enzyme action.",
+    "2": "Unit-II L (19 – 27) T (7 – 9) Metabolic Pathways: Carbohydrates, proteins and fats; catabolism and anabolism",
+    "3": "Unit-III L (10 – 18) T (4 – 6) Digestion absorption, Assimilation and Transport of nutrients in human beings.",
+    "4": "Unit-IV L (28– 36) T (10 – 12) Post harvest and Postmortem biochemical changes in foods: Changes in composition, color, texture, flavor and its implications on quality of foods.",
+    "5": "Unit-V L (37 – 45) T (13 – 15) Application of enzymes in food processing: Endogenous enzymes and their role in modification of foods, enzyme added to foods during processing sources, conversions and specific applications."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "O.R.Fennema Food Chemistry"
+    },
+    {
+     "no": 2,
+     "book": "A.L.Lehninger Principle of biochemistry"
+    },
+    {
+     "no": 3,
+     "book": "Lubert Stryen Biochemistry"
+    },
+    {
+     "no": 4,
+     "book": "N.A.M.Eskin Biochemistry of Foods"
+    },
+    {
+     "no": 5,
+     "book": "S.A.Joshi Nutrition and Dietetics"
+    },
+    {
+     "no": 6,
+     "book": "J.H.Weil General Biochemistry"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Unit-II printed with lecture range 'L (19 – 27) T (7 – 9)' and Unit-III with 'L (10 – 18) T (4 – 6)' — the Unit-II/III ranges are swapped relative to the sequential pattern (verbatim print).",
+    "Printed typos kept verbatim: 'Lubert Stryen' (for Stryer), 'J.H.Weil' (for Weil/White?).",
+    "Scheme row (p.4): '5 EFT 502 Food Biochemistry & Biotechnology 3 1 0 30 20 50 100 150 4'. Detail heading prints 'AND' where scheme prints '&'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Instrumentation and Process Control",
+   "name_print": "ECH- 507 : INSTRUMENTATION AND PROCESS CONTROL",
+   "codes": [
+    "ECH507"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I Elements of measurement , fumctions and general classifications of measuring instruments. Indicating and recording type of instruments. Elements of measuring instruments,static and dynamic characteristics of  measuring instruments. 6",
+    "2": "Unit-II Principle of operation, construction and application of important industrial instruments for the measurement of temperature, flow, liquid level and composition. 10",
+    "3": "Unit-III Dynamic behavior of first order, second order and two or more first order systems in series. 10",
+    "4": "Unit-IV Block and physical diagrams of control system. Open and closed loop control systems. Characteristics of measuring elements, controllers and final control elements. Mode of control actions. (08 lectures)"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Eckman, D.P., Industrial Instrumentation, Wiley Eastern Ltd., New York 1990."
+    },
+    {
+     "no": 2,
+     "book": "Jain, R.K., Mechanical and Industrial Measurements, Khanna Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Process system Analysis & Control, D.R. Coughanoowr, McGraw Hill Publication"
+    },
+    {
+     "no": 4,
+     "book": "Process Control. Peter Harriot, Tata McGraw Hill."
+    },
+    {
+     "no": 5,
+     "book": "Process control,  Staphno polies,  Prentic Hall India Ltd."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Only Unit-I to Unit-IV are printed; Unit-V is absent (print proceeds to EFT-551 lab).",
+    "Book list printed under heading 'Books' (unnumbered scheme; numbered by print order).",
+    "Printed typos kept verbatim: 'fumctions', 'Coughanoowr', 'Staphno polies', 'Prentic Hall India'.",
+    "Unit-IV trailing count printed '(08 lectures)' (verbatim).",
+    "Scheme row (p.4): '6 ECH 507 Instrumentation and Process Control 2 1 0 15 10 25 50 75 2'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Chemistry Lab",
+   "name_print": "EFT– 551 : FOOD CHEMISTRY LAB",
+   "codes": [
+    "EFT551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "The chemical analysis of foods and food products, by Morris B. Jacobs, III Edition, CBS Publishers and distributors New Delhi."
+    },
+    {
+     "no": 2,
+     "book": "ISI hand book of food analysis"
+    },
+    {
+     "no": 3,
+     "book": "Hand book of analysis and quality control for fruit and vegetable products, by S. Ranganna, II Ed., Tata McGraw Hill Publishing Co. New Delhi."
+    },
+    {
+     "no": 4,
+     "book": "Official Method of analysis of AOAC"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Analysis of water for potable and food purposes"
+    },
+    {
+     "no": 2,
+     "exp": "Moisture content in foods in relation to their stability"
+    },
+    {
+     "no": 3,
+     "exp": "Non-enzymatic browning reactions and its determinations"
+    },
+    {
+     "no": 4,
+     "exp": "Determination of rate/ extent of hydrolysis of sucrose/starch"
+    },
+    {
+     "no": 5,
+     "exp": "Determination of free fatty acid content in fats and oils"
+    },
+    {
+     "no": 6,
+     "exp": "Detection and estimation of oxidative rancidity in fats/oils"
+    },
+    {
+     "no": 7,
+     "exp": "Determination of heat stability of vitamin c"
+    },
+    {
+     "no": 8,
+     "exp": "Study of some reactions of proteins"
+    },
+    {
+     "no": 9,
+     "exp": "Study of some processing changes in proteins"
+    },
+    {
+     "no": 10,
+     "exp": "Study of some functional properties of proteins"
+    },
+    {
+     "no": 11,
+     "exp": "Detection / Estimation of some additives in foods"
+    },
+    {
+     "no": 12,
+     "exp": "Detection/Estimation of adulterants in some foods"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed typo kept verbatim: 'vitamin c'.",
+    "Scheme row (p.4): '8 EFT 551 Food Chemistry Lab 0 0 3 10 10 20 30 50 2' (credit printed 2)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Biochemistry & Biotechnology Lab",
+   "name_print": "EFT– 552 : FOOD BIOCHEMISTRY AND BIOTECHNOLOGY LAB",
+   "codes": [
+    "EFT552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 20,
+    "sessional_total": 40,
+    "ese_te_pe": 60,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "An introduction to practical biochemistry by D.T.Plummer, III Ed. Tata McGraw Hill Publishing Co. New Delhi"
+    },
+    {
+     "no": 2,
+     "book": "Principles of Enzymology for Food Science by J.R.Whitaker, Marcel Dekker Inc"
+    },
+    {
+     "no": 3,
+     "book": "Methods in Enzymology by S.P.Colwick and N.O. Kaplan, Acadmic Press"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Determination of enzyme activity and specific activity (Enzyme assay)"
+    },
+    {
+     "no": 2,
+     "exp": "Determination of effect of temperature on enzyme activity"
+    },
+    {
+     "no": 3,
+     "exp": "Determination of effect of pH on enzyme activity"
+    },
+    {
+     "no": 4,
+     "exp": "Determination of effect of substrate concentration on enzyme activity and estimation of Km."
+    },
+    {
+     "no": 5,
+     "exp": "Estimation of enzymatic browning in a food"
+    },
+    {
+     "no": 6,
+     "exp": "Estimation of enhancement in an enzyme activity during ripening of a fruit"
+    },
+    {
+     "no": 7,
+     "exp": "Estimation of enhancement in an enzyme activity during sprouting of a grain"
+    },
+    {
+     "no": 8,
+     "exp": "Detection/ estimation of catalase and peroxidase activity in vegetable"
+    },
+    {
+     "no": 9,
+     "exp": " Amylase in hydrolysis of starch."
+    },
+    {
+     "no": 10,
+     "exp": " Invertase in hydrolysis of sucrose."
+    },
+    {
+     "no": 11,
+     "exp": " Protease in hydrolysis of protein"
+    },
+    {
+     "no": 12,
+     "exp": " Lipase in hydrolysis of fat."
+    },
+    {
+     "no": 13,
+     "exp": " Cellulase and hemicellulase for dehulling of a grain,etc."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed item range '9-13. Application of enzymes:' followed by five sub-lines; expanded here as items 9-13 each carrying its printed sub-line after the printed range label (verbatim words).",
+    "Printed typos kept verbatim: 'S.P.Colwick', 'Acadmic Press'.",
+    "Scheme row (p.4): '9 EFT 552 Food Biochemistry & Biotechnology Lab 0 0 3 20 20 40 60 100 2'.",
+    "Experiments 9-13 print under the grouped heading '9-13. Application of enzymes:' (text layer emits the heading once before item 9); per-item verbatim texts restored (patch-b26 verify remedy, B02 v2 verbatim-join class)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Based Numerical Methods Lab",
+   "name_print": "EAS 551 :COMPUTER BASED NUMERICAL TECHNIQUES LAB",
+   "codes": [
+    "EAS551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Solution of single non-linear algebraic equations by Newton Raphson method."
+    },
+    {
+     "no": 2,
+     "exp": "Solution of single non-linear equations by Regulafalsi method."
+    },
+    {
+     "no": 3,
+     "exp": "Solution of system of linear simultaneous by Gauss Elimination method."
+    },
+    {
+     "no": 4,
+     "exp": "Solution of system of linear simultaneous equation by gauss seidel method and successive over relaxation method."
+    },
+    {
+     "no": 5,
+     "exp": "Solution of single first order ordinary differential equations by fourth order Runge-Kutta method."
+    },
+    {
+     "no": 6,
+     "exp": "Solution of Heat equations (Parabolic equations) by finite difference method."
+    },
+    {
+     "no": 7,
+     "exp": "Solution of Laplace equations (elliptic equation) by finite difference method."
+    },
+    {
+     "no": 8,
+     "exp": "Solution of wave equations (Hyperbolic equation) by finite difference method."
+    },
+    {
+     "no": 9,
+     "exp": "Finding Newton’s interpolatory polynomial for n points."
+    },
+    {
+     "no": 10,
+     "exp": "Finding Newton’s interpolatory polynomial based on finite difference table for n points."
+    },
+    {
+     "no": 11,
+     "exp": "Simpson’s 3/8-rule."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Preamble line printed before the list: 'Use of following Techniques in C/C++ Language'.",
+    "Detail heading prints 'COMPUTER BASED NUMERICAL TECHNIQUES LAB' where scheme (p.4) prints 'Computer Based Numerical Methods Lab'.",
+    "Printed typos kept verbatim: 'Regulafalsi', 'Solution of system of linear simultaneous by' (missing 'equations'), 'gauss seidel'.",
+    "Scheme row (p.4): '10 EAS 551 Computer Based Numerical Methods Lab 0 0 3 10 10 20 30 50 1'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Industrial Management",
+   "name_print": "EHU 601     INDUSTRIAL MANAGEMENT",
+   "codes": [
+    "EHU601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed: the detailed-syllabus section (p.24) prints only the heading line 'EHU 601     INDUSTRIAL MANAGEMENT                                   3   0   0' followed directly by EFT-601; no units/description printed.",
+    "Scheme row (p.5): '1 EHU 601 Industrial Management 3 0 0 30 20 50 100 150 4'."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Food Preservation & Processing Principles",
+   "name_print": "EFT - 601 : FOOD PRESERVATION & PROCESSING PRINCIPLES",
+   "codes": [
+    "EFT601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 9) T (1 – 3) Basic considerations: Aims and objectives of preservation & processing of foods, Characteristics of tissues and non-tissues foods, Degree of perishability of unmodified foods, Causes of quality deterioration and spoilage of perishable foods, intermediate moisture foods, wastage of foods.",
+    "2": "Unit-II L (10 – 18) T (4 – 6) Preservation of foods by low temperatures: (A) Chilling temperatures: Consideration relating to storage of foods at chilling temperatures, Applications and procedures, Controlled and Modified atmosphere storage of foods, Post storage Handling of foods. (B) Freezing temperatures: Freezing process, Slow and fast freezing of foods and its consequence, other occurrences associated with freezing of foods. Technological aspects of pre freezing, Actual freezing, Frozen storage and thawing of foods.",
+    "3": "Unit-III L (19 – 27) T (7 – 9) Preservation of foods by high temperatures: Basic concepts in thermal destruction of microorganisms D,Z,F values. Heat resistance and thermophic microorganisms. Cooking, Blanching, Pasteurization and Sterilization of foods. Assessing adequacy of thermal processing of foods, General process of caning of foods, Spoilage in canned foods.",
+    "4": "Unit-IV L (28 – 36) T (10 – 12) Preservation by water removal: (a) Principles, Technological aspects and application of evaporative concentration process; Freeze concentration and membrane process for food concentrations. (b) Principles, Technological aspects and application of drying and dehydration of foods, Cabinet, tunnel, belt, bin, drum, spray, vacuum, foam mat, fluidized-bed and freeze drying of foods.",
+    "5": "Unit-V L (37 – 45) T (13 – 15) Principles, Technological aspects and application of sugar and salt, Antimicrobial agents, Biological agents, non ionizing and ionizing radiations in preservation of foods. Hurdle technology."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "O.R.Fennema Principles of Food science"
+    },
+    {
+     "no": 2,
+     "book": "V.Kyzlink Principle of Food Preservation"
+    },
+    {
+     "no": 3,
+     "book": "James M.Jay Modern Food Microbiology"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed typos kept verbatim: 'thermophic', 'caning' (for canning), 'Principle of Food Preservation'.",
+    "Books printed under 'Book References Author' header (Author/Title columns).",
+    "Scheme row (p.5): '2 EFT 601 Food Preservation & Processing Principles 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Fruits, Vegetables & Plantation Products",
+   "name_print": "EFT – 602 FRUITS, VEGETABLES AND PLANTATION PRODUCTS",
+   "codes": [
+    "EFT602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 9) T (1 – 3) Structural, Compositional and Nutritional aspects of fruits and vegetables. Physiological development: Growth, Maturation, Ripening and Senescence. Post harvest handling including controlled and modified storage. Techniques of processing and preservation of fruits and vegetables by refrigeration and freezing, canning and bottling, drying and dehydration.",
+    "2": "Unit-II L (10 – 18) T (4 – 6) Technology of fruits and vegetable products: Juices and pulps, Concentrates and powders, Squashes and cordials. Beverage: Still and carbonated. James, Jellies and Marmalades. Preserves, candies and crystallized fruits. Tomato products: Puree, Paste, Ketchup, Sauce and soup. Chutneys, pickles and other products.",
+    "3": "Unit-III L (19 – 25) T (7 – 9) Spices: Composition, Structure and characteristics. Preservation and processing of major and minor spices of India; whole spice, Spice powder, Paste and extracts, Spice oils and oleoresins. Composition, Structure ,characteristics & processing of cashew nut and other dry fruits",
+    "4": "Unit-IV L (26 – 36) T (10 – 12) Composition, Production and processing of Tealeaves: Black tea, Green tea and Oolong tea. Instant tea. Production and processing of coffee cherries by wet and dry methods to obtain coffee beans, grinding, storage and preparation of brew, Soluble /Instant coffee, Use of chicory in coffee, decaffeinated coffee.",
+    "5": "Unit-V L (37 – 45) T(13 – 15) Production, processing and chemical composition of cocoa beans. Cocoa Processes: Cleaning, roasting, alkalization, cracking and fanning, Nib grinding for cocoa liquor, cocoa butter and cocoa powder. Manufacturing process for chocolate: Ingredients, Mixing, Refining, Conching, Tempering, Moulding etc. to obtain chocolate slabs, chocolate bars. Enrobed and other confectionary products."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "G. Lal, G.S. Siddappa and G.L. Tondan Preservation of fruits & vegetables."
+    },
+    {
+     "no": 2,
+     "book": "& G.L. Tandon B.L. Amla Food Industry."
+    },
+    {
+     "no": 3,
+     "book": "B. Shrilakshimi Food Science."
+    },
+    {
+     "no": 4,
+     "book": "Bernard. W. Minifie Chocolate, Cocoa and Confectionary: Science and Technology."
+    },
+    {
+     "no": 5,
+     "book": "R.H.H. Wills et.al. An introduction to the Post-harvest physiology and handling of fruits and vegetables."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Unit-III lecture range printed 'L (19 – 25)' (not 19-27) and Unit-IV 'L (26 – 36)' — verbatim, ranges non-uniform.",
+    "Printed typos kept verbatim: 'James, Jellies and Marmalades' (for Jams), 'Tealeaves', 'confectionary', 'Shrilakshimi', 'Tondan'.",
+    "Book 2 line printed garbled: '& G.L. Tandon B.L. Amla Food Industry.' (author/title columns misaligned in print; verbatim).",
+    "Scheme row (p.5): '3 EFT 602 Fruits, Vegetables & Plantation Products 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Chemical Reaction Engineering",
+   "name_print": "ECH- 607: CHEMICAL REACTION ENGINEERING",
+   "codes": [
+    "ECH607"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I Chemical Reactions : Rate of chemical reactions, variable affecting the reaction rate, order of reaction ,reaction rate constant , elementary and non-elementary reaction mechanism. Arrhenius equation, Collision theory and theory of absolute reaction rates, predictability of reaction rate. 8",
+    "2": "Unit-II Kinetics of homogeneous chemical reactions, rate equations for simple and complex reactions, irreversible reaction, parallel reactions,consecutive reactions, auto catalytic reactions and homogeneous catalytic   reactions. 8",
+    "3": "Unit-III Interpretation of reactor data in constant volume and variable volume batch reactions, integral and differential method of following kinetic data. Reactor designs for homogeneous, batch, semi-batch, plug flow and continuous stirred tank. Electrochemical reactors 6",
+    "4": "Unit-IV Classification of chemical reactions, Interpretation of reactor data in flow reactions.. Isothermal as well as non-isothermal operation, space velocity and residence time in flow reactors. Size comparison of single reactors like batch, plug flow and CSIR for first and second order single reactions. Multiple reactor systems, Plug flow reactions in series and for parallel equal sized CSTR’s in series. 6"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Levenspiel, O.. “Chemical Reaction Engineering”, 3rd ed. New York John Wiley (1998)"
+    },
+    {
+     "no": 2,
+     "book": "Fogler, H.S. “Elements of Chemical Reaction Engineering”, 4th ed. Prentice Hall (1997)."
+    },
+    {
+     "no": 3,
+     "book": "Smith, J. “Chemical Engineering Kinetics “, 3rd edition. McGraw-Hill, . (1990)."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Only Unit-I to Unit-IV are printed; Unit-V is absent (print proceeds to ECH 608).",
+    "Printed typos kept verbatim: 'CSIR' (for CSTR) in Unit-IV, 'Levenspiel, O..', double period 'reactions..', 'McGraw-Hill, . (1990)'.",
+    "Scheme row (p.5): '4 ECH 607 Chemical Reaction Engineering 2 1 0 15 10 25 50 75 2'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Introduction to Modeling & Simulation",
+   "name_print": "ECH 608 INTRODUCTION TO MODELLING & SIMULATION",
+   "codes": [
+    "ECH608"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit I Introduction to mathematical modelling , Classification of models –Simple vs. dynamic, Transport phenomena based vs. statistical;  fundamental laws of modelling, model building, modelling difficulties.",
+    "2": "Unit - II Simple examples of process models i.e. reactors (Plug Flow, CSTR, Batch etc.), mass. Transfer equipments (distillation column, humidifiers, dehumidifiers, absorbers etc.), heat transfer equipments (evaporators, condensers, heat exchangers etc.)",
+    "3": "Unit - III Introduction to flow sheet simulation; Sequential modular approach; Equation oriented approach; Partitioning and tearing; Recycle convergence methods,",
+    "4": "Unit - IV Review of thermodynamic correlations for estimates of physical properties like phase equilibria, bubble and dew points etc. Software for material and energy balance."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Luyben W.L., “Process Modelling, Simulation, and Control for Chemical Engineering”, Wiley"
+    },
+    {
+     "no": 2,
+     "book": "Hussain Asghar, “Chemical Process Simulation”, Wiley Eastern Ltd., New Delhi,(1986)"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M.M. Denn, “Process Modelling”, Wiley, New York, (1990)"
+    },
+    {
+     "no": 2,
+     "book": "C.D. Holland and A.L. Liapis, “ Computer Methods for solving Dynamic Separation Problems”, McGraw Hill, (1983)"
+    },
+    {
+     "no": 3,
+     "book": "C.D. Holland, “Fundamentals of Modelling Separation Processes “, Prentice Hall, (1975)"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Only Unit-I to Unit-IV are printed; Unit-V is absent (print proceeds to ECH-609).",
+    "No per-unit lecture numbers printed.",
+    "Spelling conflict: scheme (p.5) prints 'Introduction to  Modeling & Simulation' (double space, 'Modeling') where detail heading prints 'MODELLING'; name field carries scheme print normalized to single space, detail heading kept verbatim in name_print.",
+    "Printed typos kept verbatim: 'mass. Transfer equipments', trailing comma at Unit-III end.",
+    "Scheme row (p.5): '5 ECH 608 Introduction to  Modeling & Simulation 2 1 0 15 10 25 50 75 2'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mass Transfer Operations",
+   "name_print": "ECH- 609 : MASS TRANSFER OPERATIONS",
+   "codes": [
+    "ECH609"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I Basic Principles of mass transfer: Molecular diffusion in fluids, mass transfer coeeficients, Interphase mass transfer. Vapour pressure, enthalpy, absolute humidity, dew point, etc., Unsaturated vapour gas mixtures. 8",
+    "2": "Unit-II Gas absorption: Countercurrent, co-current, multistage continuous contact operations. Distillation : Entrainment, pressure drops , flooding , transfer coefficients and relative volatility. Macabe Thiele and Ponchon method for binary component distillation of azeotropes. Flash vaporization and Multicomponent distillation. 8",
+    "3": "Unit-III Diffusion: Molecular and turbulent diffusion , diffusion coefficient. Fick’s law of diffusion, measurement and estimation of diffusivity. Diffusion in multicomponent gas mixtures. Diffusion in solids: Molecular, Knud sen and surface diffusion. Inter phase mass transfer: Mass transfer coefficients, diffusion between phases, equilibrium solubility of gases in liquids. Mass transfer theories. Mass transfer in fluidized beds 10",
+    "4": "Unit-IV Adsorption and Stripping,Equipments, gas-liquid equilibria, Henry’s law, selection of solvent, absorption in tray column, graphical and analytical methods. Adsorption in packed columns. HTU, NTU & HETP concepts, design equations for  packed column. 7",
+    "5": "Unit-V Drying: Batch and freeze drying, rotary driers. Surface vs diffusion controlled operations. Solid-gas equilibria, definitions of moisture contents, types of batch and continuous dryers, rate of batch drying , time of drying, mechanism of batch drying, continuous drying. 7"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Treybal, R “Mass Transfer Operations”, 3rd ed. New York: McGraw-Hill, (1980)."
+    },
+    {
+     "no": 2,
+     "book": "Sherwood T. K., Pigford R. L. and ilke P. “Mass Transfer” McGraw Hill (1975)."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Foust A. S. et.al., “Principles of Unit Operations” John Wiley (1980)."
+    },
+    {
+     "no": 2,
+     "book": "Geankoplis, C.J.. “Transport Processes and Unit Operations”, 3rd ed. Prentice Hall. (1993)"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "The list following 'Text Books' continues with items re-numbered 1-2 (Foust; Geankoplis) with no 'Reference Books' heading printed; transcribed as reference_books (print-order), heading absence recorded as quirk.",
+    "Book 2 author printed 'and ilke P.' — leading letter(s) of 'Wilke' dropped in print (verbatim; print-quirk evidence).",
+    "Printed typos kept verbatim: 'coeeficients', 'Macabe Thiele', 'Knud sen', 'Stripping,Equipments', 'Sherwood T. K., Pigford R. L. and ilke P.'.",
+    "Scheme row (p.5): '6 ECH 609 Mass Transfer Operations 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Preservation & Processing Lab- I",
+   "name_print": "EFT-651 FOOD PRESERVATION AND PROCESSING LAB -I",
+   "codes": [
+    "EFT651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 6
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 20,
+    "sessional_total": 40,
+    "ese_te_pe": 60,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "G.Lal, G.S.Siddappa & G.L.Tondan Preservation of Fruits and Vegetables"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Extension of shelf life/ preservation of foods by use of low temperature."
+    },
+    {
+     "no": 2,
+     "exp": "Processing and preservation of Peas by use of high temperature."
+    },
+    {
+     "no": 3,
+     "exp": "Preservation and processing of certain vegetables by drying and dehydration (water removal)"
+    },
+    {
+     "no": 4,
+     "exp": "Osmotic concentration/dehydration of certain fruits and vegetables using concentrated sugar and salts solutions (reduction in water activity)"
+    },
+    {
+     "no": 5,
+     "exp": "Preparation of Jam/Jelly and its preservation by sugar."
+    },
+    {
+     "no": 6,
+     "exp": "Preparation of tomato puree/ketchup and its preservation by chemical preservatives."
+    },
+    {
+     "no": 7,
+     "exp": "Preparation of fruit juice/pulp and its preservation by chemical preservatives/ thermal processing."
+    },
+    {
+     "no": 8,
+     "exp": "Preparation of cordials and squash as per FPO specification."
+    },
+    {
+     "no": 9,
+     "exp": "Preparation of pickles/ sauerkraut."
+    },
+    {
+     "no": 10,
+     "exp": "Preparation of sugar boiled candy."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed list uses one-item-per-line numbering with hanging indentation; joined here (verbatim words).",
+    "Book printed under 'Author Title' header as 'G.Lal, G.S.Siddappa & G.L.Tondan Preservation of Fruits and Vegetables'.",
+    "Scheme row (p.5): '8 EFT 651 Food Preservation & Processing Lab- I 0 0 6 20 20 40 60 100 2'. Detail heading prints 'AND' where scheme prints '&'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mass Transfer Operations Lab",
+   "name_print": "ECH-655 : MASS TRANSFER OPERATIONS LAB",
+   "codes": [
+    "ECH655"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Separation factors of the experiments with differential distillation."
+    },
+    {
+     "no": 2,
+     "exp": "Separation factors of the experiments with flash vaporization."
+    },
+    {
+     "no": 3,
+     "exp": "Separation factors of the experiments with vapour liquid equilibrium."
+    },
+    {
+     "no": 4,
+     "exp": "Separation factors of the experiments with liquid – liquid extraction."
+    },
+    {
+     "no": 5,
+     "exp": "Separation factors of the experiments with solid –liquid extraction."
+    },
+    {
+     "no": 6,
+     "exp": "Separation factors of the experiments with ion exchange."
+    },
+    {
+     "no": 7,
+     "exp": "Separation factors of the experiments with membrane separation."
+    },
+    {
+     "no": 8,
+     "exp": "Studies on Bubble cap/ tray/ fractional column."
+    },
+    {
+     "no": 9,
+     "exp": "Studies on Absorption/ Humidification/ Dehumidification columns."
+    },
+    {
+     "no": 10,
+     "exp": "Studies on crystallization and adsorption."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.5): '9 ECH 655 Mass Transfer Operations Lab 0 0 3 10 10 20 30 50 2'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Seminar",
+   "name_print": "EFT-652 SEMINAR",
+   "codes": [
+    "EFT652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "description_print": "The student will be required to prepare and deliver a seminar as well as submit a written report on the topic assigned to him/her",
+   "quirks": [
+    "L-T-P conflict: scheme row (p.5) prints '0 0 2' but the detailed heading prints '0 : 0 : 3'; ltp field carries the scheme print, detail print recorded here.",
+    "Scheme row CT/TA/ESE cells printed blank with Subject Total 50 (marks dict carries printed values only).",
+    "Scheme row (p.5): '10 EFT 652 Seminar 0 0 2 [blank CT] [blank TA] 50 [blank ESE] 50 1'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed design: EFT-652 SEMINAR (p.29), EFT-753: PROJECT (p.34: 'The student(s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.'), EFT-754: INDUSTRIAL TRAINING (p.34 heading), EFT-851 PROJECT (p.39: 'prepare a detailed project report on fabrication of an equipment / establishment of a plant ... for assessment.') — prose only, no unitwise syllabus printed"
+   ]
+  },
+  {
+   "name": "Cereals, Pulses & Oilseed Products",
+   "name_print": "EFT - 701  CEREALS, PULSES AND OILSEED PRODUCTS",
+   "codes": [
+    "EFT701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 9) T (1 – 3) Composition, Structure and Processing characteristic of Cereal grains, Legumes and oilseeds, Post harvest, Post processing practices for their safe storage. Parboiling and Milling of paddy, Quality characteristics, Curing and aging of rice, Processed rice products.",
+    "2": "Unit-II L (10 – 18) T (4 – 6) Wheat and its quality characteristics for milling into flour and semolina, Flour milling, Turbo grinding and air classification, Flour grades and their suitability for baking purposes, Assessment of flour quality and characteristics, Milling of Durum wheat, Macaroni products.",
+    "3": "Unit-III L (19 –27) T (7 – 9) Ingredients, Technology and quality parameters for baked products: Bread, Biscuits and cakes; Breakfast cereals.",
+    "4": "Unit-IV L (28 – 36) T (10 – 12) Dry and Wet milling of corn, Starches and its conversion products, Malting of barley, Pearling of Millets, Milling of legume-pulses by traditional and improved processes.",
+    "5": "Unit-V L (37 – 45) T (13 – 15) Processing of oil seeds for direct use and consumption, Oil and protein products. Processing of extracted oil refining, hydrogenation, interestrification. Processing of deoiled cake into protein concentrates and isolates, Textured protein, Functional protein preparations. Peanut butter, Margarine and Spread."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "C.F.T.R.I. Mysore Manuals on Rice and its Processing"
+    },
+    {
+     "no": 2,
+     "book": "N.N.Potter Food Science"
+    },
+    {
+     "no": 3,
+     "book": "S.A.Matz Cereal Technology"
+    },
+    {
+     "no": 4,
+     "book": "S.A.Matz Bakery Technology"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Books printed under 'Book references:' with Author/Title columns; transcribed verbatim.",
+    "Scheme row (p.6): '2 EFT 701 Cereals, Pulses & Oilseed Products 3 1 0 30 20 50 100 150 4'. Detail heading prints 'AND' where scheme prints '&'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Quality & Food Laws",
+   "name_print": "EFT - 702  FOOD QUALITY AND FOOD LAWS",
+   "codes": [
+    "EFT702"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I L (1 – 9) T (1 – 3) Ways of describing of Food Quality, Quality control and Quality Assurance functions. Total Quality Control (TQC) and the role of management/ TQM.. Statistical quality control. Quality costs., Analysis and Interpretation of sensory scores. Application of sensory evaluation in Quality Management of foods.",
+    "2": "Unit-II L (19 – 27) T (7 – 9) Instrumental measurements of sensory attribute of foods: Appearance, color, volume, density and specific gravity, Rheological and textural characteristics . Texture profile analysis. Correlation between instrumental and Sensory analysis of food quality attributes.",
+    "3": "Unit-III L (28 – 36) T (10 – 12) Nutritional Quality of foods and its assessments: Food proteins (Digestibility, Biological value, NPU, PER), Modifications of foods constituents due to processing and storage and their nutritional implications.",
+    "4": "Unit-IV L (37 – 45) T (13 – 15) Food standards and Specifications: Compulsory and voluntary trade and Company standards. Consumer, company, In-process and finished product specifications. Relevant Food laws : PFA, FPO, SWMA, MPO, AgMark, and BIS Standards."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "J.M.DeMan Rheology and Texture in Food Quality"
+    },
+    {
+     "no": 2,
+     "book": "Y.Pomeranz Food Analysis : Theory and practice IS: 6273 (Part-1& Part-2)"
+    },
+    {
+     "no": 3,
+     "book": "M.A. Amerine Principles of Sensory Analysis of Food"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Only four unit ranges printed: Unit-I L (1-9), Unit-II jumps to L (19-27) — lecture range 10-18 skipped in print (verbatim print-quirk).",
+    "Book 2 line printed as 'Y.Pomeranz Food Analysis : Theory and practice IS: 6273 (Part-1& Part-2)' — 'IS: 6273' appears appended in the same line (verbatim).",
+    "Printed typos kept verbatim: 'TQM..', 'Quality costs.,', 'Ways of describing of Food Quality'.",
+    "Scheme row (p.6): '3 EFT 702 Food Quality & Food Laws 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plant Design & Economics",
+   "name_print": "ECH 702: PLANT DESIGN AND ECONOMICS",
+   "codes": [
+    "ECH702"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit I Process Development Process selection, study of alternative processes, pilot plant, Scale up methods, Flow sheet preparation, sketching techniques, Equipment numbering, Stream designation, Material and energy balances. Plant Design Design basis ,Process selection -Selection of equipment, specification and design of equipment’s, material of construction, Plant location, Plant layout and installation, Safety, Start up, Shutdown and Operating guidelines. [8]",
+    "2": "Unit II Cost Engineering Time value of money and equivalence, Interest, cost comparisons by present worth, Annual equivalent cost and capitalised cost methods, Uniform gradient and series. Depreciation, Taxes and Insurances Nature of depreciation, Methods of determining depreciation, depreciation rates in current Indian situation, Types of taxes and insurance’s, Procedure for cost comparison after taxes. [8]",
+    "3": "Unit III Cost Estimation Types of cost estimation, capital investment cost, fixed capital cost, working capital cost, start-up costs, process equipment cost estimation, cost index, Equipment costs due to inflation, Battery limit investments, estimation of plant cost, Estimation of total product cost, Manufacturing cost, General expenses. Profitability Criteria of profitability, Payout period, Return on investment, Present value, Cash flow analysis, Alternative investment analysis, Sensitive analysis in project profitability. [8]",
+    "4": "Unit IV Economic Optimization and Optimum Design Nature of optimisation, Uni-variable and multivariable systems, Analytical, graphical and incremental methods of solution, LaGrange multiplier method, Linear programming and dynamic programming establishing optimum conditions, Break even chart for production schedule, Optimum production rates in plant operation, Optimum conditions in batch, cyclic and semicyclic operation, Sensitivity and response analysis. [8]",
+    "5": "Unit V Optimisation of Different Process Equipment Viz., transportation systems, heat exchangers, evaporators, mass transfer equipments and reactors. Determination of height and diameter of different process equipments at conditions of optimum cost .Pinch Technology analysis. Preparation of techno-economic feasibility report. [8]"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Peters M., Timmerhaus K. & Ronald W., Plant Design & Economics for Chemical Engineers, McGraw Hill"
+    },
+    {
+     "no": 2,
+     "book": "James R Couper, Process Engg. Economics (Chemical Industries) CRC Press"
+    },
+    {
+     "no": 3,
+     "book": "Aries & Newton, Chemical Engg. Cost Estimation, McGraw Hill"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Books printed under 'Books Recommended'.",
+    "Printed typos kept verbatim: 'equipment’s', 'insurance’s', 'Sensitive analysis', 'equipment’s'.",
+    "Scheme row (p.6): '4 ECH 702 Plant Design & Economics 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Technology of Animal Foods",
+   "name_print": "EFT-703 : TECHNOLOGY OF ANIMAL FOODS",
+   "codes": [
+    "EFT703"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I Fluid Milk: Composition of milk and factor affecting it. Physico-chemical characteristics of milk and milk constituents. Production and collection , cooling and transportation of milk. Packaging storage and distribution of pasteurized milk.: Whole, Standardized, Toned, Double toned and skim milk. Test for milk quality and Adulteration. UHT processed milk, flavoured, Sterilized milk. Cleaning and sanitization of dairy equipments.",
+    "2": "Unit-II Definition, Classification, Composition and physico-chemical properties of cream. Production processes and quality control. Butter: Definition, Classification, Composition and methods of manufacture, Packaging and storage. Butter oil/Ghee. Ice cream: Definition, Classification and Composition, Constituents and their role. Preparation of mixes and freezing of Ice cream, Overrun, Judging, Grading, and defects of Ice cream.",
+    "3": "Unit-III Evaporated and Condensed milk: Method of manufacture, Packaging and storage. Defects, Causes, and prevention. Roller and Spray Drying of milk solids. Instantization. Flow ability, Dustiness, Reconstituability, Dispersability, Wet ability, Sink ability and appearance of milk powders. Manufacture of casein, Whey protein, Lactose from milk or use in formulated foods.",
+    "4": "Unit-IV Ante-mortem examination of meat animals, Scienctific slaughtering, Post mortem changes, Tendering and curing of meat, Beef Mutton, Pork Sausages and other meat products. Catch, Handling and transportation of fish. Fish spoilage, Processing, Preservation of fish, Shell fish and other sea foods.",
+    "5": "Unit-V Poultry processing, Canning of poultry products. Physical, Chemical Nutritional and Functional characteristics of Egg. Causes of deterioration of quality of egg, Preservation and Processing of Egg. Manufacturing of egg white, Egg yolk and Whole Egg solids/powder."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "H.V.Athortone Chemistry and testing of dairy products"
+    },
+    {
+     "no": 2,
+     "book": "N.Warner Principles of dairy processing"
+    },
+    {
+     "no": 3,
+     "book": "Sukumar De Outlines of dairy technology"
+    },
+    {
+     "no": 4,
+     "book": "R.A.Lawrie Meat Science."
+    },
+    {
+     "no": 5,
+     "book": "G.J.Mountney Poultry Products Technology"
+    },
+    {
+     "no": 6,
+     "book": "B.Srilakshmi Food Science"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "No L/T ranges or per-unit lecture numbers printed for this subject.",
+    "Printed typos kept verbatim: 'Scienctific', 'H.V.Athortone', 'factor affecting it'.",
+    "Stray '.' printed alone between the books list and EFT-751 heading (page furniture, not transcribed into data).",
+    "Scheme row (p.6): '5 EFT 703 Technology of Animal Foods 3 1 0 30 20 50 100 150 4'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Quality Evaluation Lab",
+   "name_print": "EFT-751: FOOD QUALITY EVALUATION LAB",
+   "codes": [
+    "EFT751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "BIS Specifications"
+    },
+    {
+     "no": 2,
+     "book": "Morris B. Jacobs The Chemical Analysis of Foods & Food Products"
+    },
+    {
+     "no": 3,
+     "book": "S. Ranganna Hand Book of Analysis and Quality Control for Fruit & Vegetable Products"
+    },
+    {
+     "no": 4,
+     "book": "Official Method of Analysis of AOAC"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Sensitivity tests (Threshold/Dilution) to measure individual ability for sensory analysis."
+    },
+    {
+     "no": 2,
+     "exp": "Difference tests to evaluate qualitative and' quantitative differences and/or preference between test  products."
+    },
+    {
+     "no": 3,
+     "exp": "Difference tests to evaluate qualitative and' quantitative differences and/or preference between test  products."
+    },
+    {
+     "no": 4,
+     "exp": "Assessment of quality of wheat flour (Water Absorption Power, Gluten Content, Sedimentation Value etc.)."
+    },
+    {
+     "no": 5,
+     "exp": "Assessment of quality of wheat flour (Water Absorption Power, Gluten Content, Sedimentation Value etc.)."
+    },
+    {
+     "no": 6,
+     "exp": "Evaluation of quality of Bakery Products: Bread, Biscuits, Cakes etc."
+    },
+    {
+     "no": 7,
+     "exp": "Evaluation of quality of Dairy Products: Over ran and fat content in IceCream, Specific gravity of Milks etc."
+    },
+    {
+     "no": 8,
+     "exp": "Evaluation of quality of Dairy Products: Over ran and fat content in IceCream, Specific gravity of Milks etc."
+    },
+    {
+     "no": 9,
+     "exp": "Assessment of quality of Fruit & Vegetable Products: Tomato Products, Jam, Jelly, Marmalades, Squashes& Cordials, Canned Products."
+    },
+    {
+     "no": 10,
+     "exp": "Assessment of quality of Fruit & Vegetable Products: Tomato Products, Jam, Jelly, Marmalades, Squashes& Cordials, Canned Products."
+    },
+    {
+     "no": 11,
+     "exp": "Assessment of Quality of Beverages: Tea & Coffee, Carbonated and RTS Beverages."
+    },
+    {
+     "no": 12,
+     "exp": "Assessment of Quality of Beverages: Tea & Coffee, Carbonated and RTS Beverages."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed item numbers 2-3, 4-5, 7-8, 9-10, 11-12 are two-per-line ranges; expanded here with identical text per printed line (verbatim).",
+    "Printed typos kept verbatim: 'and\\' quantitative', 'Over ran', 'IceCream', 'Squashes& Cordials'.",
+    "Scheme row (p.6): '8 EFT 751 Food Quality Evaluation Lab 0 0 3 10 10 20 30 50 1'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Preservation & Processing Lab- II",
+   "name_print": " EFT 752 : FOOD PRESERVATION AND PROCESSING LAB-II",
+   "codes": [
+    "EFT752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Preparation of Bread/test baking."
+    },
+    {
+     "no": 2,
+     "exp": "Pre-treatment and milling of legume-pulses / dehulling of oil seeds."
+    },
+    {
+     "no": 3,
+     "exp": "Preparation of certain baked products – Buns, Cakes, Pizza etc."
+    },
+    {
+     "no": 4,
+     "exp": "Preparation of Biscuits and Cookies."
+    },
+    {
+     "no": 5,
+     "exp": "Extraction of crude oil from oilseeds."
+    },
+    {
+     "no": 6,
+     "exp": "Studies on policing of rice."
+    },
+    {
+     "no": 7,
+     "exp": "Pearling of millets."
+    },
+    {
+     "no": 8,
+     "exp": "Preparation of malt."
+    },
+    {
+     "no": 9,
+     "exp": "Preparation of noodles/pasta/vermicelli."
+    },
+    {
+     "no": 10,
+     "exp": "Preparation of protein isolates/concentrates"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.6) prints the subject name across lines as 'EFT 752 / I / Food Preservation & Processing Lab- I' — a stray 'I' line-break makes the scheme read 'Lab- I'; the detailed heading (p.33) prints 'FOOD PRESERVATION AND PROCESSING LAB-II', which is authoritative for the name.",
+    "Printed typo kept verbatim: 'policing of rice' (for polishing).",
+    "Scheme row (p.6): '9 EFT 752 [stray I] Food Preservation & Processing Lab- I 0 0 3 10 10 20 30 50 1'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Project ( Dissertation)",
+   "name_print": "EFT-753: PROJECT  [scheme row prints 'Project ( Dissertation)']",
+   "codes": [
+    "EFT753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": "-",
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": "-",
+    "total": 50
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "description_print": "The student (s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.",
+   "quirks": [
+    "Scheme row name prints 'Project ( Dissertation)' (space before 'Dissertation)'); detail heading prints 'EFT-753: PROJECT'.",
+    "Scheme row CT and ESE cells print '-' (dash) with TA 50 / Total 50 and Subject Total 50; dashes transcribed verbatim.",
+    "Scheme row (p.6): '10 EFT 753 Project ( Dissertation) 0 0 3 - 50 50 - 50 2'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed design: EFT-652 SEMINAR (p.29), EFT-753: PROJECT (p.34: 'The student(s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.'), EFT-754: INDUSTRIAL TRAINING (p.34 heading), EFT-851 PROJECT (p.39: 'prepare a detailed project report on fabrication of an equipment / establishment of a plant ... for assessment.') — prose only, no unitwise syllabus printed"
+   ]
+  },
+  {
+   "name": "Industrial Training Viva Voce**",
+   "name_print": "EFT-754 : INDUSTRIAL TRAINING  [scheme row prints 'Industrial Training Viva Voce**']",
+   "codes": [
+    "EFT754"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": "-",
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": "-",
+    "total": 50
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "description_print": "The student(s) will be required to undertake training in the food industry after III B. Tech.VI semester for a specified period and submit its report after completion for evaluation and oral examination in the VII semester of his studies in Final B.Tech",
+   "quirks": [
+    "Name conflict: scheme (p.6) prints 'Industrial Training Viva Voce**'; detailed heading (p.34) prints 'EFT-754 : INDUSTRIAL TRAINING'.",
+    "Scheme row CT and ESE cells print '-' (dash) with TA 50 / Total 50 and Subject Total 50; dashes transcribed verbatim.",
+    "The '**' refers to the p.6 scheme note: 'Note-**Practical Training (4-6weeks) done after 6th Semesters would be evaluated in 7th semester through Report and viva voce etc.'",
+    "Scheme row (p.6): '11 EFT 754 Industrial Training Viva Voce** 0 0 2 - 50 50 - 50 1'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed design: EFT-652 SEMINAR (p.29), EFT-753: PROJECT (p.34: 'The student(s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.'), EFT-754: INDUSTRIAL TRAINING (p.34 heading), EFT-851 PROJECT (p.39: 'prepare a detailed project report on fabrication of an equipment / establishment of a plant ... for assessment.') — prose only, no unitwise syllabus printed"
+   ]
+  },
+  {
+   "name": "Speciality Foods",
+   "name_print": "EFT-011 : SPECIALITY FOODS",
+   "codes": [
+    "EFT011"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Unit-I Infant and baby foods, Adolescent / Teen-age foods, Geriatric foods, Foods for pregnant ladies and nursing mothers. Functional foods and Probiotics.",
+    "2": "Unit-II Foods / Diets in metabolic disorders and disturbances.",
+    "3": "Unit-III Foods and Diets recommended and restricted in Gastrointestinal disorders; Fever and Infection; Liver, gallbladder and pancreatic disturbances.",
+    "4": "Unit-IV Foods and Diets recommended and restricted in blood, circulatory and Cardiac diseases; urinary and Musculoskele tal diseases. Allergies.",
+    "5": "Unit-V Beneficial Effects of Spices, gamma-linolenic acid, Spirulina, antioxidants and other food constituents. New Developments."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Benzamin T. Burton Human Nutrition"
+    },
+    {
+     "no": 2,
+     "book": "Shubhangini A. Joshi Nutrition and Dietetics"
+    },
+    {
+     "no": 3,
+     "book": "B. Srilakshmi Dietetics"
+    },
+    {
+     "no": 4,
+     "book": "Arnold E. Bender Nutrition and Dietetic foods"
+    },
+    {
+     "no": 5,
+     "book": "AFST(I) & CFTRI Proceedings of IFCON 98"
+    },
+    {
+     "no": 6,
+     "book": "Periodicals by AFST(I), CFTRI Indian Food Industry"
+    },
+    {
+     "no": 7,
+     "book": "P. S. Howe, W.B. Saunders Basic Nutrition in Health & Disease"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Spelling conflict: p.7 elective-pool note prints 'EFT 011: Specialty Foods' where the detailed heading prints 'SPECIALITY FOODS'.",
+    "Printed typos kept verbatim: 'Benzamin', 'Musculoskele tal'.",
+    "Scheme row (p.7): '2 EFT 011-EFT 013 Departmental Elective -I 3 1 0 30 20 50 100 150 4' (combined row for EFT011/012/013)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Processing Waste Management",
+   "name_print": "EFT-012 : FOOD PROCESSING WASTE MANAGEMENT",
+   "codes": [
+    "EFT012"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Unit-I Basic considerations: Standards for emission or discharge of environmental pollutants from food processing Industries as per the updated provision of Environment (Protection) Act, 1986. Elements of importance in the efficient management of food processing wastes.",
+    "2": "Unit-II Characterization and utilization of by-products from Cereal Pulses, Oilseeds, Fruits and vegetables, Plantation products, Fermented foods, Milk, Fish, Meat, Egg and poultry processing industries.",
+    "3": "Unit-III Characterization of food Industry effluents, Physical an chemical parameters, Oxygen demands and their interrelationships, Residues (solids), Fats, Oils and grease, Forms of Nitrogen, Sulphur and Phosphorus, Anions and cations, Surfactants, Colour, Odour, Taste, Toxicity. Unit concept of treatment of food industry effluent, Screening, Sedimentation Floatation as pre - and primary reactants.",
+    "4": "Unit-IV Biological oxidations: Objects, Organisms, Reactions, Oxygen requirements, Aeration devices Systems: Lagoons, Activated sludge process, Oxidation ditches, Rotating biological cont caters and their Variations and advanced modifications.",
+    "5": "Unit-V Advanced wastewater treatment systems. Physical separations, Micro-strainers, Filters, Ultra filtration and reverse osmosis. Physico-chemical separations: activated carbon adsorption, Ion-exchange electro-dialysis and magnetic separation. Chemical oxidations and treatment Coagulation and flocculation. Disinfection. Handling disposal of sludge."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "J.H. Green Food Processing Waste Management Environment (Protection) Act"
+    },
+    {
+     "no": 2,
+     "book": "AFST(I) & CFTRI Proceedings of the Symposium on By-products From food Industries: Utilization and Disposal"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "L-T-P conflict: detailed heading (p.35) prints 'L : T: P 0 : 0 : 3' (lab-style LTP on a theory elective) where scheme row (p.7) prints '3 1 0'; ltp field carries the scheme print, detail print recorded here (evidence of print error).",
+    "Printed typos kept verbatim: 'Physical an chemical parameters', 'Rotating biological cont caters', 'pre - and primary reactants'.",
+    "Scheme row (p.7): '2 EFT 011-EFT 013 Departmental Elective -I 3 1 0 30 20 50 100 150 4' (combined row)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Rheological and Sensory Analysis of Foods",
+   "name_print": "EFT-013: RHEOLOGICAL AND SENSORY ANALYSIS OF FOODS",
+   "codes": [
+    "EFT013"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Unit-I Mechanical properties of foods. Mechanical models to visualise behaviour of foods. Basic and applied rheological considerations and their application to foods.",
+    "2": "Unit-II Food Microstructure and its study by light, Scanning and Transmission Electron microscopy. Implications of  micro-structure in determining mechanical and sensory characteristics of foods.",
+    "3": "Unit-III Requirement of test systems for measuring food texture. Types of texture Instrument and their operating mechanisms, Calibration, Performance of test and measurements of test parameters. Interpretation of test results.",
+    "4": "Unit-IV Textural properties of fruits & vegetables; Dough, Pasta and Baked products; dairy products; Meat; Fat and fat products; and their instrumental Measurements.",
+    "5": "Unit-V Rheology of chocolate, Textural characteristics of food emulsions, Functions of emulsifiers in relation to food texture, Sensory measurement of food texture and texture profile."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "J.M. de Man Rheology and Texture in Food quality"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Name conflict: p.7 elective-pool note prints 'EFT 013: Rheological & Sensory Assessment' where the detailed heading prints 'RHEOLOGICAL AND SENSORY ANALYSIS OF FOODS'.",
+    "Scheme row (p.7): '2 EFT 011-EFT 013 Departmental Elective -I 3 1 0 30 20 50 100 150 4' (combined row)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Product and Process Development",
+   "name_print": "EFT-021: FOOD PRODUCT AND PROCESS DEVELOPMENT",
+   "codes": [
+    "EFT021"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Unit-I Innovation and product development concept. Generation of ideas. Desk Research. Screening/ appraisal of initial ideas.",
+    "2": "Unit-II Detailed study of product, process and market, Planning and developmental activities and evaluating them.",
+    "3": "Unit-III Development of prototype product and its testing for acceptance.",
+    "4": "Unit-IV Development of process and planning for production trials. Planning the test market. Actual production trials  and test marketing. Evaluation of test results.",
+    "5": "Unit-V Launching of the product. Advertising and marketing plans. Suggestions for improving success."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Chicago: Arlington Food Product Development"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Name conflict: p.7 elective-pool note prints 'EFT 021: Food Products & Process Development' where the detailed heading prints 'FOOD PRODUCT AND PROCESS DEVELOPMENT'.",
+    "Single reference printed as 'Chicago: Arlington Food Product Development' (publisher/city-only line, verbatim).",
+    "Scheme row (p.7): '3 EFT 021-EFT 023 Departmental Elective -II 3 1 0 30 20 50 100 150 4' (combined row)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Food Packaging",
+   "name_print": "EFT- 022 : FOOD PACKAGING",
+   "codes": [
+    "EFT022"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Unit-I Basic Concepts: Concept of packaging, Functions of a Food Package, Package development factors and Food package development. Aseptic Packaging. Newer trends.",
+    "2": "Unit-II Cellulosic and Polymeric packaging materials and forms: Food grade polymeric packaging materials, Rigid plastic packages. Films: Oriented, Co-extruded, Laminates and Metallised; Cellophane, Olefins, Polyamides, Polyesters, PVC, PVDC, PVA, Inomers, Copolymers, Polycarbonates, Phenoxy, Acrylic and Polyurethane. Their mechanical sealing and barrier properties.",
+    "3": "Unit-III Glass and Metal containers: Glass: Composition, Properties, Bottle making and Closures for glass containers. Metal: Bulk containers, Tin-plate containers, Tin free steel containers, Aluminium containers, Latest development in metal cans and protective lacquers.",
+    "4": "Unit-IV Food product characteristics and package requirement, Selection of materials, Forms, Machinery and methods for fresh produce (Fruits, Vegetables, Egg, Meat and Fish), Edible oils and Fats, Spice and spice products, Processed products (Fruit & Vegetable, Cereal & Pulse, Dairy, Confectionary & Snacks, Meat & Marine products).",
+    "5": "Unit-V Package printing, Packaging Laws and Regulations, Evaluation of food packaging materials and package performance."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M. Mahadeviah and R.V. Gowramma Food Packaging Materials"
+    },
+    {
+     "no": 2,
+     "book": "S. Saclarow and R.C. Griffin Principles of Food Packaging"
+    },
+    {
+     "no": 3,
+     "book": "Trends in Food Science & Technology Proceedings of IFCON-1988"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed typos kept verbatim: 'Inomers' (for Ionomers), 'Confectionary', 'S. Saclarow'.",
+    "Scheme row (p.7): '3 EFT 021-EFT 023 Departmental Elective -II 3 1 0 30 20 50 100 150 4' (combined row)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Engineered, Texturised & Fabricated Foods",
+   "name_print": "EFT 023 : ENGINEERED, TEXTURISED & FABRICATED FOODS",
+   "codes": [
+    "EFT023"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Unit I Extruders. Single Screw & Multiple Screw Extruders. Extrusion process. Extrusion cooking. Physical & Chemical Changes during Extrusion Process.",
+    "2": "Unit II Textured vegetable protein products. Puffing Gun ,Puffed Products. Meat Analogues., Imitation Paneer",
+    "3": "Unit III Fabricated RTS Beverages, Bakery Products, Margarine, Peanut Butter, Imitation Milks Designer Lipids etc.",
+    "4": "Unit IV Weaning Foods/ Baby Foods. Therapeutic Foods . Geriatric Foods.",
+    "5": "Unit V Technology and manufacture of  Macaroni, Pasta, Noodles, Vermicilli etc."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "No Text Books / Reference Books printed for this subject.",
+    "p.7 pool note prints 'EFT 023:Engineered, Texturised &Fabricated Foods' (missing space after '&'); detail heading prints 'ENGINEERED, TEXTURISED & FABRICATED FOODS'.",
+    "Printed typos kept verbatim: 'Vermicilli', 'Imitation Paneer'.",
+    "Scheme row (p.7): '3 EFT 021-EFT 023 Departmental Elective -II 3 1 0 30 20 50 100 150 4' (combined row)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Traditional and Fermented Foods",
+   "name_print": "EFT- 801 :TRADITIONAL AND FERMENTED FOODS",
+   "codes": [
+    "EFT801"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I Indian traditional sweet, savory and snack food products: Sweetmeats, Namkins, Papads Idli and Dosa.",
+    "2": "Unit-II Preparation and Maintenance of Bacterial, Yeast and Mold cultures for food fermentations. Lactic acid bacteria-activities and health-promoting effects. Mushrooms: Cultivation and preservation.",
+    "3": "Unit-III Fermented Dairy Products: Cheeses, Curd and Yoghurt, Butter milk and the fermented milks. Spoilages and defects of fermented dairy products and their control. Fermented meat and fish products.",
+    "4": "Unit-IV Fermentative Production of Beer, Wines, Cider and Vinegar. Fermented Vegetables (Pickles).",
+    "5": "Unit-V Production of Baker's Yeast, Microbial Proteins and fats, Food enzymes, and Food additives. Oriental  fermented foods."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "K.H. Steinkrus Handbook of Indigenous Fermented Foods"
+    },
+    {
+     "no": 2,
+     "book": "Sukumar De Outlines of Dairy Technology"
+    },
+    {
+     "no": 3,
+     "book": "Prescott & Dunn Industrial Microbiology"
+    },
+    {
+     "no": 4,
+     "book": "L.E. Casida Industrial Microbiology"
+    },
+    {
+     "no": 5,
+     "book": "W.C. Frazier and D.C. Westhoff Food Microbiology"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Printed typos kept verbatim: 'K.H. Steinkrus' (for Steinkraus), 'savory'.",
+    "Scheme row (p.7): '4 EFT 801 Traditional & Fermented Foods 3 1 0 30 20 50 100 150 4'. Detail heading prints 'AND' where scheme prints '&'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Project",
+   "name_print": "EFT-851 PROJECT",
+   "codes": [
+    "EFT851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 12
+   },
+   "credit": 8,
+   "marks": {
+    "sessional_ct": "-",
+    "sessional_ta": 100,
+    "sessional_total": 100,
+    "ese_te_pe": 250,
+    "total": 350
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "description_print": "The student (s) will be required to prepare a detailed project report on fabrication of an equipment / establishment of a plant for processing of a food commodity for production of food product(s) with complete lay-out and economic analysis for assessment.",
+   "quirks": [
+    "Printed name 'PROJECT' same as EFT-753's detail heading 'PROJECT' but different code/semester/description — kept as separate subjects (EFT753 Sem VII 0-0-3; EFT851 Sem VIII 0-0-12).",
+    "Scheme row CT prints '-' with TA 100 / Total 100, ESE 250, Subject Total 350; dash transcribed verbatim.",
+    "Scheme row (p.7): '6 EFT 851 Project 0 0 12 - 100 100 250 350 8'.",
+    "sessional/prose row: the document prints a heading + prose description only; no unitwise detailed syllabus is printed anywhere in the document (recorded B17/B24 detailed_syllabus_prose class; zero-guess forbids inventing units) — patch-b26 verify remedy"
+   ],
+   "flags": [
+    "detailed_syllabus_not_printed"
+   ],
+   "notes": [
+    "Printed design: EFT-652 SEMINAR (p.29), EFT-753: PROJECT (p.34: 'The student(s) will be required to search literature pertaining to design of an equipment / processing of a food commodity / production of food product, comprehend it and prepare a report for assessment.'), EFT-754: INDUSTRIAL TRAINING (p.34 heading), EFT-851 PROJECT (p.39: 'prepare a detailed project report on fabrication of an equipment / establishment of a plant ... for assessment.') — prose only, no unitwise syllabus printed"
+   ]
+  },
+  {
+   "name": "Human Values & Professional Ethics",
+   "name_print": "*Human Values & Professional Ethics",
+   "codes": [
+    "EHU111"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 2,
+    "t": 2,
+    "p": 0
+   },
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "audit",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed anywhere in the document — appears only in the six scheme tables.",
+    "Credit cell printed blank in every scheme row (omitted here per printed-blank rule).",
+    "L-T-P variation across scheme rows: Sem III/IV/V/VII rows print '2 2 0' but Sem VI (p.5) and Sem VIII (p.7) rows print '2 0 0'; ltp field carries the '2 2 0' majority print.",
+    "Printed in scheme rows of Semesters III, IV, V, VI, VII, VIII (pp.2-7): '7 EHU 111 *Human Values & Professional Ethics 2 2 0 15 10 25 50 75' (Sem III p.2; Sem IV p.3; Sem V p.4; Sem VII p.6) and '7 EHU 111 *Human Values & Professional Ethics 2 0 0 15 10 25 50 75' (Sem VI p.5; Sem VIII p.7).",
+    "Governed by the audit-course rule on p.2 (see non_subject_rows audit_course_rule): compulsory Audit Course, passing 40% in theory & 50% aggregate, no carry-over."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Industrial Psychology/ Industrial Sociology",
+   "name_print": "Industrial Psychology/ Industrial Sociology",
+   "codes": [
+    "EHU301",
+    "EHU302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — scheme row only.",
+    "Scheme row (p.2): '3 EHU 301/ EHU302 Industrial Psychology/ Industrial Sociology 2 0 0 15 10 25 50 75 2' (both codes printed on the single row; verbatim spacing kept).",
+    "Companion row in Sem IV reverses the pair: 'EHU402/ EHU 401 Industrial Sociology/ Industrial Psychology' — kept as a separate subject row per print."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Industrial Sociology/ Industrial Psychology",
+   "name_print": "Industrial Sociology/ Industrial Psychology",
+   "codes": [
+    "EHU402",
+    "EHU401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — scheme row only.",
+    "Scheme row (p.3): '1 EHU402/ EHU 401 Industrial Sociology/ Industrial Psychology  2 0 0 15 10 25 50 75 2'.",
+    "Companion row in Sem III: 'EHU 301/ EHU302 Industrial Psychology/ Industrial Sociology' — kept as a separate subject row per print."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Mathematics III",
+   "name_print": "Science Based Open Elective** /  Mathematics III  [scheme row; EAS 401]",
+   "codes": [
+    "EAS401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus for EAS 401 NOT printed in this document (only EAS 301 Mathematics III of Sem III is detailed on pp.9-10) — emitted from the scheme row only; EAS301's units NOT copied over (zero-guessing).",
+    "Scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4' (combined row with the Science Based Open Elective pool).",
+    "Same subject name 'Mathematics III' as EAS301 (Sem III, detailed in this document) — separate scheme row/semester; kept as a separate draft subject pending code-identity adjudication."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "General Proficiency",
+   "name_print": "General Proficiency",
+   "codes": [
+    "GP301",
+    "GP401",
+    "GP501",
+    "GP601",
+    "GP701",
+    "GP801"
+   ],
+   "semester": null,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — scheme rows only, one per semester III-VIII (pp.2-7).",
+    "Every scheme row prints only a Subject Total of 50; CT/TA/ESE cells blank (marks dict carries printed values only).",
+    "Credit printed 1 in the GP 301 / GP 501 / GP 601 / GP 701 / GP 801 rows; the GP 401 row (p.3) prints the credit cell blank.",
+    "No L-T-P printed in any GP row (period cells blank).",
+    "Emitted as ONE subject (same printed name in all six semesters) carrying all six printed codes: GP 301 (p.2), GP 401 (p.3), GP 501 (p.4), GP 601 (p.5), GP 701 (p.6), GP 801 (p.7)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Group Discussion & Seminar",
+   "name_print": "Group Discussion & Seminar",
+   "codes": [
+    "EFT352",
+    "EFT452"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the detailed-syllabus section prints only two one-line entries: 'EFT 352    Group Discussion & Seminar                                            0   0   2' (p.14) and 'EFT 452  GROUP DISCUSSION &  SEMINAR                                     0   0   2' (p.18).",
+    "L-T-P conflict for EFT452: scheme row (p.3) prints '0 0 3' while the detail line (p.18) prints '0 0 2'; ltp field carries the detail print.",
+    "Scheme rows: '11 EFT 352 Group Discussion & Seminar 0 0 2 [blank] [blank] 50 [blank] 50 1' (p.2); '10 EFT 452 Group Discussion & Seminar 0 0 3 [blank] [blank] 50 [blank] 50' (p.3, credit blank).",
+    "Emitted as ONE subject (same printed name in Semesters III and IV) carrying both printed codes."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "semester": null,
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.2 Science Based Open Elective** pool note and in the Sem III/IV pool scheme rows.",
+    "p.2 elective-pool note (Science Based Open Elective**): 'EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics'",
+    "Sem III scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4'",
+    "Sem IV scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Introduction to Soft Computing",
+   "name_print": "Introduction to Soft Computing",
+   "codes": [
+    "EOE031",
+    "EOE041"
+   ]
+  },
+  {
+   "semester": null,
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.2 Science Based Open Elective** pool note and in the Sem III/IV pool scheme rows.",
+    "p.2 elective-pool note (Science Based Open Elective**): 'EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics'",
+    "Sem III scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4'",
+    "Sem IV scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Nano Sciences",
+   "name_print": "Nano Sciences",
+   "codes": [
+    "EOE032",
+    "EOE042"
+   ]
+  },
+  {
+   "semester": null,
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.2 Science Based Open Elective** pool note and in the Sem III/IV pool scheme rows.",
+    "p.2 elective-pool note (Science Based Open Elective**): 'EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics'",
+    "Sem III scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4'",
+    "Sem IV scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Laser Systems and Applications",
+   "name_print": "Laser Systems and Applications",
+   "codes": [
+    "EOE033",
+    "EOE043"
+   ]
+  },
+  {
+   "semester": null,
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.2 Science Based Open Elective** pool note and in the Sem III/IV pool scheme rows.",
+    "p.2 elective-pool note (Science Based Open Elective**): 'EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics'",
+    "Sem III scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4'",
+    "Sem IV scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Space Sciences",
+   "name_print": "Space Sciences",
+   "codes": [
+    "EOE034",
+    "EOE044"
+   ]
+  },
+  {
+   "semester": null,
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.2 Science Based Open Elective** pool note and in the Sem III/IV pool scheme rows.",
+    "p.2 elective-pool note (Science Based Open Elective**): 'EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics'",
+    "Sem III scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4'",
+    "Sem IV scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Polymer Science & Technology",
+   "name_print": "Polymer Science & Technology",
+   "codes": [
+    "EOE035",
+    "EOE045"
+   ]
+  },
+  {
+   "semester": null,
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.2 Science Based Open Elective** pool note and in the Sem III/IV pool scheme rows.",
+    "p.2 elective-pool note (Science Based Open Elective**): 'EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics'",
+    "Sem III scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4'",
+    "Sem IV scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Nuclear Science",
+   "name_print": "Nuclear Science",
+   "codes": [
+    "EOE036",
+    "EOE046"
+   ]
+  },
+  {
+   "semester": null,
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.2 Science Based Open Elective** pool note and in the Sem III/IV pool scheme rows.",
+    "p.2 elective-pool note (Science Based Open Elective**): 'EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics'",
+    "Sem III scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4'",
+    "Sem IV scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Material Science",
+   "name_print": "Material Science",
+   "codes": [
+    "EOE037",
+    "EOE047"
+   ]
+  },
+  {
+   "semester": null,
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.2 Science Based Open Elective** pool note and in the Sem III/IV pool scheme rows.",
+    "p.2 elective-pool note (Science Based Open Elective**): 'EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics'",
+    "Sem III scheme row (p.2): '2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4'",
+    "Sem IV scheme row (p.3): '2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Discrete Mathematics",
+   "name_print": "Discrete Mathematics",
+   "codes": [
+    "EOE038",
+    "EOE048"
+   ]
+  },
+  {
+   "name": "Entrepreneurship Development",
+   "name_print": "Entrepreneurship Development",
+   "codes": [
+    "EOE071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.6 Open Elective-I pool note and in the Sem VII pool scheme row.",
+    "p.6 scheme note: '@Open Elective- I  1. EOE 071- Entrepreneurship Development             2. EOE 072-Quality Management               3. EOE 073- Operations Research                4. EOE 074-Introduction to Biotechnology'",
+    "Sem VII scheme row (p.6): '1 EOE071-EOE 074 Open elective -I @ 3 1 0 30 20 50 100 150 4'",
+    "Detailed-syllabus section (p.29) prints only the pool heading 'EOE 071- EOE 074 :OPEN ELECTIVE  -I  L : T: P 3 : 1: 0' with no units — individual elective syllabi not printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Quality Management",
+   "name_print": "Quality Management",
+   "codes": [
+    "EOE072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.6 Open Elective-I pool note and in the Sem VII pool scheme row.",
+    "p.6 scheme note: '@Open Elective- I  1. EOE 071- Entrepreneurship Development             2. EOE 072-Quality Management               3. EOE 073- Operations Research                4. EOE 074-Introduction to Biotechnology'",
+    "Sem VII scheme row (p.6): '1 EOE071-EOE 074 Open elective -I @ 3 1 0 30 20 50 100 150 4'",
+    "Detailed-syllabus section (p.29) prints only the pool heading 'EOE 071- EOE 074 :OPEN ELECTIVE  -I  L : T: P 3 : 1: 0' with no units — individual elective syllabi not printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Operations Research",
+   "name_print": "Operations Research",
+   "codes": [
+    "EOE073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.6 Open Elective-I pool note and in the Sem VII pool scheme row.",
+    "p.6 scheme note: '@Open Elective- I  1. EOE 071- Entrepreneurship Development             2. EOE 072-Quality Management               3. EOE 073- Operations Research                4. EOE 074-Introduction to Biotechnology'",
+    "Sem VII scheme row (p.6): '1 EOE071-EOE 074 Open elective -I @ 3 1 0 30 20 50 100 150 4'",
+    "Detailed-syllabus section (p.29) prints only the pool heading 'EOE 071- EOE 074 :OPEN ELECTIVE  -I  L : T: P 3 : 1: 0' with no units — individual elective syllabi not printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Introduction to Biotechnology",
+   "name_print": "Introduction to Biotechnology",
+   "codes": [
+    "EOE074"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.6 Open Elective-I pool note and in the Sem VII pool scheme row.",
+    "p.6 scheme note: '@Open Elective- I  1. EOE 071- Entrepreneurship Development             2. EOE 072-Quality Management               3. EOE 073- Operations Research                4. EOE 074-Introduction to Biotechnology'",
+    "Sem VII scheme row (p.6): '1 EOE071-EOE 074 Open elective -I @ 3 1 0 30 20 50 100 150 4'",
+    "Detailed-syllabus section (p.29) prints only the pool heading 'EOE 071- EOE 074 :OPEN ELECTIVE  -I  L : T: P 3 : 1: 0' with no units — individual elective syllabi not printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Non Conventional energy Resources",
+   "name_print": "Non Conventional energy Resources",
+   "codes": [
+    "EOE081"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.7 Open Elective-II pool note and in the Sem VIII pool scheme row.",
+    "p.7 scheme note: '@Open Elective – II    EOE 081: Non Conventional energy Resources      EOE 082: Non linear Dynamic Systems / EOE 083: Product Development / EOE 084 Automation and Robotics'",
+    "Sem VIII scheme row (p.7): '1 EOE 081- EOE 084 Open elective -II @ 3 1 0 30 20 50 100 150 4'",
+    "Detailed-syllabus section (p.34) prints only the pool heading 'EOE 081- EOE 084: OPEN ELECTIVE – II  L : T: P 3 : 1: 0' with no units — individual elective syllabi not printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Non linear Dynamic Systems",
+   "name_print": "Non linear Dynamic Systems",
+   "codes": [
+    "EOE082"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.7 Open Elective-II pool note and in the Sem VIII pool scheme row.",
+    "p.7 scheme note: '@Open Elective – II    EOE 081: Non Conventional energy Resources      EOE 082: Non linear Dynamic Systems / EOE 083: Product Development / EOE 084 Automation and Robotics'",
+    "Sem VIII scheme row (p.7): '1 EOE 081- EOE 084 Open elective -II @ 3 1 0 30 20 50 100 150 4'",
+    "Detailed-syllabus section (p.34) prints only the pool heading 'EOE 081- EOE 084: OPEN ELECTIVE – II  L : T: P 3 : 1: 0' with no units — individual elective syllabi not printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Product Development",
+   "name_print": "Product Development",
+   "codes": [
+    "EOE083"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.7 Open Elective-II pool note and in the Sem VIII pool scheme row.",
+    "p.7 scheme note: '@Open Elective – II    EOE 081: Non Conventional energy Resources      EOE 082: Non linear Dynamic Systems / EOE 083: Product Development / EOE 084 Automation and Robotics'",
+    "Sem VIII scheme row (p.7): '1 EOE 081- EOE 084 Open elective -II @ 3 1 0 30 20 50 100 150 4'",
+    "Detailed-syllabus section (p.34) prints only the pool heading 'EOE 081- EOE 084: OPEN ELECTIVE – II  L : T: P 3 : 1: 0' with no units — individual elective syllabi not printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Automation and Robotics",
+   "name_print": "Automation and Robotics",
+   "codes": [
+    "EOE084"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus NOT printed — the subject appears only as code+name in the p.7 Open Elective-II pool note and in the Sem VIII pool scheme row.",
+    "p.7 scheme note: '@Open Elective – II    EOE 081: Non Conventional energy Resources      EOE 082: Non linear Dynamic Systems / EOE 083: Product Development / EOE 084 Automation and Robotics'",
+    "Sem VIII scheme row (p.7): '1 EOE 081- EOE 084 Open elective -II @ 3 1 0 30 20 50 100 150 4'",
+    "Detailed-syllabus section (p.34) prints only the pool heading 'EOE 081- EOE 084: OPEN ELECTIVE – II  L : T: P 3 : 1: 0' with no units — individual elective syllabi not printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "title_page",
+   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW / Syllabus / Syllabus of B.TECH. FOOD TECHNOLOGY 2nd, 3rd and 4th Year [Effective form Session 2009-10]",
+   "locator": "p.1",
+   "note": "Title typo '[Effective form Session 2009-10]' kept verbatim ('form' for 'from'). Establishes course print 'B.TECH. FOOD TECHNOLOGY 2nd, 3rd and 4th Year'."
+  },
+  {
+   "kind": "scheme_header_note",
+   "print": "Study & Evaluation scheme headers print '[Effective from the session 2009-10]' (p.2 Sem III, p.3 Sem IV), '[Effective from the session 2010-11]' (p.4 Sem V, p.5 Sem VI) and '[Effective from the session 2011-12]' (p.6 Sem VII, p.7 Sem VIII); every header also prints 'B.Tech (Chemical Technology) [FOOD TECHNOLOGY]'",
+   "locator": "pp.2-7",
+   "note": "Scheme effective-session advances year-wise although the document cover says effective 2009-10 for the whole syllabus."
+  },
+  {
+   "kind": "audit_course_rule",
+   "print": "*Human Values & Professional Ethics will be offered as compulsory Audit Course for which passing marks are 40% in theory & 50% in aggregate. Student will be required to audit it within the period of their study. There will not be carry over facility for this course and a failed student will be required to repeat this course",
+   "locator": "p.2 (scheme page note)"
+  },
+  {
+   "kind": "elective_pool_note",
+   "print": "**Science Based Open Elective / EOE031/EOE041: Introduction to Soft Computing,          EOE035/EOE045: Polymer Science & Technology / EOE032/EOE042: Nano Sciences                                      EOE036/EOE046: Nuclear Science / EOE033/EOE043: Laser Systems and Applications          EOE037/EOE047: Material Science / EOE034/EOE044: Space Sciences                                     EOE038/EOE048: Discrete Mathematics",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_note",
+   "print": "**    See the note on previous page",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 16 5 12 [marks/credit cells blank] 1000 26",
+   "locator": "p.2 (Sem III total row: L=16 T=5 P=12, Subject Total=1000, Credit=26)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 16 05 09 [marks/credit cells blank] 1000",
+   "locator": "p.3 (Sem IV total row: L=16 T=05 P=09, Subject Total=1000; credit-total cell printed blank)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 16 5 9 [marks/credit cells blank] 1000 26",
+   "locator": "p.4 (Sem V total row)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 16 5 11 [marks/credit cells blank] 1000 26",
+   "locator": "p.5 (Sem VI total row)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 15 5 11 [marks/credit cells blank] 1000 26",
+   "locator": "p.6 (Sem VII total row)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL [L/T/P cells printed blank] 1000 25",
+   "locator": "p.7 (Sem VIII total row: period totals not printed)"
+  },
+  {
+   "kind": "scheme_note",
+   "print": "Note-**Practical Training (4-6weeks) done after 6th Semesters would be evaluated in 7th semester through Report and viva voce etc.",
+   "locator": "p.6"
+  },
+  {
+   "kind": "elective_pool_note",
+   "print": "@Open Elective- I / 1. EOE 071- Entrepreneurship Development             2. EOE 072-Quality Management               3. EOE 073- Operations Research                4. EOE 074-Introduction to Biotechnology",
+   "locator": "p.6"
+  },
+  {
+   "kind": "elective_pool_note",
+   "print": "@Open Elective – II    EOE 081: Non Conventional energy Resources      EOE 082: Non linear Dynamic Systems / EOE 083: Product Development / EOE 084 Automation and Robotics",
+   "locator": "p.7"
+  },
+  {
+   "kind": "elective_pool_note",
+   "print": "Departmental elective- I / EFT 011: Specialty Foods / EFT 012 :Food Processing Waste Management / EFT 013: Rheological & Sensory Assessment",
+   "locator": "p.7"
+  },
+  {
+   "kind": "elective_pool_note",
+   "print": "Departmental Elective- II / EFT 021: Food Products & Process Development / EFT 022 :Food Packaging / EFT 023:Engineered, Texturised &Fabricated Foods",
+   "locator": "p.7"
+  },
+  {
+   "kind": "elective_pool_scheme_row",
+   "print": "1 EOE071-EOE 074 Open elective -I @ 3 1 0 30 20 50 100 150 4",
+   "locator": "p.6 Sem VII scheme row 1"
+  },
+  {
+   "kind": "elective_pool_scheme_row",
+   "print": "1 EOE 081- EOE 084 Open elective -II @ 3 1 0 30 20 50 100 150 4",
+   "locator": "p.7 Sem VIII scheme row 1"
+  },
+  {
+   "kind": "elective_pool_scheme_row",
+   "print": "2 EFT 011-EFT 013 Departmental Elective -I 3 1 0 30 20 50 100 150 4",
+   "locator": "p.7 Sem VIII scheme row 2"
+  },
+  {
+   "kind": "elective_pool_scheme_row",
+   "print": "3 EFT 021-EFT 023 Departmental Elective -II 3 1 0 30 20 50 100 150 4",
+   "locator": "p.7 Sem VIII scheme row 3"
+  },
+  {
+   "kind": "elective_pool_heading",
+   "print": "EOE 071- EOE 074 :OPEN ELECTIVE  -I  L : T: P 3 : 1: 0",
+   "locator": "p.29 (detailed-syllabus section; heading only, no units)"
+  },
+  {
+   "kind": "elective_pool_heading",
+   "print": "EOE 081- EOE 084: OPEN ELECTIVE – II  L : T: P 3 : 1: 0",
+   "locator": "p.34 (detailed-syllabus section; heading only, no units)"
+  },
+  {
+   "kind": "section_heading",
+   "print": "(DEPARTMENTAL ELECTIVE – I)",
+   "locator": "p.34"
+  },
+  {
+   "kind": "section_heading",
+   "print": "(DEPARTMENTAL ELECTIVE –I I )",
+   "locator": "p.37",
+   "note": "typo '–I I' kept verbatim"
+  },
+  {
+   "kind": "scheme_row_shared",
+   "print": "2 EAS 301/ EOE 031-EOE 038 Mathematics III/ Science Based Open Elective** 3 1 0 30 20 50 100 150 4",
+   "locator": "p.2 Sem III scheme row 2",
+   "note": "Combined row: Mathematics III (EAS301, detailed pp.9-10) alternates with the Science Based Open Elective pool EOE031-038."
+  },
+  {
+   "kind": "scheme_row_shared",
+   "print": "2 EOE041-EOE048/ EAS 401 Science Based Open Elective** /  Mathematics III 3 1 0 30 20 50 100 150 4",
+   "locator": "p.3 Sem IV scheme row 2",
+   "note": "Combined row: Science Based Open Elective pool EOE041-048 alternates with Mathematics III (EAS401, syllabus not printed)."
+  }
+ ],
+ "quirks": [
+  "Document-wide: detailed-syllabus section prints no course outcomes, no objectives, no eligibility, no prerequisites for any subject (CO/objective keys omitted everywhere; zero guessing).",
+  "Course meta: cover prints 'B.TECH. FOOD TECHNOLOGY 2nd, 3rd and 4th Year [Effective form Session 2009-10]' (typo 'form'); scheme pages print 'B.Tech (Chemical Technology) [FOOD TECHNOLOGY]'. Printed course codes (EFT-majority with ECH/EAS/ECY/EHU/EME/EOE/GP support codes) are consistent with FOOD TECHNOLOGY as printed specialization of Chemical Technology — no COURSE-META-FROM-CODES contradiction found.",
+  "Scheme effective-session advances year-wise: 'Effective from the session 2009-10' (Sem III-IV pages), '2010-11' (Sem V-VI pages), '2011-12' (Sem VII-VIII pages), although the cover declares the whole syllabus effective from 2009-10.",
+  "EAS 301 Unit-I: integrand formulas are printed as images and absent from the text layer (blank slots after 'Evaluation of real integrals of the type') — print-quirk evidence per RULES §6.",
+  "EHU-501 Unit-IV ends 'Contribution of Max Weber, Taylor and Fay' — visible print ends at 'Fay' (apparently truncated; verbatim).",
+  "L-T-P conflicts between scheme rows and detailed headings: EME509 (scheme 2-0-0 vs detail 2:1:0), EFT-652 (scheme 0-0-2 vs detail 0:0:3), EFT 452 (scheme 0-0-3 vs detail 0-0-2), EFT-012 (scheme 3-1-0 vs detail 0:0:3). ltp fields carry scheme prints except EME509/EFT452 where noted; conflicts recorded verbatim in each subject's quirks.",
+  "ECH 307 carries a 9-item experiment list printed directly after Unit V with no lab heading (pp.12-13), overlapping the separate ECH-357 lab list (p.14); attached to ECH307 as printed.",
+  "Credit cells printed blank (keys omitted per printed-blank rule) for: EHU111 (all semesters), EFT451, ECH452, EFT452, GP401, and the Sem IV TOTAL row.",
+  "Four subjects print only 4 units (Unit-V absent): EFT-401, EFT-402, EME509, ECH-507; also ECH-607 and ECH 608 print only Units I-IV.",
+  "EFT-502 prints Unit-II with lecture range 'L (19-27) T (7-9)' and Unit-III with 'L (10-18) T (4-6)' (ranges swapped); EFT-702 Unit-II jumps to 'L (19-27)' skipping 10-18; EFT-602 Unit-III prints 'L (19-25)' and Unit-IV 'L (26-36)'.",
+  "Numerous printed typos preserved verbatim and listed per subject (e.g. 'PROCESS CALCUALTIONS', 'Test Books :-', 'Kramner', 'Stoichiomerty', 'fumctions', 'Coughanoowr', 'Staphno polies', 'Prentic', 'Stryen', 'Kjeldhal Lowry', 'Specrophotometric', 'cruoled', 'crusting', 'hinderel setting', 'Tripple', 'Scienctific', 'Athortone', 'Steinkrus', 'policing of rice', 'Vermicilli', 'Inomers', 'Musculoskele tal', 'cont caters', 'coeeficients', 'Macabe', 'Knud sen', 'ilke P.', 'Benzamin', 'Thialagawathy', 'Gumawathy').",
+  "ECH 609 'Text Books' list continues with re-numbered items 1-2 (Foust; Geankoplis) with no 'Reference Books' heading printed; transcribed as reference_books.",
+  "p.6 scheme row 9 prints 'EFT 752 / I / Food Preservation & Processing Lab- I' (stray 'I' line-break); detailed heading (p.33) prints 'FOOD PRESERVATION AND PROCESSING LAB-II' — name taken from the detailed print.",
+  "EFT 851 (Sem VIII, 0-0-12, total 350) and EFT 753 (Sem VII, 0-0-3, total 50) both print as 'Project'/'PROJECT' — kept as two separate subjects (different codes, semesters, credits, descriptions).",
+  "Name conflicts scheme-vs-detail recorded per subject: EFT401 'Basic Food Microbiology' vs 'BASIC AND FOOD MICROBIOLOGY'; EFT451 similarly; ECH402 'Heat Transfer' vs 'HEAT TRANSFER OPERATIONS'; ECH452 'Heat Transfer lab' vs 'HEAT TRANSFER OPERATIONS LAB'; EAS551 'Computer Based Numerical Methods Lab' vs 'COMPUTER BASED NUMERICAL TECHNIQUES LAB'; ECH608 'Modeling' vs 'MODELLING'; EFT011 'Specialty' vs 'SPECIALITY'; EFT013 'Rheological & Sensory Assessment' vs 'RHEOLOGICAL AND SENSORY ANALYSIS OF FOODS'; EFT021 'Food Products & Process Development' vs 'FOOD PRODUCT AND PROCESS DEVELOPMENT'; EFT754 'Industrial Training Viva Voce**' vs 'INDUSTRIAL TRAINING'.",
+  "No MOOC rules printed anywhere in the document."
+ ],
+ "flags": []
+}

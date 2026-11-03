@@ -1125,10 +1125,12 @@
    "quirks": [
     "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
     "'KOE031-38' is a pool range printed with a hyphen ('KOE031-/38' wrapped across lines in the cell).",
-    "Only one L-T-P set (3-1-0) is printed for this combined row (unlike the TC/UHV rows which print stacked sets)."
+    "Only one L-T-P set (3-1-0) is printed for this combined row (unlike the TC/UHV rows which print stacked sets).",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: maths-iv (BAS303) + engineering-science pool (KOE031-38); AICTE-model either/or slot — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "notes": [
     "Verbatim scheme row (SEMESTER-III, p2, Sl. No. 1): 'KOE031-38/KAS302 | Engineering Science Course/Maths IV | L3 T1 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 4'.",
@@ -1164,10 +1166,12 @@
     "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
     "Combined row prints STACKED L-T-P sets, one per alternative code (verified from word x-coordinates in the text layer): KAS301 Technical Communication = 2-1-0 and KVE 301 Universal Human values = 3-0-0; the ltp field records the first-listed (KAS301) set. CT/TA/Total/TE/End-Sem/Credit printed once for the combined row.",
     "Code prints as 'KVE 301' with a space (normalized to KVE301).",
-    "Scheme name prints 'Universal Human values' with lowercase 'v' in 'values' (verbatim)."
+    "Scheme name prints 'Universal Human values' with lowercase 'v' in 'values' (verbatim).",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: technical-communication (KAS301-era) + universal-human-values rows; either/or slot — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "notes": [
     "Verbatim scheme row (SEMESTER-III, p2, Sl. No. 2): 'KAS301/KVE 301 | Technical Communication/Universal Human values | L2 T1 P0 (KAS301) / L3 T0 P0 (KVE 301) | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 3'."
@@ -1235,10 +1239,12 @@
    "quirks": [
     "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
     "Credit column prints 0 (non-credit audit row); End Semester Total cell is blank — the 'total' key is omitted as printed-blank.",
-    "Only one L-T-P set (2-0-0) is printed for this combined row."
+    "Only one L-T-P set (2-0-0) is printed for this combined row.",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: computer-system-security (KNC301) + python-programming (KNC302) rows; either/or slot — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "notes": [
     "Verbatim scheme row (SEMESTER-III, p2, Sl. No. 10): 'KNC301/KNC302 | Computer System Security/Python Programming | L2 T0 P0 | CT15 TA10 Total25 | PS - | TE50 | PE - | End Semester Total (blank) | Credit 0'."
@@ -1293,10 +1299,12 @@
    "quirks": [
     "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
     "'KOE041-48' is a pool range printed with a hyphen ('KOE041-/48' wrapped across lines in the cell).",
-    "Only one L-T-P set (3-1-0) is printed for this combined row."
+    "Only one L-T-P set (3-1-0) is printed for this combined row.",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: maths-iv + engineering-science pool (KOE041-48); either/or slot — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "notes": [
     "Verbatim scheme row (SEMESTER-IV, p3, Sl. No. 1): 'KAS402/KOE041-48 | Maths IV/Engineering Science Course | L3 T1 P0 | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 4'."
@@ -1330,10 +1338,12 @@
    "quirks": [
     "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
     "Combined row prints STACKED L-T-P sets, one per alternative code (verified from word x-coordinates in the text layer): KVE401 Universal Human Values = 3-0-0 and KAS401 Technical Communication = 2-1-0; the ltp field records the first-listed (KVE401) set. CT/TA/Total/TE/End-Sem/Credit printed once for the combined row.",
-    "Scheme name cell prints 'Universal Human Values/ Technical Communication' with a space after the slash (verbatim)."
+    "Scheme name cell prints 'Universal Human Values/ Technical Communication' with a space after the slash (verbatim).",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: universal-human-values + technical-communication rows; either/or slot — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "notes": [
     "Verbatim scheme row (SEMESTER-IV, p3, Sl. No. 2): 'KVE401/KAS401 | Universal Human Values/ Technical Communication | L3 T0 P0 (KVE401) / L2 T1 P0 (KAS401) | CT30 TA20 Total50 | PS - | TE100 | PE - | End Semester Total 150 | Credit 3'."
@@ -1366,10 +1376,12 @@
    "quirks": [
     "Scheme-only row: detailed syllabus for this subject is NOT printed anywhere in this document.",
     "Credit column prints 0 (non-credit audit row); End Semester Total cell is blank — the 'total' key is omitted as printed-blank.",
-    "Only one L-T-P set (2-0-0) is printed for this combined row."
+    "Only one L-T-P set (2-0-0) is printed for this combined row.",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: python-programming (KNC402) + computer-system-security (KNC401) rows; either/or slot — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "notes": [
     "Verbatim scheme row (SEMESTER-IV, p3, Sl. No. 9): 'KNC402/KNC401 | Python Programming/ Computer System Security | L2 T0 P0 | CT15 TA10 Total25 | PS - | TE50 | PE - | End Semester Total (blank) | Credit 0'."

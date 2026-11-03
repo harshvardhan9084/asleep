@@ -737,10 +737,12 @@
    "quirks": [
     "Scheme row prints two alternative codes 'KHU701/ KHU702' for HSMC-1#/HSMC-2# (annexure reference '[Annexure-B(iii)]' with '#' markers) — as printed.",
     "Detailed syllabus for the HSMC courses is NOT printed in this document (Annexure-B(iii) not included); no units/COs/books printed.",
-    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print."
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: rural-development-administration-and-planning (KHU701) + project-management-entrepreneurship (KHU702); both own rows (B17 class) — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ]
   },
   {
@@ -904,10 +906,12 @@
    "quirks": [
     "Scheme row prints two alternative codes 'KHU801/ KHU802'; name prints 'HSMC‐2#/HSMC‐1#' with U+2010 hyphens and HSMC-2 listed before HSMC-1 (order swapped vs the Sem-VII row) — as printed.",
     "Detailed syllabus for the HSMC courses is NOT printed in this document (Annexure‐B(iii) not included).",
-    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print."
+    "'End Semester' in the scheme table is a spanning header over the separate TE and PE columns; ese_te_pe set from the printed TE (theory) or PE (practical) cell; see marks_print.",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: project-management-entrepreneurship (KHU802) + rural-development-administration-and-planning (KHU801); both own rows (B17 class) — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ]
   },
   {

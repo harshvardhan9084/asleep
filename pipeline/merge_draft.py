@@ -2008,6 +2008,71 @@ REPAIRS = {
     },
 }
 
+# B26 (CRON-20261103-B26) per-key TIER2_OVERRIDES (evidence-recorded;
+# probe: scripts/pipeline_v2/probe_b26_flags.py — token overlap + best per-unit
+# Jaccard vs candidate rows, recorded per key).
+TIER2_OVERRIDES.update({
+    # ---- Tier-2 fuzzy flags: name-variant ALLOWs (same subject) ----
+    "01_btech_env_y4_syllabus_2016-17::04::building-materials-and-construction": {
+        "action": "ALLOW",
+        "reason": "Ampersand/'and' print variant (recorded B25 REV081 class): draft 'Building Materials and Construction' (NEN033, 2016-17 ENV y4 elective, detailed units) = the row building-materials-construction ('BUILDING MATERIALS & CONSTRUCTION', ECE302;RCE301;NCE302, 2009-10 Civil) — fuzzy 94/overlap 41 (stones/bricks/cement/timber canon vocabulary); best per-unit Jaccard 0.31 (2009-10 terse Civil print vs the ENV unitwise print — shared distinctive-material tokens carry the identity). Same named course; NEN033 joins as era code; 2016-17 newer than 2009-10 → fieldwise-wins."},
+    "01_btech_env_y4_syllabus_2016-17::11::construction-technology-and-management": {
+        "action": "ALLOW",
+        "reason": "Same evidence as the recorded B25 10::12 ALLOW (REV081, J=0.80): draft 'Construction Technology and Management' (NEN053, 2016-17 ENV, detailed units) = the row construction-technology-management — fuzzy 94/overlap 106, best per-unit Jaccard 0.95 (near-verbatim 'Elements of Management: Project cycle, Organisation, planning, scheduling...' canon). NEN053 joins as era code."},
+    "02_btech_env_y4_syllabus_2021-22::00::construction-technology-and-management": {
+        "action": "ALLOW",
+        "reason": "Same evidence as 01::11: draft 'Construction Technology and Management' (KNE071, 2021-22 ENV y4 DE, detailed units) = construction-technology-management — fuzzy 94/overlap 105, Jaccard 0.95. 2021-22 is the row's newest print → fieldwise-wins; KNE071 joins as era code."},
+    "07_btech_ft_syllabus_2016-17::05::industrial-safety-hazard-management": {
+        "action": "ALLOW",
+        "reason": "Ampersand/'and' print variant, near-verbatim content: draft 'Industrial Safety & Hazard Management' (NCH018, 2016-17 FT elective, detailed units) = the row industrial-safety-and-hazard-management ('INDUSTRIAL SAFETY AND HAZARD MANAGEMENT', ECH044, 2009-10 Chem) — fuzzy 95/overlap 86, best per-unit Jaccard 0.97 ('Industrial safety, Industrial hygiene and safety aspects related to toxicity, noise...' canon). NCH018 joins as era code; 2016-17 newer → fieldwise-wins."},
+    "09_btech_ft_y2_model-curriculum_2019-20::05::fluid-flow-solid-handling-lab": {
+        "action": "ALLOW",
+        "reason": "Name-exact lab, multi-branch convergence row (recorded B24 control-systems-lab class): draft 'FLUID FLOW & SOLID HANDLING LAB' (KFT353, 2019-20 FT AICTE-model, 10 printed experiments) = the row fluid-flow-and-solid-handling-lab (NBT-351, 2014-15 Biotech print) — fuzzy 94, ampersand variant; experiment lists are complementary same-course prints (FT: Bernoulli flow pattern, laminar/turbulent, discharge coefficients, viscosity of Newtonian/non-Newtonian fluids, screen analysis, Jaw Crusher/Ball mill, filtration... vs the 2014-15 Biotech Venturi/Orifice/Notches/Rotameter list), NOT different subjects (both are the chemical-technology-family fluid-flow+solid-handling lab). 2019-20 newest → fieldwise-wins (experiments_structured); KFT353 joins as era code."},
+    "09_btech_ft_y2_model-curriculum_2019-20::06::heat-mass-transfer": {
+        "action": "ALLOW",
+        "reason": "Name-exact ampersand variant onto the multi-branch HMT canon row (row already spans KME501 Mechanical / NBT-402 Biotech / ECH-606+RCH406 Chem / EAG-404 AG eras): draft 'HEAT & MASS TRANSFER' (KFT401, 2019-20 FT AICTE-model, detailed units) — fuzzy 90/overlap 49; per-unit Jaccard 0.18 reflects the AICTE numbered-item print style ('1 Conduction and Convection: Introduction, Conduction: Basic concepts... [Lecture Hours: 2], Fourier law of heat conduction...') vs the row's prose style, not a different subject (same conduction/convection/radiation Fourier-law canon). KFT401 joins as era code; 2019-20 vs row 2020-21 → backfill-empty only."},
+    # ---- Tier-2 fuzzy flags: wrong-subject FORCE_APPENDs (RULES §11) ----
+    "05_btech_ft_syllabus-rev_2009-10::28::mass-transfer-operations": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject Tier-2 hit (recorded B25 heat-transfer-and-operation REV077 class): draft 'Mass Transfer Operations' (ECH609, 2009-10 FT-Chemical-Technology core, detailed units u1 'Basic Principles of mass transfer: Molecular diffusion in fluids, mass transfer coefficients...') fuzzy 88 hits heat-transfer-operations — one-token-off name (mass vs heat), overlap 14 generic chem-eng terms, best per-unit Jaccard 0.11: DIFFERENT subject. No BTech mass-transfer-operations row exists pre-commit → APPEND as its own row with a cross-reference note to heat-transfer-operations; the 2015-16 (NCH-608) and 2018-19 (RCH604) prints converge onto it via same-commit visibility (recorded B09/B10 class)."},
+    "06_btech_ft_syllabus_2015-16::15::mass-transfer-operations": {
+        "action": "FORCE_APPEND",
+        "reason": "Same evidence as 05::28: draft 'Mass Transfer Operations' (NCH-608, 2015-16 FT, detailed units identical u1 print) — wrong-subject hit on heat-transfer-operations (J=0.12); converges onto the 05::28-appended row by Tier-1 name identity at commit."},
+    "08_btech_ft_syllabus_2018-19::16::mass-transfer-operations": {
+        "action": "FORCE_APPEND",
+        "reason": "Same evidence as 05::28: draft 'MASS TRANSFER OPERATIONS' (RCH-604/RCH604, 2018-19 FT, detailed units) — wrong-subject hit on heat-transfer-operations (J=0.12); converges onto the 05::28-appended row at commit."},
+    "05_btech_ft_syllabus-rev_2009-10::43::food-product-and-process-development": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject Tier-2 hit (RULES §11 never-merge-different-subjects): draft 'Food Product and Process Development' (EFT021, 2009-10 FT elective, detailed units u1 'Innovation and product development concept. Generation of ideas. Desk Research. Screening...') fuzzy 85 hits developments-of-process-products (KAG-054, 2020-21 AG) — overlap 4 generic terms, best per-unit Jaccard 0.14: the AG 'Developments of Process Products' row is a different course. APPEND as its own FT row with a cross-reference note; the 2016-17 (NFT031) print converges onto it via same-commit visibility."},
+    "07_btech_ft_syllabus_2016-17::23::food-product-and-process-development": {
+        "action": "FORCE_APPEND",
+        "reason": "Same evidence as 05::43: draft 'Food Product and Process Development' (NFT031, 2016-17 FT elective, detailed units identical u1 print) — wrong-subject hit on developments-of-process-products (J=0.12); converges onto the 05::43-appended row at commit."},
+    "07_btech_ft_syllabus_2016-17::04::bioprocess-engineering-principles": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject Tier-2 hit (RULES §11): draft 'Bioprocess Engineering Principles' (NCH017, 2016-17 FT elective, detailed units u1 'Introduction, engineering calculations, presentation and analysis of data, material balance...') fuzzy 86 hits bioprocess-engineering-ii (EBT-042;KBT601;BBT601, Biotech) — overlap 31 generic eng terms, best per-unit Jaccard 0.16: the FT print is the Shuler-Kargi-titled INTRO course (material/energy balances), BE-II is a specific later Biotech course — different subjects. APPEND as its own row with a cross-reference note to bioprocess-engineering-ii."},
+    # ---- TIE adjudications (RETARGET / FORCE_APPEND / KEEP_PUBLISHED_CODE_OWNER) ----
+    "01_btech_env_y4_syllabus_2016-17::08::environmental-impact-assessment-and-audit": {
+        "action": "RETARGET", "target": "environmental-impact-assessment-audit-laws",
+        "reason": "TIE fuzzy resolution on verbatim unit identity (recorded B23 verbatim-identity join class): draft 'Environmental Impact Assessment and Audit' (NEN801, 2016-17 ENV core, detailed units) — candidate environmental-impact-assessment-audit-laws (KNE603, 2020-21) best per-unit Jaccard 1.00 (VERBATIM same u1 'Introduction to EIA & Audit, Environment & Industries, Input information, Plant operation...' canon; fuzzy 89) vs environmental-impact-assessment (BCH064, J=0.91, B25's EEV-603/REV602 ALLOW row). The 2016-17 print is the same course as the 2020-21 KNE603 print; NEN801 joins as the earliest era code; 2016-17 older → backfill-empty only. (The two-row EIA duplication — BCH064 row vs KNE603 row — predates this batch; recorded as an owner reconciliation open item, RULES §11 forbids silent row merges.)"},
+    "04_btech_ft_s7-8_syllabus_2025-26::06::mini-project-of-internship-assessment": {
+        "action": "RETARGET", "target": "mini-project-or-internship-assessment",
+        "reason": "TIE fuzzy resolution on the recorded B24 slot-row ownership model (BCH752 2025-26 CHE print of the same assessment slot went to this row): draft 'Mini Project of Internship Assessment' (BFT752, 2025-26 FT, CO table + objectives, no unitwise theory) — fuzzy 97/mini-project-or-internship-assessment (cross-branch assessment-slot row whose all_codes already carry the 2025-26 sister-branch prints BBT752/BCS752/BCH752) vs 96/internship-assessment-mini-project (the CSE-family BCC351-primary row, recorded B12 distinct row). BFT752 is the FT print of the same slot; newest session → fieldwise-wins."},
+    "05_btech_ft_syllabus-rev_2009-10::19::instrumentation-and-process-control": {
+        "action": "FORCE_APPEND",
+        "reason": "TIE fuzzy resolution — wrong-subject vs BOTH candidates (RULES §11 + B25 NEN-302 evidence class): draft 'Instrumentation and Process Control' (ECH507, 2009-10 FT-Chemical-Technology core, detailed units u1 'Elements of measurement, fumctions and general classifications of measuring instruments...' [print typo kept]) — candidates instrumentation-process-control (NEE-403, Electrical, J=0.25) and electrical-instrumentation-and-process-control (EEE-504, J=0.26): NO unit identity with either EE-branch course; the ECH507 print is the Chemical-Technology instrumentation course, a different subject sharing the generic title family. APPEND as its own row with cross-reference notes to both EE rows; the 2015-16 NCH-507 print converges onto it via same-commit visibility."},
+    "06_btech_ft_syllabus_2015-16::05::instrumentation-and-process-control": {
+        "action": "FORCE_APPEND",
+        "reason": "Same evidence as 05::19: draft 'Instrumentation and Process Control' (NCH-507, 2015-16 FT, detailed units identical u1 print) — converges onto the 05::19-appended row by Tier-1 name identity at commit."},
+    "05_btech_ft_syllabus-rev_2009-10::52::general-proficiency": {
+        "action": "RETARGET", "target": "general-proficiency",
+        "reason": "TIE code-identity resolution (recorded B25 GP class, same resolution): draft 'General Proficiency' (GP-301..GP-801, 2009-10 FT scheme rows, one GP slot per semester) — RETARGET pins the update to the name-exact general-proficiency row (its codes GP401-801 are re-corroborated; 2009-10 older → backfill/source-history only) while GP-301 stays with its published newer-print owner general-proficiency-lab."},
+    "05_btech_ft_syllabus-rev_2009-10::55::nano-sciences": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "nano-sciences",
+        "keep_published_codes": {"EOE042": "power-station-practice"},
+        "reason": "TIE code-identity resolution (recorded B21 equal-session class + the row's own recorded CODE-COLLISION-EOE-042 note): draft 'Nano Sciences' (EOE-032/EOE-042, 2009-10 FT science-based-OE pool print — the pool lists each elective with its sem-3/sem-4 pair codes) — RETARGET pins the update to the name-exact nano-sciences row (EOE-032 owner, same 2009-10 session, EE-print established); EOE-042 STAYS with its published owner power-station-practice (equal-or-older print never takes a code from its published owner, RULES §3; the collision is already narrated on that row) and the EOE-042 pairing stays recorded in the draft quirks/non_subject_rows."},
+})
+
 # B24 (CRON-20261101-B24) per-key TIER2_OVERRIDES (evidence-recorded;
 # the decision for every flagged subject and every ladder-corrected
 # routing of this batch).

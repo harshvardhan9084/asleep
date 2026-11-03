@@ -68,9 +68,12 @@
     "Scheme row only — detailed syllabus NOT printed in this PDF",
     "Combined alternative-code row: scheme prints two codes 'RAS502/RUC501' with two subject names 'Sociology / Cyber Security'; emitted as one row per printed scheme row (RULES §11 no-split). The VI-sem scheme prints the mirror combination 'RUC601/RAS602 Cyber Security/ Sociology' as a separate row"
    ],
-   "quirks": [],
+   "quirks": [
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: sociology (HSMC elective) + cyber-security rows; the RAS502/RUC501 slot row sociology-cyber-security already carries the printed slot codes (B25 class) — patch-b26-alt-pair"
+   ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ]
   },
   {
@@ -810,10 +813,12 @@
     "Combined alternative-code row: scheme prints two codes 'RUC601/RAS602' with two subject names 'Cyber Security/ Sociology'; emitted as one row per printed scheme row (RULES §11 no-split). Mirror of the Sem-V row 'RAS502/RUC501 Sociology / Cyber Security' (separate row per print)"
    ],
    "quirks": [
-    "Scheme name prints 'Cyber Security/ Sociology' — no space before the slash; kept verbatim"
+    "Scheme name prints 'Cyber Security/ Sociology' — no space before the slash; kept verbatim",
+    "Combined alternative-slot print (either/or, recorded ALTERNATIVE-PAIR-SLOT class B22/B23/B25): members: cyber-security + sociology rows; RAS602/RUC601 slot print (B25 class) — patch-b26-alt-pair"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ]
   },
   {
