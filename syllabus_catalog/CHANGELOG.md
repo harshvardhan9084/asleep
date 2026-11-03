@@ -1,3 +1,7 @@
+# CRON-20261103-B25 — B25 — 2026-11-03
+
+rows 1787-1855 codes 3640-3823 +68 appends/~182 updates/!0 repairs - EN-ENV wave 10 docs 2009-10..2021-22
+
 # CRON-20261101-B24 — B24 — 2026-11-01
 
 rows 1765-1787, codes 3531-3640, +22 appends/~161 updates - BTech EI/Electrical-Computer/Electronics-Computer wave 2018-19..2025-26 (10 docs 183 subjects drafted); 22nd-reset recovery to GitHub B23 state; 14 TIER2_OVERRIDES (10 name-variant ALLOWs, 3 wrong-subject FORCE_APPENDs incl. Control System-II/Lab-II distinct rows, 1 TIE pin Control-Systems-Lab->canon row) + 4 doc07 print-conflict code pins (table-vs-page 2-vs-1 consensus) + BEE653 ownership transfer + BEE652 PART-B two-list recovery + verifier v15 raw-containment remedy; gates G1/G2/G3/G6 PASS

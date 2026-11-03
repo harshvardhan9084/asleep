@@ -1918,6 +1918,67 @@ TIER2_OVERRIDES.update({
         "reason": "2018-19 'MICROCONTROLLER FOR EMBEDDED SYSTEMS' (RIC-603) = the row microcontrollers-for-embedded-systems (NIC-601R, 2016-17 AEI print) — singular/plural print variant, fuzzy 99/overlap 87; RIC603 joins as era code."},
 })
 
+# ---- B25 (CRON-20261103-B25) per-key TIER2_OVERRIDES (evidence-recorded) ----
+# Probe evidence (scripts/pipeline_v2/probe_b25_flags.py): per-flag draft name/
+# codes/units vs candidate rows (token overlap + best per-unit Jaccard).
+TIER2_OVERRIDES.update({
+    # -- name/print-variant ALLOWs (same subject; unit-vocab identity recorded) --
+    "01_btech_en_syllabus_2009-10::50::antena-and-wave-propogation": {
+        "action": "ALLOW",
+        "reason": "Print-typo name variant (recorded print class): draft 'Antena and Wave Propogation' (EEC-029, 2009-10 EE elective, detailed EM/antenna units) = the row antenna-and-wave-propagation (BEC603;EEC 504;NEC 504;KEC-603;REC051) — fuzzy 95/overlap 47, best per-unit Jaccard 0.47; the typos are the printed forms (RULES §6 keep-print) and the row already carries the EEC-504 EE print of the same course. 2009-10 older than the row's 2025-26 latest → backfill-empty only; EEC-029 joins as era code."},
+    "01_btech_en_syllabus_2009-10::56::telemetry-and-data-transmission": {
+        "action": "ALLOW",
+        "reason": "Name/print variant ('and' vs '&', ALL-CAPS row print): draft 'Telemetry and Data Transmission' (EEC-046, 2009-10 EE elective, detailed units) = the row telemetry-data-transmission ('TELEMETRY & DATA TRANSMISSION', REN075, 2019-20 EEE-EN CBCS print) — fuzzy 93/overlap 76, best per-unit Jaccard 0.75 (same course). 2009-10 older → backfill-empty only; EEC-046 joins as era code."},
+    "01_btech_en_syllabus_2009-10::57::embedded-system": {
+        "action": "ALLOW",
+        "reason": "Singular/plural print variant (recorded class): draft 'Embedded System' (EEC-047, 2009-10 EE elective, detailed units) = the row embedded-systems (NCS-087;RCS070;KEN 062;BEN062) — fuzzy 97/overlap 76, best per-unit Jaccard 0.62. 2009-10 older → backfill-empty only; EEC-047 joins as era code."},
+    "02_btech_en_y4_syllabus_2021-22::01::power-system-operation-control": {
+        "action": "ALLOW",
+        "reason": "Ampersand/'and' print variant: draft 'Power System Operation & Control' (KEN070, 2021-22 EN DE-IV, detailed units) = the row power-system-operation-and-control (EEE-031, 2009-10 EE print that established the row) — fuzzy 94/overlap 82, best per-unit Jaccard 0.94 (near-verbatim same course). 2021-22 NEWER → fieldwise-wins (units/COs replace the 2009-10 print); KEN070 joins as era code."},
+    "02_btech_en_y4_syllabus_2021-22::06::electric-hybrid-vehicles": {
+        "action": "ALLOW",
+        "reason": "Ampersand print variant: draft 'Electric & Hybrid Vehicles' (KEN071, 2021-22 EN DE-V, detailed units) = the row electric-and-hybrid-vehicles (BOE301;BOE401;BOE301H;BOE401H;KEE 064;BEE064, 2023-24 OE print) — fuzzy 92/overlap 49, best per-unit Jaccard 0.88 ('History of hybrid and electric vehicles...' unit canon shared; recorded B24 'Electric(-)Hybrid Vehicles' variant family). 2021-22 older than 2023-24 → backfill-empty only; KEN071 joins as era code."},
+    "03_btech_env_syllabus_2009-10::18::environmental-impact-assessment-and-audit": {
+        "action": "ALLOW",
+        "reason": "Multi-branch same-subject update (content evidence, RULES §3): draft 'Environmental Impact Assessment and Audit' (EEV-603, 2009-10 ENV core, detailed units) = the row environmental-impact-assessment (BCH064;KCH064;RCH074, Chemical-branch eras) — fuzzy 86/overlap 56, best per-unit Jaccard 0.91 (near-verbatim 'Introduction to EIA & Audit, Environment & Industries...' unit canon). The ENV prints join the same BTech row (cross-branch content evidence, recorded multi-branch class); EEV-603 joins as era code."},
+    "08_btech_env_y3_scheme-syllabus_2018-19::12::environmental-impact-assessment-and-audit": {
+        "action": "ALLOW",
+        "reason": "Same evidence as 03::18: draft 'Environmental Impact Assessment and Audit' (REV602, 2018-19 ENV core, detailed units; u1 identical 'Introduction to EIA & Audit...' print, Jaccard 0.91) = the row environmental-impact-assessment; REV602 joins as era code. 2018-19 older than the row's 2024-25 latest → backfill-empty only."},
+    "10_btech_env_y4_syllabus-cbcs_2019-20::12::construction-technology-and-management": {
+        "action": "ALLOW",
+        "reason": "Ampersand/'and' print variant: draft 'Construction Technology and Management' (REV081, 2019-20 ENV elective, detailed units) = the row construction-technology-management ('CONSTRUCTION TECHNOLOGY & MANAGEMENT', ECE801;NCE603, 2010-11 Civil print) — fuzzy 94/overlap 81, best per-unit Jaccard 0.80 (same course). 2019-20 NEWER → fieldwise-wins; REV081 joins as era code."},
+    # -- wrong-subject FORCE_APPENDs (unit-vocab Jaccard rejects the fuzzy hit) --
+    "03_btech_env_syllabus_2009-10::23::environmental-risk-assessment": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject Tier-2 hit (recorded B14/B15/B19/B20 class, RULES §11 never-merge-different-subjects): draft 'Environmental Risk Assessment' (EEV-033, 2009-10 ENV elective, detailed risk-type/management units) fuzzy 87 hit environmental-impact-assessment — but overlap only 5 and best per-unit Jaccard 0.12: Risk Assessment is a DIFFERENT subject from Impact Assessment (distinct-row design). No BTech environmental-risk-assessment row exists pre-commit → APPEND as its own row with a cross-reference note; the 2015-16 (NEN024) and 2020-21 (KNE061) prints converge onto it via same-commit append visibility (recorded B09/B10 class)."},
+    "05_btech_env_syllabus_2015-16::21::environmental-risk-assessment": {
+        "action": "FORCE_APPEND",
+        "reason": "Same evidence as 03::23: draft 'Environmental Risk Assessment' (NEN024, 2015-16 ENV DE-II, detailed units, Jaccard 0.12 vs the EIA row) — different subject from Impact Assessment; converges onto the environmental-risk-assessment row appended from 03::23 in this same commit."},
+    "09_btech_env_y3_scheme-syllabus_2020-21::18::environmental-risk-assessment": {
+        "action": "FORCE_APPEND",
+        "reason": "Same evidence as 03::23: draft 'Environmental Risk Assessment' (KNE061, 2020-21 ENV DE-III, detailed units, Jaccard 0.12 vs the EIA row) — different subject from Impact Assessment; converges onto the environmental-risk-assessment row appended from 03::23 in this same commit."},
+    "10_btech_env_y4_syllabus-cbcs_2019-20::06::heat-transfer-and-operation": {
+        "action": "FORCE_APPEND",
+        "reason": "Wrong-subject Tier-2 hit (name-variant similarity alone, RULES §3 content evidence): draft 'Heat Transfer and Operation' (REV077, 2019-20 ENV elective, detailed units: U1 'Conduction convection & radiation. General laws of heat transfer. Fourier's law...') fuzzy 90 hit heat-transfer-operations (ECH402;KCH303, Chemical-branch core) — but best per-unit Jaccard 0.25 and the prints differ structurally (the Chem row's U1 is 'Importance of heat transfer in Chemical Engineering operations'; conduction appears in ITS U2): a DIFFERENT course printed under a near-identical name (the recorded 'Heat Transfer Operations vs Operation' print class splits here on content). APPEND as its own row with a cross-reference note to the Chem row."},
+    "10_btech_env_y4_syllabus-cbcs_2019-20::13::engineering-hydrology-and-groundwater-management": {
+        "action": "FORCE_APPEND",
+        "reason": "Same-name different-content class (RULES §2/§3: similarity alone never merges; content evidence decisive): draft 'Engineering Hydrology and Groundwater Management' (REV082, 2019-20 ENV elective, detailed units: U1 'Ground Water Occurrence... zone of aeration and zone of saturation, geologic formations...') vs the row engineering-hydrology-groundwater-management (RCE085, 2019-20 Civil print: U1 'hydrologic cycle, water budget equations, world water balance, Precipitation...' — SURFACE-water hydrology): fuzzy 96 but best per-unit Jaccard 0.15 and the unit canons are disjoint — two DIFFERENT same-session courses sharing a name. APPEND as its own row with a cross-reference note documenting the split."},
+    # -- TIE resolutions (RETARGET; published code owners keep their codes) --
+    "04_btech_env_syllabus_2014-15::02::environmental-engineering-process": {
+        "action": "FORCE_APPEND",
+        "reason": "TIE fuzzy resolution — wrong-subject class, RULES §11 never-merge-different-subjects + §2 content evidence: draft 'Environmental Engineering Process' (NEN-302, 2014-15 ENV-branch core, detailed units: U1 'Classification of Pollutants Pollutants in water and wastewater – characteristics...') TIE-hit three Civil-branch rows (environmental-engineering-i 87/15, environmental-engineering 86/30, environmental-engineering-ii 85/32) — but best per-unit Jaccard is only 0.12-0.20 against ALL three: no unit identity with the Civil EE-I (water supply) / EE-II (wastewater) courses. The substantive token 'Process' and the ENV-branch NEN code family (sister NEN-301/303 core prints) make this the ENV-branch process course, a DIFFERENT subject printed under a similar name. APPEND as its own row with cross-reference notes to all three Civil rows."},
+    "01_btech_en_syllabus_2009-10::55::electric-drives": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "electric-drives",
+        "keep_published_codes": {"EEE-033": "neural-networks-and-fuzzy-system (the 2009-10 scheme's EEE-033 elective slot; that row was established with EEE-033 as primary from the same-session 2009-10 print family, while the Electric-Drives detail page prints EEE-702 — recorded doc01 print-quirk 'EEE-702/EEE-033'; equal-or-older print never takes a code from its published owner, RULES §3)"},
+        "reason": "TIE code-identity resolution (tier-0 hit two rows: electric-drives owns EEE-702, neural-networks-and-fuzzy-system owns EEE-033; the draft carries both prints). Vocabulary evidence pins the subject: draft 'Electric Drives' units match the row electric-drives (BEE074;EEE-702;REE701;KEE075, 2025-26) at best per-unit Jaccard 1.00 — VERBATIM same course. RETARGET pins the update there; EEE-033 stays with its published owner (narrative mention recorded). 2009-10 older than 2025-26 → backfill-empty only."},
+    "01_btech_en_syllabus_2009-10::11::general-proficiency": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "general-proficiency",
+        "keep_published_codes": {"GP-301": "general-proficiency-lab (GP-301 is that row's only code, establishing print 2014-15 — NEWER than this 2009-10 scheme print; RULES §3 newest-print-wins keeps it there)"},
+        "reason": "TIE code-identity resolution (tier-0 hit two rows: general-proficiency owns GP401-801 from the 2026-27 AG print; general-proficiency-lab owns GP-301 from the 2014-15 print; the 2009-10 EE scheme prints one 'General Proficiency' slot per semester GP-301..801). RETARGET pins the update to the name-exact general-proficiency row (its codes GP401-801 are re-corroborated; 2009-10 is older → backfill/source-history only) while GP-301 stays with its published newer-print owner general-proficiency-lab."},
+})
+
 # B21 REPAIRS (brain clause: determine-then-fix, keep proof). Executed at commit
 # AFTER the draft loop (the salvage target row exists by then) and BEFORE the
 # gates. Every field strip is backed by the printed evidence recorded here.
