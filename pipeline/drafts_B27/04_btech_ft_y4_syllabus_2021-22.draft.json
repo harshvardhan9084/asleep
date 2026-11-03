@@ -1,0 +1,875 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2021-22/btech_ft_y4_syllabus_2021-22.pdf",
+ "session": "2021-22",
+ "course": "BTech",
+ "sha16": "bb48dfe70ccdd48e",
+ "stem": "04_btech_ft_y4_syllabus_2021-22",
+ "subjects": [
+  {
+   "name": "FOOD QUALITY AND SAFETY MANAGEMENT",
+   "name_print": "FOOD QUALITY AND SAFETY MANAGEMENT",
+   "codes": [
+    "KFT-071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P :: 3 : 0 : 0",
+   "credit": 3,
+   "credit_print": "3",
+   "exam_duration_print": "EXAM DURATION: 3.0 HOURS",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "1. Ways of describing of Food Quality. Quality costs. Quality control and Quality Assurance in Food Industry and their functions. Statistical quality control. [LECTURE HOURS: 4] 2. Quality attributes of foods, their classification and significance. Instrumental measurements of important Food Attribute: Appearance, Color, Volume, Density and Specific  gravity, Consistency , Defects etc. [LECTURE HOURS: 4]",
+    "2": "1. Application of Sensory Evaluation in Quality Management of foods. Objectives  Panels involved. Lab Setup and Equipments. Sensory Evaluation Tests. Analysis and Interpretation of sensory scores. [LECTURE HOURS: 4] 2. Rheological and textural characteristics . Texture profile analysis. Correlation between instrumental and Sensory analysis of food quality attributes. [LECTURE HOURS: 5]",
+    "3": "1. Principles of food quality assurance, Total Quality Control (TQC) and Total Quality Management (TQM) in Food Industry. [LECTURE HOURS: 5] 2. Food Safety: Concept and Risks Associated with Food: Physical, Chemical, Microbiological and Allergens. General awareness regarding Food safety management, Concept of food traceability for Food Safety, [LECTURE HOURS: 5]",
+    "4": "1. Introduction, prerequisite program of food safety management system, understanding and implementation of Food Safety Management system in food industries, Understanding and Implementation of ISO 22000. [LECTURE HOURS: 5] 2. Global Scenario of Food Safety Management: Introduction to Codex Alimentarius and FSIS, Good Manufacturing Practices (GMP), Good Hygienic Practices (GHP), Good Agricultural Practices (GAP), ISO series, HACCP systems: ISO/ EC 17025. Global standards for contaminants and toxins in foods. [LECTURE HOURS: 5]",
+    "5": "1. Food standards and Specifications: Compulsory and voluntary standards. Overview of National and International Regulatory  Agencies. [LECTURE HOURS: 4] 2. FSSAI: Definitions, Objectives, Salient Features and Provisions. [LECTURE HOURS: 4]"
+   },
+   "cos_preamble_print": "COURSE OUTCOME: After successful completion of the course the students will be able to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics of Food Quality, Quality Control, Quality Assurance and Food Safety/"
+    },
+    {
+     "no": 2,
+     "text": "Understand the basic principles of Sensory Evaluation applicable to foods."
+    },
+    {
+     "no": 3,
+     "text": "Understand the  basic principles of HACCP, ISO and sanitation in general."
+    },
+    {
+     "no": 4,
+     "text": "Understand the laws and regulations pertaining to Food Quality and Safety."
+    }
+   ],
+   "objectives_print": [
+    "To provide knowledge of Principles of Food Quality & Quality Control",
+    "To provide knowledge of Food Safety and its Management",
+    "To study the various Food Laws and regulations pertaining to these."
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Amihud Kramer, Bernard A. Twigg, “Quality Control for the Food Industry: Fundamentals v. 1, The AVI Publishing Company. Inc., Westport, USA",
+     "year_print": "1970[ 3rd Edition, 2017]"
+    },
+    {
+     "no": 2,
+     "book": "J.M.DeMan, P.W.Voisey, V. F. Rasper, D. W. Stanley,”:Rheology and Texture in Food Quality”, AVI Publishing Company Inc.",
+     "year_print": "1976"
+    },
+    {
+     "no": 3,
+     "book": "Pomeranz Y., Meloan, Clifton E.,” Food Analysis : Theory and practice”, 3rd Edn. IS: 6273 (Part-1& Part II Chapman and Hall).",
+     "year_print": "1994/1995"
+    },
+    {
+     "no": 4,
+     "book": "Maynard A. Amerine, Rose Marie Pangborn and Edward B. Roessler, “Principles of Sensory Analysis of Foods”, Academic Press, NY",
+     "year_print": "2013"
+    },
+    {
+     "no": 5,
+     "book": "https://www.fssai.gov.in › cms › act-2006  [ FSSAI Act, 2006]"
+    },
+    {
+     "no": 6,
+     "book": "https://nptel.ac.in/courses/126/105/126105015/  Lecture 2"
+    },
+    {
+     "no": 7,
+     "book": "https://swayam.gov.in/ Category: Engineering & Technology. Sub Category: Agriculture and Food Engineering"
+    }
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "p.2 elective list prints the subject name as 'FOOD QUALITY & SAFETY MANAGEMENT'; the detail-page course title (p.4) prints 'FOOD QUALITY AND SAFETY MANAGEMENT' — both verbatim.",
+    "CO-1 print ends with a stray slash: '...Quality Assurance and Food Safety/' (p.4) — verbatim.",
+    "Unit-II item-1 print has a wide gap between 'Objectives' and 'Panels involved' (p.5); transcribed verbatim as 'Objectives  Panels involved' — no text invented for the gap.",
+    "Reference row 2 prints anomalous '”:Rheology' (quote-colon before the title) (p.4) — verbatim.",
+    "Printed under 'DEPARTMENT ELECTIVE – IV' pool (p.2 scheme table; pool row 'KFT 071-073 Departmental Elective-IV').",
+    "Detail pages print no marks/evaluation table; marks recorded from the printed Semester-VII scheme table row for Departmental Elective-IV (CT 30, TA 20, Total 50, TE 100, Total 150, Credit 3) (p.2).",
+    "Course-details table footer prints 'TOTAL 45' lecture hours (p.5)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "FOOD PROCESSING WASTE MANAGEMENT",
+   "name_print": "FOOD PROCESSING WASTE MANAGEMENT",
+   "codes": [
+    "KFT-072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P :: 3 : 0 : 0",
+   "credit": 3,
+   "credit_print": "3",
+   "exam_duration_print": "EXAM DURATION: 3.0 HOURS",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "1. Basic considerations: Standards for emission or discharge of environmental pollutants from food processing Industries as per the updated provision of Environment (Protection) Act, 1986. [LECTURE HOURS: 4] 2. Elements of importance in the efficient management of food processing wastes. Environmental Labs, Government analysts, Sampling Procedures etc as per EPA, 1986. [LECTURE HOURS: 4]",
+    "2": "1. Characterization and Effective Utilization of by-products from Cereals, Pulses and Oilseeds Industries. Fruits, Vegetables and Plantation products, Fermented foods, Dairy Industry and Milk Products Industry, Fish, Meat, Egg and Poultry processing industries. [LECTURE HOURS: 8]",
+    "3": "1. Characterization of food Industry effluents, Physical and Chemical parameters, Oxygen demands and their interrelationships, Residues (Solids), Fats, Oils and Grease, Forms of Nitrogen, Sulphur and Phosphorus, Anions and Cations, Surfactants, Colour, Odour, Taste, Toxicity. [LECTURE HOURS: 6] 2. Unit concept of treatment of Food Industry Effluent. Screening, Sedimentation Floatation as pre - and primary treatments. [LECTURE HOURS: 4]",
+    "4": "1. Biological oxidations: Objects, Organisms, Reactions involved, Oxygen requirements, Aeration devices  / Equipments used. [LECTURE HOURS: 5] 2. Systems: Lagoons, Activated sludge process, Oxidation ditches, Rotating biological cont caters and their Variations and advanced modifications. Types, Working Principle, Functioning, Merits and Limitations. Bio Remediation. [LECTURE HOURS: 5]",
+    "5": "1. Advanced wastewater treatment systems. Physical separations, Micro-strainers, Filters, Ultra filtration and reverse osmosis. Physico-chemical separations: Activated Carbon Adsorption, Ion Exchange, Electro-dialysis and Magnetic Separation. [LECTURE HOURS: 5] 2. Chemical oxidations and treatment Coagulation and flocculation. Removal of Nitrogen and Phosphorus from Food Processing Waste Waters. Disinfection. Handling and disposal of Sludge. Environmental Considerations. [LECTURE HOURS: 4]"
+   },
+   "cos_preamble_print": "COURSE OUTCOME: After successful completion of the course the students will be able to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the byproducts associated with various types of food processing industries and its utilization."
+    },
+    {
+     "no": 2,
+     "text": "Understand the basic principles of Waste Characteristics pertaining to Food Processing Industry"
+    },
+    {
+     "no": 3,
+     "text": "Understand the  basic principles of Waste Management pertaining to Food Processing Industry"
+    },
+    {
+     "no": 4,
+     "text": "Understand the laws and regulations pertaining to Waste Management and Disposal."
+    }
+   ],
+   "objectives_print": [
+    "To provide knowledge of Food Processing Industry Waste Management.",
+    "To provide knowledge of the various aspects and methods adopted for Waste Management.",
+    "To provide knowledge regarding the environmental considerations and Laws pertaining to these."
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "The Environment (Protection) Act 1986. (Act No.29 of 1986)",
+     "year_print": "1986, amended 1991"
+    },
+    {
+     "no": 2,
+     "book": "AFST(I) & CFTRI Proceedings of the Symposium on By-products From Food Industries: Utilization and Disposal",
+     "year_print": "1980"
+    },
+    {
+     "no": 3,
+     "book": "Panoth Abhirami, Lavanya D, Mohan G Naik,  Venkatachalapathy N.,” Waste to Wealth: Potential of Rice Bran Wax as Edible coating”, Indian Food Industry Mag, AFST (India), CFTRI, Mysore, Vol No. 38, Issue No. 1: 38-43",
+     "year_print": "2019"
+    },
+    {
+     "no": 4,
+     "book": "J.H. Green, A.Kramer, “Food Processing Waste Management , Westport - Conn : AVI Publishing Company",
+     "year_print": "1979/1981"
+    },
+    {
+     "no": 5,
+     "book": "https://swayam.gov.in/ Category: Engineering & Technology. Sub Category: Agriculture and Food Engineering",
+     "year_print": "--"
+    },
+    {
+     "no": 6,
+     "book": "Training Manual Food Safety Supervisor Course Advance (Level 2)",
+     "year_print": "2017"
+    }
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "p.6 COURSE OUTCOME list prints an empty 5th bullet after '...Waste Management and Disposal.' — no text printed for it.",
+    "Unit-IV item-2 print reads 'Rotating biological cont caters' (sic, likely 'contactors') (p.7) — verbatim.",
+    "Reference row 5 year cell prints '--' (p.6); reference row 6 S.NO printed as '6.' with a trailing dot (p.6) — verbatim.",
+    "Printed under 'DEPARTMENT ELECTIVE – IV' pool (p.2 scheme table; pool row 'KFT 071-073 Departmental Elective-IV').",
+    "Detail pages print no marks/evaluation table; marks recorded from the printed Semester-VII scheme table row for Departmental Elective-IV (CT 30, TA 20, Total 50, TE 100, Total 150, Credit 3) (p.2).",
+    "Course-details table footer prints 'TOTAL 45' lecture hours (p.7)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "NOVEL TECHNIQUES IN FOOD PROCESSING SECTOR",
+   "name_print": "NOVEL TECHNIQUES IN FOOD PROCESSING SECTOR",
+   "codes": [
+    "KFT-073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P :: 3 : 0 : 0",
+   "credit": 3,
+   "credit_print": "3",
+   "exam_duration_print": "EXAM DURATION: 3.0 HOURS",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "1. Introduction, scope and application of High Pressure Processing (HPP) of foods. Mechanism of microbial inactivation through HPP. Commercial HPP equipments. [LECTURE HOURS: 4] 2. Ultrasonics in Food Processing: Principle, properties, equipment and its applications. Microbial inactivation by ultrasound. [LECTURE HOURS: 4]",
+    "2": "1. Food Processing by Radio Frequency Electric Fields and its applications: Pulse Electric Field (PFE), Moderate Electric Field (MEF). [LECTURE HOURS: 5] 2. Use of Electromagnetic Radiations in Food Processing: Ohmic heating, IR heating, Microwave heating, Inductive heating. [LECTURE HOURS: 4]",
+    "3": "1. Advances in Membrane Technology and their industrial applications in Food Processing: Microfiltration, Ultrafiltration, Nanofiltration, Reverse Osmosis. Principle and Equipments involved. [LECTURE HOURS: 5] 2. Principle, application, advantages and disadvantages of Super Critical Fluid Extraction (SCFE) process. Types of Super critical fluids and their properties, Methods of Extraction. Applications in Food Processing Sector. [LECTURE HOURS: 4]",
+    "4": "1. Concept and applications of Nanotechnology in Food Processing, its semblance and contribution in food industry along with advantages and limitations. [LECTURE HOURS: 4] 2. Significance of Nano particles, Nano composites, Nano emulsions, Nano structured materials and Nano sensors and their applications in Food Processing Sector. [LECTURE HOURS: 5]",
+    "5": "1. Concept of minimal processing of fruits and vegetables. Natural preservation systems for foods. Synergistic & Antagonistic effects of food mixtures. [LECTURE HOURS: 3] 2. Novel applications in food analysis: Atomic Absorption Spectroscopy (AAS), Fourier Transform Infrared (FTIR), X-ray Diffraction (XRD), Differential Scanning Calorimetry (DSC), Scanning Electron Microscopy (SEM), e-sensors and biosensors. [LECTURE HOURS: 7]"
+   },
+   "cos_preamble_print": "COURSE OUTCOME: After successful completion of the course the students will be able to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concepts of High-Pressure Processing and Ultrasound techniques in food processing and microbial deactivation"
+    },
+    {
+     "no": 2,
+     "text": "Understand the application of microwave and radio frequency wave technology in food processing"
+    },
+    {
+     "no": 3,
+     "text": "Understand the membrane technology and Super critical fluid extraction process in food sector"
+    },
+    {
+     "no": 4,
+     "text": "Understand the significance and application of Nanotechnology in food sector"
+    }
+   ],
+   "objectives_print": [
+    "To understand about various emerging technologies in food processing",
+    "To understand the mechanism of innovative techniques for the improvement of production yield and quality",
+    "To understand the applications of novel processing techniques in the processing &preservation of foods."
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Desrosier Norman W,” The Technology of Food Preservation”, Westport, Conn. AVI Pub. Co. (4th Edition)",
+     "year_print": "1977 / 2004"
+    },
+    {
+     "no": 2,
+     "book": "Norman N.Potter, Joseph H.Hotchkiss, “ Food Science”, 5th Edition, CBS Publishers & Distributors Pvt. Ltd.",
+     "year_print": "2007"
+    },
+    {
+     "no": 3,
+     "book": "Sivasankar, B.,”Food Processing and Preservation”, Prentice Hall of India Pvt.Ltd., New Delhi.",
+     "year_print": "2002"
+    },
+    {
+     "no": 4,
+     "book": "P J Fellows, “Food Processing Technology”, 3rd Edition. Woodhead Publishing",
+     "year_print": "2009"
+    },
+    {
+     "no": 5,
+     "book": "Gould G. W. “New Methods of Food Preservation”, Springer U.S",
+     "year_print": "1995"
+    },
+    {
+     "no": 6,
+     "book": "Gustavo V. Barbosa-Canovas,Maria S. Tapia,M. Pilar Cano,,”Novel Food Processing Technologies”, CRC press",
+     "year_print": "2004"
+    },
+    {
+     "no": 7,
+     "book": "Tewari G, Juneja V.K.,”Advances in Thermal and Non-Thermal Food Preservation”, Wiley Blackwell Press",
+     "year_print": "2007"
+    },
+    {
+     "no": 8,
+     "book": "https://swayam.gov.in/ Category: Engineering & Technology. Sub Category: Agriculture and Food Engineering"
+    }
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Objective-3 prints 'processing &preservation' with no space before '&preservation' (p.8) — verbatim.",
+    "Reference row 6 prints double comma before the title: 'Cano,,”Novel Food Processing Technologies”' (p.8) — verbatim.",
+    "Printed under 'DEPARTMENT ELECTIVE – IV' pool (p.2 scheme table; pool row 'KFT 071-073 Departmental Elective-IV').",
+    "Detail pages print no marks/evaluation table; marks recorded from the printed Semester-VII scheme table row for Departmental Elective-IV (CT 30, TA 20, Total 50, TE 100, Total 150, Credit 3) (p.2).",
+    "Course-details table footer prints 'TOTAL 45' lecture hours (p.9)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "FOOD PACKAGING",
+   "name_print": "FOOD PACKAGING",
+   "codes": [
+    "KFT-074"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L:T:P: :3: 0: 0",
+   "credit": 3,
+   "credit_print": "3",
+   "exam_duration_print": "EXAMINATION DURATION: 3 HOURS",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "1. Basic Concepts: Concept of packaging, Functions of a Food Package, Package development factors and Food package development. [LECTURE HOURS: 4] 2. Newer trends: Aseptic Packaging, Vacuum and gas packaging, Edible packaging, Active and intelligent packaging. [LECTURE HOURS: 5]",
+    "2": "1. Cellulosic and Polymeric packaging materials and forms: Food grade polymeric packaging materials, Rigid plastic packages. Films: Multilayer films, Oriented, Co-extruded films , Laminates and Metalized [LECTURE HOURS: 5] 2. Polymeric materials, their mechanical sealing and barrier properties: Cellophane, Olefins, Polyamides, Polyesters, PVC, PVDC, PVA, Inomers, Copolymers, Polycarbonates, Phenoxy, Acrylic and Polyurethane. [LECTURE HOURS: 5]",
+    "3": "1. Glass containers: Composition, Properties, Bottle making and Closures for glass containers. [LECTURE HOURS: 4] 2. Metal containers: Bulk containers, Tin-plate containers, Tin free steel containers, Aluminum containers, Latest development in metal cans and protective lacquers. [LECTURE HOURS: 5]",
+    "4": "1. Food product characteristics and package requirement, Selection of materials, Forms, Machinery and methods for fresh produce (Fruits, Vegetables, Egg, Meat and Fish), Edible oils and Fats, Spice and spice products, [LECTURE HOURS: 7]",
+    "5": "1. Evaluation of Food Packaging Materials and Package Performance. Evaluation of OTR/ GTR/ WPTR and testing for presence pathogenic microorganisms of concern. [LECTURE HOURS: 5] 2. Package printing, Packaging Laws and Regulations, Food Safety and Environmental issues related to Food Packaging. Disposal of Non Biodegradable Packaging Materials and Environmental Concerns. [LECTURE HOURS: 5]"
+   },
+   "cos_preamble_print": "COURSE OUTCOME: After successful completion of the course the students will be able to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic concept of packaging and advancement in food packaging."
+    },
+    {
+     "no": 2,
+     "text": "Understand the different types of packaging material and their properties."
+    },
+    {
+     "no": 3,
+     "text": "Understand the selection of packages for specific food & agricultural commodities."
+    },
+    {
+     "no": 4,
+     "text": "Gain insight of package printing and packaging laws & regulations in food industries."
+    }
+   ],
+   "objectives_print": [
+    "To provide basic knowledge of packaging, its types and components, package developments.",
+    "To provide knowledge of different types of packaging materials & their forms used in food packaging",
+    "To provide knowledge of package developments and packaging laws and regulations in food industries",
+    "To provide knowledge about package performance and various testing of packaging materials"
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M. Mahadeviah and R.V. Gowramma, “ Food Packaging Materials”, Tata. Mc Graw Hill co. Ltd. New Delhi",
+     "year_print": "1996/2007"
+    },
+    {
+     "no": 2,
+     "book": "Stanley Sacharow and R.C. Griffin, “Principles of Food Packaging” , AVI Publishing Company",
+     "year_print": "1980"
+    },
+    {
+     "no": 3,
+     "book": "Coles R., McDowell D. and Kirwan, M.J.,” Food Packaging Technology”, Blackwell Publishing Co.",
+     "year_print": "2003"
+    },
+    {
+     "no": 4,
+     "book": "Proceedings of IFCON-1988",
+     "year_print": "1988"
+    }
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Unit-II item-1 print ends 'Laminates and Metalized' with no word following before the lecture-hours cell (p.11) — verbatim; possible print truncation, nothing invented.",
+    "Unit-IV prints a single item (S.NO 1) whose text ends with a trailing comma: '...Spice and spice products,' (p.11) — verbatim.",
+    "Detail header prints 'EXAMINATION DURATION: 3 HOURS', 'L:T:P: :3: 0: 0' and 'PRE-REQUISITE:' (singular hyphenated), unlike the other subjects' 'EXAM DURATION: 3.0 HOURS' / 'PRE REQUISITES:' (p.10) — verbatim.",
+    "Printed under 'DEPARTMENT ELECTIVE – V' pool (p.2 scheme table; pool row 'KFT 074-076 Departmental Elective-V').",
+    "Detail pages print no marks/evaluation table; marks recorded from the printed Semester-VII scheme table row for Departmental Elective-V (CT 30, TA 20, Total 50, TE 100, Total 150, Credit 3) (p.2).",
+    "Course-details table footer prints 'TOTAL 45' lecture hours (p.11)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "SPECIALITY FOODS",
+   "name_print": "SPECIALITY FOODS",
+   "codes": [
+    "KFT-075"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P :: 3:0:0",
+   "credit": 3,
+   "credit_print": "03",
+   "exam_duration_print": "EXAM DURATION: 3.0 HOURS",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "1. Nutrition, Energy requirements of the body, Recommended Dietary Intakes (RDI) and its uses. Factors affecting nutritional requirement of an individual, Malnutrition. [LECTURE HOURS: 4] 2. Role of nutrients, Effects of deficient or excess intake of the individual essential nutrients. [LECTURE HOURS: 4]",
+    "2": "1. Balanced diet and basic food groups; Digestion, absorption and utilization of nutrients in the body. [LECTURE HOURS: 4] 2. Foods for pregnant ladies and nursing mothers, Infant and baby foods, Adolescent / Teen-age foods, Geriatric foods. [LECTURE HOURS: 5]",
+    "3": "1. Therapeutic Diets, Modification in texture and consistency of diet, Modification of normal diet during illness and convalescence. [LECTURE HOURS: 5] 2. Diet during energy imbalance and metabolic disorders. [LECTURE HOURS: 4]",
+    "4": "1. Diets recommended and restricted in Gastrointestinal disorders, Cardiovascular diseases, Kidney and Liver disease. [LECTURE HOURS: 4] 2. Dietary modification in Food allergy and Fever & Infections. Diet during Gallbladder and Pancreatic disturbances. [LECTURE HOURS: 5]",
+    "5": "1. Beneficial Effects of Spices, Gamma-linolenic acid, Spirulina, Antioxidants and other foods for special medicinal purpose. [LECTURE HOURS: 5] 2. Functional foods & Nutraceuticals, Gluten free foods, Low glycemic index foods, Foods for special dietary use, Organic foods, and Novel & Proprietary foods. [LECTURE HOURS: 5]"
+   },
+   "cos_preamble_print": "COURSE OUTCOME: After successful completion of the course the students will be able to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic concepts of Food Nutrition and Recommended dietary intakes."
+    },
+    {
+     "no": 2,
+     "text": "Understand Nutritional requirements for different age groups."
+    },
+    {
+     "no": 3,
+     "text": "Understand the concept of Balanced Diets and plan nutritious meals for different age groups."
+    },
+    {
+     "no": 4,
+     "text": "Modify the normal diets that can be used for management and prevention of various diseases."
+    },
+    {
+     "no": 5,
+     "text": "Understand the beneficial effects of conventional and non-conventional foods and food constituents."
+    }
+   ],
+   "objectives_print": [
+    "To impart the knowledge about the relationship between food, nutrition and health.",
+    "To understand the nutritional requirements and balanced diets for different age groups.",
+    "To understand the concept of modification in normal diets for management and prevention of various diseases."
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Benzamin T. Burton, Human Nutrition, Tata Mc Graw Hill",
+     "year_print": "1976"
+    },
+    {
+     "no": 2,
+     "book": "P.S. Howe, Basic Nutrition in Health & Disease, W. B. Saunders Co., Philadelphia (7th ed.)",
+     "year_print": "1981"
+    },
+    {
+     "no": 3,
+     "book": "Robert E.C. Wildman, Denis M. Medeiros, Advanced Human Nutrition, CRC Press",
+     "year_print": "2014"
+    },
+    {
+     "no": 4,
+     "book": "Shubhangini A. Joshi Nutrition and Dietetics, Tata McGraw-Hill Education",
+     "year_print": "2010"
+    },
+    {
+     "no": 5,
+     "book": "B. Srilakshmi :Dietetics , New Age International",
+     "year_print": "2014"
+    },
+    {
+     "no": 6,
+     "book": "M. Swaminathan, Advanced Text-Book On Food & Nutrition (Vol- I & II), Banglore Printing and Publishing",
+     "year_print": "2012"
+    },
+    {
+     "no": 7,
+     "book": "N. Shakuntala Manay and M.Swamy: Food Facts & Principles, New Age International",
+     "year_print": "2008"
+    }
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Detail header prints 'OBJECTIVE:' (singular) and 'CREDITS: 03' (leading zero) (p.12) — verbatim.",
+    "Reference row 1 author prints 'Benzamin' (sic) and row 6 publisher prints 'Banglore' (sic) (p.12) — verbatim.",
+    "Printed under 'DEPARTMENT ELECTIVE – V' pool (p.2 scheme table; pool row 'KFT 074-076 Departmental Elective-V').",
+    "Detail pages print no marks/evaluation table; marks recorded from the printed Semester-VII scheme table row for Departmental Elective-V (CT 30, TA 20, Total 50, TE 100, Total 150, Credit 3) (p.2).",
+    "Course-details table footer prints 'TOTAL 45' lecture hours (p.13)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "FUNDAMENTALS OF FOOD BIOTECHNOLOGY",
+   "name_print": "FUNDAMENTALS OF FOOD BIOTECHNOLOGY",
+   "codes": [
+    "KFT-076"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L: T: P :: 3 : 0 : 0",
+   "credit": 3,
+   "credit_print": "3",
+   "exam_duration_print": "EXAM DURATION: 3.0 HOURS",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "1. Introduction, history, scope and present status of biotechnology in India with reference to Food Technology. [LECTURE HOURS: 3] 2. Fermentation, types of fermentation: solid and submerged fermentation. Bioreactor, types of bioreactors, Advantages and disadvantages, applications and design aspects of bioreactors used in food industry. [LECTURE HOURS: 5]",
+    "2": "1. Biotechnological methods for the production of organic acids, vitamins and bio-pigments (with reference to the microorganisms involved, substrates used, optimum process parameters and their applications) [LECTURE HOURS: 5] 2. Production of single cell proteins, microbial lipids (microorganisms involved, raw materials, advantages, commonly used methods, safety concerns) [LECTURE HOURS: 5]",
+    "3": "1. Sources of enzymes, advantages of microbial enzymes, production, extraction and purification of enzymes. [LECTURE HOURS: 4] 2. Biotechnological approach for the production of fermented food products, Beer, Wine, Tofu, Soy Sauce, Tempeh, Kefir. [LECTURE HOURS: 5]",
+    "4": "1. Tissue culture technology and its application, medium used in tissue culture, somatic hybridization, protoplast fusion, secondary metabolite production. [LECTURE HOURS: 8]",
+    "5": "1. Structure of DNA and RNA, Mutation, Mutagens, Types of Mutations and applications of Mutations in Strain Improvement. [LECTURE HOURS: 5] 2. Genetic Engineering and applications, Gene Cloning procedures-general outline, Recombinant DNA Technology, Genetically Modified Foods and their applications. Safety issues related to Genetically Modified Foods. [LECTURE HOURS: 5]"
+   },
+   "cos_preamble_print": "COURSE OUTCOME: After successful completion of the course the students will be able to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the importance of Biotechnology in Food processes."
+    },
+    {
+     "no": 2,
+     "text": "Understand the microbial production of organic acids, vitamins and bio-pigments."
+    },
+    {
+     "no": 3,
+     "text": "Understand the production of fermented food products like beer, wine, tofu and soy sauce."
+    },
+    {
+     "no": 4,
+     "text": "Understand the basics of Tissue Culture, Genetic Engineering and Genetically Modified Foods."
+    }
+   ],
+   "objectives_print": [
+    "To provide basic knowledge of Food biotechnology and its applications in Food Processing Industry",
+    "To learn about the production of different food products by Microbial means.",
+    "To study the Fundamentals of Tissue Culture and Genetic Engineering"
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Crueger and Crueger , Biotechnology: A Textbook of Industrial Microbiology,   Sinauer Associates Inc.,U.S.",
+     "year_print": "2017"
+    },
+    {
+     "no": 2,
+     "book": "Frazier, W.S. and Weshoff, D.C., Food Microbiology, McGraw Hill Book Co., New York",
+     "year_print": "1988"
+    },
+    {
+     "no": 3,
+     "book": "Roger, A., Gordon, B. and John, T, Food Biotechnology,  Cambridge University Press",
+     "year_print": "1989"
+    },
+    {
+     "no": 4,
+     "book": "Prescott & Dunn Industrial Microbiology, CBS Publishers and Distributors",
+     "year_print": "2004"
+    }
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Unit-I spans the p.14→p.15 page break (item 1 printed at the bottom of p.14, the 'I' label and item 2 on p.15).",
+    "Unit-IV prints a single item (S.NO 1, 8 lecture hours) — no item 2 in print (p.15).",
+    "Reference row 2 prints 'Weshoff, D.C.' (sic) (p.14) — verbatim.",
+    "Printed under 'DEPARTMENT ELECTIVE – V' pool (p.2 scheme table; pool row 'KFT 074-076 Departmental Elective-V').",
+    "Detail pages print no marks/evaluation table; marks recorded from the printed Semester-VII scheme table row for Departmental Elective-V (CT 30, TA 20, Total 50, TE 100, Total 150, Credit 3) (p.2).",
+    "Course-details table footer prints 'TOTAL 45' lecture hours (p.15)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "FOOD QUALITY EVALUATION LAB",
+   "name_print": "FOOD QUALITY EVALUATION LAB",
+   "codes": [
+    "KFT -751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "L: T: P :: 0:0:2",
+   "credit": 1,
+   "credit_print": "1",
+   "exam_duration_print": "EXAM DURATION: 2.0 HOURS",
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Sensitivity tests (Threshold/Dilution) to measure Individual Ability for sensory analysis"
+    },
+    {
+     "no": 2,
+     "exp": "Difference tests to evaluate qualitative and quantitative differences and/or preference between test products"
+    },
+    {
+     "no": 3,
+     "exp": "Assessment of quality of wheat flour (Water Absorption Power, Gluten Content, Sedimentation Value etc.)"
+    },
+    {
+     "no": 4,
+     "exp": "Assessment of quality of Bakery Products: Bread, Biscuits, Cakes etc."
+    },
+    {
+     "no": 5,
+     "exp": "Assessment of quality of vegetable oils"
+    },
+    {
+     "no": 6,
+     "exp": "Assessment of quality of Fruit & Vegetable Products: Tomato Products, Jam, Jelly, Marmalades, Squashes& Cordials, Canned Products."
+    },
+    {
+     "no": 7,
+     "exp": "Assessment of Quality of Beverages: Tea & Coffee, Carbonated and RTS Beverages."
+    },
+    {
+     "no": 8,
+     "exp": "Assessment of Quality of Milk"
+    },
+    {
+     "no": 9,
+     "exp": "Assessment of Quality of Dairy Products like Butter, Ice-cream, Cheese etc."
+    },
+    {
+     "no": 10,
+     "exp": "Assessment of Quality of Fermented Foods like Yoghurt, Sauerkraut etc."
+    }
+   ],
+   "cos_preamble_print": "COURSE OUTCOME: After successful completion of the course the students will be able to:",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the testing and evaluation of various parameters of food quality"
+    },
+    {
+     "no": 2,
+     "text": "Understand the different techniques to perform sensory evaluation study of foods"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concepts of Food quality and its role in food industry"
+    }
+   ],
+   "objectives_print": [
+    "To provide basic insight into the practical aspects of Food Quality",
+    "To provide knowledge for the assessment of quality of foods from different food categories"
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "J.M.DeMan: Rheology and Texture in Food Quality",
+     "year_print": "1976"
+    },
+    {
+     "no": 2,
+     "book": "Y.Pomeranz: Food Analysis: Theory and practice",
+     "year_print": "2000"
+    },
+    {
+     "no": 3,
+     "book": "M.A. Amerine: Principles of Sensory Analysis of Food",
+     "year_print": "2005 (Reprint)"
+    },
+    {
+     "no": 4,
+     "book": "Morris B. Jacobs: The chemical analysis of foods and food products, III Edition, CBS Publishers and distributors New Delhi.",
+     "year_print": "1938(Pub.)2013 (Reprint)"
+    },
+    {
+     "no": 5,
+     "book": "S.Ranganna, “Handbook of Analysis and Quality Control for Fruit and Vegetable Products”. S, Tata McGraw-Hill Education",
+     "year_print": "1986"
+    }
+   ],
+   "prerequisites": "NIL",
+   "quirks": [
+    "Detail page prints the code with an internal space: 'SUBJECT CODE: KFT -751' (p.16); the scheme table prints 'KFT 751' (p.2) — both verbatim.",
+    "Lab subject: no unit theory printed anywhere; the 'Course details' table (pp.16-17) prints an experiment list ('S.NO | Name of Experiment', 10 items) — transcribed under experiments.",
+    "Scheme row (p.2, Sl.No 5) prints 25 under the PS column, 25 under the PE column, 50 under Total and 1 under Credit (cell x-positions verified against the printed column headers); no CT/TA/sessional-total printed for this row.",
+    "Experiment 6 prints 'Squashes& Cordials' with no space before '&' (p.17) — verbatim.",
+    "Reference row 5 prints anomalous 'Products”. S, Tata McGraw-Hill Education' (stray ' S,' token) (p.16) — verbatim."
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "scheme_header",
+   "print": "B.TECH IV YEAR VII SEMESTER FOOD TECHNOLOGY — SEMESTER- VII — SESSION 2021-22",
+   "locator": "p.2",
+   "note": "printed as three stacked lines: 'B.TECH IV YEAR VII SEMESTER FOOD TECHNOLOGY' / 'SEMESTER- VII' / 'SESSION 2021-22'"
+  },
+  {
+   "kind": "scheme_row_hsmc",
+   "print": "1  KHU701/KHU702  HSMC -1 #/ HSMC-2  3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 Semester-VII table Sl.No 1",
+   "note": "columns L3 T0 P0 | CT30 TA20 Total50 | PS- TE100 PE- | Total150 Credit3; HSMC human-values slot, no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_dept_elective",
+   "print": "2  KFT 071-073  Departmental Elective-IV  3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 Semester-VII table Sl.No 2",
+   "note": "pool covering KFT-071/072/073 (detailed separately)"
+  },
+  {
+   "kind": "scheme_row_dept_elective",
+   "print": "3  KFT 074-076  Departmental Elective-V  3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 Semester-VII table Sl.No 3",
+   "note": "pool covering KFT-074/075/076 (detailed separately)"
+  },
+  {
+   "kind": "scheme_row_open_elective",
+   "print": "4  Open Elective-II  [Annexure - B(iv)]  3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 Semester-VII table Sl.No 4",
+   "note": "open elective slot, no code printed in this document"
+  },
+  {
+   "kind": "scheme_row_lab",
+   "print": "5  KFT 751  FOOD QUALITY EVALUATION LAB  0 0 2 25 25 50 1",
+   "locator": "p.2 Semester-VII table Sl.No 5",
+   "note": "cells right-aligned under printed headers: 25 under PS, 25 under PE, 50 under Total, 1 under Credit (x-positions verified); CT/TA/sessional-total blank"
+  },
+  {
+   "kind": "scheme_row_mini_project",
+   "print": "6  KFT 752  Mini Project or Internship Assessment*  0 0 2 50 50 1",
+   "locator": "p.2 Semester-VII table Sl.No 6",
+   "note": "cells: 50 under PS, 50 under Total, 1 under Credit (x-positions verified); no detailed syllabus page printed"
+  },
+  {
+   "kind": "scheme_row_project",
+   "print": "7  KFT 753  Project I  0 0 8 150 150 4",
+   "locator": "p.2 Semester-VII table Sl.No 7",
+   "note": "cells: 150 under PS, 150 under Total, 4 under Credit (x-positions verified); no detailed syllabus page printed"
+  },
+  {
+   "kind": "scheme_row_moocs",
+   "print": "8  MOOCs (Essential for Hons. Degree)",
+   "locator": "p.2 Semester-VII table Sl.No 8",
+   "note": "no periods/marks/credit cells printed"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total  12 0 12 850 18",
+   "locator": "p.2 Semester-VII table Total row",
+   "note": "L12 T0 P12 | Total850 | Credit18"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "*The Mini Project or internship (4 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+   "locator": "p.2 footnote"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "DEPARTMENT ELECTIVE – IV",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "KFT-071  FOOD QUALITY & SAFETY MANAGEMENT",
+   "locator": "p.2",
+   "note": "name variant '&' vs detail-page 'AND'"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "KFT-072  FOOD PROCESSING WASTE MANAGEMENT",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "KFT-073  NOVEL TECHNIQUES IN FOOD PROCESSING SECTOR",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "DEPARTMENT ELECTIVE – V",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "KFT-074  FOOD PACKAGING",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "KFT-075  SPECIALITY FOODS",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "KFT-076  FUNDAMENTALS OF FOOD BIOTECHNOLOGY",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "B.TECH IV YEAR VIII SEMESTER FOOD TECHNOLOGY — SEMESTER- VIII — SESSION 2021-22",
+   "locator": "p.3",
+   "note": "printed as three stacked lines"
+  },
+  {
+   "kind": "scheme_row_hsmc",
+   "print": "1  KHU801/KHU802  HSMC-2#/HSMC-1#  3 0 0 30 20 50 100 150 3",
+   "locator": "p.3 Semester-VIII table Sl.No 1",
+   "note": "columns L3 T0 P0 | CT30 TA20 Total50 | TE100 | Total150 Credit3; PS/PE blank; HSMC slot, no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_open_elective",
+   "print": "2  Open Elective-III  [Annexure - B(iv)]  3 0 0 30 20 50 100 150 3",
+   "locator": "p.3 Semester-VIII table Sl.No 2",
+   "note": "open elective slot, no code printed in this document"
+  },
+  {
+   "kind": "scheme_row_open_elective",
+   "print": "3  Open Elective-IV  [Annexure - B(iv)]  3 0 0 30 20 50 100 150 3",
+   "locator": "p.3 Semester-VIII table Sl.No 3",
+   "note": "open elective slot, no code printed in this document"
+  },
+  {
+   "kind": "scheme_row_project",
+   "print": "4  KFT 851  Project  0 0 18 100 300 400 9",
+   "locator": "p.3 Semester-VIII table Sl.No 4",
+   "note": "cells: 100 under PS, 300 under PE, 400 under Total, 9 under Credit (x-positions verified); CT/TA/sessional-total/TE blank; no detailed syllabus page printed"
+  },
+  {
+   "kind": "scheme_row_moocs",
+   "print": "5  MOOCs (Essential for Hons. Degree)",
+   "locator": "p.3 Semester-VIII table Sl.No 5",
+   "note": "no periods/marks/credit cells printed"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total  850 18",
+   "locator": "p.3 Semester-VIII table Total row",
+   "note": "Total850 Credit18; L/T/P cells blank in print"
+  }
+ ],
+ "quirks": [
+  "Cover page (p.1) text layer is scrambled cover-art furniture (fragments out of reading order: 'DR. A.PJ', 'UNIVERSIT', 'EVALUAT', 'B. T', 'FOO', 'NICAL', 'CKNOW', 'US'); it is university page furniture, ignored per RULES §6. Readable cover print: 'Curriculum & Evaluation Scheme FT (VII & VIII semester)', 'EVALUATION SCHEME & SYLLABUS FOR B.TECH. FOURTH YEAR FOOD TECHNOLOGY', 'AS PER AICTE MODEL CURRICULUM', '[Effective from the Session: 2021-22]'.",
+  "Course outcomes are printed WITHOUT Bloom's K-levels throughout the document; 'kl' omitted in cos (printed blank).",
+  "Subject detail pages (pp.4-17) print no marks/evaluation breakdown table; marks for the six departmental electives were taken from the printed Semester-VII scheme table pool rows (Departmental Elective-IV: 'KFT 071-073', Departmental Elective-V: 'KFT 074-076', both L3 T0 P0 CT30 TA20 Total50 TE100 Total150 Credit3), and for the lab from its own scheme row (PS25 PE25 Total50 Credit1). Sparse lab/project scheme rows' cell-to-column mapping verified from printed x-coordinates of the right-aligned numeric cells (pp.2-3).",
+  "Every detailed subject (KFT-071..076) prints a 'COURSE DETAILS' units table with per-item 'LECTURE HOURS' cells and a footer 'TOTAL 45'; lecture hours are transcribed inline as '[LECTURE HOURS: n]' markers using the printed column caption; there is no uniform per-unit lecture count, so 'lectures_per_unit' is omitted.",
+  "Semester-VIII scheme table (p.3) prints the Total row with blank L/T/P cells: 'Total 850 18'."
+ ],
+ "flags": []
+}

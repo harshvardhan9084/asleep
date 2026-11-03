@@ -1,0 +1,1171 @@
+{
+  "pdf_rel": "repo_asleep/PDFs/5-course/2015-16/btech_ft_y2_syllabus_2015-16.pdf",
+  "session": "2015-16",
+  "course": "BTech",
+  "sha16": "64b2867ea9d7b73b",
+  "stem": "01_btech_ft_y2_syllabus_2015-16",
+  "subjects": [
+    {
+      "name": "Process Calculations",
+      "name_print": "PROCESS CALCULATIONS",
+      "codes": [
+        "NCH-301"
+      ],
+      "semester": 3,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Units their dimensions and conversions, Mass and volume relations, Stoichiometric and composition relations, Excess reactants, Degree of completion, Conversion, selectivity and yield. Ideal gas law, Dalton’s Law, Amagat’s Law, and Average molecular weight of gaseous mixtures. Effect of temperature on vapour pressure, Vapour pressure plot (Cox chart), Vapour pressures of miscible and immiscible liquids and solutions, Raoult’s Law and Henry’s Law.",
+        "2": "Humidity and saturation ,Relative Humidity and percent saturation, Dew point, Dry and Wet bulb temperatures, Use of humidity charts for engineering calculations.",
+        "3": "Stoichiometry & Material Balance Material balances for systems with and without chemical reactions, species and elemental balance, Analysis of systems with by-pass, recycle and purge.",
+        "4": "Energy Balance Heat capacity of gases, liquids and solutions, Heat of fusion and Vaporisation. Steady state energy balance for systems with and without chemical reactions. Calculations and application of heat of reaction, combustion, formation, neutralisation and solution. Enthalpy-concentration charts. Combustion of solids, liquids and gaseous fuels, Calculation of theoretical and actual flame temperatures.",
+        "5": "Degrees of freedom in steady state processes, solution of simultaneous material and energy Balance problems using flow sheeting softwares, Unsteady state material and energy balance. Material balance calculations on industrial processes. Material and energy balance calculations using Excel or similar spread sheet software and material balance and energy balance flow sheeting."
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Himmelblau,D.M.\"Basic Principles &Calculations in Chemical Engineering\", 6th ed.Prentice Hall (1996)."
+        },
+        {
+          "no": 2,
+          "book": "Felder & Rousseau, R.W. \"Elementary Principles of Chemical Processes \", 3rd edition. John Wiley."
+        },
+        {
+          "no": 3,
+          "book": "Bhatt., B.I. and Vora S.M. \"Stoichiomerty\" IInd edition, Tata McGraw Hill (1984)"
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 4,
+          "book": "Hougan D. A., Watson K.M. & Ragatz R. A. “Chemical Process Principles” Asia Publishing House"
+        },
+        {
+          "no": 5,
+          "book": "Luben W.L. and Wenzel, L.A. “Chemical Process Analysis Mass and Energy Balance” Prentice Hall"
+        }
+      ],
+      "experiments": [],
+      "quirks": [
+        "Printed heading 'Reference Books' runs inline at the end of Text book 3 line ('...Tata McGraw Hill (1984) Reference Books'); items 4-5 follow as reference books without a separate heading line.",
+        "Printed typos kept verbatim: 'Stoichiomerty', '&Calculations', 'Hougan', 'Luben W.L.', '1.Himmelblau,D.M.' (no space after full stop)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Fluid Flow and Solid Handling",
+      "name_print": "FLUID FLOW AND SOLID HANDLING",
+      "codes": [
+        "NCH-304"
+      ],
+      "semester": 3,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Solids and Their Handling Properties of solids ,screening, industrial screening equipment. Determination of particle size, screen analysis,Sizereduction of solids,stages of reduction , operating variables, intermediate and fine size reduction, power requirement and mechanism. Power driven machines: Crushers, grinders, and conveyors.",
+        "2": "Filtration: Theory, continuous and batch equipments. Flow of solids through fluids, classification and sedimentation.",
+        "3": "Fluid flow: Properties of fluids. Fluid statics: Euler’sequation, Hydrostatic Law and Pressure Measurement. Transport of fluids, energy relationships, pipe fittings, minor losses in pipe flow",
+        "4": "Flow measurements: Orifice meter. Nozzle and venturimeters, rotameter and pitot tube.",
+        "5": "Pumping and compressing: reciprocating pumps, rotary pumps, centrifugal pumps and blowers. Introduction to fluidization."
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "McCabe Smith: Unit Operations in Chemical Engineering, McGraw Hill"
+        },
+        {
+          "no": 2,
+          "book": "Fox, R.A. & McDonald, A.T. “Introduction to Fluid Mechanics, 5th ed: John Wiley (1998)."
+        },
+        {
+          "no": 3,
+          "book": "Kumar D S \"Fluid Mechanics\", S.K, Katria and Sons, Delhi (1998.)"
+        },
+        {
+          "no": 4,
+          "book": "Rajput R.K.”Text book of Fluid Mechanics” , S.Chand and Co., New Delhi, (1998)"
+        },
+        {
+          "no": 5,
+          "book": "Gupta, Vijay and SK Gupta,” Fluid Mechanics and its Applications”Wiley Eastern, NewDelhi,"
+        }
+      ],
+      "reference_books": [],
+      "experiments": [],
+      "quirks": [
+        "Unit V heading printed at bottom of page 3; its text begins on page 4.",
+        "Printed typos kept verbatim: 'Sizereduction', 'screen analysis,Sizereduction of solids,stages of reduction ,', 'Euler’sequation', 'equipments'.",
+        "Text book 2 opens a quotation mark never closed ('“Introduction to Fluid Mechanics, 5th ed: John Wiley (1998).'); Text book 4 begins 'Rajput R.K.”' with a closing-style curly quote; Text book 5 ends with a trailing comma and unbalanced quotes ('...Applications”Wiley Eastern, NewDelhi,')."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Composition, Quality & Safety of Foods",
+      "name_print": "COMPOSITION, QUALITY & SAFETY OF FOODS",
+      "codes": [
+        "NFT-301"
+      ],
+      "semester": 3,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Composition: Chemical constituents of foods: Desirable and Potentially undesirable food constituents and their importance. Recommended Dietary Allowances (RDA). Basal metabolic rate and dietary requirements of different age groups. Composition of foods – General and specific for different foods of plant and animal origin.",
+        "2": "Carbohydrates: Classes, Nomenclature and structure. Dietary utilization and disturbances Lipids: Definition, Classification and structure: Fatty acids composition of natural lipids of plants and animal origin, Essential fatty acids. Role and use of natural lipids and tailor made fats in foods.",
+        "3": "Protein: Physico-chemical properties of amino acids, peptides and proteins, structure - function relationship of proteins, Essential Amino acids. Nutritional attributes of food and their implications.",
+        "4": "Quality: Basic concepts. Nutritional and sensory attributes and their assessments, causes of undesirable changes leading to quality deterioration in foods and their implications. Determination of probable cause(s) of observed quality change in foods.",
+        "5": "Safety: Operational sense of food safety, Potential Food derived health hazards- Microbial contamination. Pesticide residues, Environmental Contamination. Risk and risk assessment. HACCP. Adulteration in Foods. Testing food for its safety."
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Fennema OR.1996. Food Chemistry. Marcel Dekker."
+        },
+        {
+          "no": 2,
+          "book": "Meyer LH. 1987. Food Chemistry. CBS Publishers"
+        },
+        {
+          "no": 3,
+          "book": "Krammer A & Twigg BA.1973. Quality Control in Food Industry. Vol. I,II. AVI Publ."
+        },
+        {
+          "no": 4,
+          "book": "Macrae R, Roloson R & Sadlu MJ. 1994. Encyclopedia of Food Science &Technology & Nutrition. Vol. XVI. Academic Press."
+        }
+      ],
+      "reference_books": [],
+      "experiments": [],
+      "quirks": [
+        "Printed spellings kept verbatim: 'Krammer A & Twigg BA', 'Roloson R & Sadlu MJ', 'Food Science &Technology' (missing space)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Microbiology",
+      "name_print": "FOOD MICROBIOLOGY",
+      "codes": [
+        "NFT-302"
+      ],
+      "semester": 3,
+      "ltp": {
+        "l": 2,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 15,
+        "sessional_ta": 10,
+        "sessional_total": 25,
+        "ese_te_pe": 50,
+        "total": 75
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "General characteristics of microorganism: Classification, morphology, physiology, growth, nutrition and reproduction; Pure culture techniques and maintenance of cultures, control of microorganisms.",
+        "2": "Incidence of microorganism in foods, Sources of contamination. Principles underlying spoilage of foods. Physical and Chemical methods to control microorganisms. Food poisoning and food borne infections, Microbial toxins, Indicator organisms.",
+        "3": "Contamination, spoilage and preservation of cereal products, sugar products, fruit and vegetable products, Bakery Products, Microbiological standard of foods.",
+        "4": "Contamination, spoilage and preservation of Meat products, Fish and Sea foods , Egg and Poultry products, Milk and Milk products and other foods. Microbiolgical limits.",
+        "5": "Food plant sanitation, inspection and control, personnel hygiene, Microbes in food fermentation, putrefaction, Lipolysis; Antagonism and Synergism in microorganisms. Rapid methods in detection of microorganisms. Standard plate count; Yeast and mould count"
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Banawart GJ. 1989. Basic Food Microbiology. 2nd Ed. AVI Publ."
+        },
+        {
+          "no": 2,
+          "book": "Frazier J & Westhoff DC. 1988. Food Microbiology. 4th Ed. McGraw Hill."
+        },
+        {
+          "no": 3,
+          "book": "Garbutt J. 1997. Essentials of Food Microbiology. Arnold Heinemann."
+        },
+        {
+          "no": 4,
+          "book": "Jay JM, Loessner MJ & Golden DA. 2005. Modern Food Microbiology. 7th Ed. Springer."
+        },
+        {
+          "no": 5,
+          "book": "Ray B. 2004. Fundamentals of Food Microbiology.3rd Ed. CRC."
+        }
+      ],
+      "reference_books": [],
+      "experiments": [],
+      "quirks": [
+        "L-T-P printed as '2 :1: 0' (irregular spacing).",
+        "Unit-III heading printed at bottom of page 4; its text begins on page 5.",
+        "Printed typo kept verbatim: 'Microbiolgical limits' (Unit-IV)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Fluid Flow and Solid Handling Lab",
+      "name_print": "FLUID FLOW AND SOLID HANDLING LAB",
+      "codes": [
+        "NCH-354"
+      ],
+      "semester": 3,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 3
+      },
+      "credit": 1,
+      "marks": {
+        "sessional_ct": 10,
+        "sessional_ta": 10,
+        "sessional_total": 20,
+        "ese_te_pe": 30,
+        "total": 50
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [],
+      "reference_books": [],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Equivalent length of various pipe fittings and valves."
+        },
+        {
+          "no": 2,
+          "exp": "Bernoulli’s equation"
+        },
+        {
+          "no": 3,
+          "exp": "Centrifugal pump characteristics"
+        },
+        {
+          "no": 4,
+          "exp": "Flow measurement using orifice meter."
+        },
+        {
+          "no": 5,
+          "exp": "Flow measurement using venturimeter."
+        },
+        {
+          "no": 6,
+          "exp": "Measurement of viscosity of Newtonian and non-Newtonian fluid."
+        },
+        {
+          "no": 7,
+          "exp": "To carry out differential and cumulative screen analysis of given sample of solid particles"
+        },
+        {
+          "no": 8,
+          "exp": "To study the performance of Jaw Crusher and find out it’s crushing efficiency."
+        },
+        {
+          "no": 9,
+          "exp": "To study the performance of Crushing Rolls and find out it’s crushing efficiency."
+        },
+        {
+          "no": 10,
+          "exp": "To study the settling characteristics of a given suspension of particles."
+        }
+      ],
+      "quirks": [
+        "Lab subject: no units printed; 10 printed experiments only.",
+        "No textbooks/reference books printed for this lab.",
+        "Experiments 8-9 print 'it’s crushing efficiency' ('it’s' for 'its') — kept verbatim."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Composition, Quality & Safety of Foods",
+      "name_print": "COMPOSITION, QUALITY & SAFETY OF FOODS LAB",
+      "codes": [
+        "NFT-351"
+      ],
+      "semester": 3,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 4
+      },
+      "credit": 2,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 50,
+        "total": 100
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "BIS and AOAC Methods of Food analysis."
+        },
+        {
+          "no": 2,
+          "book": "“Hand Book of analysis and quality control for fruit and Vegetable Products”. IInd edition. Tata McGraw-Hill Publishing Company Ltd. New Delhi."
+        }
+      ],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Sampling requirements, procedures and methods."
+        },
+        {
+          "no": 2,
+          "exp": "Determination of moisture content of foods by oven drying and distillation methods."
+        },
+        {
+          "no": 3,
+          "exp": "Determination of Total and Acid insoluble ash content in foods."
+        },
+        {
+          "no": 4,
+          "exp": "Determination of Crude fat content by solvent extraction methods in foods."
+        },
+        {
+          "no": 5,
+          "exp": "Determination of crude Protein by Kjeldhal Lowry methods."
+        },
+        {
+          "no": 6,
+          "exp": "Determination of reducing and total sugar content in foods."
+        },
+        {
+          "no": 7,
+          "exp": "Determination of crude Fibre content in foods."
+        },
+        {
+          "no": 8,
+          "exp": "Determination of specific mineral contents in foods such as Ca, Iron, P, Chloride etc."
+        },
+        {
+          "no": 9,
+          "exp": "Determination of specific vitamin content of food such as ascorbic acid, carotenes etc."
+        },
+        {
+          "no": 10,
+          "exp": "Chromatographic Separation and identification of sugars and amino acids."
+        }
+      ],
+      "quirks": [
+        "Scheme row 8 (Sem III) prints the subject name 'Composition, Quality & Safety of Foods' without the word 'Lab'; code NFT-351 sits under 'PRACTICAL /DESIGN /DRAWING' and the detailed page is titled 'COMPOSITION, QUALITY & SAFETY OF FOODS LAB'.",
+        "Scheme marks differ from the other labs: CT 30 / TA 20 / Sessional Total 50, ESE 50, Subject Total 100, Credits 2.",
+        "Reference Books item 2 spans pages 5-6.",
+        "Printed typo kept verbatim: 'Kjeldhal' (experiment 5)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Microbiology Lab",
+      "name_print": "FOOD MICROBIOLOGY LAB",
+      "codes": [
+        "NFT-352"
+      ],
+      "semester": 3,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 3
+      },
+      "credit": 1,
+      "marks": {
+        "sessional_ct": 10,
+        "sessional_ta": 10,
+        "sessional_total": 20,
+        "ese_te_pe": 30,
+        "total": 50
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Banawart GJ. 1989. Basic Food Microbiology. 2nd Ed. AVI Publ."
+        },
+        {
+          "no": 2,
+          "book": "Frazier J & Westhoff DC. 1988. Food Microbiology. 4th Ed. McGraw Hill."
+        },
+        {
+          "no": 3,
+          "book": "Garbutt J. 1997. Essentials of Food Microbiology. Arnold Heinemann."
+        }
+      ],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Microscope its parts and utility in identification and differentiation of various microorganism as bacteria, yeast and mold."
+        },
+        {
+          "no": 2,
+          "exp": "Familiarization with common techniques for handling pure culture serial dilution, Inoculation, slide preparation incubation, counting etc."
+        },
+        {
+          "no": 3,
+          "exp": "Micrometry and determination of size of different microbes."
+        },
+        {
+          "no": 4,
+          "exp": "Simple and differential staining of microorganisms and their examination."
+        },
+        {
+          "no": 5,
+          "exp": "Direct total, viable, and non-viable count of microorganisms in milk."
+        },
+        {
+          "no": 6,
+          "exp": "Preparation and sterilization of media and glass ware for microbial counts."
+        },
+        {
+          "no": 7,
+          "exp": "Determination of Standard Plate Count (SPC) in natural and/or processed foods."
+        },
+        {
+          "no": 8,
+          "exp": "Microbiological examination of some selected natural and processed foods."
+        },
+        {
+          "no": 9,
+          "exp": "Microbiological examination of potable water: Total and coliform count."
+        },
+        {
+          "no": 10,
+          "exp": "Enumeration of coliform organism in some selected processed foods."
+        }
+      ],
+      "quirks": [
+        "Lab subject: no units printed; 10 printed experiments; books printed under 'Reference Books:'."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Sensor & Instrumentation",
+      "name_print": "SENSOR AND INSTRUMENTATION",
+      "codes": [
+        "NEE-405"
+      ],
+      "semester": 4,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Sensors & Transducer, Definition, Classification & Characterization, Displacement Sensors: Potentiometric, LVDT & Optical Encoder; Accelerometers: Mass & Piezoelectric; Strain Gauges: Wire & Semiconductor; Pressure Sensor: LVDT based Diaphragm & Piezoelectric, Temperature Sensor: Thermocouple, RTD, & Liquid in Glass; Flow Sensor: Ultrasonic, Electromagnetic, Laser & Thermal; Level Sensor: Ultrasonic & Capacitive; Proximity Sensor, Concept of Smart Sensors:",
+        "2": "Signals Definition, Analog Signal Processing Circuits: Bridges, Op-amp Amplifiers, Differential Amplifiers, Active Filters(Low Pass & High Pass), Frequency to Voltage Convertor, Voltage to Frequency Convertor, Modulator (AM), & Demodulator (Envelop Detector).",
+        "3": "Digital Processing of Analog Signal: Analog Multiplexer Circuit, S/H Circuit, ADC, DAC, Convolution, Digital Filtering, Digital Telemetry System: PCM Display Devices: Analog (CRT), Digital (LCD, LED) Recorders: Analog (Magnetic, Strip Chart), Digital Printers.",
+        "4": "Virtual Instrumentation Instrumentation System, DAQ System, Software for Virtual Instrumentation. Instrumentation System for Flow, Pressure, and Temperature Measurement Measurement Errors: Gross errors and systematic errors, Absolute and relative errors, Accuracy, Precision, Resolution and Significant figures.",
+        "5": "Introduction to necessity of sensors and instrumentation for Food processing , Food quality and Food safety. Flow diagram of Fruit & vegetable processing industry and instrumentation setup. Application of Sensors and instrumentation in Food Packaging. Introduction to Automation and Robotics in Food Processing Industries."
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "DVS Murthy “Transducers and Instrumentation, PHI 2nd Edition 2013"
+        },
+        {
+          "no": 2,
+          "book": "D Patranabis “Sensors and Transducers” PHI 2nd Edition 2013."
+        },
+        {
+          "no": 3,
+          "book": "Ranjan CS (et.al) “Instrumentation and Device Systems” PHI."
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Arun K. Ghosh “Introduction to measurements and Instrumentation, PHI, 4th Edition 2012."
+        },
+        {
+          "no": 2,
+          "book": "A.D. Helfrick and W.D. Cooper “Modern Electronic Instrumentation & Measurement Techniques.” 2001"
+        },
+        {
+          "no": 3,
+          "book": "David A. Bell “Electronic Instrumentation & measurement” 3rd Edition 2013, Oxford University Press."
+        },
+        {
+          "no": 4,
+          "book": "Hermann K.P. Neubert, “Instrument Transducers” 2nd Edition 2012, Oxford University Press"
+        }
+      ],
+      "experiments": [],
+      "objectives_print": [
+        "Objective & Outcome of learning",
+        "This is intended to be a compulsory course for all branches of Engg. The objective of the course is to familiarize with different types of main sensors and transducers used in Industry and to familiarize how signal conditioning is to be carried out for further use. Then how to acquire this data for computer and to telemeter it over a distance. Some basic fundamental of virtual instrumentation system and display devices is stressed. This course enables the students to learn the sensors and transducers & their application course in industry."
+      ],
+      "quirks": [
+        "L-T-P printed as '3 1 0' (spaces, no colons).",
+        "Only subject in this document with a printed objectives paragraph, under heading 'Objective & Outcome of learning'.",
+        "Text book 1 has an unclosed quotation mark: 'DVS Murthy “Transducers and Instrumentation, PHI 2nd Edition 2013'.",
+        "Printed spellings kept verbatim: 'Envelop Detector' (Unit-II), 'Convertor', 'Active Filters(Low Pass & High Pass)'.",
+        "Scheme table (p.2) prints the name as 'Sensor & Instrumentation'; detailed page prints 'SENSOR AND INSTRUMENTATION'."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Chemistry & Nutrition",
+      "name_print": "FOOD CHEMISTRY AND NUTRITION",
+      "codes": [
+        "NFT-401"
+      ],
+      "semester": 4,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "(a) Water in Foods: Structure. Properties, Interactions, Water activity, Sorption Isotherms and food stability. (b) Carbohydrates: Functions, Reactions and properties of simple and complex carbohydrate, Browning reactions, Selection of Natural or Modified carbohydrates for incorporation into processed food.",
+        "2": "Lipids: Consistency of commercial fats, Lipolysis, Auto oxidation, Thermal Decomposition and effect of ionizing radiation, Refining of oils, Modification of oils and fats, Role of food lipids in flavor, Nutritional aspects of natural and modified fats.",
+        "3": "Proteins: Chemical reactions and interactions of amino acids and proteins, De-naturation and it implications, Functional properties of food proteins, Modification of food proteins in processing and storage and its implications. Nutritive value of food proteins.",
+        "4": "Vitamins, Minerals, Pigments and Flavours: Chemistry and stability of water and fat soluble vitamins, Chemical properties of minerals and their bioavailability, Enrichment and Fortification. Natural pigments in foods and their retention in processed foods. Flavoring constituents in foods, Development of process and reaction flavour volatiles.",
+        "5": "Food groups and their typical composition; essential nutrients- sources, functions, deficiency diseases; requirements and recommended dietary allowances. Malnutrition, Protein quality evaluation, Calorific value of foods."
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Belitz HD.1999. Food Chemistry. Springer Verlag."
+        },
+        {
+          "no": 2,
+          "book": "DeMan JM. 1976. Principles of Food Chemistry. AVI Publications."
+        },
+        {
+          "no": 3,
+          "book": "Fennema OR.1996. Food Chemistry. Marcel Dekker."
+        },
+        {
+          "no": 4,
+          "book": "Meyer LH. 1987. Food Chemistry. CBS Publishers."
+        },
+        {
+          "no": 5,
+          "book": "Swaminathan M. 1974. Essentials of Foods and Nutrition. Vol. II. Ganesh & Co."
+        }
+      ],
+      "reference_books": [],
+      "experiments": [],
+      "quirks": [
+        "Unit headings printed as 'UNIT I'…'UNIT V' (all caps); Unit I printed with (a)/(b) sub-parts.",
+        "Printed typo kept verbatim: 'De-naturation and it implications' (UNIT III).",
+        "Text book 5 printed at top of page 8 (book list spans pages 7-8)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Biochemistry",
+      "name_print": "FOOD BIOCHEMISTRY",
+      "codes": [
+        "NFT-402"
+      ],
+      "semester": 4,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "ese_te_pe": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Nomenclature, Classification and specificity of enzymes and cofactors, Enzyme Kinetics: Factors affecting the rate of enzyme catalyzed reaction, regulation and control of enzyme action.",
+        "2": "Metabolic Pathways: Carbohydrates, proteins and fats; catabolism and anabolism",
+        "3": "Digestion, Absorption, Assimilation and Transport of nutrients in human beings.",
+        "4": "Post harvest and Postmortem biochemical changes in foods: Changes in composition, color, texture, flavor and its implications on quality of foods.",
+        "5": "Application of enzymes in food processing: Endogenous enzymes and their role in modification of foods, enzyme added to foods during processing sources, conversions and specific applications."
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "A.L.Lehninger Principle of Biochemistry"
+        },
+        {
+          "no": 2,
+          "book": "Lubert Stryen Biochemistry"
+        },
+        {
+          "no": 3,
+          "book": "Fennema OR.1996. Food Chemistry. Marcel Dekker."
+        },
+        {
+          "no": 4,
+          "book": "Meyer LH. 1987. Food Chemistry. CBS Publishers."
+        },
+        {
+          "no": 5,
+          "book": "S.A.Joshi Nutrition and Dietetics"
+        },
+        {
+          "no": 6,
+          "book": "J.H.Weil General Biochemistry"
+        }
+      ],
+      "reference_books": [],
+      "experiments": [],
+      "quirks": [
+        "Printed spellings kept verbatim: 'Lubert Stryen' (for Stryer), 'A.L.Lehninger', 'S.A.Joshi', 'J.H.Weil'.",
+        "Unit II text printed without a trailing full stop."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Additives",
+      "name_print": "FOOD ADDITIVES",
+      "codes": [
+        "NFT-403"
+      ],
+      "semester": 4,
+      "ltp": {
+        "l": 2,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 15,
+        "sessional_ta": 10,
+        "sessional_total": 25,
+        "ese_te_pe": 50,
+        "total": 75
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Definitions of Food Additives, Classification and Functions, Legitimate uses of Additives in foods, Intentional & Non Intentional additives, Indirect food additives; Difference between Additives & Adulterants, Food uses and functions in formulations; Toxicological evaluation of food additives.",
+        "2": "Uses & functions of:Acid, Base, Buffer systems, Salts and Chelating/Sequestering agents, Masticatory substances. Low calorie and non nutritive sweeteners, Polyols.",
+        "3": "Antioxidants, Emulsifying and stabilizing agents, Anti-caking agents, Thickeners, Firming agents. Flour bleaching agents and Bread improvers.",
+        "4": "Anti microbial agents / Class I and Class II preservatives as per PFA Act. Clarifying agents. Gases and Propellants. Tracers and other additives.",
+        "5": "Colours and Flavours (synthetic and natural) Types of flavours, Flavours generated during processing – reaction flavours, Stability of flavours during food processing, flavour emulsions; essential oils and oleoresins."
+      },
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Branen AL, Davidson PM & Salminen S. 2001. Food Additives. 2nd Ed.Marcel Dekker."
+        },
+        {
+          "no": 2,
+          "book": "Gerorge AB. 1996. Encyclopedia of Food and Color Additives. Vol. III.CRC Press."
+        },
+        {
+          "no": 3,
+          "book": "Gerorge AB. 2004. Fenaroli's Handbook of Flavor Ingredients. 5th Ed.CRC Press."
+        },
+        {
+          "no": 4,
+          "book": "Morton ID & Macleod AJ .1990. Food Flavours. Part A, BC. Elsevier."
+        },
+        {
+          "no": 5,
+          "book": "Stephen AM. (Ed.). 2006. Food Polysaccharides and Their Applications.Marcel Dekker."
+        },
+        {
+          "no": 6,
+          "book": "Fennema OR.1996. Food Chemistry. Marcel Dekker."
+        },
+        {
+          "no": 7,
+          "book": "FSSAI , 2006."
+        }
+      ],
+      "reference_books": [],
+      "experiments": [],
+      "quirks": [
+        "Unit headings printed as 'UNIT I'…'UNIT V' (all caps).",
+        "Printed spellings kept verbatim: 'Gerorge AB' (books 2-3), 'Uses & functions of:Acid' (UNIT II, missing space), 'Morton ID & Macleod AJ .1990' (space before year), 'FSSAI , 2006.' (spaced comma).",
+        "Text books 5-7 printed at top of page 9 (book list spans pages 8-9)."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Sensor & Instrumentation Lab",
+      "name_print": "SENSOR AND INSTRUMENTATION LAB",
+      "codes": [
+        "NEE-455"
+      ],
+      "semester": 4,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 3
+      },
+      "credit": 1,
+      "marks": {
+        "sessional_ct": 10,
+        "sessional_ta": 10,
+        "sessional_total": 20,
+        "ese_te_pe": 30,
+        "total": 50
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [],
+      "reference_books": [],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Study of Potentiometric Displacement Sensor."
+        },
+        {
+          "no": 2,
+          "exp": "Study of LVDT sensor"
+        },
+        {
+          "no": 3,
+          "exp": "Study of Thermocouple & RTD sensors."
+        },
+        {
+          "no": 4,
+          "exp": "Frequency measurement of supply voltage"
+        },
+        {
+          "no": 5,
+          "exp": "Study of Ultrasonic Flow Sensor"
+        },
+        {
+          "no": 6,
+          "exp": "Study of ADC & DAC"
+        },
+        {
+          "no": 7,
+          "exp": "Study of Proximity Sensors."
+        },
+        {
+          "no": 8,
+          "exp": "Acquisition of various sensors Output using USB DAQ."
+        },
+        {
+          "no": 9,
+          "exp": "Study of Active Low Pass Filter."
+        },
+        {
+          "no": 10,
+          "exp": "Study of Strain Gauges."
+        },
+        {
+          "no": 11,
+          "exp": "Institutes may add four more experiments based virtual instrumentation and unit V."
+        }
+      ],
+      "quirks": [
+        "Printed preamble above the experiment list: 'Minimum of nine experiments from the following:'.",
+        "Experiment 11 is an institute note, kept verbatim in the experiment list.",
+        "Lab subject: no units and no textbooks/reference books printed."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Chemistry & Nutrition Lab",
+      "name_print": "FOOD CHEMISTRY AND NUTRITION LAB",
+      "codes": [
+        "NFT-451"
+      ],
+      "semester": 4,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 3
+      },
+      "credit": 1,
+      "marks": {
+        "sessional_ct": 10,
+        "sessional_ta": 10,
+        "sessional_total": 20,
+        "ese_te_pe": 30,
+        "total": 50
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "The chemical analysis of foods and food products, by Morris B. Jacobs, III Edition,CBS Publishers and distributors New Delhi."
+        },
+        {
+          "no": 2,
+          "book": "ISI hand book of food analysis"
+        },
+        {
+          "no": 3,
+          "book": "Hand book of analysis and quality control for fruit and vegetable products, by S.Ranganna, II Ed., Tata McGraw Hill Publishing Co. New Delhi."
+        },
+        {
+          "no": 4,
+          "book": "Official Method of analysis of AOAC"
+        }
+      ],
+      "reference_books": [],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Analysis of water for potable and food purposes"
+        },
+        {
+          "no": 2,
+          "exp": "Moisture content in foods in relation to their stability"
+        },
+        {
+          "no": 3,
+          "exp": "Non-enzymatic browning reactions and its determinations"
+        },
+        {
+          "no": 4,
+          "exp": "Determination of rate/ extent of hydrolysis of sucrose/starch"
+        },
+        {
+          "no": 5,
+          "exp": "Determination of free fatty acid content in fats and oils"
+        },
+        {
+          "no": 6,
+          "exp": "Detection and estimation of oxidative rancidity in fats/oils"
+        },
+        {
+          "no": 7,
+          "exp": "Determination of heat stability of vitamin C"
+        },
+        {
+          "no": 8,
+          "exp": "Study of some reactions of proteins"
+        },
+        {
+          "no": 9,
+          "exp": "Study of some processing changes in proteins"
+        },
+        {
+          "no": 10,
+          "exp": "Study of some functional properties of proteins"
+        }
+      ],
+      "quirks": [
+        "L-T-P printed as '   0:0:3' (leading spaces in print).",
+        "Printed spellings kept verbatim: 'III Edition,CBS Publishers' (missing space, book 1), 'S.Ranganna'.",
+        "Lab subject: books printed under heading 'Text Books:'."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Biochemistry Lab",
+      "name_print": "FOOD BIOCHEMISTRY LAB",
+      "codes": [
+        "NFT-452"
+      ],
+      "semester": 4,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "sessional_ct": 10,
+        "sessional_ta": 10,
+        "sessional_total": 20,
+        "ese_te_pe": 30,
+        "total": 50
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "An introduction to practical biochemistry by D.T.Plummer, III Ed. Tata McGraw Hill Publishing Co. New Delhi"
+        },
+        {
+          "no": 2,
+          "book": "Principles of Enzymology for Food Science by J.R.Whitaker, Marcel Dekker Inc"
+        },
+        {
+          "no": 3,
+          "book": "Methods in Enzymology by S.P.Colwick and N.O. Kaplan, Acadmic Press"
+        }
+      ],
+      "reference_books": [],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Determination of enzyme activity and specific activity (Enzyme assay)"
+        },
+        {
+          "no": 2,
+          "exp": "Determination of effect of temperature on enzyme activity"
+        },
+        {
+          "no": 3,
+          "exp": "Determination of effect of pH on enzyme activity"
+        },
+        {
+          "no": 4,
+          "exp": "Determination of effect of substrate concentration on enzyme activity & estimation of Km."
+        },
+        {
+          "no": 5,
+          "exp": "Estimation of enzymatic browning in foods."
+        },
+        {
+          "no": 6,
+          "exp": "Estimation of enhancement in an enzyme activity during ripening of fruits"
+        },
+        {
+          "no": 7,
+          "exp": "Estimation of enhancement in an enzyme activity during sprouting of grains"
+        },
+        {
+          "no": 8,
+          "exp": "Detection/ estimation of catalase and peroxidase activity in vegetable"
+        },
+        {
+          "no": 9,
+          "exp": "Application of enzymes in various foods."
+        }
+      ],
+      "quirks": [
+        "Printed spellings kept verbatim: 'S.P.Colwick and N.O. Kaplan, Acadmic Press' (book 3).",
+        "Experiment 8 printed 'in vegetable' (singular) — kept verbatim.",
+        "Lab subject: books printed under heading 'Text Books:'."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Additives Lab",
+      "name_print": "FOOD ADDITIVES LAB",
+      "codes": [
+        "NFT-453"
+      ],
+      "semester": 4,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "sessional_ct": 10,
+        "sessional_ta": 10,
+        "sessional_total": 20,
+        "ese_te_pe": 30,
+        "total": 50
+      },
+      "subject_type": "practical",
+      "units": {},
+      "cos": [],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "ISI hand book of food analysis"
+        },
+        {
+          "no": 2,
+          "book": "Hand book of analysis and quality control for fruit and vegetable products, by S.Ranganna, II Ed., Tata McGraw Hill Publishing Co. New Delhi."
+        },
+        {
+          "no": 3,
+          "book": "Official Method of analysis of AOAC"
+        }
+      ],
+      "reference_books": [],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Estimation of preservatives and their effects in foods."
+        },
+        {
+          "no": 2,
+          "exp": "Estimation of non nutritive sweeteners and their effect in foods"
+        },
+        {
+          "no": 3,
+          "exp": "Estimation of effects of antioxidants usage in foods."
+        },
+        {
+          "no": 4,
+          "exp": "Extraction of essential oils."
+        },
+        {
+          "no": 5,
+          "exp": "Use of oleoresins in foods."
+        },
+        {
+          "no": 6,
+          "exp": "Observation of the effect of anticaking agents in foods."
+        },
+        {
+          "no": 7,
+          "exp": "Estimation of Thickeners and their effects in foods."
+        },
+        {
+          "no": 8,
+          "exp": "Use of Acidulants in foods and their effects."
+        },
+        {
+          "no": 9,
+          "exp": "Estimation of Colors in foods."
+        },
+        {
+          "no": 10,
+          "exp": "Detection/Estimation of adulterants in some foods"
+        }
+      ],
+      "quirks": [
+        "Lab subject: books printed under heading 'Text Books:'."
+      ],
+      "flags": []
+    }
+  ],
+  "non_subject_rows": [
+    {
+      "kind": "scheme_header",
+      "print": "STUDY AND EVALUATION SCHEME / B.TECH. (FOOD TECHNOLOGY) / [EFFECTIVE FROM THE SESSION 2015-16 AND ONWARDS]",
+      "locator": "p.1 (Semester-III scheme header)"
+    },
+    {
+      "kind": "scheme_row_elective_pool",
+      "print": "NAS-301/NOE-031-039 | Mathematics-III / Science Based Open elective | 3 | 1 | 0 | 30 | 20 | 50 | 100 | 150 | 4",
+      "locator": "p.1 Sem-III scheme row 1; columns L T P | CT TA Sessional-Total | ESE | Subject-Total | Credits; no unit detail anywhere in this document"
+    },
+    {
+      "kind": "scheme_row",
+      "print": "NHU-301/NHU-302 | Industrial Psychology / Industrial Sociology | 2 | 0 | 0 | 15 | 10 | 25 | 50 | 75 | 2",
+      "locator": "p.1 Sem-III scheme row 5; columns L T P | CT TA Sessional-Total | ESE | Subject-Total | Credits; no unit detail anywhere in this document"
+    },
+    {
+      "kind": "scheme_row_audit",
+      "print": "AUC-001/AUC-002 | Human Values & Professional Ethics / Cyber Security | 2 | 0 | 0 | 15 | 10 | 25 | 50 | 75*",
+      "locator": "p.1 Sem-III scheme, unnumbered audit row between rows 6 and 7; Subject-Total and Credits printed blank; see footnote"
+    },
+    {
+      "kind": "scheme_row",
+      "print": "NGP-301 | GP | 50 | 50 | 50",
+      "locator": "p.1 Sem-III scheme row 10; the three 50s align (word-coordinate check) under TA / Sessional-Total / Subject-Total; L,T,P,CT,ESE,Credits printed blank"
+    },
+    {
+      "kind": "scheme_total",
+      "print": "TOTAL | 18 | 5 | 10 | 1000 | 25",
+      "locator": "p.1 Sem-III scheme totals row; columns L T P | Subject-Total | Credits"
+    },
+    {
+      "kind": "footnote",
+      "print": "* Human Values & Professional Ethics / Cyber Security will be offered as a compulsory audit course for which passing marks are 30% in End Semester Examination and 40% in aggregate.",
+      "locator": "p.1 footnote below Sem-III scheme"
+    },
+    {
+      "kind": "scheme_header",
+      "print": "STUDY AND EVALUATION SCHEME / B.TECH (FOOD TECHNOLOGY) / [EFFECTIVE FROM THE SESSION 2015-16 AND ONWARDS]",
+      "locator": "p.2 (Semester-IV scheme header; prints 'B.TECH' without the trailing full stop used on p.1)"
+    },
+    {
+      "kind": "scheme_row_elective_pool",
+      "print": "NOE-041-049/NAS-401 | Science Based Open Elective/Mathematics-III | 3 | 1 | 0 | 30 | 20 | 50 | 100 | 150 | 4",
+      "locator": "p.2 Sem-IV scheme row 1; columns L T P | CT TA Sessional-Total | ESE | Subject-Total | Credits; no unit detail anywhere in this document"
+    },
+    {
+      "kind": "scheme_row",
+      "print": "NHU-401/NHU-402 | Industrial Psychology / Industrial Sociology | 2 | 0 | 0 | 15 | 10 | 25 | 50 | 75 | 2",
+      "locator": "p.2 Sem-IV scheme row 5; columns L T P | CT TA Sessional-Total | ESE | Subject-Total | Credits; no unit detail anywhere in this document"
+    },
+    {
+      "kind": "scheme_row_audit",
+      "print": "AUC-002/AUC-001 | Cyber Security / Human Values & Professional Ethics | 2 | 0 | 0 | 15 | 10 | 25 | 50 | 75*",
+      "locator": "p.2 Sem-IV scheme, unnumbered audit row between rows 6 and 7; Subject-Total and Credits printed blank; see footnote"
+    },
+    {
+      "kind": "scheme_row",
+      "print": "NGP-401 | GP | 50 | 50 | 50",
+      "locator": "p.2 Sem-IV scheme row 11; the three 50s align (word-coordinate check) under TA / Sessional-Total / Subject-Total; L,T,P,CT,ESE,Credits printed blank"
+    },
+    {
+      "kind": "scheme_total",
+      "print": "TOTAL | 18 | 5 | 10 | 1000 | 25",
+      "locator": "p.2 Sem-IV scheme totals row; columns L T P | Subject-Total | Credits"
+    },
+    {
+      "kind": "footnote",
+      "print": "* Human Values & Professional Ethics / Cyber Security will be offered as a compulsory audit course for which passing marks are 30% in End Semester Examination and 40% in aggregate.",
+      "locator": "p.2 footnote below Sem-IV scheme"
+    }
+  ],
+  "quirks": [
+    "No course outcomes (COs) or K-levels printed anywhere in this 2015-16 document; every cos array is printed-blank (zero-guessing, nothing invented).",
+    "No eligibility or prerequisites printed anywhere in the document; no lectures-per-unit counts printed.",
+    "Only NEE-405 prints an objectives paragraph ('Objective & Outcome of learning'); all other subjects print no objectives.",
+    "Scheme-only rows without unit detail in this document: NAS-301/NOE-031-039 (Sem III) and NOE-041-049/NAS-401 (Sem IV) Mathematics-III / Science Based Open Elective; NHU-301/302 and NHU-401/402 Industrial Psychology / Industrial Sociology; AUC-001/AUC-002 compulsory audit course; NGP-301/NGP-401 GP. All recorded in non_subject_rows.",
+    "Audit course ESE printed as '75*' on both scheme pages with the footnote 'Human Values & Professional Ethics / Cyber Security will be offered as a compulsory audit course for which passing marks are 30% in End Semester Examination and 40% in aggregate.'",
+    "GP scheme rows print three '50' values which align (word-coordinate check, PyMuPDF) under the TA / Sessional Total / Subject Total columns; L, T, P, CT, ESE and Credits are printed blank.",
+    "Text layer (PyMuPDF) is clean and was cross-checked against page renders: no garbled regions, no OCR recovery needed (no unit_ocr_recovered_no_text_layer flags)."
+  ],
+  "flags": []
+}

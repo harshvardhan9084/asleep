@@ -1,0 +1,2652 @@
+{
+  "pdf_rel": "repo_asleep/PDFs/5-course/2020-21/btech_ft_y3_scheme-syllabus_2020-21.pdf",
+  "session": "2020-21",
+  "course": "BTech",
+  "sha16": "3b5860baf691c4a1",
+  "stem": "02_btech_ft_y3_scheme-syllabus_2020-21",
+  "subjects": [
+    {
+      "name": "Chemical Reaction Engineering",
+      "name_print": "CHEMICAL REACTION ENGINEERING",
+      "codes": [
+        "KCH 504"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Chemical Reactions : Rate of chemical reactions, variable affecting the reaction rate, order of reaction, rate constant, elementary and non-elementary reaction mechanism. Temperature dependency from thermodynamics, Arrhenius collision and activated complex theories.",
+        "2": "Integral and differential methods for analyzing kinetic data, Interpretation of constant volume batch reactor data for zero, first, second and third order reactions, Half life period, Irreversible reaction in parallel and series, Auto catalytic reaction.",
+        "3": "Interpretation of reactor data in variable volume batch reactions, Design equations for batch, plug flow, back mix flow and semi batch reactors for isothermal, adiabatic homogeneous reaction.",
+        "4": "Space velocity and residence time in flow reactors, Design of batch, plug flow and mixed flow reactors for first and second order single reactions, Size comparison of single reactors like batch, plug flow and CSTR for first and second order single reactions. Multiple reactor systems, Plug flow reactions in series and for parallel equal sized CSTR’s in series. Best arrangement of different type of reactors.",
+        "5": "Temperature and pressure effects for single reaction, Optimal temperature progression for first order reactions. Introduction to Non-Ideal flow, Residence time distribution of fluid in vessels, E , F and C curves & their relation."
+      },
+      "unit_parts": {
+        "1": [
+          "Chemical Reactions : Rate of chemical reactions, variable affecting the reaction rate, order of reaction, rate constant, elementary and non-elementary reaction mechanism. Temperature dependency from thermodynamics, Arrhenius collision and activated complex theories."
+        ],
+        "2": [
+          "Integral and differential methods for analyzing kinetic data, Interpretation of constant volume batch reactor data for zero, first, second and third order reactions, Half life period, Irreversible reaction in parallel and series, Auto catalytic reaction."
+        ],
+        "3": [
+          "Interpretation of reactor data in variable volume batch reactions, Design equations for batch, plug flow, back mix flow and semi batch reactors for isothermal, adiabatic homogeneous reaction."
+        ],
+        "4": [
+          "Space velocity and residence time in flow reactors, Design of batch, plug flow and mixed flow reactors for first and second order single reactions, Size comparison of single reactors like batch, plug flow and CSTR for first and second order single reactions. Multiple reactor systems, Plug flow reactions in series and for parallel equal sized CSTR’s in series. Best arrangement of different type of reactors."
+        ],
+        "5": [
+          "Temperature and pressure effects for single reaction, Optimal temperature progression for first order reactions. Introduction to Non-Ideal flow, Residence time distribution of fluid in vessels, E , F and C curves & their relation."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          8
+        ],
+        "2": [
+          8
+        ],
+        "3": [
+          8
+        ],
+        "4": [
+          9
+        ],
+        "5": [
+          9
+        ]
+      },
+      "total_lecture_hours_print": 42,
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the basic concepts of chemical reaction engineering."
+        },
+        {
+          "no": 2,
+          "text": "Understand about reactor analysis and design."
+        },
+        {
+          "no": 3,
+          "text": "Decide the type of reactors and their arrangement of reactors for best performance."
+        },
+        {
+          "no": 4,
+          "text": "Analyse the effect of temperature and pressure on the reaction kinetics"
+        },
+        {
+          "no": 5,
+          "text": "Understand the basics of non-ideal flow and analyze the RTD studies for any flow reactor"
+        }
+      ],
+      "objectives_print": [
+        "To impart the basic concepts of Chemical Reaction Engineering",
+        "To develop understanding about reactor analysis, performance and design.",
+        "To develop understanding of Reaction Kinetics"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Smith, J, M, “Chemical Engineering Kinetics”, 3rd Edition, McGraw-Hill (1990).",
+          "year": "1990"
+        },
+        {
+          "no": 2,
+          "book": "Levenspiel, O., “Chemical Reaction Engineering”, 3rd Edition, John Wiley, (1998).",
+          "year": "1998"
+        },
+        {
+          "no": 3,
+          "book": "Fogler H.S., Elements of Chemical Reaction Engineering, 4th edition, Prentice Hall of India, (2008)",
+          "year": "1997"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.4",
+      "source_scheme_line": "1 KCH 504 CHEMICAL REACTION ENGINEERING 3 1 0 30 20 50 100 150 4",
+      "quirks": [
+        "p.4 header prints 'SUBJE CT CODE' (typo) and 'EXAM DURATION:' with no value printed after the colon",
+        "Book 3 year cell prints 1997 while its title cites 4th edition (2008) - kept verbatim"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Chemical Process Thermodynamics",
+      "name_print": "CHEMICAL PROCESS THERMODYNAMICS",
+      "codes": [
+        "KCH 505"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "exam_duration_print": "3 Hours",
+      "units": {
+        "1": "Basic concepts in Thermodynamics, laws of Thermodynamics and their applications in engineering problems, steady flow processes, unsteady flow processes, entropy and entropy balance for open systems",
+        "2": "An introduction to vapor-liquid Equilibria, qualitative behavior of the vapour-liquid equilibria (VLE),simple models for vapor-liquid equilibria ,Raoults law, Henry’s law,Dew point and Bubble point calculations, VLE by modified Raoults law, the gamma/Philips formulation of VLE",
+        "3": "Solution Thermodynamics- Fundamental property relay, Chemical potential, partial molar Property, partial properties in binary solutions, equations relating molar and partial molar properties, criteria for Equilibrium between phases in multi component non reacting systems in terms of chemical potential, fugacity and fugacity coefficient for pure species, fugacity and fugacity coefficient for species in solutions, fugacity coefficient from the virial equation of state and generalized correlations",
+        "4": "Solution Thermodynamics Applications- ideal solution, Lewis randall rule, excess Gibbs energy and activity coefficient, Liquid phase properties from VLE data,Excess Gibbs energy data reduction, Thermodynamic consistency of phase equilibria, applications of the correlations and prediction of phase equilibria, models for excess Gibbs energy, Property change of mixing",
+        "5": "Chemical Reaction Equilibria- The reaction coordinate, standard Gibbs free energy change and Equilibrium constant, Effect of temperature on Equilibrium constant, evaluation of Equilibrium constant, relation of equilibrium constants to composition for gas phase and liquid phase reactions, Equilibrium conversion for single reaction, Thermodynamic analysis of simultaneous reactions"
+      },
+      "unit_parts": {
+        "1": [
+          "Basic concepts in Thermodynamics, laws of Thermodynamics and their applications in engineering problems, steady flow processes, unsteady flow processes, entropy and entropy balance for open systems"
+        ],
+        "2": [
+          "An introduction to vapor-liquid Equilibria, qualitative behavior of the vapour-liquid equilibria (VLE),simple models for vapor-liquid equilibria ,Raoults law, Henry’s law,Dew point and Bubble point calculations, VLE by modified Raoults law, the gamma/Philips formulation of VLE"
+        ],
+        "3": [
+          "Solution Thermodynamics- Fundamental property relay, Chemical potential, partial molar Property, partial properties in binary solutions, equations relating molar and partial molar properties, criteria for Equilibrium between phases in multi component non reacting systems in terms of chemical potential, fugacity and fugacity coefficient for pure species, fugacity and fugacity coefficient for species in solutions, fugacity coefficient from the virial equation of state and generalized correlations"
+        ],
+        "4": [
+          "Solution Thermodynamics Applications- ideal solution, Lewis randall rule, excess Gibbs energy and activity coefficient, Liquid phase properties from VLE data,Excess Gibbs energy data reduction, Thermodynamic consistency of phase equilibria, applications of the correlations and prediction of phase equilibria, models for excess Gibbs energy, Property change of mixing"
+        ],
+        "5": [
+          "Chemical Reaction Equilibria- The reaction coordinate, standard Gibbs free energy change and Equilibrium constant, Effect of temperature on Equilibrium constant, evaluation of Equilibrium constant, relation of equilibrium constants to composition for gas phase and liquid phase reactions, Equilibrium conversion for single reaction, Thermodynamic analysis of simultaneous reactions"
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          9
+        ],
+        "2": [
+          8
+        ],
+        "3": [
+          9
+        ],
+        "4": [
+          8
+        ],
+        "5": [
+          8
+        ]
+      },
+      "total_lecture_hours_print": 42,
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the fundamental concepts of Thermodynamics"
+        },
+        {
+          "no": 2,
+          "text": "Understand phase Equilibrium data and draw Pxy ,Txy diagram for the vapour liquid systems"
+        },
+        {
+          "no": 3,
+          "text": "Understand the relation between Thermodynamics and Chemical Reaction"
+        },
+        {
+          "no": 4,
+          "text": "Apply the concepts of Thermodynamics to Engineering applications in various plant processes"
+        }
+      ],
+      "objectives_print": [
+        "To understand the laws of Thermodynamics in solving problems",
+        "To impart fundamental concepts of solution Thermodynamics to describe & predict phase equilibria",
+        "To understand the functional relationship between Chemical Reactions and Thermodynamics"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Smith, J.M., Van Ness, H.C. & Abbot, M.M. “Intro to Chemical Engineering Thermodynamics “, 5th edition. New York: Mc-Graw Hill",
+          "year": "1996"
+        },
+        {
+          "no": 2,
+          "book": "Daubert T.E., \"Chemical Engineering Thermodynamics\" McGraw Hill",
+          "year": "1986"
+        },
+        {
+          "no": 3,
+          "book": "Y.V.C.Rao,” Chemical Engineering Thermodynamics” University press",
+          "year": "1997"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.5-6",
+      "source_scheme_line": "2 KCH 505 CHEMICAL PROCESS THERMODYNAMICS 3 1 0 30 20 50 100 150 4",
+      "quirks": [
+        "Reference books table header prints 'S.O' (for S.No) on p.5",
+        "Unit table spans pp.5-6 with per-unit lecture hours 9/8/9/8/8; TOTAL 42 printed on p.6"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Principles of Food Preservation",
+      "name_print": "PRINCIPLES OF FOOD PRESERVATION",
+      "codes": [
+        "KFT-501",
+        "KFT 501"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Basic considerations: Aims and objectives of preservation & processing of foods, Wastage of Foods, Food Safety and Food Security, Causes of quality deterioration and spoilage of perishable foods Characteristics of tissue and non-tissue foods, Degree of perishability of unmodified foods, Concept of Intermediate moisture foods, Basic Principles of Food Preservation and Methods Involved",
+        "2": "Preservation of foods by low temperatures: Chilling temperatures: Consideration relating to storage of foods at chilling temperatures, Applications and procedures, Controlled and Modified atmosphere storage of foods, Post storage Handling of foods. Advantages and Limitations of Chilling Process Freezing temperatures: Freezing process, Slow and fast freezing of foods and its consequence, other occurrences associated with freezing of foods. Technological aspects of Pre freezing, Actual freezing, Frozen storage and Thawing of foods. Technologies involved and their working principles.",
+        "3": "Preservation of foods by high temperatures: Basic concepts in thermal destruction of microorganisms. D, Z, F values. Heat resistance and thermophic microorganisms. Thermal Death Time Curve and its implications. Cooking, Blanching, Pasteurization and Sterilization of foods. General process of Caning of foods, Spoilage in Canned foods. Canning in Retortable Pouches. Assessing adequacy of thermal processing of foods.",
+        "4": "Preservation of Foods by water removal: Basic Principles, Technological aspects and application of evaporative concentration process; Freeze concentration and membrane process for food concentrations and their applications along with advantages and limitations. Basic Principles, Technological aspects and application of drying and dehydration of foods, Cabinet, tunnel, belt, bin, drum, spray, vacuum, foam mat, fluidized-bed and freeze drying of foods. Basic Principles, working principle and equipments involved. Advantages and Limitations of these processes.",
+        "5": "Principles, Technological aspects and application of sugar and salt in food preservation. Use of Preservatives in Food Preservation, Class I and Class II Preservatives, Antimicrobial agents, Biological agents. Basic Principles and limits of usage as per FSSAI. Use of Non ionizing and Ionizing radiations in preservation of foods. Basic Principles. Equipments involved and working principles. Advantages and Limitations. Safety aspects of Irradiated Foods. Hurdle technology and its application in production of Shelf Stable Foods."
+      },
+      "unit_parts": {
+        "1": [
+          "Basic considerations: Aims and objectives of preservation & processing of foods, Wastage of Foods, Food Safety and Food Security, Causes of quality deterioration and spoilage of perishable foods",
+          "Characteristics of tissue and non-tissue foods, Degree of perishability of unmodified foods, Concept of Intermediate moisture foods, Basic Principles of Food Preservation and Methods Involved"
+        ],
+        "2": [
+          "Preservation of foods by low temperatures: Chilling temperatures: Consideration relating to storage of foods at chilling temperatures, Applications and procedures, Controlled and Modified atmosphere storage of foods, Post storage Handling of foods. Advantages and Limitations of Chilling Process",
+          "Freezing temperatures: Freezing process, Slow and fast freezing of foods and its consequence, other occurrences associated with freezing of foods. Technological aspects of Pre freezing, Actual freezing, Frozen storage and Thawing of foods. Technologies involved and their working principles."
+        ],
+        "3": [
+          "Preservation of foods by high temperatures: Basic concepts in thermal destruction of microorganisms. D, Z, F values. Heat resistance and thermophic microorganisms. Thermal Death Time Curve and its implications. Cooking, Blanching, Pasteurization and Sterilization of foods.",
+          "General process of Caning of foods, Spoilage in Canned foods. Canning in Retortable Pouches. Assessing adequacy of thermal processing of foods."
+        ],
+        "4": [
+          "Preservation of Foods by water removal: Basic Principles, Technological aspects and application of evaporative concentration process; Freeze concentration and membrane process for food concentrations and their applications along with advantages and limitations.",
+          "Basic Principles, Technological aspects and application of drying and dehydration of foods, Cabinet, tunnel, belt, bin, drum, spray, vacuum, foam mat, fluidized-bed and freeze drying of foods. Basic Principles, working principle and equipments involved. Advantages and Limitations of these processes."
+        ],
+        "5": [
+          "Principles, Technological aspects and application of sugar and salt in food preservation. Use of Preservatives in Food Preservation, Class I and Class II Preservatives, Antimicrobial agents, Biological agents. Basic Principles and limits of usage as per FSSAI.",
+          "Use of Non ionizing and Ionizing radiations in preservation of foods. Basic Principles. Equipments involved and working principles. Advantages and Limitations. Safety aspects of Irradiated Foods. Hurdle technology and its application in production of Shelf Stable Foods."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          4,
+          4
+        ],
+        "2": [
+          4,
+          5
+        ],
+        "3": [
+          5,
+          5
+        ],
+        "4": [
+          5,
+          5
+        ],
+        "5": [
+          4,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the reasons/ causes of food spoilage and the need for Food Preservation"
+        },
+        {
+          "no": 2,
+          "text": "Understand the basic principles of Food Preservation & technologies available for the same."
+        },
+        {
+          "no": 3,
+          "text": "Understand the equipments associated with these processes and their working principle"
+        },
+        {
+          "no": 4,
+          "text": "Understand the suitable use of these technologies for practical purposes"
+        }
+      ],
+      "objectives_print": [
+        "To provide basic knowledge of Principles of Food Preservation",
+        "To provide in depth knowledge of Technologies based on these principles",
+        "To study the working principles, Advantages and Limitations of these processes"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Norman N.Potter, Joseph H.Hotchkiss, “ Food Science”, 5th Edition, CBS Publishers & Distributors Pvt. Ltd.",
+          "year": "2007"
+        },
+        {
+          "no": 2,
+          "book": "Marcus Karel, Owen R. Fennema, Daryl B. Lund, “Principles of Food Science, Part-II, Physical Principles of Food Preservation, M.Dekker",
+          "year": "1975,Digitized 21 April 2008"
+        },
+        {
+          "no": 3,
+          "book": "Norman W.Desrosier, Technology of Food Preservation, Ed-Tech",
+          "year": "2018"
+        },
+        {
+          "no": 4,
+          "book": "C.Stumbo, “Thermobacteriology in Food Processing” 2nd Edition, Academic Press",
+          "year": "1973"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.7-8",
+      "source_scheme_line": "3 KFT 501 PRINCIPLES OF FOOD PRESERVATION 3 1 0 30 20 50 100 150 4",
+      "quirks": [
+        "p.7 title block prints 'EXAM DURATION:' with no value after the colon",
+        "Print typos kept verbatim: 'thermophic microorganisms' and 'General process of Caning of foods' (p.8)",
+        "Book 2 year cell prints '1975,Digitized 21 April 2008' as printed"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Cereals, Pulses & Oilseed Products",
+      "name_print": "CEREALS, PULSES & OILSEED PRODUCTS",
+      "codes": [
+        "KFT-051"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-I",
+      "exam_duration_print": "3Hrs.",
+      "units": {
+        "1": "Composition, Structure and Processing characteristic of Cereal grains, Legumes and oilseeds. Post harvest, Post processing practices for their safe storage. Parboiling and Milling of paddy, Quality characteristics, Curing and aging of rice, Processed rice products.",
+        "2": "Wheat and its quality characteristics. International and Domestic processes adopted for milling Wheat into flour and semolina, Turbo grinding of Wheat and air classification: Objectives and Processes adopted along with equipment involved. Flour grades and their suitability for baking purposes, Assessment of flour quality and characteristics Milling of Durum wheat, Macaroni products",
+        "3": "Dry and Wet milling of corn Starches and their conversion products, Cornflakes Manufacture Malting of barley: Objectives and processes adopted",
+        "4": "Milling of legume-pulses by traditional and improved processes. Pearling of Millets",
+        "5": "Processing of oil seeds for direct use and consumption, Oil and protein products. Processing of extracted oil. Refining, Hydrogenation, Interestrification. Peanut butter, Introduction to Margarine and Spread. Processing of deoiled cake into protein concentrates and isolates, Textured protein, Functional protein preparations."
+      },
+      "unit_parts": {
+        "1": [
+          "Composition, Structure and Processing characteristic of Cereal grains, Legumes and oilseeds. Post harvest, Post processing practices for their safe storage.",
+          "Parboiling and Milling of paddy, Quality characteristics, Curing and aging of rice, Processed rice products."
+        ],
+        "2": [
+          "Wheat and its quality characteristics. International and Domestic processes adopted for milling Wheat into flour and semolina, Turbo grinding of Wheat and air classification: Objectives and Processes adopted along with equipment involved.",
+          "Flour grades and their suitability for baking purposes, Assessment of flour quality and characteristics Milling of Durum wheat, Macaroni products"
+        ],
+        "3": [
+          "Dry and Wet milling of corn",
+          "Starches and their conversion products, Cornflakes Manufacture Malting of barley: Objectives and processes adopted"
+        ],
+        "4": [
+          "Milling of legume-pulses by traditional and improved processes.",
+          "Pearling of Millets"
+        ],
+        "5": [
+          "Processing of oil seeds for direct use and consumption, Oil and protein products.",
+          "Processing of extracted oil. Refining, Hydrogenation, Interestrification. Peanut butter, Introduction to Margarine and Spread.",
+          "Processing of deoiled cake into protein concentrates and isolates, Textured protein, Functional protein preparations."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          4,
+          4
+        ],
+        "2": [
+          4,
+          4
+        ],
+        "3": [
+          4,
+          4
+        ],
+        "4": [
+          4,
+          3
+        ],
+        "5": [
+          2,
+          7,
+          3
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the postharvest losses, storage and nutritional value of grains."
+        },
+        {
+          "no": 2,
+          "text": "Characterize the grains, pulses and oilseeds on the basis of milling characteristics."
+        },
+        {
+          "no": 3,
+          "text": "Gain insight into milling and subsequent processing of milled products for value addition."
+        },
+        {
+          "no": 4,
+          "text": "Gain insight into the quality aspects of milled products and the relevant parameters and their estimation."
+        }
+      ],
+      "objectives_print": [
+        "To provide basic knowledge of storage, losses, nutritional value, milling and processing of cereal grains, pulses & oilseeds.",
+        "To provide knowledge of Milling processes and equipments involved",
+        "To provide knowledge of Quality Aspects of milled products"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Chakravarti A.: Postharvest Technology of Cereals, Pulses and Oilseeds, Oxford and IBH, New Delhi",
+          "year": "2019"
+        },
+        {
+          "no": 2,
+          "book": "Y.Pomeranz: Cereals and Cereal Products, Wiley‐VCH Verlag GmbH & Co. KGaA",
+          "year": "2000"
+        },
+        {
+          "no": 3,
+          "book": "S. A. Matz: Chemistry and Technology of Cereals as Food and Feed, CBS Publishers & Distributors",
+          "year": "2018"
+        },
+        {
+          "no": 4,
+          "book": "S. A. Matz. : Cereal Technology. , Ed. AVI Publishing Co., Westport"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.9-10",
+      "source_scheme_line": "4 KFT 051-053 Departmental Elective-I 3 0 0 30 20 50 100 150 3",
+      "quirks": [
+        "Unit-II first content row spans pp.9-10; text joins '...Processes adopted along with' + 'equipment involved.' across the page break",
+        "Print kept verbatim: 'Processing characteristic' (Unit-I), 'Interestrification' (Unit-V)",
+        "Book 4 year cell printed blank"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Engineered, Fabricated and Textured Foods",
+      "name_print": "ENGINEERED, FABRICATED AND TEXTURED FOODS",
+      "codes": [
+        "KFT-052"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-I",
+      "exam_duration_print": "3.0 HOURS",
+      "units": {
+        "1": "Extrusion Process, Principles of Extrusion and Extruders. Single Screw & Multiple Screw Extruders. Working Principle and Operations. Physico Chemical Changes in Foods during Extrusion process. Extrusion cooking. Physical & Chemical Changes during Extrusion Cooking. Puffing Operations, Puffing Gun and Puffed Food",
+        "2": "Textured vegetable protein products., Soy Proteins, Soy Milk, Soy Paneer, Protein Concentrates and Protein Isolates, Puffed Products. Meat Analogues., Imitation Paneer .",
+        "3": "Fabricated RTS Beverages, Raw Materials and their Characteristics, Industrial Manufacture of RTS Beverages Industrial Production of Special Bakery Products, Margarine, Peanut Butter, Imitation Milks, Non Dairy based Ice Creams, Designer Lipids etc. Raw Materials, Equipment Involved and Product Characteristics.",
+        "4": "Definition of Weaning Foods. Formulation of Weaning Foods. Raw Materials, their characteristics and role. Concept, Definition and Formulation of Baby Foods. Therapeutic Foods . Geriatric Foods. Raw Materials and their role. Manufacturing Process, Product Characteristics.",
+        "5": "Macaroni, Pasta, Noodles, Vermicelli etc. Raw Materials used and their industrial manufacture. Product Characteristics. Recent advances, new developments and products in the field of engineered, fabricated and textured foods."
+      },
+      "unit_parts": {
+        "1": [
+          "Extrusion Process, Principles of Extrusion and Extruders. Single Screw & Multiple Screw Extruders. Working Principle and Operations.",
+          "Physico Chemical Changes in Foods during Extrusion process. Extrusion cooking. Physical & Chemical Changes during Extrusion Cooking. Puffing Operations, Puffing Gun and Puffed Food"
+        ],
+        "2": [
+          "Textured vegetable protein products., Soy Proteins, Soy Milk, Soy Paneer, Protein Concentrates and Protein Isolates, Puffed Products. Meat Analogues., Imitation Paneer ."
+        ],
+        "3": [
+          "Fabricated RTS Beverages, Raw Materials and their Characteristics, Industrial Manufacture of RTS Beverages",
+          "Industrial Production of Special Bakery Products, Margarine, Peanut Butter, Imitation Milks, Non Dairy based Ice Creams, Designer Lipids etc. Raw Materials, Equipment Involved and Product Characteristics."
+        ],
+        "4": [
+          "Definition of Weaning Foods. Formulation of Weaning Foods. Raw Materials, their characteristics and role.",
+          "Concept, Definition and Formulation of Baby Foods. Therapeutic Foods . Geriatric Foods. Raw Materials and their role. Manufacturing Process, Product Characteristics."
+        ],
+        "5": [
+          "Macaroni, Pasta, Noodles, Vermicelli etc. Raw Materials used and their industrial manufacture. Product Characteristics.",
+          "Recent advances, new developments and products in the field of engineered, fabricated and textured foods."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          5,
+          5
+        ],
+        "2": [
+          8
+        ],
+        "3": [
+          4,
+          4
+        ],
+        "4": [
+          4,
+          4
+        ],
+        "5": [
+          4,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the need for such type of foods"
+        },
+        {
+          "no": 2,
+          "text": "Understand the basic principles of manufacture of such special foods."
+        },
+        {
+          "no": 3,
+          "text": "Understand the equipments associated with the processes and their working principle"
+        },
+        {
+          "no": 4,
+          "text": "Understand the suitable use of these technologies and products for practical purposes"
+        }
+      ],
+      "objectives_print": [
+        "To provide knowledge of special types of foods that are engineered, modified/ fabricated to suit some special purpose or need as per the customer / food industry requirements",
+        "To provide basic knowledge of raw materials, processes and equipments involved.",
+        "To gain insight into the quality characteristics of such food products."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Norman N.Potter, Joseph H.Hotchkiss, “ Food Science”, 5th Edition, CBS Publishers & Distributors Pvt. Ltd.",
+          "year": "2007"
+        },
+        {
+          "no": 2,
+          "book": "Zeki Berk,” Food Process Engineering & Technology”, 3rd Edition, Academic Press",
+          "year": "2018"
+        },
+        {
+          "no": 3,
+          "book": "Weibiao Zhou , Y. H. Hui ,I. De Leyn ,M. A. Pagani ,C. M. Rosell , J. D. Selman , N. Therdthai, “Bakery Products Science and Technology”, Second Edition, Wiley Online",
+          "year": "2014"
+        },
+        {
+          "no": 4,
+          "book": "Shubhangini A. Joshi, “Nutrition and Dietetics” 4th Edition, Mc Graw Hill India",
+          "year": "2015"
+        },
+        {
+          "no": 5,
+          "book": "S.A.Matz, The Chemistry and Technology of Cereals as Food and Feed, Kindle Edition, CBS Publishers and Distributors Pvt. Ltd, New Delhi",
+          "year": "2018"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.10-12",
+      "source_scheme_line": "4 KFT 051-053 Departmental Elective-I 3 0 0 30 20 50 100 150 3",
+      "quirks": [
+        "Title block on p.10; objectives, course outcomes, books and unit table on pp.11-12",
+        "Print kept verbatim: 'Textured vegetable protein products.,' / 'Meat Analogues.,' / 'Imitation Paneer .' (Unit-II)"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Process Engineering",
+      "name_print": "FOOD PROCESS ENGINEERING",
+      "codes": [
+        "KFT-053"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-I",
+      "exam_duration_print": "3Hrs.",
+      "units": {
+        "1": "Introduction , Concept of Unit operation, Unitsand dimensions, Unit conversions, dimensional analysis Mass and Energy Balances in various food processing operations. Grinding and mixing principle and equipments used in food industry. Related numericals",
+        "2": "Fluid Flow in food Processing, Liquid Transport systems, Properties of Liquids. Newton’s Law of Viscosity , Principle of Capillary tube and rotational viscometer ,Properties of Newtonian and Non-Newtonian fluids Flow characteristics, Reynolds Number, Bernoulli’s Equation , Concept of Flow Measurement devices, Related basic numerical",
+        "3": "Calculations pertaining to Heat Transfer and Flow properties of liquid foods in Transportation and Processing. Kinetics of Chemical and Biochemical Reactions in Foods. Thermal stabilization of foods.",
+        "4": "Refrigeration and Freezing ,Concept and selection of a refrigerant , Freezing time calculation Frozen food storage , Refrigeration requirements during storage, Related basic numerical",
+        "5": "Important considerations for designing of food plants. Types of layout."
+      },
+      "unit_parts": {
+        "1": [
+          "Introduction , Concept of Unit operation, Unitsand dimensions, Unit conversions, dimensional analysis",
+          "Mass and Energy Balances in various food processing operations. Grinding and mixing principle and equipments used in food industry. Related numericals"
+        ],
+        "2": [
+          "Fluid Flow in food Processing, Liquid Transport systems, Properties of Liquids. Newton’s Law of Viscosity , Principle of Capillary tube and rotational viscometer ,Properties of Newtonian and Non-Newtonian fluids",
+          "Flow characteristics, Reynolds Number, Bernoulli’s Equation , Concept of Flow Measurement devices, Related basic numerical"
+        ],
+        "3": [
+          "Calculations pertaining to Heat Transfer and Flow properties of liquid foods in Transportation and Processing.",
+          "Kinetics of Chemical and Biochemical Reactions in Foods. Thermal stabilization of foods."
+        ],
+        "4": [
+          "Refrigeration and Freezing ,Concept and selection of a refrigerant , Freezing time calculation",
+          "Frozen food storage , Refrigeration requirements during storage, Related basic numerical"
+        ],
+        "5": [
+          "Important considerations for designing of food plants.",
+          "Types of layout."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          3,
+          5
+        ],
+        "2": [
+          5,
+          4
+        ],
+        "3": [
+          4,
+          4
+        ],
+        "4": [
+          4,
+          4
+        ],
+        "5": [
+          4,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand different unit operations applied in food processing industry."
+        },
+        {
+          "no": 2,
+          "text": "Gain insight into the kinetics of various chemical and biochemical reaction in food."
+        },
+        {
+          "no": 3,
+          "text": "Understand the design considerations and layout of food processing units."
+        }
+      ],
+      "objectives_print": [
+        "To provide basic knowledge of engineering and design concepts relevant to food processing industries.",
+        "To understand the practical use of these concepts as applicable in Food Processing Industries"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Albert Ibarz, Gustavo V. Barbosa-Canovas, Introduction to Food Process Engineering, CRC Press",
+          "year": "2014"
+        },
+        {
+          "no": 2,
+          "book": "Smith P.G., Introduction to Food Process Engineering, 2nd Edition Springer",
+          "year": "201"
+        },
+        {
+          "no": 3,
+          "book": "Romeo T. Toledo, Fundamentals of Food Process Engineering, 4th Edition, Springer",
+          "year": "2018"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.13-14",
+      "source_scheme_line": "4 KFT 051-053 Departmental Elective-I 3 0 0 30 20 50 100 150 3",
+      "quirks": [
+        "Unit-I prints 'Unitsand dimensions' (missing space) — kept verbatim",
+        "Book 2 year cell prints '201' — kept verbatim"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Fruits, Vegetables and Plantation Products",
+      "name_print": "FRUITS, VEGETABLES AND PLANTATION PRODUCTS",
+      "codes": [
+        "KFT-054"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-II",
+      "exam_duration_print": "3.0 HOURS",
+      "units": {
+        "1": "Structural, Compositional and Nutritional aspects of fruits and vegetables. Physiological development: Growth, Maturation, Ripening and Senescence. Post harvest handling including controlled and modified storage. Techniques of processing and preservation of fruits and vegetables by refrigeration and freezing, canning and bottling, drying and dehydration.",
+        "2": "Unit-II Technology of fruits and vegetable products: Juices and pulps, Concentrates and powders, Squashes and cordials. Beverage: Still and carbonated. James, Jellies and Marmalades. Preserves, candies and crystallized fruits. Technology of Tomato products: Puree, Paste, Ketchup, Sauce and Soup. Chutneys, pickles and other products. Characteristics and Industrial Production",
+        "3": "Unit-III Spices: Composition, Structure and characteristics. Preservation and processing of major and minor spices of India; Whole spice, Spice powder, Paste and extracts, Spice oils and oleoresins. Composition, Structure ,characteristics & processing of cashew nut and other dry fruits. Important byproducts obtained and their utilization.",
+        "4": "Composition, Production and processing of Tea leaves: Black tea, Green tea and Oolong tea .Industrial Manufacturing of Tea CTC Tea, Instant tea. Iced Tea Production and processing of coffee cherries by wet and dry methods to obtain coffee beans, grinding, storage and preparation of brew, Soluble /Instant coffee, Use of chicory in coffee, Decaffeinated coffee.",
+        "5": "Production, processing and chemical composition of cocoa beans. Cocoa Processes: Cleaning, roasting, alkalization, cracking and fanning, Nib grinding for cocoa liquor, cocoa butter and cocoa powder. Plastic range and Plasticity of fats Manufacturing process for chocolate: Ingredients, Mixing, Refining, Conching, Tempering, Moulding etc. to obtain chocolate slabs, chocolate bars. Significance of these processes. Enrobed chocolates and other confectionary products."
+      },
+      "unit_parts": {
+        "1": [
+          "Structural, Compositional and Nutritional aspects of fruits and vegetables. Physiological development: Growth, Maturation, Ripening and Senescence. Post harvest handling including controlled and modified storage.",
+          "Techniques of processing and preservation of fruits and vegetables by refrigeration and freezing, canning and bottling, drying and dehydration."
+        ],
+        "2": [
+          "Unit-II Technology of fruits and vegetable products: Juices and pulps, Concentrates and powders, Squashes and cordials. Beverage: Still and carbonated. James, Jellies and Marmalades. Preserves, candies and crystallized fruits.",
+          "Technology of Tomato products: Puree, Paste, Ketchup, Sauce and Soup. Chutneys, pickles and other products. Characteristics and Industrial Production"
+        ],
+        "3": [
+          "Unit-III Spices: Composition, Structure and characteristics. Preservation and processing of major and minor spices of India; Whole spice, Spice powder, Paste and extracts, Spice oils and oleoresins.",
+          "Composition, Structure ,characteristics & processing of cashew nut and other dry fruits. Important byproducts obtained and their utilization."
+        ],
+        "4": [
+          "Composition, Production and processing of Tea leaves: Black tea, Green tea and Oolong tea .Industrial Manufacturing of Tea CTC Tea, Instant tea. Iced Tea",
+          "Production and processing of coffee cherries by wet and dry methods to obtain coffee beans, grinding, storage and preparation of brew, Soluble /Instant coffee, Use of chicory in coffee, Decaffeinated coffee."
+        ],
+        "5": [
+          "Production, processing and chemical composition of cocoa beans. Cocoa Processes: Cleaning, roasting, alkalization, cracking and fanning, Nib grinding for cocoa liquor, cocoa butter and cocoa powder. Plastic range and Plasticity of fats",
+          "Manufacturing process for chocolate: Ingredients, Mixing, Refining, Conching, Tempering, Moulding etc. to obtain chocolate slabs, chocolate bars. Significance of these processes. Enrobed chocolates and other confectionary products."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          4,
+          4
+        ],
+        "2": [
+          5,
+          4
+        ],
+        "3": [
+          4,
+          3
+        ],
+        "4": [
+          4,
+          4
+        ],
+        "5": [
+          4,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the composition and characteristics of fresh produce"
+        },
+        {
+          "no": 2,
+          "text": "Understand the causes of post harvest losses and basic principles of preservation."
+        },
+        {
+          "no": 3,
+          "text": "Understand the manufacture of Value Added products from excess fresh produce"
+        },
+        {
+          "no": 4,
+          "text": "Understand the causative factors of spoilage and means to prevent this spoilage"
+        }
+      ],
+      "objectives_print": [
+        "To provide basic knowledge of the physico-chemical composition of fruits and vegetables",
+        "To provide knowledge regarding the technology for manufacture of value added products from them.",
+        "To provide knowledge about defects, causes and their prevention",
+        "To provide knowledge about quality parameters of these value added products"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Norman N.Potter, Joseph H.Hotchkiss, “ Food Science”, 5th Edition, CBS Publishers & Distributors Pvt. Ltd.",
+          "year": "2007"
+        },
+        {
+          "no": 2,
+          "book": "Girdhari Lal, G. S. Siddappa, G. L. Tandon, “Preservation of Fruits and Vegetables”, Indian Council of Agricultural Research, New Delhi",
+          "year": "2009"
+        },
+        {
+          "no": 3,
+          "book": "N.P.Singh, “ Fruit and Vegetable Production”, Oxford Book Company, India",
+          "year": "2007"
+        },
+        {
+          "no": 4,
+          "book": "Bernard W. Minifie, “Chocolate, Cocoa and Confectionary: Science and Technology”, 3rd Edition, Springer Science and Business Media",
+          "year": "1989"
+        },
+        {
+          "no": 5,
+          "book": "B.Srilaxmi, “Food Science”, New Age International",
+          "year": "2003"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.15-16",
+      "source_scheme_line": "5 KFT 054-056 Departmental Elective-II 3 0 0 30 20 50 100 150 3",
+      "quirks": [
+        "Unit-II second content row's S.No cell does not appear in the text layer (row begins 'Technology of Tomato products...')",
+        "Print kept verbatim: 'James, Jellies and Marmalades' (Unit-II); 'Unit-II'/'Unit-III' prefixes printed inside unit contents"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Nutraceuticals & Functional Foods",
+      "name_print": "NUTRACEUTICALS & FUNCTIONAL FOODS",
+      "codes": [
+        "KFT-055"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-II",
+      "exam_duration_print": "3.0 HOURS",
+      "units": {
+        "1": "Defining nutraceuticals and functional foods, Nature, type and scope. Nutraceuticals and functional foods applications and their health benefits, classification based on chemical and biochemical nature with suitable and relevant descriptions.",
+        "2": "Nutraceuticals for specific situation such as cancer, heart dieases, stress, Osteoartehritis, hypertension etc Antioxidants and other phytochemicals, iso-flavones, lycopenes, their role in nutraceuticals and functional foods, dietary fibers and complex carbohydrates as functional food ingredients.",
+        "3": "Protein as a functional food ingredients, Probiotic foods and their functional role, Herbs as functional foods, health promoting activity of common herbs. Cereals products as functional foods- Oats, Wheat bran, rice bran etc.",
+        "4": "Functional vegetable products, oil seeds and sea foods. Coffee, tea and other beverages as functional foods/ drinks and their protective effects. Effects of processing and storage and interaction of various environmental factors on the potentials of such foods.",
+        "5": "Marketing and regulatory issues for functional foods and nutraceuticals. Recent developments and advances in the area of nutraceuticals and functional foods."
+      },
+      "unit_parts": {
+        "1": [
+          "Defining nutraceuticals and functional foods, Nature, type and scope.",
+          "Nutraceuticals and functional foods applications and their health benefits, classification based on chemical and biochemical nature with suitable and relevant descriptions."
+        ],
+        "2": [
+          "Nutraceuticals for specific situation such as cancer, heart dieases, stress, Osteoartehritis, hypertension etc",
+          "Antioxidants and other phytochemicals, iso-flavones, lycopenes, their role in nutraceuticals and functional foods, dietary fibers and complex carbohydrates as functional food ingredients."
+        ],
+        "3": [
+          "Protein as a functional food ingredients, Probiotic foods and their functional role, Herbs as functional foods, health promoting activity of common herbs.",
+          "Cereals products as functional foods- Oats, Wheat bran, rice bran etc."
+        ],
+        "4": [
+          "Functional vegetable products, oil seeds and sea foods. Coffee, tea and other beverages as functional foods/ drinks and their protective effects.",
+          "Effects of processing and storage and interaction of various environmental factors on the potentials of such foods."
+        ],
+        "5": [
+          "Marketing and regulatory issues for functional foods and nutraceuticals.",
+          "Recent developments and advances in the area of nutraceuticals and functional foods."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          3,
+          5
+        ],
+        "2": [
+          4,
+          4
+        ],
+        "3": [
+          5,
+          4
+        ],
+        "4": [
+          5,
+          4
+        ],
+        "5": [
+          4,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Acquire knowledge on various bio molecules showing health benefits."
+        },
+        {
+          "no": 2,
+          "text": "Understand various physiological and biochemical aspects of life threatening and chronic diseases."
+        },
+        {
+          "no": 3,
+          "text": "Apply their knowledge regarding extraction, isolation, characterization and application of nutraceuticals in food industries."
+        },
+        {
+          "no": 4,
+          "text": "Identify various aspects about safety, quality and toxicology of food products including, nutraceutical and functional foods."
+        }
+      ],
+      "objectives_print": [
+        "To impart the concept of nutraceuticals and functional ingredients in foods",
+        "To determine their role in health and disease prevention.",
+        "To study the usefulness and effects of Probiotics & Prebiotics in gastrointestinal health."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Robert E.C., T C. Wallace, Handbook of Nutraceuticals & Functional Foods, 2nd Edition, CRC Press",
+          "year": "2016"
+        },
+        {
+          "no": 2,
+          "book": "Robert E.C. Wildman, Denis M. Medeiros, Advanced Human Nutrition, CRC Press",
+          "year": "2014"
+        },
+        {
+          "no": 3,
+          "book": "Shubhangini A. Joshi Nutrition and Dietetics, Tata McGraw-Hill Education",
+          "year": "2010"
+        },
+        {
+          "no": 4,
+          "book": "N. Shakuntala Manay and M.Swamy: Food Facts & Principles, New Age International",
+          "year": "2008"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.17-18",
+      "source_scheme_line": "5 KFT 054-056 Departmental Elective-II 3 0 0 30 20 50 100 150 3",
+      "quirks": [
+        "Print typos kept verbatim: 'heart dieases', 'Osteoartehritis' (Unit-II)"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Technology of Food Beverages",
+      "name_print": "TECHNOLOGY OF FOOD BEVERAGES",
+      "codes": [
+        "KFT-056"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-II",
+      "exam_duration_print": "3Hrs.",
+      "units": {
+        "1": "Introduction, classification, Beverage industry in India, Traditional beverages Effect of different ingredient on the quality of beverages; Preparation of syrups.",
+        "2": "Manufacturing technology of mineral water and carbonated drinks Water quality, treatment and fortification process, Bottling, Packaging, storage and transportation. Specifications of Packaged water as per FSSAI.",
+        "3": "Fruit beverages; Definition and preparation of squash, cordial, nectar, crush. Alcoholic beverages, Milk beverages, Preparation of different beverages",
+        "4": "Selection and economics of different beverages packaging materials Selection, operation and maintenance of beverage machines / equipments, Automation in beverage industries.",
+        "5": "Quality control and Safety (HACCP Plan) in beverage industries, Waste management in beverage industries Sensory evaluation of beverages, Chemical and microbiological analysis of different beverages."
+      },
+      "unit_parts": {
+        "1": [
+          "Introduction, classification, Beverage industry in India, Traditional beverages",
+          "Effect of different ingredient on the quality of beverages; Preparation of syrups."
+        ],
+        "2": [
+          "Manufacturing technology of mineral water and carbonated drinks",
+          "Water quality, treatment and fortification process, Bottling, Packaging, storage and transportation. Specifications of Packaged water as per FSSAI."
+        ],
+        "3": [
+          "Fruit beverages; Definition and preparation of squash, cordial, nectar, crush.",
+          "Alcoholic beverages, Milk beverages, Preparation of different beverages"
+        ],
+        "4": [
+          "Selection and economics of different beverages packaging materials",
+          "Selection, operation and maintenance of beverage machines / equipments, Automation in beverage industries."
+        ],
+        "5": [
+          "Quality control and Safety (HACCP Plan) in beverage industries, Waste management in beverage industries",
+          "Sensory evaluation of beverages, Chemical and microbiological analysis of different beverages."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          4,
+          4
+        ],
+        "2": [
+          4,
+          4
+        ],
+        "3": [
+          4,
+          5
+        ],
+        "4": [
+          3,
+          4
+        ],
+        "5": [
+          4,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Characterize the different categories of food beverages."
+        },
+        {
+          "no": 2,
+          "text": "Understand the technology and machinery of beverage manufacturing."
+        },
+        {
+          "no": 3,
+          "text": "Gain insight into the Quality aspects /relevant parameters of beverages and their estimation."
+        },
+        {
+          "no": 4,
+          "text": "Gain insight into the Waste management in beverage industries."
+        }
+      ],
+      "objectives_print": [
+        "To provide basic knowledge of Food beverages and their classification",
+        "To provide knowledge of operations & machinery of beverage industry.",
+        "To provide knowledge regarding Quality control & Safety of various beverages"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "L.F.Green: Developments in Soft Drinks Technology-I, Applied Science Publishers Ltd., London",
+          "year": "1978"
+        },
+        {
+          "no": 2,
+          "book": "Norman N.Potter, Joseph H.Hotchkiss, “Food Science”, 5th Edition, CBS Publishers & Distributors Pvt. Ltd.",
+          "year": "2007"
+        },
+        {
+          "no": 3,
+          "book": "A.G.H. Lea, J.R.Piggot :Fermented Beverage Production, 2nd Edition, Springer-Science, Business Media, B.V",
+          "year": "2003"
+        },
+        {
+          "no": 4,
+          "book": "De Sukumar: Outlines of Dairy Technology, Oxford University Press",
+          "year": "2001"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.19-20",
+      "source_scheme_line": "5 KFT 054-056 Departmental Elective-II 3 0 0 30 20 50 100 150 3",
+      "quirks": [],
+      "flags": []
+    },
+    {
+      "name": "Chemical Reaction Engineering Lab",
+      "name_print": "CHEMICAL REACTION ENGINEERING LAB",
+      "scheme_name_print": "CRE LAB",
+      "codes": [
+        "KCH554",
+        "KCH 554"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "ps": 25,
+        "pe": 25,
+        "total": 50
+      },
+      "subject_type": "lab",
+      "exam_duration_print": "2 Hrs",
+      "units": {},
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "To determine the order and rate constant of saponification reaction at room temperature in a PFR."
+        },
+        {
+          "no": 2,
+          "exp": "To determine the order and rate constant of saponification reaction at room temperature in a CSTR"
+        },
+        {
+          "no": 3,
+          "exp": "To determine the order and rate constant of saponification reaction at room temperature in a Batch reactor."
+        },
+        {
+          "no": 4,
+          "exp": "To determine the order and rate constant of esterification reaction at room temperature."
+        },
+        {
+          "no": 5,
+          "exp": "Study and operation of an adiabatic batch reactor"
+        },
+        {
+          "no": 6,
+          "exp": "Study of a reversible reaction in a batch reactor"
+        },
+        {
+          "no": 7,
+          "exp": "To determine reaction equilibrium constant of reaction of acetic acid with ethanol."
+        },
+        {
+          "no": 8,
+          "exp": "To study the residence time distribution in a stirred tank reactor and plot the F-Curve and C- Curve for given Reactor."
+        },
+        {
+          "no": 9,
+          "exp": "To study the residence time distribution in a plug flow reactor and plot the F-Curve and C- Curve for given Reactor."
+        },
+        {
+          "no": 10,
+          "exp": "To determine the energy of activation of a given chemical reaction."
+        }
+      ],
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the basics of chemical reaction engineering and its practical applications."
+        },
+        {
+          "no": 2,
+          "text": "Calculate rate, rate constant, activation energy, volume, space time and space velocity for Ideal reactors."
+        },
+        {
+          "no": 3,
+          "text": "Distinguish chemical reactions and Interpret kinetic data to find order of reactions."
+        },
+        {
+          "no": 4,
+          "text": "Operate different reactors efficiently using basic knowledge about their functioning, in the various processes carried out in the food industry."
+        }
+      ],
+      "objectives_print": [
+        "To impart knowledge about the basic fundamental principles of chemical reaction engineering by performing different experiments.",
+        "To make them correlate theory and practical process by experimentation.",
+        "To provide them practical know how about different types of reactors and also the concept of non-ideal flow."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Smith, J, M, “Chemical Engineering Kinetics”, 3rd Edition, McGraw-Hill (1990).",
+          "year": "1990"
+        },
+        {
+          "no": 2,
+          "book": "Levenspiel, O., “Chemical Reaction Engineering”, 3rd Edition, John Wiley, (1998).",
+          "year": "1998"
+        },
+        {
+          "no": 3,
+          "book": "Fogler H.S., Elements of Chemical Reaction Engineering, 4th edition, Prentice Hall of India, (2008)",
+          "year": "1997"
+        }
+      ],
+      "prerequisites": "MEB and Chemical Thermodynamics",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 p.21",
+      "source_scheme_line": "6 KCH554 CRE LAB 0 0 2 25 25 50 1",
+      "quirks": [
+        "Scheme table (p.2) prints code 'KCH554' (no space) and short name 'CRE LAB'; syllabus page (p.21) prints 'KCH 554' and full title CHEMICAL REACTION ENGINEERING LAB",
+        "Reference books table header prints 'S.O' (for S.No)",
+        "Prerequisite prints 'MEB and Chemical Thermodynamics' ('MEB' as printed)"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Preservation Lab",
+      "name_print": "FOOD PRESERVATION LAB",
+      "codes": [
+        "KFT-551",
+        "KFT 551"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "ps": 25,
+        "pe": 25,
+        "total": 50
+      },
+      "subject_type": "lab",
+      "exam_duration_print": "2.0 HOURS",
+      "units": {},
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Study of Post harvest Handling and Treatment of Fruits and Vegetables"
+        },
+        {
+          "no": 2,
+          "exp": "Study of Post Harvest Handling of Grains, Pulses and Milk"
+        },
+        {
+          "no": 3,
+          "exp": "Study of Preservation of fresh produce by Freezing"
+        },
+        {
+          "no": 4,
+          "exp": "Study of Preservation of Foods by High Temperature [ Canning/ Bottling]"
+        },
+        {
+          "no": 5,
+          "exp": "To check the efficacy/ adequacy of Blanching treatment"
+        },
+        {
+          "no": 6,
+          "exp": "Study of preservation of foods by Drying / Dehydration"
+        },
+        {
+          "no": 7,
+          "exp": "Study of Osmotic Concentration / Osmo Air Drying as a means of Food Preservation"
+        },
+        {
+          "no": 8,
+          "exp": "Study of Fermentation as a means of Food Preservation"
+        },
+        {
+          "no": 9,
+          "exp": "Study of preservation of foods by use of Chemical Preservatives"
+        },
+        {
+          "no": 10,
+          "exp": "Study of Microwave Pasteurization and Sterilization of Foods"
+        }
+      ],
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the composition and characteristics of fresh produce"
+        },
+        {
+          "no": 2,
+          "text": "Understand the causes of post harvest losses and basic principles of preservation."
+        },
+        {
+          "no": 3,
+          "text": "Understand the manufacture of Value Added products from excess fresh produce"
+        },
+        {
+          "no": 4,
+          "text": "Understand the causative factors of spoilage and means to prevent this spoilage"
+        }
+      ],
+      "objectives_print": [
+        "To provide basic insight into the practical aspects of the principles of food preservation",
+        "To provide knowledge to ascertain the efficacy of these processes"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Norman N.Potter, Joseph H.Hotchkiss, “ Food Science”, 5th Edition, CBS Publishers & Distributors Pvt. Ltd.",
+          "year": "2007"
+        },
+        {
+          "no": 2,
+          "book": "Girdhari Lal, G. S. Siddappa, G. L. Tandon, “Preservation of Fruits and Vegetables”, Indian Council of Agricultural Research, New Delhi",
+          "year": "2009"
+        },
+        {
+          "no": 3,
+          "book": "M.Shafiur Rahman, “Handbook of Food Preservation” 2nd Edition, CRC Press",
+          "year": "2007"
+        },
+        {
+          "no": 4,
+          "book": "S.Ranganna, “Handbook of Analysis and Quality Control for Fruit and Vegetable Products”. S, Tata McGraw-Hill Education",
+          "year": "1986"
+        },
+        {
+          "no": 5,
+          "book": "B.Srilaxmi, “Food Science”, New Age International",
+          "year": "2003"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 p.22",
+      "source_scheme_line": "7 KFT 551 FOOD PRESERVATION LAB 0 0 2 25 25 50 1",
+      "quirks": [
+        "Course outcome list on p.22 is identical in print to KFT-054's (print repeat)",
+        "Book 4 prints 'Products”. S, Tata McGraw-Hill Education' — stray 'S,' kept verbatim"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Food Products Lab-I",
+      "name_print": "FOOD PRODUCTS LAB-I",
+      "codes": [
+        "KFT-552",
+        "KFT 552"
+      ],
+      "semester": 5,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "ps": 25,
+        "pe": 25,
+        "total": 50
+      },
+      "subject_type": "lab",
+      "exam_duration_print": "2.0 HOURS",
+      "units": {},
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Studies on Preparation of Jam, Jelly and Marmalade"
+        },
+        {
+          "no": 2,
+          "exp": "Studies on preparation of Fruit Leather"
+        },
+        {
+          "no": 3,
+          "exp": "Studies on preparation of Candies and Preserves"
+        },
+        {
+          "no": 4,
+          "exp": "Studies on preparation of Tomato Products: Tomato Sauce, Tomato Ketchup etc."
+        },
+        {
+          "no": 5,
+          "exp": "Studies on preparation of fruit squash and cordial"
+        },
+        {
+          "no": 6,
+          "exp": "Studies on preparation of Pickles with salt and sugar"
+        },
+        {
+          "no": 7,
+          "exp": "Studies on preparation of Fermented Pickles"
+        },
+        {
+          "no": 8,
+          "exp": "Studies on preparation of Rice Products"
+        },
+        {
+          "no": 9,
+          "exp": "Studies on preparation of Corn Products"
+        },
+        {
+          "no": 10,
+          "exp": "Studies on preparation of Spice pastes"
+        }
+      ],
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the technologies for Preservation and Value Addition of fresh produce"
+        },
+        {
+          "no": 2,
+          "text": "Understand the preparation of Value added items from fruits and Vegetables."
+        },
+        {
+          "no": 3,
+          "text": "Understand the defects encountered in such products and preventive measures to be adopted."
+        },
+        {
+          "no": 4,
+          "text": "Understand the causative factors of spoilage and means to prevent this spoilage"
+        },
+        {
+          "no": 5,
+          "text": "Understand the product quality with reference to standard specifications."
+        }
+      ],
+      "objectives_print": [
+        "To provide basic insight into the practical aspects of preservation of fresh produce",
+        "To provide knowledge about the preparation of Value Added Food Products",
+        "To provide insights into testing of Quality parameters involved."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Norman N.Potter, Joseph H.Hotchkiss, “ Food Science”, 5th Edition, CBS Publishers & Distributors Pvt. Ltd.",
+          "year": "2007"
+        },
+        {
+          "no": 2,
+          "book": "Girdhari Lal, G. S. Siddappa, G. L. Tandon, “Preservation of Fruits and Vegetables”, Indian Council of Agricultural Research, New Delhi",
+          "year": "2009"
+        },
+        {
+          "no": 3,
+          "book": "Vijay Sethi, Shruti Sethai , B.C. Dekka , “Processing of Fruits and Vegetables for Value Addition”, Indus Publishing Company",
+          "year": "2006"
+        },
+        {
+          "no": 4,
+          "book": "S.Ranganna, “Handbook of Analysis and Quality Control for Fruit and Vegetable Products”. S, Tata McGraw-Hill Education",
+          "year": "1986"
+        },
+        {
+          "no": 5,
+          "book": "B.Srilaxmi, “Food Science”, New Age International",
+          "year": "2003"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 p.23",
+      "source_scheme_line": "8 KFT 552 FOOD PRODUCTS LAB-I 0 0 2 25 25 50 1",
+      "quirks": [
+        "Book 3 prints 'Shruti Sethai' and 'B.C. Dekka' — kept verbatim"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Instrumentation & Process Control",
+      "name_print": "INSTRUMENTATION & PROCESS CONTROL",
+      "codes": [
+        "KCH 604"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "exam_duration_print": "3 Hrs",
+      "units": {
+        "1": "Elements of measurement, functions and general classifications of measuring instruments. Indicating and recording type of instruments. Elements of measuring instruments, static and dynamic characteristics of measuring instruments.",
+        "2": "Principle of operation, construction and application of important industrial instruments for the measurement of temperature, flow, liquid level and composition. Principles and construction of electro-pneumatic transducer and pneumatic control valve.",
+        "3": "Instruments for Measurement of Flow rate, level & Viscosity, Variable Area & variable head flow meters. Introduction to Process control systems, Regulator & Servo control, Negative & Positive Feedback Control",
+        "4": "Dynamic Modeling of a Process, Dynamic behavior of First order systems and First order systems in series. Dynamic behavior of second & higher order system for various kind of inputs, Linearization of nonlinear system, Transportation & Transfer Lag.",
+        "5": "Block and physical diagrams of control system. Open and closed loop control systems. Characteristics of measuring elements, controllers and final control elements. Mode of control actions. Advanced control strategies, cascade control, Feed Forward & Feed backward control, Ratio control."
+      },
+      "unit_parts": {
+        "1": [
+          "Elements of measurement, functions and general classifications of measuring instruments. Indicating and recording type of instruments. Elements of measuring instruments, static and dynamic characteristics of measuring instruments."
+        ],
+        "2": [
+          "Principle of operation, construction and application of important industrial instruments for the measurement of temperature, flow, liquid level and composition. Principles and construction of electro-pneumatic transducer and pneumatic control valve."
+        ],
+        "3": [
+          "Instruments for Measurement of Flow rate, level & Viscosity, Variable Area & variable head flow meters. Introduction to Process control systems, Regulator & Servo control, Negative & Positive Feedback Control"
+        ],
+        "4": [
+          "Dynamic Modeling of a Process, Dynamic behavior of First order systems and First order systems in series. Dynamic behavior of second & higher order system for various kind of inputs, Linearization of nonlinear system, Transportation & Transfer Lag."
+        ],
+        "5": [
+          "Block and physical diagrams of control system. Open and closed loop control systems. Characteristics of measuring elements, controllers and final control elements. Mode of control actions. Advanced control strategies, cascade control, Feed Forward & Feed backward control, Ratio control."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          8
+        ],
+        "2": [
+          9
+        ],
+        "3": [
+          10
+        ],
+        "4": [
+          9
+        ],
+        "5": [
+          9
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Apply engineering science and mathematical knowledge of to designing and conducting experiments as well as to analyze and interpret data."
+        },
+        {
+          "no": 2,
+          "text": "Design process control system components to meet desired needs within realistic constraints of food process."
+        },
+        {
+          "no": 3,
+          "text": "Use the techniques, skills and tools to identify formulate and solve engineering problems."
+        },
+        {
+          "no": 4,
+          "text": "Apply the knowledge of control theory for understanding the various processes, carried out in the food process industry."
+        }
+      ],
+      "objectives_print": [
+        "To enable the students to understand the fundamentals of process control",
+        "To provide knowledge about various types of measuring instruments used in different types of processes",
+        "To impart knowledge about characteristics of different types of controllers for controlling a process and process automation"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Eckman, D.P., Industrial Instrumentation, Wiley Eastern Ltd., New York.",
+          "year": "1990"
+        },
+        {
+          "no": 2,
+          "book": "Jain, R.K., Mechanical and Industrial Measurements, Khanna Publishers.",
+          "year": "1995"
+        },
+        {
+          "no": 3,
+          "book": "Coughnaowr, D. R., “Process Systems Analysis and Control”, McGraw-Hill, Inc.",
+          "year": "1991"
+        },
+        {
+          "no": 4,
+          "book": "Stephanopolous, G., “Chemical Process Control”, Prentice-Hall.",
+          "year": "1984"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 p.24",
+      "source_scheme_line": "1 KCH 604 INSTRUMENTATION & PROCESS CONTROL 3 1 0 30 20 50 100 150 4",
+      "quirks": [
+        "p.24 header prints 'COURSE TITLE:INSTRUMENTATION & PROCESS CONTROL' (no space after colon)",
+        "CO-1 print kept verbatim: 'Apply engineering science and mathematical knowledge of to designing...'"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Bakery Technology",
+      "name_print": "BAKERY TECHNOLOGY",
+      "codes": [
+        "KFT-601",
+        "KFT 601"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "exam_duration_print": "3.0 HOURS",
+      "units": {
+        "1": "Wheat flour and wheat flour treatments, Grade of flour, constituents of flour, ageing of flour, Tests for flour quality. Yeast: Characteristics, Preparation, Handling & Storage, Adequacy for use in bakery industry. Ingredients, Technology and quality parameters for baked products: Bread, Biscuits and cakes.",
+        "2": "Bakery equipment and machinery. Different types of Mixers, kneaders and cutters. Different types of ovens. Packaging machinery for bread and biscuits. Quality control in bakery industry. Quality control of raw materials. Quality control of finished products. Quality control of packaging materials.",
+        "3": "Technology of bread making - Different methods, process steps and their significance. Characteristics of good bread. Defects in bread their causes and remedies.",
+        "4": "Technology of Cakes Manufacture. Different cake making processes. Sugar batter method, Flour batter method, Modified sugar batter method Whipping method, Blending method etc. Process steps and their significance. Importance of baking time and temperature. Recipe balancing. Defects in cakes, their causes and remedies.",
+        "5": "Biscuits - Definition and types. Short dough, hard Dough and Fermented dough biscuits. Cookies - Types of cookies and their manufacture. Cream biscuits - Process steps and their significance. Defects in biscuits their causes and remedies."
+      },
+      "unit_parts": {
+        "1": [
+          "Wheat flour and wheat flour treatments, Grade of flour, constituents of flour, ageing of flour, Tests for flour quality.",
+          "Yeast: Characteristics, Preparation, Handling & Storage, Adequacy for use in bakery industry.",
+          "Ingredients, Technology and quality parameters for baked products: Bread, Biscuits and cakes."
+        ],
+        "2": [
+          "Bakery equipment and machinery. Different types of Mixers, kneaders and cutters. Different types of ovens.",
+          "Packaging machinery for bread and biscuits. Quality control in bakery industry. Quality control of raw materials. Quality control of finished products. Quality control of packaging materials."
+        ],
+        "3": [
+          "Technology of bread making - Different methods, process steps and their significance.",
+          "Characteristics of good bread. Defects in bread their causes and remedies."
+        ],
+        "4": [
+          "Technology of Cakes Manufacture. Different cake making processes. Sugar batter method, Flour batter method, Modified sugar batter method Whipping method, Blending method etc. Process steps and their significance.",
+          "Importance of baking time and temperature. Recipe balancing. Defects in cakes, their causes and remedies."
+        ],
+        "5": [
+          "Biscuits - Definition and types. Short dough, hard Dough and Fermented dough biscuits.",
+          "Cookies - Types of cookies and their manufacture.",
+          "Cream biscuits - Process steps and their significance. Defects in biscuits their causes and remedies."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          4,
+          2,
+          3
+        ],
+        "2": [
+          4,
+          4
+        ],
+        "3": [
+          5,
+          4
+        ],
+        "4": [
+          5,
+          3
+        ],
+        "5": [
+          3,
+          2,
+          3
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Demonstrate the knowledge of bakery products."
+        },
+        {
+          "no": 2,
+          "text": "Demonstrate skills involved in production of Bread, Biscuits, Cakes and other baked products."
+        },
+        {
+          "no": 3,
+          "text": "Understand about the machinery involved in manufacture of these products."
+        }
+      ],
+      "objectives_print": [
+        "To impart fundamental knowledge of bakery products",
+        "To impart basic knowledge about machinery and equipments involved",
+        "To give brief introduction of recent developments in bakery product technology."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "E.J Pyler: Baking Science and Technology: Vol.1 & 2, 3rd Edition, Sosland,",
+          "year": "1988"
+        },
+        {
+          "no": 2,
+          "book": "Samuel A. Matz: Bakery Technology and Engineering, Springer US",
+          "year": "1991"
+        },
+        {
+          "no": 3,
+          "book": "Samuel A. Matz: Cookie and Cracker Technology, AVI Publications",
+          "year": "1978"
+        },
+        {
+          "no": 4,
+          "book": "H. Faridi: The Science of Cookie and Cracker Production, CBS Publishers & Distributors, New Delhi",
+          "year": "1997"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.25-26",
+      "source_scheme_line": "2 KFT 601 BAKERY TECHNOLOGY 3 1 0 30 20 50 100 150 4",
+      "quirks": [
+        "Unit-II second content row spans pp.25-26; text joins '...Quality' + 'control of packaging materials.' across the page break"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Dairy Technology",
+      "name_print": "DAIRY TECHNOLOGY",
+      "codes": [
+        "KFT-602",
+        "KFT 602"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 3,
+        "t": 1,
+        "p": 0
+      },
+      "credit": 4,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "core",
+      "exam_duration_print": "3.0 HOURS",
+      "units": {
+        "1": "Fluid Milk: Composition of milk and factor affecting it. Physico-chemical characteristics of milk and milk constituents. Production and collection, cooling and transportation of milk. Packaging storage and distribution of pasteurized milk.",
+        "2": "Whole, Standardized, Toned, Double toned and skim milk. Test for milk quality and Adulteration. UHT processed milk, flavored, Sterilized milk. Cleaning and sanitization of dairy equipments. Definition, Classification, Composition and physico-chemical properties of cream. Production processes and quality control.",
+        "3": "Butter: Definition, Classification, Composition and methods of manufacture, Packaging and storage. Butter oil/Ghee. Dairy based Ice cream: Definition, Classification and Composition, Constituents and their role. Preparation of mixes and freezing of Ice cream, Overrun, Judging, Grading, and defects of Ice cream.",
+        "4": "Evaporated and Condensed milk: Method of manufacture, Packaging and storage. Defects, Causes, and prevention. Roller and Spray Drying of milk solids. Instantization. Flow ability, Dustiness, Reconstituability, Dispersability, Wetability, Sink ability and appearance of milk powders.",
+        "5": "Byproducts of Dairy Industry and their effective utilization. Manufacture of casein, Whey protein, Lactose from milk and their use in formulated foods. Quality Control tests in Dairy industry."
+      },
+      "unit_parts": {
+        "1": [
+          "Fluid Milk: Composition of milk and factor affecting it. Physico-chemical characteristics of milk and milk constituents.",
+          "Production and collection, cooling and transportation of milk. Packaging storage and distribution of pasteurized milk."
+        ],
+        "2": [
+          "Whole, Standardized, Toned, Double toned and skim milk. Test for milk quality and Adulteration.",
+          "UHT processed milk, flavored, Sterilized milk. Cleaning and sanitization of dairy equipments.",
+          "Definition, Classification, Composition and physico-chemical properties of cream. Production processes and quality control."
+        ],
+        "3": [
+          "Butter: Definition, Classification, Composition and methods of manufacture, Packaging and storage. Butter oil/Ghee.",
+          "Dairy based Ice cream: Definition, Classification and Composition, Constituents and their role. Preparation of mixes and freezing of Ice cream, Overrun, Judging, Grading, and defects of Ice cream."
+        ],
+        "4": [
+          "Evaporated and Condensed milk: Method of manufacture, Packaging and storage. Defects, Causes, and prevention.",
+          "Roller and Spray Drying of milk solids. Instantization. Flow ability, Dustiness, Reconstituability, Dispersability, Wetability, Sink ability and appearance of milk powders."
+        ],
+        "5": [
+          "Byproducts of Dairy Industry and their effective utilization.",
+          "Manufacture of casein, Whey protein, Lactose from milk and their use in formulated foods. Quality Control tests in Dairy industry."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          5,
+          4
+        ],
+        "2": [
+          3,
+          3,
+          4
+        ],
+        "3": [
+          4,
+          4
+        ],
+        "4": [
+          3,
+          5
+        ],
+        "5": [
+          3,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the processes related to storage, processing and distribution of milk and milk Products."
+        },
+        {
+          "no": 2,
+          "text": "Perceive the different properties of milk and milk products."
+        },
+        {
+          "no": 3,
+          "text": "Have knowledge regarding hygiene and sanitation practices in the milk and milk products industry."
+        }
+      ],
+      "objectives_print": [
+        "To impart fundamental knowledge of the technologies of processing of milk and milk products",
+        "To impart basic knowledge of the machinery and equipments involved.",
+        "To explain the hygiene and sanitation practices in milk plant."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Sukumar De: Outlines of Dairy Technology, Oxford University Press",
+          "year": "2001"
+        },
+        {
+          "no": 2,
+          "book": "Aneja, Mathur, Chandan & A. K. Bannerji: Technology of Indian Milk Products: Dairy India Publication",
+          "year": "2002"
+        },
+        {
+          "no": 3,
+          "book": "Shivashraya Singh: Dairy Technology: Vol.01: Milk and Milk Processing, New India Publishing Agency",
+          "year": "2013"
+        },
+        {
+          "no": 4,
+          "book": "Meghwal. Goyal and Chavan: Dairy Engineering: Advanced Technologies and their applications, Apple Academic Press, Canada.",
+          "year": "2017"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.27-28",
+      "source_scheme_line": "3 KFT 602 DAIRY TECHNOLOGY 3 1 0 30 20 50 100 150 4",
+      "quirks": [
+        "Unit-II third content row spans pp.27-28; row text 'Definition, Classification, Composition and physico-chemical properties of cream. Production processes and quality control.' continues on p.28"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Technology of Animal Foods",
+      "name_print": "TECHNOLOGY OF ANIMAL FOODS",
+      "codes": [
+        "KFT-061"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-III",
+      "exam_duration_print": "3Hrs.",
+      "units": {
+        "1": "Ante-mortem examination of meat animals, Scientific slaughtering; Meat cuts and portions of meat,Post mortem changes in meat Conversion of muscle to meat; Colour of meat; Composition and nutritional value, Meat microbiology and safety.",
+        "2": "Meat processing curing and smoking; Fermented meat products (sausages and sauces); Frozen meat & meat storage. Beef Mutton, Pork Sausages and other meat products.",
+        "3": "Poultry processing, Canning of poultry products. Structure, composition and Nutritional and Functional characteristics of Egg. Causes of deterioration of quality of egg, Preservation and Processing of Egg. Manufacturing of egg white, Egg yolk and Whole Egg solids/powder.",
+        "4": "Classification of fresh water fish and marine fish; Commercial handling, storage and transport of raw fish. Average composition of fish; Freshness criteria, quality assessment of fish; Spoilage of fish. Methods of processing and preservation of fish- Canning, Freezing, Drying, Smoking and Curing. Fish products – fish meal, fish protein concentrate, fish liver oil, fish sauce and surimi; Fish processing industries in India.",
+        "5": "Meat plant hygiene – GMP and HACCP. By-products from meat industries and their utilization; Meat industries in India. Production of chitin, chitosan; Production of non-food items from fish processing wastes. Byproduct Utilization – commercial processing of lecithin and other egg solids, Utilization of egg-derived products as food ingredients; Fertilizer from shells."
+      },
+      "unit_parts": {
+        "1": [
+          "Ante-mortem examination of meat animals, Scientific slaughtering; Meat cuts and portions of meat,Post mortem changes in meat",
+          "Conversion of muscle to meat; Colour of meat; Composition and nutritional value, Meat microbiology and safety."
+        ],
+        "2": [
+          "Meat processing curing and smoking; Fermented meat products (sausages and sauces);",
+          "Frozen meat & meat storage. Beef Mutton, Pork Sausages and other meat products."
+        ],
+        "3": [
+          "Poultry processing, Canning of poultry products.",
+          "Structure, composition and Nutritional and Functional characteristics of Egg. Causes of deterioration of quality of egg, Preservation and Processing of Egg.",
+          "Manufacturing of egg white, Egg yolk and Whole Egg solids/powder."
+        ],
+        "4": [
+          "Classification of fresh water fish and marine fish; Commercial handling, storage and transport of raw fish. Average composition of fish; Freshness criteria, quality assessment of fish; Spoilage of fish.",
+          "Methods of processing and preservation of fish- Canning, Freezing, Drying, Smoking and Curing. Fish products – fish meal, fish protein concentrate, fish liver oil, fish sauce and surimi; Fish processing industries in India."
+        ],
+        "5": [
+          "Meat plant hygiene – GMP and HACCP. By-products from meat industries and their utilization; Meat industries in India. Production of chitin, chitosan; Production of non-food items from fish processing wastes.",
+          "Byproduct Utilization – commercial processing of lecithin and other egg solids, Utilization of egg-derived products as food ingredients; Fertilizer from shells."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          4,
+          4
+        ],
+        "2": [
+          4,
+          4
+        ],
+        "3": [
+          4,
+          4,
+          2
+        ],
+        "4": [
+          3,
+          5
+        ],
+        "5": [
+          4,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the ante-mortem and postmortem factors affecting the quality of meat produced."
+        },
+        {
+          "no": 2,
+          "text": "Understand the different processing and preservation technology applied in the industry for manufacturing of meat, poultry and fish products."
+        },
+        {
+          "no": 3,
+          "text": "Be able to understand various quality and safety aspects of meat, poultry and fish processing industry."
+        },
+        {
+          "no": 4,
+          "text": "Understand the technology of by-product utilization in meat, poultry and fish industry into products of commercial value."
+        }
+      ],
+      "objectives_print": [
+        "To give the students an understanding of the nutritional value, processing, and storage characteristics of meat, poultry and fish as food",
+        "To provide knowledge regarding the manufacture of Food Products from these sources",
+        "To provide information about quality control and by-product utilization of the meat, poultry and fish industry."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "G.J.Mountney, Poultry Products Technology , 3rd Edition, CRC Press",
+          "year": "2017"
+        },
+        {
+          "no": 2,
+          "book": "R. A. Lawrie, David Ledward: Meat Science, Wood head Publishing",
+          "year": "2017"
+        },
+        {
+          "no": 3,
+          "book": "Lawrie R.A: Developments in Meat Science – I & II,; Applied Science Pub. Ltd."
+        },
+        {
+          "no": 4,
+          "book": "Bremner HA : Fish as Food; Vol 1 & 2;2002, Academic Press.",
+          "year": "1961"
+        },
+        {
+          "no": 5,
+          "book": "Jhingram VG; Fish & Fisheries of India;",
+          "year": "1997"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.29-30",
+      "source_scheme_line": "4 KFT 061-063 Departmental Elective-III 3 0 0 30 20 50 100 150 3",
+      "quirks": [
+        "Unit-IV first content row spans pp.29-30; lecture-hours value 3 printed inline at end of 'storage' in the text layer, and the sub-entry number 2 for the second row is printed on p.30",
+        "Book 3 year cell printed blank; book 4 year cell prints 1961 though its text cites 2002 — kept verbatim",
+        "Print kept verbatim: 'Wood head Publishing', 'Jhingram VG'"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Traditional & Fermented Foods",
+      "name_print": "TRADITIONAL & FERMENTED FOODS",
+      "codes": [
+        "KFT-062"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-III",
+      "exam_duration_print": "3Hrs.",
+      "units": {
+        "1": "Indian traditional sweet, savory and snack food products: Sweetmeats, Namkins, Papads Idli and Dosa. Raw materials, Role of Ingredients and preparation.",
+        "2": "Preparation and Maintenance of Bacterial, Yeast and Mold cultures for food fermentations. Lactic acid bacteria-activities and health-promoting effects. Mushrooms: Cultivation and preservation.",
+        "3": "Fermented Dairy Products: Cheeses, Curd and Yoghurt, Butter milk and the fermented milks. Spoilages and defects of fermented dairy products and their control. Fermented meat and fish products.",
+        "4": "Fermentative Production of Beer, Wines, Cider and Vinegar. Raw materials, Role of Ingredients, Quality Factors, Common faults and Remedies. Fermented Vegetables (Pickles).",
+        "5": "Production of Baker's Yeast, Microbial Proteins and fats, Food enzymes, and Food additives. Oriental fermented foods."
+      },
+      "unit_parts": {
+        "1": [
+          "Indian traditional sweet, savory and snack food products: Sweetmeats, Namkins, Papads Idli and Dosa.",
+          "Raw materials, Role of Ingredients and preparation."
+        ],
+        "2": [
+          "Preparation and Maintenance of Bacterial, Yeast and Mold cultures for food fermentations.",
+          "Lactic acid bacteria-activities and health-promoting effects. Mushrooms: Cultivation and preservation."
+        ],
+        "3": [
+          "Fermented Dairy Products: Cheeses, Curd and Yoghurt, Butter milk and the fermented milks. Spoilages and defects of fermented dairy products and their control.",
+          "Fermented meat and fish products."
+        ],
+        "4": [
+          "Fermentative Production of Beer, Wines, Cider and Vinegar. Raw materials, Role of Ingredients, Quality Factors, Common faults and Remedies.",
+          "Fermented Vegetables (Pickles)."
+        ],
+        "5": [
+          "Production of Baker's Yeast, Microbial Proteins and fats, Food enzymes, and Food additives.",
+          "Oriental fermented foods."
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          4,
+          4
+        ],
+        "2": [
+          4,
+          4
+        ],
+        "3": [
+          5,
+          3
+        ],
+        "4": [
+          5,
+          3
+        ],
+        "5": [
+          4,
+          4
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the processing technology and quality of traditional Indian food products."
+        },
+        {
+          "no": 2,
+          "text": "Understand the importance and techniques of fermentation in food industry."
+        },
+        {
+          "no": 3,
+          "text": "Understand the technology of different type food products produced by fermentation and their quality & safety requirements."
+        },
+        {
+          "no": 4,
+          "text": "Understand the direct or indirect use of microorganism in the food production industry."
+        }
+      ],
+      "objectives_print": [
+        "To impart student basic knowledge of the traditional Indian sweets, savory and snack products",
+        "To impart knowledge regarding their manufacturing technology and Quality Aspects",
+        "To give them understanding of fermented food products, technology of production and quality aspects."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "K.H. Steinkrus : Handbook of Indigenous Fermented Foods, CRC Press,",
+          "year": "2018"
+        },
+        {
+          "no": 2,
+          "book": "De Sukumar: Outlines of Dairy Technology, Oxford University Press",
+          "year": "2001"
+        },
+        {
+          "no": 3,
+          "book": "Prescott & Dunn Industrial Microbiology, CBS Publishers and Distributors,",
+          "year": "2004"
+        },
+        {
+          "no": 4,
+          "book": "L.E. Casida Industrial Microbiology, New Age International",
+          "year": "2007"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.31-32",
+      "source_scheme_line": "4 KFT 061-063 Departmental Elective-III 3 0 0 30 20 50 100 150 3",
+      "quirks": [
+        "Book 1 author printed 'K.H. Steinkrus' — kept verbatim"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Speciality Fats for Food Industry",
+      "name_print": "SPECIALITY FATS FOR FOOD INDUSTRY",
+      "codes": [
+        "KFT-063"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "credit_print": "03",
+      "marks": {
+        "sessional_ct": 30,
+        "sessional_ta": 20,
+        "sessional_total": 50,
+        "te": 100,
+        "total": 150
+      },
+      "subject_type": "departmental-elective",
+      "elective_group": "Departmental Elective-III",
+      "exam_duration_print": "3.0 HOURS",
+      "units": {
+        "1": "Introduction to Speciality Fats: Definition of speciality fats, Plasticity of Fats and Plastic range, Functions and Applications of Shortening and Bakery Fats, Cocoa Butter: Physicochemical properties; Fatty acid composition; Cocoa Butter Alternatives, viz Cocoa Butter Equivalent (CBE), Cocoa Butter Substitutes (CBS), Cocoa Butter Replacer (CBR); Low Calorie Fats",
+        "2": "Functions and Applications of Modified Fats: Hydrogenation Reaction, Hydrogenated Fats, Inter-esterification; Random Inter-esterification, Directed Inter-esterification,, Margarine, Fat Crystallization into various polymorphic forms, Palm fractions, Palm Kernel Oils; application of Palm oil in solid margarin, Stearin, Palm Kernel Stearin in confectionery industry, Confectionary lipids, Fats and Oils for Bakery Products, Margarines & Spreads",
+        "3": "Flavours and Sensory Evaluation of Fats: Chemistry, function and applications of various additives such as preservatives, antioxidants, emulsifiers, humectants, stabilizers used in formulations, Flavour Components of fats, Flavours & Sensory aspects of fats",
+        "4": "Modification of Fats: Hydrogenation Process, Trans Fat alternatives and challenges, Margarine Processing Plant, Palm Oil Fraction , Crystallization of Oils & Fats",
+        "5": "Analytical Aspects: Dilatometry- theory and practice, Solid Fat Content, Solid Fat Index, determination of Peroxide Value Anisidene value, Totox value, Determination of Polar Components, Quality control and assurance using GC,GC-MS-MS, LC-MS-MS, Rancimat and detection of formation of MCPD"
+      },
+      "unit_parts": {
+        "1": [
+          "Introduction to Speciality Fats: Definition of speciality fats, Plasticity of Fats and Plastic range, Functions and Applications of Shortening and Bakery Fats, Cocoa Butter: Physicochemical properties; Fatty acid composition; Cocoa Butter Alternatives, viz Cocoa Butter Equivalent (CBE), Cocoa Butter Substitutes (CBS), Cocoa Butter Replacer (CBR); Low Calorie Fats"
+        ],
+        "2": [
+          "Functions and Applications of Modified Fats: Hydrogenation Reaction, Hydrogenated Fats, Inter-esterification; Random Inter-esterification, Directed Inter-esterification,, Margarine, Fat Crystallization into various polymorphic forms, Palm fractions, Palm Kernel Oils; application of Palm oil in solid margarin, Stearin, Palm Kernel Stearin in confectionery industry, Confectionary lipids, Fats and Oils for Bakery Products, Margarines & Spreads"
+        ],
+        "3": [
+          "Flavours and Sensory Evaluation of Fats: Chemistry, function and applications of various additives such as preservatives, antioxidants, emulsifiers, humectants, stabilizers used in formulations, Flavour Components of fats, Flavours & Sensory aspects of fats"
+        ],
+        "4": [
+          "Modification of Fats: Hydrogenation Process, Trans Fat alternatives and challenges, Margarine Processing Plant, Palm Oil Fraction , Crystallization of Oils & Fats"
+        ],
+        "5": [
+          "Analytical Aspects: Dilatometry- theory and practice, Solid Fat Content, Solid Fat Index, determination of Peroxide Value Anisidene value, Totox value, Determination of Polar Components, Quality control and assurance using GC,GC-MS-MS, LC-MS-MS, Rancimat and detection of formation of MCPD"
+        ]
+      },
+      "unit_lecture_hours": {
+        "1": [
+          8
+        ],
+        "2": [
+          8
+        ],
+        "3": [
+          8
+        ],
+        "4": [
+          8
+        ],
+        "5": [
+          8
+        ]
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the basic fundamentals and sensory aspects of specialty fats"
+        },
+        {
+          "no": 2,
+          "text": "This enable the students understand functions and applications of modified fats"
+        },
+        {
+          "no": 3,
+          "text": "Apply knowledge to formulate different specialty fats"
+        },
+        {
+          "no": 4,
+          "text": "Analyze the process used for production of specialty fats"
+        },
+        {
+          "no": 5,
+          "text": "Analyze the specialty products from quality aspects"
+        }
+      ],
+      "objectives_print": [
+        "To provide knowledge about Bakery & Shortening Fats, Confectionery Fats",
+        "To provide knowledge about Margarines, Spread Fats, and Fractionated Fats for better understanding of end products of Industry",
+        "To disseminate knowledge on Functional Fats & their qualitative and sensory aspects",
+        "To prepare passing out graduates for better job opportunities multi products food industry"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Bailey’s Industrial Oil and Fat, Edition 6 ;Vol-2,3 & 5 Edited by Feireidoon Shahidi",
+          "year": "2005"
+        },
+        {
+          "no": 2,
+          "book": "Hydrogenation of Oil & Fat Edited by H.B.W. Patterson"
+        },
+        {
+          "no": 3,
+          "book": "Manoj K. Gupta, “Practical Guide to Vegetable Oil Processing” AOCS publication",
+          "year": "2007"
+        },
+        {
+          "no": 4,
+          "book": "Richard D.O. Brien , “Fats and oils formulating and processing for applications”., 2nd Edition CRC Press Florida Publication"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 pp.33-34",
+      "source_scheme_line": "4 KFT 061-063 Departmental Elective-III 3 0 0 30 20 50 100 150 3",
+      "quirks": [
+        "CREDITS printed as '03' on p.33",
+        "Unit-II content row spans pp.33-34; the unit marker 'II' and S.No '1' are printed on p.34 beside the continuation text, and 'Random Inter-' + 'esterification' join across the page break",
+        "Print kept verbatim: 'Inter-esterification,,' (double comma), 'solid margarin', 'Confectionary lipids' (p.34)",
+        "Course-details table header prints 'S.N0' (p.33); book 2 and book 4 year cells printed blank"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Instrumentation & Process Control Lab",
+      "name_print": "INSTRUMENTATION & PROCESS CONTROL LAB",
+      "codes": [
+        "KCH 655"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "ps": 25,
+        "pe": 25,
+        "total": 50
+      },
+      "subject_type": "lab",
+      "exam_duration_print": "2 Hrs",
+      "units": {},
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Calibration of thermocouple/Bimetallic thermocouple/Resistance thermocouple."
+        },
+        {
+          "no": 2,
+          "exp": "Calibration of Pressure gauge/ Pneumatic pressure recorder/ Differential pressure recorder."
+        },
+        {
+          "no": 3,
+          "exp": "Calibration of Orificemeter /Venturimeter /Rotameter/ Gas flow meter."
+        },
+        {
+          "no": 4,
+          "exp": "Estimation of viscosity by Redwood/Saybolt/Ostwald viscometer."
+        },
+        {
+          "no": 5,
+          "exp": "Calibration of pH meter."
+        },
+        {
+          "no": 6,
+          "exp": "To study the response, time constant of thermocouple."
+        },
+        {
+          "no": 7,
+          "exp": "To study the response of a liquid level tank system"
+        },
+        {
+          "no": 8,
+          "exp": "To study the response of a two tank non-interacting system"
+        },
+        {
+          "no": 9,
+          "exp": "To study the response of a two tank interacting system."
+        },
+        {
+          "no": 10,
+          "exp": "To study the characteristics of a PI/PID pneumatic / electronic controller."
+        }
+      ],
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the elements of measuring instruments and measurement concepts."
+        },
+        {
+          "no": 2,
+          "text": "Apply the knowledge of control theory for understanding the various processes, carried out in the food process industry."
+        },
+        {
+          "no": 3,
+          "text": "Demonstrate their ability to understand the process control and its application by virtue of experimentation."
+        },
+        {
+          "no": 4,
+          "text": "Learn due care and precautions in handling measuring instruments."
+        }
+      ],
+      "objectives_print": [
+        "To make students aware of working of different process control instruments through hands-on training.",
+        "To make students to correlate theory and practical process control through principles, fundamental concepts and by experimentation."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Eckman, D.P., Industrial Instrumentation, Wiley Eastern Ltd., New York.",
+          "year": "1990"
+        },
+        {
+          "no": 2,
+          "book": "Jain, R.K., Mechanical and Industrial Measurements, Khanna Publishers.",
+          "year": "1995"
+        },
+        {
+          "no": 3,
+          "book": "Coughnaowr, D. R., “Process Systems Analysis and Control”, McGraw-Hill, Inc.",
+          "year": "1991"
+        },
+        {
+          "no": 4,
+          "book": "Stephanopolous, G., “Chemical Process Control”, Prentice-Hall.",
+          "year": "1984"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 p.35",
+      "source_scheme_line": "6 KCH 655 INSTRUMENTATION & PROCESS CONTROL LAB 0 0 2 25 25 50 1",
+      "quirks": [
+        "p.35 header prints 'CREDIT: 1' (singular 'CREDIT')"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Bakery Technology Lab",
+      "name_print": "BAKERY TECHNOLOGY LAB",
+      "codes": [
+        "KFT-651",
+        "KFT 651"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "ps": 25,
+        "pe": 25,
+        "total": 50
+      },
+      "subject_type": "lab",
+      "exam_duration_print": "2.0 HOURS",
+      "units": {},
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Preparation of Bread/ Test Baking."
+        },
+        {
+          "no": 2,
+          "exp": "Preparation of Sweet Buns"
+        },
+        {
+          "no": 3,
+          "exp": "Preparation of Pizza base."
+        },
+        {
+          "no": 4,
+          "exp": "Preparation of Biscuits"
+        },
+        {
+          "no": 5,
+          "exp": "Preparation of Nan-Khatai"
+        },
+        {
+          "no": 6,
+          "exp": "Preparation of Cookies"
+        },
+        {
+          "no": 7,
+          "exp": "Preparation of Cakes (Eggs/ Eggless)"
+        },
+        {
+          "no": 8,
+          "exp": "Preparation of Pastries"
+        },
+        {
+          "no": 9,
+          "exp": "Preparation of Laminated and Puffed products"
+        }
+      ],
+      "cos": [
+        {
+          "no": 1,
+          "text": "Identify and explain baking ingredients, equipment and tools."
+        },
+        {
+          "no": 2,
+          "text": "Scale and measure ingredients."
+        },
+        {
+          "no": 3,
+          "text": "Produce baked products using commercial ingredients and equipment."
+        }
+      ],
+      "objectives_print": [
+        "To provide students with knowledge and skills necessary to produce quality baked goods.",
+        "To provide knowledge regarding testing of quality parameters of baked products"
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "S.C Dubey: Basic Baking: Science and Craft, Publisher",
+          "year": "1980"
+        },
+        {
+          "no": 2,
+          "book": "Betty Crocker: Baking Basics, Wiley",
+          "year": "2009"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 p.36",
+      "source_scheme_line": "7 KFT 651 BAKERY TECHNOLOGY LAB 0 0 2 25 25 50 1",
+      "quirks": [
+        "Book 1 prints 'S.C Dubey: Basic Baking: Science and Craft, Publisher' — trailing ', Publisher' kept verbatim"
+      ],
+      "flags": []
+    },
+    {
+      "name": "Dairy Technology Lab",
+      "name_print": "DAIRY TECHNOLOGY LAB",
+      "codes": [
+        "KFT-652",
+        "KFT 652"
+      ],
+      "semester": 6,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "ps": 25,
+        "pe": 25,
+        "total": 50
+      },
+      "subject_type": "lab",
+      "exam_duration_print": "2.0 HOURS",
+      "units": {},
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Platform Tests of milk [ COB, MBR Test, Alcohol Test, Sediment Test]"
+        },
+        {
+          "no": 2,
+          "exp": "Determination of Fat content in Milk and Milk Products"
+        },
+        {
+          "no": 3,
+          "exp": "Determination of SNF Content in Milk"
+        },
+        {
+          "no": 4,
+          "exp": "Determination of Titratable Acidity in Milk"
+        },
+        {
+          "no": 5,
+          "exp": "Determination of Overrun in Icecream"
+        },
+        {
+          "no": 6,
+          "exp": "Quality Testing of Butter"
+        },
+        {
+          "no": 7,
+          "exp": "Quality Testing of Butter oil / Ghee"
+        },
+        {
+          "no": 8,
+          "exp": "Analysis of Adulteration in Milk and Milk products"
+        }
+      ],
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand different methods of milk quality analysis."
+        },
+        {
+          "no": 2,
+          "text": "Understand detection methods of adulterants in milk."
+        },
+        {
+          "no": 3,
+          "text": "Perceive the quality analysis of dairy products."
+        }
+      ],
+      "objectives_print": [
+        "To provide knowledge about the quality of milk and milk products.",
+        "To depict the detection of adulterants in milk and milk products.",
+        "To provide knowledge regarding the quality of dairy products."
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Ramesh C. Chandan: Dairy-based Ingredients, Eagan Press",
+          "year": "1997"
+        },
+        {
+          "no": 2,
+          "book": "Sukumar De: Outlines of Dairy Technology, Oxford University Press",
+          "year": "2001"
+        },
+        {
+          "no": 3,
+          "book": "Aneja, Mathur, Chandan & A. K. Bannerji: Technology of Indian Milk Products: Dairy India Publication",
+          "year": "2002"
+        }
+      ],
+      "prerequisites": "NIL",
+      "source_syllabus": "02_btech_ft_y3_scheme-syllabus_2020-21.pdf#3b5860baf691c4a1 p.37",
+      "source_scheme_line": "8 KFT 652 DAIRY TECHNOLOGY LAB 0 0 2 25 25 50 1",
+      "quirks": [],
+      "flags": []
+    }
+  ],
+  "non_subject_rows": [
+    {
+      "kind": "title_page",
+      "print": "Evaluation Scheme & Syllabus For B.Tech. 3rd Year (Food Technology) On AICTE MODEL CURRICULUM (Effective from the Session: 2020-21)",
+      "locator": "p.1"
+    },
+    {
+      "kind": "elective_pool",
+      "print": "4 KFT 051-053 Departmental Elective-I 3 0 0 30 20 50 100 150 3",
+      "locator": "p.2 Semester V scheme table row 4"
+    },
+    {
+      "kind": "elective_pool",
+      "print": "5 KFT 054-056 Departmental Elective-II 3 0 0 30 20 50 100 150 3",
+      "locator": "p.2 Semester V scheme table row 5"
+    },
+    {
+      "kind": "scheme_row_mini_project",
+      "print": "9 Mini Project or Internship Assessment* 0 0 2 50 50 1",
+      "locator": "p.2 Semester V scheme table row 9 (no subject code printed; CT/TA/sessional total and PE cells blank)"
+    },
+    {
+      "kind": "footnote",
+      "print": "*The Mini Project or internship (4 weeks) conducted during summer break after IV semester and will be assessed during V semester.",
+      "locator": "p.2 Semester V scheme table footnote"
+    },
+    {
+      "kind": "scheme_row_non_credit",
+      "print": "10 NC Constitution of India / Essence of Indian Traditional Knowledge 2 0 0 15 10 25 50",
+      "locator": "p.2 Semester V scheme table row 10 (grand Total and Credit cells blank)"
+    },
+    {
+      "kind": "scheme_row_moocs",
+      "print": "11 MOOCs (Essential for Hons. Degree)",
+      "locator": "p.2 Semester V scheme table row 11 (all marks/credit cells blank)"
+    },
+    {
+      "kind": "scheme_total",
+      "print": "Total 17 3 8 950 22",
+      "locator": "p.2 Semester V scheme table total row"
+    },
+    {
+      "kind": "elective_pool",
+      "print": "4 KFT 061-063 Departmental Elective-III 3 0 0 30 20 50 100 150 3",
+      "locator": "p.2 Semester VI scheme table row 4"
+    },
+    {
+      "kind": "elective_pool_open",
+      "print": "5 Open Elective-I [Annexure - B(iv)] 3 0 0 30 20 50 100 150 3",
+      "locator": "p.2 Semester VI scheme table row 5 (no subject code printed; syllabus not detailed in this document)"
+    },
+    {
+      "kind": "scheme_row_non_credit",
+      "print": "9 NC Essence of Indian Traditional Knowledge/Constitution of India 2 0 0 15 10 25 50",
+      "locator": "p.2 Semester VI scheme table row 9 (grand Total and Credit cells blank)"
+    },
+    {
+      "kind": "scheme_row_moocs",
+      "print": "10 MOOCs (Essential for Hons. Degree)",
+      "locator": "p.2 Semester VI scheme table row 10 (all marks/credit cells blank)"
+    },
+    {
+      "kind": "scheme_total",
+      "print": "Total 0 3 6 900 21",
+      "locator": "p.2 Semester VI scheme table total row (L printed as 0)"
+    },
+    {
+      "kind": "elective_pool_detail",
+      "print": "DEPARTMENT ELECTIVE – 1 KFT-051 CEREALS, PULSES & OILSEED PRODUCTS KFT-052 ENGINEERED, FABRICATED & TEXTURED FOODS KFT-053 FOOD PROCESS ENGINEERING",
+      "locator": "p.3"
+    },
+    {
+      "kind": "elective_pool_detail",
+      "print": "DEPARTMENT ELECTIVE – 2 KFT-054 FRUITS, VEGETABLES & PLANTATION PRODUCTS KFT-055 NUTRACEUTICALS & FUNCTIONAL FOODS KFT-056 TECHNOLOGY OF FOOD BEVERAGES",
+      "locator": "p.3"
+    },
+    {
+      "kind": "elective_pool_detail",
+      "print": "DEPARTMENT ELECTIVE- 3 KFT-061 TECHNOLOGY OF ANIMAL FOODS KFT-062 TRADITIONAL & FERMENTED FOODS KFT-063 SPECIALITY FATS FOR FOOD INDUSTRY",
+      "locator": "p.3"
+    }
+  ],
+  "quirks": [
+    "No K-levels (K1-K6) are printed on any course outcome in this document; cos recorded without kl",
+    "Scheme table (p.2) prints the CRE lab code without space as 'KCH554' with short name 'CRE LAB'; its syllabus page (p.21) prints 'KCH 554' with full title",
+    "'EXAM DURATION:' printed blank in the title blocks of KCH 504 (p.4) and KFT-501 (p.7)",
+    "Semester VI scheme total row prints periods '0 3 6' (L printed as 0) with totals 900 / 21 (p.2)",
+    "p.4 header prints 'SUBJE CT CODE' (typo) for KCH 504",
+    "Elective codes print hyphenated on syllabus pages ('KFT-051') and space-separated with ranges in scheme tables ('KFT 051-053')",
+    "p.38 is blank"
+  ],
+  "flags": []
+}
