@@ -1,3 +1,7 @@
+# CRON-20261104-B27 — B27 — 2026-11-03
+
+rows 1924-1983, codes 4020-4140, +59 appends, ~105 updates, !1 repair - HT wave first-class 2021-22 to 2025-26 plus FT 2015-16/2019-21 tail, IC 2011-12, IT 2018-19; BFT652 ownership repair; recovered from reset-34 mid-run
+
 # CRON-20261103-B26 — B26 — 2026-11-03
 
 rows 1855-1924, codes 3823-4020, +69 appends, ~203 updates, !0 repairs - FT wave first-class 2009-10 to 2025-26 plus ENV y4 elective tails; in-flight batch resumed after reset-32
