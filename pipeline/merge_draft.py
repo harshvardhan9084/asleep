@@ -2057,6 +2057,9 @@ TIER2_OVERRIDES.update({
     "04_btech_ft_s7-8_syllabus_2025-26::06::mini-project-of-internship-assessment": {
         "action": "RETARGET", "target": "mini-project-or-internship-assessment",
         "reason": "TIE fuzzy resolution on the recorded B24 slot-row ownership model (BCH752 2025-26 CHE print of the same assessment slot went to this row): draft 'Mini Project of Internship Assessment' (BFT752, 2025-26 FT, CO table + objectives, no unitwise theory) — fuzzy 97/mini-project-or-internship-assessment (cross-branch assessment-slot row whose all_codes already carry the 2025-26 sister-branch prints BBT752/BCS752/BCH752) vs 96/internship-assessment-mini-project (the CSE-family BCC351-primary row, recorded B12 distinct row). BFT752 is the FT print of the same slot; newest session → fieldwise-wins."},
+    "04_btech_ft_s7-8_syllabus_2025-26::12::open-elective-iv": {
+        "action": "RETARGET", "target": "open-elective-iv",
+        "reason": "Same-commit wildcard-wart TIE (recorded B22 class — 'a wildcard-wart TIE, not two real subjects' — and the identical BT-2025-26 precedent 10_btech_bt_y4_syllabus_2025-26::12::open-elective-iv RETARGET open-elective-iv): draft 'Open Elective-IV' (BOEM** pool wildcard print, 2025-26 FT y4 Sem-VIII scheme row, flags scheme_row_only_detailed_syllabus_not_printed + wildcard_pool_code) — the ladder-time TIE (open-elective-ii;open-elective-iii) is an artifact of BOEM** being a G2-exempt pool wildcard printed on several OE slot rows: open-elective-ii carries it statically in all_codes, open-elective-iii received it from THIS commit's 04::11 name-transfer update (the reassignment executor runs post-loop). Neither candidate is the name-exact row. RETARGET pins the update to the name-exact row open-elective-iv (BTech sem-8 slot, est. 2021-22, already cited by the BT/ECE/EE-EN 2025-26 y4 prints; B07 recorded same-printed-slot convergence class); the 2025-26 draft is newer than the row's 2021-22 establishing print → fieldwise wins per RULES §3; the BOEM** pool print joins its all_codes (no digits → not a specific code token, G2-exempt)."},
     "05_btech_ft_syllabus-rev_2009-10::19::instrumentation-and-process-control": {
         "action": "FORCE_APPEND",
         "reason": "TIE fuzzy resolution — wrong-subject vs BOTH candidates (RULES §11 + B25 NEN-302 evidence class): draft 'Instrumentation and Process Control' (ECH507, 2009-10 FT-Chemical-Technology core, detailed units u1 'Elements of measurement, fumctions and general classifications of measuring instruments...' [print typo kept]) — candidates instrumentation-process-control (NEE-403, Electrical, J=0.25) and electrical-instrumentation-and-process-control (EEE-504, J=0.26): NO unit identity with either EE-branch course; the ECH507 print is the Chemical-Technology instrumentation course, a different subject sharing the generic title family. APPEND as its own row with cross-reference notes to both EE rows; the 2015-16 NCH-507 print converges onto it via same-commit visibility."},
@@ -2064,8 +2067,9 @@ TIER2_OVERRIDES.update({
         "action": "FORCE_APPEND",
         "reason": "Same evidence as 05::19: draft 'Instrumentation and Process Control' (NCH-507, 2015-16 FT, detailed units identical u1 print) — converges onto the 05::19-appended row by Tier-1 name identity at commit."},
     "05_btech_ft_syllabus-rev_2009-10::52::general-proficiency": {
-        "action": "RETARGET", "target": "general-proficiency",
-        "reason": "TIE code-identity resolution (recorded B25 GP class, same resolution): draft 'General Proficiency' (GP-301..GP-801, 2009-10 FT scheme rows, one GP slot per semester) — RETARGET pins the update to the name-exact general-proficiency row (its codes GP401-801 are re-corroborated; 2009-10 older → backfill/source-history only) while GP-301 stays with its published newer-print owner general-proficiency-lab."},
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "general-proficiency",
+        "keep_published_codes": {"GP301": "general-proficiency-lab"},
+        "reason": "TIE code-identity resolution (recorded B25 GP class, SAME resolution — B25 manifest: 'general-proficiency: TIE GP-301..801 — GP401-801 re-corroborate the name-exact row, GP-301 stays with general-proficiency-lab whose 2014-15 print is newer'): draft 'General Proficiency' (GP-301..GP-801, 2009-10 FT scheme rows, one GP slot per semester) — RETARGET pins the update to the name-exact general-proficiency row (GP401-801 re-corroborated; 2009-10 older → backfill/source-history only) and GP-301 STAYS with its published newer-print owner general-proficiency-lab (2014-15 EE-group print; equal-or-older print never takes a code from its published owner, RULES §3; the B19 keep_published_codes mechanism drops the kept code from the draft copy and records the narrative on the target row — G2 single-ownership preserved)."},
     "05_btech_ft_syllabus-rev_2009-10::55::nano-sciences": {
         "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
         "target": "nano-sciences",
@@ -2133,6 +2137,21 @@ TIER2_OVERRIDES.update({
 # unit1_text is byte-identical to the published value and which cite one of
 # these shas. Never add a sha here without a recorded ingest manifest.
 PRIOR_VERIFIED_LOST_SHA = {
+    "e18a3256f09b7f6e":
+        "Open-Elective-BTech-2nd-year-2023-08092023.pdf — charter-mandated released "
+        "companion doc (owner release recorded in the project charter, RULES §1): "
+        "supplied the published unit1_text of automation-and-robotics and "
+        "basics-data-structure-algorithms (2023-24 first ingestion); containment "
+        "probe-verified TRUE against the extant bytes at the B19 commit (2026-11-01, "
+        "recorded verbatim in the gate_g6 B19 remedy comment); the file lived in "
+        "work/artd_v3/sources/ which the later workspace resets wiped; md5 scan of "
+        "the repo corpus + upload/ = no match",
+    "4f09e0095540f04e":
+        "owner-upload CSE_v3 copy recorded in the gate_g6 B19 remedy comment: "
+        "supplied the published unit1_text of discrete-structures-and-theory-of-logic; "
+        "containment probe-verified TRUE against the extant bytes at the B19 commit "
+        "(2026-11-01); upload/ corpus wiped by the workspace resets; md5 scan of the "
+        "repo corpus = no match",
     "79a6daf1f0cd9310":
         "B.Tech. 3rd Year Civil Engineering.pdf — B04-ingested B.Tech 3rd Year "
         "Civil Engineering 2024-25 doc (rows 204→402 push, manifest "

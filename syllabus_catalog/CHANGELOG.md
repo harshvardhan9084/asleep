@@ -1,3 +1,7 @@
+# CRON-20261103-B26 — B26 — 2026-11-03
+
+rows 1855-1924, codes 3823-4020, +69 appends, ~203 updates, !0 repairs - FT wave first-class 2009-10 to 2025-26 plus ENV y4 elective tails; in-flight batch resumed after reset-32
+
 # CRON-20261103-B25 — B25 — 2026-11-03
 
 rows 1787-1855 codes 3640-3823 +68 appends/~182 updates/!0 repairs - EN-ENV wave 10 docs 2009-10..2021-22
