@@ -1,0 +1,1535 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2017-18/btech_me_y2_scheme-syllabus_2017-18.pdf",
+ "session": "2017-18",
+ "course": "BTech",
+ "sha16": "15ccfbe9a0ef83e4",
+ "stem": "02_btech_me_y2_scheme-syllabus_2017-18",
+ "subjects": [
+  {
+   "name": "Material Science",
+   "name_print": "RME301: MATERIAL SCIENCE",
+   "codes": [
+    "RME301"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_line_print": "4. RME301 Material Science 3-0-0 70 20 10 100 3",
+   "locator": "pp.4-5 (scheme row p.2)",
+   "units": {
+    "1": "Introduction: Importance of materials, historical perspective, Future aspects of engg. materials. Crystal Structure: brief on BCC, FCC and HCP Structures, coordination number and atomic packing factors. Bravais lattices, Miller indices, crystal imperfections-point line and surface imperfections. Atomic Diffusion: Phenomenon, Ficks laws of diffusion, factors affecting diffusion. Ferrous and non- ferrous materials: Properties, Composition and uses of Grey cast iron, malleable iron, SG iron and steel, copper alloys-brasses and bronzes, Aluminium alloys. Introduction to BIS & ASTM codes and practice on material and testing.",
+    "2": "Mechanical Behaviour: Stress-strain diagram showing ductile and brittle behaviour of materials, mechanical properties in plastic range, yield strength off set yield strength, ductility, ultimate tensile strength, toughness, Plastic deformation of single crystal by slip and twinning, Hardness Tests. Fracture Creep Fatigue: Fracture: Type I, Type II and Type III. Creep: Description of the phenomenon with examples. Three stages of creep, creep properties, stress relaxation. Fatigue: Types of fatigue loading with examples, Mechanism of fatigue, fatigue properties, fatigue testing and S-N diagram.",
+    "3": "Solidification: Mechanism of solidification, Homogenous and Heterogeneous nucleation, crystal growth, cast metal structures. Phase Diagram I: Solid solutions Hume Rothary rule, substitutional and interstitial solid solutions, intermediate phases, Gibbs phase rule. Phase Diagram: Construction of equilibrium diagrams involving complete and partial solubility, lever rule. Iron carbon equilibrium diagram description of phases, solidification of steels and cast irons, invariant reactions.",
+    "4": "Heat Treating of Metals: TTT curves, continuous cooling curves, annealing and its types. Normalizing, hardening, tempering, mastempering, austempering, hardenability, surface hardening methods like carburizing, cyaniding, nitriding, flame hardening and induction hardening, age hardening of aluminium-copper alloys. Comparative study of microstructure of various Ferrous, nonferrous metals and alloys.",
+    "5": "Composite materials: Definition, classification, types of matrix materials & reinforcements, fundamentals of production of FRP's and MMC's advantages and application of composites. Ceramics: Structure types and properties and applications of ceramics. Mechanical/ Electrical behavior and processing of Ceramics. Plastics: Various types of polymers/ plastics and its applications. Mechanical behaviour and processing of plastics, Future of plastics. Introduction to Smart materials & Nano-materials and their potential applications."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Callisters Materials Science and Engineering, by William D. Callister, Jr, (Adopted by R. Balasubramaniam), Wiley India Pvt. Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Elements of Material Science & Engineering by Van Vlack, Pearson"
+    },
+    {
+     "no": 3,
+     "book": "Material Science and Engineering by Smith, Hashemi and Prakash, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 4,
+     "book": "The Science and Engineering of materials, by Askeland & Balani, Cengage Learning"
+    },
+    {
+     "no": 5,
+     "book": "Introduction to Materials Science for Engineers by Shackelford, Pearson"
+    },
+    {
+     "no": 6,
+     "book": "Material Science by Narula, MCGRAW HILL INDIA."
+    },
+    {
+     "no": 7,
+     "book": "Materials Science and Engineering - A First Course by Raghavan, PHI"
+    },
+    {
+     "no": 8,
+     "book": "Material Science and Engineering Properties by Gilmore, Cengage Learning"
+    },
+    {
+     "no": 9,
+     "book": "Material Science for Engineering Students by Fischer, Academic Press"
+    },
+    {
+     "no": 10,
+     "book": "Technology of Engineering materials by Philip and Bolton, Butterworth-Heinamann"
+    }
+   ],
+   "quirks": [
+    "pp.4-5: single combined 'Books and References:' list (no separate Text Books heading); recorded under textbooks.",
+    "Unit I prints 'non- ferrous' (space after hyphen) and 'Ficks laws' (for Fick's) — kept verbatim.",
+    "Unit II prints 'yield strength off set yield strength' (for 'offset yield strength') — kept verbatim.",
+    "Unit III prints 'Homogenous' (for homogeneous) and 'Hume Rothary rule' (for Hume-Rothery) — kept verbatim.",
+    "Unit IV prints 'mastempering' (for martempering) — kept verbatim.",
+    "Book 1 prints 'Callisters Materials Science and Engineering' (no apostrophe) — kept verbatim.",
+    "Book 10 prints 'Butterworth-Heinamann' (for Heinemann) — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Thermodynamics",
+   "name_print": "RME302: THERMODYNAMICS",
+   "codes": [
+    "RME302"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_line_print": "5. RME302 Thermodynamics 3-1-0 70 20 10 100 4",
+   "locator": "pp.5-6 (scheme row p.2)",
+   "units": {
+    "1": "Review of Fundamental Concepts and Definitions: Introduction- Basic Concepts: System, Control Volume, Surrounding, Boundaries, Universe, Types of Systems, Macroscopic and Microscopic viewpoints, Concept of Continuum, Thermodynamic Equilibrium, State, Property, Process, Exact & Inexact Differentials, Cycle Reversibility Quasi – static Process, Irreversible Process, Causes of Irreversibility Energy and its forms, Work and heat (sign convention), Gas laws, Ideal gas, Real gas, Law of corresponding states, Dalton’s law, Amagat’s law, Property of mixture of gases. Zeroth law of thermodynamics: Concept of Temperature and its’ measurement, Temperature scales. First law of thermodynamics: Thermodynamic definition of work, Displacement work and flow work, Displacement work for various non flow processes, Joules’ experiment, First law analysis for closed system (non flow processes), Internal energy and enthalpy. Limitations of first law of thermodynamics, PMM-I. Steady flow systems and their analysis, Steady flow energy equation, Boilers, Condensers, Turbine, Throttling process, Pumps etc. Analysis of unsteady processes such as filling and evacuation of vessels with and without heat transfer.",
+    "2": "Second law of thermodynamics: Thermal reservoirs, Energy conversion, Heat engines, Efficiency, Reversed heat engine, Heat pump, Refrigerator, Coefficient of Performance, Kelvin Planck and Clausius statement of second law of thermodynamics, Equivalence of the two statements. Reversible and irreversible processes, Carnot cycle and Carnot engine, Carnot theorem and it’s corollaries, Thermodynamic Temperature Scale, PMM-II. Entropy : Clausius inequality, Concept of Entropy, Entropy change of pure substance in different thermodynamic processes, Tds equation, Principle of entropy increase, T-S diagram, Statement of the third law of thermodynamics.",
+    "3": "Availability and Irreversibility: Available and unavailable energy, Availability and Irreversibility, Second law efficiency, Helmholtz & Gibb’s function. Thermodynamic relations: Conditions for exact differentials. Maxwell relations, Clapeyron equation, Joule-Thompson coefficient and Inversion curve. Coefficient of volume expansion, Adiabatic and Isothermal compressibility.",
+    "4": "Properties of steam and Rankine cycle: Pure substance, Property of Pure Substance (steam), Triple point, Critical point, Saturation states, Sub-cooled liquid state, Superheated vapour state, Phase transformation process of water, Graphical representation of pressure, volume and temperature, P-T, P-V and P-h diagrams, T-S and H-S diagrams, use of property diagram, Steam-Tables &Mollier chart, Dryness factor and it’s measurement, processes involving steam in closed and open systems. Simple Rankine cycle. Air-water vapour mixture and Psychrometry: Psychometric terms and their definitions, Psychometric chart, Different Psychometric processes and their representation on Psychometric chart.",
+    "5": "Refrigeration Cycles: Reversed Carnot Cycle for gas and vapour. Refrigeration capacity, unit of refrigeration.Air Refrigeration cycles; Reversed Brayton Cycle and Bell Coleman Cycle. Vapour compression refrigeration cycle; simple saturated cycle and actual vapour compression refrigeration cycle. Analysis of cycles, effect of superheating, sub-cooling and change in evaporator and condenser pressure on performance of vapour compression refrigeration cycle. Refrigerants; their classification and desirable properties. Vapour absorption refrigeration system."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Basic and Applied Thermodynamics by PK Nag, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 2,
+     "book": "Thermodynamics for Engineers by Kroos & Potter, Cengage Learning"
+    },
+    {
+     "no": 3,
+     "book": "Thermodynamics by Shavit and Gutfinger, CRC Press."
+    },
+    {
+     "no": 4,
+     "book": "Thermodynamics- An Engineering Approach by Cengel, MCGRAW HILL INDIA."
+    },
+    {
+     "no": 5,
+     "book": "Basic Engineering Thermodynamics, Joel, Pearson."
+    },
+    {
+     "no": 6,
+     "book": "Fundamentals of Engineering Thermodynamics by Rathakrishnan, PHI."
+    },
+    {
+     "no": 7,
+     "book": "Engineering Thermodynamics by Dhar, Elsevier."
+    },
+    {
+     "no": 8,
+     "book": "Engineering Thermodynamics by Onkar Singh, New Age International."
+    },
+    {
+     "no": 9,
+     "book": "Engineering Thermodynamics by CP Arora."
+    },
+    {
+     "no": 10,
+     "book": "Engineering Thermodynamics by Rogers, Pearson."
+    },
+    {
+     "no": 11,
+     "book": "Fundamentals of Engineering Thermodynamics by Moran, Shapiro, Boettner, & Bailey, John Wiley."
+    },
+    {
+     "no": 12,
+     "book": "Engineering Thermodynamics by Mishra, Cengage Learning"
+    },
+    {
+     "no": 13,
+     "book": "Refrigeration and Air Conditioning by C P Arora, MCGRAW HILL INDIA"
+    }
+   ],
+   "quirks": [
+    "pp.5-6: single combined 'Books and References:' list (no separate Text Books heading); recorded under textbooks.",
+    "Unit I prints 'Cycle Reversibility Quasi – static Process' (en-dash with surrounding spaces; no comma after 'Cycle') and 'Causes of Irreversibility Energy and its forms' (missing punctuation) — kept verbatim.",
+    "Unit I prints 'its’ measurement' and 'Joules’ experiment'; Unit II prints 'it’s corollaries'; Unit IV prints 'it’s measurement' — misused apostrophe forms kept verbatim.",
+    "Unit II prints 'Entropy :' (space before colon) — kept verbatim.",
+    "Unit IV prints 'Steam-Tables &Mollier chart' (no space after '&') and 'Psychrometry'/'Psychometric' (for Psychrometric) — kept verbatim.",
+    "Unit V prints 'refrigeration.Air Refrigeration cycles' (no space after the full stop) — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mechanics of Solids",
+   "name_print": "RME303: MECHANICS OF SOLIDS",
+   "codes": [
+    "RME303"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_line_print": "6. RME303 Mechanics of Solids 3-0-0 70 20 10 100 3",
+   "locator": "pp.6-7 (scheme row p.2)",
+   "units": {
+    "1": "Compound stress and strains: Introduction, normal stress and strain, shear stress and strain, stresses on inclines sections, strain energy, impact loads and stresses, state of plane stress, principal stress and strain, maximum shear stress, Mohr’s stress circle, three dimensional state of stress & strain, equilibrium equations, generalized Hook’s law, theories of failure. Thermal Stresses.",
+    "2": "Stresses in Beams: Pure Bending, normal stresses in beams, shear stresses in beams due to transverse and axial loads, composite beams. Deflection of Beams: Equation of elastic curve, cantilever and simply supported beams, Macaulay’s method, area moment method, fixed and continuous beams Torsion: Torsion, combined bending & torsion of solid & hollow shafts, torsion of thin walled tubes.",
+    "3": "Helical and Leaf Springs: Deflection of springs by energy method, helical springs under axial load and under axial twist (respectively for circular and square cross sections) axial load and twisting moment acting simultaneously both for open and closed coiled springs, laminated springs. Columns and Struts: Buckling and stability, slenderness ratio, combined bending and direct stress, middle third and middle quarter rules, struts with different end conditions, Euler’s theory for pin ended columns, effect of end conditions on column buckling, Ranking Gordon formulae, examples of columns in mechanical equipments and machines.",
+    "4": "Thin cylinders & spheres: Introduction, difference between thin walled and thick walled pressure vessels, Thin walled spheres and cylinders, hoop and axial stresses and strain, volumetric strain. Thick cylinders: Radial, axial and circumferential stresses in thick cylinders subjected to internal or external pressures, compound cylinders, stresses in rotating shaft and cylinders, stresses due to interference fits.",
+    "5": "Curved Beams: Bending of beams with large initial curvature, position of neutral axis for rectangular, trapezoidal and circular cross sections, stress in crane hooks, stress in circular rings subjected to tension or compression. Unsymmetrical Bending: Properties of beam cross-section, slope of neutral axis, stress and deflection in unsymmetrical bending, determination of shear center and flexural axis (for symmetry about both axis and about one axis) for I-section and channel section."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Mechanics of Materials by Hibbeler, Pearson."
+    },
+    {
+     "no": 2,
+     "book": "Mechanics of material by Gere, Cengage Learning"
+    },
+    {
+     "no": 3,
+     "book": "Mechanics of Materials by Beer, Jhonston, DEwolf and Mazurek, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 4,
+     "book": "Strength of Materials by Pytel and Singer, Harper Collins"
+    },
+    {
+     "no": 5,
+     "book": "Strength of Materials by Ryder, Macmillan."
+    },
+    {
+     "no": 6,
+     "book": "Strength of Materials by Timoshenko and Yσungs, East West Press."
+    },
+    {
+     "no": 7,
+     "book": "Introduction to Solid Mechanics by Shames, Pearson"
+    },
+    {
+     "no": 8,
+     "book": "Mechanics of material by Pytel, Cengage Learning"
+    },
+    {
+     "no": 9,
+     "book": "An Introduction to Mechanics of Solids by Crandall, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 10,
+     "book": "Strength of Materials by Jindal, Pearson Education"
+    },
+    {
+     "no": 11,
+     "book": "Strength of Material by Rattan, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 12,
+     "book": "Strength of Materials by Basavajaiah and Mahadevappa, University Press."
+    }
+   ],
+   "quirks": [
+    "pp.6-7: single combined 'Books and References:' list (no separate Text Books heading); recorded under textbooks.",
+    "Unit I prints 'stresses on inclines sections' (for inclined) — kept verbatim.",
+    "Unit II: 'fixed and continuous beams' ends without punctuation before the next topic 'Torsion:' — kept verbatim.",
+    "Unit III prints 'Ranking Gordon formulae' (for Rankine-Gordon) and 'mechanical equipments' — kept verbatim.",
+    "Book 2/8 print 'Mechanics of material' (lowercase 'material'); Book 3 prints 'Jhonston' and 'DEwolf' — kept verbatim.",
+    "Book 6 prints 'Yσungs' — the printed name carries a sigma glyph in place of 'o' ('Youngs'); visible print transcribed verbatim, decode/print artifact recorded.",
+    "Book 12 prints 'Basavajaiah' — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Materials Science and Testing Lab",
+   "name_print": "RME351: MATERIALS SCIENCE AND TESTING LAB",
+   "codes": [
+    "RME351"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_line_print": "8. RME351 Material Science & Testing Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.8 (scheme row p.2)",
+   "units": {},
+   "experiments": [
+    {
+     "no": 1,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Preparation of a plastic mould for small metallic specimen."
+    },
+    {
+     "no": 2,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Preparation of specimen for micro structural examination-cutting, grinding, polishing, etching."
+    },
+    {
+     "no": 3,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Determination of grain size for a given specimen."
+    },
+    {
+     "no": 4,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Comparative study of microstructures of different specimens of different materials (mild steel, gray C.I., brass, copper etc.)"
+    },
+    {
+     "no": 5,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Experiments on heat treatment such as annealing, normalizing, quenching, case hardening and comparison of hardness before and after heat treatment."
+    },
+    {
+     "no": 6,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Material identification of, say, 50 common items kept in a box."
+    },
+    {
+     "no": 7,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Experiment on Faraday’s law of electrolysis."
+    },
+    {
+     "no": 8,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Study of corrosion and its effects."
+    },
+    {
+     "no": 9,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Study of microstructure of welded component and HAZ. Macro & micro examination of the welded specimen."
+    },
+    {
+     "no": 10,
+     "group": "(A). Experiments on Material Science (at least 5 of the following):",
+     "exp": "Study of Magnetic/ Electrical/Electronic materials."
+    },
+    {
+     "no": 1,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Strength test of a given mild steel specimen on UTM with full details and stress versus strain plot on the machine."
+    },
+    {
+     "no": 2,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Other tests such as shear, bend tests on UTM."
+    },
+    {
+     "no": 3,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Impact test on impact testing machine like Charpy, Izod or both."
+    },
+    {
+     "no": 4,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Hardness test of given specimen using Rockwell and Vickers/Brinell testing machines."
+    },
+    {
+     "no": 5,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Spring index test on spring testing machine."
+    },
+    {
+     "no": 6,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Fatigue test on fatigue testing machine."
+    },
+    {
+     "no": 7,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Creep test on creep testing machine."
+    },
+    {
+     "no": 8,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Experiment on deflection of beam, comparison of actual measurement of deflection with dial gauge to the calculated one, and or evaluation of young’s modulus of beam."
+    },
+    {
+     "no": 9,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Torsion test of a rod using torsion testing machine."
+    },
+    {
+     "no": 10,
+     "group": "(B) Experiments on Material Testing (at least 5 of the following):",
+     "exp": "Study of NDT (non-destructive testing) methods like magnetic flaw detector, ultrasonic flaw detector, eddy current testing machine, dye penetrant tests."
+    }
+   ],
+   "quirks": [
+    "Name conflict scheme-vs-detail: scheme row (p.2) prints 'Material Science & Testing Lab', detail heading (p.8) prints 'MATERIALS SCIENCE AND TESTING LAB' — both kept verbatim.",
+    "Intro line printed above the lists: 'In this lab Experiments on Material Science and Experiments on Material Testing are to be conducted as given below:' — kept verbatim.",
+    "Experiments print in two lettered groups '(A). Experiments on Material Science (at least 5 of the following):' 1-10 and '(B) Experiments on Material Testing (at least 5 of the following):' 1-10 with restarting numbers; group heading kept per entry (group A prints a trailing period after '(A)', group B does not).",
+    "No book list printed for this lab."
+   ],
+   "flags": [
+    "lab_subject",
+    "name_conflict_scheme_vs_detail"
+   ]
+  },
+  {
+   "name": "Thermodynamics Lab",
+   "name_print": "RME352: THERMODYNAMICS LAB",
+   "codes": [
+    "RME352"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_line_print": "9. RME352 Thermodynamics Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.9 (scheme row p.2)",
+   "units": {},
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of Fire Tube boiler"
+    },
+    {
+     "no": 2,
+     "exp": "Study of Water Tube boiler"
+    },
+    {
+     "no": 3,
+     "exp": "Study and working of Two stroke petrol Engine"
+    },
+    {
+     "no": 4,
+     "exp": "Study and working of Four stroke petrol Engine"
+    },
+    {
+     "no": 5,
+     "exp": "Determination of Indicated H.P. of I.C. Engine by Morse Test"
+    },
+    {
+     "no": 6,
+     "exp": "Prepare the heat balance sheet for Diesel Engine test rig"
+    },
+    {
+     "no": 7,
+     "exp": "Prepare the heat balance sheet for Petrol Engine test rig"
+    },
+    {
+     "no": 8,
+     "exp": "Study and working of two stroke Diesel Engine"
+    },
+    {
+     "no": 9,
+     "exp": "Study and working of four stroke Diesel Engine."
+    },
+    {
+     "no": 10,
+     "exp": "Study of Velocity compounded steam turbine"
+    },
+    {
+     "no": 11,
+     "exp": "Study of Pressure compounded steam turbine"
+    },
+    {
+     "no": 12,
+     "exp": "Study of Impulse & Reaction turbine"
+    },
+    {
+     "no": 13,
+     "exp": "Study of steam Engine model."
+    },
+    {
+     "no": 14,
+     "exp": "Study of Gas Turbine Model"
+    },
+    {
+     "no": 15,
+     "exp": "Any other suitable experiment(s) on thermodynamics"
+    }
+   ],
+   "quirks": [
+    "Intro line printed above the list: 'Minimum 10 experiments out of following;' (semicolon) — kept verbatim.",
+    "Experiment numbering prints inconsistent trailing periods (e.g. 9 and 13 end with '.', others do not) — kept verbatim.",
+    "No book list printed for this lab."
+   ],
+   "flags": [
+    "lab_subject"
+   ]
+  },
+  {
+   "name": "Computer Aided Machine Drawing-I Lab",
+   "name_print": "RME353: COMPUTER AIDED MACHINE DRAWING-I LAB",
+   "codes": [
+    "RME353"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_line_print": "10. RME353 Computer Aided Machine Drawing–I Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.10 (scheme row p.2)",
+   "units": {
+    "1": "Introduction (1 drawing sheets) Introduction, classification of machine drawings, principles of drawing, conventional representation of machine components and materials, lines, types of lines, dimensioning types, lines and rules of dimensioning.",
+    "2": "Orthographic Projections (3 drawing sheets) Introduction to orthographic projection, concept of first angle and third angle projection, drawing of simple machine elements in first angle projection, missing line problems, principle of visualization of objects, sectional views, full and half sectional views, auxiliary views.",
+    "3": "Fasteners (2 drawing sheets) Temporary and permanent fasteners, thread nomenclature and forms, thread series, designation, representation of threads, bolted joints, locking arrangement of nuts, screws, washers, foundation bolts etc., keys, types of keys, cotter and knuckle joints.",
+    "4": "Riveted joints (1 drawing sheet) Introduction, rivets and riveting, types of rivets, types of riveted joints, drawing of boiler joints etc.",
+    "5": "Assembly drawing (2 drawing sheets) Introduction to assembly drawing, drawing assembly drawing of simple machine elements like rigid or flexible coupling, muff coupling, plummer block, footstep bearing, bracket etc.",
+    "6": "Free hand sketching (1 drawing sheet) Introduction, Need for free hand sketching, Free hand sketching of foundation bolts, studs, pulleys, couplings etc.",
+    "7": "Computer aided drafting (1 drawing) Introduction to computer aided drafting; advantages and applications of CAD, concepts of computer aided 2D drafting using any drafting software like AutoCAD, Solid Edge, Draft Sight etc., basic draw and modify commands, making 2D drawings of simple machine parts."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Machine Drawing by Sadhu Singh & Shah, PHI"
+    },
+    {
+     "no": 2,
+     "book": "Engineering Drawing by Bhat, & Panchal, Charotar Publishing House"
+    },
+    {
+     "no": 3,
+     "book": "Machine Drawing with AutoCAD by Pohit and Ghosh, Pearson"
+    },
+    {
+     "no": 4,
+     "book": "Machine Drawing-KL Narayana, P Kannaiah, KV Reddy, New Age"
+    },
+    {
+     "no": 5,
+     "book": "Machine Drawing, N. Siddeshswar, P Kannaiah, VVS Shastry, Tata McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "Engineering Drawing, Pathak, Wiley"
+    },
+    {
+     "no": 7,
+     "book": "Textbook of Machine Drawing, K C John, PHI"
+    },
+    {
+     "no": 8,
+     "book": "AutoCAD 2014 for Engineers & Designers, Bhatt, WILEY"
+    },
+    {
+     "no": 9,
+     "book": "Engineering Graphics with AutoCAD, Bethune, PHI"
+    }
+   ],
+   "quirks": [
+    "Name conflict scheme-vs-detail: scheme row (p.2) prints 'Computer Aided Machine Drawing–I Lab' (en-dash), detail heading (p.10) prints 'COMPUTER AIDED MACHINE DRAWING-I LAB' (hyphen) — kept verbatim.",
+    "Content prints as seven titled sections with drawing-sheet counts, no UNIT headings; sections transcribed verbatim into units 1-7 in printed order (page also prints large blank gaps between sections).",
+    "Section 1 prints '(1 drawing sheets)' (plural) and section 7 prints '(1 drawing)' (sheet count word omitted) — kept verbatim.",
+    "Section 7 prints 'Draft Sight' (for DraftSight); Book 2 prints 'Bhat, &' (space before &); Book 5 prints 'Siddeshswar' (for Siddeshwar) — kept verbatim.",
+    "pp.10: single combined 'Books and References:' list (no separate Text Books heading); recorded under textbooks."
+   ],
+   "flags": [
+    "lab_subject",
+    "name_conflict_scheme_vs_detail"
+   ]
+  },
+  {
+   "name": "Electrical Machines & Controls",
+   "name_print": "REE409: ELECTRICAL MACHINES & CONTROLS",
+   "codes": [
+    "REE409"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_line_print": "3. REE409 Electrical Machines & Controls 3-0-0 70 20 10 100 3",
+   "locator": "p.11 (scheme row p.3)",
+   "units": {
+    "1": "Single phase Transformer: Efficiency Voltage regulation, O.C.& S.C. Tests. Three Phase Transformer: Three phase transformer connections, 3-phase to 2-phase or 6-phase connections and their applications. Auto Transformer: Volt- Amp relations, efficiency, advantages & disadvantages, applications. D.C. Motors: Concept of starting, speed control, losses and efficiency.",
+    "2": "Three phase Induction Motor: Construction, equivalent circuit, torque equation and torque- slip characteristics, speed control. Alternator: Construction, e.m.f. equation, Voltage regulation and its determination by synchronous impedance method. Synchronous Motor: Starting, effect of excitation on line current (V-curves), synchronous condenser. Servo Motor: Two phase A.C. servo motor & its application.",
+    "3": "Modeling of Mechanical System: linear mechanical elements, force-voltage and force current analogy, electrical analog of simple mechanical systems; concept of transfer function & its determination for simple systems. Control System: Open loop & closed loop controls, servo mechanisms; concept of various types of system. Signals: Unit step, unit ramp, unit impulse and periodic signals with their mathematical representation and characteristics.",
+    "4": "Time Response Analysis: Time response of a standard second order system and response specifications, steady state errors and error constants. Stability: Concept and types of stability, Routh Hurwitz Criterion and its application for determination of stability, limitations; Polar plot, Nyquist stability Criterion and assessment of stability.",
+    "5": "Root Locus Techniques: Concept of root locus, construction of root loci. Frequency Response Analysis: Correlation between time and frequency responses of a second order system; Bode plot, gain margin and phase margin and their determination from Bode and Polar plots. Process control: Introduction to P, PI and PID controllers their characteristics, representation and applications."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "IJ Nagrath & D. P. Kothari, “Electrical machines” Tata McGraw Hill."
+    },
+    {
+     "no": 2,
+     "book": "BR Gupta & Vandana Singhal, “Fundamentals of Electrical Machines”, New Age International."
+    },
+    {
+     "no": 3,
+     "book": "K. Ogata, “Modern Control Engineering” Prentice Hall of India."
+    },
+    {
+     "no": 4,
+     "book": "BC Kuo, “Automatic Control systems.” Wiley India Ltd."
+    },
+    {
+     "no": 5,
+     "book": "Irvin L. Kosow, “Electric Machinery and Transformers” Prentice Hall of India."
+    },
+    {
+     "no": 6,
+     "book": "D. Roy Choudhary, “Modern Control Engineering” Prentice Hall of India."
+    },
+    {
+     "no": 7,
+     "book": "M. Gopal, Control Systems: Principles and Design” Tata McGraw Hill."
+    }
+   ],
+   "quirks": [
+    "p.11: book list headed 'Text and Reference Books:' (single combined list); recorded under textbooks.",
+    "Unit I prints 'Efficiency Voltage regulation' (missing punctuation between the two), 'O.C.& S.C. Tests' (no space after '&') and 'Volt- Amp relations' (space after hyphen) — kept verbatim.",
+    "Unit II prints 'torque- slip characteristics' (space after hyphen) — kept verbatim.",
+    "Book titles printed in double quotation marks; Book 7 prints 'M. Gopal, Control Systems: Principles and Design\" Tata McGraw Hill.' with the opening quotation mark missing — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Measurement and Metrology",
+   "name_print": "RME401: MEASUREMENT AND METROLOGY",
+   "codes": [
+    "RME401"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_line_print": "4. RME401 Measurement and Metrology 3-0-0 70 20 10 100 3",
+   "locator": "p.12 (scheme row p.3)",
+   "units": {
+    "1": "Mechanical Measurements: Introduction to measurement and measuring instruments. General concept–Generalized measurement system and its elements-Unit sand standards-measuring instruments: sensitivity, stability, range, accuracy and precision-static and dynamic response- repeatability-systematic, Source of error, statistical analysis of error and random errors- correction, calibration. Dimensional and geometric tolerance Sensors and Transducers: Types of sensors, types of transducers and their characteristics.",
+    "2": "Time Related Measurements: Stroboscope, frequency measurement by direct comparison. Measurement of displacement Measurement of Pressure: Gravitational, directing acting, elastic and indirect type pressure transducers. Measurement of very low pressures (high vacuum). Strain Measurement: Types of strain gauges and their working, strain gauge circuits, temperature compensation. Strain rosettes, calibration.",
+    "3": "Flow Measurement: Hot Wire Anemometry, Laser Doppler Velocimetry, Rotameter Temperature Measurement: Thermometers, bimetallic thermocouples, thermistors and pyrometers. Measurements of Force, Torque: Different types of load cells, elastic transducers, pneumatic & hydraulic systems. Seismic instruments Measurements of Acceleration, and Vibration: Accelerometers vibration pickups and decibel meters, vibrometers.",
+    "4": "Coordinate measuring machine (CMM): Need, constructional features and types, Metrology and Inspection: Standards of linear measurement, line and end standards. Interchange ability and standardization. Linear and angular measurements devices and systems Comparators: Sigma, Johansson’s Microkrator. Limit gauges classification, Taylor’s Principle of Gauge Design.",
+    "5": "Limits, Fits &Tolerance and Surface roughness: Introduction to Limits, Fits, Tolerances and IS standards, Limit-gauges, and surface-roughness. Measurement of geometric forms like straightness, flatness, roundness. Tool makers microscope, profile projector, autocollimator. Interferometry: principle and use of interferometry, optical flat. Measurement of screw threads and gears. Surface texture: quantitative evaluation of surface roughness and its measurement."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Experimental Methods for Engineers by Holman, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 2,
+     "book": "Mechanical Measurements by Beckwith, Pearson"
+    },
+    {
+     "no": 3,
+     "book": "Principles of Measurement Systems by Bentley, Pearson"
+    },
+    {
+     "no": 4,
+     "book": "Metrology of Measurements by Bewoor and Kulkarni, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 5,
+     "book": "Measurement Systems, Application Design by Doeblein, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 6,
+     "book": "Hume KJ, “Engineering Metrology”, MacDonald and Co"
+    },
+    {
+     "no": 7,
+     "book": "Jain, RK, “Engineering Metrology” Khanna Publishers"
+    },
+    {
+     "no": 8,
+     "book": "Jain, R.K., “Mechanical Measurement” Khanna Publishers"
+    },
+    {
+     "no": 9,
+     "book": "Gupta SC, Engineering Metrology, Dhanpat Rai Publications"
+    }
+   ],
+   "quirks": [
+    "p.12: single combined 'Books and References:' list (no separate Text Books heading); recorded under textbooks.",
+    "Fifth unit heading prints 'UNIT-V' (hyphenated) while the other four print 'UNIT I'…'UNIT IV' (spaced) — kept verbatim.",
+    "Unit I prints 'General concept–Generalized' (en-dash), 'Unit sand standards' (for 'Units and standards') and 'Dimensional and geometric tolerance' without closing punctuation before 'Sensors and Transducers:' — kept verbatim.",
+    "Unit II prints a bare topic line 'Measurement of displacement' (no colon/period) and 'directing acting' (for direct-acting) — kept verbatim.",
+    "Unit III prints 'Rotameter' and 'Seismic instruments' without closing punctuation before the next topic — kept verbatim.",
+    "Unit IV prints 'Interchange ability' (split word) and 'Microkrator' (for Mikrokator) — kept verbatim.",
+    "Unit V prints 'Limits, Fits &Tolerance' (no space after '&') — kept verbatim.",
+    "Book 6-8 print titles in double quotation marks; Book 9 prints '9.Gupta SC' (no space after the item number) — item text transcribed verbatim, spacing artifact recorded."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Manufacturing Science & Technology-I",
+   "name_print": "RME402: MANUFACTURING SCIENCE & TECHNOLOGY-I",
+   "codes": [
+    "RME402"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_line_print": "5. RME402 Manufacturing Science & Technology-I 3-0-0 70 20 10 100 3",
+   "locator": "p.13 (scheme row p.3)",
+   "units": {
+    "1": "Introduction: Importance of manufacturing. Economic & technological considerations in manufacturing. Classification of manufacturing processes. Materials & manufacturing processes for common items. Metal Forming Processes: Elastic & plastic deformation, yield criteria (Mises’ and Tresca’s). Hot working versus cold working. Analysis (equilibrium equation method) of Forging process for load estimation with sliding friction, sticking friction and mixed condition for slab and disc. Work required for forging, Hand, Power, Drop Forging.",
+    "2": "Metal Forming Processes (continued): Analysis of Wire/strip drawing and maximum-reduction, Tube drawing, Extrusion and its application. Condition for Rolling force and power in rolling. Rolling mills & rolled-sections. Design, lubrication and defects in metal forming processes.",
+    "3": "Sheet Metal working: Presses and their classification, Die & punch assembly and press work methods and processes. Cutting/Punching mechanism, Blanking vs. Piercing. Compound vs. Progressive die. Flat-face vs Inclined-face punch and Load (capacity) needed. Analysis of forming process like cup/deep drawing. Bending & spring-back.",
+    "4": "Casting (Foundry): Basic principle & survey of casting processes. Types of patterns and allowances. Types and properties of moulding sand, sand testing. Elements of mould and design considerations, Gating, Riser, Runnes, Core. Solidification of casting, Sand casting, defects & remedies and inspection. Cupola furnace. Die Casting, Centrifugal casting, Investment casting, Continuous casting, CO2 casting and Stir casting etc.",
+    "5": "Unconventional Metal forming processes: Unconventional metal forming or High Energy Rate Forming (HERF) processes such as explosive forming, electromagnetic, electro-hydraulic forming. Powder Metallurgy: Introduction to Powder metallurgy manufacturing process. Application and, advantages. Jigs & Fixtures: Locating & Clamping devices & principles. Jigs and Fixtures and its applications. Manufacturing of Plastic components: Review of plastics, and its past, present & future uses. Injection moulding. Extrusion of plastic section. Welding of plastics. Future of plastic & its applications. Resins & Adhesives."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Manufacturing Science by Ghosh and Mallik"
+    },
+    {
+     "no": 2,
+     "book": "Production Engg. Science by PC Pandey"
+    },
+    {
+     "no": 3,
+     "book": "Manufacturing Engineering & Technology by Kalpakjian, Pearson"
+    },
+    {
+     "no": 4,
+     "book": "Manufacturing Technology by P.N. Rao., MCGRAW HILL INDIA"
+    },
+    {
+     "no": 5,
+     "book": "Manufacturing Processes by Lindberg, Pearson."
+    },
+    {
+     "no": 6,
+     "book": "Manufacturing Processes foe Engineering materials by Kalpakjian, Pearson"
+    },
+    {
+     "no": 7,
+     "book": "Materials and Manufacturing by Paul Degarmo."
+    },
+    {
+     "no": 8,
+     "book": "Manufacturing Processes by Kaushish, PHI"
+    },
+    {
+     "no": 9,
+     "book": "Principles of Foundry Technology, Jain, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 10,
+     "book": "Production Technology by RK Jain"
+    }
+   ],
+   "quirks": [
+    "p.13: book list headed 'Books and References :' (space before colon, as printed); single combined list recorded under textbooks.",
+    "Unit I prints 'Mises’ and Tresca’s' — kept verbatim.",
+    "Unit IV prints 'Runnes' (for Runners) — kept verbatim.",
+    "Unit V prints 'Application and, advantages.' (misplaced comma) — kept verbatim.",
+    "Book 4 prints 'P.N. Rao.' with doubled full stop before comma; Book 6 prints 'foe Engineering materials' (for 'for') — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Applied Thermodynamics",
+   "name_print": "EME403: APPLIED THERMODYNAMICS",
+   "codes": [
+    "EME403",
+    "RME403"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_line_print": "6. RME403 Applied Thermodynamics 3-1-0 70 20 10 100 4",
+   "locator": "pp.14-15 (scheme row p.3)",
+   "units": {
+    "1": "Gas power cycle: Air Standard cycles: Carnot, Otto, Diesel, Dual and Stirling cycles, P-V and T-S diagrams, description, efficiencies and mean effective pressures, Comparison of Otto, Diesel and dual cycles. I.C. Engine: Testing of two stroke and four stroke SI and CI engines for performance Related numerical problems, heat balance, Motoring Method, Willian’s line method, swinging field dynamometer, Morse test.",
+    "2": "Vapour Power cycles: Rankine cycle, effect of pressure and temperature on Rankine cycle, Reheat cycle, Regenerative cycle, Feed water heaters, Binary vapour cycle, Combined cycles, Cogeneration. Fuels and Combustion: Combustion analysis, heating values, air requirement, Air/Fuel ratio, standard heat of reaction and effect of temperature on standard heat of reaction, heat of formation, Adiabatic flame temperature.",
+    "3": "Boilers: Classifications and working of boilers, boiler mountings and accessories, Draught and its calculations, air pre heater, feed water heater, super heater. Boiler efficiency, Equivalent evaporation. Boiler trial and heat balance. Condenser: Classification of condenser, air leakage, condenser performance parameters.",
+    "4": "Steam and Gas Nozzles: Flow through Convergent and convergent-divergent nozzles, variation of velocity, area and specific volume, Choked flow, throat area, Nozzle efficiency, Off design operation of nozzle, Shock waves stationary normal shock waves, Effect of friction on nozzle, Super saturated flow. Steam Turbines : Classification of steam turbine, Impulse and Reaction turbines, Staging, Stage and Overall efficiency, Reheat factor, Bleeding, Velocity diagram of simple and compound multistage impulse and reaction turbines and related calculations, work done, efficiencies of reaction, Impulse reaction turbines, state point locus, Losses in steam turbines, Governing of turbines, Comparison with steam engine.",
+    "5": "Gas Turbine: Gas turbine classification, Brayton cycle, Principles of gas turbine, Gas turbine cycles with intercooling, reheat and regeneration and their combinations, Stage efficiency, Polytropic efficiency. Deviation of actual cycles from ideal cycles. Jet Propulsion: Introduction to the principles of jet propulsion, Turbojet and turboprop engines and their processes, Principle of rocket propulsion, Introduction to Rocket Engine."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Basic and Applied Thermodynamics by P.K. Nag, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 2,
+     "book": "Applied thermodynamics by Onkar Singh, New Age International"
+    },
+    {
+     "no": 3,
+     "book": "Applied Thermodynamics for Engineering Technologists by Eastop, Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "Applied Thermodynamics by Venkanna And Swati, PHI"
+    },
+    {
+     "no": 5,
+     "book": "Theory of Stream Turbine by WJ Kearton"
+    },
+    {
+     "no": 6,
+     "book": "Gas turbine Theory & Practice, by Cohen & Rogers, Addison Weslay Long man"
+    },
+    {
+     "no": 7,
+     "book": "Gas Turbine, by V. Ganeshan, Tata McGraw Hill Publishers."
+    },
+    {
+     "no": 8,
+     "book": "Steam & Gas Turbine by R. Yadav, CPH Allahabad"
+    },
+    {
+     "no": 9,
+     "book": "Thermodynamics and Energy Systems Analysis, Borel and Favrat, CRC Press"
+    },
+    {
+     "no": 10,
+     "book": "Thermodynamics by Prasanna Kumar, Pearson"
+    },
+    {
+     "no": 11,
+     "book": "Thermal Engineering by Kulshrestha, Vikas Publishing."
+    },
+    {
+     "no": 12,
+     "book": "Thermal Engg. By PL Ballaney, Khanna Publisher"
+    },
+    {
+     "no": 13,
+     "book": "Thermal Engg. By RK Rajput, Laxmi Publication"
+    }
+   ],
+   "quirks": [
+    "CODE CONFLICT: the detailed syllabus heading (p.14) prints 'EME403: APPLIED THERMODYNAMICS' while the Sem-IV scheme row (p.3, row 6) prints 'RME403 Applied Thermodynamics' — same subject, both printed codes recorded verbatim (EME403 is the earlier-generation ME print).",
+    "pp.14-15: single combined 'Books and References:' list (no separate Text Books heading); recorded under textbooks.",
+    "Unit I prints 'performance Related numerical problems' (stray capital), 'Willian’s line method' (for Willans) and 'swinging field dynamometer' — kept verbatim.",
+    "Unit IV prints 'Steam Turbines :' (space before colon) and 'Shock waves stationary normal shock waves' (missing punctuation) — kept verbatim.",
+    "Unit V prints 'Stage efficiency' with wide spacing between the two words in print — joined with single space, no words altered.",
+    "Book 5 prints 'Theory of Stream Turbine' (for Steam); Book 6 prints 'Addison Weslay Long man'; Book 7 prints 'V. Ganeshan' (for Ganesan); Books 12-13 print 'Thermal Engg. By' (capital 'By') — kept verbatim."
+   ],
+   "flags": [
+    "code_mismatch_scheme_vs_detail"
+   ]
+  },
+  {
+   "name": "Electrical Machines & Controls Lab",
+   "name_print": "REE459: ELECTRICAL MACHINES & CONTROLS LAB",
+   "codes": [
+    "REE459"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_line_print": "7. REE459 Electrical Machines and Controls Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.15 (scheme row p.3)",
+   "units": {},
+   "experiments": [
+    {
+     "no": 1,
+     "group": "A. Electrical Machines",
+     "exp": "To obtain speed-torque characteristics and efficiency of a dc shunt motor by direct loading."
+    },
+    {
+     "no": 2,
+     "group": "A. Electrical Machines",
+     "exp": "To obtain efficiency of a dc shunt machine by no load test."
+    },
+    {
+     "no": 3,
+     "group": "A. Electrical Machines",
+     "exp": "To obtain speed control of dc shunt motor using (a) armature voltage control (b) field control."
+    },
+    {
+     "no": 4,
+     "group": "A. Electrical Machines",
+     "exp": "To determine polarity and voltage ratio of single phase and three phase transformers."
+    },
+    {
+     "no": 5,
+     "group": "A. Electrical Machines",
+     "exp": "To obtain efficiency and voltage regulation by performing O.C. and S.C. tests on a single phase transformer at full load and 0.8 p.f. loading."
+    },
+    {
+     "no": 6,
+     "group": "A. Electrical Machines",
+     "exp": "To obtain 3-phase to 2-phase conversion using Scott connection."
+    },
+    {
+     "no": 7,
+     "group": "A. Electrical Machines",
+     "exp": "To perform load test on a 3-phase induction motor and determine (a) speed- torque characteristics (b) power factor v/s line current characteristics."
+    },
+    {
+     "no": 8,
+     "group": "A. Electrical Machines",
+     "exp": "To study speed control of a 3-phase induction motor using (a) Voltage Control (b) Constant (Voltage/ frequency) control."
+    },
+    {
+     "no": 9,
+     "group": "A. Electrical Machines",
+     "exp": "To perform open circuit and short circuit test on a 3-phase synchronous machine and determine voltage regulation at full load and unity, 0.8 lagging and 0.8 leading power factor using synchronous impedance method."
+    },
+    {
+     "no": 10,
+     "group": "A. Electrical Machines",
+     "exp": "To determine V-curve of a 3-phase synchronous motor at no load, half load and full load."
+    },
+    {
+     "no": 1,
+     "group": "B. Control Systems:",
+     "exp": "To determine transient response of a second order system for step input for various values of constant ‘K’ using linear simulator unit and compare theoretical and practical results."
+    },
+    {
+     "no": 2,
+     "group": "B. Control Systems:",
+     "exp": "To study P, PI and PID temperature controller for an oven and compare their performance."
+    },
+    {
+     "no": 3,
+     "group": "B. Control Systems:",
+     "exp": "To determine speed – torque characteristics of an a.c. 2-phase servo motor."
+    },
+    {
+     "no": 4,
+     "group": "B. Control Systems:",
+     "exp": "To study and calibrate temperature using Resistance Temperature Detector( RTD)"
+    },
+    {
+     "no": 5,
+     "group": "B. Control Systems:",
+     "exp": "To study dc servo position control system within P and PI configurations."
+    },
+    {
+     "no": 6,
+     "group": "B. Control Systems:",
+     "exp": "To study synchro transmitter and receiver system and determine output V/s input characteristics."
+    },
+    {
+     "no": 7,
+     "group": "B. Control Systems:",
+     "exp": "To study open loop and closed loop control of a dc separately excited motor."
+    }
+   ],
+   "quirks": [
+    "Name conflict scheme-vs-detail: scheme row (p.3) prints 'Electrical Machines and Controls Lab' (and), detail heading (p.15) prints 'ELECTRICAL MACHINES & CONTROLS LAB' (&) — kept verbatim.",
+    "Printed note above the lists: 'Note: To perform at least 7 experiments of Electrical Machines and 3 experiments of Control Systems' (no closing full stop) — kept verbatim.",
+    "Experiments print in two lettered groups 'A. Electrical Machines' 1-10 and 'B. Control Systems:' 1-7 with restarting numbers; group heading kept per entry (group B prints a trailing colon, group A does not).",
+    "Group B experiment 1 prints constant ‘K’ in curly quotes; experiment 3 prints 'speed – torque' with spaced en-dash; experiment 4 prints 'Detector( RTD)' (no space before the bracket) — kept verbatim.",
+    "Group A experiment 7 prints 'speed- torque' (space after hyphen) and experiment 8 prints '(Voltage/ frequency)' (space after slash) — kept verbatim.",
+    "No book list printed for this lab."
+   ],
+   "flags": [
+    "lab_subject",
+    "name_conflict_scheme_vs_detail"
+   ]
+  },
+  {
+   "name": "Measurement & Metrology Lab",
+   "name_print": "RME451:MEASUREMENT & METROLOGY LAB",
+   "codes": [
+    "RME451"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_line_print": "8. RME451 Measurement and Metrology Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.16 (scheme row p.3)",
+   "units": {},
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study the working of simple measuring instruments- Vernier calipers, micrometer, tachometer."
+    },
+    {
+     "no": 2,
+     "exp": "Measurement of effective diameter of a screw thread using 3 wire method."
+    },
+    {
+     "no": 3,
+     "exp": "Measurement of angle using sine bar & slip gauges. Study of limit gauges."
+    },
+    {
+     "no": 4,
+     "exp": "Study & angular measurement using level protector."
+    },
+    {
+     "no": 5,
+     "exp": "Adjustment of spark plug gap using feeler gauges."
+    },
+    {
+     "no": 6,
+     "exp": "Study of dial indicator & its constructional details."
+    },
+    {
+     "no": 7,
+     "exp": "Use of dial indicator to check a shape run use."
+    },
+    {
+     "no": 8,
+     "exp": "Use of dial indicator and V Block to check the circularity and plot the polar Graph."
+    },
+    {
+     "no": 9,
+     "exp": "Study and understanding of limits, fits & tolerances."
+    },
+    {
+     "no": 10,
+     "exp": "Experiment on measurement of pressure."
+    },
+    {
+     "no": 11,
+     "exp": "Study of temperature measuring equipments."
+    },
+    {
+     "no": 12,
+     "exp": "Measurement using Strain gauge."
+    },
+    {
+     "no": 13,
+     "exp": "Measurement of speed using stroboscope."
+    },
+    {
+     "no": 14,
+     "exp": "Experiment on measurement of flow."
+    },
+    {
+     "no": 15,
+     "exp": "Measurement of vibration/power."
+    },
+    {
+     "no": 16,
+     "exp": "Experiment on dynamometers."
+    },
+    {
+     "no": 17,
+     "exp": "To study the displacement using LVDT."
+    }
+   ],
+   "quirks": [
+    "Detail heading prints 'RME451:MEASUREMENT & METROLOGY LAB' (no space after the colon); scheme row (p.3) prints 'Measurement and Metrology Lab' (and) — both kept verbatim.",
+    "Intro line printed above the list: 'Minimum 8 experiments out of following (or such experiment) are to be performed:' — kept verbatim.",
+    "Item 17 prints '17 To study the displacement using LVDT.' (no full stop after the item number) — kept verbatim.",
+    "Item 4 prints 'level protector' (for level protractor); item 7 prints 'a shape run use'; item 8 prints 'polar Graph' (capital G); item 11 prints 'equipments' — kept verbatim.",
+    "Item 1 prints 'instruments- Vernier calipers' (space after hyphen) — kept verbatim.",
+    "No book list printed for this lab."
+   ],
+   "flags": [
+    "lab_subject",
+    "name_conflict_scheme_vs_detail"
+   ]
+  },
+  {
+   "name": "Manufacturing Technology-I Lab",
+   "name_print": "RME452 :MANUFACTURING TECHNOLOGY-I LAB",
+   "codes": [
+    "RME452"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_line_print": "9. RME452 Manufacturing Science & Technology–I Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.16 (scheme row p.3)",
+   "units": {},
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design of pattern for a desired casting (containing hole)."
+    },
+    {
+     "no": 2,
+     "exp": "Pattern making with proper allowance."
+    },
+    {
+     "no": 3,
+     "exp": "Making a mould (with core) and casting."
+    },
+    {
+     "no": 4,
+     "exp": "Sand testing methods (at least one, such as grain fineness number determination)"
+    },
+    {
+     "no": 5,
+     "exp": "Injection moulding with plastics"
+    },
+    {
+     "no": 6,
+     "exp": "Forging - hand forging processes"
+    },
+    {
+     "no": 7,
+     "exp": "Forging - power hammer study & operation"
+    },
+    {
+     "no": 8,
+     "exp": "Tube bending with the use of sand and on tube bending m/c."
+    },
+    {
+     "no": 9,
+     "exp": "Press work experiment such as blanking/piercing, washer, making etc."
+    },
+    {
+     "no": 10,
+     "exp": "Wire drawing/extrusion on soft material."
+    },
+    {
+     "no": 11,
+     "exp": "Rolling-experiment."
+    },
+    {
+     "no": 12,
+     "exp": "Bending & spring back."
+    },
+    {
+     "no": 13,
+     "exp": "Powder metallurgy experiment."
+    },
+    {
+     "no": 14,
+     "exp": "Jigs & Fixture experiment."
+    },
+    {
+     "no": 15,
+     "exp": "Any other suitable experiment on manufacturing science / process / technique."
+    }
+   ],
+   "quirks": [
+    "NAME CONFLICT: detail heading prints 'RME452 :MANUFACTURING TECHNOLOGY-I LAB' (space before colon; word 'Science &' absent) while the scheme row (p.3) prints 'Manufacturing Science & Technology–I Lab' (en-dash) — both kept verbatim.",
+    "Intro line printed above the list: 'Minimum 8 experiments out of following (or such experiment) are to be performed:' — kept verbatim.",
+    "Item 9 prints 'washer, making etc.' (for 'washer making'); items print inconsistent trailing periods (4, 5, 7, 12, 14 end without '.') — kept verbatim.",
+    "No book list printed for this lab."
+   ],
+   "flags": [
+    "lab_subject",
+    "name_conflict_scheme_vs_detail"
+   ]
+  },
+  {
+   "name": "Computer Aided Machine Drawing-II Lab",
+   "name_print": "RME453: COMPUTER AIDED MACHINE DRAWING-II LAB",
+   "codes": [
+    "RME453"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_line_print": "10. RME453 Computer Aided Machine Drawing-II Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.17 (scheme row p.3)",
+   "units": {
+    "1": "Introduction: Conventional representation of machine components and materials, Conventional representation of surface finish, Roughness number symbol, Symbols of Machine elements and welded joints. Classification of Drawings: Machine drawings, Production drawing, part drawing and assembly drawing. Introduction to detail drawing and bill of materials (BOM).",
+    "2": "Limits, Fits and Tolerances: General aspects, Nominal size and basic dimensions, Definitions, Basis of fit or limit system, Systems of specifying tolerances, Designation of holes, Shafts and fits, Commonly used holes and shafts. List of Standard Abbreviation used.",
+    "3": "Part Modeling: Introduction to part modeling of simple machine components using any 3D software (like CATIA, PRO E, UGNX, Autodesk Inventor or SOLIDWORKS) covering all commands/ features to develop a part model (Minimum 24 machine components need to be developed).",
+    "4": "Part Modeling & Assemblies of: Plummer Block Bearing, Machine Vice, Screw Jack, Engine Stuffing box, Lathe Tailstock, Feed Check Valve and Rams Bottom Safety Valve."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Textbook of Machine Drawing, K C John, PHI"
+    },
+    {
+     "no": 2,
+     "book": "Machine Drawing by K.R. Gopalakrishna, Subhas Stores."
+    },
+    {
+     "no": 3,
+     "book": "A Textbook of Machine Drawing by PS Gill from S.K. Kataria & Sons"
+    },
+    {
+     "no": 4,
+     "book": "Machine Drawing-KL Narayana, P Kannaiah, KV Reddy, New Age publications"
+    },
+    {
+     "no": 5,
+     "book": "Engineering Graphics with AutoCAD, Bethune, PHI"
+    },
+    {
+     "no": 6,
+     "book": "Machine Drawing, N. Siddeshswar, P Kannaiah, VVS Shastry, Tata McGraw Hill"
+    },
+    {
+     "no": 7,
+     "book": "Fundamentals of Machine Drawing, Dr Sadhu Singh & P L Shah, Prantice Hall India"
+    },
+    {
+     "no": 8,
+     "book": "Autodesk Inventor by Examples, Sam Tikoo, Wiley"
+    }
+   ],
+   "quirks": [
+    "Printed note above the content: 'Note: All drawing conform to BIS Codes.' ('drawing' singular for 'drawings') — kept verbatim.",
+    "Content prints as four titled paragraphs, no UNIT headings; paragraphs transcribed verbatim into units 1-4 in printed order.",
+    "Unit 4 heading prints 'Part Modeling & Assemblies of:' and lists seven assemblies — kept verbatim.",
+    "Book 6 prints 'Siddeshswar' (for Siddeshwar); Book 7 prints 'Prantice Hall India' (for Prentice Hall) — kept verbatim.",
+    "p.17: single combined 'Books and References:' list (no separate Text Books heading); recorded under textbooks."
+   ],
+   "flags": [
+    "lab_subject"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW / Study & Evaluation Scheme with Syllabus / For / B.Tech. Second Year / (Mechanical Engineering/ Production Engineering, Industrial & Production Engineering, Mechanical & Industrial Engineering, Manufacturing Technology, Automobile Engineering, Aeronautical Engineering) / On / Choice Based Credit System / (Effective from the Session: 2017-18)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "course_scope_note",
+   "print": "(Mechanical Engineering/ Production Engineering, Industrial & Production Engineering, Mechanical & Industrial Engineering, Manufacturing Technology, Automobile Engineering, Aeronautical Engineering)",
+   "locator": "p.1 (branch-scope parenthetical under 'B.Tech. Second Year')"
+  },
+  {
+   "kind": "scheme_table_header",
+   "print": "2nd Year III-SEMESTER — columns: S.No. | Subject Code | Subject Name | L-T-P | ESE (header prints 'Th/Lab' above 'ESE') | Sessional (CT | TA) | Total | Credit",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "1. RAS301/ ROE031 to 036, 038, 039 Mathematics-III/ Science Based OE 3-1-0 70 20 10 100 4",
+   "locator": "p.2 scheme table row 1"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "2. RVE301/ RAS302 Universal Human Values & Professional Ethics / Environment & Ecology 3-0-0 70 20 10 100 3",
+   "locator": "p.2 scheme table row 2"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "3. RCE303 Fluid Mechanics 3-0-0 70 20 10 100 3",
+   "locator": "p.2 scheme table row 3"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "4. RME301 Material Science 3-0-0 70 20 10 100 3",
+   "locator": "p.2 scheme table row 4"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "5. RME302 Thermodynamics 3-1-0 70 20 10 100 4",
+   "locator": "p.2 scheme table row 5"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "6. RME303 Mechanics of Solids 3-0-0 70 20 10 100 3",
+   "locator": "p.2 scheme table row 6"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "7. RCE353 Fluid Mechanics Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.2 scheme table row 7"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "8. RME351 Material Science & Testing Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.2 scheme table row 8"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "9. RME352 Thermodynamics Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.2 scheme table row 9"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "10. RME353 Computer Aided Machine Drawing–I Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.2 scheme table row 10 (en-dash as printed)"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "11. RME101* Elements of Mechanical Engineering* 3-1-0 70 20 10 100* --",
+   "locator": "p.2 scheme table row 11 (asterisked lateral-entry row; credit prints '--')"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "12. RCE151* Computer Aided Engineering Graphics* 0-0-3 50 30 20 100* --",
+   "locator": "p.2 scheme table row 12 (asterisked lateral-entry row; credit prints '--')"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 1000 24",
+   "locator": "p.2 (Sem III total row: subject-total marks 1000, credit total 24)"
+  },
+  {
+   "kind": "legend",
+   "print": "CT: Class Test / TA: Teacher Assessment / L/T/P: Lecture/ Tutorial/ Practical",
+   "locator": "p.2 (below scheme table)"
+  },
+  {
+   "kind": "footnote",
+   "print": "*B.Tech. IInd year lateral entry students belonging to B.Sc. Stream, shall clear the subjects RCE151/RCE251 and RME101/201 of the first year Engineering Programme along with the second year subjects.",
+   "locator": "p.2 (below legend)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Science Based Open Electives: a. ROE031/ROE041 Introduction to soft computing; b. ROE032/ROE042 Nano Science; c. ROE033/ROE043 Laser System and Application; d. ROE034/ROE044 Space Science; e. ROE035/ROE045 Polymer Science & Technology; f. ROE036/ROE046 Nuclear Science; g. ROE038/ROE048 Discrete Mathematics; h. ROE039/ROE049 Applied Linear Algebra",
+   "locator": "p.2 (bottom block; each item pairs the III-sem / IV-sem pool code)"
+  },
+  {
+   "kind": "scheme_table_header",
+   "print": "2nd Year IV-SEMESTER — columns: S.No. | Subject Code | Subject Name | L-T-P | ESE (header prints 'ESE' above 'Marks') | Sessional (CT | TA) | Total | Credit",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "1. ROE041 to 046, 048, 049/ RAS401 Science Based OE/ Mathematics-III 3-1-0 70 20 10 100 4",
+   "locator": "p.3 scheme table row 1"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "2. RAS402/ RVE401 Environment & Ecology/ Universal Human Values & Professional Ethics 3-0-0 70 20 10 100 3",
+   "locator": "p.3 scheme table row 2"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "3. REE409 Electrical Machines & Controls 3-0-0 70 20 10 100 3",
+   "locator": "p.3 scheme table row 3"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "4. RME401 Measurement and Metrology 3-0-0 70 20 10 100 3",
+   "locator": "p.3 scheme table row 4"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "5. RME402 Manufacturing Science & Technology-I 3-0-0 70 20 10 100 3",
+   "locator": "p.3 scheme table row 5"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "6. RME403 Applied Thermodynamics 3-1-0 70 20 10 100 4",
+   "locator": "p.3 scheme table row 6 (detail heading p.14 prints EME403 — code conflict recorded on the subject)"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "7. REE459 Electrical Machines and Controls Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.3 scheme table row 7"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "8. RME451 Measurement and Metrology Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.3 scheme table row 8"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "9. RME452 Manufacturing Science & Technology–I Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.3 scheme table row 9 (en-dash as printed)"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "10. RME453 Computer Aided Machine Drawing-II Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.3 scheme table row 10"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "11. RME201* Elements of Mechanical Engineering* 3-1-0 70 20 10 100* --",
+   "locator": "p.3 scheme table row 11 (asterisked lateral-entry row; credit prints '--')"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "12. RCE251* Computer Aided Engineering Graphics* 0-0-3 50 30 20 100* --",
+   "locator": "p.3 scheme table row 12 (asterisked lateral-entry row; credit prints '--')"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL 1000 24",
+   "locator": "p.3 (Sem IV total row: subject-total marks 1000, credit total 24)"
+  },
+  {
+   "kind": "legend",
+   "print": "CT: Class Test / TA: Teacher Assessment / L/T/P: Lecture/ Tutorial/ Practical",
+   "locator": "p.3 (below scheme table)"
+  },
+  {
+   "kind": "footnote",
+   "print": "*B.Tech. IInd year lateral entry students belonging to B.Sc. Stream, shall clear the subjects RCE151/RCE251 and RME101/201 of the first year Engineering Programme along with the second year subjects.",
+   "locator": "p.3 (below legend; identical print on p.2)"
+  },
+  {
+   "kind": "note",
+   "print": "NOTE: Practical summer training-1 of 4-weeks after IV semester or Minor fabrication project will be evaluated in VII semester.",
+   "locator": "p.3 (below footnote)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Science Based Open Electives: a. ROE031/ROE041 Introduction to soft computing; b. ROE032/ROE042 Nano Science; c. ROE033/ROE043 Laser System and Application; d. ROE034/ROE044 Space Science; e. ROE035/ROE045 Polymer Science & Technology; f. ROE036/ROE046 Nuclear Science; g. ROE038/ROE048 Discrete Mathematics; h. ROE039/ROE049 Applied Linear Algebra",
+   "locator": "p.3 (bottom block; identical print on p.2)"
+  }
+ ],
+ "quirks": [
+  "Cover title (p.1) verbatim: 'DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW / Study & Evaluation Scheme with Syllabus / For / B.Tech. Second Year / (Mechanical Engineering/ Production Engineering, Industrial & Production Engineering, Mechanical & Industrial Engineering, Manufacturing Technology, Automobile Engineering, Aeronautical Engineering) / On / Choice Based Credit System / (Effective from the Session: 2017-18)'.",
+  "Branch scope (p.1) printed as a parenthetical listing six ME-family branches (Mechanical Engineering/ Production Engineering, Industrial & Production Engineering, Mechanical & Industrial Engineering, Manufacturing Technology, Automobile Engineering, Aeronautical Engineering) — recorded as course_scope_note; the scheme tables themselves are common across these branches.",
+  "Scheme tables print five mark/credit numbers per row (ESE | CT | TA | Total | Credit); the ESE column header prints two lines — 'Th/Lab' above 'ESE' (p.2) and 'ESE' above 'Marks' (p.3) — and there is no separate sessional-total column (Sessional spans the CT and TA sub-columns only; subject Total prints directly). sessional_total therefore omitted from marks everywhere.",
+  "Course meta: document is the common 2nd-year scheme+syllabus for six ME-family branches; printed cover norm 'B.Tech.' normalizes to canonical course BTech per RULES §1b.",
+  "Scheme rows print no subject-type/category column; subject types are NOT printed in this document (core/lab derived from row names '... Lab').",
+  "Asterisked lateral-entry rows RME101*/RCE151* (p.2) and RME201*/RCE251* (p.3) print credit '--' (recorded as printed-blank) and total '100*' tied to the printed lateral-entry footnote repeated below both semester tables.",
+  "Compressed range pool codes printed: 'ROE031 to 036, 038, 039' (p.2 row 1) and 'ROE041 to 046, 048, 049' (p.3 row 1) — consistent with the printed a-h 'Science Based Open Electives' list (ROE037/ROE047 not offered; the Mathematics-III slot is held by RAS301/RAS401).",
+  "The 'Science Based Open Electives' list (a-h) is printed identically at the bottom of p.2 and p.3; each item pairs the III-sem / IV-sem pool codes (e.g. ROE031/ROE041).",
+  "CODE CONFLICT (kept verbatim, flagged): Sem-IV scheme row 6 prints 'RME403 Applied Thermodynamics' but the detailed syllabus heading (p.14) prints 'EME403: APPLIED THERMODYNAMICS' — same subject; both codes recorded on the subject dict.",
+  "Name conflicts scheme-vs-detail (kept verbatim, flagged per subject): RME351 'Material Science & Testing Lab' vs 'MATERIALS SCIENCE AND TESTING LAB'; RME451 'Measurement and Metrology Lab' vs 'MEASUREMENT & METROLOGY LAB' (heading also prints 'RME451:MEASUREMENT' with no space after the colon); RME452 'Manufacturing Science & Technology–I Lab' vs 'MANUFACTURING TECHNOLOGY-I LAB' (detail heading prints 'RME452 :MANUFACTURING' with a stray space before the colon and drops 'Science &'); REE459 'Electrical Machines and Controls Lab' vs 'ELECTRICAL MACHINES & CONTROLS LAB'; RME353 scheme en-dash 'Drawing–I' vs detail hyphen 'DRAWING-I'.",
+  "No course outcomes, no objectives, no eligibility and no prerequisites are printed for any subject in this document — cos/objectives_print/eligibility_print/prerequisites keys omitted everywhere (zero guessing).",
+  "Detailed syllabi are printed for only 14 of the 24 scheme-row subjects; the remaining 10 rows (RAS301/ROE pool, RVE301/RAS302, RCE303, RCE353, RME101*, RCE151* — Sem III; ROE pool/RAS401, RAS402/RVE401, RME201*, RCE251* — Sem IV) exist in this document only as scheme-table rows, recorded as non_subject_rows (kind scheme_row_sem3/scheme_row_sem4) per task instruction.",
+  "Lab experiment lists print in lettered groups with restarting numbers (RME351 groups (A)./(B) 1-10 each; REE459 groups A./B. 1-10/1-7); group headings kept per experiment entry, printed numbering preserved.",
+  "RME353 (p.10) and RME453 (p.17) content prints as titled sections/paragraphs with drawing-sheet counts, no UNIT headings; transcribed into units 1-7 / 1-4 in printed order.",
+  "Printed typos kept verbatim across subjects: 'off set yield strength', 'mastempering', 'Hume Rothary', 'Ficks laws', 'Homogenous' (RME301); 'its’ measurement', 'it’s corollaries', 'Psychometric' (RME302); 'stresses on inclines sections', 'Ranking Gordon formulae', 'Jhonston', 'DEwolf', 'Yσungs' (sigma glyph in print, RME303); 'Unit sand standards', 'directing acting', 'Microkrator', '&Tolerance', 'UNIT-V' hyphenated heading (RME401); 'Runnes', 'foe Engineering materials' (RME402); 'Willian’s line method', 'Theory of Stream Turbine', 'Addison Weslay Long man', 'Ganeshan' (EME403); 'level protector', 'a shape run use', '17 ' unnumbered stop (RME451); 'Prantice Hall India', 'Siddeshswar' (RME453).",
+  "Line-wrap joins made with single spaces; wide inter-word spacing in the print (e.g. 'Stage  efficiency' p.14, 'Timoshenko and  Yσungs' p.7) collapsed to single spaces — no words altered.",
+  "pp.2-3 text layer emits each scheme row across many short lines; row prints in non_subject_rows are line-wrapped joins of the visible print (verified against page images)."
+ ],
+ "flags": [
+  "code_mismatch_scheme_vs_detail: Sem-IV row 6 prints RME403 Applied Thermodynamics (p.3) while the detailed heading prints EME403 (p.14) — same subject, both codes recorded, kept verbatim",
+  "name_conflicts_scheme_vs_detail: 5 subjects (RME351, RME353, REE459, RME451, RME452) — scheme name differs from detail heading in case/ampersand/en-dash; RME452 detail heading drops 'Science &'",
+  "scheme_rows_without_detailed_syllabus: 10 of 24 scheme rows recorded as non_subject_rows (RAS301/ROE031-036,038,039, RVE301/RAS302, RCE303, RCE353, RME101*, RCE151*, ROE041-046,048,049/RAS401, RAS402/RVE401, RME201*, RCE251*)",
+  "asterisked_lateral_entry_rows: RME101*, RCE151* (p.2), RME201*, RCE251* (p.3) with credit '--' and total '100*'",
+  "compressed_range_pool_codes_printed: 'ROE031 to 036, 038, 039' (p.2), 'ROE041 to 046, 048, 049' (p.3) — expanded per the printed elective list",
+  "alternative_pair_rows_slash_separated: 4 (III-sem rows 1-2, IV-sem rows 1-2)",
+  "no_cos_objectives_eligibility_prerequisites_printed: none anywhere in the document",
+  "shared_branch_scheme: one common 2nd-year scheme for six ME-family branches printed on the cover (course_scope_note)"
+ ]
+}

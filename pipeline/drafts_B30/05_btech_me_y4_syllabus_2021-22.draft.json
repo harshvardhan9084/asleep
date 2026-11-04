@@ -1,0 +1,1108 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2021-22/btech_me_y4_syllabus_2021-22.pdf",
+ "session": "2021-22",
+ "course": "BTech",
+ "sha16": "3cf7784768f67986",
+ "stem": "05_btech_me_y4_syllabus_2021-22",
+ "subjects": [
+  {
+   "name": "Measurement & Metrology Lab",
+   "name_print": "Measurement & Metrology Lab",
+   "codes": [
+    "KME 751"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "lab",
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "L T P : 0 0 2",
+   "credit": 1,
+   "credit_print": "1",
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "header_print": "Subject Code: KME 751 | Measurement & Metrology Lab | L T P : 0 0 2 | Credits: 1",
+   "cos_preamble_print": "Course Outcome (CO): The Students will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic principles of instrumentation for measurement of surface finish, strain, temperature, pressure and flow.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the principle and operation of Coordinate Measuring Machine (CMM).",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply Sine Bar, Slip Gauges, Bevel Protractor, Stroboscope, Dial Indicator etc. for measurement of different attributes.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the basic concepts of limits, fits & tolerances for selective assembly.",
+     "kl": "K3"
+    }
+   ],
+   "experiments_preamble_print": "Minimum 08 experiments out of following (or such experiment) are to be performed:",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Measurement of effective diameter of a screw thread using 3 wire method."
+    },
+    {
+     "no": 2,
+     "exp": "Measurement of angle using sine bar & slip gauges."
+    },
+    {
+     "no": 3,
+     "exp": "Study of limit gauges."
+    },
+    {
+     "no": 4,
+     "exp": "Study & angular measurement using Bevel protector."
+    },
+    {
+     "no": 5,
+     "exp": "Study of different types of Comparators."
+    },
+    {
+     "no": 6,
+     "exp": "Study of important parameters of surface finish."
+    },
+    {
+     "no": 7,
+     "exp": "Study of principle and operation of coordinate-measuring machine (CMM)."
+    },
+    {
+     "no": 8,
+     "exp": "Use of dial indicator and V Block to check the circularity and plot the polar Graph."
+    },
+    {
+     "no": 9,
+     "exp": "Study and understanding of limits, fits & tolerances in assembly of machine components."
+    },
+    {
+     "no": 10,
+     "exp": "Study and understanding of different methods of measurement of pressure."
+    },
+    {
+     "no": 11,
+     "exp": "Study and understanding of different methods of measurement of temperature."
+    },
+    {
+     "no": 12,
+     "exp": "Study and understanding of measurement of strain using strain gauges."
+    },
+    {
+     "no": 13,
+     "exp": "Study and understanding of different methods of measurement of flow."
+    },
+    {
+     "no": 14,
+     "exp": "Study and understanding of different methods of measurement of vibration/power."
+    },
+    {
+     "no": 15,
+     "exp": "Study and understanding of measurement of displacement using LVDT."
+    }
+   ],
+   "quirks": [
+    "marks/credit from its own printed Sem-VII scheme row Sl.No 5 (p.2): 0 0 2 | CT/TA/sessional-Total/TE printed blank | PS 25 | PE 25 | Total 50 | Credit 1 (column positions verified from printed word coordinates)",
+    "experiment 4 prints 'Bevel protector' [sic] (protractor); experiment 8 prints 'plot the polar Graph'",
+    "text layer emits the 'Subject Code: KME 751' header block after the CO table and experiments list (extraction-order artifact); the visible print has the header block at the top of p.4"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additive manufacturing",
+   "name_print": "Additive manufacturing",
+   "codes": [
+    "KME 071"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "departmental-elective",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "header_print": "Subject Code: KME 071 | Additive manufacturing | L T P : 3 0 0 | Credits: 3",
+   "cos_preamble_print": "Course Outcome: Student will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understanding the basics of additive manufacturing/rapid prototyping and its advantages and disadvantages",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understanding the role of additive manufacturing in the design process and the implications for design.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understanding the processes used in additive manufacturing for a range of materials and applications",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the various software tools, processes and techniques that enable advanced/additive manufacturing and personal fabrication.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Apply knowledge of additive manufacturing for various real-life applications",
+     "kl": "K3"
+    }
+   ],
+   "units": {
+    "1": "Introduction\nHistory and Advantages of Additive Manufacturing, Distinction Between Additive Manufacturing and CNC Machining, Types of Additive Manufacturing Technologies, Nomenclature of AM Machines, Direct and Indirect Processes; Prototyping, Manufacturing and Tooling.\n\nLayer Manufacturing Processes: Polymerization, Sintering and Melting, Extrusion, Powder Binder Bonding, Layer Laminate Manufacturing, Other Processes; Aerosol printing and Bio plotter.",
+    "2": "Development of Additive Manufacturing Technology\nComputer Aided Design Technology, Other Associated Technology, Metal and Hybrid Systems.\n\nGeneralized Additive Manufacturing Process Chain; The Eight Steps in Additive Manufacturing, Variation from one AM Machine to Another, Metal System, Maintenance of Equipment, Material Handling Issue, Design of AM.",
+    "3": "Additive Manufacturing Processes\nVat Photo polymerization; Materials, Reaction Rates, Photo polymerization Process Modelling, Scan Patterns\n\nPowder Bed Fusion Processes; Material, Powder Fusion Mechanism, Process Parameters and Modeling, powder Handling\n\nExtrusion Based System; Basic principles, plotting and Path Control, Other Systems\n\nMaterial Jetting; Materials, Material Processing Fundamentals, Material Jetting Machines\nDirected Energy Deposition Processes; General DED Process Description, Material Delivery, DED systems, Process Parameters, Processing-Structure-Properties Relationships",
+    "4": "Design & Software Issues\nAdditive Manufacturing Design and Strategies; Potentials and Resulting Perspectives, AM based New Strategies, Material Design and Quality Aspects for Additive Manufacturing; Material for AM, Engineering Design Rules for AM.\n\nSoftware Issue for Additive Manufacturing; Introduction, Preparation of CAD Models: The STL file, Problem with STL file, STL files Manipulation, Beyond the STL file, Additional Software to Assist AM",
+    "5": "Material Design & Quality Aspects\nMachines for Additive Manufacturing, Printers, Secondary Rapid Prototyping processes, Intellectual Property, Product Development, Commercialization, Trends and Future Directions in Additive Manufacturing, Business Opportunities\n\nApplications\nAerospace, Automotive, Manufacturing, Architectural Engineering, Art, Jewellery, Toys, Medical, Biomedical, Dental, Bio-printing, Tissue & Organ Engineering and many others."
+   },
+   "books_heading_print": "Books and References:",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by- Ian Gibson , DSavid W. Rosen , Brent Stucker, Springer."
+    },
+    {
+     "no": 2,
+     "book": "Understanding Additive Manufacturing, by- Andreas Gebhardt, Hanser."
+    },
+    {
+     "no": 3,
+     "book": "Additive Manufacturing, by- AmitBandyopadhyay, Susmita Bose, CRC Press."
+    },
+    {
+     "no": 4,
+     "book": "Rapid Prototyping: Principles and Applications, by -Chee Kai Chua, Kah Fai Leong, Chu Sing Lim."
+    }
+   ],
+   "quirks": [
+    "marks/credit taken from printed Sem-VII Departmental-Elective-IV slot row (p.2): 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3",
+    "p.5 prints three stacked specialization lines above the subject header ('Specialization – Manufacturing and Automation' / 'Automation and Industry 4.0' / 'Design and Analysis') — the p.3 elective table prints 'Additive manufacturing (Common to all Three Specializations)'",
+    "printed name keeps sentence case 'Additive manufacturing'; book 1 prints 'DSavid W. Rosen' [sic]; book 3 prints 'AmitBandyopadhyay' [sic] (spacing as printed); single combined list printed under 'Books and References:'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "HVAC systems",
+   "name_print": "HVAC systems",
+   "codes": [
+    "KME 072"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "departmental-elective",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "header_print": "Subject Code: KME 072 | HVAC systems | L T P : 3 0 0 | Credits: 3",
+   "cos_preamble_print": "The students will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics concepts of HVAC and various HVAC systems.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the use of refrigerants with their respective applications and its future trends.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the use of different auxiliary systems used in HVAC systems.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Apply the basic laws for thermodynamic analysis of different processes involved in HVAC systems.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the basic concepts to calculate the HVAC loads for different applications.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Apply the concepts of psychrometry to design HVAC systems for different applications",
+     "kl": "K3"
+    }
+   ],
+   "unit_hours_print": {
+    "1": "(8 Hours)",
+    "2": "(7 Hours)",
+    "3": "(7 Hours)",
+    "4": "(11 Hours)",
+    "5": "(7 Hours)"
+   },
+   "units": {
+    "1": "Advanced Vapour Compression Cycles: Review of vapour compression cycle, Effect of superheating, subcooling, condenser pressure and evaporator pressure on COP, Transcritical cycle, Ejector refrigeration cycle. Presentation of cycle on P-h and T-s chart.\n\nRefrigerants: Classification of Refrigerants, CFC, HFC, HCFC, Azeotropic, Zeotropic, Natural refrigerant, Secondary Refrigerant, Anti-freeze solution, Phase Changing Materials. Desired properties of refrigerants, Requirements for refrigerant, Classification based on safety, Refrigerant oils and applications, Properties and uses of commonly used refrigerant, Greenhouse effect, Global warming, Future Refrigerants like Hydrofluoro-Olefines",
+    "2": "Review of Psychrometry: Psychrometric properties, Psychrometric chart and Psychrometric processes, Psychrometric process in Air conditioning equipment: By pass factor, cooling and dehumidifying coils, Apparatus dew point (ADP), Heating coils, air washer, use of hygroscopic solution in Air Washer, adiabatic dehumidifier, water injection, stream injection, Summer Air conditioning, Winter Air conditioning, Sensible heat factor (SHF), Grand Sensible heat factor (GSHF)\n\nDesign Condition:\nChoice of inside design condition- cold storage, Industrial air conditioning, comfort air conditioning, Human comfort, Outside design condition",
+    "3": "Heat Pump: Introduction, package heat pump with reversible cycle, decentralized heat pump, heat pump with a double bundle condenser, industrial heat pump\n\nVentilation: Introduction, purpose of ventilation, Natural ventilation, mechanical ventilation, tunnels ventilation, mine ventilation, Natural ventilation, and mechanical ventilation.\n\nAir Conditioning system: Introduction, Unitary system, central air conditioning system, directs expansion system, all water system, all air system, air water system.",
+    "4": "Load Calculation: Solar radiation, Heat gain through glass- Calculation of solar heat gain through ordinary glass tables-shading devices- effect of shading devices. Fabric heat gain, over all heat transfer coefficient, Periodic heat transfer through walls and roofs. Empirical methods to calculate heat transfer through walls and roofs using decrement factor and time lag method. Infiltration - stack effect, wind effect, infiltration load.\n\nInternal heat loads, System heat gains, Break-up of ventilation and effective sensible heat factor, Cooling and heating load estimation, Psychrometric calculation for cooling, selection of air conditioning apparatus, Evaporative cooling, Building requirements and energy conservation in air conditioning buildings.",
+    "5": "Air Distribution: Room air distribution - types of supply air outlets, mechanism of flow through outlets, selection and location of outlets, Distribution patterns of outlets - ducts- Definition and types - materials for ducts and its specification, friction loss in ducts - grills, diffusers, registers, rectangular equivalent of circular duct. Air duct designs, duct construction, duct design procedures. Equal friction method, static regain method, velocity reduction method.\n\nAir Conditioning Apparatus: Fans and blowers, types of fans, fan characteristic, centrifugal fans, axial fans, fan arrangements, Suction Line, Discharge Line (Hot-Gas Line), Liquid Line, location and arrangement of piping, vibration and noise in piping, basic elements of the control system"
+   },
+   "textbooks_heading_print": "Text Books",
+   "reference_books_heading_print": "Reference Books",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Refrigeration and Air conditioning by C.P Arora, McGraw-Hill"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 2,
+     "book": "Refrigeration and Air conditioning by stoecker& Jones. McGraw-Hill"
+    },
+    {
+     "no": 3,
+     "book": "Refrigeration and Air conditioning, by Manohar Prasad, New Age International (P) Ltd.Pub."
+    },
+    {
+     "no": 4,
+     "book": "ASHRAE Handbook ( HVAC Equipments)"
+    },
+    {
+     "no": 5,
+     "book": "Refrigeration and Air conditioning by R. C. Arora, PHI"
+    },
+    {
+     "no": 6,
+     "book": "Refrigeration and Air conditioning by Arora & Domkundwar. DhanpatRai"
+    },
+    {
+     "no": 7,
+     "book": "Air Conditioning System Design Manual, IInd edition, ASHRAE."
+    }
+   ],
+   "quirks": [
+    "marks/credit taken from printed Sem-VII Departmental-Elective-IV slot row (p.2): 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3",
+    "CO-table header prints 'Taxonom y' split across lines (decode artifact)",
+    "CO1 prints 'the basics concepts' [sic]; Unit-II prints 'water injection, stream injection' [sic] (steam); Unit-III prints 'directs expansion system' [sic]; CO6 printed without trailing period",
+    "books: 'Text Books' prints a single item (no.1); 'Reference Books' continues the printed numbering 2-7 as printed; 'stoecker& Jones' and 'DhanpatRai' printed without spaces; ref 7 prints 'IInd edition'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Hybrid Vehicle Propulsion",
+   "name_print": "Hybrid Vehicle Propulsion",
+   "codes": [
+    "KAU 072"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "departmental-elective",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "header_print": "Subject Code: KAU 072 | Hybrid Vehicle Propulsion | L T P : 3 0 0 | Credits: 3",
+   "cos_preamble_print": "The students will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics of the hybrid electric vehicles and it’s types.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the types of drive trains used in hybrid vehicles",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the propulsion units used in Hybrid Vehicles and their efficiency.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the requirements and devices of energy storage used in hybrid vehicles.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the concept of downsizing of IC engines in case of hybrid vehicles.",
+     "kl": "K2"
+    },
+    {
+     "no": 6,
+     "text": "Understand the principles of energy management and issues related to these strategies.",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Introduction to Hybrid Electric Vehicles: (4 Hours) History of hybrid and electric vehicles, social and environmental importance of hybrid and electric vehicles, impact of modern drive-trains on energy supplies.\n\nConventional Vehicles: (4 Hours) Basics of vehicle performance, vehicle power source characterization, transmission characteristics, and mathematical models to describe vehicle performance.",
+    "2": "Hybrid Electric Drive-trains: (4 Hours) Basic concept of hybrid traction, introduction to various hybrid drive-train topologies, power flow control in hybrid drive-train topologies, fuel efficiency analysis.\n\nElectric Drive-trains: (4 Hours) Basic concept of electric traction, introduction to various electric drive-train topologies, power flow control in electric drive-train topologies, fuel efficiency analysis.",
+    "3": "Electric Propulsion unit: (10 Hours) Introduction to electric components used in hybrid and electric vehicles, Configuration and control of DC Motor drives, Configuration and control of Induction Motor drives, configuration and control of Permanent Magnet Motor drives, Configuration and control of Switch Reluctance Motor drives, drive system efficiency.",
+    "4": "Energy Storage: (5 Hours) Introduction to Energy Storage Requirements in Hybrid and Electric Vehicles, Battery based energy storage and its analysis, Fuel Cell based energy storage and its analysis, Super Capacitor based energy storage and its analysis, Flywheel based energy storage and its analysis, Hybridization of different energy storage devices.\nSizing the drive system: (4 Hours) Matching the electric machine and the internal combustion engine (ICE), Sizing the propulsion motor, sizing the power electronics, selecting the energy storage technology, Communications, supporting subsystems",
+    "5": "Energy Management Strategies: (8 Hours) Introduction to energy management strategies used in hybrid and electric vehicles, classification of different energy management strategies, comparison of different energy management strategies, implementation issues of energy management strategies."
+   },
+   "textbooks_heading_print": "Text Books:",
+   "reference_books_heading_print": "Reference Books:",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Iqbal Hussein, Electric and Hybrid Vehicles: Design Fundamentals, CRC Press , 2003."
+    },
+    {
+     "no": 2,
+     "book": "MehrdadEhsani, YimiGao, Sebastian E. Gay, Ali Emadi, Modern Electric, Hybrid Electric and Fuel Cell Vehicles: Fundamentals, Theory and Design, CRC Press , 2004."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "James Larminie, John Lowry, Electric Vehicle Technology Explained, Wiley , 2003."
+    },
+    {
+     "no": 2,
+     "book": "Chris Mi, M. Abul Masrur, David Wenzhong Gao, Hybrid Electric Vehicles: Principles and Applications with Practical Perspectives, John Wiley & Sons Ltd., 2011."
+    }
+   ],
+   "quirks": [
+    "marks/credit taken from printed Sem-VII Departmental-Elective-IV slot row (p.2): 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3",
+    "per-topic hour blocks printed inside units (4/4/4/4/10/5/4/8 Hours) kept verbatim in unit texts",
+    "CO1 prints 'and it’s types' [sic]; CO2/CO5 printed without trailing period; text book 2 prints 'MehrdadEhsani, YimiGao' without spaces [sic]"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mathematical Modeling of Manufacturing Processes",
+   "name_print": "Mathematical Modeling of Manufacturing Processes",
+   "codes": [
+    "KME 073"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "departmental-elective",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "header_print": "Subject Code: KME 073 | Mathematical Modeling of Manufacturing Processes | L T P : 3 0 0 | Credits: 3",
+   "cos_preamble_print": "Course Outcome: Student will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of manufacturing processes, mathematical models and their solutions",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand unconventional and conventional machining, their discrete-time linear, non-linear models and solutions",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Analyze the mechanism of forming and heat transfer in welding",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Apply the principles of casting, powder metallurgy, coating and additive Manufacturing",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Understand the fundamental of heat treatment, micro / nano manufacturing and processing of non-metallic materials.",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Introduction to Manufacturing processes; Materials Processing; Types and Properties of Engineered Materials; Evaluation of Properties of Manufactured Products; Statistical and data-driven modelling approach; Overview of mathematical modeling, types of mathematical models and methods to solve the same. Physics of manufacturing processes; Solid-state deformation (Elasticity and Plasticity) and residual stresses; solid-state phase transformation and recrystallization; melting and solidification; Coupled Systems",
+    "2": "Conventional machining; Orthogonal cutting; Tool geometry; chip formation; force components; heat generation; tool life; mathematical modelling approach; solution of problems; Introduction to discrete-time linear and non-linear models. Non-conventional machining; Principal and mechanism of different processes; Parametric analysis of heat transfer, material removal, and surface finish.",
+    "3": "Metal forming; Mechanics of bulk metal forming; mechanics of sheet metal forming; heat transfer and deformation; Welding; Fusion welding; Welding-heat source modeling, temperature distribution, effect of surface- active elements, modes of metal transfer in welding; Solid-state welding; Solidification and microstructure; Residual stress and distortion.",
+    "4": "Casting and powder metallurgy; Cooling and Solidification; principle of powder metallurgy; Coating and additive manufacturing; Principle of surface and coating technology; Principle and development of additive manufacturing technologies",
+    "5": "Heat treatment; Fundamentals of heat treatment; Evaluation of microstructure properties and residual stress of different manufacturing processes. Micro/nanoscale manufacturing; Down-scaling of conventional manufacturing processes, Change of properties, Micro-to-nano manufacturing; Packaging, finishing, micro joining and nano joining, micro casting, micro forming, micromachining. Processing of non-metallic materials; Principle of plastic processing and shaping of plastics, processing of non-metallic bio-materials; Principle of glass and ceramics processing and shaping of glass and ceramics."
+   },
+   "books_heading_print": "Books and References",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A Ghosh and A K Mallik: Manufacturing Science, East-West Press Pvt Ltd, 2nd Ed., 2010."
+    },
+    {
+     "no": 2,
+     "book": "D A Brandt, J C Warner: Metallurgy Fundamentals, Goodheart- Willcox, 2009."
+    },
+    {
+     "no": 3,
+     "book": "C Lakshmana Rao and Abhijit P Deshpande: Modelling of Engineering Materials, Ane Books Pvt. Ltd., New Delhi, India, 2010."
+    },
+    {
+     "no": 4,
+     "book": "J. Chakrabarty: Theory of plasticity, 3rd Eds, Elsevier India, 2009."
+    },
+    {
+     "no": 5,
+     "book": "Norman Y Zhou: Microjoining and Nanoioining, Woodhead publishing, 2008"
+    },
+    {
+     "no": 6,
+     "book": "R W Messler: Principles of Welding John Wiley and Sons, 1999."
+    },
+    {
+     "no": 7,
+     "book": "J T Black and Ronald A Kohser: DeGarmo's Materials & processes in Manufacturing Wiley-India, 2010."
+    },
+    {
+     "no": 8,
+     "book": "V K Jain: Advanced Machining Processes, Allied Publishers, Mumbai, 2002."
+    },
+    {
+     "no": 9,
+     "book": "Yi Qin: Micromanufacturing Engineering and Technology, Elsevier, 2015."
+    },
+    {
+     "no": 10,
+     "book": "J Zhang and Yeon-Gil Jung: Additive Manufacturing: Materials, Processes, Quantifications and Applications, Elsevier, 2018."
+    },
+    {
+     "no": 11,
+     "book": "J A Dantzig and M Rappaz: Solidification, CRS press, 2009."
+    },
+    {
+     "no": 12,
+     "book": "J.N. Kapur, Mathematical Models in Biology and Medicine, East-West Press Private limited."
+    },
+    {
+     "no": 13,
+     "book": "Leah, Edelstein, Keshet, Mathematical Models in Biology, SIAM publications."
+    },
+    {
+     "no": 14,
+     "book": "J.D. Murray, Mathematical Biology Vol. I, II, 3rd edition, Springer publications."
+    }
+   ],
+   "related_links_heading_print": "Related Course’s / Useful Links",
+   "related_links": [
+    {
+     "no": 1,
+     "link": "https://www.digimat.in/nptel/courses/video/112103273/L01.html"
+    },
+    {
+     "no": 2,
+     "link": "https://swayam.gov.in/nd1_noc20_ma47/preview"
+    }
+   ],
+   "quirks": [
+    "marks/credit taken from printed Sem-VII Departmental-Elective-V slot row (p.2): 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3",
+    "book 5 prints 'Nanoioining' [sic]; book 11 prints 'CRS press' [sic]; unit headings print as 'Unit-1:'..'Unit-5:' (digit form)",
+    "single combined book list printed under 'Books and References'; links heading prints \"Related Course's / Useful Links\" [sic]"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Machine Learning",
+   "name_print": "Machine Learning",
+   "codes": [
+    "KME 074"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "departmental-elective",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "header_print": "Subject Code: KME 074 | Machine Learning | L T P : 3 0 0 | Credits: 3",
+   "cos_preamble_print": "Course Outcomes: Students are able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the need of machine learning concepts",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "To Understand a wide variety of ML Algorithms and how to evaluate models generated from data",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Solve prediction based problems",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze machine learning algorithms",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Apply the Algorithms to real-world problems",
+     "kl": "K4"
+    }
+   ],
+   "units": {
+    "1": "Introduction to Machine Learning (6Hours)\nAn Introduction to Machine Learning, Types of Machine Learning, and Applications of ML in Mechanical Engineering, Designing a Learning System, Performance Measures for ML Model, Issues in Machine Learning, AI vs. ML, and Essential Math for ML and AI, Data Science Vs Machine Learning",
+    "2": "Supervised Learning: Introduction to Supervised Learning, Classification, Regression Analysis and its Types , Model Selection Procedures, Bayesian Decision Theory, Naïve Bayes Classifier, Bayes Optimal Classifier, Evaluating an Estimator: Bias and Variance , Support Vector Machines, Types of Support Vector Kernel(Linear Kernel, Polynomial Kernel, Gaussian Kernel, Issues in SVM, Case Study on House Price Prediction using Machine Learning.",
+    "3": "Unsupervised Learning: Introduction to Unsupervised Learning, Cluster Analysis, K-Means Clustering, Expectation-Maximization Algorithm, Dimensionality Reduction: Principal Components Analysis, Independent Component Analysis, Multidimensional Scaling, Linear Discriminant Analysis.",
+    "4": "Decision Tree & Neural Networks (9Hours)\nDecision Trees: Basics of Decision Tree, Issues in Decision tree learning, ID3 Algorithm, Information gain and Entropy.\n\nIntroduction to Neural Networks: Perceptron, The Back propagation Algorithm, The Convergence analysis and universal approximation theorem for back propagation algorithm, Concept of Convolution Neural Networks, Types of Layers of CNN, Case Study of CNN (either on Self driving car, Building a smart speaker, etc.)",
+    "5": "Genetic Algorithms & Reinforcement Learning (7Hours)\nGenetic Algorithm: Introduction, Components of Genetic Algorithm, CrossOver, Mutation, Model of Evolution and Learning, Applications of Genetic Algorithm\n\nReinforcement Learning: Introduction to Reinforcement Learning, Learning task, Model-Based Learning Q- Learning, Markov Decision Process, Q Learning Function, Temporal Difference Learning, Generalization,"
+   },
+   "textbooks_heading_print": "Text Book:",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Tom M. Mitchell, ―Machine Learning, McGraw-Hill Education (India) Private Limited, 2013."
+    },
+    {
+     "no": 2,
+     "book": "Ethem Alpaydin, ― Introduction to Machine Learning (Adaptive Computation and Machine Learning), The MIT Press 2004."
+    },
+    {
+     "no": 3,
+     "book": "Stephen Marsland, ―Machine Learning: An Algorithmic Perspective, CRC Press, 2009."
+    },
+    {
+     "no": 4,
+     "book": "Bishop, C., Pattern Recognition and Machine Learning. Berlin: Springer-Verlag."
+    }
+   ],
+   "quirks": [
+    "marks/credit taken from printed Sem-VII Departmental-Elective-V slot row (p.2): 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3",
+    "printed unit-heading titles (e.g. Unit 1: Introduction to Machine Learning) prefixed verbatim to unit texts where not already embedded in the content line",
+    "unit hour blocks print without space as ‘(6Hours)’ etc. and are kept inline verbatim at their printed position after each unit heading"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Graphics and Product Modeling",
+   "name_print": "Computer Graphics and Product Modeling",
+   "codes": [
+    "KME 075"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "departmental-elective",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "header_print": "Subject Code: KME 075 | Computer Graphics and Product Modeling | L T P : 3 0 0 | Credits: 3",
+   "cos_preamble_print": "Course Outcome: Student will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the components of a computer graphics with object representation and to develop algorithm for graphics system components.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the basic principles of 3- dimensional computer graphics and express the 3D model with illumination and shading effects.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Develop a 3D solid model using 3D Solid Modeling Software",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Identify the customer needs in order to develop a business model for new product.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Develop strategy for designing and development of a new product",
+     "kl": "K4"
+    }
+   ],
+   "units": {
+    "1": "Introduction to computer graphics – historical evolution, issues and challenges, graphics pipeline, hardware and software basics; line and circle drawing algorithms, , Object representation – boundary representation, splines- cubic, Bezier, B-spline and NURBS, space partitioning",
+    "2": "Modeling transformations – matrix representation, homogeneous coordinate system, composition, 3D transformations; Illumination and shading – background, simple lighting model, shading models, intensity representation, color models, texture synthesis.",
+    "3": "3D Graphics: Polygon surfaces-Polygon mesh representations, Quadric and Superquadric surfaces and blobby objects; Solid modeling-Solid entities, Fundamentals of Solid modeling-Set theory, regularized set operations; Half spaces, Boundary representation, Constructive solid geometry, Sweep representation, Color models. Application Commands for3D Solid Modeling Software like Solidworks /Autodesk Inventor / PTC Creo / Catia (Any one) etc.",
+    "4": "Managing Product Development- Introduction; Business Models for New Products; Managing Product Development; Understanding Customer Needs- Identifying New Product Opportunities, Market Research for New Product Development. Introduction to Product Life Cycle Management and related software",
+    "5": "Organizing Product Development-Product Architecture, Design for manufacturing and Prototyping; Organizing for Product Development; Developing Services and Product Service Systems; New Product Strategy- Building Markets and Creating Demand for New Products; Intellectual Property Issues in Product Development; New Product Business Plans – Strategy Consulting for New Products; Design Thinking for New Products- Designing Products for Emerging Markets; Design Thinking for New Products"
+   },
+   "books_heading_print": "Books and References",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Samit Bhattacharya. (2015). Computer Graphics. Oxford University Press."
+    },
+    {
+     "no": 2,
+     "book": "Hearn, D. & Baker, M. P. (2003). Computer Graphics with OpenGL, (3rd ed), Pearson."
+    },
+    {
+     "no": 3,
+     "book": "Drew Boyd & Jacob Goldenberg (2013) Inside the Box: The Creative Method that Works for Everyone"
+    },
+    {
+     "no": 4,
+     "book": "Joseph V. Sinfield, Edward Calder, Bernard McConnell, and Steve Colson (2012) How to Identify New Business Models, MIT Sloan Management Review Vol. 53, No.2."
+    },
+    {
+     "no": 5,
+     "book": "Chun-Che Huang (2000) Overview of Modular Product Development, Proc. National Science Council ROC(A) Vol. 24, No. 3, pp. 149-165"
+    },
+    {
+     "no": 6,
+     "book": "Marc H. Meyer and Arthur DeTore (1999) Product Development for Services, The Academy of Management Executive, Vol. 13, No. 3, Themes: Teams and New Product Development (Aug., 1999), pp. 64-76"
+    }
+   ],
+   "related_links_heading_print": "Related Course’s / Useful Link",
+   "related_links": [
+    {
+     "no": 1,
+     "link": "https://swayam.gov.in/nd1_noc20_cs90/preview"
+    },
+    {
+     "no": 2,
+     "link": "https://nptel.ac.in/courses/106/106/106106090/"
+    },
+    {
+     "no": 3,
+     "link": "https://nptel.ac.in/courses/112/102/112102101/"
+    },
+    {
+     "no": 4,
+     "link": "https://swayam.gov.in/nd1_noc20_me12/preview"
+    },
+    {
+     "no": 5,
+     "link": "https://swayam.gov.in/nd1_noc20_de05/preview"
+    }
+   ],
+   "quirks": [
+    "marks/credit taken from printed Sem-VII Departmental-Elective-V slot row (p.2): 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3",
+    "Unit-1 prints 'algorithms, , Object representation' (doubled comma) and Unit-3 prints 'Application Commands for3D Solid Modeling Software' (missing space) — as printed; CO3/CO5 printed without trailing period",
+    "single combined book list printed under 'Books and References'; links heading prints \"Related Course's / Useful Link\" [sic]; p.3 elective table prints name as 'Computer Graphics and product modeling' while the detail page header prints 'Computer Graphics and Product Modeling'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Power Plant Engineering",
+   "name_print": "Power Plant Engineering",
+   "codes": [
+    "KME 076"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "departmental-elective",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "header_print": "Subject Code: KME 076 | Power Plant Engineering | L T P : 3 0 0 | Credits: 3",
+   "cos_preamble_print": "Course Outcome: The student will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the different sources of power generation and their impact on environment.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the elements of power generation using conventional and non-conventional energy sources.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concepts of electrical systems used in power plants.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Apply the basic concepts of thermodynamics to measure the performance of different power plants.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Determine the performance of power plants based on load variations.",
+     "kl": "K3"
+    }
+   ],
+   "units": {
+    "1": "Introduction to Power Plants\nIntroduction to the sources of energy: conventional and non-conventional; Principal types of power plants; Present status and future trends; Carbon credits.\n\nThermal Power Plant\nGeneral layout of modern thermal power plant, Review of Rankine and modified Rankine cycles, Power plant boilers including critical and super critical boilers. Fluidized bed boilers, boilers mountings and accessories. Feed water treatment and condenser and cooling towers and cooling ponds, Turbine auxiliary systems such as governing, feed heating, reheating, flange heating and gland leakage. Operation and maintenance of steam power plant, heat balance and efficiency, Site selection of a steam power plant.",
+    "2": "Hydroelectric Power Plant\nHydro-electric plant, General arrangement of hydroelectric power plant, Plant layout, Penstock and water hammer, Specific speed and capacity calculations, Classification of hydro-plant, Low-, medium- and high-head plants, Pumped storage plant, Run-off river power plant, Surge tanks.\n\nGas turbine power plant:\nLayout of gas turbine power plant, Elements of gas turbine power plants, Gas turbine fuels, cogeneration, auxiliary systems such as fuel, controls and lubrication, operation and maintenance, combined cycle power plants, Site selection of gas turbine power plant, Integrated Gas fire based Combined Cycle (IGCC) systems. Controlling of air fuel ratio (AFR) in power plant.",
+    "3": "Nuclear Power Plants\nClassification of nuclear reactors, Thermal fission reactors and power plant and their location, Pressurized water reactor, Boiling water reactor, CANDU heavy water reactor,  Gas-cooled reactor, Fast breeder reactors, Organic substance cooled reactor, Reactor control,  Radiation hazards, Radioactive waste disposal, Nuclear power generation in India.\n\nSolar Power Plant\nSolar energy collectors, Photovoltaic power system, Solar central receiver system, Solar thermal energy, types of solar thermal plant, typical layout and components, solar parabolic trough plants, solar tower power plants, and solar dish power plants. Working principle of concentrating solar thermal power plant and their applications.",
+    "4": "Non-Conventional Power Plants\nGeothermal energy: Hydrothermal systems, Petro thermal systems, Hybrid geothermal fossil systems, Problems associated with geothermal conversion,\n\nWind energy: Components of a wind generator, Horizontal and vertical axis wind mills, Aerodynamic considerations of wind mill design, Coefficient of performance of wind mill rotor, Availability of wind energy in India, Wind power by country.\n\nTidal energy: The simple single pool tidal system, The modulated single pool tidal system, The two-pool tidal system, Ocean thermal energy conversion, Principle of working, Ocean temperature differences, The open or Claude cycle, The closed or Anderson OTEC cycle,\nElectricity generation from Fuel cells and city garbage.",
+    "5": "Electrical system:   \nIntroduction to generator and exciters, Earthing of power systems, Power and unit transformer, Circuit breakers, Protective equipment, Switch gear.  \n\nPower Plant Economics:\nTypes of loads, Effect of variable load on power plant design and operation, Methods to meet variable load, Prediction of future loads, Terminology used in power supply, Cost of electrical energy, Depreciation, Energy rates (tariffs) for electrical energy, Factors affecting economics of generation and distribution of power\n\nEnvironmental Aspects of Power Station\nEnvironmental aspects, Different pollutants due to thermal power plant and their effect on human health, Thermal pollution of water and its control, Effluents from power plants and impact on environment, Radiation from nuclear power plant effluents, Methods of pollution mitigation and control."
+   },
+   "books_heading_print": "Books and References:",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Power Plant Engineering, by F.T. Morse, Affiliated East-West Press Pvt. Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Power Plant Engineering by Hedge, Pearson India."
+    },
+    {
+     "no": 3,
+     "book": "Power Plant Technology, by Wakil, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Power Plant Engineering by P.K. Nag, Tata McGraw Hill."
+    },
+    {
+     "no": 5,
+     "book": "Steam & Gas Turbines & Power Plant Engineering by R.Yadav, Central Pub.House."
+    },
+    {
+     "no": 6,
+     "book": "Power Plant Engineering by Gupta, PHI India."
+    },
+    {
+     "no": 7,
+     "book": "El Wakil M.M., Power Plant Technology, Tata McGraw Hill, 2010."
+    },
+    {
+     "no": 8,
+     "book": "Power Plant Engineering. Mahesh Verma, Metropolitan Book Company Pvt. Ltd."
+    }
+   ],
+   "quirks": [
+    "marks/credit taken from printed Sem-VII Departmental-Elective-V slot row (p.2): 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3",
+    "book 2 prints 'Power Plant Engineering by Hedge, Pearson India.' [sic]; book 5 prints 'Central Pub.House' [sic]; Unit-II prints 'Integrated Gas fire based Combined Cycle (IGCC)' [sic]",
+    "single combined book list printed under 'Books and References:' (items 1-8); books continue onto p.19"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Vehicle Body Engineering & safety",
+   "name_print": "Vehicle Body Engineering & safety",
+   "codes": [
+    "KAU 073"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "subject_type": "departmental-elective",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "header_print": "Subject Code: KAU 073 | Vehicle Body Engineering & safety | L T P : 3 0 0 | Credits: 3",
+   "cos_preamble_print": "The students will be able to",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the classification of the vehicles on the basis of body.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the importance of material selection in designing automotive bodies.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concepts of aerodynamics used in designing automobiles.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the importance of interior and exterior ergonomics while designing the vehicle.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Identify various sources of noise and methods of noise separation and various safety aspects in a given vehicle.",
+     "kl": "K2"
+    },
+    {
+     "no": 6,
+     "text": "Calculate various aerodynamic forces and moments acting on vehicle, load distribution in vehicle body and stability of vehicle.",
+     "kl": "K3"
+    }
+   ],
+   "units": {
+    "1": "Classification of Coachwork: [L-9 Hours] Styling forms, coach and bus body style, layout of cars, buses and coach with different seating and loading capacity, types of commercial vehicles, vans and pickups, etc. Terms used in body building construction, angle of approach, Angle of departure, ground clearance, Cross bearers, floor longitudes, posts, seat rail, waist rail, cant rail, Roof stick, Roof longitude, Rub rail, skirt rail, truss panel, wheel arch structure, wheel arch, post diagonals, gussets.",
+    "2": "Vehicle Body Materials: [L-9 Hours] Aluminum alloys, Steel, alloy steels, plastics, Metal matrix composites, structural timbers - properties, glass reinforced plastics and high strength composites, thermoplastics, ABS and styrenes, load bearing plastics, semi rigid PUR foams and sandwich panel construction. Paints adhesives and their properties, corrosion and their prevention.",
+    "3": "Aerodynamics: [L-5 Hours] Basics, Vehicle drag and types, Various types of forces and moments, effects of forces and moments, various body optimization techniques for minimum drag, Principle of wind tunnel technology, flow visualization techniques, tests with scale models, aerodynamic study for heavy vehicles.\n\nLoad Distribution: [L-5 Hours] Type of body structures, Vehicle body stress analysis, vehicle weight distribution, Calculation of loading for static loading, symmetrical, longitudinal loads, side loads, stress analysis of bus body structure under bending and torsion.",
+    "4": "Interior Ergonomics: [L-4 Hours] Introduction, Seating dimensions, Interior ergonomics, ergonomics system design, seat comfort, suspension seats, split frame seating, back passion reducers, dash board instruments, electronic displays, commercial vehicle cabin ergonomics, mechanical package layout, goods vehicle layout. Visibility, regulations, drivers visibility, methods of improving visibility, Window winding and seat adjustment mechanisms.\n\nVehicle Stability: [L-4 Hours] Introduction, Longitudinal, lateral stability, vehicle on a curvilinear path, critical speed for toppling and skidding.Effect of operating factors on lateral stability, steering geometry and stabilization of steerable wheels, mass distribution and engine location on stability.",
+    "5": "Noise and Vibration: [L-5 Hours] Noise characteristics, Sources of noise, noise level measurement techniques, Body structural vibrations, chassis bearing vibration, designing against fatigue, methods of noise suppression.\n\nImpact protection: [L-5 Hours] Basics, physics of impact between deformable bodies, design for crash worthiness, occupant and cargo restraint, passive restraint systems, side impact analysis, bumper system, energy absorbent foams, laws of mechanisms applied to safety."
+   },
+   "books_heading_print": "Books &Reference:",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Bosch, “Automotive Handbook”, 8th Edition, SAE publication, 2011."
+    },
+    {
+     "no": 2,
+     "book": "Powloski J., “Vehicle Body Engineering”, Business books limited, London, 1969."
+    },
+    {
+     "no": 3,
+     "book": "Ronald K. Jurgen, “Automotive Electronics Handbook”, Second Edition, McGraw-Hill Inc., 1999."
+    },
+    {
+     "no": 4,
+     "book": "Vehicle body engineering Giles J Pawlowsky Business books limited 1989"
+    },
+    {
+     "no": 5,
+     "book": "Vehicle body layout and analysis John Fenton Mechanical Engg. Publication ltd, London. 1990"
+    },
+    {
+     "no": 6,
+     "book": "Vehicle Safety 2002 Cornwell press Town bridge, UK ISBN 1356 – 1448"
+    },
+    {
+     "no": 7,
+     "book": "Aerodynamics of Road Vehicles W.H. Hucho Butter worth’s 1987 4th Edition"
+    }
+   ],
+   "quirks": [
+    "marks/credit taken from printed Sem-VII Departmental-Elective-V slot row (p.2): 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3",
+    "print numbers the Aerodynamics unit as 'UNIT-II' a second time (after 'UNIT-II: Vehicle Body Materials'); transcribed verbatim as unit 3 — the printed sequence is UNIT-I, UNIT-II, UNIT-II, UNIT-IV, UNIT-V",
+    "per-topic hour blocks printed as '[L-9 Hours]' style, kept verbatim in unit texts; UNIT-IV prints 'back passion reducers' [sic] and 'skidding.Effect' (no space after period) as printed",
+    "book heading prints 'Books &Reference:' [sic]; book 4 prints 'Giles J Pawlowsky' [sic] while book 2 prints 'Powloski J.'; books print curly quote glyphs (“ ” ’) as printed"
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY | LUCKNOW, UTTAR PRADESH | STUDY & EVALUATION SCHEME WITH SYLLABUS FOR | B. TECH. 4th YEAR | MECHANICAL ENGINEERING | [Effective from Session: 2021-22]",
+   "locator": "p.1",
+   "note": "verbatim printed cover title (stacked lines joined with |); Mechanical Engineering branch 4th-year (Sem VII & VIII) scheme; canonical course BTech per RULES §1b"
+  },
+  {
+   "kind": "course_scope_note",
+   "print": "It is suggested that the students should choose Departmental Electives Specialization wise that will support them to gain enough learning of the chosen Specialization.",
+   "locator": "p.3",
+   "note": "printed branch-scope line above the Department Electives table"
+  },
+  {
+   "kind": "elective_pool_header",
+   "print": "Department Electives | Specialization-1 | Specialization-2 | Specialization-3 | Specialization-4 | Specialization-5 | Specialization: Manufacturing and Automation | Automation and Industry 4.0 | Design and Analysis | Thermal Engineering | Automobile Engineering",
+   "locator": "p.3",
+   "note": "printed table header row 'Department Electives' + Specialization-1..5 column headers + specialization-name row"
+  },
+  {
+   "kind": "elective_pool_departmental_elective_iv",
+   "print": "Sem VII Code: KME 071 KME 072 KAU 072 | Departmental Elective-IV | Additive manufacturing (Common to all Three Specializations) [KME 071 — spans Specialization Manufacturing and Automation, Automation and Industry 4.0, Design and Analysis] | HVAC systems [KME 072 — Specialization Thermal Engineering] | Hybrid Vehicle Propulsion [KAU 072 — Specialization Automobile Engineering]",
+   "locator": "p.3 Department Electives table, Departmental Elective-IV block",
+   "note": "code-to-subject-to-specialization pairing verified from printed column x-coordinates (KME 071 code cell sits over the spanned 'Additive manufacturing (Common to all Three Specializations)' cell); all three detailed on pp.5-9"
+  },
+  {
+   "kind": "elective_pool_departmental_elective_v",
+   "print": "Sem VII Code: KME 073 KME 074 KME 075 KME 076 KAU 073 | Departmental Elective-V | Mathematical Modeling of Manufacturing Processes [KME 073 — Specialization Manufacturing and Automation] | Machine Learning [KME 074 — Specialization Automation and Industry 4.0] | Computer Graphics and product modeling [KME 075 — Specialization Design and Analysis] | Power Plant Engineering [KME 076 — Specialization Thermal Engineering] | Vehicle Body Engineering & safety [KAU 073 — Specialization Automobile Engineering]",
+   "locator": "p.3 Department Electives table, Departmental Elective-V block",
+   "note": "code-to-subject-to-specialization pairing verified from printed column x-coordinates; all five detailed on pp.11-21"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "B. Tech Mechanical Engineering | Evaluation Scheme | Effective in Session 2021-22 | SEMESTER- VII | [cols: Sl. No. | Code | Subject | Periods L T P | Evaluation Scheme CT TA Total PS TE PE | End Semester | Total | Credit]",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_hsmc",
+   "print": "1 | HSMC-1/HSMC-2 | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3",
+   "locator": "p.2 SEMESTER- VII table Sl.No 1",
+   "note": "human-values/HSMC slot, code cell printed blank; no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_dept_elective",
+   "print": "2 | Departmental Elective-IV | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3",
+   "locator": "p.2 SEMESTER- VII table Sl.No 2",
+   "note": "code cell printed blank; pool covers KME 071 / KME 072 / KAU 072 (detailed separately on pp.5-9)"
+  },
+  {
+   "kind": "scheme_row_dept_elective",
+   "print": "3 | Departmental Elective-V | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3",
+   "locator": "p.2 SEMESTER- VII table Sl.No 3",
+   "note": "code cell printed blank; pool covers KME 073 / KME 074 / KME 075 / KME 076 / KAU 073 (detailed separately on pp.11-21)"
+  },
+  {
+   "kind": "scheme_row_open_elective",
+   "print": "4 | Open Elective-II | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3",
+   "locator": "p.2 SEMESTER- VII table Sl.No 4",
+   "note": "open-elective slot, code cell printed blank; no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_lab",
+   "print": "5 | KME 751 | Measurement & Metrology Lab | 0 0 2 | CT blank TA blank Total blank | PS 25 | TE blank | PE 25 | 50 | 1",
+   "locator": "p.2 SEMESTER- VII table Sl.No 5",
+   "note": "PS/PE/Total/Credit column assignment verified from printed word coordinates; lab detailed on p.4"
+  },
+  {
+   "kind": "scheme_row_mini_project",
+   "print": "6 | KME 752 | Mini Project or Internship Assessment* | 0 0 2 | CT blank TA blank Total blank | PS 50 | TE blank | PE blank | 50 | 1",
+   "locator": "p.2 SEMESTER- VII table Sl.No 6",
+   "note": "column assignment verified from printed word coordinates; no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_project",
+   "print": "7 | KME 753 | Project | 0 0 8 | CT blank TA blank Total blank | PS 150 | TE blank | PE blank | 150 | 4",
+   "locator": "p.2 SEMESTER- VII table Sl.No 7",
+   "note": "column assignment verified from printed word coordinates; no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_moocs",
+   "print": "8 | MOOCs (Essential for Hons. Degree) | all evaluation cells printed blank",
+   "locator": "p.2 SEMESTER- VII table Sl.No 8"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total | 9 | 0 | 12 | 21 | 850 | 18",
+   "locator": "p.2 SEMESTER- VII table Total row"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "*The Mini Project or internship (5 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+   "locator": "p.2 below SEMESTER- VII table"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "SEMESTER- VIII | [cols: Sl. No | Code | Subject | Periods L T P | Evaluation Scheme CT TA Total PS TE PE | End Semester | Total | Credit]",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_hsmc",
+   "print": "1 | HSMC-2/HSMC-1 | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3",
+   "locator": "p.2 SEMESTER- VIII table Sl.No 1",
+   "note": "HSMC slot, code cell printed blank; no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_open_elective",
+   "print": "2 | Open Elective-III | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3",
+   "locator": "p.2 SEMESTER- VIII table Sl.No 2",
+   "note": "open-elective slot, code cell printed blank; no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_open_elective",
+   "print": "3 | Open Elective-IV | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3",
+   "locator": "p.2 SEMESTER- VIII table Sl.No 3",
+   "note": "open-elective slot, code cell printed blank; no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_project",
+   "print": "4 | KME 851 | Project | 0 0 18 | CT blank TA blank Total blank | PS 100 | TE blank | PE 300 | 400 | 9",
+   "locator": "p.2 SEMESTER- VIII table Sl.No 4",
+   "note": "PS/PE/Total/Credit column assignment verified from printed word coordinates; no detail page in this document"
+  },
+  {
+   "kind": "scheme_row_moocs",
+   "print": "5 | MOOCs (Essential for Hons. Degree) | all evaluation cells printed blank",
+   "locator": "p.2 SEMESTER- VIII table Sl.No 5"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total | 9 | 0 | 18 | 27 | 850 | 18",
+   "locator": "p.2 SEMESTER- VIII table Total row"
+  }
+ ],
+ "quirks": [
+  "Cover (p.1) prints verbatim: 'DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY / LUCKNOW, UTTAR PRADESH / STUDY & EVALUATION SCHEME WITH SYLLABUS FOR / B. TECH. 4th YEAR / MECHANICAL ENGINEERING / [Effective from Session: 2021-22]' — Mechanical Engineering branch 4th-year (VII & VIII sem) scheme; canonical course BTech per RULES §1b (B29 pattern: cover_title + course_scope_note recorded as non_subject_rows).",
+  "p.2 scheme tables: marks columns verified from printed word coordinates — KME 751 PS 25 / PE 25 / Total 50 / Credit 1; KME 752 PS 50 / Total 50 / Credit 1; KME 753 PS 150 / Total 150 / Credit 4; KME 851 PS 100 / PE 300 / Total 400 / Credit 9; CT/TA/sessional-Total/TE printed blank in all four rows. Theory elective slot rows print 3 0 0 | CT 30 TA 20 Total 50 | TE 100 | Total 150 | Credit 3.",
+  "p.5 prints three stacked specialization lines above KME 071 ('Specialization – Manufacturing and Automation' / 'Automation and Industry 4.0' / 'Design and Analysis') — matches 'Additive manufacturing (Common to all Three Specializations)' in the p.3 elective table; other DE-IV/V pages print a single 'Specialization – <name>' line.",
+  "p.4 KME 751 lab: text layer emits the 'Subject Code: KME 751 / Measurement & Metrology Lab / L T P : 0 0 2 / Credits: 1' header block after the CO table and experiments list (extraction-order artifact); the visible print has the header block at the top of the page.",
+  "Printed subject-name casing kept verbatim: 'Additive manufacturing' (KME 071), 'HVAC systems' (KME 072), 'Computer Graphics and product modeling' (KME 075 in elective table; detail page prints 'Computer Graphics and Product Modeling'), 'Vehicle Body Engineering & safety' (KAU 073).",
+  "4th-year print → program_year 4 for every subject; detailed subjects all print 'Semester – VII' (semester 7); Sem VIII rows (KME 851 etc.) have no detail pages in this document.",
+  "Departmental-Elective slots are printed as pools in the p.3 Department Electives table and recorded as elective_pool non_subject_rows per printed form; no elective-pool row was written into the CSV."
+ ],
+ "flags": []
+}

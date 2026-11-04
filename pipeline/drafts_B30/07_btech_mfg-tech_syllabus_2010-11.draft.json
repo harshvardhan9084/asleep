@@ -1,0 +1,1945 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2010-11/btech_mfg-tech_syllabus_2010-11.pdf",
+ "session": "2010-11",
+ "course": "BTech",
+ "sha16": "5f4df8f382ad0b54",
+ "stem": "07_btech_mfg-tech_syllabus_2010-11",
+ "subjects": [
+  {
+   "name": "Design of Machine Elements",
+   "name_print": "DESIGN OF MACHINE ELEMENTS",
+   "codes": [
+    "EMT-501",
+    "EMT 501"
+   ],
+   "program_year": 3,
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "FUNDAMENTALS OF DESIGN: \n\nDesign Process – Computer aided design – Optimum design – Mechanical properties of materials \n– BIS system of designations of steel, plastics &rubbers. Types of loads – Stresses –Static, \nvarying, thermal, impact and residue – Factor of safety – \nDesign against static load, modes of failure theories, Stress concentration factors –Preferred \nnumbers.  \nDesign against fluctuating load, Stress concentration, Stress concentration factors, fluctuating \nstress, fatigue failure, Endurance limit, design for finite & infinite life, soberer & Goodman criteria.",
+    "2": "DESIGN OF GEARS \nDesign of gears – Spur, Helical, Bevel and Worm gears – Design of multistage speed reducers.",
+    "3": "DESIGN OF BASIC MACHINE ELEMENTS AND JOINTS \nDesign of shafts, keys, couplings, journal bearings – Selection of rolling element bearings – \nDesign of pin, riveted and welded joints – Screw fasteners – Power screws",
+    "4": "DESIGN OF ENGINE PARTS \nDesign of piston  - Connecting rod  - Crankshafts  - Flywheels",
+    "5": "DESIGN OF SPRINGS \nDesign of Helical springs –Compression and tension  – Leaf springs"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "V.B.Bhandari, “Design of Machine Elements”, Tata McGraw-Hill Publishing Company Ltd, 1998."
+    },
+    {
+     "no": 2,
+     "book": "R.S.Khurmi & J.K.Gupta, “A Text book of Machine Design” – S.Chand & Company (Ltd), New Delhi, 2004."
+    },
+    {
+     "no": 3,
+     "book": "Bernard J.Harmrock, B O Jacobson, “Fundamentals of Machine Elements”, McGraw-Hill, 1999"
+    },
+    {
+     "no": 4,
+     "book": "Sharma C.S., Kamlesh Purohit, “Design of Machine Elements”, PHI 2003"
+    },
+    {
+     "no": 5,
+     "book": "T.J.Prabhu, “Design of Transmission Elements”, Mani Offset Printers, Chennai 2004."
+    },
+    {
+     "no": 6,
+     "book": "Design of machines Eliments-Dr.Sharma &agarwal-Kataria"
+    },
+    {
+     "no": 7,
+     "book": "Machine design-Dr.R.karwa"
+    },
+    {
+     "no": 8,
+     "book": "Machine design-Dr. Shadu Singh"
+    },
+    {
+     "no": 9,
+     "book": "Machine design-shigley, TMH"
+    },
+    {
+     "no": 10,
+     "book": "Design of machines Elements-M.F.Sports"
+    },
+    {
+     "no": 11,
+     "book": "Machine design-Malvee&hortman"
+    }
+   ],
+   "quirks": [
+    "p.6 printed-typos kept verbatim: 'plastics &rubbers', 'Stresses –Static', 'soberer & Goodman criteria', ref 6 'Design of machines Eliments-Dr.Sharma &agarwal-Kataria', ref 11 'Malvee&hortman'",
+    "p.2 scheme row prints name 'Design of Machine Elements'; p.6 subject page prints code 'EMT 501' (unhyphenated)",
+    "patch-b30: the per-unit lecture-hour digits (U1: 7, U2: 8, U3: 10, U4: 8, U5: 8) print as a separate right-margin column value between each unit heading and its body on p.6 (page-image attested; visible print authoritative, RULES §6); they were transcribed into the unit texts and broke short-needle containment after haystack-side digit-line furniture stripping — moved to this quirk, unit texts kept verbatim-only (B28 doc-04 marker-hygiene class)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Work Study & Ergonomics",
+   "name_print": "WORK STUDY & ERGONOMICS",
+   "codes": [
+    "EMT-502"
+   ],
+   "program_year": 3,
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction \nIntroduction to industrial Engineering, productivity, measurement of productivity                             6",
+    "2": "Introduction to work-study. The basic procedure of work-study. Work study for establishing the \nstandard time for a given activity. Method study, procedure for Method study, Principles of motion \neconomy, Filming techniques and micro motion analysis, recording technique. Construction of \nprocess chart, Gantt chart, SIMO chart, string chart, Travel chart, Multiple activity chart, Sampling \nprocess, Critical examination analysis. Primary, secondary and tertiary stages. Search for \nalternatives. Steps involved in evaluation of    alternatives                                                              8",
+    "3": "Introduction to work measurement, objectives of work measurement, Techniques of work \nmeasurement. Basic procedure in time study. Advantages and limitations of time study. Time \nrecording techniques in time study. Performance rating standard allowances, personal allowance, \nfatigue allowance, production delay allowance. Factors affecting the rating. Synthetic rating  \n method.                                                                                                                                     8",
+    "4": "Work sampling, process of work sampling, predetermined motion time systems, standard data \nsystem, job evaluation and merit rating. work factor method. method time measurement system, \nbasic, motion time study system   Wages and incentive plans. relationship between wages \nproductivity and cost. Case studies                                                                                            8",
+    "5": " Introduction to Ergonomics-Concept and scope of Ergonomics.  Contribution of Ergonomics in \nSystem design and Management, Anthropometric principles in work space and Equipment design  \nwork space design for standing and seated workers. Assessment of human capabilities and \nlimitations. Human physiological work capacity. Control And Displays psycho Physiological aspects \nof design.                                                                                                                                   10"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A ILO International labor organization Introduction to work study TATA McGraw Hill"
+    },
+    {
+     "no": 2,
+     "book": "B M.E.Mundel Motion and Time study"
+    },
+    {
+     "no": 3,
+     "book": "C R.M.Barynes Motion and Time study"
+    },
+    {
+     "no": 4,
+     "book": "D E.S.Buffa Modern production management TATA McGraw Hill"
+    },
+    {
+     "no": 5,
+     "book": "E Dr.A.K.Singh Time and motion study Jaico publishing houses"
+    },
+    {
+     "no": 6,
+     "book": "F Dalela Work study & Ergonomics TMH"
+    },
+    {
+     "no": 7,
+     "book": "G Mc.Wick Human factors in Engineering"
+    }
+   ],
+   "quirks": [
+    "LTP CONFLICT: p.2 scheme row prints L-T-P 2-1-0 (credit 3) but p.7 subject page prints 'L T P :  3 1 0' — scheme values recorded; detail-page print preserved here as print evidence",
+    "p.7 reference table prints letter labels A-G per row; heading 'REFERENCE:'",
+    "p.2 scheme row name printed 'Work study &Ergonomics' (missing space, verbatim)"
+   ],
+   "flags": [
+    "needs_review: EMT-502 L-T-P conflict p.2 (2-1-0) vs p.7 (3-1-0); scheme row recorded, visible prints conflict"
+   ]
+  },
+  {
+   "name": "Plant Layout and Design",
+   "name_print": "Plant Layout and Design",
+   "codes": [
+    "EMT-503",
+    "EMT503"
+   ],
+   "program_year": 3,
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "1. Introduction : Meaning of plant layout, design-importance and scope. Planning for plant design.    \n\n03hrs\n\n2. Plant Location : Levels of location problems, factors influencing location of a plant, theories of plant location.\n\n03Hrs",
+    "2": "3. Industrial Buildings : Relationship between building and the layout, building design and construction, ground and exterior facility. Building fundamentals.\n04 Hrs\n\n4. Plant Layout and Planning : Purpose and classes of plant layout problems. Classical types of layout, objectives of a good layout, data collection, material and processes, equipment requirement product flow, determining and diagramming the flow, space requirements, building data.  \n\n06 Hrs",
+    "3": "5. Developing and Presenting Layout : Plot plans, detailed layouts, and visualizing layout. Evaluation of layout, cost comparison, pilot plant, productivity, space sequence demand, factor analysis, ranking pros. And cons. Optimising evaluation and line balancing. Checking, presenting and installing layout.\n\n8 Hrs",
+    "4": "6. Materials Handling : Principles,  Classification of Material handling systems,product flow, and material handling equipments. Characteristics of different types of handling - conveyor’s , cranes, trolleys and forklifts.\n\n06 Hrs",
+    "5": "7Employee Facilities : Services, working conditions, influence of organisation and incentives.     \n\n06 Hrs\n\n8. Plant Services and Industrial Layout : Electrical, water, sewage, compressed air and gases, steam and heating, and communication facilities. Hazards and prevention - prevention against noise, air and water pollution. Environment management plan. 06 Hrs"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "James Moore, “Plant Layout and Design”, Macmillan Co."
+    },
+    {
+     "no": 2,
+     "book": "Apple, “Plant Layout and Materials Handling”"
+    },
+    {
+     "no": 3,
+     "book": "Richard Muther “Practical Plant Layout”, McGraw Hill"
+    },
+    {
+     "no": 4,
+     "book": "Richard Muther “Plant Engineering Handbook” McGraw Hill"
+    },
+    {
+     "no": 5,
+     "book": "Shubin and Madeheim, “Plant Layout” Prentice"
+    }
+   ],
+   "quirks": [
+    "p.8 code printed 'EMT503' (unhyphenated) on subject page; p.2 scheme row prints 'EMT-503' with name 'Plant Layout & design'",
+    "p.8 printed-typos kept verbatim: 'UNIT_II' (underscore for dash), '7Employee Facilities' (missing space), 'systems,product flow', 'conveyor’s'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Design of Machine Elements Lab",
+   "name_print": "Design of Machine Elements Lab",
+   "codes": [
+    "EMT-551",
+    "EMT551"
+   ],
+   "program_year": 3,
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design of coupling –Rigid & flexible type"
+    },
+    {
+     "no": 2,
+     "exp": "Design of riveted joints (under axial & eccentric loading)"
+    },
+    {
+     "no": 3,
+     "exp": "Design of Welded joints (under axial & eccentric loading)"
+    },
+    {
+     "no": 4,
+     "exp": "Design of cotter & knuckle joint"
+    },
+    {
+     "no": 5,
+     "exp": "Design & Analysis of leaf & Helical springs under various loading"
+    },
+    {
+     "no": 6,
+     "exp": "Design of Piston"
+    },
+    {
+     "no": 7,
+     "exp": "Design of Connected rod/crankshaft,"
+    },
+    {
+     "no": 8,
+     "exp": "Design of Spur gear under various loading"
+    },
+    {
+     "no": 9,
+     "exp": "Design  of Helical & bevel gear under various loading"
+    },
+    {
+     "no": 10,
+     "exp": "Design of Screw Jack under various loading"
+    },
+    {
+     "no": 11,
+     "exp": "Best practices in computer aided design of some of the above mentioned design using 3D Software."
+    }
+   ],
+   "quirks": [
+    "p.9 code printed 'EMT551' (unhyphenated); p.2 scheme row prints 'EMT-551'",
+    "p.9 printed-typos kept verbatim: '5.Design' (missing space), 'Design of Connected rod/crankshaft,' (trailing comma)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Work Study & Ergonomics Lab",
+   "name_print": "Work Study  & Ergonomics lab",
+   "codes": [
+    "EMT-552",
+    "EMT 552"
+   ],
+   "program_year": 3,
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Method Study on Peg Board Assembly"
+    },
+    {
+     "no": 2,
+     "exp": "Method Study on Bolt, Washer and Nut Assembly"
+    },
+    {
+     "no": 3,
+     "exp": "Flow Process Chart [Man Type/Material Type]"
+    },
+    {
+     "no": 4,
+     "exp": "Man-Machine Chart"
+    },
+    {
+     "no": 5,
+     "exp": "Performance rating on walking using walking simulator"
+    },
+    {
+     "no": 6,
+     "exp": "Performance rating on dealing cards"
+    },
+    {
+     "no": 7,
+     "exp": "Estimation of standard time for peg board assembly"
+    },
+    {
+     "no": 8,
+     "exp": "Work measurement experiment using MTM Tables"
+    },
+    {
+     "no": 9,
+     "exp": "Time study on 5 amp plug assembly"
+    },
+    {
+     "no": 10,
+     "exp": "Plant layout"
+    }
+   ],
+   "quirks": [
+    "p.9 subject page prints 'EMT 552' with heading 'Work Study  & Ergonomics lab' and 'L T P  0  0   2'; p.2 scheme row prints 'EMT-552 Work study & Ergonomics lab'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Pneumatics & Hydraulics",
+   "name_print": "Pneumatics &Hydraulics",
+   "codes": [
+    "EMT-601"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "(Introduction to Fluid Power And Drives)                                        8 \nFluid Power Systems – Application of fluid power – Properties of hydraulics fluids –  \n\nHydraulics pumps – Characteristics – Pump Selection -, Hydraulics Actuators – \nLinear, Rotary – Selection – Characteristics – Cylinder Mountings, cushioning, pipe fittings.",
+    "2": "(Fluid Power Elements)                                                                    8 \nPressure control valves, flow control valves, directional control valves – working \nprinciple and construction, special type valves, servo valves, Cartridge valves  \nActuation methods, Shock absorbers – Accumulator – Symbol for fluid power \nelements.",
+    "3": "(Hydraulics Circuits)                   8       \nHydraulics circuits – automatic reciprocating circuit – speed control circuit - Meter in \n- Meter out – Sequencing Circuits – Synchronizing circuits  \nAccumulator circuit – Safety circuits – Hydraulic Motor braking System. Design of \nHydraulic circuits.",
+    "4": "(Pneumatic Systems)                                                                       8 \nPneumatic fundamentals Filter, regulator, lubricator, air motors, air cylinders, \npneumatic valves, Basic Pneumatic circuits – Hydro Pneumatic Systems – air- oil \ncylinder, air – oil reservoir, air – oil intensifier and simple circuits.",
+    "5": "(Fluid Logic Control)                                                8 \nPrinciple of fluid Logic control, Basic fluidic devices - Fluid sensors \nFluidic circuits – sequencing control, continuous reciprocation, \nElectrical controls – electrical components – simple electro hydraulic/ pneumatic \ncircuits. PLC application in fluid power control."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A Fluid Power with applications Antony Esposito"
+    },
+    {
+     "no": 2,
+     "book": "B. Pneumatic Systems – Principles and Maintenance Mazumdar S. R"
+    },
+    {
+     "no": 3,
+     "book": "C. Oil Hydraulics Systems – Principles and Maintenance Mazumdar S. R"
+    },
+    {
+     "no": 4,
+     "book": "D. Industrial Hydraulics John Pipenger & Tyler Hicks"
+    },
+    {
+     "no": 5,
+     "book": "E. Fluid Power Chandashekhara P. K."
+    },
+    {
+     "no": 6,
+     "book": "F. Automobile Engineering Vol. I Kripal Singh"
+    }
+   ],
+   "quirks": [
+    "p.10 subject heading printed 'EMT-601 : Pneumatics &Hydraulics' (missing space before Hydraulics, verbatim); p.3 scheme row prints 'Pneumatics & Hydraulics'",
+    "p.10 print order interleaved: EMT-601 heading + References printed first, then EMT-602 heading + Unit-I, then EMT-601 'UNIT 1'..'UNIT V' units (two-column collapse) — units transcribed here to EMT-601",
+    "p.10 unit headings printed 'UNIT 1', 'UNIT 2', 'UNITIII' (no space, verbatim), 'UNIT IV', 'UNIT V'; reference rows letter-labelled A-F"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Production Planning & Control",
+   "name_print": "PRODUCTION PLANNING & CONTROL",
+   "codes": [
+    "EMT-602",
+    "EMT 602"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "9 \nIntroduction: Types and characteristics of production systems Objective and functions \nof Production, \nPlanning & Control, \n Preplanning: Forecasting & Market \nAnalysis. Factory Location & Layout, \nEquipment policy and  replacement. Preplanning production, capacity planning.",
+    "2": "8 \nProduction Planning: Material Resource Planning, Selection of material methods, \nmachines & manpower. Routing, Scheduling and Dispatching. Types of charts and form \nused. Computer Aided Process Planning.",
+    "3": "7 \nProduction and Inventory Control: Progress control through records and charts. \nTypes of inventories, ABC analysis \nInventory Classification. Economic lot (batch) size. Trends in purchasing and store \nkeeping.",
+    "4": "8 \nPRODUCT STANDARDIZATION &VALUE ENGINEERING \nProduction standardization variety reduction. Use of Preferred numbers in \nstandardization. Introduction &scope of value engineering. Evaluation of part function, \ncost and worth. Application of value engg methodology, simple value engineering case \nstudies.",
+    "5": "8 \nPROJECT CONTROL \nReview of CPM&PERT, Concurrent engineering, Re-engineering, MRP and \nERP.Introduction to manufacturing resource planning (MRP-II), Enterprise resource \nplanning (ERP), case studies."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Elements of Production Planning & Control –Eilon"
+    },
+    {
+     "no": 2,
+     "book": "Production Planning & Control – Jain and Agarwal"
+    },
+    {
+     "no": 3,
+     "book": "Operations Management – Buffa."
+    },
+    {
+     "no": 4,
+     "book": "Production System – J.L. Riggs."
+    }
+   ],
+   "quirks": [
+    "p.10-11 Unit-I is split by print layout: 'Unit-I 9 Introduction...' begins on p.10 under the EMT-602 heading, then EMT-601's five units intervene, and the Unit-I continuation 'Equipment policy and replacement. Preplanning production, capacity planning.' opens p.11 — continuation merged here into Unit-1",
+    "p.11 books heading printed 'Books:' (unnumbered list of 4); recorded under textbooks",
+    "p.10-11 printed-typos kept verbatim: 'PRODUCT STANDARDIZATION &VALUE ENGINEERING', 'Introduction &scope', 'CPM&PERT', 'ERP.Introduction'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Pneumatics & Hydraulics Lab",
+   "name_print": "PNEUMATICS & HYDRAULICS LAB",
+   "codes": [
+    "EMT-651",
+    "EMT 651"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of the single acting & double acting hydraulic& pneumatic cylinders ."
+    },
+    {
+     "no": 2,
+     "exp": "Study of symbols used in single and double acting hydraulic & pneumatic cylinders."
+    },
+    {
+     "no": 3,
+     "exp": "Study of constructional detail and performance characteristics of linear pumps."
+    },
+    {
+     "no": 4,
+     "exp": "Study of constructional detail and performance characteristics of rotary pumps."
+    },
+    {
+     "no": 5,
+     "exp": "Determination of viscosity index of hydraulic fluids by using redwood viscometer."
+    },
+    {
+     "no": 6,
+     "exp": "Study and operation of solenoid valves and relay timers."
+    },
+    {
+     "no": 7,
+     "exp": "To operate a single acting cylinder using 3/2 push button valves on a electro pneumatic kit"
+    },
+    {
+     "no": 8,
+     "exp": "To operate a single acting cylinder using 3/2 push button valves on a electro pneumatic kit"
+    },
+    {
+     "no": 7,
+     "exp": "To operate a 5/2 pilot operated valve by using double acting cylinder on a electro pneumatic kit."
+    },
+    {
+     "no": 8,
+     "exp": "Design of Hydraulic/Pneumatic circuit of a single acting and double acting cylinders."
+    }
+   ],
+   "quirks": [
+    "p.11-12 experiment list prints duplicate numbering: 1-7 on p.11 (item 7 'To operate a single acting cylinder...'), then p.12 repeats the same text numbered 8, then new items numbered 7 and 8 — all ten entries transcribed in printed order with printed numbers",
+    "p.11 subject page prints 'LTP 003'; p.3 scheme row prints 0-0-3 with marks CT=- TA=50 Total=- ESE=- SubjectTotal=50 (only TA and total printed)",
+    "p.11 printed-typos kept verbatim: 'hydraulic& pneumatic', 'a electro pneumatic kit'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Assisted Manufacturing Lab",
+   "name_print": "COMPUTER ASSISTED MANUFACTURING  LAB",
+   "codes": [
+    "EMT-652",
+    "EMT 652"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study & use of software for\n\n      Inventory control .\n      Facility Design \n      Process planning \n      Production control."
+    },
+    {
+     "no": 2,
+     "exp": "Study of simulation software and applications in material flow."
+    },
+    {
+     "no": 3,
+     "exp": "Study of PDM software (SMART TEAM.PDM WEB)\n-Software Architecture\n-Check in/check out\n-Life Cycle\n-Work Flow\n-Material Data\n-Benefits"
+    },
+    {
+     "no": 4,
+     "exp": "Study of Digital manufacturing Software(DELMIA)\n-Concept and Aim\n-Assembly\n-robotics\n-Plant Design\n-Ergonomics\n-NC Manufacturing"
+    },
+    {
+     "no": 5,
+     "exp": "Creation & use  a actual manufacturing database."
+    }
+   ],
+   "notes_print": [
+    "Suggested list of Softwares. \nSIMPROCESS,GPSS,QUEST,SMARTEAM, DELIMIA, VMAP ,MS-PROJECT, PROCOL,WINMAN, SEER etc."
+   ],
+   "quirks": [
+    "p.12 subject page prints 'EMT 652' + 'LTP 002'; p.3 scheme row prints 'EMT-652 Computer Assisted Manufacturing  Lab'",
+    "p.12 printed-typos kept verbatim: 'SMART TEAM.PDM WEB', 'DELIMIA' (in software list; experiment 4 prints 'DELMIA'), 'VMAP ,MS-PROJECT', 'use  a actual'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Welding Technology Lab",
+   "name_print": "Welding Technology    lab",
+   "codes": [
+    "EMT-654"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Making of welded joints using conventional welding processes  - arc welding"
+    },
+    {
+     "no": 2,
+     "exp": "Making of welded joints using conventional welding processes  -gas welding."
+    },
+    {
+     "no": 3,
+     "exp": "Making of at least one joint using TIG welding techniques"
+    },
+    {
+     "no": 4,
+     "exp": "Making of at least one joint using  MIG welding techniques."
+    },
+    {
+     "no": 5,
+     "exp": "Testing of welded joints as per BIS"
+    },
+    {
+     "no": 6,
+     "exp": "Microstructure study of welded joints"
+    },
+    {
+     "no": 7,
+     "exp": "Inspection of welded joints by dye penetration ultrasonic method."
+    },
+    {
+     "no": 8,
+     "exp": "study of different techniques used for inspection of welds"
+    },
+    {
+     "no": 9,
+     "exp": "study of HAZ  of welded joint"
+    }
+   ],
+   "quirks": [
+    "p.13 subject page prints 'LT  P 0 0 2' (L and T columns run together in print); p.3 scheme row prints 'EMT-654 Welding Technology Lab' 0-0-2",
+    "p.12 bottom prints 'EMT-654' code; p.13 prints the lab title and experiments",
+    "p.13 items 8-9 printed lowercase ('study of...') verbatim"
+   ],
+   "flags": []
+  },
+  {
+   "name": "CNC Lab",
+   "name_print": "CNC Lab",
+   "codes": [
+    "EMT-752",
+    "EMT752"
+   ],
+   "program_year": 4,
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write and execution of manual programming using ISO codes for machining of simple machine parts."
+    },
+    {
+     "no": 2,
+     "exp": "Write and execution of part Programme using G codes & M codes for Turning & Taper turning."
+    },
+    {
+     "no": 3,
+     "exp": "Write and execution of part Programme using G codes & M codes for Thread cutting operation."
+    },
+    {
+     "no": 4,
+     "exp": "Part programming using canned cycle for various machining operations."
+    },
+    {
+     "no": 5,
+     "exp": "Writing a part programming (In word address & in APT) for a job for drilling operation (point to point) and running the on NC machine"
+    },
+    {
+     "no": 6,
+     "exp": "Writing a part programming (In word address & in APT) for a job for milling operation (contouring) and running the on NC machine."
+    },
+    {
+     "no": 7,
+     "exp": "Simulation of various machining operations using CAM packages."
+    },
+    {
+     "no": 8,
+     "exp": "Experiment on study of system device such has motors feed back devices."
+    },
+    {
+     "no": 9,
+     "exp": "Experiment on Study of various sensors used in factory."
+    },
+    {
+     "no": 10,
+     "exp": "Study & Experiment on measuring capabilities of CMM."
+    }
+   ],
+   "quirks": [
+    "LTP CONFLICT: p.4 scheme row prints 0-0-2 (credit 1) but p.13 subject page prints 'L T P 0 0 3' — scheme values recorded; both prints preserved",
+    "p.13 code printed 'EMT752' (unhyphenated); p.4 scheme row prints 'EMT-752 CNC Lab'",
+    "p.13 printed-typos kept verbatim: 'Write and execution', 'running the on NC machine', 'such has motors feed back devices'"
+   ],
+   "flags": [
+    "needs_review: EMT-752 L-T-P conflict p.4 (0-0-2) vs p.13 (0-0-3); scheme row recorded, visible prints conflict"
+   ]
+  },
+  {
+   "name": "Simulation and Modeling",
+   "name_print": "SIMULATION AND MODELING",
+   "codes": [
+    "EMT-011",
+    "EMT - 011"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - I (Semester-VI, p.3)",
+   "units": {
+    "1": "PHYSICAL MODELING                                                                               8 \n \nConcept of system and environment, continuous and discrete system, linear and \nnonlinear system, stochastic activities, static and dynamic models, principles used in \nmodeling, Basic simulation modeling, Role of simulation in model evaluation and studies, \nAdvantages and Disadvantages of simulation. Modeling of systems, Iconic, analog & \nMathematical Modeling.",
+    "2": "8 \nCOMPUTER BASED SYSTM SIMULATION \n\nTechnique of simulation, Monte Carlo method, experimental nature of simulation, \nnumerical computation techniques, calumnious system models, analog and hybrid \nsimulation, feedback systems, Buildings simulation models of waiting line system, Job \nshop material handling and flexible manufacturing system.",
+    "3": "8 \nPROBABILITY CONCEPTS IN SIMULATION \n\nStochastic variables, discrete and continuous probability functions, random \nnumbers, generation of random numbers, variance reduction techniques, Determination \nof the length of simulation runs, Output analysis.",
+    "4": "8 \nSYSTEM DYNAMICS MODELING \n\nIdentification of problem situation, preparation of causal loop diagrams and flow \ndiagrams, equation writing, level and rate relationship, Simulation of system dynamics \nmodel.",
+    "5": "8 \nVERIFICATION AND VALIDATION \n\nDesign of simulation experiments, validation of experimental models, testing and \nanalysis. Simulation languages comparison and selection, study of SIMULA, DYNAMO, \nSTELLA, POWERSIM. simulation software."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Gorden G., System simulation, Printice Hall."
+    },
+    {
+     "no": 2,
+     "book": "Payer T., Introduction to system simulation, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "spuet, Computer Aided Modeling and Simulation, W.I.A."
+    },
+    {
+     "no": 4,
+     "book": "Sushil, System Dynamics, Wiley Eastern Ltd."
+    },
+    {
+     "no": 5,
+     "book": "Shannon R.E., System simulation, Prentice Hall."
+    },
+    {
+     "no": 6,
+     "book": "Allan Carrie, \"Simulation and Modeling\" McGraw Hill."
+    }
+   ],
+   "quirks": [
+    "Title block 'EMT - 011 / SIMULATION AND MODELING' printed at foot of p.13; all five units + Suggested Reading printed on p.14 between the EMT-012 title block ('Advanced Casting Processes L T P 3 1 0', head of p.14) and the 'EMT-012' code (foot of p.14) — interleaved two-column print",
+    "No separately printed L-T-P for EMT-011: the 'L T P 3 1 0' on p.14 belongs to the EMT-012 title block; L-T-P 3-1-0 and credit 4 recorded from p.3 'Departmental Elective-I' scheme row",
+    "p.3 elective list prints name 'Simulation & Modeling'; p.13 prints 'SIMULATION AND MODELING'",
+    "p.14 printed-typos kept verbatim: 'SYSTM SIMULATION', 'calumnious system models', 'Buildings simulation models', 'Gorden G.', 'Printice Hall', 'Payer T.', 'spuet'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Casting Processes",
+   "name_print": "Advanced Casting Processes",
+   "codes": [
+    "EMT-012"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - I (Semester-VI, p.3)",
+   "units": {
+    "1": "1. Production of Moulds and Cores : Mould production - equipment for moulding, moulding technique - pattern utilisation, hand and machine compaction, machine moulding, mould drying and hardening. Cores and core making - core boxes, compaction, core hardening, closing of moulds.\n\n06 Hrs",
+    "2": "2. Melting and Pouring :  \nMelting Practice : Classification of melting furnaces, brief description of construction and operation of various furnaces - cupola and its design, electric arc furnaces, electric induction furnaces. Melting charge, melting conditions, melting losses, special melt treatment, melt quality control and recent development in metal melting.  \nPouring : Metal temperature, pouring equipment and techniques.  \n8 Hrs",
+    "3": "3. Details Study of Following Casting Techniques : \nShell moulding - Basic operation, production systems, characteristics of shell moulded casting and D-process.\n\nInvestment Casting - expandable pattern process. Pattern production, investment, pattern removal and firing, casting. Factor influencing casting quality characteristics of precision investment casting. Investment casting from permanent casting.\n\n Die-casting - Gravity die-casting, pressure-die casting, die-casting machines, casting techniques, characteristics of die - castings.\n\n Centrifugal casting - Fundamental principles, methods production techniques, characteristics of centrifugal casting.\n\n8 hrs",
+    "4": "4. Solidification of Castings : Crystallization and development of cast structure - Nucleation, Growth and dendrite growth, independent nucleation, eutectic freezing, paratactic relations, structure of castings - significance and practical control cast structure, grain shape and orientation, grain size, refinement and modification of cast structure. Concept of progressive and directional solidification, solidification time and derivation of Chvorinov’s equation influence of mould characteristics and cast metal. Properties on solidification, process numerical methods for heat flow analysis.\n10 Hrs",
+    "5": "5. Feeding of Castings : Feeding characteristics of alloys, geometric influences on solidification. Methods of the feeding of castings - cost and concept of yield, orientations, gating technique, casting temperature and pouring speed, design and location of feeder heads. Aids to feeder head efficiency, junction of feeder head and casting, use of padding, chills and insulators.\n\n10 Hrs"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Beeley P.R., “Foundry Technology” (Buttersworth)"
+    },
+    {
+     "no": 2,
+     "book": "Heine and Rosenthal, “Principles of Metal Cutting” (TMH)"
+    },
+    {
+     "no": 3,
+     "book": "“Metal Casting” ASME Handbook"
+    },
+    {
+     "no": 4,
+     "book": "P.C.Mukherji, “Metal Casting Technology”"
+    }
+   ],
+   "quirks": [
+    "p.14 title block 'Advanced Casting Processes / L T P / 3 1 0' printed at head of page (above EMT-011's units); 'EMT-012' code printed at foot of p.14; units printed on p.15 — interleaved print",
+    "p.3 elective list prints name 'Advanced Casting Process' (singular); subject page title prints 'Advanced Casting Processes'",
+    "p.15 UNIT-III: orphan list markers 'i) ii) iii) iv) 1. 2. 3. 4.' printed in left margin (multi-column artifact); 'UNIT-III 8 hrs' hour marker printed at top of unit",
+    "p.15 REFERENCE list unnumbered (4 items)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Principles of Machine Tool Design",
+   "name_print": "PRINCIPLES OF MACHINE TOOL DESIGN",
+   "codes": [
+    "EPI-601"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - I (Semester-VI, p.3)",
+   "units": {
+    "1": "Introduction: Developments is machine tools, types of machine tools surface, profits and paths produced by machine tools. Features of construction and operations of basic machine tools e.g. lathe, drill, milling shapes and planers, grinding machine etc. General requirement of machine tool design. Machine tool design process. Tool wear, force Analysis.  \n[printed hours: 9]",
+    "2": "Machine Tools Drives: Classification of machine tool drives, group Vs individual drives, Selection of electric motor, A brief review of the elements of mechanical transmission  e.g. gear, belt and chain drives, slider-crank mechanism, cam mechanism, nut &  Screw transmission, Devices for intermittent motion, reversing & differential mechanisms. Couplings and clutches Elements of hydraulic transmission system. e.g. pumps, cylinder, directional control valves, pressure valves etc. Fundamentals of Kinematics structure of machine tools. \n[printed hours: 8]",
+    "3": "Regulation of Speed and Feed rates:  Laws of stepped regulation, selection of range ratio, standard progression ratio, selection of best possible structural diagram, speed chart, Design of feed box, Developing gearing diagrams. Stepless regulation of speed and feed in machine tool, speed and feed control.    \n[printed hours: 7]",
+    "4": "Design of Machine Tool Structure: Requirements and design criteria for machine tool structures, selection of material Basic design procedure for machine tool structures, design of bed, column and housing, Model technique in design.   \n[printed hours: 3]\nDesign of guideways and power screws: Basic guideway profiles, Designing guideway for stiffness a wear resistance & hydrostatic and antifriction guideways. Design of sliding friction power Screws. Design of spindlier & spindle supports.   \n[printed hours: 3]\nLayout of bearings, selection of bearings machine tools \n[printed hours: 2]",
+    "5": "Dynamics of machine tools: General procedure for assessing the dynamic stability of cutting process, closed loop system, chatter in machine tools. \n[printed hours: 5]\nControl Systems: Functions, requirements & types of machine tool controls, controls for speed & feed change. Automatic and manual Controls. Basics of numerical controls. Machine tool testing. \n[printed hours: 3]"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Machine Tools Design & Numerical Controls –N.K. Mehta, T.M.H. New Delhi."
+    },
+    {
+     "no": 2,
+     "book": "Design of Machine Tools – S.K. Basu Allied Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Principles of Machine Tools, Bhattacharya A and Sen.G.C. New Central Book Agency."
+    }
+   ],
+   "quirks": [
+    "p.15 bottom title block prints 'L T P / 3 1 0 / PRINCIPLES OF MACHINE TOOL DESIGN'; p.16 top prints 'EPI-601' then Unit-I — title/code split across pages",
+    "p.3 elective list prints 'EPI-601 Principles of Machines tool Design' (typo 'Machines tool', verbatim)",
+    "p.16 printed-typos kept verbatim: 'Developments is machine tools', 'profits and paths produced by machine tools', 'stiffness a wear resistance', 'Design of spindlier & spindle supports'",
+    "p.16 Unit-IV contains three topics with separate hour figures 3,3,2; Unit-V two topics with 5,3"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Tool Engineering",
+   "name_print": "Tool Engineering",
+   "codes": [
+    "EMT-021",
+    "EMT021"
+   ],
+   "program_year": 3,
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - II (Semester-VI, p.3)",
+   "units": {
+    "1": "General Considerations:  \nTool classification, Tool materials, properties & applications, Tooling economics General design considerations, Safety aspects.                                         6",
+    "2": "Design Of Metal Cutting Tools:  \nDesign of single point cutting tool for strength & rigidity.  Design for optimum geometry.  Design strategies for H. S. S, Carbide and Ceramics chip Breakers, Design of form tool.                                                                       \nMultipoint cutting tool: Design of drills, reamers, milling cutters, broach & gear cutting tools.                                                                                                     9",
+    "3": "Design Of Metal Working Tools:  \nDesign of press working tools, shearing, piercing, blanking, dies, compound die design, progressive dies, bending, forming drawing dies. Tooling for Forging-Design principles for forging dies, Drop forging, upset forging.  Design principles and practice for rolling, Roll pass Design.                                                      10",
+    "4": "Design Of Jigs And Fixtures: Principles of location and clamping, locating & clamping, materials for locating and clamping elements, Drilling bushes.    Design of various jigs & fixtures.                                                                              7",
+    "5": "Design Of Gauges And Inspection Features: Design of gauges for tolerance for dimensions and form inspection. \nDies And Mould Design For Plastics & Rubber Parts: Compression moulding, transfer moulding, blow moulding.                                                                 8"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Tool Design Wilson ASTME"
+    },
+    {
+     "no": 2,
+     "book": "Tooling for production parron"
+    },
+    {
+     "no": 3,
+     "book": "Tool Design Donaldson T.M.H."
+    },
+    {
+     "no": 4,
+     "book": "Die Design Handbook Paqwin J.R. The Industrial Press, NY"
+    },
+    {
+     "no": 5,
+     "book": "Die Design Hand Book by ASTME/ McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "Metal cutting & Cutting Tool Design Archinov MIR Publishers Moscow"
+    },
+    {
+     "no": 7,
+     "book": "Introduction to Jig and Tool Design M. H. A. Kempster FLBS"
+    }
+   ],
+   "quirks": [
+    "p.16 heading printed 'EMT021: Tool Engineering' (unhyphenated); p.3 elective list prints 'EMT-021 Tool Engineering'",
+    "No L-T-P printed on subject page; L-T-P 2-1-0, credit 3 and marks 15/10/25/50/75 recorded from p.3 'Departmental Elective-II' scheme row",
+    "p.17 'Suggested Books:' list numbers items 1-6; seventh item 'Introduction to Jig and Tool Design M. H. A. Kempster FLBS' printed unnumbered on the same line as item 6",
+    "p.17 printed-typos kept verbatim: 'Tooling for production parron', 'Die Design Hand Book', 'Paqwin J.R.'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Modern Manufacturing Methods",
+   "name_print": "Modern Manufacturing Methods",
+   "codes": [
+    "EMT-701",
+    "EMT – 701"
+   ],
+   "program_year": 4,
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "1. INTRODUCTION: History, Classification, comparison between conventional and non-conventional machining process selection.\n\n                       02 Hrs\n2.MECHANICAL PROCESS: Ultrasonic machining(USM): Introduction, Equipment, tool materials & tool Size, Abrasive slurry, Cutting tool system design:-Magnetostriction assembly, Tool cone(Concentrator), Exponential concentrator of circular cross section & rectangular cross section, Hallow cylindrical concentrator. Mechanics of cutting:-Theory of Miller & Shaw., Effect of parameter:-Effect of amplitude and frequency and vibration, Effect of grain diameter, Effect of applied static load, Effect of slurry, Tool & work material., USM process Characteristics:-Material removal rate, tool wear, Accuracy, surface finish., Applications, Advantages & Disadvantages of USM\n\n\n                                  05 Hrs",
+    "2": "3. ABRASIVE JET MACHINING(AJM): Introduction, Equipment, Variables in AJM:- Carrier Gas, Type of abrasive, Size of abrasive grain, velocity of the abrasive jet, Mean No. abrasive particles per unit volume of the carrier gas, Work meterial, stand off distance(SOD), nozzle design, Shape of cut. Process characteristics-Material removal rate,  Nozzle wear, Accuracy & surface finish. Applications, Advantages & Disadvantages of AJM\n\n\n04Hrs\n\n4. ELECTORCHEMICAL AND CHEMICAL METAL REMOVAL PROCESS:- Electrochemical machining(ECM): Introduction, Study of ECM machine, Elements of ECM process:-Cathode tool, Anode work piece, source of DC power, Electrolyte. Chemistry of the process, ECM process characteristics-Material removal rate, Accuracy, Surface finish., ECM Tooling:-ECM tooling technique & example, Tool & insulation materials, Tool size Electrolyte flow arrangement, Handling of slug., Economics of ECM, Applications such as Electrochemical turning, Electrochemical Grinding, Electrochemical Honing, deburring, Advantages, Limitations.     5 Hrs",
+    "3": "5. CHEMICAL MACHINING(CHM): Introduction, Elements of process, Chemical blanking Process:-Preparation of workpiece, preparation of masters, masking with photo resists, etching for blanking, Accuracy of chemical blanking, Applications of chemical blanking, chemical milling(Contour machining):- Process steps-masking, Etching, process characteristics of CHM:- material removal rate accuracy, surface finish, Hydrogen embrittlement, Advantages & application of CHM.        05 Hrs\n6. THERMAL METAL REMOVAL  PROCESSES: Electrical discharge machining(EDM)-introduction, machine, mechanism of metal removal, dielectric fluid, spark generator, EDM tools(electrodes) Electrode feed control, Electrode manufacture, Electrode wear, EDM tool design: Choice of machining operation, electrode material selection, under sizing and length of electrode, Machining time. Flushing-Pressure flushing, suction flushing, side flushing, pulsed flushing synchronized with electrode movement, EDM process characteristics: Metal removal rate, Accuracy surface finish, Heat affected Zone. Machine tool selection, Application: EDM accessories /applications, electrical discharge grinding, Travelling wire EDM.\n\n\n\n6 Hrs",
+    "4": "10. PLASMA ARC MACHINING(PAM): Introduction, equipment non-thermal generation of plasma, selection of gas, Mechanism of Metal removal, PAM parameters, Process characteristics. Safety precautions, Applications, Advantages and limitations.  05 hrs",
+    "5": "11. Derived and Hybrid Modern manufacturing Methods:Introductionof process like rotary ultrasonic machining , electro stream drilling, shape tube eletro machining, wire electro discharge machining, electro chemical grinding, electro chemical honing, electro chemical deburring and electro chemical spark machining.\n  \n8"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Production Technology, by HMT  TATA McGraw Hill."
+    },
+    {
+     "no": 2,
+     "book": "Modern machining process by  PANDEY AND SHAH, TATA McGraw Hill"
+    },
+    {
+     "no": 3,
+     "book": "New technology by BHATTACHARAYA"
+    },
+    {
+     "no": 4,
+     "book": "Modern Machining Process by ADITYA."
+    }
+   ],
+   "quirks": [
+    "p.17 heading printed 'EMT – 701 : Modern Manufacturing Methods' (spaced en-dash, verbatim); p.4 scheme row prints 'EMT-701  Modern Manufacturing methods'",
+    "p.17-19 unit topic numbering jumps 6 → 10 → 11 (topics 7-9 not printed)",
+    "p.18 printed-typos kept verbatim: 'ELECTORCHEMICAL', 'Work meterial', 'Hallow cylindrical concentrator', 'eletro machining', 'Introductionof'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Production of Gears and Screws",
+   "name_print": "PRODUCTION OF GEARS AND SCREWS",
+   "codes": [
+    "EMT-031",
+    "EMT 031"
+   ],
+   "program_year": 4,
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - III (Semester-VII, p.4)",
+   "units": {
+    "1": "INTRODUCTION TO GEARS \n\nTypes of gears, classification, gear drawings, gearboxes, application of gears, gear production methods, an overview. \nGEAR MATERIALS  \nNon-metallic, ferrous and non-ferrous gears. Properties of gear materials, selection of material for typical gears and applications – blank preparation methods for different gears, size, type and material.\n\n\n\n7",
+    "2": "PRODUCTION OF GEARS & SCREW THREADS \n\nGear milling different gears, cut quality obtainable. Gear hobbing, description and operation of machine, types of gears cut, hobbing cutters, work holding methods gear shaping, disc type and rack type gear shapers, Production of straight bevel gears and spiral gears, milling, generation by straight bevel gear generator. Duplex cutter, straight bevel gear generator, Spiral bevel gear generator. \nPRODUCTION OF SCREW THREADS:  Screw thread terminology, Types of screw thread, Methods of producing screw threads, Effect of pitch errors, measurement of various elements of screw threads. Thread rolling, Thread Grinding, Mass Production of Screws.\n\n\n\n12",
+    "3": "HEAT TREATMENT OF GEARS \n\nThrough hardening, case hardening, flames hardening, induction hardening of gears, Nitriding of gears. Tuft riding of gears. Inspection of gears for hardening defects \n\nGEAR FINISHING \n\nGear finishing advantages, finishing of gears by grinding, shaving, lapping, honing methods and cold rolling of gears. Description of machines, process and process parameters\n\n7",
+    "4": "GEAR INSPECTION \n\nTypes of gear errors, gear quality standards tooth thickness and base tangent length measurement, pitch errors, radial run out errors, profile errors, pitch error measurement. Composite error measurement. Computerized gear inspection centers. Reasons and remedies for gear errors\n\n\n6",
+    "5": "MODERN GEAR PRODUCTION METHODS \n\nGear production by stamping, die casting, power metal process, injection and compression Moulding in plastics. Die casting, cold and hot rolling, mass production methods shear speed shaping. Gear broaching – Gleason. G-Trac Gear generation method  \n8"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "HMT, “Production Technology “TMH, INDIA 1992"
+    },
+    {
+     "no": 2,
+     "book": "Week, M “Handbook Tools” Vol 1, Jhon Wiley and Sons 1984"
+    },
+    {
+     "no": 3,
+     "book": "Society of Manufacturing engineers, Gear Priocessing and Manufacturing”, 2nd Edition 1984"
+    }
+   ],
+   "quirks": [
+    "p.19 title block prints 'PRODUCTION OF GEARS AND SCREWS / L / T / P / EMT 031 / 3 / 1 / 0' — code printed inside L-T-P block; p.4 elective list prints 'EMT-031 Production of gears & Screws'",
+    "p.19-20 unit hour figures (7,12,7,6,8) printed detached after each unit body",
+    "p.19-20 printed-typos kept verbatim: 'Tuft riding of gears', 'power metal process', 'Gear Priocessing', 'Jhon Wiley and Sons', 'Handbook Tools'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Metrology and Measurement",
+   "name_print": "ADVANCED METROLOGY AND MEASUREMENT",
+   "codes": [
+    "EMT-032"
+   ],
+   "program_year": 4,
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - III (Semester-VII, p.4)",
+   "units": {
+    "1": "Computer Aided Metrology – Principles and interfacing, software metrology.  \n• \nLaser metrology – Applications of Lasers in precision measurements – Laser \ninterferometer, speckle measurements, Laser scanners. Introduction to Nano-\nmetrology.",
+    "2": "• \nCoordinate Measuring Machine – Types of CMM – Probes used – Applications – \nNon-contact CMM using Electro optical sensors for dimensional metrology – \nNon-contact sensors for surface finish measurements.",
+    "3": "Basic functional elements and classification of instruments. Basic concepts like \nsensitivity, threshold, resolution, precision and accuracy, linearity, zero drift, \nsensitivity drift, etc. Relation between concepts.",
+    "4": "Definition for source of error and methods of minimizing for eliminating the effects of \nerror sources like friction, play, temperature, loading error, etc. Error and least count \nthrough four-quadrant diagram. \nUncertainty of measurements, static calibration, Error in computed value and \nrounding -off procedure.",
+    "5": "Dynamic characteristics of zero- order, first-order, and second-order instruments \nfor step, ramp, sinusoidal and impulse inputs. Signal conditioners like bridge \ncircuit, amplifiers, and low pass filter and radio telemetry, Analysis of random \nsignals. Measurement of quantities like displacement, velocity, acceleration, \nforce, torque, temperature, pressure, vacuum, sound, flow, and level."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Parsons. S. A. J, Metrology and Gauging, MacDonald and Evans, UK, 1970"
+    },
+    {
+     "no": 2,
+     "book": "Hume K. J., Engineering Metrology, Kalyani Publishers, India, 1970."
+    },
+    {
+     "no": 3,
+     "book": "Rembold et al. U, Computer Integrated Manufacturing Technology and Systems, Marcel Dekker Inc., USA, 1985."
+    },
+    {
+     "no": 4,
+     "book": "Robinson S. L. and R. K. Miller, Automated Inspection and Quality Assurance, Marcel Dekker, 1989."
+    },
+    {
+     "no": 5,
+     "book": "Galyer J. and C. Shotbolt, Metrology for Engineers, Cassel, London, 1980"
+    },
+    {
+     "no": 6,
+     "book": "Doebelin E. O., “Measurement Systems-Application and Design”, McGraw Hill, 1990"
+    },
+    {
+     "no": 7,
+     "book": "Raman R., “Principles of Mechanical Measurements” Oxford & IBH, 1992."
+    },
+    {
+     "no": 8,
+     "book": "Holman J. P., “Experimental Methods for Engineers”, McGraw Hill, 1966."
+    },
+    {
+     "no": 9,
+     "book": "Beckwith, T. G., and Buck N. L., “Mechanical Measurements”, Addison Wesley, 1965."
+    }
+   ],
+   "quirks": [
+    "p.20 heading block prints 'EMT-032 : ADVANCED METROLOGY AND MEASUREMENT / L T P / 3 1 0' then section label 'METROLOGY'; a second section label 'MEASUREMENT' prints before UNIT-III (p.20-21)",
+    "p.20-21 unit hour markers '(6)' '(8)' '(6)' '(10)' '(10)' '(10)' printed at inconsistent positions (before/after unit bodies); UNIT-III carries no hour marker — per-unit hour attribution ambiguous; the parenthesised hour markers are NOT unit prose — recorded here, unit texts kept verbatim-only (p.20-21 page-image attested; B28 doc-04 marker-hygiene class) texts",
+    "p.20 heading of UNIT-IV printed after a blank run; bullet markers '•' printed on some unit body lines",
+    "p.20-21 book list heading printed 'Text Books / References:' (mixed label) — 9 items recorded under reference_books",
+    "p.4 elective list prints 'EMT-032 Advanced Metrology &Measurement' (missing space, verbatim)",
+    "patch-b30: bracketed draft-side annotation tails that had leaked into the unit texts (hour-marker notes) were stripped to keep unit text verbatim-only; the evidence remains in the quirks above; hour markers (6)/(8)/(6)/(10)/(10)/(10) print as right-margin column values at inconsistent positions per the p.20-21 page images (visible print authoritative, RULES §6).",
+    "patch-b30: bracketed draft-side annotation tails that had leaked into the unit texts (hour-marker notes) were stripped to keep unit text verbatim-only; the evidence remains in the quirks above; hour markers (6)/(8)/(6)/(10)/(10)/(10) print as right-margin column values at inconsistent positions per the p.20-21 page images (visible print authoritative, RULES §6)."
+   ],
+   "flags": [
+    "unit_table_interleave_print"
+   ]
+  },
+  {
+   "name": "Artificial Intelligence in Manufacturing",
+   "name_print": "ARTIFICIAL INTELLIGENCE IN MANUFACTURING",
+   "codes": [
+    "EMT-041"
+   ],
+   "program_year": 4,
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - IV (Semester-VII, p.4)",
+   "units": {
+    "1": "Artificial Intelligence - Definition - Components - Scope - Application Areas; Knowledge - Based Systems (Expert Systems) - Definition - Justification - Structure - Characterization.",
+    "2": "Knowledge Sources - Expert - Knowledge Acquisition - Knowledge Representation - Knowledge Base - Interference Strategies - Forward and Backward Chaining.",
+    "3": "Expert System Languages - ES Building Tools or Shells; Typical examples of Shells. Expert System software for manufacturing application in CAD, CAPP, MRP, Adaptive Control.",
+    "4": "Robotics, Process control, Fault diagnosis, Failure Analysis; Process Selection, GT etc. Linking expert systems to other software such as DBMS, MIS, MDB.",
+    "5": "Process control and office automation. Case studies of typical applications in tool selection, Process selection, part classification, inventory control, Process Planning etc."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Artificial Intelligent Hand book, Jhon & Andrew Kusiak."
+    },
+    {
+     "no": 2,
+     "book": "Artificial Intelligent, T. Barnold."
+    },
+    {
+     "no": 3,
+     "book": "Introduction to Artificial Manufacturing Export system, Dan. W. Patterson."
+    }
+   ],
+   "quirks": [
+    "p.21 no L-T-P, credits, or unit-hour figures printed on subject page; L-T-P 3-1-0, credit 4 and marks 30/20/50/100/150 recorded from p.4 'Departmental Elective-IV' scheme row",
+    "p.21 printed-typos kept verbatim: 'Artificial Intelligent Hand book', 'Jhon & Andrew Kusiak', 'T. Barnold', 'Introduction to Artificial Manufacturing Export system'",
+    "p.4 elective list prints 'EMT-041 Artificial Intelligence in Manufacturing'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Applied Electronics & Microprocessor",
+   "name_print": "Applied Electronics & Microprocessor",
+   "codes": [
+    "EMT – 042",
+    "EMT-042"
+   ],
+   "program_year": 4,
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - IV (Semester-VII, p.4)",
+   "units": {
+    "1": "1.  Digital Logic Families and Comparison : MSI logic -  Multiplexers,  Decoders, Adders, Subtractors, JK Flip Flops and Counters. D to A Converters, Counter type and successive approximation A to D Converters. \n\n\n(8)",
+    "2": "2.  Semiconductor Memory - ROM, EPROM, RAMs. Magnetic Memory - Drum and disk type \n\n\n(4)        \n  \n3.  Display  Devices  - LED, LCD and CRO, Principles  of  Sampling  and  storage oscilloscope. \n\n\n(4)      ",
+    "3": "4. Power Control - SCR and Triac. Principles of converter, Inverter and choffer. Block diagrams of DC Motor and Induction Motor Control. \n\n\n(7)",
+    "4": "4. Introduction, Classification of Microprocessor and Applications : \nOrganisation  :  Organisation  of  8085  and  8086  processors.  Interrupts  and addressing  modes available.   \n\n\n(8)",
+    "5": "8085  Processor  -  Instruction  set,   assembler directives, Assembly level programming - examples. Memory and I/O interfacing.  \n\n(5) \n\nApplications  :  Microprocessor  for pressure,  flow  and  temperature  control, Introduction to stepper motor and Data Acquisition system.  \n\n\n(4)"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Gaonkar, “Microprocessor Architecture programming and application,” Wiley Eastern Ltd., New Delhi."
+    },
+    {
+     "no": 2,
+     "book": "A.P.Mathur, “Introduction to Microprocessor”, TATA McGraw Hill Pub. Co. New Delhi"
+    },
+    {
+     "no": 3,
+     "book": "Melvio, “Digital fundamentals”"
+    }
+   ],
+   "quirks": [
+    "p.22 heading printed 'EMT – 042 Applied Electronics & Microprocessor' (spaced dash, verbatim); p.4 elective list prints 'EMT-042 Applied Electronics & Microprocessor'",
+    "p.22 no L-T-P printed on subject page; L-T-P 3-1-0, credit 4 and marks 30/20/50/100/150 recorded from p.4 'Departmental Elective-IV' scheme row",
+    "p.22 unit topic numbered '4.' twice (Unit-III '4. Power Control' and Unit-IV '4. Introduction, Classification of Microprocessor...') — verbatim",
+    "p.22 printed-typos kept verbatim: 'choffer' (for chopper), 'Melvio' (for Malvino)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Logistics and Supply Chain Management",
+   "name_print": "LOGISTICS AND SUPPLY CHAIN MANAGEMENT",
+   "codes": [
+    "EMT-043"
+   ],
+   "program_year": 4,
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective - IV (Semester-VII, p.4)",
+   "units": {
+    "1": "Introduction to Logistics: - Scope of  Logistics, Logistics in the system Life Cycle, Need for Logistics Engineering, Related Terms and Definitions.",
+    "2": "Measures of Logistics: - Reliability, Maintainability, Availability factors, Supply supports, Facility and Software Factors. \n\nSystem Engineering Process: -Definition of Problem and Need analysis, System Feasibility Analysis, System Operational Requirements, Functional Analysis. \n\nSupportability Analysis: - Processes, Methods, Tools and Applications.",
+    "3": "Logistics in The Design and Development Phase:- Design Process, Related Design Discipline, Supplier Design Activities, Design Integration and Reviews, Test and Evaluation. \n\nLogistics in The Production / Construction Phase: - Production / Construction Requirements, Industrial Engineering and Operations Analysis, Quality Control, Production Operation, Transition from Production to user operation. \n\nLogistic in The Utilization and Support Phase: - System / Product Support, TPM, Data Collection, Analysis and System Evaluation, Evaluation of Logistic Support Elements, System Modification.",
+    "4": "Logistics in the System Requirement, Material Recycling and Disposal Logistic Management: - Logistic Planning, Development of a Work Breakdown Structure, Scheduling of Logistics Tasks, Cost Estimation and control, Organization for Logistics, Management and control.",
+    "5": "Supply Chain Management: - Overview, Managing the customer interface. Managing the supplier interface. Measures of Supply chain performance, Supply Chain links to operations strategy, Supply Chain Dynamics, Supply Chain Software, Supply chain management across the organization."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Logistics Engineering and Management-Benjamin S. Blanchard."
+    },
+    {
+     "no": 2,
+     "book": "Oneration Management-Lee J Kraiewski & P. Ritzman."
+    }
+   ],
+   "notes_print": [
+    "Note: - Each student has to submit chain supply scheme for 5-production units."
+   ],
+   "quirks": [
+    "p.22-23 title and Unit-I printed TWICE: 'EMT-043 / LOGISTICS AND SUPPLY CHAIN MANAGEMENT / Unit-I Introduction to Logistics...' appears at foot of p.22 and repeats at head of p.23 before Unit-II — verbatim duplication in print, transcribed once",
+    "p.22-23 no L-T-P printed on subject page; L-T-P 3-1-0, credit 4 and marks 30/20/50/100/150 recorded from p.4 'Departmental Elective-IV' scheme row",
+    "p.4 elective list prints 'EMT-043 Logistics & Supply Chain management'",
+    "p.23 printed-typos kept verbatim: 'Oneration Management' (for Operations), 'Kraiewski'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Manufacturing Systems",
+   "name_print": "Advanced  Manufacturing Systems",
+   "codes": [
+    "EMT-801",
+    "EMT801"
+   ],
+   "program_year": 4,
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "subject_type": "core",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "FUNDAMENTAL OF MANUFACTURING AND AUTOMATION: Manufacturing operations and automation strategies;  Hard and soft automation. Transfer systems, automated flow lines, feeders, assembly and line balancing.  \n\n\n              \n\n\n              [03 Hrs]\nFUNDAMENTAL OF COMPUTER AIDED MANUFACTURING: Introduction to CAD/CAM. N.C. Machine Tools;  P, L and C type;   CNC,  DNC,  Adaptive control.  \nManual part programming through simple examples; computer assisted part programming.      \n\n\n\n\n\n[06 Hrs]",
+    "2": "AUTOMATED STORAGE AND MATERIALS HANDLING SYSTEMS: Automated materials handling (including AGV), storage and retrival systems; Robots and its applications in manufacturing.                  [6 Hrs]\nPROCESS PLANNING : Introduction to process planning (PP), Computer aided process planning (CAPP); scheduling;  sequencing of manufacturing operations.        \n\n\n\n\n[03 Hrs]",
+    "3": "GROUP TECHNOLOGY (GT): Introduction to coding and classification; Benefits of GT.    \n\n[2 Hrs]\nPRODUCTION ECONOMICS : Kinds of costs, evaluation of capital investments, capital budgeting, break-even-analysis, make-buy decisions, evaluation of alternatives, discounted cash flow,  equivalent comparison methods, depreciation.                             \n\n\n\n \n\n\n[5 Hrs]",
+    "4": "MATERIALS MANAGEMENT: Purchasing, distribution and inventory control,  \nInventory concepts; Material requirement planning; Just in time. \n\n\n\n           \n\n \n\n[3Hrs]\nQUALITY MANAGEMENT: Economics of quality assurance; Quality control; Process control, Control charts and acceptance sampling, concept of total quality management.  [5Hrs]    \nINTRODUCTION TO CONCURRENT ENGINEERING AND AGILE MANUFACTURING     [3 Hrs]",
+    "5": "FMS and CIMS : Flexible manufacturing systems (FMS); FMS work stations; FMS planning and applications. Computer integrated manufacturing systems (CIMS);  net work and data bases for manufacturing system. Simulation of Manufacturing systems.                              \n\n\n\n            [10 Hrs]"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Automation, Production Systems, & CIM by Grover; Prentice Hall"
+    },
+    {
+     "no": 2,
+     "book": "CAD CAM by C. McMahon and J. Browne; published by Addison-Wesley."
+    },
+    {
+     "no": 3,
+     "book": "Computer Aided Manufacturing by Chang, Wysk, Wang; Prentice Hall."
+    },
+    {
+     "no": 4,
+     "book": "Agile Manufacturing by A. Gunsekaran; Elsevier."
+    },
+    {
+     "no": 5,
+     "book": "Concurrent Engineering by Hartely J. R.; Cambridge, M. A.; Productivity by Press."
+    },
+    {
+     "no": 6,
+     "book": "CAD/CAM by Grover and Zimmersl Prentice Hall."
+    },
+    {
+     "no": 7,
+     "book": "Computer Integrated Manufacturing and Engineering by V. Rembold, B. O. Nanji and A. Storr; Addin-Wesley."
+    },
+    {
+     "no": 8,
+     "book": "Theory and Problems in Production and Operations Management, S. N. Chang, Tata McGraw Hill, 1995."
+    },
+    {
+     "no": 9,
+     "book": "Modern Production/ Operations Management, E. S. Buffa and R. K. Sarin, John Wiley International, 1994."
+    }
+   ],
+   "notes_print": [
+    "PREAMBLE : The contents of this course are designed to outfit the students with an overview of manufacturing systems through simulation. Computerization of manufacturing machines, materials handling and storage, and support functions like process planning, scheduling etc., has led to their inter linking as well as integration. It is aimed to familiarize the students with the different elements of the manufacturing systems, and tools and techniques used in their inter linking and integration."
+   ],
+   "quirks": [
+    "p.23 orphan digits '3' and '2' printed between 'PREAMBLE :' and the preamble body; unit headings carry bullet markers ('• UNIT-II' etc.) — multi-column artifacts",
+    "p.5 Sem-VIII scheme table prints no Credits column values; credit omitted for this subject (printed blank)",
+    "p.5 scheme row prints 'EMT-801 Advanced Manufacturing Systems' 3-1-0 marks 30/20/50/100/150; p.23 subject page prints 'EMT801' + 'L T P 3 1 0'",
+    "p.23-25 printed-typos kept verbatim: 'retrival systems', 'net work and data bases', 'Grover', 'Gunsekaran', 'Hartely J. R.', 'Zimmersl', 'Addin-Wesley', 'S. N. Chang'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mechatronics",
+   "name_print": "Mechatronics",
+   "codes": [
+    "EMT-051"
+   ],
+   "program_year": 4,
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective-V (Semester-VIII, p.5)",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "INTRODUCTION\n Introduction to mechatronics, systems, measurement systems, control systems, microprocessor-based controllers, The mechatronics approach, Problems.      03 Hrs\nREVIEW OF TRANSDUCERS\nSensors and transducers, performance terminology, Displacement position and proximity, velocity & motion, Force, Fluid pressure, Liquid flow, liquid level, Temperature, Light sensors, Selection of sensors, Inputting data by switches, Problems.           05 Hrs",
+    "2": "SIGNAL CONDITIONING\nSignal conditioning, The operational amplifier, Protection, Filtering, Wheatstone bridge, Digital signals, Multiplexers, Data acquisition, Digital signal processing, Pulse - moulation, Problems.                 \n\n                      05 Hrs\nDATA PRESENTATION SYSTEMS\nDisplays, Data presentation elements, Magnetic recording, Displays, Data acquisition systems, Measurement systems, Measurement systems, Testing and calibration, Problems.\n\n \n\n\n\n            06 Hrs",
+    "3": "PNEUMATIC AND HYDRAULIC SYSTEMS\nActuation systems, Pneumatic and hydraulic systems, Directional control valves, Pressure control valves, Cylinders, Process control valves, rotary actuators, Problems.         \n05 Hrs\nMECHANICAL ACTUATION SYSTEMS\nMechanical systems, Types of motion, Kinematics chains, Cams, Gear trains,  Ratchet and pawl, Belt and chain drives, Bearings, Mechanical aspects of motor selection, Problems.\n\n\n\n\n\n04 Hrs",
+    "4": "ELECTRICAL ACTUATION SYSTEMS\nElectrical systems,  Mechanical Switches, Solid-state switches, Solenoids, DC motors, AC motors, Stepper motors, Problems.           \n\n\n          07Hrs",
+    "5": "BASIC SYSTEM MODELS\nMathematical models, mechanical system building blocks, Electrical system building blocks, Thermal system building blocks, Problems.  \n\n             \n07 Hrs"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Mechatronics - W. Bolton, 2 Ed. Addison Wesley Longman, Pub, 1999 (Delhi)"
+    },
+    {
+     "no": 2,
+     "book": "Mechatronics by HMT, TMH."
+    },
+    {
+     "no": 5,
+     "book": "Introduction to Robotics Mechanics and Control, Third Edition, John J. Craig ISBN 0201-54361-3; Prentice Hall"
+    },
+    {
+     "no": 6,
+     "book": "4.Analytical Robotics and Mechatronics, Wolfram Stadler, ISBN 0-07-060608-0, McGraw-Hill"
+    }
+   ],
+   "quirks": [
+    "p.25-26 reference list numbered 1, 2, 5, 6 in print (3, 4 skipped); item numbered 6 carries an internal '4.' prefix ('4.Analytical Robotics and Mechatronics...') — verbatim",
+    "p.5 Sem-VIII scheme table prints no Credits column values; credit omitted (printed blank); L-T-P 3-1-0 and marks 30/20/50/100/150 from p.5 'Department Elective-V' scheme row",
+    "p.25 printed-typos kept verbatim: 'Pulse - moulation' (for modulation), 'Measurement systems, Measurement systems' (duplicated phrase in print)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Statistical Quality Control",
+   "name_print": "STATISTICAL QUALITY CONTROL",
+   "codes": [
+    "EMT-052"
+   ],
+   "program_year": 4,
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective-V (Semester-VIII, p.5)",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "Introduction:  \n\nConcept and evoluation of quality control Measurement & Metrology, Precision vs accuracy. Process capability, standrdisation & Interchangeability. \n\n3 \n\nInspection and Gauges:  \n\nInspection methods. Types of Gauges. Limits Fits and Tolerances. Non-Destructive Testings & Evaluation. \n\n\n\n\n5",
+    "2": "Control Charts for SQC: Statistical Quality Control (SQC). Control charts for variables such as X, R charts and control charts for attributes such as p-charts, c-chart. Construction & use of the control charts. Process capability.\n\n\n8",
+    "3": "Acceptance Sampling for SQC: Principle of acceptance sampling. Producer's and consumer's risk. Sampling plans - Single, double & sequential. Sampling by attributes and variables.  \n\n\n\n\n\n\n8",
+    "4": "Reliability:  \n\nIntroduction to reliability, bath-tub curve. Life expectancy. Reliability based design. Series & Parallel system.\n\n\n\n\n\n\n4\nDefect Diagnosis and prevention:  \n\nBasic causes of failure, curve/control of failure. MTBF. Maintainability, Condition monitoring and diagnostic techniques.\nValue Engineering: Elements of value analysis, Techniques.\n\n\n4",
+    "5": "TQM: Inspection, Quality control, Quality Assurance and Quality Management and Total Quality Management. Implementation of TQM. ISO 9000 and its series, Zero defect. Quality circle. Taguchi Method.\n\n\n\n\n5\nOther Factors in Quality: Human Factors such as attitude and errors. Material-Quality. Machine Capability and Manufacturing process limitations. Quality in sales & service. Methods for improving accuracy & quality.  \n\n\n\n3"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Statistical Quality Control by Grant and Leavarworth McGraw HIll."
+    },
+    {
+     "no": 2,
+     "book": "Maintenance for Reliability by Rao."
+    }
+   ],
+   "quirks": [
+    "p.26 subject page prints 'EMT-052' then (after whitespace) 'STATISTICAL QUALITY CONTROL' and 'L  T  P  3  1  0'; p.5 'Department Elective-V' scheme row prints 'EMT-052 Statistical Quality Control' 3-1-0 marks 30/20/50/100/150",
+    "p.5 Sem-VIII scheme table prints no Credits column values; credit omitted (printed blank)",
+    "p.26-27 unit hour figures (3,5,8,8,4,4,5,3) printed detached after topic bodies",
+    "p.26-27 printed-typos kept verbatim: 'evoluation', 'standrdisation', 'Inspection and Gauges', 'Grant and Leavarworth', 'McGraw HIll'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Heat Treatment of Metals",
+   "name_print": "Heat Treatment of Metals",
+   "codes": [
+    "EMT-053"
+   ],
+   "program_year": 4,
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective-V (Semester-VIII, p.5)",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "1.  Introduction : Objective & advantages of heat treatment of metals . \n           02 Hrs\n2. Fundamentals of Heat Treatment : Binary phased diagram, iron carbon equilibrium diagram, heat treatment technology, heat treatment of cast iron, heat treatment of non ferrous metals. Heat treating of steel. \n\n\n04 Hrs",
+    "2": "3. Heat Treatment of Steel : Principles of heat treating of steels, quantitative prediction of transformation hardening in steels, stress-relief heat treating of steel, normalizing of steel, annealing of steel, continuous annealing of steel, quenching of steel, tempering of steel, mar tempering of steel, austempering of steel, induction heat treating of steel, cold treating and cryogenic treatment of steel,  heat treating of ultra high strength steels. Heat treating maraging steels, heat-treating of powder metallurgy steels, thermo mechanical processing of steels.  \n\n\n\n\n10 Hrs",
+    "3": "4. Heat Treating Equipment : Types of heat treating furnaces salt bath equipment, fluidized-bed equipment, heat treating in vacccum furnaces and auxiliary equipment, heat resistant material for furnace parts trays and fixtures. Enery-efficient furnace design and operation - like batch type, box muffle, and salt bath furnace.  \n\n08 Hrs",
+    "4": "5. Surface Hardening of Steel : Introduction of surface hardening of steels, flame hardening, laser surface hardening, electron beam surface hardening, gas carburizing, pack carburizing, liquid carburizing and cyaniding, vacuum, carburizing, plasma (Ion) nit riding, gaseous and plasma nitro carburizing, bronzing (Bronizing), thermo-reactive, deposition/diffusion process, methods of measuring case depth.\n\n\n10 Hrs",
+    "5": "6. Process and Quality Control Considerations : Temperature control, furnace and atmospheres, furnace atmosphere control, control of surface carbon contents in heat treating of steel. Evaluation of carbon control in processed parts. Defects and distraction in heat-treated parts. Statistical process control of heat-treated parts, statistical process control heat-treating operations. Computerized properties prediction and technology planning in heat treatment of steel. Furnace Safety.  \n\n\n08 Hrs"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Zakheror, “Heat Treatment of Metals”, MIR Publications."
+    },
+    {
+     "no": 2,
+     "book": "Y.Lakhtin, “Physical Metallurgical and Heat Treatment”, MIR Publications."
+    },
+    {
+     "no": 3,
+     "book": "Donald Schark & W.R.Varney, “Physical Metallurgical for Engineering”, East West Publication."
+    }
+   ],
+   "quirks": [
+    "p.27 subject page prints 'EMT-053' then 'Heat Treatment of Metals' (no L-T-P printed); p.5 'Department Elective-V' scheme row prints 'EMT-053 Heat Treatment of Metals' 3-1-0 marks 30/20/50/100/150",
+    "p.5 Sem-VIII scheme table prints no Credits column values; credit omitted (printed blank)",
+    "p.27 printed-typos kept verbatim: 'vacccum furnaces', 'Enery-efficient furnace design', 'plasma (Ion) nit riding', 'bronzing (Bronizing)', 'thermo-reactive, deposition/diffusion process', 'Defects and distraction'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "JIT Manufacturing",
+   "name_print": "JIT Manufacturing",
+   "codes": [
+    "EMT-061"
+   ],
+   "program_year": 4,
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Department Elective-VI (Semester-VIII, p.5)",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "1. JIT  - An Introduction : Spread of JIT movement, the new production system research association of Japan, some definitions of JIT, core Japanese practices of JIT, creating continuous manufacture, enabling JIT to occur, basic element of JIT, benefits of JIT.\n\n\n\n\n02Hrs\n2. Modern Production System : Key feature of Toyota’s production system, basic framework of Toyota production system. \nKanban System : other types of kanban’s , kanban rules, adapting to fluctuations in demand through kanban, whirlging, determining the number of kanban’s in Toyota production system, detailed kanban system example, supplier kanban and the sequence schedule for use by suppliers.\n\n\n\n04Hrs",
+    "2": "Production smoothing in Toyota production system - production planning, production smoothing, adaptability to demand fluctuations, sequencing method for the mixed model assembly line to realize smoothed production. Criticism to Toyota production system by the communist party of Japan. EDP system for support of the Toyota production system. Shortening lead time in Toyota production system - reducing the setup time. Automation in Toyota production system, some comparisons with other manufacturers.\n\n\n8 Hrs \n\n3. Global Implementation of JIT : JIT in automotive industry, JIT in electronics, computer, telecommunication and instrumentation, JIT in process type industry, JIT in seasonal demand industry, other manufacturing industries, JIT in service and administrative operations, conclusion  \n\n\n03Hrs",
+    "3": "4.  Design, Development and Management of JIT Manufacturing Systems : Plant  configurations and flow analysis for JIT manufacturing, comparison of JIT’s “demand pull” system with conventional “push type” planning and control systems, quality management system for JIT, product design for JIT human resource management in JIT, flexible workforce system at Toyota, creation and maintenance of teams of JIT, union organisation and conduct of industrial relations in JIT, interface of JIT with advanced manufacturing technology, assessing performance in JIT manufacturing systems, product costing information systems in JIT manufacturing, an example of overhead allocation in JIT, potential for developing countries, potential for small manufacturing.\n\n\n\n\n10 Hrs",
+    "4": "5. Supply Management for JIT : JIT purchasing-the Japanese way, some studies in JIT purchasing, experience of implementation organisations, surveys on JIT purchasing, buyer-seller relationship in JIT purchasing, quality certification of suppliers in JIT purchasing, monitoring supplier performance for  JIT purchasing, audit in JIT purchasing, implementation of JIT to international sourcing, frequency of shipments, inventory policy, supplier reaction capability, quality, communication sole sourcing, delivery performance and supplier flexibility, conclusion. \n\n\n10 Hrs",
+    "5": "6. Framework for Implementation of JIT : Implementation risk, risks due to inappropriate understanding of JIT, risks due to technical, operational and people problems, risks associated with kanban system, some important activities to be performed during implementation, steps in implementation, a project work to approach to implementation, conclusion.  \n\n\n05Hrs"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M.G.Korgaonker, “Just in Time Manufacturing”, Macmillan India Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Richard J. Schonberger, “Japanese Manufacturing Techniques” The Free Press - Macmillan Pub. Co. Inc. New York."
+    }
+   ],
+   "quirks": [
+    "p.27 subject page prints 'EMT-061 JIT Manufacturing' (no L-T-P printed); p.5 'Department Elective-VI' scheme row prints 'EMT-061 JIT Manufacturing' 3-1-0 marks 30/20/50/100/150",
+    "p.5 Sem-VIII scheme table prints no Credits column values; credit omitted (printed blank)",
+    "p.27-28 Unit-II contains the unheaded 'Production smoothing in Toyota production system...' block (8 Hrs) followed by numbered topic '3. Global Implementation of JIT' (03Hrs) — printed structure kept verbatim",
+    "p.28 printed-typos kept verbatim: 'whirlging', 'kanban’s' apostrophe usage, 'a project work to approach to implementation'"
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "Syllabus\n[Subjects related to Manufacturing Technology]\n3rd  & 4th Year\n[Effective from session 2010-11]\nB. TECH. MANUFACTURING TECHNOLOGY",
+   "locator": "p.1 (cover)"
+  },
+  {
+   "kind": "course_scope_note",
+   "print": "NOTE : The Syllabus of Subjects with EME code are common to B.Tech. Mechanical Engg. course",
+   "locator": "p.2 (foot of Sem-V scheme)"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "1. EHU-501 Engineering and Managerial Economics | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "2. EMT-501 Design of Machine Elements | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "3 EMT-502 Work study &Ergonomics | L=2 T=1 P=0 | CT=15 TA=10 Total=25 | ESE=50 | SubjectTotal=75 | Credits=3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "4 EMT-503 Plant Layout & design | L=2 T=1 P=0 | CT=15 TA=10 Total=25 | ESE=50 | SubjectTotal=75 | Credits=3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "5. EME-502 Theory of Machines-I | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "6. EME-503 Manufacturing Science-II | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "7 EHU-111 *Human values & Professional Ethics | L=2 T=0 P=0 | CT=15 TA=10 Total=25 | ESE=50 | SubjectTotal=75 | Credits=-",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "8 EMT-551 Design of Machine Elements Lab | L=0 T=0 P=2 | CT=10 TA=10 Total=20 | ESE=30 | SubjectTotal=50 | Credits=1",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "9 EMT-552 Work study & Ergonomics lab | L=0 T=0 P=2 | CT=10 TA=10 Total=20 | ESE=30 | SubjectTotal=50 | Credits=1",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "10. EMT- 553 SEMINAR | L=0 T=0 P=3 | CT=- TA=50 Total=50 | ESE=- | SubjectTotal=50 | Credits=1",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "11. EME- 553 Manufacturing Science-II Lab | L=0 T=0 P=3 | CT=10 TA=10 Total=20 | ESE=30 | SubjectTotal=50 | Credits=1",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "12. GP 501 General Proficiency | L=- T=- P=- | CT=- TA=- Total=50 | ESE=- | SubjectTotal=50 | Credits=1",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem5",
+   "print": "Total | L=16 T=7 P=9 | CT=- TA=- Total=- | ESE=- | SubjectTotal=1000 | Credits=26",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "1. EHU-601 Industrial Management | L=3 T=0 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=3",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "2. - Departmental Elective-I | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "3. - Departmental Elective-II | L=2 T=1 P=0 | CT=15 TA=10 Total=25 | ESE=50 | SubjectTotal=75 | Credits=3",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "4. EMT-601 Pneumatics & Hydraulics | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "5 EMT-602 Production Planning & Control | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "6. EME-603 Theory of Machines- II | L=2 T=1 P=0 | CT=15 TA=10 Total=25 | ESE=50 | SubjectTotal=75 | Credits=3",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "7 EHU-111 *Human values & Professional Ethics | L=2 T=0 P=0 | CT=15 TA=10 Total=25 | ESE=50 | SubjectTotal=75 | Credits=-",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "8. EMT-651 Pneumatics & Hydraulics Lab | L=0 T=0 P=3 | CT=- TA=50 Total=- | ESE=- | SubjectTotal=50 | Credits=1",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "9. EME-653 Theory of Machines Lab | L=0 T=0 P=2 | CT=10 TA=10 Total=20 | ESE=30 | SubjectTotal=50 | Credits=1",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "10. EMT-652 Computer Assisted Manufacturing  Lab | L=0 T=0 P=2 | CT=10 TA=10 Total=20 | ESE=30 | SubjectTotal=50 | Credits=1",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "11. EMT-654 Welding Technology Lab | L=0 T=0 P=2 | CT=10 TA=10 Total=20 | ESE=30 | SubjectTotal=50 | Credits=1",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "12. GP-601 General Proficiency | L=- T=- P=- | CT=- TA=- Total=50 | ESE=- | SubjectTotal=50 | Credits=1",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem6",
+   "print": "Total | L=16 T=6 P=9 | CT=- TA=- Total=- | ESE=- | SubjectTotal=1000 | Credits=26",
+   "locator": "p.3"
+  },
+  {
+   "kind": "note_sem6_training",
+   "print": "Industrial Training-II of 4 – 6 weeks after VI semester will be evaluated in VII semester",
+   "locator": "p.3"
+  },
+  {
+   "kind": "note_sem6_training",
+   "print": "Note- 4 to 6 Weeks Industrial Training-II after VI semester also to be evaluated in VII semester",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_list_sem6_dept1",
+   "print": "Department Elective - I\n1. EMT-011 Simulation & Modeling\n2. EMT-012 Advanced Casting  Process\n3. EME-013 Product Development & Design\n4. EME-014 Reliability Engineering\n5. * EME604 Refrigeration & Air conditioning\n6.  EPI-601            Principles of Machines tool Design",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_list_sem6_dept2",
+   "print": "Department Elective - II\n1. EMT-021 Tool Engineering\n2. EME-021 Non-Conventional Energy Resources & Utilization\n3. EME-022 Advanced Welding Technology\n4. EME-023 Optimization Techniques in Engineering\n5. EME-024 Mechanical Vibrations",
+   "locator": "p.3"
+  },
+  {
+   "kind": "footnote_core_mech_sem6",
+   "print": "• Core in Mechanical Engineering",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "1. EOE071–EOE074 Open  Elective-I** | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "2. - Departmental Elective-III | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "3. - Departmental Elective-IV | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "4. EME-031 Computer Aided manufacturing | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "5. EMT-701  Modern Manufacturing methods | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=4",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "6 EHU-111 *Human values & professional Ethics | L=2 T=0 P=0 | CT=15 TA=10 Total=25 | ESE=50 | SubjectTotal=75 | Credits=(blank)",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "7. EME-751 CAD/CAM Lab | L=0 T=1 P=2 | CT=10 TA=10 Total=20 | ESE=30 | SubjectTotal=50 | Credits=1",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "8. EMT-752 CNC Lab | L=0 T=0 P=2 | CT=10 TA=10 Total=20 | ESE=30 | SubjectTotal=50 | Credits=1",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "9 EMT-753 Project | L=0 T=0 P=3 | CT=- TA=50 Total=50 | ESE=- | SubjectTotal=50 | Credits=2",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "10 EMT-754 Industrial Training I & II Evaluation and viva-voce*** | L=0 T=0 P=2 | CT=(blank) TA=50 Total=50 | ESE=- | SubjectTotal=50 | Credits=1",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "11. GP 701 General Proficiency | L=- T=- P=- | CT=- TA=- Total=50 | ESE=- | SubjectTotal=50 | Credits=1",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "Total | L=15 T=6 P=9 | CT=- TA=- Total=- | ESE=- | SubjectTotal=1000 | Credits=26",
+   "locator": "p.4"
+  },
+  {
+   "kind": "note_sem7_training",
+   "print": "Note-***Practical Training-1 & 2 (4-weeks each) done after 4th & 6th Semesters would be evaluated in 7th semester through Report and  viva voice etc.",
+   "locator": "p.4"
+  },
+  {
+   "kind": "note_sem7_project",
+   "print": "* Project should be initiated in 7th semester beginning, and should be completer by the end of 8th semester with  good Report and power-point Presentation etc.",
+   "locator": "p.4"
+  },
+  {
+   "kind": "elective_list_sem7_open1",
+   "print": "** Open Electives – I    1.    EOE-071 : Entrepreneurship Development\n2. EOE-072 : Quality Management\n3. EOE-073 : Operations Research\n4. EOE-074 : Introduction to Biotechnology",
+   "locator": "p.4"
+  },
+  {
+   "kind": "elective_list_sem7_dept3",
+   "print": "Department Elective - III :\n1.   EME-701 Computer Aided Design\n2.  *EME-702 Automobile Engg\n3. EME-032 Project Management\n4. EME-036 Management Information System\n5. EMT-031   Production of gears & Screws\n6. EMT-032   Advanced Metrology &Measurement",
+   "locator": "p.4"
+  },
+  {
+   "kind": "elective_list_sem7_dept4",
+   "print": "Department Elective – IV:        1.   EME-041 Total Quality Management\n2. EME-044 Tribology\n3. EME-046 Concurrent Engineering\n4. EMT-041 Artificial Intelligence in Manufacturing\n5. EMT-042 Applied Electronics & Microprocessor\n6. EMT-043 Logistics & Supply Chain management",
+   "locator": "p.4"
+  },
+  {
+   "kind": "footnote_core_mech_sem7",
+   "print": "*Core in Mechanical Engineering",
+   "locator": "p.4"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "1. EOE081-EOE-084 Open Elective-II** | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=(not printed)",
+   "locator": "p.5"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "2. - Departmental Elective - V | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=(not printed)",
+   "locator": "p.5"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "3. - Departmental Elective – VI | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=(not printed)",
+   "locator": "p.5"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "4. EMT-801 Advanced Manufacturing Systems | L=3 T=1 P=0 | CT=30 TA=20 Total=50 | ESE=100 | SubjectTotal=150 | Credits=(not printed)",
+   "locator": "p.5"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "7 EHU-111 *Human values & professional Ethics | L=2 T=0 P=0 | CT=15 TA=10 Total=25 | ESE=50 | SubjectTotal=75 | Credits=(not printed)",
+   "locator": "p.5"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "6. EMT-851 Project | L=0 T=0 P=12 | CT=- TA=100 Total=100 | ESE=250 | SubjectTotal=350 | trailing '10' printed (credits cell unheaded; ambiguous with GP-801 S.No '10.')",
+   "locator": "p.5"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "10. GP-801 General Proficiency | L=- T=- P=- | CT=- TA=- Total=50 | ESE=- | SubjectTotal=50 | Credits=(not printed)",
+   "locator": "p.5"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "Total | L=12 T=3 P=12 | CT=- TA=- Total=- | ESE=- | SubjectTotal=1000 | Credits=(not printed)",
+   "locator": "p.5"
+  },
+  {
+   "kind": "elective_list_sem8_open2",
+   "print": "** Open Electives – II \n1. EOE-081 : Non Conventional Energy Resources\n2. EOE-082 : Nonlinear Dynamic Systems\n3. EOE-083 : Product Development\n4. EOE-084 : Automation and Robotics",
+   "locator": "p.5"
+  },
+  {
+   "kind": "elective_list_sem8_dept5",
+   "print": "Department Elective-V\n1. EME-051 Operations Research\n2. EME-052 Maintenance Engineering & Management\n3. EME-055 Six Sigma Methods & Applications\n4. EMT-051 Mechatronics\n5. EMT-052 Statistical Quality Control\n6. EMT-053 Heat Treatment of Metals",
+   "locator": "p.5"
+  },
+  {
+   "kind": "elective_list_sem8_dept6",
+   "print": "Department Elective-VI\n1. EME-061 Finite Element Method   \n2. EME-062 Non-Destructive Testing  \n3. EME-063 Advanced Materials Technology\n4. EME-064 Production & Operations Management\n5. EME-065 Energy Management\n6. EMT-061 JIT Manufacturing",
+   "locator": "p.5"
+  },
+  {
+   "kind": "note_sem8_exclusion_1",
+   "print": "Note: (1) The students who had taken Open elective EME-073 Operations Research in VII Sem. can not take the course EME-051 Operations Research as a Departmental Elective in VIII Sem.",
+   "locator": "p.5"
+  },
+  {
+   "kind": "note_sem8_exclusion_2",
+   "print": "(2) The students who had taken departmental elective EME 021 Non Conventional Energy Resources & Utilization in VI Sem. can not take the open elective course EOE-081 Non Conventional Energy Resources in VIII Semester.",
+   "locator": "p.5"
+  }
+ ],
+ "quirks": [
+  "p.1 cover prints verbatim: 'Syllabus / [Subjects related to Manufacturing Technology] / 3rd  & 4th Year / [Effective from session 2010-11] / B. TECH. MANUFACTURING TECHNOLOGY' — canonical course BTech; Manufacturing Technology is the printed branch scope",
+  "pp.4-5 (Year IV scheme pages) print '[Effective form session 2011-12 ]' (typo 'form' for 'for') while cover and Sem-V/VI pages print '[Effective from session 2010-11]' — document session recorded 2010-11",
+  "p.2 NOTE printed: 'The Syllabus of Subjects with EME code are common to B.Tech. Mechanical Engg. course' — EME-coded subjects (EME-502/503/553/603/653/031/751) are scheme rows only; their syllabi are NOT detailed in this doc",
+  "p.4 Sem-VII EHU-111 row: Credits cell printed blank (Sem V/VI prints show '-')",
+  "p.5 Sem-VIII scheme table: Credits column header and values not printed at all; only the EMT-851 row carries a trailing '10' (ambiguous with GP-801 row S.No '10.'); credits omitted for all Sem-VIII subjects",
+  "p.5 Sem-VIII S.No sequence printed irregular: theory rows numbered 1., 2., 3., 4., 7 (EHU-111 numbered 7); practical rows 6. (EMT-851) and 10. (GP-801)",
+  "p.5 Note(1) prints 'Open elective EME-073 Operations Research in VII Sem.' while p.4 Open Elective-I list prints 'EOE-073 : Operations Research' — code mismatch in print",
+  "p.5 Note(2) prints 'departmental elective EME 021 Non Conventional Energy Resources & Utilization' while p.3 Dept Elective-II list prints 'EMT-021 Tool Engineering' slot — code mismatch in print",
+  "p.4 note typo: 'should be completer by the end of 8th semester' (verbatim)",
+  "Doc-wide printed-typos preserved verbatim, e.g.: 'Work study &Ergonomics' (p.2), 'soberer & Goodman criteria' and 'Design of machines Eliments-Dr.Sharma &agarwal' (p.6), 'SYSTM SIMULATION'/'calumnious'/'Printice Hall'/'Gorden G.'/'Payer T.'/'spuet' (p.14), 'ELECTORCHEMICAL'/'Work meterial' (p.18), 'Gear Priocessing'/'Jhon Wiley'/'Tuft riding' (pp.19-20), 'choffer'/'Melvio' (p.22), 'Oneration Management'/'Kraiewski' (p.23), 'vacccum'/'Enery-efficient'/'bronzing (Bronizing)' (p.27), 'evoluation'/'standrdisation'/'McGraw HIll' (p.26), 'whirlging' (p.28)",
+  "Unit-hours convention: hour figures transcribed inline at their printed position (before/after heading or body as printed); EMT-032's detached '(N)' markers carried as bracketed end-notes inside unit texts; hour markers printed inline in bodies (e.g. '06 Hrs', '[03 Hrs]', '02 Hrs') kept verbatim",
+  "p.2/3 Sem V & VI print 'EHU-111 *Human values & Professional Ethics' with Credits '-' (zero-credit print); same subject row repeats in Sem VII (blank credits) and Sem VIII tables"
+ ],
+ "flags": [
+  "doc-scope: EME-coded and EHU/GP/EOE scheme subjects are scheme rows only (non_subject_rows); their syllabus pages are not part of this PDF",
+  "needs_review: EMT-502 L-T-P p.2 (2-1-0) vs p.7 (3-1-0); needs_review: EMT-752 L-T-P p.4 (0-0-2) vs p.13 (0-0-3) — recorded on respective subject flags"
+ ]
+}

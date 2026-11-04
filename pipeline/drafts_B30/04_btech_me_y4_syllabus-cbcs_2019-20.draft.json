@@ -1,0 +1,1737 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_me_y4_syllabus-cbcs_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "56ed2e4469bcb780",
+ "stem": "04_btech_me_y4_syllabus-cbcs_2019-20",
+ "subjects": [
+  {
+   "name": "CAD/CAM",
+   "name_print": "CAD/CAM",
+   "codes": [
+    "RME701"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "4 RME701 CAD/CAM Core Deptt. 3-1-0 70 20 10 100 4",
+   "units": {
+    "1": "Principles of Computer Graphics: Point plotting, drawing of lines, Bresenham’s circle algorithm. Transformation in Graphics: Co-ordinate system used in Graphics and windowing, view port, views. 2D transformations – rotation, scaling, translation, mirror, reflection, shear - homogeneous transformations – concatenation. 3D Transformation – Perspective Projection – Technique (Description of techniques only). Geometric Modelling: Classification of Geometric Modelling – Wire frame, Surface and Solid Modelling, applications – representation of curves and surfaces – Parametric form. Design of curved shapes- Cubic spline – Bezier curve – B-spline – Design of Surfaces - features of Surface Modelling Package – Solid Primitives, CSG. B-rep and description of other modelling techniques like Pure primitive instancing, cell decomposition, spatial occupancy enumeration, Boolean Operations (join, cut, intersection), Creating 3D objects from 2D profiles (extrusion, revolving etc).",
+    "2": "Graphics standard & Data storage: Standards for computer graphics GKS, PHIGS. Data exchange standards – IGES, STEP - Manipulation of the model - Model storage. Finite Element Modelling: Introduction, Mesh Generation – mesh requirements. Semi-Automatic Methods- Node-based approach, Region based approach, Solid-modelling-based methods. Fully Automatic Methods- Element-based approach, Application, Mesh Refinements using Isoperimetric Finite Elements, Meshing in high gradient areas, Transition Regions. Sub modelling Concept. An overview of modelling software’s like PRO-E, CATIA, IDEAS, SOLID EDGE etc.",
+    "3": "CAM: Scope and applications – NC in CAM – Principal types of CNC machine tools and their construction features – tooling for CNC – ISO designation for tooling – CNC operating system – FANUC, SINUMERIK – LINUMERIK. Programming for CNC machining – coordinate systems – manual part programming – computer assisted part programming – CNC part programming with CAD system. Material handling in CAM environment: Types – AGVS – AS/RS – Swarf handling and disposal of wastes – single and mixed mode assembly lines – quantitative analysis of assembly systems.",
+    "4": "Robotics: Classification and specification – drive and controls – sensors - end effectors - grippers- tool handling and work handling – machine vision – robot programming concepts – case studies in assembly. Quality Function Deployment: Process Planning – CAPP – Variant and Generative systems- Concurrent Engineering and Design for Manufacturing. Advanced manufacturing Planning Computer Aided Production Planning and Control – Aggregate production planning and master production schedule – MRP – MRP II – ERP - Capacity planning.",
+    "5": "Rapid prototyping: Need for rapid prototyping, Basic principles and advantages of RP, General features and classifications of different RP techniques with examples. Introduction to three representative RP techniques: Fusion Deposition Modelling, Laminated Object Manufacturing and Stereo-lithography. Flexible manufacturing cells: Systems – characteristics – economics and technological justification – planning, installation, operation and evaluation issues – role of group technology and JIT in FMS – typical case studies future prospects."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Chris Mcmahon and - CAD/CAM – Principle Practice and Manufacturing Management,Jimmie Browne Addision Wesley England, Second Edition,2000."
+    },
+    {
+     "no": 2,
+     "book": "Dr.Sadhu Singh - Computer Aided Design and Manufacturing, Khanna Publishers, NewDelhi, Second Edition,2000."
+    },
+    {
+     "no": 3,
+     "book": "P.Radhakrishnan, - CAD/CAM/CIM, New Age International (P) Ltd., New Delhi.S.Subramanayanand V.Raju."
+    },
+    {
+     "no": 4,
+     "book": "Groover M.P. and - CAD/CAM; Computer Aided Design and Manufacturing, Prentice HallZimmers EW. International, New Delhi, 1992."
+    },
+    {
+     "no": 5,
+     "book": "Ibrahim Zeid - CAD/CAM theory and Practice, Tata McGraw Hill Publishing Co. Ltd.,Company Ltd., New Delhi, 1992."
+    },
+    {
+     "no": 6,
+     "book": "Mikell P.Groover - Automation , Production Systems and Computer IntegratedManufacturing, Second edition, Prentice Hall of India, 2002."
+    },
+    {
+     "no": 7,
+     "book": "S.Kant Vajpayee - Principles of Computer Integrated Manufacturing, Prentice Hall ofIndia, 1999."
+    },
+    {
+     "no": 8,
+     "book": "David Bed worth - Computer Integrated Design and Manufacturing, TMH, 1998."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Unit-V prints 'Fusion Deposition Modelling' verbatim (print does not say 'Fused').",
+    "Book list prints author-title interleavings verbatim, e.g. 'Prentice HallZimmers EW.', 'New Delhi.S.Subramanayanand V.Raju.', 'Ltd.,Company Ltd.' — kept as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Automobile Engineering",
+   "name_print": "AUTOMOBILE ENGINEERING",
+   "codes": [
+    "RME702"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "5 RME702 Automobile Engineering Core Deptt. 3-0-0 70 20 10 100 3",
+   "units": {
+    "1": "Introduction: Basic concepts of Automobile Engineering and general configuration of an automobile, Powerand Torque characteristics. Rolling, air and gradient resistance. Tractive effort. Gear Box. Gearratio determination.",
+    "2": "Transmission System: Requirements. Clutches. Toque converters. Over Drive and free wheel, Universal joint.Differential Gear Mechanism of Rear Axle. Automatic transmission, Steering and Front Axle.Castor Angle, wheel camber & Toe-in, Toe-out etc... Steering geometry. Ackerman mechanism,Understeer and Oversteer. Hotchkiss drive and Torque tube drive.",
+    "3": "Braking System: General requirements, Road, tyre adhesion, weight transfer, Braking ratio. Mechanical brakes,Hydraulic brakes. Vacuum and air brakes. Thermal aspects.Antilock braking system(ABS), electronic brake force distribution (EBD) and traction control. Chassis and Suspension System: Loads on the frame, Strength and stiffness, Independent front & rear suspension, Perpendiculararm type, Parallel arm type, Dead axle suspension system, Live axis suspension system,Airsuspension & shock absorbers.",
+    "4": "Electrical System: Types of starting motors, generator & regulators, lighting system, Ignition system, Horn, Batteryetc. Fuel Supply System: Diesel & Petrol vehicle system such as Fuel Injection Pump, Injector & Fuel Pump, Carburettoretc. MPFI.",
+    "5": "Emission standards and pollution control: Indian standards for automotive vehicles-Bharat I and II, Euro-I and Euro-II norms, fuel qualitystandards, environmental management systems for automotive vehicles, engine emissioncontrol by 3-way catalytic converter system, fueladditives and modern trends in automotive engine efficiency and emission control. Alternative Energy Sources: Alternative energy sources, natural gas, LPG, biodiesel, bio-ethanol, gasohol and hydrogenfuels in automobiles, modifications needed, performance, combustion & emissioncharacteristics of alternative fuels in SI and CI engines, Electric and Hybrid vehicles,application of Fuel Cells. Prevention maintenance and overhauling."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Automotive Engineering- Hietner."
+    },
+    {
+     "no": 2,
+     "book": "Automobile Engineering - Narang."
+    },
+    {
+     "no": 3,
+     "book": "Automobile Engineering –TTTI, Pearson India."
+    },
+    {
+     "no": 4,
+     "book": "Automotive Mechanics- Crouse."
+    },
+    {
+     "no": 5,
+     "book": "Automobile Engineering - Newton and Steeds."
+    },
+    {
+     "no": 6,
+     "book": "Automobile Engineering –Ramakrishna, PHI, India."
+    },
+    {
+     "no": 7,
+     "book": "Automobile Engineering - Kripal Singh."
+    },
+    {
+     "no": 8,
+     "book": "Kirpal Singh, Automobile Engineering, 7th ed., Standard Publishers, New Delhi, 1997."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "L-T-P discrepancy: scheme table row prints '3-0-0' (credit 3) while the syllabus detail page prints 'L-T-P 3-1-0'; both verbatim; ltp recorded from the subject's own detail page.",
+    "Unit-II prints 'Toque converters' (for Torque) and 'Toe-out etc...' verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "CAD/CAM Lab",
+   "name_print": "CAD/CAM LAB",
+   "codes": [
+    "RME751"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ese_te_pe": 50,
+    "sessional_total": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "6 RME751 CAD/CAM Lab Core Deptt. 0-0-2 50 50 100 1",
+   "description_print": "List of Experiments: (Total EIGHT Experiments are to carried out. FOUR Experiments each from CAD and CAM.)",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": "1",
+     "exp": "Line Drawing or Circle Drawing experiment: Writing and validation of computer program."
+    },
+    {
+     "no": "2",
+     "exp": "Geometric Transformation algorithm experiment for translation/rotation/scaling: Writing and validation of computer program."
+    },
+    {
+     "no": "3",
+     "exp": "Design of machine component or other system experiment: Writing and validation of computer program."
+    },
+    {
+     "no": "4",
+     "exp": "Understanding and use of any 3-D Modelling Software commands."
+    },
+    {
+     "no": "5",
+     "exp": "Pro/E/Idea etc. Experiment: Solid modelling of a machine component."
+    },
+    {
+     "no": "6",
+     "exp": "Writing a small program for FEM for 2 spring system and validation of program or using a FEM Package."
+    },
+    {
+     "no": "7",
+     "exp": "Root findings or curve fitting experiment: Writing and validation of computer program."
+    },
+    {
+     "no": "8",
+     "exp": "Numerical differentiation or numerical integration experiment: Writing and validation of computer program."
+    },
+    {
+     "no": "1",
+     "exp": "To study the characteristic features of CNC machine."
+    },
+    {
+     "no": "2",
+     "exp": "Part Programming (in word address format) experiment for turning operation (including operations such as grooving and threading) and running on CNC machine."
+    },
+    {
+     "no": "3",
+     "exp": "Part Programming (in word address format or ATP) experiment for drilling operation (point to point) and running on CNC machine."
+    },
+    {
+     "no": "4",
+     "exp": "Part Programming (in word address format or ATP) experiment for milling operation (contouring) and running on CNC machine."
+    },
+    {
+     "no": "5",
+     "exp": "Experiment on Robot and programs."
+    },
+    {
+     "no": "6",
+     "exp": "Experiment on Transfer line/Material handling."
+    },
+    {
+     "no": "7",
+     "exp": "Experiment on difference between ordinary and NC machine, study or retrofitting."
+    },
+    {
+     "no": "8",
+     "exp": "Experiment on study of system devices such as motors and feedback devices."
+    },
+    {
+     "no": "9",
+     "exp": "Experiment on Mechatronics and controls."
+    }
+   ],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Experiments are printed as two numbered sub-lists — 'A. CAD Experiments:' (nos 1-8) then 'B. CAM Experiments:' (nos 1-9); the printed numbers restart per sub-list and are kept as printed in document order (17 experiments total).",
+    "Intro print typo 'are to carried out' kept verbatim.",
+    "Lab row prints two marks numbers (50, 50): per TOTAL-row arithmetic first 50 sits in the ESE column and second 50 in the Sessional TA sub-column; stored as ese_te_pe 50 / sessional_total 50 (family convention)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "I.C. Engines & Automobile Lab",
+   "name_print": "I.C. ENGINES & AUTOMOBILE LAB",
+   "codes": [
+    "RME752"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ese_te_pe": 50,
+    "sessional_total": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "7 RME752 IC Engine & Automobile Lab Core Deptt. 0-0-2 50 50 100 1",
+   "description_print": "Experiments: Say at least 8 experiments out of following in depth and details.",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": "1",
+     "exp": "Performance Analysis of Four stroke S.I. Engine- Determination of indicated and brake thermal efficiency, specific fuel consumption at different loads, Energy Balance."
+    },
+    {
+     "no": "2",
+     "exp": "Determination of Indicated H.P. of I.C. Engine by Morse Test."
+    },
+    {
+     "no": "3",
+     "exp": "Performance Analysis of Four stroke C.I. Engine- Determination of indicated and brake thermal efficiency, specific fuel consumption at different loads, Energy Balance."
+    },
+    {
+     "no": "4",
+     "exp": "Study & experiment on Valve mechanism."
+    },
+    {
+     "no": "5",
+     "exp": "Study & experiment on Gear Box."
+    },
+    {
+     "no": "6",
+     "exp": "Study & experiment on Differential Gear Mechanism of Rear Axle."
+    },
+    {
+     "no": "7",
+     "exp": "Study & experiment on Steering Mechanism."
+    },
+    {
+     "no": "8",
+     "exp": "Study & experiment on Automobile Braking System."
+    },
+    {
+     "no": "9",
+     "exp": "Study & experiment on Chassis and Suspension System."
+    },
+    {
+     "no": "10",
+     "exp": "Study & experiment on Ignition system of I.C. Engine."
+    },
+    {
+     "no": "11",
+     "exp": "Study & experiment on Fuel Supply System of S.I. Engines- Carburettor, Fuel Injection Pump and MPFI."
+    },
+    {
+     "no": "12",
+     "exp": "Study & experiment on Fuel Supply System of C.I. Engines- Injector & Fuel Pump."
+    },
+    {
+     "no": "13",
+     "exp": "Study & experiment on Air Conditioning System of an Automobile."
+    },
+    {
+     "no": "14",
+     "exp": "Comparative study of technical specifications of common small cars (such as Maruti Swift, Hyundai i20, Chevrolet Aveo, Tata Indica, Ford Fusion etc."
+    },
+    {
+     "no": "15",
+     "exp": "Comparative study & technical features of common scooters & motorcycles available in India."
+    },
+    {
+     "no": "16",
+     "exp": "Visit of an Automobile factory."
+    },
+    {
+     "no": "17",
+     "exp": "Visit to a Modern Automobile Workshop."
+    },
+    {
+     "no": "18",
+     "exp": "Experiment on Engine Tuning."
+    },
+    {
+     "no": "19",
+     "exp": "Experiment on Exhaust Gas Analysis of an I.C. Engine."
+    }
+   ],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Name variant: scheme table prints 'IC Engine & Automobile Lab' vs detail page title 'I.C. ENGINES & AUTOMOBILE LAB'.",
+    "Experiment 14 prints an unbalanced opening parenthesis '(such as Maruti Swift, ... Ford Fusion etc.' with no closing bracket — verbatim.",
+    "Lab row prints two marks numbers (50, 50): per TOTAL-row arithmetic first 50 sits in the ESE column and second 50 in the Sessional TA sub-column; stored as ese_te_pe 50 / sessional_total 50 (family convention)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Composite Materials",
+   "name_print": "COMPOSITE MATERIALS",
+   "codes": [
+    "RME070"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-3",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-3: RME070 Composite Materials (scheme row: 2 DEPTT ELECTIVE COURSE-3 3-0-0 70 20 10 100 3)",
+   "units": {
+    "1": "Introduction: Classifications of Engineering Materials, Concept of composite materials, Matrixmaterials, Functions of a Matrix, Desired Properties of a Matrix, Polymer Matrix (Thermosetsand Thermoplastics), Metal matrix, Ceramic matrix, Carbon Matrix, Glass Matrix etc.",
+    "2": "Types of Reinforcements/Fibers: Role and Selection of reinforcement materials, Types offibres, Glass fibers, Carbon fibers, Aramid fibers, Metal fibers, Alumina fibers, Boron Fibers,Silicon carbide fibers, Quartz and Silica fibers, Multiphase fibers, Whiskers, Flakes etc.,Mechanical properties of fibres. Material properties that can be improved by forming acomposite material and its engineering potential.",
+    "3": "Various types of composites: Classification based on Matrix Material: Organic Matrixcomposites, Polymer matrix composites (PMC), Carbon matrix Composites or Carbon-CarbonComposites, Metal matrix composites (MMC), Ceramic matrix composites (CMC);Classification based on reinforcements: Fiber Reinforced Composites, Fiber Reinforced Polymer(FRP) Composites, Laminar Composites, Particulate Composites.",
+    "4": "Fabrication methods: Processing of Composite Materials: Overall considerations, Autoclavecuring, Other Manufacturing Processes like filament welding, compression moulding, resintransplantmethod, pultrusion, pre-peg layer, Fiber-only performs, Combined Fiber-Matrixperforms, Manufacturing Techniques: Tooling and Specialty materials, Release agents, Peelplies, release films and fabrics, Bleeder and breather plies, bagging films, maximum stress and strain criteria, Von Mises Yield criterion for isotropic materials.",
+    "5": "Testing of Composites and Analysis: Mechanical testing of composites, tensile testing, Compressive testing,Intra-laminar shear testing, Inter-laminar shear testing, Fracture testing etc.Analysis of laminated plates- equilibrium equations of motion, energy formulation, staticbending analysis, buckling analysis, free vibrations, natural frequencies."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Materials characterization, Vol. 10, ASM hand book."
+    },
+    {
+     "no": 2,
+     "book": "Mechanical Metallurgy, by G. Dieter, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Analysis and Performance of Fiber Composites, by Agarwal, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Thermal Analysis of Materials, by R.F. Speyer, Marcel Decker."
+    },
+    {
+     "no": 5,
+     "book": "Engineering Mechanics and Composite Materials, by Daniels, Oxford University Press."
+    },
+    {
+     "no": 6,
+     "book": "Material Science and Engineering (SIE) with CD, by Smith, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Gibson R.F. Principles of Composite Material Mechanics, second edition, McGraw Hill, 1994."
+    },
+    {
+     "no": 8,
+     "book": "Engineering Materials: Polymers, Ceramics and Composites, by A.K Bhargava Prentice Hall India."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Unit-IV prints 'resintransplantmethod' and 'pre-peg layer', 'performs' verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Power Plant Engineering",
+   "name_print": "POWER PLANT ENGINEERING",
+   "codes": [
+    "RME071"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-3",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-3: RME071 Power Plant Engineering (scheme row: 2 DEPTT ELECTIVE COURSE-3 3-0-0 70 20 10 100 3)",
+   "units": {
+    "1": "Introduction: Power and energy, sources of energy, review of thermodynamic cycles related to power plants,fuels and combustion calculations.Load estimation, load curves, various terms and factors involved in power plant calculations. Effect of variable load on power plant operation, Selection of power plant units.Power plant economics and selectionEffect of plant type on costs, rates, fixed elements, energy elements, customer elements andinvestor’s profit; depreciation and replacement, theory of rates. Economics of plant selection,other considerations in plant selection.",
+    "2": "Steam power plant: General layout of steam power plant, Power plant boilers including critical and super criticalboilers. Fluidized bed boilers, boilers mountings and accessories, Different systems such as coalhandling system, pulverisers and coal burners, combustion system, draft, ash handling system,Dust collection system, Feed water treatment and condenser and cooling towers and coolingponds, Turbine auxiliary systems such as governing, feed heating, reheating, flange heating andgland leakage. Operation and maintenance of steam power plant, heat balance and efficiency,Site selection of a steam power plant.",
+    "3": "Diesel power plant: General layout, Components of Diesel power plant, Performance of diesel power plant, fuelsystem, lubrication system, air intake and admission system, supercharging system, exhaustsystem, diesel plant operation and efficiency, heat balance, Site selection of diesel power plant,Comparative study of diesel power plant with steam power plant. Gas turbine power plant: Layout of gas turbine power plant, Elements of gas turbine power plants, Gas turbine fuels,cogeneration, auxiliary systems such as fuel, controls and lubrication, operation andmaintenance, Combined cycle power plants, Site selection of gas turbine power plant, Integrated Gasifierbased Combined Cycle (IGCC) systems.",
+    "4": "Nuclear power plant: Layout and subsystems of nuclear power plants, BoilingWater Reactor (BWR), Pressurized Water Reactor (PWR), CANDU Reactor, PressurizedHeavy Water Reactor (PHWR), Fast Breeder Reactors (FBR), gas cooled and liquid metalcooled reactors, safety measures for nuclear power plants. Hydroelectric and Non-Conventional Power Plant: Hydroelectric power plants, classification, typical layout and components, principles of wind,tidal, solar PV and solar thermal, geothermal, biogas and fuel cell power systems.",
+    "5": "Electrical system: Generators and generator cooling, transformers and their cooling, bus bar, etc. Energy Saving and Control: Energy, economic and environmental issues, power tariffs, load distribution parameters, loadcurve, capital and operating cost of different power plants, pollution control technologiesincluding waste disposal options for coal and nuclear plants."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Power Plant Engineering, by F.T. Morse, Affiliated East-West Press Pvt. Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Power Plant Engineering by Hedge, Pearson India."
+    },
+    {
+     "no": 3,
+     "book": "Power Plant Technology, by Wakil, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Power Plant Engineering by P.K. Nag, Tata McGraw Hill."
+    },
+    {
+     "no": 5,
+     "book": "Steam & Gas Turbines & Power Plant Engineering by R.Yadav, Central Pub.House."
+    },
+    {
+     "no": 6,
+     "book": "Power Plant Engineering by Gupta, PHI India."
+    },
+    {
+     "no": 7,
+     "book": "El Wakil M.M., Power Plant Technology, Tata McGraw Hill, 2010."
+    },
+    {
+     "no": 8,
+     "book": "Power Plant Engineering. Mahesh Verma, Metropolitan Book Company Pvt. Ltd."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Unit-I prints 'selectionEffect' and 'andinvestor’s profit' glued, verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Supply Chain Management",
+   "name_print": "SUPPLY CHAIN MANAGEMENT",
+   "codes": [
+    "RME072"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-3",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-3: RME072 Supply Chain Management (scheme row: 2 DEPTT ELECTIVE COURSE-3 3-0-0 70 20 10 100 3)",
+   "units": {
+    "1": "Introduction to Supply Chain Management, Understanding the Supply Chain. Supply Chain Performance: Competitive and Supply Chain Strategies, achieving Strategic Fit and Scope of Strategic Fit.",
+    "2": "Supply Chain Drivers and Metrics: Drivers of Supply Chain Performance, Framework for structuring Drivers, Facilities, Inventory, Transportation, Information, Sourcing and Pricing, Case Study: Seven-Eleven Japan Company.",
+    "3": "Planning Demand and Supply in a Supply Chain: Demand Forecasting in a Supply Chain, Aggregate Planning in a Supply Chain. Designing Distribution Networks and Application to E-Business- Role of distribution, factors influencing distribution network design, design options for a distribution network, E-Business and the distribution network.",
+    "4": "Network Design in the Supply Chain- Role of network design in the supply chain, factors influencing network design decisions, framework for network design decisions. Role of Information Technology in supply chain, coordination in a supply chain, Bullwhip Effect, Effect on performance due to lack of coordination, obstacles to coordination in a supply chain.",
+    "5": "Factors influencing logistics and decisions. Benchmarking and performance measurement."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Supply Chain Management: Strategy, Planning & Operation- Sunil Chopra & Peter Meindle- Pearson Prentice Hall Publication."
+    },
+    {
+     "no": 2,
+     "book": "Logistical Management: The integrated Supply Chain Process- Donald J. Bowersox & David J. Closs- TMH Publication."
+    },
+    {
+     "no": 3,
+     "book": "Supply Chain Management – Maretin Christopher."
+    },
+    {
+     "no": 4,
+     "book": "World Class Supply Management: The key to Supply Chain Management- Burt, Dobler and Straling – TMH Publication."
+    },
+    {
+     "no": 5,
+     "book": "Logistics and Supply Management – D K Agarwal – MacMillan Publication"
+    },
+    {
+     "no": 6,
+     "book": "Supply Chain Management in the 21st Century- B. S. Sahay- MacMillan Publication."
+    },
+    {
+     "no": 7,
+     "book": "Supply Chain Management: Theories & Practices – R P Mohanty and S. G. Deshmukh- Biztantra Publication."
+    },
+    {
+     "no": 8,
+     "book": "e-Procurement: From Strategy to Implementation- Dale Neef- Prentice Hall Publication."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Book 3 prints 'Maretin Christopher' (for Martin) verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additive Manufacturing",
+   "name_print": "ADDITIVE MANUFACTURING",
+   "codes": [
+    "RME073"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-3",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-3: RME073 Additive Manufacturing (scheme row: 2 DEPTT ELECTIVE COURSE-3 3-0-0 70 20 10 100 3)",
+   "units": {
+    "1": "Introduction: History and Advantages of Additive Manufacturing, Distinction Between AdditiveManufacturing and CNC Machining, Types of Additive Manufacturing Technologies,Nomenclature of AM Machines, Direct and Indirect Processes:Prototyping, Manufacturingand Tooling. Layer Manufacturing Processes: Polymerization, Sintering and Melting, Extrusion, Powder-Binder Bonding, Layer Laminate Manufacturing, Other Processes; Aerosol printing andBio plotter.",
+    "2": "Development of Additive Manufacturing Technology: Computer Aided Design Technology, Other Associated Technology, Metal and Hybrid Systems. Generalized Additive Manufacturing Process Chain;The Eight Steps in AdditiveManufacturing, Variation from one AM Machine to Another, Metal System, Maintenance ofEquipment, Material Handling Issue, Design of AM.",
+    "3": "Additive Manufacturing Processes: Vat Photopolymerization, Materials, Reaction Rates, Photopolymerization Process Modelling,Scan Patterns, Powder Bed Fusion Processes; Material, Powder Fusion Mechanism, ProcessParameters and Modelling, powder Handling, Extrusion Based System; Basic principles,plotting and Path Control, Bio extrusion, Other Systems, Material Jetting; Materials, MaterialProcessing Fundamentals, Material Jetting Machines, Binder Jetting; Materials, ProcessVariations, BJ Machines, Sheet lamination Processes; Materials, Ultrasonic AdditiveManufacturing, Directed Energy Deposition Processes; General DED Process Description,Material Delivery, DED systems, Process Parameters, Processing-Structure-PropertiesRelationships, Direct Write Technologies; Ink-Based DW, laser Transfer DW, Thermal SprayDW, Beam Deposition DW, Liquid Phase Direct Deposition, Hybrid Technologies.",
+    "4": "Design & Software Issues: Additive Manufacturing Design and Strategies; Potentials and Resulting Perspectives, AMbased New Strategies, Material Design and Quality Aspects for Additive Manufacturing;Material for AM, Engineering Design Rules for AM. Software Issue for Additive Manufacturing; Introduction, Preparation of CAD Models: TheSTL file, Problem with STL file, STL file Manipulation, Beyond the STL file, AdditionalSoftware to Assist AM.",
+    "5": "Material Design & Quality Aspects: Machines for Additive Manufacturing, Printers, Secondary Rapid Prototyping processes,Intellectual Property, Product Development, Commercialization, Trends and Future Directions inAdditive Manufacturing, Business Opportunities Applications: Aerospace, Automotive, Manufacturing, Architectural Engineering, Art, Jewellery, Toys, Medical,Biomedical, Dental, Bio-printing, Tissue & Organ Engineering and many others."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by- Ian Gibson, D Savid W. Rosen, Brent Stucker, Springer."
+    },
+    {
+     "no": 2,
+     "book": "Additive Manufacturing, by- Amit Bandyopadhyay, Susmita Bose, CRC Press."
+    },
+    {
+     "no": 3,
+     "book": "Rapid Prototyping: Principles and Applications, by - Chee Kai Chua, Kah Fai Leong, Chu Sing Lim."
+    },
+    {
+     "no": 4,
+     "book": "Additive Manufacturing Technologies: 3D Printing, Rapid Prototyping, and Direct Digital Manufacturingby Ian Gibson and David Rosen."
+    },
+    {
+     "no": 5,
+     "book": "Additive Manufacturing of Metals: From Fundamental Technology to Rocket Nozzles, Medical Implants, and Custom Jewelry (Springer Series in Materials Science) by John O Milewski."
+    },
+    {
+     "no": 6,
+     "book": "Additive Manufacturing: Advanced Manufacturing Technology in 3d Print Deposit by SabrieSoloman."
+    },
+    {
+     "no": 7,
+     "book": "Advances in 3D Printing and Additive Manufacturing Technologies by David Ian Wimpenny and Pulak M Pandey."
+    },
+    {
+     "no": 8,
+     "book": "Understanding Additive Manufacturing, by- Andreas Gebhardt, Hanser."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Unit-V prints 'Business Opportunities Applications:' run together with the applications list on the following printed lines; joined verbatim.",
+    "Book 1 prints 'D Savid W. Rosen' verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Operations Research",
+   "name_print": "OPERATIONS RESEARCH",
+   "codes": [
+    "RME075"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-4",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-4: RME075 Operation Research (scheme row: 3 DEPTT ELECTIVE COURSE-4 3-1-0 70 20 10 100 4)",
+   "units": {
+    "1": "Introduction: Basic of Operation Research, Origin & development of OperationResearch,Applications. Linear Programming: Introduction & Scope, Problem formulation, Graphical Method, Simplexmethods, primal and dual problem sensitivity analysis.",
+    "2": "Transportation Problem: Methods of obtaining initial and optimum solution, degeneracy intransportation problems, unbalanced Transportation Problem. Assignment Problem: Methods of obtaining optimum solution, Maximization problem,travelling salesman problem.",
+    "3": "Game Theory: Two-person Zero sum game, Solution with/without saddle point, dominance rule,Different methods like Algebraic, Graphical and game problem as a special case of LinearProgramming. Sequencing: Basic assumptions, n Jobs through 2-3 machines, 2 Jobs on m machines.",
+    "4": "Stochastic inventory models: Single & multi period models with continuous & discretedemands, Service level & reorder policy. Simulation: Use, advantages & limitations, Monte-Carlo simulation, Application to queuing,inventory & other problems.",
+    "5": "Queuing models: Characteristics of Queuing Model, M/M/1 and M/M/S system, costconsideration. Project management: Basic Concept of network Scheduling, Rules for drawing networkdiagram, Applications of CPM and PERT techniques in Project planning and control; crashing ofoperations; resource allocation."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Operations Research: Principles and Practice, by- Ravindran, Phillips, Solberg, John Wiley & Sons."
+    },
+    {
+     "no": 2,
+     "book": "Principal of Operation Research, by- Harvey M. Wagner, Prentice Hall."
+    },
+    {
+     "no": 3,
+     "book": "Introduction to Operation Research, by- Gillett, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Operations Research - An Introduction, by- Hamdy A. Taha, Pearson India."
+    },
+    {
+     "no": 5,
+     "book": "Operation Research, by- Wayne L. Winston, Thomsan Learning."
+    },
+    {
+     "no": 6,
+     "book": "Problems in Operations Research by- Prem Kumar Gupta & D.S. Hira, S. Chand."
+    },
+    {
+     "no": 7,
+     "book": "Operation Research Application and Algorithms, by- Wayne L Winston, Duxbury Press."
+    },
+    {
+     "no": 8,
+     "book": "Operations Research, by Jha, McGraw Hill."
+    },
+    {
+     "no": 9,
+     "book": "Operation Research, by Yadav & Malik Oxford University Press."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Name variant: DE-4 pool table prints 'Operation Research' vs detail page title 'OPERATIONS RESEARCH'.",
+    "Book 5 prints 'Thomsan Learning' verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Modelling and Simulation",
+   "name_print": "MODELLING AND SIMULATION",
+   "codes": [
+    "RME076"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-4",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-4: RME076 Modelling &Simmulation (scheme row: 3 DEPTT ELECTIVE COURSE-4 3-1-0 70 20 10 100 4)",
+   "units": {
+    "1": "Bioinformatics objectives and overviews, Interdisciplinary nature ofBioinformatics, Data integration, Data analysis, MajorBioinformatics databases and tools. Metadata: Summary & referencesystems, finding new type of data online.Molecular Biology and Bioinformatics: Systems approach inbiology, Central dogma of molecular biology, problems inmolecular approach and the bioinformatics approach, overview of the bioinformatics applications.",
+    "2": "Basic chemistry of nucleic acids, Structure of DNA,Structure of RNA, DNA Replication, Transcription-Translation, Genes- the functional elements in DNA,Analyzing DNA, DNA sequencing. Proteins: Amino acids,Protein structure, Secondary, Tertiary and Quaternarystructure, Protein folding and function, Nucleic Acid-Proteininteraction.",
+    "3": "Perl Basics, Perl applications for bioinformatics- Bio Perl, Linux Operating System, mounting/unmounting files, tar, gzip / gunzip,telnet, ftp, developing applications on Linux OS, Understanding andUsing Biological Databases, Overview of Java, CORBA, XML, Webdeployment concepts.",
+    "4": "Genome, Genomic sequencing, expressed sequence tags, gene expression, transcription factor binding sites and single nucleotidepolymorphism. Computational representationsof molecular biological data storage techniques: databases (flat,relational and object oriented), and controlled vocabularies, general data retrieval techniques: indices, Booleansearch, fuzzy search and neighbouring, application to biological datawarehouses.",
+    "5": "Macromolecular structures, chemical compounds, generic variability and its connection to clinical data. Representation of patterns andrelationships: sequence alignment algorithms, regular expressions, hierarchies and graphical models, Phylogenetics. BLAST."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "D E Krane & M L Raymer,” Fundamental concepts of Bioinformatics”, Perason Education."
+    },
+    {
+     "no": 2,
+     "book": "Rastogi, Mendiratta, Rastogi, “Bioinformatics Methods & applications, Genomics, Proteomics & Drug Discovery” PHI, New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Shubha Gopal et.al. “Bioinformatics: with fundamentals of genomics and proteomics”, Mc Graw Hill."
+    },
+    {
+     "no": 4,
+     "book": "O’Reilly, “Developing Bio informatics computer skills”, CBS."
+    },
+    {
+     "no": 5,
+     "book": "Simulation Model Design& execution by Fishwich, Prentice Hall, 1995."
+    },
+    {
+     "no": 6,
+     "book": "Discrete event system simulation by Banks, Carson, Nelson and Nicol."
+    },
+    {
+     "no": 7,
+     "book": "Averill M. Law, W. David Kelton, “Simulation Modelling and Analysis”,TMH."
+    },
+    {
+     "no": 8,
+     "book": "Forsdyke, “Evolutionary Bioinformatics”, Springer."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "DE-4 pool table prints 'Modelling &Simmulation' (typo 'Simmulation') vs detail page title 'MODELLING AND SIMULATION'.",
+    "Print anomaly: all five units are Bioinformatics content (bioinformatics databases, DNA/RNA structure, Perl/Linux, genomes, BLAST) under the 'MODELLING AND SIMULATION' title; book list mixes bioinformatics titles (1-4, 8) with simulation titles (5-7) — transcribed verbatim, flagged needs_review.",
+    "Book 1 prints opening quote as closing mark: 'Raymer,” Fundamental concepts of Bioinformatics”' — verbatim."
+   ],
+   "flags": [
+    "needs_review"
+   ]
+  },
+  {
+   "name": "Computational Fluid Dynamics",
+   "name_print": "COMPUTATIONAL FLUID DYNAMICS",
+   "codes": [
+    "RME077"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-4",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-4: RME077 Computational Fluid Dynamics (scheme row: 3 DEPTT ELECTIVE COURSE-4 3-1-0 70 20 10 100 4)",
+   "units": {
+    "1": "Governing Equations and Boundary Conditions: Basics of computational fluid dynamics. Governing equations of fluid dynamics. Continuity, Momentum and Energy equations. Chemical species transport. Physical boundary conditions,Time-averaged equations for Turbulent Flow. Turbulent–Kinetic Energy Equations Mathematicalbehaviour of PDEs onCFD. Elliptic, Parabolic and Hyperbolic equations.",
+    "2": "Finite Difference Method: Derivation of finite difference equations. Simple Methods. General Methods for first and secondorder accuracy, solution methods for finite difference equations. Elliptic equations. Iterativesolution Methods. Parabolic equations. Explicit and Implicit schemes. Example problems onelliptic and parabolic equations.",
+    "3": "Finite Volume Method (FVM) for Diffusion: Finite volume formulation for steady state One, Two- and Three-dimensional diffusion problems.One dimensional unsteady heat conduction through Explicit, Crank. Nicolson and fullyimplicit schemes.",
+    "4": "Finite Volume Method for Convection Diffusion: Steady one-dimensional convection and diffusion. Central, upwind differencing schemespropertiesofdiscretization schemes. Conservativeness, Boundedness, Transportive, Hybrid,Power-law, QUICKSchemes.",
+    "5": "Calculation Flow Field by FVM: Representation of the pressure gradient term and continuity equation. Staggered grid. Momentumequations. Pressure and Velocity corrections; Pressure Correction equation, SIMPLE algorithmand itsvariants. Turbulence models, mixing length model, Two equation (k-Є) models. High andlow Reynoldsnumber models."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "An Introduction to Computational Fluid Dynamics: The Finite Volume Method, by Versteeg, Pearson, India."
+    },
+    {
+     "no": 2,
+     "book": "Numerical Heat Transfer and Fluid Flow, by Patankar, Tayers&Francis."
+    },
+    {
+     "no": 3,
+     "book": "Computational Heat Transfer, by Jaluriaans Torrance, CRC Press."
+    },
+    {
+     "no": 4,
+     "book": "Computational Fluid Dynamics, by Anderson, Mc Graw Hill."
+    },
+    {
+     "no": 5,
+     "book": "Computational Fluid Dynamics, by Chung, Cambridge University Press."
+    },
+    {
+     "no": 6,
+     "book": "Computer Simulation of flow and heat transfer, by Ghoshdastidar McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Introduction to Computational Fluid Dynamics, by Prodip Niyogi. Pearson India."
+    },
+    {
+     "no": 8,
+     "book": "Computational Fluid Flow and Heat Transfer, by Muralidhar and Sundararajan, Narosa Publishing House."
+    },
+    {
+     "no": 9,
+     "book": "Computational Fluid Dynamics: Principles and Applications, by Blazek, Elsevier Science & Technology."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Unit headings print with irregular spacing: 'UNIT- I:', 'UNIT -II:', 'UNIT- III:', 'UNIT -IV:', 'UNIT- V:' — kept as printed.",
+    "Unit-III prints 'Crank. Nicolson' (stray period) and Unit-V prints '(k-Є)' glyph verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Automation and Robotics",
+   "name_print": "AUTOMATION AND ROBOTICS",
+   "codes": [
+    "RME078"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-4",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-4: RME078 Automation & Robotics (scheme row: 3 DEPTT ELECTIVE COURSE-4 3-1-0 70 20 10 100 4)",
+   "units": {
+    "1": "Automation: Definition, Advantages, goals, types, need, laws and principles of Automation. Elements ofAutomation. Fluid power and its elements, application of fluid power, Pneumatics vs. Hydraulics, benefit andlimitations of pneumatics and hydraulics systems, Role of Robotics in Industrial Automation.",
+    "2": "Manufacturing Automation: Classification and type of automatic transfer machines; Automation in part handling and feeding,Analysis of automated flow lines, design of single model, multimodel and mixed modelproduction lines. Programmable Manufacturing Automation CNC machine tools, Machiningcentres, Programmable robots, Robot time estimation in manufacturing operations.",
+    "3": "Robotics: Definition, Classification of Robots - Geometric classification and Control classification, Lawsof Robotics, Robot Components, Coordinate Systems, Power Source.Robot anatomy, configuration of robots, joint notation schemes, work volume, manipulatorkinematics, position representation, forward and reverse transformations, homogeneoustransformations in robot kinematics, D-H notations, kinematics equations, introduction to robotarm dynamics.",
+    "4": "Robot Drives and Power Transmission Systems: Robot drive mechanisms: Hydraulic / Electric / Pneumatics, servo & stepper motor drives,Mechanical transmission method: Gear transmission, Belt drives, Rollers, chains, Links, Linear toRotary motion conversion, Rotary-to-Linear motion conversion, Rack and Pinion drives, Leadscrews, Ball Bearings. Robot end Effectors: Classification of End effectors – active and passive grippers, Tools as end effectors, Drivesystem for grippers. Mechanical, vacuum and magnetic grippers. Gripper force analysis andgripper design.",
+    "5": "Robot Simulation: Methods of robot programming, Simulation concept, Off-line programming, advantages of offlineprogramming. Robot Applications: Robot applications in manufacturing-Material transfer and machine loading/unloading,Processing operations like Welding & painting, Assembly operations, Inspection automation,Limitation of usage of robots in processing operation.Robot cell design and control, Robot cell layouts-Multiple robots & Machine interference."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "An Introduction to Robot Technology, by CoifetChirroza, Kogan Page."
+    },
+    {
+     "no": 2,
+     "book": "Robotics for Engineers, by Y. Koren, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Robotic: Control, Sensing, Vision and Intelligence, by Fu, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Introduction to Industrial Robotics, by Nagrajan, Pearson India."
+    },
+    {
+     "no": 5,
+     "book": "Robotics, by J.J. Craig, Addison-Wesley."
+    },
+    {
+     "no": 6,
+     "book": "Industrial Robots, by Groover, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Robotic Engineering - An Integrated Approach : Richard D. Klafter Thomas A."
+    },
+    {
+     "no": 8,
+     "book": "Robots & Manufacturing Automation, by Asfahl, Wiley."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Unit headings print with irregular spacing: 'UNIT- I:', 'UNIT- II:', 'UNIT- III:', 'UNIT -IV:', 'UNIT- V:' — kept as printed.",
+    "DE-4 pool table prints 'Automation & Robotics' vs detail page title 'AUTOMATION AND ROBOTICS'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Non-Destructive Testing",
+   "name_print": "NON-DESTRUCTIVE TESTING",
+   "codes": [
+    "RME080"
+   ],
+   "semester": 8,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-5",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-5: RME080 Non-Destructive Testing (scheme row: 2 DEPTT ELECTIVE COURSE-5 3-1-0 70 20 10 100 4)",
+   "units": {
+    "1": "Introduction: Scope and advantages of NDT, Comparison of NDT with Destructive Testing, some commonNDT methods used since ages, Terminology, Flaws and Defects, Visual inspection, Equipmentused for visual inspection. Ringing test, chalk test (oil whitening test). Uses of visual inspectiontests in detecting surface defects and their interpretation, advantages & limitations of visualinspection.",
+    "2": "Tests: Die penetrate test (liquid penetrate inspection), Principle, scope. Equipment & techniques, Testsstations, Advantages, types of penetrants and developers, Zyglo test, Illustrative examples andinterpretation of defects. Magnetic particle Inspection – scope and working principle, Ferro Magnetic and Nonferromagneticmaterials, equipment & testing. Advantages, limitations Interpretation of results,DC & AC magnetization, Skin Effect, use of dye & wet powders for magna glow testing,different methods to generate magnetic fields, Applications.",
+    "3": "Radiographic methods: Introduction to electromagnetic waves and radioactivity, various decays, Attenuation ofelectromagnetic radiations, Photo electric effect, Rayleigh’s scattering (coherent scattering),Compton’s scattering (Incoherent scattering), Pair production, Beam geometry and Scatteringfactor. X-ray radiography: principle, equipment & methodology, applications, types of radiations andlimitations. γ-ray radiography – principle, equipment., source of radioactive materials &technique, advantages of γ-ray radiography over X-ray radiography Precautions against radiationhazards. Case Study - casting and forging.",
+    "4": "Ultrasonic testing methods: Introduction, Principle of operation, Piezoelectricity. Ultrasonic probes, CRO techniques,advantages, Limitation & typical applications. Applications in inspection of castings, forgings,Extruded steel parts, bars, pipes, rails and dimensions measurements. Case Study –Ultrasonography of human body.",
+    "5": "Special NDT Techniques: Eddy Current Inspection: Principle, Methods, Equipment for ECT, Techniques, Sensitivity,advanced ECT methods. Application, scope and limitations, types of Probes and Case Studies.Introduction to Holography, Thermography and Acoustic emission Testing."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Non-Destructive Testing and Evaluation of Materials, by- Prasad, McGraw Hill Education."
+    },
+    {
+     "no": 2,
+     "book": "Practical Non-destructive Testing, by- Baldev Raj, T. Jayakumar, M. Thavasimuthu, WoodheadPublishing."
+    },
+    {
+     "no": 3,
+     "book": "Non-Destructive Testing Techniques, by- Ravi Prakash, New Age International."
+    },
+    {
+     "no": 4,
+     "book": "Nondestructive Testing Handbook,by Robert C. McMaster, American Society for Nondestructive."
+    },
+    {
+     "no": 5,
+     "book": "Introduction to Nondestructive Testing: A Training Guide, by- Paul E. Mix, wiley."
+    },
+    {
+     "no": 6,
+     "book": "Electrical and Magnetic Methods of Non-destructive Testing, by- J. Blitz, springer."
+    },
+    {
+     "no": 7,
+     "book": "Practical non destructive testing by Raj, Baldev."
+    },
+    {
+     "no": 8,
+     "book": "Basics of Non-Destructive Testing, by Lari& Kumar, KATSON Books."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Unit headings print in mixed case: 'Unit-I:' .. 'Unit-V:' (lowercase 'Unit', no space before dash) — kept as printed.",
+    "Unit-III prints 'equipment.,' (stray period before comma) and book 4 prints 'Handbook,by' glued — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Welding",
+   "name_print": "ADVANCED WELDING",
+   "codes": [
+    "RME081"
+   ],
+   "semester": 8,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-5",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-5: RME081 Advance Welding (scheme row: 2 DEPTT ELECTIVE COURSE-5 3-1-0 70 20 10 100 4)",
+   "units": {
+    "1": "Introduction: Welding as compared with other fabrication processes, Importance andapplication of welding, classification of welding processes, Health & safety measures inwelding. Welding Power Sources: Physics of welding Arc, Basic characteristics of power sources forvarious arc welding processes, Transformer, rectifier and generators. Physics of Welding Arc: Welding arc, arc initiation, voltage distribution along the arc, arccharacteristics, arc efficiency, heat generation at cathode and anode, Effect of shielding gas onarc, isotherms of arcs and arc blow. Metal Transfer: Mechanism and types of metal transfer in various arc welding processes.",
+    "2": "Welding Processes: Manual Metal Arc Welding (MMAW), TIG, MIG, Plasma Arc,Submerged Arc Welding, Electro gas and Electroslag, Flux Cored Arc Welding, Resistancewelding, Friction welding, Brazing, Soldering and Braze welding processes, Laser beamwelding, Electron beam welding, Ultrasonic welding, Explosive welding, Friction Stir Welding,Underwater welding & Microwave welding.",
+    "3": "Heat Flow Welding: Calculation of peak temperature; Width of Heat Affected Zone (HAZ);cooling rate and solidification rates; weld thermal cycles; residual stresses and theirmeasurement; weld distortion and its prevention.",
+    "4": "Repair & Maintenance Welding: Hardfacing, Cladding, Surfacing, Metallizing processes andReclamation welding. Weldability: Effects of alloying elements on weld ability, welding of plain carbon steel, CastIron and aluminium. Micro & Macro structures in welding.",
+    "5": "Weld Design: Types of welds & joints, Joint Design, Welding Symbols, weld defects,Inspection/testing of welds, Introduction to Welding Procedure Specification & ProcedureQualification Record."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Welding and Welding Technology, by- Richard L. Little, McGraw Hill Education."
+    },
+    {
+     "no": 2,
+     "book": "Welding Principals and Practices, by- Edwars R. Bohnart, McGraw Hill Education."
+    },
+    {
+     "no": 3,
+     "book": "Welding Engineering and Technology, by- R. S. Parmar, Khanna Publishsers."
+    },
+    {
+     "no": 4,
+     "book": "Welding Technology Fundamentals by William. A. Bowditch."
+    },
+    {
+     "no": 5,
+     "book": "Welding Technology by N K Srinivasan."
+    },
+    {
+     "no": 6,
+     "book": "Welding Engineering and Technology by R S Parmar."
+    },
+    {
+     "no": 7,
+     "book": "Modern Welding Technology by Howard B Cary and Scott Helzer."
+    },
+    {
+     "no": 8,
+     "book": "Welding Handbooks (Vol. I & II)."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Name variant: DE-5 pool table prints 'Advance Welding' vs detail page title 'ADVANCED WELDING'.",
+    "Book typos verbatim: 'Principals', 'Edwars', 'Publishsers'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Thermal Turbomachines",
+   "name_print": "THERMAL TURBOMACHINES",
+   "codes": [
+    "RME082"
+   ],
+   "semester": 8,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-5",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-5: RME082 Thermal Turbo Machine (scheme row: 2 DEPTT ELECTIVE COURSE-5 3-1-0 70 20 10 100 4)",
+   "units": {
+    "1": "Brief history of turbo machinery, introduction to blowers, pumps, compressors, steam &gasturbines, turbojet, Review of laws of thermodynamics & SFEE in reference to turbomachinery,Energy transfer in turbo machines, Euler’s equation, Definition of variousefficiencies, preheatfactor, Reheat factor, Blade classification, Blade terminology,Cascade testing, Velocity diagramsfor axial and radial turbomachinery and pumps.",
+    "2": "Centrifugal compressors: Principle of operation, work done and pressure rise, Velocitydiagramfor centrifugal compressor, Slip factor, Stage pressure rise, Loading coefficient,Diffuser, degreeof reaction, Effect of impeller blade profile, Pre-whirl and inlet guide vanes, CentrifugalCompressor characteristic curves. Axial flow compressor: Principle of operation and working, Energy transfer, Velocitydiagramfor axial compressor, Factors affecting stage pressure ratio, Blockage incompressor annulus,Degree of reaction, 3-D flow, Design process, blade design,calculation of stage performance,Axial compressor performance characteristic curves.",
+    "3": "Axial flow turbines: Elementary theory of axial flow turbine, Energy transfer, Velocitydiagram,Types of blades, Vortex theory, Choice of blade profile, pitch and chord,Estimation of stageperformance, Characteristic curves.",
+    "4": "Steam turbines: Constructional details, working of steam turbine. Pumps:Classification of Pumps, Main components, indicator diagram and modificationdue topiston acceleration, Performance characteristics, Cavitation and its control,Miscellaneous types of pumps. Radial flow turbines: Elementary theory of radial flow turbines, Enthalpy- Entropydiagram,State losses, Estimation of stage performance, Performance characteristics.",
+    "5": "Gas Turbine Starting & Control Systems: Starting ignition system, Combustionsystem types,Safety limits & control. Turbine Blade coding: Different cooling techniques, Types of coolants, Comparativeevaluationof different cooling techniques. Mechanical Design consideration: Overall design choices, Material selection, Designwithtraditional materials."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Gas turbine theory: Cohen & Rogers, Addison Weslay Longman Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Turbine, Compressors and Fans, S.M. Yahya, Tata Mc Graw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Gas Turbine- Ganeshan, Tata Mc Graw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Thermal Turbomachines, by Singh, Wiley."
+    },
+    {
+     "no": 5,
+     "book": "Fundamentals of Turbomachinery, by Venkanna, PHI, India."
+    },
+    {
+     "no": 6,
+     "book": "Turbo Machine by S L Dixon."
+    },
+    {
+     "no": 7,
+     "book": "Turbines, Compressors & Fans by Yahya."
+    },
+    {
+     "no": 8,
+     "book": "Fundamentals of Turbomachinery by Venkanna, PHI, India."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Name variant: DE-5 pool table prints 'Thermal Turbo Machine' vs detail page title 'THERMAL TURBOMACHINES'.",
+    "Books 5/8 duplicate 'Fundamentals of Turbomachinery, by Venkanna, PHI, India' in the printed list — kept as printed.",
+    "Book typos verbatim: 'Addison Weslay', 'Ganeshan'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Energy Conservation and Management",
+   "name_print": "ENERGY CONSERVATION ANDMANAGEMENT",
+   "codes": [
+    "RME083"
+   ],
+   "semester": 8,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-5",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-5: RME083 Energy Conservation &Management (scheme row: 2 DEPTT ELECTIVE COURSE-5 3-1-0 70 20 10 100 4)",
+   "units": {
+    "1": "Introduction to energy & power scenario of world, National Energy consumption data,environmental aspects associated with energy utilization; Energy Auditing- need, types,methodology and barriers, role of energy managers, instruments of energy auditing.",
+    "2": "Components of EB billing, HT and LT supply, transformers, cable sizing; Concept ofcapacitors, power factor improvement, harmonics; Electric motors- motor efficiencycomputation, energy efficient motors; Illumination- Lux, Lumens, types of lighting, efficacy,LED lighting and scope of energy conservation in lighting.",
+    "3": "Thermal systems, Boilers, Furnaces and Thermic Fluid heaters- efficiency computation andenergy conservation measures; Steam distribution and usage, steam traps, condensaterecovery, flash steam utilization; Insulation & Refractories.",
+    "4": "Energy conservation in major utilities; pumps, fans, blowers, compressed air systems,Refrigeration& Air Conditioning systems, Cooling Towers, DG sets.",
+    "5": "Energy Economics- discount period, payback period, internal rate of return, net present value;Life Cycle costing- ESCO concept."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Witte L.C., Schmidt P.S. and Brown D.R., Industrial Energy Management and Utilization,Hemisphere Publ., Washington, 1988."
+    },
+    {
+     "no": 2,
+     "book": "Callaghn P.W., Design and Management for Energy Conservation, Pergamon Press,Oxford, 1981."
+    },
+    {
+     "no": 3,
+     "book": "Murphy W.R. and McKay G., Energy Management, Butterworths, London, 1987."
+    },
+    {
+     "no": 4,
+     "book": "Energy Management and Conservation by K V Sharma and P Venkataseshaiah"
+    },
+    {
+     "no": 5,
+     "book": "Energy Management and Conservation Handbook (Mechanical and Aerospace Engineering Series)by Frank Kreith and D Yogi Goswami"
+    },
+    {
+     "no": 6,
+     "book": "Energy Conversion and Management by Giovanni Petrecca"
+    },
+    {
+     "no": 7,
+     "book": "World Energy Resources: International Geohydroscience and Energy Research Institute by Charles Brown"
+    },
+    {
+     "no": 8,
+     "book": "Energy Manager Training Manual, Bureau of Energy Efficiency (BEE) under Ministry ofPower, GOI, 2004 (available at www.energymanager training.com)."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "L-T-P discrepancy: syllabus detail page prints '3-0-0' while the DE-5 scheme slot prints '3-1-0' (credit 4); both verbatim; ltp recorded from the subject's own detail page.",
+    "Detail-page title prints 'ENERGY CONSERVATION ANDMANAGEMENT' (glued 'ANDMANAGEMENT'); pool prints 'Energy Conservation &Management'.",
+    "Unit headings print with irregular spacing: 'UNIT -I:' .. 'UNIT-V:' — kept as printed.",
+    "Book 8 prints URL split as 'www.energymanager training.com' — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Total Quality Management",
+   "name_print": "TOTAL QUALITY MANAGEMENT (TQM)",
+   "codes": [
+    "RME085"
+   ],
+   "semester": 8,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-6",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-6: RME085 Total Quality Management (scheme row: 3 DEPTT ELECTIVE COURSE-6 3-0-0 70 20 10 100 3)",
+   "units": {
+    "1": "Quality Concepts: Evolution of Quality control, concept change, TQM Modern concept, Quality concept in design. Control on Purchased Product: Procurement of various products, evaluation of supplies, capacity verification, Development ofsources, procurement procedure. Manufacturing Quality: Methods and Techniques for manufacture, Inspection and control of product, Quality in sales andservices, Guarantee, analysis of claims.",
+    "2": "Quality Management: Organization structure and design, Quality function, decentralization, Designing and fittingorganization for different types products and company, Economics of quality value andcontribution, Quality cost, optimizing quality cost, seduction programme. TQM Principles: Leadership, strategic quality planning; Quality councils- employeeinvolvement, motivation; Empowerment; Team and Teamwork; Quality circles, recognitionand reward, performance appraisal; Continuous process improvement; PDCE cycle, 5S,Kaizen; Supplier partnership, Partnering, Supplier rating & selection.",
+    "3": "Tools and Techniques: Seven QC tools (Histogram, Check sheet, Ishikawa diagram, Pareto, Scatter diagram, Controlchart, flow chart). Control Charts: Theory of control charts, measurement range, construction and analysis of R charts, process capability study, use of control charts, P-charts and C-charts.",
+    "4": "Defects Diagnosis and Prevention: Defect study, identification and analysis of defects, corrective measure, factors affectingreliability, MTTF, calculation of reliability, Building reliability in the product, evaluation ofreliability, interpretation of test results, reliability control, maintainability, zero defects, qualitycircle.",
+    "5": "IS0and its concept of Quality Management: Quality systems, need for ISO 9000, ISO 9001-9008; Quality system- elements,documentation, Quality auditing, QS 9000, ISO 14000- concepts, requirements and benefits;TQM implementation in manufacturing and service sectors, Auditing,Taguchi method, JIT in some details."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Total Quality Management, by Dale H. Besterfield, Pearson India."
+    },
+    {
+     "no": 2,
+     "book": "Beyond Total Quality Management, Greg Bounds, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Besterfield D.H. et al., Total qualityManagement, 3rd ed., Pearson Education Asia, 2006."
+    },
+    {
+     "no": 4,
+     "book": "Evans J.R. and Lindsay W.M., The management and Control of Quality, 8th ed., firstIndian edition, Cengage Learning, 2012."
+    },
+    {
+     "no": 5,
+     "book": "Janakiraman B. and Gopal R.K., Total Quality Management, Prentice Hall India, 2006."
+    },
+    {
+     "no": 6,
+     "book": "Suganthi L. and Samuel A., Total Quality Management, Prentice Hall India, 2006."
+    },
+    {
+     "no": 7,
+     "book": "Total Quality Management by Mukherjee, P.N."
+    },
+    {
+     "no": 8,
+     "book": "TQM in New Product manufacturing, H. G. Menon, McGraw Hill."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Detail-page title includes the parenthetical '(TQM)'; pool prints 'Total Quality Management' without it.",
+    "Unit headings print with irregular spacing: 'UNIT -I:' .. 'UNIT -V:' — kept as printed.",
+    "Unit-II prints 'seduction programme' (for reduction) and 'PDCE cycle' (for PDCA); Unit-V heading prints 'IS0and' (zero glyph) — all verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Gas Dynamics and Jet Propulsion",
+   "name_print": "GAS DYNAMICS AND JETPROPULSION",
+   "codes": [
+    "RME086"
+   ],
+   "semester": 8,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-6",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-6: RME086 Gas Dynamics & Jet Propulsion (scheme row: 3 DEPTT ELECTIVE COURSE-6 3-0-0 70 20 10 100 3)",
+   "units": {
+    "1": "Compressible flow, definition, Mach waves and Mach cone, stagnation states, Mass,momentum and energy equations of one-dimensional flow.",
+    "2": "Isentropic flow through variablearea ducts, nozzle s and diffusers, subsonic and supersonic flow I variable area ducts, chokedflow, Area-Mach number relations for isentropic flow.",
+    "3": "Non-isentropic flow in constant area ducts, Rayleigh and Fano flows, Normal shockrelations, oblique shock relations, isentropic and shock tables.",
+    "4": "Theory of jet propulsion, thrust equation, thrust power and propulsive efficiency, Operatingprinciple and cycle analysis of ramjet, turbojet, turbofan and turboprop engines.",
+    "5": "Types of rocket engines, propellants & feeding systems, ignition and combustion, theory ofrocket propulsion, performance study, staging, terminal and characteristic velocity, spaceflights."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Ahmed F. El-Sayed, Aircraft Prpoulsion and Gas Turbine Engines, CRC Press, 2008."
+    },
+    {
+     "no": 2,
+     "book": "H.S. Mukunda, “Understanding Aerospace Chemical Propulsion”, Interline Publishing,2004."
+    },
+    {
+     "no": 3,
+     "book": "Hill P. and Peterson C., Mechanics & Thermodynamics of Propulsion, Addison Wesley,1992."
+    },
+    {
+     "no": 4,
+     "book": "Zucrow N. J., Aircraft and Missile Propulsion, Vol.I& II, John Wiley, 1975."
+    },
+    {
+     "no": 5,
+     "book": "Sutton G.P., Rocket Propulsion Elements, John Wiley, New York, 1986."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "L-T-P discrepancy: syllabus detail page prints '3-1-0' while the DE-6 scheme slot prints '3-0-0' (credit 3); both verbatim; ltp recorded from the subject's own detail page.",
+    "Detail-page title prints 'GAS DYNAMICS AND JETPROPULSION' (glued 'JETPROPULSION'); pool prints 'Gas Dynamics & Jet Propulsion'.",
+    "Unit headings print with irregular spacing: 'UNIT -I:', 'UNIT-II:', 'UNIT -III:', 'UNIT -IV:', 'UNIT -V:' — kept as printed.",
+    "Unit-II prints 'nozzle s' and 'flow I variable area ducts' verbatim; book 1 prints 'Prpoulsion' verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Design of Transmission Systems",
+   "name_print": "DESIGN OF TRANSMISSION SYSTEMS",
+   "codes": [
+    "RME087"
+   ],
+   "semester": 8,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-6",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-6: RME087 Design & Transmission System (scheme row: 3 DEPTT ELECTIVE COURSE-6 3-0-0 70 20 10 100 3)",
+   "units": {
+    "1": "Flexible transmission elements: Design of flat belts & pulleys, selection of V-belts andpulleys, selection of hoisting wire ropes and pulleys, design of chains and sprockets.",
+    "2": "Gear transmission: Speed ratios and number of teeth, force analysis, tooth stresses, dynamiceffects, fatigue strength, factor safety, gear materials; Design of straight tooth spur gear andparallel axis helical gears based on strength and wear considerations, pressure angle in thenormal and transverse plane; equivalent number of teeth and forces for helical gears.",
+    "3": "Straight bevel gear: Tooth terminology, tooth forces and stresses, equivalent number of teeth.Estimating the dimensions of a pair of straight bevel gears; Worm gear, merits & demerits,terminology, thermal capacity, materials, forces & stresses, efficiency, estimating the size ofworm gear pair. Cross helical gears, terminology, helix angles, sizing of a pair of helicalgears.",
+    "4": "Gear box: Geometric progression, standard step ratio; Ray diagram, kinematics layout;Design of sliding mesh gear box- Design of multi-seed gear box for machine toolapplications; constant mesh gear box, speed reducer unit; Variable speed gear box; Fluidcouplings, Torque converters for automotive applications.",
+    "5": "Cam design, types: Pressure angle and undercutting base circle determination, forces andsurface stresses; Design of plate clutches, axial clutches, cone clutches, internal expandingrim clutches; Electromagnetic clutches; Band and Block brakes, external shoe brakes, internalexpanding shoe brake."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Shigley J., Mischke C., Budynas R. and Nisbett K., Mechanical Engineering Design, 8th ed., Tata McGraw Hill, 2010."
+    },
+    {
+     "no": 2,
+     "book": "Jindal U.C., Machine Design: Design of Transmission System, Dorling Kindersley, 2010."
+    },
+    {
+     "no": 3,
+     "book": "Design of transmission systems by Eamanamurthy and S Machandran."
+    },
+    {
+     "no": 4,
+     "book": "Electrical Power Transmission System Engineering: Analysis and Design” by TuranGonen."
+    },
+    {
+     "no": 5,
+     "book": "Experimental Stress Analysis for Materials and Structures (Springer Series in Solid and Structural Mechanics)” by Alessandro Freddi and Giorgio Olmi."
+    },
+    {
+     "no": 6,
+     "book": "Radio Frequency Transmission Systems: Design and Operation” by Jerry Whitaker."
+    },
+    {
+     "no": 7,
+     "book": "Maitra G. and Prasad L., Handbook of Mechanical Design, 2nd ed., Tata McGraw Hill, 2001."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "Name variant: DE-6 pool table prints 'Design & Transmission System' vs detail page title 'DESIGN OF TRANSMISSION SYSTEMS'.",
+    "Unit headings print with irregular spacing: 'UNIT -I:' .. 'UNIT -V:' — kept as printed.",
+    "Unit-IV prints 'multi-seed gear box' (for multi-speed) verbatim.",
+    "Books 4-6 print an orphan closing quote 'Design” by TuranGonen' with no opening quote — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Theory of Elasticity",
+   "name_print": "THEORY OF ELASTICITY",
+   "codes": [
+    "RME088"
+   ],
+   "semester": 8,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_group": "DEPARTMENTAL ELECTIVE-6",
+   "scheme_row_print": "DEPARTMENTAL ELECTIVE-6: RME088 Theory of Elasticity. (scheme row: 3 DEPTT ELECTIVE COURSE-6 3-0-0 70 20 10 100 3)",
+   "units": {
+    "1": "Basic Equations of Elasticity: Definition of Stress and Strain: Stress – Strain Relationships – Equations of Equilibrium, Compatibility Equations, Boundary Conditions, Saint Venant’sprinciple – Principal Stresses, Stress Ellipsoid – Stress Invariants.",
+    "2": "Plane Stress and Plane Strain Problems: Airy’s Stress Function, Bi-Harmonic Equations, Polynomial Solutions, Simple Two-Dimensional Problems in Cartesian Coordinates Like Bending of Cantilever and Simply Supported Beams.",
+    "3": "Polar Coordinates: Equations of Equilibrium, Strain – Displacement Relations, Stress – Strain Relations, Airy’s Stress Function, Axis – Symmetric Problems, Introduction toDunder’s Table, Curved Beam Analysis, Lame’s, Kirsch, Michell’s And Boussinesque Problems – Rotating Discs.",
+    "4": "Torsion: Navier’s Theory, St. Venant’s Theory, Prandtl’s Theory on Torsion, Semi- Inverse Method and Applications to Shafts of Circular, Elliptical, Equilateral Triangular and Rectangular Sections. Membrane Analogy.",
+    "5": "Introduction to Theory of Plates and Shells: Classical Plate Theory – Assumptions – Governing Equations – Boundary conditions – Navier’s Method of Solution for Simply Supported Rectangular Plates Levy’s Method of Solution forRectangular Plates Under Different Boundary Conditions."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Wang, C. T., “Applied Elasticity”, McGraw – Hill Co., New York, 1993."
+    },
+    {
+     "no": 2,
+     "book": "Sokolnikoff, I. S., “Mathematical Theory of Elasticity”, McGraw – Hill, New York, 1978."
+    },
+    {
+     "no": 3,
+     "book": "Volterra & J.H. Caines, “Advanced Strength of Materials”, Prentice Hall, New Jersey, 1991."
+    },
+    {
+     "no": 4,
+     "book": "Barber, J. R., “Elasticity”, Kluwer Academic Publishers, 2004."
+    },
+    {
+     "no": 5,
+     "book": "Theory of elasticity by S.Timoshenko."
+    }
+   ],
+   "reference_books": [],
+   "objectives_print": [],
+   "quirks": [
+    "No COs/K-levels, objectives or prerequisites printed in this document (printed blank).",
+    "DE-6 pool table prints 'Theory of Elasticity.' with a trailing period — kept in pool record.",
+    "Unit headings print without dash: 'UNIT I:' .. 'UNIT V:' — kept as printed.",
+    "Unit-III/Unit-IV contain blank-line blocks in the text layer (verified: page has zero embedded images, no dropped equation graphics); Unit-V prints 'Plates Levy's' with no period between the two methods — verbatim, whitespace normalized.",
+    "Unit-I prints 'Saint Venant’sprinciple' and Unit-III 'Introduction toDunder’s Table' glued — verbatim."
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH 4th YEAR MECHANICAL ENGINEERING ON CHOICE BASED CREDIT SYSTEM (EFFECTIVE FROM THE SESSION: 2019-20)",
+   "locator": "p.1 cover"
+  },
+  {
+   "kind": "course_scope_note",
+   "print": "B. TECH 4th YEAR MECHANICAL ENGINEERING ON CHOICE BASED CREDIT SYSTEM",
+   "locator": "p.1 cover"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "SEVENTH SEMESTER | Sl.No. | Subject Code | Subject Name | Department | L-T-P | Th/Lab Marks | Sessional | Total | Credit | ESE | CT | TA",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "1 | OPEN ELECTIVE COURSE-1 | Other Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "2 | DEPTT ELECTIVE COURSE-3 | Core Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "3 | DEPTT ELECTIVE COURSE-4 | Core Deptt. | 3-1-0 | 70 | 20 | 10 | 100 | 4",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "4 | RME701 | CAD/CAM | Core Deptt. | 3-1-0 | 70 | 20 | 10 | 100 | 4",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "5 | RME702 | Automobile Engineering | Core Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "6 | RME751 | CAD/CAM Lab | Core Deptt. | 0-0-2 | 50 | 50 | 100 | 1",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "7 | RME752 | IC Engine & Automobile Lab | Core Deptt. | 0-0-2 | 50 | 50 | 100 | 1",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "8 | RME753 | INDUSTRIAL TRAINING | Core Deptt. | 0-0-3 | 100 | 100 | 2 (marks sit in Sessional column per TOTAL arithmetic; no syllabus detail page printed)",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "9 | RME754 | PROJECT-1 | Core Deptt. | 0-0-6 | 200 | 200 | 3 (marks sit in Sessional column per TOTAL arithmetic; no syllabus detail page printed)",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "TOTAL | 450 | 100 | 450 | 1000 | 24",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "DEPARTMENTAL ELECTIVE-3 (Sub.Code | Subject Name): RME070 Composite Materials | RME071 Power Plant Engineering | RME072 Supply Chain Management | RME073 Additive Manufacturing",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "DEPARTMENTAL ELECTIVE-4 (S.Code | Subject Name): RME075 Operation Research | RME076 Modelling &Simmulation | RME077 Computational Fluid Dynamics | RME078 Automation & Robotics",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "EIGHT SEMESTER | Sl.No. | Subject Code | Subject Name | Department | L-T-P | Th/Lab Marks | Sessional | Total | Credit | ESE | CT | TA",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "1 | OPEN ELECTIVE COURSE-2 | Other Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "2 | DEPTT ELECTIVE COURSE-5 | Core Deptt. | 3-1-0 | 70 | 20 | 10 | 100 | 4",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "3 | DEPTT ELECTIVE COURSE-6 | Core Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "4 | RME851 | SEMINAR | Core Deptt. | 0-0-3 | 100 | 100 | 2 (marks sit in Sessional column per TOTAL arithmetic; no syllabus detail page printed)",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "5 | RME852 | PROJECT-2 | Core Deptt. | 0-0-12 | 350 | 250 | 600 | 12 (350 in ESE column, 250 in Sessional column per TOTAL arithmetic; no syllabus detail page printed)",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "TOTAL | 560 | 60 | 380 | 1000 | 24",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "DEPARTMENTAL ELECTIVE-5 (Sub.Code | Subject Name): RME080 Non-Destructive Testing | RME081 Advance Welding | RME082 Thermal Turbo Machine | RME083 Energy Conservation &Management",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "DEPARTMENTAL ELECTIVE-6 (S.Code | Subject Name): RME085 Total Quality Management | RME086 Gas Dynamics & Jet Propulsion | RME087 Design & Transmission System | RME088 Theory of Elasticity.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "mooc_pool",
+   "print": "S.Code | MOOC Subject Name | S.Code | MOOC Subject Name: RME084 Industrial Safety Engineering. | RME089 Manufacturing of Composites.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "section_header",
+   "print": "SEMESTER-VII",
+   "locator": "p.3"
+  },
+  {
+   "kind": "section_header",
+   "print": "DEPARTMENTAL ELECTIVE-3",
+   "locator": "p.10"
+  },
+  {
+   "kind": "section_header",
+   "print": "DEPARTMENTAL ELECTIVE-4",
+   "locator": "p.16"
+  },
+  {
+   "kind": "section_header",
+   "print": "SEMESTER-VIII",
+   "locator": "p.20"
+  },
+  {
+   "kind": "section_header",
+   "print": "DEPARTMENTAL ELECTIVE-5",
+   "locator": "p.21"
+  },
+  {
+   "kind": "section_header",
+   "print": "DEPARTMENTAL ELECTIVE-6",
+   "locator": "p.26"
+  }
+ ],
+ "quirks": [
+  "Cover title (p.1, verbatim): 'DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW / STUDY & EVALUATION SCHEME WITH SYLLABUS / FOR / B. TECH 4th YEAR / MECHANICAL ENGINEERING / ON / CHOICE BASED CREDIT SYSTEM / (EFFECTIVE FROM THE SESSION: 2019-20)'.",
+  "Scheme-table header prints stacked: 'Th/Lab Marks' (sub-col ESE), 'Sessional' (sub-cols CT, TA), 'Total', 'Credit'; value-to-column mapping confirmed by TOTAL-row arithmetic (VII-sem: ESE 450=70x5+50x2, CT 100=20x5, TA 450=10x5+50x2+100+200, Total 1000, Credit 24; VIII-sem: ESE 560=70x3+350, CT 60=20x3, TA 380=10x3+100+250, Total 1000, Credit 24). Lab rows print only two numbers: 50 in ESE column, 50 in Sessional TA sub-column.",
+  "No course objectives, course outcomes (K-levels), prerequisites or eligibility are printed anywhere in this 30-page document; cos=[] and omitted keys reflect printed blanks.",
+  "Text layer frequently lacks inter-word spaces (glued words) at line/justify boundaries, e.g. 'Matrixmaterials', 'Thermosetsand Thermoplastics', 'AdditiveManufacturing', 'Manufacturingand', 'selectionEffect', 'andinvestor's', 'Powerand', 'Gearratio', 'schemespropertiesofdiscretization' — transcribed verbatim; line-join whitespace normalized to single spaces.",
+  "L-T-P print discrepancies between scheme table and syllabus detail pages: RME702 scheme row '3-0-0' vs detail page '3-1-0'; RME083 detail page '3-0-0' vs DE-5 slot '3-1-0'; RME086 detail page '3-1-0' vs DE-6 slot '3-0-0'. Both prints recorded verbatim.",
+  "Name variants between scheme/pool tables and detail-page titles: RME075 'Operation Research' vs 'OPERATIONS RESEARCH'; RME076 'Modelling &Simmulation' vs 'MODELLING AND SIMULATION'; RME081 'Advance Welding' vs 'ADVANCED WELDING'; RME082 'Thermal Turbo Machine' vs 'THERMAL TURBOMACHINES'; RME083 'Energy Conservation &Management' vs 'ENERGY CONSERVATION ANDMANAGEMENT'; RME085 'Total Quality Management' vs 'TOTAL QUALITY MANAGEMENT (TQM)'; RME086 'Gas Dynamics & Jet Propulsion' vs 'GAS DYNAMICS AND JETPROPULSION'; RME087 'Design & Transmission System' vs 'DESIGN OF TRANSMISSION SYSTEMS'; RME088 'Theory of Elasticity.' (trailing period) vs 'THEORY OF ELASTICITY'; RME752 'IC Engine & Automobile Lab' vs 'I.C. ENGINES & AUTOMOBILE LAB'.",
+  "RME076 detail page is titled 'MODELLING AND SIMULATION' but all five units are Bioinformatics content (bioinformatics databases, DNA/RNA, Perl, genomes, BLAST) and the book list mixes bioinformatics titles with three simulation titles (Fishwich, Banks et al., Law & Kelton) — printed as-is; flagged needs_review.",
+  "Books are printed as one combined 'Books and References:' list per subject; recorded under textbooks with reference_books empty — no separate reference-book heading exists in this document.",
+  "Text layer clean (embedded CID fonts, fully extractable; no scanned/raster pages — only the 2 cover logo images); no unit_ocr_recovered_no_text_layer flags.",
+  "Printed typos kept verbatim, e.g. 'Fusion Deposition Modelling' (RME701 U-V), 'Toque converters', 'Powerand', 'Gearratio' (RME702), 'are to carried out' (RME751), 'resintransplantmethod' (RME070), 'PDCE cycle', 'seduction programme', 'IS0and' (RME085), 'nozzle s', 'flow I variable', 'Prpoulsion' (RME086), 'multi-seed' (RME087), 'Thomsan Learning' (RME075), 'Perason Education' (RME076), 'Tayers&Francis', 'Jaluriaans Torrance' (RME077), 'Publishsers' (RME081), 'Maretin Christopher' (RME072), 'Addison Weslay' (RME082), 'Eamanamurthy and S Machandran' (RME087), 'Addision', 'HallZimmers', 'IntegratedManufacturing', 'ofIndia' (RME701 books)."
+ ],
+ "flags": []
+}

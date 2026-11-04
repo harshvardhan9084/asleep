@@ -1,0 +1,1194 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_me_y2_model-curriculum_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "7d699e03eb1f40d3",
+ "stem": "01_btech_me_y2_model-curriculum_2019-20",
+ "subjects": [
+  {
+   "name": "Thermodynamics",
+   "name_print": "THERMODYNAMICS",
+   "codes": [
+    "KME301"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To learn about work and heat interactions, and balance of energy between system andits surroundings.",
+    "To learn about application of I law to various energy conversion devices.",
+    "To evaluate the changes in properties of substances in various processes.",
+    "To understand the difference between high grade and low-grade energies and II lawlimitations on energy conversion."
+   ],
+   "units": {
+    "1": "Review of Fundamental Concepts and Definitions:\nIntroduction- Basic Concepts: System, ControlVolume, Surrounding, Boundaries, Universe, Types of Systems, Macroscopic and Microscopicviewpoints, Concept of Continuum, Thermodynamic Equilibrium, State, Property, Process, Exact & Inexact Differentials, Cycle Reversibility Quasi – static Process, Irreversible Process, Causes of Irreversibility Energy and its forms, Work and heat (sign convention), Gas laws, Ideal gas, Real gas, Law of corresponding states, Property of mixture of gases, electrical, magnetic,gravitational, spring and shaft work.\nZeroth law of thermodynamics:Concept of Temperature and its’ measurement, Temperature scales.\nFirst law of thermodynamics:\nFirst Law for Flow Processes - Derivation of general energy equation for a control volume;Steady state steady flow processes including throttling; Examples of steady flow devices;Unsteady processes; examples of steady and unsteady I law applications for system andcontrol volume. Limitations of first law of thermodynamics, PMM-I. Steady flow systems and their analysis, Steady flow energy equation, Boilers, Condensers, Turbine, Throttling process, Pumps etc.",
+    "2": "Second law of thermodynamics:\nThermal reservoirs, Energy conversion, Heat engines, Efficiency, Reversed heat engine, Heat pump, Refrigerator, Coefficient of Performance, Kelvin Planck and Clausius statement of second law of thermodynamics, Equivalence of the two statements. Reversible and irreversible processes, Carnot cycle and Carnot engine, Carnot theorem and it’s corollaries, Thermodynamic Temperature Scale, PMM-II.\nEntropy: Clausius inequality, Concept of Entropy, Entropy change of pure substance in different thermodynamic processes, Tds equation, Principle of entropy increase, T-S diagram, Statement of the third law of thermodynamics.",
+    "3": "Availability and Irreversibility:\nAvailable and unavailable energy, Availability and Irreversibility, Second law efficiency, Helmholtz & Gibb’s function.\nThermodynamic relations:\nConditions for exact differentials. Maxwell relations, Clapeyron equation, Joule-Thompson coefficient and Inversion curve. Coefficient of volume expansion, Adiabatic and Isothermal compressibility.",
+    "4": "Properties of steam and Rankine cycle:\nPure substance, Property of Pure Substance (steam), Triple point, Critical point, Saturation states, Sub-cooled liquid state, Superheated vapour state, Phase transformation process of water, Graphical representation of pressure, volume and temperature, P-T, P-V and P-h diagrams, T-S and H-S diagrams, use of property diagram, Steam-Tables &Moller chart, Dryness factor and it’s measurement, processes involving steam in closed and open systems. Simple Rankine cycle.\nAir-water vapour mixture and Psychrometry: Psychometric terms and their definitions, Psychometric chart, Different Psychometric processes and their representation on Psychometric chart.",
+    "5": "Refrigeration Cycles:\nReversed Carnot Cycle for gas and vapour. Refrigeration capacity, unit of refrigeration.Air Refrigeration cycles; Reversed Brayton Cycle and Bell Coleman Cycle. Vapour compression refrigeration cycle; simple saturated cycle and actual vapour compression refrigeration cycle. Analysis of cycles, effect of superheating, sub-cooling and change in evaporator and condenser pressure on performance of vapour compression refrigeration cycle. Refrigerants; their classification and desirable properties. Vapour absorption refrigeration system."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "After completing this course, the students will be able to apply energy balance to systems and control volumes, in situations involving heat and work interactions."
+    },
+    {
+     "no": 2,
+     "text": "Students can evaluate changes in thermodynamic properties of substances."
+    },
+    {
+     "no": 3,
+     "text": "The students will be able to evaluate the performance of energy conversion devices."
+    },
+    {
+     "no": 4,
+     "text": "The students will be able to differentiate between high grade and low-grade energies."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Basic and Applied Thermodynamics by PK Nag, MCGRAW HILL INDIA."
+    },
+    {
+     "no": 2,
+     "book": "Thermodynamics for Engineers by Kroos& Potter, Cengage Learning."
+    },
+    {
+     "no": 3,
+     "book": "Thermodynamics by Shavit and Gutfinger, CRC Press."
+    },
+    {
+     "no": 4,
+     "book": "Thermodynamics- An Engineering Approach by Cengel, MCGRAW HILL INDIA."
+    },
+    {
+     "no": 5,
+     "book": "Basic Engineering Thermodynamics, Joel, Pearson."
+    },
+    {
+     "no": 6,
+     "book": "Fundamentals of Engineering Thermodynamics by Rathakrishnan, PHI."
+    },
+    {
+     "no": 7,
+     "book": "Engineering Thermodynamics by Dhar, Elsevier."
+    },
+    {
+     "no": 8,
+     "book": "Engineering Thermodynamics by Onkar Singh, New Age International."
+    },
+    {
+     "no": 9,
+     "book": "Engineering Thermodynamics by CP Arora."
+    },
+    {
+     "no": 10,
+     "book": "Engineering Thermodynamics by Rogers, Pearson."
+    },
+    {
+     "no": 11,
+     "book": "Fundamentals of Engineering Thermodynamics by Moran, Shapiro, Boettner, & Bailey, John Wiley."
+    },
+    {
+     "no": 12,
+     "book": "Engineering Thermodynamics by Mishra, Cengage Learning."
+    },
+    {
+     "no": 13,
+     "book": "Refrigeration and Air Conditioning by C P Arora, MCGRAW HILL INDIA."
+    }
+   ],
+   "quirks": [
+    "Print spacing/typo artifacts kept verbatim: 'andits', 'II lawlimitations', 'ControlVolume', 'Microscopicviewpoints', 'magnetic,gravitational', 'thermodynamics:Concept', 'its’ measurement', 'volume;Steady', 'devices;Unsteady', 'system andcontrol volume', 'refrigeration.Air', 'Kroos& Potter', 'Steam-Tables &Moller chart' (Mollier), 'Psychometric' for Psychrometric"
+   ],
+   "flags": [],
+   "scheme_row_print": "3 KME301 Thermodynamics 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 pp.3-4 (detailed syllabus), p.2 (scheme row)"
+  },
+  {
+   "name": "Fluid Mechanics & Fluid Machines",
+   "name_print": "FLUID MECHANICS AND FLUID MACHINES",
+   "codes": [
+    "KME302"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To learn about the application of mass and momentum conservation laws for fluid flows.",
+    "To understand the importance of dimensional analysis.",
+    "To obtain the velocity and pressure variations in various types of simple flows.",
+    "To analyze the flow in water pumps and turbines."
+   ],
+   "units": {
+    "1": "Definition of fluid, Newton’s law of viscosity, Units and dimensions-Properties of fluids,mass density, specific volume, specific gravity, viscosity, compressibility and surfacetension, Incompressible flow, Bernoulli’s equation and its applications - Pitot tube, orifice meter, venturi meter and bend meter, notches and weirs, momentum equation and its application to pipe bends.",
+    "2": "Continuum & free molecular flows. Steady and unsteady, uniform and non-uniform, laminar and turbulent flows, rotational and irrotational flows, compressible and incompressible flows, subsonic, sonic and supersonic flows, sub-critical, critical and supercritical flows, one, two- and three-dimensional flows, streamlines, continuity equation for 3D and 1D flows, circulation, stream function and velocity potential. Buckingham’s Pi theorem, important dimensionless numbers and their significance.",
+    "3": "Equation of motion for laminar flow through pipes, turbulent flow, isotropic, homogenous turbulence, scale and intensity of turbulence, measurement of turbulence, eddy viscosity, resistance to flow, minor losses, pipe in series and parallel, power transmission through a pipe, siphon, water hammer, three reservoir problems and pipe networks.\nBoundary layer thickness, boundary layer over a flat plate, laminar boundary layer, application of momentum equation, turbulent boundary layer, laminar sublayer, separation and its control, Drag and lift, drag on a sphere, a two-dimensional cylinder, and an aerofoil, Magnus effect.",
+    "4": "Introduction to hydrodynamic thrust of jet on a fixed and moving surface, Classification of turbines, Impulse turbines, Constructional details, Velocity triangles, Power and efficiency calculations, Governing of Pelton wheel.\nFrancis and Kaplan turbines, Constructional details, Velocity triangles, Power and efficiency Principles of similarity, Unit and specific speed, Performance characteristics, Selection of water turbines.",
+    "5": "Classifications of centrifugal pumps, Vector diagram, Work done by impellor, Efficiencies of centrifugal pumps, Specific speed, Cavitation & separation, Performance characteristics.\nReciprocating pump theory, Slip, Indicator diagram, Effect of acceleration, air vessels, Comparison of centrifugal and reciprocating pumps, Performance characteristics."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion of this course, students will be able to mathematically analyze simple flow situations."
+    },
+    {
+     "no": 2,
+     "text": "They will be able to evaluate the performance of pumps and turbines."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Introduction to fluid mechanics and Fluid machines by S.K Som, Gautam Biswas, S Chakraborty."
+    },
+    {
+     "no": 2,
+     "book": "Fluid mechanics and machines by R.K Bansal."
+    },
+    {
+     "no": 3,
+     "book": "F. M. White, Fluid Mechanics, 6th Ed., Tata McGraw-Hill, 2008."
+    },
+    {
+     "no": 4,
+     "book": "Fluid Mechanics and Its Applications byV.K.Gupta et.al."
+    },
+    {
+     "no": 5,
+     "book": "Fluid Mechanics byYunusCengel."
+    },
+    {
+     "no": 6,
+     "book": "Batchelor, G. K. (1999). Introduction to fluid dynamics. New Delhi, India: Cambridge University Press."
+    },
+    {
+     "no": 7,
+     "book": "Acheson, D. J. (1990). Elementary fluid dynamics. New York, USA: Oxford UniversityPress."
+    },
+    {
+     "no": 8,
+     "book": "R.W. Fox, A.T. McDonald and P.J. Pritchard, Introduction to Fluid Mechanics, 6th Ed., John Wiley, 2004."
+    }
+   ],
+   "quirks": [
+    "Unit-V prints 'impellor' (impeller) verbatim",
+    "Spacing artifacts kept verbatim: 'fluids,mass density', 'surfacetension', 'byV.K.Gupta et.al.', 'byYunusCengel', 'UniversityPress'",
+    "Detail heading (p.5) prints 'FLUID MECHANICS AND FLUID MACHINES' vs scheme row (p.2) 'Fluid Mechanics & Fluid Machines'"
+   ],
+   "flags": [],
+   "scheme_row_print": "4 KME302 Fluid Mechanics & Fluid Machines 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 pp.5-6 (detailed syllabus), p.2 (scheme row)"
+  },
+  {
+   "name": "Materials Engineering",
+   "name_print": "MATERIALS ENGINEERING",
+   "codes": [
+    "KME303"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "Understanding of the correlation between the internal structure of materials, theirmechanical properties and various methods to quantify their mechanical integrity andfailure criteria.",
+    "To provide a detailed interpretation of equilibrium phase diagrams.",
+    "Learning about different phases and heat treatment methods to tailor the properties of Fe-Calloys."
+   ],
+   "units": {
+    "1": "Crystal Structure: Unit cells, Metallic crystal structures, Ceramics. Imperfection in solids:Point, line, interfacial and volume defects; dislocation strengthening mechanisms and slipsystems, critically resolved shear stress.\nMechanical Property measurement: Tensile, compression and torsion tests; Young’smodulus, relations between true and engineering stress-strain curves, generalized Hooke’slaw, yielding and yield strength, ductility, resilience, toughness and elastic recovery;Hardness: Rockwell, Brinell and Vickers and their relation to strength.",
+    "2": "Static failure theories: Ductile and brittle failure mechanisms, Tresca, Von-mises, Maximumnormal stress, Mohr-Coulomb and Modified Mohr-Coulomb; Fracture mechanics:Introduction to Stress-intensity factor approach and Griffith criterion. Fatigue failure: Highcycle fatigue, Stress-life approach, SN curve, endurance and fatigue limits, effects of meanstress using the Modified Goodman diagram; Fracture with fatigue, Introduction to non-destructive testing (NDT).",
+    "3": "Alloys, substitutional and interstitial solid solutions- Phase diagrams: Interpretation of binaryphase diagrams and microstructure development; eutectic, peritectic, peritectoid and monotectic reactions.\nIron Iron-carbide phase diagram and microstructural aspects ofledeburite, austenite, ferrite and cementite, cast iron.",
+    "4": "Heat treatment of Steel: Annealing, tempering, normalising and spheroidising, isothermaltransformation diagrams for Fe-C alloys and microstructure development. Continuouscooling curves and interpretation of final microstructures and properties- austempering,martempering, case hardening, carburizing, nitriding, cyaniding, carbo-nitriding, flame andinduction hardening, vacuum and plasma hardening.",
+    "5": "Alloying of steel, properties of stainless steel and tool steels, maraging steels- cast irons;grey, white, malleable and spheroidal cast irons- copper and copper alloys; brass, bronze andcupro-nickel; Aluminium and Al-Cu – Mg alloys- Nickel based superalloys and Titaniumalloys."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Student will be able to identify crystal structures for various materials and understand thedefects in such structures."
+    },
+    {
+     "no": 2,
+     "text": "Understand how to tailor material properties of ferrous and non-ferrous alloys."
+    },
+    {
+     "no": 3,
+     "text": "How to quantify mechanical integrity and failure in materials."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "W. D. Callister, 2006, “Materials Science and Engineering-An Introduction”, 6th Edition, Wiley India."
+    },
+    {
+     "no": 2,
+     "book": "Kenneth G. Budinski and Michael K. Budinski, “Engineering Materials”, Prentice Hall of India Private Limited, 4th Indian Reprint, 2002."
+    },
+    {
+     "no": 3,
+     "book": "V. Raghavan, “Material Science and Engineering’, Prentice Hall of India Private Limited, 1999."
+    },
+    {
+     "no": 4,
+     "book": "Mechanics of materials by James M.Gere."
+    },
+    {
+     "no": 5,
+     "book": "Introduction to engineering materials by B.K. Agarwal."
+    },
+    {
+     "no": 6,
+     "book": "Physical metallurgy and advanced materials by R.E. Smallman."
+    },
+    {
+     "no": 7,
+     "book": "Engineering mechanics of composite materials by Isaac M. Daniel."
+    },
+    {
+     "no": 8,
+     "book": "U. C. Jindal, “Engineering Materials and Metallurgy”, Pearson, 2011."
+    }
+   ],
+   "quirks": [
+    "Unit-IV printed one word per line (justified-text artifact), rejoined verbatim",
+    "Spacing artifacts kept verbatim: 'theirmechanical', 'andfailure', 'Fe-Calloys', 'solids:Point', 'slipsystems', 'Young’smodulus', 'Hooke’slaw', 'recovery;Hardness', 'Maximumnormal', 'mechanics:Introduction', 'Highcycle', 'meanstress', 'binaryphase', 'ofledeburite', 'isothermaltransformation', 'Continuouscooling', 'austempering,martempering', 'andinduction', 'irons;grey', 'andcupro-nickel', 'Titaniumalloys', 'the defect(s)' as 'thedefects' in CO-1",
+    "Book 3 prints mismatched quotes: “Material Science and Engineering’ verbatim",
+    "CO-1 prints singular 'Student will be able to' verbatim"
+   ],
+   "flags": [],
+   "scheme_row_print": "5 KME303 Materials Engineering 3 0 0 30 20 50  100  150 3 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 pp.7-8 (detailed syllabus), p.2 (scheme row)"
+  },
+  {
+   "name": "Fluid Mechanics Lab",
+   "name_print": "FLUID MECHANICS LAB",
+   "codes": [
+    "KME351"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To understand the principles and performance characteristics of flow and thermal devices.",
+    "To know about the measurement of the fluid properties."
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To determine the coefficient of impact for vanes."
+    },
+    {
+     "no": 2,
+     "exp": "To determine coefficient of discharge of an orifice meter."
+    },
+    {
+     "no": 3,
+     "exp": "To determine the coefficient of discharge of Notch (V and Rectangular types)."
+    },
+    {
+     "no": 4,
+     "exp": "To determine the friction factor for the pipes."
+    },
+    {
+     "no": 5,
+     "exp": "To determine the coefficient of discharge of venturi meter."
+    },
+    {
+     "no": 6,
+     "exp": "To determine the coefficient of discharge, contraction & velocity of an orifice."
+    },
+    {
+     "no": 7,
+     "exp": "To verify the Bernoulli’s Theorem."
+    },
+    {
+     "no": 8,
+     "exp": "To find critical Reynolds number for a pipe flow."
+    },
+    {
+     "no": 9,
+     "exp": "To determine the meta-centric height of a floating body."
+    },
+    {
+     "no": 10,
+     "exp": "To determine the minor losses due to sudden enlargement, sudden contraction and bends."
+    },
+    {
+     "no": 11,
+     "exp": "To show the velocity and pressure variation with radius in a forced vertex flow."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "The students who have undergone the course will be able to measure various properties offluids and characterize the performance of fluid/thermal machinery."
+    }
+   ],
+   "quirks": [
+    "Lab: no unit theory by print design; experiment list only",
+    "Experiments header prints 'List of Experiments:(At least 8 of the following)' — 'at least 8' selection rule verbatim",
+    "Marks: CT/TA/sessional-Total/TE/PE printed blank in scheme except PS 25, PE 25, Total 50, Credit 1 (p.2)",
+    "Spacing artifacts kept verbatim: 'offluids'; exp 11 'forced vertex flow' (vortex) verbatim"
+   ],
+   "flags": [],
+   "scheme_row_print": "6 KME351 Fluid Mechanics Lab 0 0 2     25   25 50 1 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 p.9 (experiment list), p.2 (scheme row)"
+  },
+  {
+   "name": "Material Testing Lab",
+   "name_print": "MATERIAL TESTING LAB",
+   "codes": [
+    "KME352"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To understand the principles and performance characteristics different materials.",
+    "To know about material properties."
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Strength test of a given mild steel specimen on UTM with full details and stress versus strain plot on the machine."
+    },
+    {
+     "no": 2,
+     "exp": "Other tests such as shear, bend tests on UTM."
+    },
+    {
+     "no": 3,
+     "exp": "Impact test on impact testing machine like Charpy, Izod or both."
+    },
+    {
+     "no": 4,
+     "exp": "Hardness test of given specimen using Rockwell and Vickers/Brinell testing machines."
+    },
+    {
+     "no": 5,
+     "exp": "Spring index test on spring testing machine."
+    },
+    {
+     "no": 6,
+     "exp": "Fatigue test on fatigue testing machine."
+    },
+    {
+     "no": 7,
+     "exp": "Creep test on creep testing machine."
+    },
+    {
+     "no": 8,
+     "exp": "Experiment on deflection of beam, comparison of actual measurement of deflection with dial gauge to the calculated one, and or evaluation of young’s modulus of beam."
+    },
+    {
+     "no": 9,
+     "exp": "Torsion test of a rod using torsion testing machine."
+    },
+    {
+     "no": 10,
+     "exp": "Study of NDT (non-destructive testing) methods like magnetic flaw detector, ultrasonic flaw detector, eddy current testing machine, dye penetrant tests."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "The students who have undergone the course will be able to measure various properties of materials."
+    }
+   ],
+   "quirks": [
+    "Lab: no unit theory by print design; experiment list only",
+    "Experiments header prints 'List of Experiments: (At least 8 of the following)' — 'at least 8' selection rule verbatim",
+    "Objective 1 prints elliptical wording 'principles and performance characteristics different materials' verbatim",
+    "Marks: PS 25, PE 25, Total 50, Credit 1 (p.2)"
+   ],
+   "flags": [],
+   "scheme_row_print": "7 KME352 Material Testing Lab 0 0 2     25   25 50 1 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 p.10 (experiment list), p.2 (scheme row)"
+  },
+  {
+   "name": "Computer Aided Machine Drawing-I Lab",
+   "name_print": "COMPUTER AIDED MACHINE DRAWING-I LAB",
+   "codes": [
+    "KME353"
+   ],
+   "semester": 3,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To provide an overview of how computers can be utilized in mechanical component design."
+   ],
+   "units": {
+    "1": "Introduction (1 drawing sheets)\nIntroduction, classification of machine drawings, principles of drawing, conventional representation of machine components and materials, lines, types of lines, dimensioning types, lines and rules of dimensioning.\nOrthographic Projections (3 drawing sheets)\nIntroduction to orthographic projection, concept of first angle and third angle projection, drawing of simple machine elements in first angle projection, missing line problems, principle of visualization of objects, sectional views, full and half sectional views, auxiliary views.",
+    "2": "Fasteners (2 drawing sheets)\nTemporary and permanent fasteners, thread nomenclature and forms, thread series, designation, representation of threads, bolted joints, locking arrangement of nuts, screws, washers, foundation bolts etc., keys, types of keys, cotter and knuckle joints.",
+    "3": "Riveted joints (1 drawing sheet)\nIntroduction, rivets and riveting, types of rivets, types of riveted joints, drawing of boiler joints etc.\nFree hand sketching (1 drawing sheet)\nIntroduction, Need for free hand sketching, Free hand sketching of foundation bolts, studs, pulleys, couplings etc.",
+    "4": "Assembly drawing (2 drawing sheets)\nIntroduction to assembly drawing, drawing assembly drawing of simple machine elements like rigid or flexible coupling, muff coupling, Plummer block, footstep bearing, bracket etc.",
+    "5": "Computer aided drafting (1 drawing)\nIntroduction to computer aided drafting; advantages and applications of CAD, concepts of computer aided 2D drafting using any drafting software like AutoCAD, Solid Edge, Draft Sight etc., basic draw and modify commands, making 2D drawings of simple machine parts."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion of this course, the students can use computer and CAD software formodelling mechanical components."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Machine Drawing by Sadhu Singh & Shah, PHI."
+    },
+    {
+     "no": 2,
+     "book": "Engineering Drawing by Bhat, & Panchal, Charotar Publishing House."
+    },
+    {
+     "no": 3,
+     "book": "Machine Drawing with AutoCAD by Pohit and Ghosh, Pearson."
+    },
+    {
+     "no": 4,
+     "book": "Machine Drawing-KL Narayana, P Kannaiah, KV Reddy, New Age."
+    },
+    {
+     "no": 5,
+     "book": "Machine Drawing, N. Siddeshswar, P Kannaiah, VVS Shastry, Tata McGraw Hill."
+    },
+    {
+     "no": 6,
+     "book": "Engineering Drawing, Pathak, Wiley."
+    },
+    {
+     "no": 7,
+     "book": "Textbook of Machine Drawing, K C John, PHI."
+    },
+    {
+     "no": 8,
+     "book": "AutoCAD 2014 for Engineers & Designers, Bhatt, WILEY"
+    }
+   ],
+   "quirks": [
+    "Drawing-sheet counts '(1 drawing sheets)' etc. printed inside unit headings verbatim",
+    "Spacing artifact 'formodelling' verbatim in CO",
+    "'Siddeshswar' spelling verbatim (book 5); book 8 has no trailing period in print",
+    "Marks: PS 25, PE 25, Total 50, Credit 1 (p.2)"
+   ],
+   "flags": [],
+   "scheme_row_print": "8 KME353 Computer Aided Machine Drawing-I Lab 0 0 2     25   25 50 1 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 p.11 (detailed syllabus), p.2 (scheme row)"
+  },
+  {
+   "name": "Applied Thermodynamics",
+   "name_print": "APPLIED THERMODYNAMICS",
+   "codes": [
+    "KME401"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To learn about of I law for reacting systems and heating value of fuels.",
+    "To learn about gas and vapor cycles and their first law and second law efficiencies.",
+    "To understand about the properties of dry and wet air and the principles of psychrometry.",
+    "To learn about gas dynamics of air flow and steam through nozzles.",
+    "To learn the about reciprocating compressors with and without intercooling.",
+    "To analyze the performance of steam turbines."
+   ],
+   "units": {
+    "1": "Introduction to solid, liquid and gaseous fuels– Stoichiometry, exhaust gas analysis- First lawanalysis of combustion reactions- Heat calculations using enthalpy tables- Adiabatic flametemperature- Chemical equilibrium and equilibrium composition calculations using freeenergy.\nIntroduction and Otto, Diesel and Dual cycles.",
+    "2": "Vapour Power cycles:\nVapor power cycles Rankine cycle with superheat, reheat and regeneration, exergy analysis. Rankine cycle, effect of pressure and temperature on Rankine cycle, Reheat cycle, Regenerative cycle, Feed water heaters, Binary vapour cycle, Combined cycles, Cogeneration.\nFuels and Combustion: Combustion analysis, heating values, air requirement, Air/Fuel ratio, standard heat of reaction and effect of temperature on standard heat of reaction, heat of formation, Adiabatic flame temperature.",
+    "3": "Boilers: Classifications and working of boilers, boiler mountings and accessories, Draught and its calculations, air pre-heater, feed water heater, super heater. Boiler efficiency, Equivalent evaporation.\nBoiler trial and heat balance.\nCondenser: Classification of condenser, air leakage, condenser performance parameters.",
+    "4": "Steam and Gas Nozzles: Flow through Convergent and convergent-divergent nozzles, variation of velocity, area and specific volume, choked flow, throat area, Nozzle efficiency, Off design operation of nozzle, Shock waves stationary normal shock waves, Effect of friction on nozzle, Super saturated flow.\nSteam Turbines: Classification of steam turbine, Impulse and Reaction turbines, Staging, Stage and Overall efficiency, reheat factor, Bleeding, Velocity diagram of simple and compound multistage impulse and reaction turbines and related calculations, work done, efficiencies of reaction, Impulse reaction turbines, state point locus, Losses in steam turbines, Governing of turbines, Comparison with steam engine.",
+    "5": "Gas Turbine: Gas turbine classification, Brayton cycle, Principles of gas turbine, Gas turbine cycles with intercooling, reheat and regeneration and their combinations, Stage efficiency, Polytropic efficiency. Deviation of actual cycles from ideal cycles.\nJet Propulsion: Introduction to the principles of jet propulsion, Turbojet and turboprop engines andtheir processes, Principle of rocket propulsion, Introduction to Rocket Engine.\nReciprocating compressors, staging of reciprocating compressors, optimal stage pressureratio, effect of intercooling, minimum work for multistage reciprocating compressors."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "After completing this course, the students will get a good understanding of various practical power cycles and heat pump cycles."
+    },
+    {
+     "no": 2,
+     "text": "They will be able to analyze energy conversion in various thermal devices such as combustors, air coolers, nozzles, diffusers, steam turbines and reciprocating compressors."
+    },
+    {
+     "no": 3,
+     "text": "They will be able to understand phenomena occurring in high speed compressible flows."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Basic and Applied Thermodynamics by P.K. Nag, mcgraw hill india."
+    },
+    {
+     "no": 2,
+     "book": "Applied thermodynamics by Onkar Singh, New Age International."
+    },
+    {
+     "no": 3,
+     "book": "Applied Thermodynamics for Engineering Technologists by Eastop, Pearson Education."
+    },
+    {
+     "no": 4,
+     "book": "Applied Thermodynamics by Venkanna And Swati, PHI."
+    },
+    {
+     "no": 5,
+     "book": "Sonntag, R. E, Borgnakke, C. and Van Wylen, G. J., 2003, 6th Edition, Fundamentals of Thermodynamics, John Wiley and Sons."
+    },
+    {
+     "no": 6,
+     "book": "Jones, J. B. and Duggan, R. E., 1996, Engineering Thermodynamics, Prentice-Hall of India"
+    },
+    {
+     "no": 7,
+     "book": "Moran, M. J. and Shapiro, H. N., 1999, Fundamentals of Engineering Thermodynamics, John Wiley and Sons."
+    },
+    {
+     "no": 8,
+     "book": "Theory of Stream Turbine by WJ Kearton."
+    }
+   ],
+   "quirks": [
+    "Objective typos kept verbatim: 'To learn about of I law for reacting systems', 'To learn the about reciprocating compressors'",
+    "Spacing artifacts kept verbatim: 'fuels– Stoichiometry', 'First lawanalysis', 'flametemperature', 'freeenergy', 'andtheir processes', 'pressureratio'",
+    "Book 1 prints lowercase 'mcgraw hill india' verbatim; book 8 prints 'Theory of Stream Turbine' (Steam) verbatim",
+    "Detail page (p.12) prints section header 'SEMESTER-IV' above the subject heading"
+   ],
+   "flags": [],
+   "scheme_row_print": "3 KME401 Applied Thermodynamics 3 0 0 30 20 50  100  150 3 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 pp.12-13 (detailed syllabus), p.2 (scheme row)"
+  },
+  {
+   "name": "Engineering Mechanics",
+   "name_print": "ENGINEERING MECHANICS",
+   "codes": [
+    "KME402"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To develop capacity to predict the effect of force and motion in the course of carrying out the design functions of engineering."
+   ],
+   "units": {
+    "1": "Two-dimensional force systems: Basic concepts, Laws of motion, Principle of transmissibility of forces, transfer of a force to parallel position, resultant of a force system, simplest resultant of two dimensional concurrent and non-concurrent force systems, distribution of force systems, free body diagrams, equilibrium and equations of equilibrium.\nFriction: Friction force – Laws of sliding friction – equilibrium analysis of simple systems with sliding friction – wedge friction.",
+    "2": "Beam: Introduction, shear force and bending moment, different equations of equilibrium, shear force and bending moment diagram for statically determined beams.\nTrusses: Introduction, simple truss and solution of simple truss, methods of F-joint and methods of sections.",
+    "3": "Centroid and moment of inertia: Centroid of plane, curve, area, volume and composite bodies, moment of inertia of plane area, parallel axis theorem, perpendicular axis theorem, principle moment of inertia, mass moment of inertia of circular ring, disc, cylinder, sphere, and cone about their axis of symmetry.",
+    "4": "Kinematics of rigid body: Introduction, plane motion of rigid body, velocity and acceleration under translational and rotational motion, relative velocity.\nKinetics of rigid body: Introduction, force, mass and acceleration, work and energy, impulse and momentum, D’Alembert’s principle and dynamic equilibrium.",
+    "5": "Simple stress and strain: Introduction, normal and shear stresses, stress-strain diagrams for ductile and brittle material, elastic constants, one-dimensional loading of members of varying cross sections, strain energy.\nPure bending of beams: Introduction, simple bending theory, stress in beams of different cross sections.\nTorsion: Introduction, torsion of shafts of circular cross sections, torque and twist, shear stress due to torque."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "After completing this course, the students should be able to understand the various effect of force and motion on the engineering design structures."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Beer, F.P and Johnston Jr. E.R., “Vector Mechanics for Engineers (In SI Units): Statics and Dynamics”, 8th Edition, Tata McGraw-Hill Publishing company, New Delhi (2004)."
+    },
+    {
+     "no": 2,
+     "book": "Vela Murali, “Engineering Mechanics”, Oxford University Press (2010)."
+    },
+    {
+     "no": 3,
+     "book": "A Textbook of Engineering Mechanics, R.K. Bansal, Laxmi Publications."
+    },
+    {
+     "no": 4,
+     "book": "Engineering Mechanics, R.S. Khurmi, S.Chand Publishing."
+    },
+    {
+     "no": 5,
+     "book": "Meriam J.L. and Kraige L.G., “Engineering Mechanics- Statics - Volume 1, Dynamics- Volume 2”, Third Edition, John Wiley & Sons (1993)."
+    },
+    {
+     "no": 6,
+     "book": "Rajasekaran S and Sankarasubramanian G., “Engineering Mechanics Statics and Dynamics”, 3 rd Edition, Vikas Publishing House Pvt. Ltd., (2005)."
+    },
+    {
+     "no": 7,
+     "book": "Bhavikatti, S.S and Rajashekarappa, K.G., “Engineering Mechanics”, New Age International (P) Limited Publishers, (1998)."
+    },
+    {
+     "no": 8,
+     "book": "Engineering mechanics by Irving H. Shames, Prentice-Hall."
+    }
+   ],
+   "quirks": [
+    "Single printed course outcome (no CO numbering in print)",
+    "Book 6 prints '3 rd Edition' with stray space verbatim"
+   ],
+   "flags": [],
+   "scheme_row_print": "4 KME402 Engineering Mechanics 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 pp.14-15 (detailed syllabus), p.2 (scheme row)"
+  },
+  {
+   "name": "Manufacturing Processes",
+   "name_print": "MANUFACTURING PROCESSES",
+   "codes": [
+    "KME403"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To motivate and challenge students to understand and develop an appreciation of theprocesses in correlation with material properties which change the shape, size and form of theraw materials into the desirable product by conventional or unconventional manufacturingmethods."
+   ],
+   "units": {
+    "1": "Conventional Manufacturing processes:\nCasting and moulding: Metal casting processes and equipment, Heat transfer andsolidification, shrinkage, riser design, casting defects and residual stresses.Introduction to bulk and sheet metal forming, plastic deformation and yield criteria;fundamentals of hot and cold working processes; load estimation for bulk forming (forging,rolling, extrusion, drawing) and sheet forming (shearing, deep drawing, bending) principlesof powder metallurgy.",
+    "2": "Metal cutting: Single and multi-point cutting; Orthogonal cutting, various force components:Chip formation, Tool wear and tool life, Surface finish and integrity, Machinability, cutting tool materials, cutting fluids, Coating; Turning, Drilling, Milling and finishing processes,Introduction to CNC machining.Additive manufacturing: Rapid prototyping and rapid toolingJoining/fastening processes: Physics of welding, brazing and soldering;design considerationsin welding,Solid and liquid state joining processes;Adhesive bonding.",
+    "3": "Grinding & Super finishing:\nGrinding: Grinding wheels, abrasive & bonds, cutting action. Grinding wheel specification. Grinding wheel wear - attritions wear, fracture wear. Dressing and Truing. Max chip thickness and Guest criteria. Surface and cylindrical grinding. Centreless grinding.\nSuper finishing: Honing, lapping and polishing.",
+    "4": "Metal Joining (Welding):\nSurvey of welding and allied processes. Gas welding and cutting, process and equipment. Arc welding: Power sources and consumables. TIG & MIG processes and their parameters. Resistance welding - spot, seam projection etc. Other welding processes such as atomic hydrogen, submerged arc, electroslag, friction welding. Soldering & Brazing. Adhesive bonding. Weld decay in HAZ.",
+    "5": "Unconventional Machining Processes:\nAbrasive Jet Machining, Water Jet Machining, Abrasive Water Jet Machining, UltrasonicMachining, principles and process parameters. Electrical Discharge Machining, principle and processes parameters, MRR, surface finish,tool wear, dielectric, power and control circuits, wire EDM; Electro-chemical machining(ECM), etchant &maskant, process parameters, MRR and surface finish.Laser Beam Machining (LBM), Plasma Arc Machining (PAM) and Electron BeamMachining."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion of this course, students will be able to understand the different conventionaland unconventional manufacturing methods employed for making different products."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Kalpakjian and Schmid, Manufacturing processes for engineering materials (5th Edition)- Pearson India, 2014."
+    },
+    {
+     "no": 2,
+     "book": "Mikell P. Groover, Fundamentals of Modern Manufacturing: Materials, Processes, and Systems."
+    },
+    {
+     "no": 3,
+     "book": "Manufacturing Technology by P.N. Rao., MCGRAW HILL INDIA."
+    },
+    {
+     "no": 4,
+     "book": "Materials and Manufacturing by Paul Degarmo."
+    },
+    {
+     "no": 5,
+     "book": "Manufacturing Processes by Kaushish, PHI."
+    },
+    {
+     "no": 6,
+     "book": "Principles of Foundry Technology, Jain, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 7,
+     "book": "Production Technology by RK Jain."
+    },
+    {
+     "no": 8,
+     "book": "Degarmo, Black &Kohser, Materials and Processes in Manufacturing."
+    }
+   ],
+   "quirks": [
+    "Spacing artifacts kept verbatim: 'theprocesses', 'theraw', 'manufacturingmethods', 'andsolidification', 'stresses.Introduction', 'criteria;fundamentals', '(forging,rolling', 'principlesof', 'components:Chip', 'processes,Introduction', 'machining.Additive', 'toolingJoining/fastening', 'soldering;design considerationsin welding,Solid', 'processes;Adhesive', 'UltrasonicMachining', 'finish,tool wear', 'machining(ECM)', '&maskant', 'finish.Laser', 'BeamMachining', '&Kohser', 'conventionaland' in CO",
+    "Single printed course outcome (no CO numbering in print); book 6 has no trailing period in print"
+   ],
+   "flags": [],
+   "scheme_row_print": "5 KME403 Manufacturing Processes 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 pp.16-17 (detailed syllabus), p.2 (scheme row)"
+  },
+  {
+   "name": "Applied Thermodynamics Lab",
+   "name_print": "APPLIED THERMODYNAMICS LAB",
+   "codes": [
+    "KME451"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To understand the principles and performance of various boilers and engines."
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of Fire Tube boiler."
+    },
+    {
+     "no": 2,
+     "exp": "Study of Water Tube boiler."
+    },
+    {
+     "no": 3,
+     "exp": "Study and working of Two stroke petrol Engine."
+    },
+    {
+     "no": 4,
+     "exp": "Study and working of Four stroke petrol Engine."
+    },
+    {
+     "no": 5,
+     "exp": "Determination of Indicated H.P. of I.C. Engine by Morse Test."
+    },
+    {
+     "no": 6,
+     "exp": "Prepare the heat balance sheet for Diesel Engine test rig."
+    },
+    {
+     "no": 7,
+     "exp": "Prepare the heat balance sheet for Petrol Engine test rig."
+    },
+    {
+     "no": 8,
+     "exp": "Study and working of two stroke Diesel Engine."
+    },
+    {
+     "no": 9,
+     "exp": "Study and working of four stroke Diesel Engine."
+    },
+    {
+     "no": 10,
+     "exp": "Study of Velocity compounded steam turbine."
+    },
+    {
+     "no": 11,
+     "exp": "Study of Pressure compounded steam turbine."
+    },
+    {
+     "no": 12,
+     "exp": "Study of Impulse & Reaction turbine."
+    },
+    {
+     "no": 13,
+     "exp": "Study of steam Engine model."
+    },
+    {
+     "no": 14,
+     "exp": "Study of Gas Turbine Model."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "The student who have undergone the course will be able to identify various properties of system."
+    }
+   ],
+   "quirks": [
+    "Lab: no unit theory by print design; experiment list only",
+    "Experiments header prints 'List of Experiments: (At least 8 of the following)' — 'at least 8' selection rule verbatim",
+    "CO prints 'The student who have undergone' and 'various properties of system' verbatim",
+    "Marks: PS 25, PE 25, Total 50, Credit 1 (p.2)"
+   ],
+   "flags": [],
+   "scheme_row_print": "6 KME451 Applied Thermodynamics Lab 0 0 2     25   25 50 1 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 p.18 (experiment list), p.2 (scheme row)"
+  },
+  {
+   "name": "Manufacturing Process Lab",
+   "name_print": "MANUFACTURING PROCESS LAB",
+   "codes": [
+    "KME452"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To motivate and challenge students to understand and develop an appreciation of the processes in correlation with material properties which change the shape, size and form of the raw materials into the desirable product by conventional or unconventional manufacturing methods."
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Shear-angle determination (using formula) with tube cutting (for orthogonal) on lathe machine."
+    },
+    {
+     "no": 2,
+     "exp": "Bolt (thread) making on Lathe machine."
+    },
+    {
+     "no": 3,
+     "exp": "Tool grinding (to provide tool angles) on tool-grinder machine."
+    },
+    {
+     "no": 4,
+     "exp": "Gear cutting on Milling machine."
+    },
+    {
+     "no": 5,
+     "exp": "Machining a block on shaper machine."
+    },
+    {
+     "no": 6,
+     "exp": "Finishing of a surface on surface-grinding machine."
+    },
+    {
+     "no": 7,
+     "exp": "Drilling holes on drilling machine and study of twist-drill."
+    },
+    {
+     "no": 8,
+     "exp": "Study of different types of tools and its angles & materials."
+    },
+    {
+     "no": 9,
+     "exp": "Experiment on tool wear and tool life."
+    },
+    {
+     "no": 10,
+     "exp": "Experiment on jigs/Fixtures and its uses."
+    },
+    {
+     "no": 11,
+     "exp": "Gas welding experiment."
+    },
+    {
+     "no": 12,
+     "exp": "Arc welding experiment."
+    },
+    {
+     "no": 13,
+     "exp": "Resistance welding experiment."
+    },
+    {
+     "no": 14,
+     "exp": "Soldering & Brazing experiment."
+    },
+    {
+     "no": 15,
+     "exp": "Study and understanding of limits, fits & tolerances."
+    },
+    {
+     "no": 16,
+     "exp": "Study of temperature measuring equipment’s."
+    },
+    {
+     "no": 17,
+     "exp": "Measurement using Strain gauge."
+    },
+    {
+     "no": 18,
+     "exp": "Experiment on dynamometers."
+    },
+    {
+     "no": 19,
+     "exp": "To study the displacement using LVDT."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion of this course, students will be able to understand the different conventional and unconventional manufacturing methods employed for making different products."
+    }
+   ],
+   "quirks": [
+    "Lab: no unit theory by print design; experiment list only",
+    "Experiments header prints 'List of Experiments: (At least 8 of the following along-with study of the machines/processes)' verbatim",
+    "Detail heading (p.19) prints 'MANUFACTURING PROCESS LAB' vs scheme row (p.2) 'Manufacturing Processes Lab' — both transcribed",
+    "Exp 16 prints \"equipment's\" verbatim"
+   ],
+   "flags": [],
+   "scheme_row_print": "7 KME452 Manufacturing Processes Lab 0 0 2     25   25 50 1 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 p.19 (experiment list), p.2 (scheme row)"
+  },
+  {
+   "name": "Computer Aided Machine Drawing-II Lab",
+   "name_print": "COMPUTER AIDED MACHINE DRAWING-II LAB",
+   "codes": [
+    "KME453"
+   ],
+   "semester": 4,
+   "program_year": 2,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "objectives_print": [
+    "To provide an overview of how computers can be utilized in mechanical component design."
+   ],
+   "units": {
+    "1": "Introduction: Conventional representation of machine components and materials, Conventional representation of surface finish, Roughness number symbol, Symbols of Machine elements and welded joints. Classification of Drawings: Machine drawings, Production drawing, part drawing and assembly drawing. Introduction to detail drawing and bill of materials (BOM).",
+    "2": "Limits, Fits and Tolerances: General aspects, Nominal size and basic dimensions, Definitions, Basis of fit or limit system, Systems of specifying tolerances, Designation of holes, Shafts and fits, Commonly used holes and shafts. List of Standard Abbreviation used.",
+    "3": "Part Modelling: Introduction to part modelling of simple machine components using any 3D software (like CATIA, PRO E, UGNX, Autodesk Inventor or SOLIDWORKS) covering all commands/ features to develop a part model (Minimum 24 machine components need to be developed).",
+    "4": "Part Modelling& Assemblies of: Plummer Block Bearing, Machine Vice, Screw Jack, Engine Stuffing box, Lathe Tailstock, Feed Check Valve and Rams Bottom Safety Valve."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion of this course, the students can use computer and CAD software formodelling mechanical components."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Textbook of Machine Drawing, K C John, PHI."
+    },
+    {
+     "no": 2,
+     "book": "Machine Drawing by K.R. Gopalakrishna, Subhas Stores."
+    },
+    {
+     "no": 3,
+     "book": "A Textbook of Machine Drawing by PS Gill from S.K. Kataria& Sons."
+    },
+    {
+     "no": 4,
+     "book": "Machine Drawing-KL Narayana, P Kannaiah, KV Reddy, New Age publications."
+    },
+    {
+     "no": 5,
+     "book": "Engineering Graphics with AutoCAD, Bethune, PHI."
+    },
+    {
+     "no": 6,
+     "book": "Machine Drawing, N. Siddeshswar, P Kannaiah, VVS Shastry, Tata McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Fundamentals of Machine Drawing, Dr Sadhu Singh & P L Shah, Prantice Hall India."
+    },
+    {
+     "no": 8,
+     "book": "Autodesk Inventor by Examples, Sam Tikoo, Wiley."
+    }
+   ],
+   "quirks": [
+    "Page (p.20) has no printed Unit-I..V headings; four printed topic blocks ('Introduction', 'Limits, Fits and Tolerances', 'Part Modelling', 'Part Modelling& Assemblies of') recorded in print order as units 1-4",
+    "Printed note on subject page: 'Note: All drawing conforms to BIS Codes.'",
+    "Spacing artifacts kept verbatim: 'Part Modelling& Assemblies', 'commands/ features', 'formodelling', 'Kataria& Sons'",
+    "Book 7 prints 'Prantice Hall India' (Prentice) typo verbatim; 'Siddeshswar' spelling verbatim",
+    "Marks: PS 25, PE 25, Total 50, Credit 1 (p.2)"
+   ],
+   "flags": [],
+   "scheme_row_print": "8 KME453 Computer Aided Machine Drawing-II Lab 0 0 2     25   25 50 1 (p.2)",
+   "source": "01_btech_me_y2_model-curriculum_2019-20.pdf#7d699e03eb1f40d3 p.20 (detailed syllabus), p.2 (scheme row)"
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "EVALUATION SCHEME & SYLLABUS FOR B. TECH 2nd YEAR MECHANICAL ENGINEERING On AICTE Model Curriculum (EFFECTIVE FROM THE SESSION: 2019-20)",
+   "locator": "p.1 cover"
+  },
+  {
+   "kind": "course_scope_note",
+   "print": "B. TECH 2nd YEAR / MECHANICAL ENGINEERING (cover p.1); page header prints 'B.Tech. (Mechanical Engineering)' (p.2) — document scoped to the Mechanical Engineering branch of BTech 2nd year",
+   "locator": "p.1 cover, p.2 scheme header"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "B.Tech. (Mechanical Engineering) SEMESTER- III — header row: Sl. No. | Subject Codes | Subject | Periods L T P | Evaluation Scheme CT TA Total PS TE PE | End Semester | Total | Credit",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "1 KOE031-38/KAS302 Engg. Science Course/Maths IV 3 1 0 30 20 50  100  150 4",
+   "locator": "p.2 SEMESTER-III row 1 (not detailed in this document)"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "2 KAS301/KVE301 Technical Communication/Universal Human Values 2 1 0 30 20 50  100  150 3",
+   "locator": "p.2 SEMESTER-III row 2 (not detailed in this document)"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "9 KME354 Mini Project or Internship Assessment* 0 0 2  50   50 1",
+   "locator": "p.2 SEMESTER-III row 9 (not detailed in this document)"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "10 KNC301/KNC302 Computer System Security/Python Programming 2 0 0 15 10 25  50   0",
+   "locator": "p.2 SEMESTER-III row 10 (not detailed in this document; Credit printed 0, grand-Total cell blank)"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "11 MOOCs (Essential for Hons. Degree)",
+   "locator": "p.2 SEMESTER-III row 11 (MOOC rule)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 950 22",
+   "locator": "p.2 SEMESTER-III total row (Total marks 950, Credits 22)"
+  },
+  {
+   "kind": "footnote",
+   "print": "*The Mini Project or internship (3-4 weeks) conducted during summer break after II semester and will be assessed during III semester.",
+   "locator": "p.2 footnote to SEMESTER-III row 9"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "SEMESTER- IV — header row: Sl. No. | Subject Codes | Subject | Periods L T P | Evaluation Scheme CT TA Total PS TE PE | End Semester | Total | Credit",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "1 KAS402/KOE041-48 Maths IV/Engg. Science Course 3 1 0 30 20 50 100 150 4",
+   "locator": "p.2 SEMESTER-IV row 1 (not detailed in this document)"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "2 KVE401/KAS401 Universal Human Values/Technical Communication 3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 SEMESTER-IV row 2 (not detailed in this document)"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "9 KNC402/KNC401 Python Programming / Computer System Security 2 0 0 15 10 25  50  0",
+   "locator": "p.2 SEMESTER-IV row 9 (not detailed in this document; Credit printed 0, grand-Total cell blank)"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "10 MOOCs (Essential for Hons. Degree)",
+   "locator": "p.2 SEMESTER-IV row 10 (MOOC rule)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 900 21",
+   "locator": "p.2 SEMESTER-IV total row (Total marks 900, Credits 21)"
+  }
+ ],
+ "quirks": [
+  "Course header: canonical course BTech (RULES §1b); cover (p.1) prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH 2nd YEAR MECHANICAL ENGINEERING On AICTE Model Curriculum (EFFECTIVE FROM THE SESSION: 2019-20)'; page header prints 'B.Tech. (Mechanical Engineering)' — print variants normalize to canonical BTech.",
+  "Detailed-syllabus pages (pp.3-20) print subject name (caps) and L-T-P only, no codes; all codes transcribed from the printed scheme table p.2.",
+  "Course Outcomes are printed without K-levels throughout this document; 'kl' omitted on every CO (blank = printed blank).",
+  "Book lists print under a single combined heading 'Books and References:' with no textbook/reference split; each full list recorded in 'textbooks' of its subject.",
+  "Sem-IV scheme row 2 (KVE401/KAS401) is followed in the text layer by stray duplicated fragment '2 1 0 3' (template duplicate-print artifact; no marks/credit attached) — row taken as printed 3-0-0, credit 3.",
+  "KNC scheme rows (KNC301/KNC302, KNC402/KNC401) print Credit 0 with a blank grand-Total cell (non-credit qualifying subjects); not detailed in this document.",
+  "Sem-III scheme row 9 KME354 'Mini Project or Internship Assessment*' is a scheme-only row; its asterisk footnote printed below the table (see footnote non_subject_row).",
+  "No eligibility, prerequisites, H-variant codes, or per-unit lecture counts printed anywhere in the document; corresponding keys omitted.",
+  "Program_year derived from printed semester per task: printed semester III/IV in a 2nd-year document -> program_year 2 for all 12 subjects."
+ ],
+ "flags": []
+}

@@ -1,0 +1,3484 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2020-21/btech_mfg-tech_syllabus_2020-21.pdf",
+ "session": "2020-21",
+ "course": "BTech",
+ "sha16": "e441e28ab6b822d4",
+ "stem": "08_btech_mfg-tech_syllabus_2020-21",
+ "subjects": [
+  {
+   "name": "Heat and Mass Transfer",
+   "name_print": "Heat and Mass Transfer",
+   "codes": [
+    "KME501"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to Heat Transfer (L‐5 Hours) Introduction of thermodynamics and Heat Transfer, Modes of Heat Transfer: Conduction, convection and radiation, Effect of temperature on thermal conductivity of different types of materials, Introduction to combined heat transfer mechanism, General differential heat conduction equation in the rectangular, cylindrical and spherical coordinate systems, Initial and system boundary conditions. Steady State one‐dimensional Heat conduction (L‐3 Hours) Simple and Composite Systems in rectangular, cylindrical and spherical coordinates with and without energy generation, Concept of thermal resistance, Analogy between heat and electricity flow, Thermal contact resistance and over‐all heat transfer coefficient, Critical radius of insulation for cylindrical, and spherical bodies.",
+    "2": "Fins (L‐3 Hours) Heat transfer through extended surfaces and its classification, Fins of uniform cross‐sectional area, Error in measurement of temperature of thermometer wells. Transient Conduction (L‐3 Hours) Transient heat conduction, Lumped capacitance method, Time constant, Unsteady state heat conduction in one dimension only, Heisler charts and their applications.",
+    "3": "Forced Convection (L‐5 Hours) Basic concepts: Hydrodynamic boundary layer, Thermal boundary layer, Approximate integral boundary layer analysis, Analogy between momentum and heat transfer in turbulent flow over a flat surface, Mixed boundary layer, Flow over a flat plate, Flow across a single cylinder and a sphere, Flow inside ducts, Thermal entrance region, Empirical heat transfer relations, Relation between fluid friction and heat transfer, Liquid metal heat transfer. Natural Convection (L‐5 Hours) Physical mechanism of natural convection, Buoyant force, Empirical heat transfer relations for natural convection over vertical planes and cylinders, horizontal plates, cylinders and sphere, combined free and forced convection, Effect of turbulence.",
+    "4": "Thermal Radiation (L‐8 Hours) Basic concepts of radiation, Radiation properties of surfaces, Black body radiation Planck’s law, Wein’s displacement law, Stefan‐Boltzmann law, Kirchhoff’s law, Gray body, Shape factor, Black‐body radiation, Radiation exchange between diffuse non‐black bodies in an enclosure, Radiation shields, Radiation combined with conduction and convection; Absorption and emission in gaseous medium; Solar radiation; Greenhouse effect, Radiation network analysis.",
+    "5": "Heat Exchanger (L‐5 Hours) Different types of heat exchangers, Fouling factors, Overall heat transfer coefficient, Logarithmic mean temperature difference (LMTD) method, Effectiveness‐number of transfer unit (NTU) method and Compact Heat Exchangers. Condensation and Boiling (L‐3 Hours) Introduction of condensation phenomena, Heat transfer relations for laminar film condensation on vertical surfaces and on outside& inside of a horizontal tube, Effect of non‐condensable gases, Drop wise condensation, Heat pipes, Boiling modes, pool boiling, Hysteresis in boiling curve, Forced convection boiling. Introduction to Mass Transfer (L‐2 Hours) Introduction of Fick's law of diffusion, Steady state equimolar counter diffusion, Steady state diffusion through a stagnant gas film, Heat and Mass Transfer Analogy ‐Convective Mass Transfer Correlations"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of heat and mass transfer.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply the concept of steady and transient heat conduction.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concept of thermal behavior of fins.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of forced and free convection.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the concept of radiation for black and non‐black bodies.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Conduct thermal analysis of heat exchangers.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Heat and Mass Transfer, by Incroperra& DeWitt, John Wiley and Sons"
+    },
+    {
+     "no": 2,
+     "book": "Heat and Mass Transfer by Cengel, McGraw‐Hill"
+    },
+    {
+     "no": 3,
+     "book": "Heat Transfer by J.P. Holman, McGraw‐Hill"
+    },
+    {
+     "no": 4,
+     "book": "Heat and Mass Transfer by Rudramoorthy and Mayilsamy, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Heat Transfer by Ghoshdastidar, Oxford University Press"
+    },
+    {
+     "no": 6,
+     "book": "A text book on Heat Transfer, by Sukhatme, University Press."
+    },
+    {
+     "no": 7,
+     "book": "Heat Transfer by Venkateshan, Ane Books Pvt Ltd"
+    },
+    {
+     "no": 8,
+     "book": "Schaum's outline of Heat Transfer by Pitts & Sisson McGraw‐Hill"
+    },
+    {
+     "no": 9,
+     "book": "Heat and Mass Transfer by R Yadav, Central Publishing House."
+    }
+   ],
+   "quirks": [
+    "CO table printed between UNIT‐4 label and the Unit-4 'Thermal Radiation' text (text-layer order: UNIT‐4, then CO table, then Unit-4 content)",
+    "per-subtopic hour markers '(L‐N Hours)' printed instead of a single per-unit hour count",
+    "no Text Books list printed; only 'Reference Books:‐'",
+    "typo verbatim: 'outside& inside' (missing space), 'Incroperra& DeWitt'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Strength of Material",
+   "name_print": "Strength of Material",
+   "codes": [
+    "KME502"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Compound stress and strains: Introduction, normal stress and strain, shear stress and strain, stresses on inclines sections, strain energy, impact loads and stresses, state of plane stress, principal stress and strain, maximum shear stress, Mohr’s circle for plane stress, three dimensional states of stress & strain, equilibrium equations, generalized Hook’s law, theories of failure. Thermal Stresses.",
+    "2": "Stresses in Beams: Pure Bending, normal stresses in beams, shear stresses in beams due to transverse and axial loads, composite beams. Deflection of Beams: Differential equation of the elastic curve, cantilever and simply supported beams, Macaulay’s method, area moment method, fixed and continuous beams Torsion: Torsion, combined bending & torsion of solid & hollow shafts, torsion of thin walled tubes.",
+    "3": "Helical and Leaf Springs: Deflection of springs by energy method, helical springs under axial load and under axial twist (respectively for circular and square cross sections) axial load and twisting moment acting simultaneously both for open and closed coiled springs, laminated springs. Columns and Struts: Buckling and stability, slenderness ratio, combined bending and direct stress, middle third and middle quarter rules, struts with different end conditions, Euler’s theory for pin ended columns, effect of end conditions on column buckling, Ranking Gordon formulae, examples of columns in mechanical equipment and machines.",
+    "4": "Thin cylinders & spheres: Introduction, difference between thin walled and thick walled pressure vessels, thin walled spheres and cylinders, hoop and axial stresses and strain, volumetric strain. Thick cylinders: Radial, axial and circumferential stresses in thick cylinders subjected to internal or external pressures, compound cylinders, stresses in rotating shaft and cylinders, stresses due to interference fits.",
+    "5": "Curved Beams: Bending of beams with large initial curvature, position of neutral axis for rectangular, trapezoidal and circular cross sections, stress in crane hooks, stress in circular rings subjected to tension or compression. Unsymmetrical Bending: Properties of beam cross‐section, slope of neutral axis, stress and deflection in unsymmetrical bending, determination of shear center and flexural axis (for symmetry about both axis and about one axis) for I‐section and channel section."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concept of stress and strain under different conditions of loading",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Determine the principal stresses and strains in structural members",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Determine the stresses and strains in the members subjected to axial, bending and torsional loads",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concepts of stresses and strain in solving problems related to springs, column and pressure vessels",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Calculate the slope, deflection and buckling of loaded members",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Analyze the stresses developed in straight and curved beams of different cross sections",
+     "kl": "K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Strength of materials by Sadhu Singh, Khanna Book Publishing Co. (P) Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Strength of Material by Rattan, MC GRAW HILL INDIA"
+    },
+    {
+     "no": 3,
+     "book": "Mechanics of Materials by B.C. Punmia, Laxmi Publications (P) Ltd."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Mechanics of Materials by Hibbeler, Pearson."
+    },
+    {
+     "no": 2,
+     "book": "Mechanics of material by Gere, Cengage Learning"
+    },
+    {
+     "no": 3,
+     "book": "Mechanics of Materials by Beer, Jhonston, DEwolf and Mazurek, MC GRAW HILL INDIA"
+    },
+    {
+     "no": 4,
+     "book": "Strength of Materials by Pytel and Singer, Harper Collins"
+    },
+    {
+     "no": 5,
+     "book": "Strength of Materials by Ryder, Macmillan."
+    },
+    {
+     "no": 6,
+     "book": "Strength of Materials by Timoshenko and Yσungs, East West Press."
+    },
+    {
+     "no": 7,
+     "book": "Introduction to Solid Mechanics by Shames, Pearson"
+    },
+    {
+     "no": 8,
+     "book": "Mechanics of material by Pytel, Cengage Learning"
+    },
+    {
+     "no": 9,
+     "book": "An Introduction to Mechanics of Solids by Crandall, MC GRAW HILL INDIA"
+    },
+    {
+     "no": 10,
+     "book": "Strength of Materials by Jindal, Pearson Education"
+    },
+    {
+     "no": 11,
+     "book": "Strength of Materials by Basavajaiah and Mahadevappa, University Press."
+    }
+   ],
+   "quirks": [
+    "CO table printed above Unit I (before units)",
+    "typo verbatim: 'stresses on inclines sections', 'Hook’s law', 'Ranking Gordon formulae', 'Jhonston', 'DEwolf'",
+    "garbled glyph in reference book 6: 'Timoshenko and Yσungs' (stray sigma in 'Youngs')"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Industrial Engineering",
+   "name_print": "Industrial Engineering",
+   "codes": [
+    "KME503"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Overview of Industrial Engineering: Types of production systems, concept of productivity, productivity measurement in manufacturing and service organizations, operations strategies, liability and process design. Facility location and layout: Factors affecting facility location; principle of plant layout design, types of plant layout; computer aided layout design techniques; assembly line balancing; materials handling principles, types of material handling systems, methods of process planning, steps in process selection, production equipment and tooling selection, group technology, and flexible manufacturing.",
+    "2": "Production Planning and control: Forecasting techniques – causal and time series models, moving average, exponential smoothing, trend and seasonality; aggregate production planning; master production scheduling; materials requirement planning (MRP) and MRP‐II; routing, scheduling and priority dispatching, concept of JIT manufacturing system Project Management: Project network analysis, CPM, PERT and Project crashing.",
+    "3": "Engineering economy and Inventory control: Methods of depreciation; break‐even analysis, techniques for evaluation of capital investments, financial statements, time‐cost trade‐off, resource levelling; Inventory functions, costs, classifications, deterministic inventory models, perpetual and periodic inventory control systems, ABC analysis, and VED analysis. Queuing Theory: Basis of Queuing theory, elements of queuing theory, Operating characteristics of a queuing system, Classification of Queuing models.",
+    "4": "Work System Design: Taylor’s scientific management, Gilbreths’s contributions; work study: method study, micro‐motion study, principles of motion economy; work measurement –time study, work sampling, standard data, Predetermined motion time system (PMTS); ergonomics; job evaluation, merit rating, incentive schemes, and wage administration. Product Design and Development: Principles of product design, tolerance design; quality and cost considerations; product life cycle; standardization, simplification, diversification, value engineering and analysis, and concurrent engineering.",
+    "5": "Operational Analysis: Formulation of LPP, Graphical solution of LPP, Simplex Method, Sensitivity Analysis, degeneracy and unbound solutions.transportation and assignment models; Optimality test: the stepping stone method and MODI method, simulation."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concept of production system, productivity, facility and process planning in various industries",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply the various forecasting and project management techniques",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concept of break‐even analysis, inventory control and resource utilization using queuing theory",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply principles of work study and ergonomics for design of work systems",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Formulate mathematical models for optimal solution of industrial problems using linear programming approach",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Industrial Engineering and Production Management by Martand T Telsang S. Chand Publishing"
+    },
+    {
+     "no": 2,
+     "book": "Industrial Engineering and Production Management by M. MahajanDhanpatRai& Co. (P) Limited"
+    },
+    {
+     "no": 3,
+     "book": "Industrial Engineering and Management by Ravi Shankar, Galgotia Publications Pvt Ltd"
+    },
+    {
+     "no": 4,
+     "book": "Production and Operations Management by Adam, B.E. & Ebert, R.J., PHI"
+    },
+    {
+     "no": 5,
+     "book": "Product Design and Manufacturing by ChitaleA.V. and Gupta R.C., PHI"
+    },
+    {
+     "no": 6,
+     "book": "Operations Research Theory & Applications by J K Sharma, Macmillan India Ltd,"
+    },
+    {
+     "no": 7,
+     "book": "Production Systems Analysis and Control by J.L.Riggs, John Wiley & Sons"
+    },
+    {
+     "no": 8,
+     "book": "Automation, Production Systems & Computer Integrated Manufacturing by Groover, M.P. PHI"
+    },
+    {
+     "no": 9,
+     "book": "Operations Research, by A.M. Natarajan, P. Balasubramani, A. Tamilarasi, Pearson Education"
+    },
+    {
+     "no": 10,
+     "book": "Operations Research by P. K. Gupta and D. S. Hira, S. Chand & Co."
+    }
+   ],
+   "quirks": [
+    "single combined book list headed 'Books and References:' (no separate Text Books section); renumbered 1..10 in draft",
+    "typo verbatim: 'solutions.transportation' (missing space Unit V), 'Gilbreths’s', 'liability and process design' (Unit I), 'MahajanDhanpatRai& Co.', 'ChitaleA.V.'",
+    "CO table printed after Unit IV text, before Unit V (spans p9–p10)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Heat and Mass Transfer Lab",
+   "name_print": "Heat and Mass Transfer Lab",
+   "codes": [
+    "KME551"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "practical_sessional_ps": 25,
+    "practical_end_sem_pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To determine thermal conductivity of conductive material(s)."
+    },
+    {
+     "no": 2,
+     "exp": "To determine thermal conductivity of insulating material(s)."
+    },
+    {
+     "no": 3,
+     "exp": "To determine heat conduction through lagged pipe."
+    },
+    {
+     "no": 4,
+     "exp": "To determine heat transfer through fin under natural convection."
+    },
+    {
+     "no": 5,
+     "exp": "To determine the heat transfer Rate and Temperature Distribution for a Pin Fin."
+    },
+    {
+     "no": 6,
+     "exp": "Determination of thermal conductivity of different types of fluids."
+    },
+    {
+     "no": 7,
+     "exp": "Experiment on Stefan's Law ‐ determination of emissivity, etc."
+    },
+    {
+     "no": 8,
+     "exp": "Experiment on convective heat transfer through flat plate solar collector."
+    },
+    {
+     "no": 9,
+     "exp": "To compare LMTD and Effectiveness of Parallel and Counter Flow Heat Exchangers."
+    },
+    {
+     "no": 10,
+     "exp": "To find the heat transfer coefficient for Forced Convection in a tube."
+    },
+    {
+     "no": 11,
+     "exp": "To find the heat transfer coefficient for Free Convection in a tube."
+    },
+    {
+     "no": 12,
+     "exp": "To conduct experiments on heat pipe."
+    },
+    {
+     "no": 13,
+     "exp": "To study the rates of heat transfer for different materials and geometries."
+    },
+    {
+     "no": 14,
+     "exp": "Visit to a Thermal Power Station for practical exposure."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply the concept of conductive heat transfer.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Apply empirical correlations for both forced and free convection to determine the value of convection heat transfer coefficient",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concept of radiation heat transfer for black and grey body.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze the thermal behaviour of parallel or counter flow heat exchangers",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Conduct thermal analysis of a heat pipe",
+     "kl": "K4"
+    }
+   ],
+   "experiments_note": "Minimum eight experiment of the following",
+   "quirks": [
+    "lab note printed 'Minimum eight experiment of the following' (grammar verbatim)",
+    "scheme table (p.3) prints this row as 'Heat Transfer Lab' while the detail page (p.11) prints 'Heat and Mass Transfer Lab' — detail page name recorded",
+    "no units/textbooks printed (lab page: experiments + CO table only)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Python Lab",
+   "name_print": "Python Lab",
+   "codes": [
+    "KME552"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "practical_sessional_ps": 25,
+    "practical_end_sem_pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write a program to find root of quadratic equation"
+    },
+    {
+     "no": 2,
+     "exp": "Write a program to find and delete repeating number in Given List"
+    },
+    {
+     "no": 3,
+     "exp": "Write a program to input and print the element sum of user defined matrix"
+    },
+    {
+     "no": 4,
+     "exp": "Write a program to input and multiply two different matrices"
+    },
+    {
+     "no": 5,
+     "exp": "Write a program to compute eigen value and vector of a given 3*3 matrix using NumPy"
+    },
+    {
+     "no": 6,
+     "exp": "Write a program to find a solution of linear equations in y‐mx+c"
+    },
+    {
+     "no": 7,
+     "exp": "Write a program to draw line using equation y=mx+c"
+    },
+    {
+     "no": 8,
+     "exp": "Write the program to determine the intersection point of two line."
+    },
+    {
+     "no": 9,
+     "exp": "Draw various types of charts using matplotlib"
+    },
+    {
+     "no": 10,
+     "exp": "Write a program to perform equations of uniform motion of kinematics : i. v = u + at0 ii. s = ut + ½(at2) iii. v2 = u2 – 2as"
+    },
+    {
+     "no": 11,
+     "exp": "Write a menu driven program to perform following properties of thermodynamics as given below: i. First Law of thermodynamics ( U = Q ‐ W), where ΔU is the change in the internal energy. Q is the heat added to the system, and W is the work done by the system. ii. Efficiency of Heat Engine = TH – TC / TH where TH &TC is the temperature of HOT and COLD Reservoirs."
+    },
+    {
+     "no": 12,
+     "exp": "Write the menu program to find the to find the out relationship between stress and strain curve as given below: i. Young’s Modulus ii. Shear Modulus iii. Poisson Ratio"
+    },
+    {
+     "no": 13,
+     "exp": "Write the program to determine the shear force and bending moment in beams."
+    },
+    {
+     "no": 14,
+     "exp": "Write a program to find maxima/minima of functions of two variables and evaluate some real definite and finite integrals."
+    },
+    {
+     "no": 15,
+     "exp": "Write a Program to find out unknown magnitude of TB and TD of unknown tension can be obtained from two scalar equations of equilibrium i.eEF_x = 0 and EF_y =0."
+    },
+    {
+     "no": 16,
+     "exp": "Write a program to perform interpolation of equally and unequally spaced data."
+    },
+    {
+     "no": 17,
+     "exp": "Write a program to calculate total pressure exerted in ideal fluid as equation is given below: p+1/2(ρv2) + ρgh =constant Where P is Pressure, V is Velocity of fluid, ρ is density and h is the height of the container."
+    },
+    {
+     "no": 18,
+     "exp": "Write a program to find numerical differentiation using Finite differences Method by importing NumPy and plot the numerical values using matplotlib libraries of python."
+    },
+    {
+     "no": 19,
+     "exp": "Write a program for bresenham’s line drawing algorithm."
+    },
+    {
+     "no": 20,
+     "exp": "Write a program for geometric transformation of a given object."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply conditional statement, loops condition and functions in python program",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Solve mathematical and mechanical problems using python program",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Plot various type of chart using python program",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze the mechanical problem using python program",
+     "kl": "K4"
+    }
+   ],
+   "experiments_note": "List of Python Program",
+   "quirks": [
+    "programs 1–18 print on p.12, 19–20 spill onto p.13 after the CO table",
+    "typo verbatim: 'v = u + at0', 's = ut + ½(at2)', 'v2 = u2 – 2as' (superscripts lost in print), 'to find the to find the out relationship' (duplicated words), 'i.eEF_x = 0 and EF_y =0' (missing space), 'TH &TC'",
+    "list headed 'List of Python Program'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Measurement & Metrology Lab",
+   "name_print": "Measurement & Metrology Lab",
+   "codes": [
+    "KMT551"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "practical_sessional_ps": 25,
+    "practical_end_sem_pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study the working of simple measuring instruments‐ Vernier calipers, micrometer, tachometer."
+    },
+    {
+     "no": 2,
+     "exp": "Measurement of effective diameter of a screw thread using 3 wire method."
+    },
+    {
+     "no": 3,
+     "exp": "Measurement of angle using sine bar & slip gauges. Study of limit gauges."
+    },
+    {
+     "no": 4,
+     "exp": "Study & angular measurement using level protector."
+    },
+    {
+     "no": 5,
+     "exp": "Adjustment of spark plug gap using feeler gauges."
+    },
+    {
+     "no": 6,
+     "exp": "Study of dial indicator & its constructional details."
+    },
+    {
+     "no": 7,
+     "exp": "Use of dial indicator to check a shape run use."
+    },
+    {
+     "no": 8,
+     "exp": "Use of dial indicator and V Block to check the circularity and plot the polar Graph."
+    },
+    {
+     "no": 9,
+     "exp": "Study and understanding of limits, fits & tolerances."
+    },
+    {
+     "no": 10,
+     "exp": "Experiment on measurement of pressure."
+    },
+    {
+     "no": 11,
+     "exp": "Study of temperature measuring equipments."
+    },
+    {
+     "no": 12,
+     "exp": "Measurement using Strain gauge."
+    },
+    {
+     "no": 13,
+     "exp": "Measurement of speed using stroboscope."
+    },
+    {
+     "no": 14,
+     "exp": "Experiment on measurement of flow."
+    },
+    {
+     "no": 15,
+     "exp": "Measurement of vibration/power."
+    },
+    {
+     "no": 16,
+     "exp": "Experiment on dynamometers."
+    },
+    {
+     "no": 17,
+     "exp": "To study the displacement using LVDT."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply knowledge of basics of Measurements, Metrology and Measuring devices.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Apply the concepts of various measurement systems & standards with regards to realistic applications.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Use sensors, transducers and terminating devises with associated parameters",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply basic principles and devices involved in measuring surface textures.",
+     "kl": "K3"
+    }
+   ],
+   "experiments_note": "MEASUREMENT & METROLOGY LAB — Minimum 8 experiments out of following (or such experiment) are to be performed:",
+   "quirks": [
+    "page repeats the subject name in caps as lab heading: 'MEASUREMENT & METROLOGY LAB'",
+    "item 17 printed without a period ('17 To study...')",
+    "typo verbatim: 'devises' (devices), 'level protector'",
+    "scheme content list (p.2) prints name 'Measurement & Metrology Lab' with code 'KMT 551' — same as detail page"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Integrated Manufacturing",
+   "name_print": "Computer Integrated Manufacturing",
+   "codes": [
+    "KME051"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to Computer Integrated Manufacturing (CIM): Introduction to CAD, CAM, CIM, Automated Manufacturing system; Need of automation, Basic elements of automation, Levels of automation, Automation Strategies, Advantages & disadvantages of automation, Historical development and future trends. Computer Integrated Manufacturing, Computers in manufacturing industries.",
+    "2": "Principles of Computer Graphics: Point plotting, drawing of lines, Bresenham’s circle algorithm. Transformation in Graphics: 2D transformations – rotation, scaling, translation, mirror, reflection, shear – homogeneous transformations – concatenation, 3D transformations. Curves: Introduction to Hermite cubic splines, Bezier curves, B‐spline curves, NURBS Surface Modeling: Polygon surfaces, Quadric surfaces, Superquadric surfaces and blobby objects Solid modeling: Boolean set operations, Primitive instancing, Sweep representation, Boundadry representation, Constructive solid geometry,",
+    "3": "Computer Aided Manufacturing: NC in CAM – Principal types of CNC machine tools and their construction features – tooling for CNC – ISO designation for tooling – CNC operating system Programming for CNC machining – coordinate systems – manual part programming – computer assisted part programming.",
+    "4": "Group Technology: Group technology, Cellular Manufacturing, CAPP – Variant and Generative systems‐ Concurrent Engineering and Design for Manufacturing. Flexible Manufacturing System: characteristics – economics and technological justification – planning, installation, operation and evaluation issues – role of group technology and JIT in FMS – typical case studies future prospects, Industry 4.0. Robotics: Classification and specification – drive and controls – sensors ‐ end effectors ‐ grippers‐ tool handling and work handling – machine vision – robot programming concepts – case studies in assembly. Introduction to Programmable logical controller",
+    "5": "Data and information in CIM: Management information system in CIM environment, MRP – MRP II – ERP ‐ Capacity planning. Material handling in CIM environment: Types – AGVS – AS/RS – Swarf handling and disposal of wastes – single and mixed mode assembly lines – quantitative analysis of assembly systems. Rapid prototyping: Need for rapid prototyping, Basic principles and advantages of RP, General features and classifications of different RP techniques with examples."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic concepts of automation, computer numeric control machining",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the algorithms of line generation, circle generation, transformation, curve, surface modeling and solid modeling",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand group technology, computer aided process planning, flexible manufacturing, Industry 4.0, robotics",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand information system and material handling in CIM environment, rapid prototyping",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Apply the algorithms of line & circle generation and geometric transformations",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Develop CNC program for simple operations",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "MikellP.Groover ‐ Automation , Production Systems and Computer IntegratedManufacturing, Second edition, Prentice Hall of India."
+    },
+    {
+     "no": 2,
+     "book": "Ibrahim Zeid ‐ CAD/CAM theory and Practice, Tata McGraw Hill Publishing Co. Ltd.,Company Ltd., New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "YoramKoren,Control of machine tools,McGraw‐Hill."
+    },
+    {
+     "no": 4,
+     "book": "Hearn & Baker, Computer Graphics, Prentice Hall of India"
+    },
+    {
+     "no": 5,
+     "book": "Sunil Kumar Srivastava, Computer Aided Design: A Basic and Mathematical Approach, I K International Publishing House"
+    },
+    {
+     "no": 6,
+     "book": "P.Radhakrishnan, ‐ CAD/CAM/CIM, New Age International (P) Ltd., New Delhi"
+    }
+   ],
+   "quirks": [
+    "detail-page layout inverted: CO table and Units 1–4 print BEFORE the 'Subject Code: KME 051 Computer Integrated Manufacturing L T P : 3 0 0 Credits: 3' header line (code header at bottom of p.15)",
+    "elective slot line printed above: 'Semester – V: Departmental Elective – I: Specialization – Manufacturing and Automation'",
+    "typo verbatim: 'Boundadry representation' (Boundary), 'MikellP.Groover', 'Computer IntegratedManufacturing', 'YoramKoren,Control of machine tools,McGraw‐Hill.', 'Ltd.,Company Ltd.' (duplicated), 'Programmable logical controller'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advance Manufacturing Science",
+   "name_print": "Advance Manufacturing Science",
+   "codes": [
+    "KPI051"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction (3 Hours) Types of advanced manufacturing processes, Evolution, need, and classification of advanced machining processes. Advanced Machining Processes (5 Hours) Introduction Need & benefits, application and working principle, Advantages & Disadvantages of Abrasive jet machining (AJM) Water jet machining (WJM) Abrasive water jet machining (AWJM), Advance abrasive finishing process, Abrasive Flow Finishing, Magnetic Field Assisted Abrasive Finishing, Magneto Rheological Finishing.",
+    "2": "Advanced Machining Processes continued... (7 Hours) Process principle, Mechanism of material removal, Process Parameters, Process Capabilities, and Applications of Electrochemical machining (ECM), Electro discharge machining (EDM), Electron beam machining (EBM), Laser beam machining (LBM) processes.",
+    "3": "Advanced Metal Forming Processes (6 Hours) Details of high energy rate forming (HERF) process, Electro‐magnetic forming, explosive forming, Electro‐hydraulic forming, Stretch forming and Contour roll forming.",
+    "4": "Advanced Casting Processes (7 Hours) Metal mould casting, Continuous casting, Squeeze casting, Vacuummould casting, Evaporative pattern casting, Ceramic shell casting. Advance Welding Processes: Magnetic arc welding, Friction welding, Explosive welding, Ultrasonic welding, Laser welding, Electron beam welding",
+    "5": "(8Hours) Derived and Hybrid Modern manufacturing Methods: Introduction of process like rotary ultrasonic machining , electro stream drilling, shape tube electro machining, wire electro discharge machining, electro chemical grinding, electro chemical honing, electro chemical deburring and electro chemical spark machining."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the principles of material removal mechanism of advanced machining processes.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the basic concept of advance metal forming processes.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the basic concept of advance casting processes.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the basic concepts of advance welding process.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand various hybrid modern manufacturing methods.",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "\"Materials and Processes in Manufacturing\" (8th Edition), E.P. De Garmo, J. T Black, R.A.Kohser, Prentice Hall of India, New Delhi (ISBN 0‐02‐978760)."
+    },
+    {
+     "no": 2,
+     "book": "\"Manufacturing Science\" A. Ghosh, and A.K. Mallik, Affiliated East‐West Press Pvt. Ltd. New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "\"Non traditional Manufacturing Processes\", G.F.Benedict, Marcel Dekker, Inc. New York (ISBN 0‐8247‐7352‐7)."
+    },
+    {
+     "no": 4,
+     "book": "H. Abdel and G. El‐Hofy, Advanced Machining Processes: Non traditional and Hybrid Machining Processes, 1 st edition, McGraw‐Hill Professional, 2005. ISBN: 978‐ 0071453349."
+    }
+   ],
+   "quirks": [
+    "elective slot line: 'Semester – V: Departmental Elective – I: Specialization – Production Engineering/ Industrial Production Engineering'",
+    "UNIT‐5 prints no unit title line before content (content begins 'Derived and Hybrid Modern manufacturing Methods:'); hour marker printed as '(8Hours)' (no space)",
+    "typo verbatim: 'Vacuummould casting', 'machining , electro stream drilling' spacing, 'ISBN: 978‐ 0071453349' spacing",
+    "only Reference Books printed ('Reference Books:‐'), no Text Books"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastic Materials & Manufacturing",
+   "name_print": "Plastic Materials & Manufacturing",
+   "codes": [
+    "KMT051"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Structure of Plastics : Molecules –Crystallinity – Effect of Crystallinity on properties – cross linked plastics – Determination of Molecular weight – Effect of Molecular weight on processing and properties – Molecular weight distribution. Linear, branched and cross linked structures in polymers. Flexibility and movement of macromolecules. Glass transition temperature (Tg). Relationship",
+    "2": "Plastic Materials Sources of raw materials, general purpose plastics, engineering plastics and thermosets plastics, thermo setting and elastomers general high performance plastics, properties of plastics materials, alloys and blending. Properties and applications of polyethylene, polypropylene ABC PVC, nylons, poly acetates, polycarbonates, phenol formaldehyde, melamine formaldehyde.",
+    "3": "Plastics Manufacturing Processes Basic concepts of injection moulding, processvariables, blow moulding, compression moulding Extrusion process and their process variables and rotational moulding.",
+    "4": "Basic concept of mould design Selection of proper mould design, single, multi cavity semiautomatic and automatic moulds cooling system, injection and feeding system. Design of product features i e wall thickness rib bosses, radii and draft.",
+    "5": "Plastic Material Testing Importance of testing, standard and specifications, national, international standards, test specimen preparation, preconditioning and test atmosphere. Introduction to Mechanical testing, thermal testing, Electrical & Optical testing."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand various methods of preparation of different plastic materials and properties of polymers based on the structure.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand various methods of preparation of different plastic materials.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the knowledge of processing of plastic materials by injection moulding, extrusion, and blow moulding.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the basics of Plastics mould design and also product design.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand how the plastics materials are tested for its chemical, mechanical, electrical, optical, thermal, and permanence properties.",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Hand book of plastics material and technology"
+    },
+    {
+     "no": 2,
+     "book": "Back plastics product design"
+    },
+    {
+     "no": 3,
+     "book": "Engineering Plastics, Parmar, Khanna Book Publishing Co., Delhi"
+    },
+    {
+     "no": 4,
+     "book": "Mathur AB &Bhardwaj IS, Testing and evaluation of plastics"
+    },
+    {
+     "no": 5,
+     "book": "Strong A Brent, Plastics materials and processing."
+    }
+   ],
+   "quirks": [
+    "printed code shows double space: 'KMT  051' (recorded space-free as KMT051)",
+    "elective slot line: 'Semester – V: Departmental Elective – I: Specialization – Plastic Engineering'",
+    "Unit I ends with dangling word 'Relationship' (sentence truncated in print)",
+    "books 1–4 print on p.19, item 5 spills to p.20",
+    "books 1–2 print without author/publisher",
+    "typo verbatim: 'ABC PVC' (ABS), 'processvariables', 'i e wall thickness' (i.e.), 'Mathur AB &Bhardwaj IS'",
+    "single combined list headed 'Books and References:'; renumbered 1..5 in draft"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Lean Manufacturing",
+   "name_print": "Lean Manufacturing",
+   "codes": [
+    "KMT052"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Race without a Finish Line: Competitive Advantage, Just‐in‐Time and Total Quality Management, Evolution of Manufacturing, The Quality Movement, The Imperative. Value – Added and Waste Elimination : Value – added focus, sources of waste ,JIT Principles, The meaning of JIT. 5S housekeeping Concepts, 5S auditing, Kaizen activities, Kaizen workshop, Benefits of kaizen.",
+    "2": "Elements Of Lean Production : Small‐Lot Production, Lot‐Size Basics, Lot Sizing, Lot‐Size Reduction, Facilitating small Lot Sizes. Setup‐Time Reduction: Improve Setups? Why Bother?, Setup‐Reduction Methodology, Techniques for Setup Reduction, setup‐Reduction Projects.",
+    "3": "Maintaining and Improving Equipment: Equipment Maintenance, Equipment Effectiveness, Preventive Maintenance Program, Total Productive Maintenance, Implementing TPM. Pull Production Systems: Production Control Systems, Process Improvement, How to Achieve Pull Production, Other Mechanisms for Signal and Control, To Pull or Not to Pull.",
+    "4": "Focused Factories and Group Technology: Ways of Doing Work, Facilities Layout, Group Technology, Focused Factory, Establishing Product, Chapter Supplement. Work cells and Cellular Manufacturing: Work cell Concepts, Work cell Applications, Work Design, Workers in Cells, Equipment Issues, Implementing, Getting Started.",
+    "5": "Lean Systems: Introduction to value stream mapping, VSM Principles, VSM TOOLS, Current Value stream mapping, Future State Mapping."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concepts, theories of Lean Manufacturing, including key aspects of Just in Time, 5S and Kaizen.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the systematic manufacturing for eliminating waste in system. To account the waste generated from uneven workloads and overburden and then reduces them in order to increase value and reduce costs.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Develop an understanding of basic of maintenance and full production systems.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Identify similar parts and group them together in order to take advantage of the similarities in design and production by the help of Group technology.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Identify and remove waste in value streams to increase the efficiency of a given value stream.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "John M Nicholas ‐Competitive Manufacturing Management, TMH, Edition‐2001."
+    },
+    {
+     "no": 2,
+     "book": "Ronald G Askin and Jeffrey B Goldberg, Design and Analysis of Lean, John Wiley ‐ 2001"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Pascal Dennis ‐Lean Production Simplified: A Plain‐Language Guide to the World's Most Powerful Production System, Second Edition, ISBN"
+    },
+    {
+     "no": 2,
+     "book": "John Miltenburg ‐Manufacturing Strategy, ISBN, Second Edition."
+    },
+    {
+     "no": 3,
+     "book": "Don Tapping,TomLuyster and Tom Shuker ‐Value Stream Management, Productivity Press."
+    }
+   ],
+   "quirks": [
+    "elective slot line: 'Semester – V: Departmental Elective – I: Specialization – Manufacturing Engineering'",
+    "typo verbatim: 'sources of waste ,JIT Principles', '‐Competitive', '‐Lean', 'Don Tapping,TomLuyster' spacing"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advance welding",
+   "name_print": "Advance welding",
+   "codes": [
+    "KME055"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction: Introduction to welding, application, classification and process selection criterion. Health & safety in welding. Welding Arc: Physics of welding arc, arc initiation, voltage distribution, arc characteristics, arc efficiency, arc temperatures and arc blow.Mechanism and types of metal transfer. Welding Power Sources: Types of welding power sources, operation characteristics and specifications.",
+    "2": "Welding Processes: Shielded Metal Arc Welding (SMAW), Gas Metal Arc Welding (GMAW) Gas Tungsten Arc Welding (GTAW) Plasma Arc, Submerged Arc Welding, Electro gas and Electroslag, Resistance welding, Friction welding, Brazing, Soldering & Braze welding. Laser beam welding, Electron beam welding, Ultrasonic welding, Explosive welding, Friction Stir Welding, Underwater welding. Advances in Welding Processes: Narrow Gap, Tandem (Twin / Multi Wire) Welding, A‐TIG, Hybrid Welding processes, Magnetically impelled arc butt (MIAB) welding, welding automation and robotic applications.",
+    "3": "Heat Flow Welding: Weld thermal cycle, Temperature distribution, Peak temperature; Heat Affected Zone (HAZ), heating, cooling and solidification rates. Welding Metallurgy: Fundamentals of physical metallurgy, Principle of solidification of weld metal, Reactions in weld pool ‐ Gas metal reaction, Slag metal reaction, factors affecting changes in microstructure and mechanical properties of HAZ, Micro and macro structures in weld metal and HAZ",
+    "4": "Repair & Maintenance Welding: Hardfacing, Cladding, Surfacing, Metallizing processes and Reclamation welding. Weldability: Effects of alloying elements on weldability, carbon equivalent, welding of plain carbon steel, Stainless steel, Cast Iron and Aluminium alloys, Welding of Dissimilar Materials",
+    "5": "Weld Design: Types of welds & joints, Welding Symbols, Weld defects and Remedies, Residual Stresses & Distortion, Inspection and testing of welds: Introduction to Non Destructive Techniques; Destructive Techniques ‐ Bulk and Microhardness test, Wear test and types, corrosion test, tensile test, bend test, SEM, EDS and XRD. Welding Codes, WPS&PQR: Introduction to welding codes, ISO, ASME and BIS specifications, Welding Procedure Specification (WPS) & Procedure Qualification Record (PQR), Welding of pipe‐lines and pressure vessels."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the physics of arc welding process and various operating characteristics of welding power source.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Analyse various welding processes and their applications.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the knowledge of welding for repair & maintenance, along with the weldability of different materials.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of quality control and testing of weldments in industrial environment.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Evaluate heat flow in welding and physical metallurgy of weldments.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Welding and Welding Technology, by‐ Richard L. Little, McGraw Hill Education."
+    },
+    {
+     "no": 2,
+     "book": "Welding Principals and Practices, by‐ Edwars R. Bohnart, McGraw Hill Education."
+    },
+    {
+     "no": 3,
+     "book": "Welding Engineering and Technology, by‐ R. S. Parmar, KhannaPublishsers."
+    },
+    {
+     "no": 4,
+     "book": "Welding Technology Fundamentals by William. A. Bowditch."
+    },
+    {
+     "no": 5,
+     "book": "Welding Technology by N K Srinivasan."
+    },
+    {
+     "no": 6,
+     "book": "Welding Engineering and Technology by R S Parmar."
+    },
+    {
+     "no": 7,
+     "book": "Modern Welding Technology by Howard B Cary and Scott Helzer."
+    },
+    {
+     "no": 8,
+     "book": "Welding Handbooks (Vol. I & II)"
+    },
+    {
+     "no": 9,
+     "book": "Advanced Welding Processes, Woodhead publishing, J. Norrish"
+    },
+    {
+     "no": 10,
+     "book": "ASME Sec. IX, Boiler and Pressure Vessel Code"
+    }
+   ],
+   "quirks": [
+    "elective slot line: 'Semester – V: Departmental Elective – II: Specialization – Manufacturing and Automation'",
+    "CO table headed 'Course Outcome: Student will be able to / Bloom Taxonomy' (singular variants)",
+    "typo verbatim: 'arc blow.Mechanism' (missing space), 'Edwars R. Bohnart', 'KhannaPublishsers', 'WPS&PQR' (missing space), 'Principals'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Automation & Robotics",
+   "name_print": "Automation & Robotics",
+   "codes": [
+    "KMT053"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Automation: Definition, Advantages, goals, types, need, laws and principles of Automation.Elements of Automation. Fluid power and its elements, application of fluid power, Pneumatics vs. Hydraulics, benefit and limitations of pneumatics and hydraulics systems, Role of Robotics in Industrial Automation.",
+    "2": "Manufacturing Automation: Classification and type of automatic transfer machines; Automation in part handling and feeding, Analysis of automated flow lines, design of single model, multi model and mixed model production lines. Programmable Manufacturing Automation CNC machine tools, Machining centres, Programmable robots, Robot time estimation in manufacturing operations.",
+    "3": "Robotics Definition, Classification of Robots ‐ Geometric classification and Control classification, Laws of Robotics, Robot Components, Coordinate Systems, Power Source. Robot anatomy, configuration of robots, joint notation schemes, work volume, manipulator kinematics, position representation, forward and reverse transformations, homogeneous transformations in robot kinematics, D‐H notations, kinematics equations, introduction to robot arm dynamics.",
+    "4": "Robot Drives and Power Transmission Systems Robot drive mechanisms: Hydraulic /Electric / Pneumatics, servo & stepper motor drives. Mechanical transmission method: Gear transmission, Belt drives, Rollers, chains, Links, Linear to Rotary motion conversion, Rotary‐to‐Linear motion conversion, Rack and Pinion drives, Lead screws, Ball Bearings. Robot end Effectors: Classification of End effectors – active and passive grippers, Tools as end effectors, Drive system for grippers. Mechanical, vacuum and magnetic grippers. Gripper force analysis and gripper design.",
+    "5": "Robot Simulation: Methods of robot programming, Simulation concept, Off‐line programming, advantages of offline programming. Robot Applications: Robot applications in manufacturing‐Material transfer and machine loading/unloading, Processing operations like Welding & painting, Assembly operations, Inspection automation. Limitation of usage of robots in processing operation.Robot cell design and control, Robot cell layouts‐Multiple robots & Machine interference."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand basics of automation and their role in industry",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand mechanical structures of industrial robots and their operational workspace characteristics",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the various power transmission systems used to drive robots",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Develop the ability to analyze and design the motion for articulated systems.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the concepts robot programming for various applications and economics analysis",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "An Introduction to Robot Technology, by CoifetChirroza, Kogan Page."
+    },
+    {
+     "no": 2,
+     "book": "Robotics for Engineers, by Y. Koren, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Robotic: Control, Sensing, Vision and Intelligence, by Fu, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Introduction to Industrial Robotics, by Nagrajan, Pearson India."
+    },
+    {
+     "no": 5,
+     "book": "Robotics, by J.J. Craig, Addison‐Wesley."
+    },
+    {
+     "no": 6,
+     "book": "Industrial Robots, by Groover, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Robotic Engineering ‐ An Integrated Approach : Richard D. Klafter Thomas A."
+    },
+    {
+     "no": 8,
+     "book": "Robots & Manufacturing Automation, by Asfahl, Wiley."
+    }
+   ],
+   "quirks": [
+    "elective slot line: 'Semester – V: Departmental Elective – II: Specialization – Manufacturing Engineering'",
+    "unit headings print run together: 'UNIT‐ III:Robotics', 'UNIT ‐IV:Robot Drives and Power Transmission Systems' (missing space after colon)",
+    "'Robot end Effectors:' subheading prints at end of p.25 with its content on p.26",
+    "typo verbatim: 'Automation.Elements', 'operation.Robot', 'layouts‐Multiple', 'CoifetChirroza', 'Nagrajan', 'economics analysis'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mould Design and Manufacturing",
+   "name_print": "Mould Design and Manufacturing",
+   "codes": [
+    "KMT054"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Moulding considerations: Draft, radii, dimensional tolerances, wall thicknesses, ribs and bosses, inserts, sink marks, undercuts, feeding system, gate location, flow pattern, shrinkage and post moulding shrinkage. Design of Plastic under static load; Design of Plastic under Dynamic load‐ Gear, Bearing. Metal insert, hinge, fasteners.",
+    "2": "Injection mould design: Single, multicavity, semi‐automatic and automatic moulds. Types of injection mould, their application, detailed structure and working. Feed system, Temperature control system, Ejection System, Standard Mould base. Split Mould and types of mechanism.",
+    "3": "Design concepts for compression moulds, transfer moulds and blow moulds. Extrusion Dies ‐ Types of extrusion dies and design characteristics.",
+    "4": "Mould material, Material selection for mould making, Properties of steels for moulds. Nonferrous metals for moulds. Polishing technology in mold making: Definition of surface roughness, basis of polishing technology, Effect of mold materials on polishability, Types of polishing tools, Methods of polishing.",
+    "5": "Jig boring, Pantograph, Profile grinding, Electrical discharge machining, hobbingprocess.Classification of NC machine tools, NC Part Programming.Geometry, Motion and Additional statements, Macro‐ statement Open and closed loops. Control of point to point systems‐Incremental open loop control, Incremental close loop, Absolute close loop."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand mold making process",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand about various methods of preparation of different moulds.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the knowledge of different kind of moulding.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand inspection of mold",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand knowledge in machining process related to moulding.",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "David H Morton Jons John wellis “Polymer product design materials and processing”"
+    },
+    {
+     "no": 2,
+     "book": "Rao NS “Design data for plastics engineers”"
+    },
+    {
+     "no": 3,
+     "book": "Rao NS “design formula for plastics engineers”"
+    },
+    {
+     "no": 4,
+     "book": "Joshi MV “dies for plastics extrusion”"
+    },
+    {
+     "no": 5,
+     "book": "Millar ,Edward “plastics product design part A& B”"
+    },
+    {
+     "no": 6,
+     "book": "DYM “product design with plastics”"
+    },
+    {
+     "no": 7,
+     "book": "Beck “plastics product design”"
+    },
+    {
+     "no": 8,
+     "book": "Dubois “plastics product design engineering hand book”"
+    },
+    {
+     "no": 9,
+     "book": "Malloy , Robert, A “plastics part design for injection moulding”"
+    },
+    {
+     "no": 10,
+     "book": "Bebb,R.H., “Plastics Mould Design Vol.1 Compression and Transfer Moulds"
+    },
+    {
+     "no": 11,
+     "book": "PyeR.G.W., “Injection MOULD Design for Thermoplastics”"
+    },
+    {
+     "no": 12,
+     "book": "DYM, “Injection Moulds and Moulding”"
+    },
+    {
+     "no": 13,
+     "book": "Lee NC “Blow moulding design guide”"
+    },
+    {
+     "no": 14,
+     "book": "”Mold making handbook for Plastic Engineers”, KlusStokhert (Edt.),Hanser Publishers, NY,1983"
+    },
+    {
+     "no": 15,
+     "book": "“CAD/CAM” HP Groover&EWZimmers, Jr. Prentice Hall India Ltd."
+    },
+    {
+     "no": 16,
+     "book": "Stoeckhert “Menning, Mold making handbook”, 2nd edition, Hanser Publishers, Munich."
+    },
+    {
+     "no": 17,
+     "book": "“Mold Engineering”, Herbert Rees, Hanser Publishers, NY. George Menges& Paul Mohren"
+    },
+    {
+     "no": 18,
+     "book": "“How To Make Injection Molds”, Hanser Publishers."
+    },
+    {
+     "no": 19,
+     "book": "“Plastics Mold Engineering”, DuBois; J. Harry and Pribble; W. I. (Eds.),SPE Polymer Technology"
+    }
+   ],
+   "quirks": [
+    "elective slot line: 'Semester – V: Departmental Elective – II: Specialization – Manufacturing Engineering'",
+    "Reference Books 1–11 print on p.27, items 12–19 spill to p.28",
+    "Unit V print has stretched word spacing ('Jig   boring,   Pantograph,   Profile   grinding...') and typo 'hobbingprocess.Classification' (missing spaces), 'NC Part Programming.Geometry'",
+    "typo verbatim: 'David H Morton Jons John wellis', 'KlusStokhert', 'Groover&EWZimmers', 'PyeR.G.W.', 'Injection MOULD Design' (case), unclosed quotes items 10, 19"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Time & Motion Study",
+   "name_print": "Time & Motion Study",
+   "codes": [
+    "KMT055"
+   ],
+   "semester": 5,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to industrial Engineering, productivity, measurement of productivity",
+    "2": "Introduction to work‐study.The basic procedure of work‐study. Work study for establishing the standard time for a given activity. Method study, procedure for Method study, Principles of motion economy, Filming techniques and micro motion analysis, recording technique. Construction of process chart, Gantt chart, SIMO chart, string chart, Travel chart, Multiple activity chart, Sampling process, Critical examination analysis. Primary, secondary and tertiary stages. Search for alternatives. Steps involved in evaluation of alternatives",
+    "3": "Introduction to work measurement, objectives of work measurement, Techniques of work measurement.Basic procedure in time study. Advantages and limitations of time study. Time recording techniques in time study. Performance rating standard allowances, personal allowance, fatigue allowance, production delay allowance. Factors affecting the rating.Synthetic rating method.",
+    "4": "Work sampling, process of work sampling, predetermined motion time systems, standard data system, job evaluation and merit rating. work factor method. Method time measurement system, basic, motion time study system",
+    "5": "Wages and incentive plans. relationship between wages productivity and cost. Case studies"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Develop a case for productivity improvement in any manufacturing",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Calculate the basic work content of a specific job for employees of an organization. Thereby they will be able to calculate the production capacity of man power of an organization",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Provide appropriate allowances for the jobs under analysis.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Conduct a method study in any organization with the objective of improving a process, material movement system or design of a work place",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Develop time standards for operations, identify production bottlenecks and improvise operations",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Devise appropriate wage and incentive plan for the employees of an organization",
+     "kl": "K3"
+    },
+    {
+     "no": 7,
+     "text": "Analyze the existing methods of working for a particular job and develop an improved method through questioning technique.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "ILO International labor organization “Introduction to work study” TATA McGraw Hill"
+    },
+    {
+     "no": 2,
+     "book": "M.E.Mundel” Motion and Time study”"
+    },
+    {
+     "no": 3,
+     "book": "R.M.Barynes “Motion and Time study”"
+    },
+    {
+     "no": 4,
+     "book": "E.S.Buffa “Modern production management” TATA McGraw Hill"
+    },
+    {
+     "no": 5,
+     "book": "Dr.A.K.Singh “Time and motion study” Jaico publishing houses"
+    }
+   ],
+   "quirks": [
+    "unit headings print without spaces: 'UnitI', 'UnitII' (Units III–V print normally)",
+    "CO1 sentence ends truncated: 'productivity improvement in any manufacturing' (no noun)",
+    "book list headed 'REFERENCE:'; items 1–4 print on p.29, item 5 (no period: '5 Dr.A.K.Singh...') spills to p.30",
+    "typo verbatim: 'work‐study.The', 'measurement.Basic', 'rating.Synthetic', 'systems,standard', 'M.E.Mundel”', 'R.M.Barynes'",
+    "no textbooks section; combined reference list only"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Pneumatics And Hydraulics",
+   "name_print": "Pneumatics And Hydraulics",
+   "codes": [
+    "KMT601"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to Fluid Power And Drives Fluid Power Systems – Application of fluid power – Properties of hydraulics fluids – Hydraulics pumps – Characteristics – Pump Selection ‐, Hydraulics Actuators – Linear, Rotary – Selection – Characteristics – Cylinder Mountings, cushioning, pipe fittings.",
+    "2": "(Fluid Power Elements) Pressure control valves, flow control valves, directional control valves – working principle and construction, special type valves, servo valves, Cartridge valves Actuation methods, Shock absorbers – Accumulator – Symbol for fluid power elements.",
+    "3": "(Hydraulics Circuits) Hydraulics circuits – automatic reciprocating circuit – speed control circuit ‐ Meter in ‐ Meter out – Sequencing Circuits – Synchronizing circuits Accumulator circuit – Safety circuits – Hydraulic Motor braking System. Design of Hydraulic circuits.",
+    "4": "Pneumatic Systems Pneumatic fundamentals Filter, regulator, lubricator, air motors, air cylinders, pneumatic valves, Basic Pneumatic circuits – Hydro Pneumatic Systems – air‐ oil cylinder, air – oil reservoir, air – oil intensifier and simple circuits.",
+    "5": "Fluid Logic Control Principle of fluid Logic control, Basic fluidic devices ‐ Fluid sensors Fluidic circuits – sequencing control, continuous reciprocation, Electrical controls – electrical components – simple electro hydraulic/ pneumatic circuits. PLC application in fluid power control."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the main components of the hydraulic and pneumatic systems and their functions and symbols.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the advantages and disadvantages of hydraulic/pneumatic systems, and be aware of the underlying principles.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Describe the construction, operation principles, and uses of auxiliary equipment, such as filters, oil coolers, oil heater and accumulators.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "List and follow safety rules as they apply to the hydraulics/pneumatics field",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Select hydraulic fluids based on their classifications and properties.",
+     "kl": "K4"
+    },
+    {
+     "no": 6,
+     "text": "Design and predict simple linear actuator and hydrostatic transmission circuits.",
+     "kl": "K5"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A Fluid Power with applications Antony Esposito"
+    },
+    {
+     "no": 2,
+     "book": "B. Pneumatic Systems – Principles and Maintenance Mazumdar S. R"
+    },
+    {
+     "no": 3,
+     "book": "Sadhu Singh, Fluid Machinery, Khanna Publishing House"
+    },
+    {
+     "no": 4,
+     "book": "Oil Hydraulics Systems – Principles and Maintenance Mazumdar S. R"
+    },
+    {
+     "no": 5,
+     "book": "D. Industrial Hydraulics John Pipenger& Tyler Hicks"
+    },
+    {
+     "no": 6,
+     "book": "E. Fluid Power Chandashekhara P. K."
+    },
+    {
+     "no": 7,
+     "book": "A.K. Babu, Automobile Mechanics, Khanna Publishing House"
+    },
+    {
+     "no": 8,
+     "book": "F. Automobile Engineering Vol. I Kripal Singh"
+    }
+   ],
+   "quirks": [
+    "reference list items carry stray list-letter prefixes: 'A Fluid Power...', 'B. Pneumatic Systems...', 'D. Industrial Hydraulics...', 'E. Fluid Power...', 'F. Automobile Engineering...' (C missing; item 7 has no letter) — verbatim kept, renumbered 1..8 in draft",
+    "items 7–8 (Automobile Mechanics / Automobile Engineering) appear unrelated to subject title — print artifact kept verbatim",
+    "typo verbatim: 'Pump Selection ‐,', 'Chandashekhara', 'Pipenger& Tyler Hicks'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Machine Design",
+   "name_print": "Machine Design",
+   "codes": [
+    "KME602"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction Definition, Design requirements of machine elements, Design procedure, Standards in design, Standards designation of carbon & alloy steels, Selection of preferred sizes, Selection of materials for static and fatigue loads, Design against Static Load Design against Fluctuating Loads Cyclic stresses, Fatigue and endurance limit, Stress concentration factor, Stress concentration factor for various machine parts, Design for finite & infinite life, Soderberg, Goodman, Gerber criteria",
+    "2": "Riveted Joints Riveting methods, materials, Types of rivet heads, Types of riveted joints, Caulking and Fullering, Failure of riveted joint, Efficiency of riveted joint, Design of boiler joints, Eccentric loaded riveted joint Welded Joints Stress relieving of welded joints, Butt Joints, Fillet Joints, Strength of Butt Welds, Strength of parallel fillet welds, Strength of transverse fillet welds Shafts Cause of failure in shafts, Materials for shaft, Stresses in shafts, Design of shafts subjected to twisting moment, bending moment and combined twisting and bending moments, Shafts subjected to fatigue loads, Design for rigidity, Keys, Types of keys, Selection of square and flat keys, Strength of sunk key",
+    "3": "Spur Gears Tooth forms, System of gear teeth, contact ratio, Standard proportions of gear systems, Interference in involute gears, Backlash, Selection of gear materials, Gear manufacturing methods, Design considerations, Beam strength of gear tooth, Dynamic tooth load, Wear strength of gear tooth, Failure of gear tooth, Design of spur gears, AGMA and Indian standards. Helical Gears Terminology, Proportions for helical gears, Force components on a tooth of helical gear, Virtual number of teeth, Beam strength and wear strength of helical gears, Dynamic load on helical gears, Design of helical gears. Introduction, Classification and Applications of Bevel & Worm Gears",
+    "4": "Sliding Contact Bearing Types, Selection of bearing, Plain journal bearing, Hydrodynamic lubrication, Properties and materials, Lubricants and lubrication, Hydrodynamic journal bearing, Heat generation, Design of journal bearing. Rolling Contact Bearing Advantages and disadvantages, Types of ball bearing, Thrust ball bearing, Types of roller bearing, Selection of radial ball bearing, Bearing life, Selection of roller bearings, Dynamic equivalent load for roller contact bearing under constant and variable loading, Reliability of Bearing.",
+    "5": "IC Engine Parts Selection of type of IC engine, General design considerations, Design of Cylinder and cylinder head; Design of piston, piston ring and gudgeon pin; Friction Clutches Clutches, Difference between coupling and clutch, Single plate friction clutch, Torque transmitting capacity, Multi‐Disk Clutches, Friction Material"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Recall the basic concepts of Solid Mechanics to understand the subject.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Classify various machine elements based on their functions and applications.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply the principles of solid mechanics to machine elements subjected to static and fluctuating loads.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze forces, bending moments, twisting moments and failure causes in various machine elements to be designed.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Design the machine elements to meet the required specification.",
+     "kl": "K5"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Design of Machine Elements‐V.B. Bhandari, Tata McGraw Hill Co."
+    },
+    {
+     "no": 2,
+     "book": "Design of Machine Elements, Sharma and Purohit, PHI."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Mechanical Engineering Design, 9e – Joseph E. Shigely, McGraw Hill Education."
+    },
+    {
+     "no": 2,
+     "book": "Machine Design‐Maleev and Hartman, CBS Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Design of Machine Design‐M.F. Spott, Pearson Education."
+    },
+    {
+     "no": 4,
+     "book": "Elements of Machine Component Design, Juvinal&Marshek, John Wiley & Sons."
+    },
+    {
+     "no": 5,
+     "book": "Machine design, Robert L. Norton, Pearson Education"
+    },
+    {
+     "no": 6,
+     "book": "Theory & Problem of Machine Design (Schaum’s Outline Series) Hall, Holowenko, Laughlin, Tata McGraw Hill Co."
+    },
+    {
+     "no": 7,
+     "book": "Machine Design‐Sharma and Agrawal, S.K. Kataria& Sons."
+    },
+    {
+     "no": 8,
+     "book": "Machine Design, U C Jindal, Pearson Education."
+    }
+   ],
+   "quirks": [
+    "code header 'Subject Code: KME 602 Machine Design / L T P : 3 1 0 Credits: 4' prints at bottom of p.31; CO table + units follow on p.32",
+    "printed note after Unit V: 'Note: Design data book is allowed in the examination'",
+    "typo verbatim: 'Shigely', 'Design of Machine Design‐M.F. Spott' (title), 'Juvinal&Marshek', 'Kataria& Sons'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Theory of Machines",
+   "name_print": "Theory of Machines",
+   "codes": [
+    "KME603"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction, mechanisms and machines, kinematics and kinetics, types of links, kinematic pairs and their classification, types of constraint, degrees of freedom of planar mechanism, Grubler’s equation, mechanisms, inversion of four bar chain, slider crank chain and double slider crank chain. Velocity analysis: Introduction, velocity of point in mechanism, relative velocity method, velocities in four bar mechanism, instantaneous center. Acceleration analysis: Introduction, acceleration of a point on a link, acceleration diagram, Corioli’s component of acceleration, crank and slotted lever mechanism,.",
+    "2": "Cams: Introduction, classification of cams and followers, cam profiles for knife edge, roller and flat faced followers for uniform velocity, uniform acceleration Gears and gear trains: Introduction, classification of gears, law of gearing, tooth forms and their comparisons, systems of gear teeth, length of path of contact, contact ratio, minimum number of teeth on gear and pinion to avoid interference, simple, compound, reverted and planetary gear trains, sun and planet gear train.",
+    "3": "Force analysis: Static force analysis of mechanisms, D’Alembert’s Principle, dynamics of rigid link in plane motion, dynamic force analysis of planar mechanisms, piston force and crank effort. Turning moment on crankshaft due to force on piston, Turning moment diagrams for single cylinder double acting steam engine, four stroke IC engine and multi‐cylinder engines, Fluctuation of speed, Flywheel.",
+    "4": "Balancing: Introduction, static balance, dynamic balance, balancing of rotating masses, two plane balancing, graphical and analytical methods, balancing of reciprocating masses, balancing of single cylinder engine. Governors: Introduction, types of governors, characteristics of centrifugal governors, gravity controlled and spring controlled centrifugal governors, hunting of centrifugal governors, inertia governors. Effort and Power of governor",
+    "5": "Brakes and dynamometers: Introduction, Law of friction and types of lubrication, types of brakes, effect of braking on rear and front wheels of a four wheeler, dynamometers, belt transmission dynamometer, torsion dynamometer, hydraulic dynamometer Gyroscope: Space motion of rigid bodies, angular momentum, gyroscopic couples, gyroscopic stabilization, ship stabilization, stability of four wheel and two wheel vehicles moving on curved paths."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the principles of kinematics and dynamics of machines.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Calculate the velocity and acceleration for 4‐bar and slider crank mechanism",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Develop cam profile for followers executing various types of motions",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of gear, gear train and flywheel for power transmission",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply dynamic force analysis for slider crank mechanism and balance rotating & reciprocating masses in machines.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Apply the concepts of gyroscope, governors in fluctuation of load and brake & dynamometer in power transmission",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Kinematics and dynamics of machinery: Wilson and Sadler, Third edition, Pearson."
+    },
+    {
+     "no": 2,
+     "book": "Theory of Mechanisms and Machines: Amitabh Ghosh and Ashok Kumar Mallik, Third Edition Affiliated East‐West Press."
+    },
+    {
+     "no": 3,
+     "book": "Theory of Machines and Mechanisms: Joseph Edward Shigley and John Joseph Uicker, Jr. Oxford University Press"
+    },
+    {
+     "no": 4,
+     "book": "Kinematics and dynamics of machinery: R L Norton, McGraw Hill"
+    },
+    {
+     "no": 5,
+     "book": "Theory of Machines: S.S. Rattan, McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "Theory of Machines: Thomas Bevan, CBS Publishers."
+    }
+   ],
+   "quirks": [
+    "CO table prints under the 'Unit V' heading (p.34); Unit V content (Brakes and dynamometers; Gyroscope) prints on p.35 after the CO table",
+    "per-unit hour markers '(09 Hours)' '(10 Hours)' '(08 Hours)' '(09 Hours)' '(09 Hours)'",
+    "single combined list headed 'Text / Reference Books' (no separate Text Books); renumbered 1..6",
+    "printed after book list: 'Suggested Software MechAnalyzer'",
+    "typo verbatim: 'crank and slotted lever mechanism,.' (comma+period), 'Ghosh' (Ghosh/Mallik), 'Grubler’s'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Pneumatics & Hydraulics Lab",
+   "name_print": "Pneumatics & Hydraulics Lab",
+   "codes": [
+    "KMT651"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "practical_sessional_ps": 25,
+    "practical_end_sem_pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "List of experiments"
+    },
+    {
+     "no": 2,
+     "exp": "Study of the single acting & double acting hydraulic& pneumatic cylinders ."
+    },
+    {
+     "no": 3,
+     "exp": "Study of symbols used in single and double acting hydraulic & pneumatic cylinders."
+    },
+    {
+     "no": 4,
+     "exp": "Study of constructional detail and performance characteristics of linear pumps."
+    },
+    {
+     "no": 5,
+     "exp": "Study of constructional detail and performance characteristics of rotary pumps."
+    },
+    {
+     "no": 6,
+     "exp": "Determination of viscosity index of hydraulic fluids by using redwood viscometer."
+    },
+    {
+     "no": 7,
+     "exp": "Study and operation of solenoid valves and relay timers."
+    },
+    {
+     "no": 8,
+     "exp": "To operate a single acting cylinder using 3/2 push button valves on a electro pneumatic kit"
+    },
+    {
+     "no": 9,
+     "exp": "To operate a single acting cylinder using 3/2 push button valves on a electro pneumatic kit"
+    },
+    {
+     "no": 10,
+     "exp": "To operate a 5/2 pilot operated valve by using double acting cylinder on a electro pneumatic kit."
+    },
+    {
+     "no": 11,
+     "exp": "Design of Hydraulic/Pneumatic circuit of a single acting and double acting cylinders."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Analyze the performance of fluid power systems.",
+     "kl": "K4"
+    },
+    {
+     "no": 2,
+     "text": "Analyze Operation control systems.",
+     "kl": "K4"
+    },
+    {
+     "no": 3,
+     "text": "Describe hydraulic circuit’s components using hydraulic symbols",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Identify pressure and power losses in hydraulic conduits",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Recognize the different types of hydraulic pumps.",
+     "kl": "K4"
+    },
+    {
+     "no": 6,
+     "text": "Classify, draw and recognize the different types of control valves.",
+     "kl": "K4"
+    }
+   ],
+   "experiments_note": "PNEUMATICS & HYDRAULICS LAB",
+   "quirks": [
+    "experiment numbering starts at '1. List of experiments' (a caption printed as numbered item 1); actual experiments are items 2–11",
+    "items 8 and 9 are identical printed lines (duplicate print kept verbatim)",
+    "typo verbatim: 'hydraulic& pneumatic', trailing ' .' spacing"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Machine Design Lab",
+   "name_print": "Machine Design Lab",
+   "codes": [
+    "KME652"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "practical_sessional_ps": 25,
+    "practical_end_sem_pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design a knuckle joint subjected to given tensile load."
+    },
+    {
+     "no": 2,
+     "exp": "Design a riveted joint subjected to given eccentric load."
+    },
+    {
+     "no": 3,
+     "exp": "Design of shaft subjected to combined constant twisting and bending loads"
+    },
+    {
+     "no": 4,
+     "exp": "Design a transverse fillet welded joint subjected to given tensile load."
+    },
+    {
+     "no": 5,
+     "exp": "Design & select suitable Rolling Contact Bearing for a shaft with given specifications"
+    },
+    {
+     "no": 6,
+     "exp": "Design a cylinder head of an IC Engine with prescribed parameters."
+    },
+    {
+     "no": 7,
+     "exp": "Design of Piston & its parts of an IC Engine"
+    },
+    {
+     "no": 8,
+     "exp": "Design a pair of Spur Gear with given specifications to determine its various dimensions using Computer Program in C/C++."
+    },
+    {
+     "no": 9,
+     "exp": "Design a pair of Helical Gear with given specifications to determine its various dimensions using Computer Program in C/C++."
+    },
+    {
+     "no": 10,
+     "exp": "Design of Sliding Contact Bearing with given specifications & determine its various parameters using Computer Program in C/C++."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply the principles of solid mechanics to design various machine Elements subjected to static and fluctuating loads.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Write computer programs and validate it for the design of different machine elements",
+     "kl": "K4"
+    },
+    {
+     "no": 3,
+     "text": "Evaluate designed machine elements to check their safety.",
+     "kl": "K5"
+    }
+   ],
+   "experiments_note": "A Design of Machine Elements (experiments 1–7); B. Computer Programs for conventional design — Computer and Language:Students are required to learn the basics of computer language such as C/C++/MATLAB so that they should be able to write the computer program. (experiments 8–10)",
+   "quirks": [
+    "experiments printed in two lettered sections: 'A / Design of Machine Elements' (1–7) and 'B. Computer Programs for conventional design' (1–3 with intro paragraph) — section B renumbered 8–10 in draft, section print kept in experiments_note",
+    "typo verbatim: 'Computer and Language:Students' (missing space)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Theory of Machines Lab",
+   "name_print": "Theory of Machines Lab",
+   "codes": [
+    "KME653"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "practical_sessional_ps": 25,
+    "practical_end_sem_pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To study various types of kinematics links, pairs, chains & Mechanisms"
+    },
+    {
+     "no": 2,
+     "exp": "To study Whitworth Quick Return Motion Mechanisms,ReciprocatingEngineMechanism, and Oscillating Engine Mechanism"
+    },
+    {
+     "no": 3,
+     "exp": "To study of inversions of four bar linkage"
+    },
+    {
+     "no": 4,
+     "exp": "To study of inversions of single/double slider crank mechanisms"
+    },
+    {
+     "no": 5,
+     "exp": "To study various types of gear (Helical, cross helical, worm, bevel gear) and gear profile (involute and cycloidal) and condition for interference Helical, cross helical, worm, bevel gear"
+    },
+    {
+     "no": 6,
+     "exp": "To compute the output velocity invarious gear trains"
+    },
+    {
+     "no": 7,
+     "exp": "To study gyroscopic effects through models"
+    },
+    {
+     "no": 8,
+     "exp": "To determine gyroscopic couple on Motorized Gyroscope"
+    },
+    {
+     "no": 9,
+     "exp": "To perform experiment on dead weight type governor to prepare performance characteristic Curves, and to find stability & sensitivity"
+    },
+    {
+     "no": 10,
+     "exp": "To perform experiment on spring controlled governor to prepare performance characteristic Curves, and to find stability & sensitivity"
+    },
+    {
+     "no": 11,
+     "exp": "To determine whirling speed of shaft theoretically and experimentally"
+    },
+    {
+     "no": 12,
+     "exp": "To perform the experiment for static / dynamic balancing"
+    },
+    {
+     "no": 13,
+     "exp": "To perform experiment on brake"
+    },
+    {
+     "no": 14,
+     "exp": "To perform experiment on clutch"
+    },
+    {
+     "no": 15,
+     "exp": "To perform the experiment for static / dynamic balancing."
+    },
+    {
+     "no": 16,
+     "exp": "To perform experiment on longitudinal vibration"
+    },
+    {
+     "no": 17,
+     "exp": "To perform experiment on transverse vibration"
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Demonstrate various mechanisms, their inversions and brake and clutches in automobiles",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply cam‐follower mechanism to get desired motion of follower.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concepts of gears and gear train to get desired velocity ratio for power transmission.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of governors to control the fuel supply in engine.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Determine the balancing load in static and dynamic balancing problem",
+     "kl": "K3"
+    }
+   ],
+   "experiments_note": "List of Experiments (Minimum eight experiments out of the following) NOTE: Student has to write computer program in C / C++ / Python and to run to compute the output values for at least ONE experiments.",
+   "quirks": [
+    "printed NOTE: 'Student has to write computer program in C / C++ / Python and to run to compute the output values for at least ONE experiments.'",
+    "items 12 and 15 are near-identical printed lines ('To perform the experiment for static / dynamic balancing' / '...balancing.') — duplicate print kept verbatim",
+    "typo verbatim: 'velocity invarious gear trains' (missing space), 'Mechanisms,ReciprocatingEngineMechanism,' (missing spaces)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Nondestructive Testing",
+   "name_print": "Nondestructive Testing",
+   "codes": [
+    "KME061"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to NDT, DT, advantages & limitations of NDT, classification of NDT methods, Comparison with DT, Terminology, Flaws and Defects. Scope of NDT.Codes, Standards and Certifications in NDT. Visual Inspection– Equipment used for visual inspection, Borescopes, Application of visual inspection tests in detecting surface defects and their interpretation, advantages & limitations of visual inspection, Visual Inspection in Welding.",
+    "2": "Liquid Penetrant Testing – Principle, Scope, Testing equipment, Advantages, Limitations, types of penetrants and developers, standard testing procedure, Zyglo test, Illustrative examples and interpretation of defects. Magnetic Particle Inspection – Principle, Scope, Testing equipment, Advantages, Limitations, Application of MPI& standard testing procedure, DC & AC magnetization, Skin Effect, different methods to generate magnetic fields, Illustrative examples and interpretation of defects.",
+    "3": "Radiographic Testing – Introduction to electromagnetic waves and radioactivity, various decays, Attenuation of electromagnetic radiations, Photoelectric effect, coherent scattering and Incoherent scattering, Beam geometry. X‐ray Radiography – Principle, equipment & methodology, applications, source, types of radiations and limitations; γ‐ray Radiography – Principle, equipment, γ‐ray source & technique; Radiography Image Quality Indicators, Film Processing, advantages of γ‐ray radiography over X‐ray radiography. Precautions against radiation hazards.",
+    "4": "Ultrasonic Testing – Introduction, Principle, Piezoelectricity and Piezoelectric Transducers, Wave propagation, Ultrasonic probes, selection of angle probes, Acoustic Impedance, Reflection and transmission coefficient, Snell’s law, standard testing procedure & calibration, advantages & limitations. Data representation ‐ A‐scan, B‐scan, C‐scan.Applications in inspection of welded joints, castings, forgings and dimensional measurements.Introduction to TOFD& Phased Array Ultrasonic Testing.",
+    "5": "Special NDT Techniques: Eddy Current Inspection– Introduction, Principle, Methods, scope, Equipment, types of probes, Sensitivity, standard testing procedure, advanced ECT methods, advantages and limitations. Acoustic Emission Technique– Introduction, Types of AE signal, Principle, Advantages & Limitations, Interpretation of Results, Applications. Holography, Thermography– Introduction, Principle, advantages, limitations and applications."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concept of destructive and Non‐destructive testing methods.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Explain the working principle and application of die penetrant test and magnetic particle inspection.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the working principle of eddy current inspection.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Apply radiographic techniques for testing.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the principle of Ultrasonic testing and applications in medical and engineering areas.",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Non‐Destructive Testing and Evaluation of Materials, by‐ Prasad, McGraw Hill Education."
+    },
+    {
+     "no": 2,
+     "book": "Practical Non‐destructive Testing, by‐ Baldev Raj, T. Jayakumar, M. Thavasimuthu, Woodhead Publishing."
+    },
+    {
+     "no": 3,
+     "book": "Non‐Destructive Testing Techniques, by‐ Ravi Prakash, New Age International."
+    },
+    {
+     "no": 4,
+     "book": "Non destructive Testing Handbook, by Robert C. McMaster, American Society for Nondestructive."
+    },
+    {
+     "no": 5,
+     "book": "Introduction to Non destructive Testing: A Training Guide, by‐ Paul E. Mix, wiley."
+    },
+    {
+     "no": 6,
+     "book": "Electrical and Magnetic Methods of Non‐destructive Testing, by‐ J. Blitz, springer."
+    },
+    {
+     "no": 7,
+     "book": "Practical non destructive testing by Raj, Baldev."
+    },
+    {
+     "no": 8,
+     "book": "Basics of Non‐Destructive Testing, by Lari& Kumar, KATSON Books."
+    },
+    {
+     "no": 9,
+     "book": "ASME Sec. V, boiler and pressure vessel code"
+    }
+   ],
+   "quirks": [
+    "elective slot line: 'Semester – VI: Departmental Elective – III: Specialization – Manufacturing and Automation'",
+    "'UNIT V:' heading prints at bottom of p.39; Unit-5 content ('Special NDT Techniques:...') prints on p.40",
+    "typo verbatim: 'Scope of NDT.Codes' (missing space), 'Application of MPI& standard', 'C‐scan.Applications', 'measurements.Introduction', 'TOFD& Phased Array', 'wiley.' and 'springer.' lowercase publishers"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Machine Vision & Image Processing",
+   "name_print": "Machine Vision & Image Processing",
+   "codes": [
+    "KMT061"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction Digital image representation; fundamental steps in image processing; elements of digital image processing systems: image acquisition, storage, processing and display. 2. Digital Image Fundamentals : Structure of the human eye; image formation; brightness adaptation and discrimination; a simple image model; uniform and non‐uniform sampling and quantization; some basic relationships between pixels; neighbors of a pixel; connectivity; Labeling. Distance measures; imaging geometry.",
+    "2": "Image Enhancement in the spatial domain 4L Basic gray level transformations‐histogram processing‐Enhancement using arithmetic/logic operations‐Basics of spatial filtering‐comparison between smoothing and sharpening spatial filters.",
+    "3": "Image Enhancement in the frequency domain 4L1D Fourier transform‐2D Fourier transform and its Inverse‐Smoothing & sharpening frequency domain filters (Ideal, Butterworth, Gaussian)‐homomorphic filtering. Image compression 4L Fundamentals‐Image compression, Error‐free compression: Huffman coding, block coding, constant area coding, variable length coding; bit‐plane coding; lossless predictive coding.",
+    "4": "Machine Vision 12L Introduction, definition, human visual system. Active vision system, increasing of machine vision. Machine vision components, hardware’s and algorithms, image function and characteristics, image formation & image sensing frequency space analysis, Fourier transform, convolution algorithms, image gaussion, image enhancement, image analysis and segmentation data reduction, feature extraction, edge detection, image recognition and decisions, m/c learning, image processing, machine vision edges detection, application in the area such as inspection part identification, industrial robot control, mobile robot application. Industrial MVs in production and services, structure of industrial m/c vision, generic standards, rules of thumb, image formation, illumination, optics, interfacing machine vision system. Vision system calibration.",
+    "5": "2D&3D vision 6L 16 Competing technologies, principle, CCD, Videcon and other cameras, data capture. Triangulation geometry, resolution, passive and active 3‐D stereo imaging, data processing"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of Image Processing",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand theory behind each image processing algorithm",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Differentiate between computer and machine vision as well as their applications",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand importance in applications including security, healthcare, industry, mobility.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Analyse images and videos",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Principles of Artificial Intelligence by N.J.Nilsson, Kaufmann."
+    },
+    {
+     "no": 2,
+     "book": "Introduction to AI and Expert Systems by D.W.Patterson, Prentice Hall."
+    },
+    {
+     "no": 3,
+     "book": "Image Processing, Analysis and Machine Vision by Milan Sonka, Vaclav Hlavac, Roger Boyle, 2nd Edition, PWS Publishers."
+    },
+    {
+     "no": 4,
+     "book": "Machine Learning, V.K. Jain, Khanna Publishing House"
+    },
+    {
+     "no": 5,
+     "book": "Robotics (Control, Sensing, Vision and Intelligence) by K. S. Fu, R. C. Gonzalez and C. S. G. Lee, McGrawHill Publications."
+    }
+   ],
+   "quirks": [
+    "unit texts embed merged lecture-hour markers: 'spatial domain 4L', 'frequency domain 4L1D Fourier transform' (= '4L' + '1D'), 'Image compression 4L', 'Machine Vision 12L', '2D&3D vision 6L 16' — hour tags run into following words in print; kept verbatim",
+    "Unit I contains a stray numbered sub-item '2. Digital Image Fundamentals :' inside the unit text",
+    "elective slot line: 'Semester – VI: Departmental Elective – III: Specialization – Manufacturing Engineering'",
+    "typo verbatim: 'image gaussion' (Gaussian), 'hardware’s', 'Videcon' (Vidicon), 'MVs'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Tool Design",
+   "name_print": "Tool Design (Same as KME 604)",
+   "codes": [
+    "KMT062",
+    "KME604"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Single point Cutting Tools: Tooling, requirements of a tool designer, general tool design procedure, design of single point lathe tool: design of shank dimension using strength and rigidity considerations for rectangular, square and round cross section and selection of tool geometry; solid type tool, brazed tip tool, long index able insert, throwaway index able insert types and chip breakers. Multi Point Cutting Tool: Drill bit design of elements like back taper, web thickness, land width, margin, flute length and cross section and selection of tool geometry; design of milling cutter: design of elements like number of teeth and height circular pitch, body thickness, chamfer width, fillet radius and selection of tool geometry.",
+    "2": "Jigs & Fixtures: Tolerance analysis and procedure of designing; the economic calculations, location of the work piece, degree of freedom, references surfaces, resting components, fixture elements for surface concentric and radial locations, clamping of the work‐piece, review of cutting forces, principles and methods of clamping; quick clamping devices, standards; guiding elements for tools, gauge for cutter, jig bushes, indexing methods, design of jigs/fixtures/accessories for drilling, milling, turning, broaching, grinding, and welding.",
+    "3": "Design of dies: Simple piercing and blanking process, design of inverted die, compound die, progressive dies, rules for developing stock, strip layouts for progressive dies, types of progressive dies, load centre, analytical and graphical method to determine load centre (i.e. centre of pressure), miscellaneous dies, shaving, horn, cam actuated and precision lamination dies, fine blanking dies, principles ‐ design considerations. Bending dies: Theory of bending, blank development, spring back effect, spring back factor, methods of correction to overcome spring back, types of bending dies, pressure pad dies, forces in bending, construction and working principles, press brake tooling, curling, flanging principles of stretch forming – stretch forming dies.",
+    "4": "Design of dies for metal casting : Casting dies, terminology applicable to process, terminology applicable to dies, alignment of metal flow in hot chamber, horizontal cold chamber and vertical cold chamber machines, modification for casting of deep core or with limitations of stroke, design for various elements, effect of off‐centre cavity layout, necessity of balancing, types of dies, parameters influencing the runner and gate design, ejection mechanism, ejection elements and various locations, die locking mechanism, trimming , types of trim dies and alloys suitable for die making. Injection Moulding: Injection moulding machine and its elements, general configuration of a mould, 2‐plate and 3‐plate mould, gate, runner, parting surface, ejection system, core and cooling system, introduction to compression die, transfer die, blow moulding dies, extrusion dies, forming and calendaring dies.",
+    "5": "Machine tool control systems, control systems for speed and feed changing, adaptive control systems, CNC machines. Kinematics of machine tools, motion transmission, design of hydrostatic, hydrodynamic and antifriction guideways, design of spindles, design of speed gear boxes and feed box, feed drives, stepped and stepless regulations of speed, feed diagram, ray diagrams and design considerations. Vibration in machine tools, lubrication, rigidity, and reliability in machine tools"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain the design criterion for single and multipoint cutting tools for different machines.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Design jigs and fixtures with required tolerances and economy.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Design the dies for casting and injection moulding processes.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Design the dies for casting and injection moulding processes.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Select a suitable control system, drives and kinematic mechanism for a machine tool.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Machine Tool Design and Numerical Control by N.K. Mehta, McGraw Hill"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Principles of Machine Tools by G.C. Sen and A. Bhattacharya, Central Book Agency"
+    },
+    {
+     "no": 2,
+     "book": "Design of Machine Tools by D. K Pal and S. K. Basu, Allied Publishers"
+    },
+    {
+     "no": 3,
+     "book": "Machine Tool Design, Vol. I, II, III and IV, N. S. Acherkhan, Mir Publishers"
+    },
+    {
+     "no": 4,
+     "book": "Jigs and Fixtures, by Joshi, Tata McGraw Hill, New Delhi."
+    },
+    {
+     "no": 5,
+     "book": "Theory and Application of Metal Cutting, by Juneja, Wiley Eastern Ltd"
+    },
+    {
+     "no": 6,
+     "book": "Basic Die Making & Advance Die Making by D. Eugene Ostergaard, McGraw Hill"
+    },
+    {
+     "no": 7,
+     "book": "Injection Mould Design by R.G.WPye, Longman Scientific & Technical Publishers"
+    }
+   ],
+   "quirks": [
+    "dual printed codes: detail page prints 'Subject Code: KMT 062 Tool Design (Same as KME 604)'; content list (p.2) prints 'Tool Design(KME 604)'; elective pool (p.4) prints 'KMT 062/ (KME 604)' — both codes recorded",
+    "CO table printed mid-Unit-IV (after 'design' on p.43) in text layer; CO3 and CO4 are identical printed lines (duplicate print kept verbatim)",
+    "Reference Books print numbered 2–8 continuing the Text Book numbering (1) — renumbered 1..7 in draft",
+    "unit headings printed as 'UNIT I: Cutting Tools', 'UNIT II: Jigs and Fixtures', 'UNIT III: Sheet Metal, Bending and Drawing', 'UNIT IV: Die Casting Dies and Injection Moulding', 'Unit 5: Control, drives and structure' (mixed formats)",
+    "typo verbatim: 'index able' (indexable), 'R.G.WPye', 'trimming , types' spacing"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Product Design And Development",
+   "name_print": "Product Design And Development",
+   "codes": [
+    "KMT063"
+   ],
+   "semester": 6,
+   "program_year": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to Product Design: Introduction to PDD, Applications, Relevance, Product Definition, Scope, Terminology. Design definitions, the role and nature of design, old and new design methods, Design by evolution. Examples such evolution of bicycle, safety razor etc. Need based development, technology based developments. Physical reliability & Economic feasibility of design concepts.",
+    "2": "Morphology of Design Divergent, transformation and convergent phases of product design. Identification of need, Analysis of need. Design for what? Design criteria, functional aspects. Aesthetics, ergonomics, form (structure). Shape, size, color. Mental blocks, Removal of blocks, Ideation Techniques. Creativity, Checklist.",
+    "3": "Transformations Brainstorming &Synectics.Morphologicaltechniques.Utility concept, Utility value, Utility index. Decision making under multiple criteria.Economic aspects of design.Fixed and variable costs. Break‐even analysis.",
+    "4": "Reliability Reliability considerations, Bath tub curve, Reliability of systems in series and parallel. Failure rate, MTTF and MTBF. Optimum spares from reliability consideration. Design of displays and controls, Man‐Machine interface, Compatibility of displays and controls.Ergonomicaspects.Anthropometric data and its importance in design. Applications of Computers in product design.",
+    "5": "Product Appraisal Information and literature search, patents, standards and codes. Environment and safety considerations.Existing techniques such as work‐study, SQC etc. which could be used to improve method & quality of product.Innovation versus Invention.Technological Forecasting."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the product design and development processes in manufacturing industry.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Define the components and their functions of product design and development processes and their relationships from concept to customer over whole product lifecycle.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Undertake a methodical approach to the management of product development to satisfy customer needs.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Carry out cost and benefit analysis through various cost models.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Competence with a set of tools and methods for product design and development",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Analyse the methodologies for product design, development and management.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Product Design & Manufacturing ‐ A.K.Chitale&R.C.Gupta, PHI (EEE)."
+    },
+    {
+     "no": 2,
+     "book": "Product design and Development‐Karl Ulrich‐PHI"
+    },
+    {
+     "no": 3,
+     "book": "The Technology of Creation Thinking ‐ R.P. Crewford – Prentice Hall"
+    },
+    {
+     "no": 4,
+     "book": "The Art of Thought – Grohem Walls – Bruce & Co., New York"
+    },
+    {
+     "no": 5,
+     "book": "Product Design & Decision Theory ‐ M.K. Starr ‐ Prentice Hall"
+    },
+    {
+     "no": 6,
+     "book": "Engg . Product Design ‐C .D. Cain, Bussiness Books."
+    },
+    {
+     "no": 7,
+     "book": "Industrial design for Engineers –W .H. Mayall, Itiffe."
+    },
+    {
+     "no": 8,
+     "book": "Design Methods – seeds of human futures – J. Christopher Jones, John Wiley & Sons."
+    },
+    {
+     "no": 9,
+     "book": "Human Factor Engg. – MccormickE.J., McGrawHill."
+    },
+    {
+     "no": 10,
+     "book": "Engineering: An Introduction to Creative profession – G.C. BeakleyHw leach, Macmillan."
+    },
+    {
+     "no": 11,
+     "book": "Industrial Design In Engineering – A marriage of Techniques – Charles H .Flurscheim, The Design Council ‐ London."
+    },
+    {
+     "no": 12,
+     "book": "Reliability Engineering, S.C.Sharma, Khanna Book Publishing Co."
+    }
+   ],
+   "quirks": [
+    "book list headed 'Recommended Books:' items 1–2 print on p.45; items 3–12 continue on p.46 after the CO table — renumbered 1..12 in draft",
+    "unit headings print run together: 'UNITI:Introduction to Product Design:', 'UNITII:', 'UNITIII:', 'UNITIV:', 'UNIT V: Product Appraisal'",
+    "typo verbatim: 'Brainstorming &Synectics.Morphologicaltechniques.Utility' (missing spaces), 'controls.Ergonomicaspects', 'A.K.Chitale&R.C.Gupta', 'R.P. Crewford', 'Grohem Walls', 'Bussiness Books', 'Itiffe', 'MccormickE.J.', 'BeakleyHw leach', 'Charles H .Flurscheim'",
+    "CO table prints at bottom of p.45 continuing to p.46 (text-layer splits CO1 into one word per line)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additive manufacturing",
+   "name_print": "Additive manufacturing",
+   "codes": [
+    "KME071"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction History and Advantages of Additive Manufacturing, Distinction Between Additive Manufacturing and CNC Machining, Types of Additive Manufacturing Technologies, Nomenclature of AM Machines, Direct and Indirect Processes; Prototyping, Manufacturing and Tooling. Layer Manufacturing Processes: Polymerization, Sintering and Melting, Extrusion, Powder Binder Bonding, Layer Laminate Manufacturing, Other Processes; Aerosol printing and Bio plotter.",
+    "2": "Development of Additive Manufacturing Technology Computer Aided Design Technology, Other Associated Technology, Metal and Hybrid Systems. Generalized Additive Manufacturing Process Chain; The Eight Steps in Additive Manufacturing, Variation from one AM Machine to Another, Metal System, Maintenance of Equipment, Material Handling Issue, Design of AM.",
+    "3": "Additive Manufacturing Processes Vat Photo polymerization; Materials, Reaction Rates, Photo polymerization Process Modelling, ScanPatterns Powder Bed Fusion Processes; Material, Powder Fusion Mechanism, Process Parameters and Modeling, powder Handling Extrusion Based System; Basic principles, plotting and Path Control, Other Systems Material Jetting; Materials, Material Processing Fundamentals, Material Jetting Machines Directed Energy Deposition Processes; General DED Process Description, Material Delivery, DED systems, Process Parameters, Processing‐Structure‐Properties Relationships",
+    "4": "Design & Software Issues Additive Manufacturing Design and Strategies; Potentials and Resulting Perspectives, AM based New Strategies, Material Design and Quality Aspects for Additive Manufacturing; Material for AM, Engineering Design Rules for AM. Software Issue for Additive Manufacturing; Introduction, Preparation of CAD Models: The STL file, Problem with STL file, STL files Manipulation, Beyond the STL file, Additional Software to Assist AM",
+    "5": "Material Design & Quality Aspects Machines for Additive Manufacturing, Printers, Secondary Rapid Prototyping processes, Intellectual Property, Product Development, Commercialization, Trends and Future Directions in Additive Manufacturing, Business Opportunities Applications Aerospace, Automotive, Manufacturing, Architectural Engineering, Art, Jewellery, Toys, Medical, Biomedical, Dental, Bio‐printing, Tissue & Organ Engineering and many others."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understanding the basics of additive manufacturing/rapid prototyping and its advantages and disadvantages",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understanding the role of additive manufacturing in the design process and the implications for design.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understanding the processes used in additive manufacturing for a range of materials and applications",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the various software tools, processes and techniques that enable advanced/additive manufacturing and personal fabrication.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Apply knowledge of additive manufacturing for various real‐life applications",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by‐ Ian Gibson , DSavid W. Rosen , Brent Stucker, Springer."
+    },
+    {
+     "no": 2,
+     "book": "Understanding Additive Manufacturing, by‐ Andreas Gebhardt, Hanser."
+    },
+    {
+     "no": 3,
+     "book": "Additive Manufacturing, by‐ AmitBandyopadhyay, Susmita Bose, CRC Press."
+    },
+    {
+     "no": 4,
+     "book": "Rapid Prototyping: Principles and Applications, by ‐Chee Kai Chua, Kah Fai Leong, Chu Sing Lim."
+    }
+   ],
+   "quirks": [
+    "elective slot line: 'Semester – VII: Departmental Elective – IV: Specialization – Manufacturing and Automation'",
+    "Unit 3 sub-topic lines print run together (Vat Photo polymerization / Powder Bed Fusion / Extrusion Based System / Material Jetting / Directed Energy Deposition) — kept verbatim",
+    "typo verbatim: 'DSavid W. Rosen' (David), 'AmitBandyopadhyay', 'by ‐Chee Kai Chua' spacing, 'ScanPatterns'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Flexible Manufacturing System",
+   "name_print": "Flexible  Manufacturing System",
+   "codes": [
+    "KPI071"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Understanding of FMS Introduction To FMS, Evolution of Manufacturing Systems, objective and Need, Benefits, Components, Types of Flexibility, Merits, Demerits and Applications of Flexibility. Composition of FMS, CNC machines, robots, automatic storage and retrieval, automatic material handling, computerized control, Hierarchy of Computer Control ,Computer Control of Work Centre and Assembly Lines, FMS Supervisory Computer Control.",
+    "2": "Planning, scheduling and control of flexible manufacturing systems: Process planning, machine loading, cycle time, machine output vs cycle time, methods to reduce cycle time, machine balancing. Scheduling, data requirement for scheduling, mater production scheduling, Gantt charts, scheduling rules, scheduling in FMS, Single Product, Single Batch, N–Batch Scheduling Problem, Knowledge Based Scheduling System. Dispatching, Dispatch activities.",
+    "3": "FMS simulation and data base Application of Simulation, Model of FMS, Simulation Software, Limitation, Manufacturing Data Systems, Data Flow, FMS Database Systems, Planning For FMS Database. Design of FMS: Performance Evaluation of FMS, Analytical model and Simulation model of FMS.",
+    "4": "Group technology and justification of FMS Introduction, Matrix Formulation, Mathematical Programming Formulation, Graph Formulation, Knowledge Based System for Group Technology, Economic Justification Of FMS, Implementation issues and maintenance of FMS, Application of Possibility Distributions in FMS Systems Justification.",
+    "5": "Applications of FMS and factory of the future FMS Application in Machining, Sheet Metal Fabrication, Prismatic Component Production, Aerospace Application, FMS Development Towards Factories of The Future, Artificial Intelligence and Expert Systems in FMS, Design Philosophy and Characteristics for Future, case studies."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the manufacturing systems, flexibility, components of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand production, planning, scheduling and simulation of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand concepts of group technology and economics issues in the application of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the application of FMS in various operations & involvement of AI in flexible manufacturing system.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Apply the concepts of scheduling and simulation in FMS",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Jha, N.K. “Handbook of Flexible Manufacturing Systems”, Academic Press Inc., 1991."
+    },
+    {
+     "no": 2,
+     "book": "Radhakrishnan P. And Subramanyan S., “CAD/CAM/CIM”, Wiley Eastern Ltd., New Age International Ltd., 1994."
+    },
+    {
+     "no": 3,
+     "book": "Raouf, A. And Ben‐Daya, M., Editors, “Flexible Manufacturing Systems: Recent Development”, Elsevier Science, 1995."
+    },
+    {
+     "no": 4,
+     "book": "GrooverM.P., “Automation, Production Systems And Computer Integrated Manufacturing”, Prentice Hall Of India Pvt., New Delhi, 1996."
+    },
+    {
+     "no": 5,
+     "book": "Reza A Maleki “Flexible Manufacturing system” Prentice Hall of Inc New Jersey, 1991"
+    },
+    {
+     "no": 6,
+     "book": "TaiichiOhno, “Toyota Production System: Beyond Large‐Scale Production”, Productivity Press (India) Pvt. Ltd. 1992."
+    }
+   ],
+   "quirks": [
+    "detail-page elective slot line MISMATCHES the content list: page prints 'Semester – VI: Departmental Elective – V: Specialization – Production Engineering/ Industrial Production Engineering' while content list (p.2) and elective pool (p.4) place KPI 071 in Sem VII Departmental Elective‐IV — semester/slot taken from content list + pool",
+    "name printed with double space: 'Flexible  Manufacturing System'",
+    "Unit II heading prints one word per line in text layer ('Planning, / scheduling / and / control / of / flexible / manufacturing / systems:') — joined; kept verbatim",
+    "typo verbatim: 'mater production scheduling' (master), 'Control ,Computer', 'GrooverM.P.', 'TaiichiOhno'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Facility Planning and Design",
+   "name_print": "Facility Planning and Design",
+   "codes": [
+    "KPI072"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Factory Planning: Introduction, factors to be considered Plant Location and Site Selection: Levels of plant location, rural, urban and suburban location of plants, factors influencing the plant location, optimum plant location, location theories.",
+    "2": "Plant Layout: Introduction of production system, scope, objectives, importance, and types of plant layout, characteristics of a good plant layout, factoring affecting plant layout, procedure of developing a plant layout, different graphical and computerised plant layout design techniques, installation and evaluation of plant layout, optimum plant layout.",
+    "3": "Group Technology: Definition, objectives, planning, part families and machine cell formation, evaluation of machine cells, types of GT layout, benefits of GT, implementation of GT.",
+    "4": "Line Balancing: Definitions, heuristic and analytical methods of balancing the assembly and production line, single and mixed model line balancing, alternatives to line balancing.",
+    "5": "Materials Handling: Definition, scope, objectives, principles, importance, factors in materials handling problem, analysis of materials handling, types and selection of materials handling equipment’s, aids and techniques in materials handling equipment selection. Planning of material flow, advantages of planned material flow, flow planning principles, flow patterns, analysis of material flow."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the group technology, Plant Layout, material handling systems, & their constituents",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the various plant layout design algorithms and quantitative models.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply various graphical and computerised layout techniques & algorithms for plant layout development",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyse various types of plant layouts, and factors affecting facility location and its layout",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Evaluate different plant layout alternatives within given constraints",
+     "kl": "K5"
+    },
+    {
+     "no": 6,
+     "text": "Development of part families, machine cell formation for implementation of Group Technology and their balancing",
+     "kl": "K4"
+    },
+    {
+     "no": 7,
+     "text": "Able to suggest a material handling system for a plant under given constraints",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Francis, R.L., McGinnis, L.F., and White, J.A.,“Facility Layout and Location: An Analytical Approach”, Prentice Hall of India 2004"
+    },
+    {
+     "no": 2,
+     "book": "Meyers, F.E., and Stephens, M.P., “Manufacturing Facilities Design and Material Handling”, Prentice‐Hall, Inc. 2000"
+    },
+    {
+     "no": 3,
+     "book": "Groover,M.P.,“Automation, Production Systems and ComputerIntegrated Manufacturing”,2nd 2001 Ed., Pearson Education Inc. Delhi"
+    },
+    {
+     "no": 4,
+     "book": "Sule,D.R.,“Manufacturing Facilities‐Location, Planning, and Design”, PWS Publishing Company 1984"
+    },
+    {
+     "no": 5,
+     "book": "Tompkins,J.A., White, J.A.,Bozer,Y.A.,Frazelle, E.H.,Tanchoco, J.M., and Tervino,J.,“Facilities Planning”,2nd 1996 Ed., John Willey & Sons"
+    }
+   ],
+   "quirks": [
+    "detail-page elective slot line MISMATCHES the content list: page prints 'Semester – VII: Departmental Elective – V...' while content list (p.2) and elective pool (p.4) place KPI 072 in Sem VII Departmental Elective‐IV — slot taken from content list + pool",
+    "CO K-levels print with a space: 'K 2', 'K 3', 'K 4', 'K 5' (recorded K2/K3/K4/K5)",
+    "books 1–2 print on p.52, items 3–5 spill to p.53",
+    "typo verbatim: 'computerisedplant layout' (missing space), 'ComputerIntegrated', 'Tervino', 'John Willey & Sons', 'factoring affecting plant layout'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advance Casting Process",
+   "name_print": "Advance Casting Process",
+   "codes": [
+    "KMT071"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Production of Moulds and Cores Mould production ‐ equipment for moulding, moulding technique ‐ pattern utilisation, hand and machine compaction, machine moulding, mould drying and hardening. Cores and core making ‐ core boxes, compaction, core hardening, closing of moulds.",
+    "2": "Melting and Pouring Melting Practice : Classification of melting furnaces, brief description of construction and operation of various furnaces ‐ cupola and its design, electric arc furnaces, electric induction furnaces. Melting charge, melting conditions, melting losses, special melt treatment, melt quality control and recent development in metal melting.Pouring : Metal temperature, pouring equipment and techniques.",
+    "3": "Details Study of Following Casting Techniques Shell moulding ‐ Basic operation, production systems, characteristics of shell moulded casting and D‐process. Investment Casting ‐ expandable pattern process. Pattern production, investment, pattern removal and firing, casting.Factor influencing casting quality characteristics of precision investment casting.Investment casting from permanent casting.Die‐casting ‐ Gravity die‐casting, pressure‐die casting, die‐casting machines, casting techniques, characteristics of die ‐ castings.Centrifugal casting ‐ Fundamental principles, methods production techniques, characteristics of centrifugal casting.",
+    "4": "Solidification of Castings Crystallization and development of cast structure ‐ Nucleation, Growth and dendrite growth, independent nucleation, eutectic freezing, paratactic relations, structure of castings ‐ significance and practical control cast structure, grain shape and orientation, grain size, refinement and modification of cast structure. Concept of progressive and directional solidification, solidification time and derivation of Chvorinov’s equation influence of mould characteristics and cast metal. Properties on solidification, process numerical methods for heat flow analysis.",
+    "5": "Feeding of Castings Feeding characteristics of alloys, geometric influences on solidification.Methods of the feeding of castings ‐ cost and concept of yield, orientations, gating technique, casting temperature and pouring speed, design and location of feeder heads.Aids to feeder head efficiency, junction of feeder head and casting, use of padding, chills and insulators."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the mould production and equipments and how internal cavities are produced.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand and apply the principles of melting and pouring systems and develop analytical relation between input and output process parameters.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the various advance casting techniques.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Analyze the thermal, metallurgical aspects during solidification in casting and welding and their role on quality of cast or weld objects.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Analyze the concept of cooling rate of materials in metal casting.",
+     "kl": "K4"
+    },
+    {
+     "no": 6,
+     "text": "Design the gating and riser system needed for casting and requirements to achieve defect free casting.",
+     "kl": "K6"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Beeley P.R., “Foundry Technology” (Buttersworth) Heine and Rosenthal, “Principles of Metal Cutting” (TMH) “"
+    },
+    {
+     "no": 2,
+     "book": "Engineering Plastics, Parmar, Khanna Book Publishing Co., Delhi Metal Casting” ASME Handbook P.C.Mukherji, “Metal Casting Technology”"
+    }
+   ],
+   "quirks": [
+    "reference list has only 2 printed items, each merging multiple book citations into one line (item 1 merges Beeley 'Foundry Technology' + Heine and Rosenthal 'Principles of Metal Cutting'; item 2 merges 'Engineering Plastics' + ASME Handbook + P.C.Mukherji 'Metal Casting Technology') — merged print kept verbatim",
+    "list headed 'REFERENCE :'",
+    "typo verbatim: 'Buttersworth' (Butterworths), 'casting.Factor', 'melting.Pouring :', 'heads.Aids', 'solidification.Methods' missing spaces"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Composite Materials",
+   "name_print": "Composite Materials",
+   "codes": [
+    "KMT072"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Overview of Composite material Classifications of Engineering Materials, Concept of composite materials. Matrix materials, Functions of a Matrix, Desired Properties of a Matrix, Polymer Matrix (Thermosets and Thermoplastics), Metal matrix, Ceramic matrix, Carbon Matrix, Glass Matrix etc.",
+    "2": "Types of Reinforcements/Fibers Role and Selection of reinforcement materials.Types of fibres: Glass fibers, Carbon fibers, Aramid fibers, Metal fibers, Alumina fibers, Boron Fibers, Silicon carbide fibers, Quartz and Silica fibers, Multiphase fibers, Whiskers, Flakes etc. Mechanical properties of fibres: Material properties that can be improved by forming a composite material and its engineering potential.",
+    "3": "Various types of composites Classification based on Matrix Material: Organic Matrix composites, Polymer matrix composites (PMC), Carbon matrix Composites or Carbon‐Carbon Composites, Metal matrix composites (MMC), Ceramic matrix composites (CMC). Classification based on reinforcements: Fiber Reinforced Composites, Fiber Reinforced Polymer (FRP) Composites, Laminar Composites, Particulate Composites.",
+    "4": "Fabrication methods Processing of Composite Materials: Overall considerations, Autoclave curing, Other Manufacturing Processes like filament welding, compression moulding, resin transplant method, pultrusion, pre‐peg layer, Fiber‐only performs, Combined Fiber‐Matrix performs. Manufacturing Techniques: Tooling and Specialty materials, Release agents, Peel plies, release films and fabrics, Bleeder and breather plies, bagging films, maximum stress and strain criteria, Von Mises Yield criterion for isotropic materials.",
+    "5": "Testing of Composites and Analysis Mechanical testing of composites, tensile testing, Compressive testing, Intra‐laminar shear testing, Inter‐laminar shear testing, Fracture testing etc. Analysis of laminated plates: equilibrium equations of motion, energy formulation, static bending analysis, buckling analysis, free vibrations, natural frequencies."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the composite material concept, need and different types of matrix available.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand about various fibers their properties and their selection.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand how composites are classified based on matrix and fibers",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand processing and manufacturing techniques of composite material",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the mechanical testing of composites and analysis of laminated plates.",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Materials characterization, Vol. 10, ASM hand book."
+    },
+    {
+     "no": 2,
+     "book": "Mechanical Metallurgy, by G. Dieter, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Analysis and Performance of Fiber Composites, by Agarwal, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Thermal Analysis of Materials, by R.F. Speyer, Marcel Decker."
+    },
+    {
+     "no": 5,
+     "book": "Engineering Mechanics and Composite Materials, by Daniels, Oxford University Press."
+    },
+    {
+     "no": 6,
+     "book": "Material Science and Engineering (SIE) with CD, by Smith, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Gibson R.F. Principles of Composite Material Mechanics, second edition, McGraw Hill, 1994."
+    },
+    {
+     "no": 8,
+     "book": "Engineering Materials: Polymers, Ceramics and Composites, by A.KBhargava Prentice Hall India."
+    }
+   ],
+   "quirks": [
+    "subject name reprinted in caps 'COMPOSITE MATERIALS' between the CO table and UNIT‐I",
+    "unit headings print run together: 'UNIT‐I:Overview', 'UNIT‐II:Types', 'UNIT‐III:Various', 'UNIT‐IV:Fabrication methods', 'UNIT‐V:Testing'",
+    "typo verbatim: 'filament welding' (winding?), 'resin transplant method' (transfer?), 'performs' (preforms), 'Von Mises' (von Mises), 'A.KBhargava'",
+    "Unit IV content contains a stray blank line splitting the two paragraphs"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Manufacturing Strategies",
+   "name_print": "Manufacturing Strategies",
+   "codes": [
+    "KMT073"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Product Design and Development Product development verses design, modern product development theories and methodologist in design. Product development teams.Product development planning, technical and business concerns. Understanding customer needs, Establishing product functions. Functional decomposition, modeling process, Function trees system functionality, augmentation. Aggregation, common basis, functional modeling methods",
+    "2": "Benchmarking Product tear down and experimentation, benchmarking and establishing engineering specification. Product portfolios and portfolio architecture. Tear down process, tear down methods, post teardown reporting, benchmarking approach, support tools, setting specifications, portfolio architecture, types, platform, functional architecting, optimization selection. Product modularity, modular design.",
+    "3": "Concepts and Modeling Generation of concepts, information gathering and brain storming, directed search,morphological analysis, combining solutions. Decision making, estimation of technical feasibility, concept selection process, selection charts, measurement theory, numerical concept scoring, design evaluation scheme, concept embodiment, geometry and layout, system modeling, modeling of product metrics, selection of model by performance specifications, physical prototyping, informal and formal models.",
+    "4": "Design materials & human factors in product design Material properties, metals, plastics, rubber, woods & factors considered while designing for metals, plastics, rubber, woods etc, Anthropometry factors, physiological factors, psychology factors, anatomy factors. Economic factors influencing design, product value, safety, reliability & environmental considerations, economic analysis, break even analysis, profit & competitiveness, economics of a new product design.",
+    "5": "Value engineering in product design Introduction, historical perspective, nature & measurement of value, importance of value, value analysis job plan, creativity, steps for solving & value analysis, value analysis tests Principal stress trajectories( force flow lines), balanced design, criteria & objective of design, material toughness, resilience, designing for uniform strength."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand modern product development theories and customer needs.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand product tears down methods and product modularity.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand concepts of modelling and morphological analysis.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand material properties and economic factors influencing design",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the significance of value engineering.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Chitale A. K., Gupta R. C., “Product Design & Manufacturing”, Prentice Hall India Ltd., ISBN: 978‐81‐203‐4282‐8"
+    },
+    {
+     "no": 2,
+     "book": "RoozenburgN.F.M., Eekels J., “Product Design : Fundamentals & Methods”, IFS (Publications) Ltd and Springer‐Verlag London UK"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Dale Huchingson R “New Horizons for Human Factors in Design ” McGraw Hill Company 19811. Indistrial Design‐Mayall"
+    },
+    {
+     "no": 2,
+     "book": "RoozenburgNFM and J. Eekels, “Product Design: Fundamentals and Methods A Wiley Series in Product Development”, John Wiley and Sons."
+    }
+   ],
+   "quirks": [
+    "unit headings print as 'UNIT I: Product Design and Development', 'UNIT II: Benchmarking', 'UNIT III:Concepts and Modeling', 'UNIT IV:', 'UNIT V:' (mixed spacing)",
+    "typo verbatim: 'verses design' (versus), 'methodologist' (methodologies), 'search,morphological', 'tears down' (teardown), 'trajectories( force flow lines)' spacing",
+    "reference book 1 merges two citations into one line: '...McGraw Hill Company 19811. Indistrial Design‐Mayall' (page-number collision '1981' + '1.') and 'Indistrial' (Industrial) — verbatim"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Maintenance Engineering & Management",
+   "name_print": "Maintenance Engineering & Management",
+   "codes": [
+    "KMT074"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Principles and practices of maintenance planning Basic Principles of Maintenance Planning – Objectives and Principles of Planned Maintenance Activity – Importance and Benefits of Sound Maintenance Systems. Reliability and Machine Availability – MTBF, MTTRAndMWT – Factors of Availability – Maintenance Organization – Maintenance Economics.",
+    "2": "Maintenance policies – preventive maintenance Maintenance Categories – Comparative Merits of Each Category – Preventive Maintenance, Maintenance Schedules, Repair Cycle – Principles and Methods of Lubrication – TPM.",
+    "3": "Condition monitoring Condition Monitoring – Cost Comparison with And Without CM – On‐Load Testing and Offload Testing – Methods and Instruments for CM – Temperature Sensitive Tapes – Pistol Thermometers – Wear‐Debris Analysis.",
+    "4": "Repair methods for basic machine elements Repair Methods for Beds, Slideways, Spindles, Gears, Lead Screws and Bearings – Failure Analysis – Failures and Their Development – Logical Fault Location Methods – Sequential Fault Location.",
+    "5": "Repair methods for material handling equipment Repair Methods for Material Handling Equipment – Equipment Records –Job Order Systems ‐Use of Computers in Maintenance."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics of maintenance planning.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the preventive maintenance and maintenance schedules.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understanding of repair methods for basic machine elements.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understanding of repair methods for material handling equipment.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Cost comparison with and without CM.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "SrivastavaS.K., “Industrial Maintenance Management”, – S. Chand And Co., 1981."
+    },
+    {
+     "no": 2,
+     "book": "Venkataraman .K “Maintancence Engineering And Management”, PHI Learning, Pvt. Ltd., 2007."
+    },
+    {
+     "no": 3,
+     "book": "Bhattacharya S.N., “Installation, Servicing And Maintenance”, S. Chand And Co., 1995."
+    },
+    {
+     "no": 4,
+     "book": "White E.N., “Maintenance Planning”, I Documentation, Gower Press, 1979."
+    },
+    {
+     "no": 5,
+     "book": "GargM.R., “Industrial Maintenance”, S. Chand & Co., 1986."
+    },
+    {
+     "no": 6,
+     "book": "Higgins L.R., “Maintenance Engineering Hand Book”, McGraw Hill, 5th Edition, 1988."
+    },
+    {
+     "no": 7,
+     "book": "Armstrong, “Condition Monitoring”, BSIRSA, 1988."
+    },
+    {
+     "no": 8,
+     "book": "Davies, “Handbook Of Condition Monitoring”, Chapman &Hall, 1996."
+    }
+   ],
+   "quirks": [
+    "unit headings print run together: 'UNIT‐I:Principles and practices of maintenance planning', 'UNIT‐II:Maintenance policies', 'UNIT‐III:Condition monitoring', 'UNIT‐IV:Repair methods...', 'UNIT‐V:Repair methods...'",
+    "typo verbatim: 'MTTRAndMWT' (missing spaces; MWT = Mean Waiting Time), 'Records –Job Order Systems ‐Use' spacing, 'Maintancence' (Maintenance), 'SrivastavaS.K.', 'GargM.R.', 'Chapman &Hall'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Process Planning and Cost Estimation",
+   "name_print": "Process Planning and Cost Estimation",
+   "codes": [
+    "KMT075"
+   ],
+   "semester": 7,
+   "program_year": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Overview of process planning Introduction‐ methods of process planning‐Drawing Interpretation‐Material evaluation – steps in process selection‐.Production equipment and tooling selection.",
+    "2": "Process planning activities Process parameters calculation for various production processes‐Selection jigs and fixtures election of quality assurance methods ‐ Set of documents for process planning‐Economics of process planning‐ case studies.",
+    "3": "Introduction to cost estimation Importance of costing and estimation –methods of costing‐elements of cost estimation. Types of estimates – Estimating procedure‐ Estimation labour cost, material cost‐ allocation of overhead charges‐ Calculation of depreciation cost.",
+    "4": "Production cost estimation: Estimation of Different Types of Jobs ‐ Estimation of Forging Shop, Estimation of Welding Shop, Estimation of Foundry Shop.",
+    "5": "Machining time calculation Estimation of Machining Time ‐ Importance of Machine Time Calculation‐ Calculation of Machining Time for Different Lathe Operations, Drilling and Boring ‐ Machining Time Calculation for Milling, Shaping and Planning ‐Machining Time Calculation for Grinding."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the various processes planning and learn to estimate cost.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Learn to estimate various cost elements.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Learn to estimate production cost.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Learn to fix foundry cost.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Learn the find machining time estimation.",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Peter scalon, “Process planning, Design/Manufacture Interface”, Elsevier science technologyBooks, Dec 2002."
+    },
+    {
+     "no": 2,
+     "book": "OstwalalP.F. and Munez J., “Manufacturing Processes and systems”, 9th Edition, John Wiley,1998."
+    },
+    {
+     "no": 3,
+     "book": "Russell R.S and Tailor B.W, “Operations Management”, 4th Edition, PHI, 2003."
+    },
+    {
+     "no": 4,
+     "book": "ChitaleA.V. and Gupta R.C., “Product Design and Manufacturing”, 2nd Edition, PHI, 2002."
+    },
+    {
+     "no": 5,
+     "book": "Process planning and cost estimation by M. Adithan."
+    },
+    {
+     "no": 6,
+     "book": "Process planning and cost estimation by B. Vijayaramanath."
+    }
+   ],
+   "quirks": [
+    "Unit II typo verbatim: 'Selection jigs and fixtures election of quality assurance methods' ('election' = selection; missing 'S')",
+    "Unit I: 'process selection‐.Production' (stray period after dash)",
+    "book 1 prints one word per line in text layer ('Peter / scalon, / “Process / planning, / Design/Manufacture / Interface”, / Elsevier / science / technologyBooks, / Dec 2002.') — joined, kept verbatim incl. 'technologyBooks' and 'scalon' (Scanlon?)",
+    "typo verbatim: 'OstwalalP.F.' (Ostwald), 'Tailor B.W' (Taylor), 'ChitaleA.V.', 'Learn the find machining time estimation' (CO5)"
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW, UTTAR PRADESH — STUDY & EVALUATION SCHEME WITH SYLLABUS — FOR B. TECH. 3rd YEAR Manufacturing Technology [Effective from Session: 2020‐21]",
+   "locator": "p.1",
+   "note": "de-interleaved from garbled PyMuPDF column-interleave; fragments: 'DR. A./P. J. AB/DUL KA/ALAM TE/ECHNICA/AL UNIV/ERSITY', 'LUC/CKNOW/W, UTTAR/R PRAD/ESH', 'STU/UDY & EV/VALUATIO/ON SCHE/EME WIT/TH SYLLA/ABUS', 'FOR/B. TE/ECH. 3rd Y/YEAR', 'Manufact/turing Te/gy', '[Effe/ective fro/om Sessi/on: 2020/0‐21]'"
+  },
+  {
+   "kind": "course_scope_note",
+   "print": "FOR B. TECH. 3rd YEAR Manufacturing Technology [Effective from Session: 2020‐21]",
+   "locator": "p.1 cover",
+   "note": "printed branch scope; canonical course BTech (print variant 'B. TECH.'). Content list header (p.2): 'Syllabus Content of B. Tech Manufacturing Technology'; running header on every page: 'MANUFACTURING TECHNOLOGY ENGINEERING / Curriculum & Evaluation Scheme V & VI semester / Page n'"
+  },
+  {
+   "kind": "toc_table",
+   "print": "Syllabus Content of B. Tech Manufacturing Technology — S.No. / Code / Departmental Component / Subject Name / L T P / Credits / Page No. — non-subject rows: 1 Third Year Evaluation Scheme (V & VI Semester) 03; 2 Departmental Electives from Fifth to Seventh Semester &Suggested MOOCs Courses 04; 27 Fourth Year Evaluation Scheme (VII & VIII Semester) Effective in session 2021‐22 47",
+   "locator": "p.2",
+   "note": "remaining TOC rows 3–26, 28–35 are per-subject pointers mirrored in subjects[] (KME 501…KMT 075)"
+  },
+  {
+   "kind": "scheme_row_semV",
+   "print": "4 (blank) Dept. Elective‐I 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.3 Sem V table",
+   "note": "elective pool slot; member pool printed on p.4"
+  },
+  {
+   "kind": "scheme_row_semV",
+   "print": "5 (blank) Dept. Elective‐II 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.3 Sem V table",
+   "note": "elective pool slot; member pool printed on p.4"
+  },
+  {
+   "kind": "scheme_row_semV",
+   "print": "9 KMT 552 Mini project or Internal Assessment 0 0 2 (blank)(blank)(blank) 50 (blank)(blank) 50 1",
+   "locator": "p.3 Sem V table",
+   "note": "scheme_row_only: printed only as a scheme row, no detail section and not in the p.2 content list — kept here per protocol, no details invented"
+  },
+  {
+   "kind": "scheme_row_semV",
+   "print": "10 NC* Constitution of India/Essence of Indian Traditional Knowledge 2 0 0 15 10 25 (blank) 50 (blank) (blank)",
+   "locator": "p.3 Sem V table",
+   "note": "non-credit mandatory (audit) row; no credit printed"
+  },
+  {
+   "kind": "scheme_row_semV",
+   "print": "11 (blank) MOOCs(Essential for Hons. Degree) (blank row)",
+   "locator": "p.3 Sem V table"
+  },
+  {
+   "kind": "scheme_row_semV",
+   "print": "Total 17 3 8 950 22",
+   "locator": "p.3 Sem V table"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "*The Mini project or internship (4 weeks) conducted during summer break after IV semester and will be assessed during V semester.",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_semVI",
+   "print": "4 (blank) Departmental Elective III 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.3 Sem VI table",
+   "note": "elective pool slot; member pool printed on p.4"
+  },
+  {
+   "kind": "scheme_row_semVI",
+   "print": "5 (blank) Open Elective I 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.3 Sem VI table",
+   "note": "open-elective pool slot (outside this department; pool not printed in this doc)"
+  },
+  {
+   "kind": "scheme_row_semVI",
+   "print": "10 NC* Essence of Indian Traditional knowledge/ Constitution of India 2 0 0 15 10 25 (blank) 50 (blank) (blank)",
+   "locator": "p.3 Sem VI table",
+   "note": "non-credit mandatory (audit) row; option order reversed vs Sem V print"
+  },
+  {
+   "kind": "scheme_row_semVI",
+   "print": "11 (blank) MOOCs(Essential for Hons. Degree) (blank row)",
+   "locator": "p.3 Sem VI table"
+  },
+  {
+   "kind": "scheme_row_semVI",
+   "print": "Total 17 3 6 900 21",
+   "locator": "p.3 Sem VI table"
+  },
+  {
+   "kind": "electives_pool_table",
+   "print": "Manufacturing Technology Departmental electives — Student can choose any elective horizontally from the pool of electives — Sem V Code KME 051 KPI 051 KMT 051 KMT 052 / Departmental Elective‐I: Computer Integrated Manufacturing | Advance Manufacturing Science | Plastic Material and Manufacturing | Lean Manufacturing",
+   "locator": "p.4",
+   "note": "pool membership table; names printed slightly differently from detail pages (e.g. 'Plastic Material and Manufacturing', 'Time and Motion study')"
+  },
+  {
+   "kind": "electives_pool_table",
+   "print": "Sem V Code KME 055 KMT 053 KMT 054 KMT 055 / Departmental Elective‐II: Advance welding | Automation & Robotics | Mould Design and Manufacturing | Time and Motion study",
+   "locator": "p.4"
+  },
+  {
+   "kind": "electives_pool_table",
+   "print": "Sem VI Code KME 061 KMT 061 KMT 062/ (KME 604) KMT 063 / Departmental Elective‐III: Nondestructive Testing | Machine Vision and Image Processing | Tool Design | Product Design and Development",
+   "locator": "p.4",
+   "note": "Tool Design printed with alternate code 'KMT 062/ (KME 604)'"
+  },
+  {
+   "kind": "electives_pool_table",
+   "print": "Sem VII Code KME 071 KPI 071 KPI 072 KMT 071 / Departmental Elective‐IV: Additive manufacturing | Flexible Manufacturing System | Facility Planning & Design | Advance Casting Process",
+   "locator": "p.4"
+  },
+  {
+   "kind": "electives_pool_table",
+   "print": "Sem VII Code KMT 072 KMT 073 KMT 074 KMT 075 / Departmental Elective‐V: Composite Materials | Manufacturing Strategies | Maintenance Engineering & Management | Process Planning and cost Estimation",
+   "locator": "p.4"
+  },
+  {
+   "kind": "moocs_table",
+   "print": "Suggested MOOCs — It is suggested that the students may also do the following MOOCs in addition to mandatory courses. This will enhance their learning.\nSem V: Advance Machining Process https://swayam.gov.in/nd1_noc20_me76/preview By Prof. Manas Das, IIT Guwahati | Control Systems https://swayam.gov.in/nd1_noc20_ee90/preview By Prof. C. S. Shankar Ram, IIT Madras | Work System design https://swayam.gov.in/nd1_noc20_me70/preview By Prof. Inderdeep Singh, IIT Roorkee\nSem VI: Product Design and Manufacturing https://swayam.gov.in/nd1_noc20_me12/preview By Prof. J. Ramkumar, Prof. Amandeep Singh, IIT Kanpur | Introduction to robotics https://swayam.gov.in/nd1_noc20_de11/preview By Prof. Asokan T, Prof. Balaraman Ravindran, Prof. Krishna Vasudevan, IIT Madras | Industrial Safety Engineering https://swayam.gov.in/nd1_noc20_mg43/preview By Prof. Jhareswar Maiti, IIT Kharagpur\nSem VII: Automation in Manufacturing https://swayam.gov.in/nd1_noc20_me58/preview By Prof. Shrikrishna N. Joshi, IIT Guwahati | Introduction to Industry 4.0 and Industrial Internet of Things https://swayam.gov.in/nd1_noc20_cs69/preview By Prof. Sudip Misra, IIT Kharagpur | Introduction to Composites https://swayam.gov.in/nd1_noc20_me95/preview By Prof.Nachiketa Tiwari, IIT Kanpur\nSem VIII: Production and Operation Management https://swayam.gov.in/nd1_noc20_mg06/preview By Prof. Rajat Agrawal, IIT Roorkee | Supply Chain management https://swayam.gov.in/nd2_cec20_mg11/preview By Dr. P. Chitramani, Avinashilingam Institute for Home Science and Higher Education for Women | Operation Research https://swayam.gov.in/nd1_noc20_ma45/preview By Prof. Kusumdeep, IIT Roorkee",
+   "locator": "p.4",
+   "note": "URLs printed hyphen-wrapped across lines in text layer (e.g. 'nd1_noc20_me76/preview'); rewrapped without line-break hyphens"
+  },
+  {
+   "kind": "scheme_summary_note",
+   "print": "B. Tech Manufacturing Engineering / Evaluation Scheme / Effective in Session 2021‐22 (Yet to Finalize)",
+   "locator": "p.47",
+   "note": "4th-year scheme heading printed INSIDE a 2020-21 document; branch printed as 'Manufacturing Engineering' (cover prints 'Manufacturing Technology')",
+   "note2": "scheme tables below cover Semesters VII & VIII"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "1 (blank) HSMC‐1/HSMC‐2 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.47 Sem VII table",
+   "note": "humanities-social-science management course pool slot (codes not printed)"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "2 (blank) Departmental Elective‐IV 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.47 Sem VII table",
+   "note": "elective pool slot; members KME 071/KPI 071/KPI 072/KMT 071 (p.4 pool) with detail pages pp.48–55"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "3 (blank) Departmental Elective‐V 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.47 Sem VII table",
+   "note": "elective pool slot; members KMT 072/KMT 073/KMT 074/KMT 075 (p.4 pool) with detail pages pp.56–61"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "4 (blank) Open Elective‐II 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.47 Sem VII table"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "5 (blank) Lab‐1 0 0 2 25 25 50 1",
+   "locator": "p.47 Sem VII table",
+   "note": "lab pool slot, no code printed"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "6 (blank) Mini Project or Internship Assessment* 0 0 2 (blank)(blank)(blank) 50 (blank)(blank) 50 1",
+   "locator": "p.47 Sem VII table",
+   "note": "scheme_row_only"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "7 (blank) Project 0 0 8 150 150 4",
+   "locator": "p.47 Sem VII table",
+   "note": "scheme_row_only; printed values '150 / 150 / 4'"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "8 (blank) MOOCs (Essential for Hons. Degree) (blank row)",
+   "locator": "p.47 Sem VII table"
+  },
+  {
+   "kind": "scheme_row_semVII",
+   "print": "Total 12 0 12 850 18",
+   "locator": "p.47 Sem VII table"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "*The Mini Project or internship (5 ‐ 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+   "locator": "p.47"
+  },
+  {
+   "kind": "scheme_row_semVIII",
+   "print": "1 (blank) HSMC‐2/HSMC‐1 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.47 Sem VIII table",
+   "note": "complement pool to Sem VII 'HSMC‐1/HSMC‐2'"
+  },
+  {
+   "kind": "scheme_row_semVIII",
+   "print": "2 (blank) Open Elective‐III 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.47 Sem VIII table"
+  },
+  {
+   "kind": "scheme_row_semVIII",
+   "print": "3 (blank) Open Elective‐IV 3 0 0 30 20 50 (blank) 100 (blank) 150 3",
+   "locator": "p.47 Sem VIII table"
+  },
+  {
+   "kind": "scheme_row_semVIII",
+   "print": "4 (blank) Project 0 0 18 (blank)(blank)(blank)(blank) 100 (blank) 300 400 9",
+   "locator": "p.47 Sem VIII table",
+   "note": "scheme_row_only; printed values '100 / 300 / 400 / 9'"
+  },
+  {
+   "kind": "scheme_row_semVIII",
+   "print": "5 (blank) MOOCs (Essential for Hons. Degree) (blank row)",
+   "locator": "p.47 Sem VIII table"
+  },
+  {
+   "kind": "scheme_row_semVIII",
+   "print": "Total 9 0 18 27 850 18",
+   "locator": "p.47 Sem VIII table",
+   "note": "printed '27' between P and 850 (totals-column artifact: 9+0+18=27 periods)"
+  }
+ ],
+ "quirks": [
+  "p.1 cover text layer is interleaved from overlapping text blocks (PyMuPDF column interleave): fragments 'DR. A./P. J. AB/DUL KA/LAM TE/CHNICA/AL UNIV/ERSITY', 'LUC/CKNOW/W, UTTAR/R PRAD/ESH', 'STU/UDY & EV/VALUATIO/ON SCHE/EME WIT/TH SYLLA/ABUS', 'FOR/B. TE/ECH. 3rd Y/YEAR', 'Manufact/turing Te/gy', '[Effe/ective fro/om Sessi/on: 2020/0‐21]' — de-interleaved reading recorded in non_subject_rows cover_title (same cover template as B10 me-ind 2020-21 doc)",
+  "All pages carry running header 'MANUFACTURING TECHNOLOGY ENGINEERING / Curriculum & Evaluation Scheme V & VI semester / Page n' (boilerplate ignored per method §4); the 'V & VI semester' header continues on 4th-year pages 47–61 (print artifact)",
+  "Evaluation-scheme column layout (p.3): theory rows CT 30/TA 20/Total 50/TE 100/Total 150 (PS, PE blank); lab rows PS 25/PE 25/Total 50 (CT, TA, Total, TE blank); KMT 552 mini-project PS 50/Total 50; NC rows CT 15/TA 10/Total 25/50 (no credit column value). Same layout governs the p.47 VII-sem elective rows",
+  "p.47 Fourth-Year scheme is headed 'B. Tech Manufacturing Engineering' (cover/TOC print 'Manufacturing Technology') and 'Effective in Session 2021‐22 (Yet to Finalize)' — printed inside a 2020-21 document",
+  "Detail-page elective-slot lines mismatch the p.2 content list for two subjects: KPI 071 page prints 'Semester – VI: Departmental Elective – V' (content list: Sem VII Elective‐IV) and KPI 072 page prints 'Elective – V' (content list: Sem VII Elective‐IV); semester/slot taken from content list + p.4 pool tables",
+  "Book-list numbering sometimes continues across pages or reuses section numbering (KMT 051 ref item 5 on p.20; KMT 054 ref 12–19 on p.28; KMT 055 ref '5 Dr.A.K.Singh' unperiodized on p.30; KMT 062 refs numbered 2–8 continuing Text Book 1; KMT 063 items 3–12 on p.46 after the CO table; KPI 072 items 3–5 on p.53; KMT 601 ref list carries stray letter prefixes A./B./D./E./F.) — verbatim kept, renumbered 1..n in draft lists",
+  "Duplicate printed lines kept verbatim: KMT 651 experiments 8 & 9 identical; KME 653 experiments 12 & 15 near-identical; KMT 062 CO3 & CO4 identical; KMT 651 experiment list begins with a numbered caption '1. List of experiments'",
+  "p.47 Sem VIII Total row prints an extra '27' between P and 850 (9+0+18=27 periods); printed as 'Total 9 0 18 27 850 18'",
+  "Coded subjects transcribed with space-free codes (KME501 … KMT075, plus KME604 for Tool Design) per B10 K-era convention; printed forms carry a space ('KME 501', 'KMT  051' double space)",
+  "Scheme table (p.3 row 6) prints lab name 'Heat Transfer Lab' for KME 551 while detail page (p.11) prints 'Heat and Mass Transfer Lab'; TOC (p.2) prints 'Heat and Mass Transfer Lab' — detail/TOC name recorded in the subject",
+  "Text layer drops/mangles some fragments: KME 502 ref 6 'Yσungs' (stray σ), KME 552 sub-item superscripts print flat ('v = u + at0', 's = ut + ½(at2)', 'v2 = u2 – 2as'), several missing-space collisions ('solutions.transportation', 'Boundadry representation', 'processvariables', 'hobbingprocess.Classification', 'Computer and Language:Students', 'Morphologicaltechniques', 'Ergonomicaspects', 'MTTRAndMWT', 'technologyBooks', 'computerisedplant') — all kept verbatim; repeated-word typo KME 552 item 12 'to find the to find the out'",
+  "Elective pool tables (p.4) print some subject names slightly differently from detail pages ('Plastic Material and Manufacturing', 'Time and Motion study', 'Machine Vision and Image Processing', 'Facility Planning & Design', 'Process Planning and cost Estimation'); detail-page names are authoritative for subject rows",
+  "Subjects printed only as scheme rows (KMT 552 Mini project or Internal Assessment; 4th-year Lab‐1/Mini Project/Project/MOOCs slots; NC* non-credit rows; HSMC/Open Elective pool slots) are kept in non_subject_rows with scheme_row_only/pool notes, no details invented"
+ ],
+ "flags": []
+}
