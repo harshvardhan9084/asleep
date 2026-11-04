@@ -445,11 +445,11 @@
    },
    "subject_type": "core",
    "units": {
-    "1": "9 \nIntroduction: Types and characteristics of production systems Objective and functions \nof Production, \nPlanning & Control, \n Preplanning: Forecasting & Market \nAnalysis. Factory Location & Layout, \nEquipment policy and  replacement. Preplanning production, capacity planning.",
-    "2": "8 \nProduction Planning: Material Resource Planning, Selection of material methods, \nmachines & manpower. Routing, Scheduling and Dispatching. Types of charts and form \nused. Computer Aided Process Planning.",
-    "3": "7 \nProduction and Inventory Control: Progress control through records and charts. \nTypes of inventories, ABC analysis \nInventory Classification. Economic lot (batch) size. Trends in purchasing and store \nkeeping.",
-    "4": "8 \nPRODUCT STANDARDIZATION &VALUE ENGINEERING \nProduction standardization variety reduction. Use of Preferred numbers in \nstandardization. Introduction &scope of value engineering. Evaluation of part function, \ncost and worth. Application of value engg methodology, simple value engineering case \nstudies.",
-    "5": "8 \nPROJECT CONTROL \nReview of CPM&PERT, Concurrent engineering, Re-engineering, MRP and \nERP.Introduction to manufacturing resource planning (MRP-II), Enterprise resource \nplanning (ERP), case studies."
+    "1": "Introduction: Types and characteristics of production systems Objective and functions \nof Production, \nPlanning & Control, \n Preplanning: Forecasting & Market \nAnalysis. Factory Location & Layout, \nEquipment policy and  replacement. Preplanning production, capacity planning.",
+    "2": "Production Planning: Material Resource Planning, Selection of material methods, \nmachines & manpower. Routing, Scheduling and Dispatching. Types of charts and form \nused. Computer Aided Process Planning.",
+    "3": "Production and Inventory Control: Progress control through records and charts. \nTypes of inventories, ABC analysis \nInventory Classification. Economic lot (batch) size. Trends in purchasing and store \nkeeping.",
+    "4": "PRODUCT STANDARDIZATION &VALUE ENGINEERING \nProduction standardization variety reduction. Use of Preferred numbers in \nstandardization. Introduction &scope of value engineering. Evaluation of part function, \ncost and worth. Application of value engg methodology, simple value engineering case \nstudies.",
+    "5": "PROJECT CONTROL \nReview of CPM&PERT, Concurrent engineering, Re-engineering, MRP and \nERP.Introduction to manufacturing resource planning (MRP-II), Enterprise resource \nplanning (ERP), case studies."
    },
    "textbooks": [
     {
@@ -472,7 +472,8 @@
    "quirks": [
     "p.10-11 Unit-I is split by print layout: 'Unit-I 9 Introduction...' begins on p.10 under the EMT-602 heading, then EMT-601's five units intervene, and the Unit-I continuation 'Equipment policy and replacement. Preplanning production, capacity planning.' opens p.11 — continuation merged here into Unit-1",
     "p.11 books heading printed 'Books:' (unnumbered list of 4); recorded under textbooks",
-    "p.10-11 printed-typos kept verbatim: 'PRODUCT STANDARDIZATION &VALUE ENGINEERING', 'Introduction &scope', 'CPM&PERT', 'ERP.Introduction'"
+    "p.10-11 printed-typos kept verbatim: 'PRODUCT STANDARDIZATION &VALUE ENGINEERING', 'Introduction &scope', 'CPM&PERT', 'ERP.Introduction'",
+    "patch-b30: the per-unit lecture-hour digits (U1: 9, U2: 8, U3: 7, U4: 8, U5: 8) print as separate column values between unit headings and bodies in this E-era print (doc-wide layout; p.6/p.20 page-image attested, visible print authoritative RULES §6) — moved to this quirk, unit texts kept verbatim-only (B28 doc-04 marker-hygiene class)."
    ],
    "flags": []
   },
@@ -766,10 +767,10 @@
    "elective_slot_print": "Department Elective - I (Semester-VI, p.3)",
    "units": {
     "1": "PHYSICAL MODELING                                                                               8 \n \nConcept of system and environment, continuous and discrete system, linear and \nnonlinear system, stochastic activities, static and dynamic models, principles used in \nmodeling, Basic simulation modeling, Role of simulation in model evaluation and studies, \nAdvantages and Disadvantages of simulation. Modeling of systems, Iconic, analog & \nMathematical Modeling.",
-    "2": "8 \nCOMPUTER BASED SYSTM SIMULATION \n\nTechnique of simulation, Monte Carlo method, experimental nature of simulation, \nnumerical computation techniques, calumnious system models, analog and hybrid \nsimulation, feedback systems, Buildings simulation models of waiting line system, Job \nshop material handling and flexible manufacturing system.",
-    "3": "8 \nPROBABILITY CONCEPTS IN SIMULATION \n\nStochastic variables, discrete and continuous probability functions, random \nnumbers, generation of random numbers, variance reduction techniques, Determination \nof the length of simulation runs, Output analysis.",
-    "4": "8 \nSYSTEM DYNAMICS MODELING \n\nIdentification of problem situation, preparation of causal loop diagrams and flow \ndiagrams, equation writing, level and rate relationship, Simulation of system dynamics \nmodel.",
-    "5": "8 \nVERIFICATION AND VALIDATION \n\nDesign of simulation experiments, validation of experimental models, testing and \nanalysis. Simulation languages comparison and selection, study of SIMULA, DYNAMO, \nSTELLA, POWERSIM. simulation software."
+    "2": "COMPUTER BASED SYSTM SIMULATION \n\nTechnique of simulation, Monte Carlo method, experimental nature of simulation, \nnumerical computation techniques, calumnious system models, analog and hybrid \nsimulation, feedback systems, Buildings simulation models of waiting line system, Job \nshop material handling and flexible manufacturing system.",
+    "3": "PROBABILITY CONCEPTS IN SIMULATION \n\nStochastic variables, discrete and continuous probability functions, random \nnumbers, generation of random numbers, variance reduction techniques, Determination \nof the length of simulation runs, Output analysis.",
+    "4": "SYSTEM DYNAMICS MODELING \n\nIdentification of problem situation, preparation of causal loop diagrams and flow \ndiagrams, equation writing, level and rate relationship, Simulation of system dynamics \nmodel.",
+    "5": "VERIFICATION AND VALIDATION \n\nDesign of simulation experiments, validation of experimental models, testing and \nanalysis. Simulation languages comparison and selection, study of SIMULA, DYNAMO, \nSTELLA, POWERSIM. simulation software."
    },
    "reference_books": [
     {
@@ -801,7 +802,8 @@
     "Title block 'EMT - 011 / SIMULATION AND MODELING' printed at foot of p.13; all five units + Suggested Reading printed on p.14 between the EMT-012 title block ('Advanced Casting Processes L T P 3 1 0', head of p.14) and the 'EMT-012' code (foot of p.14) — interleaved two-column print",
     "No separately printed L-T-P for EMT-011: the 'L T P 3 1 0' on p.14 belongs to the EMT-012 title block; L-T-P 3-1-0 and credit 4 recorded from p.3 'Departmental Elective-I' scheme row",
     "p.3 elective list prints name 'Simulation & Modeling'; p.13 prints 'SIMULATION AND MODELING'",
-    "p.14 printed-typos kept verbatim: 'SYSTM SIMULATION', 'calumnious system models', 'Buildings simulation models', 'Gorden G.', 'Printice Hall', 'Payer T.', 'spuet'"
+    "p.14 printed-typos kept verbatim: 'SYSTM SIMULATION', 'calumnious system models', 'Buildings simulation models', 'Gorden G.', 'Printice Hall', 'Payer T.', 'spuet'",
+    "patch-b30: the per-unit lecture-hour digits (U2: 8, U3: 8, U4: 8, U5: 8) print as separate column values between unit headings and bodies in this E-era print (doc-wide layout; p.6/p.20 page-image attested, visible print authoritative RULES §6) — moved to this quirk, unit texts kept verbatim-only (B28 doc-04 marker-hygiene class)."
    ],
    "flags": []
   },
@@ -1010,7 +1012,7 @@
     "2": "3. ABRASIVE JET MACHINING(AJM): Introduction, Equipment, Variables in AJM:- Carrier Gas, Type of abrasive, Size of abrasive grain, velocity of the abrasive jet, Mean No. abrasive particles per unit volume of the carrier gas, Work meterial, stand off distance(SOD), nozzle design, Shape of cut. Process characteristics-Material removal rate,  Nozzle wear, Accuracy & surface finish. Applications, Advantages & Disadvantages of AJM\n\n\n04Hrs\n\n4. ELECTORCHEMICAL AND CHEMICAL METAL REMOVAL PROCESS:- Electrochemical machining(ECM): Introduction, Study of ECM machine, Elements of ECM process:-Cathode tool, Anode work piece, source of DC power, Electrolyte. Chemistry of the process, ECM process characteristics-Material removal rate, Accuracy, Surface finish., ECM Tooling:-ECM tooling technique & example, Tool & insulation materials, Tool size Electrolyte flow arrangement, Handling of slug., Economics of ECM, Applications such as Electrochemical turning, Electrochemical Grinding, Electrochemical Honing, deburring, Advantages, Limitations.     5 Hrs",
     "3": "5. CHEMICAL MACHINING(CHM): Introduction, Elements of process, Chemical blanking Process:-Preparation of workpiece, preparation of masters, masking with photo resists, etching for blanking, Accuracy of chemical blanking, Applications of chemical blanking, chemical milling(Contour machining):- Process steps-masking, Etching, process characteristics of CHM:- material removal rate accuracy, surface finish, Hydrogen embrittlement, Advantages & application of CHM.        05 Hrs\n6. THERMAL METAL REMOVAL  PROCESSES: Electrical discharge machining(EDM)-introduction, machine, mechanism of metal removal, dielectric fluid, spark generator, EDM tools(electrodes) Electrode feed control, Electrode manufacture, Electrode wear, EDM tool design: Choice of machining operation, electrode material selection, under sizing and length of electrode, Machining time. Flushing-Pressure flushing, suction flushing, side flushing, pulsed flushing synchronized with electrode movement, EDM process characteristics: Metal removal rate, Accuracy surface finish, Heat affected Zone. Machine tool selection, Application: EDM accessories /applications, electrical discharge grinding, Travelling wire EDM.\n\n\n\n6 Hrs",
     "4": "10. PLASMA ARC MACHINING(PAM): Introduction, equipment non-thermal generation of plasma, selection of gas, Mechanism of Metal removal, PAM parameters, Process characteristics. Safety precautions, Applications, Advantages and limitations.  05 hrs",
-    "5": "11. Derived and Hybrid Modern manufacturing Methods:Introductionof process like rotary ultrasonic machining , electro stream drilling, shape tube eletro machining, wire electro discharge machining, electro chemical grinding, electro chemical honing, electro chemical deburring and electro chemical spark machining.\n  \n8"
+    "5": "11. Derived and Hybrid Modern manufacturing Methods:Introductionof process like rotary ultrasonic machining , electro stream drilling, shape tube eletro machining, wire electro discharge machining, electro chemical grinding, electro chemical honing, electro chemical deburring and electro chemical spark machining."
    },
    "reference_books": [
     {
@@ -1033,7 +1035,8 @@
    "quirks": [
     "p.17 heading printed 'EMT – 701 : Modern Manufacturing Methods' (spaced en-dash, verbatim); p.4 scheme row prints 'EMT-701  Modern Manufacturing methods'",
     "p.17-19 unit topic numbering jumps 6 → 10 → 11 (topics 7-9 not printed)",
-    "p.18 printed-typos kept verbatim: 'ELECTORCHEMICAL', 'Work meterial', 'Hallow cylindrical concentrator', 'eletro machining', 'Introductionof'"
+    "p.18 printed-typos kept verbatim: 'ELECTORCHEMICAL', 'Work meterial', 'Hallow cylindrical concentrator', 'eletro machining', 'Introductionof'",
+    "patch-b30: the per-unit lecture-hour digits (U5: 8) print as separate column values between unit headings and bodies in this E-era print (doc-wide layout; p.6/p.20 page-image attested, visible print authoritative RULES §6) — moved to this quirk, unit texts kept verbatim-only (B28 doc-04 marker-hygiene class)."
    ],
    "flags": []
   },
@@ -1062,11 +1065,11 @@
    "subject_type": "departmental-elective",
    "elective_slot_print": "Department Elective - III (Semester-VII, p.4)",
    "units": {
-    "1": "INTRODUCTION TO GEARS \n\nTypes of gears, classification, gear drawings, gearboxes, application of gears, gear production methods, an overview. \nGEAR MATERIALS  \nNon-metallic, ferrous and non-ferrous gears. Properties of gear materials, selection of material for typical gears and applications – blank preparation methods for different gears, size, type and material.\n\n\n\n7",
-    "2": "PRODUCTION OF GEARS & SCREW THREADS \n\nGear milling different gears, cut quality obtainable. Gear hobbing, description and operation of machine, types of gears cut, hobbing cutters, work holding methods gear shaping, disc type and rack type gear shapers, Production of straight bevel gears and spiral gears, milling, generation by straight bevel gear generator. Duplex cutter, straight bevel gear generator, Spiral bevel gear generator. \nPRODUCTION OF SCREW THREADS:  Screw thread terminology, Types of screw thread, Methods of producing screw threads, Effect of pitch errors, measurement of various elements of screw threads. Thread rolling, Thread Grinding, Mass Production of Screws.\n\n\n\n12",
-    "3": "HEAT TREATMENT OF GEARS \n\nThrough hardening, case hardening, flames hardening, induction hardening of gears, Nitriding of gears. Tuft riding of gears. Inspection of gears for hardening defects \n\nGEAR FINISHING \n\nGear finishing advantages, finishing of gears by grinding, shaving, lapping, honing methods and cold rolling of gears. Description of machines, process and process parameters\n\n7",
-    "4": "GEAR INSPECTION \n\nTypes of gear errors, gear quality standards tooth thickness and base tangent length measurement, pitch errors, radial run out errors, profile errors, pitch error measurement. Composite error measurement. Computerized gear inspection centers. Reasons and remedies for gear errors\n\n\n6",
-    "5": "MODERN GEAR PRODUCTION METHODS \n\nGear production by stamping, die casting, power metal process, injection and compression Moulding in plastics. Die casting, cold and hot rolling, mass production methods shear speed shaping. Gear broaching – Gleason. G-Trac Gear generation method  \n8"
+    "1": "INTRODUCTION TO GEARS \n\nTypes of gears, classification, gear drawings, gearboxes, application of gears, gear production methods, an overview. \nGEAR MATERIALS  \nNon-metallic, ferrous and non-ferrous gears. Properties of gear materials, selection of material for typical gears and applications – blank preparation methods for different gears, size, type and material.",
+    "2": "PRODUCTION OF GEARS & SCREW THREADS \n\nGear milling different gears, cut quality obtainable. Gear hobbing, description and operation of machine, types of gears cut, hobbing cutters, work holding methods gear shaping, disc type and rack type gear shapers, Production of straight bevel gears and spiral gears, milling, generation by straight bevel gear generator. Duplex cutter, straight bevel gear generator, Spiral bevel gear generator. \nPRODUCTION OF SCREW THREADS:  Screw thread terminology, Types of screw thread, Methods of producing screw threads, Effect of pitch errors, measurement of various elements of screw threads. Thread rolling, Thread Grinding, Mass Production of Screws.",
+    "3": "HEAT TREATMENT OF GEARS \n\nThrough hardening, case hardening, flames hardening, induction hardening of gears, Nitriding of gears. Tuft riding of gears. Inspection of gears for hardening defects \n\nGEAR FINISHING \n\nGear finishing advantages, finishing of gears by grinding, shaving, lapping, honing methods and cold rolling of gears. Description of machines, process and process parameters",
+    "4": "GEAR INSPECTION \n\nTypes of gear errors, gear quality standards tooth thickness and base tangent length measurement, pitch errors, radial run out errors, profile errors, pitch error measurement. Composite error measurement. Computerized gear inspection centers. Reasons and remedies for gear errors",
+    "5": "MODERN GEAR PRODUCTION METHODS \n\nGear production by stamping, die casting, power metal process, injection and compression Moulding in plastics. Die casting, cold and hot rolling, mass production methods shear speed shaping. Gear broaching – Gleason. G-Trac Gear generation method"
    },
    "reference_books": [
     {
@@ -1085,7 +1088,8 @@
    "quirks": [
     "p.19 title block prints 'PRODUCTION OF GEARS AND SCREWS / L / T / P / EMT 031 / 3 / 1 / 0' — code printed inside L-T-P block; p.4 elective list prints 'EMT-031 Production of gears & Screws'",
     "p.19-20 unit hour figures (7,12,7,6,8) printed detached after each unit body",
-    "p.19-20 printed-typos kept verbatim: 'Tuft riding of gears', 'power metal process', 'Gear Priocessing', 'Jhon Wiley and Sons', 'Handbook Tools'"
+    "p.19-20 printed-typos kept verbatim: 'Tuft riding of gears', 'power metal process', 'Gear Priocessing', 'Jhon Wiley and Sons', 'Handbook Tools'",
+    "patch-b30: the per-unit lecture-hour digits (U1: 7, U2: 12, U3: 7, U4: 6, U5: 8) print as separate column values between unit headings and bodies in this E-era print (doc-wide layout; p.6/p.20 page-image attested, visible print authoritative RULES §6) — moved to this quirk, unit texts kept verbatim-only (B28 doc-04 marker-hygiene class)."
    ],
    "flags": []
   },
@@ -1480,11 +1484,11 @@
     "total": 150
    },
    "units": {
-    "1": "Introduction:  \n\nConcept and evoluation of quality control Measurement & Metrology, Precision vs accuracy. Process capability, standrdisation & Interchangeability. \n\n3 \n\nInspection and Gauges:  \n\nInspection methods. Types of Gauges. Limits Fits and Tolerances. Non-Destructive Testings & Evaluation. \n\n\n\n\n5",
-    "2": "Control Charts for SQC: Statistical Quality Control (SQC). Control charts for variables such as X, R charts and control charts for attributes such as p-charts, c-chart. Construction & use of the control charts. Process capability.\n\n\n8",
-    "3": "Acceptance Sampling for SQC: Principle of acceptance sampling. Producer's and consumer's risk. Sampling plans - Single, double & sequential. Sampling by attributes and variables.  \n\n\n\n\n\n\n8",
-    "4": "Reliability:  \n\nIntroduction to reliability, bath-tub curve. Life expectancy. Reliability based design. Series & Parallel system.\n\n\n\n\n\n\n4\nDefect Diagnosis and prevention:  \n\nBasic causes of failure, curve/control of failure. MTBF. Maintainability, Condition monitoring and diagnostic techniques.\nValue Engineering: Elements of value analysis, Techniques.\n\n\n4",
-    "5": "TQM: Inspection, Quality control, Quality Assurance and Quality Management and Total Quality Management. Implementation of TQM. ISO 9000 and its series, Zero defect. Quality circle. Taguchi Method.\n\n\n\n\n5\nOther Factors in Quality: Human Factors such as attitude and errors. Material-Quality. Machine Capability and Manufacturing process limitations. Quality in sales & service. Methods for improving accuracy & quality.  \n\n\n\n3"
+    "1": "Introduction:  \n\nConcept and evoluation of quality control Measurement & Metrology, Precision vs accuracy. Process capability, standrdisation & Interchangeability. \n\n\nInspection and Gauges:  \n\nInspection methods. Types of Gauges. Limits Fits and Tolerances. Non-Destructive Testings & Evaluation.",
+    "2": "Control Charts for SQC: Statistical Quality Control (SQC). Control charts for variables such as X, R charts and control charts for attributes such as p-charts, c-chart. Construction & use of the control charts. Process capability.",
+    "3": "Acceptance Sampling for SQC: Principle of acceptance sampling. Producer's and consumer's risk. Sampling plans - Single, double & sequential. Sampling by attributes and variables.",
+    "4": "Reliability:  \n\nIntroduction to reliability, bath-tub curve. Life expectancy. Reliability based design. Series & Parallel system.\n\n\n\n\n\n\nDefect Diagnosis and prevention:  \n\nBasic causes of failure, curve/control of failure. MTBF. Maintainability, Condition monitoring and diagnostic techniques.\nValue Engineering: Elements of value analysis, Techniques.",
+    "5": "TQM: Inspection, Quality control, Quality Assurance and Quality Management and Total Quality Management. Implementation of TQM. ISO 9000 and its series, Zero defect. Quality circle. Taguchi Method.\n\n\n\n\nOther Factors in Quality: Human Factors such as attitude and errors. Material-Quality. Machine Capability and Manufacturing process limitations. Quality in sales & service. Methods for improving accuracy & quality."
    },
    "reference_books": [
     {
@@ -1500,7 +1504,8 @@
     "p.26 subject page prints 'EMT-052' then (after whitespace) 'STATISTICAL QUALITY CONTROL' and 'L  T  P  3  1  0'; p.5 'Department Elective-V' scheme row prints 'EMT-052 Statistical Quality Control' 3-1-0 marks 30/20/50/100/150",
     "p.5 Sem-VIII scheme table prints no Credits column values; credit omitted (printed blank)",
     "p.26-27 unit hour figures (3,5,8,8,4,4,5,3) printed detached after topic bodies",
-    "p.26-27 printed-typos kept verbatim: 'evoluation', 'standrdisation', 'Inspection and Gauges', 'Grant and Leavarworth', 'McGraw HIll'"
+    "p.26-27 printed-typos kept verbatim: 'evoluation', 'standrdisation', 'Inspection and Gauges', 'Grant and Leavarworth', 'McGraw HIll'",
+    "patch-b30: the per-unit lecture-hour digits (U1: 3/5, U2: 8, U3: 8, U4: 4/4, U5: 5/3) print as separate column values between unit headings and bodies in this E-era print (doc-wide layout; p.6/p.20 page-image attested, visible print authoritative RULES §6) — moved to this quirk, unit texts kept verbatim-only (B28 doc-04 marker-hygiene class)."
    ],
    "flags": []
   },
