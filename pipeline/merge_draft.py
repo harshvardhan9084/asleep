@@ -2287,6 +2287,24 @@ PRIOR_VERIFIED_LOST_SHA = {
         "upload corroborating copy (03d279e76a24f6ff) proven 2026-10-27 in queue "
         "meta.history; upload bytes + parsed fulltext lost in the 12th workspace "
         "reset (2026-10-31); md5 scan of the repo corpus = no match",
+    "13bd875d098f99df":
+        "Common-Subjects-2nd-Year-AKTU-08092023.pdf — charter-mandated released "
+        "companion doc (one of the two released companions, owner release "
+        "recorded in the project charter, RULES §1; a B01-ingested doc): "
+        "supplied the published unit1_text of mathematics-iii-partial-differential-"
+        "equations-statistical-a (source_syllabus cites it pp.1-28, first "
+        "ingestion 2023-24) and the other common-2nd-year-subject rows of that "
+        "ingestion wave. Registered at B28 (2026-11-04) when the row was first "
+        "TOUCHED since the bytes were lost (the B28 code-reassignment executor "
+        "moved the EOE-041-048 pool wart off the row, triggering the first G6 "
+        "spot-check of its unit1 since ingestion): the companion class was "
+        "directly containment-verified while bytes were extant (gate_g6 B19 "
+        "remedy comment, 2026-11-01: rows supplied by exactly these docs passed "
+        "against the extant work/artd_v3/sources/ + upload/ bytes); this row's "
+        "unit1 is byte-identical to the GitHub-published value since the 2023-24 "
+        "first ingestion (GitHub CSV = the durable record per RULES §1c); "
+        "workspace resets wiped work/artd_v3/sources/ + upload/; md5 scan of the "
+        "repo corpus (613 PDFs) + upload/ = no match",
 }
 
 _prior_pub_cache = None

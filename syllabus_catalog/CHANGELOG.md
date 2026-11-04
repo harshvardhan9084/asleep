@@ -1,3 +1,7 @@
+# CRON-20261104-B28 — B28 — 2026-11-04
+
+rows 1983-2034, codes 4140-4264, +51 appends, ~198 updates, !0 repairs - IT wave first-class 2009-10 to 2021-22 (five code eras) plus ME-Industrial 2016-17/2020-21; parallel-instance draft reconciliation adopted; G6 companion lost-sha registered
+
 # CRON-20261104-B27 — B27 — 2026-11-03
 
 rows 1924-1983, codes 4020-4140, +59 appends, ~105 updates, !1 repair - HT wave first-class 2021-22 to 2025-26 plus FT 2015-16/2019-21 tail, IC 2011-12, IT 2018-19; BFT652 ownership repair; recovered from reset-34 mid-run
