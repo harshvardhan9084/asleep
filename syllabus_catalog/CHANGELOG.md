@@ -1,3 +1,7 @@
+# CRON-20261105-B32 — B32 — 2026-11-04
+
+rows 2152-2196, codes 4501-4573, +44 appends/~123 updates/!0 repairs
+
 # CRON-20261104-B31 — B31 — 2026-11-04
 
 rows 2119-2152, codes 4424-4501, +33 appends, ~112 updates, !0 repairs - Mfg-Tech completion wave 2016-17 to 2025-26 + first-class Mining wave 2025-26/2026-27 + 2009-10 science-OE convergence; 4 wrong-subject FORCE_APPENDs, 3 TIE RETARGETs incl. EOE-042 keep-published-owner, 9 TIER2 era-updates ALLOWed, 2 CODE-REASSIGNED stands, 2 ALTERNATIVE-PAIR-SLOT skips, DOC_SCOPE on all 8 covers
