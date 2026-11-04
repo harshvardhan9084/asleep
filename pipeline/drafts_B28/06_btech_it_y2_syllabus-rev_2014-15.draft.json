@@ -7,9 +7,9 @@
  "subjects": [
   {
    "name": "Digital Logic Design",
-   "name_print": "NEC-309: DIGITAL LOGIC DESIGN",
+   "name_print": "Digital Logic Design",
    "codes": [
-    "NEC-309"
+    "NEC309"
    ],
    "semester": 3,
    "ltp": {
@@ -25,7 +25,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
+   "subject_type": "theory",
    "units": {
     "1": "Digital Design and Binary Numbers: Binary Arithmetic, Negative Numbers and their Arithmetic, Floating point representation, Binary Codes, Cyclic Codes, Error Detecting and Correcting Codes, Hamming Codes. Minterm and Maxterm Realization of Boolean Functions, Gate-level minimization: The map method up to four variable, don’t care conditions, SOP and POS simplification, NAND and NOR implementation, Quine Mc-Cluskey Method (Tabular method).",
     "2": "Combinational Logic: Combinational Circuits, Analysis Procedure, Design Procedure, Binary Adder-Subtractor, Code Converters, Parity Generators and Checkers, Decimal Adder, Binary Multiplier, Magnitude Comparator, Decoders, Encoders, Multiplexers, Hazards and Threshold Logic",
@@ -68,21 +68,17 @@
     }
    ],
    "quirks": [
-    "Printed under 'References:' (no textbooks section).",
-    "Ref 2 prints 'A.K .Singh' (stray space) and ',New Age international.' without space after comma.",
-    "Ref 3 prints 'Wiley Dreantech Publication' (sic).",
-    "Ref 5 prints double comma: 'Design”, ,Jaico Publishing.'",
-    "Ref 7 prints 'Tata MCGraw Hill' (capital G).",
-    "Ref 8 prints 'Marcovitz:Introduction to logic Design ,Tata Mcgraw-hill Education (India) Pvt. Ltd.' (no space after colon/comma, lowercase 'logic'/'Mcgraw-hill').",
-    "Scheme table (p.2) row 2 prints subject name 'Digital Logic Design' with code 'NEC-309'; scheme marks section header 'THEORY SUBJECT'."
+    "Detailed-syllabus heading prints 'NEC-309: DIGITAL LOGIC DESIGN' (all caps); scheme table p.2 prints subject name 'Digital Logic Design'",
+    "Book list printed under label 'References:'; typos kept verbatim: 'A.K .Singh' (stray space), 'Wiley Dreantech Publication' (sic), ref 5 prints double comma '”, ,Jaico Publishing.', ref 8 'Marcovitz:Introduction to logic Design' (no space after colon)",
+    "Unit labels printed 'Unit-I'..'Unit-V'; unit texts include the printed topic headings (e.g. 'Digital Design and Binary Numbers:')"
    ],
    "flags": []
   },
   {
    "name": "Data Structures Using C",
-   "name_print": "NCS-301: DATA STRUCTURES USING – C",
+   "name_print": "Data Structures Using C",
    "codes": [
-    "NCS-301"
+    "NCS301"
    ],
    "semester": 3,
    "ltp": {
@@ -98,11 +94,11 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction: Basic Terminology, Elementary Data Organization, Algorithm, Efficiency of an Algorithm, Time and Space Complexity, Asymptotic notations: Big-Oh, Time-Space trade-off. Abstract Data Types (ADT) Arrays: Definition, Single and Multidimensional Arrays, Representation of Arrays: Row Major Order, and Column Major Order, Application of arrays, Sparse Matrices and their representations. Linked lists: Array Implementation and Dynamic Implementation of Singly Linked Lists, Doubly Linked List, Circularly Linked List, Operations on a Linked List. Insertion, Deletion, Traversal, Polynomial Representation and Addition,Generalized Linked List .",
     "2": "Stacks: Abstract Data Type, Primitive Stack operations: Push & Pop, Array and Linked Implementation of Stack in C, Application of stack: Prefix and Postfix Expressions, Evaluation of postfix expression, Recursion, Tower of Hanoi Problem, Simulating Recursion, Principles of recursion,Tail recursion, Removal of recursion Queues, Operations on Queue: Create, Add, Delete, Full and Empty, Circular queues, Array and linked implementation of queues in C, Dequeue and Priority Queue.",
-    "3": "Trees: Basic terminology, Binary Trees,  Binary Tree Representation: Array Representation and Dynamic Representation, CompleteBinary Tree, Algebraic Expressions, Extended Binary Trees, Array and Linked Representation of Binary trees, Tree Traversal algorithms: Inorder, Preorder and Postorder, Threaded Binary trees, Traversing Threaded Binary trees, Huffman algorithm.",
+    "3": "Trees: Basic terminology, Binary Trees, Binary Tree Representation: Array Representation and Dynamic Representation, CompleteBinary Tree, Algebraic Expressions, Extended Binary Trees, Array and Linked Representation of Binary trees, Tree Traversal algorithms: Inorder, Preorder and Postorder, Threaded Binary trees, Traversing Threaded Binary trees, Huffman algorithm.",
     "4": "Graphs: Terminology, Sequential and linked Representations of Graphs: Adjacency Matrices, Adjacency List, Adjacency Multi list, Graph Traversal : Depth First Search and Breadth First Search, Connected Component, Spanning Trees, Minimum Cost Spanning Trees: Prims and Kruskal algorithm. Transistive Closure and Shortest Path algorithm: Warshal Algorithm and Dijikstra Algorithm, Introduction to Activity Networks",
     "5": "Searching : Sequential search, Binary Search, Comparison and Analysis Internal Sorting: Insertion Sort, Selection, Bubble Sort, Quick Sort, Two Way Merge Sort, Heap Sort, Radix Sort, Practical consideration for Internal Sorting. Search Trees: Binary Search Trees(BST), Insertion and Deletion in BST, Complexity of Search Algorithm, AVL trees, Introduction to m-way Search Trees, B Trees & B+ Trees . Hashing: Hash Function, Collision Resolution Strategies Storage Management: Garbage Collection and Compaction."
    },
@@ -149,21 +145,16 @@
     }
    ],
    "quirks": [
-    "Detail header prints 'NCS-301: DATA STRUCTURES USING – C' (spaced en-dash); scheme table (p.2) prints 'Data Structures Using C'.",
-    "Unit 1 prints 'Addition,Generalized Linked List .' (missing space after comma).",
-    "Unit 2 prints 'Principles of recursion,Tail recursion, Removal of recursion Queues,' (missing space after comma; 'Queues' follows 'Removal of recursion' without punctuation).",
-    "Unit 3 prints 'CompleteBinary Tree' (missing space) and double space in 'Binary Trees,  Binary Tree Representation'.",
-    "Unit 4 prints 'Transistive Closure' (sic), 'Warshal Algorithm', 'Dijikstra Algorithm' (sic).",
-    "Ref 1 prints 'Tenenbaum,YedidyahLangsam' without spaces; Ref 3 prints 'Sharma ,Data Structure Using C' (space before comma, none after).",
-    "Ref 7 prints 'P.S. Deshpandey' (sic, usually Deshpande); Ref 8 prints 'R. Kruse etal' (sic)."
+    "Detailed-syllabus heading prints 'NCS-301: DATA STRUCTURES USING – C' (en dash); scheme table p.2 prints 'Data Structures Using C'",
+    "Book list printed under label 'References :'; typos kept verbatim: 'YedidyahLangsam' (no space), 'Horowitz and Sahani', 'P.S. Deshpandey, “C and Datastructure”', 'R. Kruse etal,', unit 1 'and Addition,Generalized Linked List .' (missing space after comma), unit 3 'CompleteBinary Tree' (no space), unit 4 'Transistive Closure', 'Warshal Algorithm', 'Dijikstra Algorithm' (sic)"
    ],
    "flags": []
   },
   {
    "name": "Discrete Structures And Graph Theory",
-   "name_print": "NCS-302: DISCRETE STRUCTURES AND GRAPH THEORY",
+   "name_print": "Discrete Structures And Graph Theory",
    "codes": [
-    "NCS-302"
+    "NCS302"
    ],
    "semester": 3,
    "ltp": {
@@ -179,13 +170,13 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
+   "subject_type": "theory",
    "units": {
-    "1": "Set Theory: Introduction, Combination of sets, Multisets, Ordered pairs, Set Identities. Relations: Definition, Operations on relations, Properties of relations, Composite Relations, Equality of relations,  Order of relations. Functions: Definition, Classification of functions, Operations on functions, Recursively defined functions. Natural Numbers: Introduction, Mathematical Induction, Variants of Induction, Induction with Nonzero Base cases.",
+    "1": "Set Theory: Introduction, Combination of sets, Multisets, Ordered pairs, Set Identities. Relations: Definition, Operations on relations, Properties of relations, Composite Relations, Equality of relations, Order of relations. Functions: Definition, Classification of functions, Operations on functions, Recursively defined functions. Natural Numbers: Introduction, Mathematical Induction, Variants of Induction, Induction with Nonzero Base cases.",
     "2": "Algebraic Structures: Definition, Groups, Subgroups and order, Cyclic Groups, Cosets, Lagrange's theorem, Normal Subgroups, Permutation and Symmetric groups, Group Homomorphisms , Definition and elementary properties of Rings and Fields, Integers Modulo n.",
-    "3": "Partial order sets: Definition, Partial order sets, Combination of partial order sets, Hasse diagram. Lattices: Definition, Properties of lattices – Bounded, Complemented, Modular and Complete Lattice,Morphisms of lattices. Boolean Algebra: Introduction, Axioms and Theorems  of Boolean algebra, Algebraic manipulation of Boolean expressions. Simplification of Boolean Functions, Karnaugh maps, Logic gates, Digital circuits and Boolean algebra. Combinational and sequential Circuits",
+    "3": "Partial order sets: Definition, Partial order sets, Combination of partial order sets, Hasse diagram. Lattices: Definition, Properties of lattices – Bounded, Complemented, Modular and Complete Lattice,Morphisms of lattices. Boolean Algebra: Introduction, Axioms and Theorems of Boolean algebra, Algebraic manipulation of Boolean expressions. Simplification of Boolean Functions, Karnaugh maps, Logic gates, Digital circuits and Boolean algebra. Combinational and sequential Circuits",
     "4": "Propositional Logic: Proposition, well formed formula, Truth tables, Tautology, Satisfiability, Contradiction, Algebra of proposition, Theory of Inference ,Natural Deduction. Predicate Logic: First order predicate, well formed formula of predicate, quantifiers, Inference theory of predicate logic.",
-    "5": "Trees : Definition, Binary tree, Binary tree traversal, Binary search tree. Graphs: Definition and terminology, Representation  of graphs, Multigraphs, Bipartite graphs, Planar graphs, Isomorphism and Homeomorphism of graphs, Euler and Hamiltonian paths, Graph coloring . Recurrence Relation & Generating function: Recursive definition of functions, Recursive algorithms, Method of solving recurrences. Combinatorics: Introduction, Counting Techniques, Pigeonhole Principle"
+    "5": "Trees : Definition, Binary tree, Binary tree traversal, Binary search tree. Graphs: Definition and terminology, Representation of graphs, Multigraphs, Bipartite graphs, Planar graphs, Isomorphism and Homeomorphism of graphs, Euler and Hamiltonian paths, Graph coloring . Recurrence Relation & Generating function: Recursive definition of functions, Recursive algorithms, Method of solving recurrences. Combinatorics: Introduction, Counting Techniques, Pigeonhole Principle"
    },
    "reference_books": [
     {
@@ -214,7 +205,7 @@
     },
     {
      "no": 7,
-     "book": "Goodaire and Parmenter,“ Discrete Mathematics with Graph Theory”, PHI Learning Private Limited, Delhi India."
+     "book": "Goodaire and Parmenter,” Discrete Mathematics with Graph Theory”, PHI Learning Private Limited, Delhi India."
     },
     {
      "no": 8,
@@ -226,19 +217,17 @@
     }
    ],
    "quirks": [
-    "Ref 1 prints 'Distcrete Mathematics' (sic).",
-    "Ref 2 spans the p.5→p.6 page break ('...Application to / Computer Science, McGraw-Hill').",
-    "Ref 4 ends with trailing comma; Ref 6 prints 'Biswal ,“Discrete Mathematics and Graph Theory, PHI...' (unclosed quote, space before comma).",
-    "Ref 7 prints quote placement 'Goodaire and Parmenter,“ Discrete Mathematics with Graph Theory”'.",
-    "Unit 1 prints double space in 'Equality of relations,  Order of relations.'; Unit 3 prints 'Lattice,Morphisms' (missing space) and 'Theorems  of' (double space); Unit 5 prints 'Representation  of graphs' and 'Graph coloring .' (space before period)."
+    "Detailed-syllabus heading prints 'NCS-302: DISCRETE STRUCTURES AND GRAPH THEORY'",
+    "Book list printed under label 'References :'; typos kept verbatim: 'Elements of Distcrete Mathematics' (sic), ref 6 'Biswal ,“Discrete Mathematics and Graph Theory, PHI...' (unbalanced quotes), ref 7 'Goodaire and Parmenter,” Discrete...' (inverted opening quote); ref 2 title runs across pp.5–6 page break",
+    "Unit-V printed heading 'Trees :' with space before colon (verbatim)"
    ],
    "flags": []
   },
   {
-   "name": "Computer Based Numerical and Statistical Techniques",
-   "name_print": "NCS-303: Computer Based Numerical and Statistical Techniques",
+   "name": "Computer Based Numerical And Statistical Techniques",
+   "name_print": "Computer Based Numerical And Statistical Techniques",
    "codes": [
-    "NCS-303"
+    "NCS303"
    ],
    "semester": 3,
    "ltp": {
@@ -254,7 +243,7 @@
     "ese_te_pe": 50,
     "total": 75
    },
-   "subject_type": "core",
+   "subject_type": "theory",
    "units": {
     "1": "Computer Arithmetic and Errors: Floating Point Arithmetic, Machine epsilon, Round off Error, Chopping Error, Truncation Error, Associative and Distributive Law in Floating Point arithmetic, Inherent Error, Error propagation, Numerical Instability Roots of Equation: Secant Method, Newton Raphson Method and Fixed point Iteration Methods for Simple roots and derivation of their rate of convergence, Aitken Acceleration of Convergence, Modified Newton Raphson Method for Multiple roots, Birge-Vieta Method for Polynomials, Bairstrow Method for quadratic factors, Computer Algorithms of these methods.",
     "2": "Interpolation: Algorithms and Error Analysis of Lagrange and Newton divided difference interpolations, Relationship in various difference operators, Piecewise Linear Interpolation, Cubic Spline Interpolation, Natural Spline, Chebshev Polynomial Approximations, Lanczos Economization of Power Series Curve fitting: Linear and Non Linear Least Squares Approximation, ill Conditioning in Least Squares Methods, Gram-Schmidt Process of Orthogonalization. Computer Algorithms of Least Square Curve Fitting",
@@ -276,19 +265,17 @@
     }
    ],
    "quirks": [
-    "Only Units I–IV are printed; NO Unit-V is printed for this subject in this document.",
-    "Books are printed under the heading 'Recommended Books:' as unnumbered round-bullet ('o') items; numbered 1-3 here for the draft schema only.",
-    "Print typos kept verbatim: 'Richrdson Extrapolation', 'Trepezoidal', 'Guassian Integration Methods', 'Guass Legendre Method', 'Chebshev Polynomial Approximations', 'Bairstrow Method'.",
-    "Scheme table (p.2) prints name 'Computer Based Numerical And Statistical Techniques' (capital 'And'); detail header prints mixed case 'Computer Based Numerical and Statistical Techniques'.",
-    "Unit headings print as 'Unit –I :', 'Unit –II', 'Unit – III', 'Unit – IV' (inconsistent punctuation)."
+    "Only Units I–IV are printed for this subject in the document — no Unit-V appears anywhere (pp.6–7); unit labels printed 'Unit –I :', 'Unit –II', 'Unit – III', 'Unit – IV'",
+    "Book list printed under label 'Recommended Books:' (bulleted with '' glyphs), recorded as reference_books; 'Iyenger' (sic)",
+    "Typos kept verbatim: 'Chebshev Polynomial', 'Richrdson Extrapolation', 'Trepezoidal', 'Guassian', 'Guass Legendre', 'Guass Elimination' (sic); within-unit sub-topic runs joined where the print continues on the next line without punctuation"
    ],
    "flags": []
   },
   {
-   "name": "Logic Design Lab",
-   "name_print": "NEC-359: LOGIC DESIGN LAB",
+   "name": "Digital Logic Design Lab",
+   "name_print": "Digital Logic Design Lab",
    "codes": [
-    "NEC-359"
+    "NEC359"
    ],
    "semester": 3,
    "ltp": {
@@ -343,17 +330,18 @@
     "To understand the digital logic and create various systems by using these logics."
    ],
    "quirks": [
+    "Detailed-syllabus heading prints 'NEC-359: LOGIC DESIGN LAB' whereas scheme table p.2 row 7 prints 'Digital Logic Design Lab' — name recorded from the scheme row",
     "Printed objective line: 'Objective: To understand the digital logic and create various systems by using these logics.'",
-    "Scheme table (p.2) row 7 prints code as 'NEC 359' (space, no hyphen) and name 'Digital Logic Design Lab'; detail header prints 'NEC-359: LOGIC DESIGN LAB'.",
-    "Printed note under the experiment list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.'"
+    "Printed note after the list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.' (p.7)",
+    "No unit theory printed — lab subject by print design; experiment list only"
    ],
    "flags": []
   },
   {
-   "name": "Data Structure Using C Lab",
-   "name_print": "NCS-351: DATA STRUCTURE USING C LAB",
+   "name": "Data Structures Using C Lab",
+   "name_print": "Data Structures Using C Lab",
    "codes": [
-    "NCS-351"
+    "NCS351"
    ],
    "semester": 3,
    "ltp": {
@@ -453,17 +441,18 @@
     }
    ],
    "quirks": [
-    "Printed lead line: 'Program in C or C++ for following:'.",
-    "Detail header prints 'DATA STRUCTURE USING C LAB' (singular STRUCTURE); scheme table (p.2) row 8 prints code 'NCS 351' (space) and name 'Data Structures Using C Lab'.",
-    "Printed note under the experiment list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.'"
+    "Detailed-syllabus heading prints 'NCS-351: DATA STRUCTURE USING C LAB' (singular 'STRUCTURE') whereas scheme table p.2 row 8 prints 'Data Structures Using C Lab' — name recorded from the scheme row",
+    "List printed under preamble 'Program in C or C++ for following:'",
+    "Printed note after the list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.' (p.7)",
+    "No unit theory printed — lab subject by print design"
    ],
    "flags": []
   },
   {
    "name": "Numerical Techniques Lab",
-   "name_print": "NCS-353: NUMERICAL TECHNIQUES LAB",
+   "name_print": "Numerical Techniques Lab",
    "codes": [
-    "NCS-353"
+    "NCS353"
    ],
    "semester": 3,
    "ltp": {
@@ -523,18 +512,19 @@
     }
    ],
    "quirks": [
-    "Printed lead line: 'Write Programs in ‘C’ Language:'.",
-    "Print typos kept verbatim: exp 4 'Sterling’s and Evertt’s' (sic, usually Stirling's/Everett's); exp 5 'Langranges' (sic); exp 2 'Regula-falsi ,' space before comma; exp 10 'atleast' (one word) and 'R2' (no superscript).",
-    "Scheme table (p.2) row 9 prints code as 'NCS 353' (space, no hyphen).",
-    "Printed note under the experiment list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.'"
+    "Detailed-syllabus heading prints 'NCS-353: NUMERICAL TECHNIQUES LAB'",
+    "List printed under preamble 'Write Programs in ‘C’ Language:'",
+    "Typos kept verbatim: 'Sterling’s and Evertt’s' (sic), 'Langranges' (sic), 'atleast' (sic)",
+    "Printed note after the list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.' (p.7)",
+    "No unit theory printed — lab subject by print design"
    ],
    "flags": []
   },
   {
    "name": "Advance Programming Lab",
-   "name_print": "NCS-355: ADVANCE PROGRAMMING LAB",
+   "name_print": "Advance Programming Lab",
    "codes": [
-    "NCS-355"
+    "NCS355"
    ],
    "semester": 3,
    "ltp": {
@@ -590,18 +580,18 @@
     }
    ],
    "quirks": [
-    "Printed lead line: 'LIST OF EXPERIMENTS:'.",
-    "'Advance Programming' kept verbatim (sic, usually Advanced).",
-    "Scheme table (p.2) row 10 prints code as 'NCS 355' (space, no hyphen).",
-    "Printed note under the experiment list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.'"
+    "Detailed-syllabus heading prints 'NCS-355: ADVANCE PROGRAMMING LAB' (sic 'Advance')",
+    "List printed under preamble 'LIST OF EXPERIMENTS:'; language(s) not stated in the print",
+    "Printed note after the list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.' (p.8)",
+    "No unit theory printed — lab subject by print design"
    ],
    "flags": []
   },
   {
    "name": "Information Theory and Coding",
-   "name_print": "NEC-408: INFORMATION THEORY AND CODING",
+   "name_print": "Information Theory and Coding",
    "codes": [
-    "NEC-408"
+    "NEC408"
    ],
    "semester": 4,
    "ltp": {
@@ -617,7 +607,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
+   "subject_type": "theory",
    "units": {
     "1": "Review of probability theory, Definition of Information Measure and Entropy: Measure of information, Average information content of symbols in long independent sequences, Average information content of symbols in long dependent sequences. Mark-off statistical model for information source, Entropy and information rate of mark-off source, Mutual information. Asymptotic Properties of Entropy and Problem Solving in Entropy",
     "2": "Block Code and its Properties, Data compression, Kraft-Mcmillan Equality and Compact Codes, Encoding of the source output, Shannon’s encoding algorithm, Coding Strategies, Huffman Coding, Shannon-Fano-Elias Coding and Introduction to Arithmetic Coding.",
@@ -656,19 +646,17 @@
     }
    ],
    "quirks": [
-    "Printed under 'Reference:' (singular).",
-    "Ref 3 prints 'Cryptography” ,Tata' (space before comma); Ref 4 prints 'Thomas ,” Elements...' (misplaced opening quote); Ref 6 prints 'Steven Roman,” Introduction...' (misplaced opening quote).",
-    "Unit 5 prints 'Binary Cycle Codes' (sic, likely Cyclic); 'Convolution Codes' (sic, usually Convoluntary/Convolutional).",
-    "Unit 4 prints run-on 'Types of codes Linear Block Codes:' without punctuation.",
-    "Scheme table (p.3) row 3 prints 'NEC-408 | Information Theory and Coding'."
+    "Detailed-syllabus heading prints 'NEC-408: INFORMATION THEORY AND CODING'",
+    "Book list printed under label 'Reference:' (singular); refs 4 and 6 print inverted opening quotes ('” Elements of Information Theory...') — kept verbatim",
+    "Unit labels printed 'Unit I', 'Unit – II', 'Unit – III', 'Unit – IV', 'Unit – V' without topic headings; 'mark-off'/'Mark-off' casing as printed; 'Kraft-Mcmillan' (sic)"
    ],
    "flags": []
   },
   {
    "name": "Operating System",
-   "name_print": "NCS-401: OPERATING SYSTEM",
+   "name_print": "Operating System",
    "codes": [
-    "NCS-401"
+    "NCS401"
    ],
    "semester": 4,
    "ltp": {
@@ -684,7 +672,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction : Operating system and functions, Classification of Operating systems- Batch, Interactive, Time sharing, Real Time System, Multiprocessor Systems, Multiuser Systems, Multiprocess Systems, Multithreaded Systems, Operating System Structure- Layered structure, System Components, Operating System services, Reentrant Kernels, Monolithic and Microkernel Systems.",
     "2": "Concurrent Processes: Process Concept, Principle ofConcurrency, Producer / Consumer Problem, Mutual Exclusion, Critical Section Problem, Dekker’s solution, Peterson’s solution, Semaphores, Test and Set operation; Classical Problem in Concurrency- Dining Philosopher Problem, Sleeping Barber Problem; Inter Process Communication models and Schemes, Process generation.",
@@ -719,19 +707,85 @@
     }
    ],
    "quirks": [
-    "Reference list print-numbering quirk: items print as 1., 2., 3., 4., 5., then the sixth book (Stuart E. Madnick & John J. Donovan) is printed with number '1.' again; renumbered 1-6 here for the draft schema only.",
-    "Ref 2 prints 'SibsankarHalder' (missing space); Ref 4 prints 'basedApproach' (missing space); Ref 5 ends 'Tata McGraw Hill Education”.' (stray closing quote).",
-    "Unit 2 prints 'Principle ofConcurrency' (missing space).",
-    "Scheme table (p.3) row 4 prints code as 'NCS- 401' (space after hyphen).",
-    "Unit 4 spans the p.8→p.9 page break."
+    "Detailed-syllabus heading prints 'NCS-401: OPERATING SYSTEM'; scheme table p.3 row 4 prints course code as 'NCS- 401' (stray space after dash)",
+    "Book list printed under label 'References :'; print numbers the sixth book as '1.' (list numbering restarts) — recorded as no.6; ref 5 ends with a stray closing quote; typos kept verbatim: 'Principle ofConcurrency', 'SibsankarHalder', 'A Concept basedApproach' (missing spaces)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Theory Of Automata and Formal Launguage",
+   "name_print": "Theory Of Automata and Formal Launguage",
+   "codes": [
+    "NCS402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction; Alphabets, Strings and Languages; Automata and Grammars, Deterministic finite Automata (DFA)-Formal Definition, Simplified notation: State transition graph, Transition table, Language of DFA, Nondeterministic finite Automata (NFA), NFA with epsilon transition, Language of NFA, Equivalence of NFA and DFA, Minimization of Finite Automata, Distinguishing one string from other, Myhill-Nerode Theorem",
+    "2": "Regular expression (RE) , Definition, Operators of regular expression and their precedence, Algebraic laws for Regular expressions, Kleen’s Theorem, Regular expression to FA, DFA to Regular expression, Arden Theorem, Non Regular Languages, Pumping Lemma for regular Languages . Application of Pumping Lemma, Closure properties of Regular Languages, Decision properties of Regular Languages, FA with output: Moore and Mealy machine, Equivalence of Moore and Mealy Machine, Applications and Limitation of FA.",
+    "3": "Context free grammar (CFG) and Context Free Languages (CFL): Definition, Examples, Derivation , Derivation trees, Ambiguity in Grammer, Inherent ambiguity, Ambiguous to Unambiguous CFG, Useless symbols, Simplification of CFGs, Normal forms for CFGs: CNF and GNF, Closure properties of CFLs, Decision Properties of CFLs: Emptiness, Finiteness and Memership, Pumping lemma for CFLs.",
+    "4": "Push Down Automata (PDA): Description and definition, Instantaneous Description, Language of PDA, Acceptance by Final state, Acceptance by empty stack, Deterministic PDA, Equivalence of PDA and CFG, CFG to PDA and PDA to CFG, Two stack PDA",
+    "5": "Turing machines (TM): Basic model, definition and representation, Instantaneous Description, Language acceptance by TM, Variants of Turing Machine, TM as Computerof Integer functions, Universal TM, Church’s Thesis, Recursive and recursively enumerable languages, Halting problem, Introduction to Undecidability, Undecidable problems about TMs. Post correspondence problem (PCP), Modified PCP, Introduction to recursive function theory ."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Hopcroft, Ullman, “Introduction to Automata Theory,Languages and Computation”, Pearson Education ."
+    },
+    {
+     "no": 2,
+     "book": "K.L.P. Mishra and N.Chandrasekaran, “Theory of Computer Science : Automata, Languages and Computation”, PHI Learning Private Limited, Delhi India."
+    },
+    {
+     "no": 3,
+     "book": "Peter Linz, \"An Introduction to Formal Language and Automata\", Narosa Publishing house."
+    },
+    {
+     "no": 4,
+     "book": "Y.N.Singh “Mathematical Foundation of Computer Science”, New Age International."
+    },
+    {
+     "no": 5,
+     "book": "Papadimitrou, C. and Lewis, C.L., “Elements of the Theory of Computation”, PHI Learning Private Limited, Delhi India."
+    },
+    {
+     "no": 6,
+     "book": "K.Krithivasan and R.Rama; Introduction to Formal Languages, Automata Theory and Computation; Pearson Education."
+    },
+    {
+     "no": 7,
+     "book": "Harry R. Lewis and Christos H. Papadimitriou, Elements of the theory of Computation, Second Edition, Prentice-Hall of India Pvt. Ltd."
+    },
+    {
+     "no": 8,
+     "book": "Micheal Sipser, “Introduction of the Theory and Computation”, Thomson Learning."
+    }
+   ],
+   "quirks": [
+    "Scheme table p.3 row 5 prints subject name 'Theory Of Automata and Formal Launguage' (typo 'Launguage') whereas detailed-syllabus heading p.9 prints 'NCS-402: THEORY OF AUTOMATA AND FORMAL LANGUAGES' — name recorded verbatim from the scheme row; scheme row code printed 'NCS- 402' (stray space)",
+    "Typos kept verbatim: 'Kleen’s Theorem', 'Grammer', 'Memership', 'Computerof', 'Papadimitrou', 'Micheal Sipser', 'Introduction of the Theory and Computation'",
+    "PyMuPDF text-layer mid-word splits on p.9 ('Transition tabl e', 'epsilon transi ion', 'Equi valence', 'Distinguis hing', 'Closure proper ties') joined to the visible-print words per RULES §6; ref 7 title runs across the pp.9–10 page break"
    ],
    "flags": []
   },
   {
    "name": "Multimedia and Animation",
-   "name_print": "NIT-401: MULTIMEDIA AND ANIMATION",
+   "name_print": "Multimedia and Animation",
    "codes": [
-    "NIT-401"
+    "NIT401"
    ],
    "semester": 4,
    "ltp": {
@@ -747,12 +801,12 @@
     "ese_te_pe": 50,
     "total": 75
    },
-   "subject_type": "core",
+   "subject_type": "theory",
    "units": {
-    "1": "Introduction to Multimedia and animation, Multimedia Systems, Design Fundamentals, Elements of multimedia and animation and their use, Back ground of Art, Color theory overview, Sketching & illustration, Storyboarding, different tools for animation .",
-    "2": "Multimedia Skills, Hardware, Use of Graphics in Multimedia, Overview of Vector and Raster Graphics, Basic software tools, Multimedia Authoring Tools, Planning and Costing, Designing and Producing, Contents and talent, Delivering, Enhancing and Testing Multimedia Projects.",
-    "3": "Paint and Draw Applications, Graphic effects and techniques, Image File Format, Anti-aliasing, Morphing, Multimedia Authoring tools, professional development tools.",
-    "4": "Introduction and Principles of Animations, Power of Motion, Animation Techniques, Animation File Format, Making animation for Rolling Ball, making animation for a Bouncing Ball, Animation for the web, GIF, Plug-ins and Players, Animation tools for World Wide Web."
+    "1": "Introduction: Introduction to Multimedia and animation, Multimedia Systems, Design Fundamentals, Elements of multimedia and animation and their use, Back ground of Art, Color theory overview, Sketching & illustration, Storyboarding, different tools for animation .",
+    "2": "Multimedia Projects: Multimedia Skills, Hardware, Use of Graphics in Multimedia, Overview of Vector and Raster Graphics, Basic software tools, Multimedia Authoring Tools, Planning and Costing, Designing and Producing, Contents and talent, Delivering, Enhancing and Testing Multimedia Projects.",
+    "3": "Tools of Multimedia: Paint and Draw Applications, Graphic effects and techniques, Image File Format, Anti-aliasing, Morphing, Multimedia Authoring tools, professional development tools.",
+    "4": "Animation: Introduction and Principles of Animations, Power of Motion, Animation Techniques, Animation File Format, Making animation for Rolling Ball, making animation for a Bouncing Ball, Animation for the web, GIF, Plug-ins and Players, Animation tools for World Wide Web."
    },
    "reference_books": [
     {
@@ -781,19 +835,18 @@
     }
    ],
    "quirks": [
-    "Only four units are printed: 'Unit I – Introduction:', 'Unit- 2 – Multimedia Projects:', 'Unit-3 – Tools of Multimedia:', 'Unit-4 - Animation:' — NO Unit-V is printed for this subject in this document (unit heading styles inconsistent in print).",
-    "Unit 1 prints 'Back ground of Art' (in-line gap) and 'animation .' (space before period).",
-    "Ref 1 prints 'Work”,Tata' (missing space); Ref 3 prints 'Sleinreitz' (sic, usually Steinmetz); Ref 6 prints 'Cook – “Principles...' with dash separator and ' ,Tata' space before comma.",
-    "Unit 4 print line-wrap joins 'Plug-ins' (printed 'Plug-' / 'ins' across lines).",
-    "Scheme table (p.3) row 6 prints 'NIT-401 | Multimedia and Animation'."
+    "Detailed-syllabus heading prints 'NIT-401: MULTIMEDIA AND ANIMATION'",
+    "Only four units are printed (Unit I, Unit- 2, Unit-3, Unit-4 — inconsistent unit-label punctuation as printed); no Unit-V appears anywhere (p.10)",
+    "Unit headings carry topic titles (Introduction / Multimedia Projects / Tools of Multimedia / Animation), included in the unit text after the colon",
+    "Book list printed under label 'References:'; typos kept verbatim: 'Back ground of Art', 'Sleinreitz' (sic), 'Mark S.Drew' (no space)"
    ],
    "flags": []
   },
   {
    "name": "Operating System Lab",
-   "name_print": "NCS-451: OPERATING SYSTEM LAB",
+   "name_print": "Operating System Lab",
    "codes": [
-    "NCS-451"
+    "NCS451"
    ],
    "semester": 4,
    "ltp": {
@@ -813,11 +866,22 @@
    "experiments": [
     {
      "no": 1,
-     "exp": "To implement CPU Scheduling Algorithms\nFCFS\nSJF\nSRTF\nPRIORITY\nROUND ROBIN"
+     "exp": "To implement CPU Scheduling Algorithms",
+     "sub": [
+      "FCFS",
+      "SJF",
+      "SRTF",
+      "PRIORITY",
+      "ROUND ROBIN"
+     ]
     },
     {
      "no": 2,
-     "exp": "Simulate all Page Replacement Algorithms\nFIFO\nLRU"
+     "exp": "Simulate all Page Replacement Algorithms",
+     "sub": [
+      "FIFO",
+      "LRU"
+     ]
     },
     {
      "no": 3,
@@ -825,17 +889,18 @@
     }
    ],
    "quirks": [
-    "Experiments 1 and 2 carry unnumbered sub-bullets (round bullet glyphs, unrenderable in text layer) listing FCFS/SJF/SRTF/PRIORITY/ROUND ROBIN and FIFO/LRU; recorded inside the exp strings line-by-line.",
-    "Printed note: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/shefeels in a justified manner.' — print omits the space in 'he/shefeels' (sic).",
-    "Scheme table (p.3) practical row 7 prints 'NCS-451 | Operating System Lab'; the Sem IV practical section restarts numbering at 7 after theory row 7 (duplicate S.No. 7 in print)."
+    "Detailed-syllabus heading prints 'NCS-451: OPERATING SYSTEM LAB'",
+    "Experiment sub-items (algorithm names) printed as bulleted lists under experiments 1 and 2 — recorded in 'sub' arrays; bullet glyphs are Wingding characters in the print",
+    "Printed note after the list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/shefeels in a justified manner.' — typo 'he/shefeels' kept verbatim (p.10)",
+    "No unit theory printed — lab subject by print design"
    ],
    "flags": []
   },
   {
    "name": "Multimedia and Animation Lab",
-   "name_print": "NIT-451: MULTIMEDIA AND ANIMATION LAB",
+   "name_print": "Multimedia and Animation Lab",
    "codes": [
-    "NIT-451"
+    "NIT451"
    ],
    "semester": 4,
    "ltp": {
@@ -855,11 +920,11 @@
    "experiments": [
     {
      "no": 1,
-     "exp": "Procedure to create an animation to represent the  growing moon."
+     "exp": "Procedure to create an animation to represent the growing moon."
     },
     {
      "no": 2,
-     "exp": "Procedure  to  create  an  animation  to  indicate  a  ball  bouncing on steps."
+     "exp": "Procedure to create an animation to indicate a ball bouncing on steps."
     },
     {
      "no": 3,
@@ -879,7 +944,7 @@
     },
     {
      "no": 7,
-     "exp": "Procedure to create an animation with the following features.\nWELCOME (Letters should appear one by one .The fill color of the text should change to a different colour after the display of the full word.)"
+     "exp": "Procedure to create an animation with the following features. WELCOME (Letters should appear one by one .The fill color of the text should change to a different colour after the display of the full word.)"
     },
     {
      "no": 8,
@@ -887,19 +952,19 @@
     },
     {
      "no": 9,
-     "exp": "Procedure  to  design  a  visiting  card  containing at least  one  graphic and text information."
+     "exp": "Procedure to design a visiting card containing at least one graphic and text information."
     },
     {
      "no": 10,
-     "exp": "Procedure to  take a  photographic image.  Give a title for the image.  Put the border.  Write  your names.  Write  the  name  of institution and place."
+     "exp": "Procedure to take a photographic image. Give a title for the image. Put the border. Write your names. Write the name of institution and place."
     },
     {
      "no": 11,
-     "exp": "Procedure  to  prepare  a  cover  page  for  the  book in  your subject area. Plan your own design."
+     "exp": "Procedure to prepare a cover page for the book in your subject area. Plan your own design."
     },
     {
      "no": 12,
-     "exp": "Procedure  to   extract  the  flower  only  from  given photographic  image  and  organize    it  on  a background. Selecting your own background for organization."
+     "exp": "Procedure to extract the flower only from given photographic image and organize it on a background. Selecting your own background for organization."
     },
     {
      "no": 13,
@@ -911,19 +976,18 @@
     }
    ],
    "quirks": [
-    "Justified-text multi-spacing inside items kept verbatim (e.g. 'Procedure  to  create  an  animation  to  indicate...').",
-    "Item 7 sub-line prints 'one by one .The fill color' (space before period, none after).",
-    "Items 6 and 14 print the same background task twice with different filename casing ('garden.jpg' vs 'GARDEN.JPG').",
-    "Scheme table (p.3) row 8 prints 'NIT-451 | Multimedia and Animation Lab'.",
-    "Printed note: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.'"
+    "Detailed-syllabus heading prints 'NIT-451: MULTIMEDIA AND ANIMATION LAB'",
+    "Wide word-spacing in the justified print (experiments 1-12) normalized to single spaces during transcription; wording kept verbatim (e.g. exp 7 'one by one .The fill color'; exp 14 repeats garden.jpg in caps 'FILENAME: GARDEN.JPG')",
+    "Printed note after the list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.' (p.11)",
+    "No unit theory printed — lab subject by print design"
    ],
    "flags": []
   },
   {
    "name": "Functional and Logic Programming Lab",
-   "name_print": "NCS-455: FUNCTIONAL AND LOGIC PROGRAMMING LAB",
+   "name_print": "Functional and Logic Programming Lab",
    "codes": [
-    "NCS-455"
+    "NCS455"
    ],
    "semester": 4,
    "ltp": {
@@ -967,7 +1031,7 @@
     },
     {
      "no": 7,
-     "exp": "Write a function that evaluate a fully parenthesized infix arithmetic expression .\nFor examples, (infix (1+(2*3))) should return 7."
+     "exp": "Write a function that evaluate a fully parenthesized infix arithmetic expression . For examples, (infix (1+(2*3))) should return 7."
     },
     {
      "no": 8,
@@ -983,24 +1047,149 @@
     },
     {
      "no": 11,
-     "exp": "Write a PROLOG program that answers questions about family members and relationships includes predicates and rules which define sister,brother,father,mother,grandchild,grandfather and uncle. The program should be able to answer queries such as the following :\nfather(x,Amit)\ngrandson(x,y)\nuncle(sumit,puneet)\nmother(anita,x)"
+     "exp": "Write a PROLOG program that answers questions about family members and relationships includes predicates and rules which define sister,brother,father,mother,grandchild,grandfather and uncle. The program should be able to answer queries such as the following : father(x,Amit) grandson(x,y) uncle(sumit,puneet) mother(anita,x)"
     }
    ],
    "quirks": [
-    "Printed lead line: 'Program in SML- NJ or CAML or F# for following:' ('SML- NJ' spacing sic).",
-    "Printed mid-list heading before item 6: 'Implement using LISP'.",
-    "Item 11's example queries print as unnumbered round-bullet ('o') lines; recorded inside the exp string line-by-line. The list ends with a DANGLING EMPTY 'o' BULLET after 'mother(anita,x)' — a fragment with no text follows it in the print (possible dropped query line in the source); recorded here rather than guessed.",
-    "Grammar typos kept verbatim: 'a function that compute/evaluate/perform'; item 7 'expression .' (space before period), 'For examples,' (sic).",
-    "Printed note: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/shefeels in a justified manner.' — print omits the space in 'he/shefeels' (sic).",
-    "Scheme table (p.3) row 9 prints name across two lines 'Functional and Logic / Programming Lab'."
+    "Detailed-syllabus heading prints 'NCS-455: FUNCTIONAL AND LOGIC PROGRAMMING LAB'",
+    "Experiments 1-5 printed under preamble 'Program in SML- NJ or CAML or F# for following:'; experiments 6-11 printed under the line 'Implement using LISP' (language stated mid-list)",
+    "Experiment 11 prints its sample queries as a bulleted list ('father(x,Amit)', 'grandson(x,y)', 'uncle(sumit,puneet)', 'mother(anita,x)') followed by a trailing empty bullet — queries transcribed inline, empty bullet recorded here",
+    "Printed note after the list: 'Note: The Instructor may add/delete/modify/tune experiments, wherever he/shefeels in a justified manner.' — typo 'he/shefeels' kept verbatim (p.11)",
+    "No unit theory printed — lab subject by print design"
    ],
    "flags": []
   },
   {
-   "name": "Theory of Automata and Formal Languages",
-   "name_print": "NCS-402: THEORY OF AUTOMATA AND FORMAL LANGUAGES",
+   "name": "Mathematics III/Science Based Open Elective",
+   "name_print": "Mathematics III/Science Based Open Elective",
    "codes": [
-    "NCS-402"
+    "NAS301",
+    "NOE031",
+    "NOE032",
+    "NOE033",
+    "NOE034",
+    "NOE035",
+    "NOE036",
+    "NOE037",
+    "NOE038",
+    "NOE039"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "quirks": [
+    "Scheme row only (p.2 row 1): '1 NAS-301/ NOE-031 to NOE-039 | Mathematics III/Science Based Open Elective | 3 1 0 | 30 20 50 | 100 | 150 | 4' — no unit theory, COs, or books printed anywhere in the document for this subject",
+    "Combined slot row: either Mathematics III (NAS-301) or one of the Science Based Open Electives; pool codes expanded from the printed 'Science Based Open Elective:' list on p.2 (printed there as 'NOE031'..'NOE039' without dashes; p.2 prints 'NOE031 Introduction to Soft Computing (Neural Network, Fuzzy Logic and Genetic Algorithm' with no closing parenthesis)",
+    "Scheme row code cell prints the range 'NOE-031 to NOE-039'"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Industrial Psychology/ Industrial Sociology",
+   "name_print": "Industrial Psychology/ Industrial Sociology",
+   "codes": [
+    "NHU301",
+    "NHU302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "quirks": [
+    "Scheme row only (p.2 row 5): '5 NHU-301/ NHU-302 | Industrial Psychology/ Industrial Sociology | 2 0 0 | 15 10 25 | 50 | 75 | 2' — no unit theory, COs, or books printed anywhere in the document for this subject",
+    "Combined alternative-pair row: Industrial Psychology (NHU-301) or Industrial Sociology (NHU-302)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Human Values & Professional Ethics/ Cyber Security",
+   "name_print": "Human Values & Professional Ethics/ Cyber Security",
+   "codes": [
+    "AUC001",
+    "AUC002"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": "75*"
+   },
+   "quirks": [
+    "Scheme row only (p.2, unnumbered row between rows 6 and 7): 'AUC-001/ AUC-002 | Human Values & Professional Ethics/ Cyber Security | 2 0 0 | 15 10 25 | 50 | 75*' — no unit theory, COs, or books printed anywhere in the document for this subject; S.No cell printed blank and Credit cell printed blank (omit)",
+    "Subject total printed as '75*' — the asterisk refers to the printed footnote: '*Human values & Professional Ethics /Cyber Security will be offered as a compulsory audit course for which passing marks are 30% in End Semester Examination and 40% in aggregate.' (p.2)",
+    "The same audit-course pair prints again as Semester IV row 7 (p.3): '7 AUC-002/ AUC-001 | Cyber Security / Human Values & Professional Ethics | 2 0 0 | 15 10 25 | 50 | 75*' (pair order reversed) — recorded as one subject (identical code pair AUC-001/AUC-002); the pair is common to both semester scheme tables"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "GP",
+   "name_print": "GP",
+   "codes": [
+    "NGP301"
+   ],
+   "semester": 3,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "quirks": [
+    "Scheme row only (p.2 row 11): '11 NGP 301 | GP | [L/T/P blank] | [CT/TA blank] | 50 (sessional-total column, x≈382) | [ESE blank] | 50 (subject-total column, x≈453) | [credit blank]' per fitz word coordinates — no unit theory/experiments printed anywhere",
+    "Expansion of 'GP' not printed anywhere in the document (not expanded in print); L-T-P and credit cells printed blank (omitted)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Science Based Open Elective/Mathematics III",
+   "name_print": "Science Based Open Elective/Mathematics III",
+   "codes": [
+    "NOE041",
+    "NOE042",
+    "NOE043",
+    "NOE044",
+    "NOE045",
+    "NOE046",
+    "NOE047",
+    "NOE048",
+    "NOE049",
+    "NAS401"
    ],
    "semester": 4,
    "ltp": {
@@ -1016,160 +1205,142 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
-   "units": {
-    "1": "Introduction; Alphabets, Strings and Languages; Automata and Grammars, Deterministic finite Automata (DFA)-Formal Definition, Simplified notation: State transition graph, Transition table, Language of DFA, Nondeterministic finite Automata (NFA), NFA with epsilon transi ion, Language of NFA, Equi valence of NFA and DFA, Minimization of Finite Automata, Distinguishing one string from other, Myhill-Nerode Theorem",
-    "2": "Regular expression (RE) , Definition, Operators of  regular expression and their precedence, Algebraic laws for Regular expressions, Kleen’s Theorem, Regular expression to FA, DFA to Regular expression, Arden Theorem, Non Regular Languages, Pumping Lemma for regular Languages . Application of Pumping Lemma, Closure properties of Regular Languages, Decision properties of Regular Languages, FA with  output: Moore and Mealy machine, Equivalence of Moore and Mealy Machine, Applications and Limitation of FA.",
-    "3": "Context free grammar (CFG) and Context Free Languages (CFL): Definition, Examples, Derivation , Derivation trees, Ambiguity in Grammer, Inherent ambiguity, Ambiguous to Unambiguous CFG, Useless symbols, Simplification of CFGs, Normal forms for CFGs: CNF and GNF, Closure proper ties of CFLs, Decision Properties of CFLs: Emptiness, Finiteness and Memership, Pumping lemma for CFLs.",
-    "4": "Push Down Automata (PDA): Description and definition, Instantaneous Description, Language of PDA, Acceptance by Final state, Acceptance by empty stack, Deterministic PDA, Equivalence of PDA and CFG, CFG to PDA and PDA to CFG, Two stack PDA",
-    "5": "Turing machines (TM): Basic model, definition and representation, Instantaneous Description, Language acceptance by TM, Variants of Turing Machine, TM as Computerof Integer functions, Universal TM, Church’s Thesis, Recursive and recursively enumerable languages, Halting problem, Introduction to Undecidability, Undecidable problems about TMs. Post correspondence problem (PCP), Modified PCP, Introduction to recursive function theory ."
-   },
-   "reference_books": [
-    {
-     "no": 1,
-     "book": "Hopcroft, Ullman, “Introduction to Automata Theory,Languages and Computation”, Pearson Education ."
-    },
-    {
-     "no": 2,
-     "book": "K.L.P. Mishra and N.Chandrasekaran, “Theory of Computer Science : Automata, Languages and Computation”, PHI Learning Private Limited, Delhi India."
-    },
-    {
-     "no": 3,
-     "book": "Peter Linz, \"An Introduction to Formal Language and Automata\", Narosa Publishing house."
-    },
-    {
-     "no": 4,
-     "book": "Y.N.Singh “Mathematical Foundation of Computer Science”, New Age International."
-    },
-    {
-     "no": 5,
-     "book": "Papadimitrou, C. and Lewis, C.L., “Elements of the Theory of Computation”, PHI Learning Private Limited, Delhi India."
-    },
-    {
-     "no": 6,
-     "book": "K.Krithivasan and R.Rama; Introduction to Formal Languages, Automata Theory and Computation; Pearson Education."
-    },
-    {
-     "no": 7,
-     "book": "Harry R. Lewis and Christos H. Papadimitriou, Elements of the theory of Computation, Second Edition, Prentice-Hall of India Pvt. Ltd."
-    },
-    {
-     "no": 8,
-     "book": "Micheal Sipser, “Introduction of the Theory and Computation”, Thomson Learning."
-    }
-   ],
+   "subject_type": "theory",
    "quirks": [
-    "Scheme table (p.3) row 5 prints name 'Theory Of Automata and Formal Launguage' (typo 'Launguage') with code 'NCS- 402' (space after hyphen); detail header prints 'NCS-402: THEORY OF AUTOMATA AND FORMAL LANGUAGES'.",
-    "Unit 1 print line-wrap breaks words without hyphen: 'Transition tabl/e' (joined as 'table') and 'Distinguis/hing' (joined as 'Distinguishing') — visible print breaks 'table' and 'Distinguishing' across lines; genuine in-line gaps kept verbatim: 'epsilon transi ion', 'Equi valence'.",
-    "Unit 2 prints 'Operators of  regular expression' and 'FA with  output' (double spaces), 'Kleen’s Theorem' (sic, usually Kleene), 'Languages .' (space before period).",
-    "Unit 3 prints 'Grammer' (sic), 'Closure proper ties of CFLs' (in-line gap), 'Memership' (sic).",
-    "Unit 5 prints 'Computerof' (missing space) and 'function theory .' (space before period).",
-    "Ref 1 prints 'Theory,Languages' (missing space); Ref 5 prints 'Papadimitrou' (sic); Ref 8 prints 'Micheal' (sic) and 'Introduction of the Theory' (sic).",
-    "Ref 3 uses straight double quotes in print (\"An Introduction to Formal Language and Automata\")."
+    "Scheme row only (p.3 row 1): '1 NOE-041 to NOE-049/ NAS-401 | Science Based Open Elective/ Mathematics III | 3 1 0 | 30 20 50 | 100 | 150 | 4' — no unit theory, COs, or books printed anywhere in the document for this subject",
+    "Combined slot row: either a Science Based Open Elective or Mathematics III (NAS-401); pool codes expanded from the printed 'Science Based Open Elective:' list on p.3 (printed 'NOE-041'..'NOE-049', with case typo 'NoE-044 Space Sciences'; the Soft Computing entry again lacks its closing parenthesis)",
+    "Scheme row code cell prints the range 'NOE-041 to NOE-049'",
+    "Course-code print is the CASE VARIANT 'NoE-044' (p.3 elective list: 'NoE-044 Space Sciences' — visible print; the linear text layer carries the same case-variant token, which the verifier's case-sensitive tolerant search misses) — normalized to NOE044, verbatim print kept here"
    ],
-   "flags": []
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Industrial Sociology/ Industrial Psychology",
+   "name_print": "Industrial Sociology/ Industrial Psychology",
+   "codes": [
+    "EHU402",
+    "EHU401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "quirks": [
+    "Scheme row only (p.3 row 2): '2 EHU-402/ EHU -401 | Industrial Sociology/ Industrial Psychology | 2 0 0 | 15 10 25 | 50 | 75 | 2' — no unit theory, COs, or books printed anywhere in the document for this subject; code cell prints stray space in 'EHU -401'",
+    "Combined alternative-pair row: Industrial Sociology (EHU-402) or Industrial Psychology (EHU-401) — mirror of the Semester III NHU-301/NHU-302 pair"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Colloquium",
+   "name_print": "Colloquium",
+   "codes": [
+    "NIT456"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "quirks": [
+    "Scheme row only (p.3 row 10): '10 NIT-456 | Colloquium | 0 0 3 | 10 10 20 | 30 | 50 | 1' — no unit theory, topics, or evaluation details printed anywhere in the document for the Colloquium"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "GP",
+   "name_print": "GP",
+   "codes": [
+    "NGP401"
+   ],
+   "semester": 4,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "quirks": [
+    "Scheme row only (p.3 row 11): '11 NGP-401 | GP | [L/T/P blank] | [CT/TA blank] | 50 (sessional-total column, x≈393) | [ESE blank] | 50 (subject-total column, x≈464) | [credit blank]' per fitz word coordinates — no unit theory/experiments printed anywhere",
+    "Expansion of 'GP' not printed anywhere in the document (not expanded in print); L-T-P and credit cells printed blank (omitted)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
   }
  ],
  "non_subject_rows": [
   {
-   "kind": "cover",
+   "kind": "cover_print",
    "print": "UTTAR PRADESH TECHNICAL UNIVERSITY LUCKNOW — Syllabus for B.TECH. INFORMATION TECHNOLOGY of Second Year (Effective from the Session: 2014-15)",
    "locator": "p.1"
   },
   {
-   "kind": "scheme_summary",
-   "print": "B.TECH INFORMATION TECHNOLOGY — STUDY & EVALUATION SCHEME — 2nd Year — SEMESTER III. THEORY SUBJECT: 1 | NAS-301/NOE-031 to NOE-039 | Mathematics III/Science Based Open Elective | L3 T1 P0 | CT 30 TA 20 Total 50 | ESE 100 | Subject Total 150 | Credit 4. 2 | NEC-309 | Digital Logic Design | L3 T1 P0 | CT 30 TA 20 Total 50 | ESE 100 | Subject Total 150 | Credit 4. 3 | NCS-301 | Data Structures Using C | L3 T1 P0 | CT 30 TA 20 Total 50 | ESE 100 | Subject Total 150 | Credit 4. 4 | NCS-302 | Discrete Structures And Graph Theory | L3 T1 P0 | CT 30 TA 20 Total 50 | ESE 100 | Subject Total 150 | Credit 4. 5 | NHU-301/NHU-302 | Industrial Psychology/Industrial Sociology | L2 T0 P0 | CT 15 TA 10 Total 25 | ESE 50 | Subject Total 75 | Credit 2. 6 | NCS-303 | Computer Based Numerical And Statistical Techniques | L2 T1 P0 | CT 15 TA 10 Total 25 | ESE 50 | Subject Total 75 | Credit 3. [no S.No. printed] | AUC-001/AUC-002 | Human Values & Professional Ethics/ Cyber Security | L2 T0 P0 | CT 15 TA 10 Total 25 | ESE 50 | Subject Total 75*. PRACTICAL/DESIGN/DRAWING: 7 | NEC 359 | Digital Logic Design Lab | L0 T0 P3 | CT 10 TA 10 Total 20 | ESE 30 | Subject Total 50 | Credit 1. 8 | NCS 351 | Data Structures Using C Lab | L0 T0 P3 | CT 10 TA 10 Total 20 | ESE 30 | Subject Total 50 | Credit 1. 9 | NCS 353 | Numerical Techniques Lab | L0 T0 P2 | CT 10 TA 10 Total 20 | ESE 30 | Subject Total 50 | Credit 1. 10 | NCS 355 | Advance Programming Lab | L0 T0 P2 | CT 10 TA 10 Total 20 | ESE 30 | Subject Total 50 | Credit 1. 11 | NGP 301 | GP | [no L-T-P printed] | [no sessional printed] | 50 | 50 | [no credit printed]. TOTAL | L 18 | T 5 | P 10 | 1000 | 25.",
+   "kind": "scheme_table_semester_III",
+   "print": "B.TECH INFORMATION TECHNOLOGY — STUDY & EVALUATION SCHEME — 2nd Year — SEMESTER III. Header: S. No. | Course Code | Subject | Periods L T P | Sessional Exam CT TA Total | ESE | Subject Total | Credit. Section 'THEORY SUBJECT' rows: 1 NAS-301/ NOE-031 to NOE-039 | Mathematics III/Science Based Open Elective | 3 1 0 | 30 20 50 | 100 | 150 | 4; 2 NEC-309 | Digital Logic Design | 3 1 0 | 30 20 50 | 100 | 150 | 4; 3 NCS-301 | Data Structures Using C | 3 1 0 | 30 20 50 | 100 | 150 | 4; 4 NCS-302 | Discrete Structures And Graph Theory | 3 1 0 | 30 20 50 | 100 | 150 | 4; 5 NHU-301/ NHU-302 | Industrial Psychology/ Industrial Sociology | 2 0 0 | 15 10 25 | 50 | 75 | 2; 6 NCS-303 | Computer Based Numerical And Statistical Techniques | 2 1 0 | 15 10 25 | 50 | 75 | 3; [unnumbered] AUC-001/ AUC-002 | Human Values & Professional Ethics/ Cyber Security | 2 0 0 | 15 10 25 | 50 | 75*. Section 'PRACTICAL/DESIGN/DRAWING' rows: 7 NEC 359 | Digital Logic Design Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1; 8 NCS 351 | Data Structures Using C Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1; 9 NCS 353 | Numerical Techniques Lab | 0 0 2 | 10 10 20 | 30 | 50 | 1; 10 NCS 355 | Advance Programming Lab | 0 0 2 | 10 10 20 | 30 | 50 | 1; 11 NGP 301 | GP | 50 | 50. TOTAL row: 18 5 10 | 1000 | 25.",
    "locator": "p.2"
   },
   {
-   "kind": "elective_pool",
-   "print": "Science Based Open Elective: NOE031 Introduction to Soft Computing (Neural Network, Fuzzy Logic and Genetic Algorithm [unclosed paren in print] | NOE032 Nano Sciences | NOE033 Laser Systems and Applications | NOE034 Space Sciences | NOE035 Polymer Science & Technology | NOE036 Nuclear Science | NOE037 Material Science | NOE038 Discrete Mathematics | NOE039 Applied Linear Algebra",
-   "locator": "p.2"
-  },
-  {
-   "kind": "note",
-   "print": "*Human values & Professional Ethics /Cyber Security will be offered as a compulsory audit course for which passing marks are 30% in End Semester Examination and 40% in aggregate.",
-   "locator": "p.2 (footnote to 75* of AUC row)"
-  },
-  {
-   "kind": "scheme_summary",
-   "print": "B.TECH INFORMATION TECHNOLOGY — STUDY & EVALUATION SCHEME — 2nd Year — SEMESTER IV. THEORY SUBJECT: 1 | NOE-041 to NOE-049/NAS-401 | Science Based Open Elective/Mathematics III | L3 T1 P0 | CT 30 TA 20 Total 50 | ESE 100 | Subject Total 150 | Credit 4. 2 | EHU-402/EHU -401 | Industrial Sociology/ Industrial Psychology | L2 T0 P0 | CT 15 TA 10 Total 25 | ESE 50 | Subject Total 75 | Credit 2. 3 | NEC-408 | Information Theory and Coding | L3 T1 P0 | CT 30 TA 20 Total 50 | ESE 100 | Subject Total 150 | Credit 4. 4 | NCS- 401 | Operating System | L3 T1 P0 | CT 30 TA 20 Total 50 | ESE 100 | Subject Total 150 | Credit 4. 5 | NCS- 402 | Theory Of Automata and Formal Launguage | L3 T1 P0 | CT 30 TA 20 Total 50 | ESE 100 | Subject Total 150 | Credit 4. 6 | NIT-401 | Multimedia and Animation | L2 T1 P0 | CT 15 TA 10 Total 25 | ESE 50 | Subject Total 75 | Credit 3. 7 | AUC-002/AUC-001 | Cyber Security / Human Values & Professional Ethics | L2 T0 P0 | CT 15 TA 10 Total 25 | ESE 50 | Subject Total 75*. PRACTICAL/DESIGN/DRAWING: 7 | NCS-451 | Operating System Lab | L0 T0 P3 | CT 10 TA 10 Total 20 | ESE 30 | Subject Total 50 | Credit 1. 8 | NIT-451 | Multimedia and Animation Lab | L0 T0 P3 | CT 10 TA 10 Total 20 | ESE 30 | Subject Total 50 | Credit 1. 9 | NCS-455 | Functional and Logic Programming Lab | L0 T0 P3 | CT 10 TA 10 Total 20 | ESE 30 | Subject Total 50 | Credit 1. 10 | NIT-456 | Colloquium | L0 T0 P3 | CT 10 TA 10 Total 20 | ESE 30 | Subject Total 50 | Credit 1. 11 | NGP-401 | GP | [no L-T-P printed] | [no sessional printed] | 50 | 50 | [no credit printed]. TOTAL | L 18 | T 5 | P 10 | 1000 | 25.",
+   "kind": "scheme_table_semester_IV",
+   "print": "B.TECH INFORMATION TECHNOLOGY — STUDY & EVALUATION SCHEME — 2nd Year — SEMESTER IV. Header: S. No. | Course Code | Subject | Periods L T P | Sessional Exam CT TA Total | ESE | Subject Total | Credit. Section 'THEORY SUBJECT' rows: 1 NOE-041 to NOE-049/ NAS-401 | Science Based Open Elective/ Mathematics III | 3 1 0 | 30 20 50 | 100 | 150 | 4; 2 EHU-402/ EHU -401 | Industrial Sociology/ Industrial Psychology | 2 0 0 | 15 10 25 | 50 | 75 | 2; 3 NEC-408 | Information Theory and Coding | 3 1 0 | 30 20 50 | 100 | 150 | 4; 4 NCS- 401 | Operating System | 3 1 0 | 30 20 50 | 100 | 150 | 4; 5 NCS- 402 | Theory Of Automata and Formal Launguage | 3 1 0 | 30 20 50 | 100 | 150 | 4; 6 NIT-401 | Multimedia and Animation | 2 1 0 | 15 10 25 | 50 | 75 | 3; 7 AUC-002/ AUC-001 | Cyber Security / Human Values & Professional Ethics | 2 0 0 | 15 10 25 | 50 | 75*. Section 'PRACTICAL/DESIGN/DRAWING' rows: 7 NCS-451 | Operating System Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1; 8 NIT-451 | Multimedia and Animation Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1; 9 NCS-455 | Functional and Logic Programming Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1; 10 NIT-456 | Colloquium | 0 0 3 | 10 10 20 | 30 | 50 | 1; 11 NGP-401 | GP | 50 | 50. TOTAL row: 18 5 10 | 1000 | 25.",
    "locator": "p.3"
   },
   {
    "kind": "elective_pool",
-   "print": "Science Based Open Elective: NOE-041 Introduction to Soft Computing (Neural Network, Fuzzy Logic and Genetic Algorithm [unclosed paren in print] | NOE-042 Nano Sciences | NOE-043 Laser Systems and Applications | NoE-044 Space Sciences [lowercase 'e' in print] | NOE-045 Polymer Science & Technology | NOE-046 Nuclear Science | NOE-047 Material Science | NOE-048 Discrete Mathematics | NOE-049 Applied Linear Algebra",
-   "locator": "p.3"
+   "print": "Science Based Open Elective: NOE031 Introduction to Soft Computing (Neural Network, Fuzzy Logic and Genetic Algorithm | NOE032 Nano Sciences | NOE033 Laser Systems and Applications | NOE034 Space Sciences | NOE035 Polymer Science & Technology | NOE036 Nuclear Science | NOE037 Material Science | NOE038 Discrete Mathematics | NOE039 Applied Linear Algebra (codes printed without dashes as 'NOE031' etc.; Soft Computing entry lacks its closing parenthesis in the print)",
+   "locator": "p.2 (below the scheme table)"
   },
   {
-   "kind": "note",
+   "kind": "elective_pool",
+   "print": "Science Based Open Elective: NOE-041 Introduction to Soft Computing (Neural Network, Fuzzy Logic and Genetic Algorithm | NOE-042 Nano Sciences | NOE-043 Laser Systems and Applications | NoE-044 Space Sciences | NOE-045 Polymer Science & Technology | NOE-046 Nuclear Science | NOE-047 Material Science | NOE-048 Discrete Mathematics | NOE-049 Applied Linear Algebra (case typo 'NoE-044' as printed)",
+   "locator": "p.3 (below the scheme table)"
+  },
+  {
+   "kind": "footnote",
    "print": "*Human values & Professional Ethics /Cyber Security will be offered as a compulsory audit course for which passing marks are 30% in End Semester Examination and 40% in aggregate.",
-   "locator": "p.3 (footnote to 75* of AUC row)"
+   "locator": "p.2 (footnote to the AUC-001/AUC-002 scheme row marked 75*)"
   },
   {
-   "kind": "scheme_row_no_detail",
-   "print": "NAS-301/NOE-031 to NOE-039 | Mathematics III/Science Based Open Elective | Sem III theory row 1 (L3 T1 P0, CT30 TA20 T50, ESE100, Total 150, Credit 4) — Mathematics III and the NOE open-elective pool are NOT detailed further in this PDF.",
-   "locator": "p.2 scheme row 1"
-  },
-  {
-   "kind": "scheme_row_no_detail",
-   "print": "NHU-301/NHU-302 | Industrial Psychology/Industrial Sociology | Sem III theory row 5 (L2 T0 P0, CT15 TA10 T25, ESE50, Total 75, Credit 2) — not detailed further in this PDF.",
-   "locator": "p.2 scheme row 5"
-  },
-  {
-   "kind": "scheme_row_no_detail",
-   "print": "AUC-001/AUC-002 | Human Values & Professional Ethics/ Cyber Security | Sem III theory row (no S.No. printed; 75* audit) — not detailed further in this PDF.",
-   "locator": "p.2 scheme row after 6"
-  },
-  {
-   "kind": "scheme_row_no_detail",
-   "print": "NGP 301 | GP | Sem III practical row 11 (only '50 | 50' printed) — not detailed further in this PDF.",
-   "locator": "p.2 scheme row 11"
-  },
-  {
-   "kind": "scheme_row_no_detail",
-   "print": "NOE-041 to NOE-049/NAS-401 | Science Based Open Elective/Mathematics III | Sem IV theory row 1 (L3 T1 P0, CT30 TA20 T50, ESE100, Total 150, Credit 4) — not detailed further in this PDF.",
-   "locator": "p.3 scheme row 1"
-  },
-  {
-   "kind": "scheme_row_no_detail",
-   "print": "EHU-402/EHU -401 | Industrial Sociology/ Industrial Psychology | Sem IV theory row 2 (L2 T0 P0, CT15 TA10 T25, ESE50, Total 75, Credit 2) — not detailed further in this PDF.",
-   "locator": "p.3 scheme row 2"
-  },
-  {
-   "kind": "scheme_row_no_detail",
-   "print": "AUC-002/AUC-001 | Cyber Security / Human Values & Professional Ethics | Sem IV theory row 7 (75* audit) — not detailed further in this PDF.",
-   "locator": "p.3 scheme row 7"
-  },
-  {
-   "kind": "scheme_row_no_detail",
-   "print": "NIT-456 | Colloquium | Sem IV practical row 10 (L0 T0 P3, CT10 TA10 T20, ESE30, Total 50, Credit 1) — listed in scheme only; NO detail page (units/experiments) printed for it in this PDF.",
-   "locator": "p.3 scheme row 10"
-  },
-  {
-   "kind": "scheme_row_no_detail",
-   "print": "NGP-401 | GP | Sem IV practical row 11 (only '50 | 50' printed) — not detailed further in this PDF.",
-   "locator": "p.3 scheme row 11"
+   "kind": "footnote",
+   "print": "*Human values & Professional Ethics /Cyber Security will be offered as a compulsory audit course for which passing marks are 30% in End Semester Examination and 40% in aggregate.",
+   "locator": "p.3 (footnote to the AUC-002/AUC-001 scheme row marked 75*)"
   }
  ],
  "quirks": [
-  "No course outcomes (COs), K-levels, eligibility, prerequisites, printed objectives (except NEC-359 lab 'Objective:' line), or per-unit lecture counts are printed anywhere in this document; omitted rather than invented.",
-  "Code spacing variants in print: Sem III practical codes print without hyphen ('NEC 359', 'NCS 351', 'NCS 353', 'NCS 355', 'NGP 301'); Sem IV theory codes print with stray space ('NCS- 401', 'NCS- 402', 'EHU -401'); detail headers print hyphenated forms.",
-  "Sem IV scheme table: theory section ends at S.No. 7 (AUC row) and the practical section RESTARTS numbering at 7 — duplicate printed S.No. 7 (rows 7-11 practical).",
-  "Sem III scheme table: the AUC-001/AUC-002 audit row prints NO S.No. at all.",
-  "Elective-pool code style differs between pages: p.2 prints 'NOE031'.. 'NOE039' (no hyphen); p.3 prints 'NOE-041'.. 'NOE-049' hyphenated, including 'NoE-044' with lowercase 'e'.",
-  "NOE-031/NOE-041 elective name prints an unclosed parenthesis: 'Introduction to Soft Computing (Neural Network, Fuzzy Logic and Genetic Algorithm'.",
-  "NCS-303 (Computer Based Numerical and Statistical Techniques) prints only Units I–IV; NIT-401 (Multimedia and Animation) prints only Units 1-4 — no Unit V in the print for either.",
-  "NCS-402 Unit-I print contains broken-word line wraps ('Transition tabl/e', 'Distinguis/hing' — joined for the unit text) and genuine in-line gaps ('transi ion', 'Equi valence', 'proper ties', 'Memership').",
-  "NCS-401 references list prints numbering 1,2,3,4,5 then '1.' again for the sixth book.",
-  "NCS-455 experiment list ends with a dangling empty 'o' bullet after query 'mother(anita,x)' — no text follows it in the print (possible dropped line in source).",
-  "Lab-note print variants: 'wherever he/shefeels' (missing space) for NCS-451 and NCS-455; 'wherever he/she feels' for NEC-359, NCS-351, NCS-353, NCS-355, NIT-451.",
-  "Name mismatches between scheme tables and detail headers: scheme 'Digital Logic Design Lab' vs detail 'LOGIC DESIGN LAB' (NEC-359); scheme 'Data Structures Using C Lab' vs detail 'DATA STRUCTURE USING C LAB' (NCS-351); scheme 'Theory Of Automata and Formal Launguage' (typo) vs detail 'THEORY OF AUTOMATA AND FORMAL LANGUAGES' (NCS-402).",
-  "Course print: cover prints 'B.TECH. INFORMATION TECHNOLOGY' (canonical course BTech); codes are N-era (NAS/NEC/NCS/NHU/NOE/AUC/EHU/NIT/NGP)."
+  "Course print: p.1 cover prints 'B.TECH. INFORMATION TECHNOLOGY' and pp.2-3 print 'B.TECH INFORMATION TECHNOLOGY' — course recorded as BTech (canonical per RULES §1b; branch = Information Technology); session print '(Effective from the Session: 2014-15)'",
+  "No course outcomes (COs), K-levels, lecture schedule, textbooks-vs-references split beyond 'References:'/'Reference:'/'Recommended Books:' labels, eligibility, prerequisites, or MOOC/NC rules are printed anywhere in this document — corresponding keys omitted everywhere (zero-guessing)",
+  "PyMuPDF text layer fragments the scheme tables (stacked code cells, interleaved numeric cells); rows were reconstructed and cross-checked with fitz word coordinates (get_text('words')) on pp.2-3; the visible print is authoritative (RULES §6)",
+  "Scheme tables print some codes with spacing variants: 'NEC 359', 'NCS 351', 'NCS 353', 'NCS 355' (space), 'NCS- 401', 'NCS- 402', 'EHU -401' (stray space after dash); codes recorded in drafts without spaces/dashes",
+  "p.3 scheme table prints S.No 7 twice (theory row 7 AUC-002/AUC-001 and practical row 7 NCS-451); on p.2 the AUC-001/AUC-002 row is printed without an S.No (between rows 6 and 7)",
+  "Audit-course rows print total '75*' on both pages — asterisk footnote (recorded as footnote non_subject_rows); Credit cell printed blank for both audit-course rows",
+  "Elective pool lists print codes without dashes on p.2 ('NOE031'..'NOE039') and with dashes on p.3 ('NOE-041'..'NOE-049') including the case typo 'NoE-044'; the Soft Computing entry lacks its closing parenthesis on both pages",
+  "Text-layer mid-word splits on p.9 (NCS-402: 'Transition tabl e', 'transi ion', 'Equi valence', 'Distinguis hing', 'proper ties') joined to the visible-print words; justified-print wide word-spacing normalized to single spaces; all printed typos kept verbatim (recorded per subject)",
+  "Lab lists end with the printed note 'The Instructor may add/delete/modify/tune experiments, wherever he/she feels in a justified manner.' — kept verbatim per lab; p.10 and p.11 print the typo 'he/shefeels'"
  ],
- "flags": [
-  "scheme_rows_without_detail: NAS-301/NOE-031..039, NHU-301/302, AUC-001/002, NGP-301, NOE-041..049/NAS-401, EHU-402/401, AUC-002/001, NIT-456 Colloquium, NGP-401 — recorded in non_subject_rows as scheme_row_no_detail (zero-GAP guard).",
-  "no_cos_printed: this 2014-15-era document prints no CO/K-level tables for any subject.",
-  "partial_units: NCS-303 (Units I-IV) and NIT-401 (Units 1-4) print no Unit V — captured verbatim, not padded."
- ]
+ "flags": []
 }

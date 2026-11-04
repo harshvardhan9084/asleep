@@ -4,7 +4,6 @@
  "course": "BTech",
  "sha16": "7901eb38c7e30d04",
  "stem": "08_btech_it_y4_syllabus_2021-22",
- "course_verification": "Cover (p.1, text layer column-scrambled) and p.2 print 'B.TECH IV YEAR (INFORMATION TECHNOLOGY /CSIT) CURRICULUM STRUCTURE', Semesters VII & VIII, session 2021-22, AS PER AICTE MODEL CURRICULUM -> canonical course BTech",
  "subjects": [
   {
    "name": "Artificial Intelligence",
@@ -13,13 +12,12 @@
     "KCS071"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-IV",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3‐0‐0 (printed with Unicode hyphen U+2010 on p.4); Semester-VII scheme row prints 3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -28,7 +26,6 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "INTRODUCTION : Introduction–Definition – Future of Artificial Intelligence – Characteristics of Intelligent Agents–Typical Intelligent Agents – Problem Solving Approach to Typical AI problems.",
     "2": "PROBLEM SOLVING METHODS: Problem solving Methods – Search Strategies- Uninformed – Informed – Heuristics – Local Search Algorithms and Optimization Problems – Searching with Partial Observations – Constraint Satisfaction Problems – Constraint Propagation – Backtracking Search – Game Playing – Optimal Decisions in Games – Alpha – Beta Pruning – Stochastic Games",
@@ -95,9 +92,10 @@
     }
    ],
    "quirks": [
-    "CO-5 prints 'Student should aware of...' (verb 'be' missing) — verbatim.",
-    "Detailed-syllabus L-T-P cell prints '3‐0‐0' with Unicode hyphen characters (U+2010) unlike the ASCII '3-0-0' of other subjects (p.4).",
-    "Section heading above the subject prints 'SEVENT SEMESTER (DETAILED SYLLABUS)' (typo for SEVENTH), p.4."
+    "CO 5 prints 'Student should aware of' [sic].",
+    "Book titles print double-quote glyphs as '‖'/'―' and run-ons like 'Inc.First' [sic].",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2); detailed syllabus prints 3-0-0, 08 lectures/unit.",
+    "DE-IV slot list p.3 prints name variant 'Artificial Intelligence'."
    ],
    "flags": []
   },
@@ -109,13 +107,12 @@
     "KC072"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-IV",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -124,13 +121,12 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "INTRODUCTION: Origins and challenges of NLP – Language Modeling: Grammar-based LM, Statistical LM – Regular Expressions, Finite-State Automata – English Morphology, Transducers for lexicon and rules, Tokenization, Detecting and Correcting Spelling Errors, Minimum Edit Distance WORD LEVEL ANALYSIS : Unsmoothed N-grams, Evaluating N-grams, Smoothing, Interpolation and Backoff – Word Classes, Part-of-Speech Tagging, Rule-based, Stochastic and Transformation-based tagging, Issues in PoS tagging – Hidden Markov and Maximum Entropy models.",
     "2": "SYNTACTIC ANALYSIS: Context Free Grammars, Grammar rules for English, Treebanks, Normal Forms for grammar – Dependency Grammar – Syntactic Parsing, Ambiguity, Dynamic Programming parsing – Shallow parsing – Probabilistic CFG, Probabilistic CYK, Probabilistic Lexicalized CFGs – Feature structures, Unification of feature structures.",
     "3": "SEMANTICS AND PRAGMATICS: Requirements for representation, First-Order Logic, Description Logics – Syntax-Driven Semantic analysis, Semantic attachments – Word Senses, Relations between Senses, Thematic Roles, selectional restrictions – Word Sense Disambiguation, WSD using Supervised, Dictionary & Thesaurus, Bootstrapping methods – Word Similarity using Thesaurus and Distributional methods.",
     "4": "BASIC CONCEPTS of Speech Processing : Speech Fundamentals: Articulatory Phonetics – Production And Classification Of Speech Sounds; Acoustic Phonetics – Acoustics Of Speech Production; Review Of Digital Signal Processing Concepts; Short-Time Fourier Transform, Filter-Bank And LPC Methods.",
-    "5": "SPEECH-ANALYSIS: Features, Feature Extraction And Pattern Comparison Techniques: Speech Distortion Measures– Mathematical And Perceptual – Log–Spectral Distance, Cepstral Distances, Weighted Cepstral Distances And Filtering, Likelihood Distortions, Spectral Distortion Using A Warped Frequency Scale, LPC, PLP And MFCC Coefficients, Time Alignment And Normalization – Dynamic Time Warping, Multiple Time – Alignment Paths.  SPEECH MODELING : Hidden Markov Models: Markov Processes, HMMs – Evaluation, Optimal State Sequence – Viterbi Search, Baum-Welch Parameter Re-Estimation, Implementation Issues."
+    "5": "SPEECH-ANALYSIS: Features, Feature Extraction And Pattern Comparison Techniques: Speech Distortion Measures– Mathematical And Perceptual – Log–Spectral Distance, Cepstral Distances, Weighted Cepstral Distances And Filtering, Likelihood Distortions, Spectral Distortion Using A Warped Frequency Scale, LPC, PLP And MFCC Coefficients, Time Alignment And Normalization – Dynamic Time Warping, Multiple Time – Alignment Paths. SPEECH MODELING : Hidden Markov Models: Markov Processes, HMMs – Evaluation, Optimal State Sequence – Viterbi Search, Baum-Welch Parameter Re-Estimation, Implementation Issues."
    },
    "lectures_per_unit": 8,
    "cos": [
@@ -199,8 +195,9 @@
     }
    ],
    "quirks": [
-    "Subject heading on p.5 prints the code as 'KC072' (S missing); the Departmental Elective-IV pool list on p.3 prints 'KCS072' — both recorded in codes.",
-    "Unit V '08' lecture cell prints detached at the bottom of p.5 (text layer places it after the unit text block); lecture count 08 per unit verified."
+    "Detailed-syllabus heading prints '(KC072)' — 'S' missing from the code; p.3 Departmental Elective-IV list prints 'KCS072'. Primary code taken as KCS072 from the printed list.",
+    "CO 3 prints '...semantics of sentences and pragmatic' [sic, no noun].",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2)."
    ],
    "flags": []
   },
@@ -211,13 +208,12 @@
     "KCS073"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-IV",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -226,11 +222,10 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "Overview of Grid Computing Technology, History of Grid Computing, High Performance Computing, Cluster Computing. Peer-to-Peer Computing, Internet Computing, Grid Computing Model and Protocols, Types of Grids: Desktop Grids, Cluster Grids, Data Grids, High-Performance Grids, Applications and Architectures of High Performance Grids, High Performance Application Development Environment.",
     "2": "Open Grid Services Architecture: Introduction, Requirements, Capabilities, Security Considerations, GLOBUS Toolkit",
-    "3": "Overview of Cluster Computing: Cluster Computer and its Architecture, Clusters Classifications, Components for Clusters, Cluster Middleware and SSI, Resource Management and Scheduling, Programming, Environments and Tools, Cluster Applications, Cluster Systems, ",
+    "3": "Overview of Cluster Computing: Cluster Computer and its Architecture, Clusters Classifications, Components for Clusters, Cluster Middleware and SSI, Resource Management and Scheduling, Programming, Environments and Tools, Cluster Applications, Cluster Systems,",
     "4": "Beowulf Cluster: The Beowulf Model, Application Domains, Beowulf System Architecture, Software Practices, Parallel Programming with MPL, Parallel Virtual Machine (PVM).",
     "5": "Overview of Cloud Computing: Types of Cloud, Cyber infrastructure, Service Oriented Architecture Cloud Computing Components: Infrastructure, Storage, Platform, Application, Services, Clients, Cloud Computing Architecture."
    },
@@ -285,9 +280,10 @@
     }
    ],
    "quirks": [
-    "Units print no topic headers (body text only), unlike most subjects in this document.",
-    "Unit 1 prints 'High-Performance' split across lines after 'High-' (hyphen line-break join); unit 3 ends with a trailing comma before the lecture cell — verbatim.",
-    "Text book 4 prints author as 'lan Foster' (typo, likely Ian) and book 5 prints 'RajkumarBuyya.' and 'PrenticeHall' unspaced — verbatim."
+    "Unit III ends with a trailing comma as printed ('Cluster Systems,').",
+    "Unit IV prints 'Parallel Programming with MPL' [sic, likely MPI].",
+    "Text books print 'lan Foster' [sic], 'RajkumarBuyya' and 'PrenticeHall' run-ons.",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2)."
    ],
    "flags": []
   },
@@ -298,13 +294,12 @@
     "KCS074"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-IV",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -313,11 +308,10 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "Introduction to security attacks, services and mechanism, Classical encryption techniques-substitution ciphers and transposition ciphers, cryptanalysis, steganography, Stream and block ciphers. Modern Block Ciphers: Block ciphers principles, Shannon’s theory of confusion and diffusion, fiestal structure, Data encryption standard(DES), Strength of DES, Idea of differential cryptanalysis, block cipher modes of operations, Triple DES",
     "2": "Introduction to group, field, finite field of the form GF(p), modular arithmetic, prime and relative prime numbers, Extended Euclidean Algorithm, Advanced Encryption Standard (AES) encryption and decryptionFermat’s and Euler’s theorem, Primarily testing, Chinese Remainder theorem, Discrete Logarithmic Problem,Principals of public key crypto systems, RSA algorithm, security of RSA",
-    "3": "Message Authentication Codes: Authentication requirements, authentication functions, message authentication code, hash functions, birthday attacks, security of hash functions, Secure hash algorithm (SHA) Digital Signatures: Digital Signatures, Elgamal Digital Signature Techniques, Digital signature standards (DSS), proof of digital signature algorithm, ",
+    "3": "Message Authentication Codes: Authentication requirements, authentication functions, message authentication code, hash functions, birthday attacks, security of hash functions, Secure hash algorithm (SHA) Digital Signatures: Digital Signatures, Elgamal Digital Signature Techniques, Digital signature standards (DSS), proof of digital signature algorithm,",
     "4": "Key Management and distribution: Symmetric key distribution, Diffie-Hellman Key Exchange, Public key distribution, X.509 Certificates, Public key Infrastructure. Authentication Applications: Kerberos, Electronic mail security: pretty good privacy (PGP), S/MIME.",
     "5": "IP Security: Architecture, Authentication header, Encapsulating security payloads, combining security associations, key management. Introduction to Secure Socket Layer, Secure electronic, transaction (SET) System Security: Introductory idea of Intrusion, Intrusion detection, Viruses and related threats, firewalls"
    },
@@ -376,9 +370,9 @@
     }
    ],
    "quirks": [
-    "Printed typos kept verbatim: 'fiestal structure' (unit 1), 'decryptionFermat’s' (unspaced, unit 2), 'Problem,Principals' (unspaced, unit 2), 'Primarily testing' (unit 2).",
-    "Unit 3 ends with a trailing comma before the lecture cell — verbatim.",
-    "Text books print 'Principals and Practice' (book 1), 'Frouzan' (book 2), 'T.R.Padmnabhan' (book 3), 'Bruce Schiener' (book 4), 'AtulKahate' unspaced (book 6) — verbatim."
+    "Unit I prints 'fiestal structure' [sic]; Unit II prints run-ons 'decryptionFermat’s', 'Problem,Principals' and 'Primarily testing' [sic].",
+    "Text books print 'Bruce Schiener' [sic] and 'AtulKahate' run-on.",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2); DE-IV list p.3 prints name variant 'Cryptography and Network Security'."
    ],
    "flags": []
   },
@@ -389,13 +383,12 @@
     "KCS075"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-IV",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -404,7 +397,6 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "INTRODUCTION: Introduction to mobile applications – Embedded systems - Market and business drivers for mobile applications – Publishing and delivery of mobile applications – Requirements gathering and validation for mobile applications",
     "2": "BASIC DESIGN: Introduction – Basics of embedded systems design – Embedded OS - Design constraints for mobile applications, both hardware and software related – Architecting mobile applications – User interfaces for mobile applications – touch events and gestures – Achieving quality constraints – performance, usability, security, availability and modifiability",
@@ -459,13 +451,13 @@
     },
     {
      "no": 5,
-     "book": " David Mark, Jack Nutting, Jeff LaMarche and Frederic Olsson, “Beginning iOS 6. Development: Exploring the iOS SDK”, Apress, 2013."
+     "book": "David Mark, Jack Nutting, Jeff LaMarche and Frederic Olsson, “Beginning iOS 6. Development: Exploring the iOS SDK”, Apress, 2013."
     }
    ],
    "quirks": [
-    "Text book 5 line-wrap places '6.' in the list-number column: printed as '...“Beginning iOS' end-of-line then '6. Development: Exploring the iOS SDK”, Apress, 2013.' — title is printed broken across the number column (p.9); transcribed in reading order.",
-    "Text book 2 prints 'AnubhavPradhan' unspaced and 'Composing Mobile Apps,Learn ,explore,apply' without quotes — verbatim.",
-    "Unit 5 header prints 'TECHNOLOGY II –iOS' (no space before iOS) — verbatim."
+    "Text book 2 prints 'AnubhavPradhan , Anil V Despande Composing Mobile Apps,Learn ,explore,apply' (no year) [sic].",
+    "Text book 5 title line-wraps as 'Beginning iOS / 6. Development: Exploring the iOS SDK' — transcribed 'Beginning iOS 6. Development: Exploring the iOS SDK'.",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2); DE-IV list p.3 prints name variant 'Design & Development of Applications'."
    ],
    "flags": []
   },
@@ -476,13 +468,12 @@
     "KCS076"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-IV",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -491,7 +482,6 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "Review of Software Engineering: Overview of Software Evolution, SDLC, Testing Process, Terminologies in Testing: Error, Fault, Failure, Verification, Validation, Difference Between Verification and Validation, Test Cases, Testing Suite, Test ,Oracles, Impracticality of Testing All Data; Impracticality of Testing AllPaths. Verification: Verification Methods, SRS Verification, Source Code Reviews, User Documentation Verification, Software, Project Audit, Tailoring Software Quality Assurance Program by Reviews, Walkthrough, Inspection and Configuration Audits",
     "2": "Functional Testing: Boundary Value Analysis, Equivalence Class Testing, Decision Table Based Testing, Cause Effect Graphing Technique. Structural Testing: Control Flow Testing, Path Testing, Independent Paths, Generation of Graph from Program, Identification of Independent Paths, Cyclomatic Complexity, Data Flow Testing, Mutation Testing",
@@ -554,9 +544,9 @@
     }
    ],
    "quirks": [
-    "Unit 1 prints 'Test ,Oracles' (misplaced comma), 'AllPaths' unspaced, and 'Software, Project Audit' — verbatim.",
-    "Text book 2 prints 'K..K. Aggarwal' (doubled period) and book 3 'New Delhi,2001' unspaced — verbatim.",
-    "Text books 5 and 6 print on one wrapped line ('...Khanna Publishing House 6. Boris Beizer...'); numbered 5 and 6 per the printed list numbers (p.10)."
+    "Unit I prints 'Test ,Oracles' and 'AllPaths' run-on [sic].",
+    "Text book 2 prints 'K..K. Aggarwal' [sic]; items 5 and 6 printed on one line in the PDF.",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2)."
    ],
    "flags": []
   },
@@ -567,13 +557,12 @@
     "KCS077"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-IV",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -582,7 +571,6 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "Characterization of Distributed Systems: Introduction, Examples of distributed Systems, Resource sharing and the Web Challenges. Architectural models, Fundamental Models. Theoretical Foundation for Distributed System: Limitation of Distributed system, absence of global clock, shared memory, Logical clocks ,Lamport’s & vectors logical clocks. Concepts in Message Passing Systems: causal order, total order, total causal order, Techniques for Message Ordering, Causal ordering of messages, global state, termination detection.",
     "2": "Distributed Mutual Exclusion: Classification of distributed mutual exclusion, requirement of mutual exclusion theorem, Token based and non token based algorithms, performance metric for distributed mutual exclusion algorithms. Distributed Deadlock Detection: system model, resource Vs communication deadlocks, deadlock prevention, avoidance, detection & resolution, centralized dead lock detection, distributed dead lock detection, path pushing algorithms, edge chasing algorithms.",
@@ -641,9 +629,10 @@
     }
    ],
    "quirks": [
-    "Unit 1 prints 'clocks ,Lamport’s' (space before comma) — verbatim.",
-    "Text book 4 line ends '...Pearson Education 5.' with the next list number '5.' printed inline at end of the book-4 line; book 5 prints 'Tenanuanbaum' (typo, likely Tanenbaum) — verbatim (p.11).",
-    "Text book 2 prints 'Ramakrishna,Gehrke,”' unspaced — verbatim."
+    "Heading prints subject name in all caps 'DISTRIBUTED SYSTEM'; DE-IV list p.3 prints 'Distributed Systems'.",
+    "Unit I prints 'clocks ,Lamport’s' spacing [sic].",
+    "Text book items 4 and 5 printed on one line ('...Pearson Education 5.') in the PDF; item 5 prints 'Tenanuanbaum' [sic].",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2)."
    ],
    "flags": []
   },
@@ -654,13 +643,12 @@
     "KCS078"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-V",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -669,13 +657,12 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "INTRODUCTION : Introduction to machine learning- Linear models (SVMs and Perceptrons, logistic regression)- Intro to Neural Nets: What a shallow network computes- Training a network: loss functions, back propagation and stochastic gradient descent- Neural networks as universal function approximates",
-    "2": "DEEP NETWORKS : History of Deep Learning- A Probabilistic Theory of Deep Learning-Backpropagation and regularization, batch normalization- VC Dimension and Neural Nets-Deep Vs Shallow Networks-Convolutional Networks- Generative Adversarial Networks (GAN), Semi-supervised Learning",
+    "2": "DEEP NETWORKS : History of Deep Learning- A Probabilistic Theory of Deep Learning- Backpropagation and regularization, batch normalization- VC Dimension and Neural Nets-Deep Vs Shallow Networks-Convolutional Networks- Generative Adversarial Networks (GAN), Semi-supervised Learning",
     "3": "DIMENTIONALITY REDUCTION 9 Linear (PCA, LDA) and manifolds, metric learning - Auto encoders and dimensionality reduction in networks - Introduction to Convnet - Architectures – AlexNet, VGG, Inception, ResNet - Training a Convnet: weights initialization, batch normalization, hyper parameter optimization",
     "4": "OPTIMIZATION AND GENERALIZATION : Optimization in deep learning– Non-convex optimization for deep networks- Stochastic Optimization Generalization in neural networks- Spatial Transformer Networks- Recurrent networks, LSTM - Recurrent Neural Network Language Models- Word-Level RNNs & Deep Reinforcement Learning - Computational & Artificial Neuroscience",
-    "5": "CASE STUDY AND APPLICATIONS : Image net- Detection-Audio Wave Net-Natural Language Processing Word2Vec - Joint Detection-Bioinformatics- Face Recognition- Scene Understanding-Gathering Image Captions"
+    "5": "CASE STUDY AND APPLICATIONS : Image net- Detection-Audio Wave Net-Natural Language Processing Word2Vec - Joint Detection-Bioinformatics- Face Recognition- Scene Understanding- Gathering Image Captions"
    },
    "lectures_per_unit": 8,
    "cos": [
@@ -724,10 +711,10 @@
     }
    ],
    "quirks": [
-    "Unit 3 header prints 'DIMENTIONALITY REDUCTION 9 Linear (PCA, LDA)' — stray printed '9' after 'REDUCTION' and 'DIMENTIONALITY' typo — verbatim (p.12).",
-    "Unit 4 prints 'deep learning– Non-convex' (no space before en-dash) — verbatim.",
-    "p.12 prints 'Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc18_cs41/preview' after Text books — recorded here as printed.",
-    "CO-5 KL prints 'K3, K6' — verbatim."
+    "Unit III prints 'DIMENTIONALITY REDUCTION 9 Linear (PCA, LDA)' [sic].",
+    "CO 5 K-level printed 'K3, K6'.",
+    "After text books the PDF prints 'Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc18_cs41/preview' (recorded also as non_subject_row).",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2)."
    ],
    "flags": []
   },
@@ -739,13 +726,12 @@
     "KSC079"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-V",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -754,13 +740,12 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
-    "1": "Introduction: SOA and MSA Basics: Service Orientation in Daily Life, Evolution of SOA and MSA. Service oriented Architecture and Microservices architecture – Drivers for SOA, Dimensions of SOA, Conceptual Model of SOA, Standards and Guidelines for SOA, Emergence of MSA.  Enterprise-Wide SOA: Considerations for Enterprise-wide SOA, Strawman Architecture for Enterprise-wide SOA, Enterprise SOA Reference Architecture, Object-oriented Analysis and Design (OOAD) Process, Service-oriented Analysis and Design (SOAD) Process, SOA Methodology for Enterprise",
-    "2": "Service-Oriented Applications: Considerations for Service-oriented Applications, Patterns for SOA, Pattern-based Architecture for Service-oriented Applications, Composite Applications, Composite Application Programming Model.  Service-Oriented Analysis and Design: Need for Models, Principles of Service Design, Nonfunctional Properties for Services, Design of Activity Services (or Business Services), Design of Data Services, Design of Client Services, Design of Business Process Services.",
-    "3": "Technologies for SOA: Technologies for Service Enablement, Technologies for Service Integration, Technologies for Service Orchestration.  SOA Governance and Implementation: Strategic Architecture Governance, Service Design-time Governance, Service Run-time Governance, Approach for Enterprise-wide SOA Implementation.",
-    "4": "Big Data and SOA: Concepts, Big Data and its characteristics, Technologies for Big Data, Service-orientation for Big Data Solutions.  Business Case for SOA: Stakeholder Objectives, Benefits of SOA, Cost Savings, Return on Investment (ROI), Build a Case for SOA",
-    "5": "SOA Best Practices: SOA Strategy – Best Practices, SOA Development – Best Practices, SOA Governance – Best Practices.  EA and SOA for Business and IT Alignment: Enterprise Architecture, Need for Business and It Alignment, EA and SOA for Business and It Alignment"
+    "1": "Introduction: SOA and MSA Basics: Service Orientation in Daily Life, Evolution of SOA and MSA. Service oriented Architecture and Microservices architecture – Drivers for SOA, Dimensions of SOA, Conceptual Model of SOA, Standards and Guidelines for SOA, Emergence of MSA. Enterprise-Wide SOA: Considerations for Enterprise-wide SOA, Strawman Architecture for Enterprise-wide SOA, Enterprise SOA Reference Architecture, Object-oriented Analysis and Design (OOAD) Process, Service-oriented Analysis and Design (SOAD) Process, SOA Methodology for Enterprise",
+    "2": "Service-Oriented Applications: Considerations for Service-oriented Applications, Patterns for SOA, Pattern-based Architecture for Service-oriented Applications, Composite Applications, Composite Application Programming Model. Service-Oriented Analysis and Design: Need for Models, Principles of Service Design, Nonfunctional Properties for Services, Design of Activity Services (or Business Services), Design of Data Services, Design of Client Services, Design of Business Process Services.",
+    "3": "Technologies for SOA: Technologies for Service Enablement, Technologies for Service Integration, Technologies for Service Orchestration. SOA Governance and Implementation: Strategic Architecture Governance, Service Design-time Governance, Service Run-time Governance, Approach for Enterprise-wide SOA Implementation.",
+    "4": "Big Data and SOA: Concepts, Big Data and its characteristics, Technologies for Big Data, Service-orientation for Big Data Solutions. Business Case for SOA: Stakeholder Objectives, Benefits of SOA, Cost Savings, Return on Investment (ROI), Build a Case for SOA",
+    "5": "SOA Best Practices: SOA Strategy – Best Practices, SOA Development – Best Practices, SOA Governance – Best Practices. EA and SOA for Business and IT Alignment: Enterprise Architecture, Need for Business and It Alignment, EA and SOA for Business and It Alignment"
    },
    "lectures_per_unit": 8,
    "cos": [
@@ -809,7 +794,9 @@
     }
    ],
    "quirks": [
-    "Subject heading on p.13 prints the code as 'KSC079' (transposed); the Departmental Elective-V pool list on p.3 prints 'KCS079' — both recorded in codes."
+    "Detailed-syllabus heading prints '(KSC079)' (transposed code); p.3 Departmental Elective-V list prints 'KCS079'. Primary code taken as KCS079 from the printed list.",
+    "Unit V prints 'Need for Business and It Alignment, EA and SOA for Business and It Alignment' ['It' capitalized as printed].",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2)."
    ],
    "flags": []
   },
@@ -820,13 +807,12 @@
     "KCS710"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-V",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -835,7 +821,6 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "Fundamental Concepts: Global Perspectives, Quantum Bits, Quantum Computation, Quantum Algorithms, Quantum Information, Postulates of Quantum Mechanisms.",
     "2": "Quantum Computation:  Quantum Circuits – Quantum algorithms, Single Orbit operations, Control Operations, Measurement, Universal Quantum Gates, Simulation of Quantum Systems, Quantum Fourier transform, Phase estimation, Applications, Quantum search algorithms – Quantum counting – Speeding up the solution of NP – complete problems – Quantum Search for an unstructured database.",
@@ -890,9 +875,10 @@
     }
    ],
    "quirks": [
-    "Text-book list prints numbers 1, 2, 3 then 5 (no book numbered 4); the '5.' is printed inline at the end of the book-3 line ('...N. DavidMermin 5.') — verbatim (p.14).",
-    "Text book 1 prints 'Micheal A. Nielsen. &Issac L. Chiang' and 'Fint South Asian edition' — verbatim typos.",
-    "Unit 5 ends '...as a physical resource .' (space before period) — verbatim."
+    "CO 5 K-level printed 'K3, K6'.",
+    "Text book list prints no item 4: the '5.' marker is printed at the end of item 3's line ('...N. DavidMermin 5.') and item 5 continues on the next line; recorded here as items 3 and 5 with item 4 absent from print.",
+    "Text book 1 prints 'Micheal', '&Issac' and 'Fint South Asian edition' [sic].",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2)."
    ],
    "flags": []
   },
@@ -903,13 +889,12 @@
     "KCS711"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-V",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 1,
     "p": 0
    },
-   "ltp_print": "3-1-0 (subject's own DETAILED SYLLABUS header, p.15); Semester-VII scheme table elective row prints 3-0-0 (p.2)",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -918,10 +903,9 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
-    "1": " Introduction, issues in mobile computing, overview of wireless telephony: cellular concept, GSM: air-interface, channel structure, location management: HLR-VLR, hierarchical, handoffs, channel allocation in cellular systems, CDMA, GPRS.",
-    "2": " Wireless Networking, Wireless LAN Overview: MAC issues, IEEE 802.11, Blue Tooth, Wireless multiple access protocols, TCP over wireless, Wireless applications, data broadcasting, Mobile IP, WAP: Architecture, protocol stack, application environment, applications.",
+    "1": "Introduction, issues in mobile computing, overview of wireless telephony: cellular concept, GSM: air-interface, channel structure, location management: HLR-VLR, hierarchical, handoffs, channel allocation in cellular systems, CDMA, GPRS.",
+    "2": "Wireless Networking, Wireless LAN Overview: MAC issues, IEEE 802.11, Blue Tooth, Wireless multiple access protocols, TCP over wireless, Wireless applications, data broadcasting, Mobile IP, WAP: Architecture, protocol stack, application environment, applications.",
     "3": "Data management issues, data replication for mobile computers, adaptive clustering for mobile wireless networks, File system, Disconnected operations.",
     "4": "Mobile Agents computing, security and fault tolerance, transaction processing in mobile computing environment.",
     "5": "Ad Hoc networks, localization, MAC issues, Routing protocols, global state routing (GSR), Destination sequenced distance vector routing (DSDV), Dynamic source routing (DSR), Ad Hoc on demand distance vector routing (AODV), Temporary ordered routing algorithm (TORA), QoS in Ad Hoc Networks, applications."
@@ -977,8 +961,8 @@
     }
    ],
    "quirks": [
-    "L-T-P discrepancy: subject's own detailed-syllabus header prints '3-1-0' (p.15) while the Semester-VII scheme table rows for the elective slots print '3 0 0' (p.2); credit 3 is printed only in the scheme table (no credit printed in the detailed syllabus).",
-    "Units 1 and 2 begin with a leading space in the print — verbatim."
+    "DETAILED SYLLABUS prints L-T-P '3-1-0' while the printed Sem-VII KCS07X slot row (p.2) prints 3-0-0 / Credit 3; credit recorded from the printed slot row.",
+    "CO 5 prints 'using Adhoc networks' [sic]."
    ],
    "flags": []
   },
@@ -989,13 +973,12 @@
     "KCS712"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-V",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 1,
     "p": 0
    },
-   "ltp_print": "3-1-0 (subject's own DETAILED SYLLABUS header, p.16); Semester-VII scheme table elective row prints 3-0-0 (p.2)",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -1004,7 +987,6 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "Internet of Things (IoT): Vision, Definition, Conceptual Framework, Architectural view, technology behind IoT, Sources of the IoT, M2M Communication, IoT Examples. Design Principles for Connected Devices: IoT/M2M systems layers and design standardization, communication technologies, data enrichment and consolidation, ease of designing and affordability",
     "2": "Hardware for IoT: Sensors, Digital sensors, actuators, radio frequency identification (RFID) technology, wireless sensor networks, participatory sensing technology. Embedded Platforms for IoT: Embedded computing basics, Overview of IOT supported Hardware platforms such as Arduino, NetArduino, Raspberry pi, Beagle Bone, Intel Galileo boards and ARM cortex.",
@@ -1067,11 +1049,10 @@
     }
    ],
    "quirks": [
-    "CO-5 row label prints 'CP 5' instead of 'CO 5' (p.16) — verbatim.",
-    "'Ardunio' typo printed repeatedly (CO-4, unit 4 'Programming the Ardunio', 'NetArduino' in unit 2) — verbatim.",
-    "CO-1 KL prints 'K1,K2' without space — verbatim.",
-    "L-T-P discrepancy: subject's own detailed-syllabus header prints '3-1-0' (p.16) while the Semester-VII scheme table elective rows print '3 0 0' (p.2); credit 3 is printed only in the scheme table.",
-    "Text book 1 prints 'Olivier Hersent,David Boswarthick' unspaced and publisher 'wiley' lowercase; book 5 'ArshdeepBahga' unspaced, 'publications,2014' unspaced; book 6 'McEwen,Hakin' unspaced — verbatim."
+    "CO table prints the fifth outcome row label as 'CP 5' [sic] (for CO 5).",
+    "Units IV and CO 4 repeatedly print 'Ardunio'/'ardunio' [sic].",
+    "DETAILED SYLLABUS prints L-T-P '3-1-0' while the printed Sem-VII KCS07X slot row (p.2) prints 3-0-0 / Credit 3; credit recorded from the printed slot row.",
+    "Text books print run-ons 'Olivier Hersent,David Boswarthick', 'ArshdeepBahga', 'Adrian McEwen,Hakin Cassimally' [sic]."
    ],
    "flags": []
   },
@@ -1082,13 +1063,12 @@
     "KCS713"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-V",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 1,
     "p": 0
    },
-   "ltp_print": "3-1-0 (subject's own DETAILED SYLLABUS header, p.17); Semester-VII scheme table elective row prints 3-0-0 (p.2)",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -1097,7 +1077,6 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "Introduction To Cloud Computing: Definition of Cloud – Evolution of Cloud Computing – Underlying Principles of Parallel and Distributed Computing – Cloud Characteristics – Elasticity in Cloud – On-demand Provisioning.",
     "2": "Cloud Enabling Technologies Service Oriented Architecture: REST and Systems of Systems – Web Services – Publish, Subscribe Model – Basics of Virtualization – Types of Virtualization – Implementation Levels of Virtualization – Virtualization Structures – Tools and Mechanisms – Virtualization of CPU – Memory – I/O Devices –Virtualization Support and Disaster Recovery.",
@@ -1156,10 +1135,9 @@
     }
    ],
    "quirks": [
-    "Unit 3 prints 'laaS' (lowercase L, for IaaS) — verbatim.",
-    "Unit 5 prints 'Hadoop:  MapReduce – Virtual Box — Google App Engine ... Engine –– Open Stack' with double spaces/em-dashes as printed — verbatim.",
-    "L-T-P discrepancy: subject's own detailed-syllabus header prints '3-1-0' (p.17) while the Semester-VII scheme table elective rows print '3 0 0' (p.2); credit 3 is printed only in the scheme table.",
-    "Text book 4 prints '“Cloud Computing – A Practical Approach, Tata Mcgraw Hill, 2009.' with unbalanced opening quote — verbatim."
+    "CO 5 K-level printed 'K3, K6'.",
+    "Unit III prints 'laaS' [sic, lowercase-L for IaaS]; Unit V prints doubled dashes '——'/'––' as printed.",
+    "DETAILED SYLLABUS prints L-T-P '3-1-0' while the printed Sem-VII KCS07X slot row (p.2) prints 3-0-0 / Credit 3; credit recorded from the printed slot row."
    ],
    "flags": []
   },
@@ -1170,13 +1148,12 @@
     "KIT071"
    ],
    "semester": 7,
-   "elective_slot_print": "Departmental Elective-V",
+   "subject_type": "departmental-elective",
    "ltp": {
     "l": 3,
     "t": 0,
     "p": 0
    },
-   "ltp_print": "3-0-0",
    "credit": 3,
    "marks": {
     "sessional_ct": 30,
@@ -1185,11 +1162,10 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "departmental-elective",
    "units": {
     "1": "Introduction and Software Project Planning: Fundamentals of Software Project Management (SPM), Need Identification, Vision and Scope document, Project Management Cycle, SPM Objectives, Management Spectrum, SPM Framework, Software Project Planning, Planning Objectives, Project Plan, Types of project plan, Structure of a Software Project Management Plan, Software project estimation, Estimation methods, Estimation models, Decision process.",
-    "2": "Project Organization and Scheduling :Project Elements, Work Breakdown Structure (WBS), Types of WBS, Functions, Activities and Tasks, Project Life Cycle and Product Life Cycle, Ways to Organize Personnel, Project schedule, Scheduling Objectives, Building the project schedule, Scheduling terminology and techniques,  Network Diagrams: PERT, CPM, Bar Charts: Milestone Charts, Gantt Charts.",
-    "3": "Project Monitoring and Control: Dimensions of Project Monitoring & Control, Earned Value Analysis, Earned Value Indicators: Budgeted Cost for Work Scheduled (BCWS), Cost Variance (CV), Schedule Variance (SV), Cost Performance Index (CPI), Schedule Performance Index (SPI), Interpretation of Earned Value Indicators, Error Tracking, Software Reviews,  Types of Review: Inspections, Deskchecks, Walkthroughs, Code Reviews, Pair Programming.",
+    "2": "Project Organization and Scheduling :Project Elements, Work Breakdown Structure (WBS), Types of WBS, Functions, Activities and Tasks, Project Life Cycle and Product Life Cycle, Ways to Organize Personnel, Project schedule, Scheduling Objectives, Building the project schedule, Scheduling terminology and techniques, Network Diagrams: PERT, CPM, Bar Charts: Milestone Charts, Gantt Charts.",
+    "3": "Project Monitoring and Control: Dimensions of Project Monitoring & Control, Earned Value Analysis, Earned Value Indicators: Budgeted Cost for Work Scheduled (BCWS), Cost Variance (CV), Schedule Variance (SV), Cost Performance Index (CPI), Schedule Performance Index (SPI), Interpretation of Earned Value Indicators, Error Tracking, Software Reviews, Types of Review: Inspections, Deskchecks, Walkthroughs, Code Reviews, Pair Programming.",
     "4": "Software Quality Assurance and Testing : Testing Objectives, Testing Principles, Test Plans, Test Cases, Types of Testing, Levels of Testing, Test Strategies, Program Correctness, Program Verification & validation, Testing Automation & Testing Tools, Concept of Software Quality, Software Quality Attributes, Software Quality Metrics and Indicators, The SEI Capability Maturity Model CMM), SQA Activities, Formal SQA Approaches: Proof of correctness, Statistical quality assurance, Cleanroom process.",
     "5": "Project Management and Project Management Tools: Software Configuration Management: Software Configuration Items and tasks, Baselines, Plan for Change, Change Control, Change Requests Management, Version Control, Risk Management: Risks and risk types, Risk Breakdown Structure (RBS), Risk Management Process: Risk identification, Risk analysis, Risk planning, Risk monitoring, Cost Benefit Analysis. Software Project Management Tools: CASE Tools, Planning and Scheduling Tools, MS-Project."
    },
@@ -1248,12 +1224,41 @@
     }
    ],
    "quirks": [
-    "Unit 2 prints 'Scheduling :Project' (no space after colon) — verbatim; unit 3 prints 'Software Reviews,  Types of Review' (trailing comma) — verbatim.",
-    "Unit 4 prints 'The SEI Capability Maturity Model CMM)' (missing opening parenthesis) — verbatim.",
-    "Text book 5 prints 'Project Mangment' (typo) — verbatim.",
-    "Subject name printed in ALL CAPS in the heading — verbatim name_print retained."
+    "Heading prints subject name in all caps 'SOFTWARE PROJECT MANAGEMENT'; DE-V list p.3 prints 'Software Project Management'.",
+    "Unit II prints 'Scheduling :Project' spacing [sic]; Unit IV prints 'The SEI Capability Maturity Model CMM)' [sic, missing open paren].",
+    "Text book 5 prints 'Project Mangment' [sic].",
+    "L-T-P/credit/marks from printed Sem-VII KCS07X slot row (p.2)."
    ],
    "flags": []
+  },
+  {
+   "name": "The Department may conduct one Lab of either of the two Electives (4 or 5) based on the elective chosen for the curriculum. The Department shall on its own prepare complete list of practical for the Lab and arrange for proper setup and conduct accordingly.",
+   "name_print": "The Department may conduct one Lab of either of the two Electives (4 or 5) based on the elective chosen for the curriculum. The Department shall on its own prepare complete list of practical for the Lab and arrange for proper setup and conduct accordingly.",
+   "codes": [
+    "KIT751A"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "units": {},
+   "cos": [],
+   "quirks": [
+    "Scheme row 5, Semester-VII (p.2): the Subject cell prints this departmental note instead of a subject name — no subject name is printed for KIT751A anywhere in the document.",
+    "Marks printed in PS 25 / PE 25 / Total 50 columns; CT/TA/sessional-Total/TE printed blank (verified via printed word coordinates).",
+    "No detailed syllabus, no experiment list and no COs printed — the note itself delegates the practical list to the department ('The Department shall on its own prepare complete list of practical for the Lab')."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
   },
   {
    "name": "Mini Project or Internship Assessment",
@@ -1269,14 +1274,12 @@
     "t": 0,
     "p": 2
    },
-   "ltp_print": "0-0-2 (Semester-VII scheme row 6, p.2)",
    "credit": 1,
    "marks": {
     "ps": 50,
     "total": 50
    },
-   "marks_print": "Semester-VII scheme row 6 prints: L=0 T=0 P=2 | PS=50 | Total=50 | Credit=1 (CT, TA, Total under Evaluation Scheme, TE, PE under End Semester all printed blank); column assignment verified by word x-coordinates (PS≈438, Total≈521, Credit≈560)",
-   "subject_type": "project",
+   "units": {},
    "cos": [
     {
      "no": 1,
@@ -1305,9 +1308,10 @@
     }
    ],
    "quirks": [
-    "Only the heading + Course Outcome/KL table is printed for this subject (p.19); no unit theory, textbooks, or its own L-T-P cell are printed anywhere in this document — scheme_row_only_detailed_syllabus_not_printed.",
-    "Semester-VII scheme table (p.2) names this row 'Mini Project or Internship Assessment*' with footnote: '*The Mini Project or internship (4 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.'",
-    "Heading prints three codes 'KIT354 , KIT554 , KIT752'; only KIT752 appears in the printed Semester-VII scheme table; semesters of KIT354/KIT554 are not printed in this document (not invented)."
+    "Single CO table on p.19 printed for three codes 'KIT354 , KIT554 , KIT752'; only KIT752 has a scheme row in this document (Semester-VII row 6, p.2). Semester recorded as 7 from that row.",
+    "Sem-VII scheme row (p.2) prints the name with footnote marker 'Mini Project or Internship Assessment*'; footnote: '*The Mini Project or internship (4 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.'",
+    "Scheme row prints marks in PS 50 / Total 50 columns; CT/TA/sessional-Total/TE/PE printed blank (verified via printed word coordinates).",
+    "No unit theory printed anywhere for this subject (p.19 CO table only)."
    ],
    "flags": [
     "scheme_row_only_detailed_syllabus_not_printed"
@@ -1326,14 +1330,12 @@
     "t": 0,
     "p": 8
    },
-   "ltp_print": "0-0-8 (KIT753, Semester-VII scheme row 7, p.2); KIT851 scheme row (Semester VIII row 4) prints 0-0-18",
    "credit": 4,
    "marks": {
     "ps": 150,
     "total": 150
    },
-   "marks_print": "KIT753 Semester-VII scheme row 7 prints: L=0 T=0 P=8 | PS=150 | Total=150 | Credit=4. KIT851 Semester-VIII scheme row 4 prints: L=0 T=0 P=18 | PS=100 | PE=300 | Total=400 | Credit=9. (CT/TA/TE cells printed blank in both rows; column assignment verified by word x-coordinates: PS≈438, PE≈493, Total≈521, Credit≈560)",
-   "subject_type": "project",
+   "units": {},
    "cos": [
     {
      "no": 1,
@@ -1352,20 +1354,20 @@
     },
     {
      "no": 4,
-     "text": "Find out the errors in software solutions and establishing the process  to design maintainable software applications",
+     "text": "Find out the errors in software solutions and establishing the process to design maintainable software applications",
      "kl": "K4 , K5"
     },
     {
      "no": 5,
-     "text": "Write the report about what they are doing in project and learning  the team working skills",
+     "text": "Write the report about what they are doing in project and learning the team working skills",
      "kl": "K5, K6"
     }
    ],
    "quirks": [
-    "Only the heading + Course Outcome/KL table is printed for this subject (p.19); no unit theory, textbooks, or its own L-T-P cell are printed anywhere in this document — scheme_row_only_detailed_syllabus_not_printed.",
-    "Semester-VII scheme table (p.2 row 7) prints the subject name as 'Project 1' for KIT753; the CO heading on p.19 prints 'Project (KIT753 , KIT851)'. Semester-VIII table (p.2 row 4) prints 'Project' for KIT851.",
-    "semester/ltp/credit/marks fields reflect the KIT753 Semester-VII scheme row; KIT851's Semester-VIII row values (0-0-18, PS=100, PE=300, Total=400, Credit=9) are recorded verbatim in marks_print.",
-    "CO-4 and CO-5 print extra inter-word double spaces in the text layer ('the process  to design', 'learning  the team working skills') — verbatim tokens retained."
+    "Single CO table on p.19 printed for two codes 'KIT753 , KIT851'. Semester-VII scheme row (p.2) prints 'KIT753 | Project 1' (0 0 8, PS 150, Total 150, Credit 4); Semester-VIII scheme row (p.2) prints 'KIT851 | Project' (0 0 18, PS 100, PE 300, Total 400, Credit 9). L-T-P/credit/marks recorded from the KIT753 Semester-VII row; the KIT851 Semester-VIII row is quoted in non_subject_rows.",
+    "Name printed as 'Project 1' in the Semester-VII scheme row vs 'Project' in the CO-table heading.",
+    "Scheme rows print marks in PS (and PE for KIT851) / Total columns; CT/TA/sessional-Total/TE printed blank (verified via printed word coordinates).",
+    "No unit theory printed anywhere for this subject (p.19 CO table only)."
    ],
    "flags": [
     "scheme_row_only_detailed_syllabus_not_printed"
@@ -1374,64 +1376,58 @@
  ],
  "non_subject_rows": [
   {
-   "kind": "cover_title_page",
-   "print": "Page-1 cover text layer is column-scrambled (word fragments interleaved). Raw fragments verbatim: 'Curric / culum & Eval / luation Schem / me (VII & VII / II semester) / DR / R. A.P.J / UL KAL / J. ABDU / UNIV / VERSIT / TY, UTT / TAR PR / SH, LUC / EVA / ALUAT / TION SC / CHEME / E & SYL / LLABU / US / B. T / INFORM / MATION / ON TECH / HNOLO / OGY /CS / SIT) / TECHN / FOURT / TH (IV) / YEAR / AICTE / E MODE / EL CUR / RRICUL / LUM / S PER / RADES / e from t / the Sess / sion: 20 / 021-22] / Page / e 1 / W / NFORM / MATIO / A'. Interleaved reading of the visible print: 'DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY, UTTAR PRADESH, LUCKNOW — B.TECH. INFORMATION TECHNOLOGY /CSIT — FOURTH (IV) YEAR — Curriculum & Evaluation Scheme (VII & VIII semester) [Effective from the Session: 2021-22] — AS PER AICTE MODEL CURRICULUM'.",
-   "locator": "p.1"
+   "kind": "cover",
+   "print": "INFORMATION TECHNOLOGY /CSIT | DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY, UTTAR PRADESH, LUCKNOW | EVALUATION SCHEME & SYLLABUS | FOR | B. TECH. FOURTH (IV) YEAR | (INFORMATION TECHNOLOGY /CSIT) | AS PER | AICTE MODEL CURRICULUM | [Effective from the Session: 2021-22]",
+   "locator": "p.1 (text layer prints doubled/overlapping fragments; reconstructed from positioned text)"
   },
   {
-   "kind": "scheme_summary_table_semester_vii",
-   "print": "B.TECH IV YEAR (INFORMATION TECHNOLOGY /CSIT) CURRICULUM STRUCTURE SEMESTER- VII | 1 KHU701/KHU702 HSMC -1 / HSMC-2 3 0 0 30 20 50 100 150 3 | 2 KCS07X Departmental Elective-IV 3 0 0 30 20 50 100 150 3 | 3 KCS07X Departmental Elective-V 3 0 0 30 20 50 100 150 3 | 4 KOE07X Open Elective-II 3 0 0 30 20 50 100 150 3 | 5 KIT751A [lab note — separate row below] 0 0 2 25 25 50 1 | 6 KIT752 Mini Project or Internship Assessment* 0 0 2 50 50 1 | 7 KIT753 Project 1 0 0 8 150 150 4 | 8 MOOCs (Essential for Hons. Degree) | Total 12 0 12 850 18. Column headers: Sl. No. | Subject Codes | Subject | Periods L T P | Evaluation Scheme CT TA Total PS | End Semester TE PE | Total | Credit. KHU701/KHU702 (HSMC) and KOE07X (Open Elective-II) rows carry NO detailed syllabus in this document.",
+   "kind": "scheme_table_semester_vii",
+   "print": "SEMESTER- VII [cols: Sl. No. | Subject Codes | Subject | Periods L T P | Evaluation Scheme CT TA Total PS TE PE | End Semester | Total | Credit] || 1 | KHU701/KHU702 | HSMC -1 / HSMC-2 | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3 || 2 | KCS07X | Departmental Elective-IV | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3 || 3 | KCS07X | Departmental Elective-V | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3 || 4 | KOE07X | Open Elective-II | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3 || 5 | KIT751A | The Department may conduct one Lab of either of the two Electives (4 or 5) based on the elective chosen for the curriculum. The Department shall on its own prepare complete list of practical for the Lab and arrange for proper setup and conduct accordingly. | 0 0 2 | CT/TA/Total blank | PS 25 | TE blank | PE 25 | 50 | 1 || 6 | KIT752 | Mini Project or Internship Assessment* | 0 0 2 | CT/TA/Total blank | PS 50 | TE blank | PE blank | 50 | 1 || 7 | KIT753 | Project 1 | 0 0 8 | CT/TA/Total blank | PS 150 | TE blank | PE blank | 150 | 4 || 8 | MOOCs (Essential for Hons. Degree) || Total | 12 0 12 | 850 | 18",
    "locator": "p.2"
   },
   {
-   "kind": "scheme_summary_table_semester_viii",
-   "print": "SEMESTER- VIII | 1 KHU801/KHU802 HSMC-2#/HSMC-1# 3 0 0 30 20 50 100 150 3 | 2 KOE08X Open Elective-III 3 0 0 30 20 50 100 150 3 | 3 KOE08X Open Elective-IV 3 0 0 30 20 50 100 150 3 | 4 KIT851 Project 0 0 18 100 300 400 9 | 5 MOOCs (Essential for Hons. Degree) | Total 9 0 18 850 18. KHU801/KHU802 (HSMC) and KOE08X (Open Electives-III/IV) rows carry NO detailed syllabus in this document.",
+   "kind": "scheme_table_semester_viii",
+   "print": "SEMESTER- VIII [cols: Sl. No. | Subject Codes | Subject | Periods L T P | Evaluation Scheme CT TA Total PS TE PE | End Semester | Total | Credit] || 1 | KHU801/KHU802 | HSMC-2#/HSMC-1# | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3 || 2 | KOE08X | Open Elective-III | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3 || 3 | KOE08X | Open Elective-IV | 3 0 0 | 30 20 50 | - | 100 | - | 150 | 3 || 4 | KIT851 | Project | 0 0 18 | CT/TA/Total blank | PS 100 | TE blank | PE 300 | 400 | 9 || 5 | MOOCs (Essential for Hons. Degree) || Total | 9 0 18 | 850 | 18",
    "locator": "p.2"
-  },
-  {
-   "kind": "scheme_row_lab_note",
-   "print": "KIT751A — 'The Department may conduct one Lab of either of the two Electives (4 or 5) based on the elective chosen for the curriculum. The Department shall on its own prepare complete list of practical for the Lab and arrange for proper setup and conduct accordingly.' | periods 0 0 2 | PS=25, PE=25, Total=50 | Credit=1 (CT/TA/TE printed blank; column assignment verified by word x-coordinates: PS≈438, PE≈493, Total≈521, Credit≈560). No subject heading, COs, units or experiment list printed anywhere for KIT751A in this document.",
-   "locator": "p.2 (Semester-VII scheme row 5)"
   },
   {
    "kind": "footnote",
    "print": "*The Mini Project or internship (4 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
-   "locator": "p.2 (footnote to Semester-VII scheme row 6)"
+   "locator": "p.2 (below Semester-VII table)"
   },
   {
-   "kind": "scheme_row_moocs",
-   "print": "MOOCs (Essential for Hons. Degree) — printed in both semester tables with no code, no periods, no marks, no credit.",
-   "locator": "p.2 (Semester-VII row 8; Semester-VIII row 5)"
-  },
-  {
-   "kind": "elective_pool_list",
-   "print": "Departmental Elective-IV | 1. KCS071 Artificial Intelligence | 2. KCS072 Natural language processing | 3. KCS073 High Performance Computing | 4. KCS074 Cryptography and Network Security | 5. KCS075 Design & Development of Applications | 6. KCS076 Software Testing | 7. KCS077 Distributed Systems",
+   "kind": "elective_slot_print",
+   "print": "Departmental Elective-IV 1. KCS071 Artificial Intelligence 2. KCS072 Natural language processing 3. KCS073 High Performance Computing 4. KCS074 Cryptography and Network Security 5. KCS075 Design & Development of Applications 6. KCS076 Software Testing 7. KCS077 Distributed Systems",
    "locator": "p.3"
   },
   {
-   "kind": "elective_pool_list",
-   "print": "Departmental Elective-V | 1. KCS078 Deep Learning | 2. KCS079 Service Oriented Architecture | 3. KCS710 Quantum Computing | 4. KCS711 Mobile Computing | 5. KCS712 Internet of Things | 6. KCS713 Cloud Computing | 7. KIT071 Software Project Management",
+   "kind": "elective_slot_print",
+   "print": "Departmental Elective-V 1. KCS078 Deep Learning 2. KCS079 Service Oriented Architecture 3. KCS710 Quantum Computing 4. KCS711 Mobile Computing 5. KCS712 Internet of Things 6. KCS713 Cloud Computing 7. KIT071 Software Project Management",
    "locator": "p.3"
+  },
+  {
+   "kind": "section_header",
+   "print": "B.TECH. (IT/CSIT) SEVENT SEMESTER (DETAILED SYLLABUS)",
+   "locator": "p.4 ('SEVENT' printed as-is)"
+  },
+  {
+   "kind": "moocs_mapping_link",
+   "print": "Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc18_cs41/preview",
+   "locator": "p.12 (printed after Deep Learning text books list)"
   }
  ],
  "quirks": [
-  "Page-1 cover text layer is column-scrambled (interleaved word fragments); raw fragments + interleaved reading recorded in non_subject_rows. Visible print supports B.Tech IV year (Information Technology /CSIT), Semesters VII & VIII, effective session 2021-22, per AICTE Model Curriculum.",
-  "NLP heading (p.5) prints code 'KC072' while the Departmental Elective-IV pool list (p.3) prints 'KCS072' — both recorded in that subject's codes.",
-  "SOA heading (p.13) prints code 'KSC079' (transposed) while the Departmental Elective-V pool list (p.3) prints 'KCS079' — both recorded in that subject's codes.",
-  "L-T-P discrepancy: Mobile Computing (p.15), Internet of Things (p.16) and Cloud Computing (p.17) detailed-syllabus headers print '3-1-0' while the Semester-VII scheme table elective rows (p.2) print '3 0 0'; credit 3 appears only in the scheme table.",
-  "Scheme-table marks columns are flattened in the text layer; column assignment for every row verified via PyMuPDF word x-coordinates against header positions (L≈288, T≈308, P≈328, CT≈349, TA≈375, Total≈402, PS≈438, TE≈465, PE≈493, Total≈521, Credit≈560).",
-  "p.4 section heading prints 'SEVENT SEMESTER (DETAILED SYLLABUS)' (typo for SEVENTH) — verbatim.",
-  "Internet of Things CO-5 row label prints 'CP 5' instead of 'CO 5' (p.16); 'Ardunio' typo printed repeatedly in that subject.",
-  "Deep Learning unit III prints stray '9' after 'DIMENTIONALITY REDUCTION' (p.12); p.12 also prints 'Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc18_cs41/preview' after the text books.",
-  "Quantum Computing text-book list prints numbers 1, 2, 3 then 5 (no 4), with '5.' inline at the end of the book-3 line (p.14).",
-  "Design & Development Of Applications text book 5 wraps with '6.' in the list-number column ('...“Beginning iOS / 6. Development: Exploring the iOS SDK”, Apress, 2013.') (p.9).",
-  "Distributed System text book 4 line ends with inline '5.' before book 5 'Tenanuanbaum, Steen,…' (p.11).",
-  "Line-break dash joins: where a printed line ends with '-' or '–', the next line is joined without a space (batch convention, cf. draft 02 same unit text 'techniques-substitution'): e.g. 'techniques-substitution' p.8, 'High-Performance' p.7, 'Filter-Bank' p.5, 'Semi-supervised' p.12, 'Deep Learning-Backpropagation' p.12, 'Understanding-Gathering' p.12, 'Agents–Typical' p.4 (en-dash, matching the unspaced mid-line pattern 'Introduction–Definition' in the same sentence).",
-  "Project subject: Semester-VII scheme row prints name 'Project 1' for KIT753 while the CO heading prints 'Project (KIT753 , KIT851)' (p.19)."
+  "p.1 cover text layer prints doubled/overlapping fragments (two offset copies of each line); cover print reconstructed from positioned text into non_subject_rows(kind=cover).",
+  "p.2 scheme rows: KIT751A prints marks in PS 25 / PE 25 / Total 50; KIT752 in PS 50 / Total 50; KIT753 in PS 150 / Total 150; KIT851 in PS 100 / PE 300 / Total 400 — CT/TA/sessional-Total/TE printed blank in all four rows (verified via printed word coordinates).",
+  "p.4 prints 'SEVENT SEMESTER (DETAILED SYLLABUS)' [sic].",
+  "p.5 NLP detailed-syllabus heading prints code 'KC072' (missing 'S'); p.3 elective list prints 'KCS072'.",
+  "p.13 SOA detailed-syllabus heading prints 'KSC079' (transposed); p.3 elective list prints 'KCS079'.",
+  "p.16 IoT CO table prints the fifth outcome row label as 'CP 5' [sic]; IoT units repeatedly print 'Ardunio' [sic].",
+  "p.12 Deep Learning Unit III prints 'DIMENTIONALITY REDUCTION 9 Linear (PCA, LDA)' [sic]; 'Mapping with MOOCS' link printed after its text books list.",
+  "p.14 Quantum Computing text book list prints no item 4; the '5.' marker is printed at the end of item 3's line (line-wrap artifact).",
+  "Book titles in several lists print double-quote glyphs as '‖' or '―'; transcribed verbatim.",
+  "This document is the shared IV-year (VII & VIII semester) scheme for INFORMATION TECHNOLOGY /CSIT; cover prints 'B. TECH.' and 'B.TECH IV YEAR' — canonical course BTech.",
+  "Marks/credit for the 14 detailed Departmental-Elective subjects are taken from the printed Sem-VII KCS07X slot rows (p.2, CT 30 TA 20 Total 50 TE 100 Total 150 Credit 3); KCS711/KCS712/KCS713 detailed syllabi print L-T-P 3-1-0 while the slot row prints 3-0-0/Credit 3."
  ],
- "flags": [
-  "2 subjects (Mini Project or Internship Assessment KIT354/KIT554/KIT752; Project KIT753/KIT851) print heading + CO/KL table only — no unit theory anywhere: flagged scheme_row_only_detailed_syllabus_not_printed (B23/B25/B27 class).",
-  "KHU701/KHU702, KHU801/KHU802 (HSMC) and KOE07X/KOE08X (Open Electives II/III/IV) appear only as scheme rows — no detailed syllabus in this document (recorded in non_subject_rows, not silently dropped).",
-  "KIT751A lab row is a scheme-row note only (department-defined practical list); recorded in non_subject_rows."
- ]
+ "flags": []
 }

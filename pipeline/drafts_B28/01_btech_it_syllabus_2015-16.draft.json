@@ -7,9 +7,9 @@
  "subjects": [
   {
    "name": "Design and Analysis of Algorithms",
-   "name_print": "Design and Analysis of Algorithms",
+   "name_print": "NCS- 501 Design and Analysis of Algorithms",
    "codes": [
-    "NCS-501"
+    "NCS501"
    ],
    "semester": 5,
    "ltp": {
@@ -25,9 +25,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
-   "page": "p.4",
-   "scheme_name_print": "Design and Analysis of Algorithm",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction : Algorithms, Analyzing algorithms, Complexity of algorithms, Growth of functions, Performance measurements, Sorting and order Statistics - Shell sort, Quick sort, Merge sort, Heap sort, Comparison of sorting algorithms, Sorting in linear time.",
     "2": "Advanced Data Structures: Red-Black trees, B – trees, Binomial Heaps, Fibonacci Heaps.",
@@ -36,7 +34,6 @@
     "5": "Selected Topics: Algebraic Computation, Fast Fourier Transform, String Matching, Theory of NP-completeness, Approximation algorithms and Randomized algorithms."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -78,18 +75,16 @@
     }
    ],
    "quirks": [
-    "p.4 header prints code as 'NCS- 501' (space after dash)",
-    "scheme table (p.2) prints subject name as 'Design and Analysis of Algorithm' (singular)",
-    "textbook 2 printed without publisher, entry ends with trailing comma",
-    "no course outcomes printed in this document"
+    "p.4 heading prints code as 'NCS- 501' (hyphen+space); scheme table p.2 prints subject name 'Design and Analysis of Algorithm' (singular) vs heading 'Algorithms'",
+    "verbatim typos kept: 'Coreman', 'Printice Hall of India', 'Hopcraft', 'Warshal’s'"
    ],
    "flags": []
   },
   {
    "name": "Database Management System",
-   "name_print": "Database Management System",
+   "name_print": "NCS-502 Database Management System",
    "codes": [
-    "NCS-502"
+    "NCS502"
    ],
    "semester": 5,
    "ltp": {
@@ -105,8 +100,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
-   "page": "p.5",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction: An overview of database management system, database system Vs file system, Database system concept and architecture, data model schema and instances, data independence and database language and interfaces, data definitions language, DML, Overall Database Structure. Data Modeling using the Entity Relationship Model: ER model concepts, notation for ER diagram, mapping constraints, keys, Concepts of Super Key, candidate key, primary key, Generalization, aggregation, reduction of an ER diagrams to tables, extended ER model, relationship of higher degree.",
     "2": "Relational data Model and Language: Relational data model concepts, integrity constraints, entity integrity, referential integrity, Keys constraints, Domain constraints, relational algebra, relational calculus, tuple and domain calculus. Introduction on SQL: Characteristics of SQL, advantage of SQL. SQl data type and literals. Types of SQL commands. SQL operators and their procedure. Tables, views and indexes. Queries and sub queries. Aggregate functions. Insert, update and delete operations, Joins, Unions, Intersection, Minus, Cursors, Triggers, Procedures in SQL/PL SQL",
@@ -115,7 +109,6 @@
     "5": "Concurrency Control Techniques: Concurrency control, Locking Techniques for concurrency control, Time stamping protocols for concurrency control, validation based protocol, multiple granularity, Multi version schemes, Recovery with concurrent transaction, case study of Oracle."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -149,16 +142,16 @@
     }
    ],
    "quirks": [
-    "print typos kept verbatim: 'SQl data type' (unit 2), 'Fudamentals of Database Systems' (textbook 3), 'Addision Wesley', 'Gagotia Publications'",
-    "textbook list print runs items 1 and 2 on one line ('...McGraw Hill 2.Date C J, ...'); reference list likewise ('...Vikas Publishing House 2.Bipin C. Desai, ... 3. Majumdar...')"
+    "verbatim typos kept: 'SQl data type', 'Fudamentals of Database Systems', 'Addision Wesley', 'Gagotia Publications'",
+    "p.5 print runs textbook items 1-2 and reference items 1-2 on single lines; split at printed numerals (2., 2.)"
    ],
    "flags": []
   },
   {
    "name": "Principle of Programming Language",
-   "name_print": "Principle of Programming Language",
+   "name_print": "NCS- 503 Principle of Programming Language",
    "codes": [
-    "NCS-503"
+    "NCS503"
    ],
    "semester": 5,
    "ltp": {
@@ -174,8 +167,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
-   "page": "p.6",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction The Role of Programming Languages: Why Study Programming Languages, Towards Higher-Level languages, Programming paradigms, Programming environments Language Description: Syntactic structure, language Translation Issues: Programming language Syntax, Stages in translation, Formal translation Models",
     "2": "Language Properties Modeling Language Properties, Elementary Data Types, Encapsulation, Inheritance, Sequence Control, Subprogram Control",
@@ -184,7 +176,6 @@
     "5": "Lambda Calculus Introduction to Lambda Calculus, Simple types, Subtyping"
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -210,16 +201,16 @@
     }
    ],
    "quirks": [
-    "print typos kept verbatim: 'Constucts' (textbook 3), 'Willey India' (textbook 2)",
-    "unit topic cells print a short unit title line followed by topic text on the same cell"
+    "verbatim typos kept: 'Constucts', 'Willey India', 'Terrance W.Pratt'",
+    "unit headings printed as short titles followed by topic lines without punctuation between them (e.g. 'Introduction / The Role of...'); joined with single space"
    ],
    "flags": []
   },
   {
    "name": "Web Technology",
-   "name_print": "Web Technology",
+   "name_print": "NCS- 504 Web Technology",
    "codes": [
-    "NCS-504"
+    "NCS504"
    ],
    "semester": 5,
    "ltp": {
@@ -235,8 +226,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
-   "page": "p.7",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction: Introduction and Web Development Strategies, History of Web and Internet, Protocols governing Web, Writing Web Projects, Connecting to Internet, Introduction to Internet services and tools, Introduction to client-server computing. Core Java: Introduction, Operator, Data type, Variable, Arrays, Methods & Classes, Inheritance, Package and Interface, Exception Handling, Multithread programming, I/O, Java Applet, String handling, Event handling, Introduction to AWT, AWT controls, Layout managers.",
     "2": "Web Page Designing: HTML: list, table, images, frames, forms, CSS, Document type definition, XML: DTD, XML schemes, Object Models, presenting and using XML, Using XML Processors: DOM and SAX, Dynamic HTML.",
@@ -245,7 +235,6 @@
     "5": "PHP (Hypertext Preprocessor): Introduction, syntax, variables, strings, operators, if-else, loop, switch, array, function, form, mail, file upload, session, error, exception, filter, PHP-ODBC,"
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -315,18 +304,17 @@
     }
    ],
    "quirks": [
-    "textbook list prints duplicate number 6 (items '6. Hans Bergsten...' and '6. Ullman...') — printed numbering kept verbatim",
-    "items 5 and 6 printed on one line ('...TMH. 6. Hans Bergsten...')",
-    "print typos kept verbatim: 'Schieldt', 'Servelets' (unit 4), 'Server Site Programming' (unit 4 heading), 'Web Programing' (ref 4), 'Principal of web Design' (ref 5), 'Vikash and Thomas Learning' (ref 5)",
-    "unit 5 topic text ends with a trailing comma as printed ('...PHP-ODBC,')"
+    "p.7 Text books list prints TWO entries numbered 6 ('6. Hans Bergsten…' and '6. Ullman…') — duplicate numeral in print; transcribed verbatim",
+    "verbatim typos kept: 'Servelets', 'Web Programing', 'Principal of web Design', 'Vikash and Thomas Learning', 'Schieldt'",
+    "unit V text ends with trailing comma 'PHP-ODBC,' immediately before 'Text books:' (printed so)"
    ],
    "flags": []
   },
   {
    "name": "MANAGEMENT INFORMATION SYSTEMS",
-   "name_print": "MANAGEMENT INFORMATION SYSTEMS",
+   "name_print": "NIT 501 MANAGEMENT INFORMATION SYSTEMS",
    "codes": [
-    "NIT-501"
+    "NIT501"
    ],
    "semester": 5,
    "ltp": {
@@ -342,9 +330,7 @@
     "ese_te_pe": 50,
     "total": 75
    },
-   "subject_type": "core",
-   "page": "p.8",
-   "scheme_name_print": "Management Information System",
+   "subject_type": "theory",
    "units": {
     "1": "Foundation of Information Systems: Introduction to information system in business, fundamentals of information systems, Solving business problems with information systems, Types of information systems, Effectiveness and efficiency criteria in information system.",
     "2": "An overview of Management Information Systems: Definition of a management information system, MIS versus Data processing, MIS & Decision Support Systems, MIS & Information Resources Management, End user computing, Concept of an MIS,Structure of a Management information system.",
@@ -352,7 +338,6 @@
     "4": "Managing Information Technology: Enterprise & global management, Security & Ethical challenges, Planning & Implementing changes. Advanced Concepts in Information Systems: Enterprise Resource Planning, Supply Chain Management, Customer Relationship Management, and Procurement Management."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -390,9 +375,9 @@
     }
    ],
    "quirks": [
-    "detail page (p.8) prints name in all caps 'MANAGEMENT INFORMATION SYSTEMS'; scheme table (p.2) prints 'Management Information System'",
-    "detail page has only 4 unit rows (I-IV), no unit V printed",
-    "print typos kept verbatim: 'characterstics' (unit 3), 'REFRENCE BOOKS:-' heading, 'MIS,Structure' missing space (unit 2)"
+    "p.8 prints ONLY Units I-IV; no Unit-V text printed for this subject (checked text layer and word coordinates)",
+    "print headers: 'TEXT BOOK:' and 'REFRENCE BOOKS:-' (typo 'REFRENCE' kept verbatim); 'characterstics' typo kept",
+    "scheme table p.2 prints subject name 'Management Information System' (singular) vs heading plural 'MANAGEMENT INFORMATION SYSTEMS'"
    ],
    "flags": []
   },
@@ -400,7 +385,7 @@
    "name": "Engineering Economics",
    "name_print": "Engineering Economics",
    "codes": [
-    "NHU-501"
+    "NHU501"
    ],
    "semester": 5,
    "ltp": {
@@ -416,24 +401,21 @@
     "ese_te_pe": 50,
     "total": 75
    },
-   "subject_type": "core",
-   "page": "p.2 (scheme table row 6)",
-   "scheme_only": true,
-   "units": {},
-   "cos": [],
+   "subject_type": "theory",
    "quirks": [
-    "scheme-only row: no syllabus detail page (units/COs/books) printed for this subject anywhere in the PDF",
-    "scheme code printed as two cells 'NHU' + '501'"
+    "scheme row only: p.2 row 6 '6 NHU Engineering Economics 2 0 0 15 10 25 50 75 2 (501)' — no unit theory, COs, or books printed anywhere in the document for this subject",
+    "Course-code cell wraps the token over two printed lines (page-image proof p.2, 2015-16 scheme table: 'NHU'/'501' stacked in one cell — visible print authoritative per RULES §6; linear text layer drops the wrapped token)"
    ],
    "flags": [
-    "scheme-only-row"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "code_cell_wrap_page_image_attested"
    ]
   },
   {
    "name": "Design and analysis of algorithms Lab",
-   "name_print": "Design and analysis of algorithms Lab",
+   "name_print": "NCS 551 Design and analysis of algorithms Lab",
    "codes": [
-    "NCS-551"
+    "NCS551"
    ],
    "semester": 5,
    "ltp": {
@@ -450,10 +432,6 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.9",
-   "scheme_name_print": "Design and Analysis of Algorithm Lab",
-   "units": {},
-   "cos": [],
    "experiments": [
     {
      "no": 1,
@@ -492,20 +470,17 @@
      "exp": "Study of Sorting network."
     }
    ],
-   "notes": [
-    "printed list heading: 'Objective :-'"
-   ],
    "quirks": [
-    "p.9 prints code without dash: 'NCS 551'",
-    "list printed under heading 'Objective :-' (lab objectives double as the practice list)"
+    "list printed under label 'Objective :-' (p.9); recorded as the lab's experiment list",
+    "scheme table p.2 prints subject name 'Design and Analysis of Algorithm Lab' vs p.9 heading 'Design and analysis of algorithms Lab'"
    ],
    "flags": []
   },
   {
    "name": "DBMS Lab",
-   "name_print": "DBMS Lab",
+   "name_print": "NCS 552 DBMS Lab",
    "codes": [
-    "NCS-552"
+    "NCS552"
    ],
    "semester": 5,
    "ltp": {
@@ -522,9 +497,6 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.9",
-   "units": {},
-   "cos": [],
    "experiments": [
     {
      "no": 1,
@@ -555,20 +527,17 @@
      "exp": "Creating packages and triggers in oracle."
     }
    ],
-   "notes": [
-    "printed list heading: 'Objectives:-'"
-   ],
    "quirks": [
-    "item 3's sub-list prints duplicate sub-item label 'e)' ('e)Manipulating data. e)Creating and managing tables.') — kept verbatim",
-    "p.9 prints code without dash: 'NCS 552'"
+    "list printed under label 'Objectives:-' (p.9)",
+    "item 3 sub-list prints two 'e)' sub-items ('e)Manipulating data. e)Creating and managing tables.') — duplicate letter in print, kept verbatim"
    ],
    "flags": []
   },
   {
-   "name": "Principles of programming languages (Lab)",
-   "name_print": "Principles of programming languages",
+   "name": "Principles of programming languages",
+   "name_print": "NCS 553 Principles of programming languages",
    "codes": [
-    "NCS-553"
+    "NCS553"
    ],
    "semester": 5,
    "ltp": {
@@ -585,10 +554,6 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.9",
-   "scheme_name_print": "Principle of Programming Language Lab",
-   "units": {},
-   "cos": [],
    "experiments": [
     {
      "no": 1,
@@ -623,21 +588,17 @@
      "exp": "Define a Recursive LISP function which takes two arguments first, an atom, second, a list, returns a list after removing first occurrence of that atom within the list."
     }
    ],
-   "notes": [
-    "no printed list heading on p.9; numbered list follows the name line directly",
-    "p.9 name line prints 'Principles of programming languages' without the word 'Lab'; scheme table (p.2) prints 'Principle of Programming Language Lab'"
-   ],
    "quirks": [
-    "name field carries the scheme label 'Lab' in parentheses to identify the lab pair; name_print is the p.9 verbatim name",
-    "p.9 prints code without dash: 'NCS 553'"
+    "p.9 list has NO printed label (no 'Objective :-' heading) — items printed directly under heading",
+    "scheme table p.2 prints subject name 'Principle of Programming Language Lab' vs p.9 heading 'NCS 553 Principles of programming languages' (name mismatch in print)"
    ],
    "flags": []
   },
   {
    "name": "Web Technology Lab",
-   "name_print": "Web Technology Lab",
+   "name_print": "NCS 554 Web Technology Lab",
    "codes": [
-    "NCS-554"
+    "NCS554"
    ],
    "semester": 5,
    "ltp": {
@@ -654,9 +615,6 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.10",
-   "units": {},
-   "cos": [],
    "experiments": [
     {
      "no": 1,
@@ -695,12 +653,8 @@
      "exp": "Design and implement a simple shopping cart example with session tracking API."
     }
    ],
-   "notes": [
-    "printed list heading: 'Objectives:-'"
-   ],
    "quirks": [
-    "p.10 prints code without dash: 'NCS 554'",
-    "print typos kept verbatim: 'JAVA JDVC Socket' (item 8)"
+    "list printed under label 'Objectives:-' (p.10); verbatim kept: 'JAVA JDVC Socket', 'Create on ODBC link'"
    ],
    "flags": []
   },
@@ -708,7 +662,7 @@
    "name": "GP",
    "name_print": "GP",
    "codes": [
-    "NGP-501"
+    "NGP501"
    ],
    "semester": 5,
    "marks": {
@@ -716,24 +670,22 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.2 (scheme table row 11)",
-   "scheme_only": true,
-   "units": {},
-   "cos": [],
    "quirks": [
-    "scheme-only row: GP row prints L/T/P, CT/TA, ESE and Credit cells blank; only Sessional Total 50 and Subject Total 50 are printed",
-    "printed under section heading 'PRACTICAL/DESIGN/DRAWING'",
-    "expansion of 'GP' not printed in the document; code printed as two cells 'NGP' + '501'"
+    "scheme row only: p.2 row 11 '11 NGP GP [L/T/P blank] [CT/TA blank] 50(sessional total) [ESE blank] 50(subject total) [credit blank] (501)' — no unit theory/experiments printed anywhere",
+    "expansion of 'GP' not printed anywhere in the document (not expanded in print)",
+    "L-T-P and credit cells printed blank in the scheme row",
+    "Course-code cell wraps the token over two printed lines (page-image proof p.2, 2015-16 scheme table: 'NGP'/'501' stacked in one cell — visible print authoritative per RULES §6; linear text layer drops the wrapped token)"
    ],
    "flags": [
-    "scheme-only-row"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "code_cell_wrap_page_image_attested"
    ]
   },
   {
    "name": "Computer Networks",
-   "name_print": "Computer Networks",
+   "name_print": "NCS-601 Computer Networks",
    "codes": [
-    "NCS-601"
+    "NCS601"
    ],
    "semester": 6,
    "ltp": {
@@ -749,8 +701,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
-   "page": "p.11",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction Concepts: Goals and Applications of Networks, Network structure and architecture, The OSI reference model, services, Network Topology Design - Delay Analysis, Back Bone Design, Local Access Network Design, Physical Layer Transmission Media, Switching methods, ISDN, Terminal Handling.",
     "2": "Medium Access sub layer: Medium Access sub layer - Channel Allocations, LAN protocols - ALOHA protocols - Overview of IEEE standards - FDDI. Data Link Layer - Elementary Data Link Protocols, Sliding Window protocols, Error Handling.",
@@ -759,7 +710,6 @@
     "5": "Application Layer: Application Layer: File Transfer, Access and Management, Electronic mail, Virtual Terminals, Other application. Example Networks - Internet and Public Networks."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -785,15 +735,16 @@
     }
    ],
    "quirks": [
-    "print typos kept verbatim: 'Point - to Pont Networks' (unit 3), 'Forouzen' (textbook 1), 'REFRENCES:' heading"
+    "verbatim typos kept: 'Point - to Pont Networks', 'Forouzen', print header 'REFRENCES:'",
+    "unit III line 'Congestion control Internetworking' printed without punctuation between the two phrases (line-broken in print); joined with single space"
    ],
    "flags": []
   },
   {
    "name": "Software Engineering",
-   "name_print": "Software Engineering",
+   "name_print": "NCS- 602 Software Engineering",
    "codes": [
-    "NCS-602"
+    "NCS602"
    ],
    "semester": 6,
    "ltp": {
@@ -809,8 +760,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
-   "page": "p.12",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction:Introduction to Software Engineering, Software Components, Software Characteristics, Software Crisis, Software Engineering Processes, Similarity and Differences from Conventional Engineering Processes, Software Quality Attributes. Software Development Life Cycle (SDLC) Models: Water Fall Model, Prototype Model, Spiral Model, Evolutionary Development Models, Iterative Enhancement Models.",
     "2": "Software Requirement Specifications (SRS):Requirement Engineering Process: Elicitation, Analysis, Documentation, Review and Management of User Needs, Feasibility Study, Information Modeling, Data Flow Diagrams, Entity Relationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS.Software Quality Assurance (SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 Models, SEI-CMM Model.",
@@ -819,7 +769,6 @@
     "5": "Software Maintenance and Software Project Management:Software as an Evolutionary Entity, Need for Maintenance, Categories of Maintenance: Preventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-Engineering, Reverse Engineering. Software Configuration Management Activities, Change Control Process, Software Version Control, An Overview of CASE Tools. Estimation of Various Parameters such as Cost, Efforts, Schedule/Duration, Constructive Cost Models (COCOMO), Resource Allocation Models, Software Risk Analysis and Management."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -843,15 +792,15 @@
     }
    ],
    "quirks": [
-    "print typos kept verbatim: 'Halestead’s Software Science' (unit 3), 'Test Data Suit Preparation' (unit 4), 'Water Fall Model' (unit 1)"
+    "verbatim kept: 'Halestead’s Software Science' (for Halstead), 'Test Data Suit Preparation', heading code 'NCS- 602' (hyphen+space)"
    ],
    "flags": []
   },
   {
    "name": "Compiler Design",
-   "name_print": "Compiler Design",
+   "name_print": "NCS-603 Compiler Design",
    "codes": [
-    "NCS-603"
+    "NCS603"
    ],
    "semester": 6,
    "ltp": {
@@ -867,8 +816,7 @@
     "ese_te_pe": 100,
     "total": 150
    },
-   "subject_type": "core",
-   "page": "p.13",
+   "subject_type": "theory",
    "units": {
     "1": "Introduction to Compiler, Phases and passes, Bootstrapping, Finite state machines and regular expressions and their applications to lexical analysis, Optimization of DFA-Based Pattern Matchers implementation of lexical analyzers, lexical-analyzer generator, LEX-compiler, Formal grammars and their application to syntax analysis, BNF notation, ambiguity, YACC. The syntactic specification of programming languages: Context free grammars, derivation and parse trees, capabilities of CFG.",
     "2": "Basic Parsing Techniques: Parsers, Shift reduce parsing, operator precedence parsing, top down parsing, predictive parsers Automatic Construction of efficient Parsers: LR parsers, the canonical Collection of LR(0) items, constructing SLR parsing tables, constructing Canonical LR parsing tables, Constructing LALR parsing tables, using ambiguous grammars, an automatic parser generator, implementation of LR parsing tables.",
@@ -877,7 +825,6 @@
     "5": "Code Generation: Design Issues, the Target Language. Addresses in the Target Code, Basic Blocks and Flow Graphs, Optimization of Basic Blocks, Code Generator. Code optimization: Machine-Independent Optimizations, Loop optimization, DAG representation of basic blocks, value numbers and algebraic laws, Global Data-Flow analysis."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -911,15 +858,15 @@
     }
    ],
    "quirks": [
-    "print typos kept verbatim: 'Raghvan' (textbook 2), 'Ricard LeBlanc' (textbook 4), 'Bennet' (ref 2), 'Refrences:' heading"
+    "print header 'Refrences:' (typo) kept; verbatim typos kept: 'V Raghvan', 'J.P. Bennet', 'Ricard LeBlanc'"
    ],
    "flags": []
   },
   {
    "name": "Information Retrieval and Management",
-   "name_print": "Information Retrieval and Management",
+   "name_print": "NIT-061 Information Retrieval and Management",
    "codes": [
-    "NIT-061"
+    "NIT061"
    ],
    "semester": 6,
    "ltp": {
@@ -936,8 +883,6 @@
     "total": 150
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-I",
-   "page": "p.14",
    "units": {
     "1": "Basic Concepts of IR, Data Retrieval & Information Retrieval, IR system block diagram. Automatic Text Analysis, Luhn's ideas, Conflation Algorithm, Indexing and Index Term Weighing, Probabilistic Indexing, Automatic Classification. Measures of Association, Different Matching Coefficient, Classification Methods, Cluster Hypothesis. Clustering Algorithms, Single Pass Algorithm, Single Link Algorithm, Rochhio's Algorithm and Dendograms",
     "2": "File Structures, Inverted file, Suffix trees & suffix arrays, Signature files, Ring Structure, IR Models, Basic concepts, Boolean Model, Vector Model, and Fuzzy Set Model. Search Strategies, Boolean search, serial search, and clusterbased retrieval, Matching Function. Performance Evaluation- Precision and recall, alternative measures reference collection (TREC Collection), Libraries & Bibliographical system- Online IR system, OPACs, Digital libraries - Architecture issues, document models, representation & access, Prototypes, projects & interfaces, standards",
@@ -946,7 +891,6 @@
     "5": "Searching the Web, Challenges, Characterizing the Web, Search Engines, Browsing, Mata searchers, Web crawlers, robot exclusion, Web data mining, Metacrawler, Collaborative filtering, Web agents (web shopping, bargain finder), Economic, ethical, legal and political issues.."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -954,11 +898,7 @@
     },
     {
      "no": 2,
-     "book": "I. Witten, A. Moffat, and T. Bell, “Managing Gigabytes”"
-    },
-    {
-     "no": 4,
-     "book": "D. Grossman and O. Frieder “Information Retrieval: Algorithms and Heuristics”"
+     "book": "I. Witten, A. Moffat, and T. Bell, “Managing Gigabytes” 4. D. Grossman and O. Frieder “Information Retrieval: Algorithms and Heuristics”"
     }
    ],
    "reference_books": [
@@ -976,18 +916,17 @@
     }
    ],
    "quirks": [
-    "textbook list numbering jumps 1,2,4 — no item 3 printed; item 4 runs inline after item 2 on the same line",
-    "print typos kept verbatim: 'Rochhio's Algorithm' and 'Dendograms' (unit 1), 'Mata searchers' (unit 5), 'clusterbased' (unit 2), 'Subrahamanian'/'Kulwer' (ref 2/3), 'Mark leven' (ref 1)",
-    "unit 2 prints 'alternative measures reference collection (TREC Collection)' with no separator as printed",
-    "unit 5 ends with double period 'issues..' as printed"
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.14); p.3 elective pool lists 'NIT 061: Information Retrieval and Management'",
+    "Text Books item 2 embeds a stray numeral '4.' before 'D. Grossman and O. Frieder' inside the same numbered item (print artifact, kept verbatim)",
+    "verbatim typos kept: 'Rochhio's', 'clusterbased', 'Mata searchers', 'Dendograms', 'Mark leven', 'Subrahamanian', 'Kulwer', unit V ends 'issues..' (double period)"
    ],
    "flags": []
   },
   {
    "name": "Modelling and Simulation",
-   "name_print": "Modelling and Simulation",
+   "name_print": "NIT-062 Modelling and Simulation",
    "codes": [
-    "NIT-062"
+    "NIT062"
    ],
    "semester": 6,
    "ltp": {
@@ -1004,9 +943,6 @@
     "total": 150
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-I",
-   "page": "p.15",
-   "scheme_elective_list_name_print": "Modeling & Simulation",
    "units": {
     "1": "System definition and components, stochastic activities, continuous and discrete systems, System modeling, Types of models, static and dynamic physical models, static and dynamic mathematical models, full corporate model, types of system study.",
     "2": "System simulation, Need of simulation, Basic nature of simulation, techniques of simulation, comparison of simulation and analytical methods, types of system Simulation, real time simulation, hybrid simulation, simulation of pursuit problem, single-server queuing system and an inventory problem, Monte-Carlo simulation, Distributed Lag model, Cobweb model.",
@@ -1015,7 +951,6 @@
     "5": "Simulation of PERT networks, critical path computation, uncertaintities in activityduration, resource allocation and consideration, Simulation languages, object oriented simulation."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -1031,17 +966,16 @@
     }
    ],
    "quirks": [
-    "elective list (p.3) prints 'Modeling & Simulation'; detail page (p.15) prints 'Modelling and Simulation'",
-    "textbook list numbered with parentheses style '1) 2) 3)'; item 3 runs inline after item 2 ('...PHI. 3) Averill M. Law...')",
-    "print typos kept verbatim: 'Geoftrey Gordon' (textbook 1), 'uncertaintities in activityduration' (unit 5), 'System dynamics ,exponential' (unit 4)"
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.15); p.3 elective pool prints 'NIT 062: Modeling & Simulation' (name variant 'Modeling & Simulation' vs heading 'Modelling and Simulation')",
+    "verbatim typos kept: 'Geoftrey Gordon', 'uncertaintities', 'activityduration'; textbooks print runs items 2-3 on one line, split at printed '3)'"
    ],
    "flags": []
   },
   {
    "name": "Bioinformatics",
-   "name_print": "Bioinformatics",
+   "name_print": "NIT-063 Bioinformatics",
    "codes": [
-    "NIT-063"
+    "NIT063"
    ],
    "semester": 6,
    "ltp": {
@@ -1058,8 +992,6 @@
     "total": 150
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-I",
-   "page": "p.16",
    "units": {
     "1": "Bioinformatics objectives and overviews, Interdisciplinary nature of Bioinformatics, Data integration, Data analysis, Major Bioinformatics databases and tools. Metadata: Summary & reference systems, finding new type of data online. Molecular Biology and Bioinformatics: Systems approach in biology, Central dogma of molecular biology, problems in molecular approach and the bioinformatics approach, oerview of the bioinformatics applications.",
     "2": "Basic chemistry of nucleic acids, Structure of DNA, Structure of RNA, DNA Replication, Transcription-Translation, Genes- the functional elements in DNA, Analyzing DNA,DNA sequencing. Proteins: Amino acids, Protein structure, Secondary, Tertiary and Quaternary structure, Protein folding and function, Nucleic acid-Protein interaction.",
@@ -1068,7 +1000,6 @@
     "5": "Macromolecular structures, chemical compounds, generic variability and its connection to clinical data. Representation of patterns and relationships: sequence alignment algorithms, regular expressions, hierarchies and graphical models, Phylogenetics. BLAST."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -1092,15 +1023,16 @@
     }
    ],
    "quirks": [
-    "print typos kept verbatim: 'oerview of the bioinformatics applications' (unit 1), 'Perason Education' (textbook 1)"
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.16); p.3 elective pool lists 'NIT 063: Bioinformatics'",
+    "verbatim typos kept: 'oerview of the bioinformatics applications', 'Perason Education', 'Analyzing DNA,DNA sequencing'"
    ],
    "flags": []
   },
   {
    "name": "Knowledge based decision Support System",
-   "name_print": "Knowledge based decision Support System",
+   "name_print": "NIT-064 Knowledge based decision Support System",
    "codes": [
-    "NIT-064"
+    "NIT064"
    ],
    "semester": 6,
    "ltp": {
@@ -1117,9 +1049,6 @@
     "total": 150
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-I",
-   "page": "p.17",
-   "scheme_elective_list_name_print": "Knowledge based & decision Support System",
    "units": {
     "1": "DECISION MAKING AND COMPUTERIZED SUPPORT : Management Support Systems: An Overview - Decision Making, Systems, Modeling , and Support.",
     "2": "DECISION SUPPORT SYSTEMS: Decision Support Systems: An Overview - Modeling and Analysis - Business Intelligence: Data Warehousing, Data Acquisition, Data Mining, Business Analysis, and Visualization - Decision Support System Development.",
@@ -1128,7 +1057,6 @@
     "5": "IMPLEMENTING IN THE E-BUSINESS ERA : Electronic Commerce - Integration, Impacts, and the Future of the Management Support Systems."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -1146,16 +1074,16 @@
     }
    ],
    "quirks": [
-    "elective list (p.3) prints 'Knowledge based & decision Support System' (with '&'); detail page (p.17) prints 'Knowledge based decision Support System'",
-    "print typos kept verbatim: 'Modeling , and Support' (unit 1), 'George M .Marakas' spacing (ref 1)"
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.17); p.3 elective pool prints 'NIT 064: Knowledge based & decision Support System' (variant with '&')",
+    "verbatim kept: 'George M .Marakas' (stray space), 'Modeling , and Support.' (space before comma)"
    ],
    "flags": []
   },
   {
    "name": "Geographic Information System",
-   "name_print": "Geographic Information System",
+   "name_print": "NIT-065 Geographic Information System",
    "codes": [
-    "NIT-065"
+    "NIT065"
    ],
    "semester": 6,
    "ltp": {
@@ -1172,8 +1100,6 @@
     "total": 150
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-I",
-   "page": "p.18",
    "units": {
     "1": "FUNDAMENTALS OF GIS,What is GIS – Introduction Defining GIS – Components of a GIS – Spatial data – Introduction - Maps and their influence on the character of spatial data – Other sources of spatial data",
     "2": "SPATIAL DATA MODELING :Introduction – Entity definition – Spatial data models – Spatial data structures – Modeling surfaces – Modeling networks – Building computer networks – Modeling the third dimension – modeling the fourth dimension - Attribute data management - Introduction – Why choose a databaseapproach? - Database data models – Creating a database – GIS database applications – Developments in databases",
@@ -1182,7 +1108,6 @@
     "5": "ISSUES IN GIS - The development of computer methods for handling spatial data – Introduction – Handling spatial data manually – The development of computer methods for handling spatial data – The development of GIS - Data quality issues – Introduction –Describing data quality and errors sources of errors in GIS"
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -1196,7 +1121,7 @@
     },
     {
      "no": 2,
-     "book": "Lo C.P. and Yeung, A.K.W.,“Concepts and Techniques of Geographic Information Systems”, Prentice Hall, 2002."
+     "book": "Lo C.P. and Yeung, A.K.W.,”Concepts and Techniques of Geographic Information Systems”, Prentice Hall, 2002."
     },
     {
      "no": 3,
@@ -1204,15 +1129,16 @@
     }
    ],
    "quirks": [
-    "print typos kept verbatim: 'databaseapproach' (unit 2), '–map overlay' (unit 3), 'Steve carver' (textbook 1), '3 rdEdition' (ref 1), 'Refrences:' heading"
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.18); p.3 elective pool lists 'NIT 065: Geographic Information System'",
+    "verbatim kept: 'databaseapproach' (missing space), '3 rdEdition', 'Integrating data –map overlay' (space before dash), 'Steve carver'"
    ],
    "flags": []
   },
   {
    "name": "Data warehousing & Data Mining",
-   "name_print": "Data warehousing & Data Mining",
+   "name_print": "NCS-066 Data warehousing & Data Mining",
    "codes": [
-    "NCS-066"
+    "NCS066"
    ],
    "semester": 6,
    "ltp": {
@@ -1229,8 +1155,6 @@
     "total": 75
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-II",
-   "page": "p.19",
    "units": {
     "1": "Data Warehousing: Overview, Definition, Data Warehousing Components, Building a Data Warehouse, Warehouse Database, Mapping the Data Warehouse to a Multiprocessor Architecture, Difference between Database System and Data Warehouse, Multi Dimensional Data Model, Data Cubes, Stars, Snow Flakes, Fact Constellations, Concept hierarchy, Process Architecture, 3 Tier Architecture, Data Marting.",
     "2": "Data Warehouse Process and Technology: Warehousing Strategy, Warehouse /management and Support Processes, Warehouse Planning and Implementation, Hardware and Operating Systems for Data Warehousing, Client/Server Computing Model & Data Warehousing. Parallel Processors & Cluster Systems, Distributed DBMS implementations, Warehousing Software, Warehouse Schema Design, Data Extraction, Cleanup & Transformation Tools, Warehouse Metadata",
@@ -1239,7 +1163,6 @@
     "5": "Data Visualization and Overall Perspective: Aggregation, Historical information, Query Facility, OLAP function and Tools. OLAP Servers, ROLAP, MOLAP, HOLAP, Data Mining interface, Security, Backup and Recovery, Tuning Data Warehouse, Testing Data Warehouse. Warehousing applications and Recent Trends: Types of Warehousing Applications, Web Mining, Spatial Mining and Temporal Mining."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -1263,17 +1186,18 @@
     }
    ],
    "quirks": [
-    "table header on p.19 prints the word 'Unit' broken across two lines as 'Un' / 'it'",
-    "fifth unit row (y-coord confirmed) prints WITHOUT a unit-number label — only rows I-IV carry labels; the 'Data Visualization and Overall Perspective' row (8 lectures) is recorded as unit 5 with this note",
-    "print typos kept verbatim: 'Data Marting' (unit 1), 'Warehouse /management' (unit 2)"
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.19); p.3 elective pool prints 'NCS 066: Data Warehousing & Data Mining'",
+    "p.19 fifth topic block ('Data Visualization and Overall Perspective: …') is printed WITHOUT a unit numeral (no 'V' marker); recorded as unit 5 (fifth block, 8 lectures)",
+    "p.19 table header 'Unit' printed split as 'Un' / 'it' across lines (text-layer/table artifact)",
+    "verbatim kept: 'Data Marting', 'Warehouse /management', 'Noisy Data,(Binning,'"
    ],
    "flags": []
   },
   {
    "name": "Human Computer Interaction",
-   "name_print": "Human Computer Interaction",
+   "name_print": "NCS-070 Human Computer Interaction",
    "codes": [
-    "NCS-070"
+    "NCS070"
    ],
    "semester": 6,
    "ltp": {
@@ -1290,9 +1214,6 @@
     "total": 75
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-II",
-   "page": "p.20",
-   "scheme_elective_list_name_print": "Human Computer Interface",
    "units": {
     "1": "Introduction : Importance of user Interface – definition, importance of good design. Benefits of good design. A brief history of Screen design. The graphical user interface – popularity of graphics, the concept of direct manipulation, graphical system, Characteristics, Web user – Interface popularity, characteristics- Principles of user interface.",
     "2": "Design process – Human interaction with computers, importance of human characteristics human consideration, Human interaction speeds, understanding business junctions.",
@@ -1301,7 +1222,6 @@
     "5": "Software tools – Specification methods, interface – Building Tools. Interaction Devices – Keyboard and function keys – pointing devices – speech recognition digitization and generation – image and video displays – drivers."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -1319,16 +1239,16 @@
     }
    ],
    "quirks": [
-    "elective list (p.3) prints 'Human Computer Interface'; detail page (p.20) prints 'Human Computer Interaction'",
-    "print typos kept verbatim: 'Icons and increases' (unit 4), 'uses problems' (unit 4), 'HumanComputer Interaction' (textbook 2), 'REFERENCE:' heading singular"
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.20); p.3 elective pool prints 'NCS 070: Human Computer Interface' — name variant 'Human Computer Interface' vs heading 'Human Computer Interaction'",
+    "verbatim kept: 'HumanComputer Interaction' (missing space), 'Icons and increases', 'uses problems'"
    ],
    "flags": []
   },
   {
    "name": "E-Business Strategies",
-   "name_print": "E-Business Strategies",
+   "name_print": "NIT 066 E-Business Strategies",
    "codes": [
-    "NIT-066"
+    "NIT066"
    ],
    "semester": 6,
    "ltp": {
@@ -1345,9 +1265,6 @@
     "total": 75
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-II",
-   "page": "p.21",
-   "scheme_elective_list_name_print": "E‐Business Strategies",
    "units": {
     "1": "Electronic Commerce Environment and Opportunities: Background – The Electronic Commerce Environment – Electronic Marketplace Technologies – Modes of Electronic Commerce: Overview – Electronic Data Interchange – Migration to Open EDI – Electronic Commerce with WWW/Internet – Commerce Net Advocacy – Web Commerce going forward.",
     "2": "Approaches to Safe Electronic Commerce: Overview – Secure Transport Protocols – Secure Transactions – Secure Electronic Payment Protocol(SEPP) – Secure Electronic Transaction (SET)- Certificates for Authentication – Security on Web Servers and Enterprise Networks – Electronic cash and Electronic payment schemes: Internet Monetary payment and security requirements – payment and purchase order process - Online Electronic cash.",
@@ -1356,7 +1273,6 @@
     "5": "Internet and Website Establishment: Introduction – Technologies for web servers – Internet tools relevant to Commerce – Internet Applications for Commerce – Internet charges – Internet Access and Architecture – Searching the Internet- Case study."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -1374,17 +1290,16 @@
     }
    ],
    "quirks": [
-    "elective list (p.3) prints 'E‐Business Strategies' with U+2010 hyphen; detail page (p.21) prints 'E-Business Strategies' with ASCII hyphen",
-    "books print inline with their headings: 'TEXT BOOK 1. Daniel Minoli...' and 'REFERENCES 1. ... 2. Bruce C. Brown...' on single lines",
-    "print typo kept verbatim: 'The Mean of Distribution' (unit 4)"
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.21); p.3 elective pool prints 'NIT 066:  E-Business Strategies' (E-Business with non-breaking hyphen in print)",
+    "verbatim kept: 'The Mean of Distribution' (for Means of Distribution), unit 1 lines printed with very wide justified word-spacing (normalized to single spaces)"
    ],
    "flags": []
   },
   {
    "name": "Distributed Database",
-   "name_print": "Distributed Database",
+   "name_print": "NCS-067 Distributed Database",
    "codes": [
-    "NCS-067"
+    "NCS067"
    ],
    "semester": 6,
    "ltp": {
@@ -1401,8 +1316,6 @@
     "total": 75
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-II",
-   "page": "p.22",
    "units": {
     "1": "Transaction and schedules, Concurrent Execution of transaction, Conflict and View Serializability, Testing for Serializability, Concepts in Recoverable and Cascadeless schedules.",
     "2": "Lock based protocols, time stamp based protocols, Multiple Granularity and Multiversion Techniques, Enforcing serializablity by Locks, Locking system with multiple lock modes, architecture for Locking scheduler.",
@@ -1411,7 +1324,6 @@
     "5": "Distributed Query Processing, Multiway Joins, Semi joins, Cost based query optimization for distributed database, Updating replicated data, protocols for Distributed Deadlock Detection, Eager and Lazy Replication Techniques."
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "reference_books": [
     {
      "no": 1,
@@ -1435,16 +1347,17 @@
     }
    ],
    "quirks": [
-    "no textbooks section printed — page has only a 'References' list (heading printed as 'References' without colon)",
-    "print typos kept verbatim: 'serializablity' (unit 2), 'Sudershan' (ref 1), 'Ramakrishna' (ref 2), 'Ceei' (ref 4), 'Advance Concepts' (ref 5), unbalanced quote marks in reference titles"
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.22); p.3 elective pool lists 'NCS 067: Distributed Database'",
+    "p.22 prints ONLY a 'References' section (5 items) — no 'Textbooks' list printed for this subject",
+    "verbatim typos kept: 'Enforcing serializablity', 'Silberschatz,korth and Sudershan', 'Ramakrishna and Gehrke', 'Ceei and Pelagatti', mismatched quote marks in book entries"
    ],
    "flags": []
   },
   {
    "name": "BIG DATA",
-   "name_print": "BIG DATA",
+   "name_print": "NIT 067- BIG DATA",
    "codes": [
-    "NIT-067"
+    "NIT067"
    ],
    "semester": 6,
    "ltp": {
@@ -1461,9 +1374,6 @@
     "total": 75
    },
    "subject_type": "departmental-elective",
-   "elective_slot": "Departmental Elective-II",
-   "page": "p.23",
-   "scheme_elective_list_name_print": "Big Data",
    "units": {
     "1": "UNDERSTANDING BIG DATA What is big data,why big data,convergence of key trends, unstructured data, industry examples of big data, web analytics,big data and marketing,fraud and big data,risk and big data ,credit risk management, big data and algorithmic trading,big data and healthcare,big data in medicine,advertising and big data,big data technologies, introduction to Hadoop,open source technologies,cloud and big data mobile business intelligence,Crowd sourcing analytics ,inter and trans firewall analytics",
     "2": "NOSQL DATA MANAGEMENT Introduction to NoSQL , aggregate data models ,aggregates ,key-value and document data models, relationships, graph databases, schema less databases ,materialized views,distribution models ,sharding , master-slave replication , peer-peer replication , sharding and replication , consistency , relaxing consistency , version stamps , map-reduce , partitioning and combining , composing map-reduce calculations",
@@ -1472,7 +1382,6 @@
     "5": "HADOOP RELATED TOOLS Hbase,data model and implementations, Hbase clients ,Hbase examples – praxis.Cassandra ,cassandra data model , cassandra examples , cassandra clients , Hadoop integration. Pig , Grunt , pig data model , Pig Latin , developing and testing Pig Latin scripts. Hive , data types and file formats , HiveQL data definition , HiveQL data manipulation – HiveQL queries"
    },
    "lectures_per_unit": 8,
-   "cos": [],
    "textbooks": [
     {
      "no": 1,
@@ -1512,9 +1421,9 @@
     }
    ],
    "quirks": [
-    "p.23 header prints 'NIT 067- BIG DATA' (dash after number, name in caps); elective list (p.3) prints 'Big Data'",
-    "books 4-7 print two items per line ('...2012. 5. Eric Sammer...')",
-    "print typos kept verbatim: 'Wily India' (textbook 2), 'O'Reilley' throughout, unspaced commas in unit topics, unit 4 ends 'output formats .' with space before period"
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.23); p.3 elective pool prints 'NIT 067: Big Data' vs heading 'NIT 067- BIG DATA' (code followed by hyphen in heading print)",
+    "verbatim missing-space print kept throughout units ('big data,why big data,convergence of key trends', 'praxis.Cassandra', etc.)",
+    "verbatim typos kept: 'Wily India', 'O'Reilley'"
    ],
    "flags": []
   },
@@ -1522,7 +1431,7 @@
    "name": "Industrial Management",
    "name_print": "Industrial Management",
    "codes": [
-    "NHU-601"
+    "NHU601"
    ],
    "semester": 6,
    "ltp": {
@@ -1538,24 +1447,21 @@
     "ese_te_pe": 50,
     "total": 75
    },
-   "subject_type": "core",
-   "page": "p.3 (scheme table row 6)",
-   "scheme_only": true,
-   "units": {},
-   "cos": [],
+   "subject_type": "theory",
    "quirks": [
-    "scheme-only row: no syllabus detail page (units/COs/books) printed for this subject anywhere in the PDF",
-    "scheme code printed as two cells 'NHU' + '601'"
+    "scheme row only: p.3 row 6 '6 NHU Industrial Management 2 0 0 15 10 25 50 75 2 (601)' — no unit theory, COs, or books printed anywhere in the document for this subject",
+    "Course-code cell wraps the token over two printed lines (page-image proof p.3, 2015-16 scheme table: 'NHU'/'601' stacked in one cell — visible print authoritative per RULES §6; linear text layer drops the wrapped token)"
    ],
    "flags": [
-    "scheme-only-row"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "code_cell_wrap_page_image_attested"
    ]
   },
   {
    "name": "Computer Networks Lab",
-   "name_print": "Computer Networks Lab",
+   "name_print": "NCS 651 Computer Networks Lab",
    "codes": [
-    "NCS-651"
+    "NCS651"
    ],
    "semester": 6,
    "ltp": {
@@ -1572,9 +1478,6 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.24",
-   "units": {},
-   "cos": [],
    "experiments": [
     {
      "no": 1,
@@ -1597,19 +1500,16 @@
      "exp": "Simulation of sliding window protocols"
     }
    ],
-   "notes": [
-    "no printed list heading on p.24; numbered list follows the name line directly"
-   ],
    "quirks": [
-    "p.24 prints code without dash: 'NCS 651'"
+    "p.24 list printed directly under heading with no label; 5 items"
    ],
    "flags": []
   },
   {
    "name": "Software Engineering Lab",
-   "name_print": "Software Engineering Lab",
+   "name_print": "NCS 652 Software Engineering Lab",
    "codes": [
-    "NCS-652"
+    "NCS652"
    ],
    "semester": 6,
    "ltp": {
@@ -1626,9 +1526,6 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.24",
-   "units": {},
-   "cos": [],
    "experiments": [
     {
      "no": 1,
@@ -1675,19 +1572,16 @@
      "exp": "Draw the deployment diagram."
     }
    ],
-   "notes": [
-    "printed preamble line before the list: 'For any given case/ problem statement do the following;'"
-   ],
    "quirks": [
-    "p.24 prints code without dash: 'NCS 652'"
+    "p.24 printed lead-in line before list: 'For any given case/ problem statement do the following;' (verbatim)"
    ],
    "flags": []
   },
   {
    "name": "Compiler Design Lab",
-   "name_print": "Compiler Design Lab",
+   "name_print": "NCS 653 Compiler Design Lab",
    "codes": [
-    "NCS-653"
+    "NCS653"
    ],
    "semester": 6,
    "ltp": {
@@ -1704,9 +1598,6 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.24",
-   "units": {},
-   "cos": [],
    "experiments": [
     {
      "no": 1,
@@ -1745,11 +1636,8 @@
      "exp": "Implementation of CODE GENERATOR"
     }
    ],
-   "notes": [
-    "no printed list heading on p.24; numbered list follows the name line directly"
-   ],
    "quirks": [
-    "p.24 prints code without dash: 'NCS 653'"
+    "p.24 list printed directly under heading with no label; keywords in ALL CAPS as printed"
    ],
    "flags": []
   },
@@ -1757,7 +1645,7 @@
    "name": "SEMINAR",
    "name_print": "SEMINAR",
    "codes": [
-    "NIT-654"
+    "NIT654"
    ],
    "semester": 6,
    "ltp": {
@@ -1772,25 +1660,21 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.3 (scheme table row 10)",
-   "scheme_only": true,
-   "units": {},
-   "cos": [],
    "quirks": [
-    "scheme-only row: no syllabus detail page printed for SEMINAR anywhere in the PDF",
-    "scheme row prints CT cell blank; TA 50, Sessional Total 50, ESE blank, Subject Total 50, Credit 1 (cell positions verified from page coordinates)",
-    "printed under section heading 'PRACTICAL/DESIGN/DRAWING'",
-    "scheme code printed as two cells 'NIT' + '654'"
+    "scheme row only: p.3 row 10 '10 NIT SEMINAR 0 0 2 [CT blank] 50 [Total] 50 [ESE blank] 50 (654)' — no unit theory/topics printed anywhere for the seminar",
+    "p.3 cell coordinates (fitz): '50' printed in the TA column (x≈344), '50' in Sessional-Total column, '50' in Subject-Total column; CT and ESE cells printed blank",
+    "Course-code cell wraps the token over two printed lines (page-image proof p.3, 2015-16 scheme table: 'NIT'/'654' stacked in one cell — visible print authoritative per RULES §6; linear text layer drops the wrapped token)"
    ],
    "flags": [
-    "scheme-only-row"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "code_cell_wrap_page_image_attested"
    ]
   },
   {
    "name": "GP",
    "name_print": "GP",
    "codes": [
-    "NGP-601"
+    "NGP601"
    ],
    "semester": 6,
    "marks": {
@@ -1798,56 +1682,50 @@
     "total": 50
    },
    "subject_type": "practical",
-   "page": "p.3 (scheme table row 11)",
-   "scheme_only": true,
-   "units": {},
-   "cos": [],
    "quirks": [
-    "scheme-only row: GP row prints L/T/P, CT/TA, ESE and Credit cells blank; only Sessional Total 50 and Subject Total 50 are printed",
-    "printed under section heading 'PRACTICAL/DESIGN/DRAWING'",
-    "expansion of 'GP' not printed in the document; code printed as two cells 'NGP' + '601'"
+    "scheme row only: p.3 row 11 '11 NGP GP [L/T/P blank] [CT/TA blank] 50(sessional total) [ESE blank] 50(subject total) [credit blank] (601)' — no unit theory/experiments printed anywhere",
+    "expansion of 'GP' not printed anywhere in the document (not expanded in print); L-T-P and credit cells printed blank",
+    "Course-code cell wraps the token over two printed lines (page-image proof p.3, 2015-16 scheme table: 'NGP'/'601' stacked in one cell — visible print authoritative per RULES §6; linear text layer drops the wrapped token)"
    ],
    "flags": [
-    "scheme-only-row"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "code_cell_wrap_page_image_attested"
    ]
   }
  ],
  "non_subject_rows": [
   {
-   "kind": "cover_title",
-   "print": "UTTAR PRADESH TECHNICAL UNIVERSITY LUCKNOW SYLLABUS Bachelor of Information Technology 3rd Year (V & VI Semester) (Effective from Session 2015-2016)",
+   "kind": "cover_print",
+   "print": "SYLLABUS — Bachelor of Information Technology — 3rd Year (V & VI Semester) — (Effective from Session 2015-2016)",
    "locator": "p.1"
   },
   {
-   "kind": "scheme_table_semester_v",
-   "print": "STUDY EVALUATION SCHEME | B. TECH. INFORMATION TECHNOLOGY | YEAR THIRD, SEMESTER –V | (Effective from the session : 2015-16) | Columns: S.No | Course Code | Subject | Periods L T P | Evaluation Scheme: Sessional CT TA Total | Exam ESE | Subject Total | Credit || THEORY SUBJECT || 1 | NCS-501 | Design and Analysis of Algorithm | 3 1 0 | 30 20 50 | 100 | 150 | 4 || 2 | NCS-502 | Database Management System | 3 1 0 | 30 20 50 | 100 | 150 | 4 || 3 | NCS-503 | Principle of Programming Language | 3 1 0 | 30 20 50 | 100 | 150 | 4 || 4 | NCS-504 | Web Technology | 3 1 0 | 30 20 50 | 100 | 150 | 4 || 5 | NIT-501 | Management Information System | 2 1 0 | 15 10 25 | 50 | 75 | 3 || 6 | NHU-501 | Engineering Economics | 2 0 0 | 15 10 25 | 50 | 75 | 2 || PRACTICAL/DESIGN/DRAWING || 7 | NCS-551 | Design and Analysis of Algorithm Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1 || 8 | NCS-552 | DBMS Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1 || 9 | NCS-553 | Principle of Programming Language Lab | 0 0 2 | 10 10 20 | 30 | 50 | 1 || 10 | NCS-554 | Web Technology Lab | 0 0 2 | 10 10 20 | 30 | 50 | 1 || 11 | NGP-501 | GP | (L/T/P blank) | (CT/TA blank) 50 | (ESE blank) | 50 | (credit blank) || TOTAL | 16 | 5 | 10 | | | 1000 | 25",
+   "kind": "scheme_table_semester_V",
+   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW — STUDY EVALUATION SCHEME — B. TECH. INFORMATION TECHNOLOGY — YEAR THIRD, SEMESTER –V — (Effective from the session : 2015-16). Header: S.No | Course Code | Subject | Periods L T P | Sessional CT TA Total | Exam ESE | Subject Total | Credit. Rows: 1 NCS-501 Design and Analysis of Algorithm 3 1 0 30 20 50 100 150 4; 2 NCS-502 Database Management System 3 1 0 30 20 50 100 150 4; 3 NCS-503 Principle of Programming Language 3 1 0 30 20 50 100 150 4; 4 NCS-504 Web Technology 3 1 0 30 20 50 100 150 4; 5 NIT-501 Management Information System 2 1 0 15 10 25 50 75 3; 6 NHU-501 Engineering Economics 2 0 0 15 10 25 50 75 2; PRACTICAL/DESIGN/DRAWING: 7 NCS-551 Design and Analysis of Algorithm Lab 0 0 3 10 10 20 30 50 1; 8 NCS-552 DBMS Lab 0 0 3 10 10 20 30 50 1; 9 NCS-553 Principle of Programming Language Lab 0 0 2 10 10 20 30 50 1; 10 NCS-554 Web Technology Lab 0 0 2 10 10 20 30 50 1; 11 NGP-501 GP [periods blank] 50 50 [credit blank]. TOTAL 16 5 10 1000 25",
    "locator": "p.2"
   },
   {
-   "kind": "scheme_table_semester_vi",
-   "print": "STUDY EVALUATION SCHEME | B. TECH. INFORMATION TECHNOLOGY | YEAR THIRD, SEMESTER –VI | (Effective from the session : 2015-16) | Columns: S.No | Course Code | Subject | Periods L T P | Evaluation Scheme: Sessional CT TA Total | Exam ESE | Subject Total | Credit || THEORY SUBJECT || 1 | NCS-601 | Computer Networks | 3 1 0 | 30 20 50 | 100 | 150 | 4 || 2 | NCS-602 | Software Engineering | 3 1 0 | 30 20 50 | 100 | 150 | 4 || 3 | NCS-603 | Compiler Design | 3 1 0 | 30 20 50 | 100 | 150 | 4 || 4 | (code blank) | Departmental Elective-I | 3 1 0 | 30 20 50 | 100 | 150 | 4 || 5 | (code blank) | Departmental Elective-II | 2 1 0 | 15 10 25 | 50 | 75 | 3 || 6 | NHU-601 | Industrial Management | 2 0 0 | 15 10 25 | 50 | 75 | 2 || PRACTICAL/DESIGN/DRAWING || 7 | NCS-651 | Computer Networks Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1 || 8 | NCS-652 | Software Engineering Lab | 0 0 3 | 10 10 20 | 30 | 50 | 1 || 9 | NCS-653 | Compiler Design Lab | 0 0 2 | 10 10 20 | 30 | 50 | 1 || 10 | NIT-654 | SEMINAR | 0 0 2 | (CT blank) 50 50 | (ESE blank) | 50 | 1 || 11 | NGP-601 | GP | (L/T/P blank) | (CT/TA blank) 50 | (ESE blank) | 50 | (credit blank) || TOTAL | 16 | 5 | 10 | | | 1000 | 25",
+   "kind": "scheme_table_semester_VI",
+   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW — STUDY EVALUATION SCHEME — B. TECH. INFORMATION TECHNOLOGY — YEAR THIRD, SEMESTER –VI — (Effective from the session : 2015-16). Header: S.No | Course Code | Subject | Periods L T P | Sessional CT TA Total | Exam ESE | Subject Total | Credit. Rows: 1 NCS-601 Computer Networks 3 1 0 30 20 50 100 150 4; 2 NCS-602 Software Engineering 3 1 0 30 20 50 100 150 4; 3 NCS-603 Compiler Design 3 1 0 30 20 50 100 150 4; 4 [no code] Departmental Elective-I 3 1 0 30 20 50 100 150 4; 5 [no code] Departmental Elective-II 2 1 0 15 10 25 50 75 3; 6 NHU-601 Industrial Management 2 0 0 15 10 25 50 75 2; PRACTICAL/DESIGN/DRAWING: 7 NCS-651 Computer Networks Lab 0 0 3 10 10 20 30 50 1; 8 NCS-652 Software Engineering Lab 0 0 3 10 10 20 30 50 1; 9 NCS-653 Compiler Design Lab 0 0 2 10 10 20 30 50 1; 10 NIT-654 SEMINAR 0 0 2 [CT blank] 50 50 [ESE blank] 50 1; 11 NGP-601 GP [periods blank] 50 50 [credit blank]. TOTAL 16 5 10 1000 25",
    "locator": "p.3"
   },
   {
-   "kind": "elective_pool_departmental_elective_i",
-   "print": "Departmental Elective-I | 1. NIT 061: Information Retrieval and Management | 2. NIT 062: Modeling & Simulation | 3.  NIT 063:  Bioinformatics | 4. NIT 064: Knowledge based & decision Support System | 5. NIT 065: Geographic Information System",
+   "kind": "elective_pool",
+   "print": "Departmental Elective-I — 1. NIT 061: Information Retrieval and Management; 2. NIT 062: Modeling & Simulation; 3. NIT 063: Bioinformatics; 4. NIT 064: Knowledge based & decision Support System; 5. NIT 065: Geographic Information System",
    "locator": "p.3"
   },
   {
-   "kind": "elective_pool_departmental_elective_ii",
-   "print": "Departmental Elective-II | 1. NCS 066: Data Warehousing & Data Mining | 2. NCS 070: Human Computer Interface | 3. NIT 066:  E‐Business Strategies | 4. NCS 067: Distributed Database | 5.  NIT 067:   Big Data",
+   "kind": "elective_pool",
+   "print": "Departmental Elective-II — 1. NCS 066: Data Warehousing & Data Mining; 2. NCS 070: Human Computer Interface; 3. NIT 066: E‐Business Strategies; 4. NCS 067: Distributed Database; 5. NIT 067: Big Data",
    "locator": "p.3"
   }
  ],
  "quirks": [
-  "course print: cover (p.1) prints 'Bachelor of Information Technology'; scheme pages print 'B. TECH. INFORMATION TECHNOLOGY'; canonical course recorded as BTech per RULES 1b (verbatim kept here)",
-  "no course outcomes (COs) and no K-levels are printed anywhere in this document; all subjects recorded with cos: []",
-  "no eligibility, prerequisites, MOOC rules or other policy notes are printed in this document",
-  "scheme tables (p.2/p.3) render as jumbled cell streams in the text layer; values reconstructed row-wise from word coordinates (PyMuPDF) and cross-checked against the page render",
-  "lab/seminar pages print codes without dash ('NCS 551', 'NIT 067- BIG DATA'); scheme tables split code into two cells ('NCS' + '551'); codes recorded in dashed form NCS-551 etc. (normalizes identically per RULES 2)",
-  "subject-detail names differ from scheme/elective-list prints in several places (recorded per subject): 'Design and Analysis of Algorithms' vs scheme 'Design and Analysis of Algorithm'; 'MANAGEMENT INFORMATION SYSTEMS' vs 'Management Information System'; 'Modelling and Simulation' vs list 'Modeling & Simulation'; 'Knowledge based decision Support System' vs list 'Knowledge based & decision Support System'; 'Human Computer Interaction' vs list 'Human Computer Interface'; 'BIG DATA' vs list 'Big Data'; p.9 lab name 'Principles of programming languages' lacks the word 'Lab'",
-  "line-wrap whitespace inside unit/book strings normalized to single spaces; all wording, punctuation and typos preserved verbatim",
-  "no 'H' code variants printed in this document (pre-K era NCS/NIT/NHU/NCS-lab/NGP codes only)"
+  "Course print: p.1 cover prints 'Bachelor of Information Technology'; pp.2-3 print 'B. TECH. INFORMATION TECHNOLOGY' — course recorded as BTech (canonical per RULES §1b; branch = Information Technology, not printed as a separate course name)",
+  "Course Code column in scheme tables prints the code split across two stacked cells (e.g. 'NCS' / '501'); page headings print codes with varying spacing ('NCS- 501', 'NCS-502', 'NIT 067- BIG DATA'); codes normalized here without spaces/dashes",
+  "No course outcomes (COs), K-levels, eligibility, prerequisites, or MOOC/NC rules are printed anywhere in this document — corresponding keys omitted everywhere (zero-guessing)",
+  "PyMuPDF text layer fragments the scheme tables (subject names line-broken, numeric cells interleaved); table rows were reconstructed from word coordinates (fitz get_text('words')) on pp.2-3; visible print treated as authoritative (RULES §6)",
+  "Justified-print wide word-spacing (esp. pp.21-23) normalized to single spaces during transcription; wording, punctuation and typos kept verbatim"
  ],
  "flags": []
 }

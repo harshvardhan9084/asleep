@@ -459,7 +459,17 @@ def main():
             pat = re.escape(m.group(1)) + r"[\s\-]*" + re.escape(m.group(2)) \
                   + (re.escape(m.group(3)) if m.group(3) else "")
             if not re.search(pat, full):
-                if c in ocr_codes or c in wrap_codes:
+                # v16 remedy (B28 evidence: doc 06 p.3 prints the CASE VARIANT
+                # 'NoE-044 Space Sciences' — visible print; the linear text
+                # layer carries the same case-variant token, which the
+                # case-sensitive tolerant search misses by oversight): a
+                # case-insensitive match attests the printed code; the
+                # verbatim case-variant print is recorded in the draft quirks
+                # (RULES §6 keeps print verbatim, normalization to canonical
+                # codes happens draft-side with the print kept in quirks).
+                if re.search(pat, full, re.I):
+                    orphan_warns.append(c)
+                elif c in ocr_codes or c in wrap_codes:
                     orphan_warns.append(c)
                 else:
                     orphans.append(c)
@@ -467,7 +477,7 @@ def main():
             problems.append("ORPHAN codes not in PDF: " + ",".join(orphans))
         if orphan_warns:
             warns.append("ORPHAN downgraded (evidence-flagged unit_ocr_recovered_no_text_layer / "
-                         "code_cell_wrap_page_image_attested print): "
+                         "code_cell_wrap_page_image_attested print / v16 case-variant print): "
                          + ",".join(sorted(orphan_warns)))
 
         if problems:

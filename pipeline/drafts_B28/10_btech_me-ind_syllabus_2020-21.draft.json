@@ -1120,48 +1120,57 @@
    "textbooks": [
     {
      "no": 1,
-     "book": "A Course in International Combustion Engines, by Mathur& Sharma, DhanpatRai& Sons. (printed as item '3.')"
+     "book": "A Course in International Combustion Engines, by Mathur& Sharma, DhanpatRai& Sons."
     },
     {
      "no": 2,
-     "book": "Fuels and combustion, Sharma and Chander Mohan, Tata McGraw Hill (printed as item '4.')"
+     "book": "Fuels and combustion, Sharma and Chander Mohan, Tata McGraw Hill"
     },
     {
      "no": 3,
-     "book": "I.C Engine, by Ganeshan, Tata McGraw Hill Publishers. (printed as item '5.')"
+     "book": "I.C Engine, by Ganeshan, Tata McGraw Hill Publishers."
     }
    ],
    "reference_books": [
     {
      "no": 1,
-     "book": "I.C Engine Analysis & Practice by E.F Obert. (printed as item '7.')"
+     "book": "I.C Engine Analysis & Practice by E.F Obert."
     },
     {
      "no": 2,
-     "book": "Internal Combustion Engine Fundamentals, by John B. Heywood, Tata Mcgraw Hill Publishers. (printed as item '8.')"
+     "book": "Internal Combustion Engine Fundamentals, by John B. Heywood, Tata Mcgraw Hill Publishers."
     },
     {
      "no": 3,
-     "book": "Engine Emission, by B. B. Pundir, Narosa Publication. (printed as item '9.')"
+     "book": "Engine Emission, by B. B. Pundir, Narosa Publication."
     },
     {
      "no": 4,
-     "book": "Engineering Fundamentals of Internal Combustion Engines by W.W. Pulkrabek, Pearson Education. (printed as item '10.')"
+     "book": "Engineering Fundamentals of Internal Combustion Engines by W.W. Pulkrabek, Pearson Education."
     },
     {
      "no": 5,
-     "book": "Fundamentals of Internal Combustion Engine by Gill, Smith, Ziurs, Oxford & IBH Publishing CO. (printed as item '11.')"
+     "book": "Fundamentals of Internal Combustion Engine by Gill, Smith, Ziurs, Oxford & IBH Publishing CO."
     },
     {
      "no": 6,
-     "book": "Fundamentals of Internal Combustion Engines by H.N. Gupta, Prentice Hall of India. (printed as item '12.')"
+     "book": "Fundamentals of Internal Combustion Engines by H.N. Gupta, Prentice Hall of India."
     }
    ],
    "quirks": [
     "p.24 header line: 'Semester – V: Departmental Elective – I: Specialization – Automobile Engineering' + 'Proposed By MIET'",
     "pp.24-25: book list numbering continues from previous subject (Text Books numbered '3., 4., 5.'; Reference Books numbered '7.‐12.') — numbering as printed, renumbered 1..n in draft",
     "pp.24-25: Unit‐IV heading + '(9 Hours)' marker printed at bottom of p.24, content continues p.25",
-    "p.24: 'Subject Code: KAU  051' block printed at page bottom (double space, verbatim)"
+    "p.24: 'Subject Code: KAU  051' block printed at page bottom (double space, verbatim)",
+    "Book-list print carries draft-side numbering annotation (printed as item '3.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '4.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '5.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '7.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '8.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '9.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '10.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '11.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '12.') — base print verbatim in book field (cross-subject continuing numbering evidence)"
    ],
    "flags": []
   },
@@ -1891,37 +1900,44 @@
    "reference_books": [
     {
      "no": 1,
-     "book": "Principles of Machine Tools by G.C. Sen and A. Bhattacharya, Central Book Agency (printed as item '2.')"
+     "book": "Principles of Machine Tools by G.C. Sen and A. Bhattacharya, Central Book Agency"
     },
     {
      "no": 2,
-     "book": "Design of Machine Tools by D. K Pal and S. K. Basu, Allied Publishers (printed as item '3.')"
+     "book": "Design of Machine Tools by D. K Pal and S. K. Basu, Allied Publishers"
     },
     {
      "no": 3,
-     "book": "Machine Tool Design, Vol. I, II, III and IV, N. S. Acherkhan, Mir Publishers (printed as item '4.')"
+     "book": "Machine Tool Design, Vol. I, II, III and IV, N. S. Acherkhan, Mir Publishers"
     },
     {
      "no": 4,
-     "book": "Jigs and Fixtures, by Joshi, Tata McGraw Hill, New Delhi. (printed as item '5.')"
+     "book": "Jigs and Fixtures, by Joshi, Tata McGraw Hill, New Delhi."
     },
     {
      "no": 5,
-     "book": "Theory and Application of Metal Cutting, by Juneja, Wiley Eastern Ltd (printed as item '6.')"
+     "book": "Theory and Application of Metal Cutting, by Juneja, Wiley Eastern Ltd"
     },
     {
      "no": 6,
-     "book": "Basic Die Making & Advance Die Making by D. Eugene Ostergaard, McGraw Hill (printed as item '7.')"
+     "book": "Basic Die Making & Advance Die Making by D. Eugene Ostergaard, McGraw Hill"
     },
     {
      "no": 7,
-     "book": "Injection Mould Design by R.G.W Pye, Longman Scientific & Technical Publishers. (printed as item '8.')"
+     "book": "Injection Mould Design by R.G.W Pye, Longman Scientific & Technical Publishers."
     }
    ],
    "quirks": [
     "pp.39-40: CO table printed mid-document (p.39 after Unit‐4 start; Unit‐4 continues on p.40)",
     "p.39 CO3 and CO4 print identical text 'Design the dies for casting and injection moulding processes.' (duplicate verbatim)",
-    "p.40: Reference Books numbered '2.‐8.' continuing after Text Book '1.' (print numbering verbatim, renumbered 1..n in draft)"
+    "p.40: Reference Books numbered '2.‐8.' continuing after Text Book '1.' (print numbering verbatim, renumbered 1..n in draft)",
+    "Book-list print carries draft-side numbering annotation (printed as item '2.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '3.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '4.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '5.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '6.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '7.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '8.') — base print verbatim in book field (cross-subject continuing numbering evidence)"
    ],
    "flags": []
   },
@@ -1964,48 +1980,50 @@
    "experiments": [
     {
      "no": 1,
-     "exp": "[A. Design of Machine Elements] Design a knuckle joint subjected to given tensile load."
+     "exp": "Design a knuckle joint subjected to given tensile load."
     },
     {
      "no": 2,
-     "exp": "[A. Design of Machine Elements] Design a riveted joint subjected to given eccentric load."
+     "exp": "Design a riveted joint subjected to given eccentric load."
     },
     {
      "no": 3,
-     "exp": "[A. Design of Machine Elements] Design of shaft subjected to combined constant twisting and bending loads"
+     "exp": "Design of shaft subjected to combined constant twisting and bending loads"
     },
     {
      "no": 4,
-     "exp": "[A. Design of Machine Elements] Design a transverse fillet welded joint subjected to given tensile load."
+     "exp": "Design a transverse fillet welded joint subjected to given tensile load."
     },
     {
      "no": 5,
-     "exp": "[A. Design of Machine Elements] Design & select suitable Rolling Contact Bearing for a shaft with given specifications"
+     "exp": "Design & select suitable Rolling Contact Bearing for a shaft with given specifications"
     },
     {
      "no": 6,
-     "exp": "[A. Design of Machine Elements] Design a cylinder head of an IC Engine with prescribed parameters."
+     "exp": "Design a cylinder head of an IC Engine with prescribed parameters."
     },
     {
      "no": 7,
-     "exp": "[A. Design of Machine Elements] Design of Piston & its parts of an IC Engine"
+     "exp": "Design of Piston & its parts of an IC Engine"
     },
     {
      "no": 8,
-     "exp": "[B. Computer Programs for conventional design] Design a pair of Spur Gear with given specifications to determine its various dimensions using Computer Program in C/C++."
+     "exp": "Design a pair of Spur Gear with given specifications to determine its various dimensions using Computer Program in C/C++."
     },
     {
      "no": 9,
-     "exp": "[B. Computer Programs for conventional design] Design a pair of Helical Gear with given specifications to determine its various dimensions using Computer Program in C/C++."
+     "exp": "Design a pair of Helical Gear with given specifications to determine its various dimensions using Computer Program in C/C++."
     },
     {
      "no": 10,
-     "exp": "[B. Computer Programs for conventional design] Design of Sliding Contact Bearing with given specifications & determine its various parameters using Computer Program in C/C++."
+     "exp": "Design of Sliding Contact Bearing with given specifications & determine its various parameters using Computer Program in C/C++."
     }
    ],
    "quirks": [
     "p.41: experiment list printed in two sections 'A. Design of Machine Elements' (7 items) and 'B. Computer Programs for conventional design' (3 items); section labels prefixed in square brackets in draft; section B intro printed: 'Computer and Language:Students are required to learn the basics of computer language such as C/C++/MATLAB so that they should be able to write the computer program.'",
-    "p.41: no unit theory printed (lab subject)"
+    "p.41: no unit theory printed (lab subject)",
+    "Experiment list prints the section heading 'A. Design of Machine Elements' grouping 7 printed items — section label kept here, base item print verbatim in exp fields",
+    "Experiment list prints the section heading 'B. Computer Programs for conventional design' grouping 3 printed items — section label kept here, base item print verbatim in exp fields"
    ],
    "flags": []
   },
@@ -2402,21 +2420,24 @@
    "reference_books": [
     {
      "no": 1,
-     "book": "Elaine Rich and Kevin Knight, “Artificial Intelligence”, McGraw‐Hill (printed as item '2.')"
+     "book": "Elaine Rich and Kevin Knight, “Artificial Intelligence”, McGraw‐Hill"
     },
     {
      "no": 2,
-     "book": "E Charniak and D McDermott, “Introduction to Artificial Intelligence”, Pearson Education (printed as item '3.')"
+     "book": "E Charniak and D McDermott, “Introduction to Artificial Intelligence”, Pearson Education"
     },
     {
      "no": 3,
-     "book": "Dan W. Patterson, “Artificial Intelligence and Expert Systems”, Prentice Hall of India, (printed as item '4.')"
+     "book": "Dan W. Patterson, “Artificial Intelligence and Expert Systems”, Prentice Hall of India,"
     }
    ],
    "quirks": [
     "p.46: CO table header prints 'Bloom's Taxonomy' (apostrophe variant); CO4 prints double space 'Apply  concepts'",
     "pp.46-47: unit hour markers print '(9Hours)' etc. without space; Reference Books numbered '2.‐4.' continuing after Text Book '1.' (print numbering verbatim)",
-    "p.46 unit 1 prints 'Agents,and' (missing space); p.46 unit 5 prints 'Recognition.Robotics:' (missing space) — verbatim"
+    "p.46 unit 1 prints 'Agents,and' (missing space); p.46 unit 5 prints 'Recognition.Robotics:' (missing space) — verbatim",
+    "Book-list print carries draft-side numbering annotation (printed as item '2.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '3.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '4.') — base print verbatim in book field (cross-subject continuing numbering evidence)"
    ],
    "flags": []
   },
@@ -2837,32 +2858,38 @@
    "reference_books": [
     {
      "no": 1,
-     "book": "Refrigeration and Air conditioning by stoecker& Jones. McGraw‐Hill (printed as item '2.')"
+     "book": "Refrigeration and Air conditioning by stoecker& Jones. McGraw‐Hill"
     },
     {
      "no": 2,
-     "book": "Refrigeration and Air conditioning, by Manohar Prasad, New Age International (P) Ltd.Pub. (printed as item '3.')"
+     "book": "Refrigeration and Air conditioning, by Manohar Prasad, New Age International (P) Ltd.Pub."
     },
     {
      "no": 3,
-     "book": "ASHRAE Handbook ( HVAC Equipments) (printed as item '4.')"
+     "book": "ASHRAE Handbook ( HVAC Equipments)"
     },
     {
      "no": 4,
-     "book": "Refrigeration and Air conditioning by R. C. Arora, PHI (printed as item '5.')"
+     "book": "Refrigeration and Air conditioning by R. C. Arora, PHI"
     },
     {
      "no": 5,
-     "book": "Refrigeration and Air conditioning by Arora&Domkundwar. DhanpatRai (printed as item '6.')"
+     "book": "Refrigeration and Air conditioning by Arora&Domkundwar. DhanpatRai"
     },
     {
      "no": 6,
-     "book": "Air Conditioning System Design Manual, IInd edition, ASHRAE. (printed as item '7.')"
+     "book": "Air Conditioning System Design Manual, IInd edition, ASHRAE."
     }
    ],
    "quirks": [
     "p.57: Reference Books numbered '2.‐7.' continuing after Text Book '1.' (print numbering verbatim)",
-    "p.56 unit I prints 'cycle.Presentation' (missing space, verbatim)"
+    "p.56 unit I prints 'cycle.Presentation' (missing space, verbatim)",
+    "Book-list print carries draft-side numbering annotation (printed as item '2.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '3.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '4.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '5.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '6.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '7.') — base print verbatim in book field (cross-subject continuing numbering evidence)"
    ],
    "flags": []
   },
@@ -3010,59 +3037,59 @@
    "reference_books": [
     {
      "no": 1,
-     "book": "A Ghosh and A K Mallik: Manufacturing Science, East‐West Press Pvt Ltd,2nd Ed., 2010. (printed as item '21.')"
+     "book": "A Ghosh and A K Mallik: Manufacturing Science, East‐West Press Pvt Ltd,2nd Ed., 2010."
     },
     {
      "no": 2,
-     "book": "D A Brandt, J C Warner: Metallurgy Fundamentals, Goodheart‐ Willcox, 2009. (printed as item '22.')"
+     "book": "D A Brandt, J C Warner: Metallurgy Fundamentals, Goodheart‐ Willcox, 2009."
     },
     {
      "no": 3,
-     "book": "C LakshmanaRao and Abhijit P Deshpande: Modelling of Engineering Materials, Ane Books Pvt. Ltd., New Delhi, India, 2010. (printed as item '23.')"
+     "book": "C LakshmanaRao and Abhijit P Deshpande: Modelling of Engineering Materials, Ane Books Pvt. Ltd., New Delhi, India, 2010."
     },
     {
      "no": 4,
-     "book": "J. Chakrabarty: Theory of plasticity, 3rd Eds, Elsevier India,2009. (printed as item '24.')"
+     "book": "J. Chakrabarty: Theory of plasticity, 3rd Eds, Elsevier India,2009."
     },
     {
      "no": 5,
-     "book": "Norman Y Zhou: Microjoining and Nanoioining, Woodhead publishing, 2008 (printed as item '25.')"
+     "book": "Norman Y Zhou: Microjoining and Nanoioining, Woodhead publishing, 2008"
     },
     {
      "no": 6,
-     "book": "R W Messler: Principles of Welding John Wiley and Sons, 1999. (printed as item '26.')"
+     "book": "R W Messler: Principles of Welding John Wiley and Sons, 1999."
     },
     {
      "no": 7,
-     "book": "J T Black and Ronald A Kohser: DeGarmo's Materials & processes in Manufacturing Wiley‐India, 2010. (printed as item '27.')"
+     "book": "J T Black and Ronald A Kohser: DeGarmo's Materials & processes in Manufacturing Wiley‐India, 2010."
     },
     {
      "no": 8,
-     "book": "V K Jain: Advanced Machining Processes, Allied Publishers, Mumbai, 2002. (printed as item '28.')"
+     "book": "V K Jain: Advanced Machining Processes, Allied Publishers, Mumbai, 2002."
     },
     {
      "no": 9,
-     "book": "Yi Qin: Micromanufacturing Engineering and Technology, Elsevier, 2015. (printed as item '29.')"
+     "book": "Yi Qin: Micromanufacturing Engineering and Technology, Elsevier, 2015."
     },
     {
      "no": 10,
-     "book": "J Zhang and Yeon‐Gil Jung: Additive Manufacturing: Materials, Processes, Quantifications and Applications, Elsevier, 2018. (printed as item '30.')"
+     "book": "J Zhang and Yeon‐Gil Jung: Additive Manufacturing: Materials, Processes, Quantifications and Applications, Elsevier, 2018."
     },
     {
      "no": 11,
-     "book": "J ADantzig and M Rappaz: Solidification, CRS press, 2009. (printed as item '31.')"
+     "book": "J ADantzig and M Rappaz: Solidification, CRS press, 2009."
     },
     {
      "no": 12,
-     "book": "J.N. Kapur, Mathematical Models in Biology and Medicine, East‐West Press Private limited. (printed as item '32.')"
+     "book": "J.N. Kapur, Mathematical Models in Biology and Medicine, East‐West Press Private limited."
     },
     {
      "no": 13,
-     "book": "Leah, Edelstein, Keshet, Mathematical Models in Biology, SIAM publications. (printed as item '33.')"
+     "book": "Leah, Edelstein, Keshet, Mathematical Models in Biology, SIAM publications."
     },
     {
      "no": 14,
-     "book": "J.D. Murray, Mathematical Biology Vol. I, II, 3rd edition, Springer publications. (printed as item '34.')"
+     "book": "J.D. Murray, Mathematical Biology Vol. I, II, 3rd edition, Springer publications."
     }
    ],
    "quirks": [
@@ -3070,7 +3097,21 @@
     "p.60 CO5 table cell prints each word on separate line ('Evaluate / microstructure / properties / and / residual / stress / of / different / manufacturing processes.') — column wrapping artifact",
     "pp.60-61: Unit‐5 continues on p.61 with 'Processing of non‐metallic materials;' paragraph",
     "p.61: 'Related Course's / Useful Links' printed: 1. https://swayam.gov.in/nd1_noc20_hs79/preview 2. https://swayam.gov.in/nd1_noc19_me47/preview 3. https://nptel.ac.in/content/syllabus_pdf/112103273.pdf 4. https://swayam.gov.in/nd1_noc20_ma47/preview",
-    "p.61 book 25 prints 'Nanoioining' (typo verbatim)"
+    "p.61 book 25 prints 'Nanoioining' (typo verbatim)",
+    "Book-list print carries draft-side numbering annotation (printed as item '21.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '22.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '23.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '24.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '25.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '26.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '27.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '28.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '29.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '30.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '31.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '32.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '33.') — base print verbatim in book field (cross-subject continuing numbering evidence)",
+    "Book-list print carries draft-side numbering annotation (printed as item '34.') — base print verbatim in book field (cross-subject continuing numbering evidence)"
    ],
    "flags": []
   },

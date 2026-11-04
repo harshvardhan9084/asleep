@@ -7,7 +7,7 @@
  "subjects": [
   {
    "name": "Digital Logic Design",
-   "name_print": "Digital Logic Design",
+   "name_print": "ECS-301 : Digital Logic Design",
    "codes": [
     "ECS-301"
    ],
@@ -26,6 +26,8 @@
     "total": 150
    },
    "subject_type": "core",
+   "scheme_line_print": "SN1 | ECS-301 | Digital Logic Design | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.2 (Semester-III scheme row 1); p.4 (syllabus)",
    "units": {
     "1": "Digital system and binary numbers: : Signed binary numbers, binary codes, cyclic codes, error detecting and correcting codes, hamming codes. Floating point representation Gate-level minimization: The map method up to five variable, don’t care conditions, POS simplification, NAND and NOR implementation, Quine Mc-Clusky method (Tabular method).",
     "2": "Combinational Logic: Combinational circuits, analysis procedure, design procedure, binary adder-subtractor, decimal adder, binary multiplier, magnitude comparator, decoders, encoders, multiplexers",
@@ -33,6 +35,7 @@
     "4": "Memory and programmable logic: RAM, ROM, PLA, PAL. Design at the register transfer level: ASMs, design example, design with multiplexers.",
     "5": "Asynchronous sequential logic: Analysis procedure, circuit with latches, design procedure, reduction of state and flow table, race free state assignment, hazards."
    },
+   "textbooks_heading_print": "Text Book:",
    "textbooks": [
     {
      "no": 1,
@@ -40,14 +43,15 @@
     }
    ],
    "quirks": [
-    "Syllabus block (p.4) prints no L-T-P line and no marks; L-T-P 3-1-0, credits 4 and marks 30/20/50/100/150 taken from Semester-III scheme table row 1 (p.2).",
-    "Unit-I prints doubled colon: 'Digital system and binary numbers: :' (kept verbatim)."
+    "Unit-I prints double colon 'Digital system and binary numbers: : Signed binary numbers' — as printed.",
+    "'Quine Mc-Clusky method' spelling — as printed.",
+    "No L-T-P printed in the syllabus section itself; no reference books list printed."
    ],
    "flags": []
   },
   {
-   "name": "MATHEMATICS –III",
-   "name_print": "MATHEMATICS –III",
+   "name": "Mathematics-III",
+   "name_print": "EAS-301: MATHEMATICS –III",
    "codes": [
     "EAS-301"
    ],
@@ -66,13 +70,24 @@
     "total": 150
    },
    "subject_type": "core",
+   "scheme_line_print": "SN2 | EAS-301 | Mathematics-III | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.2 (Semester-III scheme row 2); pp.4-5 (syllabus)",
+   "unit_heading_print": "Unit – I : <title> / Unit – II : <title> ... (printed unit labels with titles)",
    "units": {
-    "1": "Function of Complex variable Analytic function, C-R equations, Cauchy’s integral theorem, Cauchy’s integral formula for derivatives of analytic function, Taylor’s and Laurent’s series, singularities, Residue theorem, Evaluation of real integrals of the type  and 10",
-    "2": "Statistical Techniques - I Moments, Moment generating functions, Skewness, Kurtosis, Curve fitting, Method of least squares, Fitting of straight lines, Polynomials, Exponential curves etc., Correlation, Linear, non –linear and multiple regression analysis, Probability theory. 08",
-    "3": "Statistical Techniques - II Binomial, Poisson and Normal distributions, Sampling theory (small and large), Tests of significations: Chi-square test, t-test, Analysis of variance (one way) , Application to engineering, medicine, agriculture etc. Time series and forecasting (moving and semi-averages), Statistical quality control methods, Control charts, , R, p, np, and c charts. 08",
-    "4": "Numerical Techniques – I Zeroes of transcendental and polynomial equation using Bisection method, Regula-falsi method and Newton-Raphson method, Rate of convergence of above methods. Interpolation: Finite differences, difference tables, Newton’s forward and backward interpolation , Lagrange’s and Newton’s divided difference formula for unequal intervals. 08",
-    "5": "Numerical Techniques –II Solution of system of linear equations, Gauss- Seidal method, Crout method. Numerical differentiation, Numerical integration , Trapezoidal , Simpson’s one third and three-eight rules, Solution of ordinary differential (first order, second order and simultaneous) equations by Euler’s, Picard’s and forth-order Runge- Kutta mehthods. 08"
+    "1": "Function of Complex variable — Analytic function, C-R equations, Cauchy’s integral theorem, Cauchy’s integral formula for derivatives of analytic function, Taylor’s and Laurent’s series, singularities, Residue theorem, Evaluation of real integrals of the type",
+    "2": "Statistical Techniques - I — Moments, Moment generating functions, Skewness, Kurtosis, Curve fitting, Method of least squares, Fitting of straight lines, Polynomials, Exponential curves etc., Correlation, Linear, non –linear and multiple regression analysis, Probability theory.",
+    "3": "Statistical Techniques - II — Binomial, Poisson and Normal distributions, Sampling theory (small and large), Tests of significations: Chi-square test, t-test, Analysis of variance (one way) , Application to engineering, medicine, agriculture etc. Time series and forecasting (moving and semi-averages), Statistical quality control methods, Control charts, , R, p, np, and c charts.",
+    "4": "Numerical Techniques – I — Zeroes of transcendental and polynomial equation using Bisection method, Regula-falsi method and Newton-Raphson method, Rate of convergence of above methods. Interpolation: Finite differences, difference tables, Newton’s forward and backward interpolation , Lagrange’s and Newton’s divided difference formula for unequal intervals.",
+    "5": "Numerical Techniques –II — Solution of system of linear equations, Gauss- Seidal method, Crout method. Numerical differentiation, Numerical integration , Trapezoidal , Simpson’s one third and three-eight rules, Solution of ordinary differential (first order, second order and simultaneous) equations by Euler’s, Picard’s and forth-order Runge- Kutta mehthods."
    },
+   "lectures_per_unit": {
+    "1": "10",
+    "2": "08",
+    "3": "08",
+    "4": "08",
+    "5": "08"
+   },
+   "textbooks_heading_print": "Test Books :-",
    "textbooks": [
     {
      "no": 1,
@@ -87,6 +102,7 @@
      "book": "J.N. Kapur, Mathematical Statistics, S. Chand & company Ltd.,2000"
     }
    ],
+   "reference_books_heading_print": "Reference Books :-",
    "reference_books": [
     {
      "no": 1,
@@ -110,17 +126,46 @@
     }
    ],
    "quirks": [
-    "Printed textbook-list heading is 'Test Books :-' (sic, kept verbatim).",
-    "Unit-I prints two integral formulas as embedded bitmap images (after 'real integrals of the type' and after 'and') that the text layer cannot decode; OCR of the ~126x23px bitmaps failed, so the formulas are NOT transcribed (zero-guessing).",
-    "Printed per-unit lecture-hour counts retained at the end of each unit text (Unit-I: 10; Units II–V: 08).",
-    "Syllabus heading prints 'EAS-301: MATHEMATICS –III' with 'L T P 3 1 0'; the scheme table (p.2) prints the name as 'Mathematics-III'.",
-    "Unit-V prints 'mehthods' (sic) and 'Gauss- Seidal' (sic); Unit-III prints doubled comma 'Control charts, , R' (sic) — all kept verbatim."
+    "Unit-I ends 'Evaluation of real integrals of the type ... and ...' where the two integral formulas are printed as non-text equation objects (p.4) — recorded as bracketed markers, zero guessing.",
+    "Per-unit lecture counts printed and kept verbatim: Unit-I '10', Units II-V '08' each.",
+    "Typos as printed: 'Gauss- Seidal', 'mehthods', 'significations', 'Control charts, , R' (double comma), 'non –linear', 'Test Books :-' heading spelling, 'J.N. Kapur ... Ltd.,2000' missing space."
    ],
    "flags": []
   },
   {
-   "name": "DATA STRUCTURES USING - C",
-   "name_print": "DATA STRUCTURES USING - C",
+   "name": "Industrial Psychology/ Industrial Sociology",
+   "name_print": "EHU-301/ EHU-302 Industrial Psychology/ Industrial Sociology",
+   "codes": [
+    "EHU-301",
+    "EHU-302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "scheme_line_print": "SN3 | EHU-301/ EHU-302 | Industrial Psychology/ Industrial Sociology | L:2 T:0 P:0 | CT:15 TA:10 CT+TA:25 ESE:50 | Subject Total:75 | Credits:2",
+   "locator": "p.2 (Semester-III scheme row 3)",
+   "quirks": [
+    "Only the scheme row is printed for this subject (p.2); no unit theory, books, experiments or COs appear anywhere in the document — scheme_row_only_detailed_syllabus_not_printed (page-citing quirk)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Data Structures Using C",
+   "name_print": "ECS-302 : DATA STRUCTURES USING - C",
    "codes": [
     "ECS-302"
    ],
@@ -139,6 +184,8 @@
     "total": 150
    },
    "subject_type": "core",
+   "scheme_line_print": "SN4 | ECS-302 | Data Structures Using C | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.2 (Semester-III scheme row 4); pp.6-7 (syllabus)",
    "units": {
     "1": "Introduction: Basic Terminology, Elementary Data Organization, Algorithm, Efficiency of an Algorithm, Time and Space Complexity, Asymptotic notations: Big-Oh, Time-Space trade-off. Abstract Data Types (ADT) Arrays: Definition, Single and Multidimensional Arrays, Representation of Arrays: Row Major Order, and Column Major Order, Application of arrays, Sparse Matrices and their representations. Linked lists: Array Implementation and Dynamic Implementation of Singly Linked Lists, Doubly Linked List, Circularly Linked List, Operations on a Linked List. Insertion, Deletion, Traversal, Polynomial Representation and Addition, Generalized Linked List .",
     "2": "Stacks: Abstract Data Type, Primitive Stack operations: Push & Pop, Array and Linked Implementation of Stack in C, Application of stack: Prefix and Postfix Expressions, Evaluation of postfix expression, Recursion, Tower of Hanoi Problem, Simulating Recursion, Principles of recursion, Tail recursion, Removal of recursion Queues, Operations on Queue: Create, Add, Delete, Full and Empty, Circular queues, Array and linked implementation of queues in C, Dequeue and Priority Queue.",
@@ -146,42 +193,42 @@
     "4": "Graphs: Terminology, Sequential and linked Representations of Graphs: Adjacency Matrices, Adjacency List, Adjacency Multi list, Graph Traversal : Depth First Search and Breadth First Search, Connected Component, Spanning Trees, Minimum Cost Spanning Trees: Prims and Kruskal algorithm. Transistive Closure and Shortest Path algorithm: Warshal Algorithm and Dijikstra Algorithm, Introduction to Activity Networks",
     "5": "Searching : Sequential search, Binary Search, Comparison and Analysis Internal Sorting: Insertion Sort, Selection, Bubble Sort, Quick Sort, Two Way Merge Sort, Heap Sort, Radix Sort, Practical consideration for Internal Sorting. Search Trees: Binary Search Trees(BST), Insertion and Deletion in BST, Complexity of Search Algorithm, AVL trees, Introduction to m-way Search Trees, B Trees & B+ Trees Hashing: Hash Function, Collision Resolution Strategies Storage Management: Garbage Collection and Compaction."
    },
+   "textbooks_heading_print": "Text books and References:",
    "textbooks": [
     {
      "no": 1,
-     "book": "Aaron M. Tenenbaum, Yedidyah Langsam and Moshe J. Augenstein \"Data Structures Using C and C++\" , PHI"
+     "book": "Aaron M. Tenenbaum, Yedidyah Langsam and Moshe J. Augenstein “Data Structures Using C and C++” , PHI"
     },
     {
      "no": 2,
-     "book": "Horowitz and Sahani, \"Fundamentals of Data Structures\", Galgotia Publication"
+     "book": "Horowitz and Sahani, “Fundamentals of Data Structures”, Galgotia Publication"
     },
     {
      "no": 3,
-     "book": "Jean Paul Trembley and Paul G. Sorenson, \"An Introduction to Data Structures with applications\", McGraw Hill"
+     "book": "Jean Paul Trembley and Paul G. Sorenson, “An Introduction to Data Structures with applications”, McGraw Hill"
     },
     {
      "no": 4,
-     "book": "R. Kruse etal, \"Data Structures and Program Design in C\", Pearson Education"
+     "book": "R. Kruse etal, “Data Structures and Program Design in C”, Pearson Education"
     },
     {
      "no": 5,
-     "book": "Lipschutz, \"Data Structures\" Schaum’s Outline Series, TMH"
+     "book": "Lipschutz, “Data Structures” Schaum’s Outline Series, TMH"
     },
     {
      "no": 6,
-     "book": "G A V Pai, \"Data Structures and Algorithms\", TMH"
+     "book": "G A V Pai, “Data Structures and Algorithms”, TMH"
     }
    ],
    "quirks": [
-    "Books are printed under a single combined heading 'Text books and References:' with no separate text/reference split; all 6 printed items recorded under textbooks.",
-    "Unit-IV prints 'Transistive Closure' (sic), 'Warshal Algorithm' (sic), 'Dijikstra Algorithm' (sic) — kept verbatim.",
-    "Syllabus block (p.6) prints L T P 3 1 0; marks/credits from Semester-III scheme table row 4 (p.2). Scheme table prints name as 'Data Structures Using C'."
+    "Book list printed under single combined heading 'Text books and References:' (no separate reference list) — all 6 items recorded under textbooks.",
+    "Typos as printed: 'Transistive Closure', 'Warshal Algorithm', 'Dijikstra Algorithm', 'Horowitz and Sahani', 'R. Kruse etal', 'Generalized Linked List .' trailing period after space."
    ],
    "flags": []
   },
   {
    "name": "Object Oriented Systems",
-   "name_print": "Object Oriented Systems",
+   "name_print": "ECS-305 : Object Oriented Systems",
    "codes": [
     "ECS-305"
    ],
@@ -200,6 +247,8 @@
     "total": 150
    },
    "subject_type": "core",
+   "scheme_line_print": "SN5 | ECS-305 | Object Oriented Systems | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.2 (Semester-III scheme row 5); p.7 (syllabus)",
    "units": {
     "1": "Object Modeling: Objects and classes, links and association, generalization and inheritance, aggregation, abstract class, multiple inheritance, meta data, candidate keys, constraints.",
     "2": "Dynamic Modeling: Events and states, operations, nested state diagrams and concurrency, advanced dynamic modeling concepts, a sample dynamic model.",
@@ -207,6 +256,7 @@
     "4": "Java Programming: Introduction, Operator, Data types, Variables, Methods & Classes, Multithread Programming, I/O, Java Applet. Java Library: String Handling, Input/Output exploring Java.io, Networking, Applets classes, Event Handling, Introduction to AWT, Working with window, Graphics, AWT Controls, Layout Manager and Menus, Images, Additional packages.",
     "5": "Software Development using Java: Java Beans, Java Swing, Java Servlets, Migrating from C++ to java, Application of java, Dynamic Billboard Applet, Image Menu: An image based menu, Lavatron Applets, Scrabblets, JDBC, Brief functioning of upper layer E-mail and their applications."
    },
+   "textbooks_heading_print": "Text Books:",
    "textbooks": [
     {
      "no": 1,
@@ -221,6 +271,7 @@
      "book": "E. Balagurusamy, “Programming in JAVA”, TMH."
     }
    ],
+   "reference_books_heading_print": "References:",
    "reference_books": [
     {
      "no": 1,
@@ -236,14 +287,13 @@
     }
    ],
    "quirks": [
-    "Unit-III prints 'model.OMT' with no space after the full stop (kept verbatim).",
-    "Syllabus block (p.7) prints L T P 3 1 0; marks/credits from Semester-III scheme table row 5 (p.2)."
+    "Typos as printed: 'model.OMT' missing space after period (Unit-III), 'Herbert Schieldt', 'James Rumbaugh etal', 'Booch Grady' inverted name order."
    ],
    "flags": []
   },
   {
-   "name": "INFORMATION TECHNOLOGY INFRASTRUCTURE AND ITS MANAGEMENT",
-   "name_print": "INFORMATION TECHNOLOGY INFRASTRUCTURE AND ITS MANAGEMENT",
+   "name": "IT Infrastructure and its Management",
+   "name_print": "ECS-304 : INFORMATION TECHNOLOGY INFRASTRUCTURE AND ITS MANAGEMENT",
    "codes": [
     "ECS-304"
    ],
@@ -262,6 +312,9 @@
     "total": 150
    },
    "subject_type": "core",
+   "scheme_line_print": "SN6 | ECS-304 | IT Infrastructure and its Management | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.2 (Semester-III scheme row 6); p.8 (syllabus)",
+   "unit_heading_print": "UNIT I: / UNIT II: / UNIT III: / UNIT IV: / UNIT V: (uppercase labels, no topic titles)",
    "units": {
     "1": "INTRODUCTION-Information Technology, Computer Hardware, Computer Software, Network and Internet, Computing Resources, IT INFRASTRUCTURE- Design Issues, Requirements, IT System Management Process, Service Management Process, Information System Design, IT Infrastructure Library",
     "2": "SERVICE DELIVERY PROCESS- Service Delivery Process, Service Level Management, Financial Management, Service Management, Capacity Management, Availability Management",
@@ -270,15 +323,14 @@
     "5": "IT ETHICS- Introduction to Cyber Ethics, Intellectual Property, Privacy and Law, Computer Forensics, Ethics and Internet, Cyber Crimes EMERGING TRENDS in IT- Electronics Commerce, Electronic Data Interchange, Mobile Communication Development, Smart Card, Expert Systems"
    },
    "quirks": [
-    "Syllabus block (p.8) prints no L-T-P line, no marks and no textbook/reference list; L-T-P 3-1-0, credits 4 and marks 30/20/50/100/150 taken from Semester-III scheme table row 6 (p.2). Scheme table prints the name as 'IT Infrastructure and its Management'.",
-    "Heading wraps across two printed lines: 'ECS-304 : INFORMATION TECHNOLOGY INFRASTRUCTURE AND ITS' / 'MANAGEMENT'.",
-    "Unit-V prints 'Electronics Commerce' (sic) — kept verbatim."
+    "No textbooks or reference books printed for this subject.",
+    "Typos as printed: 'Access Management. Intrusion Detection' (period where a comma is expected), 'Electronics Commerce'."
    ],
    "flags": []
   },
   {
    "name": "Logic Design Lab",
-   "name_print": "Logic Design Lab",
+   "name_print": "ECS -351 : Logic Design Lab",
    "codes": [
     "ECS-351"
    ],
@@ -297,8 +349,10 @@
     "total": 50
    },
    "subject_type": "lab",
+   "scheme_line_print": "SN8 | ECS-351 | Logic Design Lab | L:0 T:0 P:2 | CT:10 TA:10 CT+TA:20 ESE:30 | Subject Total:50 | Credits:1",
+   "locator": "p.2 (Semester-III scheme row 8); p.8 (syllabus)",
    "objectives_print": [
-    "Objective: To understand the digital logic and create various systems by using these logics."
+    "To understand the digital logic and create various systems by using these logics."
    ],
    "experiments": [
     {
@@ -339,13 +393,14 @@
     }
    ],
    "quirks": [
-    "Syllabus block (p.8) prints the code as 'ECS -351' (space inside the token) and no L-T-P line; L-T-P 0-0-2, credits 1 and marks 10/10/20/30/50 taken from Semester-III scheme table row 8 (p.2)."
+    "Detail header prints spaced code 'ECS -351'; scheme row prints 'ECS-351' — both as printed.",
+    "No unit theory printed (lab by design); printed 'Objective:' line recorded in objectives_print."
    ],
    "flags": []
   },
   {
    "name": "Data Structure Lab",
-   "name_print": "Data Structure Lab",
+   "name_print": "ECS-352 : Data Structure Lab",
    "codes": [
     "ECS-352"
    ],
@@ -364,42 +419,45 @@
     "total": 50
    },
    "subject_type": "lab",
-   "practice_note_print": "Write Program in C or C++ for following.",
+   "scheme_line_print": "SN9 | ECS-352 | Data structures Lab | L:0 T:0 P:2 | CT:10 TA:10 CT+TA:20 ESE:30 | Subject Total:50 | Credits:1",
+   "locator": "p.2 (Semester-III scheme row 9); p.9 (syllabus)",
+   "unit_ltp_print": "0 0 2",
+   "experiments_preamble_print": "Write Program in C or C++ for following.",
    "experiments": [
     {
      "no": 1,
-     "exp": "• Array implementation of Stack, Queue, Circular Queue, List."
+     "exp": "Array implementation of Stack, Queue, Circular Queue, List."
     },
     {
      "no": 2,
-     "exp": "• Implementation of Stack, Queue, Circular Queue, List using Dynamic memory Allocation."
+     "exp": "Implementation of Stack, Queue, Circular Queue, List using Dynamic memory Allocation."
     },
     {
      "no": 3,
-     "exp": "• Implementation of Tree Structures, Binary Tree, Tree Traversal, Binary Search Tree, Insertion and Deletion in BST."
+     "exp": "Implementation of Tree Structures, Binary Tree, Tree Traversal, Binary Search Tree, Insertion and Deletion in BST."
     },
     {
      "no": 4,
-     "exp": "• Implementation of Searching and Sorting Algorithms."
+     "exp": "Implementation of Searching and Sorting Algorithms."
     },
     {
      "no": 5,
-     "exp": "• Graph Implementation, BFS, DFS, Min. cost spanning tree, shortest path algorithm."
+     "exp": "Graph Implementation, BFS, DFS, Min. cost spanning tree, shortest path algorithm."
     }
    ],
    "quirks": [
-    "Experiments printed as an unnumbered bullet list (p.9); order and bullet characters as printed.",
-    "Scheme table (p.2, row 9) prints the name as 'Data structures Lab' (lowercase s) while the syllabus page prints 'ECS-352 : Data Structure Lab'.",
-    "Syllabus block prints L T P 0 0 2; marks 10/10/20/30/50 and credits 1 from scheme table row 9 (p.2)."
+    "Experiments printed as unnumbered bullets under 'Write Program in C or C++ for following.'; numbered 1-5 here for list representation only.",
+    "Scheme row (p.2) prints name 'Data structures Lab' (lowercase s) while detail header (p.9) prints 'Data Structure Lab' — both as printed.",
+    "No unit theory printed (lab by design)."
    ],
    "flags": []
   },
   {
    "name": "OOPS Lab",
-   "name_print": "OOPS Lab",
+   "name_print": "ECS-354 : OOPS Lab",
    "codes": [
-    "ECS-354",
-    "ECS-353"
+    "ECS-353",
+    "ECS-354"
    ],
    "semester": 3,
    "ltp": {
@@ -416,6 +474,9 @@
     "total": 25
    },
    "subject_type": "lab",
+   "scheme_line_print": "SN10 | ECS-353 | OOPS Lab | L:0 T:0 P:2 | CT:5 TA:5 CT+TA:10 ESE:15 | Subject Total:25 | Credits:1",
+   "locator": "p.2 (Semester-III scheme row 10); p.9 (syllabus)",
+   "unit_ltp_print": "0 0 2",
    "experiments": [
     {
      "no": 1,
@@ -423,13 +484,141 @@
     }
    ],
    "quirks": [
-    "CODE DISCREPANCY: the syllabus page (p.9) prints 'ECS-354 : OOPS Lab' while the Semester-III scheme table (p.2, row 10) prints 'ECS-353 OOPS Lab' — both printed codes recorded; L-T-P 0-0-2, marks 5/5/10/15/25 and credits 1 taken from the scheme table row."
+    "Code discrepancy: Semester-III scheme row 10 (p.2) prints 'ECS-353 OOPS Lab' while the detailed section header (p.9) prints 'ECS-354 : OOPS Lab'; both printed codes recorded, no reconciliation invented.",
+    "No enumerated experiment list printed — the section prints a single descriptive line, recorded as the sole experiment entry.",
+    "No unit theory printed (lab by design)."
    ],
-   "flags": []
+   "flags": [
+    "scheme_row_code_ECS-353_vs_detail_code_ECS-354"
+   ]
+  },
+  {
+   "name": "General Proficiency",
+   "name_print": "GP-301 General Proficiency",
+   "codes": [
+    "GP-301"
+   ],
+   "semester": 3,
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "general-proficiency",
+   "scheme_line_print": "SN11 | GP-301 | General Proficiency | L:- T:- P:- | CT:- TA:- Total:- ESE:- | 50 under Total col | Subject Total:50 | Credits:1",
+   "locator": "p.2 (Semester-III scheme row 11)",
+   "quirks": [
+    "Scheme row prints '-' in L, T, P, CT, TA, Total and ESE columns with '50' under the sessional Total column and Subject Total 50, Credits 1 — as printed (p.2); L-T-P and CT/TA/ESE omitted as printed-dash.",
+    "Only the scheme row is printed; no detailed syllabus appears anywhere in the document — scheme_row_only_detailed_syllabus_not_printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Human Values & Professional Ethics",
+   "name_print": "*Human Values & Professional Ethics (p.2 row 7) / *Human values & Professional Ethics (p.3 row 7)",
+   "codes": [
+    "EHU-111"
+   ],
+   "semester": [
+    3,
+    4
+   ],
+   "ltp": {
+    "l": 2,
+    "t": 2,
+    "p": 0
+   },
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "audit",
+   "scheme_line_print": "p.2 SN7: EHU-111 | *Human Values & Professional Ethics | L:2 T:2 P:0 | CT:15 TA:10 CT+TA:25 ESE:50 | Subject Total:75 | Credits: <blank> ; p.3 SN7: EHU-111 | *Human values & Professional Ethics | same cells",
+   "locator": "p.2 (Semester-III scheme row 7); p.3 (Semester-IV scheme row 7); audit-course footnote p.2 bottom",
+   "quirks": [
+    "Printed in BOTH Semester-III and Semester-IV scheme tables (same code EHU-111); recorded once with semester [3,4].",
+    "Credits cell printed BLANK in both scheme rows (p.2 and p.3) — omitted as printed-blank.",
+    "Names carry a leading asterisk referencing the printed footnote: audit course, passing marks 40% in theory & 50% in aggregate (footnote recorded in non_subject_rows).",
+    "Only scheme rows are printed; no unit theory appears anywhere in the document — scheme_row_only_detailed_syllabus_not_printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "printed_in_both_semester_schemes"
+   ]
+  },
+  {
+   "name": "Industrial Sociology / Industrial Psychology",
+   "name_print": "EHU-402/ EHU-401 Industrial Sociology / Industrial Psychology",
+   "codes": [
+    "EHU-402",
+    "EHU-401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "core",
+   "scheme_line_print": "SN1 | EHU-402/ EHU-401 | Industrial Sociology / Industrial Psychology | L:2 T:0 P:0 | CT:15 TA:10 CT+TA:25 ESE:50 | Subject Total:75 | Credits:2",
+   "locator": "p.3 (Semester-IV scheme row 1)",
+   "quirks": [
+    "Only the scheme row is printed for this subject (p.3); no unit theory, books, experiments or COs appear anywhere in the document — scheme_row_only_detailed_syllabus_not_printed.",
+    "Same Psychology/Sociology pair as Semester-III row EHU-301/EHU-302 but with codes reversed (EHU-402/EHU-401) and name order reversed — as printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Science Based Open Elective",
+   "name_print": "EOE-041- EOE-048 Science Based Open Elective",
+   "codes": [
+    "EOE-041-EOE-048"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "open-elective",
+   "scheme_line_print": "SN2 | EOE-041- EOE-048 | Science Based Open Elective | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.3 (Semester-IV scheme row 2; elective pool list at page bottom)",
+   "quirks": [
+    "Scheme row prints the code RANGE 'EOE-041- EOE-048' (range token kept verbatim; pool expansion lives in non_subject_rows elective_pool_print from p.3).",
+    "The pool list prints paired codes EOE-03x/EOE-04x for 8 electives; none of the 8 electives has a detailed syllabus printed in this document — scheme_row_only_detailed_syllabus_not_printed.",
+    "Printed note: '** Note : CS & IT Students can not take the Open Elective Course EOE 048 : Discrete Mathematics.' (p.3, recorded in non_subject_rows)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "wildcard_pool_range_code_printed"
+   ]
   },
   {
    "name": "Web Technology",
-   "name_print": "Web Technology",
+   "name_print": "EIT-401 : Web Technology",
    "codes": [
     "EIT-401"
    ],
@@ -448,49 +637,53 @@
     "total": 150
    },
    "subject_type": "core",
+   "scheme_line_print": "SN3 | EIT-401 | Web Technology | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.3 (Semester-IV scheme row 3); pp.9-10 (syllabus)",
+   "unit_ltp_print": "3 1 0",
    "units": {
-    "1": "Introduction and Web Development Strategies History of Web, Protocols governing Web, Creating Websites for individual and Corporate World, Cyber Laws Web Applications, Writing Web Projects, Identification of Objects, Target Users, Web Team, Planning and Process Development.",
-    "2": "HTML, XML and Scripting List, Tables, Images, Forms, Frames, CSS Document type definition, XML schemes, Object Models, Presenting XML, Using XML Processors: DOM and SAX Introduction to Java Script, Object in Java Script, Dynamic HTML with Java Script.",
-    "3": "Java Beans and Web Servers Introduction to Java Beans, Advantage, Properties, BDK, Introduction to EJB, Java Beans API Introduction to Servelets, Lifecycle, JSDK, Servlet API, Servlet Packages: HTTP package, Working with Http request and response, Security Issues.",
-    "4": "JSP Introduction to JSP, JSP processing, JSP Application Design, Tomcat Server, Implicit JSP objects, Conditional Processing, Declaring variables and methods, Error Handling and Debugging, Sharing data between JSP pages- Sharing Session and Application Data.",
-    "5": "Database Connectivity Database Programming using JDBC, Studying Javax.sql.*package, accessing a database from a JSP page, Application-specific Database Action, Developing Java Beans in a JSP page, introduction to Struts framework."
+    "1": "Introduction and Web Development Strategies — History of Web, Protocols governing Web, Creating Websites for individual and Corporate World, Cyber Laws Web Applications, Writing Web Projects, Identification of Objects, Target Users, Web Team, Planning and Process Development.",
+    "2": "HTML, XML and Scripting — List, Tables, Images, Forms, Frames, CSS Document type definition, XML schemes, Object Models, Presenting XML, Using XML Processors: DOM and SAX Introduction to Java Script, Object in Java Script, Dynamic HTML with Java Script.",
+    "3": "Java Beans and Web Servers — Introduction to Java Beans, Advantage, Properties, BDK, Introduction to EJB, Java Beans API Introduction to Servelets, Lifecycle, JSDK, Servlet API, Servlet Packages: HTTP package, Working with Http request and response, Security Issues.",
+    "4": "JSP — Introduction to JSP, JSP processing, JSP Application Design, Tomcat Server, Implicit JSP objects, Conditional Processing, Declaring variables and methods, Error Handling and Debugging, Sharing data between JSP pages- Sharing Session and Application Data.",
+    "5": "Database Connectivity — Database Programming using JDBC, Studying Javax.sql.*package, accessing a database from a JSP page, Application-specific Database Action, Developing Java Beans in a JSP page, introduction to Struts framework."
    },
+   "reference_books_heading_print": "REFERENCE:",
    "reference_books": [
     {
      "no": 1,
-     "book": "Burdman, \"Collaborative Web Development\" Addison Wesley."
+     "book": "Burdman, “Collaborative Web Development” Addison Wesley."
     },
     {
      "no": 2,
-     "book": "Chris Bates, \"Web Programing Building Internet Applications\", 2nd Edition, WILEY, Dreamtech"
+     "book": "Chris Bates, “Web Programing Building Internet Applications”, 2nd Edition, WILEY, Dreamtech"
     },
     {
      "no": 3,
-     "book": "Joel Sklar , \"Principal of web Design\" Vikash and Thomas Learning"
+     "book": "Joel Sklar , “Principal of web Design” Vikash and Thomas Learning"
     },
     {
      "no": 4,
-     "book": "Horstmann, \"CoreJava\", Addison Wesley."
+     "book": "Horstmann, “CoreJava”, Addison Wesley."
     },
     {
      "no": 5,
-     "book": "Herbert Schieldt, \"The Complete Reference:Java\", TMH."
+     "book": "Herbert Schieldt, “The Complete Reference:Java”, TMH."
     },
     {
      "no": 6,
-     "book": "Hans Bergsten, \"Java Server Pages\", SPD O’Reilly"
+     "book": "Hans Bergsten, “Java Server Pages”, SPD O’Reilly"
     }
    ],
    "quirks": [
-    "No 'Text Books' section printed; the single printed list is headed 'REFERENCE:' (pp.10) and is recorded under reference_books.",
-    "Unit-II prints 'Object in Java Script' (sic), Unit-III prints 'Servelets' (sic), reference 2 prints 'Web Programing' (sic), reference 3 prints 'Principal of web Design' and 'Vikash' (sic) — all kept verbatim.",
-    "Syllabus block (p.9) prints L T P 3 1 0; marks/credits from Semester-IV scheme table row 3 (p.3)."
+    "Unit topic labels printed on their own lines (UNIT I..UNIT V); joined to body with ' — ' marker, heading text verbatim.",
+    "No separate textbook list — only 'REFERENCE:' list of 6 printed.",
+    "Typos as printed: 'Servelets', 'Object in Java Script', 'Studying Javax.sql.*package', 'Web Programing', 'Principal of web Design', 'Vikash and Thomas Learning', 'Herbert Schieldt', 'CoreJava'."
    ],
    "flags": []
   },
   {
-   "name": "COMPUTER ORGANIZATION",
-   "name_print": "COMPUTER ORGANIZATION",
+   "name": "Computer Organization",
+   "name_print": "ECS-401 : COMPUTER ORGANIZATION",
    "codes": [
     "ECS-401"
    ],
@@ -509,7 +702,10 @@
     "total": 150
    },
    "subject_type": "core",
-   "heading_subline_print": "Fourth Semester B.Tech CSE & IT",
+   "scheme_line_print": "SN4 | ECS-401 | Computer Organization | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.3 (Semester-IV scheme row 4); pp.10-11 (syllabus)",
+   "unit_ltp_print": "3 1 0",
+   "syllabus_subtitle_print": "Fourth Semester B.Tech CSE & IT",
    "units": {
     "1": "Introduction: Number representation; fixed and floating point number representation, IEEE standard for floating point representation. Error detection and correction codes: Hamming code. Digital computer generation, computer types and classifications, functional units and their interconnections, buses, bus architecture, types of buses and bus arbitration. Register, bus and memory transfer.",
     "2": "Central Processing Unit: Addition and subtraction of signed numbers, look ahead carry adders. Multiplication: Signed operand multiplication, Booths algorithm and array multiplier. Division and logic operations. Floating point arithmetic operation Processor organization, general register organization, stack organization and addressing modes.",
@@ -517,6 +713,7 @@
     "4": "Memory: Basic concept and hierarchy, semiconductor RAM memories, 2D & 2 1/2D memory organization. ROM memories. Cache memories: concept and design issues 9 performance, address mapping and replacement) Auxiliary memories: magnetic disk, magnetic tape and optical disks Virtual memory: concept implementation.",
     "5": "Input / Output: Peripheral devices, I/O interface, I/O ports, Interrupts: interrupt hardware, types of interrupts and exceptions. Modes of Data Transfer: Programmed I/O, interrupt initiated I/O and Direct Memory Access., I/O channels and processors. Serial Communication: Synchronous & asynchronous communication, standard communication interfaces."
    },
+   "textbooks_heading_print": "Books",
    "textbooks": [
     {
      "no": 1,
@@ -524,41 +721,41 @@
     },
     {
      "no": 2,
-     "book": "William Stalling, \" Computer Organization\", PHI"
+     "book": "William Stalling, “ Computer Organization”, PHI"
     },
     {
      "no": 3,
-     "book": "Vravice,Hamacher & Zaky, \"Computer Organization\", TMH"
+     "book": "Vravice,Hamacher & Zaky, “Computer Organization”, TMH"
     },
     {
      "no": 4,
-     "book": "Mano,\" Computer System Architecture\", PHI"
+     "book": "Mano,” Computer System Architecture”, PHI"
     },
     {
      "no": 5,
-     "book": "John P Hays, \" Computer Organization\", McGraw Hill"
+     "book": "John P Hays, “ Computer Organization”, McGraw Hill"
     },
     {
      "no": 6,
-     "book": "Tannenbaum,\" Structured Computer Organization', PHI"
+     "book": "Tannenbaum,” Structured Computer Organization’, PHI"
     },
     {
      "no": 7,
-     "book": "P Pal chaudhry, ' Computer Organization & Design', PHI"
+     "book": "P Pal chaudhry, ‘ Computer Organization & Design’, PHI"
     }
    ],
    "quirks": [
-    "Unit-IV print reads 'Cache memories: concept and design issues 9 performance, address mapping and replacement)' — the digit '9' appears where an opening bracket is expected and the closing ')' has no opener (kept verbatim).",
-    "Book list printed under the single heading 'Books' (no text/reference split); all 7 items recorded under textbooks.",
-    "Book 6 prints mismatched quotes: 'Tannenbaum,\" Structured Computer Organization', PHI' (kept verbatim).",
-    "Printed sub-line under heading: 'Fourth Semester B.Tech CSE & IT'.",
-    "Syllabus block (p.10) prints L T P 3 1 0; marks/credits from Semester-IV scheme table row 4 (p.3)."
+    "Unit-IV prints 'Cache memories: concept and design issues 9 performance, address mapping and replacement)' — stray '9' and closing paren, probable print garble; kept verbatim, zero guessing.",
+    "Unit-V prints 'Direct Memory Access., I/O channels' — period+comma as printed.",
+    "Typos as printed: 'Booths algorithm', 'Hardwire and microprogrammed control', 'microprogramme sequencing', 'subcycles ( fetch and execute etc) ,'.",
+    "Book list printed under single generic heading 'Books' (7 items, no separate reference list) — recorded under textbooks; book-list anomalies verbatim: 'William Stalling', 'Vravice,Hamacher & Zaky', 'John P Hays', 'Tannenbaum,' Structured Computer Organization'', 'P Pal chaudhry', mismatched quote marks.",
+    "Heading subtitle 'Fourth Semester B.Tech CSE & IT' printed (shared CSE & IT print)."
    ],
    "flags": []
   },
   {
-   "name": "DATA BASE MANAGEMENT SYSTEM",
-   "name_print": "DATA BASE MANAGEMENT SYSTEM",
+   "name": "Database Management Systems",
+   "name_print": "ECS-402 : DATA BASE MANAGEMENT SYSTEM",
    "codes": [
     "ECS-402"
    ],
@@ -577,7 +774,10 @@
     "total": 150
    },
    "subject_type": "core",
-   "heading_subline_print": "IVth Semester B. Tech. CSE & IT",
+   "scheme_line_print": "SN5 | ECS-402 | Database Management Systems | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.3 (Semester-IV scheme row 5); pp.11-12 (syllabus)",
+   "unit_ltp_print": "3 1 0",
+   "syllabus_subtitle_print": "IVth Semester B. Tech. CSE & IT",
    "units": {
     "1": "Introduction: An overview of database management system, database system Vs file system, Database system concept and architecture, data model schema and instances, data independence and database language and interfaces, data definitions language, DML, Overall Database Structure. Data Modeling using the Entity Relationship Model: ER model concepts, notation for ER diagram, mapping constraints, keys, Concepts of Super Key, candidate key, primary key, Generalization, aggregation, reduction of an ER diagrams to tables, extended ER model, relationship of higher degree.",
     "2": "Relational data Model and Language: Relational data model concepts, integrity constraints, entity integrity, referential integrity, Keys constraints, Domain constraints, relational algebra, relational calculus, tuple and domain calculus. Introduction on SQL: Characteristics of SQL, advantage of SQL. SQl data type and literals. Types of SQL commands. SQL operators and their procedure. Tables, views and indexes. Queries and sub queries. Aggregate functions. Insert, update and delete operations, Joins, Unions, Intersection, Minus, Cursors, Triggers, Procedures in SQL/PL SQL",
@@ -585,18 +785,19 @@
     "4": "Transaction Processing Concept: Transaction system, Testing of serializability, serializability of schedules, conflict & view serializable schedule, recoverability, Recovery from transaction failures, log based recovery, checkpoints, deadlock handling. Distributed Database: distributed data storage, concurrency control, directory system.",
     "5": "Concurrency Control Techniques: Concurrency control, Locking Techniques for concurrency control, Time stamping protocols for concurrency control, validation based protocol, multiple granularity, Multi version schemes, Recovery with concurrent transaction, case study of Oracle."
    },
+   "textbooks_heading_print": "Books",
    "textbooks": [
     {
      "no": 1,
-     "book": "Date C J, \" An Introduction to Database Systems\", Addision Wesley"
+     "book": "Date C J, “ An Introduction to Database Systems”, Addision Wesley"
     },
     {
      "no": 2,
-     "book": "Korth, Silbertz, Sudarshan,\" Database Concepts\", McGraw Hill"
+     "book": "Korth, Silbertz, Sudarshan,” Database Concepts”, McGraw Hill"
     },
     {
      "no": 3,
-     "book": "Elmasri, Navathe, \" Fudamentals of Database Systems\", Addision Wesley"
+     "book": "Elmasri, Navathe, “ Fudamentals of Database Systems”, Addision Wesley"
     },
     {
      "no": 4,
@@ -604,44 +805,43 @@
     },
     {
      "no": 5,
-     "book": "Leon & Leon,\"Database Management Systems\", Vikas Publishing House"
+     "book": "Leon & Leon,”Database Management Systems”, Vikas Publishing House"
     },
     {
      "no": 6,
-     "book": "Bipin C. Desai, \" An Introduction to Database Systems\", Gagotia Publications"
+     "book": "Bipin C. Desai, “ An Introduction to Database Systems”, Gagotia Publications"
     },
     {
      "no": 7,
-     "book": "Majumdar & Bhattacharya, \"Database Management System\", TMH"
+     "book": "Majumdar & Bhattacharya, “Database Management System”, TMH"
     },
     {
      "no": 8,
-     "book": "Ramkrishnan, Gehrke, \" Database Management System\", McGraw Hill"
+     "book": "Ramkrishnan, Gehrke, “ Database Management System”, McGraw Hill"
     },
     {
      "no": 9,
-     "book": "Kroenke, \" Database Processing Fundamentals , Design and Implementation\" Pearson Education."
+     "book": "Kroenke, “ Database Processing Fundamentals , Design and Implementation” Pearson Education."
     },
     {
      "no": 10,
-     "book": "D.Ulman, \" Principles of Database and Knowledge base System\", Computer Science Press."
+     "book": "D.Ulman, “ Principles of Database and Knowledge base System”, Computer Science Press."
     },
     {
      "no": 11,
-     "book": "Maheshwari Jain.’DBMS: Complete Practical Approach\", Firewall Media, New Delhi"
+     "book": "Maheshwari Jain.’DBMS: Complete Practical Approach”, Firewall Media, New Delhi"
     }
    ],
    "quirks": [
-    "Book list printed under the single heading 'Books' (no text/reference split); all 11 items recorded under textbooks.",
-    "Printed typos kept verbatim: 'SQl' (Unit-II); books 1 and 3 print 'Addision Wesley' (sic); book 3 'Fudamentals' (sic); book 6 'Gagotia' (sic); book 8 'Ramkrishnan' (sic); book 10 'D.Ulman' (sic); book 11 opens with a stray right-quote: 'Maheshwari Jain.’DBMS: Complete Practical Approach' (kept verbatim).",
-    "Printed sub-line under heading: 'IVth Semester B. Tech. CSE & IT'.",
-    "Syllabus block (p.11) prints L T P 3 1 0; marks/credits from Semester-IV scheme table row 5 (p.3). Scheme table prints the name as 'Database Management Systems'."
+    "Typos as printed: 'SQl data type' (Unit-II), 'database system Vs file system'.",
+    "Book list printed under single generic heading 'Books' (11 items, no separate reference list) — recorded under textbooks; anomalies verbatim: 'Addision Wesley' (items 1,3), 'Fudamentals of Database Systems', 'Gagotia Publications', 'Ramkrishnan, Gehrke', 'D.Ulman', item 11 'Maheshwari Jain.’DBMS: Complete Practical Approach”' punctuation, item 9 'Fundamentals , Design' spacing.",
+    "Heading subtitle 'IVth Semester B. Tech. CSE & IT' printed (shared CSE & IT print)."
    ],
    "flags": []
   },
   {
    "name": "Software Engineering",
-   "name_print": "Software Engineering",
+   "name_print": "EIT-402 : Software Engineering",
    "codes": [
     "EIT-402"
    ],
@@ -660,13 +860,17 @@
     "total": 150
    },
    "subject_type": "core",
+   "scheme_line_print": "SN6 | EIT-402 | Software Engineering | L:3 T:1 P:0 | CT:30 TA:20 CT+TA:50 ESE:100 | Subject Total:150 | Credits:4",
+   "locator": "p.3 (Semester-IV scheme row 6); pp.12-13 (syllabus)",
+   "unit_ltp_print": "3 1 0",
    "units": {
-    "1": "Introduction Introduction to Software Engineering, Software Components, Software Characteristics, Software Crisis, Software Engineering Processes, Similarity and Differences from Conventional Engineering Processes, Software Quality Attributes. Software Development Life Cycle (SDLC) Models: Water Fall Model, Prototype Model, Spiral Model, Evolutionary Development Models, Iterative Enhancement Models.",
-    "2": "Software Requirement Specifications (SRS) Requirement Engineering Process: Elicitation, Analysis, Documentation, Review and Management of User Needs, Feasibility Study, Information Modeling, Data Flow Diagrams, Entity Relationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS. Software Quality Assurance (SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 Models, SEI-CMM Model.",
-    "3": "Software Design Basic Concept of Software Design, Architectural Design, Low Level Design: Modularization, Design Structure Charts, Pseudo Codes, Flow Charts, Coupling and Cohesion Measures, Design Strategies: Function Oriented Design, Object Oriented Design, Top-Down and Bottom-Up Design. Software Measurement and Metrics: Various Size Oriented Measures: Halestead’s Software Science, Function Point (FP) Based Measures, Cyclomatic Complexity Measures: Control Flow Graphs.",
-    "4": "Software Testing Testing Objectives, Unit Testing, Integration Testing, Acceptance Testing, Regression Testing, Testing for Functionality and Testing for Performance, Top-Down and Bottom-Up Testing Strategies: Test Drivers and Test Stubs, Structural Testing (White Box Testing), Functional Testing (Black Box Testing), Test Data Suit Preparation, Alpha and Beta Testing of Products. Static Testing Strategies: Formal Technical Reviews (Peer Reviews), Walk Through, Code Inspection, Compliance with Design and Coding Standards.",
-    "5": "Software Maintenance and Software Project Management Software as an Evolutionary Entity, Need for Maintenance, Categories of Maintenance: Preventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-Engineering, Reverse Engineering. Software Configuration Management Activities, Change Control Process, Software Version Control, An Overview of CASE Tools. Estimation of Various Parameters such as Cost, Efforts, Schedule/Duration, Constructive Cost Models (COCOMO), Resource Allocation Models, Software Risk Analysis and Management."
+    "1": "Introduction — Introduction to Software Engineering, Software Components, Software Characteristics, Software Crisis, Software Engineering Processes, Similarity and Differences from Conventional Engineering Processes, Software Quality Attributes. Software Development Life Cycle (SDLC) Models: Water Fall Model, Prototype Model, Spiral Model, Evolutionary Development Models, Iterative Enhancement Models.",
+    "2": "Software Requirement Specifications (SRS) — Requirement Engineering Process: Elicitation, Analysis, Documentation, Review and Management of User Needs, Feasibility Study, Information Modeling, Data Flow Diagrams, Entity Relationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS. Software Quality Assurance (SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 Models, SEI-CMM Model.",
+    "3": "Software Design — Basic Concept of Software Design, Architectural Design, Low Level Design: Modularization, Design Structure Charts, Pseudo Codes, Flow Charts, Coupling and Cohesion Measures, Design Strategies: Function Oriented Design, Object Oriented Design, Top-Down and Bottom-Up Design. Software Measurement and Metrics: Various Size Oriented Measures: Halestead’s Software Science, Function Point (FP) Based Measures, Cyclomatic Complexity Measures: Control Flow Graphs.",
+    "4": "Software Testing — Testing Objectives, Unit Testing, Integration Testing, Acceptance Testing, Regression Testing, Testing for Functionality and Testing for Performance, Top-Down and Bottom-Up Testing Strategies: Test Drivers and Test Stubs, Structural Testing (White Box Testing), Functional Testing (Black Box Testing), Test Data Suit Preparation, Alpha and Beta Testing of Products. Static Testing Strategies: Formal Technical Reviews (Peer Reviews), Walk Through, Code Inspection, Compliance with Design and Coding Standards.",
+    "5": "Software Maintenance and Software Project Management — Software as an Evolutionary Entity, Need for Maintenance, Categories of Maintenance: Preventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-Engineering, Reverse Engineering. Software Configuration Management Activities, Change Control Process, Software Version Control, An Overview of CASE Tools. Estimation of Various Parameters such as Cost, Efforts, Schedule/Duration, Constructive Cost Models (COCOMO), Resource Allocation Models, Software Risk Analysis and Management."
    },
+   "reference_books_heading_print": "Reference Books:",
    "reference_books": [
     {
      "no": 1,
@@ -702,15 +906,15 @@
     }
    ],
    "quirks": [
-    "No separate 'Text Books' section printed; the single printed list is headed 'Reference Books:' (p.13) and is recorded under reference_books.",
-    "Printed typos kept verbatim: 'Water Fall Model' (Unit-I), 'Halestead's Software Science' (Unit-III), 'Test Data Suit Preparation' (Unit-IV), 'M. Jarayeri'/'D. Manodrioli' (reference 4).",
-    "Syllabus block (p.12) prints L T P 3 1 0; marks/credits from Semester-IV scheme table row 6 (p.3)."
+    "Unit headings printed as 'Unit-I: Introduction' etc.; joined to body with ' — ' marker, heading text verbatim.",
+    "No separate textbook list — only 'Reference Books:' list of 8 printed.",
+    "Typos as printed: 'Halestead’s Software Science', 'Water Fall Model', 'Test Data Suit Preparation', 'A Practitioners Approach', 'M. Jarayeri, D. Manodrioli' (reference item 4)."
    ],
    "flags": []
   },
   {
-   "name": "Software Engineering  LAB",
-   "name_print": "Software Engineering  LAB",
+   "name": "Software Engineering Lab",
+   "name_print": "EIT-451 : Software Engineering LAB",
    "codes": [
     "EIT-451"
    ],
@@ -729,6 +933,9 @@
     "total": 50
    },
    "subject_type": "lab",
+   "scheme_line_print": "SN8 | EIT-451 | Software Engineering Lab | L:0 T:0 P:2 | CT:10 TA:10 CT+TA:20 ESE:30 | Subject Total:50 | Credits:1",
+   "locator": "p.3 (Semester-IV scheme row 8); pp.13-14 (syllabus)",
+   "unit_ltp_print": "0 0 2",
    "experiments": [
     {
      "no": 1,
@@ -760,7 +967,7 @@
     },
     {
      "no": 8,
-     "exp": "Lab exercise involving development of various practical applications using software like VJ++VB, SYBASE, JDK. [Students are to be given a major assignment to be completed using one or more of these tools, Student’s exposure to any CASE tool is desirable]"
+     "exp": "Lab exercise involving development of various practical applications using software like VJ++VB, SYBASE, JDK."
     },
     {
      "no": 9,
@@ -768,16 +975,16 @@
     }
    ],
    "quirks": [
-    "Syllabus block (pp.13-14) prints L T P 0 0 2; marks 10/10/20/30/50 and credits 1 from Semester-IV scheme table row 8 (p.3).",
-    "Experiment 2's four software items are printed as a bulleted sub-list (bullet characters retained, flattened into the experiment text).",
-    "Bracketed note '[Students are to be given a major assignment to be completed using one or more of these tools, Student's exposure to any CASE tool is desirable]' is printed between experiments 8 and 9; retained appended to experiment 8.",
-    "Experiment 8 prints 'VJ++VB' (sic) — kept verbatim."
+    "Experiment 2 sub-items printed as bullets; kept inline with '•' markers verbatim.",
+    "Printed between experiments 8 and 9 (p.14): '[Students are to be given a major assignment to be completed using one or more of these tools, Student’s exposure to any CASE tool is desirable]' — kept verbatim.",
+    "Typos as printed: 'VJ++VB' (missing separator), 'Software Engineering LAB' uppercase LAB in detail header vs 'Software Engineering Lab' in scheme row.",
+    "No unit theory printed (lab by design)."
    ],
    "flags": []
   },
   {
-   "name": "DBMS LAB",
-   "name_print": "DBMS LAB",
+   "name": "DBMS Lab",
+   "name_print": "ECS-452 : DBMS LAB",
    "codes": [
     "ECS-452"
    ],
@@ -796,7 +1003,9 @@
     "total": 50
    },
    "subject_type": "lab",
-   "lab_note_print": "Note: 1. The queries to be implemented on DBMS using SQL 2. Students are advised to use Developer 2000/Oracle9i or other latest version for above experiments.. However student may use Power Builder/SQL SERVER . Mini Projects may also be planned & carried out through out the semester to understand important concepts of database.",
+   "scheme_line_print": "SN9 | ECS-452 | DBMS Lab | L:0 T:0 P:2 | CT:10 TA:10 CT+TA:20 ESE:30 | Subject Total:50 | Credits:1",
+   "locator": "p.3 (Semester-IV scheme row 9); p.14 (syllabus)",
+   "unit_ltp_print": "0 0 2",
    "experiments": [
     {
      "no": 1,
@@ -844,14 +1053,15 @@
     }
    ],
    "quirks": [
-    "Printed typos kept verbatim: 'programme' (exp 8), 'Creat' (exp 10-11), 'TRGGERS' (exp 10), 'experiments..' double period in the note.",
-    "Syllabus block (p.14) prints L T P 0 0 2; marks 10/10/20/30/50 and credits 1 from Semester-IV scheme table row 9 (p.3)."
+    "Printed 'Note:' block (p.14) kept verbatim: '1. The queries to be implemented on DBMS using SQL 2. Students are advised to use Developer 2000/Oracle9i or other latest version for above experiments.. However student may use Power Builder/SQL SERVER . Mini Projects may also be planned & carried out through out the semester to understand important concepts of database.' — double period 'experiments..' as printed.",
+    "Typos as printed: 'Creat VIEWS, CURSORS and TRGGERS', 'Creat FORMS', 'Write programme'.",
+    "No unit theory printed (lab by design)."
    ],
    "flags": []
   },
   {
-   "name": "COMPUTER ORGANIZATION LAB",
-   "name_print": "COMPUTER ORGANIZATION LAB",
+   "name": "Computer Organization Lab",
+   "name_print": "ECS-453 : COMPUTER ORGANIZATION LAB",
    "codes": [
     "ECS-453"
    ],
@@ -870,7 +1080,9 @@
     "total": 25
    },
    "subject_type": "lab",
-   "lab_note_print": "Institute may also develop the experiment based on the infrastructure available with them.",
+   "scheme_line_print": "SN10 | ECS-453 | Computer Organization Lab | L:0 T:0 P:2 | CT:5 TA:5 CT+TA:10 ESE:15 | Subject Total:25 | Credits:1",
+   "locator": "p.3 (Semester-IV scheme row 10); p.15 (syllabus)",
+   "unit_ltp_print": "0 0 2",
    "experiments": [
     {
      "no": 1,
@@ -906,49 +1118,95 @@
     }
    ],
    "quirks": [
-    "Syllabus block (p.15) prints L T P 0 0 2; marks 5/5/10/15/25 and credits 1 from Semester-IV scheme table row 10 (p.3)."
+    "Printed trailing note (p.15): 'Institute may also develop the experiment based on the infrastructure available with them.' — kept verbatim.",
+    "Experiment 6 prints unclosed content 'Adder/Subtractor (Half, Full)' without trailing period — as printed.",
+    "No unit theory printed (lab by design)."
    ],
    "flags": []
+  },
+  {
+   "name": "General Proficiency",
+   "name_print": "GP-401 General Proficiency",
+   "codes": [
+    "GP-401"
+   ],
+   "semester": 4,
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "general-proficiency",
+   "scheme_line_print": "SN11 | GP-401 | General Proficiency | L:- T:- P:- | CT:- TA:- Total:- ESE:- | 50 under Total col | Subject Total:50 | Credits:1",
+   "locator": "p.3 (Semester-IV scheme row 11)",
+   "quirks": [
+    "Scheme row prints '-' in L, T, P, CT, TA, Total and ESE columns with '50' under the sessional Total column and Subject Total 50, Credits 1 — as printed (p.3); L-T-P and CT/TA/ESE omitted as printed-dash.",
+    "Only the scheme row is printed; no detailed syllabus appears anywhere in the document — scheme_row_only_detailed_syllabus_not_printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
   }
  ],
  "non_subject_rows": [
   {
    "kind": "cover_title",
-   "print": "U.P. TECHNICAL UNIVERSITY LUCKNOW Syllabus of Information Technology 2nd Year (III & IV Sem.) [Effective from Session 2009-10] B.Tech.",
-   "locator": "p.1"
+   "locator": "p.1",
+   "print": "U.P. TECHNICAL UNIVERSITY LUCKNOW — Syllabus of Information Technology — 2nd Year (III & IV Sem.) [Effective from Session 2009-10] — B.Tech."
   },
   {
-   "kind": "scheme_table",
-   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW STUDY & EVALUATION SCHEME B. Tech. Information Technology [Effective From session 2009-10] YEAR II, SEMESTER-III — Evaluation Scheme; PERIODS; SESSIONAL EXAM.; columns: S.No. | Course Code | SUBJECT | L | T | P | CT | TA | Total | ESE | Subject Total | Credits. THEORY: 1. ECS-301 Digital Logic Design 3 1 0 30 20 50 100 150 4; 2 EAS-301 Mathematics-III 3 1 0 30 20 50 100 150 4; 3. EHU-301/EHU-302 Industrial Psychology/ Industrial Sociology 2 0 0 15 10 25 50 75 2; 4. ECS-302 Data Structures Using C 3 1 0 30 20 50 100 150 4; 5. ECS-305 Object Oriented Systems 3 1 0 30 20 50 100 150 4; 6. ECS-304 IT Infrastructure and its Management 3 1 0 30 20 50 100 150 4; 7. EHU-111 *Human Values & Professional Ethics 2 2 0 15 10 25 50 75 (credits cell printed blank). PRACTICAL/DESIGN/DRAWING: 8. ECS-351 Logic Design Lab 0 0 2 10 10 20 30 50 1; 9. ECS-352 Data structures Lab 0 0 2 10 10 20 30 50 1; 10. ECS-353 OOPS Lab 0 0 2 5 5 10 15 25 1; 11. GP-301 General Proficiency - - - - - 50 - 50 1. Total 17 5 6 - - - - 1000 26",
-   "locator": "p.2"
+   "kind": "scheme_header",
+   "locator": "p.2 top",
+   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW STUDY & EVALUATION SCHEME B. Tech. Information Technology [Effective From session 2009-10] YEAR II, SEMESTER-III"
   },
   {
-   "kind": "scheme_footnote",
-   "print": "*Human values & Professional Ethics will be offered as a compulsory audit course for which passing marks are 40% in theory & 50% in aggregate. Students will be required to audit it with in the period of their study. There will not carry over facility for this course and the failure student will be required to repeat this course (in next-semester).",
-   "locator": "p.2 footnote below Sem-III table"
+   "kind": "scheme_header",
+   "locator": "p.3 top",
+   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW STUDY & EVALUATION SCHEME B. Tech. Information Technology [Effective from Session 2009-10] YEAR II, SEMESTER-IV"
   },
   {
-   "kind": "scheme_table",
-   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW STUDY & EVALUATION SCHEME B. Tech. Information Technology [Effective from Session 2009-10] YEAR II, SEMESTER-IV — Evaluation Scheme; PERIODS; SESSIONAL EXAM.; columns: S. No. | Course Code | SUBJECT | L | T | P | CT | TA | Total | ESE | Subject Total | Credits. THEORY: 1. EHU-402/EHU-401 Industrial Sociology / Industrial Psychology 2 0 0 15 10 25 50 75 2; 2. EOE-041-EOE-048 Science Based Open Elective 3 1 0 30 20 50 100 150 4; 3. EIT-401 Web Technology 3 1 0 30 20 50 100 150 4; 4. ECS-401 Computer Organization 3 1 0 30 20 50 100 150 4; 5. ECS-402 Database Management Systems 3 1 0 30 20 50 100 150 4; 6. EIT-402 Software Engineering 3 1 0 30 20 50 100 150 4; 7 EHU-111 *Human values & Professional Ethics 2 2 0 15 10 25 50 75 (credits cell printed blank). PRACTICAL/TRAINING/PROJECT: 8. EIT-451 Software Engineering Lab 0 0 2 10 10 20 30 50 1; 9. ECS-452 DBMS Lab 0 0 2 10 10 20 30 50 1; 10. ECS-453 Computer Organization Lab 0 0 2 5 5 10 15 25 1; 11. GP-401 General Proficiency - - - - - 50 - 50 1. Total 17 5 6 - - - - 1000 26",
-   "locator": "p.3"
+   "kind": "scheme_total_row",
+   "locator": "p.2 (Semester-III scheme)",
+   "print": "Total | L:17 T:5 P:6 | CT:- TA:- Total:- ESE:- | Subject Total:1000 | Credits:26"
   },
   {
-   "kind": "open_elective_pool",
-   "print": "Paper Code | Science Based Open-Electives: EOE-031/EOE-041 Introduction to Soft Computing (Neural Networks, Fuzzy Logic and Genetic Algorithm); EOE-032/EOE-042 Nano Sciences; EOE-033/EOE-043 Laser System and Applications; EOE-034/EOE-044 Space Science; EOE-035/EOE-045 Polymer Science & Technology; EOE-036/EOE-046 Nuclear Science; EOE-037/EOE-047 Materials Science; EOE-038/EOE-048 Discrete Mathematics**",
-   "locator": "p.3 below Sem-IV table"
+   "kind": "scheme_total_row",
+   "locator": "p.3 (Semester-IV scheme)",
+   "print": "Total | L:17 T:5 P:6 | CT:- TA:- Total:- ESE:- | Subject Total:1000 | Credits:26"
   },
   {
-   "kind": "open_elective_note",
-   "print": "** Note : CS & IT Students can not take the Open Elective Course EOE 048 : Discrete Mathematics.",
-   "locator": "p.3 below open-elective list"
+   "kind": "footnote",
+   "locator": "p.2 bottom",
+   "print": "*Human values & Professional Ethics will be offered as a compulsory audit course for which passing marks are 40% in theory & 50% in aggregate. Students will be required to audit it with in the period of their study. There will not carry over facility for this course and the failure student will be required to repeat this course (in next-semester)."
+  },
+  {
+   "kind": "elective_pool_print",
+   "locator": "p.3 bottom",
+   "print": "Paper Code | Science Based Open-Electives | EOE-031/EOE-041 Introduction to Soft Computing (Neural Networks, Fuzzy Logic and Genetic Algorithm); EOE-032/EOE-042 Nano Sciences; EOE-033/EOE-043 Laser System and Applications; EOE-034/EOE-044 Space Science; EOE-035/EOE-045 Polymer Science & Technology; EOE-036/EOE-046 Nuclear Science; EOE-037/EOE-047 Materials Science; EOE-038/EOE-048 Discrete Mathematics**"
+  },
+  {
+   "kind": "note",
+   "locator": "p.3 bottom",
+   "print": "** Note : CS & IT Students can not take the Open Elective Course EOE 048 : Discrete Mathematics."
   }
  ],
  "quirks": [
-  "Cover (p.1) prints 'B.Tech.' Information Technology 2nd Year (III & IV Sem.) [Effective from Session 2009-10]; the printed code family is ECS/EAS/EHU/EIT/EOE/GP (E-era), NOT TCS/TIT.",
-  "EHU-111 (Human Values & Professional Ethics) credits cell is printed BLANK in both scheme tables (pp.2-3).",
-  "EHU-301/EHU-302, EHU-402/EHU-401, EHU-111, GP-301, GP-401 and the EOE-041-EOE-048 open-elective pool appear only as scheme-table rows with no syllabus detail anywhere in the document; they are recorded here as non_subject_rows, not as subjects.",
-  "OOPS Lab code discrepancy: syllabus page (p.9) prints 'ECS-354' while the Sem-III scheme table (p.2, row 10) prints 'ECS-353' (see subject quirks).",
-  "EAS-301 Unit-I (p.4) contains two integral formulas printed as embedded bitmap images undecodable in the text layer (OCR failed); not transcribed per zero-guessing."
+  "No course outcomes (COs), K-levels, prerequisites, eligibility prints or MOOC rules appear anywhere in this 2009-10 document; cos/prerequisites omitted as printed-blank for all subjects.",
+  "EAS-301 Unit-I (p.4) prints two real-integral formulas after 'Evaluation of real integrals of the type' and 'and' as non-text equation objects; not decodable in text layer or render — left as bracketed markers, zero guessing.",
+  "Code discrepancy: Semester-III scheme row 10 (p.2) prints 'ECS-353 OOPS Lab' while the detailed lab section (p.9) prints 'ECS-354 : OOPS Lab'; both printed codes recorded on one subject, no reconciliation invented.",
+  "EAS-301 prints per-unit lecture counts: Unit-I '10', Units II-V '08' each (pp.4-5) — recorded verbatim in lectures_per_unit.",
+  "ECS-301 syllabus section (p.4) prints no L-T-P of its own; the 'L T P 3 1 0' block at the bottom of p.4 is the EAS-301 header (ECS-301 L-T-P taken from its scheme row).",
+  "ECS-401 heading (p.10) carries printed subtitle 'Fourth Semester B.Tech CSE & IT' and ECS-402 heading (p.11) 'IVth Semester B. Tech. CSE & IT' — shared CSE & IT prints, kept verbatim.",
+  "EHU-111 appears in BOTH semester scheme tables (p.2 row 7 and p.3 row 7) with the Credits cell printed blank in both; recorded once with semester [3,4].",
+  "Printed typos kept verbatim: 'Digital system and binary numbers: :' double colon and 'Quine Mc-Clusky' (ECS-301); 'Gauss- Seidal', 'mehthods', 'significations', 'Control charts, , R', 'Test Books :-' (EAS-301); 'Transistive Closure', 'Warshal Algorithm', 'Dijikstra Algorithm' (ECS-302); 'model.OMT', 'Herbert Schieldt', 'James Rumbaugh etal', 'Booch Grady' (ECS-305); 'Access Management. Intrusion Detection', 'Electronics Commerce' (ECS-304); 'Servelets', 'Object in Java Script', 'Studying Javax.sql.*package', 'Web Programing', 'Principal of web Design' (EIT-401); 'Booths algorithm', 'design issues 9 performance, address mapping and replacement)', 'Direct Memory Access.,', 'Vravice,Hamacher & Zaky' (ECS-401); 'SQl', 'Addision Wesley', 'Fudamentals of Database Systems', 'Gagotia Publications', 'Ramkrishnan', 'D.Ulman' (ECS-402); 'Halestead's Software Science', 'Water Fall Model', 'Test Data Suit Preparation', 'M. Jarayeri, D. Manodrioli' (EIT-402); 'VJ++VB' (EIT-451); 'Creat VIEWS, CURSORS and TRGGERS', 'Creat FORMS', 'experiments..' double period (ECS-452).",
+  "Multiple-space runs inside unit paragraphs (text-layer artifact) normalized to single spaces; wording untouched."
  ],
- "flags": []
+ "flags": [
+  "scheme_rows_without_detailed_syllabus: 6 (EHU-301/EHU-302 p.2, EHU-111 p.2&p.3, GP-301 p.2, EHU-402/EHU-401 p.3, EOE-041-EOE-048 p.3, GP-401 p.3)",
+  "elective_slot_rows_to_non_subject_rows: 1 (Science Based Open-Electives pool list p.3)",
+  "no_cos_printed_2009_10_era",
+  "code_discrepancy_scheme_vs_detail: ECS-353 (p.2 scheme) vs ECS-354 (p.9 detail)",
+  "alternative_pair_rows_slash_separated: 2 (EHU-301/EHU-302 p.2, EHU-402/EHU-401 p.3)",
+  "detailed_syllabi_printed_for_15_subjects (ECS-301, EAS-301, ECS-302, ECS-305, ECS-304, ECS-351, ECS-352, ECS-353/354, EIT-401, ECS-401, ECS-402, EIT-402, EIT-451, ECS-452, ECS-453)"
+ ]
 }
