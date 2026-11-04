@@ -621,6 +621,7 @@ RESOLVE_APPEND = {
         "reason": "The per-key TIER2_OVERRIDES entry for this draft subject (action + recorded evidence in the flag detail); the ladder result is corrected accordingly before the plan is applied."},
 }
 
+
 # ---------------- SLOT_CODE_TRANSFERS (B17 recorded class) -----------------
 # A dual slot-code print (e.g. 'KHU701/KHU801' = HSMC-1 Sem-VII / HSMC-2
 # Sem-VIII offering) naming a REAL subject (verbatim units printed) whose
@@ -1913,6 +1914,51 @@ DOC_SCOPE.update({
         "reason": "B21 doc10: cover prints 'ELECTRONICS AND COMMUNICATION ENGINEERING — EVALUATION SCHEME & SYLLABUS FOR B. TECH. THIRD YEAR ▪ ELECTRONICS ENGINEERING ▪ ELECTRONICS AND COMMUNICATION ENGINEERING ▪ ELECTRONICS AND TELECOMMUNICATION ENGINEERING AS PER AICTE MODEL CURRICULUM [Effective from the Session: 2024-25] Curriculum & Evaluation Scheme (V & VI semester)'"},
 })
 
+# ---- B30 (CRON-20261104-B30) doc-level scope from the PRINTED COVERS ----
+DOC_SCOPE.update({
+    "7d699e03eb1f40d3": {
+        "branch_names": "Mechanical Engineering",
+        "program_year": "2",
+        "reason": "B30 doc01: cover prints 'EVALUATION SCHEME & SYLLABUS FOR B. TECH 2nd YEAR MECHANICAL ENGINEERING On AICTE Model Curriculum (EFFECTIVE FROM THE SESSION: 2019-20)' — single-branch ME 2nd-year AICTE model-curriculum print; per-subject program_year set from printed semesters (3/4 -> 2)"},
+    "15ccfbe9a0ef83e4": {
+        "branch_names": "Mechanical Engineering;Production Engineering;Industrial & Production Engineering;Mechanical & Industrial Engineering;Manufacturing Technology;Automobile Engineering;Aeronautical Engineering",
+        "program_year": "2",
+        "reason": "B30 doc02: cover prints 'Study & Evaluation Scheme with Syllabus For B.Tech. Second Year (Mechanical Engineering/ Production Engineering, Industrial & Production Engineering, Mechanical & Industrial Engineering, Manufacturing Technology, Automobile Engineering, Aeronautical Engineering)' — the 7-branch ME-family y2 print; scheme rows carry the shared RME codes"},
+    "6c00370d9f7d0ba5": {
+        "branch_names": "Mechanical Engineering",
+        "program_year": "3",
+        "reason": "B30 doc03: cover prints 'EVALUATION SCHEME FOR B.TECH. 3rd YEAR MECHANICAL ENGINEERING [Effective from Session: 2024-25]' (V & VI semester B-era NEP print); per-subject program_year from printed semesters (5/6 -> 3)"},
+    "56ed2e4469bcb780": {
+        "branch_names": "Mechanical Engineering",
+        "program_year": "4",
+        "reason": "B30 doc04: cover prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH 4th YEAR MECHANICAL ENGINEERING ON CHOICE BASED CREDIT SYSTEM (EFFECTIVE FROM THE SESSION: 2019-20)' (R-era CBCS Sem VII/VIII)"},
+    "3cf7784768f67986": {
+        "branch_names": "Mechanical Engineering",
+        "program_year": "4",
+        "reason": "B30 doc05: cover prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH. 4th YEAR MECHANICAL ENGINEERING [Effective from Session: 2021-22]' (K-era Sem VII DE-IV/V print)"},
+    "99d084e82fa37354": {
+        "branch_names": "Mechanical Engineering",
+        "program_year": "4",
+        "reason": "B30 doc06: cover prints 'COURSE STRUCTURE/EVALUATION SCHEME FOR B.TECH. 4th YEAR MECHANICAL ENGINEERING [Effective from Session: 2025-26]' (B-era Sem VII/VIII print)"},
+    "5f4df8f382ad0b54": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "3",
+        "reason": "B30 doc07: cover prints 'Syllabus [Subjects related to Manufacturing Technology] 3rd & 4th Year [Effective from session 2010-11] B. TECH. MANUFACTURING TECHNOLOGY'; p.2 prints the note 'The Syllabus of Subjects with EME code are common to B.Tech. Mechanical Engg. course' (recorded in the draft quirks); combined 3rd-4th-year doc — per-subject program_year set from printed semesters (5/6 -> 3, 7/8 -> 4) so the single-scope fallback never mislabels (B29 me-pe class)"},
+    "e441e28ab6b822d4": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "3",
+        "reason": "B30 doc08: cover prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH. 3rd YEAR Manufacturing Technology [Effective from Session: 2020-21]' (K-era KMT/KPI codes); p.47 carries a 4th-yr scheme headed 'B. Tech Manufacturing Engineering / Session 2021-22 (Yet to Finalize)' — recorded in the draft quirks as a note row, not scope"},
+    "c3070c76d0529139": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "2",
+        "reason": "B30 doc09: cover prints 'STUDY & EVALUATION SCHEME & SYLLABUS FOR B. TECH 2nd YEAR MECHANICAL ENGINEERING (Manufacturing Technology) On AICTE Model Curriculum (EFFECTIVE FROM THE SESSION: 2019-20)' — the Mfg-Tech stream of the ME 2nd-year AICTE model-curriculum print (bracketed branch); detail pages print no codes (codes from the printed scheme table, B29 doc-01 class)"},
+    "60cad5443dd11e27": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "3",
+        "reason": "B30 doc10: cover prints 'EVALUATION SCHEME FOR B.TECH. 3rd YEAR Manufacturing Technology [Effective from Session: 2024-25]' (V & VI semester B-era NEP print); BNC common codes + BME554 are scheme-row-only (B29 doc-02 class)"},
+})
+
+
 # B21 per-key TIER2_OVERRIDES (evidence-recorded; the decision for every flagged
 # subject and every ladder-corrected routing of this batch).
 TIER2_OVERRIDES.update({
@@ -2357,6 +2403,43 @@ TIER2_OVERRIDES.update({
         "reason": "B28 same-session cross-branch slot print (identical class to 06::15): draft 'Science Based Open Elective/Mathematics III' (NOE-041..049 pool + NAS-401, 2014-15 IT sem-4 scheme slot, flagged scheme_row_only) — NAS401 is owned by engg-mathematics-iii (same-session 2014-15 ECE-group establishing print); the auto transfer is rejected per the RCS653 class. RETARGET pins the update on the name-exact sem-4 slot row science-based-open-elective-mathematics-iii (2017-18 C&T print, EOE 041-048; the IT NOE-041..049 pool codes join it as the N-era pool range); NAS401 STAYS with engg-mathematics-iii."},
 })
 
+# ---- B30 (CRON-20261104-B30) per-key adjudications, evidence-recorded ----
+TIER2_OVERRIDES.update({
+    "02_btech_me_y2_scheme-syllabus_2017-18::09::applied-thermodynamics": {
+        "action": "ALLOW",
+        "reason": "B30 STAND (recorded B3/B02 code-reassigned class): Tier-1 name identity Applied Thermodynamics; draft 2017-18 carries EME403 (detail-page print) + RME403 (scheme print). EME403's published owner measurement-and-metrology (2009-10) content J=0.06 vs draft = different subject; draft vs applied-thermodynamics full J=0.66, U5 gas-turbine J=0.97 verbatim = same subject, era-reorganized units. The recorded auto transfers EME403 to the name-identity row (newest print wins; measurement-and-metrology keeps narrative history, primary follows the newest-era print status=latest model); RME403 (unowned) joins the row."},
+    "04_btech_me_y4_syllabus-cbcs_2019-20::02::cad-cam-lab": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "cad-cam-lab",
+        "keep_published_codes": {"RME751": "computer-aided-design-manufacturing-lab"},
+        "reason": "B30 same-session code-slot keep (recorded B29 04::02 ruling): the 2019-20 ME y4 CBCS print's CAD/CAM Lab RME751 must NOT strip the code from computer-aided-design-manufacturing-lab — B29 established that the 2019-20 ME-Ind print of the SAME session owns RME751 (newest-print-wins cannot break a same-session tie). The update lands on the name-exact cad-cam-lab accumulator row (2009-10 EAU751;NAU-751;NME-751;BME652;EME-751) as a 2019-20 era backfill; RME751 recorded as narrative on cad-cam-lab; the ME-vs-ME-Ind dual print of the same session recorded for owner reconciliation."},
+    "04_btech_me_y4_syllabus-cbcs_2019-20::11::automation-and-robotics": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "automation-and-robotics",
+        "keep_published_codes": {"RME078": "robotics-and-automation"},
+        "reason": "B30 same-class follow of the recorded B29 04::13 ruling on this exact code+doc-family (first commit attempt taught the G3 constraint: a FORCE_APPEND of the exact same subject_name in BTech dups the published automation-and-robotics row — G3 (name, course) uniqueness forces the recorded multi-era accumulator model, ITC/FEM class). Tier-1 name identity lands the update on the name-exact automation-and-robotics row (2023-24 BOE302 open-elective print establishing; draft 2019-20 is OLDER so backfill-empty only, units untouched per RULES §3); RME078 stays owned by robotics-and-automation per B29 (owner 2024-25 newer; older draft never steals a code) and is recorded as narrative on the accumulator row; the ME DE vs open-elective content divergence (J=0.15) is recorded in the row notes for owner reconciliation (B29 open-item-4 class), verbatim 2019-20 units preserved in the durable drafts pipeline/drafts_B30/."},
+    "07_btech_mfg-tech_syllabus_2010-11::01::work-study-ergonomics": {
+        "action": "ALLOW",
+        "reason": "B30 TIER2 same-subject era update STAND (recorded B29 RAC-class): draft Work Study & Ergonomics (EMT-502, 2010-11 E-era) vs work-study-and-ergonomics (RMI601, 2018-19 R-era ME-Ind). fuzzy 91 with 39 shared distinctive terms; the unit SEQUENCE is identical (productivity intro -> method study/charts -> work measurement/time study -> work sampling/PMTS/wages-incentives -> ergonomics) — the low word-Jaccard is E-era vs R-era print rewording, not a different subject. 2010-11 print backfills (older session, RULES §3)."},
+    "07_btech_mfg-tech_syllabus_2010-11::11::simulation-and-modeling": {
+        "action": "FORCE_APPEND",
+        "reason": "B30 wrong-subject FORCE_APPEND (recorded B29 03::12 class, same name family): draft Simulation and Modeling (EMT-011, 2010-11 Mfg-Tech DE: physical modeling, computer-based system simulation/Monte Carlo, probability concepts in simulation, system-dynamics causal-loop/flow-diagram modeling, verification & validation). fuzzy 98 vs modelling-and-simulation (NIT062;RME076) but content J=0.04 (that row's current units are the IT/bioinformatics print); vs introduction-to-modeling-simulation (ECH608 ChemE) J=0.08; vs B29's own simulation-modelling-analysis (RME604) J=0.17 — name-family collision only, no shared model vocabulary. Appends as its own row with cross-reference notes; EMT-011 (unowned) joins it."},
+    "07_btech_mfg-tech_syllabus_2010-11::21::advanced-manufacturing-systems": {
+        "action": "FORCE_APPEND",
+        "reason": "B30 wrong-subject FORCE_APPEND (recorded B29 07::47 class): draft Advanced Manufacturing Systems (EMT-801, 2010-11 Mfg-Tech core: automation strategies, automated storage/AGV materials handling, group technology, production economics & materials management/MPRM, FMS & CIMS). fuzzy 85 vs advance-manufacturing-processes (BME051) but content J=0.05 — that row is the machining/casting/welding/forming/additive subject. Probe found NO existing row in the FMS/CIMS domain (zero candidates >= 0.25 J across BTech). Appends as its own row; EMT-801 (unowned) joins it."},
+    "08_btech_mfg-tech_syllabus_2020-21::07::advance-manufacturing-science": {
+        "action": "ALLOW",
+        "reason": "B30 TIER2 same-subject era update STAND (recorded B29 class): draft Advance Manufacturing Science (KPI051, 2020-21 Mfg-Tech DE) vs advanced-manufacturing-science (RME055, 2018-19). fuzzy 98 (Advance/Advanced singular-plural print variant); shared advanced-manufacturing-process vocabulary (classification, EDM/ECM-type thermal and electro-chemical removal, hybrid processes, high-energy forming) with era-reorganized unit splits — same subject, 2020-21 newer print fieldwise-wins; KPI051 (unowned) joins the row."},
+    "08_btech_mfg-tech_syllabus_2020-21::11::automation-robotics": {
+        "action": "RETARGET", "target": "automation-and-robotics",
+        "reason": "B30 TIE resolution via the recorded accumulator model (first commit attempt taught the G3 constraint — see 04::11): both fuzzy-90 candidates are same-name different-content rows (automation-and-robotics BOE302 J=0.17, robotics-and-automation J=0.06 whose units are the AI-DS ML-network-security print) and a third same-name row is G3-forbidden. The 2020-21 Mfg-Tech print Automation-and-Robotics (KMT053) carries near-verbatim the same units as the 2019-20 ME DE print adjudicated at 04::11 -> the name-exact accumulator row automation-and-robotics takes the 2020-21 era print (draft 2020-21 OLDER than the 2023-24 establishing session: backfill-empty only, units untouched); KMT053 (unowned) joins the row era codes; the three same-family prints (2019-20 ME DE, 2020-21 Mfg-Tech DE, 2023-24 open-elective) are recorded in notes/source_history for owner reconciliation."},
+    "08_btech_mfg-tech_syllabus_2020-21::23::product-design-and-development": {
+        "action": "ALLOW",
+        "reason": "B30 TIER2 same-subject era update STAND: draft Product Design And Development (KMT063, 2020-21 Mfg-Tech DE) vs product-development-and-design (EME-013, 2009-10 ME/PE/IPE/ME&I 4-branch row). fuzzy 100; near-verbatim units (per-unit J 0.84-0.97, full 0.96, 111 shared distinctive terms: Introduction to PDD/Morphology of Design/Transformations/Reliability bath-tub/Product Appraisal) — same subject, 2020-21 newer print fieldwise-wins; KMT063 (unowned) joins the row."},
+    "08_btech_mfg-tech_syllabus_2020-21::26::facility-planning-and-design": {
+        "action": "ALLOW",
+        "reason": "B30 TIER2 same-subject era update STAND: draft Facility Planning and Design (KPI072, 2020-21 Mfg-Tech DE) vs facility-planning-design (BPI052;RMI062, 2024-25 + 2018-19 ME-Ind establishing prints). fuzzy 92 with 84 shared distinctive terms; per-unit J 0.67-0.91 (factory planning/plant location, plant layout, group technology, line balancing, materials handling) — same subject, 2020-21 print backfills against the 2024-25 newer row (RULES §3 older-doc corroboration); KPI072 (unowned) joins the row."},
+})
+
+
 
 
 # B14 remedy registry: sha16s of documents that a PRIOR batch ingested and
@@ -2722,7 +2805,14 @@ def run(mode, drafts_dir):
             # the token-overlap threshold only because of '&'/'Engg.' print
             # variance and splintered era-family rows; RETARGET at tier 3
             # converts the append into an UPDATE on the canonical era row.
-            if TIER2_OVERRIDES.get(key) and (tier == 2 or TIER2_OVERRIDES[key]["action"] == "RETARGET"
+            # B30 extension (recorded): FORCE_APPEND also consults at tier 1 —
+            # a Tier-1 NAME-IDENTITY hit can still be a wrong-subject (same
+            # name, different content across eras/programs; recorded B28 04::04
+            # same-core-different-tail class); the evidence standard is
+            # unchanged: an explicit per-key entry with a recorded reason,
+            # never guessed (B30 04::11 automation-and-robotics: the 2023-24
+            # BOE302 open-elective row J=0.15 vs the 2019-20 ME DE print).
+            if TIER2_OVERRIDES.get(key) and (tier in (1, 2, 3) or TIER2_OVERRIDES[key]["action"] == "RETARGET"
                     or TIER2_OVERRIDES[key]["action"] == "RETARGET_KEEP_PUBLISHED_CODE_OWNER"):
                 ov = TIER2_OVERRIDES[key]
                 if ov["action"] == "FORCE_APPEND":
