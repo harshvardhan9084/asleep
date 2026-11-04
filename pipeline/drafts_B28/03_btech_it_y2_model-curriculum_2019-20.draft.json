@@ -1,0 +1,1132 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_it_y2_model-curriculum_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "e44ca075e8598a1c",
+ "stem": "03_btech_it_y2_model-curriculum_2019-20",
+ "subjects": [
+  {
+   "name": "Data Structure",
+   "name_print": "DATA STRUCTURE (KCS301)",
+   "codes": [
+    "KCS301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction: Basic Terminology, Elementary Data Organization, Built in Data Types in C. Algorithm, Efficiency of an Algorithm, Time and Space Complexity, Asymptotic notations: Big Oh, Big Theta and Big Omega, Time-Space trade-off. Abstract Data Types (ADT) Arrays: Definition, Single and Multidimensional Arrays, Representation of Arrays: Row Major Order, and Column Major Order, Derivation of Index Formulae for 1-D,2-D,3-D and n-D Array Application of arrays, Sparse Matrices and their representations. Linked lists: Array Implementation and Pointer Implementation of Singly Linked Lists, Doubly Linked List, Circularly Linked List, Operations on a Linked List. Insertion, Deletion, Traversal, Polynomial Representation and Addition Subtraction & Multiplications of Single variable & Two variables Polynomial.",
+    "2": "Stacks: Abstract Data Type, Primitive Stack operations: Push & Pop, Array and Linked Implementation of Stack in C, Application of stack: Prefix and Postfix Expressions, Evaluation of postfix expression, Iteration and Recursion- Principles of recursion, Tail recursion, Removal of recursion Problem solving using iteration and recursion with examples such as binary search, Fibonacci numbers, and Hanoi towers. Tradeoffs between iteration and recursion. Queues: Operations on Queue: Create, Add, Delete, Full and Empty, Circular queues, Array and linked implementation of queues in C, Dequeue and Priority Queue.",
+    "3": "Searching: Concept of Searching, Sequential search, Index Sequential Search, Binary Search. Concept of Hashing & Collision resolution Techniques used in Hashing. Sorting: Insertion Sort, Selection, Bubble Sort, Quick Sort, Merge Sort, Heap Sort and Radix Sort.",
+    "4": "Graphs: Terminology used with Graph, Data Structure for Graph Representations: Adjacency Matrices, Adjacency List, Adjacency. Graph Traversal: Depth First Search and Breadth First Search, Connected Component, Spanning Trees, Minimum Cost Spanning Trees: Prims and Kruskal algorithm. Transitive Closure and Shortest Path algorithm: Warshal Algorithm and Dijikstra Algorithm.",
+    "5": "Trees: Basic terminology used with Tree, Binary Trees, Binary Tree Representation: Array Representation and Pointer(Linked List) Representation, Binary Search Tree, Strictly Binary Tree ,Complete Binary Tree . A Extended Binary Trees, Tree Traversal algorithms: Inorder, Preorder and Postorder, Constructing Binary Tree from given Tree Traversal, Operation of Insertation , Deletion, Searching & Modification of data in Binary Search . Threaded Binary trees, Traversing Threaded Binary trees. Huffman coding using Binary Tree. Concept & Basic Operations for AVL Tree , B Tree & Binary Heaps"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Describe how arrays, linked lists, stacks, queues, trees, and graphs are represented in memory, used by the algorithms and their common applications.",
+     "kl": "K1, K2"
+    },
+    {
+     "no": 2,
+     "text": "Discuss the computational efficiency of the sorting and searching algorithms.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Implementation of Trees and Graphs and perform various operations on these data structure.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Understanding the concept of recursion, application of recursion and its implementation and removal of recursion.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Identify the alternative implementations of data structures with respect to its performance to solve a real world problem.",
+     "kl": "K5, K6"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Aaron M. Tenenbaum, Yedidyah Langsam and Moshe J. Augenstein, “Data Structures Using C and C++”, PHI Learning Private Limited, Delhi India"
+    },
+    {
+     "no": 2,
+     "book": "Horowitz and Sahani, “Fundamentals of Data Structures”, Galgotia Publications Pvt Ltd Delhi India."
+    },
+    {
+     "no": 3,
+     "book": "Lipschutz, “Data Structures” Schaum’s Outline Series, Tata McGraw-hill Education (India) Pvt. Ltd."
+    },
+    {
+     "no": 4,
+     "book": "Thareja, “Data Structure Using C” Oxford Higher Education."
+    },
+    {
+     "no": 5,
+     "book": "AK Sharma, “Data Structure Using C”, Pearson Education India."
+    },
+    {
+     "no": 6,
+     "book": "Rajesh K. Shukla, “Data Structure Using C and C++” Wiley Dreamtech Publication."
+    },
+    {
+     "no": 7,
+     "book": "Michael T. Goodrich, Roberto Tamassia, David M. Mount “Data Structures and Algorithms in C++”, Wiley India."
+    },
+    {
+     "no": 8,
+     "book": "P. S. Deshpandey, “C and Data structure”, Wiley Dreamtech Publication."
+    },
+    {
+     "no": 9,
+     "book": "R. Kruse etal, “Data Structures and Program Design in C”, Pearson Education."
+    },
+    {
+     "no": 10,
+     "book": "Berztiss, AT: Data structures, Theory and Practice, Academic Press."
+    },
+    {
+     "no": 11,
+     "book": "Jean Paul Trembley and Paul G. Sorenson, “An Introduction to Data Structures with applications”, McGraw Hill."
+    },
+    {
+     "no": 12,
+     "book": "Adam Drozdek “Data Structures and Algorithm in Java”, Cengage Learning"
+    }
+   ],
+   "quirks": [
+    "Detailed syllabus page prints '3-1-0'; matches scheme table row (L=3,T=1,P=0, credit 4).",
+    "Typos kept verbatim: 'Pointer(Linked List)', 'Strictly Binary Tree ,Complete Binary Tree . A Extended Binary Trees', 'Insertation', 'Warshal Algorithm', 'Dijikstra Algorithm'."
+   ],
+   "flags": [],
+   "source_locator": "pp.4-5 (detailed syllabus); p.2 (scheme row 3)"
+  },
+  {
+   "name": "Computer Organization and Architecture",
+   "name_print": "Computer Organization and Architecture (KCS302)",
+   "codes": [
+    "KCS302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction: Functional units of digital system and their interconnections, buses, bus architecture, types of buses and bus arbitration. Register, bus and memory transfer. Processor organization, general registers organization, stack organization and addressing modes.",
+    "2": "Arithmetic and logic unit: Look ahead carries adders. Multiplication: Signed operand multiplication, Booths algorithm and array multiplier. Division and logic operations. Floating point arithmetic operation, Arithmetic & logic unit design. IEEE Standard for Floating Point Numbers",
+    "3": "Control Unit: Instruction types, formats, instruction cycles and sub cycles (fetch and execute etc), micro operations, execution of a complete instruction. Program Control, Reduced Instruction Set Computer, Pipelining. Hardwire and micro programmed control: micro programme sequencing, concept of horizontal and vertical microprogramming.",
+    "4": "Memory: Basic concept and hierarchy, semiconductor RAM memories, 2D & 2 1/2D memory organization. ROM memories. Cache memories: concept and design issues & performance, address mapping and replacement Auxiliary memories: magnetic disk, magnetic tape and optical disks Virtual memory: concept implementation.",
+    "5": "Input / Output: Peripheral devices, I/O interface, I/O ports, Interrupts: interrupt hardware, types of interrupts and exceptions. Modes of Data Transfer: Programmed I/O, interrupt initiated I/O and Direct Memory Access., I/O channels and processors. Serial Communication: Synchronous & asynchronous communication, standard communication interfaces."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Study of the basic structure and operation of a digital computer system.",
+     "kl": "K1, K2"
+    },
+    {
+     "no": 2,
+     "text": "Analysis of the design of arithmetic & logic unit and understanding of the fixed point and floating-point arithmetic operations.",
+     "kl": "K2, K4"
+    },
+    {
+     "no": 3,
+     "text": "Implementation of control unit techniques and the concept of Pipelining",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Understanding the hierarchical memory system, cache memories and virtual memory",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understanding the different ways of communicating with I/O devices and standard I/O interfaces",
+     "kl": "K2, K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Computer System Architecture - M. Mano"
+    },
+    {
+     "no": 2,
+     "book": "Carl Hamacher, Zvonko Vranesic, Safwat Zaky Computer Organization, McGraw-Hill, Fifth Edition, Reprint 2012"
+    },
+    {
+     "no": 3,
+     "book": "John P. Hayes, Computer Architecture and Organization, Tata McGraw Hill, Third Edition, 1998."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 4,
+     "book": "William Stallings, Computer Organization and Architecture-Designing for Performance, Pearson Education, Seventh edition, 2006."
+    },
+    {
+     "no": 5,
+     "book": "Behrooz Parahami, “Computer Architecture”, Oxford University Press, Eighth Impression, 2011."
+    },
+    {
+     "no": 6,
+     "book": "David A. Patterson and John L. Hennessy, “Computer Architecture-A Quantitative Approach”, Elsevier, a division of reed India Private Limited, Fifth edition, 2012"
+    },
+    {
+     "no": 7,
+     "book": "Structured Computer Organization, Tannenbaum(PHI)"
+    }
+   ],
+   "quirks": [
+    "Printed label 'Reference books' appears inline at the end of textbook item 3 ('..., Third Edition, 1998. Reference books'); items 4-7 transcribed as reference_books per that printed label.",
+    "Typos kept verbatim: 'Behrooz Parahami', 'a division of reed India Private Limited', 'Look ahead carries adders', 'Booths algorithm', 'Hardwire and micro programmed control'."
+   ],
+   "flags": [],
+   "source_locator": "p.6 (detailed syllabus); p.2 (scheme row 4)"
+  },
+  {
+   "name": "Discrete Structures & Theory of Logic",
+   "name_print": "Discrete Structures & Theory of Logic  (KCS303)",
+   "codes": [
+    "KCS303"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Set Theory: Introduction, Combination of sets, Multisets, Ordered pairs. Proofs of some general identities on sets. Relations: Definition, Operations on relations, Properties of relations, Composite Relations, Equality of relations, Recursive definition of relation, Order of relations. Functions: Definition, Classification of functions, Operations on functions, Recursively defined functions. Growth of Functions. Natural Numbers: Introduction, Mathematical Induction, Variants of Induction, Induction with Nonzero Base cases. Proof Methods, Proof by counter – example, Proof by contradiction.",
+    "2": "Algebraic Structures: Definition, Groups, Subgroups and order, Cyclic Groups, Cosets, Lagrange's theorem, Normal Subgroups, Permutation and Symmetric groups, Group Homomorphisms, Definition and elementary properties of Rings and Fields.",
+    "3": "Lattices: Definition, Properties of lattices – Bounded, Complemented, Modular and Complete lattice. Boolean Algebra: Introduction, Axioms and Theorems of Boolean algebra, Algebraic manipulation of Boolean expressions. Simplification of Boolean Functions, Karnaugh maps, Logic gates, Digital circuits and Boolean algebra.",
+    "4": "Propositional Logic: Proposition, well formed formula, Truth tables, Tautology, Satisfiability, Contradiction, Algebra of proposition, Theory of Inference. (8) Predicate Logic: First order predicate, well formed formula of predicate, quantifiers, Inference theory of predicate logic.",
+    "5": "Trees: Definition, Binary tree, Binary tree traversal, Binary search tree. Graphs: Definition and terminology, Representation of graphs, Multigraphs, Bipartite graphs, Planar graphs, Isomorphism and Homeomorphism of graphs, Euler and Hamiltonian paths, Graph coloring, Recurrence Relation & Generating function: Recursive definition of functions, Recursive algorithms, Method of solving recurrences. Combinatorics: Introduction, Counting Techniques, Pigeonhole Principle"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Write an argument using logical notation and determine if the argument is or is not valid.",
+     "kl": "K3, K4"
+    },
+    {
+     "no": 2,
+     "text": "Understand the basic principles of sets and operations in sets.",
+     "kl": "K1, K2"
+    },
+    {
+     "no": 3,
+     "text": "Demonstrate an understanding of relations and functions and be able to determine their properties.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Demonstrate different traversal methods for trees and graphs.",
+     "kl": "K1, K4"
+    },
+    {
+     "no": 5,
+     "text": "Model problems in Computer Science using graphs and trees.",
+     "kl": "K2, K6"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Koshy, Discrete Structures, Elsevier Pub. 2008 Kenneth H. Rosen, Discrete Mathematics and Its Applications, 6/e, McGraw-Hill, 2006."
+    },
+    {
+     "no": 2,
+     "book": "B. Kolman, R.C. Busby, and S.C. Ross, Discrete Mathematical Structures, 5/e, Prentice Hall, 2004."
+    },
+    {
+     "no": 3,
+     "book": "E.R. Scheinerman, Mathematics: A Discrete Introduction, Brooks/Cole, 2000."
+    },
+    {
+     "no": 4,
+     "book": "R.P. Grimaldi, Discrete and Combinatorial Mathematics, 5/e, Addison Wesley, 2004"
+    },
+    {
+     "no": 5,
+     "book": "Liptschutz, Seymour, “ Discrete Mathematics”, McGraw Hill."
+    },
+    {
+     "no": 6,
+     "book": "Trembley, J.P & R. Manohar,  “Discrete Mathematical Structure with Application to Computer Science”, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Deo, 7.Narsingh, “Graph Theory With application to Engineering and Computer.Science.”, PHI."
+    },
+    {
+     "no": 8,
+     "book": "Krishnamurthy, V.,  “Combinatorics Theory & Application”, East-West Press Pvt. Ltd., New Delhi"
+    }
+   ],
+   "quirks": [
+    "L-T-P conflict: scheme table (p.2 row 5) prints L=3,T=0,P=0 credit 3; detailed syllabus page prints '3-1-0'. Both prints recorded verbatim; ltp taken from the subject's own detailed-syllabus page, credit from the scheme table.",
+    "Textbook list numbering quirk: item 1 runs two books together ('Koshy, Discrete Structures, Elsevier Pub. 2008 Kenneth H. Rosen, Discrete Mathematics and Its Applications...'); printed item numbering repeats '4.' and item text prints 'Deo, 7.Narsingh' (stray '7.'); transcribed verbatim.",
+    "Stray '(8)' printed inside Unit IV text after 'Theory of Inference.' — kept verbatim.",
+    "Typos kept verbatim: 'Liptschutz', 'counter – example', 'Computer.Science.'"
+   ],
+   "flags": [
+    "ltp_scheme_vs_detailed_conflict"
+   ],
+   "source_locator": "p.7 (detailed syllabus); p.2 (scheme row 5)"
+  },
+  {
+   "name": "Data Structure using C Lab",
+   "name_print": "Data Structure using C Lab (KCS351)",
+   "codes": [
+    "KCS351"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments_intro_print": "Write C Programs to illustrate the concept of the following:",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Sorting Algorithms-Non-Recursive."
+    },
+    {
+     "no": 2,
+     "exp": "Sorting Algorithms-Recursive."
+    },
+    {
+     "no": 3,
+     "exp": "Searching Algorithm."
+    },
+    {
+     "no": 4,
+     "exp": "Implementation of Stack using Array."
+    },
+    {
+     "no": 5,
+     "exp": "Implementation of Queue using Array."
+    },
+    {
+     "no": 6,
+     "exp": "Implementation of Circular Queue using Array."
+    },
+    {
+     "no": 7,
+     "exp": "Implementation of Stack using Linked List."
+    },
+    {
+     "no": 8,
+     "exp": "Implementation of Queue using Linked List."
+    },
+    {
+     "no": 9,
+     "exp": "Implementation of Circular Queue using Linked List."
+    },
+    {
+     "no": 10,
+     "exp": "Implementation of Tree Structures, Binary Tree, Tree Traversal, Binary Search Tree, Insertion and Deletion in BST."
+    },
+    {
+     "no": 11,
+     "exp": "Graph Implementation, BFS, DFS, Minimum cost spanning tree, shortest path algorithm."
+    }
+   ],
+   "quirks": [
+    "Scheme table (p.2 row 6) prints subject name 'Data Structures Using C Lab'; detailed page header prints 'Data Structure using C Lab (KCS351)' — both kept verbatim.",
+    "Lab marks: scheme row prints PS=25, PE=25, Total=50 with CT/TA/Total(50-col) blank; recorded as ps/pe/total."
+   ],
+   "flags": [],
+   "source_locator": "p.8 (experiments); p.2 (scheme row 6)"
+  },
+  {
+   "name": "Computer Organization Lab",
+   "name_print": "Computer Organization Lab (KCS352)",
+   "codes": [
+    "KCS352"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Implementing HALF ADDER, FULL ADDER using basic logic gates"
+    },
+    {
+     "no": 2,
+     "exp": "Implementing Binary -to -Gray, Gray -to -Binary code conversions."
+    },
+    {
+     "no": 3,
+     "exp": "Implementing 3-8 line DECODER."
+    },
+    {
+     "no": 4,
+     "exp": "Implementing 4x1 and 8x1 MULTIPLEXERS."
+    },
+    {
+     "no": 5,
+     "exp": "Verify the excitation tables of various FLIP-FLOPS."
+    },
+    {
+     "no": 6,
+     "exp": "Design of an 8-bit Input/ Output system with four 8-bit Internal Registers."
+    },
+    {
+     "no": 7,
+     "exp": "Design of an 8-bit ARITHMETIC LOGIC UNIT."
+    },
+    {
+     "no": 8,
+     "exp": "Design the data path of a computer from its register transfer language description."
+    },
+    {
+     "no": 9,
+     "exp": "Design the control unit of a computer using either hardwiring or microprogramming based on its register transfer language description."
+    },
+    {
+     "no": 10,
+     "exp": "Implement a simple instruction set computer with a control unit and a data path."
+    }
+   ],
+   "quirks": [
+    "Lab marks: scheme row prints PS=25, PE=25, Total=50 with CT/TA/Total(50-col) blank; recorded as ps/pe/total."
+   ],
+   "flags": [],
+   "source_locator": "p.8 (experiments); p.2 (scheme row 7)"
+  },
+  {
+   "name": "Discrete Structure & Logic Lab",
+   "name_print": "Discrete Structure & Logic Lab (KCS353)",
+   "codes": [
+    "KCS353"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "notes_print": [
+    "Programming Language/Tool Used: C and Mapple",
+    "Note: Understanding of mathematical computation software Mapple to experiment the followings (exp. 10 to 25):"
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write a program in C to create two sets and perform the Union operation on sets."
+    },
+    {
+     "no": 2,
+     "exp": "Write a program in C to create two sets and perform the Intersectison operation on sets."
+    },
+    {
+     "no": 3,
+     "exp": "Write a program in C to create two sets and perform the Difference operation on sets."
+    },
+    {
+     "no": 4,
+     "exp": "Write a program in C to create two sets and perform the Symmetric Difference operation."
+    },
+    {
+     "no": 5,
+     "exp": "Write a program in C to perform the Power Set operation on a set."
+    },
+    {
+     "no": 6,
+     "exp": "Write a program in C to Display the Boolean Truth Table for AND, OR , NOT ."
+    },
+    {
+     "no": 7,
+     "exp": "Write a C Program to find Cartesian Product of two sets"
+    },
+    {
+     "no": 8,
+     "exp": "Write a program in C for minimum cost spanning tree."
+    },
+    {
+     "no": 9,
+     "exp": "Write a program in C for finding shortest path in a Graph"
+    },
+    {
+     "no": 10,
+     "exp": "Working of Computation software"
+    },
+    {
+     "no": 11,
+     "exp": "Discover a closed formula for a given recursive sequence vice-versa"
+    },
+    {
+     "no": 12,
+     "exp": "Recursion and Induction"
+    },
+    {
+     "no": 13,
+     "exp": "Practice of various set operations"
+    },
+    {
+     "no": 14,
+     "exp": "Counting"
+    },
+    {
+     "no": 15,
+     "exp": "Combinatorial equivalence"
+    },
+    {
+     "no": 16,
+     "exp": "Permutations and combinations"
+    },
+    {
+     "no": 17,
+     "exp": "Difference between structures, permutations and sets"
+    },
+    {
+     "no": 18,
+     "exp": "Implementation of a recursive counting technique"
+    },
+    {
+     "no": 19,
+     "exp": "The Birthday problem"
+    },
+    {
+     "no": 20,
+     "exp": "Poker Hands problem"
+    },
+    {
+     "no": 21,
+     "exp": "Baseball best-of-5 series: Experimental probabilities"
+    },
+    {
+     "no": 22,
+     "exp": "Baseball: Binomial Probability"
+    },
+    {
+     "no": 23,
+     "exp": "Expected Value Problems"
+    },
+    {
+     "no": 24,
+     "exp": "Basketball: One and One"
+    },
+    {
+     "no": 25,
+     "exp": "Binary Relations: Influence"
+    }
+   ],
+   "quirks": [
+    "Experiments span pp.8-9: exps 1-9 on p.8, printed note + exps 10-25 (Mapple) on p.9.",
+    "Typos kept verbatim: 'Mapple' (for Maple), 'Intersectison' (exp 2)."
+   ],
+   "flags": [],
+   "source_locator": "pp.8-9 (experiments); p.2 (scheme row 8)"
+  },
+  {
+   "name": "Operating Systems",
+   "name_print": "Operating systems (KCS401)",
+   "codes": [
+    "KCS401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction : Operating system and functions, Classification of Operating systems- Batch, Interactive, Time sharing, Real Time System, Multiprocessor Systems, Multiuser Systems, Multiprocess Systems, Multithreaded Systems, Operating System Structure- Layered structure, System Components, Operating System services, Reentrant Kernels, Monolithic and Microkernel Systems.",
+    "2": "Concurrent Processes: Process Concept, Principle of Concurrency, Producer / Consumer Problem, Mutual Exclusion, Critical Section Problem, Dekker’s solution, Peterson’s solution, Semaphores, Test and Set operation; Classical Problem in Concurrency- Dining Philosopher Problem, Sleeping Barber Problem; Inter Process Communication models and Schemes, Process generation.",
+    "3": "CPU Scheduling: Scheduling Concepts, Performance Criteria, Process States, Process Transition Diagram, Schedulers, Process Control Block (PCB), Process address space, Process identification information, Threads and their management, Scheduling Algorithms, Multiprocessor Scheduling. Deadlock: System model, Deadlock characterization, Prevention, Avoidance and detection, Recovery from deadlock.",
+    "4": "Memory Management: Basic bare machine, Resident monitor, Multiprogramming with fixed partitions, Multiprogramming with variable partitions, Protection schemes, Paging, Segmentation, Paged segmentation, Virtual memory concepts, Demand paging, Performance of demand paging, Page replacement algorithms, Thrashing, Cache memory organization, Locality of reference.",
+    "5": "I/O Management and Disk Scheduling: I/O devices, and I/O subsystems, I/O buffering, Disk storage and disk scheduling, RAID. File System: File concept, File organization and access mechanism, File directories, and File sharing, File system implementation issues, File system protection and security."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the structure and functions of OS",
+     "kl": "K1, K2"
+    },
+    {
+     "no": 2,
+     "text": "Learn about Processes, Threads and Scheduling algorithms.",
+     "kl": "K1, K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the principles of concurrency and Deadlocks",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Learn various memory management scheme",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Study I/O management and File systems.",
+     "kl": "K2,K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Silberschatz, Galvin and Gagne, “Operating Systems Concepts”, Wiley"
+    },
+    {
+     "no": 2,
+     "book": "Sibsankar Halder and Alex A Aravind, “Operating Systems”, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "Harvey M Dietel, “ An Introduction to Operating System”, Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "D M Dhamdhere, “Operating Systems : A Concept based Approach”, 2nd Edition,"
+    },
+    {
+     "no": 5,
+     "book": "TMH 5. William Stallings, “Operating Systems: Internals and Design Principles ”, 6th Edition, Pearson Education"
+    }
+   ],
+   "quirks": [
+    "Textbook item 5 line prints '5. TMH 5. William Stallings, ...' — stray publisher token 'TMH' (belongs to item 4's '2nd Edition, TMH') is positioned inside item 5's line in the text layer; transcribed verbatim, not rearranged.",
+    "Detailed syllabus page prints '3-0-0'; matches scheme table row (L=3,T=0,P=0, credit 3).",
+    "CO5 KL printed without space as 'K2,K4' — kept verbatim."
+   ],
+   "flags": [],
+   "source_locator": "p.10 (detailed syllabus); p.3 (scheme row 3)"
+  },
+  {
+   "name": "Theory of Automata and Formal Languages",
+   "name_print": "Theory of Automata and Formal Languages (KCS402)",
+   "codes": [
+    "KCS402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Basic Concepts and Automata Theory: Introduction to Theory of Computation- Automata, Computability and Complexity, Alphabet, Symbol, String, Formal Languages, Deterministic Finite Automaton (DFA)- Definition, Representation, Acceptability of a String and Language, Non Deterministic Finite Automaton (NFA), Equivalence of DFA and NFA, NFA with ε-Transition, Equivalence of NFA’s with and without ε-Transition, Finite Automata with output- Moore Machine, Mealy Machine, Equivalence of Moore and Mealy Machine, Minimization of Finite Automata, Myhill-Nerode Theorem, Simulation of DFA and NFA",
+    "2": "Regular Expressions and Languages: Regular Expressions, Transition Graph, Kleen’s Theorem, Finite Automata and Regular Expression- Arden’s theorem, Algebraic Method Using Arden’s Theorem, Regular and Non-Regular Languages- Closure properties of Regular Languages, Pigeonhole Principle, Pumping Lemma, Application of Pumping Lemma, Decidability- Decision properties, Finite Automata and Regular Languages, Regular Languages and Computers, Simulation of Transition Graph and Regular language.",
+    "3": "Regular and Non-Regular Grammars: Context Free Grammar(CFG)-Definition, Derivations, Languages, Derivation Trees and Ambiguity, Regular Grammars-Right Linear and Left Linear grammars, Conversion of FA into CFG and Regular grammar into FA, Simplification of CFG, Normal Forms- Chomsky Normal Form(CNF), Greibach Normal Form (GNF), Chomsky Hierarchy, Programming problems based on the properties of CFGs.",
+    "4": "Push Down Automata and Properties of Context Free Languages: Nondeterministic Pushdown Automata (NPDA)- Definition, Moves, A Language Accepted by NPDA, Deterministic Pushdown Automata(DPDA) and Deterministic Context free Languages(DCFL), Pushdown Automata for Context Free Languages, Context Free grammars for Pushdown Automata, Two stack Pushdown Automata, Pumping Lemma for CFL, Closure properties of CFL, Decision Problems of CFL, Programming problems based on the properties of CFLs.",
+    "5": "Turing Machines and Recursive Function Theory : Basic Turing Machine Model, Representation of Turing Machines, Language Acceptability of Turing Machines, Techniques for Turing Machine Construction, Modifications of Turing Machine, Turing Machine as Computer of Integer Functions, Universal Turing machine, Linear Bounded Automata, Church’s Thesis, Recursive and Recursively Enumerable language, Halting Problem, Post’s Correspondance Problem, Introduction to Recursive Function Theory."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Analyse and design finite automata, pushdown automata, Turing machines, formal languages, and grammars",
+     "kl": "K4, K6"
+    },
+    {
+     "no": 2,
+     "text": "Analyse and design, Turing machines, formal languages, and grammars",
+     "kl": "K4, K6"
+    },
+    {
+     "no": 3,
+     "text": "Demonstrate the understanding of key notions, such as algorithm, computability, decidability, and complexity through problem solving",
+     "kl": "K1, K5"
+    },
+    {
+     "no": 4,
+     "text": "Prove the basic results of the Theory of Computation.",
+     "kl": "K2,K3"
+    },
+    {
+     "no": 5,
+     "text": "State and explain the relevance of the Church-Turing thesis.",
+     "kl": "K1, K5"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Introduction to Automata theory, Languages and Computation, J.E.Hopcraft, R.Motwani, and Ullman. 2nd edition, Pearson Education Asia"
+    },
+    {
+     "no": 2,
+     "book": "Introduction to languages and the theory of computation, J Martin, 3rd Edition, Tata McGraw Hill"
+    },
+    {
+     "no": 3,
+     "book": "Elements and Theory of Computation, C Papadimitrou and C. L. Lewis, PHI"
+    },
+    {
+     "no": 4,
+     "book": "Mathematical Foundation of Computer Science, Y.N.Singh, New Age Internationa"
+    }
+   ],
+   "quirks": [
+    "Typos kept verbatim: 'J.E.Hopcraft' (Hopcroft), 'C Papadimitrou' (Papadimitriou), 'New Age Internationa' (missing 'l'), 'Post’s Correspondance Problem', 'Kleen’s Theorem'."
+   ],
+   "flags": [],
+   "source_locator": "p.11 (detailed syllabus); p.3 (scheme row 4)"
+  },
+  {
+   "name": "Web Designing",
+   "name_print": "Web Designing (KIT 401)",
+   "codes": [
+    "KIT401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction : Basic principles involved in developing a web site, Planning process , Domains and Hosting, Responsive Web Designing ,  Types of Websites (Static and Dynamic Websites),  Web Standards and W3C recommendations, Introduction to HTML: What is HTML , HTML Documents, Basic structure of an HTML document , Creating an HTML document , Mark up Tags , Heading-Paragraphs , Line Breaks",
+    "2": "Elements of HTML: HTML Tags., Working with Text , Working with Lists, Tables and Frames, Working with Hyperlinks, Images and Multimedia, Working with Forms and controls",
+    "3": "Concept of CSS: Creating Style Sheet, CSS Properties , CSS Styling(Background, Text Format, Controlling Fonts) , Working with block elements and objects , Working with Lists and Tables , CSS Id and Class, Box Model(Introduction, Border properties, Padding Properties, Margin properties) CSS Advanced(Grouping, Dimension, Display, Positioning, Floating, Align, Pseudo class, Navigation Bar, Image Sprites, Attribute sector) , CSS Color , Creating page Layout and Site Designs.",
+    "4": "Introduction to Client Side Scripting , Introduction to Java Script , Javascript Types , Variables in JS, Operators in JS , Conditions Statements , Java Script Loops, JS Popup Boxes , JS Events , JS Arrays, Working with Arrays, JS Objects ,JS Functions , Using Java Script in Real time , Validation of Forms, Related Examples",
+    "5": "Web Hosting: Web Hosting Basics , Types of Hosting Packages, Registering domains , Defining Name Servers , Using Control Panel, Creating Emails in Cpanel , Using FTP Client, Maintaining a Website Concepts of SEO : Basics of SEO, Importance of SEO, Onpage Optimization Basics"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand principle of Web page design and about  types of websites",
+     "kl": "K3, K4"
+    },
+    {
+     "no": 2,
+     "text": "Visualize and Recognize the basic concept of HTML and application in web designing.",
+     "kl": "K1, K2"
+    },
+    {
+     "no": 3,
+     "text": "Recognize and apply the elements of Creating Style Sheet ( CSS).",
+     "kl": "K2, K4"
+    },
+    {
+     "no": 4,
+     "text": "Understanding the basic concept of Java Script and its application.",
+     "kl": "K2, K3"
+    },
+    {
+     "no": 5,
+     "text": "Introduce basics concept of Web Hosting and apply the concept of SEO",
+     "kl": "K2, K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Steven M. Schafer, “HTML, XHTML, and CSS Bible, 5ed”, Wiley India"
+    },
+    {
+     "no": 2,
+     "book": "Ian Pouncey, Richard York, “Beginning CSS: Cascading Style Sheets for Web Design”, Wiley India"
+    }
+   ],
+   "quirks": [
+    "L-T-P conflict: scheme table (p.3 row 5) prints KIT401 with L=3,T=1,P=0 credit 4; detailed syllabus page prints '3-0-0'. Both prints recorded verbatim; ltp taken from the subject's own detailed-syllabus page, credit from the scheme table.",
+    "Code printed with a space on the detailed page as 'KIT 401'; scheme table prints 'KIT401'.",
+    "Printed book-list label is 'Text Books:' (capital B)."
+   ],
+   "flags": [
+    "ltp_scheme_vs_detailed_conflict"
+   ],
+   "source_locator": "p.12 (detailed syllabus); p.3 (scheme row 5)"
+  },
+  {
+   "name": "Operating System Lab",
+   "name_print": "Operating System Lab (KCS451)",
+   "codes": [
+    "KCS451"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of hardware and software requirements of different operating systems (UNIX,LINUX,WINDOWS XP, WINDOWS7/8"
+    },
+    {
+     "no": 2,
+     "exp": "Execute various UNIX system calls for i. Process management ii. File management iii. Input/output Systems calls"
+    },
+    {
+     "no": 3,
+     "exp": "Implement CPU Scheduling Policies: i. SJF ii. Priority iii. FCFS iv. Multi-level Queue"
+    },
+    {
+     "no": 4,
+     "exp": "Implement file storage allocation technique: i. Contiguous(using array) ii. Linked –list(using linked-list) iii. Indirect allocation (indexing)"
+    },
+    {
+     "no": 5,
+     "exp": "Implementation of contiguous allocation techniques: i. Worst-Fit ii. Best- Fit iii. First- Fit"
+    },
+    {
+     "no": 6,
+     "exp": "Calculation of external and internal fragmentation i. Free space list of blocks from system ii. List process file from the system"
+    },
+    {
+     "no": 7,
+     "exp": "Implementation of compaction for the continually changing memory layout and calculate total movement of data"
+    },
+    {
+     "no": 8,
+     "exp": "Implementation of resource allocation graph RAG)"
+    },
+    {
+     "no": 9,
+     "exp": "Implementation of Banker‟s algorithm"
+    },
+    {
+     "no": 10,
+     "exp": "Conversion of resource allocation graph (RAG) to wait for graph (WFG) for each type of method used for storing graph."
+    },
+    {
+     "no": 11,
+     "exp": "Implement the solution for Bounded Buffer (producer-consumer)problem using inter process communication techniques-Semaphores"
+    },
+    {
+     "no": 12,
+     "exp": "Implement the solutions for Readers-Writers problem using inter process communication technique -Semaphore"
+    }
+   ],
+   "quirks": [
+    "Scheme table (p.3 row 6) prints subject name 'Operating Systems Lab'; detailed page header prints 'Operating System Lab (KCS451)' — both kept verbatim.",
+    "Typos kept verbatim: exp 1 missing closing parenthesis ('WINDOWS7/8'), exp 8 'resource allocation graph RAG)' missing opening parenthesis, exp 9 'Banker‟s' uses U+201F quote char.",
+    "Sub-items printed as i./ii./iii. run inline within each experiment line; kept verbatim."
+   ],
+   "flags": [],
+   "source_locator": "p.13 (experiments); p.3 (scheme row 6)"
+  },
+  {
+   "name": "Web Designing Lab",
+   "name_print": "Web Designing Lab (KIT451)",
+   "codes": [
+    "KIT451"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To create a simple html file to demonstrate the use of different tags."
+    },
+    {
+     "no": 2,
+     "exp": "To create an html file to link to different html page which contains images, tables, and also link within a page."
+    },
+    {
+     "no": 3,
+     "exp": "To create an html page with different types of frames such as floating frame, navigation frame & mixed frame."
+    },
+    {
+     "no": 4,
+     "exp": "To create a registration form as mentioned below. Procedure: Create an html page named as “registration.html” a) set background colors b) use table for alignment c) provide font colors & size"
+    },
+    {
+     "no": 5,
+     "exp": "To create an html file by applying the different styles using inline, external & internal style sheets."
+    },
+    {
+     "no": 6,
+     "exp": "To write a Javascript program to define a user defined function for sorting the values in an array."
+    },
+    {
+     "no": 7,
+     "exp": "To create an html page to explain the use of various predefined functions in a string and math object in java script."
+    },
+    {
+     "no": 8,
+     "exp": "To create an html page to explain the use of various predefined functions in a array & Date object in Javascript."
+    },
+    {
+     "no": 9,
+     "exp": "To create an html page to demonstrate exception handling in javascript"
+    },
+    {
+     "no": 10,
+     "exp": "To display the calendar using javascript code by getting the year from the user."
+    },
+    {
+     "no": 11,
+     "exp": "To create a html registration form and to validate the form using javascript code."
+    },
+    {
+     "no": 12,
+     "exp": "To create a html file. To open new window from the current window using javascript."
+    },
+    {
+     "no": 13,
+     "exp": "To create an html page to change the background color for every click of a button using javascript."
+    },
+    {
+     "no": 14,
+     "exp": "To create an html page with 2 combo box populated with month & year, to display the calendar for the selected month & year from combo box using javascript."
+    },
+    {
+     "no": 15,
+     "exp": "To create a html page to display a new image & text when the mouse comes over the existing content in the page."
+    }
+   ],
+   "quirks": [
+    "Experiments span pp.13-14: exps 1-12 on p.13, exps 13-15 on p.14.",
+    "Exp 4 sub-steps printed as 'Procedure: ... a) ... b) ... c) ...' — kept verbatim inline."
+   ],
+   "flags": [],
+   "source_locator": "pp.13-14 (experiments); p.3 (scheme row 7)"
+  },
+  {
+   "name": "Python Language Programming Lab",
+   "name_print": "Python Language Programming Lab (KCS453)",
+   "codes": [
+    "KCS453"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To write a python program that takes in command line arguments as input and print the number of arguments."
+    },
+    {
+     "no": 2,
+     "exp": "To write a python program to perform Matrix Multiplication."
+    },
+    {
+     "no": 3,
+     "exp": "To write a python program to compute the GCD of two numbers."
+    },
+    {
+     "no": 4,
+     "exp": "To write a python program to find the most frequent words in a text file."
+    },
+    {
+     "no": 5,
+     "exp": "To write a python program find the square root of a number (Newton’s method)."
+    },
+    {
+     "no": 6,
+     "exp": "To write a python program exponentiation (power of a number)."
+    },
+    {
+     "no": 7,
+     "exp": "To write a python program find the maximum of a list of numbers."
+    },
+    {
+     "no": 8,
+     "exp": "To write a python program linear search."
+    },
+    {
+     "no": 9,
+     "exp": "To write a python program Binary search."
+    },
+    {
+     "no": 10,
+     "exp": "To write a python program selection sort."
+    },
+    {
+     "no": 11,
+     "exp": "To write a python program Insertion sort."
+    },
+    {
+     "no": 12,
+     "exp": "To write a python program merge sort."
+    },
+    {
+     "no": 13,
+     "exp": "To write a python program first n prime numbers."
+    },
+    {
+     "no": 14,
+     "exp": "To write a python program simulate bouncing ball in Pygame."
+    }
+   ],
+   "quirks": [
+    "Grammar of exp lines kept verbatim ('To write a python program find...', 'To write a python program exponentiation...')."
+   ],
+   "flags": [],
+   "source_locator": "p.14 (experiments); p.3 (scheme row 8)"
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_print",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW Evaluation Scheme & Syllabus For B.Tech. 2nd Year (Information Technology) On AICTE Model Curriculum (Effective from the Session: 2019-20) DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW",
+   "locator": "p.1 (cover)"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "B.TECH (COMPUTER SCIENCE AND ENGINEERING) Information Technology SEMESTER- III Sl. No. Subject Codes Subject Periods Evaluation Scheme End Semester Total Credit L T P CT TA Total PS TE PE 1 KOE031- 38/ KAS302 Engineering Science Course/Maths-IV 3 1 0 30 20 50 100 150 4 2 KAS301/ KVE301 Technical Communication/Universal Human Values 2 1 0 30 20 50 100 150 3 3 0 0 3 KCS301 Data Structure 3 1 0 30 20 50 100 150 4 4 KCS302 Computer Organization and Architecture 3 1 0 30 20 50 100 150 4 5 KCS303 Discrete Structures & Theory of Logic 3 0 0 30 20 50 100 150 3 6 KCS351 Data Structures Using C Lab 0 0 2 25 25 50 1 7 KCS352 Computer Organization Lab 0 0 2 25 25 50 1 8 KCS353 Discrete Structure & Logic Lab 0 0 2 25 25 50 1 9 KCS354 Mini Project or Internship Assessment* 0 0 2 50 50 1 10 KNC301/ KNC302 Computer System Security/Python Programming 2 0 0 15 10 25 50 0 11 MOOCs (Essential for Hons. Degree) Total 950 22 *The Mini Project or internship (3-4 weeks) conducted during summer break after II semester and will be assessed during III semester.",
+   "locator": "p.2 SEMESTER- III (includes printed header 'B.TECH (COMPUTER SCIENCE AND ENGINEERING) / Information Technology'; scheme-only rows KOE031-38/KAS302, KAS301/KVE301, KCS354, KNC301/KNC302, MOOCs)"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "SEMESTER- IV Sl. No. Subject Codes Subject Periods Evaluation Scheme End Semester Total Credit L T P CT TA Total PS TE PE 1 KAS402/ KOE041- 48 Maths IV/Engg. Science Course 3 1 0 30 20 50 100 150 4 2 KVE401/ KAS401 Universal Human Values/Technical Communication 3 0 0 30 20 50 100 150 3 2 1 0 3 KCS401 Operating Systems 3 0 0 30 20 50 100 150 3 4 KCS402 Theory of Automata and Formal Languages 3 1 0 30 20 50 100 150 4 5 KIT401 Web Designing 3 1 0 30 20 50 100 150 4 6 KCS451 Operating Systems Lab 0 0 2 25 25 50 1 7 KIT451 Web Designing Lab 0 0 2 25 25 50 1 8 KCS453 Python Language Programming Lab 0 0 2 25 25 50 1 9 KNC402/ KNC401 Python Programming/ Computer System Security 2 0 0 15 10 25 50 0 10 MOOCs (Essential for Hons. Degree) Total 900 21",
+   "locator": "p.3 SEMESTER- IV (scheme-only rows KAS402/KOE041-48, KVE401/KAS401, KNC402/KNC401, MOOCs)"
+  },
+  {
+   "kind": "footnote",
+   "print": "*The Mini Project or internship (3-4 weeks) conducted during summer break after II semester and will be assessed during III semester.",
+   "locator": "p.2 footnote under SEMESTER- III table"
+  },
+  {
+   "kind": "section_header",
+   "print": "B.TECH. (COMPUTER SCIENCE AND ENGINEERING) THIRD SEMESTER (DETAILED SYLLABUS)",
+   "locator": "p.4 section header"
+  },
+  {
+   "kind": "section_header",
+   "print": "B.TECH. (COMPUTER SCIENCE AND ENGINEERING) FOURTH SEMESTER (DETAILED SYLLABUS)",
+   "locator": "p.10 section header"
+  }
+ ],
+ "quirks": [
+  "Course-code/header inconsistency: pp.2/4/10 print 'B.TECH (COMPUTER SCIENCE AND ENGINEERING)' / 'B.TECH. (COMPUTER SCIENCE AND ENGINEERING)' although the cover prints 'B.Tech. 2nd Year (Information Technology) On AICTE Model Curriculum' — recorded verbatim, course canonicalized to BTech per RULES §1b.",
+  "Scheme table (p.2 row 5) prints KCS303 Discrete Structures & Theory of Logic with L-T-P 3-0-0 and credit 3, but its detailed syllabus page (p.7) prints '3-1-0'; both prints recorded verbatim.",
+  "Scheme table (p.3 row 5) prints KIT401 Web Designing with L-T-P 3-1-0 and credit 4, but its detailed syllabus page (p.12) prints '3-0-0'; both prints recorded verbatim.",
+  "p.3 text layer contains stray tokens '2 1 0 3' immediately after the KVE401/KAS401 row (text-layer artifact; no corresponding print could be verified — page images not renderable in this context, recorded as quirk per RULES §6).",
+  "Scheme table lab rows (KCS351/352/353, KCS451, KIT451, KCS453) print PS=25, PE=25, Total=50 with CT/TA/Total columns blank; theory rows print CT=30 TA=20 Total=50, TE=100, PS/PE blank; KCS354 prints PS=50 Total=50; NC rows (KNC301/KNC302, KNC402/KNC401) print CT=15 TA=10 Total=25 TE=50, Total column blank, credit 0 — all recorded verbatim in scheme_table non_subject_rows; lab subjects carry marks as {ps:25, pe:25, total:50}.",
+  "Scheme pool/range codes printed: 'KOE031- 38/ KAS302' (p.2 row 1) and 'KAS402/ KOE041- 48' (p.3 row 1) — ranges split across lines in text layer, kept verbatim in scheme_table prints.",
+  "Rows KOE031-38/KAS302, KAS301/KVE301, KCS354, KNC301/KNC302, KAS402/KOE041-48, KVE401/KAS401, KNC402/KNC401 and 'MOOCs (Essential for Hons. Degree)' appear ONLY in scheme tables (pp.2-3); the document prints no detailed syllabus/units/COs for them — kept in non_subject_rows, not fabricated as subjects.",
+  "Whitespace handling: printed line wraps joined and layout whitespace runs collapsed to single spaces for units/COs/books; all words, punctuation, unicode quotes and typos verbatim (G6 containment uses normalized text).",
+  "Page images were not renderable in this sub-agent context; both independent text extractions (PARSED_JSON and FULLTEXT) were diffed and agree 100% on all 14 pages — text layer used as the authoritative print per RULES §6."
+ ],
+ "flags": [
+  "ltp_scheme_vs_detailed_conflict: KCS303 (scheme 3-0-0/credit 3 vs detailed 3-1-0) and KIT401 (scheme 3-1-0/credit 4 vs detailed 3-0-0) — needs_review adjudication at apply time; both prints preserved."
+ ]
+}
