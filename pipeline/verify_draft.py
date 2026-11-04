@@ -284,11 +284,28 @@ def main():
                 # scheme-only flag still hard-fails.)
                 obj_only = ("objectives_only_no_units_printed" in f for f in flags_l)
                 obj_only = any(obj_only) and bool(s.get("objectives_print"))
-                downgraded_no_units = bool(s.get("experiments") or scheme_only or co_only or obj_only)
+                # v17 remedy (B29 evidence: doc 09's RME653 'Design And Simulation
+                # - Lab II' prints a detail page whose entire content is an A./B./C.
+                # practical-turns note block ('(3practical turns)' / '(5practical
+                # turns)' / mini-project home assignment, fulltext-verified) — NO
+                # unit theory and NO numbered experiment list anywhere in the
+                # document: the printed design of this 2018-19 lab. The notes are
+                # transcribed verbatim under notes_print (zero-guess: the print
+                # labels them A./B./C., not experiments). Flagged
+                # `practical_turns_notes_only_no_units_printed` at patch time with
+                # fulltext evidence; downgraded to WARN with the flag cited; a
+                # subject with none of the recorded evidence classes still
+                # hard-fails.)
+                notes_only = any("notes_only_no_units" in f for f in flags_l)
+                notes_only = notes_only and bool(s.get("notes_print") or s.get("notes"))
+                downgraded_no_units = bool(s.get("experiments") or scheme_only or co_only
+                                           or obj_only or notes_only)
                 if not s.get("units") and not downgraded_no_units:
                     problems.append(f"{nm}: no units")
                 elif not s.get("units") and obj_only and not (s.get("experiments") or scheme_only or co_only):
                     warns.append(f"{nm}: no units (objectives_only_no_units_printed print — downgraded)")
+                elif not s.get("units") and notes_only and not (s.get("experiments") or scheme_only or co_only):
+                    warns.append(f"{nm}: no units (practical_turns_notes_only_no_units_printed print — downgraded)")
             # v10: atomic_codes (regex-provable) is the ONLY draft_codes source
             # — raw opaque normalizations of compound prints ('KMC 101/201' →
             # 'KMC101201') are meaningless tokens that can never match the PDF
