@@ -1,0 +1,934 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2017-18/btech_petroleum_y2_scheme-syllabus_2017-18.pdf",
+ "session": "2017-18",
+ "course": "BTech",
+ "sha16": "196c30b1f09eccf3",
+ "stem": "09_btech_petroleum_y2_scheme-syllabus_2017-18",
+ "subjects": [
+  {
+   "name": "Chemical Reaction & Kinetics",
+   "name_print": "RPE302: CHEMICAL REACTION & KINETICS (detail header; scheme row prints 'Chemical Reaction & Kinetics')",
+   "codes": [
+    "RPE302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Analysis of Noncatalytic fluid solid reaction: Kinetics of non-catalytic fluid-particle reactions, various models, application to design.",
+    "2": "Catalyst preparation and characterization: Catalysis - Nature of catalyses, methods of evaluation of catalysis, factors affecting the choice of catalysts, promoters, inhibitors, and supports, catalyst specifications, preparation and characterization of catalysts, surface area measurement by BET method, pore size distribution, catalyst, poison, mechanism and kinetics of catalyst, deactivation.",
+    "3": "Physical adsorption and chemical adsorption: Fluid-fluid reactions different regimes, identification reaction regime, application to design. Physical absorption with chemical reaction, simultaneous absorption of two reacting cases consecutive reversible reactions between gas and liquid, irreversible reactions, estimation of effective interfacial area in absorption equipment.",
+    "4": "Reaction kinetics, accounting porous nature of catalyst: Heterogeneous catalytic reactions -effectiveness factor, internal and external transport processes, non-isothermal reacting systems, uniqueness and multiplicity of steady states, stability analysis.",
+    "5": "Modeling of chemical reactors: Modeling of multiphase reactors - Fixed, fluidized, trickle bed, and slurry reactors."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "GF Froment, K.B. Bischoff, \"Chemical Reactor Analysis and Design\", 2nd ed., John Wiley, New York, 1990."
+    },
+    {
+     "no": 2,
+     "book": "O. Levenspiel, \"Chemical Reaction Engineering\", 3rd edition, Wiley Singapore, 2000."
+    },
+    {
+     "no": 3,
+     "book": "JJ Carberry “Chemical and Catalytic Reaction Engineering\", McGraw Hill, New York, 1976."
+    },
+    {
+     "no": 4,
+     "book": "R. Aris, \"Elementary Chemical Reactor Analysis\", Prentice Hall, 1969."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '4. RPE302 Chemical Reaction & Kinetics 3-0-0 70 20 10 100 3'.",
+    "Unit III heading prints 'Physical adsorption and chemical adsorption:' while the unit body describes fluid-fluid reactions and absorption — kept verbatim.",
+    "Unit II prints 'catalyst, poison, mechanism and kinetics of catalyst, deactivation' — kept verbatim.",
+    "Book 3 mixes quote glyphs: opens with '“' and closes with '\"' ('JJ Carberry “Chemical and Catalytic Reaction Engineering”') — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Heat and Mass Transfer For Petroleum Engg.",
+   "name_print": "RPE303: HEAT AND MASS TRANSFER FOR PETROLEM ENGG. (detail header; scheme row prints 'Heat and Mass Transfer For Petroleum Engg.')",
+   "codes": [
+    "RPE303"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Basic Concept: Introduction, mechanism of heat transfer. Conduction: Fourier's law of conduction; Conduction through plane and composite wall, Heat losses and insulation: critical thickness of insulation, selection of insulating materials. Convection: Natural and forced convection; heat transfer coefficients, convection in laminar and turbulent flows. Radiation: Radiant energy-distribution, Black body, Emissive power, Exchange of energy between two surfaces, View factor. Combined heat transfer by conduction, convection and radiation.",
+    "2": "Heat exchangers: Types of heat exchangers: Co-current and counter-current flows, design of double pipe heat exchanger and shell and tube heat exchanger. Boiling and condensation: Condensation: Filmwise and dropwise condensation, various type of condenser, Evaporators: Various types of evaporator, steam economy, single effect and multi effect evaporator.",
+    "3": "Diffusion and Theory of Mass transfer: Basic concept of diffusion, Fick‟s Law  of diffusion, Film theory and penetration theory, Convective mass transfer and Mass transfer coefficients. Distillation: Vapour-liquid equilibrium, Raoult‟s Law  and R elative volatility, Enthalpy concentration diagrams, Principles of distillation, Batch distillation with and without reflux, Steam distillation, Fractionating columns, Calculation of number of plates by McCabe-Thiele method, Optimum reflux, Principles of azeotropic and extractive distillations.",
+    "4": "Liquid–liquid extraction: Ternary liquid-liquid equilibrium, Batch and continuous liquid-liquid extraction, Stage calculation.Solid-liquid extraction: Single and multi stage extraction, Number of equilibrium stages. Gas Absorption and stripping: packing and packed tower design.",
+    "5": "Simultaneous Heat and Mass Transfer: Design of cooling towers and dehumidification systems, Drying - batch and continuous, mechanism of drying, design of batch and continuous dryers. Principal of crystallization."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Holman, J.P., “Heat Transfer”, 9th Ed., McGraw HillTreybal, R.E., “Mass Transfer Operation”, 3rd Ed., McGraw Hill."
+    },
+    {
+     "no": 2,
+     "book": "Kreith, F., Bohn M., Principles of Heat Transfer”, 6th Ed., Brooks Cole."
+    },
+    {
+     "no": 3,
+     "book": "Hewitt, G.F., Shires G.L., Bott T.R., “Process Heat Transfer”, Begell House."
+    },
+    {
+     "no": 4,
+     "book": "Incropera, F.P., Dewitt  D.P., “Fundamentals of  Heat and Mass Transfer”, 5th   Ed., John Wiley."
+    },
+    {
+     "no": 5,
+     "book": "Brown, G. G., “Unit Operations”, CBS Publishers."
+    },
+    {
+     "no": 6,
+     "book": "McCabe, W.L., Smith, J.C., Harriott, P., “Unit Operations of Chemical Engineering”,"
+    },
+    {
+     "no": 7,
+     "book": "Robert, E. Tryebal \"Mass transfer operations\" McGraw Hill"
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '5. RPE303 Heat and Mass Transfer For Petroleum Engg. 3-1-0 70 20 10 100 4'.",
+    "Detail header prints 'PETROLEM ENGG.' (for Petroleum) — kept verbatim; scheme row prints 'Petroleum Engg.'.",
+    "Unit III prints 'Fick‟s Law' and 'Raoult‟s Law' with the U+201F reversed-quote glyph (real print glyph, gap 0.0) and 'R elative volatility' with a stray space glyph inside 'Relative' (x≈383-385, gaps 0.0) — kept verbatim.",
+    "Unit IV prints glued 'Stage calculation.Solid-liquid extraction' (junction gap 0.00pt — genuinely glued in print); line-end hyphen 'liquid-/liquid' joined as 'liquid-liquid'.",
+    "Unit V prints 'Principal of crystallization' (for Principle) — kept verbatim.",
+    "Book list heading prints 'BOOKS' (no colon).",
+    "Book 1 prints two books in one numbered entry, glued as 'McGraw HillTreybal' (no space glyph, junction gap 0.00pt) — kept verbatim.",
+    "Book 2 prints 'Kreith, F., Bohn M., Principles of Heat Transfer”,' with no opening quote — kept verbatim.",
+    "Book 4 prints doubled spaces ('Dewitt  D.P.', 'Fundamentals of  Heat') — kept verbatim.",
+    "Book 6 ends with a trailing comma and no publisher/edition — printed incomplete, kept verbatim.",
+    "Book 7 prints 'Robert, E. Tryebal \"Mass transfer operations\"' (Tryebal for Treybal; name inverted) — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Thermodynamics For Petroleum Engg.",
+   "name_print": "RPE304: THERMODYNAMICS FOR PETROLEUM ENGG. (detail header; scheme row prints 'Thermodynamics For Petroleum Engg.')",
+   "codes": [
+    "RPE304"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Basic concept and definitions in thermodynamics, first, second and third laws of thermodynamics and it application in engineering problems, energy balance for open and closed systems. Entropy and entropy balance for open systems.",
+    "2": "An Introduction to Vapour-Liquid Equilibria, qualitative behaviour of the vapour-liquid equilibria (VLE), Simple models for vapour liquid equilibria: Raoult's and Henry’s laws, dew point and bubble point calculations, VLE by modified raoult’s law and K-value correlations.",
+    "3": "Solution Thermodynamics: Theory and Applications, fundamental property relation. The chemical potential and phase equilibria. Partial properties, equations relating molar and partial molar properties, partial properties in binary solutions, relations among partial properties, ideal gas mixtures, fugacity and fugacity coefficient for pure species, VLE for pure species, fugacity of a pure liquid, fugacity and fugacity coefficient for species in solution, the fundamental residual property relation, fugacity coefficients from the virial equation of state and generalized correlations, the ideal solution, the Lewis/Randall rule, excess properties. The excess Gibbs energy and the activity coefficient, nature of excess properties.",
+    "4": "Chemical Reaction Equilibria: The reaction coordinate. Multireaction stoichiometry. Application of equilibrium criteria to chemical reactions. The standard Gibbs energy change and equilibrium constant. Effect of temperature on the equilibrium constant. Evaluation of equilibrium constants. Relation of equilibrium constants to composition. Gas-phase and liquid-phase reactions. Equilibrium conversions for single reactions. Single phase reactions.",
+    "5": "Topics in Phase Equilibria The gamma/phi formulation of VLE.VLE from cubic equations of state. Equilibrium and stability. Liquid-liquid equilibrium. Vapour-liquid-liquid equilibrium. Solid-liquid equilibrium. Osmotic equilibrium and osmotic pressure."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Cenjel Y.A. and Boles M.A.; Thermodynamics: An Engineering Approach"
+    },
+    {
+     "no": 2,
+     "book": "Smith, J. M.; Introduction to chemical engineering thermodynamics."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '6. RPE304 Thermodynamics For Petroleum Engg. 3-0-0 70 20 10 100 3'.",
+    "Unit I prints 'and it application in engineering problems' (for its) — kept verbatim.",
+    "Unit II prints 'raoult’s law' with lowercase 'r' — kept verbatim.",
+    "Unit V prints glued 'VLE.VLE from cubic equations of state' (junction gap 0.00pt) — kept verbatim.",
+    "Book list heading prints 'BOOKS' (no colon).",
+    "Book 1 prints 'Cenjel Y.A.' (for Cengel) and separates authors with ';' — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Numerical & Statistical Methods Lab",
+   "name_print": "RPE351: NUMERICAL & STATISTICAL METHODS LAB (detail header; scheme row prints 'Numerical & Statistical Methods Lab')",
+   "codes": [
+    "RPE351"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "units": {
+    "1": "Solution of some selected chemical process problems to develop skill for computer applications, programme writing and numerical analysis. Use of commercial software packages such as MATHCAD, MATLAB, Aspen Plus, Design II etc."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '8. RPE351 Numerical & Statistical Methods Lab 0-0-2 50 30 20 100 1'.",
+    "No UNIT headings and no numbered experiment/practice list printed; the single printed description paragraph is transcribed verbatim as unit 1 for content capture.",
+    "No book list printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mass Transfer Lab",
+   "name_print": "RPE352: MASS TRANSFER LAB (detail header; scheme row prints 'Mass Transfer Lab')",
+   "codes": [
+    "RPE352"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To study the effect of solvent temperature, solvent rate and particle size on the % of recovery of oil from seeds in solid- liquid extraction unit."
+    },
+    {
+     "no": 2,
+     "exp": "To study the Packed Distillation column under total Reflux condition column and to determine HETP."
+    },
+    {
+     "no": 3,
+     "exp": "To study the characteristics of Steam Distillation using Turpentine oil as a feed stock."
+    },
+    {
+     "no": 4,
+     "exp": "To study the Diffusion of an Organic Vapour in air and determine diffusion coefficient of a organic vapour."
+    },
+    {
+     "no": 5,
+     "exp": "To study the extraction of Benzoic acid from Toluene by water using packed bed in Liquid-Liquid Extraction unit."
+    },
+    {
+     "no": 6,
+     "exp": "To study the Drying of solid under Force Draft condition and draw the rate of drying rate curve for a Tray Dryer."
+    },
+    {
+     "no": 7,
+     "exp": "Differential distillation"
+    },
+    {
+     "no": 8,
+     "exp": "Flash vaporization, vapor liquid equilibrium"
+    },
+    {
+     "no": 9,
+     "exp": "Ion exchange and membrane separation."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '9. RPE352 Mass Transfer Lab 0-0-2 50 30 20 100 1'.",
+    "No UNIT headings; printed numbered experiment list transcribed verbatim.",
+    "Experiment 1 prints 'solid- liquid extraction' (space after hyphen) — kept verbatim.",
+    "Experiments 7-9 print as bare phrases ('Differential distillation', 'Flash vaporization, vapor liquid equilibrium', 'Ion exchange and membrane separation.') without a 'To study' lead-in — kept verbatim.",
+    "No book list printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Petroleum Refining and Petrochemicals",
+   "name_print": "RPE401: PETROLEUM REFINING AND PETROCHEMICALS (detail header; scheme row prints 'Petroleum Refining and Petrochemicals')",
+   "codes": [
+    "RPE401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Origin, exploration and production of Petroleum, Types of crudes, composition, characteristics, Products Pattern, Indigenous and imported crudes. Crude heating, primary distillation principles, separation of cuts, gaps / overlaps, stripping. Desalting heat balance in distillation, energy input and recovery, vacuum distillation, types of trays, drawoffs, intermediate product, quality control.",
+    "2": "Lube oil and wax processing, solvent extraction, dewaxing desilting, deasphalting, clay contacting, principles operating parameters, feed and product equalities and yields. Types and functions of secondary processing, cracking, thermal cracking and visbreaking, different feed stocks, products, yields and qualities.",
+    "3": "Fluid catalytic feed stocks and product yields and qualities. Catalyst and operating parameters. Steam Reforming, Hydrogen, Synthesis gas, cracking of gaseous and liquid feed stocks, olefins, Diolofins, Acetylene and Aromatics and their separation.",
+    "4": "Unit Processes, Alkylation, oxidation, dehydrogenation, nitration, chlorination, sulphonation and isomerisation.",
+    "5": "Polymerisation Models and Techniquies, production of polyethylene, PVC, Polypropylene, SAN, ABS, SBR, Polyacrylonitrile, Polycarbonates, Polyurethanes, Nylon, PET."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "B.K. Bhaskara Rao, “Modern Petroleum Refining Processes” Edition 3, Oxford and IBH Publishing Company Pvt. Ltd., New Delhi."
+    },
+    {
+     "no": 2,
+     "book": "Groggins, “Unit Processing in Organic Synthesis” Edition 5, Tata McGraw Hill 1987"
+    },
+    {
+     "no": 3,
+     "book": "Nelson W.L., “Petroleum Refinery Engineering”, McGraw Hill Publishing Company Limited, 1985"
+    },
+    {
+     "no": 4,
+     "book": "Watkins, R.N., “Petroleum Refinery Distillation, second edition, Gulf Publishing Company, Texas 1981"
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): '4. RPE401 Petroleum Refining and Petrochemicals 3-0-0 70 20 10 100 3'.",
+    "Unit II prints 'dewaxing desilting', 'principles operating parameters' (no comma) and 'feed and product equalities and yields' — kept verbatim.",
+    "Unit III prints 'Diolofins' (for Diolefins) — kept verbatim (glyph-level verified).",
+    "Unit V prints 'Polymerisation Models and Techniquies' (Techniquies for Techniques) — kept verbatim (glyph-level verified).",
+    "Book 4 opens with '“Petroleum Refinery Distillation,' which is never closed and ends without a period ('Texas 1981') — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Petroleum Geology",
+   "name_print": "RPE402: PETROLEUM GEOLOGY (detail header; scheme row prints 'Petroleum Geology')",
+   "codes": [
+    "RPE402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Fundamentals of basic geology ,classification of rocks , origin, migration Introduction to earth science - Origin of earth. Sedimentation and sedimentary environment. Introduction of plate tectonics.",
+    "2": "Sedimentalogy of Petroleum bearing sequences -  Sedimentary basins. Generation and Migration of Petroleum. Physical and Chemical properties of Petroleum.",
+    "3": "Subsurface Environment – Formation fluids – Composition, temperature, pressure and dynamics. Traps and Seals. The Reservoir. Generation and Migration and Distribution.",
+    "4": "Exploration Methods - Well drilling. Formation Evaluation. Geophysical. Borehole Seismic and 4D Seismic. Subsurface geology.",
+    "5": "Non conventional petroleum resources and reserve estimation. – Plastic and solid hydrocarbons. Tar sands. Oil and gas shales. Coal bed methane. Assessment of reserves."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Cox, P.A., “The Elements on Earth”, Oxford University Press, Oxford 1995."
+    },
+    {
+     "no": 2,
+     "book": "Wilson, M., Igneous Petrogenesis”, Unwin Hyman, London 1989."
+    },
+    {
+     "no": 3,
+     "book": "Boggs, S., “Principles of Sedimentology and Stratigraphy”, second edition, Merrill Publishing Co., Toronto, 1995."
+    },
+    {
+     "no": 4,
+     "book": "Krumblein, W.C. and Sloss, L.L., “Stratigraphy and Sedimentation”, second edition W.H. Freeman and Co., 1963.BOOKS"
+    },
+    {
+     "no": 5,
+     "book": "Barker, C, Organic Geochemistry in Petroleum Exploration, AAPG Publication"
+    },
+    {
+     "no": 6,
+     "book": "Biswas , S.K . (Ed.). , Petroliferous Basins of India, Petroleum Asia Journal"
+    },
+    {
+     "no": 7,
+     "book": "Ellis, D.V. and Singer, G.H., WellLogging for Earth Scientists ,2nd Edition, Springer."
+    },
+    {
+     "no": 8,
+     "book": "Lerorsen, A.E., Geology of Petroleum , Freeman"
+    },
+    {
+     "no": 9,
+     "book": "Selley, R.C ., Elements of Petroleum Geology , 2nd  Ed., Academic Press"
+    },
+    {
+     "no": 10,
+     "book": "Singh, Lakshman , oil and Gas Fields of India, Indian Petroleum Publications"
+    },
+    {
+     "no": 11,
+     "book": "Tissot, B.P. and Welte ., D.H., Petroleum Formation and Occurrence, Springer"
+    },
+    {
+     "no": 12,
+     "book": "Nind, R.C., Principles of Oil Production , Mc Graw Hill"
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): '5. RPE402 Petroleum Geology 3-0-0 70 20 10 100 3'.",
+    "Unit I prints 'geology ,classification of rocks , origin, migration' (spaces before commas, none after; no period after 'migration') — kept verbatim (glyph gaps verify real print).",
+    "Unit II prints 'Sedimentalogy' (for Sedimentology) — kept verbatim.",
+    "Book list: a stray 'BOOKS' token is printed inline immediately after book 4's '1963.' on the same baseline (junction gap 0.00pt) — transcribed verbatim as '1963.BOOKS'.",
+    "Book 2 prints no opening quote before 'Igneous Petrogenesis”,' — kept verbatim.",
+    "Book 4 author prints 'Krumblein' (for Krumbein); book 8 'Lerorsen' (for Levorsen); book 7 glued 'WellLogging' (junction gap 0.00pt); book 10 'oil and Gas Fields' (lowercase 'oil'); book 6 'Biswas , S.K . (Ed.). ,' irregular spacing — all kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Geophysical Prospective Methods",
+   "name_print": "RPE404: GEOPHYSICAL PROSPECTIVE METHODS (detail header; scheme row prints 'Geophysical Prospective Methods')",
+   "codes": [
+    "RPE404"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to Geophysics: History of development of Petroleum Geophysics; Geophysical methods commonly used in oil & gas exploration (gravity, magnetic, electrical, seismic methods).",
+    "2": "Gravity Prospecting: Principles; Instruments used for  gravity field measurements on land and sea: Reduction of gravity data to datum using Free air, Topographic and Bouger corrections; Typical gravity anomalies of various geological features; Interpretation of gravity data.",
+    "3": "Magnetic Prospecting: Principles; Instruments used for magnetic field measurement; Magnetic susceptibility of rocks; Earth's magnetism; Magnetic effect of buried magnetic bodies; Magnetic surveys on land and sea; Airborne magnetometers; Interpretation of magnetic data (vertical field, total field).",
+    "4": "Electrical Prospecting: Electrical properties of  rocks; fundamental assumptions made for electrical prospecting; Point and line source relationship between their potential distribution; Self potential method, resistivity, telluric and magneto-telluric methods, CSEM; Data interpretation approximate methods, automatic iterative methods; Principles of equivalence and suppression in data interpretation; Use of electrical prospecting for oil exploration.",
+    "5": "Seismic Prospecting: Seismic waves, their characters and laws governing their reflection, refraction, attenuation and scattering; Elastic character of solids; Sources of seismic energy – Explosives impact, vibroseis and air gun and their main characteristics; Recording of seismic signals, geophones and their response characteristics, principle of digital recording of seismic signals; Seismic refraction surveys, head waves, critical and crossover distance; Seismic refraction from flat and dipping refractors; 2D and 3D seismic reflection data acquisition on land and water covered area; Principles of  CDP shooting, noise surveys; Coherent  and incoherent, grouping of  geophones, uphole surveys; Multiplexing."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Telford, WM, Geldart, LP, and Sheriff, RE, Applied Geophysics, Cambridge University Press."
+    },
+    {
+     "no": 2,
+     "book": "Dobrin, M.B and Savit, CH, Introduction to Geophysical Prospecting, McGraw-Hill."
+    },
+    {
+     "no": 3,
+     "book": "Gadallah, M.R and Fisher, RL, Applied Seismology: A Comprehensive Guide to Seismic Theory and Applications, McGraw- Hill."
+    },
+    {
+     "no": 4,
+     "book": "Yilmaz, O., Seismic Data Analysis, Society of Exploration Geophysicists."
+    },
+    {
+     "no": 5,
+     "book": "Catuneanu, O., Principles of Sequence Stratigraphy, Elsevier."
+    },
+    {
+     "no": 6,
+     "book": "McQuillin, R., Bacon, M. and Barclay, W., An Introduction to Seismic Interpretation: Reflection Seismic in Petroleum Exploration, Kluwer Academic Publication."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): '6. RPE404 Geophysical Prospective Methods 3-1-0 70 20 10 100 4'.",
+    "Scheme row and detail header both print 'Geophysical Prospective Methods' (Prospective for Prospecting) — kept verbatim.",
+    "Book 3 prints 'McGraw- Hill' (space after hyphen) — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Petroleum Testing Lab",
+   "name_print": "RPE451: PETROLEUM TESTING LAB (detail header; scheme row prints 'Petroleum Testing Lab')",
+   "codes": [
+    "RPE451"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Determine the API Gravity by Hydrometer."
+    },
+    {
+     "no": 2,
+     "exp": "Determine the cloud and POUR point of petroleum Products."
+    },
+    {
+     "no": 3,
+     "exp": "Determine the Flash and Fire point of a given Crude Oil by Pensky Martens apparatus."
+    },
+    {
+     "no": 4,
+     "exp": "Find out the smoke point of given Petroleum product."
+    },
+    {
+     "no": 5,
+     "exp": "Determine the ANILINE point of given substance."
+    },
+    {
+     "no": 6,
+     "exp": "Estimation of Kinematics Viscosity by SAYBOLT Viscometer."
+    },
+    {
+     "no": 7,
+     "exp": "Conduct experiment on ORSAT Gas analysis."
+    },
+    {
+     "no": 8,
+     "exp": "Estimation of Net and Gross Calorific value of Coal sample using BOMB Calorimeter."
+    },
+    {
+     "no": 9,
+     "exp": "Determine the melting point of Wax and Grease."
+    },
+    {
+     "no": 10,
+     "exp": "Estimation of Carbon Residue."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): '8. RPE451 Petroleum Testing Lab 0-0-2 50 30 20 100 1'.",
+    "No UNIT headings; printed numbered experiment list transcribed verbatim.",
+    "Experiment 2 prints 'cloud and POUR point' (POUR capitalized), exp 3 'Pensky Martens apparatus' (no hyphen), exp 5 'ANILINE point', exp 6 'Kinematics Viscosity' (for Kinematic) with 'SAYBOLT Viscometer', exp 7 'ORSAT Gas analysis', exp 8 'BOMB Calorimeter' — all kept verbatim.",
+    "No book list printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Petroleum Geology Lab",
+   "name_print": "RPE452: PETROLEUM GEOLOGY LAB (detail header; scheme row prints 'Petroleum Geology Lab')",
+   "codes": [
+    "RPE452"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Mechanical Analysis of Sediments and estimation of grain size parameters"
+    },
+    {
+     "no": 2,
+     "exp": "Determination of roundness of grains"
+    },
+    {
+     "no": 3,
+     "exp": "Determination of spherecity of grains"
+    },
+    {
+     "no": 4,
+     "exp": "Determination of packing of sedimentary grains"
+    },
+    {
+     "no": 5,
+     "exp": "Determination of porosity of rock samples"
+    },
+    {
+     "no": 6,
+     "exp": "Determination of permeability of earth mass."
+    },
+    {
+     "no": 7,
+     "exp": "Preparation of Burrial History Curves"
+    },
+    {
+     "no": 8,
+     "exp": "Preparation of Isopach Map"
+    },
+    {
+     "no": 9,
+     "exp": "Preparation of stratum contour map"
+    },
+    {
+     "no": 10,
+     "exp": "Paleo currents and Depositional environments"
+    },
+    {
+     "no": 11,
+     "exp": "Industrial/ Field visit"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): '9. RPE452 Petroleum Geology Lab 0-0-2 50 30 20 100 1'.",
+    "No UNIT headings; printed numbered experiment list transcribed verbatim.",
+    "Experiment 3 prints 'spherecity' (for sphericity) and experiment 7 'Burrial History Curves' (for Burial) — kept verbatim.",
+    "Experiment 11 prints 'Industrial/ Field visit' — kept verbatim.",
+    "No book list printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Seminar",
+   "name_print": "RPE453: SEMINAR (detail header; scheme row prints 'Seminar')",
+   "codes": [
+    "RPE453"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 100,
+    "total": 100
+   },
+   "subject_type": "sessional",
+   "units": {
+    "1": "The purpose of this course is to prepare our students for better communication skill and discussions."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): '10. RPE453 Seminar 0-0-2 100 100 1'.",
+    "No UNIT headings; the single printed purpose paragraph is transcribed verbatim as unit 1 for content capture.",
+    "Marks: the scheme row prints marks in the Sessional-TA sub-column only — ESE and CT cells blank, TA 100, Total 100, Credit 1; marks recorded as {'sessional_ta': 100, 'total': 100}. Column placement verified by x-geometry (token center 447.7 vs Sessional-TA column center 447.8 on p.3; Total-column center 479.6).",
+    "No book list printed."
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW / Study & Evaluation Scheme with Syllabus / for / B.Tech. Second Year / Petroleum Engineering / On / Choice Based Credit System / (Effective from the Session: 2017-18)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_table_header",
+   "print": "2nd Year III-SEMESTER — columns: S.No. | Subject Code | Subject Name | L-T-P | ESE Marks | Sessional (CT | TA) | Total | Credit",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "1. ROE030 to 039/ RAS301 Science Based Open Elective/ Mathematics-III 3-1-0 70 20 10 100 4",
+   "locator": "p.2 scheme table row 1"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "2. RVE301/ RAS302 Universal Human Values  & Professional Ethics/ Environment & Ecology 3-0-0 70 20 10 100 3",
+   "locator": "p.2 scheme table row 2"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "3. RCH301 Environmental Pollution Monitoring & Control 3-0-0 70 20 10 100 3",
+   "locator": "p.2 scheme table row 3"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "4. RPE302 Chemical Reaction & Kinetics 3-0-0 70 20 10 100 3",
+   "locator": "p.2 scheme table row 4"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "5. RPE303 Heat and Mass Transfer For Petroleum Engg. 3-1-0 70 20 10 100 4",
+   "locator": "p.2 scheme table row 5"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "6. RPE304 Thermodynamics For Petroleum Engg. 3-0-0 70 20 10 100 3",
+   "locator": "p.2 scheme table row 6"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "7. RCH351 Environmental Pollution Monitoring & Control Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.2 scheme table row 7"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "8. RPE351 Numerical & Statistical Methods Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.2 scheme table row 8"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "9. RPE352 Mass Transfer Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.2 scheme table row 9"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "10. RCH355 Heat Transfer Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.2 scheme table row 10"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "11. RME101* Elements of Mechanical Engineering* 3-1-0 70 20 10 100* --",
+   "locator": "p.2 scheme table row 11"
+  },
+  {
+   "kind": "scheme_row_sem3",
+   "print": "12. RCE151* Computer Aided Engineering Graphics* 0-0-3 50 30 20 100* --",
+   "locator": "p.2 scheme table row 12"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 1000 24",
+   "locator": "p.2 (Sem III total row: subject-total marks 1000, credit total 24)"
+  },
+  {
+   "kind": "legend",
+   "print": "CT: Class Test / TA: Teacher Assessment / L/T/P: Lecture/ Tutorial/ Practical",
+   "locator": "p.2 (below scheme table)"
+  },
+  {
+   "kind": "footnote",
+   "print": "*B.Tech. IInd year lateral entry students belonging to B.Sc. Stream, shall clear the subjects RCE151/RCE251 and RME101/201 of the first year Engineering Programme along with the second year subjects.",
+   "locator": "p.2 (below legend)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Science Based Open Electives: / a. ROE030/ROE040 Manufacturing Process / b. ROE031/ROE041 Introduction to soft computing / c. ROE032/ROE042 Nano Science / d. ROE033/ROE043 Laser System and Application / e. ROE034/ROE044 Space Science / f. ROE035/ROE045 Polymer Science & Technology / g. ROE036/ROE046 Nuclear Science / h. ROE037/ROE047 Material Science / i. ROE038/ROE048 Discrete Mathematics / j. ROE039/ROE049 Applied Linear Algebra",
+   "locator": "p.2 (bottom)"
+  },
+  {
+   "kind": "scheme_table_header",
+   "print": "2nd Year IV-SEMESTER — columns: S.No. | Subject Code | Subject Name | L-T-P | ESE Marks | Sessional (CT | TA) | Total | Credit",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "1. RAS401/ ROE040 to 049 Mathematics-III/ Science Based Open Elective 3-1-0 70 20 10 100 4",
+   "locator": "p.3 scheme table row 1"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "2. RAS402/ RVE401 Environment & Ecology/  Universal Human Values  & Professional Ethics 3-0-0 70 20 10 100 3",
+   "locator": "p.3 scheme table row 2"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "3. RCE402 Geoinformatics 3-0-0 70 20 10 100 3",
+   "locator": "p.3 scheme table row 3"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "4. RPE401 Petroleum Refining and Petrochemicals 3-0-0 70 20 10 100 3",
+   "locator": "p.3 scheme table row 4"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "5. RPE402 Petroleum Geology 3-0-0 70 20 10 100 3",
+   "locator": "p.3 scheme table row 5"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "6. RPE404 Geophysical Prospective Methods 3-1-0 70 20 10 100 4",
+   "locator": "p.3 scheme table row 6"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "7. RCE452 Geoinformatics Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.3 scheme table row 7"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "8. RPE451 Petroleum Testing Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.3 scheme table row 8"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "9. RPE452 Petroleum Geology Lab 0-0-2 50 30 20 100 1",
+   "locator": "p.3 scheme table row 9"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "10. RPE453 Seminar 0-0-2 100 100 1",
+   "locator": "p.3 scheme table row 10"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "11. RME201* Elements of Mechanical Engineering* 3-1-0 70 20 10 100* --",
+   "locator": "p.3 scheme table row 11"
+  },
+  {
+   "kind": "scheme_row_sem4",
+   "print": "12. RCE251* Computer Aided Engineering Graphics* 0-0-3 50 30 20 100* --",
+   "locator": "p.3 scheme table row 12"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 1000 24",
+   "locator": "p.3 (Sem IV total row: subject-total marks 1000, credit total 24)"
+  },
+  {
+   "kind": "legend",
+   "print": "CT: Class Test / TA: Teacher Assessment / L/T/P: Lecture/ Tutorial/ Practical",
+   "locator": "p.3 (below scheme table)"
+  },
+  {
+   "kind": "footnote",
+   "print": "*B.Tech. IInd year lateral entry students belonging to B.Sc. Stream, shall clear the subjects RCE151/RCE251 and RME101/201 of the first year Engineering Programme along with the second year subjects.",
+   "locator": "p.3 (below legend)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Science Based Open Electives: / a. ROE030/ROE040 Manufacturing Process / b. ROE031/ROE041 Introduction to soft computing / c. ROE032/ROE042 Nano Science / d. ROE033/ROE043 Laser System and Application / e. ROE034/ROE044 Space Science / f. ROE035/ROE045 Polymer Science & Technology / g. ROE036/ROE046 Nuclear Science / h. ROE037/ROE047 Material Science / i. ROE038/ROE048 Discrete Mathematics / j. ROE039/ROE049 Applied Linear Algebra",
+   "locator": "p.3 (bottom)"
+  }
+ ],
+ "quirks": [
+  "DOC_SCOPE: cover (p.1) prints 'B.Tech. Second Year / Petroleum Engineering' — branch scope: Petroleum Engineering (single branch, no parenthetical expansion); course print 'B.Tech.' normalized to canonical course 'BTech' per RULES §1b (verbatim print kept in the cover_title non_subject_row).",
+  "Document identity (cover print): 'Study & Evaluation Scheme with Syllabus for B.Tech. Second Year Petroleum Engineering On Choice Based Credit System (Effective from the Session: 2017-18)'.",
+  "Page-image rendering unavailable in this sub-agent context (Read tool on the PDF returned the embedded text layer only, page images omitted); text-layer fidelity proven via span-geometry + rawdict glyph-gap forensics (B32-d03 class): real spaces print as actual space glyphs or ~1.0-3.8pt junction gaps, while glued print words show ~0.00pt junction gaps (verified: 'McGraw HillTreybal' p.5, 'Stage calculation.Solid-liquid' p.5, 'VLE.VLE' p.6, '1963.BOOKS' p.9, 'WellLogging' p.9, 'geology ,classification' p.9). No PyMuPDF synthesis detected — the text layer is faithful to the visible print.",
+  "Scheme tables (pp.2-3) print five mark/credit numbers per row (ESE | CT | TA | Total | Credit); the 'Sessional' header spans only the CT and TA sub-columns and there is no separate sessional-total column — marks objects therefore carry sessional_ct/sessional_ta/ese_te_pe/total only (sessional_total omitted as not printed). Theory rows: ESE 70 / CT 20 / TA 10 / Total 100; lab rows: ESE 50 / CT 30 / TA 20 / Total 100 (x-geometry verified on pp.2-3).",
+  "All book lists print under a generic 'BOOKS:' or 'BOOKS' heading (no 'Text Books'/'Reference Books' headings anywhere); every list recorded under textbooks; reference_books left empty everywhere.",
+  "No course outcomes, no K-levels, no objectives, no eligibility and no prerequisites printed for any subject — cos/objectives_print/eligibility_print/prerequisites left empty everywhere (zero guessing).",
+  "Lectures per unit not printed anywhere; lectures_per_unit left null for every subject.",
+  "The 'Science Based Open Electives' list (a-j) is printed identically at the bottom of pp.2 and 3; each item pairs the III-sem pool code (ROE03x) with the IV-sem pool code (ROE04x). Recorded as elective_pool_list non_subject_rows; no detailed syllabus is printed for any pool elective in this document.",
+  "Asterisked lateral-entry rows RME101*/RCE151* (p.2) and RME201*/RCE251* (p.3) print credit '--' (printed-blank) and total '100*'; the lateral-entry footnote is printed below both semester tables.",
+  "Scheme row 10 (p.3) 'RPE453 Seminar 0-0-2 100 100 1' prints marks in the Sessional-TA sub-column only (ESE and CT cells blank) — verified by x-geometry (token center 447.7 vs Sessional-TA column center 447.8; Total-column token center 479.6).",
+  "Printed typos kept verbatim (detail in per-subject quirks): 'PETROLEM ENGG.' (RPE303 header), 'Fick‟s'/'Raoult‟s' with U+201F glyph, 'R elative', 'Tryebal', 'Cenjel', 'Diolofins', 'Techniquies', 'Sedimentalogy', 'Krumblein', 'Lerorsen', 'WellLogging', 'spherecity', 'Burrial', 'Kinematics Viscosity', glued 'Stage calculation.Solid-liquid' / 'VLE.VLE' / 'McGraw HillTreybal', stray inline 'BOOKS' token after RPE402 book 4.",
+  "The scheme shares RCH-coded Chemical Engineering subjects (RCH301, RCH351, RCH355) and RCE402/RCE452 Geoinformatics with other 2017-18 branch schemes; their detailed syllabi are NOT printed in this document — scheme rows recorded in non_subject_rows only."
+ ],
+ "flags": [
+  "scheme_rows_without_detailed_syllabus: 13 of 24 scheme rows have no detailed unit-level syllabus printed in this document (III-sem: rows 1 ROE030-039/RAS301 shared pool row, 2 RVE301/RAS302, 3 RCH301, 7 RCH351, 10 RCH355, 11 RME101*, 12 RCE151*; IV-sem: rows 1 RAS401/ROE040-049 shared pool row, 2 RAS402/RVE401, 3 RCE402, 7 RCE452, 11 RME201*, 12 RCE251*) — recorded as non_subject_rows only.",
+  "asterisked_lateral_entry_rows: RME101*, RCE151* (p.2), RME201*, RCE251* (p.3) with credit '--' and total '100*'.",
+  "alternative_pair_rows_slash_separated: 4 (III-sem rows 1-2, IV-sem rows 1-2).",
+  "compressed_range_pool_codes_printed: 'ROE030 to 039/ RAS301' (p.2 row 1) and 'RAS401/ ROE040 to 049' (p.3 row 1) — expanded per the printed a-j Science Based Open Electives list.",
+  "no_cos_objectives_eligibility_prerequisites_printed: none anywhere in the document.",
+  "seminar_marks_in_ta_column: RPE453 Seminar row (p.3) prints ESE and CT cells blank, TA 100, Total 100 (x-geometry verified)."
+ ]
+}

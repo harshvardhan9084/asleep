@@ -1,0 +1,945 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2021-22/btech_pe-ipe_y4_syllabus_2021-22.pdf",
+ "session": "2021-22",
+ "course": "BTech",
+ "sha16": "4f647475caff2c67",
+ "stem": "07_btech_pe-ipe_y4_syllabus_2021-22",
+ "subjects": [
+  {
+   "name": "Measurement & Metrology Lab",
+   "name_print": "Measurement & Metrology Lab",
+   "codes": [
+    "KME751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "ese_pe": 25,
+    "ese_te_pe": 25,
+    "total": 50
+   },
+   "marks_print": "CT blank | TA blank | CT+TA Total blank | PS 25 | TE blank | PE 25 | Total 50 | Credit 1 (p.2 Sem-VII row 5, word-coordinate verified)",
+   "subject_type": "lab",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic principles of instrumentation for measurement of surface finish, strain, temperature, pressure and flow.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the principle and operation of Coordinate Measuring Machine (CMM).",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply Sine Bar, Slip Gauges, Bevel Protractor, Stroboscope, Dial Indicator etc. for measurement of different attributes.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the basic concepts of limits, fits & tolerances for selective assembly.",
+     "kl": "K3"
+    }
+   ],
+   "co_lead_print": "Course Outcome (CO): The Students will be able to",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Measurement of effective diameter of a screw thread using 3 wire method."
+    },
+    {
+     "no": 2,
+     "exp": "Measurement of angle using sine bar & slip gauges."
+    },
+    {
+     "no": 3,
+     "exp": "Study of limit gauges."
+    },
+    {
+     "no": 4,
+     "exp": "Study & angular measurement using Bevel protector."
+    },
+    {
+     "no": 5,
+     "exp": "Study of different types of Comparators."
+    },
+    {
+     "no": 6,
+     "exp": "Study of important parameters of surface finish."
+    },
+    {
+     "no": 7,
+     "exp": "Study of principle and operation of coordinate-measuring machine (CMM)."
+    },
+    {
+     "no": 8,
+     "exp": "Use of dial indicator and V Block to check the circularity and plot the polar Graph."
+    },
+    {
+     "no": 9,
+     "exp": "Study and understanding of limits, fits & tolerances in assembly of machine components."
+    },
+    {
+     "no": 10,
+     "exp": "Study and understanding of different methods of measurement of pressure."
+    },
+    {
+     "no": 11,
+     "exp": "Study and understanding of different methods of measurement of temperature."
+    },
+    {
+     "no": 12,
+     "exp": "Study and understanding of measurement of strain using strain gauges."
+    },
+    {
+     "no": 13,
+     "exp": "Study and understanding of different methods of measurement of flow."
+    },
+    {
+     "no": 14,
+     "exp": "Study and understanding of different methods of measurement of vibration/power."
+    },
+    {
+     "no": 15,
+     "exp": "Study and understanding of measurement of displacement using LVDT."
+    }
+   ],
+   "experiments_note_print": "List of Experiments — Minimum 08 experiments out of following (or such experiment) are to be performed:",
+   "subject_line_print": "Subject Code: KME 751 | Measurement & Metrology Lab | L T P : 0 0 2 | Credits: 1",
+   "scheme_line_print": "5 | KME 751 | Measurement & Metrology Lab | L 0 T 0 P 2 | CT/TA/CT+TA Total blank | PS 25 | TE blank | PE 25 | Total 50 | Credit 1",
+   "locator": "p.3 (detailed lab syllabus: COs + List of Experiments; no unit texts printed); p.2 Sem-VII scheme row 5",
+   "quirks": [
+    "Experiment 4 prints 'Bevel protector' [sic] (for Protractor; CO-3 prints 'Bevel Protractor').",
+    "Experiments list prints wide justified inter-word gaps (e.g. 'Measurement  of  effective diameter  of  a screw  thread'); collapsed to single spaces.",
+    "Scheme row prints marks under PS 25 / PE 25 / Total 50 with CT, TA, sessional-Total and TE printed blank (word-coordinate verified); the detailed page prints only 'L T P : 0 0 2 / Credits: 1'.",
+    "Detailed page prints no units, textbooks or references; 'Minimum 08 experiments out of following (or such experiment) are to be performed:' print retained in experiments_note_print."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additive Manufacturing",
+   "name_print": "Additive manufacturing",
+   "codes": [
+    "KME071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3 (p.2 Sem-VII Departmental Elective-IV slot row)",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction\nHistory and Advantages of Additive Manufacturing, Distinction Between Additive Manufacturing and CNC Machining, Types of Additive Manufacturing Technologies, Nomenclature of AM Machines, Direct and Indirect Processes; Prototyping, Manufacturing and Tooling.\nLayer Manufacturing Processes: Polymerization, Sintering and Melting, Extrusion, Powder Binder Bonding, Layer Laminate Manufacturing, Other Processes; Aerosol printing and Bio plotter.",
+    "2": "Development of Additive Manufacturing Technology\nComputer Aided Design Technology, Other Associated Technology, Metal and Hybrid Systems.\nGeneralized Additive Manufacturing Process Chain; The Eight Steps in Additive Manufacturing, Variation from one AM Machine to Another, Metal System, Maintenance of Equipment, Material Handling Issue, Design of AM.",
+    "3": "Additive Manufacturing Processes\nVat Photo polymerization; Materials, Reaction Rates, Photo polymerization Process Modelling, Scan Patterns\nPowder Bed Fusion Processes; Material, Powder Fusion Mechanism, Process Parameters and Modeling, powder Handling\nExtrusion Based System; Basic principles, plotting and Path Control, Other Systems\nMaterial Jetting; Materials, Material Processing Fundamentals, Material Jetting Machines Directed Energy Deposition Processes; General DED Process Description, Material Delivery, DED systems, Process Parameters, Processing-Structure-Properties Relationships",
+    "4": "Design & Software Issues\nAdditive Manufacturing Design and Strategies; Potentials and Resulting Perspectives, AM based New Strategies, Material Design and Quality Aspects for Additive Manufacturing; Material for AM, Engineering Design Rules for AM.\nSoftware Issue for Additive Manufacturing; Introduction, Preparation of CAD Models: The STL file, Problem with STL file, STL files Manipulation, Beyond the STL file, Additional Software to Assist AM",
+    "5": "Material Design & Quality Aspects\nMachines for Additive Manufacturing, Printers, Secondary Rapid Prototyping processes, Intellectual Property, Product Development, Commercialization, Trends and Future Directions in Additive Manufacturing, Business Opportunities\nApplications\nAerospace, Automotive, Manufacturing, Architectural Engineering, Art, Jewellery, Toys, Medical, Biomedical, Dental, Bio-printing, Tissue & Organ Engineering and many others."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understanding the basics of additive manufacturing/rapid prototyping and its advantages and disadvantages",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understanding the role of additive manufacturing in the design process and the implications for design.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understanding the processes used in additive manufacturing for a range of materials and applications",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the various software tools, processes and techniques that enable advanced/additive manufacturing and personal fabrication.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Apply knowledge of additive manufacturing for various real-life applications",
+     "kl": "K3"
+    }
+   ],
+   "co_lead_print": "Course Outcome: Student will be able to",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by- Ian Gibson , DSavid W. Rosen , Brent Stucker, Springer."
+    },
+    {
+     "no": 2,
+     "book": "Understanding Additive Manufacturing, by- Andreas Gebhardt, Hanser."
+    },
+    {
+     "no": 3,
+     "book": "Additive Manufacturing, by- AmitBandyopadhyay, Susmita Bose, CRC Press."
+    },
+    {
+     "no": 4,
+     "book": "Rapid Prototyping: Principles and Applications, by -Chee Kai Chua, Kah Fai Leong, Chu Sing Lim."
+    }
+   ],
+   "subject_line_print": "Subject Code: KME 071 | Additive manufacturing | L T P : 3 0 0 | Credits: 3",
+   "heading_print": "Semester – VII: Departmental Elective – IV",
+   "scheme_line_print": "2 | (no code printed) | Departmental Elective-IV slot | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3; pool table: 'KME 071 | Additive manufacturing'",
+   "locator": "pp.4-5 (detailed syllabus); p.2 Sem-VII Departmental Elective-IV pool and slot row 2",
+   "quirks": [
+    "Name prints 'Additive manufacturing' (lowercase 'm') on both the detailed page and the p.2 pool table; name field case-normalized.",
+    "References item 1 prints 'DSavid W. Rosen' [sic] (for David) and 'Ian Gibson ,'; item 3 prints 'AmitBandyopadhyay' (glued, missing space) [sic]; item 4 prints 'by -Chee Kai Chua' spacing.",
+    "Unit III prints 'Vat Photo polymerization' and 'Photo polymerization' spaced, but 'Photo polymerization Process Modelling' — transcribed verbatim.",
+    "Unit V prints a second in-unit heading 'Applications' before the applications sentence (retained as a paragraph break)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Flexible Manufacturing System",
+   "name_print": "Flexible  Manufacturing System",
+   "codes": [
+    "KPI071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3 (p.2 Sem-VII Departmental Elective-IV slot row)",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Understanding of FMS\nIntroduction To FMS, Evolution of Manufacturing Systems, objective and Need, Benefits, Components, Types of Flexibility, Merits, Demerits and Applications of Flexibility.\nComposition of FMS, CNC machines, robots, automatic storage and retrieval, automatic material handling, computerized control, Hierarchy of Computer Control ,Computer Control of Work Centre and Assembly Lines, FMS Supervisory Computer Control.",
+    "2": "Planning, scheduling and control of flexible manufacturing systems:\nProcess planning, machine loading, cycle time, machine output vs cycle time, methods to reduce cycle time, machine balancing.\nScheduling, data requirement for scheduling, mater production scheduling, Gantt charts, scheduling rules, scheduling in FMS, Single Product, Single Batch, N–Batch Scheduling Problem, Knowledge Based Scheduling System.\nDispatching, Dispatch activities.",
+    "3": "FMS simulation and data base\nApplication of Simulation, Model of FMS, Simulation Software, Limitation, Manufacturing Data Systems, Data Flow, FMS Database Systems, Planning For FMS Database.\nIntroduction to factors affecting the Performance of FMS, Introduction to Analytical model and Simulation model of FMS.",
+    "4": "Group technology and justification of FMS\nIntroduction, Matrix Formulation, Mathematical Programming Formulation, Graph Formulation, Knowledge Based System for Group Technology, Economic Justification Of FMS, Implementation issues and maintenance of FMS, Application of Possibility Distributions in FMS Systems Justification.",
+    "5": "Applications of FMS and factory of the future\nFMS Application in Machining, Sheet Metal Fabrication, Prismatic Component Production, Aerospace Application, FMS Development Towards Factories of The Future, Artificial Intelligence and Expert Systems in FMS, Design Philosophy and Characteristics for Future, case studies."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the manufacturing systems, flexibility, components of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand production, planning, scheduling and simulation of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand concepts of group technology and economics issues in the application of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the application of FMS in various operations & involvement of AI in flexible manufacturing system.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the concepts of scheduling and simulation in FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 6,
+     "text": "Apply the concepts of scheduling in FMS",
+     "kl": "K3"
+    }
+   ],
+   "co_lead_print": "Course Outcomes: The students will be able to",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Jha, N.K. “Handbook of Flexible Manufacturing Systems”, Academic Press Inc., 1991."
+    },
+    {
+     "no": 2,
+     "book": "Radhakrishnan P. And Subramanyan S., “CAD/CAM/CIM”, Wiley Eastern Ltd., New Age International Ltd., 1994."
+    },
+    {
+     "no": 3,
+     "book": "Raouf, A. And Ben-Daya, M., Editors, “Flexible Manufacturing Systems: Recent Development”, Elsevier Science, 1995."
+    },
+    {
+     "no": 4,
+     "book": "GrooverM.P., “Automation, Production Systems And Computer Integrated Manufacturing”, Prentice Hall Of India Pvt., New Delhi, 1996."
+    },
+    {
+     "no": 5,
+     "book": "Reza A Maleki “Flexible Manufacturing system” Prentice Hall of Inc New Jersey, 1991"
+    },
+    {
+     "no": 6,
+     "book": "TaiichiOhno, “Toyota Production System: Beyond Large-Scale Production”, Productivity Press (India) Pvt. Ltd. 1992."
+    }
+   ],
+   "subject_line_print": "Subject Code: KPI 071 | Flexible  Manufacturing System | L T P : 3 0 0 | Credits: 3",
+   "heading_print": "Semester – VI: Departmental Elective – V: Specialization – Production Engineering/ Industrial Production Engineering",
+   "scheme_line_print": "2 | (no code printed) | Departmental Elective-IV slot | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3; pool table: 'KPI 071 | Flexible Manufacturing System'",
+   "locator": "pp.6-7 (detailed syllabus); p.2 Sem-VII Departmental Elective-IV pool and slot row 2",
+   "quirks": [
+    "Detailed-page heading prints 'Semester – VI: Departmental Elective – V: Specialization – Production Engineering/ Industrial Production Engineering' [sic]; the p.2 pool table lists KPI 071 under Departmental Elective-IV, Sem VII. Kept verbatim; subject semester taken as 7 per the printed scheme/pool.",
+    "Unit-II prints 'UNIT-II:' followed by the title 'Planning, scheduling and control of flexible manufacturing systems:' set with wide justified gaps (single words spread across the heading line); joined with single spaces.",
+    "Unit-III label prints 'UNIT‐III' with a U+2010 hyphen glyph (other units print ASCII '-').",
+    "Unit-II prints 'mater production scheduling' [sic] (for master); Unit-I prints 'Hierarchy of Computer Control ,Computer Control' (space before comma); 'N–Batch' prints an en dash.",
+    "References print glued 'GrooverM.P.' and 'TaiichiOhno' [sic]; reference 5 prints 'Prentice Hall of Inc New Jersey' [sic]; curly double-quote glyphs (U+201C/U+201D) transcribed verbatim.",
+    "Subject name prints 'Flexible  Manufacturing System' (double space) on the detailed page header; p.2 pool prints 'Flexible Manufacturing System' (single space)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Facility Planning and Design",
+   "name_print": "Facility Planning and Design",
+   "codes": [
+    "KPI072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3 (p.2 Sem-VII Departmental Elective-IV slot row)",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Factory Planning: Introduction, factors to be considered\nPlant Location and Site Selection: Levels of plant location, rural, urban and suburban location of plants, factors influencing the plant location, optimum plant location, location theories.",
+    "2": "Plant Layout: Introduction of production system, scope, objectives, importance, and types of plant layout, characteristics of a good plant layout, factoring affecting plant layout, procedure of developing a plant layout, different graphical and computerized plant layout design techniques, installation and evaluation of plant layout, optimum plant layout.",
+    "3": "Group Technology: Definition, objectives, planning, part families and machine cell formation, evaluation of machine cells, types of GT layout, benefits of GT, implementation of GT.",
+    "4": "Line Balancing: Definitions, heuristic and analytical methods of balancing the assembly and production line, single and mixed model line balancing.",
+    "5": "Materials Handling: Definition, scope, objectives, principles, importance, factors in materials handling problem, analysis of materials handling, types and selection of materials handling equipment’s, aids and techniques in materials handling equipment selection. Planning of material flow, advantages of planned material flow, flow planning principles, flow patterns, analysis of material flow."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the plant location and site selection, factors influencing the plant location, the plant layout and plant layout design techniques",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the group technology and formation of machine cells, balancing of manufacturing line.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the material handling and flow pattern.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Use the concepts of plant location and site selection and its layout design.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the concepts of group technology and manufacturing cell formation.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Use material handling technologies in the plant.",
+     "kl": "K3"
+    }
+   ],
+   "co_lead_print": "Course Outcomes: The students will be able to",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Francis, R.L., McGinnis, L.F., and White, J.A., “Facility Layout and Location: An Analytical Approach”, Prentice Hall of India 2004"
+    },
+    {
+     "no": 2,
+     "book": "Meyers, F.E., and Stephens, M.P., “Manufacturing Facilities Design and Material Handling”, Prentice-Hall, Inc. 2000"
+    },
+    {
+     "no": 3,
+     "book": "Groover,M.P.,“Automation, Production Systems and ComputerIntegrated Manufacturing”,2nd 2001 Ed., Pearson Education Inc. Delhi"
+    },
+    {
+     "no": 4,
+     "book": "Sule,D.R.,“Manufacturing Facilities-Location, Planning, and Design”, PWS Publishing Company 1984"
+    },
+    {
+     "no": 5,
+     "book": "Tompkins,J.A., White, J.A.,Bozer,Y.A.,Frazelle, E.H.,Tanchoco, J.M., and Tervino,J.,“Facilities Planning”,2nd 1996 Ed., John Willey & Sons"
+    }
+   ],
+   "subject_line_print": "Subject Code: KPI 072 | Facility Planning and Design | L T P : 3 0 0 | Credits: 3",
+   "heading_print": "Semester – VII: Departmental Elective – V: Specialization – Production Engineering/ Industrial Production Engineering",
+   "scheme_line_print": "2 | (no code printed) | Departmental Elective-IV slot | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3; pool table: 'KPI 072 | Facility Planning & Design'",
+   "locator": "pp.8-9 (detailed syllabus); p.2 Sem-VII Departmental Elective-IV pool and slot row 2",
+   "quirks": [
+    "Detailed-page heading prints 'Semester – VII: Departmental Elective – V: ...' [sic]; the p.2 pool table lists KPI 072 under Departmental Elective-IV. Kept verbatim.",
+    "Unit labels print 'UNIT -I' to 'UNIT -V' (space before the dash); no separate unit title lines — the units open directly with their lead-in topics ('Factory Planning: ...', 'Plant Layout: ...', etc.).",
+    "Unit-II prints 'factoring affecting plant layout' [sic] (for factors); Unit-V prints 'equipment’s' with a U+2019 apostrophe.",
+    "References print glued 'Groover,M.P.,“Automation' and 'ComputerIntegrated' [sic], '”,2nd 2001 Ed.' spacing, 'Tervino' [sic] (for Trevino) and 'John Willey & Sons' [sic]; curly quote glyphs transcribed verbatim.",
+    "Books list header prints 'Recommended Books:' (not 'Books and References:').",
+    "p.2 pool table prints the name 'Facility Planning & Design'; the detailed page prints 'Facility Planning and Design'.",
+    "Reference 2 prints 'Prentice-Hall' broken across lines after its own printed hyphen ('Prentice-' end-of-line / 'Hall, Inc. 2000'); joined as the compound 'Prentice-Hall'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mathematical Modeling of Manufacturing Processes",
+   "name_print": "Mathematical Modeling of Manufacturing Processes",
+   "codes": [
+    "KME073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3 (p.2 Sem-VII Departmental Elective-V slot row)",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to Manufacturing processes; Materials Processing; Types and Properties of Engineered Materials; Evaluation of Properties of Manufactured Products; Statistical and data-driven modelling approach; Overview of mathematical modeling, types of mathematical models and methods to solve the same. Physics of manufacturing processes; Solid-state deformation (Elasticity and Plasticity) and residual stresses; solid-state phase transformation and recrystallization; melting and solidification; Coupled Systems",
+    "2": "Conventional machining; Orthogonal cutting; Tool geometry; chip formation; force components; heat generation; tool life; mathematical modelling approach; solution of problems; Introduction to discrete-time linear and non-linear models. Non-conventional machining; Principal and mechanism of different processes; Parametric analysis of heat transfer, material removal, and surface finish.",
+    "3": "Metal forming; Mechanics of bulk metal forming; mechanics of sheet metal forming; heat transfer and deformation; Welding; Fusion welding; Welding-heat source modeling, temperature distribution, effect of surface- active elements, modes of metal transfer in welding; Solid-state welding; Solidification and microstructure; Residual stress and distortion.",
+    "4": "Casting and powder metallurgy; Cooling and Solidification; principle of powder metallurgy; Coating and additive manufacturing; Principle of surface and coating technology; Principle and development of additive manufacturing technologies",
+    "5": "Heat treatment; Fundamentals of heat treatment; Evaluation of microstructure properties and residual stress of different manufacturing processes. Micro/nanoscale manufacturing; Down-scaling of conventional manufacturing processes, Change of properties, Micro-to-nano manufacturing; Packaging, finishing, micro joining and nano joining, micro casting, micro forming, micromachining. Processing of non-metallic materials; Principle of plastic processing and shaping of plastics, processing of non-metallic bio-materials; Principle of glass and ceramics processing and shaping of glass and ceramics."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of manufacturing processes, mathematical models and their solutions",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand unconventional and conventional machining, their discrete-time linear, non-linear models and solutions",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Analyze the mechanism of forming and heat transfer in welding",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Apply the principles of casting, powder metallurgy, coating and additive Manufacturing",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Understand the fundamental of heat treatment, micro / nano manufacturing and processing of non-metallic materials.",
+     "kl": "K2"
+    }
+   ],
+   "co_lead_print": "Course Outcome: Student will be able to",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A Ghosh and A K Mallik: Manufacturing Science, East-West Press Pvt Ltd, 2nd Ed., 2010."
+    },
+    {
+     "no": 2,
+     "book": "D A Brandt, J C Warner: Metallurgy Fundamentals, Goodheart- Willcox, 2009."
+    },
+    {
+     "no": 3,
+     "book": "C Lakshmana Rao and Abhijit P Deshpande: Modelling of Engineering Materials, Ane Books Pvt. Ltd., New Delhi, India, 2010."
+    },
+    {
+     "no": 4,
+     "book": "J. Chakrabarty: Theory of plasticity, 3rd Eds, Elsevier India, 2009."
+    },
+    {
+     "no": 5,
+     "book": "Norman Y Zhou: Microjoining and Nanoioining, Woodhead publishing, 2008"
+    },
+    {
+     "no": 6,
+     "book": "R W Messler: Principles of Welding John Wiley and Sons, 1999."
+    },
+    {
+     "no": 7,
+     "book": "J T Black and Ronald A Kohser: DeGarmo's Materials & processes in Manufacturing Wiley-India, 2010."
+    },
+    {
+     "no": 8,
+     "book": "V K Jain: Advanced Machining Processes, Allied Publishers, Mumbai, 2002."
+    },
+    {
+     "no": 9,
+     "book": "Yi Qin: Micromanufacturing Engineering and Technology, Elsevier, 2015."
+    },
+    {
+     "no": 10,
+     "book": "J Zhang and Yeon-Gil Jung: Additive Manufacturing: Materials, Processes, Quantifications and Applications, Elsevier, 2018."
+    },
+    {
+     "no": 11,
+     "book": "J A Dantzig and M Rappaz: Solidification, CRS press, 2009."
+    },
+    {
+     "no": 12,
+     "book": "J.N. Kapur, Mathematical Models in Biology and Medicine, East-West Press Private limited."
+    },
+    {
+     "no": 13,
+     "book": "Leah, Edelstein, Keshet, Mathematical Models in Biology, SIAM publications."
+    },
+    {
+     "no": 14,
+     "book": "J.D. Murray, Mathematical Biology Vol. I, II, 3rd edition, Springer publications."
+    }
+   ],
+   "subject_line_print": "Subject Code: KME 073 | Mathematical Modeling of Manufacturing Processes | L T P : 3 0 0 | Credits: 3",
+   "heading_print": "Semester – VII: Departmental Elective – V: Specialization – Manufacturing and Automation",
+   "scheme_line_print": "3 | (no code printed) | Departmental Elective-V slot | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3; pool table: 'KME 073 | Mathematical Modeling of Manufacturing Processes'",
+   "locator": "pp.10-11 (detailed syllabus); p.2 Sem-VII Departmental Elective-V pool and slot row 3",
+   "quirks": [
+    "Detailed-page heading prints 'Semester – VII: Departmental Elective – V: Specialization – Manufacturing and Automation' — a specialization-track label different from the branch-scope specialization printed on pp.6/8/14.",
+    "Unit labels print 'Unit-1:' to 'Unit-5:' with no unit title lines; body text transcribed directly. CO labels print 'CO1'..'CO5' (no space).",
+    "References print 'Nanoioining' [sic] (item 5, for Nanojoining), 'Goodheart- Willcox' (space after hyphen, item 2), 'CRS press' [sic] (item 11, for CRC Press), 'Leah, Edelstein, Keshet' [sic] (item 13), item 7 'DeGarmo's' prints an ASCII apostrophe (while p.11 'Related Course’s' prints U+2019).",
+    "Printed after the references: 'Related Course’s / Useful Links' (with U+2019 in 'Course’s') listing '1. https://www.digimat.in/nptel/courses/video/112103273/L01.html' and '2. https://swayam.gov.in/nd1_noc20_ma47/preview' — recorded here as no other field applies.",
+    "Unit-2 prints 'discrete-time' broken across lines after its own printed hyphen ('Introduction to discrete-' / 'time linear and non-linear models'); joined as the compound 'discrete-time' (CO2 prints 'discrete-time' unbroken)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Machine Learning",
+   "name_print": "Machine Learning",
+   "codes": [
+    "KME074"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3 (p.2 Sem-VII Departmental Elective-V slot row)",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to Machine Learning (6Hours)\nAn Introduction to Machine Learning, Types of Machine Learning, and Applications of ML in Mechanical Engineering, Designing a Learning System, Performance Measures for ML Model, Issues in Machine Learning, AI vs. ML, and Essential Math for ML and AI, Data Science Vs Machine Learning",
+    "2": "Supervised Learning (9Hours)\nSupervised Learning: Introduction to Supervised Learning, Classification, Regression Analysis and its Types , Model Selection Procedures, Bayesian Decision Theory, Naïve Bayes Classifier, Bayes Optimal Classifier, Evaluating an Estimator: Bias and Variance , Support Vector Machines, Types of Support Vector Kernel(Linear Kernel, Polynomial Kernel, Gaussian Kernel, Issues in SVM, Case Study on House Price Prediction using Machine Learning.",
+    "3": "Unsupervised Learning (9Hours)\nUnsupervised Learning: Introduction to Unsupervised Learning, Cluster Analysis, K-Means Clustering, Expectation-Maximization Algorithm, Dimensionality Reduction: Principal Components Analysis, Independent Component Analysis, Multidimensional Scaling, Linear Discriminant Analysis.",
+    "4": "Decision Tree & Neural Networks (9Hours)\nDecision Trees: Basics of Decision Tree, Issues in Decision tree learning, ID3 Algorithm, Information gain and Entropy.\nIntroduction to Neural Networks: Perceptron, The Back propagation Algorithm, The Convergence analysis and universal approximation theorem for back propagation algorithm, Concept of Convolution Neural Networks, Types of Layers of CNN, Case Study of CNN (either on Self driving car, Building a smart speaker, etc.)",
+    "5": "Genetic Algorithms & Reinforcement Learning (7Hours)\nGenetic Algorithm: Introduction, Components of Genetic Algorithm, CrossOver, Mutation, Model of Evolution and Learning, Applications of Genetic Algorithm\nReinforcement Learning: Introduction to Reinforcement Learning, Learning task, Model-Based Learning Q- Learning, Markov Decision Process, Q Learning Function, Temporal Difference Learning, Generalization,"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the need of machine learning concepts",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "To Understand a wide variety of ML Algorithms and how to evaluate models generated from data",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Solve prediction based problems",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze machine learning algorithms",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Apply the Algorithms to real-world problems",
+     "kl": "K4"
+    }
+   ],
+   "co_lead_print": "Course Outcomes: Students are able to",
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Tom M. Mitchell, ―Machine Learning, McGraw-Hill Education (India) Private Limited, 2013."
+    },
+    {
+     "no": 2,
+     "book": "Ethem Alpaydin, ― Introduction to Machine Learning (Adaptive Computation and Machine Learning), The MIT Press 2004."
+    },
+    {
+     "no": 3,
+     "book": "Stephen Marsland, ―Machine Learning: An Algorithmic Perspective, CRC Press, 2009."
+    },
+    {
+     "no": 4,
+     "book": "Bishop, C., Pattern Recognition and Machine Learning. Berlin: Springer-Verlag."
+    }
+   ],
+   "subject_line_print": "Subject Code: KME 074 | Machine Learning | L T P : 3 0 0 | Credits: 3",
+   "heading_print": "Semester – VII: Departmental Elective – V: Specialization – Automation and Industry 4.0",
+   "scheme_line_print": "3 | (no code printed) | Departmental Elective-V slot | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3; pool table: 'KME 074 | Machine Learning'",
+   "locator": "pp.12-13 (detailed syllabus); p.2 Sem-VII Departmental Elective-V pool and slot row 3",
+   "quirks": [
+    "Unit headings print right-aligned hour annotations on the heading lines: '(6Hours)', '(9Hours)', '(9Hours)', '(9Hours)', '(7Hours)' for Units 1-5 (word-coordinate verified, same baseline as the heading); transcribed appended to the unit titles. These are the only load annotations printed — lectures_per_unit omitted.",
+    "Book titles print '―' (U+2015 HORIZONTAL BAR) as the opening quote/dash glyph in items 1-3 — transcribed verbatim.",
+    "'Naïve' prints with U+00EF (Unit 2). Unit 2 prints spaced commas ('Types , Model Selection Procedures', 'Bias and Variance , Support Vector Machines') and 'Kernel(Linear Kernel' without a space — verbatim.",
+    "Unit 5 Reinforcement Learning paragraph ends with a printed trailing comma ('Generalization,') [sic]. Unit 5 prints 'CrossOver' [sic].",
+    "Books list header prints 'Text Book:'; no reference-books list printed for this subject.",
+    "Detailed-page heading prints 'Semester – VII: Departmental Elective – V: Specialization – Automation and Industry 4.0' — a specialization-track label different from the branch-scope specialization printed on pp.6/8/14."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Project Management",
+   "name_print": "Project Management",
+   "codes": [
+    "KPI073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "marks_print": "CT 30 | TA 20 | CT+TA Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3 (p.2 Sem-VII Departmental Elective-V slot row)",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Concepts of project management (PM)\nIntroduction of Project: Definitions & Characteristics of Project, Types of Projects, Project Life Cycle, Project Management Process: Introduction, Tools & Techniques of Project Management. Project Team and Scope of Project Management: Characteristics of a Project Team & Project Leader, Project Organization, and Importance of Project Management, project planning and graphic presentation; work breakdown structure, Establishing the project and goals, Project feasibility Analysis: Technical feasibility, commercial and financial visibility, Environment Analysis",
+    "2": "PROJECT MONITORING AND CONTROL\nDimensions of Project Monitoring & Control, Project Management Information System, Earned Value Analysis: Planned Value (PV), Earned Value (EV), Cost Variance (CV), Schedule Variance (SV), Cost performance Index (CPI), Schedule performance Index (SPI), Project Termination: Types of Terminations, Project Termination Process",
+    "3": "PROJECT APPRAISAL & COST ESTIMATION\nIntroduction, technical appraisal, Financial Appraisal, Institutional Appraisal , commercial appraisal, Environmental Appraisal, economic appraisal, Legal Appraisal , Methodology of Project Appraisal\nPROJECT APPRAISAL TECHNIQUES: Non-Discounting Techniques- Urgency, Payback Period, Accounting Rate of Return, Debt Service Coverage Ratio. Discounting Criteria Techniques- Net Present Value(NPV), Benefit Cost Ratio(BCR) , Internal Rate of Return(IRR), Annual Capital Charge",
+    "4": "Project Planning & Scheduling: Introduction to PERT &CPM, planning and scheduling networks, time estimation. determination of critical path and its length, expected length of critical path, calculating the project length and variance, event slack and floats, Expected time for activities, PERT &CPM cost accounting systems, lowest cost schedule, crashing of networks, linear programming formulation of event-oriented networks, Line of balance (LOB) technique, Introduction to project scheduling software like overview of MS-project-2000, Project Libre, WBS Schedule pro, Smart Draw, etc.",
+    "5": "Modification & Extensions of Network Models: Complexity of project scheduling with limited resources, resource levelling of project schedules, resource allocation in project scheduling - heuristic solution. Precedence networking- examples with algorithm, decision networks, probabilistic models in networks.\nProject Management Software: Introduction, Advantages of Using Project Management Software, Common Features Available in Most of the Project Management Software, essential requirements of PM software, working on any project management software like Teamwork, Basecamp, Zoho, Proofhub, Celoxisetc"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concepts, applications and advantages of Project Management.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the monitoring of the project and its control.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand project appraisal and cost estimation.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Apply the techniques of project planning and scheduling.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Understand the project management software",
+     "kl": "K2"
+    }
+   ],
+   "co_lead_print": "The students will be able to",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Project Management by Harvey Maylor, Pearson India."
+    },
+    {
+     "no": 2,
+     "book": "Project Management by Choudhury, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Project Management by K. Nagarajan."
+    },
+    {
+     "no": 4,
+     "book": "Project Management: A Systems Approach to Planning, Scheduling and Controlling, by Kerzner, Willey."
+    },
+    {
+     "no": 5,
+     "book": "Project Management: A Life Cycle Approach by Kanda, PHI, India."
+    },
+    {
+     "no": 6,
+     "book": "Stoner JAF, Freeman RE and Gilbert DR, Management, 6th ed., Pearson Education, 2004."
+    },
+    {
+     "no": 7,
+     "book": "Tripathy PC & Reddy PN, Principles of Management, Tata McGraw Hill, 1999."
+    },
+    {
+     "no": 8,
+     "book": "Project Management and Appraisal, by Khatua, Oxford University Press."
+    }
+   ],
+   "subject_line_print": "Subject Code: KPI 073 | Project Management | L T P : 3 0 0 | Credits: 3",
+   "heading_print": "Semester – VII: Departmental Elective – V: Specialization –Production Engineering/ Industrial Production Engineering",
+   "scheme_line_print": "3 | (no code printed) | Departmental Elective-V slot | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3; pool table: 'KPI 073 | Project Management'",
+   "locator": "pp.14-15 (detailed syllabus); p.2 Sem-VII Departmental Elective-V pool and slot row 3",
+   "quirks": [
+    "Detailed-page heading prints 'Semester – VII: Departmental Elective – V: Specialization –Production Engineering/ Industrial Production Engineering' — no space after the dash before 'Production' [sic].",
+    "CO table lead prints only 'The students will be able to' (no 'Course Outcomes:' label); column header prints 'Blooms Taxonomy'.",
+    "References 7 and 8 print on one line ('... Tata McGraw Hill, 1999. 8. Project Management and Appraisal, by Khatua, Oxford University Press.'); split into items 7 and 8 by their printed numbers.",
+    "Reference 4 prints 'Willey' [sic] (for Wiley).",
+    "Unit-IV prints no separate title line; the unit body begins with the lead-in 'Project Planning & Scheduling: ...'. 'PERT &CPM' prints without a space (twice); Unit-III prints 'Appraisal , commercial' and 'Ratio(BCR) , Internal' spacing; Unit-V prints 'Celoxisetc' glued [sic] (for 'Celoxis etc')."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mini Project or Internship Assessment",
+   "name_print": "Mini Project or Internship Assessment*",
+   "codes": [
+    "KPI751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "total": 50
+   },
+   "marks_print": "CT blank | TA blank | CT+TA Total blank | PS 50 | TE blank | PE blank | Total 50 | Credit 1 (p.2 Sem-VII row 6, word-coordinate verified)",
+   "subject_type": "mini-project",
+   "scheme_line_print": "6 | KPI 751 | Mini Project or Internship Assessment* | L 0 T 0 P 2 | CT/TA/CT+TA Total blank | PS 50 | TE blank | PE blank | Total 50 | Credit 1",
+   "locator": "p.2 Sem-VII scheme row 6 (no detailed syllabus printed in this document)",
+   "quirks": [
+    "Name prints with a trailing asterisk 'Mini Project or Internship Assessment*' keyed to the printed footnote: '*The Mini Project or internship (5 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.'",
+    "No units, COs, books, objectives or prerequisites printed in this document (scheme row only)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "Project",
+   "codes": [
+    "KPI752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 8
+   },
+   "credit": 4,
+   "marks": {
+    "ps": 150,
+    "total": 150
+   },
+   "marks_print": "CT blank | TA blank | CT+TA Total blank | PS 150 | TE blank | PE blank | Total 150 | Credit 4 (p.2 Sem-VII row 7, word-coordinate verified)",
+   "subject_type": "project",
+   "scheme_line_print": "7 | KPI 752 | Project | L 0 T 0 P 8 | CT/TA/CT+TA Total blank | PS 150 | TE blank | PE blank | Total 150 | Credit 4",
+   "locator": "p.2 Sem-VII scheme row 7 (no detailed syllabus printed in this document)",
+   "quirks": [
+    "No units, COs, books, objectives or prerequisites printed in this document (scheme row only).",
+    "The name 'Project' is also printed for KPI 851 (Semester-VIII, 0-0-18, 9 credits, PS 100/PE 300/Total 400) — kept as two separate rows with distinct codes/semesters/credits per RULES §11 (never merge two different subjects); cross-referenced on both rows."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "subject_name_project_printed_twice_kpi752_kpi851"
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "Project",
+   "codes": [
+    "KPI851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 18
+   },
+   "credit": 9,
+   "marks": {
+    "ps": 100,
+    "ese_pe": 300,
+    "ese_te_pe": 300,
+    "total": 400
+   },
+   "marks_print": "CT blank | TA blank | CT+TA Total blank | PS 100 | TE blank | PE 300 | Total 400 | Credit 9 (p.2 Sem-VIII row 4, word-coordinate verified)",
+   "subject_type": "project",
+   "scheme_line_print": "4 | KPI 851 | Project | L 0 T 0 P 18 | CT/TA/CT+TA Total blank | PS 100 | TE blank | PE 300 | Total 400 | Credit 9",
+   "locator": "p.2 Sem-VIII scheme row 4 (no detailed syllabus printed in this document)",
+   "quirks": [
+    "No units, COs, books, objectives or prerequisites printed in this document (scheme row only).",
+    "The name 'Project' is also printed for KPI 752 (Semester-VII, 0-0-8, 4 credits, PS 150/Total 150) — kept as two separate rows with distinct codes/semesters/credits per RULES §11 (never merge two different subjects); cross-referenced on both rows."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "subject_name_project_printed_twice_kpi752_kpi851"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover",
+   "print": "DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY\nLUCKNOW, UTTAR PRADESH\nSTUDY & EVALUATION SCHEME WITH SYLLABUS\nFOR\nB. TECH. 4th YEAR\nPRODUCTION ENGINEERING/\nINDUSTRIAL PRODUCTION ENGINEERING\n[Effective from Session: 2021-22]",
+   "locator": "p.1 cover"
+  },
+  {
+   "kind": "scheme_label",
+   "print": "B. Tech Production Engineering/ Industrial Production Engineering\nEvaluation Scheme\nEffective in Session 2021-22\nSEMESTER- VII",
+   "locator": "p.2 above Sem-VII table"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "Sl. No. | Code | Subject | Periods: L T P | Evaluation Scheme: CT TA Total PS TE PE | End Semester | Total | Credit ('End Semester' is a spanning header over the separate TE and PE columns)",
+   "locator": "p.2 Sem-VII table header"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "1 | (no code printed) | HSMC-1/HSMC-2 | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "locator": "p.2 Sem-VII row 1",
+   "note": "HSMC elective slot placeholder; detailed HSMC syllabus not printed in this document"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "2 | (no code printed) | Departmental Elective-IV | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "locator": "p.2 Sem-VII row 2",
+   "note": "slot row; to be chosen from the printed Sem-VII pool (KME 071 Additive manufacturing / KPI 071 Flexible Manufacturing System / KPI 072 Facility Planning & Design), all three detailed in this document"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "3 | (no code printed) | Departmental Elective-V | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "locator": "p.2 Sem-VII row 3",
+   "note": "slot row; to be chosen from the printed Sem-VII pool (KME 073 Mathematical Modeling of Manufacturing Processes / KME 074 Machine Learning / KPI 073 Project Management), all three detailed in this document"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "4 | (no code printed) | Open Elective-II | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "locator": "p.2 Sem-VII row 4",
+   "note": "open-elective slot placeholder; open-elective pool not printed in this document"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "8 | (no code printed) | MOOCs (Essential for Hons. Degree) | (no periods/marks printed in the row)",
+   "locator": "p.2 Sem-VII row 8"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total | 12 0 12 | 850 | 18",
+   "locator": "p.2 Sem-VII total row"
+  },
+  {
+   "kind": "footnote",
+   "print": "*The Mini Project or internship (5 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+   "locator": "p.2 below Sem-VII table"
+  },
+  {
+   "kind": "scheme_label",
+   "print": "SEMESTER- VIII",
+   "locator": "p.2 above Sem-VIII table"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "1 | (no code printed) | HSMC-2/HSMC-1 | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "locator": "p.2 Sem-VIII row 1",
+   "note": "HSMC elective slot placeholder; detailed HSMC syllabus not printed in this document"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "2 | (no code printed) | Open Elective-III | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "locator": "p.2 Sem-VIII row 2",
+   "note": "open-elective slot placeholder; open-elective pool not printed in this document"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "3 | (no code printed) | Open Elective-IV | L 3 T 0 P 0 | CT 30 TA 20 Total 50 | PS blank | TE 100 | PE blank | Total 150 | Credit 3",
+   "locator": "p.2 Sem-VIII row 3",
+   "note": "open-elective slot placeholder; open-elective pool not printed in this document"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "5 | (no code printed) | MOOCs (Essential for Hons. Degree) | (no periods/marks printed in the row)",
+   "locator": "p.2 Sem-VIII row 5"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total | 9 0 18 | 850 | 18",
+   "locator": "p.2 Sem-VIII total row"
+  },
+  {
+   "kind": "scheme_note",
+   "print": "Student can choose any elective horizontally from the pool of electives",
+   "locator": "p.2 above pool tables"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "Sem VII | Code: KME 071 / KPI 071 / KPI 072 | Departmental Elective-IV | Additive manufacturing / Flexible Manufacturing System / Facility Planning & Design",
+   "locator": "p.2 pool table 1"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "Sem VII | Code: KME 073 / KME 074 / KPI 073 | Departmental Elective-V | Mathematical Modeling of Manufacturing Processes / Machine Learning / Project Management",
+   "locator": "p.2 pool table 2"
+  }
+ ],
+ "quirks": [
+  "DOC_SCOPE: B. Tech. 4th Year — Production Engineering/ Industrial Production Engineering, [Effective from Session: 2021-22]; cover prints 'B. TECH. 4th YEAR / PRODUCTION ENGINEERING/ INDUSTRIAL PRODUCTION ENGINEERING' and p.2 prints 'B. Tech Production Engineering/ Industrial Production Engineering'. Course field normalized to 'BTech' per RULES §1b (verbatim print retained here and in non_subject_rows.cover).",
+  "Method: page-image rendering unavailable in this sub-agent context; text-layer fidelity proven via PyMuPDF span-geometry forensics (B32-d03 recorded class): (a) per-word bbox column mapping of the p.2 scheme tables, (b) off-page span scan — 0 off-page spans on all 15 pages, (c) non-ASCII glyph scan — only legit typographic glyphs (U+2010 in 'UNIT‐III', U+2013 en dashes in headings, U+2015 '―' in KME 074 book titles, U+2019 apostrophes, U+201C/U+201D quotes, U+00EF in 'Naïve'); no mojibake or garbled fragments found; no text repaired or invented.",
+  "p.2 scheme tables: per-word x-coordinates resolve the printed columns to CT(x≈366-378) TA(x≈386-399) Total(x≈403-427) PS(x≈434-445) TE(x≈457-468) PE(x≈479-490) Total(x≈504-521) Credit(x≈543-551); 'End Semester' is a spanning header over the TE/PE columns only. marks_print strings record the per-column mapping used.",
+  "Printed unit labels ('UNIT I', 'UNIT -I', 'Unit-1:' etc.) head each unit; unit text transcribed from the printed title/lead-in onward — the bare label token is dropped as structural, ALL body text is verbatim. Printed paragraph breaks inside a unit are preserved as newline characters.",
+  "Justified-print wide inter-word gaps (runs of 2+ spaces, e.g. KME 751 experiments list and KME 071/074 CO lines) collapsed to single spaces; glued missing-space words (e.g. 'AmitBandyopadhyay', 'GrooverM.P.', 'TaiichiOhno', 'Celoxisetc') kept verbatim; no words added or removed.",
+  "Detailed-page headings print Departmental-Elective numbering inconsistent with the p.2 pool table: p.6 KPI 071 prints 'Semester – VI: Departmental Elective – V' [sic] (pool: Sem VII, Departmental Elective-IV); p.8 KPI 072 prints 'Departmental Elective – V' [sic] (pool: Elective-IV); pp.4/10/12/14 print 'Departmental Elective – IV/V' matching the pool. Kept verbatim in subject quirks.",
+  "p.10 (KME 073) and p.12 (KME 074) headings print specialization-track labels 'Specialization – Manufacturing and Automation' and 'Specialization – Automation and Industry 4.0' which differ from the branch-scope specialization 'Production Engineering/ Industrial Production Engineering' printed on pp.6/8/14 — all transcribed verbatim.",
+  "Codes print with a space ('KME 751', 'KPI 071'); the codes arrays hold them normalized without space (KME751, KPI071) per the §7 spec example; printed forms retained in name_print/scheme_line_print.",
+  "p.2 pool table prints 'Flexible Manufacturing System' (single space) and 'Facility Planning & Design'; the detailed pages print 'Flexible  Manufacturing System' (double space) and 'Facility Planning and Design' — all verbatim.",
+  "No printed course objectives, eligibility, prerequisites, or lectures-per-unit annotations anywhere in this document (only KME 074 prints per-unit '(nHours)' hour annotations); the corresponding keys are omitted (printed blank).",
+  "p.3: the KME 751 subject header row prints ABOVE the Course Outcome table; the parsed fulltext linearization emits it last (block order) — span geometry verified header-first."
+ ],
+ "flags": []
+}

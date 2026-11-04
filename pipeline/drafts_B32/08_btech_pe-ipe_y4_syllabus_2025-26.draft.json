@@ -1,0 +1,457 @@
+{
+  "pdf_rel": "repo_asleep/PDFs/5-course/2025-26/btech_pe-ipe_y4_syllabus_2025-26.pdf",
+  "session": "2025-26",
+  "course": "BTech",
+  "sha16": "9f28c9e3cc3715fa",
+  "stem": "08_btech_pe-ipe_y4_syllabus_2025-26",
+  "subjects": [
+    {
+      "name": "Measurement and Metrology",
+      "name_print": "Measurement and Metrology",
+      "codes": [
+        "BME701"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 20,
+        "sessional_ta": 10,
+        "sessional_total": 30,
+        "ese_te_pe": 70,
+        "total": 100
+      },
+      "subject_type": "core",
+      "units": {
+        "1": "Mechanical Measurements: Introduction to measurement and measuring instruments. General concept–Generalized measurement system and its elements-Unit sand standards- measuring instruments: sensitivity, stability, range, accuracy and precision-static and dynamic response- repeatability-systematic, Source of error, statistical analysis of error and random errors- correction, calibration. Dimensional and geometric tolerance Sensors and Transducers: Types of sensors, types of transducers and their characteristics.",
+        "2": "Time Related Measurements: Stroboscope, frequency measurement by direct comparison. Measurement of displacement Measurement of Pressure: Gravitational, directing acting, elastic and indirect type pressure transducers. Measurement of very low pressures (high vacuum). Strain Measurement: Types of strain gauges and their working, strain gauge circuits, temperature compensation. Strain rosettes, calibration.",
+        "3": "Flow Measurement: Hot Wire Anemometry, Laser Doppler Velocimetry, Rotameter. Temperature Measurement: Thermometers, bimetallic thermocouples, thermistors and pyrometers. Measurements of Force & Torque: Different types of load cells, elastic transducers, pneumatic & hydraulic systems. Seismic instruments.",
+        "4": "Metrology and Inspection: Standards of linear measurement, line and end standards. Interchange ability and standardization. Linear and angular measurements devices and systems Comparators: Sigma, Johansson’s Microkrator. Limit gauges classification, Taylor’s Principle of Gauge Design.",
+        "5": "Limits, Fits &Tolerance and Surface roughness: Introduction to Limits, Fits, Tolerances and IS standards, Limit-gauges, and surface-roughness. Measurement of geometric forms like straightness, flatness, roundness. Tool makers microscope, profile projector, autocollimator. Interferometry: principle and use of interferometry, optical flat. Measurement of screw threads and gears. Surface texture: quantitative evaluation of surface roughness and its measurement."
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Explain the basics knowledge of measurements. and also develop competence in sensors, transducers",
+          "kl": "K2"
+        },
+        {
+          "no": 2,
+          "text": "Understand and able to use various devices for measuring strain, Pressure and time related equipment.",
+          "kl": "K2"
+        },
+        {
+          "no": 3,
+          "text": "Understand and able to use various devices for measuring Flow, Temperature, Force & Torque.",
+          "kl": "K2"
+        },
+        {
+          "no": 4,
+          "text": "Explain the basics knowledge of  metrology & Inspection.",
+          "kl": "K2"
+        },
+        {
+          "no": 5,
+          "text": "Understand the fundamentals of various methods for the measurements of surface roughness parameters and working of optical measuring instruments.",
+          "kl": "K2"
+        }
+      ],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Experimental Methods for Engineers by Holman, MCGRAW HILL INDIA"
+        },
+        {
+          "no": 2,
+          "book": "Mechanical Measurements by Beckwith, Pearson"
+        },
+        {
+          "no": 3,
+          "book": "Principles of Measurement Systems by Bentley, Pearson"
+        },
+        {
+          "no": 4,
+          "book": "Metrology of Measurements by Bewoor and Kulkarni, MCGRAW HILL INDIA"
+        },
+        {
+          "no": 5,
+          "book": "Measurement Systems, Application Design by Doeblein, MCGRAW HILL INDIA"
+        },
+        {
+          "no": 6,
+          "book": "Hume KJ, “Engineering Metrology”, MacDonald and Co"
+        },
+        {
+          "no": 7,
+          "book": "Jain, RK, “Engineering Metrology” Khanna Publishers"
+        },
+        {
+          "no": 8,
+          "book": "Jain, R.K., “Mechanical Measurement” Khanna Publishers"
+        },
+        {
+          "no": 9,
+          "book": "Gupta SC, Engineering Metrology, Dhanpat Rai Publications"
+        }
+      ],
+      "reference_books": [],
+      "experiments": [],
+      "objectives_print": [],
+      "quirks": [
+        "Marks from p.2 Sem-VII scheme row 1 (S.No.1): CT 20, TA 10, sessional Total 30; PS printed '-', TE 70, PE printed '-'; Total 100, Credit 3.",
+        "p.2 scheme prints subject name 'Measurement & Metrology'; subject page p.4 prints 'Measurement and Metrology'.",
+        "CO 1 prints stray period: 'measurements. and also develop competence in sensors, transducers' — verbatim.",
+        "CO 4 prints double space in 'basics knowledge of  metrology' — verbatim.",
+        "Unit-I prints 'Unit sand standards' (for 'Units and standards'); Unit-II prints 'directing acting' (for 'direct acting') — verbatim typos.",
+        "Unit headings print inconsistently: 'UNIT I/II/III/IV' but 'UNIT-V' hyphenated.",
+        "Unit-IV prints 'Interchange ability' across a line break without hyphen (p.4, y579.8→593.6 spans) — flattened with the printed space, verbatim.",
+        "Unit-IV prints 'Johansson’s Microkrator' (U+2019 apostrophe; 'Microkrator' spelling as printed); Unit-V prints 'Fits &Tolerance' (no space after '&') — verbatim.",
+        "Books printed under a single combined heading 'Books and References:' (p.5) with no separate Reference Books list; all 9 entries recorded under textbooks.",
+        "No course objectives section, prerequisites, eligibility, or per-unit lecture counts printed in this document."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Additive Manufacturing",
+      "name_print": "Additive manufacturing",
+      "codes": [
+        "BME071"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 20,
+        "sessional_ta": 10,
+        "sessional_total": 30,
+        "ese_te_pe": 70,
+        "total": 100
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Introduction History and Advantages of Additive Manufacturing, Distinction Between Additive Manufacturing and CNC Machining, Types of Additive Manufacturing Technologies, Nomenclature of AM Machines, Direct and Indirect Processes; Prototyping, Manufacturing and Tooling. Layer Manufacturing Processes: Polymerization, Sintering and Melting, Extrusion, Powder Binder Bonding, Layer Laminate Manufacturing, Other Processes; Aerosol printing and Bio plotter.",
+        "2": "Development of Additive Manufacturing Technology Computer Aided Design Technology, Other Associated Technology, Metal and Hybrid Systems. Generalized Additive Manufacturing Process Chain; The Eight Steps in Additive Manufacturing, Variation from one AM Machine to Another, Metal System, Maintenance of Equipment, Material Handling Issue, Design of AM.",
+        "3": "Additive Manufacturing Processes Vat Photo polymerization; Materials, Reaction Rates, Photo polymerization Process Modelling, Scan Patterns Powder Bed Fusion Processes; Material, Powder Fusion Mechanism, Process Parameters and Modeling, powder Handling Extrusion Based System; Basic principles, plotting and Path Control, Other Systems Material Jetting; Materials, Material Processing Fundamentals, Material Jetting Machines Directed Energy Deposition Processes; General DED Process Description, Material Delivery, DED systems, Process Parameters, Processing-Structure-Properties Relationships",
+        "4": "Additive Manufacturing Design and Strategies; Potentials and Resulting Perspectives, AM based New Strategies, Material Design and Quality Aspects for Additive Manufacturing; Material for AM, Engineering Design Rules for AM. Software Issue for Additive Manufacturing; Introduction, Preparation of CAD Models: The STL file, Problem with STL file, STL files Manipulation, Beyond the STL file, Additional Software to Assist AM",
+        "5": "Material Design & Quality Aspects Machines for Additive Manufacturing, Printers, Secondary Rapid Prototyping processes, Intellectual Property, Product Development, Commercialization, Trends and Future Directions in Additive Manufacturing, Business Opportunities Applications Aerospace, Automotive, Manufacturing, Architectural Engineering, Art, Jewellery, Toys, Medical, Biomedical, Dental, Bio-printing, Tissue & Organ Engineering and many others."
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understanding  the basics of additive manufacturing/rapid prototyping and its advantages and disadvantages",
+          "kl": "K2"
+        },
+        {
+          "no": 2,
+          "text": "Understanding the role of additive manufacturing in the design process and the implications for design.",
+          "kl": "K2"
+        },
+        {
+          "no": 3,
+          "text": "Understanding the processes used in additive manufacturing for a range of materials and applications",
+          "kl": "K2"
+        },
+        {
+          "no": 4,
+          "text": "Understand the various software tools, processes and techniques that enable advanced/additive manufacturing and personal fabrication.",
+          "kl": "K2"
+        },
+        {
+          "no": 5,
+          "text": "Apply knowledge of additive manufacturing for various real-life applications",
+          "kl": "K3"
+        }
+      ],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by- Ian Gibson , DSavid W. Rosen , Brent Stucker, Springer."
+        },
+        {
+          "no": 2,
+          "book": "Understanding Additive Manufacturing, by- Andreas Gebhardt, Hanser."
+        },
+        {
+          "no": 3,
+          "book": "Additive Manufacturing, by- AmitBandyopadhyay, Susmita Bose, CRC Press."
+        },
+        {
+          "no": 4,
+          "book": "Rapid Prototyping: Principles and Applications, by -Chee Kai Chua, Kah Fai Leong, Chu Sing Lim."
+        }
+      ],
+      "reference_books": [],
+      "experiments": [],
+      "objectives_print": [],
+      "quirks": [
+        "Printed 'Departmental Elective – IV' (p.6); p.3 electives table maps it to Semester VII Departmental Elective-IV, Specialization‐1 Industrial Automation; the p.2 pool row prints no code.",
+        "Marks from p.2 Sem-VII scheme row 2 (Departmental Elective-IV pool row): CT 20, TA 10, sessional Total 30; PS '-', TE 70, PE '-'; Total 100, Credit 3.",
+        "Title prints lowercase 'Additive manufacturing' (p.6); name field case-normalized to 'Additive Manufacturing', verbatim print kept in name_print.",
+        "CO 1 prints double space after 'Understanding' — verbatim.",
+        "Unit-IV heading prints inline as 'UNIT IV: Design & Software Issues'; other units print bare 'UNIT I/II/III/V' with sub-headings ('Introduction', 'Development of Additive Manufacturing Technology', 'Additive Manufacturing Processes', 'Material Design & Quality Aspects') on the following line, and 'Applications' on a line before the Unit-V applications list.",
+        "Unit-III prints 'Vat Photo polymerization' / 'Photo polymerization Process Modelling' (two words) and 'plotting and Path Control' — verbatim.",
+        "Book 1 prints 'DSavid W. Rosen' (for David) and 'Ian Gibson , DSavid W. Rosen' spacing; Book 3 prints 'AmitBandyopadhyay' without space; Book 4 prints 'by -Chee' — verbatim.",
+        "Books printed under a single combined heading 'Books and References:' (p.7) with no separate Reference Books list; all 4 entries recorded under textbooks.",
+        "No course objectives section, prerequisites, eligibility, or per-unit lecture counts printed in this document."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Total Quality Management",
+      "name_print": "Total Quality Management",
+      "codes": [
+        "BPI062"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 3,
+        "t": 0,
+        "p": 0
+      },
+      "credit": 3,
+      "marks": {
+        "sessional_ct": 20,
+        "sessional_ta": 10,
+        "sessional_total": 30,
+        "ese_te_pe": 70,
+        "total": 100
+      },
+      "subject_type": "departmental-elective",
+      "units": {
+        "1": "Evolution of Quality control, concept change, TQM Modern concept, Quality concept in design. Control on Purchased Product: Procurement of various products, evaluation of supplies, capacity verification, Development of sources, procurement procedure. Manufacturing Quality: Methods and Techniques for manufacture, Inspection and control of product, Quality in sales and services, Guarantee, analysis of claims.",
+        "2": "Quality Management: Organization structure and design, Quality function, decentralization, Designing and fitting organization for different types products and company, Economics of quality value and contribution, Quality cost, optimizing quality cost, seduction programme. TQM Principles: Leadership, strategic quality planning; Quality councils- employee involvement, motivation; Empowerment; Team and Teamwork; Quality circles, recognition and reward, performance appraisal; Continuous process improvement; PDCE cycle, 5S, Kaizen; Supplier partnership, Partnering, Supplier rating & selection.",
+        "3": "Tools and Techniques: Seven QC tools (Histogram, Check sheet, Ishikawa diagram, Pareto, Scatter diagram, Control chart, flow chart). Control Charts: Theory of control charts, measurement range, construction and analysis of R charts, process capability study, use of control charts, P-charts and C-charts.",
+        "4": "Defects Diagnosis and Prevention: Defect study, identification and analysis of defects, corrective measure, factors affecting reliability, MTTF, calculation of reliability, Building reliability in the product, evaluation of reliability, interpretation of test results, reliability control, maintainability, zero defects, quality circle.",
+        "5": "ISO and its concept of Quality Management: Quality systems, need for ISO 9000, ISO 9001-9008; Quality system- elements, documentation, Quality auditing, QS 9000, ISO 14000- concepts, requirements and benefits; TQM implementation in manufacturing and service sectors, Auditing, Taguchi method, JIT in some details."
+      },
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the basics of the quality management.",
+          "kl": "K2"
+        },
+        {
+          "no": 2,
+          "text": "Understand the types of tools and techniques for the quality management.",
+          "kl": "K2"
+        },
+        {
+          "no": 3,
+          "text": "Understand the various defects, diagnosis and prevention useful for quality management.",
+          "kl": "K2"
+        },
+        {
+          "no": 4,
+          "text": "Understand the different types of control charts.",
+          "kl": "K3"
+        },
+        {
+          "no": 5,
+          "text": "Understand the ISO and its concept for quality management.",
+          "kl": "K3"
+        }
+      ],
+      "textbooks": [
+        {
+          "no": 1,
+          "book": "Besterfield D.H. et al., Total quality Management, 3rd ed., Pearson Education Asia, 2006."
+        },
+        {
+          "no": 2,
+          "book": "Janakiraman B. and Gopal R.K., Total Quality Management, Prentice Hall India, 2006."
+        },
+        {
+          "no": 3,
+          "book": "Suganthi L. and Samuel A., Total Quality Management, Prentice Hall India, 2006."
+        },
+        {
+          "no": 4,
+          "book": "Total Quality Management by Mukherjee, P.N."
+        },
+        {
+          "no": 5,
+          "book": "TQM in New Product manufacturing, H. G. Menon, McGraw Hill."
+        }
+      ],
+      "reference_books": [
+        {
+          "no": 1,
+          "book": "Beyond Total Quality Management, Greg Bounds, McGraw Hill."
+        },
+        {
+          "no": 2,
+          "book": "Evans J.R. and Lindsay W.M., The management and Control of Quality, 8th ed., first Indian edition, Cengage Learning, 2012."
+        }
+      ],
+      "experiments": [],
+      "objectives_print": [],
+      "quirks": [
+        "Printed 'Departmental Elective – IV' (p.8); p.3 electives table maps it to Semester VII Departmental Elective-IV, Specialization‐2 Industrial Management; the p.2 pool row prints no code.",
+        "Marks from p.2 Sem-VII scheme row 2 (Departmental Elective-IV pool row): CT 20, TA 10, sessional Total 30; PS '-', TE 70, PE '-'; Total 100, Credit 3.",
+        "Header prints 'L T P: 3 0 0' (no space before colon, unlike other subject pages) — verbatim.",
+        "Unit-II prints 'seduction programme' (for 'reduction programme') and 'PDCE cycle' (usual expansion PDCA) — verbatim typos.",
+        "Unit headings print inconsistently: 'UNIT-I' hyphenated, 'UNIT II/III/IV/V' not.",
+        "CO4/CO5 print verb 'Understand' with K3 (K-levels as printed).",
+        "Text Books (5 entries) and Reference Books (2 entries) printed as separate lists (p.9) — recorded separately.",
+        "No course objectives section, prerequisites, eligibility, or per-unit lecture counts printed in this document."
+      ],
+      "flags": []
+    },
+    {
+      "name": "Measurement & Metrology Lab",
+      "name_print": "Measurement & Metrology Lab",
+      "codes": [
+        "BME751"
+      ],
+      "semester": 7,
+      "ltp": {
+        "l": 0,
+        "t": 0,
+        "p": 2
+      },
+      "credit": 1,
+      "marks": {
+        "ps": 50,
+        "pe": 50,
+        "total": 100
+      },
+      "subject_type": "lab",
+      "units": {},
+      "cos": [
+        {
+          "no": 1,
+          "text": "Understand the basic principles of instrumentation for measurement of surface finish, strain, temperature, pressure and flow.",
+          "kl": "K2"
+        },
+        {
+          "no": 2,
+          "text": "Understand the principle and operation of Coordinate Measuring Machine (CMM).",
+          "kl": "K2"
+        },
+        {
+          "no": 3,
+          "text": "Apply Sine Bar, Slip Gauges, Bevel Protractor, Stroboscope, Dial Indicator etc. for measurement of different attributes.",
+          "kl": "K3"
+        },
+        {
+          "no": 4,
+          "text": "Apply the basic concepts of limits, fits & tolerances for selective assembly.",
+          "kl": "K3"
+        }
+      ],
+      "textbooks": [],
+      "reference_books": [],
+      "experiments": [
+        {
+          "no": 1,
+          "exp": "Measurement of effective diameter of a screw thread using 3 wire method."
+        },
+        {
+          "no": 2,
+          "exp": "Measurement of angle using sine bar & slip gauges."
+        },
+        {
+          "no": 3,
+          "exp": "Study of limit gauges."
+        },
+        {
+          "no": 4,
+          "exp": "Study & angular measurement using Bevel protector."
+        },
+        {
+          "no": 5,
+          "exp": "Study of different types of Comparators."
+        },
+        {
+          "no": 6,
+          "exp": "Study of important parameters of surface finish."
+        },
+        {
+          "no": 7,
+          "exp": "Study of principle and operation of coordinate-measuring machine (CMM)."
+        },
+        {
+          "no": 8,
+          "exp": "Use of dial indicator and V Block to check the circularity and plot the polar Graph."
+        },
+        {
+          "no": 9,
+          "exp": "Study and understanding of limits, fits & tolerances in assembly of machine components."
+        },
+        {
+          "no": 10,
+          "exp": "Study and understanding of different methods of measurement of pressure."
+        },
+        {
+          "no": 11,
+          "exp": "Study and understanding of different methods of measurement of temperature."
+        },
+        {
+          "no": 12,
+          "exp": "Study and understanding of measurement of strain using strain gauges."
+        },
+        {
+          "no": 13,
+          "exp": "Study and understanding of different methods of measurement of flow."
+        },
+        {
+          "no": 14,
+          "exp": "Study and understanding of different methods of measurement of vibration/power."
+        },
+        {
+          "no": 15,
+          "exp": "Study and understanding of measurement of displacement using LVDT."
+        }
+      ],
+      "objectives_print": [],
+      "quirks": [
+        "Marks from p.2 Sem-VII scheme row 4: sessional CT/TA/Total columns printed '-'; PS=50, TE printed '-', PE=50 (span x-anchors PS≈x426, TE≈x450, PE≈x487); Total 100, Credit 1. marks keys ps/pe mirror the printed column headers.",
+        "p.2 scheme prints code 'BME751' (no space); p.10 prints 'Subject Code: BME 751'.",
+        "Experiment-list preamble printed verbatim: 'Minimum 08 experiments out of following (or such experiment) are to be performed:'.",
+        "Experiment 4 prints 'Bevel protector' (for 'Protractor'; CO 3 prints 'Bevel Protractor') — verbatim typo.",
+        "No units, textbooks, course objectives section, prerequisites, eligibility, or per-unit lecture counts printed for this lab."
+      ],
+      "flags": []
+    }
+  ],
+  "non_subject_rows": [
+    {
+      "kind": "program_rule",
+      "print": "COURSE STRUCTURE/ EVALUATION SCHEME FOR B.TECH. 4thYEAR PRODUCTION ENGINEERING/ INDUSTRIAL PRODUCTION ENGINEERING [Effective from Session: 2025‐26]",
+      "locator": "08_btech_pe-ipe_y4_syllabus_2025-26.pdf#p.1"
+    },
+    {
+      "kind": "semester_summary",
+      "print": "SEMESTER- VII [Effective from Session: 2025-26] | 1 | BME 701 | Measurement & Metrology | Offline | L3 T- P- | CT20 TA10 Total30 | PS- TE70 PE- | 100 | 3 || 2 | (no code) | Departmental Elective-IV | Offline | L3 T- P- | CT20 TA10 Total30 | PS- TE70 PE- | 100 | 3 || 3 | BOEM** | Open Elective-II | Offline/ MOOCs | L3 T0 P0 | CT20 TA10 Total30 | PS- TE70 PE- | 100 | 3 || 4 | BME751 | Measurement & Metrology Lab | Offline | L0 T0 P2 | CT- TA- Total- | PS50 TE- PE50 | 100 | 1 || 5 | BPI 751 | Mini Project or Internship Assessment* | L0 T0 P4 | CT- TA- Total- | PS100 TE- PE- | 100 | 2 || 6 | BPI 752 | Project-1 | L0 T0 P10 | CT- TA- Total- | PS150 TE- PE- | 150 | 5 || 7 | BPI 753 | Startup and Entrepreneurial Activity Assessment# | L0 T0 P4 | CT- TA- Total- | PS100 TE- PE- | 100 | 2 || Total | L9 T0 P20 | | 750 | 19 || *The Mini Project or internship (5-6 weeks) conducted during summer break after VI semester and will be assessed during VII semester. # The Startup and Entrepreneurial Activity Assessment will be done in 7th semester under which a student will have to undergo a startup/entrepreneurship activity of at least 60 hours till 6th semester.",
+      "locator": "08_btech_pe-ipe_y4_syllabus_2025-26.pdf#p.2 (column identities fixed by span x-anchors; BME751/BPI751/752/753 PS-TE-PE cells resolved from span geometry)"
+    },
+    {
+      "kind": "semester_summary",
+      "print": "SEMESTER- VIII | 1 | BOEM** | Open Elective-III | MOOCs | L3 T0 P0 | CT20 TA10 Total30 | PS- TE70 PE- | 100 | 3 || 2 | BOEM** | Open Elective-IV | MOOCs | L3 T0 P0 | CT20 TA10 Total30 | PS- TE70 PE- | 100 | 3 || 3 | BPI 851 | Project-II | L0 T0 P18 | PS100 | PE350 | 450 | 10 || Total | L6 T0 P18 | CT-col: 24 | | 650 | 16 || The Internal Assessment of MOOCs will be done by the respective institute and the external Assessment (End Semester Examination) will be done by the University)",
+      "locator": "08_btech_pe-ipe_y4_syllabus_2025-26.pdf#p.2 (Project-II 100→PS x419.8, 350→PE x483.6; Total-row '24' under CT x333.9-351.4 — verbatim)"
+    },
+    {
+      "kind": "elective_pool",
+      "print": "Departmental Electives | Semester VII | Departmental Elective-IV | Specialization‐1 Industrial Automation: BME 071 Additive Manufacturing | Specialization‐2 Industrial Management: BPI 062 Total Quality Management",
+      "locator": "08_btech_pe-ipe_y4_syllabus_2025-26.pdf#p.3"
+    }
+  ],
+  "quirks": [
+    "DOC_SCOPE: p.1 cover prints 'COURSE STRUCTURE/ EVALUATION SCHEME FOR B.TECH. 4thYEAR PRODUCTION ENGINEERING/ INDUSTRIAL PRODUCTION ENGINEERING [Effective from Session: 2025‐26]' ('th' superscript; U+2010 hyphen in 2025‐26); p.2 prints 'B. Tech. Production Engineering/Industrial Production Engineering Evaluation Scheme [ Effective from Session: 2025-26]'. Course field normalized to BTech per RULES §1b; printed branch scope: Production Engineering/Industrial Production Engineering, 4th year (Semesters VII-VIII).",
+    "Text-layer fidelity method: page-image rendering unavailable in sub-agent context; fidelity proven via PyMuPDF span-geometry/glyph-gap forensics (B32-d03 recorded class): p.2 scheme tables and p.3 electives map resolved column-wise from span x/y anchors (CT≈x335-351, TA≈x364-378, sessional-Total≈x391-410, PS≈x420-437, TE≈x447-466, PE≈x481-500, Total≈x513-536, Credit≈x550-580); glyph inventory clean on all 10 pages (only U+2010/U+2013/U+2019/U+201C/U+201D smart punctuation; no replacement chars); no off-page blocks; superscripts only at p.1 'th' of 'B.TECH. 4thYEAR' and p.2 footnotes '7th'/'6th'.",
+    "p.2 Sem-VIII Total row prints '24' under the CT column (span x333.9-351.4) though the CT column sums to 40 — verbatim kept.",
+    "p.2 Sem-VII row 2 'Departmental Elective-IV' prints no code (pool row; members BME 071/BPI 062 per p.3 map). Open Elective rows print pool code 'BOEM**' (wildcard; no specific open-elective code in this document).",
+    "BPI 751 (Mini Project or Internship Assessment*), BPI 752 (Project-1), BPI 753 (Startup and Entrepreneurial Activity Assessment#) and BPI 851 (Project-II) appear only in the p.2 scheme without syllabus detail — captured in non_subject_rows.",
+    "p.1 contains two image blocks (university emblem, page furniture) — not transcribed.",
+    "Extraction flattening rule: PDF lines joined with a space only where the print shows a space glyph at the break (span trailing/leading whitespace); mid-token breaks joined directly (e.g. p.4 'General concept–Generalized' across the line break)."
+  ],
+  "flags": []
+}

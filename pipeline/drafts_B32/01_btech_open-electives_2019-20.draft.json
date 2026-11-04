@@ -1,0 +1,847 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_open-electives_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "3ad2353279d419ea",
+ "stem": "01_btech_open-electives_2019-20",
+ "subjects": [
+  {
+   "name": "Digital and Social Media Marketing",
+   "name_print": "DIGITAL AND SOCIAL MEDIA MARKETING",
+   "codes": [
+    "ROE081"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "units": {
+    "1": "UNIT-I\nIntroduction to Digital Marketing: The new digital world - trends that are driving shifts from traditional marketing practices to digital marketing practices, the modern digital consumer and new consumer’s digital journey. Marketing strategies for the digital world-latest practices.",
+    "2": "UNIT-II\nSocial Media Marketing -Introduction to Blogging, Create a blog post for your project. Include headline, imagery, links and post, Content Planning and writing. Introduction to Face book, Twitter, Google +, LinkedIn, YouTube, Instagram and Pinterest; their channel advertising and campaigns",
+    "3": "UNIT-III\nAcquiring & Engaging Users through Digital Channels: Understanding the relationship between content and branding and its impact on sales, search engine marketing, mobile marketing, video marketing, and social-media marketing. Marketing gamification, Online campaign management; using marketing analytic tools to segment, target and position; overview of search engine optimization (SEO).",
+    "4": "UNIT-IV\nDesigning Organization for Digital Success: Digital transformation, digital leadership principles, online P.R. and reputation management. ROI of digital strategies, how digital marketing is adding value to business, and evaluating cost effectiveness of digital strategies",
+    "5": "UNIT-V\nDigital Innovation and Trends: The contemporary digital revolution, digital transformation framework; security and privatization issues with digital marketing Understanding trends in digital marketing – Indian and global context, online communities and co-creation,"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Moutsy Maiti: Internet Mareting, Oxford University Press India"
+    },
+    {
+     "no": 2,
+     "book": "Vandana, Ahuja; Digital Marketing, Oxford University Press India (November, 2015)."
+    },
+    {
+     "no": 3,
+     "book": "Eric Greenberg, and Kates, Alexander; Strategic Digital Marketing: Top Digital Experts Share the Formula for Tangible Returns on Your Marketing Investment; McGraw-Hill Professional (October, 2013)."
+    },
+    {
+     "no": 4,
+     "book": "Ryan, Damian; Understanding Digital Marketing: marketing strategies for engaging the digital generation; Kogan Page (3rd Edition, 2014)."
+    },
+    {
+     "no": 5,
+     "book": "Tracy L. Tuten & Michael R. Solomon: Social Media Marketing (Sage Publication)"
+    }
+   ],
+   "quirks": [
+    "Header line prints 'ROE081            DIGITAL AND SOCIAL MEDIA MARKETING                   L T P 3 0 0' (wide multi-space runs normalized to single spaces).",
+    "Unit-II prints 'Face book' as two words and 'Google +' with trailing plus; no closing period printed after 'campaigns'.",
+    "Unit-IV prints without closing period; Unit-V ends with a comma in print.",
+    "Textbook 1 prints 'Moutsy Maiti: Internet Mareting' ('Mareting' sic)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Entrepreneurship Development",
+   "name_print": "ENTREPRENEURSHIP DEVELOPMENT",
+   "codes": [
+    "ROE082"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "units": {
+    "1": "UNIT-I\nEntrepreneurship- definition. growth of small scale industries in developing countries and their positions vis-a-vis large industries; role of small scale industries in the national economy; characteristics and types of small scale industries; demand based and resources based ancillaries and sub-control types. Government policy for small scale industry; stages in starting a small scale industry.",
+    "2": "UNIT-II\nProject identification- assessment of viability, formulation, evaluation, financing, field-study and collection of information, preparation of project report, demand analysis, material balance and output methods, benefit cost analysis, discounted cash flow, internal rate of return and net present value methods.",
+    "3": "UNIT-III\nAccountancy- Preparation of balance sheets and assessment of economic viability, decision making, expected costs, planning and production control, quality control, marketing, industrial relations, sales and purchases, advertisement, wages and incentive, inventory control, preparation of financial reports, accounts and stores studies.",
+    "4": "UNIT-IV\nProject Planning and control: The financial functions, cost of capital approach in project planning and control. Economic evaluation, risk analysis, capital expenditures, policies and practices in public enterprises. profit planning and programming, planning cash flow, capital expenditure and operations. control of financial flows, control and communication.",
+    "5": "UNIT-V\nLaws concerning entrepreneur viz, partnership laws, business ownership, sales and income taxes and workman compensation act. Role of various national and state agencies which render assistance to small scale industries."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Forbat, John, “Entrepreneurship” New Age International."
+    },
+    {
+     "no": 2,
+     "book": "Havinal, Veerbhadrappa, “Management and Entrepreneurship” New Age International"
+    },
+    {
+     "no": 3,
+     "book": "Joseph, L. Massod, \"Essential of Management\", Prentice Hall of India"
+    }
+   ],
+   "quirks": [
+    "Header prints 'ROE082   ENTREPRENEURSHIP DEVELOPMENT' with 'L T P 3 0 0' on the next line.",
+    "Textbook 2 prints without a closing period.",
+    "Textbook 3 prints 'Joseph, L. Massod' and 'Essential of Management' (both sic)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Machine Learning",
+   "name_print": "MACHINE LEARNING",
+   "codes": [
+    "ROE083"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "units": {
+    "1": "UNIT-I\nINTRODUCTION – Well defined learning problems, Designing a Learning System, Issues in Machine Learning; THE CONCEPT LEARNING TASK - General-to-specific ordering of hypotheses, Find-S, List then eliminate algorithm, Candidate elimination algorithm, Inductive bias",
+    "2": "UNIT-II\nDECISION TREE LEARNING - Decision tree learning algorithm-Inductive bias- Issues in Decision tree learning; ARTIFICIAL NEURAL NETWORKS – Perceptrons, Gradient descent and the Delta rule, Adaline, Multilayer networks, Derivation of backpropagation rule Backpropagation AlgorithmConvergence, Generalization;",
+    "3": "UNIT-III\nEvaluating Hypotheses: Estimating Hypotheses Accuracy, Basics of sampling Theory, Comparing Learning Algorithms; Bayesian Learning: Bayes theorem, Concept learning, Bayes Optimal Classifier, Naïve Bayes classifier, Bayesian belief networks, EM algorithm;",
+    "4": "UNIT-IV\nComputational Learning Theory: Sample Complexity for Finite Hypothesis spaces, Sample Complexity for Infinite Hypothesis spaces, The Mistake Bound Model of Learning; INSTANCE-BASED LEARNING – k-Nearest Neighbour Learning, Locally Weighted Regression, Radial basis function networks, Case-based learning",
+    "5": "UNIT-V\nGenetic Algorithms: an illustrative example, Hypothesis space search, Genetic Programming, Models of Evolution and Learning; Learning first order rules-sequential covering algorithms-General to specific beam search-FOIL; REINFORCEMENT LEARNING - The Learning Task, Q Learning."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Tom M. Mitchell, ―Machine Learning, McGraw-Hill Education (India) Private Limited, 2013."
+    },
+    {
+     "no": 2,
+     "book": "Ethem Alpaydin, ―Introduction to Machine Learning (Adaptive Computation and\nMachine Learning), The MIT Press 2004."
+    },
+    {
+     "no": 3,
+     "book": "Stephen Marsland, ―Machine Learning: An Algorithmic Perspective, CRC Press, 2009."
+    },
+    {
+     "no": 4,
+     "book": "Bishop, C., Pattern Recognition and Machine Learning. Berlin: Springer-Verlag."
+    }
+   ],
+   "quirks": [
+    "Header line prints 'ROE083            MACHINE LEARNING                                                          L T P 3 0 0'.",
+    "Quote glyph preceding textbook titles 1-3 extracts as '―' (U+2015 horizontal bar) in the text layer; transcribed verbatim, print likely shows a quotation mark.",
+    "Unit-II prints 'Backpropagation AlgorithmConvergence' run together (sic).",
+    "Unit-I prints without a closing period; Unit-II and Unit-III end with a semicolon in print.",
+    "Textbook 2 title wraps in print after 'Computation and' (newline preserved)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Micro and Smart Systems",
+   "name_print": "MICRO AND SMART SYSTEMS",
+   "codes": [
+    "ROE084"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "units": {
+    "1": "UNIT-I\nIntroduction, Why miniaturization?, Microsystems versus MEMS, Why micro fabrication?, smart materials, structures and systems, integrated Microsystems, applications of smart materials and Microsystems.",
+    "2": "UNIT-II\nMicro sensors, actuators, systems and smart materials: Silicon capacitive accelerometer, piezoresistive pressure sensor, conductometric gas sensor, an electrostatic combo-drive, a magnetic microrelay, portable blood analyzer, piezoelectric inkjet print head, micromirror array for video projection, smart materials and systems.",
+    "3": "UNIT-III\nMicromachining technologies: silicon as a material for micro machining, thin film deposition, lithography, etching, silicon micromachining, specialized materials for Microsystems, advanced processes for micro fabrication.",
+    "4": "UNIT-IV\nModeling of solids in Microsystems: Bar, beam, energy methods for elastic bodies, heterogeneous layered beams, bimorph effect, residual stress and stress gradients, poisson effect and the anticlastic curvature of beams, torsion of beams and shear stresses, dealing with large displacements, In-plane stresses, Modelling of coupled electromechanical systems: electrostatics, Coupled Electro-mechanics: statics, stability and pull-in phenomenon, dynamics. Squeezed film effects in electromechanics.",
+    "5": "UNIT-V\nIntegration of micro and smart systems: integration of Microsystems and microelectronics, microsystems packaging, case studies of integrated Microsystems, case study of a smart-structure in vibration control. Scaling effects in Microsystems: scaling in: mechanical domain, electrostatic domain, magnetic domain, diffusion, effects in the optical domain, biochemical phenomena."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "G. K. Ananthasuresh, K. J. Vinoy, S. Gopalakrishnan, K. N. Bhat and V. K. Atre, “Micro and smart systems”, Wiley India, 2010."
+    }
+   ],
+   "quirks": [
+    "Header prints 'ROE084      MICRO AND SMART SYSTEMS' with 'L T P 3 0 0' on the next line.",
+    "Unit-V text layer breaks the first sentence into one-word lines (justified-text artifact); words joined with single spaces, word content verbatim.",
+    "Unit-IV prints 'poisson effect' in lowercase (sic)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Operations Research",
+   "name_print": "OPERATIONS RESEARACH",
+   "codes": [
+    "ROE085"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "units": {
+    "1": "UNIT-I\nIntroduction: Definition and scope of operations research (OR), OR model, solving the OR model, art of modelling, phases of OR study. Linear Programming: Two variable Linear Programming model and Graphical method of solution, Simplex method, Dual Simplex method, special cases of Linear Programming, duality, sensitivity analysis.",
+    "2": "UNIT-II\nTransportation Problems: Types of transportation problems, mathematical models , transportation algorithms, Assignment: Allocation and assignment problems and models, processing of job through machines.",
+    "3": "UNIT-III\nNetwork Techniques: Shortest path model, minimum spanning Tree Problem, Max-Flow problem and Min-cost problem. Project Management: Phases of project management, guidelines for network construction, CPM and PERT.",
+    "4": "UNIT-IV\nTheory of Games : Rectangular games, Minimax theorem, graphical solution of 2 x n or m x 2 games, game with mixed strategies, reduction to linear programming model. Quality Systems: Elements of Queuing model, generalized poisson queing model, single server models.",
+    "5": "UNIT-V\nInventory Control: Models of inventory, operation of inventory system, quantity discount. Replacement: Replacement models: Equipments that deteriorate with time, equipments that fail with time."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Wayne L. Winston,”Operations Research” Thomson Learning, 2003."
+    },
+    {
+     "no": 2,
+     "book": "Hamdy H. Taha, “Operations Research-An Introduction” Pearson Education, 2003."
+    },
+    {
+     "no": 3,
+     "book": "R. Panneer Seevam, “Operations Research” PHI Learning, 2008."
+    },
+    {
+     "no": 4,
+     "book": "V.K.Khanna, “Total Quality Management” New Age International, 2008."
+    }
+   ],
+   "quirks": [
+    "Header prints 'OPERATIONS RESEARACH' (sic for 'OPERATIONS RESEARCH').",
+    "Unit-II prints 'models ,' with a space before the comma.",
+    "Unit-IV prints 'Theory of Games :' with a space before the colon, 'queing' (sic) and lowercase 'poisson'.",
+    "Textbook 1 prints a right-double-quote as the opening quote ('Winston,”Operations Research”'); textbook 3 prints 'R. Panneer Seevam' (sic); textbook 4 prints 'V.K.Khanna' without spaces after periods."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Renewable Energy Resources",
+   "name_print": "ROE086: RENEWABLE ENERGY RESOURCES",
+   "codes": [
+    "ROE086"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "units": {
+    "1": "UNIT-I\nIntroduction: Various non-conventional energy resources- Introduction, availability, classification, relative merits and demerits. Solar Cells: Theory of solar cells. Solar cell materials, solar cell array, solar cell power plant, limitations.",
+    "2": "UNIT-II\nSolar Thermal Energy: Solar radiation, flat plate collectors and their materials, applications and performance, focussing of collectors and their materials, applications and performance; solar thermal power plants, thermal energy storage for solar heating and cooling, limitations.",
+    "3": "UNIT-III\nGeothermal Energy: Resources of geothermal energy, thermodynamics of geo-thermal energy conversion-electrical conversion, non-electrical conversion, environmental considerations. Magneto-hydrodynamics (MHD): Principle of working of MHD Power plant, performance and limitations.Fuel Cells: Principle of working of various types of fuel cells and their working, performance and limitations.",
+    "4": "UNIT-IV\nThermo-electrical and thermionic Conversions: Principle of working, performance and limitations. Wind Energy: Wind power and its sources, site selection, criterion, momentum theory, classification of rotors, concentrations and augments, wind characteristics. performance and limitations of energy conversion systems.",
+    "5": "UNIT-V\nBio-mass:Availability of bio-mass and its conversion theory. Ocean Thermal Energy Conversion (OTEC): Availability, theory and working principle, performance and limitations. Wave and Tidal Wave: Principle of working, performance and limitations. Waste Recycling Plants."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Raja etal, “Introduction to Non-Conventional Energy Resources” Scitech Publications."
+    },
+    {
+     "no": 2,
+     "book": "John Twideu and Tony Weir, “Renewal Energy Resources” BSP Publications, 2006."
+    },
+    {
+     "no": 3,
+     "book": "M.V.R. Koteswara Rao, “Energy Resources: Conventional & Non-Conventional” BSP Publications,2006."
+    },
+    {
+     "no": 4,
+     "book": "D.S. Chauhan,”Non-conventional Energy Resources” New Age International."
+    },
+    {
+     "no": 5,
+     "book": "C.S. Solanki, “Renewal Energy Technologies: A Practical Guide for Beginners” PHI Learning."
+    },
+    {
+     "no": 6,
+     "book": "Peter Auer, \"Advances in Energy System and Technology\". Vol. 1 & II Edited by Academic Press."
+    },
+    {
+     "no": 7,
+     "book": "Godfrey Boyle,“ Renewable Energy Power For A Sustainable Future”, Oxford University Press."
+    }
+   ],
+   "quirks": [
+    "Header prints 'ROE086: RENEWABLE ENERGY RESOURCES' (code+colon part of the printed header) with 'L T P 3 0 0' on the next line.",
+    "Textbook 1 prints 'Raja etal,' (sic for 'et al').",
+    "Textbooks 2 and 5 print 'Renewal' (sic for 'Renewable'); textbook 2 prints 'Twideu' (sic).",
+    "Textbook 3 prints 'BSP Publications,2006' without a space after the comma.",
+    "Textbook 4 prints a right-double-quote as the opening quote ('Chauhan,”Non-conventional…'); textbook 7 prints 'Boyle,“ Renewable' (comma-quote with leading space inside).",
+    "Unit-III prints 'limitations.Fuel' run together; Unit-V prints 'Bio-mass:Availability' without a space after the colon; Unit-IV prints '. performance' with a lowercase sentence start."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Human Values in Madhyasth Darshan",
+   "name_print": "HUMAN VALUES IN MADHYASTH DARSHAN",
+   "codes": [
+    "ROE087"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "prerequisites": "RVE 301/401- Universal Human Values and Professional Ethics",
+   "objectives_print": [
+    "To help students understand the basic principles of Madhyasth Darshan",
+    "To help students understand the existential realities including the human existence through Madhyasth Darshan",
+    "To help them to see the participation of human beings in the nature/ existential realities (i.e. human values) and therefore the human conduct through each one of them",
+    "To help students apply this understanding to make their living better at different levels- individual, family, society and nature",
+    "To facilitate the students in applying this understanding in their profession and lead an ethical life"
+   ],
+   "units": {
+    "1": "UNIT-I\nIntroduction to Madhyasth Darshan and its Basics\nNeed to study Madhyasth Darshan; introduction, basic formulations of the darshan; the complete expanse of study and the natural outcome of living according to the darshan.",
+    "2": "UNIT-II\nSubmergence of Nature in Space\nThe ever-present existence in the form of nature submerged in space; nature classified into two categories – material and consciousness, and four orders; the form, property, natural characteristic and self-organisation of the four orders, General direction and process of evolution in the nature/ existence.",
+    "3": "UNIT-III\nHuman Being as an indivisible part of Nature\nHuman being as an indivisible part of nature; various types (five classes) of human beings; human being in the combination of self and body; purpose of self as realization, prosperity for the body; need of behavior and work for attaining the goals of realization and prosperity.",
+    "4": "UNIT-IV\nFulfillment of human goal of realization and prosperity\nFollowing natural, social and psychological principles for actualizing the human goal; Form of conducive society and order for such practices, study process- achieving realization through self-study and practice while living in such a society (social order).",
+    "5": "UNIT-V\nHuman Conduct based on Madhyasth Darshan\nDescription of such a realized self, continuity of happiness, peace, satisfaction and bliss through realization, conduct of a realized human being. Possibility of finding solutions to present day problems (such as inequality of rich and poor, man and woman etc.) in the light of it."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Nagraj, A., “Manav Vyavahar Darshan”, Jeevan Vidya Prakashan, 3rd edition, 2003."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Nagraj, A., “Vyavaharvadi Samajshastra”, Jeevan Vidya Prakashan, 2nd edition, 2009."
+    },
+    {
+     "no": 2,
+     "book": "Nagraj, A., “Avartanasheel Arthashastra”, Jeevan Vidya Prakashan, 1st edition, 1998."
+    }
+   ],
+   "quirks": [
+    "Header prints L-T-P in spread layout: 'ROE087 / HUMAN VALUES IN MADHYASTH DARSHAN / L 3 T 0 P 0'.",
+    "Prerequisite printed under heading 'Prerequisite:' as 'RVE 301/401- Universal Human Values and Professional Ethics'.",
+    "p.2 pool list prints this subject as '*Human Values in Madhyasth Darshan' (asterisk = trained-faculty note).",
+    "Catalogue Description printed verbatim: 'Madhyasth Darshan is a new emerging philosophy that describes the existential realities along with its implication in behaviour and work at the level of individual as well as society. This philosophy has been propounded by Shri A. Nagraj in seventies. It is to be kept in mind that Darshan means realisation which calls for developing the capacity to see the reality in oneself directly. So, any study of Darshan shall help develop this capacity in the students through proper steps of practices and shall not just provide the information.'",
+    "Mode of Evaluation printed verbatim: 'Assignment/ Seminar/Continuous Assessment Test/Semester End Exam'.",
+    "References printed under heading 'References:'.",
+    "printed Prerequisite line transcribed verbatim to prerequisites (p.9: \"Prerequisite: RVE 301/401- Universal Human Values and Professional Ethics\") — patch-b32"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Values, Relationship & Ethical Human Conduct-For a Happy & Harmonious Society",
+   "name_print": "VALUES, RELATIONSHIP & ETHICAL HUMAN CONDUCT–FOR A HAPPY & HARMONIOUS SOCIETY",
+   "codes": [
+    "ROE088"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "prerequisites": "for this subject only those faculty will teach these courses who had done the FDP for these courses.",
+   "objectives_print": [
+    "To help the students to understand the importance and types of relationship with expressions.",
+    "To develop the competence to think about the conceptual framework of undivided society as well as universal human order.",
+    "To help the students to develop the exposure for transition from current state to the undivided society and universal human order."
+   ],
+   "units": {
+    "1": "UNIT-I\nIntroduction to the course: Basic aspiration of a Human Being and program for its fulfillment, Need for family and relationship for a Human Being, Human-human relationship and role of behavior in its fulfillment, Human-rest of Nature relationship and role of work in its fulfillment, Comprehensive Human Goal, Need for Undivided Society, Need for Universal Human Order, an appraisal of the Current State, Appraisal of Efforts in this Direction in Human History.",
+    "2": "UNIT-II\nUnderstanding Human-Human Relationship & its fulfillment: Recognition of Human-Human Relationship, Recognition of feelings in relationship, Established Values and Expressed Values in Relationship, interrelatedness of feelings and their fulfillment, Expression of feelings, Types of relationship and their purpose, mutual evaluation in relationship, Meaning of justice in relationship, Justice leading to culture, civilization and Human Conduct.",
+    "3": "UNIT-III\nJustice from family to world family order: Undivided Society as continuity and expanse of Justice in behavior – family to world family order, continuity of culture and civilization, Universal Order on the basis of Undivided Society, Conceptual Framework for Universal human order, Universal Human Order as continuity and expanse of order in living: from family order to world family order, a conceptual framework for universal human order.",
+    "4": "UNIT-IV\nProgram for Ensuring Undivided Society and Universal Human Order: Education – Sanskar, Health – Sanyam, Production-work, Exchange – storage, Justice-preservation.",
+    "5": "UNIT-V\nHuman Tradition: Scope and Steps of Universal Human Order, Human Tradition ( Ex. Family order to world family order), Steps for transition from the current state, Possibilities of participation of students in this direction, Present efforts in this direction, Sum up."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A Foundation Course in Human Values and Profession Ethics (Text Book and Teachers’ Manual), R. R. Gaur, R. Asthana, G. P. Bagaria (2010), Excel Books, New Delhi."
+    },
+    {
+     "no": 2,
+     "book": "Avartansheel Arthshastra, A. Nagraj, Divya Path Sansthan, Amarkantak, India."
+    },
+    {
+     "no": 3,
+     "book": "An Appeal by the Dalai Lama to the World: Ethics Are More Important Than Religion , Dalai Lama XIV, 2015."
+    },
+    {
+     "no": 4,
+     "book": "Economy of Permanence – (a quest for social order based on non-violence), J. C. Kumarappa (2010), Sarva-Seva-Sangh-Prakashan, Varansi, India."
+    },
+    {
+     "no": 5,
+     "book": "Energy and Equity, Ivan Illich (1974), The Trinity Press, Worcester & Harper Collins, USA."
+    },
+    {
+     "no": 6,
+     "book": "Human Society, Kingsley Davis, 1949."
+    },
+    {
+     "no": 7,
+     "book": "Hind Swaraj or, Indian home rule Mohandas K. Gandhi, 1909."
+    },
+    {
+     "no": 8,
+     "book": "Integral Humanism, Deendayal Upadhyaya, 1965."
+    },
+    {
+     "no": 9,
+     "book": "Lohiya Ke Vichar, Lok Bharti , Rammanohar Lohiya, 2008."
+    },
+    {
+     "no": 10,
+     "book": "Manav Vyavahar Darshan, A. Nagraj, Divya Path Sansthan, Amarkantak, India."
+    },
+    {
+     "no": 11,
+     "book": "Manaviya Sanvidhan, A. Nagraj, Divya Path Sansthan, Amarkantak, India"
+    },
+    {
+     "no": 12,
+     "book": "Samadhanatmak Bhautikvad, A. Nagraj, Divya Path Sansthan, Amarkantak, India"
+    },
+    {
+     "no": 13,
+     "book": "Small Is Beautiful: A Study of Economics as if People Mattered, E. F. Schumacher, 1973, Blond & Briggs, UK."
+    },
+    {
+     "no": 14,
+     "book": "Slow is Beautiful, Cecile Andrews (http://www.newsociety.com/Books/S/Slow-is-Beautiful)"
+    },
+    {
+     "no": 15,
+     "book": "Sociology Themes and Perspectives, Harper Collins; EIGHT edition (2014), Martin Holborn and Peter Langley, 1980."
+    },
+    {
+     "no": 16,
+     "book": "Samagra kranti: Jaya Prakash Narayan's philosophy of social change, Siddharth Publications Renu Sinha, 1996."
+    },
+    {
+     "no": 17,
+     "book": "Science & Humanism – towards a unified worldview, P. L. Dhar & R. R. Gaur (1990), Commonwealth Publishers, New Delhi"
+    },
+    {
+     "no": 18,
+     "book": "Vyavaharvadi Samajshastra, A. Nagraj, Divya Path Sansthan, Amarkantak, India."
+    },
+    {
+     "no": 19,
+     "book": "Vyavahatmak Janvad, A. Nagraj, Divya Path Sansthan, Amarkantak, India."
+    },
+    {
+     "no": 20,
+     "book": "The Communist Manifesto, Karl Marx, 1848."
+    },
+    {
+     "no": 21,
+     "book": "Toward a True Kinship of Faiths: How the World's Religions Can Come Together Dalai Lama XIV, 2011."
+    }
+   ],
+   "quirks": [
+    "Header prints 'ROE088 VALUES, RELATIONSHIP & ETHICAL HUMAN CONDUCT–FOR A HAPPY & HARMONIOUS    SOCIETY' (en dash in CONDUCT–FOR; wide multi-space run before SOCIETY normalized; 'L T P 3 0 0' at line end).",
+    "p.2 pool list prints this subject as '*Values, Relationship & Ethical Human Conduct-For a Happy & Harmonious Society' (hyphen, asterisk = trained-faculty note).",
+    "Pre-requisites printed as: 'Pre-requisites- for this subject only those faculty will teach these courses who had done the FDP for these courses.'",
+    "Course Methodology printed verbatim (5 items): 1. The methodology of this course is explorational and thus universally adaptable. It involves a systematic and rational study of the human being vis-à-vis the rest of existence. 2. It is free from any dogma or set of do’s and don’ts related to values. 3. It is a process of self-investigation and self-exploration, and not of giving sermons. Whatever is found as truth or reality is stated as a proposal and the students are facilitated and encouraged to verify it in their own right, based on their Natural Acceptance and subsequent Experiential Validation. 4. This process of self-exploration takes the form of a dialogue between the teacher and the students to begin with, and then to continue within the student leading to continuous self-evolution. 5. This self-exploration also enables them to critically evaluate their pre-conditionings and present beliefs.",
+    "Reference Videos printed verbatim (p.13): '1. kin school (30 minutes) 2. Technology (Solar City etc.). 3. Natural Farming. 4. Economics of Happiness ( 1h 8m)'.",
+    "Textbook 3 prints 'Religion ,' with a space before the comma; textbook 9 prints 'Lok Bharti , Rammanohar Lohiya' (space before comma); textbook 14 prints the URL in parentheses; textbook 15 prints 'EIGHT edition (2014), Martin Holborn and Peter Langley, 1980.' (sic); textbooks 11, 12 and 17 print without a closing period.",
+    "Textbook 1 prints 'Profession Ethics' (sic) and second author 'R. Asthana' (p.21 ROE074 prints the same title with 'R. Sangal')."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Modelling and Simulation of Dynamic Systems",
+   "name_print": "Modelling and Simulation of Dynamic Systems",
+   "codes": [
+    "ROE071"
+   ],
+   "semester": 7,
+   "subject_type": "open-elective",
+   "units": {
+    "1": "Unit 1- Introduction to modeling and simulation:\nIntroduction to modeling, Examples of models, modeling of dynamic system, Introduction to simulation, MATLAB as a simulation tool, Bond graph modeling, causality, generation of system equations,",
+    "2": "Unit 2- Bond graph modeling of dynamic system:\nMethods of drawing bond graph model- Mechanical systems & Electrical systems, some basic system models- Mechanical systems, Thermal systems, hydraulic systems, pneumatic systems and electrical systems.",
+    "3": "Unit 3- System models of combined systems:\nLinearity and non linearity in systems combined rotary and translatory system, electro mechanical system, hydro-mechanical system,",
+    "4": "Unit 4- Dynamic Response and System Transfer Function:\nDynamic response of 1st order system and 2nd order system, performance measures for 2nd order system, system transfer function, transfer function of 1st and 2nd order system Block diagram algebra, signal flow diagram, state variable formulation, frequency response and bode plots.",
+    "5": "Unit 5- Simulation and simulation applications:\nSimulation using SIMULINK, examples of simulation problems- simple and the compound pendulum, planner mechanisms, validation and verification of the simulation model, parameter estimation methods, system identifications, introduction to optimization,"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Define, describe and apply basic concepts related to modeling and simulation."
+    },
+    {
+     "no": 2,
+     "text": "Construct bond graphs for the type of systems mentioned above, simplify and analyze the bond graph according to causality conflicts, and from a given bond graph without conflicts."
+    },
+    {
+     "no": 3,
+     "text": "Use conservation laws and constitutive relationships and other physical relations to model mechanical, electrical and flow systems, and combinations of these."
+    },
+    {
+     "no": 4,
+     "text": "Find dynamic response and transfer function using various tools for system modeling."
+    },
+    {
+     "no": 5,
+     "text": "Model and simulate mechanical and electrical systems using the computer tools Simulink."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Zeigler B.P. Praehofer. H. and Kim I.G. \"Theory of modeling and simulation\", 2nd Edition. Academic press 2000"
+    },
+    {
+     "no": 2,
+     "book": "Robert L. Woods, Kent L. Lawrence, “Modeling and simulation of dynamic systems”, Person, 1997."
+    },
+    {
+     "no": 3,
+     "book": "Brown, Forbes T. “Engineering System Dynamics”, New York, NY: CRC, 2001. ISBN: 9780824706166."
+    },
+    {
+     "no": 4,
+     "book": "Pratab.R \" Getting started with MATLAB\" Oxford university Press 2009 ."
+    }
+   ],
+   "quirks": [
+    "Syllabus page (p.14) prints only the title — no subject code and no L-T-P printed; code 'ROE071' taken from the p.2 pool list.",
+    "Unit labels print as 'Unit 1-' … 'Unit 5-' (Arabic numerals) unlike the 'Unit-I' style of the other subjects in this document.",
+    "Course Outcomes lead-in prints: 'On completion of this course, students will be able to'; bullet glyphs print as 'x' (Wingdings bullet).",
+    "Reference list header prints 'Reference:' (singular).",
+    "Reference 1 prints 'Zeigler B.P. Praehofer. H. and Kim I.G.' (stray periods) and ends 'Academic press 2000' without a closing period.",
+    "Reference 2 prints publisher 'Person' (sic).",
+    "Reference 4 prints 'Pratab.R' (sic), straight quotes with a leading space inside the title ('\" Getting started with MATLAB\"'), 'Oxford university Press' (lowercase u), and a stray final period on its own line after '2009'.",
+    "Title prints 'Modelling' (double-l) while the unit text and COs print 'modeling' (single-l).",
+    "Unit-5 prints 'planner mechanisms' (sic).",
+    "Unit-3 and Unit-5 end with a comma in print; Unit-4 prints 'system Block diagram algebra' without a comma.",
+    "pages 14-21 shift-encoded cmap (glyph-to-unicode offset +0x1D class; e.g. '0RGHOOLQJDQG6LPXODWLRQ' prints 'Modelling and Simulation'): the linear text layer does not represent the visible print; units/COs/books transcribed by mechanical decode validated on anchors (AUC-001, RVE 301/401, ROE074, clean duplicates p.11/p.12); visible print attested on page images p.14 and p.19 by the main agent (RULES §6) — patch-b32 verify remedy, v12/v13 recorded class"
+   ],
+   "flags": [
+    "unit_ocr_recovered_no_text_layer"
+   ]
+  },
+  {
+   "name": "Introduction to Smart Grid",
+   "name_print": "INTRODUCTION TO SMART GRID",
+   "codes": [
+    "ROE072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "subject_type": "open-elective",
+   "units": {
+    "1": "Unit-I: Introduction:\nIntroduction to Smart Grid: Evolution of Electric Grid, Concept of Smart Grid, Definitions, Need of Smart Grid, Functions of Smart Grid, Opportunities & Barriers of Smart Grid, Difference between conventional & smart grid, Concept of Resilient & Self Healing Grid, Present development & International policies in Smart Grid. Case study of Smart Grid. CDM opportunities in Smart Grid.",
+    "2": "Unit-II: Smart Grid Technologies:\nIntroduction to Smart Meters, Real Time Prizing, Smart Appliances, Automatic Meter Reading (AMR), Outage Management System (OMS), Plug in Hybrid Electric Vehicles (PHEV), Vehicle to Grid, Smart Sensors, Home & Building Automation.",
+    "3": "Unit-III: Smart Grid Technologies:\nSmart Substations, Substation Automation, Feeder Automation, Geographic Information System (GIS), Intelligent Electronic Devices (IED) & their application for monitoring & protection, Smart storage like Battery, SMES, Pumped Hydro, Compressed Air Energy Storage, Wide Area Measurement System (WAMS), Phase Measurement Unit (PMU), PMUs application to monitoring & control of power system.",
+    "4": "Unit-IV: Microgrids and Distributed Energy Resources:\nConcept of microgrid, need & application of microgrid, formation of microgrid, Issues of interconnection, protection & control of microgrid, Plastic & Organic solar cells, thin flim solar cells, Variable speed wind generators, fuel cells, microturbines, Captive power plants, Integration of renewable energy sources.",
+    "5": "Unit V: Power Quality Management in Smart Grid:\nPower Quality & EMC in Smart Grid, Power Quality issues of Grid connected Renewable Energy Sources, Power Quality Conditioners for Smart Grid, Web based Power Quality monitoring."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Ali Keyhani, Mohammad N. Marwali, Min Dai, “Integration of Green and Renewable Energy in Electric Power Systems”, Wiley."
+    },
+    {
+     "no": 2,
+     "book": "Clark W. Gellings, “The Smart Grid: Enabling Energy Efficiency and Demand Response”, CRC Press."
+    },
+    {
+     "no": 3,
+     "book": "Janaka Ekanayake, Nick Jenkins, KithsiriLiyanage, Jianzhong Wu, Akihiko Yokoyama, “Smart Grid: Technology and Applications”, Wiley."
+    },
+    {
+     "no": 4,
+     "book": "Jean Claude Sabonnadiere, NouredineHadjsaid, “Smart Grids”, Wiley Blackwell 19."
+    },
+    {
+     "no": 5,
+     "book": "Stuart Borlase, “Smart Grids (Power Engineering)”, CRC Press."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 6,
+     "book": "Andres Carvallo, John Cooper, “The Advanced Smart Grid: Edge Power Driving Sustainability”, Artech House Publishers July 2011."
+    },
+    {
+     "no": 7,
+     "book": "James Northcote, Green, Robert G. Wilson “Control and Automation of Electric Power Distribution Systems (Power Engineering)”, CRC Press."
+    },
+    {
+     "no": 8,
+     "book": "MladenKezunovic, Mark G. Adamiak, Alexander P. Apostolov, Jeffrey George Gilbert “Substation Automation (Power Electronice and Power Systems)”, Springer"
+    },
+    {
+     "no": 9,
+     "book": "R.C. Dugan, Mark F. McGranghan, Surya Santoso, H. Wayne Beaty, “Electrical Power System Quality”, 2nd Edition, McGraw Hill Publication."
+    },
+    {
+     "no": 10,
+     "book": "Phadke, A.G., Thorp, J.S., “Synchronized Phasor Measurements and Their Applications”, Springer."
+    },
+    {
+     "no": 11,
+     "book": "James Momoh, “Smart Grid: Fundamentals of Design and Analysis”, Wiley."
+    }
+   ],
+   "quirks": [
+    "Syllabus pages (pp.15-16) print no subject code; code 'ROE072' taken from the p.2 pool list.",
+    "Header prints 'L T P: 3 0 0' and '3 Credit' on separate lines (credit 3).",
+    "Unit labels print 'Unit-I:' … 'Unit-IV:' but 'Unit V:' (no hyphen) for Unit-V; Units II and III share the same printed title 'Smart Grid Technologies:'.",
+    "Unit-II prints 'Real Time Prizing' (sic); Unit-IV prints 'thin flim solar cells' (sic for 'film').",
+    "Textbook numbering runs continuously across Text Books (1-5) and Reference Books (6-11) as printed.",
+    "Textbook 3 prints 'KithsiriLiyanage' without a space; textbook 4 prints 'NouredineHadjsaid' without a space and ends 'Wiley Blackwell 19.' (unexplained trailing '19.' in print); reference 7 prints 'James Northcote, Green' (sic split of 'Northcote-Green'); reference 8 prints 'MladenKezunovic' without a space, 'Power Electronice' (sic) and no closing period; reference 9 prints 'McGranghan' (sic).",
+    "Reference 6 prints 'Artech House Publishers July 2011.' (no comma before July).",
+    "pages 14-21 shift-encoded cmap (glyph-to-unicode offset +0x1D class; e.g. '0RGHOOLQJDQG6LPXODWLRQ' prints 'Modelling and Simulation'): the linear text layer does not represent the visible print; units/COs/books transcribed by mechanical decode validated on anchors (AUC-001, RVE 301/401, ROE074, clean duplicates p.11/p.12); visible print attested on page images p.14 and p.19 by the main agent (RULES §6) — patch-b32 verify remedy, v12/v13 recorded class"
+   ],
+   "flags": [
+    "unit_ocr_recovered_no_text_layer"
+   ]
+  },
+  {
+   "name": "Cloud Computing",
+   "name_print": "Cloud Computing",
+   "codes": [
+    "ROE073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "units": {
+    "1": "I\nINTRODUCTION\nIntroduction to Cloud Computing – Definition of Cloud – Evolution of Cloud Computing – Underlying Principles of Parallel and Distributed Computing – Cloud Characteristics – Elasticity in Cloud – On-demand Provisioning.",
+    "2": "II\nCLOUD ENABLING TECHNOLOGIES\nService Oriented Architecture – REST and Systems of Systems – Web Services – Publish-Subscribe Model – Basics of Virtualization – Types of Virtualization – Implementation Levels of Virtualization – Virtualization Structures – Tools and Mechanisms – Virtualization of CPU – Memory – I/O Devices – Virtualization Support and Disaster Recovery.",
+    "3": "III\nCLOUD ARCHITECTURE, SERVICES AND STORAGE\nLayered Cloud Architecture Design – NIST Cloud Computing Reference Architecture – Public, Private and Hybrid Clouds – laaS – PaaS – SaaS – Architectural Design Challenges – Cloud Storage – Storage-as-a-Service – Advantages of Cloud Storage – Cloud Storage Providers – S3.",
+    "4": "IV\nRESOURCE MANAGEMENT AND SECURITY IN CLOUD\nInter Cloud Resource Management – Resource Provisioning and Resource Provisioning Methods – Global Exchange of Cloud Resources – Security Overview – Cloud Security Challenges – Software-as-a-Service Security – Security Governance – Virtual Machine Security – IAM – Security Standards.",
+    "5": "V\nCLOUD TECHNOLOGIES AND ADVANCEMENTS\nHadoop – MapReduce – Virtual Box — Google App Engine – Programming Environment for Google App Engine –– Open Stack – Federation in the Cloud – Four Levels of Federation – Federated Services and Applications – Future of Federation."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Articulate the main concepts, key technologies, strengths and limitations of cloud computing.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 2,
+     "text": "Learn the key and enabling technologies that help in the development of cloud.",
+     "kl": "K2 , K4"
+    },
+    {
+     "no": 3,
+     "text": "Develop the ability to understand and use the architecture of compute and storage cloud, service and delivery models.",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 4,
+     "text": "Explain the core issues of cloud computing such as resource management and security.",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 5,
+     "text": "To appreciate the emergence of cloud as the next generation computing paradigm.",
+     "kl": "K1, K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Kai Hwang, Geoffrey C. Fox, Jack G. Dongarra, “Distributed and Cloud Computing, From Parallel Processing to the Internet of Things”, Morgan Kaufmann Publishers, 2012."
+    },
+    {
+     "no": 2,
+     "book": "Rittinghouse, John W., and James F. Ransome, “Cloud Computing: Implementation, Management and Security, CRC Press, 2017."
+    },
+    {
+     "no": 3,
+     "book": "Rajkumar Buyya, Christian Vecchiola, S. ThamaraiSelvi, “Mastering Cloud Computing, Tata Mcgraw Hill, 2013."
+    },
+    {
+     "no": 4,
+     "book": "Toby Velte, Anthony Velte, Robert Elsenpeter, “Cloud Computing – A Practical Approach, Tata Mcgraw Hill, 2009."
+    },
+    {
+     "no": 5,
+     "book": "George Reese, “Cloud Application Architectures: Building Applications and Infrastructure in the Cloud: Transactional Systems for EC2 and Beyond (Theory in Practice), O’Reilly, 2009."
+    }
+   ],
+   "quirks": [
+    "Syllabus pages (pp.17-18) print no subject code; code 'ROE073' taken from the p.2 pool list. p.2 pool list prints the name as 'Cloud computing' (lowercase c).",
+    "Syllabus laid out as a 'DETAILED SYLLABUS' table with printed column headers 'Unit | Topic | Proposed Lecture' and header row '3-0-0'; each unit prints 'Proposed Lecture 08' (captured as lectures_per_unit 8).",
+    "Course Outcome table header prints 'Course Outcome ( CO)' (space inside parenthesis) and lead-in 'At the end of course , the student will be able to understand' (space before comma); KL column headed \"Bloom’s Knowledge Level (KL)\".",
+    "Unit-III prints 'laaS' (sic, for IaaS).",
+    "Unit-V prints an em dash after 'Virtual Box' and a double en dash '––' before 'Open Stack' (verbatim dashes).",
+    "Textbooks 2-5 print an opening '“' with no closing quote in print; textbooks 3-4 print 'Tata Mcgraw Hill' (sic casing); textbook 3 prints 'S. ThamaraiSelvi' without a space; textbook 5 prints 'O’Reilly' with a corrupted apostrophe glyph.",
+    "KL cell values print as 'K1 , K2' (CO1), 'K2 , K4' (CO2), 'K2 , K3' (CO3, CO4) and 'K1, K2' (CO5).",
+    "pages 14-21 shift-encoded cmap (glyph-to-unicode offset +0x1D class; e.g. '0RGHOOLQJDQG6LPXODWLRQ' prints 'Modelling and Simulation'): the linear text layer does not represent the visible print; units/COs/books transcribed by mechanical decode validated on anchors (AUC-001, RVE 301/401, ROE074, clean duplicates p.11/p.12); visible print attested on page images p.14 and p.19 by the main agent (RULES §6) — patch-b32 verify remedy, v12/v13 recorded class"
+   ],
+   "flags": [
+    "unit_ocr_recovered_no_text_layer"
+   ]
+  },
+  {
+   "name": "Understanding the Human Being Comprehensively – Human Aspirations and its Fulfillment",
+   "name_print": "Understanding the Human Being Comprehensively – Human Aspirations and its Fulfillment",
+   "codes": [
+    "ROE074"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "subject_type": "open-elective",
+   "prerequisites": "AUC-001 or RVE 301/401 “Universal Human Values and Professional Ethics”",
+   "objectives_print": [
+    "To help the students having the clarity about human aspirations, goal, activities and purpose of life.",
+    "To facilitate the competence to understand the harmony in nature/existence and participation of human being in the nature/existence.",
+    "To help the students to develop the understanding of human tradition and its various components."
+   ],
+   "units": {
+    "1": "Module 1: Introduction\nThe basic human aspirations and their fulfillment through Right understanding and Resolution; All-encompassing Resolution for a Human Being, its details and solution of problems in the light of Resolution",
+    "2": "Module 2: Understanding Human being and its expansion.\nThe domain of right understanding starts from understanding the human being (the knower, the experiencer and the doer); and extends up to understanding nature/existence – its interconnectedness and co-existence; and finally understanding the role of human being in existence (human conduct).",
+    "3": "Module 3: Activities of the Self.\nUnderstanding the human being comprehensively is the first step and the core theme of this course; human being as co-existence of the self and the body; the activities and potentialities of the self; Reasons for harmony/contradiction in the self",
+    "4": "Module 4: Understanding Co-existence with other orders.\nThe need and the process of inner evolution (through self-exploration, self-awareness and self-evaluation)- particularly awakening to activities of the Self: Realization, Understanding and Contemplation in the Self (Realization of Co-Existence, Understanding of Harmony in Nature and Contemplation of Participation of Human in this harmony/ order leading to comprehensive knowledge about the existence).",
+    "5": "Module 5: Expansion of harmony from self to entire existence.\nUnderstanding different aspects of All-encompassing Resolution (understanding, wisdom, science etc.), Holistic way of living for Human Being with All-encompassing Resolution covering all four dimensions of human endeavour viz., realization, thought, behavior and work (participation in the larger order) leading to harmony at all levels from self to Nature and entire Existence"
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A Foundation Course in Human Values and Profession Ethics (Text Book and Teachers’ Manual), R. R. Gaur, R. Sangal, G. P. Bagaria (2010), Excel Books, New Delhi [ISBN 978-8-174-46781-2]"
+    },
+    {
+     "no": 2,
+     "book": "Avartansheel Arthshastra, A. Nagraj, Divya Path Sansthan, Amarkantak, India"
+    },
+    {
+     "no": 3,
+     "book": "Economy of Permanence – (a quest for social order based on non-violence), J. C. Kumarappa (2010), Sarva-Seva-Sangh-Prakashan, Varansi, India"
+    },
+    {
+     "no": 4,
+     "book": "Energy and Equity, Ivan Illich (1974), The Trinity Press, Worcester & Harper Collins, USA"
+    },
+    {
+     "no": 5,
+     "book": "IshandiNauUpnishad, Shankaracharya, Geeta press, Gorakhpur,"
+    },
+    {
+     "no": 6,
+     "book": "Manav Vyavahar Darshan, A. Nagraj, Divya Path Sansthan, Amarkantak, India"
+    },
+    {
+     "no": 7,
+     "book": "Manaviya Sanvidhan, A. Nagraj, Divya Path Sansthan, Amarkantak, India"
+    },
+    {
+     "no": 8,
+     "book": "MahasatipatthanSutta , S N Goenka, Vipassana Research Institute, First Edition, 1996"
+    },
+    {
+     "no": 9,
+     "book": "Small Is Beautiful: A Study of Economics as if People Mattered, E. F. Schumacher, 1973, Blond & Briggs, UK"
+    },
+    {
+     "no": 10,
+     "book": "Slow is Beautiful, Cecile Andrews http://www.newsociety.com/Books/S/Slow-is-Beautiful)"
+    },
+    {
+     "no": 11,
+     "book": "Science & Humanism – towards a unified worldview, P. L. Dhar & R. R. Gaur (1990), Commonwealth Publishers, New Delhi"
+    },
+    {
+     "no": 12,
+     "book": "Sanchian Sri Guru Granth Sahib Ji ,Shiromani GurdwaraParbhandhak Committee, 2001"
+    },
+    {
+     "no": 13,
+     "book": "SamanSuttam, JinendraVarni ,1974."
+    },
+    {
+     "no": 14,
+     "book": "Vyavaharvadi Samajshastra, A. Nagraj, Divya Path Sansthan, Amarkantak, India"
+    },
+    {
+     "no": 15,
+     "book": "Vyavahatmak Janvad, A. Nagraj, Divya Path Sansthan, Amarkantak, India."
+    }
+   ],
+   "quirks": [
+    "Syllabus (pp.19-21) is organized as printed 'Module 1'-'Module 5' (not 'Unit-I'-'Unit-V'); mapped 1:1 to units 1-5 in this draft.",
+    "Header prints 'Subject Name: …', 'Pre-requisites- AUC-001 or RVE 301/401 “Universal Human Values and Professional Ethics”', 'Subject Code: ROE074' and '[L-T-P: 3-0-0]'; no credit and no marks printed.",
+    "p.2 pool list prints this subject as 'Understanding   the human being  Comprehensively Human Aspiration audits fulfilment' ('audits' sic for 'and its'); the p.19 printed Subject Name is authoritative.",
+    "Course Methodology printed verbatim (5 items): 1. The methodology of this course is explorational and thus universally adaptable. It involves a systematic and rational study of the human being vis-à-vis the rest of existence. 2. It is free from any dogma or set of do’s and don’ts related to values. 3. It is a process of self-investigation and self-exploration, and not of giving sermons. Whatever is found as truth or reality is stated as a proposal and the students are facilitated and encouraged to verify it in their own right, based on their Natural Acceptance and subsequent Experiential Validation. 4. This process of self-exploration takes the form of a dialogue between the teacher and the students to begin with, and then to continue within the student leading to continuous self-evolution. 5. This self-exploration also enables them to critically evaluate their pre-conditionings and present beliefs.",
+    "Methodology item 1: the 'à' of 'vis-à-vis' extracts as a corrupted glyph ('j') in the text layer; transcribed 'vis-à-vis' — the identical sentence prints 'vis-à-vis' on p.11 (ROE088).",
+    "Module 5 body prints one word per line at the start (justified-text artifact); joined with single spaces.",
+    "Module 1 body and Module 3 body print without a closing period; Module 4 prints '(…self-evaluation)- particularly' and 'harmony/ order' (space after slash) verbatim.",
+    "Reference Books list numbered 1-15 in print; item 15's number prints in a corrupted display font ('ϭϱ͘' = '15.').",
+    "Reference 1 prints '[ISBN 978-8-174-46781-2]' verbatim (unusual digit grouping) and title 'Profession Ethics' (sic); second author 'R. Sangal' (p.12 ROE088 prints 'R. Asthana' for the same title).",
+    "Reference 3 prints 'Varansi' (sic); reference 5 prints 'IshandiNauUpnishad' (sic) with a trailing comma; reference 8 prints 'MahasatipatthanSutta ,' (space before comma) and year 1996; reference 9 ends 'UK' without a period; reference 10 prints '10.Slow' without a space and a stray closing ')' after the URL; reference 12 prints 'Sanchian', 'Ji ,Shiromani' (space before comma) and 'GurdwaraParbhandhak' (sic); reference 13 prints 'JinendraVarni ,1974.' (space before comma).",
+    "pages 14-21 shift-encoded cmap (glyph-to-unicode offset +0x1D class; e.g. '0RGHOOLQJDQG6LPXODWLRQ' prints 'Modelling and Simulation'): the linear text layer does not represent the visible print; units/COs/books transcribed by mechanical decode validated on anchors (AUC-001, RVE 301/401, ROE074, clean duplicates p.11/p.12); visible print attested on page images p.14 and p.19 by the main agent (RULES §6) — patch-b32 verify remedy, v12/v13 recorded class",
+    "printed Pre-requisites line transcribed verbatim to prerequisites (p.19 visible print: Pre-requisites- AUC-001 or RVE 301/401 \"Universal Human Values and Professional Ethics\") — patch-b32"
+   ],
+   "flags": [
+    "unit_ocr_recovered_no_text_layer"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_page",
+   "print": "Open Electives\nFor\nBachelor of Technology\n(Choice Based Credit System)\n7th & 8th Semester, 2019-20",
+   "locator": "p.1"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Open Electives for B.Tech 4th year (CBCS) — Open Electives I (VII Semester ) [columns: Sl. No. | Subject Code | Name of Elective(s)]: 1 ROE071 Modelling and Simulation of Dynamic Systems 2 ROE072 Introduction to Smart Grid 3 ROE073 Cloud computing 4 ROE074 Understanding   the human being  Comprehensively Human Aspiration audits fulfilment",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Open Electives II (VIII Semester ) [columns: Sl. No. | Subject Code | Name of Elective(s)]: 1 ROE081 Digital and Social Media Marketing 2 ROE082 Entrepreneurship Development 3 ROE083 Machine Learning 4 ROE084 Micro and Smart Systems 5 ROE085 Operations Research 6 ROE086 Renewable Energy Resources 7 ROE087 *Human Values in Madhyasth Darshan 8 ROE088 *Values, Relationship & Ethical Human Conduct-For a Happy & Harmonious Society",
+   "locator": "p.2"
+  },
+  {
+   "kind": "note",
+   "print": "Note: 1. The Student shall choose an open Elective from the list in such a manner that he/she has not studied the same course in any form during the degree programme. 2. * It is mandatory that for these two subjects ( ROE087 & ROE088) only trained faculty ( who had done the FDP for these courses) will teach the courses.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "prerequisite_note",
+   "print": "Prerequisite: RVE 301/401- Universal Human Values and Professional Ethics",
+   "locator": "p.9 (ROE087 HUMAN VALUES IN MADHYASTH DARSHAN page; printed prerequisite cross-reference, not a separate syllabus subject) — patch-b32 v10 class"
+  }
+ ],
+ "quirks": [
+  "Pages 14-21 text layer is garbled by a corrupted font cmap (character codes shifted by +0x1D for U+0001-U+005D; digits recover as 0x13-0x1C -> '0'-'9'; 0xB3/0xB4 -> curly double quotes, 0xB6 -> right single quote/apostrophe, U+028A -> left double quote, 0xB1 -> en dash, 0xB2 -> em dash; pp.19-21 watermark uses a second corrupted display font). Content transcribed by mechanical decode of the full char stream — no character inferred beyond the fixed mapping; decode validated against printed anchors (AUC-001, RVE 301/401, ROE074, SIMULINK, MATLAB, ISBN patterns).",
+  "Page images could not be rendered in the subagent context (Read tool strips images); the mechanical decode above stands in for the page-image check per RULES §6.",
+  "Multiple-space runs produced by justified text were normalized to single spaces in joined unit/book strings; word content verbatim. Superscripts (1st/2nd) and corrupted bullet glyphs ('x') transcribe as plain characters.",
+  "ROE071-ROE073 syllabus pages print no subject code (codes taken from the p.2 pool list); ROE071 also prints no L-T-P. ROE072 prints '3 Credit'; no other subject prints credit. No marks/sessional-ESE breakdown is printed anywhere in this document (marks omitted for all subjects).",
+  "Cover page (p.1) university name (DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY, LUCKNOW) and 'Page x of 3' watermarks (pp.19-21) are page furniture, not extracted.",
+  "p.2 pool list name for ROE074 prints 'Understanding   the human being  Comprehensively Human Aspiration audits fulfilment' ('audits' sic for 'and its'); p.19 'Subject Name' is authoritative.",
+  "Printed typos kept verbatim include: OPERATIONS RESEARACH (ROE085), Internet Mareting (ROE081 T1), Essential of Management / Massod (ROE082 T3), Raja etal / Twideu / Renewal (ROE086), Real Time Prizing / thin flim / Power Electronice / McGranghan / Wiley Blackwell 19. (ROE072), laaS / Tata Mcgraw Hill (ROE073), planner / Person / Pratab.R (ROE071), Varansi / IshandiNauUpnishad / Sanchian / GurdwaraParbhandhak / Profession Ethics (ROE088, ROE074).",
+  "pages 14-21 shift-encoded cmap decode attested on page images (p.14 Modelling, p.19 UHBC/ROE074) per RULES §6 — patch-b32; the four Sem-VII subjects carry unit_ocr_recovered_no_text_layer (v12/v13 recorded class)"
+ ],
+ "flags": []
+}

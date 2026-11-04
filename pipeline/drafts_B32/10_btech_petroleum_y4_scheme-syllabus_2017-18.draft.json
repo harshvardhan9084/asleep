@@ -1,0 +1,1295 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2017-18/btech_petroleum_y4_scheme-syllabus_2017-18.pdf",
+ "session": "2017-18",
+ "course": "BTech",
+ "sha16": "5da3e4e52504a5cb",
+ "stem": "10_btech_petroleum_y4_scheme-syllabus_2017-18",
+ "subjects": [
+  {
+   "name": "Water Flooding and Enhanced Oil Recovery",
+   "name_print": "NPE701: WATER FLOODING AND ENHANCED OIL RECOVERY (detail header p.4; scheme row p.2 prints 'Water Flooding and Enhanced  Oil Recovery')",
+   "codes": [
+    "NPE701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Enhanced oil recovery methods – Definition – Schematic representation of enhanced oil Recovery – Techniques involved in EOR – Chemical flooding – Hydrocarbon or Gas injection – Thermal recovery methods.",
+    "2": "Chemical oil recovery methods – Polymer, surfactant/polymer and alkaline flooding – Carbon dioxide (CO2) flooding.",
+    "3": "Thermal recovery – fire flooding – steam flooding – mechanism of hydrocarbon miscible flooding – mechanism of nitrogen and flue gas flooding – mechanism of CO2 flooding – Mechanism of surfactant/polymer flooding – Mechanism of alkaline flooding – Mechanism of steam flooding.",
+    "4": "Criteria for gas injection - Criteria for chemical methods – criteria for thermal methods. Microbial EOR methods (MEOR).",
+    "5": "Laboratory design for EOR – Preliminary test – Water analysis – Oil analysis – Core testing – Viscosity testing."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Von Pollen. H.K. and Associates. Inc., “Fundamentals of Enhanced oil Recovery” – Penn Well publishing co., Tulsa (1980)"
+    },
+    {
+     "no": 2,
+     "book": "Latil M. et al., “Enhanced oil recovery” – Gulf publishing co. Houston (1980)"
+    },
+    {
+     "no": 3,
+     "book": "Standard Hand Book of Petroleum & Natural Gas Engineering” – 2nd Edition 2005-William C. Lyons & Gary J. Plisga-Gulf professional publishing comp (Elsevier)."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '2. NPE701 Water Flooding and Enhanced  Oil Recovery 3-0-0 100 30 20 150 3' (ESE 100 | CT 30 | TA 20 | Total 150 | Credit 3; x-geometry verified p.2).",
+    "Book list prints under generic 'BOOKS:' heading (p.4) — recorded under textbooks; reference_books left empty.",
+    "Book 3 prints unbalanced opening of the title (no opening “ before 'Standard Hand Book') and glued '2005-William' — verbatim.",
+    "No course outcomes, K-levels, objectives, eligibility or prerequisites printed (document-wide)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Offshore Drilling and Petroleum Production Practices",
+   "name_print": "NPE702: OFFSHORE DRILLING AND PETROLEUM PRODUCTION PRACTICES (detail header p.5, wraps over two printed lines)",
+   "codes": [
+    "NPE702"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to offshore oil and gas operations.Sea States and Weather: Meteorology, oceanography, ice, sea bed soil. Buoyancy and stability.",
+    "2": "Offshore Fixed Platforms: Types, description and operations. Offshore Mobile Units: Types, description and installation. Station keeping methods like conventional mooring & dynamic positioning system. Offshore Drilling: Difference in drilling from land, from fixed platform, jackup, ships and semi submersibles. Use of conductors and risers. Deep sea drilling.",
+    "3": "Offshore Well Completion - Platforms and subsea completions, Deep water applications of subsea technology. Offshore Production: Oil processing platforms, gas processing platforms, water injection platforms, storage, SPM and SBM, transportation and utilities.",
+    "4": "Deep water technology: Introduction, definition & prospects. Deep water regions, Deep water drilling rig – selection and deployment, Deep water production system, Emerging deep water technologies – special equipment and systems, Remote operation vessels (ROV).",
+    "5": "Divers and Safety: Principles of diving use of decompression chambers, life boats. Offshore Environmental Pollution and Remedial Measures."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Standard Hand Book of Petroleum & Natural Gas Engineering” – 2nd Edition 2005-William C.Lyons & Gary Gulf-Gulf professional publishing comp (Elsevier)."
+    },
+    {
+     "no": 2,
+     "book": "Wellsite Geological Techniques for petroleum Exploration by Sahay.B et al."
+    },
+    {
+     "no": 3,
+     "book": "Petroleum Exploration Hand Book by Moody, G.B."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '3. NPE702 Offshore Drilling and Petroleum Production Practices 3-1-0 100 30 20 150 4' (x-geometry verified p.2).",
+    "Unit I prints glued 'operations.Sea' (no space glyph; junction gap 0.14pt, forensics verified) — verbatim, not corrected.",
+    "Book list prints under generic 'BOOKS:' heading (p.5) — recorded under textbooks; reference_books left empty.",
+    "Book 1 prints '2005-William C.Lyons & Gary Gulf-Gulf professional publishing comp (Elsevier).' — author list differs from the fuller print of the same handbook on p.4 (NPE701 book 3); verbatim as printed here.",
+    "No course outcomes, K-levels, objectives, eligibility or prerequisites printed (document-wide)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Petroleum Formation Evaluation",
+   "name_print": "NPE031: PETROLEUM FORMATION EVALUATION (detail header p.6; pool item p.2 prints 'a. NPE031 Petroleum Formation Evaluation')",
+   "codes": [
+    "NPE031"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Petrophysical measurements to sub-surface engineering.",
+    "2": "Indirect Methods: SP and resistivity logs, radioactive logs, acoustic logs (principles, types of tools, limitation and applications). Evaluation of CBL/ VDL, USIT, SFT, RFT.",
+    "3": "Production Logging: Introduction, type of tools, principles, limitations and applications.",
+    "4": "Special Type of Logging Tools: Casing inspection tools (principles, application and limitation), Formation micro scanner (FMS), NMR logging principles. Logging in high-angle wells.",
+    "5": "Log Interpretation and Analysis Techniques.Standard log interpretation methods.Cross-plotting methods: neutron-density, sonic-density and sonic-neutron etc.Clean sand interpretationConcepts of invasion – RXO, Tornado charts.Shaly sand interpretation"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): pool row '4. NPE031 to 034 Departmental Elective-III 3-1-0 100 30 20 150 4' (L-T-P/credit/marks shared by all four DE-III members as printed).",
+    "Unit V prints glued word pairs (forensics verified, no space glyphs, 0.00pt junctions): 'Techniques.Standard', 'methods.Cross-plotting', 'etc.Clean', 'interpretationConcepts', 'charts.Shaly' — verbatim, not corrected.",
+    "Unit V ends without terminal punctuation ('...Shaly sand interpretation') — printed so.",
+    "No book list printed on p.6 (BOOKS scan negative, off-page fragment scan negative) — textbooks left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Corrosion Technology in Petroleum",
+   "name_print": "NPE032: CORROSION TECHNOLOGY IN PETROLEUM (detail header p.7; pool item p.2 prints 'b. NPE032 Corrosion Technology in Petroleum')",
+   "codes": [
+    "NPE032"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Corrosion in oil and gas production. Introduction to corrosion control. Definitions: Materials involved. Basic corrosion principles, corrosion rate. Electrochemical reactions. Electrode potentials-passivity-temperature-pressure-velocity-conductivity-pH-dissolved gases.",
+    "2": "Forms of corrosion-uniform-pitting-Galvanic erosion-Intergranualar and weld corrosion, selective Leaching, stress corrosion. Hydrogen embitterment-Fatigue. Role of oxygen in oil filed corrosion-downhole and surface equipment-water flood Removal of oxygen, analysis and criteria for control.",
+    "3": "Role of carbon dioxide (CO2) in corrosion-Effect of temperature and pressure Corrosion of well tubing and other equipments. Role of hydrogen sulphide (H2S)-Corrosion in downhole, surface, storage and pipelines.",
+    "4": "Corrosion  prevention-Cathodic  protection. Principles  of  operation-applications  Galvanic systems, corrosion prevention-coatings-corrosion prevention inhibitors-types of corrosion inhibitors-choice and selection.",
+    "5": "Oil treatment corrosion-crude oil properties-desalting-distillation and other processing case histories, sweetening processes-subsea systems corrosion. Inspection and corrosion monitoring case history-oil storage tank corrosion-Oilfield and oil treating facilities-offshore platforms-down hole equipments."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "“Corrosion control in Petroleum production”-TPC 5-2-nd edition H.G.Byars Houston, texas, 1995."
+    },
+    {
+     "no": 2,
+     "book": "Chemical engineering series, coulson and Richardson, Mc Graw Hill Publications."
+    },
+    {
+     "no": 3,
+     "book": "Standard Handbook of Petroleum and Natural Gas Engineering. 2nd Edition. William C Lyons, Gary C Plisga. Gulf Professional Publishing."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): pool row '4. NPE031 to 034 Departmental Elective-III 3-1-0 100 30 20 150 4'.",
+    "Printed typos kept verbatim: 'Intergranualar' (Unit II), 'embitterment' (Unit II), 'oil filed corrosion' (Unit II), 'equipments'/'down hole equipments' (Units III/V).",
+    "Unit IV keeps the printed justified double spaces ('Corrosion  prevention-Cathodic  protection. Principles  of  operation-applications  Galvanic systems').",
+    "Book list prints under generic 'BOOKS:' heading (p.7) — recorded under textbooks; reference_books left empty.",
+    "Book 1 prints 'TPC 5-2-nd edition' and lowercase 'texas' — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Refinery Losses",
+   "name_print": "NPE033: REFINERY LOSSES (detail header p.8; pool item p.2 prints 'c. NPE033 Refinery Losses')",
+   "codes": [
+    "NPE033"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Heating of crude oil through exchangers, pipe still heaters, their type and constructional features, Estimation of heat duty, combustion calculation and heat transfer area in different parts in pipe still heater. Calculation of pressure drop and stack height.",
+    "2": "Atmospheric distillation, Principles and mode of excess heat removal flash zone calculation and estimation side draw temperatures. Design aspects. Posatmospheric distillation, t treatment of straight run products.",
+    "3": "Vacuum distillation Column internals and operational aspects for lubes and asphalt’s Cracking feed stocks.",
+    "4": "Pressure distillation and gas fractionating units. Difference between various types of distillation Regaining of products of pressure distillations.",
+    "5": "Lubrication oils, Specifications, characteristics, Production lube specialties, additives, Refining of lubrication oil-solvent chemical and hydrogenation method dew axing, deasphalting etc. Asphalt and asphalt specialties. Air blowing and emulsification techniques."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "B.K. Bhaskar Rao., “Modern Petroleum Refining Processes”, 2nd Ed., Oxford and IBH publishing Co. Pvt. Ltd., New Delhi 1990."
+    },
+    {
+     "no": 2,
+     "book": "W.C. Edmister “Applied Hydrocarbon Thermodynamics”, Gulf Publishing, Houstan, Texas 1961."
+    },
+    {
+     "no": 3,
+     "book": "W.L. Nelson, “Petroleum Refinery Engineering”, McGraw-Hill, 1964."
+    },
+    {
+     "no": 4,
+     "book": "M.V. Winkle, “Distillation, Chemical Engineering series”, McGraw-Hill, 1961"
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): pool row '4. NPE031 to 034 Departmental Elective-III 3-1-0 100 30 20 150 4' (L-T-P/credit/marks shared by all four DE-III members as printed).",
+    "Printed typos kept verbatim: 'Posatmospheric distillation, t treatment' (Unit II), 'dew axing' (Unit V), 'Houstan' (book 2).",
+    "Book list prints under generic 'BOOKS:' heading (p.8) — recorded under textbooks; reference_books left empty.",
+    "Book 4 ends without terminal punctuation ('...McGraw-Hill, 1961') — printed so."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Petroleum Product Economics",
+   "name_print": "NPE034: PETROLEUM PRODUCT ECONOMICS (detail header p.9; pool item p.2 prints 'd. NPE034  Petroleum Product Economics' with double space after code)",
+   "codes": [
+    "NPE034"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Supply and demand curves, the elasticity of supply and demand, public finance concepts such as consumer surplus, excise and export taxes. Forecasting techniques for the energy industry, including energy prices. Demand and supply for natural gas, cured oil and pipeline transportation, determinants of energy demand, energy markets, energy pricing, stability and performance of energy markets.",
+    "2": "The economics of investment, Discounted cash flow analysis, Cost Benefit Analyses, Internal Rate of Return, NPV, Profitability Index, Natural Monopoly theory, National competition Policy, Gas Market Regulation, taxation of the oil and gas industry, government policy and trade permits, Monte Carlo analysis, Net Back Pricing, Transfer Pricing and regulatory aspects.",
+    "3": "Application of petroleum engineering principles and economics to the evaluation of oil and gas projects, evaluation principles, time value of money concepts, investment measures, cost estimation, price and production forecasting, risk and uncertainty, project selection and capital budgeting inflation, escalation, operating costs, depreciation, cost recovery.",
+    "4": "Petroleum exploration and production contracts. Sharing of the economic rent, portfolio management. Value creation, Corporate finance & return on capital, economic appraisal methods for oil filed development, reservoir model costs and calculations.",
+    "5": "Case studies: Economic study of an oil filed development project, petrochemical plant project, natural gas break even price, natural gas liquefaction cost, LGN transport cost, investment profitability study for a gas pipeline."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Industrial Economics – An Introductory Textbook. R.R.Barthwal, 2nd Edition, New Age International Publisher."
+    },
+    {
+     "no": 2,
+     "book": "Managerial Economics – D.N.Divedi. 6th Revised Edition. Vikas Publishing House Private Ltd."
+    },
+    {
+     "no": 3,
+     "book": "Standard Handbook of Petroleum and Natural Gas Engineering. 2nd Edition. William C Lyons, Gary, C Plisga. Gulf Professional Publishing."
+    },
+    {
+     "no": 4,
+     "book": "Petroleum Engineering Handbook. Bradely, H.B. Society of Petroleum Engineers. Richardson. Texas."
+    },
+    {
+     "no": 5,
+     "book": "The Encyclopedia Americana, International Edition Volume 9, Grolier Incorporated."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): pool row '4. NPE031 to 034 Departmental Elective-III 3-1-0 100 30 20 150 4'.",
+    "Printed typos kept verbatim: 'cured oil' (Unit I), 'oil filed development' (Units IV-V), 'Divedi' (book 2), 'Bradely' (book 4), 'Gary, C Plisga' stray comma (book 3).",
+    "Book list prints under generic 'BOOKS:' heading (p.9) — recorded under textbooks; reference_books left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Distillation Process",
+   "name_print": "NPE041: DISTILLATION PROCESS (detail header p.10; pool item p.2 prints 'a. NPE041 Distillation Process')",
+   "codes": [
+    "NPE041"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Nature, origin and distribution of oil shale. Petrology and geochemistry of oil shale.",
+    "2": "Oil shale retorting and extraction process. Characterization of oil shale. Supercritical extraction oil  from shale.",
+    "3": "Mathematical modeling of oil shale pyrolysis. Economic factor of shale oil production.",
+    "4": "History of shale gas production. Extraction methods: development of current practices. Location an dsize of production areas: estimated reserves and economics.",
+    "5": "Environmental issues in shale gas exploration. Shale gas markets and globus impact on energy scenario."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): pool row '5. NPE041 to 044 Departmental Elective-IV 3-1-0 100 30 20 150 4'.",
+    "CONTENT/TITLE MISMATCH (recorded verbatim, not corrected): the detail printed under header 'NPE041: DISTILLATION PROCESS' (p.10) is oil-shale/shale-gas material (oil shale retorting, shale gas production, shale gas markets), not distillation.",
+    "Printed typos kept verbatim: 'Location an dsize' (Unit IV, spaced-d glue verified 0.00pt junction), 'globus impact' (Unit V), double space 'oil  from shale' (Unit II).",
+    "No book list printed on p.10 (BOOKS scan negative, off-page fragment scan negative) — textbooks left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Multi Component Separation",
+   "name_print": "NPE042: MUTI COMPONENT SEPARATION (detail header p.11 prints 'MUTI' — typo; scheme row p.2 and pool item print 'b. NPE042 Multi Component Separation')",
+   "codes": [
+    "NPE042"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to the Fundamentals of Distillation. Multi component flash calculation, Isothermal flash calculation, Adiabatic flash calculation.",
+    "2": "Approximate methods for multi component – multistage separation, Design methods and simulation methods for multistage contactor Fenske – Underwood – Gilliland (FUG) method for distillation.",
+    "3": "Multistage counter-current cascade – Group method for absorber and stripper Rigorous method for multi component – multistage separation Introduction to MESH equation",
+    "4": "Historical development of different rigorous multi component distillation calculation method. Classification of different method based on solution scheme.",
+    "5": "Thiele – Geddes method with theta (θ) method of convergence Wang and Henke tridiagonal matrix algorithm for complex distillation column"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): pool row '5. NPE041 to 044 Departmental Elective-IV 3-1-0 100 30 20 150 4'.",
+    "Detail header (p.11) prints 'NPE042: MUTI COMPONENT SEPARATION' — 'MUTI' typo kept verbatim; the scheme row and pool list print 'Multi Component Separation'.",
+    "Units III and V end without terminal punctuation — printed so; Unit V prints no punctuation between 'convergence' and 'Wang' (space-separated sentences).",
+    "No book list printed on p.11 (BOOKS scan negative, off-page fragment scan negative) — textbooks left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Geo Physics",
+   "name_print": "NPE043: ADVANCED GEO PHYSICS (detail header p.12; pool item p.2 prints 'c. NPE043 Advanced Geo Physics')",
+   "codes": [
+    "NPE043"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Physical Basis of Geophysical exploration – Various surface and sub surface methods and their classifications – Physical Properties of rocks and minerals exploited in exploration and factors that control them Geophysical anomalies",
+    "2": "Gravity Prospecting – Principles – Earth Gravitational Field Units – Variations in the Gravitational field – Newton’s Law – Geoid , Spheroid and normal gravity field – Absolute and relative measurement of Gravity – Gravimeters and their field operation – Field procedure – Interpretation of Gravity data and Applications of Gravity methods.",
+    "3": "Radiometric Prospecting: Fundamentals of radioactivity – Rate of radioactivity decay – Successive disintegration and radioactive equilibrium – Natural radioactive elements – Radio active Series – Nature of radioactive emission – Artificial radioactivity – Radioactivity of rocks. Radiation measuring devices – Processing and Interpretation data – applications of radiometric methods.",
+    "4": "Seismic methods, fundamentals of elasticity – bulk modulus – Poisson’s ratio – Elastic Seismic wave theory – Body and surface waves – Primary and Secondary waves – Seismic Instruments - Seismic channels – Applications of Seismic data – Interpretation of field data",
+    "5": "Introduction to Well logging techniques – Well conditions – SP and Resistibility logging – Qualitative interpretation of SP and resistibility logs – applications."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Introduction to Geophysics by Dobrin."
+    },
+    {
+     "no": 2,
+     "book": "Principles of Geophysics by Ramachandran."
+    },
+    {
+     "no": 3,
+     "book": "Quantitative Geophysics and Geology by Louis Lliboutry."
+    },
+    {
+     "no": 4,
+     "book": "Principles of applied Geophysics by D.S. Paranis"
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): pool row '5. NPE041 to 044 Departmental Elective-IV 3-1-0 100 30 20 150 4'.",
+    "Printed typos/quirks kept verbatim: 'Geoid , Spheroid' (space before comma, Unit II — forensics verified), 'Resistibility' (Unit V), 'Radio active Series' (Unit III), author spellings 'Lliboutry' (book 3) and 'Paranis' (book 4).",
+    "Units I and IV end without terminal punctuation — printed so.",
+    "Book list prints under generic 'BOOKS:' heading (p.12) — recorded under textbooks; reference_books left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Supply Chain Management",
+   "name_print": "NPE044: SUPPLY CHAIN MANAGEMENT (detail header p.13; pool item p.2 prints 'd. NPE044  Supply Chain Management' with double space after code)",
+   "codes": [
+    "NPE044"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Definition, Marketing process, dynamics, needs, wants and demands, marketing concepts, environment, mix, types. Philosophies, selling versus marketing,organizations, industrial versus consumer marketing, consumer goods, industrial goods, product hierarchy",
+    "2": "Cultural, demographic factors, motives, types, buying decisions, segmentation factors demographic -Psycho graphic and geographic segmentation, process, patterns.",
+    "3": "Objectives, pricing, decisions and pricing methods, pricing management. Introduction, uses, process of marketing research.",
+    "4": "Components of marketing plan-strategy formulations and the marketing process, implementations, portfolio analysis, BCG, GEC grids.",
+    "5": "Characteristics, impact, goals, types, and sales promotions- point of purchase- unique selling proposition. Characteristics, wholesaling, retailing, channel design, logistics, and modern trends in retailing."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Govindarajan. M, “Marketing management – concepts, cases, challenges and trends”, Prentice hall of India, second edition 2007."
+    },
+    {
+     "no": 2,
+     "book": "Philip Kolter, Koshy Jha, “Marketing Management”, Pearson Education ,Indian adapted edition.2007"
+    },
+    {
+     "no": 3,
+     "book": "Ramasamy and Nama Kumari, “Marketing Environment: Planning, implementation and control the Indian context”, 1990."
+    },
+    {
+     "no": 4,
+     "book": "Czinkota & Kotabe, “Marketing management”, Thomson learning, Indian edition 2007"
+    },
+    {
+     "no": 5,
+     "book": "Adrain palmer, “ Introduction to marketing theory and practice”, Oxford university press IE 2004."
+    },
+    {
+     "no": 6,
+     "book": "Donald S. Tull and Hawkins, “Marketing Research”, Prentice Hall of Inida-1997."
+    },
+    {
+     "no": 7,
+     "book": "Philip Kotler and Gary Armstrong “Principles of Marketing”, Prentice Hall of India, 2000."
+    },
+    {
+     "no": 8,
+     "book": "Steven J. Skinner, “Marketing”, All India Publishers and Distributes Ltd. 1998."
+    },
+    {
+     "no": 9,
+     "book": "Graeme Drummond and John Ensor, Introduction to marketing concepts, Elsevier, Indian Reprint, 2007."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): pool row '5. NPE041 to 044 Departmental Elective-IV 3-1-0 100 30 20 150 4'.",
+    "Unit I prints glued 'marketing,organizations' (no space glyph, 0.00pt junction — forensics verified); Unit I ends without terminal punctuation ('...product hierarchy').",
+    "Unit IV is printed as a stretched one-word-per-line justified line ('Components / of / marketing / plan-strategy / ...'); transcribed joined as printed text.",
+    "Printed typos kept verbatim: 'Kolter' (book 2), 'Education ,Indian' (book 2), 'edition.2007' (book 2, glue verified), 'Adrain palmer' (book 5), 'Inida' (book 6), 'Distributes' (book 8), books 2 and 4 end without terminal punctuation.",
+    "Book list prints under generic 'BOOKS:' heading (p.13) — recorded under textbooks; reference_books left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Petroleum/Oilfield Equipment Design Drawing",
+   "name_print": "NPE751: PETROLEUM/ OILFIELD  EQUIPMENT DESIGN DRAWING (detail header p.14 keeps the printed double space 'OILFIELD  EQUIPMENT'; scheme row p.2 prints 'Petroleum/Oilfield Equipment Design Drawing')",
+   "codes": [
+    "NPE751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ta": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design of power transmission component."
+    },
+    {
+     "no": 2,
+     "exp": "Design of rotary pump / valve."
+    },
+    {
+     "no": 3,
+     "exp": "Design of pressure / reaction vessel."
+    },
+    {
+     "no": 4,
+     "exp": "Design of storage tank."
+    },
+    {
+     "no": 5,
+     "exp": "Design of heat exchanger.."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '6. NPE751 Petroleum/Oilfield Equipment Design Drawing 0-0-3 30 20 50 2' — five printed numbers are ESE 30 | CT blank | TA 20 | Total 50 | Credit 2; column placement verified by x-geometry (ESE token x0=395.5-410.5 vs ESE column 386-420; TA token 455.8-470.8 vs TA column 453-473; Total token 491.2-506.2).",
+    "No UNIT headings and no description paragraph printed; the printed 5-item numbered design list (p.14) is recorded verbatim under experiments.",
+    "Item 5 prints a double terminal period 'Design of heat exchanger..' — verbatim.",
+    "No book list printed on p.14."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Industrial Training",
+   "name_print": "NPE752: INDUSTRIAL TRAINNING (detail header p.14 prints 'TRAINNING' — typo; scheme row p.2 prints 'Industrial Training')",
+   "codes": [
+    "NPE752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "total": 50
+   },
+   "subject_type": "sessional",
+   "units": {
+    "1": "The students must submit the report to their institute complete 4 week Industrial Training after the completion of their 6th semester. Students may opt this course at any relevant Industry/Research Lab for 4 weeks."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.2): '7. NPE752 Industrial Training 0-0-2 50 50 1' — ESE and CT cells printed blank; TA 50 | Total 50 | Credit 1 (x-geometry verified p.2: TA token 455.8-470.8 in TA column, Total token 491.2-503.2).",
+    "Detail header (p.14) prints 'NPE752: INDUSTRIAL TRAINNING' — 'TRAINNING' typo kept verbatim.",
+    "No UNIT headings; the single printed description paragraph (p.14) is transcribed verbatim as unit 1 for content capture.",
+    "No book list printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Project",
+   "name_print": "NPE753/ NPE852: PROJECT (detail header p.14 prints both codes with a single shared description; scheme rows print 'Project' under NPE753 p.2 and NPE852 p.3)",
+   "codes": [
+    "NPE753",
+    "NPE852"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 6
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ta": 100,
+    "total": 100
+   },
+   "subject_type": "sessional",
+   "units": {
+    "1": "The students would be allotted an Industrial Project or any Research Project in the beginning of the VII semester itself. He/ She may continue this project in detail, later in the (8th) semester. The assessment of ESE will be done by the faculty member of the other department within the same institute."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "One printed detail block (p.14) headed 'NPE753/ NPE852: PROJECT' covers both codes — recorded as ONE subject with both codes (no split, RULES §11).",
+    "Scheme row VII-sem (p.2): '8. NPE753 Project 0-0-6 100 100 3' — ESE and CT cells blank, TA 100 | Total 100 | Credit 3 (x-geometry verified).",
+    "Scheme row VIII-sem (p.3): '8. NPE852 Project 0-0-12 100 200 300 7' — CT cell blank, ESE 100 | TA 200 | Total 300 | Credit 7 (x-geometry verified p.3: ESE token 385.4-406.4 in ESE column, TA token 453.2-474.2, Total token 485.3-503.3).",
+    "semester/ltp/credit/marks fields above carry the VII-sem NPE753 row values; the VIII-sem NPE852 row differs as recorded in the preceding quirk.",
+    "No UNIT headings; the single printed description paragraph is transcribed verbatim as unit 1 for content capture. Printed line 2 keeps a trailing double space after '(8th) semester.'",
+    "No book list printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Health Safety and Environment Management in Petroleum Industry",
+   "name_print": "NPE801: HEALTH SAFETY AND ENVIRONMENT MANAGEMENT  IN PETROLEUM INDUSTRY (detail header p.15 keeps printed double space 'MANAGEMENT  IN'; scheme row p.3 prints 'Health safety & Environment Management  in Petroleum Industry' with '&' and the same double space)",
+   "codes": [
+    "NPE801"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Toxicity, Physiological, Asphyxiation, respiratory and skin effect of Petroleum Hydrocarbons (including mixtures), sour gases (eg Hydrogen sulphide and carbon monoxide etc) with their thresh-hold limits. Effect  of  corrosive  atmosphere  and  additives  during acidizing, sand control and fracturing jobs etc.",
+    "2": "Hazards analysis, developing a safe process, failure mode analysis, safety analysis (API-14C) safety analysis function evaluation chart (synergic approach).",
+    "3": "Manual & automatic shut down system, blow down systems. Gas detection system. Fire detection and suppression systems.",
+    "4": "Personal protection systems & measures. HSE Policies, standards & specifications Disaster & crisis management.",
+    "5": "Environment concepts, impact on eco-system, air, water and soil. The impact of drilling & production operations on environment, Environmental transport of petroleum wastes. Offshore environmental studies, offshore oil spill and oil spill control. Oil mines regulations and other environmental legislations. Environmental impact assessment. Waste treatment methods, waste disposal method, remediation of contaminated sites. Air & noise pollution."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): '2. NPE801 Health safety & Environment Management  in Petroleum Industry 3-1-0 100 30 20 150 4' (x-geometry verified p.3).",
+    "Printed quirks kept verbatim: 'thresh-hold' and lowercase 'eg Hydrogen' (Unit I); justified double spaces 'Effect  of  corrosive  atmosphere  and  additives' (Unit I).",
+    "No book list printed on p.15 (BOOKS scan negative, off-page fragment scan negative) — textbooks left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Coal Bed Methane and Gas Hydrates",
+   "name_print": "NPE051: COAL BED METHANE AND GAS HYDRATES (detail header p.16; pool item p.3 prints 'a. NPE051 Coal Bed Methane and Gas Hydrates')",
+   "codes": [
+    "NPE051"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Present status of coal bed methane. Formation and properties of coal bed methane. Thermodynamics of coal bed methane.",
+    "2": "Exploration & Evaluation of CBM. Drilling, completion and logging of coal bed methane wells. Hydro-fracturing of coal seam, Activation of well. Production installation and surface facilities.",
+    "3": "Well operation and production equipment. Treating and disposing produced water. Testing of coal bed methane wells.",
+    "4": "Introduction & present status of gas hydrates. Formation and properties of gas hydrates. Thermodynamics of gas hydrates. Exploration & evaluation of gas hydrates. Phase behavior of gas hydrates. Kinetics of gas hydrates.",
+    "5": "Drilling and completion of gas hydrate wells. Prevention & control of gas hydrates. Gas hydrates accumulation in porous medium. Gas extraction from gas hydrates. Uses and application of gas hydrates."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): pool row '4. NPE051 to 054 Departmental Elective-V 3-1-0 100 30 20 150 4' (L-T-P/credit/marks shared by all four DE-V members as printed).",
+    "No book list printed on p.16 (BOOKS scan negative, off-page fragment scan negative) — textbooks left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Deep Sea Production System",
+   "name_print": "NPE052: DEEP SEA PRODUCTION SYSTEM (detail header p.17; pool item p.3 prints 'b. NPE052 Deep Sea Production System')",
+   "codes": [
+    "NPE052"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Drilling and Well Servicing structures – Definitions – Design specifications – Maintenance and use of Drilling and wall servicing structures.",
+    "2": "Hoisting Systems - Design – Rating and Testing – Inspections – Supplementary and Requirements – Manufacture and Tolerances.",
+    "3": "Rotary Equipments  - Swivel and Rotary Hose – Rotary Table and Bushing - Bits and Down hole tools.",
+    "4": "Mud Pumps – Pump installations – Pump operations – Drilling Muds and Completion fluids – Suspended solids and Transport Cuttings – Nonaqueous fluids – Oil base and synthetic – Base muds – Drilling fluids activities – Clay chemistry.",
+    "5": "Drill strings – compositions and design – Drill Collar – Drill Pipe – Tools Joints –Drill String Design."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Standard Handbook of Petroleum and Natural Gas Engineering. 2nd Edition. William C Lyons, Gary C Plisga. Gulf Professional Publishing."
+    },
+    {
+     "no": 2,
+     "book": "1.Rabia.H. ‘Oil Well Drilling Engineering, Principles And Practices’ Graham And Trotman Ltd. 1985."
+    },
+    {
+     "no": 3,
+     "book": "Mc.Cray. A.W and Cole.F.W. ‘Oil Well Drilling Technology’ University of Oklahoma Press, Norman 1959."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): pool row '4. NPE051 to 054 Departmental Elective-V 3-1-0 100 30 20 150 4'.",
+    "Printed quirks kept verbatim: 'wall servicing structures' (Unit I), 'Tools Joints –Drill' en-dash glued before 'Drill' (Unit V), double space 'Rotary Equipments  -' (Unit III).",
+    "Book 2 prints a stray leading '1.' inside the book text ('1.Rabia.H.') and single-quote title marks — verbatim.",
+    "Book list prints under generic 'BOOKS:' heading (p.17) — recorded under textbooks; reference_books left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Surface Operations For Oil & Gas Production",
+   "name_print": "NPE053: SURFACE OPERATIONS FOR OIL & GAS PRODUCTION (detail header p.18; pool item p.3 prints 'c. NPE053 Surface Operations For Oil & Gas Production')",
+   "codes": [
+    "NPE053"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Field Processing of Oil & Gas : Flash and stage separation of oil & gas; oil & gas separators, mist extractor, fluid level and pressure control system. Vertical and horizontal separators, metering separators. Working pressure and safety feature in oil & gas separators. Special problems in oil and gas separation. Removal of suspended solid & water from oil & gas. Scrubbers and wash tank. Demulsification and desalting.",
+    "2": "Storage & Transport : Types & features of storage tanks Fixed roof and floating roof tanks. Specification, maintenance and operation of tank batteries, Vapour control and gravity conservation measures. Vapour recovery system. Metering of oil & gas, Sampling and Testing of crude oil. Gauging equipment and methods. Water and sediment determination. Orifice and other metering devices and their characteristics. EOR Processes (Surface facilities): Treatment of water for reservoir compatibility. Design consideration for water handling and injection system. Pumps types & sizing, Injectivity problems. Gas compression for injection, gas compressors. Design consideration for gas collection and distribution system for injection."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): pool row '4. NPE051 to 054 Departmental Elective-V 3-1-0 100 30 20 150 4'.",
+    "No UNIT headings printed on p.18 (UNIT token scan negative, off-page fragment scan negative); the two run-in headed paragraphs 'Field Processing of Oil & Gas :' and 'Storage & Transport :' are transcribed verbatim as unit keys 1 and 2 (run-in headings kept).",
+    "No book list printed on p.18 — textbooks left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Design of Catalytic Systems in Petroleum Engineering",
+   "name_print": "NPE054: DESIGN OF CATALYTIC SYSTEMS IN PETROLEUM ENGINEERING (detail header p.19, wraps over two printed lines; pool item p.3 prints 'd. NPE054  Design of Catalytic Systems in Petroleum Engineering' with double space after code)",
+   "codes": [
+    "NPE054"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "A: Oil & Gas Field Development: Development of Oil & Gas Fields : Rate and order of drilling well, well spacing & pattern, selection of development scheme, economic aspect of development of oil and gas fields. Production variants, performance prediction, Recovery factor, sample examples, Stages of preparation of development plans Sample examples & case studies. Computation of economic indices viz. Capital investment, payout period, IRR, Profile, Economic life etc. Analysis of different variants based on technical and economic considerations. Economic development of Marginal fields. Innovative ways to economize Asset development.",
+    "2": "B: Design Oil and gas separation system. Heater-treater.",
+    "3": "C: Artificial Lift Technology: Basic principles and descriptions of Artificial lift methods : Gaslift - continuous and intermittent, chamber lift, plunger lift/sucker rod pumping, hydraulic pumping – piston & jet type. Design of Continuous gas lift system (pressure operated valves) - graphical and analytical methods. Design of Intermittent gas lift system; single point injection standard tubing installation (Pressure operated valves) - graphical and analytical methods. Sucker rod pumping system, Centrifugal electric submersible pumping system. Design of Electrical submersible pumping system"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): pool row '4. NPE051 to 054 Departmental Elective-V 3-1-0 100 30 20 150 4'.",
+    "No UNIT headings printed on p.19 (UNIT token scan negative); the printed lettered sections A/B/C are mapped in order to unit keys 1/2/3 with the printed section letters kept verbatim.",
+    "Section C ends without terminal punctuation ('...Electrical submersible pumping system') — printed so.",
+    "CONTENT/TITLE MISMATCH (recorded verbatim, not corrected): the detail printed under header 'NPE054: DESIGN OF CATALYTIC SYSTEMS IN PETROLEUM ENGINEERING' contains field development, separation/heater-treater design and artificial-lift material — no catalytic-systems content is printed.",
+    "No book list printed on p.19 — textbooks left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Chemical Reaction Kinetics",
+   "name_print": "NPE061: CHEMICAL REACTION KINETICS (detail header p.20; pool item p.3 prints 'a. NPE061 Chemical Reaction Kinetics')",
+   "codes": [
+    "NPE061"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to general modeling : Introduction to concept geological modeling. Types of model and designing of various models depending on reservoir complexities, rock properties, fluid properties – concept of back oil model, compositional model.",
+    "2": "1. Overview: Introduction, Historical background, application of simulator, various types of models.",
+    "3": "2. Flow Conditions: Single phase, two phase and multiphase flow equations for one, two and three dimension models.",
+    "4": "3. Special Concept: Explicit and implicit, grid system, finite difference & finite element method, matrix solution, iterative method, stability criteria.",
+    "5": "4. Data Preparation / 5. Pesudo functions / 6. Reservoir model Solution Techniques: Implicit Pressure and Explicit Saturation (IMPES), Implicit pressure and Implicit saturation (IMPIS). / 7. Preview of numerical solution methods: Direct process, iterative process. / 8. History Matching : Mechanics and parameters of match / 9. Special Concept on Coning and Compositional Models simulation. / 10. Optimization using Economic and Techno-economic evaluation: Computation of economic indices viz. different variants base on technical and economic consideration. / 11. Introduction to streamline simulation & comparison of conventional/Streamline."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): pool row '5. NPE061 to 064 Departmental Elective-VI 3-1-0 100 30 20 150 4'.",
+    "CONTENT/TITLE MISMATCH (recorded verbatim, not corrected): the detail printed under header 'NPE061: CHEMICAL REACTION KINETICS' (p.20) is reservoir-simulation material (geological modeling, simulators, IMPES/IMPIS, history matching, streamline simulation) — no chemical-reaction-kinetics content is printed.",
+    "No UNIT headings printed on p.20 (UNIT token scan negative); print structure = one intro paragraph + numbered topics 1-11. Topic 1 transcribed as unit key 2; topics 4-11 are short single-line items and are transcribed together under unit key 5 in printed order, each preceded by its printed number, separated by ' / ' (not a printed character — separator only).",
+    "Printed typos kept verbatim: 'Pesudo functions' (topic 5), 'base on technical' (topic 10), 'conventional/Streamline.' closing glue (topic 11)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Hazards Management",
+   "name_print": "NPE062: HAZARDS MANAGEMENT (detail header p.21; pool item p.3 prints 'b. NPE062 Hazards Management')",
+   "codes": [
+    "NPE062"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Geology and its perspectives. Formation of core, mantle, crust, hydrosphere, atmosphere and biosphere - Elementary ideas of continental drift and plate tectonics - Evolution of ocean and continental basins.",
+    "2": "Ecology, ecosystem and biotic communities, human impact on air, land, soil, water, climate and forest resources - conservation of resources, coping with natural hazards.",
+    "3": "Natural Environmental Hazards: Various domains and classes of natural hazards- tropical cyclones, floods, landslides and earthquakes - Prediction control and awareness of earthquakes- volcanic types, distribution and causes - coastal erosion.",
+    "4": "Introduction to Environmental Hazards Management - Global Climate Change: Causes, trends, consequences, and management challenges- Mitigation measures of volcanoes, prevention and controls of landslides.",
+    "5": "Environmental degradation and pollution - Air pollution - Water pollution and Soil pollution. Cyclones- types and effects - Droughts- types and factors contribution for drought - Floods-causes and forecast."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Smith, K. Environmental Hazards: Assessing Risk and Reducing Disaster. Third Edition. 2001. Routledge Press."
+    },
+    {
+     "no": 2,
+     "book": "Burton, I, R.W. Kates, and G.F. White, The Environment as Hazard, Second Edition. Guilford Press. 1993"
+    },
+    {
+     "no": 3,
+     "book": "Godschalk, et. al., Natural Hazard Mitigation: Recasting Disaster Policy and Planning. Island Press. 1999."
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): pool row '5. NPE061 to 064 Departmental Elective-VI 3-1-0 100 30 20 150 4'.",
+    "CONTENT/TITLE MISMATCH (recorded verbatim, not corrected): the detail printed under header 'NPE062: HAZARDS MANAGEMENT' (p.21) is geology/environmental-hazard material (plate tectonics, cyclones, landslides, climate change) — hazard-management theory in the industrial-safety sense is not printed.",
+    "Book 2 ends without terminal punctuation ('...Guilford Press. 1993') and prints 'Burton, I,' — verbatim.",
+    "Book list prints under generic 'BOOKS:' heading (p.21) — recorded under textbooks; reference_books left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Process Equipment and Piping Design",
+   "name_print": "NPE063: PROCESS EQUIPMENT AND PIPING DESIGN (detail header p.22; pool item p.3 prints 'c. NPE063 Process Equipment and Piping Design')",
+   "codes": [
+    "NPE063"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Detailed design and drawing of enclosures, supports and standard flanges, storage vessels including Unfired Pressure Vessels, Reaction Vessels.",
+    "2": "Heat Exchangers: Detailed Design And Drawing of Various Types of Heat Exchangers.",
+    "3": "Distillation Column: Detailed Design And Drawing of Distillation Column. Absorber: Detailed Design and Drawing of Absorber.",
+    "4": "Fundaments of fluid flow through pipes-Calculation of pressure drop for Newtonian & non-Newtonian fluids, incompressible & compressible fluids and two-phase flow, Calculation of Economic pipe diameter, insulation thickness, equivalent length, Slurry transport and pipelines Engineering flow diagram, nomenclature and equipment elevation.",
+    "5": "Piping layout, line pressure drop, piping analysis, stress analysis of curved pipelines, yard piping, Piping codes, standards and specifications-ASME, ASTM, API Piping components-pipes, pipe ends, pipe fittings, end fittings, flanged joints, valves, valve codes and standards, valve classification, valve components, bolts, gaskets (fasteners and sealing)."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": null,
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): pool row '5. NPE061 to 064 Departmental Elective-VI 3-1-0 100 30 20 150 4'.",
+    "Printed typo kept verbatim: 'Fundaments of fluid flow' (Unit IV).",
+    "Units II and III print Title-Case middles ('Detailed Design And Drawing of Various Types of Heat Exchangers.') — verbatim.",
+    "No book list printed on p.22 (BOOKS scan negative, off-page fragment scan negative) — textbooks left empty."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Storage and Transportation of Crude Oil and Natural Gas",
+   "name_print": "NPE064: STORAGE AND TRANSPORTATION OF CRUDE OIL AND NATURAL GAS (detail header p.23, wraps over two printed lines; pool item p.3 prints 'd. NPE064  Storage and Transportation of Crude Oil and Natural gas' — 'gas' lowercase in pool print)",
+   "codes": [
+    "NPE064"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Crude oil Trade, Selection of Port Location, Ship Building/Shipyards.",
+    "2": "Commercial Sourcing  of  Natural  Gas,  Different Kinds of Regasification Techniques, Regasification Process & Cold Utilization, Synchronization of Degasified gas and Pipelines, Current Status in India.",
+    "3": "Transportation techniques of crude oil, Pipeline specification, Corrosion Prevention techniques, Pressure drop, Pumps and Booster station, Wax deposition and prevention, Chemical treatment.",
+    "4": "Basic  Engineering  Aspects  of  Terminal  Design,  Design  of  Liquefaction  Train,  Ship Building/Shipyards, Storage Facilities.",
+    "5": "Supply & Demand, Variation Gas Field & Aquifers, Technical Qualities and Storage, Properties of Storage Reservoir, Rocks & Fluids. Flow through Storage Reservoir; Inventory Concept, Pressure- Content Hysteresis, Inventory Verification, Gas Flow Performance, Gas Deliverability. Design & Development of Underground Storage Fields: Operation of Storage Fields. Threshold Pressure. Water Influx/Efflux Quantities. Aquifer Equilibrium Pressure. Error and Uncertainty. Gas Storage in Salt Cavity & Caverns: Thermodynamics, Temperature and Pressure Effect. Recent Developments. Advanced Storage Techniques, Case Histories."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Oilfield Processing: Crude Oil (Oilfield Processing of Petroleum R. Solvay, Pennwell Books 1995."
+    },
+    {
+     "no": 2,
+     "book": "Advances in Environmental Control Technology: Storage Tank Paul Cheremisinoff Gulf Professional Publishing; 1ST edition (May 9, 1996)"
+    }
+   ],
+   "reference_books": null,
+   "experiments": null,
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "Scheme row (p.3): pool row '5. NPE061 to 064 Departmental Elective-VI 3-1-0 100 30 20 150 4'.",
+    "Justified double spaces kept verbatim: Unit II 'Commercial Sourcing  of  Natural  Gas,  Different', Unit IV 'Basic  Engineering  Aspects  of  Terminal  Design,  Design  of  Liquefaction  Train,'.",
+    "Unit V prints an unbroken justified run ('...Rocks & Fluids. Flow through Storage Reservoir; ...') with single-space sentence joins — transcribed as printed.",
+    "Book 1 prints unbalanced parenthesis ('...Petroleum R. Solvay, Pennwell Books 1995.') and book 2 prints '1ST edition' — verbatim.",
+    "Book list prints under generic 'BOOKS:' heading (p.23) — recorded under textbooks; reference_books left empty."
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW / Study & Evaluation Scheme with Syllabus / for / B.Tech. Fourth Year / Petroleum Engineering / (Effective from the Session: 2017-18)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_table_header",
+   "print": "4th Year VII-SEMESTER — columns: S.No. | Subject Code | Subject Name | L-T-P | ESE Marks | Sessional (CT | TA) | Total | Credit",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "1. NOE071 to 074 Open Elective-I 3-1-0 100 30 20 150 4",
+   "locator": "p.2 scheme table row 1"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "2. NPE701 Water Flooding and Enhanced  Oil Recovery 3-0-0 100 30 20 150 3",
+   "locator": "p.2 scheme table row 2"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "3. NPE702 Offshore Drilling and Petroleum Production Practices 3-1-0 100 30 20 150 4",
+   "locator": "p.2 scheme table row 3"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "4. NPE031 to 034 Departmental Elective-III 3-1-0 100 30 20 150 4",
+   "locator": "p.2 scheme table row 4"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "5. NPE041 to 044 Departmental Elective-IV 3-1-0 100 30 20 150 4",
+   "locator": "p.2 scheme table row 5"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "6. NPE751 Petroleum/Oilfield Equipment Design Drawing 0-0-3 30 20 50 2",
+   "locator": "p.2 scheme table row 6 (ESE 30 | CT blank | TA 20 | Total 50 | Credit 2, x-geometry verified)"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "7. NPE752 Industrial Training 0-0-2 50 50 1",
+   "locator": "p.2 scheme table row 7 (ESE and CT blank | TA 50 | Total 50 | Credit 1, x-geometry verified)"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "8. NPE753 Project 0-0-6 100 100 3",
+   "locator": "p.2 scheme table row 8 (ESE and CT blank | TA 100 | Total 100 | Credit 3, x-geometry verified)"
+  },
+  {
+   "kind": "scheme_row_sem7",
+   "print": "9. NGP701 GP 50 50",
+   "locator": "p.2 scheme table row 9 (L-T-P, ESE, CT and Credit cells printed blank; TA 50 | Total 50, x-geometry verified)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 1000 25",
+   "locator": "p.2 (Sem VII total row: subject-total marks 1000, credit total 25)"
+  },
+  {
+   "kind": "legend",
+   "print": "CT: Class Test / TA: Teacher Assessment / L/T/P: Lecture/ Tutorial/ Practical",
+   "locator": "p.2 (below scheme table)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Open Elective-I: / a. NOE071 Entrepreneurship Development / b. NOE072 Quality Management / c. NOE073 Operations Research / d. NOE074 Introduction to Biotechnology",
+   "locator": "p.2 (bottom)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Departmental Elective-III: / a. NPE031 Petroleum Formation Evaluation / b. NPE032 Corrosion Technology in Petroleum / c. NPE033 Refinery Losses / d. NPE034  Petroleum Product Economics",
+   "locator": "p.2 (bottom; double space after 'NPE034' as printed)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Departmental Elective-IV: / a. NPE041 Distillation Process / b. NPE042 Multi Component Separation / c. NPE043 Advanced Geo Physics / d. NPE044  Supply Chain Management",
+   "locator": "p.2 (bottom; double space after 'NPE044' as printed)"
+  },
+  {
+   "kind": "scheme_table_header",
+   "print": "4th Year VIII-SEMESTER — columns: S.No. | Subject Code | Subject Name | L-T-P | ESE Marks | Sessional (CT | TA) | Total | Credit",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "1. NOE081 to 084 Open Elective-II 3-1-0 100 30 20 150 4",
+   "locator": "p.3 scheme table row 1"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "2. NPE801 Health safety & Environment Management  in Petroleum Industry 3-1-0 100 30 20 150 4",
+   "locator": "p.3 scheme table row 2"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "4. NPE051 to 054 Departmental Elective-V 3-1-0 100 30 20 150 4",
+   "locator": "p.3 scheme table row printed '4.' (printed serial 3 absent from the table)"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "5. NPE061 to 064 Departmental Elective-VI 3-1-0 100 30 20 150 4",
+   "locator": "p.3 scheme table row 5"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "6. NPE851 Seminar 0-0-3 50 50 2",
+   "locator": "p.3 scheme table row 6 (ESE and CT blank | TA 50 | Total 50 | Credit 2, x-geometry verified)"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "8. NPE852 Project 0-0-12 100 200 300 7",
+   "locator": "p.3 scheme table row printed '8.' (printed serial 7 absent from the table; CT blank | ESE 100 | TA 200 | Total 300 | Credit 7, x-geometry verified)"
+  },
+  {
+   "kind": "scheme_row_sem8",
+   "print": "9. NGP801 GP 50 50",
+   "locator": "p.3 scheme table row 9 (L-T-P, ESE, CT and Credit cells printed blank; TA 50 | Total 50, x-geometry verified)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 1000 25",
+   "locator": "p.3 (Sem VIII total row: subject-total marks 1000, credit total 25)"
+  },
+  {
+   "kind": "legend",
+   "print": "CT: Class Test / TA: Teacher Assessment / L/T/P: Lecture/ Tutorial/ Practical",
+   "locator": "p.3 (below scheme table)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Open Elective-II: / a. NOE081 Non Conventional Energy Resources / b. NOE082 Nonlinear Dynamic Systems / c. NOE083 Product Development / d. NOE084 Automation & Robotics",
+   "locator": "p.3 (bottom)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Departmental Elective-V: / a. NPE051 Coal Bed Methane and Gas Hydrates / b. NPE052 Deep Sea Production System / c. NPE053 Surface Operations For Oil & Gas Production / d. NPE054  Design of Catalytic Systems in Petroleum Engineering",
+   "locator": "p.3 (bottom; double space after 'NPE054' as printed)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Departmental Elective-VI: / a. NPE061 Chemical Reaction Kinetics / b. NPE062 Hazards Management / c. NPE063 Process Equipment and Piping Design / d. NPE064  Storage and Transportation of Crude Oil and Natural gas",
+   "locator": "p.3 (bottom; double space after 'NPE064'; 'Natural gas' lowercase 'gas' as printed)"
+  }
+ ],
+ "quirks": [
+  "DOC_SCOPE: cover (p.1) prints 'B.Tech. Fourth Year / Petroleum Engineering' — branch scope: Petroleum Engineering (single branch, no parenthetical expansion); course print 'B.Tech.' normalized to canonical course 'BTech' per RULES §1b (verbatim print kept in the cover_title non_subject_row).",
+  "Document identity (cover print): 'Study & Evaluation Scheme with Syllabus for B.Tech. Fourth Year Petroleum Engineering (Effective from the Session: 2017-18)'.",
+  "Page-image rendering unavailable in this sub-agent context (Read tool on the PDF returned the text layer; page images omitted); text-layer fidelity proven via span-geometry + rawdict glyph forensics (B32-d03 class): real spaces print as actual space glyphs (e.g. p.6 'Standard log' junction carries a ' ' char x0=334.44-337.44 with 1.44pt junction gap) while glued print words show NO space glyph and 0.00-0.14pt abutting char junctions (verified 'operations.Sea' p.5, 'Techniques.Standard'/'methods.Cross-plotting'/'etc.Clean'/'interpretationConcepts'/'charts.Shaly' p.6, 'marketing,organizations'/'edition.2007' p.13, 'an dsize' p.10). No off-page fragments on any of the 23 pages (rawdict bbox containment check).",
+  "Scheme tables (pp.2-3) print five numbers per row (ESE | CT | TA | Total | Credit); the 'Sessional' header spans only the CT and TA sub-columns and there is no separate sessional-total column — marks objects therefore carry sessional_ct/sessional_ta/ese_te_pe/total only (sessional_total omitted as not printed). Theory rows: ESE 100 / CT 30 / TA 20 / Total 150; x-geometry verified on pp.2-3.",
+  "Sessional/practical rows (x-geometry verified): NPE751 ESE 30 | CT blank | TA 20 | Total 50 | Credit 2; NPE752 TA 50 | Total 50 | Credit 1; NPE753 TA 100 | Total 100 | Credit 3; NPE851 TA 50 | Total 50 | Credit 2; NPE852 ESE 100 | CT blank | TA 200 | Total 300 | Credit 7; NGP701/NGP801 TA 50 | Total 50 with L-T-P and Credit cells printed blank.",
+  "VIII-SEMESTER table (p.3) prints serial numbers 1, 2, 4, 5, 6, 8, 9 — printed serials 3 and 7 are ABSENT from the table; span y-geometry shows no hidden row bands between the printed rows (row-band gaps 14.7-21.6pt, consistent with single-line rows), i.e. the skips are in the visible print.",
+  "All book lists print under a generic 'BOOKS:' heading (no 'Text Books'/'Reference Books' headings anywhere); every list recorded under textbooks; reference_books left empty everywhere.",
+  "No course outcomes, no K-levels, no objectives, no eligibility and no prerequisites printed for any subject — cos/objectives_print/eligibility_print/prerequisites left empty everywhere (zero guessing).",
+  "Lectures per unit not printed anywhere; lectures_per_unit left null for every subject.",
+  "Printed typos kept verbatim (per-subject detail in subject quirks): 'MUTI COMPONENT SEPARATION' (p.11 header), 'INDUSTRIAL TRAINNING' (p.14 header), 'Design of heat exchanger..' double period (p.14), glued 'operations.Sea' (p.5), glued 'Techniques.Standard'/'methods.Cross-plotting'/'etc.Clean'/'interpretationConcepts'/'charts.Shaly' (p.6), 'Intergranualar'/'embitterment'/'oil filed' (p.7), 'Posatmospheric distillation, t treatment'/'Houstan'/'dew axing' (p.8), 'cured oil'/'oil filed'/'Divedi'/'Bradely'/'Gary, C Plisga' (p.9), 'an dsize'/'globus' (p.10), 'Geoid , Spheroid'/'Resistibility'/'Lliboutry'/'Paranis' (p.12), glued 'marketing,organizations'/'Kolter'/'Inida'/'Adrain palmer'/'Education ,Indian' (p.13), 'thresh-hold'/'eg Hydrogen' (p.15), 'wall servicing'/'Tools Joints –Drill' (p.17), 'Pesudo functions'/'base on technical' (p.20), 'Fundaments' (p.22), unbalanced-paren book 1 (p.23).",
+  "CONTENT/TITLE MISMATCHES recorded verbatim, never corrected: NPE041 'Distillation Process' detail (p.10) prints oil-shale/shale-gas content; NPE054 'Design of Catalytic Systems in Petroleum Engineering' detail (p.19) prints field-development/separation/artificial-lift content; NPE061 'Chemical Reaction Kinetics' detail (p.20) prints reservoir-simulation content; NPE062 'Hazards Management' detail (p.21) prints geology/environmental-hazard content.",
+  "NPE753 and NPE852 share ONE printed detail block 'NPE753/ NPE852: PROJECT' (p.14) with a single description; scheme rows differ (VII-sem NPE753 0-0-6 TA 100 Total 100 Credit 3; VIII-sem NPE852 0-0-12 ESE 100 TA 200 Total 300 Credit 7). Recorded as one subject with both codes; NPE852's row values kept in the subject quirks.",
+  "NPE851 Seminar and NGP701/NGP801 GP have scheme rows only — no detail block is printed anywhere for them (page scan: pp.14 covers NPE751/752/753-852 only); recorded as non_subject_rows.",
+  "Open-elective pool lists (NOE071-074, NOE081-084) print member names only, with no detailed syllabus for any NOE elective in this document — recorded as elective_pool_list non_subject_rows.",
+  "Compressed range pool codes printed in the tables — 'NOE071 to 074', 'NPE031 to 034', 'NPE041 to 044', 'NOE081 to 084', 'NPE051 to 054', 'NPE061 to 064' — expanded member-by-member by the printed pool lists below each table.",
+  "Justified-text double spaces kept verbatim (e.g. p.2 scheme 'Enhanced  Oil', p.3 'Management  in', p.7 Unit IV, p.15 Unit I, p.23 Units II/IV)."
+ ],
+ "flags": [
+  "scheme_rows_without_detailed_syllabus: 5 of 16 scheme rows have no detailed unit-level syllabus printed in this document (VII-sem: row 1 NOE071 to 074 pool, row 9 NGP701 GP; VIII-sem: row 1 NOE081 to 084 pool, row 6 NPE851 Seminar, row 9 NGP801 GP) — recorded as non_subject_rows only. The DE-III/IV/V/VI pool rows are covered by their members' detail pages (pp.6-13, 15-23).",
+  "no_cos_objectives_eligibility_prerequisites_printed: none anywhere in the document.",
+  "missing_printed_serial_numbers_sem8_table: printed serials 3 and 7 absent from the VIII-SEMESTER table (rows run 1, 2, 4, 5, 6, 8, 9) — verified in visible print by span y-geometry.",
+  "compressed_range_pool_codes_printed: 6 range rows expanded by the printed pool lists.",
+  "shared_detail_block_two_codes: NPE753/ NPE852: PROJECT (p.14) — one block, two codes, two different scheme rows.",
+  "gp_rows_unexpanded: 'GP' (NGP701, NGP801) is not expanded anywhere in the print; credit cells printed blank.",
+  "page_images_unavailable_text_layer_proven: fidelity proven via span-geometry + rawdict glyph-gap forensics (B32-d03 class); no off-page fragments; UNIT/BOOKS token scan cross-checked per page."
+ ]
+}
