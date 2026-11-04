@@ -1122,10 +1122,12 @@
    "subject_type": "theory",
    "quirks": [
     "Scheme row only (p.2 row 5): '5 NHU-301/ NHU-302 | Industrial Psychology/ Industrial Sociology | 2 0 0 | 15 10 25 | 50 | 75 | 2' — no unit theory, COs, or books printed anywhere in the document for this subject",
-    "Combined alternative-pair row: Industrial Psychology (NHU-301) or Industrial Sociology (NHU-302)"
+    "Combined alternative-pair row: Industrial Psychology (NHU-301) or Industrial Sociology (NHU-302)",
+    "Scheme ALTERNATIVE-SLOT print (sem-3 row: 'EHU-301/EHU-302 Industrial Psychology/ Industrial Sociology' per the 2014-15 scheme — slash-separated pair; members industrial-psychology [NHU-301] and industrial-sociology [NHU-302] own rows)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ]
   },
   {
@@ -1151,10 +1153,12 @@
    "quirks": [
     "Scheme row only (p.2, unnumbered row between rows 6 and 7): 'AUC-001/ AUC-002 | Human Values & Professional Ethics/ Cyber Security | 2 0 0 | 15 10 25 | 50 | 75*' — no unit theory, COs, or books printed anywhere in the document for this subject; S.No cell printed blank and Credit cell printed blank (omit)",
     "Subject total printed as '75*' — the asterisk refers to the printed footnote: '*Human values & Professional Ethics /Cyber Security will be offered as a compulsory audit course for which passing marks are 30% in End Semester Examination and 40% in aggregate.' (p.2)",
-    "The same audit-course pair prints again as Semester IV row 7 (p.3): '7 AUC-002/ AUC-001 | Cyber Security / Human Values & Professional Ethics | 2 0 0 | 15 10 25 | 50 | 75*' (pair order reversed) — recorded as one subject (identical code pair AUC-001/AUC-002); the pair is common to both semester scheme tables"
+    "The same audit-course pair prints again as Semester IV row 7 (p.3): '7 AUC-002/ AUC-001 | Cyber Security / Human Values & Professional Ethics | 2 0 0 | 15 10 25 | 50 | 75*' (pair order reversed) — recorded as one subject (identical code pair AUC-001/AUC-002); the pair is common to both semester scheme tables",
+    "Scheme ALTERNATIVE-SLOT print (sem-3/4 audit row: 'AUC-002/AUC-001 Cyber Security / Human Values & Professional Ethics' — slash-separated pair; members cyber-security [AUC002] and human-values-professional-ethics [AUC001] own rows)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ]
   },
   {

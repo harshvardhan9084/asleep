@@ -1131,10 +1131,12 @@
    },
    "quirks": [
     "Scheme-row-only subject: appears only in the Sem-III scheme table (p.2, Sl.No.1); no detailed syllabus, units, COs or books printed anywhere in this document",
-    "'KOE031-38' is a printed elective pool range (KOE031-38/), not a single code; transcribed verbatim from the print 'KOE031- 38/ KAS302'"
+    "'KOE031-38' is a printed elective pool range (KOE031-38/), not a single code; transcribed verbatim from the print 'KOE031- 38/ KAS302'",
+    "Scheme ALTERNATIVE-SLOT print (sem-3 row: 'KOE031-038/KAS302 Engineering Science Course/Maths-IV' — slash-separated pair; program structure, not a subject; members mathematics-iv [KAS302] and the OE-pool slot row own the printed codes)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "scheme_row_print": "1 KOE031-38/ KAS302 Engineering Science Course/Maths-IV 3 1 0 30 20 50  100  150 4 (p.2)",
    "source": "03_btech_it_y2_model-curriculum_2019-20.pdf#e44ca075e8598a1c p.2 (scheme row)"
@@ -1162,10 +1164,12 @@
    },
    "quirks": [
     "Scheme-row-only subject: appears only in the Sem-III scheme table (p.2, Sl.No.2); no detailed syllabus, units, COs or books printed anywhere in this document",
-    "Duplicate L-T-P print inside the same scheme row: '2 1 0' line aligned with the row top AND a second '3 0 0' line lower in the row band (with no marks/credit attached) — duplicated-print artifact; both transcribed, primary taken as the row's first L-T-P line 2-1-0"
+    "Duplicate L-T-P print inside the same scheme row: '2 1 0' line aligned with the row top AND a second '3 0 0' line lower in the row band (with no marks/credit attached) — duplicated-print artifact; both transcribed, primary taken as the row's first L-T-P line 2-1-0",
+    "Scheme ALTERNATIVE-SLOT print (sem-3 row: 'KAS301/KVE301 Technical Communication/Universal Human Values' — slash-separated pair; members technical-communication [KAS301] and universal-human-values-and-professional-ethics [KVE301] own rows)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "scheme_row_print": "2 KAS301/ KVE301 Technical Communication/Universal Human Values 2 1 0 30 20 50  100  150 3 (p.2) [second L-T-P line inside row prints 3 0 0]",
    "source": "03_btech_it_y2_model-curriculum_2019-20.pdf#e44ca075e8598a1c p.2 (scheme row)"
@@ -1221,10 +1225,12 @@
    "quirks": [
     "Scheme-row-only subject: appears only in the Sem-III scheme table (p.2, Sl.No.10); no detailed syllabus, units, COs or books printed anywhere in this document",
     "Credit column prints 0 (non-credit audit slot); End-Semester Total column printed blank — only CT 15/TA 10/Total 25 and TE 50 are printed",
-    "Combined row printing two alternative courses (KNC301 Computer System Security / KNC302 Python Programming)"
+    "Combined row printing two alternative courses (KNC301 Computer System Security / KNC302 Python Programming)",
+    "Scheme ALTERNATIVE-SLOT print (sem-3 row: 'KNC301/KNC302 Computer System Security/Python Programming' — slash-separated pair; members cyber-security [KNC301] and python-programming [KNC302] own rows)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "scheme_row_print": "10 KNC301/ KNC302 Computer System Security/Python Programming 2 0 0 15 10 25  50     0 (p.2)",
    "source": "03_btech_it_y2_model-curriculum_2019-20.pdf#e44ca075e8598a1c p.2 (scheme row)"
@@ -1252,10 +1258,12 @@
    },
    "quirks": [
     "Scheme-row-only subject: appears only in the Sem-IV scheme table (p.3, Sl.No.1); no detailed syllabus, units, COs or books printed anywhere in this document",
-    "'KOE041-48' is a printed elective pool range (KAS402/ KOE041-48), not a single code; transcribed verbatim"
+    "'KOE041-48' is a printed elective pool range (KAS402/ KOE041-48), not a single code; transcribed verbatim",
+    "Scheme ALTERNATIVE-SLOT print (sem-4 row: 'KAS402/KOE041-48 Maths IV/Engg. Science Course' — slash-separated pair; members maths-iv [KAS402] and the OE-pool slot row own the printed codes)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "scheme_row_print": "1 KAS402/ KOE041-48  Maths IV/Engg. Science Course 3 1 0 30 20 50  100  150 4 (p.3)",
    "source": "03_btech_it_y2_model-curriculum_2019-20.pdf#e44ca075e8598a1c p.3 (scheme row)"
@@ -1283,10 +1291,12 @@
    },
    "quirks": [
     "Scheme-row-only subject: appears only in the Sem-IV scheme table (p.3, Sl.No.2); no detailed syllabus, units, COs or books printed anywhere in this document",
-    "Duplicate L-T-P print inside the same scheme row: '3 0 0' line aligned with the row top AND a second '2 1 0' line lower in the row band (with no marks/credit attached) — duplicated-print artifact; both transcribed, primary taken as the row's first L-T-P line 3-0-0"
+    "Duplicate L-T-P print inside the same scheme row: '3 0 0' line aligned with the row top AND a second '2 1 0' line lower in the row band (with no marks/credit attached) — duplicated-print artifact; both transcribed, primary taken as the row's first L-T-P line 3-0-0",
+    "Scheme ALTERNATIVE-SLOT print (sem-4 row: 'KVE401/KAS401 Universal Human Values/Technical Communication' — slash-separated pair; members own rows)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "scheme_row_print": "2 KVE401/ KAS401  Universal Human Values/Technical Communication 3 0 0 30 20 50  100  150 3 (p.3) [second L-T-P line inside row prints 2 1 0]",
    "source": "03_btech_it_y2_model-curriculum_2019-20.pdf#e44ca075e8598a1c p.3 (scheme row)"
@@ -1314,10 +1324,12 @@
    "quirks": [
     "Scheme-row-only subject: appears only in the Sem-IV scheme table (p.3, Sl.No.9); no detailed syllabus, units, COs or books printed anywhere in this document",
     "Credit column prints 0 (non-credit audit slot); End-Semester Total column printed blank — only CT 15/TA 10/Total 25 and TE 50 are printed",
-    "Combined row printing two alternative courses (KNC402 Python Programming / KNC401 Computer System Security) — mirror of the Sem-III row"
+    "Combined row printing two alternative courses (KNC402 Python Programming / KNC401 Computer System Security) — mirror of the Sem-III row",
+    "Scheme ALTERNATIVE-SLOT print (sem-4 row: 'KNC401/KNC402 Python Programming/Computer System Security' — slash-separated pair; members python-programming [KNC402] and computer-system-security [KNC401] own rows)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
    ],
    "scheme_row_print": "9 KNC402/ KNC401 Python Programming/ Computer System Security 2 0 0 15 10 25  50   0 (p.3)",
    "source": "03_btech_it_y2_model-curriculum_2019-20.pdf#e44ca075e8598a1c p.3 (scheme row)"
