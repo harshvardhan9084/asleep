@@ -1,0 +1,1004 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2021-22/btech_mfg-tech_y4_syllabus_2021-22.pdf",
+ "session": "2021-22",
+ "course": "BTech",
+ "sha16": "b3c1767fa66cb1cb",
+ "stem": "04_btech_mfg-tech_y4_syllabus_2021-22",
+ "subjects": [
+  {
+   "name": "Mould Design & Manufacturing Lab",
+   "name_print": "Mould  Design & Manufacturing Lab",
+   "codes": [
+    "KMT751"
+   ],
+   "semester": 7,
+   "subject_type": "lab",
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "units": {},
+   "experiments_note": "Minimum 8 experiments out of following (or such experiment) are to be performed:",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To study the design of hot runner mould."
+    },
+    {
+     "no": 2,
+     "exp": "To study the design of compression mould."
+    },
+    {
+     "no": 3,
+     "exp": "To study the design of blow transfer mould."
+    },
+    {
+     "no": 4,
+     "exp": "Two plate injection mould design for automotive components."
+    },
+    {
+     "no": 5,
+     "exp": "Three plate injection mould design for industrial components."
+    },
+    {
+     "no": 6,
+     "exp": "Manufacturing of mould base."
+    },
+    {
+     "no": 7,
+     "exp": "Manufacturing of mould accessories."
+    },
+    {
+     "no": 8,
+     "exp": "Manufacturing of 2- Plate mould."
+    },
+    {
+     "no": 9,
+     "exp": "Manufacturing of 3- Plate mould."
+    },
+    {
+     "no": 10,
+     "exp": "Manufacturing of compression mould."
+    },
+    {
+     "no": 11,
+     "exp": "CNC programming for manufacturing of core & cavity of mould."
+    },
+    {
+     "no": 12,
+     "exp": "Mould flow analysis for multi cavity mould."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply knowledge & basics of Design and Manufacturing.",
+     "kl": "K4"
+    },
+    {
+     "no": 2,
+     "text": "Apply the concepts of various measurement systems & standards with regards to realistic applications.",
+     "kl": "K4"
+    },
+    {
+     "no": 3,
+     "text": "Use of CNC Programming for Mould Manufacturing.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply basic principles Manufacturing Techniques & Processes",
+     "kl": "K4"
+    }
+   ],
+   "quirks": [
+    "p.3 title prints 'Mould  Design & Manufacturing Lab' with a double space between 'Mould' and 'Design' (also in the Sem-VII scheme row 5, p.2).",
+    "p.3 experiment intro printed verbatim as 'Minimum 8 experiments out of following (or such experiment) are to be performed:'.",
+    "CO labels printed as 'CO1'...'CO4' (no hyphen); CO table intro prints 'Course outcomes: The students will be able to' with column header 'Blooms Taxonomy'.",
+    "CO4 prints without a trailing period.",
+    "Marks from Sem-VII scheme row 5 (p.2): PS 25 / PE 25 / Total 50; CT/TA/sessional-Total/TE printed blank (verified via printed word coordinates)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additive manufacturing",
+   "name_print": "Additive manufacturing",
+   "codes": [
+    "KME071"
+   ],
+   "semester": 7,
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Semester – VII: Departmental Elective – IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "History and Advantages of Additive Manufacturing, Distinction Between Additive Manufacturing and CNC Machining, Types of Additive Manufacturing Technologies, Nomenclature of AM Machines, Direct and Indirect Processes; Prototyping, Manufacturing and Tooling.\n\nLayer Manufacturing Processes: Polymerization, Sintering and Melting, Extrusion, Powder Binder Bonding, Layer Laminate Manufacturing, Other Processes; Aerosol printing and Bio plotter.",
+    "2": "Computer Aided Design Technology, Other Associated Technology, Metal and Hybrid Systems.\n\nGeneralized Additive Manufacturing Process Chain; The Eight Steps in Additive Manufacturing, Variation from one AM Machine to Another, Metal System, Maintenance of Equipment, Material Handling Issue, Design of AM.",
+    "3": "Vat Photo polymerization; Materials, Reaction Rates, Photo polymerization Process Modelling, Scan Patterns\n\nPowder Bed Fusion Processes; Material, Powder Fusion Mechanism, Process Parameters and Modeling, powder Handling\n\nExtrusion Based System; Basic principles, plotting and Path Control, Other Systems\n\nMaterial Jetting; Materials, Material Processing Fundamentals, Material Jetting Machines\nDirected Energy Deposition Processes; General DED Process Description, Material Delivery, DED systems, Process Parameters, Processing-Structure-Properties Relationships",
+    "4": "Additive Manufacturing Design and Strategies; Potentials and Resulting Perspectives, AM based New Strategies, Material Design and Quality Aspects for Additive Manufacturing; Material for AM, Engineering Design Rules for AM.\n\nSoftware Issue for Additive Manufacturing; Introduction, Preparation of CAD Models: The STL file, Problem with STL file, STL files Manipulation, Beyond the STL file, Additional Software to Assist AM",
+    "5": "Machines for Additive Manufacturing, Printers, Secondary Rapid Prototyping processes, Intellectual Property, Product Development, Commercialization, Trends and Future Directions in Additive Manufacturing, Business Opportunities\n\nApplications\nAerospace, Automotive, Manufacturing, Architectural Engineering, Art, Jewellery, Toys, Medical, Biomedical, Dental, Bio-printing, Tissue & Organ Engineering and many others."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understanding  the basics of additive manufacturing/rapid prototyping and  its advantages and disadvantages",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understanding the role of additive manufacturing in the design process and the implications for design.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understanding the processes used in additive manufacturing for a range of materials and applications",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the various software tools, processes and techniques that enable advanced/additive manufacturing and personal fabrication.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Apply knowledge of additive manufacturing for various real-life  applications",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by- Ian Gibson , DSavid W. Rosen , Brent Stucker, Springer."
+    },
+    {
+     "no": 2,
+     "book": "Understanding Additive Manufacturing, by- Andreas Gebhardt, Hanser."
+    },
+    {
+     "no": 3,
+     "book": "Additive Manufacturing, by- AmitBandyopadhyay, Susmita Bose, CRC Press."
+    },
+    {
+     "no": 4,
+     "book": "Rapid Prototyping: Principles and Applications, by -Chee Kai Chua, Kah Fai Leong, Chu Sing Lim."
+    }
+   ],
+   "quirks": [
+    "Subject name prints lowercase 'manufacturing' — kept verbatim; p.2 elective pool prints the same name.",
+    "Page header prints 'Semester – VII: Departmental Elective – IV'.",
+    "CO labels printed as 'CO 1'...'CO 5' (space, no hyphen); CO intro prints 'Course Outcome: Student will be able to' with column header 'Bloom Taxonomy'.",
+    "Text layer prints extra spaces inside CO1 ('Understanding  the', 'and  its') and CO5 ('real-life  applications').",
+    "p.5 heading 'Books and References:' prints a single combined list (no textbook/reference split); all 4 entries recorded under textbooks.",
+    "Book 1 prints 'DSavid W. Rosen' [sic] and spaces before commas ('Gibson ,', 'Rosen ,'); book 3 prints 'AmitBandyopadhyay' without a space; book 4 prints 'by -Chee' with a space before the hyphen.",
+    "draft-side unit dicts flattened to verbatim unit text; printed unit headings kept here: unit-1 prints heading 'Introduction'; unit-2 prints heading 'Development of Additive Manufacturing Technology'; unit-3 prints heading 'Additive Manufacturing Processes'; unit-4 prints heading 'Design & Software Issues'; unit-5 prints heading 'Material Design & Quality Aspects'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Flexible Manufacturing System",
+   "name_print": "Flexible  Manufacturing System",
+   "codes": [
+    "KPI071"
+   ],
+   "semester": 7,
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Semester – VII: Departmental Elective – IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "Introduction To FMS, Evolution of Manufacturing Systems, objective and Need, Benefits, Components, Types of Flexibility, Merits, Demerits and Applications of Flexibility.\n\nComposition of FMS, CNC machines, robots, automatic storage and retrieval, automatic material handling, computerized control, Hierarchy of Computer Control ,Computer Control of Work Centre and Assembly Lines, FMS Supervisory Computer Control.",
+    "2": "Process planning, machine loading, cycle time, machine output vs cycle time, methods to reduce cycle time, machine balancing.\n\nScheduling, data requirement for scheduling, mater production scheduling, Gantt charts, scheduling rules, scheduling in FMS, Single Product, Single Batch, N–Batch Scheduling Problem, Knowledge Based Scheduling System.\n\nDispatching, Dispatch activities.",
+    "3": "Application of Simulation, Model of FMS, Simulation Software, Limitation, Manufacturing Data Systems, Data Flow, FMS Database Systems, Planning For FMS Database.\n\nIntroduction to factors affecting the Performance of FMS, Introduction to Analytical model and Simulation model of FMS.",
+    "4": "Introduction, Matrix Formulation, Mathematical Programming Formulation, Graph Formulation, Knowledge Based System for Group Technology, Economic Justification Of FMS, Implementation issues and maintenance of FMS, Application of Possibility Distributions in FMS Systems Justification.",
+    "5": "FMS Application in Machining, Sheet Metal Fabrication, Prismatic Component Production, Aerospace Application, FMS Development Towards Factories of The Future, Artificial Intelligence and Expert Systems in FMS, Design Philosophy and Characteristics for Future, case studies."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the manufacturing systems, flexibility, components of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand production, planning, scheduling and simulation of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand concepts of group technology and economics issues in the application of FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the application of FMS in various operations & involvement of AI in flexible manufacturing system.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the concepts of scheduling and simulation in FMS",
+     "kl": "K2"
+    },
+    {
+     "no": 6,
+     "text": "Apply the concepts of scheduling in FMS",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Jha, N.K. “Handbook of Flexible Manufacturing Systems”, Academic Press Inc., 1991."
+    },
+    {
+     "no": 2,
+     "book": "Radhakrishnan P. And Subramanyan S., “CAD/CAM/CIM”, Wiley Eastern Ltd., New Age International Ltd., 1994."
+    },
+    {
+     "no": 3,
+     "book": "Raouf, A. And Ben-Daya, M., Editors, “Flexible Manufacturing Systems: Recent Development”, Elsevier Science, 1995."
+    },
+    {
+     "no": 4,
+     "book": "GrooverM.P., “Automation, Production Systems And Computer Integrated Manufacturing”, Prentice Hall Of India Pvt., New Delhi, 1996."
+    },
+    {
+     "no": 5,
+     "book": "Reza A Maleki “Flexible Manufacturing system” Prentice Hall of Inc New Jersey, 1991"
+    },
+    {
+     "no": 6,
+     "book": "TaiichiOhno, “Toyota Production System: Beyond Large-Scale Production”, Productivity Press (India) Pvt. Ltd. 1992."
+    }
+   ],
+   "quirks": [
+    "p.6 title prints 'Flexible  Manufacturing System' with a double space after 'Flexible'; p.2 elective pool prints 'Flexible Manufacturing System'.",
+    "Page header prints 'Semester – VII: Departmental Elective – IV'.",
+    "Unit-III label prints a non-standard hyphen glyph ('UNIT‐III').",
+    "Unit-I text prints 'Hierarchy of Computer Control ,Computer Control' (space before comma, none after).",
+    "Unit-II prints 'mater production scheduling' [sic] and 'N–Batch' with an en dash; unit title ends with a colon.",
+    "CO labels printed as 'CO-1'...'CO-6'; CO intro prints 'Course Outcomes: The students will be able to' with column header 'Blooms Taxonomy'.",
+    "p.7 heading 'Books and References:' prints a single combined list; all 6 entries recorded under textbooks.",
+    "Book 4 prints 'GrooverM.P.' and book 6 'TaiichiOhno' (no space after author surname); book 5 prints 'Prentice Hall of Inc New Jersey' [sic] with no trailing period.",
+    "draft-side unit dicts flattened to verbatim unit text; printed unit headings kept here: unit-1 prints heading 'Understanding of FMS'; unit-2 prints heading 'Planning, scheduling and control of flexible manufacturing systems:'; unit-3 prints heading 'FMS simulation and data base'; unit-4 prints heading 'Group technology and justification of FMS'; unit-5 prints heading 'Applications of FMS and factory of the future'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Facility Planning and Design",
+   "name_print": "Facility Planning and Design",
+   "codes": [
+    "KPI072"
+   ],
+   "semester": 7,
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Semester – VII: Departmental Elective – IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "Factory Planning: Introduction, factors to be considered\nPlant Location and Site Selection: Levels of plant location, rural, urban and suburban location of plants, factors influencing the plant location, optimum plant location, location theories.",
+    "2": "Plant Layout: Introduction of production system, scope, objectives, importance, and types of plant layout, characteristics of a good plant layout, factoring affecting plant layout, procedure of developing a plant layout, different graphical and computerized plant layout design techniques, installation and evaluation of plant layout, optimum plant layout.",
+    "3": "Group Technology: Definition, objectives, planning, part families and machine cell formation, evaluation of machine cells, types of GT layout, benefits of GT, implementation of GT.",
+    "4": "Line Balancing: Definitions, heuristic and analytical methods of balancing the assembly and production line, single and mixed model line balancing.",
+    "5": "Materials Handling: Definition, scope, objectives, principles, importance, factors in materials handling problem, analysis of materials handling, types and selection of materials handling equipment’s, aids and techniques in materials handling equipment selection. Planning of material flow, advantages of planned material flow, flow planning principles, flow patterns, analysis of material flow."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the plant location and site selection, factors influencing the plant location, the plant layout and plant layout design techniques",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the group technology and formation of machine cells, balancing of manufacturing line.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the material handling and flow pattern.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Use the concepts of plant location and site selection and its layout design.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the concepts of group technology and manufacturing cell formation.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Use material handling technologies in the plant.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Francis, R.L., McGinnis, L.F., and White, J.A., “Facility Layout and Location: An Analytical Approach”, Prentice Hall of India 2004"
+    },
+    {
+     "no": 2,
+     "book": "Meyers, F.E., and Stephens, M.P., “Manufacturing Facilities Design and Material Handling”, Prentice-Hall, Inc. 2000"
+    },
+    {
+     "no": 3,
+     "book": "Groover,M.P.,“Automation, Production Systems and ComputerIntegrated Manufacturing”,2nd 2001 Ed., Pearson Education Inc. Delhi"
+    },
+    {
+     "no": 4,
+     "book": "Sule,D.R.,“Manufacturing Facilities-Location, Planning, and Design”, PWS Publishing Company 1984"
+    },
+    {
+     "no": 5,
+     "book": "Tompkins,J.A., White, J.A.,Bozer,Y.A.,Frazelle, E.H.,Tanchoco, J.M., and Tervino,J.,“Facilities Planning”,2nd 1996 Ed., John Willey & Sons"
+    }
+   ],
+   "quirks": [
+    "Subject page prints 'Facility Planning and Design'; the p.2 elective pool prints 'Facility Planning & Design'.",
+    "Page header prints 'Semester – VII: Departmental Elective – IV'.",
+    "Units print no separate title line — each unit body begins directly with the topical phrase (e.g. 'Factory Planning: ...', 'Plant Layout: ...'); transcribed verbatim.",
+    "Unit-II prints 'factoring affecting plant layout' [sic]; Unit-V prints 'equipment’s' with a stray apostrophe.",
+    "CO labels printed as 'CO-1'...'CO-6'; CO intro prints 'Course Outcomes: The students will be able to' with column header 'Blooms Taxonomy'.",
+    "p.8-9 heading 'Recommended Books:' prints a single combined list (spans pages 8-9, book 2 splits 'Prentice-' / 'Hall, Inc. 2000'); all 5 entries recorded under textbooks.",
+    "Book 3 prints 'Groover,M.P.,' and 'ComputerIntegrated' [sic] and '2nd 2001 Ed.'; book 5 prints 'White, J.A.,Bozer,Y.A.,Frazelle' (missing spaces), 'Tervino' [sic] and 'John Willey & Sons' [sic]."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advance Casting Process",
+   "name_print": "Advance Casting Process",
+   "codes": [
+    "KMT071"
+   ],
+   "semester": 7,
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Semester – VII: Departmental Elective – IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "Mould production - equipment for moulding, moulding technique - pattern utilisation, hand and machine compaction, machine moulding, mould drying and hardening. Cores and core making - core boxes, compaction, core hardening, closing of moulds.",
+    "2": "Melting Practice : Classification of melting furnaces, brief description of construction and operation of various furnaces - cupola and its design, electric arc furnaces, electric induction furnaces. Melting charge, melting conditions, melting losses, special melt treatment, melt quality control and recent development in metal melting.Pouring : Metal temperature, pouring equipment and techniques.",
+    "3": "Shell moulding - Basic operation, production systems, characteristics of shell moulded casting and D-process. Investment Casting - expandable pattern process. Pattern production, investment, pattern removal and firing, casting.Factor influencing casting quality characteristics of precision investment casting.Investment casting from permanent casting.Die-casting - Gravity die-casting, pressure-die casting, die-casting machines, casting techniques, characteristics of die - castings.Centrifugal casting - Fundamental principles, methods production techniques, characteristics of centrifugal casting.",
+    "4": "Crystallization and development of cast structure - Nucleation, Growth and dendrite growth, independent nucleation, eutectic freezing, paratactic relations, structure of castings - significance and practical control cast structure, grain shape and orientation, grain size, refinement and modification of cast structure. Concept of progressive and directional solidification, solidification time and derivation of Chvorinov’s equation influence of mould characteristics and cast metal. Properties on solidification, process numerical methods for heat flow analysis.",
+    "5": "Feeding characteristics of alloys, geometric influences on solidification.Methods of the feeding of castings - cost and concept of yield, orientations, gating technique, casting temperature and pouring speed, design and location of feeder heads.Aids to feeder head efficiency, junction of feeder head and casting, use of padding, chills and insulators."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the mould production and equipments and how internal cavities are produced.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand and apply the principles of melting and pouring systems and develop analytical relation between input and output process parameters.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the various advance casting techniques.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Analyze the thermal, metallurgical aspects during solidification in casting and welding and their role on quality of cast or weld objects.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Analyze the concept of cooling rate of materials in metal casting.",
+     "kl": "K4"
+    },
+    {
+     "no": 6,
+     "text": "Design the gating and riser system needed for casting and requirements to achieve defect free casting.",
+     "kl": "K6"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Beeley P.R., “Foundry Technology” (Buttersworth) Heine and Rosenthal, “Principles of Metal Cutting” (TMH) “"
+    },
+    {
+     "no": 2,
+     "book": "Engineering Plastics, Parmar, Khanna Book Publishing Co., Delhi Metal Casting” ASME Handbook P.C.Mukherji, “Metal Casting Technology”"
+    }
+   ],
+   "quirks": [
+    "Page header prints 'Semester – VII: Departmental Elective – IV'.",
+    "CO labels print with a leading space in the text layer (' CO-1'...' CO-6'); CO intro prints 'Course Outcomes: The students will be able to' with column header 'Blooms Taxonomy'.",
+    "CO-1 prints 'equipments' [sic]; CO-6 prints K6 (as printed).",
+    "Unit-III: 'D-process' is printed across a line break ('D-' / 'process') — joined at the printed hyphen; prints 'casting.Factor', 'casting.Investment', 'casting.Die-casting' with missing spaces; 'die - castings' with spaced hyphen.",
+    "Unit-II prints 'metal melting.Pouring' with a missing space; Unit-IV prints 'cast metal. Properties on solidification' (sentence split as printed); Unit-V prints 'solidification.Methods' and 'heads.Aids' with missing spaces.",
+    "p.11 books heading prints 'REFERENCE :' (single combined list) → recorded under reference_books.",
+    "Reference item 1 prints a stray trailing quote mark and '(Buttersworth)' [sic], and merges two titles (Beeley; Heine and Rosenthal) under one number; item 2 merges three titles (Engineering Plastics; Metal Casting ASME Handbook; P.C.Mukherji) with a stray mid-item quote mark.",
+    "draft-side unit dicts flattened to verbatim unit text; printed unit headings kept here: unit-1 prints heading 'Production of Moulds and Cores'; unit-2 prints heading 'Melting and Pouring'; unit-3 prints heading 'Details Study of Following Casting Techniques'; unit-4 prints heading 'Solidification of Castings'; unit-5 prints heading 'Feeding of Castings'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Composite Materials",
+   "name_print": "Composite Materials",
+   "codes": [
+    "KMT072"
+   ],
+   "semester": 7,
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Semester – VII: Departmental Elective – V:",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "Classifications of Engineering Materials, Concept of composite materials.\n\nMatrix materials, Functions of a Matrix, Desired Properties of a Matrix, Polymer Matrix (Thermosets and Thermoplastics), Metal matrix, Ceramic matrix, Carbon Matrix, Glass Matrix etc.",
+    "2": "Role and Selection of reinforcement materials.Types of fibres: Glass fibers, Carbon fibers, Aramid fibers, Metal fibers, Alumina fibers, Boron Fibers, Silicon carbide fibers, Quartz and Silica fibers, Multiphase fibers, Whiskers, Flakes etc.\n\nMechanical properties of fibres: Material properties that can be improved by forming a composite material and its engineering potential.",
+    "3": "Classification based on Matrix Material: Organic Matrix composites, Polymer matrix composites (PMC), Carbon matrix Composites or Carbon-Carbon Composites, Metal matrix composites (MMC), Ceramic matrix composites (CMC).\n\nClassification based on reinforcements: Fiber Reinforced Composites, Fiber Reinforced Polymer (FRP) Composites, Laminar Composites, Particulate Composites.",
+    "4": "Processing of Composite Materials: Overall considerations, Autoclave curing, Other Manufacturing Processes like filament welding, compression moulding, resin transplant method, pultrusion, pre-peg layer, Fiber-only performs, Combined Fiber-Matrix performs.\n\nManufacturing Techniques: Tooling and Specialty materials, Release agents, Peel plies, release films and fabrics, Bleeder and breather plies, bagging films, maximum stress and strain criteria, Von Mises Yield criterion for isotropic materials.",
+    "5": "Mechanical testing of composites, tensile testing, Compressive testing, Intra-laminar shear testing, Inter-laminar shear testing, Fracture testing etc.\n\nAnalysis of laminated plates: equilibrium equations of motion, energy formulation, static bending analysis, buckling analysis, free vibrations, natural frequencies."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the composite material concept, need and different types of matrix available.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand about various fibers their properties and their selection.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand how composites are classified based on matrix and fibers",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand processing and manufacturing techniques of composite material",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the mechanical testing of composites and analysis of laminated plates.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Materials characterization, Vol. 10, ASM hand book."
+    },
+    {
+     "no": 2,
+     "book": "Mechanical Metallurgy, by G. Dieter, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Analysis and Performance of Fiber Composites, by Agarwal, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Thermal Analysis of Materials, by R.F. Speyer, Marcel Decker."
+    },
+    {
+     "no": 5,
+     "book": "Engineering Mechanics and Composite Materials, by Daniels, Oxford University Press."
+    },
+    {
+     "no": 6,
+     "book": "Material Science and Engineering (SIE) with CD, by Smith, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Gibson R.F. Principles of Composite Material Mechanics, second edition, McGraw Hill, 1994."
+    },
+    {
+     "no": 8,
+     "book": "Engineering Materials: Polymers, Ceramics and Composites, by A.KBhargava Prentice Hall India."
+    }
+   ],
+   "quirks": [
+    "Page header prints 'Semester – VII: Departmental Elective – V:' (with a trailing colon).",
+    "A repeated heading 'COMPOSITE MATERIALS' is printed between the CO table and UNIT-I.",
+    "Unit labels print without a space after the colon ('UNIT-I:Overview of Composite material'); kept in unit titles.",
+    "Unit-II prints 'reinforcement materials.Types of fibres' with a missing space.",
+    "Unit-IV prints 'filament welding' [sic], 'resin transplant method' [sic], 'pre-peg layer' [sic] and 'performs' (Fiber-only performs, Combined Fiber-Matrix performs) [sic].",
+    "CO-3 and CO-4 print without a trailing period.",
+    "p.13 heading 'Books and References:' prints a single combined list; all 8 entries recorded under textbooks.",
+    "Book 1 prints 'ASM hand book' [sic]; book 8 prints 'A.KBhargava' without a space.",
+    "draft-side unit dicts flattened to verbatim unit text; printed unit headings kept here: unit-1 prints heading 'Overview of Composite material'; unit-2 prints heading 'Types of Reinforcements/Fibers'; unit-3 prints heading 'Various types of composites'; unit-4 prints heading 'Fabrication methods'; unit-5 prints heading 'Testing of Composites and Analysis'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Manufacturing Strategies",
+   "name_print": "Manufacturing Strategies",
+   "codes": [
+    "KMT073"
+   ],
+   "semester": 7,
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Semester – VII: Departmental Elective – V",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "Product development verses design, modern product development theories and methodologist in design. Product development teams.Product development planning, technical and business concerns. Understanding customer needs, Establishing product functions. Functional decomposition, modeling process, Function trees system functionality, augmentation.\n\nAggregation, common basis, functional modeling methods",
+    "2": "Product tear down and experimentation, benchmarking and establishing engineering specification. Product portfolios and portfolio architecture.\n\nTear down process, tear down methods, post teardown reporting, benchmarking approach, support tools, setting specifications, portfolio architecture, types, platform, functional architecting, optimization selection. Product modularity, modular design.",
+    "3": "Generation of concepts, information gathering and brain storming, directed search,morphological analysis, combining solutions. Decision making, estimation of technical feasibility, concept selection process, selection charts, measurement theory, numerical concept scoring, design evaluation scheme, concept embodiment, geometry and layout, system modeling, modeling of product metrics, selection of model by performance specifications, physical prototyping, informal and formal models.",
+    "4": "Material properties, metals, plastics, rubber, woods & factors considered while designing for metals, plastics, rubber, woods etc, Anthropometry factors, physiological factors, psychology factors, anatomy factors.\nEconomic factors influencing design, product value, safety, reliability & environmental considerations, economic analysis, break even analysis, profit & competitiveness, economics of a new product design.",
+    "5": "Introduction, historical perspective, nature & measurement of value, importance of value, value analysis job plan, creativity, steps for solving & value analysis, value analysis tests\nPrincipal stress trajectories( force flow lines), balanced design, criteria & objective of design, material toughness, resilience, designing for uniform strength."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand modern product development theories and customer needs.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand product tears down methods and product modularity.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand concepts of modelling and morphological analysis.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand material properties and economic factors influencing design",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the significance of value engineering.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Chitale A. K., Gupta R. C., “Product Design & Manufacturing”, Prentice Hall India Ltd., ISBN: 978-81-203-4282-8"
+    },
+    {
+     "no": 2,
+     "book": "RoozenburgN.F.M., Eekels J., “Product Design : Fundamentals & Methods”, IFS (Publications) Ltd and Springer-Verlag London UK"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Dale Huchingson R “New Horizons for Human Factors in Design ” McGraw Hill Company 19811. Indistrial Design-Mayall"
+    },
+    {
+     "no": 2,
+     "book": "RoozenburgNFM and J. Eekels, “Product Design: Fundamentals and Methods A Wiley Series in Product Development”, John Wiley and Sons."
+    }
+   ],
+   "quirks": [
+    "Page header prints 'Semester – VII: Departmental Elective – V'.",
+    "Unit-III and Unit-V labels print without a space after the colon ('UNIT III:Concepts and Modeling').",
+    "Unit-I prints 'verses design' [sic], 'methodologist in design' [sic] and 'teams.Product' with a missing space.",
+    "Unit-III prints 'search,morphological' with a missing space.",
+    "Unit-V prints 'value analysis tests' then 'Principal stress trajectories( force flow lines)' with a space inside the parenthesis and no separating punctuation.",
+    "CO-2 prints 'product tears down methods' [sic]; CO-4 prints without a trailing period.",
+    "p.15 prints 'TEXT BOOKS:' (2 items) and 'REFERENCE BOOKS:' (2 items); textbook 1 splits the ISBN across a line break ('978-81-' / '203-4282-8') and prints 'RoozenburgN.F.M.' without a space.",
+    "Reference book 1 prints 'McGraw Hill Company 19811.' [sic — year 1981 followed by a stray '1.'] and merges the second title 'Indistrial Design-Mayall' [sic] into item 1 without its own number; reference book 2 prints 'RoozenburgNFM' without a space.",
+    "draft-side unit dicts flattened to verbatim unit text; printed unit headings kept here: unit-1 prints heading 'Product Design and Development'; unit-2 prints heading 'Benchmarking'; unit-3 prints heading 'Concepts and Modeling'; unit-4 prints heading 'Design materials & human factors in product design'; unit-5 prints heading 'Value engineering in product design'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Maintenance Engineering & Management",
+   "name_print": "Maintenance Engineering & Management",
+   "codes": [
+    "KMT074"
+   ],
+   "semester": 7,
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Semester – VII: Departmental Elective – V",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "Basic Principles of Maintenance Planning – Objectives and Principles of Planned Maintenance Activity – Importance and Benefits of Sound Maintenance Systems.\n\nReliability and Machine Availability – MTBF, MTTRAndMWT – Factors of Availability – Maintenance Organization – Maintenance Economics.",
+    "2": "Maintenance Categories – Comparative Merits of Each Category – Preventive Maintenance, Maintenance Schedules, Repair Cycle – Principles and Methods of Lubrication – TPM.",
+    "3": "Condition Monitoring – Cost Comparison with And Without CM – On-Load Testing and Offload Testing – Methods and Instruments for CM – Temperature Sensitive Tapes – Pistol Thermometers – Wear-Debris Analysis.",
+    "4": "Repair Methods for Beds, Slideways, Spindles, Gears, Lead Screws and Bearings – Failure Analysis – Failures and Their Development – Logical Fault Location Methods – Sequential Fault Location.",
+    "5": "Repair Methods for Material Handling Equipment – Equipment Records –Job Order Systems -Use of Computers in Maintenance."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics of maintenance planning.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the preventive maintenance and maintenance schedules.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understanding of repair methods for basic machine elements.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understanding of repair methods for material handling equipment.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Cost comparison with and without CM.",
+     "kl": "K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "SrivastavaS.K., “Industrial Maintenance Management”, – S. Chand And Co., 1981."
+    },
+    {
+     "no": 2,
+     "book": "Venkataraman .K “Maintancence Engineering And Management”, PHI Learning, Pvt. Ltd., 2007."
+    },
+    {
+     "no": 3,
+     "book": "Bhattacharya S.N., “Installation, Servicing And Maintenance”, S. Chand And Co., 1995."
+    },
+    {
+     "no": 4,
+     "book": "White E.N., “Maintenance Planning”, I Documentation, Gower Press, 1979."
+    },
+    {
+     "no": 5,
+     "book": "GargM.R., “Industrial Maintenance”, S. Chand & Co., 1986."
+    },
+    {
+     "no": 6,
+     "book": "Higgins L.R., “Maintenance Engineering Hand Book”, McGraw Hill, 5th Edition, 1988."
+    },
+    {
+     "no": 7,
+     "book": "Armstrong, “Condition Monitoring”, BSIRSA, 1988."
+    },
+    {
+     "no": 8,
+     "book": "Davies, “Handbook Of Condition Monitoring”, Chapman &Hall, 1996."
+    }
+   ],
+   "quirks": [
+    "Page header prints 'Semester – VII: Departmental Elective – V'; the code line prints with a leading space in the text layer (' Subject Code: KMT 074').",
+    "Units use spaced en dashes (–) throughout; Unit-I prints 'MTTRAndMWT' without spaces [sic].",
+    "Unit-II title prints 'Maintenance policies – preventive maintenance'.",
+    "Unit-V prints 'Records –Job Order Systems -Use' (dash spacing as printed).",
+    "CO labels printed as 'CO-1'...'CO-5'; CO intro prints 'Course Outcomes: The students will be able to' with column header 'Blooms Taxonomy'.",
+    "p.16 heading 'Books and References:' prints a single combined list; all 8 entries recorded under textbooks.",
+    "Book 1 prints 'SrivastavaS.K.' and a stray '–' after the comma; book 2 prints 'Venkataraman .K' and 'Maintancence' [sic]; book 5 prints 'GargM.R.'; book 6 prints 'Hand Book' as two words; book 8 prints 'Chapman &Hall' without a space.",
+    "draft-side unit dicts flattened to verbatim unit text; printed unit headings kept here: unit-1 prints heading 'Principles and practices of maintenance planning'; unit-2 prints heading 'Maintenance policies – preventive maintenance'; unit-3 prints heading 'Condition monitoring'; unit-4 prints heading 'Repair methods for basic machine elements'; unit-5 prints heading 'Repair methods for material handling equipment'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Process Planning and Cost Estimation",
+   "name_print": "Process Planning and Cost Estimation",
+   "codes": [
+    "KMT075"
+   ],
+   "semester": 7,
+   "subject_type": "departmental-elective",
+   "elective_slot_print": "Semester – VII: Departmental Elective – V",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "units": {
+    "1": "Introduction- methods of process planning-Drawing Interpretation-Material evaluation – steps in process selection-.Production equipment and tooling selection.",
+    "2": "Process parameters calculation for various production processes-Selection jigs and fixtures election of quality assurance methods - Set of documents for process planning-Economics of process planning- case studies.",
+    "3": "Importance of costing and estimation –methods of costing-elements of cost estimation. Types of estimates – Estimating procedure- Estimation labour cost, material cost- allocation of overhead charges- Calculation of depreciation cost.",
+    "4": "Estimation of Different Types of Jobs - Estimation of Forging Shop, Estimation of Welding Shop, Estimation of Foundry Shop.",
+    "5": "Estimation of Machining Time - Importance of Machine Time Calculation- Calculation of Machining Time for Different Lathe Operations, Drilling and Boring - Machining Time Calculation for Milling, Shaping and Planning -Machining Time Calculation for Grinding."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the various processes planning and learn to estimate cost.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Learn to estimate various cost elements.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Learn to estimate production cost.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Learn to fix foundry cost.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Learn the find machining time estimation.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Peter scalon, “Process planning, Design/Manufacture Interface”, Elsevier science technologyBooks, Dec 2002."
+    },
+    {
+     "no": 2,
+     "book": "OstwalalP.F. and Munez J., “Manufacturing Processes and systems”, 9th Edition, John Wiley,1998."
+    },
+    {
+     "no": 3,
+     "book": "Russell R.S and Tailor B.W, “Operations Management”, 4th Edition, PHI, 2003."
+    },
+    {
+     "no": 4,
+     "book": "ChitaleA.V. and Gupta R.C., “Product Design and Manufacturing”, 2nd Edition, PHI, 2002."
+    },
+    {
+     "no": 5,
+     "book": "Process planning and cost estimation by M. Adithan."
+    },
+    {
+     "no": 6,
+     "book": "Process planning and cost estimation by B. Vijayaramanath."
+    }
+   ],
+   "quirks": [
+    "Page header prints 'Semester – VII: Departmental Elective – V'; the p.2 elective pool prints the name as 'Process Planning and cost Estimation' (lowercase 'cost').",
+    "Unit labels print without a space after the colon ('UNIT-I:Overview of process planning'); Unit-IV title prints a trailing colon ('Production cost estimation:').",
+    "Unit-I prints 'selection-.Production' with a stray dash before the period; Unit-II prints 'processes-Selection jigs and fixtures election of quality assurance methods' [sic — 'election' as printed].",
+    "Unit-III prints '–methods' and 'charges-' dash spacing as printed; Unit-V prints 'Planning -Machining' with missing space.",
+    "CO-5 prints 'Learn the find machining time estimation.' [sic].",
+    "p.17 heading 'Books and References:' prints a single combined list; all 6 entries recorded under textbooks.",
+    "Book 1 prints 'Peter scalon' (lowercase surname) and 'Elsevier science technologyBooks'; book 2 prints 'OstwalalP.F.' [sic] and 'John Wiley,1998' without a space; book 4 prints 'ChitaleA.V.' (initial differs from the KMT073 textbook print 'Chitale A. K.').",
+    "draft-side unit dicts flattened to verbatim unit text; printed unit headings kept here: unit-1 prints heading 'Overview of process planning'; unit-2 prints heading 'Process planning activities'; unit-3 prints heading 'Introduction to cost estimation'; unit-4 prints heading 'Production cost estimation:'; unit-5 prints heading 'Machining time calculation'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mini Project or Internship Assessment",
+   "name_print": "Mini Project or Internship Assessment*",
+   "codes": [
+    "KMT752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "total": 50
+   },
+   "units": {},
+   "cos": [],
+   "quirks": [
+    "Scheme row 6, Semester-VII (p.2): printed as 'KMT 752 Mini Project or Internship Assessment*' — the asterisk keys to the printed footnote '*The Mini Project or internship (5 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.'",
+    "Marks printed in PS 50 / Total 50 columns; CT/TA/sessional-Total/TE/PE printed blank (verified via printed word coordinates).",
+    "No detailed syllabus, units or COs printed anywhere in the document."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "Project",
+   "codes": [
+    "KMT753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 8
+   },
+   "credit": 4,
+   "marks": {
+    "ps": 150,
+    "total": 150
+   },
+   "units": {},
+   "cos": [],
+   "quirks": [
+    "Scheme row 7, Semester-VII (p.2): printed as 'KMT 753 Project'.",
+    "Marks printed in PS 150 / Total 150 columns; CT/TA/sessional-Total/TE/PE printed blank (verified via printed word coordinates).",
+    "No detailed syllabus, units or COs printed anywhere in the document.",
+    "Sem-VIII prints a separate project row 'KMT 851 Project' with different credit/marks — recorded as its own subject entry, not merged."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "Project",
+   "codes": [
+    "KMT851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 18
+   },
+   "credit": 9,
+   "marks": {
+    "ps": 100,
+    "pe": 300,
+    "total": 400
+   },
+   "units": {},
+   "cos": [],
+   "quirks": [
+    "Scheme row 4, Semester-VIII (p.2): printed as 'KMT 851   Project' (double space after the code).",
+    "Marks printed in PS 100 / PE 300 / Total 400 columns; CT/TA/sessional-Total/TE printed blank (verified via printed word coordinates).",
+    "No detailed syllabus, units or COs printed anywhere in the document."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover",
+   "print": "DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW, UTTAR PRADESH | STUDY & EVALUATION SCHEME WITH SYLLABUS | FOR | B. TECH. 4th YEAR | MANUFACTURING TECHNOLOGY | [Effective from Session: 2021-22]",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_table_semester_vii",
+   "print": "B. Tech Manufacturing Technology | Evaluation Scheme | Effective in Session 2021-22 (Yet to Finalize) | SEMESTER- VII [cols: S. No. | Code | Subject | Periods L T P | Evaluation Scheme CT TA Total | End Semester PS TE PE | Total | Credit] || 1 | (code blank) | HSMC-1/HSMC-2 | 3 0 0 | 30 20 50 | PS blank | TE 100 | PE blank | 150 | 3 || 2 | (code blank) | Departmental Elective-IV | 3 0 0 | 30 20 50 | PS blank | TE 100 | PE blank | 150 | 3 || 3 | (code blank) | Departmental Elective-V | 3 0 0 | 30 20 50 | PS blank | TE 100 | PE blank | 150 | 3 || 4 | (code blank) | Open Elective-II | 3 0 0 | 30 20 50 | PS blank | TE 100 | PE blank | 150 | 3 || 5 | KMT 751 | Mould  Design & Manufacturing Lab | 0 0 2 | CT/TA/Total blank | PS 25 | TE blank | PE 25 | 50 | 1 || 6 | KMT 752 | Mini Project or Internship Assessment* | 0 0 2 | CT/TA/Total blank | PS 50 | TE/PE blank | 50 | 1 || 7 | KMT 753 | Project | 0 0 8 | CT/TA/Total blank | PS 150 | TE/PE blank | 150 | 4 || 8 | (code blank) | MOOCs (Essential for Hons. Degree) | (all marks cells blank) |",
+   "locator": "p.2 (blank cells printed blank; column mapping verified via printed word x-coordinates)"
+  },
+  {
+   "kind": "scheme_table_semester_viii",
+   "print": "SEMESTER- VIII [same cols] || 1 | (code blank) | HSMC-2/HSMC-1 | 3 0 0 | 30 20 50 | PS blank | TE 100 | PE blank | 150 | 3 || 2 | (code blank) | Open Elective-III | 3 0 0 | 30 20 50 | PS blank | TE 100 | PE blank | 150 | 3 || 3 | (code blank) | Open Elective-IV | 3 0 0 | 30 20 50 | PS blank | TE 100 | PE blank | 150 | 3 || 4 | KMT 851 | Project | 0 0 18 | CT/TA/Total blank | PS 100 | TE blank | PE 300 | 400 | 9 || 5 | (code blank) | MOOCs (Essential for Hons. Degree) | (all marks cells blank) |",
+   "locator": "p.2"
+  },
+  {
+   "kind": "footnote",
+   "print": "*The Mini Project or internship (5 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+   "locator": "p.2 (below the Sem-VII table)"
+  },
+  {
+   "kind": "semester_summary",
+   "print": "Total | 12 | 0 | 12 | 850 | 18",
+   "locator": "p.2 Sem-VII total row (L 12, T 0, P 12, Total 850, Credit 18)"
+  },
+  {
+   "kind": "semester_summary",
+   "print": "Total | 9 | 0 | 18 | 27 | 850 | 18",
+   "locator": "p.2 Sem-VIII total row (L 9, T 0, P 18, stray value 27 = total periods, Total 850, Credit 18)"
+  },
+  {
+   "kind": "note",
+   "print": "Student can choose any elective horizontally from the pool of electives",
+   "locator": "p.2 (above the elective pool tables)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Sem VII | Code | Departmental Elective-IV: KME 071 Additive manufacturing; KPI 071 Flexible Manufacturing System; KPI 072 Facility Planning & Design; KMT 071 Advance Casting Process",
+   "locator": "p.2 (pool table; code-to-name pairing verified via printed word x-coordinates)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Sem VII | Code | Departmental Elective-V: KMT 072 Composite Materials; KMT 073 Manufacturing Strategies; KMT 074 Maintenance Engineering & Management; KMT 075 Process Planning and cost Estimation",
+   "locator": "p.2 (pool table; code-to-name pairing verified via printed word x-coordinates)"
+  }
+ ],
+ "quirks": [
+  "Cover (p.1) prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH. 4th YEAR MANUFACTURING TECHNOLOGY [Effective from Session: 2021-22]' — canonical course BTech, branch Manufacturing Technology.",
+  "p.2 evaluation scheme header prints 'Effective in Session 2021-22 (Yet to Finalize)'.",
+  "p.2 scheme marks verified via printed word coordinates: KMT751 PS 25 / PE 25 / Total 50; KMT752 PS 50 / Total 50; KMT753 PS 150 / Total 150; KMT851 PS 100 / PE 300 / Total 400; elective slot rows CT 30 / TA 20 / Total 50 / TE 100 / Total 150 — CT/TA/sessional-Total/TE printed blank in the lab/project rows, PS/PE blank in the elective rows.",
+  "p.2 elective-pool table linearizes codes and names in scrambled reading order; code-to-name pairing resolved from printed word x-coordinates (KME 071 Additive manufacturing; KPI 071 Flexible Manufacturing System; KPI 072 Facility Planning & Design; KMT 071 Advance Casting Process; KMT 072 Composite Materials; KMT 073 Manufacturing Strategies; KMT 074 Maintenance Engineering & Management; KMT 075 Process Planning and cost Estimation).",
+  "p.2 Sem-VIII total row prints an extra value 27 (total periods 9+0+18) between P and the Total column.",
+  "Marks/credit for the 8 detailed Departmental-Elective subjects are taken from the printed Sem-VII Departmental Elective-IV/V slot rows (p.2: CT 30 TA 20 Total 50, TE 100, Total 150, Credit 3); the detailed subject pages print only 'L T P : 3 0 0 / Credits: 3'.",
+  "Only the Sem-VII elective pools are printed; HSMC-1/HSMC-2, Open Elective-II/III/IV and MOOCs rows carry no codes and no detailed syllabi in this document."
+ ],
+ "flags": []
+}

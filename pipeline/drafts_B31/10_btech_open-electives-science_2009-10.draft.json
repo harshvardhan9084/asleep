@@ -1,0 +1,864 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2009-10/btech_open-electives-science_2009-10.pdf",
+ "session": "2009-10",
+ "course": "BTech",
+ "sha16": "db1f836f585af9c4",
+ "stem": "10_btech_open-electives-science_2009-10",
+ "subjects": [
+  {
+   "name": "Introduction to Soft Computing (Neural Networks, Fuzzy Logic and Genetic Algorithm)",
+   "name_print": "INTRODUCTION TO SOFT COMPUTING (Neural Networks, Fuzzy Logic and Genetic Algorithm)",
+   "codes": [
+    "EOE-031",
+    "EOE-041"
+   ],
+   "codes_print": "EOE-031/EOE-041",
+   "subject_type": "open-elective",
+   "elective_pool_print": "SCIENCE BASED OPEN ELECTIVES",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1  0",
+   "lectures_per_unit": 8,
+   "units": {
+    "1": "Neural Networks-1(Introduction & Architecture) Neuron, Nerve structure and synapse, Artificial Neuron and its model, activation functions, Neural network architecture: single layer and multilayer feed forward networks, recurrent networks.Various learning techniques; perception and convergence rule, Auto-associative and hetro-associative memory. 8",
+    "2": "Neural Networks-II (Back propogation networks) Architecture: perceptron model, solution, single layer artificial neural network, multilayer perception model; back propogation learning methods, effect of learning rule co-efficient ;back propagation algorithm, factors affecting backpropagation training, applications. 8",
+    "3": "Fuzzy Logic-I (Introduction) Basic concepts of fuzzy logic, Fuzzy sets and Crisp sets, Fuzzy set theory and operations, Properties of fuzzy sets, Fuzzy and Crisp relations, Fuzzy to Crisp conversion. 8",
+    "4": "Fuzzy Logic –II (Fuzzy Membership, Rules) Membership functions, interference in fuzzy logic, fuzzy if-then rules, Fuzzy implications and Fuzzy algorithms, Fuzzyfications & Defuzzificataions, Fuzzy Controller, Industrial applications. 8",
+    "5": "Genetic Algorithm(GA) Basic concepts, working principle, procedures of GA, flow chart of GA, Genetic representations, (encoding) Initialization and selection, Genetic operators, Mutation, Generational Cycle, applications. 8"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "S. Rajsekaran & G.A. Vijayalakshmi Pai, “Neural Networks,Fuzzy Logic and Genetic Algorithm:Synthesis and Applications” Prentice Hall of India."
+    },
+    {
+     "no": 2,
+     "book": "N.P.Padhy,”Artificial Intelligence and Intelligent Systems” Oxford University Press."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 3,
+     "book": "Siman Haykin,”Neural Netowrks”Prentice Hall of India"
+    },
+    {
+     "no": 4,
+     "book": "Timothy J. Ross, “Fuzzy Logic with Engineering Applications” Wiley India."
+    },
+    {
+     "no": 5,
+     "book": "Kumar Satish, “Neural Networks” Tata Mc Graw Hill"
+    }
+   ],
+   "quirks": [
+    "Unit-I heading prints 'Neural Networks-1' (digit 1) while other units use Roman numerals.",
+    "'networks.Various' missing space after full stop; 'hetro-associative' [sic]; 'propogation' [sic]; Unit-II prints 'multilayer perception model' (perceptron); 'Fuzzyfications & Defuzzificataions' [sic].",
+    "Reference Books numbering continues from Text Books (3-5, no separate 1-2 restart); 'Siman Haykin' [sic]; 'Neural Netowrks' [sic]; missing spaces around quotes in book entries as printed.",
+    "All five units print lecture count 8 as a bare right-aligned number."
+   ],
+   "flags": [],
+   "locator": "pp.3 (printed page (3))"
+  },
+  {
+   "name": "Nano Sciences",
+   "name_print": "NANO SCIENCES",
+   "codes": [
+    "EOE-032",
+    "EOE-042"
+   ],
+   "codes_print": "EOE-032/EOE-042",
+   "subject_type": "open-elective",
+   "elective_pool_print": "SCIENCE BASED OPEN ELECTIVES",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "units": {
+    "1": "Introduction: Difinition of Nano-Science and Nano Technology, Applications of Nano-Technology. 1 Introduction to Physics of Solid State: Structure: Size dependence of properties; crystal structures, face centered cubic nanoparticles; Tetrehedrally bounded semiconductor structures; lattice vibrations. Energy Bands: Insulators, semiconductor and conductors; Reciprocal space; Energy bands and gaps of semiconductors; effective masses; Fermi Surfaces. Localized Particles: Acceptors and deep taps; mobility; Excitons. 6",
+    "2": "Quantum Theory For Nano Science: Time dependent and time independent Schrodinger wave equations. Particle in a box, Potential step: Refelection and tunneling(Quantum leak). Penetration of Barrier, Potential box(Trapped particle in 3D:Nanodot), Electron trapped in 2D plane(Nano sheet), Quantum confinerment effect in nano materials. 4 Quantum Wells, Wires and Dots Preparation of Quantum Nanostructure; Size and Dimensionality effect, Fermigas; Potential wells; Partial confinement; Excitons; Single electron Tunneling, Infrared etectors; Quantum dot laser Superconductivity. 3 Properties of Individual Nano particles Metal Nano clusters: Magic Numbers; Theoretical Modelling of Nanopraticles; geometric structure; electronic structure; Reactivity; Fluctuations Magnetic Clusters; Bulle to Nano structure. Semi conducting Nanoparticles: Optical Properties; Photofragmentation; Coulmbic explosion. Rare Gas & Molecular Clusters: Inert gas clusters; Superfluid clusters molecular clusters.",
+    "3": "Growth Techniques of Nanomaterials: Lithograpahic and Nonlithograpahic techniques, Sputtering and film deposition in glow discharge, DC sputtering technique(p-CuAlO2 deposition). Thermal evaporation technique, E-beam evaporation, Chemical Vapour deposition(CVD), Synthesis of carbon nano-fibres and multi-walled carbon nanotubes, Pulsed Laser Deposition, Molecular beam Epitoxy, Sol-Gel Techniuqe (No chemistry required), Synthesis of nanowires/rods, Electrodeposition, Chemical bath deposition, Ion beam deposition system, Vapor-Liquid –Solid (VLS) method of nanowires. 8",
+    "4": "Methods of Measuring Properties: Structure: Crystallography, particle size determination, surface structure, Microscopy: Scanning Prob Microscopy (SPM), Atomic Force Microscopy (AFM), Field Ion Microscopy, Scanning Electron Microscopy, Transmission Elecrtron Microscopy (TEM) Spectroscopy: Infra red and Raman Spectroscopy, X-ray Spectroscopy, Magnetic resonance, Optical and Vibrational Spectroscopy, Luninscence. 8",
+    "5": "Buckey Ball: Nano structuresof carbon(fullerene): Carbon nano-tubes: Fabrication , structure. electrical, mechanical, and vibrational properties and applications. Nano diamond, Boron Nitride Nano-tubes, single elecron transistors, Moelcular machine, Nano-Biometrics, Nano Robots. 7"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "C.P.Poole Jr F.J. Owens, “Introduction to Nanotechnology”."
+    },
+    {
+     "no": 2,
+     "book": "“Introduction to S.S. Physics” - (7th Edn.) Wiley 1996."
+    },
+    {
+     "no": 3,
+     "book": "S. Sugano & H. Koizuoni, “Microcluster Physics” –Springor 1998"
+    },
+    {
+     "no": 4,
+     "book": "“Handboole of Nanostructured Materials & Nanotechnology” vol.-5. Academic Press 2000"
+    },
+    {
+     "no": 5,
+     "book": "A.K.Bandyopadhyay, “Nano Materials” New Age International."
+    }
+   ],
+   "quirks": [
+    "Books print under a single combined header 'Text/Reference Books:' (no separate Text Books / Reference Books sections); entries 1-5 transcribed under textbooks.",
+    "Unit labels print inconsistently: 'UNIT -1 :', 'UNIT-2', 'UNIT-3', 'UNIT -4', 'UNIT-5'.",
+    "Lecture counts print as bare numbers per topic block: Unit-1 has 1 (Introduction) and 6 (Physics of Solid State); Unit-2 has 4 (Quantum Theory) and 3 (Quantum Wells...); the 'Properties of Individual Nano particles' block prints no count; Unit-3: 8; Unit-4: 8; Unit-5: 7.",
+    "Print typos kept verbatim: 'Difinition', 'Tetrehedrally', 'deep taps' (traps), 'Refelection', 'confinerment', 'Fermigas', 'Infrared etectors', 'Nanopraticles', 'Bulle to Nano structure', 'Coulmbic', 'Lithograpahic/Nonlithograpahic', 'Epitoxy', 'Techniuqe', 'Scanning Prob Microscopy', 'Elecrtron', 'Luninscence', 'Buckey Ball', 'structuresof' (missing space), 'single elecron', 'Moelcular', 'Koizuoni', 'Springor', 'Handboole', 'Fabrication , structure' spacing."
+   ],
+   "flags": [],
+   "locator": "pp.3-5 (printed pages (3)-(5))"
+  },
+  {
+   "name": "Laser Systems and Applications",
+   "name_print": "LASER SYSTEMS AND APPLICATIONS",
+   "codes": [
+    "EOE-033",
+    "EOE-043"
+   ],
+   "codes_print": "EOE-033/EOE-043",
+   "subject_type": "open-elective",
+   "elective_pool_print": "SCIENCE BASED OPEN ELECTIVES",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3  1 0",
+   "units": {
+    "1&2": "Introduction: Review of elementary quantum physics, Schrodinger equation, concept of coherence, absorption, spontaneous emission and stimulated emission processes, relation between Einstein’s A and B coefficients, population inversion, pumping, gain, optical cavities. 15",
+    "3&4": "Lasers & Laser Systems: Main components of Laser, principle of Laser action, introduction to general lasers and their types. Three & four level Lasers, CW & Pulsed Lasers, atomic, ionic, molecular, excimer, liquid and solid state Lasers and systems, short pulse generation and Measurement. 18",
+    "5": "Applications: Laser applications in medicine and surgery, materials processing, optical communication, metrology and LIDAR and holography. 7"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "K.R. Nambiar, “Laser Principles, Types and Application” New Age International."
+    },
+    {
+     "no": 2,
+     "book": "S. A. Ahmad, “Laser concepts and Applications” New Age International."
+    }
+   ],
+   "quirks": [
+    "Unit labels print grouped: 'UNIT-I & II', 'UNIT-III & IV', 'UNIT-V' — transcribed under keys '1&2', '3&4', '5'.",
+    "Lecture counts print as bare numbers: 15 (Unit-I & II), 18 (Unit-III & IV), 7 (Unit-V).",
+    "Books print under a single combined header 'Text/ Reference Books:'."
+   ],
+   "flags": [],
+   "locator": "p.5 (printed page (5))"
+  },
+  {
+   "name": "Space Sciences",
+   "name_print": "SPACE SCIENCES",
+   "codes": [
+    "EOE-034",
+    "EOE-044"
+   ],
+   "codes_print": "EOE-034/EOE-044",
+   "subject_type": "open-elective",
+   "elective_pool_print": "SCIENCE BASED OPEN ELECTIVES",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0 (header prints 'LT P')",
+   "units": {
+    "1": "Introduction: Introduction to space science and applications, historical development",
+    "2": "Solar System: Nebular theory of formation of our Solar System. Solar wind and nuclear reaction as the source of energy. Sun and Planets: Brief description about shape size, period of rotation about axis and period of revolution, distance of planets from sun, Bode’s law, Kepler’s Laws of planetary motion, Newton’s deductions from Kepler’s Laws, Newton’s Law of gravitation, correction of Kepler’s third law, determination of mass of earth, determination of mass of planets with respect to earth. Brief description of Asteroids, Satellites and Comets.",
+    "3": "Stars: Stellar spectra and structure, stellar evolution, nucleo-synthesis and formation of elements. Classification of stars: Harvard classification system, Hertzsprung-Russel diagram, Luminosity of star, variable stars; composite stars (white dwarfs, Neutron stars, black hole, star clusters, supernova and binary stars); Chandrasekhar limit.",
+    "4": "Galaxies: Galaxies and their evolution and origin, active galaxies and quasars.",
+    "5": "Creation of Universe: Early history of the universe, Big-Bang and Hubble expansion model of the universe, cosmic microwave background radiation, dark matter and dark energy."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "K. S. Krishnaswami, “Astrophysics: A modern Perspective” New Age International."
+    },
+    {
+     "no": 2,
+     "book": "K. S. Krishnaswami, “Understanding cosmic Panorama” New Age International."
+    }
+   ],
+   "quirks": [
+    "No 'Unit' labels: topics print as numbered sections '1. Introduction:' through '5. Creation of Universe:' — keyed 1-5.",
+    "L-T-P header prints 'LT P' (no space between L and T).",
+    "No lecture counts printed for any section.",
+    "Books print under a single combined header 'Text Books / Reference Books:'.",
+    "'Hertzsprung-Russel' [sic]."
+   ],
+   "flags": [],
+   "locator": "pp.5-6 (printed pages (5)-(6))"
+  },
+  {
+   "name": "Polymer Science and Technology",
+   "name_print": "POLYMER SCIENCE AND TECHNOLOGY",
+   "name_list_print": "Polymer Science & Technology",
+   "codes": [
+    "EOE-035",
+    "EOE-045"
+   ],
+   "codes_print": "EOE-035/EOE-045",
+   "subject_type": "open-elective",
+   "elective_pool_print": "SCIENCE BASED OPEN ELECTIVES",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "units": {
+    "1&2": "POLYMERS: Introduction, chemistry of polymer synthesis, polymer reaction kinetics, physical properties and characterization of polymers, effect of structure on properties of polymers, organic polymers. Introduction to high performance polymers and composites and their processing. 18",
+    "3&4": "POLYMERIZATION: Introduction, step-growth polymerization, free radical chain growth polymerization, emulsion polymerization, ionic and cationic polymerization, chain statistics and rubber elasticity. 13",
+    "5&6": "PREPARATION AND APPLICATIONS: Preparation, properties and technical applications of thermo-plastics (PVC, PVA), thermostats (PF, UF) and elastomers (SBR, GR-N), silicones. Application of polymers in space, ocean, electronics, medical, agriculture, automobile, sports and building construction. 9"
+   },
+   "cos": [],
+   "quirks": [
+    "Books section header 'Text Books/Reference Books:' prints with NO books listed beneath it — no titles are printed for this subject.",
+    "Third unit label prints 'UNIT – UNIT –V & VI' (duplicated 'UNIT –') — transcribed under key '5&6'.",
+    "Unit labels print grouped: 'UNIT –I & II', 'UNIT –III & IV', 'UNIT – UNIT –V & VI'.",
+    "Lecture counts print as bare numbers: 18 (Units I&II), 13 (Units III&IV), 9 (Units V&VI).",
+    "'thermostats (PF, UF)' [sic — likely thermosets] kept verbatim.",
+    "List page (p.2) prints name 'Polymer Science & Technology' vs detail header 'POLYMER SCIENCE AND TECHNOLOGY'."
+   ],
+   "flags": [],
+   "locator": "p.6 (printed page (6))"
+  },
+  {
+   "name": "Nuclear Science",
+   "name_print": "NUCLEAR SCIENCE",
+   "codes": [
+    "EOE-036",
+    "EOE-046"
+   ],
+   "codes_print": "EOE-036/EOE-046",
+   "subject_type": "open-elective",
+   "elective_pool_print": "SCIENCE BASED OPEN ELECTIVES",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3  1  0",
+   "units": {
+    "1": "Nucleus and Its Basic Features: Nuclear structure; nuclear forces and their properties, nuclear stability, nuclear radius and its meassurement, nuclear spin, nuclear magnetic and electrical moments. 8",
+    "2": "Nuclear Models: Single particle model, liquid drop model and semi-emperical mass formula, nuclear potential and shell model, collective model. 8",
+    "3": "Nuclear Reaction: Nuclear reaction and laws of conservation, types of nuclear reaction, mechanism of nuclear reaction, nuclear fission & binuclear fusion and their explanation by liquid drop model. 8",
+    "4": "Nuclear Decay: Decay constant, half life period and mean life, alpha decay, beta decay, gamma decay, interaction of nuclear radiation with matter. 6 Nuclear Instruments-I Mass spectrograph,: General principle, Aston’s Mass Spectrograph. 2",
+    "5": "Nuclear Instruments-II Accelerators: Van de Graph Generator, Cyclotron, Synchrotron. 6 Detectors: G M Counter, Scintillation counter, cloud chamber, Bubble Chamber, production and detection of neutrons and Gamma-photon. Application of Nuclear Techniques: Nuclear magnetic resonance, positron emission topography, radiotracer techniques and applications in material science and agriculture. 2"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Tayal, “Nuclear Physics” Himalaya Publishing House."
+    },
+    {
+     "no": 2,
+     "book": "S.N. Ghosal, “Nuclear Physics” S. Chand & Co."
+    },
+    {
+     "no": 3,
+     "book": "S. B. Patel, “Nuclear Physics: An Introduction New Age International."
+    },
+    {
+     "no": 4,
+     "book": "H. B. Lal, “Introuctory Nucler Physics” United Book Depot."
+    },
+    {
+     "no": 5,
+     "book": "Wang, “Introductory Nuclear Physics”, PHI Learning"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 6,
+     "book": "Roy & Nigam, “Nuclear Physics” John Wiley & sons."
+    },
+    {
+     "no": 7,
+     "book": "W.E. Burcham, “Nuclear Physics” Longmans Publications."
+    },
+    {
+     "no": 8,
+     "book": "Green, “Nuclear Physics” McGraw Hill."
+    }
+   ],
+   "quirks": [
+    "'meassurement' [sic]; 'semi-emperical' [sic]; 'binuclear fusion' [sic]; 'Van de Graph Generator' [sic]; 'Mass spectrograph,:' [sic].",
+    "'Nuclear Instruments-I' block prints inside Unit-IV after Nuclear Decay (no 'Unit' label of its own); 'Nuclear Instruments-II' block prints as the Unit-V heading.",
+    "Reference Books numbering continues from Text Books (6-8).",
+    "Text Books entry 3 prints an unterminated opening quote: '“Nuclear Physics: An Introduction New Age International.'; entry 4 'Introuctory Nucler Physics' [sic].",
+    "List page (p.2) prints codes as 'EOE-036 /EOE-046' (no space after the slash)."
+   ],
+   "flags": [],
+   "locator": "pp.6-7 (printed pages (6)-(7))"
+  },
+  {
+   "name": "Material Science",
+   "name_print": "MATERIAL SCIENCE",
+   "codes": [
+    "EOE-037",
+    "EOE-047"
+   ],
+   "codes_print": "EOE-037/EOE-047",
+   "subject_type": "open-elective",
+   "elective_pool_print": "SCIENCE BASED OPEN ELECTIVES",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "units": {
+    "1": "Introduction: Historical perspective, importance of materials, Brief review of modern & atomic concepts in Physics and Chemistry. Atomic models, Periodic table, Chemical bonding. 4 Crystallography and imperfections: Concept of unit cell, space lattice, Bravais lattices, common crystal structures, Atomic packing factor and density. Miller indices. X-ray crystallography techniques, imperfections, Defects & Dislocations in solids. . 3",
+    "2": "Mechanical Properties and Testing: Stress strain diagram, Ductile and brittle materials, stress Vs strength, toughness, hardness, fracture, fatigue and creep. Testing, such as Strength testing, Hardness testing, Impact testing, Fatigue testing Creep testing, Non-destructive testing (NDT) Micro Structural Exam: Microscope principle and methods, Preparation of samples and microstructure exam and grain size determination, comparative study of microstructure of various metals and alloys, such as Mild steel, CI, Brass. 2 Phase Diagram and Equilibrium Diagram: Uniary and Binary diagrams, Phase rules, Types of equilibrium diagrams: solid solution type, eutectic type and combination type, Iron-carbon equilibrium diagram. 4",
+    "3": "Ferrous materials: Iron and steel manufacture, furnaces, various types of carbon steels, alloy steels and cast irons, its properties and uses. 3 Heat Treatment: various types of heat treatment, such as Annealing, Normalizing, Quenching, Tempering and Case hardening. Time Temperature Transformation (TTT) diagrams. 2 Non-Ferrous metals and alloys: Non-ferrous metals, such as Cu, Al, Zn, Cr, Ni etc. and its applications. Various types of Brass, Bronze bearing materials their properties and uses. Aluminum alloys, such as Duralumin, Other advanced materials/alloys. 3",
+    "4": "Magnetic properties: Concept of magnetism- Dia, para, ferro magnetic materials, Hysteresis, Soft and hard magnetic materials, Magnetic Storages. 2 Electric Properties: Energy band, concept of conductor, insulator and semi conductor. Intrinsic and extrinsic semi-conductors, P-n junction and transistors, Basic devices and their applications. diffusion of Solid 3 Super conductivity and its applications, Messier effect. Type I & II superconductors. High Temp. superconductors. 2",
+    "5": "Ceramics: Structure, types, properties and applications of ceramics. Mechanical/Electrical behaviour and processing of ceramics. 2 Plastics: Various types of polymers/plastics and their applications. Mechanical behaviour and processing of plastics, Future of plastics. 2 Other Materials: Brief description of other materials, such as optical and thermal materials, concrete, composite materials and their uses. 2 Other Materials: Brief description of other materials, such as optical and thermal materials, concrete, composite materials and their uses. 2 Performance of materials in service: Brief theoretical consideration of fracture, fatigue, and corrosion and its control. 3"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "W.D. Callisister Jr. “Material Science & Engineering Addition” - Wesly Publishing Co."
+    },
+    {
+     "no": 2,
+     "book": "Van Vlash, “Elements of Material Science & Engineering”, John Wiley & Sons"
+    },
+    {
+     "no": 3,
+     "book": "V. Raghvan, “Material Science”, Prentice Hall of India"
+    },
+    {
+     "no": 4,
+     "book": "Narula, “Material Science”, Tata Mc.Graw Hill"
+    },
+    {
+     "no": 5,
+     "book": "Srivastava, Srinivasan, “Science of Materials Engineering” New Age International."
+    }
+   ],
+   "quirks": [
+    "'Phase Diagram and Equilibrium Diagram' block prints after the Unit-II Micro Structural Exam block with no separate unit label (retained inside Unit 2 text).",
+    "Duplicate paragraph: 'Other Materials: Brief description of other materials...' prints TWICE in Unit-V (both occurrences transcribed).",
+    "Stray ' . ' after 'Dislocations in solids' in Unit-I as printed; 'diffusion of Solid' sentence fragment in Unit-IV as printed.",
+    "Print typos kept verbatim: 'Uniary', 'Callisister', 'Wesly', 'Van Vlash', 'Raghvan', 'Messier effect', 'Magnetic Storages', 'Super conductivity', 'concept of magnetism- Dia'.",
+    "Books print under a single combined header 'Text / Reference Books:'."
+   ],
+   "flags": [],
+   "locator": "pp.7-8 (printed pages (7)-(8))"
+  },
+  {
+   "name": "Discrete Mathematics",
+   "name_print": "DISCRETE MATHEMATICS",
+   "codes": [
+    "EOE-038",
+    "EOE-048"
+   ],
+   "codes_print": "EOE-038 / EOE-048",
+   "subject_type": "open-elective",
+   "elective_pool_print": "SCIENCE BASED OPEN ELECTIVES",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "LTP / 31 0",
+   "units": {
+    "1": "Set Theory: Definition of Sets, Venn Diagrams, complements, cartesian products, power sets, counting principle, cardinality and countability (Countable and Uncountable sets), proofs of some general identitites on sets, pigeonhole principle. Relation:Definition, types of relation, composition of relations, domain and range of a relation, pictorial representation of relation, properties of relation, partial ordering relation. Function: Definition and types of function, composition of functions, recursively defined functions. 10",
+    "2": "Propositional logic: Proposition logic, basic logic, logical connectives, truth tables, tautologies, contradiction , normal forms(conjunctive and disjunctive), modus ponens and modus tollens, validity, predicate logic, universal and existential quantification. Notion of proof: proof by implication, converse, inverse, contrapositive, negation, and contradiction, direct proof, proof by using truth table, proof by counter example. 7",
+    "3": "Combinatories:Mathematical induction, recursive mathematical definitions, basics of counting, permutations, combinations, inclusion-exclusion, recurrence relations (nth order recurrence relation with constant coefficients, Homogeneous recurrence relations, Inhomogeneous recurrence relation), generating function (closed form expression, properties of G.F., solution of recurrence relation using G.F, solution of combinatorial problem using G.F.) 7",
+    "4": "Algebraic Structure:Binary composition and its properties definition of algebraic structure; Groyas Semi group, Monoid Groups, Abelian Group, properties of groups, Permutation Groups, Sub Group, Cyclic Group, Rings and Fields (definition and standard results). 6",
+    "5": "Graphs: Graph terminology, types of graph connected graphs, components of graph, Euler graph, Hamiltonian path and circuits, Graph coloring, Chromatic number. Tree: Definition, types of tree(rooted, binary), properties of trees, binary search tree, tree traversing (preorder, inorder, postorder). Finite Automata: Basic concepts of Automation theory, Deterministic finite Automation(DFA), transition function, transition table, Non Deterministic Finite Automata (NDFA), Mealy and Moore Machine, Minimization of finite Automation. 10"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Kenneth H. Rosen, “Discrete Mathematics and its Applications”, Mc.Graw Hill, 2002."
+    },
+    {
+     "no": 2,
+     "book": "J.P.Tremblay & R. Manohar, “Discrete Mathematical Structure with Applications to Computer Science” Mc.Graw Hill, 1975."
+    },
+    {
+     "no": 3,
+     "book": "V. Krishnamurthy, “Combinatories:Theory and Applications”, East-West Press."
+    },
+    {
+     "no": 4,
+     "book": "Seymour Lipschutz, M.Lipson, “Discrete Mathemataics” Tata Mc Graw Hill, 2005."
+    },
+    {
+     "no": 5,
+     "book": "Kolman, Busby Ross, “Discrete Matheamatical Structures”, Prentice Hall International."
+    }
+   ],
+   "quirks": [
+    "L-T-P prints collapsed: header 'LTP' and value line '31 0' (spaces lost in both the PyMuPDF text layer and the rendered-page parse); read as L=3 T=1 P=0, consistent with the 3 1 0 print of all 15 sibling subjects in this document.",
+    "Unit-IV label prints 'Unit-IV' (mixed case) while other units print 'UNIT-I/II/III/V'.",
+    "Print typos kept verbatim: 'Combinatories', 'Groyas Semi group', 'identitites', 'Relation:Definition' (missing space), 'Algebraic Structure:Binary' (missing space), 'Automation' used for 'Automata' throughout Unit-V, 'Mathemataics', 'Matheamatical', 'contradiction ,' spacing.",
+    "Books print under a single combined header 'Text/Reference Books:'.",
+    "List page (p.2) prints codes as 'EOE-038 / EOE-048'."
+   ],
+   "flags": [],
+   "locator": "pp.8-9 (printed pages (8)-(9))"
+  },
+  {
+   "name": "Entrepreneurship Development",
+   "name_print": "ENTREPRENEURSHIP DEVELOPMENT",
+   "codes": [
+    "EOE-071"
+   ],
+   "codes_print": "EOE-071 (list page p.2 prints 'EOE -071' with a space before the dash)",
+   "subject_type": "open-elective",
+   "elective_pool_print": "OPEN ELECTIVES- I",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3  1 0",
+   "units": {
+    "1": "Entrepreneurship- definition. growth of small scale industries in developing countries and their positions vis-a-vis large industries; role of small scale industries in the national economy; characteristics and types of small scale industries; demand based and resources based ancillaries and sub-control types. 5 Government policy for small scale industry; stages in starting a small scale industry. 2",
+    "2": "Project identification- assessment of viability, formulation, evaluation, financing, field-study and collection of information, preparation of project report, demand analysis, material balance and output methods, benefit cost analysis, discounted cash flow, internal rate of return and net present value methods. 8",
+    "3": "Accountancy- Preparation of balance sheets and assessment of economic viability, decision making, expected costs, planning and production control, quality control, marketing, industrial relations, sales and purchases, advertisement, wages and incentive, inventory control, preparation of financial reports, accounts and stores studies. 9",
+    "4": "Project Planning and control: The financial functions, cost of capital approach in project planning and control. Economic evaluation, risk analysis, capital expenditures, policies and practices in public enterprises. profit planning and programming, planning cash flow, capital expenditure and operations. control of financial flows, control and communication. 9",
+    "5": "Laws concerning entrepreneur viz, partnership laws, business ownership, sales and income taxes and workman compensation act. 5 Role of various national and state agencies which render assistance to small scale industries. 2"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Forbat, John, “Entrepreneurship” New Age International."
+    },
+    {
+     "no": 2,
+     "book": "Havinal, Veerbhadrappa, “Management and Entrepreneurship” New Age International"
+    },
+    {
+     "no": 3,
+     "book": "Joseph, L. Massod, \"Essential of Management\", Prentice Hall of India."
+    }
+   ],
+   "quirks": [
+    "Unit labels print 'UNIT -I' .. 'UNIT -V' (space before dash).",
+    "Lecture counts print as bare numbers: Unit-1 has 5 and 2; Unit-5 has 5 and 2; Units 2/3/4 have 8/9/9.",
+    "Books print under a single combined header 'Text / Reference Books:'.",
+    "'Essential of Management' [sic]; 'Massod' [sic]; book 2 lacks a terminal period; book 3 prints a straight double quote before the comma.",
+    "List page (p.2) prints code 'EOE -071' (space after 'EOE')."
+   ],
+   "flags": [],
+   "locator": "pp.9-10 (printed pages (9)-(10))"
+  },
+  {
+   "name": "Quality Management",
+   "name_print": "QUALITY MANAGEMENT",
+   "codes": [
+    "EOE-072"
+   ],
+   "codes_print": "EOE-072",
+   "subject_type": "open-elective",
+   "elective_pool_print": "OPEN ELECTIVES- I",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3  1 0",
+   "units": {
+    "1": "Quality Concepts: Evolution of Quality Control, concept change, TQM Modern concept, Quality concept in design, Review of design, Evolution of proto type. 3 Control on Purchased Product Procurement of various products, evaluation of supplies, capacity verification, Development of sources, procurement procedure. 2 Manufacturing Quality Methods and techniques for manufacture, inspection and control of product, quality in sales and services, guarantee, analysis of claims. 5",
+    "2": "Quality Management Organization structure and design, quality function, decentralization, designing and fitting, organization for different type products and company, economics of quality value and contribution, quality cost, optimizing quality cost, seduction program. 3 Human Factor in quality Attitude of top management, cooperation of groups, operators attitude, responsibility, causes of apparatus error and corrective methods. 2",
+    "3": "Control Charts Theory of control charts, measurement range, construction and analysis of R charts, process capability study, use of control charts. 5 Attributes of Control Chart Defects, construction and analysis of charts, improvement by control chart, variable sample size, construction and analysis of C charts. 5",
+    "4": "Defects diagnosis and prevention defect study, identification and analysis of defects, correcting measure, factors affecting reliability, MTTF, calculation of reliability, building reliability in the product, evaluation of reliability, interpretation of test results, reliability control, maintainability, zero defects, quality circle. 8",
+    "5": "ISO-9000 and its concept of Quality Management ISO 9000 series, Taguchi method, JIT in some details. 7"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Lt. Gen. H. Lal, “Total Quality Management”, Eastern Limited, 1990."
+    },
+    {
+     "no": 2,
+     "book": "Greg Bounds, “Beyond Total Quality Management”, McGraw Hill, 1994."
+    },
+    {
+     "no": 3,
+     "book": "Menon, H.G, “TQM in New Product manufacturing”, McGraw Hill 1992."
+    }
+   ],
+   "quirks": [
+    "Unit labels print inconsistently: 'UNIT-I', 'UNIT-II', 'UNIT-III', 'UNIT -IV', 'UNIT –V'.",
+    "Lecture counts print as bare numbers: 3/2/5 (Unit-I), 3/2 (Unit-II), 5/5 (Unit-III), 8 (Unit-IV), 7 (Unit-V).",
+    "'seduction program' [sic — likely reduction] kept verbatim; 'proto type' [sic].",
+    "Books print under a single combined header 'Text / Reference Books:'."
+   ],
+   "flags": [],
+   "locator": "pp.10-11 (printed pages (10)-(11))"
+  },
+  {
+   "name": "Operations Research",
+   "name_print": "OPERATIONS RESEARACH",
+   "codes": [
+    "EOE-073"
+   ],
+   "codes_print": "EOE-073",
+   "subject_type": "open-elective",
+   "elective_pool_print": "OPEN ELECTIVES- I",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3  1 0 (value line prints with leading spaces)",
+   "units": {
+    "1": "Introduction: Difinition and scope of operations research (OR), OR model, solving the OR model, art of modelling, phases of OR study. Linear Programming: Two variable Linear Programaming model and Graphical method of solution, Simplex method, Dual Simplex method, special cases of Linear Programming, duality, senstivity analysis.",
+    "2": "Transportation Problems: Types of transportation problems, mathemataical models , transportation algorithms, Assignment: Allocation and assignment problems and models, processing of job through machines.",
+    "3": "Network Teachniques: Shortest path model, minimum spanning Tree Problem, Max-Flow problem and Min-cost problem. Project Management: Phases of project management, guidelines for network construction, CPM and PERT.",
+    "4": "Theory of Games : Rectanagular games, Minimax theorem, graphical solution of 2 x n or m x 2 games, game with mixed strategies, reduction to linear programming model. Quality Systems: Elements of Queuing model, generalized poisson queing model, single server models.",
+    "5": "Inventory Control: Models of inventory, operation of inventory system, quantity discount. Replacement: Replacement models: Equipments that deteriorate with time, equipments that fail with time."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Wayne L. Winston,”Operations Research” Thomson Learning,2003."
+    },
+    {
+     "no": 2,
+     "book": "Hamdy H. Taha, “Operations Research-An Introduction” Pearson Education,2003."
+    },
+    {
+     "no": 3,
+     "book": "R. Panneer Seevam, “Operations Research” PHI Learning, 2008."
+    },
+    {
+     "no": 4,
+     "book": "V.K.Khanna, “Total Quality Management” New Age International, 2008."
+    }
+   ],
+   "quirks": [
+    "Subject name prints 'OPERATIONS RESEARACH' [sic — misspelt].",
+    "No lecture counts printed for any unit (only L-T-P 3 1 0).",
+    "Print typos kept verbatim: 'Difinition', 'Linear Programaming', 'senstivity', 'mathemataical models ,', 'Network Teachniques', 'Rectanagular games', 'Theory of Games :'.",
+    "Unit-IV prints a 'Quality Systems:' heading whose content is the Queuing model (printed as-is).",
+    "Books print under a single combined header 'Text / Reference Books:'."
+   ],
+   "flags": [],
+   "locator": "pp.11-12 (printed pages (11)-(12))"
+  },
+  {
+   "name": "Introduction to Biotechnology",
+   "name_print": "INTRODUCTION TO BIOTECHNOLOGY",
+   "codes": [
+    "EOE-074"
+   ],
+   "codes_print": "EOE-074",
+   "subject_type": "open-elective",
+   "elective_pool_print": "OPEN ELECTIVES- I",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3  1 0",
+   "units": {
+    "1": "Introduction: Concept nature and scope of biotechnology. Cell Structure and Function: Eukaryotic and prokaryotic cells, cell wall, membrane organization, cell organelles, Nucleus, Mitrochondria, endoplasmic reticulum, chloroplast, viruses and toxins into cells. Cell Division: Mitosis and Meiosis. 8",
+    "2": "Biomolecules: A brief account of structure of carbohydrates, Lipids and Proteins. Genes: Brief idea about Mendel’s laws and chromosomes, nature of genetic materials, DN A and RNA, DNA replication. 7",
+    "3": "Gene Expression: Central dogma, genetic code, molecular mechanism on mutations, regulations of gene expression, house keeping genes, differentiation and development mutations and their molecular basic. Genetic Engineering: Introduction, cloning (vectors and enzymes), DNA and genomic libraries, Transgenics, DNA fingerprinting, genomics. 9",
+    "4": "Applications of Biotechnology: Bioprocess and fermentation technology, cell culture, Enzyme technology, biological fuel generation, sewage treatment, environmental biotechnology, biotechnology and medicine, biotechnology in agriculture, food and beverage technology, production of biological invention. 9",
+    "5": "Safety and Ethics: Safety, social, moral and ethic considerations, environmental ethics, bioethics and stem cell research, safety of new biotechnology foods, agro biodiversity and donor policies. 7"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Smith, “Biotechnology” Cambridge Press."
+    },
+    {
+     "no": 2,
+     "book": "P.K. Gupta, “Elements of Biotechnology” Rastogi"
+    },
+    {
+     "no": 3,
+     "book": "H. D. Kumar, “Modern concepts of Biotechnology” Vikas publishing House."
+    }
+   ],
+   "quirks": [
+    "Lecture counts print as bare numbers: 8/7/9/9/7 (Units I-V).",
+    "Print typos kept verbatim: 'Concept nature and scope' (missing 'of'), 'Mitrochondria', 'DN A', 'molecular basic'.",
+    "Books print under a single combined header 'Text Books/ Reference Books:'; book 2 lacks a terminal period."
+   ],
+   "flags": [],
+   "locator": "p.12 (printed page (12))"
+  },
+  {
+   "name": "Non Conventional Energy Resources",
+   "name_print": "NON-CONVENTIONAL ENERGY RESOURCES",
+   "name_list_print": "Non Conventional Energy Resources",
+   "codes": [
+    "EOE-081"
+   ],
+   "codes_print": "EOE-081",
+   "subject_type": "open-elective",
+   "elective_pool_print": "OPEN ELECTIVES- II",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "units": {
+    "1": "Introduction Various non-conventional energy resources- Introduction, availability, classification, relative merits and demerits. 3 Solar Cells: Theory of solar cells. solar cell materials, solar cell array, solar cell power plant, limitations. 4",
+    "2": "Solar Thermal Energy: Solar radiation, flat plate collectors and their materials, applications and performance, focussing of collectors and their materials, applications and performance; solar thermal power plants, thermal energy storage for solar heating and cooling, limitations. 9",
+    "3": "Geothermal Energy: Resources of geothermal energy, thermodynamics of geo-thermal energy conversion-electrical conversion, non-electrical conversion, environmental considerations. 4 Magneto-hydrodynamics (MHD): Principle of working of MHD Power plant, performance and limitations. 2 Fuel Cells: Principle of working of various types of fuel cells and their working, performance and limitations. 3",
+    "4": "Thermo-electrical and thermionic Conversions: Principle of working, performance and limitations. 2 Wind Energy: Wind power and its sources, site selection, criterion, momentum theory, classification of rotors, concentrations and augments, wind characteristics. performance and limitations of energy conversion systems. 6",
+    "5": "Bio-mass: Availability of bio-mass and its conversion theory. 2 Ocean Thermal Energy Conversion (OTEC): Availability, theory and working principle, performance and limitations. Wave and Tidal Wave: Principle of working, performance and limitations. Waste Recycling Plants. 3"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Raja etal, “Introduction to Non-Conventional Energy Resources” Scitech Publications."
+    },
+    {
+     "no": 2,
+     "book": "John Twideu and Tony Weir, “Renewal Energy Resources” BSP Publications, 2006."
+    },
+    {
+     "no": 3,
+     "book": "M.V.R. Koteswara Rao, “ Energy Resources: Conventional & Non-Conventional “ BSP Publications,2006."
+    },
+    {
+     "no": 4,
+     "book": "D.S. Chauhan,”Non-conventional Energy Resources” New Age International."
+    },
+    {
+     "no": 5,
+     "book": "C.S. Solanki, “Renewal Energy Technologies: A Practical Guide for Beginners” PHI Learning."
+    },
+    {
+     "no": 6,
+     "book": "Peter Auer, \"Advances in Energy System and Technology\". Vol. 1 & II Edited by Academic Press."
+    }
+   ],
+   "quirks": [
+    "Lecture counts print as bare numbers: 3/4 (Unit-I), 9 (Unit-II), 4/2/3 (Unit-III), 2/6 (Unit-IV), 2 (Bio-mass) and a trailing 3 (aligned with 'Waste Recycling Plants.'); the OTEC and Wave/Tidal blocks print no individual counts.",
+    "Books print under a single combined header 'Text/References Books:'.",
+    "Print typos kept verbatim: 'Raja etal', 'Twideu', 'Renewal Energy' (x2), book 3 prints quote marks as '“ ... “' and 'Publications,2006' spacing, book 6 prints 'Vol. 1 & II Edited by Academic Press'.",
+    "List page (p.2) prints name 'Non Conventional Energy Resources' (no hyphen) vs detail header 'NON-CONVENTIONAL ENERGY RESOURCES'."
+   ],
+   "flags": [],
+   "locator": "pp.13-14 (printed pages (13)-(14))"
+  },
+  {
+   "name": "Nonlinear Dynamic Systems",
+   "name_print": "NON-LINEAR DYNAMIC SYSTEMS",
+   "name_list_print": "Nonlinear Dynamic Systems",
+   "codes": [
+    "EOE-082",
+    "EOE-82"
+   ],
+   "codes_print": "detail header prints 'EOE-82'; list page p.2 prints 'EOE-082'",
+   "subject_type": "open-elective",
+   "elective_pool_print": "OPEN ELECTIVES- II",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1  0",
+   "units": {
+    "1": "Dynamic systems: Concept of dynamic systems, importance of non-linearity, nonlinear dynamics of flows (in 1, 2, and 3 dimensions) and Maps (1 and 2 dimensions) in phase space, Equilibrium, Periodicity. Picard’s theorem, Peano’s theorem, boundedness of solutions, omega limit points of bounded trajectories. 8",
+    "2": "STABILITY-I: Stability via Lyapunov’s indirect method, converse Lyapunov functions, sublevel sets of Lyapunow functions, Lasalle’s invariance principle. 7",
+    "3": "Stability-II Lyapunov’s direct method, converse Lyapunov’s theorems, Brokett’s theorem, applications to control system, stable manifold theorem, centre manifold theorem, normal form theory and applications to nonlinear systems. 8",
+    "4": "Bifurcation: Elementary Bifurcation theory, catastrophe, strange attractor, fractals, fractal geometry and fractal dimension. 8",
+    "5": "Chaos: Deterministic Chaos, routes to chaos (period doubling, quasiperiodicity, intermittency, universality, renormalization); Measurement of Chaos (Poincare section, Lyapunov index, entropy);.control of chaos. 9"
+   },
+   "cos": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "D.K. Arrowsmith and C.M. Place, “An Introduction to Dynamical Systems” Cambridge University press, London, 1990."
+    },
+    {
+     "no": 2,
+     "book": "K.T. Alligood, T.D. Sauer, and J.A Yorke, “CHAOS: An Introduction to Dynamical System” Springer Verlag, 1997."
+    },
+    {
+     "no": 3,
+     "book": "H.K. Khalis, “Nonlinear Systems” Prentice Hall, 1996."
+    },
+    {
+     "no": 4,
+     "book": "R. R. Mohler, “Non linear systems, Vol-I: Dynamics and Control” Prentice Hall, 1991."
+    },
+    {
+     "no": 5,
+     "book": "J.M. T. Thomson and H.B. Stewart, “Nonlinear Dynamics and Chaos” John Wiley & Sons, 1986."
+    },
+    {
+     "no": 6,
+     "book": "Stanislaw H. Zak, “Systems and control” Oxford University Press, 2003."
+    }
+   ],
+   "quirks": [
+    "Detail header prints the code as 'EOE-82' (missing zero); the list page (p.2) prints 'EOE-082'. Both printed forms captured in codes.",
+    "Only a 'Reference Books:' section prints — no Text Books section.",
+    "Lecture counts print as bare numbers: 8/7/8/8/9 (Units I-V).",
+    "Print typos kept verbatim: 'Lyapunow functions', 'Brokett’s', 'Khalis', 'entropy);.control of chaos', 'J.A Yorke', 'University press'.",
+    "List page (p.2) prints name 'Nonlinear Dynamic Systems' vs detail header 'NON-LINEAR DYNAMIC SYSTEMS'."
+   ],
+   "flags": [],
+   "locator": "p.14 (printed page (14))"
+  },
+  {
+   "name": "Product Development",
+   "name_print": "PRODUCT DEVELOPMENT",
+   "codes": [
+    "EOE-083"
+   ],
+   "codes_print": "detail header prints 'EOE- 083' (space after the dash); list page p.2 prints 'EOE-083'",
+   "subject_type": "open-elective",
+   "elective_pool_print": "OPEN ELECTIVES- II",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3  1 0",
+   "units": {
+    "1": "Concept of Product, definition and scope. Design definitions, old and new design methods, design by evolution, examples such as evolution of sewing M/C, bicycle, safety razor etc., need based developments, technology based developments physical relaibility & economic feasibility of design concepts.",
+    "2": "Murphology of design, divergent, transformation and convergent phases of product design, identification of need, Analysis of need. Design criteria; functional, aesthetics, ergonomics, form, shape, size, colour. Mental blocks, Removal blocs, Ideation techniques, Creativity, Check list.",
+    "3": "Transformations, Brainstorming& Synetics, Morephological techniques. Utility Concept, Utility Valaue, Utility Index, Decision making under Multiple Criteria. Economic aspects, Fixed and variable costs, Break-even analysis.",
+    "4": "Reliability considerations, Bath tub curve, Reliability of systems in series and parallel, Failure rate, MTTF and MTBF, Optimum spares from Reliability considerations. Design of display and controls, Man-machine interface, Compatibility of displays and controls. Ergonomic aspects, Anthroprometric data and its importance in design. Application of Computers in Product development & design.",
+    "5": "Existing techniques, such as work-study, SQC etc. for improving method & quality of product. Innovation versus Invention. Technological Forecasting. Use of Standards for Design."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A.K. Chitab& R.C. Gupta “Product design & Manufacturing” – Prentice Hall (EE)"
+    },
+    {
+     "no": 2,
+     "book": "R.P. Crewford, \"The Technology of creation Thinking\" Prentice Hall."
+    },
+    {
+     "no": 3,
+     "book": "C.D. Cain, \"Product Design & Decision\" Bussiness Books."
+    },
+    {
+     "no": 5,
+     "book": "C.D. Cain, \"Engg. Product Design\" Bussiness Books."
+    }
+   ],
+   "quirks": [
+    "Detail header prints the code as 'EOE- 083' (space after the dash).",
+    "Book numbering skips 4: entries print as 1, 2, 3, 5 (no entry 4) — transcribed with printed numbers.",
+    "No lecture counts printed for any unit (only L-T-P 3 1 0).",
+    "Unit labels print inconsistently: 'UNIT-1', 'UNIT –II', 'UNIT –III', 'UNIT-IV', 'UNIT-V'.",
+    "Print typos kept verbatim: 'Murphology', 'relaibility', 'Removal blocs', 'Brainstorming& Synetics', 'Morephological', 'Utility Valaue', 'Anthroprometric', 'Chitab&', 'Crewford', 'Bussiness'.",
+    "Books print under a single combined header 'Text/Reference Books:'."
+   ],
+   "flags": [],
+   "locator": "p.15 (printed page (15))"
+  },
+  {
+   "name": "Automation and Robotics",
+   "name_print": "AUTOMATION AND ROBOTICS",
+   "name_list_print": "Automation & Robotics",
+   "codes": [
+    "EOE-084"
+   ],
+   "codes_print": "EOE-084",
+   "subject_type": "open-elective",
+   "elective_pool_print": "OPEN ELECTIVES- II",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3  1 0",
+   "units": {
+    "1": "Introduction: Definition, Classification of Robots, geometric classification and control classification.",
+    "2": "Robot Elements: Drive system, control system, sensors, end effectors, gripper actuators and gripper design.",
+    "3": "Robot Coordinate Systems and Manipulator Kinematics: Robot co-ordinate system representation, transformation, homogenous transform and its inverse, relating the robot to its world. Manipulators Kinematics, parameters of links and joints, kinematic chains, dynamics of kinematic chains, trajectory planning and control, advanced techniques of kinematics and dynamics of mechanical systems, parallel actuated and closed loop manipulators.",
+    "4": "Robot Control: Fundamental principles, classification, position, path velocity and force control systems, computed torque control, adaptive control, Seroo system for robot control, and introduction to robot vision.",
+    "5": "Robot Programming: Level of robot programming, language based programming, task level programming, robot programming synthesis, robot programming for welding, machine tools, material handing, assembly operations, collision free motion planning.",
+    "6": "Applications: Application of robot in welding, machine tools, material handling, assembly operations parts sorting and parts inspection."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Coifet Chirroza, \"An Introduction to Robot Technology\" Kogan Page."
+    },
+    {
+     "no": 2,
+     "book": "Y. Koren \"Robotics for Engineers\" Mcgraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "K. S. Fu, R.C. Gonzalez Y& CSG Lee, \"Robotics\" McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "J.J. Craig, \"Robotics\" Addison-Wesley."
+    },
+    {
+     "no": 5,
+     "book": "Grover, Mitchell Weiss, Nagel Octrey, \"Industrial Robots\" Mcgraw Hill."
+    },
+    {
+     "no": 6,
+     "book": "Asfahl, \"Robots & Manufacturing Automation\" Wily Eastern."
+    }
+   ],
+   "quirks": [
+    "No 'Unit' labels: topics print as numbered sections '1. Introduction:' through '6. Applications:' — keyed 1-6.",
+    "No lecture counts printed (only L-T-P 3 1 0).",
+    "Books print under a single combined header 'Text/Reference Books:' with straight double quotes as printed.",
+    "Print typos kept verbatim: 'Seroo system', 'material handing', 'Coifet Chirroza', 'Gonzalez Y& CSG Lee', 'Grover, Mitchell Weiss, Nagel Octrey', 'Wily Eastern', 'homogenous'.",
+    "List page (p.2) prints name 'Automation & Robotics' vs detail header 'AUTOMATION AND ROBOTICS'."
+   ],
+   "flags": [],
+   "locator": "pp.15-16 (printed pages (15)-(16))"
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover",
+   "print": "U.P. TECHNICAL UNIVERSITY LUCKNOW Syllabus 1. Science based Open Electives 2. Open Electives-I 3. Open Electives-II [Effective from the session : 2009-10] B.TECH. COURSES",
+   "locator": "p.1 (printed page (1))"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "List of Open Electives for B. Tech. Courses || SCIENCE BASED OPEN ELECTIVE || EOE-031 / EOE-041 Introduction to Soft Computing (Neural Networks, Fuzzy Logic and Genetic Algorithm) || EOE-032 / EOE-042 Nano Sciences || EOE-033 / EOE-043 Laser Systems and Applications || EOE-034 / EOE-044 Space Sciences || EOE-035 / EOE-045 Polymer Science & Technology || EOE-036 /EOE-046 Nuclear Science || EOE-037 / EOE-047 Material Science || EOE-038 / EOE-048 Discrete Mathematics || OPEN ELECTIVE-I || EOE -071 Entrepreneurship Development || EOE-072 Quality Management || EOE-073 Operations Research || EOE-074 Introduction to Biotechnology || OPEN ELECTIVE-II || EOE-081 Non Conventional Energy Resources || EOE-082 Nonlinear Dynamic Systems || EOE-083 Product Development || EOE-084 Automation & Robotics",
+   "locator": "p.2 (printed page (2)); '||' separates printed rows; code-name pairs as printed"
+  }
+ ],
+ "quirks": [
+  "No credit, marks, sessional/ESE columns, COs, K-levels, objectives, eligibility or prerequisites are printed anywhere in this 2009-10 open-electives document; only L-T-P (3 1 0) prints per subject.",
+  "Lecture-hour counts print as bare right-aligned numbers at the end of topic blocks (not labeled 'Lecture'); Discrete Mathematics, Space Sciences, Operations Research, Product Development and Automation & Robotics print no lecture counts at all.",
+  "PDF justification whitespace runs collapsed to single spaces; wrapped lines joined.",
+  "Printed page numbers '(1)'..'(16)' treated as page furniture and ignored.",
+  "Cover prints 'B.TECH. COURSES' (course normalized to canonical 'BTech' per RULES 1b)."
+ ],
+ "flags": []
+}

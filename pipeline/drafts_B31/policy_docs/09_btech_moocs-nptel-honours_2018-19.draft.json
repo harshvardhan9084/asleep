@@ -1,0 +1,49 @@
+{
+  "pdf_rel": "repo_asleep/PDFs/5-course/2018-19/btech_moocs-nptel-honours_2018-19.pdf",
+  "session": "2018-19",
+  "course": "BTech",
+  "sha16": "35a66e93f1617e58",
+  "stem": "09_btech_moocs-nptel-honours_2018-19",
+  "subjects": [],
+  "non_subject_rows": [
+    {
+      "kind": "policy_note_honours_moocs_nptel_english",
+      "print": "Note: After successful completion of 160 credits, a student shall be eligible to get Under Graduate degree in Engineering. A student will be eigible to get Under Graduate degree with Honours only, if he/she completes additional university recommended courses only (Equivalent to 20 credits; NPTEL Courses of 4 Weeks, 8 Weeks and 12 Weeks shall be of 2, 3 and 4 Credits respectively) through MOOCs. For registration to MO0Cs Courses, the students shall follow NPTEL Site http://nptel.ac.in/ as per the NPTEL policy and norms. The students can register for these courses through NPTEL directly as per the course offering in Odd/Even Semesters at NPTEL. These NPTEL courses (recommended by the Univers ity) may be cleared during the B. Tech degree program (not necessary one course in each semester). After successful completion of these Moocs courses the students, shall, provide their successful completion NPTEL status/certificates to the University (COE) through their college of study only. The student shall be awarded Hons. Degree (on successful completion of MOOCS based 20 credit) only if he/she secures 7.50 or above CGPA and passed each subject of that Degree Programme in single attempt without any grace marks.",
+      "locator": "p.1 (top block, English policy note)"
+    },
+    {
+      "kind": "course_list_nptel_moocs_hons_degree_2018-19",
+      "print": "The proposed MOOC courses are common to all B.Tech. Branches as follows:\nNPTEL Course (MOOCs Courses Hons. Degree)\n1. Algorithms for Big Data\n2. C Programming and Assembly Language\n3. Concepts of Thermodynamics\n4. Data Analytics with Python\n5. Data Science for Engineers\n6. Design Analysis and Algorithm\n7. Design of Reinforced Concrete Structures\n8. Developing Soft Skills and Personality\n9. Emotional Intelligence\n10. Enhancing Soft Skills and Personality\n11. Fundamental of Welding Science and Technology\n12. Fundamentals of Conduction And Radiation\n13. Google Cloud Computing Foundation Course\n14. Introduction To Block chain Technology And Applications\n15. Introduction To Industry 4.0 And Industrial Internet Of Things\n16. Introduction To Internet Of Things\n17. Introduction To Robotics\n18. Introduction To Embedded System Design\n19. Manufacturing Process Technology I & I\n20. Matlab Programming For Numerical Computation\n21. Mechanics of Materials\n22. Patent Law for Engineers and Scientist\n23. Speaking Effectively\n24. Structural Analysis 1",
+      "locator": "p.1 (24-item course list, no codes/L-T-P/credits printed)"
+    },
+    {
+      "kind": "policy_note_hindi_garbled_textlayer",
+      "print": "H7 2018-19 AICTE Model Curriculum\nsAT-T*Í fot fg\nMOOC'S (NPTEL) BTHT\nH 2018-19\nfdrafaUTAY À AICTE Model Curriculum T\nfDUT TTTE\n4T\nT-FTY T\nF\naATYrqr4 VHotIotogIO\n(NPTEL)\n20\nTT\n7T otu fruT TAT T| \"3fAuaUT Ta uteitfacs\nTT\nAICTE Mode! Curiculum eH\ndTO za0 TGupHT fazatdeio\nMOOC's ef NPTEL\nHafda di",
+      "locator": "p.2 (Hindi rendering of the same policy note; Devanagari print garbled by OCR/text layer — fragments recorded verbatim, no decode attempted)"
+    },
+    {
+      "kind": "policy_note_honours_moocs_nptel_english_repeat",
+      "print": "(Equivalent to 20 credits; NPTEL Courses of 4 Weeks, 8 Weeks and 12 Weeks shall be of 2, 3 and 4 Credits respectively) through MOOCs. For registration to MOOCs Courses, the students shall follow NPTEL Site http://nptel.ac.in/ as per the NPTEL policy and norms. The students can register for these courses through NPTEL directly as per the course offering in Odd/Even Semesters at NPTEL. These NPTEL courses (recommended by the University) may be cleared during the B. Tech degree program (not necessary one course in each semester). After successful completion of these Moocs courses the students shall, provide their successfiul completion NPTEL status/certificates to the University (COE) through their college of study only. The student shall be awarded Hons. Degree (on successful completion of MOOCS based 20 credit) only if he/she secures 7.50 or above CGPA and passed each subject of that Degree Programme in single attempt without any grace marks.",
+      "locator": "p.2 (English policy note repeat, starts mid-paragraph with opening parenthesis)"
+    },
+    {
+      "kind": "course_list_nptel_moocs_hons_degree_2020-21_updated",
+      "print": "The proposed MOOC courses are common to all B.Tech. Branches as follows for 2020-21\nUpdated NPTEL Course (MOOCS Courses Hons. Degree) 2020-21\n1. Algorithms for Big Data\n2. C Programming and Assembly Language\n3. Concepts of Thermodynamics\n4. Data Analytics with Python\n5. Data Science for Engineers\n6. Design Analysis and Algorithm\n7. Design of Reinforced Concrete Structures\n8. Developing Soft Skills and Personality\n9. Emotional Intelligence\n10.Enhancing Soft Skills and Personality\n11.Fundamental of Welding Science and Technology\n12.Fundamentals of Conduction And Radiation\n13.Google Cloud Computing Foundation Course\n14.Introduction To Block chain Technology And Applications\n15.Introduction To Industry 4.0 And Industrial Intermet Of Things\n16.Introduction To Internet Of Things\n17.Introduction To Robotics\n18.Introduction To Embedded System Design\n19.Manufacturing Process Technology I & II\n20.Matlab Programming For Numerical Computation\n21.Mechanics of Materials\n22.Patent Law for Engineers and Scientist\n23.Speaking Effectively\n24.Structural Analysis",
+      "locator": "p.3 (updated 24-item course list for 2020-21, no codes/L-T-P/credits printed)"
+    }
+  ],
+  "quirks": [
+    "p1: 'eigible' [sic, eligible]; 'MO0Cs' [sic, digit zero]; 'Univers ity' [sic, split word]; 'Moocs'/'MOOCS' inconsistent casing [sic]",
+    "p1 list item 19 prints 'Manufacturing Process Technology I & I' [sic]; p3 update prints 'I & II' — both kept verbatim per page",
+    "p1 list item 24 prints 'Structural Analysis 1' (digit 1) [sic]; p3 prints 'Structural Analysis' without number — both kept verbatim per page",
+    "p2: Devanagari (Hindi) policy text is garbled OCR in the text layer ('sAT-T*Í fot fg', 'fdrafaUTAY', 'aATYrqr4 VHotIotogIO', '3fAuaUT Ta uteitfacs', 'Hafda di', etc.); garbled fragments recorded verbatim in non_subject_rows, no translation attempted (zero-guessing)",
+    "p2: 'successfiul' [sic, successful]; 'MOOC'S'/'MOOC's' inconsistent apostrophe-casing [sic]",
+    "p2: 'AICTE Mode! Curiculum' [sic] inside garbled fragment",
+    "p3: 'Intermet' [sic, Internet]; 'Block chain' [sic, split word]",
+    "p2-p3 running header 'AICTE Model Curriculum Session 2018-19 onwards Honours Degree MOOC'S (NPTEL) Courses' is page furniture and is excluded from rows"
+  ],
+  "flags": [
+    "no-unit-level-subject-syllabi: 3-page document contains ONLY honours-degree MOOCs/NPTEL credit policy notes (p1, p2) and NPTEL course lists (24 courses, p1 for 2018-19 and p3 updated for 2020-21). No printed codes, L-T-P, credits, marks, units, COs, or books for any listed course -> subjects=[] and ALL content captured in non_subject_rows per task method step 6.",
+    "course-list-only-no-codes: the 24 NPTEL course titles carry no printed course codes; nothing to extract as syllabus rows."
+  ]
+}

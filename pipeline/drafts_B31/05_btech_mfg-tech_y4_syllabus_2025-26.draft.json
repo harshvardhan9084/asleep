@@ -1,0 +1,942 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2025-26/btech_mfg-tech_y4_syllabus_2025-26.pdf",
+ "session": "2025-26",
+ "course": "BTech",
+ "sha16": "2e50304ddbcc9f22",
+ "stem": "05_btech_mfg-tech_y4_syllabus_2025-26",
+ "subjects": [
+  {
+   "name": "Measurement & Metrology",
+   "name_print": "Subject Code: BME701 Measurement & Metrology",
+   "codes": [
+    "BME701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P: 3 0 0 (detail page); Sem-VII scheme row 1 prints cells 3 - -",
+   "credit": 3,
+   "credit_print": "Credits: 3",
+   "learning_mode_print": "Offline (p.2 Sem-VII scheme row 1)",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 - - | 20 10 30 | - | 70 | - | 100 | 3 (p.2 Sem-VII scheme row 1; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; PS/PE cells print '-'; word-coordinate verified)",
+   "scheme_name_print": "Measurement & Metrology (scheme row prints 'Measurement &' / 'Metrology' on two lines)",
+   "subject_type": "core",
+   "units": {
+    "1": "Mechanical Measurements: Introduction to measurement and measuring instruments. General concept–Generalized measurement system and its elements-Unit sand standards- measuring instruments: sensitivity, stability, range, accuracy and precision-static and dynamic response- repeatability-systematic, Source of error, statistical analysis of error and random errors- correction, calibration. Dimensional and geometric tolerance Sensors and Transducers: Types of sensors, types of transducers and their characteristics.",
+    "2": "Time Related Measurements: Stroboscope, frequency measurement by direct comparison. Measurement of displacement Measurement of Pressure: Gravitational, directing acting, elastic and indirect type pressure transducers. Measurement of very low pressures (high vacuum). Strain Measurement: Types of strain gauges and their working, strain gauge circuits, temperature compensation. Strain rosettes, calibration.",
+    "3": "Flow Measurement: Hot Wire Anemometry, Laser Doppler Velocimetry, Rotameter. Temperature Measurement: Thermometers, bimetallic thermocouples, thermistors and pyrometers. Measurements of Force & Torque: Different types of load cells, elastic transducers, pneumatic & hydraulic systems. Seismic instruments.",
+    "4": "Metrology and Inspection: Standards of linear measurement, line and end standards. Interchange ability and standardization. Linear and angular measurements devices and systems Comparators: Sigma, Johansson’s Microkrator, Limit gauges classification, Taylor’s Principle of Gauge Design.",
+    "5": "Limits, Fits &Tolerance and Surface roughness: Introduction to Limits, Fits, Tolerances and IS standards, Limit-gauges, and surface-roughness. Measurement of geometric forms like straightness, flatness, roundness. Tool makers microscope, profile projector, autocollimator. Interferometry: principle and use of interferometry, optical flat. Measurement of screw threads and gears. Surface texture: quantitative evaluation of surface roughness and its measurement."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain the basics knowledge of measurements. and also develop competence in sensors, transducers",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand and able to use various devices for measuring, strain, Pressure and time related equipment.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand and able to use various devices for measuring, Flow, Temperature, Force & Torque.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Explain the basics knowledge of metrology & Inspection.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the fundamentals of various methods for the measurements of surface roughness parameters and working of optical measuring instruments.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Experimental Methods for Engineers by Holman, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 2,
+     "book": "Mechanical Measurements by Beckwith, Pearson"
+    },
+    {
+     "no": 3,
+     "book": "Principles of Measurement Systems by Bentley, Pearson"
+    },
+    {
+     "no": 4,
+     "book": "Metrology of Measurements by Bewoor and Kulkarni, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 5,
+     "book": "Measurement Systems, Application Design by Doeblein, MCGRAW HILL INDIA"
+    },
+    {
+     "no": 6,
+     "book": "Hume KJ, “Engineering Metrology”, MacDonald and Co"
+    },
+    {
+     "no": 7,
+     "book": "Jain, RK, “Engineering Metrology” Khanna Publishers"
+    },
+    {
+     "no": 8,
+     "book": "Jain, R.K., “Mechanical Measurement” Khanna Publishers"
+    },
+    {
+     "no": 9,
+     "book": "Gupta SC, Engineering Metrology, Dhanpat Rai Publications"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "locator": "pp.4-5 (detail page); p.2 (Sem-VII scheme row 1)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 pp.4-5",
+   "source_scheme_line": "1 BME701 Measurement & Metrology Offline 3 - - 20 10 30 - 70 - 100 3 (p.2 Sem-VII scheme row 1)",
+   "notes": [
+    "No objectives, eligibility, prerequisites or lectures-per-unit printed for this subject.",
+    "Books print as one combined 'Books and References:' list (9 items) — recorded under textbooks."
+   ],
+   "quirks": [
+    "CO1 prints 'Explain the basics knowledge of measurements. and also develop competence in sensors, transducers' — mid-sentence full stop before 'and' as printed (p.4).",
+    "Unit-I prints 'Unit sand standards' (sic; presumably 'Units and standards') and 'General concept–Generalized' with an en-dash (p.4).",
+    "Unit-II prints 'directing acting' (sic; presumably 'direct acting') (p.4).",
+    "Unit-IV prints 'Interchange ability' (two words as printed) and 'Johansson’s Microkrator' ('Microkrator' as printed) (p.4).",
+    "Unit-V heading prints 'Limits, Fits &Tolerance' (no space after '&') (p.4).",
+    "Unit headers print inconsistently: 'UNIT I'–'UNIT IV' without hyphen, 'UNIT-V' with hyphen (p.4).",
+    "Books heading prints 'Books and References:' — a single combined list; recorded under textbooks (p.5)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additive manufacturing",
+   "name_print": "Departmental Elective – IV Subject Code: BME071 Additive manufacturing",
+   "codes": [
+    "BME071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P: 3 0 0 (detail page); Sem-VII scheme row 2 prints LTP cells '3 - -' under slot code BME070",
+   "credit": 3,
+   "credit_print": "Credits: 3",
+   "learning_mode_print": "Offline (p.2 Sem-VII scheme row 2; row prints 'BME070 Departmental Elective-IV')",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 - - | 20 10 30 | - | 70 | - | 100 | 3 (p.2 Sem-VII scheme row 2, printed under slot code 'BME070 Departmental Elective-IV'; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; PS/PE cells print '-')",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction History and Advantages of Additive Manufacturing, Distinction Between Additive Manufacturing and CNC Machining, Types of Additive Manufacturing Technologies, Nomenclature of AM Machines, Direct and Indirect Processes; Prototyping, Manufacturing and Tooling. Layer Manufacturing Processes: Polymerization, Sintering and Melting, Extrusion, Powder Binder Bonding, Layer Laminate Manufacturing, Other Processes; Aerosol printing and Bio plotter.",
+    "2": "Development of Additive Manufacturing Technology Computer Aided Design Technology, Other Associated Technology, Metal and Hybrid Systems. Generalized Additive Manufacturing Process Chain: The Eight Steps in Additive Manufacturing, Variation from one AM Machine to Another, Metal System, Maintenance of Equipment, Material Handling Issue, Design of AM.",
+    "3": "Additive Manufacturing Processes Vat Photo polymerization: Materials, Reaction Rates, Photo polymerization Process Modelling, Scan Patterns Powder Bed Fusion Processes: Material, Powder Fusion Mechanism, Process Parameters and Modeling, powder Handling Extrusion Based System: Basic principles, plotting and Path Control, Other Systems Material Jetting: Materials, Material Processing Fundamentals, Material Jetting Machines Directed Energy Deposition Processes: General DED Process Description, Material Delivery, DED systems, Process Parameters, Processing-Structure-Properties Relationships",
+    "4": "Design & Software Issues Additive Manufacturing Design and Strategies: Potentials and Resulting Perspectives, AM based New Strategies, Material Design and Quality Aspects for Additive Manufacturing; Material for AM, Engineering Design Rules for AM. Software Issue for Additive Manufacturing: Introduction, Preparation of CAD Models: The STL file, Problem with STL file, STL files Manipulation, Beyond the STL file, Additional Software to Assist AM",
+    "5": "Material Design & Quality Aspects Machines for Additive Manufacturing, Printers, Secondary Rapid Prototyping processes, Intellectual Property, Product Development, Commercialization, Trends and Future Directions in Additive Manufacturing, Business Opportunities Applications Aerospace, Automotive, Manufacturing, Architectural Engineering, Art, Jewellery, Toys, Medical, Biomedical, Dental, Bio-printing, Tissue & Organ Engineering and many others."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understanding the basics of additive manufacturing/rapid prototyping and its advantages and disadvantages",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understanding the role of additive manufacturing in the design process and the implications for design.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understanding the processes used in additive manufacturing for a range of materials and applications",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the various software tools, processes and techniques that enable advanced/additive manufacturing and personal fabrication.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Apply knowledge of additive manufacturing for various real-life applications",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by- Ian Gibson, D Savid W. Rosen, Brent Stucker, Springer."
+    },
+    {
+     "no": 2,
+     "book": "Understanding Additive Manufacturing, by- Andreas Gebhardt, Hanser."
+    },
+    {
+     "no": 3,
+     "book": "Additive Manufacturing, by- Amit Bandyopadhyay, Susmita Bose, CRC Press."
+    },
+    {
+     "no": 4,
+     "book": "Rapid Prototyping: Principles and Applications, by -Chee Kai Chua, Kah Fai Leong, Chu Sing Lim."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "locator": "pp.6-7 (detail page); p.2 (Sem-VII scheme row 2, slot code BME070); p.3 (Departmental Electives table, Specialization-1)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 pp.6-7",
+   "source_scheme_line": "2 BME070 Departmental Elective-IV Offline 3 - - 20 10 30 - 70 - 100 3 (p.2 Sem-VII scheme row 2; slot code BME070 — this subject's own code BME071 is printed on its detail page p.6)",
+   "notes": [
+    "Detail page header prints 'Departmental Elective – IV' above the subject code line.",
+    "The p.3 Departmental Electives table lists BME071 under Specialization-1 'Manufacturing & Automation', Semester VII, Departmental Elective-IV.",
+    "No objectives, eligibility, prerequisites or lectures-per-unit printed for this subject."
+   ],
+   "quirks": [
+    "Title prints 'Additive manufacturing' (lower-case 'm' in 'manufacturing') (p.6).",
+    "CO1 line-breaks mid-phrase: '...rapid prototyping and / its / advantages and disadvantages' (p.6).",
+    "Unit-I prints 'Aerosol printing and Bio plotter' ('Bio plotter' as two words) (p.6).",
+    "Unit-III prints 'Vat Photo polymerization' and 'Photo polymerization Process Modelling' ('Photo polymerization' as two words) and 'powder Handling' (lower-case 'p') (p.6).",
+    "Unit-IV heading prints 'UNIT IV: Design & Software Issues' — the only unit heading carrying a colon-subtitle (p.6).",
+    "Book 1 prints 'D Savid W. Rosen' (sic; presumably 'David') (p.7).",
+    "Book 4 prints 'by -Chee Kai Chua' (hyphen spacing as printed) (p.7).",
+    "Books heading prints 'Books and References:' (single combined list of 4; recorded under textbooks) (p.7)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Power Plant Engineering",
+   "name_print": "Departmental Elective – IV Subject Code: BME072 Power Plant Engineering",
+   "codes": [
+    "BME072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P: 3 0 0 (detail page); Sem-VII scheme row 2 prints LTP cells '3 - -' under slot code BME070",
+   "credit": 3,
+   "credit_print": "Credits: 3",
+   "learning_mode_print": "Offline (p.2 Sem-VII scheme row 2; row prints 'BME070 Departmental Elective-IV')",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 - - | 20 10 30 | - | 70 | - | 100 | 3 (p.2 Sem-VII scheme row 2, printed under slot code 'BME070 Departmental Elective-IV'; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; PS/PE cells print '-')",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to Power Plants Introduction to the sources of energy: conventional and non-conventional; Principal types of power plants; Present status and future trends; Carbon credits. Thermal Power Plant General layout of modern thermal power plant, Review of Rankine and modified Rankine cycles, Power plant boilers including critical and super critical boilers. Fluidized bed boilers, boilers mountings and accessories. Feed water treatment and condenser and cooling towers and cooling ponds, Turbine auxiliary systems such as governing, feed heating, reheating, flange heating and gland leakage. Operation and maintenance of steam power plant, heat balance and efficiency, Site selection of a steam power plant.",
+    "2": "Hydroelectric Power Plant Hydro-electric plant, General arrangement of hydroelectric power plant, Plant layout, Penstock and water hammer, Specific speed and capacity calculations, Classification of hydro-plant, Low-, medium- and high-head plants, Pumped storage plant, Run-off river power plant, Surge tanks. Gas turbine power plant: Layout of gas turbine power plant, Elements of gas turbine power plants, Gas turbine fuels, cogeneration, auxiliary systems such as fuel, controls and lubrication, operation and maintenance, combined cycle power plants, Site selection of gas turbine power plant, Integrated Gas fire based Combined Cycle (IGCC) systems. Controlling of air fuel ratio (AFR) in power plant.",
+    "3": "Nuclear Power Plants Classification of nuclear reactors, Thermal fission reactors and power plant and their location, Pressurized water reactor, Boiling water reactor, CANDU heavy water reactor, Gas-cooled reactor, Fast breeder reactors, Organic substance cooled reactor, Reactor control, Radiation hazards, Radioactive waste disposal, Nuclear power generation in India. Solar Power Plant Solar energy collectors, Photovoltaic power system, Solar central receiver system, Solar thermal energy, types of solar thermal plant, typical layout and components, solar parabolic trough plants, solar tower power plants, and solar dish power plants. Working principle of concentrating solar thermal power plant and their applications.",
+    "4": "Non-Conventional Power Plants Geothermal energy: Hydrothermal systems, Petro thermal systems, Hybrid geothermal fossil systems, Problems associated with geothermal conversion, Wind energy: Components of a wind generator, Horizontal and vertical axis wind mills, Aerodynamic considerations of wind mill design, Coefficient of performance of wind mill rotor, Availability of wind energy in India, Wind power by country. Tidal energy: The simple single pool tidal system, The modulated single pool tidal system, The two-pool tidal system, Ocean thermal energy conversion, Principle of working, Ocean temperature differences, The open or Claude cycle, The closed or Anderson OTEC cycle, Electricity generation from Fuel cells and city garbage.",
+    "5": "Electrical system: Introduction to generator and exciters, Earthing of power systems, Power and unit transformer, Circuit breakers, Protective equipment, Switch gear. Power Plant Economics: Types of loads, Effect of variable load on power plant design and operation, Methods to meet variable load, Prediction of future loads, Terminology used in power supply, Cost of electrical energy, Depreciation, Energy rates (tariffs) for electrical energy, Factors affecting economics of generation and distribution of power Environmental Aspects of Power Station Environmental aspects, Different pollutants due to thermal power plant and their effect on human health, Thermal pollution of water and its control, Effluents from power plants and impact on environment, Radiation from nuclear power plant effluents, Methods of pollution mitigation and control."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the different sources of power generation and their impact on environment.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the elements of power generation using conventional and non-conventional energy sources.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concepts of electrical systems used in power plants.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Apply the basic concepts of thermodynamics to measure the performance of different power plants.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Determine the performance of power plants based on load variations.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Power Plant Engineering, by F.T. Morse, Affiliated East-West Press Pvt. Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Power Plant Engineering by Hedge, Pearson India."
+    },
+    {
+     "no": 3,
+     "book": "Power Plant Technology, by Wakil, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Power Plant Engineering by P.K. Nag, Tata McGraw Hill."
+    },
+    {
+     "no": 5,
+     "book": "Steam & Gas Turbines & Power Plant Engineering by R.Yadav, Central Pub.House."
+    },
+    {
+     "no": 6,
+     "book": "Power Plant Engineering by Gupta, PHI India."
+    },
+    {
+     "no": 7,
+     "book": "El Wakil M.M., Power Plant Technology, Tata McGraw Hill, 2010."
+    },
+    {
+     "no": 8,
+     "book": "Power Plant Engineering. Mahesh Verma, Metropolitan Book Company Pvt. Ltd."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "locator": "pp.8-9 (detail page); p.2 (Sem-VII scheme row 2, slot code BME070)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 pp.8-9",
+   "source_scheme_line": "2 BME070 Departmental Elective-IV Offline 3 - - 20 10 30 - 70 - 100 3 (p.2 Sem-VII scheme row 2; slot code BME070 — this subject's own code BME072 is printed on its detail page p.8)",
+   "notes": [
+    "Detail page header prints 'Departmental Elective – IV' above the subject code line.",
+    "The p.3 Departmental Electives table does NOT list BME072 (lists only BME071, BME073, BPI062) although this subject's full detail page is printed on pp.8-9 — subject drafted from its detail page; omission flagged.",
+    "No objectives, eligibility, prerequisites or lectures-per-unit printed for this subject."
+   ],
+   "quirks": [
+    "Unit-II prints 'Integrated Gas fire based Combined Cycle (IGCC)' (sic; presumably 'Gas-fired') (p.8).",
+    "Unit-IV prints trailing commas before the next sub-headings: 'Problems associated with geothermal conversion,' and 'The closed or Anderson OTEC cycle,' (p.9).",
+    "Unit-V prints 'distribution of power' with no closing punctuation before the 'Environmental Aspects of Power Station' sub-heading (p.9).",
+    "Book 2 prints 'Power Plant Engineering by Hedge, Pearson India.' ('Hedge' as printed) (p.9).",
+    "Book 5 prints 'Steam & Gas Turbines & Power Plant Engineering by R.Yadav, Central Pub.House.' (spacing as printed) (p.9).",
+    "Books heading prints 'Books and References:' (single combined list of 8; recorded under textbooks) (p.9)."
+   ],
+   "flags": [
+    "de_pool_table_p3_omits_bme072_but_detail_page_printed_pp8-9"
+   ]
+  },
+  {
+   "name": "Computer Graphics and Product Modeling",
+   "name_print": "Departmental Elective – IV Subject Code: BME073 Computer Graphics and Product Modeling L T P: 3 0 0",
+   "codes": [
+    "BME073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P: 3 0 0 (detail page; prints on the same line as the title); Sem-VII scheme row 2 prints LTP cells '3 - -' under slot code BME070",
+   "credit": 3,
+   "credit_print": "Credits: 3",
+   "learning_mode_print": "Offline (p.2 Sem-VII scheme row 2; row prints 'BME070 Departmental Elective-IV')",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 - - | 20 10 30 | - | 70 | - | 100 | 3 (p.2 Sem-VII scheme row 2, printed under slot code 'BME070 Departmental Elective-IV'; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; PS/PE cells print '-')",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to computer graphics – historical evolution, issues and challenges, graphics pipeline, hardware and software basics; line and circle drawing algorithms, Object representation – boundary representation, splines- cubic, Bezier, B-spline and NURBS, space partitioning",
+    "2": "Modeling transformations – matrix representation, homogeneous coordinate system, composition, 3D transformations; Illumination and shading – background, simple lighting model, shading models, intensity representation, color models, texture synthesis.",
+    "3": "3D Graphics: Polygon Surfaces-Polygon mesh representations, Quadric and Super quadric surfaces and blobby objects, Solid modeling-Solid entities, Fundamentals of Solid modeling-Set theory, regularized set operations; Half spaces, Boundary representation, Constructive solid geometry, Sweep representation, Color models. Application Commands for3D Solid Modeling Software like Solidworks /Autodesk Inventor/ PTC Creo / Catia (Any one) etc.",
+    "4": "Managing Product Development- Introduction; Business Models for New Products; Managing Product Development; Understanding Customer Needs- Identifying New Product Opportunities, Market Research for New Product Development. Introduction to Product Life Cycle Management and related software",
+    "5": "Organizing Product Development-Product Architecture, Design for manufacturing and Prototyping; Organizing for Product Development; Developing Services and Product Service Systems; New Product Strategy- Building Markets and Creating Demand for New Products; Intellectual Property Issues in Product Development; New Product Business Plans – Strategy Consulting for New Products; Design Thinking for New Products- Designing Products for Emerging Markets; Design Thinking for New Products"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the components of a computer graphics with object representation and to develop algorithm for graphics system components.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the basic principles of 3- dimensional computer graphics and express the 3D model with illumination and shading effects.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Develop a 3D solid model using 3D Solid Modeling Software",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Identify the customer needs in order to develop a business model for new product.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Develop strategy for designing and development of a new product",
+     "kl": "K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Samit Bhattacharya. (2015). Computer Graphics. Oxford University Press."
+    },
+    {
+     "no": 2,
+     "book": "Hearn, D. & Baker, M. P. (2003). Computer Graphics with OpenGL, (3rd ed), Pearson."
+    },
+    {
+     "no": 3,
+     "book": "Drew Boyd & Jacob Goldenberg (2013) Inside the Box: The Creative Method that Works for Everyone"
+    },
+    {
+     "no": 4,
+     "book": "Joseph V. Sinfield, Edward Calder, Bernard McConnell, and Steve Colson (2012) How to Identify New Business Models, MIT Sloan Management Review Vol. 53, No.2."
+    },
+    {
+     "no": 5,
+     "book": "Chun-Che Huang (2000) Overview of Modular Product Development, Proc. National Science Council ROC(A) Vol. 24, No. 3, pp. 149-165"
+    },
+    {
+     "no": 6,
+     "book": "Marc H. Meyer and Arthur DeTore (1999) Product Development for Services, The Academy of Management Executive, Vol. 13, No. 3, Themes: Teams and New Product Development (Aug., 1999), pp. 64-76"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "related_links_print": {
+    "heading": "Related Course’s / Useful Link",
+    "links": [
+     "1. https://swayam.gov.in/nd1_noc20_cs90/preview",
+     "2. https://nptel.ac.in/courses/106/106/106106090",
+     "3. https://nptel.ac.in/courses/112/102/112102101"
+    ]
+   },
+   "locator": "pp.10-11 (detail page); p.2 (Sem-VII scheme row 2, slot code BME070); p.3 (Departmental Electives table, Specialization-2)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 pp.10-11",
+   "source_scheme_line": "2 BME070 Departmental Elective-IV Offline 3 - - 20 10 30 - 70 - 100 3 (p.2 Sem-VII scheme row 2; slot code BME070 — this subject's own code BME073 is printed on its detail page p.10)",
+   "notes": [
+    "Detail page header prints 'Departmental Elective – IV' above the subject code line.",
+    "The p.3 Departmental Electives table lists BME073 under Specialization-2 'Design Engineering', Semester VII, Departmental Elective-IV.",
+    "No objectives, eligibility, prerequisites or lectures-per-unit printed for this subject."
+   ],
+   "quirks": [
+    "Header line prints title and L-T-P on one line: 'Computer Graphics and Product Modeling L T P: 3 0 0' (p.10).",
+    "Unit headings print inconsistently: 'UNIT-I', 'Unit-II', 'Unit-III', 'Unit-IV', 'Unit-V' (case/hyphen vary) (pp.10-11).",
+    "Unit-I prints 'splines- cubic' (spacing as printed) and '3- dimensional' appears in CO2 (p.10).",
+    "Unit-III prints 'Super quadric' (two words) and 'Commands for3D Solid Modeling Software' (missing space 'for3D') (p.10).",
+    "CO3 prints 'Develop a 3D solid model using 3D Solid Modeling Software' with no closing full stop (as printed) (p.10).",
+    "Books heading prints 'Books and References' (no colon), single combined list of 6; recorded under textbooks (p.11).",
+    "Closing section prints 'Related Course’s / Useful Link' (apostrophe-s on 'Course’s' as printed) with 3 URLs — recorded under related_links_print (p.11)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Total Quality Management",
+   "name_print": "Departmental Elective – IV Subject Code: BPI062 Total Quality Management",
+   "codes": [
+    "BPI062"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P: 3 0 0 (detail page); Sem-VII scheme row 2 prints LTP cells '3 - -' under slot code BME070",
+   "credit": 3,
+   "credit_print": "Credits: 3",
+   "learning_mode_print": "Offline (p.2 Sem-VII scheme row 2; row prints 'BME070 Departmental Elective-IV')",
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 - - | 20 10 30 | - | 70 | - | 100 | 3 (p.2 Sem-VII scheme row 2, printed under slot code 'BME070 Departmental Elective-IV'; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; PS/PE cells print '-')",
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Evolution of Quality control, concept change, TQM Modern concept, Quality concept in design. Control on Purchased Product: Procurement of various products, evaluation of supplies, capacity verification, Development of sources, procurement procedure. Manufacturing Quality: Methods and Techniques for manufacture, Inspection and control of product, Quality in sales and services, Guarantee, analysis of claims.",
+    "2": "Quality Management: Organization structure and design, Quality function, decentralization, Designing and fitting organization for different types products and company, Economics of quality value and contribution, Quality cost, optimizing quality cost, seduction programme. TQM Principles: Leadership, strategic quality planning; Quality councils- employee involvement, motivation; Empowerment; Team and Teamwork; Quality circles, recognition and reward, performance appraisal; Continuous process improvement; PDCE cycle, 5S, Kaizen; Supplier partnership, Partnering, Supplier rating & selection.",
+    "3": "Tools and Techniques: Seven QC tools (Histogram, Check sheet, Ishikawa diagram, Pareto, Scatter diagram, Control chart, flow chart). Control Charts: Theory of control charts, measurement range, construction and analysis of R charts, process capability study, use of control charts, P-charts and C-charts.",
+    "4": "Defects Diagnosis and Prevention: Defect study, identification and analysis of defects, corrective measure, factors affecting reliability, MTTF, calculation of reliability, Building reliability in the product, evaluation of reliability, interpretation of test results, reliability control, maintainability, zero defects, quality circle.",
+    "5": "ISO and its concept of Quality Management: Quality systems, need for ISO 9000, ISO 9001-9008; Quality system- elements, documentation, Quality auditing, QS 9000, ISO 14000- concepts, requirements and benefits; TQM implementation in manufacturing and service sectors, Auditing, Taguchi method, JIT in some details."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics of the quality management.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the types of tools and techniques for the quality management.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the various defects, diagnosis and prevention useful for quality management.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the different types of control charts.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Understand the ISO and its concept for quality management.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Besterfield D.H. et al., Total quality Management, 3rd ed., Pearson Education Asia, 2006."
+    },
+    {
+     "no": 2,
+     "book": "Janakiraman B. and Gopal R.K., Total Quality Management, Prentice Hall India, 2006."
+    },
+    {
+     "no": 3,
+     "book": "Suganthi L. and Samuel A., Total Quality Management, Prentice Hall India, 2006."
+    },
+    {
+     "no": 4,
+     "book": "Total Quality Management by Mukherjee, P.N."
+    },
+    {
+     "no": 5,
+     "book": "TQM in New Product manufacturing, H. G. Menon, McGraw Hill."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Beyond Total Quality Management, Greg Bounds, McGraw Hill."
+    },
+    {
+     "no": 2,
+     "book": "Evans J.R. and Lindsay W.M., The management and Control of Quality, 8th ed., first Indian edition, Cengage Learning, 2012."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "locator": "pp.12-13 (detail page); p.2 (Sem-VII scheme row 2, slot code BME070); p.3 (Departmental Electives table, Specialization-3)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 pp.12-13",
+   "source_scheme_line": "2 BME070 Departmental Elective-IV Offline 3 - - 20 10 30 - 70 - 100 3 (p.2 Sem-VII scheme row 2; slot code BME070 — this subject's own code BPI062 is printed on its detail page p.12)",
+   "notes": [
+    "Detail page header prints 'Departmental Elective – IV' above the subject code line.",
+    "The p.3 Departmental Electives table lists BPI062 under Specialization-3 'Industrial Management', Semester VII, Departmental Elective-IV.",
+    "BPI062 is a cross-branch PI code printed in this Manufacturing Technology scheme; drafted as its own subject under course BTech (RULES §1b).",
+    "No objectives, eligibility, prerequisites or lectures-per-unit printed for this subject."
+   ],
+   "quirks": [
+    "Unit-II prints 'seduction programme' (sic; presumably 'reduction programme') and 'PDCE cycle' (sic; presumably 'PDCA cycle') (p.12).",
+    "Unit headings print inconsistently: 'UNIT-I' (hyphen) vs 'UNIT II', 'UNIT III', 'UNIT IV', 'UNIT V' (pp.12-13).",
+    "CO block prints 'Bloom  Taxonomy' with a double space (p.12).",
+    "Books print under two separate headings: 'Text Books:' (5 items → textbooks) and 'Reference Books:' (2 items → reference_books) (p.13)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Measurement & Metrology Lab",
+   "name_print": "Subject Code: BME751 Measurement & Metrology Lab",
+   "codes": [
+    "BME751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "L T P: 0 0 2 (detail page); Sem-VII scheme row 5 prints cells 0 0 2",
+   "credit": 1,
+   "credit_print": "Credits: 1",
+   "learning_mode_print": "Offline (p.2 Sem-VII scheme row 5)",
+   "marks": {
+    "ps": 50,
+    "pe": 50,
+    "total": 100
+   },
+   "marks_print": "0 0 2 | - - - | PS 50 | TE - | PE 50 | Total 100 | Credit 1 (p.2 Sem-VII scheme row 5; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; CT/TA/sessional-Total and TE cells print '-'; word-coordinate verified: '50' x≈426 under PS header x≈425, second '50' x≈487 under PE header x≈486)",
+   "scheme_name_print": "Measurement & Metrology Lab (scheme row prints 'Measurement / & Metrology / Lab' on three lines)",
+   "subject_type": "lab",
+   "units": {},
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic principles of instrumentation for measurement of surface finish, strain, temperature, pressure and flow.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the principle and operation of Coordinate Measuring Machine (CMM).",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply Sine Bar, Slip Gauges, Bevel Protractor, Stroboscope, Dial Indicator etc. for measurement of different attributes.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the basic concepts of limits, fits & tolerances for selective assembly.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Measurement of effective diameter of a screw thread using 3 wire method."
+    },
+    {
+     "no": 2,
+     "exp": "Measurement of angle using sine bar & slip gauges."
+    },
+    {
+     "no": 3,
+     "exp": "Study of limit gauges."
+    },
+    {
+     "no": 4,
+     "exp": "Study & angular measurement using Bevel protector."
+    },
+    {
+     "no": 5,
+     "exp": "Study of different types of Comparators."
+    },
+    {
+     "no": 6,
+     "exp": "Study of important parameters of surface finish."
+    },
+    {
+     "no": 7,
+     "exp": "Study of principle and operation of coordinate-measuring machine (CMM)."
+    },
+    {
+     "no": 8,
+     "exp": "Use of dial indicator and V Block to check the circularity and plot the polar Graph."
+    },
+    {
+     "no": 9,
+     "exp": "Study and understanding of limits, fits & tolerances in assembly of machine components."
+    },
+    {
+     "no": 10,
+     "exp": "Study and understanding of different methods of measurement of pressure."
+    },
+    {
+     "no": 11,
+     "exp": "Study and understanding of different methods of measurement of temperature."
+    },
+    {
+     "no": 12,
+     "exp": "Study and understanding of measurement of strain using strain gauges."
+    },
+    {
+     "no": 13,
+     "exp": "Study and understanding of different methods of measurement of flow."
+    },
+    {
+     "no": 14,
+     "exp": "Study and understanding of different methods of measurement of vibration/power."
+    },
+    {
+     "no": 15,
+     "exp": "Study and understanding of measurement of displacement using LVDT."
+    }
+   ],
+   "experiments_note_print": "List of Experiments — Minimum 08 experiments out of following (or such experiment) are to be performed:",
+   "objectives_print": [],
+   "locator": "p.14 (detail page: COs + experiments list only); p.2 (Sem-VII scheme row 5)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 p.14",
+   "source_scheme_line": "5 BME751 Measurement & Metrology Lab Offline 0 0 2 - - - 50 - 50 100 1 (p.2 Sem-VII scheme row 5)",
+   "notes": [
+    "Detail page prints only COs and the experiments list — no units, no books.",
+    "Experiments list prints 15 numbered items, prefaced 'Minimum 08 experiments out of following (or such experiment) are to be performed:'."
+   ],
+   "quirks": [
+    "CO block heading prints 'Course Outcome :' with a space before the colon (p.14).",
+    "Experiment 4 prints 'Study & angular measurement using Bevel protector.' ('protector' sic; presumably 'Protractor' — CO3 prints 'Bevel Protractor') (p.14).",
+    "Experiment 8 prints 'plot the polar Graph' (capital 'G' as printed) (p.14).",
+    "Experiment 14 prints 'measurement of vibration/power' (as printed) (p.14)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mini Project or Internship Assessment*",
+   "name_print": "BME752 Mini Project or Internship Assessment*",
+   "codes": [
+    "BME752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "ltp_print": "0 0 4 (scheme row cells)",
+   "credit": 2,
+   "credit_print": "2 (scheme row Credit cell)",
+   "marks": {
+    "ps": 100,
+    "total": 100
+   },
+   "marks_print": "0 0 4 | - - - | PS 100 | TE - | PE - | Total 100 | Credit 2 (p.2 Sem-VII scheme row 6; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; CT/TA/sessional-Total, TE and PE cells print '-'; word-coordinate verified: '100' x≈421 under PS header x≈425)",
+   "subject_type": "mini-project-or-internship",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "locator": "p.2 (Sem-VII scheme row 6 only — no detail page in this PDF)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 p.2 (scheme row only)",
+   "source_scheme_line": "6 BME752 Mini Project or Internship Assessment* 0 0 4 - - - 100 - - 100 2 (p.2 Sem-VII scheme row 6)",
+   "notes": [
+    "Scheme row only — detailed syllabus NOT printed in this PDF.",
+    "Learning Mode cell printed blank for this row.",
+    "Footnote on p.2: '*The Mini Project or internship (5-6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.'"
+   ],
+   "quirks": [
+    "Subject name prints with the footnote asterisk attached: 'Mini Project or Internship Assessment*' (p.2).",
+    "PS 100 with TE/PE blank and Total 100 (blank-cell alignment per printed header columns)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project-1",
+   "name_print": "BME753 Project-1",
+   "codes": [
+    "BME753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 10
+   },
+   "ltp_print": "0 0 10 (scheme row cells; '10' x≈312 aligns under the P header x≈319 per word-coordinate check)",
+   "credit": 5,
+   "credit_print": "5 (scheme row Credit cell)",
+   "marks": {
+    "ps": 150,
+    "total": 150
+   },
+   "marks_print": "0 0 10 | - - - | PS 150 | TE - | PE - | Total 150 | Credit 5 (p.2 Sem-VII scheme row 7; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; CT/TA/sessional-Total, TE and PE cells print '-'; word-coordinate verified: '150' x≈421 under PS header x≈425)",
+   "subject_type": "project",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "locator": "p.2 (Sem-VII scheme row 7 only — no detail page in this PDF)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 p.2 (scheme row only)",
+   "source_scheme_line": "7 BME753 Project-1 0 0 10 - - - 150 - - 150 5 (p.2 Sem-VII scheme row 7)",
+   "notes": [
+    "Scheme row only — detailed syllabus NOT printed in this PDF.",
+    "Learning Mode cell printed blank for this row.",
+    "Row prints 'Project-1' with Arabic numeral '1' while the Semester-VIII project row prints Roman 'Project-II'."
+   ],
+   "quirks": [
+    "Name prints 'Project-1' with numeral '1' — kept verbatim (p.2).",
+    "PS 150 with TE/PE blank and Total 150 (blank-cell alignment per printed header columns)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Startup and Entrepreneurial Activity Assessment#",
+   "name_print": "BME754 Startup and Entrepreneurial Activity Assessment#",
+   "codes": [
+    "BME754"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "ltp_print": "0 0 4 (scheme row cells)",
+   "credit": 2,
+   "credit_print": "2 (scheme row Credit cell)",
+   "marks": {
+    "ps": 100,
+    "total": 100
+   },
+   "marks_print": "0 0 4 | - - - | PS 100 | TE - | PE - | Total 100 | Credit 2 (p.2 Sem-VII scheme row 8; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; CT/TA/sessional-Total, TE and PE cells print '-'; word-coordinate verified: '100' x≈424 under PS header x≈425)",
+   "subject_type": "activity-assessment",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "locator": "p.2 (Sem-VII scheme row 8 only — no detail page in this PDF)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 p.2 (scheme row only)",
+   "source_scheme_line": "8 BME754 Startup and Entrepreneurial Activity Assessment# 0 0 4 - - - 100 - - 100 2 (p.2 Sem-VII scheme row 8)",
+   "notes": [
+    "Scheme row only — detailed syllabus NOT printed in this PDF.",
+    "Learning Mode cell printed blank for this row.",
+    "Footnote on p.2: '# The Startup and Entrepreneurial Activity Assessment will be done in 7th semester under which a student will have to undergo a startup/entrepreneurship activity of at least 60 hours till 6th semester.'"
+   ],
+   "quirks": [
+    "Subject name prints with the footnote hash attached: 'Startup and Entrepreneurial Activity Assessment#' (p.2).",
+    "PS 100 with TE/PE blank and Total 100 (blank-cell alignment per printed header columns)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project-II",
+   "name_print": "BME851 Project-II",
+   "codes": [
+    "BME851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 18
+   },
+   "ltp_print": "0 0 18 (scheme row cells)",
+   "credit": 10,
+   "credit_print": "10 (scheme row Credit cell)",
+   "marks": {
+    "ps": 100,
+    "pe": 350,
+    "total": 450
+   },
+   "marks_print": "0 0 18 | CT/TA/sessional-Total printed blank | PS 100 | TE printed blank | PE 350 | Total 450 | Credit 10 (p.3 Sem-VIII scheme row 3; header columns L T P | CT TA Total | PS | TE | PE | Total | Credit; word-coordinate verified: '100' x≈420 under PS header x≈425, '350' x≈484 under PE header x≈482, Total '450' x≈520, Credit '10' x≈565; 100+350=450)",
+   "subject_type": "project",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "locator": "p.3 (Sem-VIII scheme row 3 only — no detail page in this PDF)",
+   "source_syllabus": "05_btech_mfg-tech_y4_syllabus_2025-26.pdf#2e50304ddbcc9f22 p.3 (scheme row only)",
+   "source_scheme_line": "3 BME851 Project-II 0 0 18 100 350 450 10 (p.3 Sem-VIII scheme row 3; CT/TA/sessional-Total and TE cells printed blank)",
+   "notes": [
+    "Scheme row only — detailed syllabus NOT printed in this PDF.",
+    "Learning Mode cell printed blank for this row.",
+    "Cross-checks: Sem-VIII Total row prints L 6 = 3+3 (Open Elective-III/IV), T 0, P 18, End-Sem Total 650 = 100+100+450, Credit 16 = 3+3+10."
+   ],
+   "quirks": [
+    "Scheme row prints only four value tokens after L-T-P: '100', '350', '450', '10' — word coordinates place 100 under PS (x≈420 vs header x≈425) and 350 under PE (x≈484 vs header x≈482); CT, TA, sessional-Total and TE cells are printed blank (sibling 2025-26 schemes print CT 0 TA 0 here) — kept as printed."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_page",
+   "print": "DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW, UTTAR PRADESH — COURSE STRUCTURE/EVALUATION SCHEME FOR B.TECH. 4th YEAR MANUFACTURING TECHNOLOGY [Effective from Session: 2025‐26]",
+   "locator": "p.1 (cover; '2025‐26' prints with a U+2010 hyphen)"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "SEMESTER- VII — header: S. No. | Code | Subject | Learning Mode | LTP (L T P) | Evaluation Scheme (CT TA Total PS TE PE) | Total | Credit; rows: 1 BME701 Measurement & Metrology Offline 3 - - 20 10 30 - 70 - 100 3 | 2 BME070 Departmental Elective-IV Offline 3 - - 20 10 30 - 70 - 100 3 | 4 BOEM** Open Elective-II Offline/MOOCs 3 0 0 20 10 30 - 70 - 100 3 | 5 BME751 Measurement & Metrology Lab Offline 0 0 2 - - - 50 - 50 100 1 | 6 BME752 Mini Project or Internship Assessment* (mode blank) 0 0 4 - - - 100 - - 100 2 | 7 BME753 Project-1 (mode blank) 0 0 10 - - - 150 - - 150 5 | 8 BME754 Startup and Entrepreneurial Activity Assessment# (mode blank) 0 0 4 - - - 100 - - 100 2 | Total 9 0 20 750 19",
+   "locator": "p.2 (Semester-VII table; S.No sequence prints 1,2,4,5,6,7,8 — no row numbered 3)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "2 BME070 Departmental Elective-IV Offline 3 - - 20 10 30 - 70 - 100 3",
+   "locator": "p.2 (Sem-VII scheme row 2; slot code BME070 — pool options have their own detail pages on pp.6-13 and are drafted as their own subjects: BME071, BME072, BME073, BPI062)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "4 BOEM** Open Elective-II Offline/MOOCs 3 0 0 20 10 30 - 70 - 100 3",
+   "locator": "p.2 (Sem-VII scheme row 4; wildcard pool code BOEM** — not drafted as subjects per RULES §2 exact-token rule)"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "*The Mini Project or internship (5-6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+   "locator": "p.2 (footnote below Sem-VII table)"
+  },
+  {
+   "kind": "scheme_footnote",
+   "print": "# The Startup and Entrepreneurial Activity Assessment will be done in 7th semester under which a student will have to undergo a startup/entrepreneurship activity of at least 60 hours till 6th semester.",
+   "locator": "p.2 (footnote below Sem-VII table)"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "SEMESTER- VIII — header: S. No | Code | Subject | Learning Mode | Periods (L T P) | Evaluation Scheme (CT TA Total PS TE PE) | End Semester | Total | Credit; rows: 1 BOEM** Open Elective-III MOOCs 3 0 0 20 10 30 - 70 - 100 3 | 2 BOEM** Open Elective-IV MOOCs 3 0 0 20 10 30 - 70 - 100 3 | 3 BME851 Project-II (mode blank) 0 0 18 (CT/TA/sessional-Total blank) 100 (PS) (TE blank) 350 (PE) 450 10 | Total 6 0 18 24 650 16",
+   "locator": "p.3 (Semester-VIII table; Total row prints '24' at x≈339 under the CT-column area — 6+0+18 periods total)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "1 BOEM** Open Elective-III MOOCs 3 0 0 20 10 30 - 70 - 100 3",
+   "locator": "p.3 (Sem-VIII scheme row 1; wildcard pool code BOEM** — not drafted as subjects per RULES §2 exact-token rule)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "2 BOEM** Open Elective-IV MOOCs 3 0 0 20 10 30 - 70 - 100 3",
+   "locator": "p.3 (Sem-VIII scheme row 2; wildcard pool code BOEM** — not drafted as subjects per RULES §2 exact-token rule)"
+  },
+  {
+   "kind": "scheme_note_moocs",
+   "print": "The Internal Assessment of MOOCs will be done by the respective institute and the external Assessment (End Semester Examination) will be done by the University)",
+   "locator": "p.3 (bottom; trailing ')' as printed)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Departmental Electives — Semester VII | Specialization | Departmental Elective-IV | Specialization-1 Manufacturing & Automation: BME071 Additive Manufacturing | Specialization-2 Design Engineering: BME073 Computer Graphics and Product Modeling | Specialization-3 Industrial Management: BPI062 Total Quality Management",
+   "locator": "p.3 (Departmental Electives table; BME072 Power Plant Engineering — whose full detail page is printed on pp.8-9 — is NOT listed in this table)"
+  }
+ ],
+ "quirks": [
+  "Sem-VII scheme table prints S.No sequence 1,2,4,5,6,7,8 — no row numbered 3 (p.2).",
+  "Scheme row 2 prints slot code 'BME070 Departmental Elective-IV'; the detailed DE-IV pages print codes BME071, BME072, BME073, BPI062 — no page prints BME070 (pp.2, 6-13).",
+  "The p.3 Departmental Electives table lists BME071/BME073/BPI062 but omits BME072 Power Plant Engineering although its full syllabus page is printed on pp.8-9 — kept as printed; BME072 drafted from its detail page.",
+  "Sem-VII Total row prints L 9 (=3+3+3 theory rows), T 0, P 20 (=2+4+10+4), End-Sem Total 750 (=sum of row Totals 70+70+70+50+100+150+100), Credit 19 (=3+3+3+1+2+5+2) — all reconcile.",
+  "Sem-VIII Total row prints L 6, T 0, P 18, then '24' positioned under the CT-column area (x≈339; 6+0+18=24 periods), End-Sem Total 650, Credit 16 (p.3).",
+  "MOOC note (p.3) ends with a stray closing bracket: '...done by the University)'.",
+  "Cover line breaks '2025‐26' with a U+2010 hyphen on p.1 while p.2 prints '2025-26' (ASCII hyphen) — kept as printed.",
+  "Semester-VIII header prints 'Periods' over the L-T-P columns (Sem-VII header prints 'LTP') — kept as printed."
+ ],
+ "flags": [
+  "Scheme-row-only subjects BME752 Mini Project or Internship Assessment*, BME753 Project-1, BME754 Startup and Entrepreneurial Activity Assessment# (p.2) and BME851 Project-II (p.3) drafted with flag scheme_row_only_detailed_syllabus_not_printed — no detail pages for them in this PDF.",
+  "Elective pools recorded as non_subject_rows: Departmental Elective-IV (scheme row 2 prints slot code BME070; each option has its own detail page and is drafted as its own subject: BME071, BME072, BME073, BPI062) and Open Elective-II/III/IV (wildcard pool code BOEM** — not drafted as subjects per RULES §2 exact-token rule).",
+  "p.3 Departmental Electives table omits BME072 Power Plant Engineering (detail page printed pp.8-9) — flagged de_pool_table_p3_omits_bme072_but_detail_page_printed_pp8-9 on the BME072 subject.",
+  "BPI062 Total Quality Management is detailed in this Manufacturing Technology document with a cross-branch PI code (p.12); drafted as its own subject under course BTech (RULES §1b)."
+ ]
+}

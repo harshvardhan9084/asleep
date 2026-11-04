@@ -1,0 +1,1606 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_mfg-tech_y4_syllabus-cbcs_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "ae8c8559100c3cbf",
+ "stem": "02_btech_mfg-tech_y4_syllabus-cbcs_2019-20",
+ "subjects": [
+  {
+   "name": "Computer Integrated Manufacturing",
+   "name_print": "COMPUTER INTEGRATED MANUFACTURING",
+   "codes": [
+    "RMT701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Overview: Brief Introduction to CAD and CAM – Manufacturing Planning, Manufacturing Control. Introduction To CAD/CAM – Concurrent Engineering-CIM Concepts – Computerised Elements of CIM System. Types of Production – Manufacturing Models and Metrics – Mathematical Models of Production Performance – Simple Problems – Manufacturing Control – Simple Problems. Basic Elements of An Automated System – Levels of Automation – Lean Production and Just-In-Time Production.",
+    "2": "Production, planning, control and computerised process planning: Process Planning – Computer Aided Process Planning (CAPP) – Logical Steps in Computer Aided Process Planning. Aggregate Production Planning and The Master Production Schedule – Material Requirement Planning – Capacity Planning- Control Systems-Shop Floor Control-Inventory Control. Brief on Manufacturing Resource Planning-II (MRP-II) & Enterprise Resource Planning (ERP) – Simple Problems.",
+    "3": "Cellular manufacturing: Group Technology (GT), Part Families – Parts Classification and Coding – Simple Problems in Opitz Part Coding System. Production Flow Analysis – Cellular Manufacturing – Composite Part Concept – Machine Cell Design and Layout – Quantitative Analysis in Cellular Manufacturing. Rank Order Clustering Method – Arranging Machines in A GT Cell – Hollier Method – Simple Problems.",
+    "4": "Flexible manufacturing system (FMS) and Automated guided vehicle system (AGVS): Types of Flexibility – FMS – FMS Components – FMS Application & Benefits – FMS Planning and Control– Quantitative Analysis in FMS – Simple Problems. Automated Guided Vehicle System (AGVS) – AGVS Application – Vehicle Guidance Technology – Vehicle Management & Safety.",
+    "5": "Industrial robotics: Robot Anatomy and Related Attributes – Classification of Robots- Robot Control Systems – End Effectors – Sensors in Robotics. Robot Accuracy and Repeatability – Industrial Robot Applications – Robot Part Programming – Robot Accuracy and Repeatability – Simple Problems."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Mikell.P.Groover “Automation, Production Systems And Computer Integrated Manufacturing”, Prentice Hall Of India, 2008."
+    },
+    {
+     "no": 2,
+     "book": "Radhakrishnan P, SubramanyanS.And Raju V., “CAD/CAM/CIM”, 2nd Edition, New Age International (P) Ltd, New Delhi, 2000."
+    },
+    {
+     "no": 3,
+     "book": "Kant Vajpayee S, “Principles Of Computer Integrated Manufacturing”, Prentice Hall India, 2003."
+    },
+    {
+     "no": 4,
+     "book": "Gideon Halevi And Roland Weill, “Principles Of Process Planning – A Logical Approach” Chapman & Hall, London, 1995."
+    },
+    {
+     "no": 5,
+     "book": "Rao. P, N Tewari &T.K. Kundra, “Computer Aided Manufacturing”, Tata McGraw Hill Publishing Company, 2000"
+    }
+   ],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Book list printed under combined heading 'Books and References:' (pp.4-5); recorded in textbooks.",
+    "Unit V prints the phrase 'Robot Accuracy and Repeatability' twice (as printed).",
+    "Marks/credit from its own Sem-VII scheme row (p.2): 70/20/10/100, credit 4."
+   ],
+   "flags": [],
+   "reference_books": []
+  },
+  {
+   "name": "Automation & Robotics",
+   "name_print": "AUTOMATION & ROBOTICS",
+   "codes": [
+    "RPI701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Automation: Definition, Advantages, goals, types, need, laws and principles of Automation. Elements of Automation. Fluid power and its elements, application of fluid power, Pneumatics vs. Hydraulics, benefit and limitations of pneumatics and hydraulics systems, Role of Robotics in Industrial Automation.",
+    "2": "Manufacturing Automation: Classification and type of automatic transfer machines; Automation in part handling and feeding, Analysis of automated flow lines, design of single model, multi model and mixed model production lines.  Programmable Manufacturing Automation CNC machine tools, Machining centres, Programmable robots, Robot time estimation in manufacturing operations.",
+    "3": "Robotics: Definition, Classification of Robots - Geometric classification and Control classification, Laws of Robotics, Robot Components, Coordinate Systems, Power Source.  Robot anatomy, configuration of robots, joint notation schemes, work volume, manipulator kinematics, position representation, forward and reverse transformations, homogeneous transformations in robot kinematics, D-H notations, kinematics equations, introduction to robot arm dynamics.",
+    "4": "Robot Drives and Power Transmission Systems: Robot drive mechanisms: Hydraulic / Electric / Pneumatics, servo & stepper motor drives. Mechanical transmission method: Gear transmission, Belt drives, Rollers, chains, Links, Linear to Rotary motion conversion, Rotary-to-Linear motion conversion, Rack and Pinion drives, Lead screws, Ball Bearings. Robot end Effectors: Classification of End effectors – active and passive grippers, Tools as end effectors, Drive system for grippers. Mechanical, vacuum and magnetic grippers. Gripper force analysis and gripper design.",
+    "5": "Robot Simulation: Methods of robot programming, Simulation concept, Off-line programming, advantages of offline programming. Robot Applications: Robot applications in manufacturing-Material transfer and machine loading/unloading, Processing operations like Welding & painting, Assembly operations, Inspection automation. Limitation of usage of robots in processing operation. Robot cell design and control, Robot cell layouts-Multiple robots & Machine interference."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "An Introduction to Robot Technology, by CoifetChirroza, Kogan Page."
+    },
+    {
+     "no": 2,
+     "book": "Robotics for Engineers, by Y. Koren, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Robotic: Control, Sensing, Vision and Intelligence, by Fu, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Introduction to Industrial Robotics, by Nagrajan, Pearson India."
+    },
+    {
+     "no": 5,
+     "book": "Robotics, by J.J. Craig, Addison-Wesley."
+    },
+    {
+     "no": 6,
+     "book": "Industrial Robots, by Groover, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Robotic Engineering - An Integrated Approach : Richard D. Klafter Thomas A."
+    },
+    {
+     "no": 8,
+     "book": "Robots & Manufacturing Automation, by Asfahl, Wiley."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Book list printed under combined heading 'Books and References:' (pp.6-7); recorded in textbooks.",
+    "Unit labels printed inconsistently: 'UNIT- I:', 'UNIT- II:', 'UNIT- III:', 'UNIT -IV:', 'UNIT- V:' (as printed).",
+    "Book 7 printed without publisher, ends '...Richard D. Klafter Thomas A.' (as printed).",
+    "Marks/credit from its own Sem-VII scheme row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Aided Design Lab",
+   "name_print": "COMPUTER AIDED DESIGN LAB",
+   "codes": [
+    "RMT751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ese_te_pe": 50,
+    "sessional_ta": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design & drawing of Cotter joint."
+    },
+    {
+     "no": 2,
+     "exp": "Design & drawing of Knuckle joint."
+    },
+    {
+     "no": 3,
+     "exp": "Design of machine components subjected to combined steady and variable loads."
+    },
+    {
+     "no": 4,
+     "exp": "Understanding and use of any 3-D Modelling Software commands."
+    },
+    {
+     "no": 5,
+     "exp": "Pro/E/Idea, Solid works etc. Experiment: Solid modelling of a machine component."
+    },
+    {
+     "no": 6,
+     "exp": "3-D modelling of carburettor."
+    },
+    {
+     "no": 7,
+     "exp": "3-D modelling of Spur Gear."
+    },
+    {
+     "no": 8,
+     "exp": "3-D modelling and assembly of Bench Vies."
+    },
+    {
+     "no": 9,
+     "exp": "3D modelling and assembly of safety valve use in boilers."
+    },
+    {
+     "no": 10,
+     "exp": "Design and drawing of helical spring."
+    },
+    {
+     "no": 11,
+     "exp": "Design and drawing of screw jack."
+    }
+   ],
+   "prerequisites": "",
+   "quirks": [
+    "Printed preamble: 'List of Experiments: (At least 8 of the following)' followed by 'Students are advised to use design data book for the design. Drawing shall be made wherever necessary on small drawing sheets.'",
+    "'Bench Vies' printed (p.8) — printed typo kept verbatim.",
+    "No unit texts, COs or books printed for this lab.",
+    "Marks from its own Sem-VII scheme row (p.2): ESE 50, CT (blank), TA 50, total 100, credit 1."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Automation & Robotics Lab",
+   "name_print": "AUTOMATION & ROBOTICS LAB",
+   "codes": [
+    "RPI751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ese_te_pe": 50,
+    "sessional_ta": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": null,
+     "exp": "UNIT-I: Artificial Muscles: After a general overview of artificial muscle technologies used in robotics, thestudents fabricate dielectric elastomer actuators (DEAs) by hand and test the mechanical and electrical properties of their devices, comparing their results with theoretical predictions."
+    },
+    {
+     "no": null,
+     "exp": "UNIT-II: Outdoor Flying Robots: This is a practical exercise on the design of a combined altitude and speed controller for a miniature autonomous airplane. / Mobile robot position estimation and navigation: The goal of this practical is to implement position estimation and navigation on a real mobile robot."
+    },
+    {
+     "no": null,
+     "exp": "UNIT-III: Teaching Robots to Accomplish a Manipulation Task: In this robotic practical, the student will be teaching a robot to build a tower by stacking several objects on top of each other. / Industrial Robot Control: The goal is to control a robot specifically designed for tasks such as assembly, manipulation or packaging where there is need of fast and precise actions."
+    },
+    {
+     "no": null,
+     "exp": "UNIT-IV: Haptics: After a brief overview of the state of the art of haptic devices, the students need to generate useful sensations in respect to a give problem, study the type of sensations that can be produced, as well as how they can be programmed. / Assembly, programming and characterization of a modular fish robot: This practical is aimed at realizing a swimming fish robot using the same modules used for the Salamandra robotica II and AmphiBot III robots."
+    }
+   ],
+   "prerequisites": "",
+   "quirks": [
+    "Experiment list printed under 'List of Experiments:The practical can include the following topics:' (missing space after colon, as printed).",
+    "Experiment list structured under headings UNIT-I..UNIT-IV (unusual for a lab); recorded verbatim in experiments.",
+    "Printed typos kept: 'thestudents', 'in respect to a give problem'.",
+    "No unit texts, COs or books printed beyond the experiment list.",
+    "Marks from its own Sem-VII scheme row (p.2): ESE 50, CT (blank), TA 50, total 100, credit 1."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Composite Materials",
+   "name_print": "COMPOSITE MATERIALS",
+   "codes": [
+    "RME070"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview of Composite material: Classifications of Engineering Materials, Concept of composite materials. Matrix materials, Functions of a Matrix, Desired Properties of a Matrix, Polymer Matrix (Thermosets and Thermoplastics), Metal matrix, Ceramic matrix, Carbon Matrix, Glass Matrix etc.",
+    "2": "Types of Reinforcements/Fibers:  Role and Selection of reinforcement materials. Types of fibres: Glass fibers, Carbon fibers, Aramid fibers, Metal fibers, Alumina fibers, Boron Fibers, Silicon carbide fibers, Quartz and Silica fibers, Multiphase fibers, Whiskers, Flakes etc.  Mechanical properties of fibres: Material properties that can be improved by forming a composite material and its engineering potential.",
+    "3": "Various types of composites: Classification based on Matrix Material: Organic Matrix composites, Polymer matrix composites (PMC), Carbon matrix Composites or Carbon-Carbon Composites, Metal matrix composites (MMC), Ceramic matrix composites (CMC). Classification based on reinforcements: Fiber Reinforced Composites, Fiber Reinforced Polymer (FRP) Composites, Laminar Composites, Particulate Composites.",
+    "4": "Fabrication methods:  Processing of Composite Materials: Overall considerations, Autoclave curing, Other Manufacturing Processes like filament welding, compression moulding, resin transplant method, pultrusion, pre-peg layer, Fiber-only performs, Combined Fiber-Matrix performs. Manufacturing Techniques: Tooling and Specialty materials, Release agents, Peel plies, release films and fabrics, Bleeder and breather plies, bagging films, maximum stress and strain criteria, Von Mises Yield criterion for isotropic materials.",
+    "5": "Testing of Composites and Analysis: Mechanical testing of composites, tensile testing, Compressive testing, Intra-laminar shear testing, Inter-laminar shear testing, Fracture testing etc.  Analysis of laminated plates: equilibrium equations of motion, energy formulation, static bending analysis, buckling analysis, free vibrations, natural frequencies."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Materials characterization, Vol. 10, ASM hand book."
+    },
+    {
+     "no": 2,
+     "book": "Mechanical Metallurgy, by G. Dieter, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Analysis and Performance of Fiber Composites, by Agarwal, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Thermal Analysis of Materials, by R.F. Speyer, Marcel Decker."
+    },
+    {
+     "no": 5,
+     "book": "Engineering Mechanics and Composite Materials, by Daniels, Oxford University Press."
+    },
+    {
+     "no": 6,
+     "book": "Material Science and Engineering (SIE) with CD, by Smith, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Gibson R.F. Principles of Composite Material Mechanics, second edition, McGraw Hill, 1994."
+    },
+    {
+     "no": 8,
+     "book": "Engineering Materials: Polymers, Ceramics and Composites, by A.K Bhargava Prentice Hall India."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-III' (p.10); code RME070 from the DE-3 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (pp.10-11); recorded in textbooks.",
+    "Printed typos kept: 'resin transplant method' (likely transfer), 'Fiber-only performs / Combined Fiber-Matrix performs' (likely preforms).",
+    "Marks/credit from the printed Sem-VII DE-3 slot row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Material Technology",
+   "name_print": "ADVANCED MATERIAL TECHNOLOGY",
+   "codes": [
+    "RPI070"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview: Intelligent / Smart materials – Functional materials – Polyfunctional materials – Structural materials, Electrical materials, bio-compatible materials. – Intelligent biological materials – Biomimetics – Wolff’s Law – Biocompatibility. Material response: swelling and leaching, corrosion and dissolution, deformation and failure, friction and wear – host response: the inflammatory process – coagulation and hemolysis – in vitro and in vivo evaluation of biomaterials.",
+    "2": "Electro-Rheological & piezoelectric materials: The principal ingredients of smart materials –microsensors- hybrid smart materials - an algorithm for synthesizing smart materials – active, passive reactive actuator based smart structures- suspensions and electro-rheological fluids. Bingham body model – principal characteristics of electro-rheological fluids – charge migration mechanism for the dispersed phase – electro- rheological fluid domain – fluid actuators- design parameter – application of Electo-rheological fluids. Basics, Principles and instrumentation and application of Magnetorheological fluids – Piezoelectric materials: polymers and ceramics, mechanism, properties and application. Introduction to electro-restrictive and magneto-restrictive materials.",
+    "3": "Shape memory materials: Nickel – Titanium alloy (Nitinol) – Materials characteristics of Nitinol – martensitic transformations – austenitic transformations – thermoelastic martensitic transformations. Classification of SMA alloys- mechanism of magnetic SMA – applications of SMA – continuum applications of SMA fasteners – SMA fibers – reaction vessels, nuclear reactors, chemical plant, etc. – micro robot actuated by SMA. SMA memorization process (Satellite Antenna Applications) SMA blood clot filter – Impediments to applications of SMA – Shape memory polymers– mechanism of shape memory-Primary moulding – secondary moulding– types and applications.",
+    "4": "Orthopaedic and dental materials: Bone and teeth composition, formation and properties – bioresorbable, bioinert, bioactive materials - temporary fixation devices – joint replacement. Biomaterials used in bone and joint replacement metals and alloys- Fillings and restoration materials – Materials for oral and maxillofacial surgery – dental cements and dental amalgams – dental adhesives- bone tissue engineering.",
+    "5": "Applications of materials: Blood clotting – blood theology– approaches to thrombo resistance materials development– blood vessels – The heart – aorta and valves – geometry of blood circulation – cardiac pacemakers – blood substitutes – extracorporeal blood circulation devices. The lungs – vascular implants: vascular graft, cardiac valve prostheses, card– Biomaterials in ophthalmology –skin grafts -connective tissue grafts – tissue adhesives – drug delivery methods and materials."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Sujata V., Bhat., “Biomaterials”, Narosa Publication House, New Delhi, 2002."
+    },
+    {
+     "no": 2,
+     "book": "M. V. Gandhi and B. S. Thompson, “Smart Materials and Structures”, Chapman and Hall, London, First Edition, 1992."
+    },
+    {
+     "no": 3,
+     "book": "Duerig,T. W., Melton, K. N, Stockel, D. and Wayman, C.M., “Engineering aspects of Shapememory Alloys”, Butterworth – Heinemann, 1990."
+    },
+    {
+     "no": 4,
+     "book": "Rogers, C. A., Smart Materials, “Structures and Mathematical issues”, Technomic Publishing Co., U.S.A, 1989."
+    },
+    {
+     "no": 5,
+     "book": "Mohsen Shahinpoor and Hans-Jo¨rg Schneider “Intelligent Materials”, RSC Publishing,2008."
+    },
+    {
+     "no": 6,
+     "book": "Mel Schwartz (Ed), Encyclopaedia of Smart Materials” Volume –I and II, John Wiley & Sons, Inc.2002."
+    },
+    {
+     "no": 7,
+     "book": "Buddy D. Ratner (Editor), Allan S. Hoffman (Editor), Frederick J. Schoen (Editor), Jack E. Lemons, “Biomaterials Science: An Introduction to Materials in Medicine”, Academic Press,2nd edition, 2004."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Syllabus page title prints 'ADVANCED MATERIAL TECHNOLOGY' (p.12); the DE-3 pool list on p.2 prints 'Advance Material Technology' (as printed).",
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-III'; code RPI070 from the DE-3 pool list on p.2.",
+    "Printed typos/quirks kept: 'blood theology' (likely rheology), 'Electo-rheological', 'electro- rheological fluid domain' (hyphen+space as printed), truncated fragment 'card–' in Unit V, 'Hans-Jo¨rg' diaeresis artifact, book 6 prints closing quote without opening quote.",
+    "Book list printed under combined heading 'Books and References:' (pp.12-13); recorded in textbooks.",
+    "Marks/credit from the printed Sem-VII DE-3 slot row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Project Management",
+   "name_print": "PROJECT MANAGEMENT",
+   "codes": [
+    "RAU072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Project Management Concepts: Introduction, project characteristics, taxonomy of projects, project identification and formulation. Establishing the project and goals.  Nature & context of project management; phases of PM, A framework for PM issues, PM as a conversion process, project environment & complexity.  Organizing human resources, organizing systems & procedures for implementation. Project direction.",
+    "2": "Project Organization & Project Contracts: Introduction, functional organization, project organization, matrix organization, modified matrix organization. Pure project organization, selection of project organization structure, project breakdown structures, project contracts, types of contracts, types of payments to contractors.",
+    "3": "Project Appraisal & Cost Estimation: Introduction, technical appraisal, commercial appraisal, economic appraisal, financial appraisal, management appraisal, social cost/benefit analysis, project risk analysis.  Cost analysis of the project, components of capital cost of a project, modern approach to project performance analysis.",
+    "4": "Project Planning & Scheduling: Introduction to PERT & CPM, planning and scheduling networks, time estimation, determination of critical path, CPM model, event slacks & floats, PERT model. Expected time for activities, expected length of critical path, calculating the project length and variance, PERT & CPM cost accounting systems, lowest cost schedule, crashing of networks, linear programming formulation of event-oriented networks, updating of networks, LOB technique.",
+    "5": "Modification & Extensions of Network Models: Complexity of project scheduling with limited resources, resource levelling of project schedules, resource allocation in project scheduling - heuristic solution. Precedence networking- examples with algorithm, decision networks, probabilistic networks, computer aided project management essential requirements of PM software, software packages for CPM. Enterprise- wide PM, using spread sheets for financial projections."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Project Management by Harvey Maylor, Pearson India."
+    },
+    {
+     "no": 2,
+     "book": "Project Management by Choudhury, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Project Management by K. Nagarajan."
+    },
+    {
+     "no": 4,
+     "book": "Project Management: A Systems Approach to Planning, Scheduling and Controlling, by Kerzner, Willey."
+    },
+    {
+     "no": 5,
+     "book": "Project Management: A Life Cycle Approach by Kanda, PHI, India."
+    },
+    {
+     "no": 6,
+     "book": "Stoner JAF, Freeman RE and Gilbert DR, Management, 6th ed., Pearson Education, 2004."
+    },
+    {
+     "no": 7,
+     "book": "Tripathy PC & Reddy PN, Principles of Management, Tata McGraw Hill, 1999."
+    },
+    {
+     "no": 8,
+     "book": "Project Management and Appraisal, by Khatua, Oxford University Press."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-III' (p.10); code RAU072 from the DE-3 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (p.14); recorded in textbooks.",
+    "Printed spelling 'Willey' (book 4) kept verbatim.",
+    "Marks/credit from the printed Sem-VII DE-3 slot row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additive Manufacturing",
+   "name_print": "ADDITIVE MANUFACTURING",
+   "codes": [
+    "RME073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview of AM: History and Advantages of Additive Manufacturing, Distinction Between Additive Manufacturing and CNC Machining, Types of Additive Manufacturing Technologies, Nomenclature of AM Machines. Direct and Indirect Processes:  Prototyping, Manufacturing and Tooling. Layer Manufacturing Processes:  Polymerization, Sintering and Melting, Extrusion, Powder-Binder Bonding, Layer Laminate Manufacturing, Other Processes; Aerosol printing and Bio plotter.",
+    "2": "Development of Additive Manufacturing Technology: Computer Aided Design Technology, Other Associated Technology, Metal and Hybrid Systems. Generalized Additive Manufacturing Process Chain;The Eight Steps in Additive Manufacturing, Variation from one AM Machine to Another, Metal System, Maintenance of Equipment, Material Handling Issue, Design of AM.",
+    "3": "Additive Manufacturing Processes: Vat Photopolymerization, Materials, Reaction Rates, Photopolymerization Process Modelling, Scan Patterns.  Powder Bed Fusion Processes: Material, Powder Fusion Mechanism, Process Parameters and Modelling, powder Handling. Extrusion Based System: Basic principles, plotting and Path Control, Bio extrusion, Other Systems. Material Jetting:  Materials, Material Processing Fundamentals, Material Jetting Machines. Binder Jetting:Materials, Process Variations, BJ Machines. Sheet lamination Processes:Materials, Ultrasonic Additive Manufacturing. Directed Energy Deposition Processes:  General DED Process Description, Material Delivery, DED systems, Process Parameters, Processing-Structure-Properties Relationships. Direct Write Technologies:  Ink-Based DW, laser Transfer DW, Thermal Spray DW, Beam Deposition DW, Liquid Phase Direct Deposition, Hybrid Technologies.",
+    "4": "Design & Software Issues: Additive Manufacturing Design and Strategies; Potentials and Resulting Perspectives, AM based New Strategies, Material Design and Quality Aspects for Additive Manufacturing; Material for AM, Engineering Design Rules for AM. Software Issue for Additive Manufacturing:  Introduction, Preparation of CAD Models: The STL file, Problem with STL file, STL file Manipulation, Beyond the STL file, Additional Software to Assist AM.",
+    "5": "Material Design & Quality Aspects: Machines for Additive Manufacturing, Printers, Secondary Rapid Prototyping processes, Intellectual Property, Product Development, Commercialization, Trends and Future Directions in Additive Manufacturing, Business Opportunities Applications: Aerospace, Automotive, Manufacturing, Architectural Engineering, Art, Jewellery, Toys, Medical, Biomedical, Dental, Bio-printing, Tissue & Organ Engineering and many others."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, by- Ian Gibson, D Savid W. Rosen, Brent Stucker, Springer."
+    },
+    {
+     "no": 2,
+     "book": "Additive Manufacturing, by- Amit Bandyopadhyay, Susmita Bose, CRC Press."
+    },
+    {
+     "no": 3,
+     "book": "Rapid Prototyping: Principles and Applications, by - Chee Kai Chua, Kah Fai Leong, Chu Sing Lim."
+    },
+    {
+     "no": 4,
+     "book": "Additive Manufacturing Technologies: 3D Printing, Rapid Prototyping, and Direct Digital Manufacturing by Ian Gibson and David Rosen."
+    },
+    {
+     "no": 5,
+     "book": "Additive Manufacturing of Metals: From Fundamental Technology to Rocket Nozzles, Medical Implants, and Custom Jewelry (Springer Series in Materials Science) by John O Milewski."
+    },
+    {
+     "no": 6,
+     "book": "Additive Manufacturing: Advanced Manufacturing Technology in 3d Print Deposit by SabrieSoloman."
+    },
+    {
+     "no": 7,
+     "book": "Advances in 3D Printing and Additive Manufacturing Technologies by David Ian Wimpenny and Pulak M Pandey."
+    },
+    {
+     "no": 8,
+     "book": "Understanding Additive Manufacturing, by- Andreas Gebhardt, Hanser."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-III' (p.10); code RME073 from the DE-3 pool list on p.2.",
+    "Unit-V heading 'Material Design & Quality Aspects:' printed at end of p.15 with its content starting on p.16; 'Applications:' subheading printed on its own line after 'Business Opportunities'.",
+    "Printed spacing kept: 'Process Chain;The', 'Binder Jetting:Materials', 'Sheet lamination Processes:Materials', 'SabrieSoloman', 'D Savid W. Rosen'.",
+    "Book list printed under combined heading 'Books and References:' (pp.15-16); recorded in textbooks.",
+    "Marks/credit from the printed Sem-VII DE-3 slot row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Reverse Engineering",
+   "name_print": "REVERSE ENGINEERING",
+   "codes": [
+    "RPI075"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction to New Product Development.  Tasks of detailed design, new frontiers of Computer-Aided Design tools.",
+    "2": "Reverse Engineering:  Objectives and common application fields. Existing technologies. Contact systems. Non-contact systems. Manipulation of acquired data. Practical experiences.",
+    "3": "Introduction to the Basic Principles of Additive Manufacturing. Design for Additive Manufacturing.",
+    "4": "Rapid Prototyping technologies:  For polymers with a particular focus on Stereolithography (SLA) and Fused Deposition Modelling (FDM). For metals. For other materials. Practical experiences.",
+    "5": "Employment of Reverse Engineering and Rapid Prototyping technologies in different industrial fields with an outlook on the South Tyrolean industrial fabric."
+   },
+   "cos": [
+    {
+     "text": "Students will acquire basic knowledge about the main opportunities provided by Reverse Engineering and Rapid Prototyping tools, which represents an opportunity to learn how to conduct detailed product design by benefitting from cutting-edge technologies."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Eldad Eilam's Reversing: Secrets of reverse engineering."
+    },
+    {
+     "no": 2,
+     "book": "Hacking the Xbox: An Introduction to Reverse Engineering."
+    },
+    {
+     "no": 3,
+     "book": "The IDA Pro Book: The Unofficial Guide to the World's Most Popular Disassembler."
+    },
+    {
+     "no": 4,
+     "book": "The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory."
+    },
+    {
+     "no": 5,
+     "book": "Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software."
+    },
+    {
+     "no": 6,
+     "book": "The Rootkit Arsenal: Escape and Evasion in the Dark Corners of the System 2nd Edition."
+    },
+    {
+     "no": 7,
+     "book": "Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tools, and obfuscation."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-IV' (p.17); code RPI075 from the DE-4 pool list on p.2.",
+    "Course Outcomes printed (p.17) as a single unnumbered paragraph without K-levels; no CO numbering printed.",
+    "Unit V mentions 'the South Tyrolean industrial fabric' (printed verbatim; text appears carried over from an external source).",
+    "Book list printed under combined heading 'Books and References:' (p.17); recorded in textbooks.",
+    "Marks/credit from the printed Sem-VII DE-4 slot row (p.2): 70/20/10/100, credit 4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Total Quality Management (TQM)",
+   "name_print": "TOTAL QUALITY MANAGEMENT (TQM)",
+   "codes": [
+    "RMT075"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Quality Concepts: Evolution of Quality control, concept change, TQM Modern concept, Quality concept in design. Control on Purchased Product: Procurement of various products, evaluation of supplies, capacity verification, Development of sources, procurement procedure. Manufacturing Quality: Methods and Techniques for manufacture, Inspection and control of product, Quality in sales and services, Guarantee, analysis of claims.",
+    "2": "Quality Management: Organization structure and design, Quality function, decentralization, Designing and fitting organization for different types products and company, Economics of quality value and contribution, Quality cost, optimizing quality cost, seduction programme. TQM Principles: Leadership, strategic quality planning; Quality councils - employee involvement, motivation; Empowerment; Team and Teamwork; Quality circles, recognition and reward, performance appraisal. Continuous process improvement; PDCE cycle, 5S, Kaizen; Supplier partnership, Partnering, Supplier rating & selection.",
+    "3": "Tools and Techniques: Seven QC tools (Histogram, Check sheet, Ishikawa diagram, Pareto, Scatter diagram, Control chart, flow chart). Control Charts: Theory of control charts, measurement range, construction and analysis of R charts, process capability study, use of control charts, P-charts and C-charts.",
+    "4": "Defects Diagnosis and Prevention: Defect study, identification and analysis of defects, corrective measure, factors affecting reliability, MTTF, calculation of reliability, Building reliability in the product, evaluation of reliability, interpretation of test results, reliability control, maintainability, zero defects, quality circle.",
+    "5": "IS0 and its concept of Quality Management: Quality systems, need for ISO 9000, ISO 9001-9008; Quality system- elements, documentation, Quality auditing, QS 9000, ISO 14000- concepts, requirements and benefits. TQM implementation in manufacturing and service sectors, Auditing, Taguchi method, JIT in some details."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Total Quality Management, by Dale H. Besterfield, Pearson India."
+    },
+    {
+     "no": 2,
+     "book": "Beyond Total Quality Management, Greg Bounds, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Besterfield D.H. et al., Total qualityManagement, 3rd ed., Pearson Education Asia, 2006."
+    },
+    {
+     "no": 4,
+     "book": "Evans J.R. and Lindsay W.M., The management and Control of Quality, 8th ed., first Indian edition, Cengage Learning, 2012."
+    },
+    {
+     "no": 5,
+     "book": "Janakiraman B. and Gopal R.K., Total Quality Management, Prentice Hall India, 2006."
+    },
+    {
+     "no": 6,
+     "book": "Suganthi L. and Samuel A., Total Quality Management, Prentice Hall India, 2006."
+    },
+    {
+     "no": 7,
+     "book": "Total Quality Management by Mukherjee, P.N."
+    },
+    {
+     "no": 8,
+     "book": "TQM in New Product manufacturing, H. G. Menon, McGraw Hill."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-IV' (p.18); code RMT075 from the DE-4 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (pp.18-19); recorded in textbooks.",
+    "Marks/credit from the printed Sem-VII DE-4 slot row (p.2): 70/20/10/100, credit 4.",
+    "Unit labels printed as 'UNIT -I:' ... 'UNIT -V:' (space before roman numeral, as printed).",
+    "Printed quirks kept: 'IS0' (digit zero) in Unit-V heading, 'PDCE cycle' (likely PDC A), 'seduction programme' (likely reduction), 'Total qualityManagement' missing space in book 3."
+   ],
+   "flags": [
+    "duplicate_name_same_course: identical syllabus printed for RMT075 (DE-IV, Sem-VII, pp.18-19) and RME085 (DE-VI, Sem-VIII, pp.28-29)"
+   ]
+  },
+  {
+   "name": "Maintenance Engineering & Management",
+   "name_print": "MAINTENANCE ENGINEERING & MANAGEMENT",
+   "codes": [
+    "RMT076"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Principles and practices of maintenance planning: Basic Principles of Maintenance Planning – Objectives and Principles of Planned Maintenance Activity – Importance and Benefits of Sound Maintenance Systems. Reliability and Machine Availability – MTBF, MTTR And MWT – Factors of Availability – Maintenance Organization – Maintenance Economics.",
+    "2": "Maintenance policies – preventive maintenance: Maintenance Categories – Comparative Merits of Each Category – Preventive Maintenance, Maintenance Schedules, Repair Cycle – Principles and Methods of Lubrication – TPM.",
+    "3": "Condition monitoring: Condition Monitoring – Cost Comparison with And Without CM – On-Load Testing and Offload Testing – Methods and Instruments for CM – Temperature Sensitive Tapes – Pistol Thermometers – Wear-Debris Analysis.",
+    "4": "Repair methods for basic machine elements: Repair Methods for Beds, Slideways, Spindles, Gears, Lead Screws and Bearings – Failure Analysis – Failures and Their Development – Logical Fault Location Methods – Sequential Fault Location.",
+    "5": "Repair methods for material handling equipment: Repair Methods for Material Handling Equipment – Equipment Records –Job Order Systems -Use of Computers in Maintenance."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Srivastava S.K., “Industrial Maintenance Management”, – S. Chand And Co., 1981."
+    },
+    {
+     "no": 2,
+     "book": "Venkataraman .K “Maintancence Engineering And Management”, PHI Learning, Pvt. Ltd., 2007."
+    },
+    {
+     "no": 3,
+     "book": "Bhattacharya S.N., “Installation, Servicing And Maintenance”, S. Chand And Co., 1995."
+    },
+    {
+     "no": 4,
+     "book": "White E.N., “Maintenance Planning”, I Documentation, Gower Press, 1979."
+    },
+    {
+     "no": 5,
+     "book": "Garg M.R., “Industrial Maintenance”, S. Chand & Co., 1986."
+    },
+    {
+     "no": 6,
+     "book": "Higgins L.R., “Maintenance Engineering Hand Book”, McGraw Hill, 5th Edition, 1988."
+    },
+    {
+     "no": 7,
+     "book": "Armstrong, “Condition Monitoring”, BSIRSA, 1988."
+    },
+    {
+     "no": 8,
+     "book": "Davies, “Handbook Of Condition Monitoring”, Chapman &Hall, 1996."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-IV' (p.18); code RMT076 from the DE-4 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (p.20); recorded in textbooks.",
+    "Printed quirks kept: 'MTTR And MWT' in Unit-I, 'Maintancence' in book 2, 'Hand Book' spacing in book 6, 'Chapman &Hall' spacing in book 8, 'Records –Job' spacing in Unit-V.",
+    "Marks/credit from the printed Sem-VII DE-4 slot row (p.2): 70/20/10/100, credit 4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Process Planning and Cost Estimation",
+   "name_print": "PROCESS PLANNING AND COST ESTIMATION",
+   "codes": [
+    "RMT077"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview of process planning: Introduction- methods of process planning-Drawing Interpretation-Material evaluation – steps in process selection-. Production equipment and tooling selection.",
+    "2": "Process planning activities: Process parameters calculation for various production processes-Selection jigs and fixtures election of quality assurance methods - Set of documents for process planning-Economics of process planning- case studies.",
+    "3": "Introduction to cost estimation:  Importance of costing and estimation –methods of costing-elements of cost estimation. Types of estimates – Estimating procedure- Estimation labour cost, material cost- allocation of overhead charges- Calculation of depreciation cost.",
+    "4": "Production cost estimation: Estimation of Different Types of Jobs - Estimation of Forging Shop, Estimation of Welding Shop, Estimation of Foundry Shop.",
+    "5": "Machining time calculation: Estimation of Machining Time - Importance of Machine Time Calculation- Calculation of Machining Time for Different Lathe Operations, Drilling and Boring - Machining Time Calculation for Milling, Shaping and Planning -Machining Time Calculation for Grinding."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Peter scalon, “Process planning, Design/Manufacture Interface”, Elsevier science technologyBooks, Dec 2002."
+    },
+    {
+     "no": 2,
+     "book": "Ostwalal P.F. and Munez J., “Manufacturing Processes and systems”, 9th Edition, John Wiley,1998."
+    },
+    {
+     "no": 3,
+     "book": "Russell R.S and Tailor B.W, “Operations Management”, 4th Edition, PHI, 2003."
+    },
+    {
+     "no": null,
+     "book": "Chitale A.V. and Gupta R.C., “Product Design and Manufacturing”, 2nd Edition, PHI, 2002."
+    },
+    {
+     "no": 4,
+     "book": "Process planning and cost estimation by M. Adithan."
+    },
+    {
+     "no": 5,
+     "book": "Process planning and cost estimation by B. Vijayaramanath."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-IV' (p.18); code RMT077 from the DE-4 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (p.21); recorded in textbooks; an UNNUMBERED book line 'Chitale A.V. and Gupta R.C., ...' is printed beneath numbered item 3 (recorded with no=null).",
+    "Printed quirks kept: 'steps in process selection-.' stray hyphen-period in Unit-I; 'Selection jigs and fixtures election of quality assurance methods' garbled fragment in Unit-II (likely 'Selection of jigs and fixtures, Selection of...'); 'Peter scalon' lowercase; 'Ostwalal'; 'technologyBooks'; 'Wiley,1998'.",
+    "Marks/credit from the printed Sem-VII DE-4 slot row (p.2): 70/20/10/100, credit 4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Industrial Training",
+   "name_print": "INDUSTRIAL TRAINING",
+   "codes": [
+    "RMT753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ta": 100,
+    "total": 100
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed only as row 8 of the Sem-VII scheme table (p.2): Core Deptt., 0-0-3, ESE (blank), CT (blank), TA 100, Total 100, Credit 2.",
+    "No unit texts, COs, books or experiment list printed for this subject in this document.",
+    "sessional row: document prints scheme-table L-T-P/marks only; no unit theory, COs or books printed anywhere in the doc (zero-guess omission)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project-1",
+   "name_print": "PROJECT-1",
+   "codes": [
+    "RMT754"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 6
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ta": 200,
+    "total": 200
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed only as row 9 of the Sem-VII scheme table (p.2): Core Deptt., 0-0-6, ESE (blank), CT (blank), TA 200, Total 200, Credit 3.",
+    "No unit texts, COs, books or experiment list printed for this subject in this document.",
+    "sessional row: document prints scheme-table L-T-P/marks only; no unit theory, COs or books printed anywhere in the doc (zero-guess omission)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Non-Destructive Testing",
+   "name_print": "NON-DESTRUCTIVE TESTING",
+   "codes": [
+    "RME080"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview of NDT: Scope and advantages of NDT, Comparison of NDT with Destructive Testing, some common NDT methods used since ages, Terminology, Flaws and Defects, Visual inspection. Equipment used for visual inspection. Ringing test, chalk test (oil whitening test). Uses of visual inspection tests in detecting surface defects and their interpretation, advantages & limitations of visual inspection.",
+    "2": "Tests: Die penetrate test (liquid penetrate inspection), Principle, scope. Equipment & techniques, Tests stations, Advantages, types of penetrants and developers, Zyglo test, Illustrative examples and interpretation of defects. Magnetic particle Inspection – scope and working principle, Ferro Magnetic and Nonferromagnetic materials, equipment & testing. Advantages, limitations Interpretation of results, DC & AC magnetization, Skin Effect, use of dye & wet powders for magna glow testing, different methods to generate magnetic fields, Applications.",
+    "3": "Radiographic methods: Introduction to electromagnetic waves and radioactivity, various decays, Attenuation of electromagnetic radiations, Photo electric effect, Rayleigh’s scattering (coherent scattering), Compton’s scattering (Incoherent scattering), Pair production, Beam geometry and Scattering factor. X-ray radiography: principle, equipment & methodology, applications, types of radiations and limitations. γ-ray radiography – principle, equipment., source of radioactive materials & technique, advantages of γ-ray radiography over X-ray radiography Precautions against radiation hazards. Case Study - casting and forging.",
+    "4": "Ultrasonic testing methods: Introduction, Principle of operation, Piezoelectricity. Ultrasonic probes, CRO techniques, advantages, Limitation & typical applications.  Applications in inspection of castings, forgings, Extruded steel parts, bars, pipes, rails and dimensions measurements. Case Study – Ultrasonography of human body.",
+    "5": "Special NDT Techniques: Eddy Current Inspection: Principle, Methods, Equipment for ECT, Techniques, Sensitivity, advanced ECT methods. Application, scope and limitations, types of Probes and Case Studies.  Introduction to Holography, Thermography and Acoustic emission Testing."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Non-Destructive Testing and Evaluation of Materials, by- Prasad, McGraw Hill Education."
+    },
+    {
+     "no": 2,
+     "book": "Practical Non-destructive Testing, by- Baldev Raj, T. Jayakumar, M. Thavasimuthu, Woodhead Publishing."
+    },
+    {
+     "no": 3,
+     "book": "Non-Destructive Testing Techniques, by- Ravi Prakash, New Age International."
+    },
+    {
+     "no": 4,
+     "book": "Nondestructive Testing Handbook,by Robert C. McMaster, American Society for Nondestructive."
+    },
+    {
+     "no": 5,
+     "book": "Introduction to Nondestructive Testing: A Training Guide, by- Paul E. Mix, wiley."
+    },
+    {
+     "no": 6,
+     "book": "Electrical and Magnetic Methods of Non-destructive Testing, by- J. Blitz, springer."
+    },
+    {
+     "no": 7,
+     "book": "Practical non destructive testing by Raj, Baldev."
+    },
+    {
+     "no": 8,
+     "book": "Basics of Non-Destructive Testing, by Lari& Kumar, KATSON Books."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-V' (p.23); code RME080 from the DE-5 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (pp.23-24); recorded in textbooks.",
+    "Printed quirks kept: 'Die penetrate test' (likely penetrant), 'equipment.,' stray punctuation in Unit-III, 'Handbook,by' spacing, lowercase 'wiley'/'springer', 'Lari& Kumar' spacing.",
+    "Marks/credit from the printed Sem-VIII DE-5 slot row (p.2): 70/20/10/100, credit 4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Supply Chain Management",
+   "name_print": "SUPPLY CHAIN MANAGEMENT",
+   "codes": [
+    "RPI083"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview of SCM: Role of Logistics and Supply Chain Management: Scope and Importance- Evolution of Supply Chain -Decision Phases in Supply Chain. Competitive and Supply Chain Strategies – Drivers of Supply Chain Performance and Obstacles.",
+    "2": "Supply chain network design: Role of Distribution in Supply Chain – Factors Influencing Distribution Network Design – Design Options for Distribution Network. Distribution Network in Practice-Role of Network Design in Supply Chain – Framework for Network Decisions.",
+    "3": "Logistics in supply chain: Role of Transportation in Supply Chain – Factors Affecting Transportations Decision – Design Option for Transportation Network – Tailored Transportation – Routing and Scheduling in Transportation.",
+    "4": "Sourcing and coordination in supply chain: Role of Sourcing Supply Chain Supplier Selection Assessment and Contracts- Design Collaboration – Sourcing Planning and Analysis – Supply Chain Co Ordination. Bull Whip Effect – Effect of Lack of Co-Ordination in Supply Chain and Obstacles – Building Strategic Partnerships and Trust Within A Supply Chain.",
+    "5": "Supply chain and information technology: The Role IT In Supply Chain- The Supply Chain IT Frame Work Customer Relationship Management – Internal Supply Chain Management – Supplier Relationship Management – Future of IT In Supply Chain –E-Business in Supply Chain."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Sunil Chopra, Peter MeindlAndKalra, “Supply Chain Management, Strategy, Planning, And Operation”, Pearson Education, 2010."
+    },
+    {
+     "no": 2,
+     "book": "Jeremy F.Shapiro, “Modeling The Supply Chain”, Thomson Duxbury, 2002."
+    },
+    {
+     "no": 3,
+     "book": "Srinivasan G.S, “Quantitative Models In Operations And Supply Chain Management”, PHI, 2010."
+    },
+    {
+     "no": 4,
+     "book": "David J.Bloomberg , Stephen Lemay And Joe B.Hanna, “Logistics”, PHI 2002."
+    },
+    {
+     "no": 5,
+     "book": "James B.Ayers, “Handbook Of Supply Chain Management”, St.Lucle Press, 2000."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-V' (p.23); code RPI083 from the DE-5 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (p.25); recorded in textbooks.",
+    "Printed quirks kept: 'MeindlAndKalra', 'St.Lucle Press' (likely St. Lucie), 'Co Ordination'/'Bull Whip' spacing, '–E-Business' spacing.",
+    "Marks/credit from the printed Sem-VIII DE-5 slot row (p.2): 70/20/10/100, credit 4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Quality Engineering in Manufacturing",
+   "name_print": "QUALITY ENGINEERING IN MANUFACTURING",
+   "codes": [
+    "RMT080"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview:  Different Definitions and Dimensions of Quality, Historical Perspective (From Evolution of Quality Control, Assurance and Management to Quality as Business Winning Strategy), Contribution of Renowned Quality Gurus (Their Philosophies and Impact on Quality).",
+    "2": "Quality Engineering and Management Tools, Techniques & Standards:  7 QC tools, 7 New Quality Management Tools, 5S Technique, Kaizen, Poka-Yoke, Quality Circle, Cost of Quality Technique. Introduction to Quality Management Standards – ISO : 9000, ISO:14000, QS:9000 (Concept, Scope, Implementation Requirements & Barriers, and Benefits), Introduction to National and International Quality Awards (Malcolm Baldrige National Quality Award – MBNQA, The Deming Prize Rajiv Gandhi National Quality Award).",
+    "3": "Total Quality Management:  Basic Philosophy, Approach, Implementation Requirements & Barriers.  Designing for Quality: Introduction to Concurrent Engineering, Quality Function Deployment (QFD) and Failure Mode and Effect Analysis (FMEA) – Concept, Methodology and Application (with case studies).",
+    "4": "Introduction to Design of Experiments: Introduction, Methods, Taguchi approach, Achieving robust design, Steps in experimental design.",
+    "5": "Contemporary Trends in Quality Engineering & Management:  Just in time (JIT) Concept, Lean Manufacturing, Agile Manufacturing, World Class Manufacturing, Total Productive Maintenance (TPM), Bench Marking, Business Process Re-engineering (BPR). Six Sigma - Basic Concept, Principle, Methodology, Implementation, Scope, Advantages and Limitation of all as applicable.  Quality in Service Sectors: Characteristics of Service Sectors, Quality Dimensions in Service Sectors, Measuring Quality in Different Service Sectors."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Quality Assurance and Total Quality Management (ISO 9000, QS 9000 ISO 14000) by K C Jain and A K Chitale, Khanna Publishers."
+    },
+    {
+     "no": 2,
+     "book": "Quality Control & Application by B. L. Hanson & P. M. Ghare, Prentice Hall of India."
+    },
+    {
+     "no": 3,
+     "book": "Total Quality Management by Dale H. Besterfield, Carol Besterfield-Michna, Glen H. Besterfield and Mary Besterfield-Sacre, Pearson Educaiton."
+    },
+    {
+     "no": 4,
+     "book": "Quality Management by Kanishka Bedi."
+    },
+    {
+     "no": 5,
+     "book": "Total Quality Management – Dr. S. Kumar, Laxmi Publication Pvt. Ltd."
+    },
+    {
+     "no": 6,
+     "book": "Total Quality Management by K C Arora, S K Kataria& Sons."
+    },
+    {
+     "no": 7,
+     "book": "Statistical Quality Control by M. Mahajan, Dhanpat Rai & Co. (P) Ltd."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-V' (p.23); code RMT080 from the DE-5 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (p.26); recorded in textbooks.",
+    "Printed quirks kept: 'Pearson Educaiton' typo in book 3, 'Kataria& Sons' spacing in book 6, 'ISO : 9000' spacing in Unit-II.",
+    "Marks/credit from the printed Sem-VIII DE-5 slot row (p.2): 70/20/10/100, credit 4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Lean Manufacturing",
+   "name_print": "LEAN MANUFACTURING",
+   "codes": [
+    "RPI081"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview: SEVEN forms of waste and their description; Historical evolution of lean manufacturing; Global competition, Customer requirements, Requirements of other stake holders. Meaning of Lean Manufacturing System (LMS), Meaning of Value and waste, Need for LMS, Symptoms of underperforming organizations, Meeting the customer requirement, Elements of LMS.",
+    "2": "Primary tools used in LMS: Meaning and Purpose of 5S Work place organization, 5S process – Sort, set in order, Shine, Standardize, Sustain, implementing 5S. Meaning and purpose of TPM, Pillars of TPM, Conditions for TPM success, TPM implementation process, Overall Equipment Effectiveness and problems on computation of OEE.",
+    "3": "Process Mapping and Value Stream Mapping (VSM) – Need for process maps, advantages, types and its construction, steps in preparing VSM. Concept of work Cell and its design, Line balancing algorithms and problems.",
+    "4": "Secondary tools used in LMS: Cause and effect diagram, Pareto chart, Radar chart, Poke Yoke, Kanban, Automation, SMED, Standardized fixture, DFMA, JIT. Visual workplace, problems on Pareto analysis and computation of number of kanbans.",
+    "5": "LMS Rules: Stability, Management, Standardized work, Pull system, Continuous improvement. Lean Implementation: Training, selecting the projects, preparing project charter, project implementation, Project review.  Implementing LMS for higher productivity: Operator, process, machinery and equipment, workplace organization, Inventory, LMS Design Process."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "N. Goplakrishnan, Simplifed Lean Manufacture, PHI, 2010."
+    },
+    {
+     "no": 2,
+     "book": "Pascal Dennis, Lean Production Simplified, Productivity Press, 2007."
+    },
+    {
+     "no": 3,
+     "book": "Creating a Kaizen Culture (2013) by Jon Miller, Mike Wroblewski and Jaime Villafuerte."
+    },
+    {
+     "no": 4,
+     "book": "The Lean Turnaround (2012) by Art Byrne."
+    },
+    {
+     "no": 5,
+     "book": "The Toyota Production System: Beyond Large-Scale Production (1988) by Taiichi Ohno."
+    },
+    {
+     "no": 6,
+     "book": "Out of the Crisis (1986) by W. Edwards Deming."
+    },
+    {
+     "no": 7,
+     "book": "Jeffrey Liker, The Toyota Way, Tata McGraw-Hill, 2004"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-V' (p.23); code RPI081 from the DE-5 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (p.27); recorded in textbooks; book 7 printed without trailing period.",
+    "Printed quirks kept: 'Simplifed' typo in book 1, 'Poke Yoke' spelling in Unit-IV (vs 'Poka-Yoke' in other subjects), 'Goplakrishnan' as printed.",
+    "Marks/credit from the printed Sem-VIII DE-5 slot row (p.2): 70/20/10/100, credit 4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Total Quality Management (TQM)",
+   "name_print": "TOTAL QUALITY MANAGEMENT (TQM)",
+   "codes": [
+    "RME085"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Quality Concepts: Evolution of Quality control, concept change, TQM Modern concept, Quality concept in design. Control on Purchased Product: Procurement of various products, evaluation of supplies, capacity verification, Development of sources, procurement procedure. Manufacturing Quality: Methods and Techniques for manufacture, Inspection and control of product, Quality in sales and services, Guarantee, analysis of claims.",
+    "2": "Quality Management: Organization structure and design, Quality function, decentralization, Designing and fitting organization for different types products and company, Economics of quality value and contribution, Quality cost, optimizing quality cost, seduction programme. TQM Principles: Leadership, strategic quality planning; Quality councils - employee involvement, motivation; Empowerment; Team and Teamwork; Quality circles, recognition and reward, performance appraisal. Continuous process improvement; PDCE cycle, 5S, Kaizen; Supplier partnership, Partnering, Supplier rating & selection.",
+    "3": "Tools and Techniques: Seven QC tools (Histogram, Check sheet, Ishikawa diagram, Pareto, Scatter diagram, Control chart, flow chart). Control Charts: Theory of control charts, measurement range, construction and analysis of R charts, process capability study, use of control charts, P-charts and C-charts.",
+    "4": "Defects Diagnosis and Prevention: Defect study, identification and analysis of defects, corrective measure, factors affecting reliability, MTTF, calculation of reliability, Building reliability in the product, evaluation of reliability, interpretation of test results, reliability control, maintainability, zero defects, quality circle.",
+    "5": "IS0 and its concept of Quality Management: Quality systems, need for ISO 9000, ISO 9001-9008; Quality system- elements, documentation, Quality auditing, QS 9000, ISO 14000- concepts, requirements and benefits. TQM implementation in manufacturing and service sectors, Auditing, Taguchi method, JIT in some details."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Total Quality Management, by Dale H. Besterfield, Pearson India."
+    },
+    {
+     "no": 2,
+     "book": "Beyond Total Quality Management, Greg Bounds, McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Besterfield D.H. et al., Total qualityManagement, 3rd ed., Pearson Education Asia, 2006."
+    },
+    {
+     "no": 4,
+     "book": "Evans J.R. and Lindsay W.M., The management and Control of Quality, 8th ed., first Indian edition, Cengage Learning, 2012."
+    },
+    {
+     "no": 5,
+     "book": "Janakiraman B. and Gopal R.K., Total Quality Management, Prentice Hall India, 2006."
+    },
+    {
+     "no": 6,
+     "book": "Suganthi L. and Samuel A., Total Quality Management, Prentice Hall India, 2006."
+    },
+    {
+     "no": 7,
+     "book": "Total Quality Management by Mukherjee, P.N."
+    },
+    {
+     "no": 8,
+     "book": "TQM in New Product manufacturing, H. G. Menon, McGraw Hill."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-VI' (p.28); code RME085 from the DE-6 pool list on p.2.",
+    "Syllabus page p.28 prints 'L-T-P' with a BLANK value; L-T-P 3-0-0 recorded from the printed Sem-VIII scheme DE-6 slot row (p.2), the same value printed for the other DE-6 pool subjects.",
+    "Unit texts and book list identical to the RMT075 TQM printing (pp.18-19), as printed.",
+    "Book list printed under combined heading 'Books and References:' (pp.28-29); recorded in textbooks.",
+    "Unit labels printed as 'UNIT -I:' ... 'UNIT -V:' (space before roman numeral, as printed).",
+    "Printed quirks kept: 'IS0' (digit zero) in Unit-V heading, 'PDCE cycle', 'seduction programme', 'Total qualityManagement'.",
+    "Marks/credit from the printed Sem-VIII DE-6 slot row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": [
+    "duplicate_name_same_course: identical syllabus printed for RMT075 (DE-IV, Sem-VII, pp.18-19) and RME085 (DE-VI, Sem-VIII, pp.28-29)",
+    "ltp_blank_on_page_taken_from_scheme_slot"
+   ]
+  },
+  {
+   "name": "Flexible Manufacturing System",
+   "name_print": "FLEXIBLE MANUFACTURING SYSTEM",
+   "codes": [
+    "RPI085"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Planning, scheduling and control of flexible manufacturing systems: Introduction To FMS– Development of Manufacturing Systems – Benefits – Major Elements – Types of Flexibility – FMS Application and Flexibility –Single Product, Single Batch, N – Batch Scheduling Problem – Knowledge Based Scheduling System.",
+    "2": "Computer control and software for flexible manufacturing systems: Introduction – Composition of FMS– Hierarchy of Computer Control –Computer Control of Work Centre and Assembly Lines – FMS Supervisory Computer Control – Types of Software Specification and Selection – Trends.",
+    "3": "FMS simulation and data base: Application of Simulation – Model of FMS– Simulation Software – Limitation – Manufacturing Data Systems – Data Flow – FMS Database Systems – Planning For FMS Database.",
+    "4": "Group technology and justification of FMS: Introduction – Matrix Formulation – Mathematical Programming Formulation –Graph Formulation – Knowledge Based System for Group Technology – Economic Justification Of FMS- Application of Possibility Distributions in FMS Systems Justification.",
+    "5": "Applications of FMS and factory of the future: FMS Application in Machining, Sheet Metal Fabrication, Prismatic Component Production – Aerospace Application – FMS Development Towards Factories of The Future – Artificial Intelligence and Expert Systems in FMS – Design Philosophy and Characteristics for Future."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Jha, N.K. “Handbook Of Flexible Manufacturing Systems”, Academic Press Inc., 1991."
+    },
+    {
+     "no": 2,
+     "book": "Radhakrishnan P. And Subramanyan S., “CAD/CAM/CIM”, Wiley Eastern Ltd., New AgeInternational Ltd., 1994."
+    },
+    {
+     "no": 3,
+     "book": "Raouf, A. And Ben-Daya, M., Editors, “Flexible Manufacturing Systems: RecentDevelopment”, Elsevier Science, 1995."
+    },
+    {
+     "no": 4,
+     "book": "Groover M.P., “Automation, Production Systems And Computer Integrated Manufacturing”, Prentice Hall Of India Pvt., New Delhi, 1996."
+    },
+    {
+     "no": 5,
+     "book": "Kalpakjian, “Manufacturing Engineering And Technology”, Addison-Wesley PublishsingCo., 1995."
+    },
+    {
+     "no": 6,
+     "book": "Taiichi Ohno, “Toyota Production System: Beyond Large-Scale Production”, Productivity Press (India) Pvt. Ltd. 1992."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-VI' (p.28); code RPI085 from the DE-6 pool list on p.2.",
+    "Book list printed under combined heading 'Books and References:' (p.30); recorded in textbooks.",
+    "Printed quirks kept: 'FMS– Development' / '–Single' / '–Graph' spacing in units, 'New AgeInternational', 'RecentDevelopment', 'PublishsingCo.' in book list.",
+    "Marks/credit from the printed Sem-VIII DE-6 slot row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Reliability Engineering",
+   "name_print": "RELIABILITY ENGINEERING",
+   "codes": [
+    "RPI086"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Overview of reliability engineering: Definition of reliability, Failures & failures modes, Failure rates, MTTF, MTBF, Bath tub curve, Definition and factors influencing system effectiveness, various parameters of system effectiveness.",
+    "2": "Reliability analysis: Reliability Mathematics, Definition of probability, laws of probability, conditional probability. Bay's theorem, Various probability distributions, Data collection, Recovery of data, Data analysis Procedures, Empirical reliability calculations.",
+    "3": "Types of reliability: Reliability types, System of series, parallel, series parallel, stand by and complex systems. Development of logic diagram, Methods of reliability evaluation; Cut set and tie set methods, Matrix methods, Event trees and fault trees methods, Reliability evaluation using probability distributions. The Weibull distribution and its application in reliability, Markov method, Frequency and duration method.",
+    "4": "Improvement in reliability: Reliability Improvements: Methods of reliability improvement, component redundancy, system redundancy, types of redundancies-series, parallel, series - parallel, stand by and hybrid, effect of maintenance.",
+    "5": "Testing methods: Reliability Testing, Life testing, requirements, methods, test planning, data reporting system, data reduction and analysis, reliability test standards."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "R.Billintan& R.N. Allan,\"Reliability Evaluation of Engineering and Systems\", Plenum Press."
+    },
+    {
+     "no": 2,
+     "book": "K.C. Kapoor& L.R. Lamberson,\"Reliability in Engineering and Design\", John Wiely and Sons."
+    },
+    {
+     "no": 3,
+     "book": "S.K. Sinha& B.K. Kale,\"Life Testing and Reliability Estimation\", Wiely Eastern Ltd."
+    },
+    {
+     "no": 4,
+     "book": "A Birolini. Reliability Engineering-Theory & Practice, Springer."
+    },
+    {
+     "no": 5,
+     "book": "G.H.Sandler,\"System Reliability Engineering\", Prentice Hall."
+    },
+    {
+     "no": 6,
+     "book": "Inspection quality Control and Reliability by S. C. Sharma."
+    },
+    {
+     "no": 7,
+     "book": "Creating Quality Concepts, Systems & Tools by W.J. Kolarik."
+    },
+    {
+     "no": 8,
+     "book": "D J Smith, Reliability, Maintainability & Risk, Butterworth-Heinemann."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-VI' (p.28); code RPI086 from the DE-6 pool list on p.2.",
+    "Book list printed under heading 'Books & references:' (p.31); recorded in textbooks; straight double quotes used in this list (as printed).",
+    "Printed quirks kept: 'R.Billintan&', 'Kapoor&', 'Sinha&' spacing, 'Wiely' spelling, 'Failures & failures modes' in Unit-I.",
+    "Marks/credit from the printed Sem-VIII DE-6 slot row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Innovation & Entrepreneurship",
+   "name_print": "INNOVATION & ENTREPRENEURSHIP",
+   "codes": [
+    "RPI087"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Should You Become an Entrepreneur? What Skills Do Entrepreneurs Need? Identify and Meet A Market Need. Entrepreneurs in A Market Economy. Select A Type of Ownership.",
+    "2": "Develop A Business Plan.",
+    "3": "Choose Your Location and Set Up for Business. Market Your Business. Hire and Manage A Staff.",
+    "4": "Finance, Protect and Insure Your Business. Record Keeping and Accounting. Financial Management.",
+    "5": "Meet Your Legal, Ethical, Social Obligations. Growth in Today’s Marketplace."
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Entrepreneurship Ideas in Action—South-Western, 2000."
+    },
+    {
+     "no": 2,
+     "book": "Innovation and Entrepreneurship by Peter Drucker."
+    },
+    {
+     "no": 3,
+     "book": "Running Lean: Iterate from Plan A to a Plan That Works by Ash Maurya."
+    },
+    {
+     "no": 4,
+     "book": "The Ten Faces of Innovation by Tom Kelley and Jonathan Littman."
+    },
+    {
+     "no": 5,
+     "book": "The Innovator’s Dilemma by Clayton M. Christensen."
+    },
+    {
+     "no": 6,
+     "book": "The Invisible Advantage: How to Create a Culture of Innovation by Soren Kaplan."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed under heading 'DEPARTMENTAL ELECTIVE-VI' (p.28); code RPI087 from the DE-6 pool list on p.2.",
+    "Unit texts printed as short topic headings only (Unit-II is a single line 'Develop A Business Plan.') — verbatim as printed.",
+    "Book list printed under heading 'Books & references:' (p.32); recorded in textbooks.",
+    "Marks/credit from the printed Sem-VIII DE-6 slot row (p.2): 70/20/10/100, credit 3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Seminar",
+   "name_print": "SEMINAR",
+   "codes": [
+    "RMT851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ta": 100,
+    "total": 100
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed only as row 4 of the EIGHT SEMESTER scheme table (p.2): Core Deptt., 0-0-3, ESE (blank), CT (blank), TA 100, Total 100, Credit 2.",
+    "No unit texts, COs, books or experiment list printed for this subject in this document.",
+    "sessional row: document prints scheme-table L-T-P/marks only; no unit theory, COs or books printed anywhere in the doc (zero-guess omission)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project-2",
+   "name_print": "PROJECT-2",
+   "codes": [
+    "RMT852"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 12
+   },
+   "credit": 12,
+   "marks": {
+    "ese_te_pe": 350,
+    "sessional_ta": 250,
+    "total": 600
+   },
+   "subject_type": "sessional",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed only as row 5 of the EIGHT SEMESTER scheme table (p.2): Core Deptt., 0-0-12, ESE 350, CT (blank), TA 250, Total 600, Credit 12 (ESE 350 in the Th/Lab column and TA 250 in the Sessional column, exactly as printed; corroborated by the printed TOTAL row 560/60/380/1000/24).",
+    "No unit texts, COs, books or experiment list printed for this subject in this document.",
+    "sessional row: document prints scheme-table L-T-P/marks only; no unit theory, COs or books printed anywhere in the doc (zero-guess omission)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover",
+   "print": "STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH 4th YEAR MANUFACTURING TECHNOLOGY ON CHOICE BASED CREDIT SYSTEM (EFFECTIVE FROM THE SESSION: 2019-20)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "SEVENTH SEMESTER [cols: Sl.No. | Subject Code | Subject Name | Department | L-T-P | Th/Lab Marks ESE | Sessional CT | Sessional TA | Total | Credit]: 1 | (blank) | OPEN ELECTIVE COURSE-1 | Other Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3 ;; 2 | (blank) | DEPTT ELECTIVE COURSE-3 | Core Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3 ;; 3 | (blank) | DEPTT ELECTIVE COURSE-4 | Core Deptt. | 3-1-0 | 70 | 20 | 10 | 100 | 4 ;; 4 | RMT701 | Computer Integrated Manufacturing | Core Deptt. | 3-1-0 | 70 | 20 | 10 | 100 | 4 ;; 5 | RPI701 | Automation & Robotics | Core Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3 ;; 6 | RMT751 | Computer Aided Design Lab | Core Deptt. | 0-0-2 | 50 | (blank) | 50 | 100 | 1 ;; 7 | RPI751 | Automation & Robotics Lab | Core Deptt. | 0-0-2 | 50 | (blank) | 50 | 100 | 1 ;; 8 | RMT753 | INDUSTRIAL TRAINING | Core Deptt. | 0-0-3 | (blank) | (blank) | 100 | 100 | 2 ;; 9 | RMT754 | PROJECT-1 | Core Deptt. | 0-0-6 | (blank) | (blank) | 200 | 200 | 3",
+   "locator": "p.2"
+  },
+  {
+   "kind": "semester_summary",
+   "print": "TOTAL (SEVENTH SEMESTER): 450 100 450 1000 24",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "DEPARTMENTAL ELECTIVE-3 [Sub.Code | Subject Name]: RME070 Composite Materials ; RPI070 Advance Material Technology ; RAU072 Project Management ; RME073 Additive Manufacturing || DEPARTMENTAL ELECTIVE-4 [S.Code | Subject Name]: RPI075 Reverse Engineering ; RMT075 Total Quality Management ; RMT076 Maintenance Engg. & Management ; RMT077 Process Planning & Cost Estimation",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "EIGHT SEMESTER [cols: Sl.No. | Subject Code | Subject Name | Department | L-T-P | Th/Lab Marks ESE | Sessional CT | Sessional TA | Total | Credit]: 1 | (blank) | OPEN ELECTIVE COURSE-2 | Other Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3 ;; 2 | (blank) | DEPTT ELECTIVE COURSE-5 | Core Deptt. | 3-1-0 | 70 | 20 | 10 | 100 | 4 ;; 3 | (blank) | DEPTT ELECTIVE COURSE-6 | Core Deptt. | 3-0-0 | 70 | 20 | 10 | 100 | 3 ;; 4 | RMT851 | SEMINAR | Core Deptt. | 0-0-3 | (blank) | (blank) | 100 | 100 | 2 ;; 5 | RMT852 | PROJECT-2 | Core Deptt. | 0-0-12 | 350 | (blank) | 250 | 600 | 12",
+   "locator": "p.2"
+  },
+  {
+   "kind": "semester_summary",
+   "print": "TOTAL (EIGHT SEMESTER): 560 60 380 1000 24",
+   "locator": "p.2"
+  },
+  {
+   "kind": "note",
+   "print": "Students who was not-place in any company, it is mandatory to select any one subject from DE-5 & 6. / Students who was place in any company, it is mandatory to select MOOC subject in both DE-5 & 6.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "DEPARTMENTAL ELECTIVE-5 [S.Code | Subject Name]: RME080 Non-Destructive Testing ; RPI083 Supply Chain Management ; RMT080 Quality Engg. in Manufacturing ; RPI081 Lean Manufacturing || DEPARTMENTAL ELECTIVE-6 [S.Code | Subject Name]: RME085 Total Quality Management ; RPI085 Flexible Manufacturing System ; RPI086 Reliability Engineering ; RPI087 Innovation & Entrepreneurship",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_mooc",
+   "print": "DEPARTMENTAL ELECTIVE-5 OR [S. Code. | MOOC Subject Name]: RMT081 Mathematical Modeling of Manufacturing Processes. || DEPARTMENTAL ELECTIVE-6 OR [S.Code | MOOC Subject Name]: RAU088 Design for Quality, Manufacturing & Assembly.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "divider",
+   "print": "SEMESTER-VII",
+   "locator": "p.3"
+  },
+  {
+   "kind": "divider",
+   "print": "SEMESTER-VIII",
+   "locator": "p.22"
+  }
+ ],
+ "quirks": [
+  "Line-join convention: PDF line breaks normalized to single spaces; words hyphen-broken across lines joined without the break (e.g. 'electro-restrictive'); all other characters verbatim.",
+  "Sem-VII scheme TOTAL row prints 450 100 450 1000 24 (as printed; printed column sums of the 9 rows are 310/60/430/1000/24).",
+  "No CO tables with K-levels are printed anywhere in this document; only Reverse Engineering prints a 'Course Outcomes:' paragraph (p.17).",
+  "No per-unit lecture counts printed (lectures_per_unit omitted throughout).",
+  "TOTAL QUALITY MANAGEMENT (TQM) printed twice with identical unit texts and book lists: RMT075 under DEPARTMENTAL ELECTIVE-IV (Sem-VII, pp.18-19) and RME085 under DEPARTMENTAL ELECTIVE-VI (Sem-VIII, pp.28-29).",
+  "Open-elective and deptt-elective scheme rows are printed without subject codes (slot placeholders); DE pool codes are printed in the pool lists on p.2.",
+  "Text layer clean; cross-checked against PDF page extraction for pp.2, 8, 9, 21, 28."
+ ],
+ "flags": [
+  "duplicate_name_same_course: TOTAL QUALITY MANAGEMENT (TQM) printed for both RMT075 (Sem-VII DE-4) and RME085 (Sem-VIII DE-6); kept as two subjects per distinct printed codes/slots",
+  "RME085 TQM syllabus page (p.28) prints 'L-T-P' with blank value; L-T-P 3-0-0 evidenced by the printed Sem-VIII scheme DE-6 slot row (p.2), same value as all other DE-6 pool subjects"
+ ]
+}
