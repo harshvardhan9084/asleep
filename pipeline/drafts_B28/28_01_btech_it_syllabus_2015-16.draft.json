@@ -1,0 +1,1721 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2015-16/btech_it_syllabus_2015-16.pdf",
+ "session": "2015-16",
+ "course": "BTech",
+ "sha16": "5c9b900ce01c01e2",
+ "stem": "28_01_btech_it_syllabus_2015-16",
+ "subjects": [
+  {
+   "name": "Design and Analysis of Algorithms",
+   "name_print": "NCS- 501 Design and Analysis of Algorithms",
+   "codes": [
+    "NCS501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction : Algorithms, Analyzing algorithms, Complexity of algorithms, Growth of functions, Performance measurements, Sorting and order Statistics - Shell sort, Quick sort, Merge sort, Heap sort, Comparison of sorting algorithms, Sorting in linear time.",
+    "2": "Advanced Data Structures: Red-Black trees, B – trees, Binomial Heaps, Fibonacci Heaps.",
+    "3": "Divide and Conquer with examples such as Sorting, Matrix Multiplication, Convex hull and Searching. Greedy methods with examples such as Optimal Reliability Allocation, Knapsack, Minimum Spanning trees – Prim’s and Kruskal’s algorithms, Single source shortest paths - Dijkstra’s and Bellman Ford algorithms.",
+    "4": "Dynamic programming with examples such as Knapsack. All pair shortest paths – Warshal’s and Floyd’s algorithms, Resource allocation problem. Backtracking, Branch and Bound with examples such as Travelling Salesman Problem, Graph Coloring, n-Queen Problem, Hamiltonian Cycles and Sum of subsets.",
+    "5": "Selected Topics: Algebraic Computation, Fast Fourier Transform, String Matching, Theory of NP-completeness, Approximation algorithms and Randomized algorithms."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Thomas H. Coreman, Charles E. Leiserson and Ronald L. Rivest, “Introduction to Algorithms”, Printice Hall of India."
+    },
+    {
+     "no": 2,
+     "book": "E. Horowitz & S Sahni, \"Fundamentals of Computer Algorithms\","
+    },
+    {
+     "no": 3,
+     "book": "Aho, Hopcraft, Ullman, “The Design and Analysis of Computer Algorithms” Pearson Education, 2008."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Jon Kleinberg and Éva Tardos, Algorithm Design, Pearson, 2005."
+    },
+    {
+     "no": 2,
+     "book": "Michael T Goodrich and Roberto Tamassia, Algorithm Design: Foundations, Analysis, and Internet Examples, Second Edition, Wiley, 2006."
+    },
+    {
+     "no": 3,
+     "book": "Harry R. Lewis and Larry Denenberg, Data Structures and Their Algorithms, Harper Collins, 1997"
+    },
+    {
+     "no": 4,
+     "book": "Robert Sedgewick and Kevin Wayne, Algorithms, fourth edition, Addison Wesley, 2011."
+    },
+    {
+     "no": 5,
+     "book": "Harsh Bhasin,”Algorithm Design and Analysis”,First Edition,Oxford University Press."
+    },
+    {
+     "no": 6,
+     "book": "Gilles Brassard and Paul Bratley,Algorithmics:Theory and Practice,Prentice Hall,1995."
+    }
+   ],
+   "quirks": [
+    "p.4 heading prints code as 'NCS- 501' (hyphen+space); scheme table p.2 prints subject name 'Design and Analysis of Algorithm' (singular) vs heading 'Algorithms'",
+    "verbatim typos kept: 'Coreman', 'Printice Hall of India', 'Hopcraft', 'Warshal’s'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Database Management System",
+   "name_print": "NCS-502 Database Management System",
+   "codes": [
+    "NCS502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction: An overview of database management system, database system Vs file system, Database system concept and architecture, data model schema and instances, data independence and database language and interfaces, data definitions language, DML, Overall Database Structure. Data Modeling using the Entity Relationship Model: ER model concepts, notation for ER diagram, mapping constraints, keys, Concepts of Super Key, candidate key, primary key, Generalization, aggregation, reduction of an ER diagrams to tables, extended ER model, relationship of higher degree.",
+    "2": "Relational data Model and Language: Relational data model concepts, integrity constraints, entity integrity, referential integrity, Keys constraints, Domain constraints, relational algebra, relational calculus, tuple and domain calculus. Introduction on SQL: Characteristics of SQL, advantage of SQL. SQl data type and literals. Types of SQL commands. SQL operators and their procedure. Tables, views and indexes. Queries and sub queries. Aggregate functions. Insert, update and delete operations, Joins, Unions, Intersection, Minus, Cursors, Triggers, Procedures in SQL/PL SQL",
+    "3": "Data Base Design & Normalization: Functional dependencies, normal forms, first, second, third normal forms, BCNF, inclusion dependence, loss less join decompositions, normalization using FD, MVD, and JDs, alternative approaches to database design.",
+    "4": "Transaction Processing Concept: Transaction system, Testing of serializability, serializability of schedules, conflict & view serializable schedule, recoverability, Recovery from transaction failures, log based recovery, checkpoints, deadlock handling. Distributed Database: distributed data storage, concurrency control, directory system.",
+    "5": "Concurrency Control Techniques: Concurrency control, Locking Techniques for concurrency control, Time stamping protocols for concurrency control, validation based protocol, multiple granularity, Multi version schemes, Recovery with concurrent transaction, case study of Oracle."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Korth, Silbertz, Sudarshan,” Database Concepts”, McGraw Hill"
+    },
+    {
+     "no": 2,
+     "book": "Date C J, “ An Introduction to Database Systems”, Addision Wesley"
+    },
+    {
+     "no": 3,
+     "book": "Elmasri, Navathe, “ Fudamentals of Database Systems”, Addision Wesley"
+    },
+    {
+     "no": 4,
+     "book": "O’Neil, Databases, Elsevier Pub."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Leon & Leon,”Database Management Systems”, Vikas Publishing House"
+    },
+    {
+     "no": 2,
+     "book": "Bipin C. Desai, “ An Introduction to Database Systems”, Gagotia Publications"
+    },
+    {
+     "no": 3,
+     "book": "Majumdar & Bhattacharya, “Database Management System”, TMH"
+    }
+   ],
+   "quirks": [
+    "verbatim typos kept: 'SQl data type', 'Fudamentals of Database Systems', 'Addision Wesley', 'Gagotia Publications'",
+    "p.5 print runs textbook items 1-2 and reference items 1-2 on single lines; split at printed numerals (2., 2.)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Principle of Programming Language",
+   "name_print": "NCS- 503 Principle of Programming Language",
+   "codes": [
+    "NCS503"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction The Role of Programming Languages: Why Study Programming Languages, Towards Higher-Level languages, Programming paradigms, Programming environments Language Description: Syntactic structure, language Translation Issues: Programming language Syntax, Stages in translation, Formal translation Models",
+    "2": "Language Properties Modeling Language Properties, Elementary Data Types, Encapsulation, Inheritance, Sequence Control, Subprogram Control",
+    "3": "Programming Paradigms Imperative Programming: Statements, Types, Procedure Activations Object-Oriented Programming: Grouping Of Data and Operations, object oriented programming Functional Programming: Elements, Programming in a Typed language, Programming with lists",
+    "4": "Other Programming Paradigms Logic Programming, Concurrent Programming, Network Programming , Language Description: Semantic Methods",
+    "5": "Lambda Calculus Introduction to Lambda Calculus, Simple types, Subtyping"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "“Programming Languages: Design and Implementations” , Terrance W.Pratt, Marvin V. Zelkowitz, T.V.Gopal,Fourth ed.,Prentice Hall"
+    },
+    {
+     "no": 2,
+     "book": "“Programming Language Design Concept”, David A. Watt, Willey India"
+    },
+    {
+     "no": 3,
+     "book": "“Programming languages: Concepts and Constucts”, Ravi Sethi, Second Ed.,Pearson."
+    },
+    {
+     "no": 4,
+     "book": "“Types and programming Languages”, Benjamin C. Pierce. The MIT Press Cambridge, Massachusetts London, England"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Concepts of Programming Languages, Robert W. Sebesta, 10th Ed.,Pearson"
+    }
+   ],
+   "quirks": [
+    "verbatim typos kept: 'Constucts', 'Willey India', 'Terrance W.Pratt'",
+    "unit headings printed as short titles followed by topic lines without punctuation between them (e.g. 'Introduction / The Role of...'); joined with single space"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Web Technology",
+   "name_print": "NCS- 504 Web Technology",
+   "codes": [
+    "NCS504"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction: Introduction and Web Development Strategies, History of Web and Internet, Protocols governing Web, Writing Web Projects, Connecting to Internet, Introduction to Internet services and tools, Introduction to client-server computing. Core Java: Introduction, Operator, Data type, Variable, Arrays, Methods & Classes, Inheritance, Package and Interface, Exception Handling, Multithread programming, I/O, Java Applet, String handling, Event handling, Introduction to AWT, AWT controls, Layout managers.",
+    "2": "Web Page Designing: HTML: list, table, images, frames, forms, CSS, Document type definition, XML: DTD, XML schemes, Object Models, presenting and using XML, Using XML Processors: DOM and SAX, Dynamic HTML.",
+    "3": "Scripting: Java script: Introduction, documents, forms, statements, functions, objects; introduction to AJAX, VB Script, Introduction to Java Beans, Advantage, Properties, BDK, Introduction to EJB, Java Beans API.",
+    "4": "Server Site Programming: Introduction to active server pages (ASP), Introduction to Java Server Page (JSP), JSP Application Design, JSP objects, Conditional Processing, Declaring variables and methods, Sharing data between JSP pages, Sharing Session and Application Data, Database Programming using JDBC, development of java beans in JSP, Introduction to Servelets, Lifecycle, JSDK, Servlet API, Servlet Packages, Introduction to COM/DCOM/CORBA.",
+    "5": "PHP (Hypertext Preprocessor): Introduction, syntax, variables, strings, operators, if-else, loop, switch, array, function, form, mail, file upload, session, error, exception, filter, PHP-ODBC,"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Burdman, Jessica, “Collaborative Web Development” Addison Wesley"
+    },
+    {
+     "no": 2,
+     "book": "Xavier, C, “ Web Technology and Design” , New Age International"
+    },
+    {
+     "no": 3,
+     "book": "Ivan Bayross,” HTML, DHTML, Java Script, Perl & CGI”, BPB Publication"
+    },
+    {
+     "no": 4,
+     "book": "Bhave, “Programming with Java”, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Herbert Schieldt, “The Complete Reference:Java”, TMH."
+    },
+    {
+     "no": 6,
+     "book": "Hans Bergsten, “Java Server Pages”, SPD O’Reilly"
+    },
+    {
+     "no": 6,
+     "book": "Ullman, “PHP for the Web: Visual QuickStart Guide”, Pearson Education"
+    },
+    {
+     "no": 7,
+     "book": "Margaret Levine Young, “The Complete Reference Internet”, TMH"
+    },
+    {
+     "no": 8,
+     "book": "Naughton, Schildt, “The Complete Reference JAVA2”, TMH"
+    },
+    {
+     "no": 9,
+     "book": "Balagurusamy E, “Programming in JAVA”, TMH"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Ramesh Bangia, “Internet and Web Design” , New Age International"
+    },
+    {
+     "no": 2,
+     "book": "Ivan Bayross,” HTML, DHTML, Java Script, Perl & CGI”, BPB Publication"
+    },
+    {
+     "no": 3,
+     "book": "Deitel, “Java for programmers”, Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "Chris Bates, “Web Programing Building Internet Applications”, 2nd Edition, WILEY, Dreamtech"
+    },
+    {
+     "no": 5,
+     "book": "Joel Sklar , “Principal of web Design” Vikash and Thomas Learning"
+    },
+    {
+     "no": 6,
+     "book": "Horstmann, “CoreJava”, Addison Wesley"
+    }
+   ],
+   "quirks": [
+    "p.7 Text books list prints TWO entries numbered 6 ('6. Hans Bergsten…' and '6. Ullman…') — duplicate numeral in print; transcribed verbatim",
+    "verbatim typos kept: 'Servelets', 'Web Programing', 'Principal of web Design', 'Vikash and Thomas Learning', 'Schieldt'",
+    "unit V text ends with trailing comma 'PHP-ODBC,' immediately before 'Text books:' (printed so)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "MANAGEMENT INFORMATION SYSTEMS",
+   "name_print": "NIT 501 MANAGEMENT INFORMATION SYSTEMS",
+   "codes": [
+    "NIT501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Foundation of Information Systems: Introduction to information system in business, fundamentals of information systems, Solving business problems with information systems, Types of information systems, Effectiveness and efficiency criteria in information system.",
+    "2": "An overview of Management Information Systems: Definition of a management information system, MIS versus Data processing, MIS & Decision Support Systems, MIS & Information Resources Management, End user computing, Concept of an MIS,Structure of a Management information system.",
+    "3": "Concepts of planning: Concept of organizational planning, The Planning Process, Computational support for planning. Business applications of information technology: Internet & electronic commerce and its applications Enterprise Solutions, Information System for Business Operations(SDLC),Information System for Strategic Advantage,Decision Support Systems and its benefits and characterstics.",
+    "4": "Managing Information Technology: Enterprise & global management, Security & Ethical challenges, Planning & Implementing changes. Advanced Concepts in Information Systems: Enterprise Resource Planning, Supply Chain Management, Customer Relationship Management, and Procurement Management."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "O Brian, “Management Information System”, TMH"
+    },
+    {
+     "no": 2,
+     "book": "Gordon B. Davis & Margrethe H. Olson, “Management Information System”, TMH"
+    },
+    {
+     "no": 3,
+     "book": "Ravi Kalakota, Andrew Winston, “Frontiers of Electronic Commerce”, Addison Wesley."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "O Brian, “Introduction to Information System”, MCGRAW HILL."
+    },
+    {
+     "no": 2,
+     "book": "Murdick, “Information System for Modern Management”, PHI."
+    },
+    {
+     "no": 3,
+     "book": "Jawadekar, “ Management Information System”, TMH."
+    },
+    {
+     "no": 4,
+     "book": "Jain Sarika, “Information System”, PPM"
+    },
+    {
+     "no": 5,
+     "book": "Davis, “Information System”, Palgrave Macmillan"
+    }
+   ],
+   "quirks": [
+    "p.8 prints ONLY Units I-IV; no Unit-V text printed for this subject (checked text layer and word coordinates)",
+    "print headers: 'TEXT BOOK:' and 'REFRENCE BOOKS:-' (typo 'REFRENCE' kept verbatim); 'characterstics' typo kept",
+    "scheme table p.2 prints subject name 'Management Information System' (singular) vs heading plural 'MANAGEMENT INFORMATION SYSTEMS'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Engineering Economics",
+   "name_print": "Engineering Economics",
+   "codes": [
+    "NHU501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "quirks": [
+    "scheme row only: p.2 row 6 '6 NHU Engineering Economics 2 0 0 15 10 25 50 75 2 (501)' — no unit theory, COs, or books printed anywhere in the document for this subject"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Design and analysis of algorithms Lab",
+   "name_print": "NCS 551 Design and analysis of algorithms Lab",
+   "codes": [
+    "NCS551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Program for Recursive Binary & Linear Search."
+    },
+    {
+     "no": 2,
+     "exp": "Program for Heap Sort."
+    },
+    {
+     "no": 3,
+     "exp": "Program for Merge Sort."
+    },
+    {
+     "no": 4,
+     "exp": "Program for Selection Sort."
+    },
+    {
+     "no": 5,
+     "exp": "Program for Insertion Sort."
+    },
+    {
+     "no": 6,
+     "exp": "Program for Quick Sort."
+    },
+    {
+     "no": 7,
+     "exp": "Study of NP-Complete theory."
+    },
+    {
+     "no": 8,
+     "exp": "Study of Cook’s theorem."
+    },
+    {
+     "no": 9,
+     "exp": "Study of Sorting network."
+    }
+   ],
+   "quirks": [
+    "list printed under label 'Objective :-' (p.9); recorded as the lab's experiment list",
+    "scheme table p.2 prints subject name 'Design and Analysis of Algorithm Lab' vs p.9 heading 'Design and analysis of algorithms Lab'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "DBMS Lab",
+   "name_print": "NCS 552 DBMS Lab",
+   "codes": [
+    "NCS552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Installing oracle."
+    },
+    {
+     "no": 2,
+     "exp": "Creating Entity-Relationship Diagram using case tools."
+    },
+    {
+     "no": 3,
+     "exp": "Writing SQL statements Using ORACLE /MYSQL: a)Writing basic SQL SELECT statements. b)Restricting and sorting data. c)Displaying data from multiple tables. d)Aggregating data using group function. e)Manipulating data. e)Creating and managing tables."
+    },
+    {
+     "no": 4,
+     "exp": "Normalization in ORACLE."
+    },
+    {
+     "no": 5,
+     "exp": "Creating cursor in oracle."
+    },
+    {
+     "no": 6,
+     "exp": "Creating procedure and functions in oracle."
+    },
+    {
+     "no": 7,
+     "exp": "Creating packages and triggers in oracle."
+    }
+   ],
+   "quirks": [
+    "list printed under label 'Objectives:-' (p.9)",
+    "item 3 sub-list prints two 'e)' sub-items ('e)Manipulating data. e)Creating and managing tables.') — duplicate letter in print, kept verbatim"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Principles of programming languages",
+   "name_print": "NCS 553 Principles of programming languages",
+   "codes": [
+    "NCS553"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Define a LISP function to compute sum of squares."
+    },
+    {
+     "no": 2,
+     "exp": "Define a LISP function to compute difference of squares. (if x > y return x2 -y 2 , otherwise y2 - x2 )"
+    },
+    {
+     "no": 3,
+     "exp": "Define a Recursive LISP function to solve Ackermann’s Function."
+    },
+    {
+     "no": 4,
+     "exp": "Define a Recursive LISP function to compute factorial of a given number."
+    },
+    {
+     "no": 5,
+     "exp": "Define a Recursive LISP function which takes one argument as a list and returns last element of the list. (do not use last predicate)"
+    },
+    {
+     "no": 6,
+     "exp": "Define a Recursive LISP function which takes one argument as a list and returns a list except last element of the list. (do not use but last predicate)"
+    },
+    {
+     "no": 7,
+     "exp": "Define a Recursive LISP function which takes one argument as a list and returns reverse of the list. (do not use reverse predicate)"
+    },
+    {
+     "no": 8,
+     "exp": "Define a Recursive LISP function which takes two arguments first, an atom, second, a list, returns a list after removing first occurrence of that atom within the list."
+    }
+   ],
+   "quirks": [
+    "p.9 list has NO printed label (no 'Objective :-' heading) — items printed directly under heading",
+    "scheme table p.2 prints subject name 'Principle of Programming Language Lab' vs p.9 heading 'NCS 553 Principles of programming languages' (name mismatch in print)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Web Technology Lab",
+   "name_print": "NCS 554 Web Technology Lab",
+   "codes": [
+    "NCS554"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write HTML/Java scripts to display your CV in navigator, your Institute website, Department Website and Tutorial website for specific subject"
+    },
+    {
+     "no": 2,
+     "exp": "Design HTML form for keeping student record and validate it using Java script."
+    },
+    {
+     "no": 3,
+     "exp": "Write an HTML program to design an entry form of student details and send it to store at database server like SQL, Oracle or MS Access."
+    },
+    {
+     "no": 4,
+     "exp": "Write programs using Java script for Web Page to display browsers information."
+    },
+    {
+     "no": 5,
+     "exp": "Write a Java applet to display the Application Program screen i.e. calculator and other."
+    },
+    {
+     "no": 6,
+     "exp": "Writing program in XML for creation of DTD, which specifies set of rules. Create a style sheet in CSS/ XSL & display the document in internet explorer."
+    },
+    {
+     "no": 7,
+     "exp": "Using ASP for server side programming, ASP for user name and password and to retrieve & match the value. It display success and failure messages. ASP for creating text file local drive, ASP for keeping the student record in database."
+    },
+    {
+     "no": 8,
+     "exp": "Program to illustrate JDBC connectivity. Program for maintaining database by sending queries. Design and implement a simple servlet book query with the help of JDBC & SQL. Create MS Access Database, Create on ODBC link, Compile & execute JAVA JDVC Socket."
+    },
+    {
+     "no": 9,
+     "exp": "Design and implement a simple shopping cart example with session tracking API."
+    }
+   ],
+   "quirks": [
+    "list printed under label 'Objectives:-' (p.10); verbatim kept: 'JAVA JDVC Socket', 'Create on ODBC link'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "GP",
+   "name_print": "GP",
+   "codes": [
+    "NGP501"
+   ],
+   "semester": 5,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "quirks": [
+    "scheme row only: p.2 row 11 '11 NGP GP [L/T/P blank] [CT/TA blank] 50(sessional total) [ESE blank] 50(subject total) [credit blank] (501)' — no unit theory/experiments printed anywhere",
+    "expansion of 'GP' not printed anywhere in the document (not expanded in print)",
+    "L-T-P and credit cells printed blank in the scheme row"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Computer Networks",
+   "name_print": "NCS-601 Computer Networks",
+   "codes": [
+    "NCS601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction Concepts: Goals and Applications of Networks, Network structure and architecture, The OSI reference model, services, Network Topology Design - Delay Analysis, Back Bone Design, Local Access Network Design, Physical Layer Transmission Media, Switching methods, ISDN, Terminal Handling.",
+    "2": "Medium Access sub layer: Medium Access sub layer - Channel Allocations, LAN protocols - ALOHA protocols - Overview of IEEE standards - FDDI. Data Link Layer - Elementary Data Link Protocols, Sliding Window protocols, Error Handling.",
+    "3": "Network Layer: Network Layer - Point - to Pont Networks, routing, Congestion control Internetworking -TCP / IP, IP packet, IP address, IPv6.",
+    "4": "Transport Layer: Transport Layer - Design issues, connection management, session Layer-Design issues, remote procedure call. Presentation Layer-Design issues, Data compression techniques, cryptography - TCP - Window Management.",
+    "5": "Application Layer: Application Layer: File Transfer, Access and Management, Electronic mail, Virtual Terminals, Other application. Example Networks - Internet and Public Networks."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Forouzen, \"Data Communication and Networking\", TMH"
+    },
+    {
+     "no": 2,
+     "book": "A.S. Tanenbaum, Computer Networks, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "W. Stallings, Data and Computer Communication, Macmillan Press"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Anuranjan Misra, “Computer Networks”, Acme Learning"
+    },
+    {
+     "no": 2,
+     "book": "G. Shanmugarathinam, ”Essential of TCP/ IP”, Firewall Media"
+    }
+   ],
+   "quirks": [
+    "verbatim typos kept: 'Point - to Pont Networks', 'Forouzen', print header 'REFRENCES:'",
+    "unit III line 'Congestion control Internetworking' printed without punctuation between the two phrases (line-broken in print); joined with single space"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Software Engineering",
+   "name_print": "NCS- 602 Software Engineering",
+   "codes": [
+    "NCS602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction:Introduction to Software Engineering, Software Components, Software Characteristics, Software Crisis, Software Engineering Processes, Similarity and Differences from Conventional Engineering Processes, Software Quality Attributes. Software Development Life Cycle (SDLC) Models: Water Fall Model, Prototype Model, Spiral Model, Evolutionary Development Models, Iterative Enhancement Models.",
+    "2": "Software Requirement Specifications (SRS):Requirement Engineering Process: Elicitation, Analysis, Documentation, Review and Management of User Needs, Feasibility Study, Information Modeling, Data Flow Diagrams, Entity Relationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS.Software Quality Assurance (SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 Models, SEI-CMM Model.",
+    "3": "Software Design:Basic Concept of Software Design, Architectural Design, Low Level Design: Modularization, Design Structure Charts, Pseudo Codes, Flow Charts, Coupling and Cohesion Measures, Design Strategies: Function Oriented Design, Object Oriented Design, Top-Down and Bottom-Up Design. Software Measurement and Metrics: Various Size Oriented Measures: Halestead’s Software Science, Function Point (FP) Based Measures, Cyclomatic Complexity Measures: Control Flow Graphs.",
+    "4": "Software Testing:Testing Objectives, Unit Testing, Integration Testing, Acceptance Testing, Regression Testing, Testing for Functionality and Testing for Performance, Top-Down and Bottom-Up Testing Strategies: Test Drivers and Test Stubs, Structural Testing (White Box Testing), Functional Testing (Black Box Testing), Test Data Suit Preparation, Alpha and Beta Testing of Products.Static Testing Strategies: Formal Technical Reviews (Peer Reviews), Walk Through, Code Inspection, Compliance with Design and Coding Standards.",
+    "5": "Software Maintenance and Software Project Management:Software as an Evolutionary Entity, Need for Maintenance, Categories of Maintenance: Preventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-Engineering, Reverse Engineering. Software Configuration Management Activities, Change Control Process, Software Version Control, An Overview of CASE Tools. Estimation of Various Parameters such as Cost, Efforts, Schedule/Duration, Constructive Cost Models (COCOMO), Resource Allocation Models, Software Risk Analysis and Management."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "R. S. Pressman, Software Engineering: A Practitioners Approach, McGraw Hill."
+    },
+    {
+     "no": 2,
+     "book": "Rajib Mall, Fundamentals of Software Engineering, PHI Publication."
+    },
+    {
+     "no": 3,
+     "book": "K. K. Aggarwal and Yogesh Singh, Software Engineering, New Age International Publishers."
+    },
+    {
+     "no": 4,
+     "book": "Pankaj Jalote, Software Engineering, Wiley"
+    },
+    {
+     "no": 5,
+     "book": "Deepak Jain,”Software Engineering:Principles and Practices”,Oxford University Press."
+    }
+   ],
+   "quirks": [
+    "verbatim kept: 'Halestead’s Software Science' (for Halstead), 'Test Data Suit Preparation', heading code 'NCS- 602' (hyphen+space)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Compiler Design",
+   "name_print": "NCS-603 Compiler Design",
+   "codes": [
+    "NCS603"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "theory",
+   "units": {
+    "1": "Introduction to Compiler, Phases and passes, Bootstrapping, Finite state machines and regular expressions and their applications to lexical analysis, Optimization of DFA-Based Pattern Matchers implementation of lexical analyzers, lexical-analyzer generator, LEX-compiler, Formal grammars and their application to syntax analysis, BNF notation, ambiguity, YACC. The syntactic specification of programming languages: Context free grammars, derivation and parse trees, capabilities of CFG.",
+    "2": "Basic Parsing Techniques: Parsers, Shift reduce parsing, operator precedence parsing, top down parsing, predictive parsers Automatic Construction of efficient Parsers: LR parsers, the canonical Collection of LR(0) items, constructing SLR parsing tables, constructing Canonical LR parsing tables, Constructing LALR parsing tables, using ambiguous grammars, an automatic parser generator, implementation of LR parsing tables.",
+    "3": "Syntax-directed Translation: Syntax-directed Translation schemes, Implementation of Syntax-directed Translators, Intermediate code, postfix notation, Parse trees & syntax trees, three address code, quadruple & triples, translation of assignment statements, Boolean expressions, statements that alter the flow of control, postfix translation, translation with a top down parser. More about translation: Array references in arithmetic expressions, procedures call, declarations and case statements.",
+    "4": "Symbol Tables: Data structure for symbols tables, representing scope information. Run-Time Administration: Implementation of simple stack allocation scheme, storage allocation in block structured language. Error Detection & Recovery: Lexical Phase errors, syntactic phase errors semantic errors.",
+    "5": "Code Generation: Design Issues, the Target Language. Addresses in the Target Code, Basic Blocks and Flow Graphs, Optimization of Basic Blocks, Code Generator. Code optimization: Machine-Independent Optimizations, Loop optimization, DAG representation of basic blocks, value numbers and algebraic laws, Global Data-Flow analysis."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Aho, Sethi & Ullman, \"Compilers: Principles, Techniques and Tools”, Pearson Education"
+    },
+    {
+     "no": 2,
+     "book": "V Raghvan, “ Principles of Compiler Design”, TMH"
+    },
+    {
+     "no": 3,
+     "book": "Kenneth Louden,” Compiler Construction”, Cengage Learning."
+    },
+    {
+     "no": 4,
+     "book": "Charles Fischer and Ricard LeBlanc,” Crafting a Compiler with C”, Pearson Education"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "K. Muneeswaran,Compiler Design,First Edition,Oxford University Press."
+    },
+    {
+     "no": 2,
+     "book": "J.P. Bennet, “Introduction to Compiler Techniques”, Second Edition, Tata McGraw-Hill, 2003."
+    },
+    {
+     "no": 3,
+     "book": "Henk Alblas and Albert Nymeyer,“Practice and Principles of Compiler Building with C”, PHI, 2001."
+    }
+   ],
+   "quirks": [
+    "print header 'Refrences:' (typo) kept; verbatim typos kept: 'V Raghvan', 'J.P. Bennet', 'Ricard LeBlanc'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Information Retrieval and Management",
+   "name_print": "NIT-061 Information Retrieval and Management",
+   "codes": [
+    "NIT061"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Basic Concepts of IR, Data Retrieval & Information Retrieval, IR system block diagram. Automatic Text Analysis, Luhn's ideas, Conflation Algorithm, Indexing and Index Term Weighing, Probabilistic Indexing, Automatic Classification. Measures of Association, Different Matching Coefficient, Classification Methods, Cluster Hypothesis. Clustering Algorithms, Single Pass Algorithm, Single Link Algorithm, Rochhio's Algorithm and Dendograms",
+    "2": "File Structures, Inverted file, Suffix trees & suffix arrays, Signature files, Ring Structure, IR Models, Basic concepts, Boolean Model, Vector Model, and Fuzzy Set Model. Search Strategies, Boolean search, serial search, and clusterbased retrieval, Matching Function. Performance Evaluation- Precision and recall, alternative measures reference collection (TREC Collection), Libraries & Bibliographical system- Online IR system, OPACs, Digital libraries - Architecture issues, document models, representation & access, Prototypes, projects & interfaces, standards",
+    "3": "Taxonomy and Ontology: Creating domain specific ontology, Ontology life cycle Distributed and Parallel IR: Relationships between documents, Identify appropriate networked collections, Multiple distributed collections simultaneously, Parallel IR - MIMD Architectures, Distributed IR – Collection Partitioning, Source Selection, Query Processing",
+    "4": "Multimedia IR models & languages- data modeling, Techniques to represent audio and visual document, query languages Indexing & searching- generic multimedia indexing approach, Query databases of multimedia documents, Display the results of multimedia searches, one dimensional time series, two dimensional color images, automatic feature extraction.",
+    "5": "Searching the Web, Challenges, Characterizing the Web, Search Engines, Browsing, Mata searchers, Web crawlers, robot exclusion, Web data mining, Metacrawler, Collaborative filtering, Web agents (web shopping, bargain finder), Economic, ethical, legal and political issues.."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Yates & Neto, \"Modern Information Retrieval\", Pearson Education, ISBN 81-297-0274-6"
+    },
+    {
+     "no": 2,
+     "book": "I. Witten, A. Moffat, and T. Bell, “Managing Gigabytes” 4. D. Grossman and O. Frieder “Information Retrieval: Algorithms and Heuristics”"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Mark leven, “Introduction to search engines and web navigation”, John Wiley and sons Inc., ISBN 9780-170-52684-2."
+    },
+    {
+     "no": 2,
+     "book": "V. S. Subrahamanian, Satish K. Tripathi “Multimedia information System”, Kulwer Academic Publisher"
+    },
+    {
+     "no": 3,
+     "book": "Chabane Djeraba, ”Multimedia mining A highway to intelligent multimedia documents”, Kulwer Academic Publisher, ISBN 1-4020-7247-3"
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.14); p.3 elective pool lists 'NIT 061: Information Retrieval and Management'",
+    "Text Books item 2 embeds a stray numeral '4.' before 'D. Grossman and O. Frieder' inside the same numbered item (print artifact, kept verbatim)",
+    "verbatim typos kept: 'Rochhio's', 'clusterbased', 'Mata searchers', 'Dendograms', 'Mark leven', 'Subrahamanian', 'Kulwer', unit V ends 'issues..' (double period)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Modelling and Simulation",
+   "name_print": "NIT-062 Modelling and Simulation",
+   "codes": [
+    "NIT062"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "System definition and components, stochastic activities, continuous and discrete systems, System modeling, Types of models, static and dynamic physical models, static and dynamic mathematical models, full corporate model, types of system study.",
+    "2": "System simulation, Need of simulation, Basic nature of simulation, techniques of simulation, comparison of simulation and analytical methods, types of system Simulation, real time simulation, hybrid simulation, simulation of pursuit problem, single-server queuing system and an inventory problem, Monte-Carlo simulation, Distributed Lag model, Cobweb model.",
+    "3": "Simulation of continuous Systems, analog vs digital simulation, simulation of water reservoir system, simulation of a servo system, simulation of an auto-pilot. Discrete system simulation, fixed time-step vs event-to-event model, generation of random numbers, test of randomness, Monte-Carlo computation vs stochastic simulation.",
+    "4": "System dynamics ,exponential growth models, exponential decay models, logistic curves, system dynamics diagrams, world model.",
+    "5": "Simulation of PERT networks, critical path computation, uncertaintities in activityduration, resource allocation and consideration, Simulation languages, object oriented simulation."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Geoftrey Gordon, “System Simulation”, PHI"
+    },
+    {
+     "no": 2,
+     "book": "Narsingh Deo, “System Simulation with digital computer”, PHI."
+    },
+    {
+     "no": 3,
+     "book": "Averill M. Law, W. David Kelton, “Simulation Modelling and Analysis”,TMH."
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.15); p.3 elective pool prints 'NIT 062: Modeling & Simulation' (name variant 'Modeling & Simulation' vs heading 'Modelling and Simulation')",
+    "verbatim typos kept: 'Geoftrey Gordon', 'uncertaintities', 'activityduration'; textbooks print runs items 2-3 on one line, split at printed '3)'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Bioinformatics",
+   "name_print": "NIT-063 Bioinformatics",
+   "codes": [
+    "NIT063"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Bioinformatics objectives and overviews, Interdisciplinary nature of Bioinformatics, Data integration, Data analysis, Major Bioinformatics databases and tools. Metadata: Summary & reference systems, finding new type of data online. Molecular Biology and Bioinformatics: Systems approach in biology, Central dogma of molecular biology, problems in molecular approach and the bioinformatics approach, oerview of the bioinformatics applications.",
+    "2": "Basic chemistry of nucleic acids, Structure of DNA, Structure of RNA, DNA Replication, Transcription-Translation, Genes- the functional elements in DNA, Analyzing DNA,DNA sequencing. Proteins: Amino acids, Protein structure, Secondary, Tertiary and Quaternary structure, Protein folding and function, Nucleic acid-Protein interaction.",
+    "3": "Perl Basics, Perl applications for bioinformatics- Bioperl, Linux Operating System, mounting/unmounting files, tar, gzip / gunzip, telnet, ftp, developing applications on Linux OS, Understanding and Using Biological Databases, Overview of Java, CORBA, XML, Web deployment concepts.",
+    "4": "Genome, Genomic sequencing, expressed sequence tags, gene expression, transcription factor binding sites and single nucleotide polymorphism. Computational representations of molecular biological data storage techniques: databases (flat, relational and object oriented), and controlled vocabularies, general data retrieval techniques: indices, Boolean search, fuzzy search and neighboring, application to biological data warehouses.",
+    "5": "Macromolecular structures, chemical compounds, generic variability and its connection to clinical data. Representation of patterns and relationships: sequence alignment algorithms, regular expressions, hierarchies and graphical models, Phylogenetics. BLAST."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "D E Krane & M L Raymer, ” Fundamental concepts of Bioinformatics”, Perason Education."
+    },
+    {
+     "no": 2,
+     "book": "Rastogi, Mendiratta, Rastogi, “Bioinformatics Methods & applications, Genomics, Proteomics & Drug Discovery” PHI, New Delhi"
+    },
+    {
+     "no": 3,
+     "book": "Shubha Gopal et.al. “ Bioinformatics: with fundamentals of genomics and proteomics”, Mc Graw Hill."
+    },
+    {
+     "no": 4,
+     "book": "O’Reilly, “ Developing Bio informatics computer skills”, CBS"
+    },
+    {
+     "no": 5,
+     "book": "Forsdyke, “Evolutionary Bioinformatics”, Springer"
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.16); p.3 elective pool lists 'NIT 063: Bioinformatics'",
+    "verbatim typos kept: 'oerview of the bioinformatics applications', 'Perason Education', 'Analyzing DNA,DNA sequencing'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Knowledge based decision Support System",
+   "name_print": "NIT-064 Knowledge based decision Support System",
+   "codes": [
+    "NIT064"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "DECISION MAKING AND COMPUTERIZED SUPPORT : Management Support Systems: An Overview - Decision Making, Systems, Modeling , and Support.",
+    "2": "DECISION SUPPORT SYSTEMS: Decision Support Systems: An Overview - Modeling and Analysis - Business Intelligence: Data Warehousing, Data Acquisition, Data Mining, Business Analysis, and Visualization - Decision Support System Development.",
+    "3": "COLLABORATION, COMMUNICATION, ENTERPRISE DECISION SUPPORT SYSTEMS, AND KNOWLEDGE MANAGEMENT: Collaborative Computing Technologies: Group Support Systems - Enterprise Information Systems - knowledge Management.",
+    "4": "INTELLIGENT DECISION SUPPORT SYSTEMS: Artificial Intelligence and Expert Systems: Knowledge-Based System - Knowledge Acquisition, Representation, and Reasoning - Advanced Intelligent Systems - Intelligent Systems over the Internet.",
+    "5": "IMPLEMENTING IN THE E-BUSINESS ERA : Electronic Commerce - Integration, Impacts, and the Future of the Management Support Systems."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Efraim Turban, Jay Aronson E., Ting-Peng Liang, \"Decision Support Systems and Intelligent Systems\", 7th Edition, Pearson Education, 2006."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "George M .Marakas , \"Decision Support Systems in the 21st century\",2nd Edition, PHI, 2009."
+    },
+    {
+     "no": 2,
+     "book": "Janakiraman V.S., Sarukesi K., “ Decision Support Systems”, PHI, 2009."
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.17); p.3 elective pool prints 'NIT 064: Knowledge based & decision Support System' (variant with '&')",
+    "verbatim kept: 'George M .Marakas' (stray space), 'Modeling , and Support.' (space before comma)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Geographic Information System",
+   "name_print": "NIT-065 Geographic Information System",
+   "codes": [
+    "NIT065"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "FUNDAMENTALS OF GIS,What is GIS – Introduction Defining GIS – Components of a GIS – Spatial data – Introduction - Maps and their influence on the character of spatial data – Other sources of spatial data",
+    "2": "SPATIAL DATA MODELING :Introduction – Entity definition – Spatial data models – Spatial data structures – Modeling surfaces – Modeling networks – Building computer networks – Modeling the third dimension – modeling the fourth dimension - Attribute data management - Introduction – Why choose a databaseapproach? - Database data models – Creating a database – GIS database applications – Developments in databases",
+    "3": "DATA INPUT AND EDITING :Introduction – Methods of data input – Data editing – Towards an integrated database - Data analysis: Introduction – Measurements in GIS – lengths, perimeters and areas – Queries – Reclassification – Buffering and neighborhood functions – Integrating data –map overlay – Spatial interpolation – Network analysis.",
+    "4": "ANALYTICAL MODELING IN GIS : Introduction – process models – Modeling physical and environmental processes – Modeling human Processes –Modeling the decision – making process – Problems with using GIS to model spatial processes - Output: from new maps to enhanced decisions: Introduction – Maps as output – Non-cartographic output – Spatial multimedia – Mechanisms of delivery – GIS and spatial decision support",
+    "5": "ISSUES IN GIS - The development of computer methods for handling spatial data – Introduction – Handling spatial data manually – The development of computer methods for handling spatial data – The development of GIS - Data quality issues – Introduction –Describing data quality and errors sources of errors in GIS"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Ian Heywood, Sarah Cornelius and Steve carver, “Introduction to geographical information systems”, Pearson Education, 4th Edition, 2012."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "DeMers, M.N., “Fundamentals of Geographic Information Systems”, 3 rdEdition, Wiley Press, 2009."
+    },
+    {
+     "no": 2,
+     "book": "Lo C.P. and Yeung, A.K.W.,”Concepts and Techniques of Geographic Information Systems”, Prentice Hall, 2002."
+    },
+    {
+     "no": 3,
+     "book": "Burrough, P.A. and R.A. McDonald, “Principles of Geographical Information Systems”, Oxford University Press, 1998."
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-I' (p.18); p.3 elective pool lists 'NIT 065: Geographic Information System'",
+    "verbatim kept: 'databaseapproach' (missing space), '3 rdEdition', 'Integrating data –map overlay' (space before dash), 'Steve carver'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Data warehousing & Data Mining",
+   "name_print": "NCS-066 Data warehousing & Data Mining",
+   "codes": [
+    "NCS066"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Data Warehousing: Overview, Definition, Data Warehousing Components, Building a Data Warehouse, Warehouse Database, Mapping the Data Warehouse to a Multiprocessor Architecture, Difference between Database System and Data Warehouse, Multi Dimensional Data Model, Data Cubes, Stars, Snow Flakes, Fact Constellations, Concept hierarchy, Process Architecture, 3 Tier Architecture, Data Marting.",
+    "2": "Data Warehouse Process and Technology: Warehousing Strategy, Warehouse /management and Support Processes, Warehouse Planning and Implementation, Hardware and Operating Systems for Data Warehousing, Client/Server Computing Model & Data Warehousing. Parallel Processors & Cluster Systems, Distributed DBMS implementations, Warehousing Software, Warehouse Schema Design, Data Extraction, Cleanup & Transformation Tools, Warehouse Metadata",
+    "3": "Data Mining: Overview, Motivation, Definition & Functionalities, Data Processing, Form of Data Preprocessing, Data Cleaning: Missing Values, Noisy Data,(Binning, Clustering, Regression, Computer and Human inspection),Inconsistent Data, Data Integration and Transformation. Data Reduction:-Data Cube Aggregation, Dimensionality reduction, Data Compression, Numerosity Reduction, Discretization and Concept hierarchy generation, Decision Tree.",
+    "4": "Classification: Definition, Data Generalization, Analytical Characterization, Analysis of attribute relevance, Mining Class comparisons, Statistical measures in large Databases, Statistical-Based Algorithms, Distance-Based Algorithms, Decision Tree-Based Algorithms. Clustering: Introduction, Similarity and Distance Measures, Hierarchical and Partitional Algorithms. Hierarchical Clustering- CURE and Chameleon. Density Based Methods-DBSCAN, OPTICS. Grid Based Methods- STING, CLIQUE. Model Based Method –Statistical Approach, Association rules: Introduction, Large Itemsets, Basic Algorithms, Parallel and Distributed Algorithms, Neural Network approach.",
+    "5": "Data Visualization and Overall Perspective: Aggregation, Historical information, Query Facility, OLAP function and Tools. OLAP Servers, ROLAP, MOLAP, HOLAP, Data Mining interface, Security, Backup and Recovery, Tuning Data Warehouse, Testing Data Warehouse. Warehousing applications and Recent Trends: Types of Warehousing Applications, Web Mining, Spatial Mining and Temporal Mining."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Alex Berson, Stephen J. Smith “Data Warehousing, Data-Mining & OLAP”, TMH"
+    },
+    {
+     "no": 2,
+     "book": "Mark Humphries, Michael W. Hawkins, Michelle C. Dy, “ Data Warehousing: Architecture and Implementation”, Pearson"
+    },
+    {
+     "no": 3,
+     "book": "Margaret H. Dunham, S. Sridhar,”Data Mining:Introductory and Advanced Topics” Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "Arun K. Pujari, “Data Mining Techniques” Universities Press"
+    },
+    {
+     "no": 5,
+     "book": "Pieter Adriaans, Dolf Zantinge, “Data-Mining”, Pearson Education"
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.19); p.3 elective pool prints 'NCS 066: Data Warehousing & Data Mining'",
+    "p.19 fifth topic block ('Data Visualization and Overall Perspective: …') is printed WITHOUT a unit numeral (no 'V' marker); recorded as unit 5 (fifth block, 8 lectures)",
+    "p.19 table header 'Unit' printed split as 'Un' / 'it' across lines (text-layer/table artifact)",
+    "verbatim kept: 'Data Marting', 'Warehouse /management', 'Noisy Data,(Binning,'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Human Computer Interaction",
+   "name_print": "NCS-070 Human Computer Interaction",
+   "codes": [
+    "NCS070"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction : Importance of user Interface – definition, importance of good design. Benefits of good design. A brief history of Screen design. The graphical user interface – popularity of graphics, the concept of direct manipulation, graphical system, Characteristics, Web user – Interface popularity, characteristics- Principles of user interface.",
+    "2": "Design process – Human interaction with computers, importance of human characteristics human consideration, Human interaction speeds, understanding business junctions.",
+    "3": "Screen Designing : Design goals – Screen planning and purpose, organizing screen elements, ordering of screen data and content – screen navigation and flow – Visually pleasing composition – amount of information – focus and emphasis – presentation information simply and meaningfully – information retrieval on web – statistical graphics – Technological consideration in interface design.",
+    "4": "Windows – New and Navigation schemes selection of window, selection of devices based and screen based controls. Components – text and messages, Icons and increases – Multimedia, colors, uses problems, choosing colors.",
+    "5": "Software tools – Specification methods, interface – Building Tools. Interaction Devices – Keyboard and function keys – pointing devices – speech recognition digitization and generation – image and video displays – drivers."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Alan Dix, Janet Finlay, Gregory Abowd, Russell Beale Human Computer Interaction, 3rd Edition Prentice Hall, 2004."
+    },
+    {
+     "no": 2,
+     "book": "Jonathan Lazar Jinjuan Heidi Feng, Harry Hochheiser, Research Methods in HumanComputer Interaction, Wiley, 2010."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Ben Shneiderman and Catherine Plaisant Designing the User Interface: Strategies for Effective Human-Computer Interaction (5th Edition, pp. 672, ISBN 0-321-53735-1, March 2009), Reading, MA: Addison-Wesley Publishing Co."
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.20); p.3 elective pool prints 'NCS 070: Human Computer Interface' — name variant 'Human Computer Interface' vs heading 'Human Computer Interaction'",
+    "verbatim kept: 'HumanComputer Interaction' (missing space), 'Icons and increases', 'uses problems'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "E-Business Strategies",
+   "name_print": "NIT 066 E-Business Strategies",
+   "codes": [
+    "NIT066"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Electronic Commerce Environment and Opportunities: Background – The Electronic Commerce Environment – Electronic Marketplace Technologies – Modes of Electronic Commerce: Overview – Electronic Data Interchange – Migration to Open EDI – Electronic Commerce with WWW/Internet – Commerce Net Advocacy – Web Commerce going forward.",
+    "2": "Approaches to Safe Electronic Commerce: Overview – Secure Transport Protocols – Secure Transactions – Secure Electronic Payment Protocol(SEPP) – Secure Electronic Transaction (SET)- Certificates for Authentication – Security on Web Servers and Enterprise Networks – Electronic cash and Electronic payment schemes: Internet Monetary payment and security requirements – payment and purchase order process - Online Electronic cash.",
+    "3": "Internet/Intranet Security Issues and Solutions: The need for Computer Security – Specific Intruder Approaches – Security strategies – Security tools – Encryption – Enterprise Networking and Access to the Internet – Antivirus programs – Security Teams.",
+    "4": "MasterCard/Visa Secure Electronic Transaction: Introduction – Business Requirements – Concepts – Payment processing – E-mail and secure e-mail technologies for electronic commerce. Introduction – The Mean of Distribution – A model for message handling – Working of Email - MIME: Multipurpose Internet Mail Extensions – S/MIME: Secure Multipurpose Internet Mail Extensions – MOSS: Message Object Security Services.",
+    "5": "Internet and Website Establishment: Introduction – Technologies for web servers – Internet tools relevant to Commerce – Internet Applications for Commerce – Internet charges – Internet Access and Architecture – Searching the Internet- Case study."
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Daniel Minoli and Emma Minoli, “Web Commerce Technology Handbook”, Tata McGraw-Hill, 2005."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Andrew B. Whinston, Ravi Kalakota, K. Bajaj and D. Nag, “Frontiers of Electronic Commerce”, Tata McGraw-Hill, 2004."
+    },
+    {
+     "no": 2,
+     "book": "Bruce C. Brown, “How to Use the Internet to Advertise, Promote and Market Your Business or Website with Little or No Money”, Atlantic Publishing Company, 2006."
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.21); p.3 elective pool prints 'NIT 066:  E-Business Strategies' (E-Business with non-breaking hyphen in print)",
+    "verbatim kept: 'The Mean of Distribution' (for Means of Distribution), unit 1 lines printed with very wide justified word-spacing (normalized to single spaces)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Distributed Database",
+   "name_print": "NCS-067 Distributed Database",
+   "codes": [
+    "NCS067"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Transaction and schedules, Concurrent Execution of transaction, Conflict and View Serializability, Testing for Serializability, Concepts in Recoverable and Cascadeless schedules.",
+    "2": "Lock based protocols, time stamp based protocols, Multiple Granularity and Multiversion Techniques, Enforcing serializablity by Locks, Locking system with multiple lock modes, architecture for Locking scheduler.",
+    "3": "Distributed Transactions Management, Data Distribution, Fragmentation and Replication Techniques, Distributed Commit, Distributed Locking schemes, Long duration transactions, Moss Concurrency protocol.",
+    "4": "Issues of Recovery and atomicity in Distributed Databases, Traditional recovery techniques, Log based recovery, Recovery with Concurrent Transactions, Recovery in Message passing systems, Checkpoints, Algorithms for recovery line, Concepts in Orphan and Inconsistent Messages.",
+    "5": "Distributed Query Processing, Multiway Joins, Semi joins, Cost based query optimization for distributed database, Updating replicated data, protocols for Distributed Deadlock Detection, Eager and Lazy Replication Techniques."
+   },
+   "lectures_per_unit": 8,
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Silberschatz,korth and Sudershan, Database System Concept’, Mc Graw Hill"
+    },
+    {
+     "no": 2,
+     "book": "Ramakrishna and Gehrke,’ Database Management System, Mc Graw Hill"
+    },
+    {
+     "no": 3,
+     "book": "Garcia-Molina, Ullman,Widom,’ Database System Implementation’ Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "Ceei and Pelagatti,’Distributed Database’, TMH"
+    },
+    {
+     "no": 5,
+     "book": "Singhal and Shivratri, ’Advance Concepts in Operating Systems’ MC Graw Hill"
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.22); p.3 elective pool lists 'NCS 067: Distributed Database'",
+    "p.22 prints ONLY a 'References' section (5 items) — no 'Textbooks' list printed for this subject",
+    "verbatim typos kept: 'Enforcing serializablity', 'Silberschatz,korth and Sudershan', 'Ramakrishna and Gehrke', 'Ceei and Pelagatti', mismatched quote marks in book entries"
+   ],
+   "flags": []
+  },
+  {
+   "name": "BIG DATA",
+   "name_print": "NIT 067- BIG DATA",
+   "codes": [
+    "NIT067"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "UNDERSTANDING BIG DATA What is big data,why big data,convergence of key trends, unstructured data, industry examples of big data, web analytics,big data and marketing,fraud and big data,risk and big data ,credit risk management, big data and algorithmic trading,big data and healthcare,big data in medicine,advertising and big data,big data technologies, introduction to Hadoop,open source technologies,cloud and big data mobile business intelligence,Crowd sourcing analytics ,inter and trans firewall analytics",
+    "2": "NOSQL DATA MANAGEMENT Introduction to NoSQL , aggregate data models ,aggregates ,key-value and document data models, relationships, graph databases, schema less databases ,materialized views,distribution models ,sharding , master-slave replication , peer-peer replication , sharding and replication , consistency , relaxing consistency , version stamps , map-reduce , partitioning and combining , composing map-reduce calculations",
+    "3": "BASICS OF HADOOP Data format , analyzing data with Hadoop , scaling out , Hadoop streaming , Hadoop pipes , design of Hadoop distributed file system (HDFS) , HDFS concepts , Java interface , data flow ,Hadoop I/O , data integrity , compression , serialization , Avro file-based data structures",
+    "4": "MAP REDUCE APPLICATIONS Map Reduce workflows , unit tests with MRUnit , test data and local tests – anatomy of Map Reduce job run , classic Map-reduce , YARN , failures in classic Map-reduce and YARN , job scheduling , shuffle and sort , task execution , MapReduce types , input formats , output formats .",
+    "5": "HADOOP RELATED TOOLS Hbase,data model and implementations, Hbase clients ,Hbase examples – praxis.Cassandra ,cassandra data model , cassandra examples , cassandra clients , Hadoop integration. Pig , Grunt , pig data model , Pig Latin , developing and testing Pig Latin scripts. Hive , data types and file formats , HiveQL data definition , HiveQL data manipulation – HiveQL queries"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Michael Minelli, Michelle Chambers, and Ambiga Dhiraj, \"Big Data, Big Analytics: Emerging Business Intelligence and Analytic Trends for Today's Businesses\", Wiley, 2013."
+    },
+    {
+     "no": 2,
+     "book": "Big-Data Black Book, DT Editorial Services, Wily India"
+    },
+    {
+     "no": 3,
+     "book": "P. J. Sadalage and M. Fowler, \"NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence\", Addison-Wesley Professional, 2012."
+    },
+    {
+     "no": 4,
+     "book": "Tom White, \"Hadoop: The Definitive Guide\", Third Edition, O'Reilley, 2012."
+    },
+    {
+     "no": 5,
+     "book": "Eric Sammer, \"Hadoop Operations\", O'Reilley, 2012."
+    },
+    {
+     "no": 6,
+     "book": "E. Capriolo, D. Wampler, and J. Rutherglen, \"Programming Hive\", O'Reilley, 2012."
+    },
+    {
+     "no": 7,
+     "book": "Lars George, \"HBase: The Definitive Guide\", O'Reilley, 2011."
+    },
+    {
+     "no": 8,
+     "book": "Eben Hewitt, \"Cassandra: The Definitive Guide\", O'Reilley, 2010."
+    },
+    {
+     "no": 9,
+     "book": "Alan Gates, \"Programming Pig\", O'Reilley, 2011."
+    }
+   ],
+   "quirks": [
+    "printed under header 'DEPARTMENTAL ELECTIVE-II' (p.23); p.3 elective pool prints 'NIT 067: Big Data' vs heading 'NIT 067- BIG DATA' (code followed by hyphen in heading print)",
+    "verbatim missing-space print kept throughout units ('big data,why big data,convergence of key trends', 'praxis.Cassandra', etc.)",
+    "verbatim typos kept: 'Wily India', 'O'Reilley'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Industrial Management",
+   "name_print": "Industrial Management",
+   "codes": [
+    "NHU601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "theory",
+   "quirks": [
+    "scheme row only: p.3 row 6 '6 NHU Industrial Management 2 0 0 15 10 25 50 75 2 (601)' — no unit theory, COs, or books printed anywhere in the document for this subject"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Computer Networks Lab",
+   "name_print": "NCS 651 Computer Networks Lab",
+   "codes": [
+    "NCS651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Programs using TCP Sockets (like date and time server & client, echo server & client, etc.)"
+    },
+    {
+     "no": 2,
+     "exp": "Programs using UDP Sockets (like simple DNS)"
+    },
+    {
+     "no": 3,
+     "exp": "Programs using Raw sockets (like packet capturing and filtering)"
+    },
+    {
+     "no": 4,
+     "exp": "Programs using RPC"
+    },
+    {
+     "no": 5,
+     "exp": "Simulation of sliding window protocols"
+    }
+   ],
+   "quirks": [
+    "p.24 list printed directly under heading with no label; 5 items"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Software Engineering Lab",
+   "name_print": "NCS 652 Software Engineering Lab",
+   "codes": [
+    "NCS652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Prepare a SRS document in line with the IEEE recommended standards."
+    },
+    {
+     "no": 2,
+     "exp": "Draw the use case diagram and specify the role of each of the actors. Also state the precondition, post condition and function of each use case."
+    },
+    {
+     "no": 3,
+     "exp": "Draw the activity diagram."
+    },
+    {
+     "no": 4,
+     "exp": "Identify the classes. Classify them as weak and strong classes and draw the class diagram."
+    },
+    {
+     "no": 5,
+     "exp": "Draw the sequence diagram for any two scenarios."
+    },
+    {
+     "no": 6,
+     "exp": "Draw the collaboration diagram."
+    },
+    {
+     "no": 7,
+     "exp": "Draw the state chart diagram."
+    },
+    {
+     "no": 8,
+     "exp": "Draw the component diagram."
+    },
+    {
+     "no": 9,
+     "exp": "Perform forward engineering in java.(Model to code conversion)"
+    },
+    {
+     "no": 10,
+     "exp": "Perform reverse engineering in java.(Code to Model conversion)"
+    },
+    {
+     "no": 11,
+     "exp": "Draw the deployment diagram."
+    }
+   ],
+   "quirks": [
+    "p.24 printed lead-in line before list: 'For any given case/ problem statement do the following;' (verbatim)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Compiler Design Lab",
+   "name_print": "NCS 653 Compiler Design Lab",
+   "codes": [
+    "NCS653"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 10,
+    "sessional_ta": 10,
+    "sessional_total": 20,
+    "ese_te_pe": 30,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Implementation of LEXICAL ANALYZER for IF STATEMENT"
+    },
+    {
+     "no": 2,
+     "exp": "Implementation of LEXICAL ANALYZER for ARITHMETIC EXPRESSION"
+    },
+    {
+     "no": 3,
+     "exp": "Construction of NFA from REGULAR EXPRESSION"
+    },
+    {
+     "no": 4,
+     "exp": "Construction of DFA from NFA"
+    },
+    {
+     "no": 5,
+     "exp": "Implementation of SHIFT REDUCE PARSING ALGORITHM"
+    },
+    {
+     "no": 6,
+     "exp": "Implementation of OPERATOR PRECEDENCE PARSER"
+    },
+    {
+     "no": 7,
+     "exp": "Implementation of RECURSIVE DESCENT PARSER"
+    },
+    {
+     "no": 8,
+     "exp": "Implementation of CODE OPTIMIZATION TECHNIQUES"
+    },
+    {
+     "no": 9,
+     "exp": "Implementation of CODE GENERATOR"
+    }
+   ],
+   "quirks": [
+    "p.24 list printed directly under heading with no label; keywords in ALL CAPS as printed"
+   ],
+   "flags": []
+  },
+  {
+   "name": "SEMINAR",
+   "name_print": "SEMINAR",
+   "codes": [
+    "NIT654"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "quirks": [
+    "scheme row only: p.3 row 10 '10 NIT SEMINAR 0 0 2 [CT blank] 50 [Total] 50 [ESE blank] 50 (654)' — no unit theory/topics printed anywhere for the seminar",
+    "p.3 cell coordinates (fitz): '50' printed in the TA column (x≈344), '50' in Sessional-Total column, '50' in Subject-Total column; CT and ESE cells printed blank"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "GP",
+   "name_print": "GP",
+   "codes": [
+    "NGP601"
+   ],
+   "semester": 6,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "subject_type": "practical",
+   "quirks": [
+    "scheme row only: p.3 row 11 '11 NGP GP [L/T/P blank] [CT/TA blank] 50(sessional total) [ESE blank] 50(subject total) [credit blank] (601)' — no unit theory/experiments printed anywhere",
+    "expansion of 'GP' not printed anywhere in the document (not expanded in print); L-T-P and credit cells printed blank"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_print",
+   "print": "SYLLABUS — Bachelor of Information Technology — 3rd Year (V & VI Semester) — (Effective from Session 2015-2016)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_table_semester_V",
+   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW — STUDY EVALUATION SCHEME — B. TECH. INFORMATION TECHNOLOGY — YEAR THIRD, SEMESTER –V — (Effective from the session : 2015-16). Header: S.No | Course Code | Subject | Periods L T P | Sessional CT TA Total | Exam ESE | Subject Total | Credit. Rows: 1 NCS-501 Design and Analysis of Algorithm 3 1 0 30 20 50 100 150 4; 2 NCS-502 Database Management System 3 1 0 30 20 50 100 150 4; 3 NCS-503 Principle of Programming Language 3 1 0 30 20 50 100 150 4; 4 NCS-504 Web Technology 3 1 0 30 20 50 100 150 4; 5 NIT-501 Management Information System 2 1 0 15 10 25 50 75 3; 6 NHU-501 Engineering Economics 2 0 0 15 10 25 50 75 2; PRACTICAL/DESIGN/DRAWING: 7 NCS-551 Design and Analysis of Algorithm Lab 0 0 3 10 10 20 30 50 1; 8 NCS-552 DBMS Lab 0 0 3 10 10 20 30 50 1; 9 NCS-553 Principle of Programming Language Lab 0 0 2 10 10 20 30 50 1; 10 NCS-554 Web Technology Lab 0 0 2 10 10 20 30 50 1; 11 NGP-501 GP [periods blank] 50 50 [credit blank]. TOTAL 16 5 10 1000 25",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_table_semester_VI",
+   "print": "U.P. TECHNICAL UNIVERSITY, LUCKNOW — STUDY EVALUATION SCHEME — B. TECH. INFORMATION TECHNOLOGY — YEAR THIRD, SEMESTER –VI — (Effective from the session : 2015-16). Header: S.No | Course Code | Subject | Periods L T P | Sessional CT TA Total | Exam ESE | Subject Total | Credit. Rows: 1 NCS-601 Computer Networks 3 1 0 30 20 50 100 150 4; 2 NCS-602 Software Engineering 3 1 0 30 20 50 100 150 4; 3 NCS-603 Compiler Design 3 1 0 30 20 50 100 150 4; 4 [no code] Departmental Elective-I 3 1 0 30 20 50 100 150 4; 5 [no code] Departmental Elective-II 2 1 0 15 10 25 50 75 3; 6 NHU-601 Industrial Management 2 0 0 15 10 25 50 75 2; PRACTICAL/DESIGN/DRAWING: 7 NCS-651 Computer Networks Lab 0 0 3 10 10 20 30 50 1; 8 NCS-652 Software Engineering Lab 0 0 3 10 10 20 30 50 1; 9 NCS-653 Compiler Design Lab 0 0 2 10 10 20 30 50 1; 10 NIT-654 SEMINAR 0 0 2 [CT blank] 50 50 [ESE blank] 50 1; 11 NGP-601 GP [periods blank] 50 50 [credit blank]. TOTAL 16 5 10 1000 25",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Departmental Elective-I — 1. NIT 061: Information Retrieval and Management; 2. NIT 062: Modeling & Simulation; 3. NIT 063: Bioinformatics; 4. NIT 064: Knowledge based & decision Support System; 5. NIT 065: Geographic Information System",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Departmental Elective-II — 1. NCS 066: Data Warehousing & Data Mining; 2. NCS 070: Human Computer Interface; 3. NIT 066: E‐Business Strategies; 4. NCS 067: Distributed Database; 5. NIT 067: Big Data",
+   "locator": "p.3"
+  }
+ ],
+ "quirks": [
+  "Course print: p.1 cover prints 'Bachelor of Information Technology'; pp.2-3 print 'B. TECH. INFORMATION TECHNOLOGY' — course recorded as BTech (canonical per RULES §1b; branch = Information Technology, not printed as a separate course name)",
+  "Course Code column in scheme tables prints the code split across two stacked cells (e.g. 'NCS' / '501'); page headings print codes with varying spacing ('NCS- 501', 'NCS-502', 'NIT 067- BIG DATA'); codes normalized here without spaces/dashes",
+  "No course outcomes (COs), K-levels, eligibility, prerequisites, or MOOC/NC rules are printed anywhere in this document — corresponding keys omitted everywhere (zero-guessing)",
+  "PyMuPDF text layer fragments the scheme tables (subject names line-broken, numeric cells interleaved); table rows were reconstructed from word coordinates (fitz get_text('words')) on pp.2-3; visible print treated as authoritative (RULES §6)",
+  "Justified-print wide word-spacing (esp. pp.21-23) normalized to single spaces during transcription; wording, punctuation and typos kept verbatim"
+ ],
+ "flags": []
+}
