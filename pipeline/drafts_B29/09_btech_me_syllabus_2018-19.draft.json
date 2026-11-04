@@ -1,0 +1,1669 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2018-19/btech_me_syllabus_2018-19.pdf",
+ "session": "2018-19",
+ "course": "BTech",
+ "sha16": "b4463c0a5bda685f",
+ "stem": "09_btech_me_syllabus_2018-19",
+ "subjects": [
+  {
+   "name": "Machine Design-I",
+   "name_print": "MACHINE DESIGN-I",
+   "codes": [
+    "RME501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3 0 0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "units": {
+    "1": "UNIT I Introduction\nDefinition, Design requirements of machine elements, Design procedure, Standards in design, Selection of preferred sizes, Indian Standards designation of carbon & alloy steels, Selection of materials for static and fatigue loads.\nDesign for Static Load\nModes of failure, Factor of safety, Principal stresses, Stresses due to bending and torsion, Theory of failure.\n8",
+    "2": "UNIT II\nDesign for Fluctuating Loads Cyclic stresses, Fatigue and endurance limit, Stress concentration factor,Stress concentration factor for various machine parts, Notch sensitivity, Design for finite and infinite life, Soderberg, Goodman & Gerber criteria.\nRiveted Joints\nRiveting methods, materials, Types of rivet heads, Types of riveted joints, Caulking and Fullering, Failure of riveted joint, Efficiency of riveted joint, Design of boiler joints, Eccentric loaded riveted joint.\n8",
+    "3": "UNIT III\nShafts\nCause of failure in shafts, Materials for shaft, Stresses in shafts, Design of shafts subjected to twisting moment, bending moment and combined twisting and bending moments, Shafts subjected to fatigue loads, Design for rigidity.\n8",
+    "4": "UNIT IV\nMechanical Springs\nTypes, Material for helical springs, End connections for compression and tension helical springs, Stresses and deflection of helical springs of circular wire, Design of helical springs subjected to static and fatigue loading.\n8",
+    "5": "UNIT V\nKeys and Couplings\nTypes of keys, splines, Selection of square & flat keys, Strength of sunk key, Couplings, Design of rigid and flexible couplings.\nPower Screws\nForms of threads, multiple threads, Efficiency of square threads, Trapezoidal threads, Stresses in screws, Design of screw jack"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Design of Machine Elements,V.B. Bhandari, Tata McGraw Hill Co."
+    },
+    {
+     "no": 2,
+     "book": "Machine Design-Sharma and Agrawal, S.K. Kataria& Sons."
+    },
+    {
+     "no": 3,
+     "book": "Machine Design, U C Jindal, Pearson Eductaion."
+    },
+    {
+     "no": 4,
+     "book": "Design of Machine Elements, Sharma and Purohit, PHI."
+    },
+    {
+     "no": 5,
+     "book": "Design of Machine Elements-M.F. Spott, Pearson Eductaion"
+    },
+    {
+     "no": 6,
+     "book": "Machine Design-Maleev and Hartman, CBS Publishers."
+    },
+    {
+     "no": 7,
+     "book": "Mechanical Engineering Design, 9e – Joseph E. Shigely, McGraw Hill Education."
+    },
+    {
+     "no": 8,
+     "book": "Elements of Machine Component Design, Juvinal&Marshek, John Wiley & Sons."
+    }
+   ],
+   "notes": [
+    "Printed note after Unit-V: 'Note: Design data book is allowed in the examination'.",
+    "Books heading prints 'Books and References:' (single combined list)."
+   ],
+   "quirks": [
+    "Print run-on 'factor,Stress' in Unit-II kept verbatim.",
+    "Each unit prints a lecture count '8'; in print it sits after the unit heading (Unit-I count prints above the 'UNIT I' heading, p.4) — recorded via lectures_per_unit; trailing '8' tokens inside unit text are the printed counts at recorded positions."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Heat & Mass Transfer",
+   "name_print": "HEAT & MASS TRANSFER",
+   "codes": [
+    "RME502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "units": {
+    "1": "UNIT-1\nIntroduction to Heat Transfer:\nThermodynamics and Heat Transfer. Modes of Heat Transfer: Conduction, convection and radiation. Effect of temperature on thermal conductivity of materials; Introduction to combined heat transfer mechanism.\n2\nConduction :\nGeneral differential heat conduction equation in the rectangular, cylindrical and spherical coordinate systems.Initial and boundary conditions.\n3\nSteady State one-dimensional Heat conduction :\nSimple and Composite Systems in rectangular, cylindrical and spherical coordinates with and without energy generation; Concept of thermal resistance.Analogy between heat and electricity flow; Thermal contact resistance and over all heat transfer coefficient; Critical radius of insulation.\n3",
+    "2": "UNIT-2 Fins:\nHeat transfer from extended surfaces, Fins of uniform cross-sectional area; Errors of measurement of temperature in thermometer wells.\n3\nTransient Conduction:\nTransient heat conduction; Lumped capacitance method; Time constant; Unsteady state heat conduction in one dimension only, Heisler charts.",
+    "3": "UNIT-3\nForced Convection:\nBasic concepts; Hydrodynamic boundary layer; Thermal boundary layer; Approximate integral boundary layer analysis; Analogy between momentum and heat transfer in turbulent flow over a flat surface; Mixed boundary layer; Flow over a flat plate; Flow across a single cylinder and a sphere; Flow inside ducts; Thermal entrance region, Empirical heat transfer relations; Relation between fluid friction and heat transfer; Liquid metal heat transfer.\n5\nNatural Convection :\nPhysical mechanism of natural convection; Buoyant force; Empirical heat transfer relations for natural convection over vertical planes and cylinders, horizontal plates and cylinders, and sphere, Combined free and forced convection.\n5",
+    "4": "UNIT-4\nThermal Radiation :\nBasic radiation concepts; Radiation properties of surfaces; Black body radiation Planck’s law, Wein’s displacement law, Stefan Boltzmann law, Kirchoff’s law; ; Gray body; Shape factor; Black-body radiation; Radiation exchange between diffuse non black bodies in an enclosure; Radiation shields; Radiation combined with conduction and convection; Absorption and emission in gaseous medium; Solar radiation; Green house effect.\n8",
+    "5": "UNIT-5\nHeat Exchanger :\nTypes of heat exchangers; Fouling factors; Overall heat transfer coefficient; Logarithmic mean temperature difference (LMTD) method; Effectiveness-NTU method; Compact heat exchangers.\n3\nCondensation and Boiling:\nIntroduction to condensation phenomena; Heat transfer relations for laminar film condensation on vertical surfaces and on outside & inside of a horizontal tube; Effect of non-condensable gases; Dropwise condensation; Heat pipes; Boiling modes, pool boiling; Hysteresis in boiling curve; Forced convection boiling.\n3\nIntroduction to Mass Transfer:\nIntroduction; Fick's law of diffusion; Steady state equimolar counter diffusion; Steady state diffusion though a stagnant gas film.\n2"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Heat and Mass Transfer, by Incroperra& DeWitt, John Wiley and Sons"
+    },
+    {
+     "no": 2,
+     "book": "Heat and Mass Transfer by Cengel,  McGraw-Hill"
+    },
+    {
+     "no": 3,
+     "book": "Heat Transfer by J.P. Holman, McGraw-Hill"
+    },
+    {
+     "no": 4,
+     "book": "Heat and Mass Transfer by Rudramoorthy and Mayilsamy, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Heat Transfer by Ghoshdastidar, Oxford University Press"
+    },
+    {
+     "no": 6,
+     "book": "A text book on Heat Transfer, by Sukhatme, University Press."
+    },
+    {
+     "no": 7,
+     "book": "Heat Transfer by Venkateshan, Ane Books Pvt Ltd"
+    },
+    {
+     "no": 8,
+     "book": "Schaum's outline of Heat Transfer by Pitts & Sisson McGraw-Hill"
+    },
+    {
+     "no": 9,
+     "book": "Heat and Mass Transfer by R Yadav, Central Publishing House"
+    }
+   ],
+   "notes": [
+    "Books heading prints 'Books:'.",
+    "Per-topic lecture counts printed in right column are embedded in unit text at their printed positions; no per-unit count printed."
+   ],
+   "quirks": [
+    "'Transient Conduction' topic lecture count printed blank.",
+    "Double semicolon 'law; ;' in Unit-4 kept verbatim."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Manufacturing Science& Technology-II",
+   "name_print": "MANUFACTURING SCIENCE& TECHNOLOGY-II",
+   "codes": [
+    "RME503"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3 0 0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "units": {
+    "1": "Unit I\nMetal Cutting-\nMechanics of metal cutting. Geometry of tool and nomenclature .ASA system Orthogonal vs. oblique cutting. Mechanics of chip formation, types of chips. Shear angle relationship. Merchant’s force circle diagram. Cutting forces, power required. Heat generation and cutting tool temperature, Cutting fluids/lubricants. Tool materials. Tool wear and tool life. Machinability. Dynamometer, Brief introduction to machine tool vibration and surface finish. Economics of metal cutting.\n9",
+    "2": "Unit-II\nMachine Tools\n(i) Lathe: Principle, construction, types, operations, Turret/capstan, semi/Automatic, Tool layout\n2\n(ii) Shaper, slotter, planer: Construction, operations & drives.\n1\n(iii) Milling: Construction, Milling cutters, up & down milling. Dividing head & indexing. Max chip thickness & power required.\n2\n(iv) Drilling and boring: Drilling, boring, reaming tools. Geometry of twist drills.\n2",
+    "3": "Unit-III\nGrinding & Super finishing\n(i) Grinding: Grinding wheels, abrasive & bonds, cutting action. Grinding wheel specification. Grinding wheel wear - attritions wear, fracture wear. Dressing and Truing. Max chip thickness and Guest criteria. Surface and cylindrical grinding.Centerless grinding\n4\n(ii) Super finishing: Honing, lapping and polishing.\n1\nLimits, Fits & Tolerance and Surface roughness:\nIntroduction to Limits, Fits, Tolerances and IS standards, Limit-gauges, and surface-roughness.\n3",
+    "4": "Unit-IV\nB. Metal Joining (Welding)\nSurvey of welding and allied processes. Gas welding and cutting, process and equipment. Arc welding: Power sources and consumables. TIG & MIG processes and their parameters. Resistance welding - spot, seam projection etc. Other welding processes such as atomic hydrogen, submerged arc, electroslag, friction welding. Soldering & Brazing. Adhesive bonding. Thermodynamic and Metallurgical aspects in welding and weld, Weldability, Shrinkage/residual stress in welds. Distortions & Defects in welds andremedies. Weld decay in HAZ\n10",
+    "5": "Unit-V\nC. Introduction to Unconventional Machining and Welding\nNeed & benefits, application and working principle of EDM, ECM, LBM, EBM, USM. AJM, WJM. Similarly, non-conventional welding applications such as LBW, USW, EBW, Plasma- arc welding, Diffusion welding, Explosive welding/cladding. Introduction to Hybrid machining processes\n6"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Manufacturing Science – A. Ghosh and A.K. Mallik,Affiliated East-West Press"
+    },
+    {
+     "no": 2,
+     "book": "Fundamentals of Metal Machining and Machine Tools – Geoffrey Boothroyd, CRC Press"
+    },
+    {
+     "no": 3,
+     "book": "Production Technology - R.K. Jain Khanna Publishers."
+    },
+    {
+     "no": 4,
+     "book": "Introduction to Manufacturing Processes – John A. Schey ,McGraw-Hill"
+    },
+    {
+     "no": 5,
+     "book": "Production Engineering Science - P.C. Pandey,Standard Publishers Distributors,"
+    },
+    {
+     "no": 6,
+     "book": "Modern Machining Processes - P.C. Pandey& H.S. Shan, McGraw-Hill"
+    },
+    {
+     "no": 7,
+     "book": "Degarmo’s Materials and Processes in Manufacturing - Ernest P. De Garmo, J. T. Black, Ronald A. Kohser, Wiley"
+    },
+    {
+     "no": 8,
+     "book": "Fundamentals of Metal Cutting & Machine Tools – B.L. Juneja& G.S. ShekhonWiley"
+    },
+    {
+     "no": 9,
+     "book": "Process &Materials of Manufacturing – R.A. Lindburg, Pearson Eductaion"
+    },
+    {
+     "no": 10,
+     "book": "Advanced Machining Process - VK Jain ,Allied Publishers"
+    },
+    {
+     "no": 11,
+     "book": "Manufacturing Engineering & Technology, -Kalpakjian, Pearson"
+    },
+    {
+     "no": 12,
+     "book": "Manufacturing Technology Part I and Part II,-Rao,PN, McGraw-Hill"
+    }
+   ],
+   "notes": [
+    "Books heading prints 'Books and References:'.",
+    "Unit-IV title prints 'B. Metal Joining (Welding)' and Unit-V prints 'C. Introduction to Unconventional Machining and Welding' (stray B./C. list-lettering in print, kept verbatim)."
+   ],
+   "quirks": [
+    "Run-ons kept verbatim: 'nomenclature .ASA', 'grinding.Centerless', 'andremedies'.",
+    "Scheme table prints subject name 'Manufacturing Science& Technology-II' (same run-on '&' as section title)."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "I C ENGINES & COMPRESSORS",
+   "name_print": "I C ENGINES & COMPRESSORS",
+   "codes": [
+    "RME-051"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_pool_print": "DEPTT  ELECTIVE COURSE-1: 1. RME-051 IC Engines and Compressors (p.2)",
+   "units": {
+    "1": "Unit-1\nIntroduction to I.C Engines: Engine classification and basic terminology, Two and four stroke engines, SI and CI engines, Valve timing diagram.\nThermodynamic analysis of Air standard cycles, Otto cycle, Diesel cycle, Dual cycle, Stirling cycle, Ericsson cycles, Comparison of Otto, Diesel and Dual cycles\nFuel air cycle, factors affecting the fuel air cycle, Actual cycle.\n8",
+    "2": "Unit–II\nSI Engines: Combustion in SI engine, Flame speed, Ignition delay, Abnormal combustion and it's control, combustion chamber design for SI engines.\nCarburetion, Mixture requirements, Carburetors and fuel injection system in SI Engine\nIgnition system requirements, Magneto and battery ignition systems, ignition timing and spark plug, Electronic ignition, Scavenging in 2 Stroke engines, Supercharging and its effect\n9",
+    "3": "Unit–III\nCI Engine: Combustion in CI engines, Ignition delay, Knock and it's control, Combustion chamber design of CI engines.\nFuel injection in CI engines, Requirements, Types of injection systems, Fuel pumps, Fuel injectors, Injection timings\nExhaust emissions from SI engine and CI engine  and it's control\n9",
+    "4": "Unit-IV\nEngine Cooling and Lubrication: Different cooling systems, Radiators and cooling fans, Engine friction, Lubrication principle, Type of lubrication, Lubrication oils, Crankcase ventilation.\nFuels: Fuels for SI and CI engine , Important qualities of SI and CI engine fuels, Rating of SI engine and CI engine fuels, Dopes, Additives, Gaseous fuels, LPG, CNG, Biogas, Producer gas, Alternative fuels for IC engines.\nTesting and Performance: Performance parameters, Basic measurements, Blow by measurement, Testing of SI and CI engines\n9",
+    "5": "Unit V\nCompressors: Classification, Reciprocating compressors, Single and Multi stage compressors, Intercooling, Volumetric efficiency.\nRotary compressors, Classification, Centrifugal compressor , Axial compressors, Surging and stalling, Roots blower, Vaned compressor.\n7"
+   },
+   "lectures_per_unit": [
+    8,
+    9,
+    9,
+    9,
+    7
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Internal Combustion Engine by Gill, Smith,Ziurs, Oxford & IBH Publishing CO."
+    },
+    {
+     "no": 2,
+     "book": "Fundamentals of Internal Combustion Engines by H.N. Gupta, Prentice Hall of India"
+    },
+    {
+     "no": 3,
+     "book": "A Course in International Combustion Engines, by Mathur& Sharma, DhanpatRai& Sons."
+    },
+    {
+     "no": 4,
+     "book": "I.C Engine Analysis & Practice by E.F Obert."
+    },
+    {
+     "no": 5,
+     "book": "I.C Engine, by Ganeshan, Tata McGraw Hill Publishers."
+    },
+    {
+     "no": 6,
+     "book": "I.C Engine, by R. Yadav, Central Publishing House, Allahabad"
+    },
+    {
+     "no": 7,
+     "book": "Reciprocating and Rotary Compressors, by Chlumsky, SNTI Publications, Czechoslovakia"
+    },
+    {
+     "no": 8,
+     "book": "Turbines, Compressors and Fans, by S.M.Yahya, Tata McGraw Hill Pub."
+    },
+    {
+     "no": 9,
+     "book": "Engineering Fundamentals of Internal Combustion Engines by W.W. Pulkrabek,,Pearson Eductaion"
+    }
+   ],
+   "notes": [
+    "Section is headed 'DepartmentalElective Course-1' (space-collapsed in print).",
+    "Books heading prints 'BOOKS:'.",
+    "Scheme table row prints pool code range 'RME051-054' for Deptt. Elective Course-1; pool list prints this subject as '1. RME-051 IC Engines and Compressors'."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "MECHATRONICS AND MICROPROCESSOR",
+   "name_print": "MECHATRONICS AND MICROPROCESSOR",
+   "codes": [
+    "RME-052"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_pool_print": "DEPTT  ELECTIVE COURSE-1: 2. RME-052 Mechatronics and Microprocessor (p.2)",
+   "units": {
+    "1": "Unit 1\nIntroduction, synergy of systems, definition of mechatronics, applications of mechatronics in design and modeling, actuators and sensors, intelligent controls, robotics, manufacturing etc., objectives, advantages and disadvantages of mechatronics, examples of mechatronics systems in industry.\nMechanical components in mechatronics, force, friction and lubrication, materials, mechanical behavior of materials, mechanisms used in mechatronics, lever and four bar mechanisms, bearing, belt, chain, cam, slider crank, clutches etc.\n8",
+    "2": "Unit II\nElectronics elements in mechatronics, conductors, insulators and semiconductors, passive electrical components, resistors, capacitor and inductor, transformer, active elements, semiconductor devices, transistors and integrated circuits, digital electronics components like logic gates, flip-flops, shift register, multiplexer and counter.\nComputing elements in mechatronics, analog computer, timer, analog to digital converter, digital to analog converter, digital computer, microprocessor and its architecture, micro-controllers, programming logic controllers, their basic structures, mnemonics.\n8",
+    "3": "Unit III\nSystem modeling and analysis, control system concepts, transfer function of physical systems, block diagrams representation of systems, transfer function of a system, standard input signals, time response of a first and second order systems to a step input, frequency response analysis, automatic control systems, digital control systems.\nMotion control devices, actuator types & application areas, hydraulic and pneumatic actuators, electrical actuators, DC servomotor, AC servomotor and stepper servomotor, micro-actuators, drive selection and applications.\n8",
+    "4": "Unit IV\nSensors and transducers, their static and dynamic performance characteristics, internal sensors, external sensors and micro-sensors, sensors for displacement, position and proximity; velocity, motion, force, fluid pressure, liquid flow, liquid level, temperature, light sensors, selection of Sensors.\nStages in designing mechatronics systems, traditional and mechatronic design, possible design solutions, case studies of mechatronics systems, pick and place robot, automatic car park systems, engine management systems etc.\n8",
+    "5": "Unit V\nMechatronics in industry, autotronics, bionics and avionics and their various applications, mechatronics in manufacturing, features of mechatronics in manufacturing, flexible manufacturing systems, manufacturing automatic protocol, computer integrated manufacturing, just in time production systems, CNC machines, adaptive control machine system, CNC machine operations, challenges in mechatronics production units.\n8"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A Kuttan, “Introduction to Mechatronics, Oxford University Press, 2010."
+    },
+    {
+     "no": 2,
+     "book": "Alciatore&Histand, “Introduction to Mechatronics & Measurement Systems, 4e”, McGraw-Hill Education, 2014."
+    },
+    {
+     "no": 3,
+     "book": "M Jouaneh, “Fundamentals of Mechatronics”, Cengage Learning, 2013."
+    },
+    {
+     "no": 4,
+     "book": "W. Bolton, “Mechatronics”, Pearson Education, Second Edition, 1999."
+    },
+    {
+     "no": 5,
+     "book": "Bradley D. A., Dawson D., Buru N.C. and. Loader A.J, “Mechatronics”, Chapman and Hall, 1993."
+    },
+    {
+     "no": 6,
+     "book": "Dan Necsulesu, “Mechatronics”, Pearson Education Asia, 2002 (Indian Reprint)."
+    },
+    {
+     "no": 7,
+     "book": "NitaigourPremchandMahadik, “Mechatronics”, McGraw-Hill Education, 2015."
+    },
+    {
+     "no": 8,
+     "book": "Lawrence J. Kamm, “Understanding Electro – Mechanical Engineering, An Introduction to Mechatronics”, Prentice – Hall of India Pvt., Ltd., 2000."
+    },
+    {
+     "no": 9,
+     "book": "Ramachandran K. P., Vijayaraghavan G. K., Balasundaram M.S. “Mechatronics: Integrated Mechanical Electronic Systems”, Wiley"
+    }
+   ],
+   "notes": [
+    "Books heading prints 'BOOKS & REFERENCES:'.",
+    "Scheme table row prints pool code range 'RME051-054'; pool list prints '2. RME-052 Mechatronics and Microprocessor'.",
+    "Unit-V lecture count '8' prints at top of p.10 after the Unit-V body."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "FINITE ELEMENT METHODS",
+   "name_print": "FINITE ELEMENT METHODS",
+   "codes": [
+    "RME-053"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_pool_print": "DEPTT  ELECTIVE COURSE-1: 3. RME-053 Finite Element Methods (p.2)",
+   "units": {
+    "1": "Unit 1\nIntroduction, exact solution vs approximate solution, principle of FEM, general procedure for finite element analysis, pre-processing, solution, post processing, various approximate methods, weighted residual method, variational or Rayleigh Ritz method, principle of minimum potential energy.\nReview of matrices, definition, types, addition or subtraction, multiplication, inverse of a matrix, calculus of matrix.\n8",
+    "2": "Unit II\nDirect stiffness methods, linear spring as finite element, direct formulation of uni-axial bar, truss and beam elements, local and global coordinates, nodes and elements, stiffness matrix, formulation of global stiffness matrix, application of boundary conditions and forces, essential and natural boundary conditions, elimination method, penalty methods, calculation of element stresses and strains.\n8",
+    "3": "Unit III\nFinite element formulation of 1-d problems, method of weighted residuals, strong and weak form, the Galerkin finite element method, application of Galerkin’s method to uni-axial bar and truss elements, Galerkin method for one dimensional heat conduction problems like heat transfer through wall, heat transfer through fin etc., one dimensional conduction with convection.\n8",
+    "4": "Unit IV\nInterpolation or shape functions, compatibility, completeness and convergence requirements, shape functions for one and two dimensional elements, finding shape function using Lagrange polynomials. Application of FEM in scalar field problems, heat transfer in two dimensions, time dependent heat transfer.\n8",
+    "5": "Unit V\nConcepts of plane stress and plain strain, displacement relation, stress-strain relations, equilibrium and compatibility equations, vector field problems, derivation of constant strain triangular element stiffness matrix and equations, treatment of body and surface forces, stress and strain computation.\nPractical considerations in finite element application, programming aspects, commercially available FEM packages, desirable features of a FEM packages, problem solving on a general purpose FEM software package like ANSYS, ABAQUS, NISA etc.\n8"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Finite Element Analysis by David V Hutton, McGraw-Hill Learning"
+    },
+    {
+     "no": 2,
+     "book": "A First Course in Finite Element Method 5e by Daryl L Logan, Cengage Learning"
+    },
+    {
+     "no": 3,
+     "book": "Finite Element Analysis by G L Narasaiah, BS Publications."
+    },
+    {
+     "no": 4,
+     "book": "An Introduction to Finite Element Method, 3e by J N Reddy, McGraw-Hill"
+    },
+    {
+     "no": 5,
+     "book": "Finite Element Method with Application in Engineering by Desai, Eldho and Shah, Pearson Education."
+    },
+    {
+     "no": 6,
+     "book": "Introduction to Finite Element Analysis and Design by Kim & Shankar, John Wiley & Sons."
+    },
+    {
+     "no": 7,
+     "book": "Introduction to Finite Elements in Engineering by Chandrupatla&Belagundu, Pearson Education."
+    }
+   ],
+   "notes": [
+    "Books heading prints 'Books and References:'.",
+    "Scheme table row prints pool code range 'RME051-054'; pool list prints '3. RME-053 Finite Element Methods'."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "ENGINEERING OPTIMIZATION",
+   "name_print": "ENGINEERING OPTIMIZATION",
+   "codes": [
+    "RME-054"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_pool_print": "DEPTT  ELECTIVE COURSE-1: 4. RME-054 Engineering Optimization (p.2)",
+   "units": {
+    "1": "UNIT I\nIntroduction:\nHistorical Developments, and Review of Engineering applications of Optimization Techniques\nLinear Programming:\nSimplex method, Revised simplex method, Two phase method, Duality, Dual simplex method, Integer linear programming, 0-1 integer linear programming, solution by branch and bound method.\n9",
+    "2": "UNIT II\nClassical Optimization Techniques: Introduction, Review of single and multivariableoptimization methods with and without constraints, Non-linear one-dimensional minimization problems, Examples.\n8",
+    "3": "UNIT-III\nConstrained Optimization Techniques: Introduction, Direct methods - Cutting plane methodand Method of Feasibledirections, Indirect methods - Convex programming problems, Exterior penalty function method, Examples and problems\n8",
+    "4": "UNIT-IV\nUnconstrained Optimization Techniques: Introduction, Direct search method - Random,Univariate and Pattern search methods, Rosenbrock’s method of rotating co-ordinates, Descent methods - Steepest Decent methods-Quasi-Newton’s and Variable metric method, Examples.\n8",
+    "5": "UNIT-V\nGeometric Programming: Introduction, Unconstrained minimization problems, solution ofunconstrained problem from arithmetic-geometric inequality point of view, Constrained minimization problems, Generalized polynomial optimization, Applications of geometric problems, Introduction to stochastic optimization."
+   },
+   "lectures_per_unit": [
+    9,
+    8,
+    8,
+    8,
+    null
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Engineering Optimization by Ravindran,  Wiley India"
+    },
+    {
+     "no": 2,
+     "book": "Engineering Optimization:Theory and Application by S SRao, Wiley India"
+    },
+    {
+     "no": 3,
+     "book": "Linear and Non Linear Programming by Luenberger , Narosa"
+    }
+   ],
+   "notes": [
+    "Books heading prints 'Books and References:'.",
+    "Scheme table row prints pool code range 'RME051-054'; pool list prints '4. RME-054 Engineering Optimization'."
+   ],
+   "quirks": [
+    "Unit-V lecture count is printed blank (no number).",
+    "UNIT-I heading text split 'Introduct\\nion:' in text layer; visible print 'Introduction:'.",
+    "Run-ons kept verbatim: 'multivariableoptimization', 'methodand', 'Feasibledirections', 'Random,Univariate', 'ofunconstrained', 'Optimization:Theory'."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Design and Simulation - Lab I",
+   "name_print": "Design and Simulation - Lab I",
+   "codes": [
+    "RME551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0  0 2",
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "scheme_row_print": "7 RME551 Design and Simulation Lab I, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 (p.2)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design & drawing of Cotter joint."
+    },
+    {
+     "no": 2,
+     "exp": "Design & drawing of Knuckle joint"
+    },
+    {
+     "no": 3,
+     "exp": "Design of machine components subjected to combined steady and variable loads"
+    },
+    {
+     "no": 4,
+     "exp": "Design of eccentrically loaded riveted joint"
+    },
+    {
+     "no": 5,
+     "exp": "Design of boiler riveted joint"
+    },
+    {
+     "no": 6,
+     "exp": "Design of shaft for combined constant twisting and bending loads"
+    },
+    {
+     "no": 7,
+     "exp": "Design of shaft subjected to fluctuating loads"
+    },
+    {
+     "no": 8,
+     "exp": "Design and drawing of flanged type rigid coupling"
+    },
+    {
+     "no": 9,
+     "exp": "Design and drawing of flexible coupling"
+    },
+    {
+     "no": 10,
+     "exp": "Design and drawing of helical spring"
+    },
+    {
+     "no": 11,
+     "exp": "Design and drawing of screw jack"
+    }
+   ],
+   "notes": [
+    "Printed preamble: 'Minimum eight experiments out of the following are to be performed. Students are advised to use design data book for the design. Drawing shall be made wherever necessary on small drawing sheets'.",
+    "Lab code RME551 is printed only in the Sem-V scheme table (p.2); the lab section itself prints no code."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "HEAT & MASS TRANSFER – LAB",
+   "name_print": "HEAT & MASS TRANSFER – LAB",
+   "codes": [
+    "RME552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0  0 2",
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "scheme_row_print": "8 RME552 Heat & Mass Transfer Lab, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 (p.2)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Conduction – Experiment on Composite plane wall"
+    },
+    {
+     "no": 2,
+     "exp": "Conduction – Experiment on Composite cylinder wall"
+    },
+    {
+     "no": 3,
+     "exp": "Conduction - Experiment on critical insulation thickness"
+    },
+    {
+     "no": 4,
+     "exp": "Conduction – Experiment on Thermal Contact Resistance"
+    },
+    {
+     "no": 5,
+     "exp": "Convection - Pool Boiling experiment"
+    },
+    {
+     "no": 6,
+     "exp": "Convection - Experiment on heat transfer from tube-(natural convection)."
+    },
+    {
+     "no": 7,
+     "exp": "Convection - Heat Pipe experiment."
+    },
+    {
+     "no": 8,
+     "exp": "Convection - Heat transfer through fin-(natural convection) ."
+    },
+    {
+     "no": 9,
+     "exp": "Convection - Heat transfer through tube/fin-(forced convection)."
+    },
+    {
+     "no": 10,
+     "exp": "Convection - Determination of thermal conductivity of fluid"
+    },
+    {
+     "no": 11,
+     "exp": "Experiment on Stefan's Law, on radiation determination of emissivity, etc."
+    },
+    {
+     "no": 12,
+     "exp": "Experiment on solar collector, etc."
+    },
+    {
+     "no": 13,
+     "exp": "Heat exchanger - Parallel flow experiment"
+    },
+    {
+     "no": null,
+     "exp": "Heat exchanger - Counter flow experiment"
+    }
+   ],
+   "notes": [
+    "Printed preamble: 'Minimum eight experiment of the following'.",
+    "Lab code RME552 is printed only in the Sem-V scheme table (p.2); the lab section itself prints no code.",
+    "Items 3, 10, 11, 12 print without trailing period after the number; item 14 ('Heat exchanger - Counter flow experiment') prints without any number (recorded with no=null)."
+   ],
+   "quirks": [
+    "Preamble typo kept verbatim: 'Minimum eight experiment of the following'.",
+    "Last list line 'Heat exchanger - Counter flow experiment' printed unnumbered after item 13."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "MANUFACTURING TECHNOLOGY-II – LAB",
+   "name_print": "MANUFACTURING TECHNOLOGY-II – LAB",
+   "codes": [
+    "RME553"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0  0 2",
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "scheme_row_print": "9 RME553 Manufacturing Technology-II Lab, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 (p.2)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Shear-angle determination (using formula) with tube cutting (for orthogonal) on lathe machine."
+    },
+    {
+     "no": 2,
+     "exp": "Bolt (thread) making on Lathe machine"
+    },
+    {
+     "no": 3,
+     "exp": "Tool grinding (to provide tool angles) on tool-grinder machine."
+    },
+    {
+     "no": 4,
+     "exp": "Gear cutting on Milling machine."
+    },
+    {
+     "no": 5,
+     "exp": "Machining a block on shaper machine."
+    },
+    {
+     "no": 6,
+     "exp": "Finishing of a surface on surface-grinding machine."
+    },
+    {
+     "no": 7,
+     "exp": "Drilling holes on drilling machine and study of twist-drill."
+    },
+    {
+     "no": 8,
+     "exp": "Study of different types of tools and its angles & materials."
+    },
+    {
+     "no": 9,
+     "exp": "Experiment on tool wear and tool life."
+    },
+    {
+     "no": 10,
+     "exp": "Experiment on jigs/Fixtures and its uses"
+    },
+    {
+     "no": 11,
+     "exp": "Gas welding experiment"
+    },
+    {
+     "no": 12,
+     "exp": "Arc welding experiment"
+    },
+    {
+     "no": 13,
+     "exp": "Resistance welding experiment."
+    },
+    {
+     "no": 14,
+     "exp": "Soldering & Brazing experiment"
+    }
+   ],
+   "notes": [
+    "Printed preamble: 'Minimum eight experiments out of the following along-with study of the machines / processes'.",
+    "Lab code RME553 is printed only in the Sem-V scheme table (p.2); the lab section itself prints no code.",
+    "Text layer splits preamble word as 'Mini\\nmum' (visible print 'Minimum')."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "FLUID MACHINERY",
+   "name_print": "FLUID MACHINERY",
+   "codes": [
+    "RME601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "30  0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "units": {
+    "1": "UNIT-I\nIntroduction: Impulse of Jet and Impulse Turbines:\nClassification of Fluid Machines & Devices, Application of momentum and moment of momentum equation to flow through hydraulic machinery, Euler’s fundamental equation. Introduction to hydrodynamic thrust of jet on a fixed and moving surface (flat &curve), Classification of turbines, Impulse turbines, Constructional details, Velocitytriangles, Power and efficiency calculations, Governing of Pelton wheel\n8",
+    "2": "UNIT-II\nReaction Turbines:\nFrancis and Kaplan turbines, Constructional details, Velocity triangles, Power and efficiency calculations, Degree of reaction, Draft tube, Cavitation in turbines, Principles of similarity, Unit and specific speed, Performance characteristics, Selection of water turbines.\n8",
+    "3": "UNIT-III\nCentrifugal Pumps:\nClassifications of centrifugal pumps, Vector diagram, Work done by impellor, Efficiencies of centrifugal pumps, Specific speed, Cavitation & separation, Performance characteristics.\n8",
+    "4": "UNIT-IV\nPositive Displacement and other Pumps:\nReciprocating pump theory, Slip, Indicator diagram, Effect of acceleration, air vessels, Comparison of centrifugal and reciprocating pumps, Performance characteristics.",
+    "5": "UNIT-V\nHydraulic accumulator, Hydraulic intensifier, Hydraulic Press, hydraulic crane, hydraulic lift, hydraulic Ram,hydraulic coupling, hydraulic torque converter, air lift pump, jet pump.\nSpoken Tutorial (MOOCs):\nSpoken Tutorial MOOC, 'Course on OpenFOAM', IIT Bombay(http://spoken-tutorial.org/)"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Hydraulic Machines by Jagdish Lal, Metropolitan book co. pvt ltd."
+    },
+    {
+     "no": 2,
+     "book": "Hydraulic Machines by K Subramanya, Tata McGraw Hill"
+    },
+    {
+     "no": 3,
+     "book": "Fluid Mechanics and Machinery by C.S.P.Ojha, R. Berndtsson, P.N. Chandramouli, Oxford University Press"
+    },
+    {
+     "no": 4,
+     "book": "Fluid Mechanics and Fluid Power Engineering by D S Kumar, S K Kataria& Sons"
+    },
+    {
+     "no": 5,
+     "book": "Fluid Mechanics and Turbo machines by Das, PHI"
+    },
+    {
+     "no": 6,
+     "book": "Fluid Power with Applications, by Esposito, Pearson"
+    },
+    {
+     "no": 7,
+     "book": "Fluid Mechanics and hydraulic machines by Modi& Seth, Standard Book House"
+    },
+    {
+     "no": 8,
+     "book": "Fundamentals of Turbomachinery by Venkanna B.K., PHI"
+    },
+    {
+     "no": 9,
+     "book": "Hydraulic Machines: Theory & Design, V.P.Vasandhani, Khanna Pub."
+    },
+    {
+     "no": 10,
+     "book": "Fluid Mechanics and Hydraulic Machines by SukumarPati, Tata McGraw Hill"
+    }
+   ],
+   "notes": [
+    "Section header prints 'SEMESTER - VI' above this subject (p.14).",
+    "Unit-V prints a 'Spoken Tutorial (MOOCs):' reference (kept verbatim in unit text).",
+    "Books heading prints 'BOOKS:'."
+   ],
+   "quirks": [
+    "Section header prints L-T-P as '30 0' (scheme table prints 3--0--0).",
+    "The printed '8' for Unit-IV is displaced: text layer shows it after the 'UNIT-V' heading, before Unit-V body; per-unit count 8 recorded from the printed values.",
+    "Run-ons kept verbatim: '(flat &curve)', 'Velocitytriangles', 'impellor', 'Ram,hydraulic'.",
+    "MOOC line includes URL http://spoken-tutorial.org/ as printed."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "THEORY OF MACHINES",
+   "name_print": "THEORY OF MACHINES",
+   "codes": [
+    "RME602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3: 1: 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "units": {
+    "1": "Unit I\n8\nIntroduction, mechanisms and machines, kinematics and kinetics, types of links, kinematic pairs and their classification, types of constraint, degrees of freedom of planar mechanism, Grubler’s equation, mechanisms, inversion of four bar chain, slider crank chain and double slider crank chain.\nVelocity analysis:\nIntroduction, velocity of point in mechanism, relative velocity method, velocities in four bar mechanism, instantaneous center .\nAcceleration analysis:\nIntroduction, acceleration of a point on a link, acceleration diagram, Corioli’s component of acceleration, crank and slotted lever mechanism,.",
+    "2": "Unit II\n8\nCams\nIntroduction, classification of cams and followers, cam profiles for knife edge, roller and flat faced followers for uniform velocity, uniform acceleration,\nGears and gear trains\nIntroduction, classification of gears, law of gearing, tooth forms and their comparisons, systems of gear teeth, length of path of contact, contact ratio, minimum number of teeth on gear and pinion to avoid interference, simple, compound, reverted and planetary gear trains, sun and planet gear train.",
+    "3": "Unit III\n8\nForce analysis:\nStatic force analysis of mechanisms, D’Alembert’s Principle, dynamics of rigid link in plane motion, dynamic force analysis of planar mechanisms, piston force and crank effort. Turning moment on crankshaft due to force on piston, Turning moment diagrams for single cylinder double acting steam engine, four stroke IC engine and multi-cylinder engines, Fluctuation of speed, Flywheel.",
+    "4": "Unit IV\n8\nBalancing:  \nIntroduction,static balance, dynamic balance, balancing of rotating masses,two plane balancing, graphical and analytical methods, balancing of reciprocating masses,\nGovernors:\nIntroduction, types of governors, characteristics of centrifugal governors, gravitycontrolled and spring controlled centrifugal governors, hunting of centrifugal governors, inertia governors. Effort and Power of governor",
+    "5": "Unit V\n8\nBrakes and dynamometers:\nIntroduction, Law of friction and types of lubrication, types of brakes, effect of braking on rear and front wheels of a four wheeler, dynamometers, belt transmission dynamometer, torsion dynamometer, hydraulic dynamometer"
+   },
+   "lectures_per_unit": 8,
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Kinematics and dynamics of machinery: Wilson and Sadler, Third edition, Pearson."
+    },
+    {
+     "no": 2,
+     "book": "Theory of Mechanisms and Machines: AmitabhaGhosh and Ashok kumarMallik, Third Edition Affiliated East-West Press."
+    },
+    {
+     "no": 3,
+     "book": "Theory of Machines and Mechanisms: Joseph Edward Shigley and John Joseph Uicker, Jr. Oxford University Press"
+    },
+    {
+     "no": 4,
+     "book": "Kinematics and dynamics of machinery: R L Norton, McGraw Hill"
+    },
+    {
+     "no": 5,
+     "book": "Theory of Mchines: S.S. Rattan, McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "Theory of Mchines: Thomas Bevan, CBS Publishers."
+    }
+   ],
+   "notes": [
+    "Books heading prints 'Text/Reference Books:' (single combined list).",
+    "Unit lecture counts print between unit heading and unit body (kept at printed position)."
+   ],
+   "quirks": [
+    "Printed typos kept verbatim: 'Theory of Mchines' (books 5 and 6), 'AmitabhaGhosh', 'Ashok kumarMallik', 'gravitycontrolled', 'Introduction,static', 'masses,two', 'mechanism,.' (trailing comma-period in Unit-I), 'center .' (space before period)."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "MACHINE DESIGN-II",
+   "name_print": "MACHINE DESIGN-II",
+   "codes": [
+    "RME603"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3: 0: 0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "units": {
+    "1": "UNIT I\nPrinciple of transmission and conjugate action\nSpur Gears\nTooth forms, System of gear teeth, contact ratio, Standard proportions of gear systems, Interference in involute gears, Backlash, Selection of gear materials, Gear manufacturing methods, Design considerations, Beam strength of gear tooth, Dynamic tooth load, Wear strength of gear tooth, Failure of gear tooth, Design of spur gears, AGMA and Indian standards.\n6\nHelical Gears\nTerminology, Proportions for helical gears, Forces components on a tooth of helical gear, Virtual number of teeth, Beam strength& wear strength of helical gears, Dynamic load on helical gears, Design of helical gears.",
+    "2": "UNIT II Bevel gears\nTerminology of bevel gears, Force analysis, Virtual number of teeth, Beam strength and wear strength of bevel gears,Effective load of gear tooth, Design of a bevel gear system.\n4\nWorm Gears\nTypes of worms, Terminology, Gear tooth proportions, Efficiency of worm gears, Heat dissipation in worm gearing, Strength and wear tooth load for worm gears, Design of worm gearing system.\n4",
+    "3": "UNIT III\nSliding Contact Bearing\nTypes, Selection of bearing, Plain journal bearing, Hydrodynamic lubrication, Properties and materials, Lubricants and lubrication, Hydrodynamic journal bearing, Heat generation, Design of journal bearing, Thrust bearing-pivot and collar bearing, Hydrodynamic thrust bearing,\n6",
+    "4": "UNIT IV\nRolling Contact Bearing\nAdvantages and disadvantages, Types of ball bearing, Thrust ball bearing, Types of roller bearing, Selection of radial ball bearing, Bearing life, Selection of roller bearings, Dynamic equivalent load for roller contact bearing under constant and variable loading, Reliability of Bearing, Selection of rolling contact bearing, Lubrication of ball and roller bearing, Mounting of bearing\n6",
+    "5": "UNIT V\nIC ENGINE parts,\nSelection of type of IC engine, General design considerations, Design of cylinder and cylinder head; Design of piston and its parts like piston ring and gudgeon pin etc.; Design of connecting rod; Design of crankshaft\n10"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Design of Machine Elements-V.B. Bhandari, Tata McGraw Hill Co."
+    },
+    {
+     "no": 2,
+     "book": "Machine Design-Sharma and Agrawal, S.K. Kataria& Sons."
+    },
+    {
+     "no": 3,
+     "book": "Machine Design, U C Jindal, Pearson Eductaion."
+    },
+    {
+     "no": 4,
+     "book": "Design of Machine Elements, Sharma and Purohit, PHI."
+    },
+    {
+     "no": 5,
+     "book": "Design of Machine Eesign-M.F. Spott, Pearson Eductaion"
+    },
+    {
+     "no": 6,
+     "book": "Machine Design-Maleev and Hartman, CBS Publishers."
+    },
+    {
+     "no": 7,
+     "book": "Mechanical Engineering Design, 9e – Joseph E. Shigely, McGraw Hill Education."
+    },
+    {
+     "no": 9,
+     "book": "Elements of Machine Component Design, Juvinal&Marshek, John Wiley & Sons."
+    }
+   ],
+   "notes": [
+    "Printed note after Unit-V: 'Note: Design data book is allowed in the examination'.",
+    "Books heading prints 'Books and References:'; printed numbering runs 1-7 then 9 (no item 8) — kept verbatim.",
+    "Per-topic lecture counts printed in right column embedded at printed positions."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "REFRIGERATION & AIR CONDITIONING",
+   "name_print": "REFRIGERATION & AIR CONDITIONING",
+   "codes": [
+    "RME-061"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_pool_print": "DEPTT  ELECTIVE COURSE-2: 1. RME061 Refrigeration & Air-conditioning (p.3)",
+   "units": {
+    "1": "Unit-1\nRefrigeration:\nIntroduction to refrigeration system, Methods of refrigeration, Carnot refrigeration cycle, Unit of refrigeration, Refrigeration effect & C.O.P.\nAir Refrigeration cycle:\nOpen and closed air refrigeration cycles, Reversed Carnot cycle, Bell Coleman or Reversed Joule air refrigeration cycle, Aircraft refrigeration system, Classification of aircraft refrigeration system. Boot strap refrigeration, Regenerative, Reduced ambient, Dry air rated temperature (DART).\n8",
+    "2": "Unit-2\nVapour Compression System:\nSingle stage system, Analysis of vapour compression cycle, Use of T-S and P-H charts, Effect of change in suction and discharge pressures on C.O.P, Effect of sub cooling of condensate & superheating of refrigerant vapour on C.O.P of the cycle, Actual vapour compression refrigeration cycle, Multistage vapour compression system requirement, Removal of flash gas, Intercooling, Different configuration of multistage system, Cascade system.\n8",
+    "3": "Unit-3\nVapour Absorption system;\nWorking Principal of vapour absorption refrigeration system, Comparison between absorption & compression systems, Elementary idea of refrigerant absorbent mixtures, Temperature – concentration diagram & Enthalpy – concentration diagram , Adiabatic mixing of two streams, Ammonia – Water vapour absorption system, Lithium- Bromide water vapour absorption system, Comparison. Three fluid system.\n5\nRefrigerants:\nClassification of refrigerants, Nomenclature, Desirable properties of refrigerants, Common refrigerants, Secondary refrigerants and CFC free refrigerants. Ozone layer depletion and global warming considerations of refrigerants\n3",
+    "4": "Unit-4\nAir Conditioning:\nIntroduction to air conditioning, Psychometric properties and their definitions, Psychometric chart, Different Psychometric processes, Thermal analysis of human body, Effective temperature and comfort chart, Cooling and heating load calculations, Selection of inside & outside design conditions, Heat transfer through walls & roofs, Infiltration & ventilation, Internal heat gain, Sensible heat factor ( SHF ), By pass factor, Grand Sensible heat factor ( GSHF), Apparatus dew point (ADP). Air Washers, Cooling towers & humidifying efficiency.\n9",
+    "5": "Unit-5\nRefrigeration Equipment & Application:\nElementary knowledge of refrigeration & air conditioning equipmentse.g compressors, condensers, evaporators & expansion devices, Food preservation, Cold storage, Refrigerates Freezers, Ice plant, Water coolers, Elementary knowledge of transmission and distribution of air through ducts and fans, Basic difference between comfort and industrial air conditioning.\n7"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Refrigeration and Air conditioning by C.P Arora, McGraw-Hill"
+    },
+    {
+     "no": 2,
+     "book": "Refrigeration and Air conditioning, by Manohar Prasad, New Age International (P) Ltd.Pub."
+    },
+    {
+     "no": 3,
+     "book": "Refrigeration and Air conditioning by R. C. Arora, PHI"
+    },
+    {
+     "no": 4,
+     "book": "Principles of Refrigeration by Roy J. Dossat. Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Refrigeration and Air conditioning by stoecker& Jones. McGraw-Hill"
+    },
+    {
+     "no": 7,
+     "book": "Refrigeration and Air conditioning by Arora&Domkundwar. DhanpatRai"
+    },
+    {
+     "no": 7,
+     "book": "Thermal Environment Engg. byKuhen, Ramsey &Thelked."
+    }
+   ],
+   "notes": [
+    "Section is headed 'DepartmentalElective Course-II' (space-collapsed in print).",
+    "Books heading prints 'Books:'; printed numbering runs 1-5 then 7,7 (no item 6) — kept verbatim.",
+    "Scheme table row prints pool code range 'RME061-064' for Deptt. Elective Course-2."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "PRODUCTION PLANNING & CONTROL",
+   "name_print": "PRODUCTION PLANNING & CONTROL",
+   "codes": [
+    "RME-062"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1  0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_pool_print": "DEPTT  ELECTIVE COURSE-2: 2. RME062 Production Planning and Control (p.3)",
+   "units": {
+    "1": "Unit-I\nIntroduction:\nTypes and characteristics of Manufacturing systems and Production systems, Objective and functions of Production, Planning & Control, organization\n4\nPreplanning:\nForecasting & Market Analysis.Factory Location & Layout, Equipment policy and replacement. Preplanning production, capacity planning\n4",
+    "2": "Unit-II\nProduction Planning:\nProduct development and design. BEP, profit volume chart, Material Resource Planning, Selection of material, methods, machines & manpower. Routing, Loading, Scheduling, Job shop scheduling, sequencing of production operation, line balancing\n9",
+    "3": "Unit-III\nProduction Control:\nDispatching rules, dispatching of work card, move card, inspection card and reports, Control boards and charts. Expediting, progress reporting, corrective action, change in schedules.\n6",
+    "4": "Unit-IV\nEvaluation and Analysis:\nElements of network and its development, Introduction to CPM and PERT techniques.\n7",
+    "5": "UNIT-V\nMaterial Planning and Control:\nField and scope, material planning, inventories, types and classification, ABC analysis, economic lot (batch) size, lead time and reorder point, modern trends in purchasing, store keeping, store operations, Introduction to manufacturing resource planning (MRP) and enterprise resource planning (ERP)\n10"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Elements of Production Planning & Control by Samuel Eilon, Universal Publishing Corporation."
+    },
+    {
+     "no": 2,
+     "book": "Production Planning & Control & Industrial Management by K.C. Jain and L.N. Agarwal, Khanna Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Modern Production/Operations Management by E.S. Buffa , Wiley."
+    },
+    {
+     "no": 4,
+     "book": "Production System: Planning, Analysis, and Control by J.L. Riggs,Wiley."
+    },
+    {
+     "no": 5,
+     "book": "Production Planning and Inventory Managementby J.F. Magee &David Morris BOODMAN, McGraw Hill."
+    },
+    {
+     "no": 6,
+     "book": "Industrial Engg& Management by O.P. Khanna, DhanpatRai& Sons."
+    }
+   ],
+   "notes": [
+    "Books heading prints 'Books and References:'.",
+    "Scheme table row prints pool code range 'RME061-064'."
+   ],
+   "quirks": [
+    "Run-ons kept verbatim: 'Analysis.Factory', 'Managementby', 'Riggs,Wiley', 'Engg& Management', 'DhanpatRai& Sons'.",
+    "Book 5 author prints 'BOODMAN' (as printed; verified via rawdict glyphs) — kept verbatim."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "MECHANICAL VIBRATIONS",
+   "name_print": "MECHANICAL VIBRATIONS",
+   "codes": [
+    "RME-063"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_pool_print": "DEPTT  ELECTIVE COURSE-2: 3. RME063 Mechanical Vibration (p.3)",
+   "units": {
+    "1": "UNIT - I\nIntroduction, Classification of Vibration Systems, Harmonic motion, Vector re[presentation of harmonic motion, Natural frequency & response, Effects of vibration, superposition of simple harmonic motions, beats, Fourier analysis-analytical and numerical methods.\n3\nSingle Degree Freedom System, Equation of motion, Newton’s method, D’Alembert’s principle, Energy method etc., Free vibration, Natural frequency, Equivalent systems, Displacement, Velocity and acceleration, Response to an initial disturbance, Torsional vibrations, Damped vibrations, Vibrations of systems with viscous damping, Logarithmic decrement, Energy dissipation in viscous damping.\n5",
+    "2": "UNIT - II\nSingle Degree Freedom: Forced Vibration Forced vibration, Harmonic excitation with viscous damping, steady state vibrations, Forced vibrations with rotating and reciprocating unbalance, Support excitation, Vibration isolation, Transmissibility, Vibration measuring instruments, Displacement, velocity and acceleration measuring instruments\n8",
+    "3": "UNIT- III\nTwo Degree Freedom systems Introduction, Principal modes, Double pendulum, Torsional system with damping, Coupled system, Principle of vibration absorber, Undamped dynamic vibration absorbers, Torsional vibration absorber, Centrifugal pendulum absorbers, Vibration isolators and Dampers.\n8",
+    "4": "UNIT- IV\nMulti-degree Freedom system: Exact Analysis, Undamped free and forced vibrations of multi-degree freedom systems, influence coefficients, Reciprocal theorem, Torsional vibration of multi-degree rotor system, Vibration of gear system, Principal coordinates, Continuous systems- Longitudinal vibrations of bars, Torsional vibrations of circular shafts.\n8",
+    "5": "UNIT- V\nMulti Degree Freedom system: Numerical Analysis by Rayleigh’s method, Dunkerely’s, Holzer’s and Stodola methods, Rayleigh-Ritz method\n5\nCritical speed of shafts, Whirling of uniform shaft, Shaft with one disc with and without damping, Multi-disc shafts, Secondary critical speed.\n3"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Mechanical Vibrations – G. K. Groover, Jain Brothers, Roorkee."
+    },
+    {
+     "no": 2,
+     "book": "Mechanical Vibrations-Theory & Practice, S Bhave, Pearson Education."
+    },
+    {
+     "no": 3,
+     "book": "Mechanical Vibrations-Theory & Applications, Singhal, Katson Books."
+    },
+    {
+     "no": 4,
+     "book": "Theory of Vibrations with Applications, Thomson&Dahleh, Pearson Education."
+    },
+    {
+     "no": 5,
+     "book": "Elements of Vibration Analysis, L Meirovitch, McGraw-Hill Education."
+    },
+    {
+     "no": 6,
+     "book": "Mechanical Vibrations – Tse, Morse & Hinkle"
+    },
+    {
+     "no": 7,
+     "book": "Mechanical Vibrations – V. Rama Murthy, Narosa Publications"
+    },
+    {
+     "no": 8,
+     "book": "Mechanical Vibrations – D. Nag, Wiley"
+    }
+   ],
+   "notes": [
+    "Books heading prints 'Books and References:'.",
+    "Scheme table row prints pool code range 'RME061-064'; pool list prints name 'RME063 Mechanical Vibration' while the section title prints 'MECHANICAL VIBRATIONS'."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "RELIABILITY ENGINEERING",
+   "name_print": "RELIABILITY ENGINEERING",
+   "codes": [
+    "RME-064"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3 1 0",
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "elective_pool_print": "DEPTT  ELECTIVE COURSE-2: 4. RME064 Reliability Engineering (p.3)",
+   "units": {
+    "1": "UNIT-I\n8\nIntroduction: Definition of reliability, Failures & failures modes, Failure rates, MTTF, MTBF, Bath tub curve, Definition and factors influencing system effectiveness, various parameters of system effectiveness.",
+    "2": "UNIT-II\n8\nReliability Mathematics, Definition of probability, laws of probability, conditional probability, Bay's theorem, Various probability distributions, Data collection, Recovery of data, Data analysis Procedures, Empirical reliability calculations.",
+    "3": "UNIT-III\n8\nReliability types, System of series, parallel, series parallel, Stand by and complex systems; Development of logic diagram, Methods of reliability evaluation; Cut set and tie set methods, Matrix methods, Event trees and fault trees methods, Reliability evaluation using probability distributions, The Weibull distribution and its application in reliability, Markov method, Frequency and duration method.",
+    "4": "UNIT-IV\n8\nReliability Improvements: Methods of reliability improvement, component redundancy, system redundancy, types of redundancies-series, parallel, series - parallel, stand by and hybrid, effect of maintenance",
+    "5": "UNIT-IV\n8\nReliability Testing, Life testing, requirements, methods, test planning, data reporting system, data reduction and analysis, reliability test standards."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "R.Billintan& R.N. Allan,\"Reliability Evaluation of Engineering and Systems\", Plenum Press."
+    },
+    {
+     "no": 2,
+     "book": "K.C. Kapoor& L.R. Lamberson,\"Reliability in Engineering and Design\", John Wiely and Sons."
+    },
+    {
+     "no": 3,
+     "book": "S.K. Sinha& B.K. Kale,\"Life Testing and Reliability Estimation\", Wiely Eastern Ltd."
+    },
+    {
+     "no": 4,
+     "book": "A Birolini. Reliability Engineering-Theory & Practice, Springer."
+    },
+    {
+     "no": 5,
+     "book": "G.H.Sandler,\"System Reliability Engineering\", Prentice Hall."
+    },
+    {
+     "no": 6,
+     "book": "D J Smith, Reliability, Maintainability & Risk, Butterworth-Heinemann."
+    }
+   ],
+   "notes": [
+    "Books heading prints 'Books & references:'.",
+    "Scheme table row prints pool code range 'RME061-064'."
+   ],
+   "quirks": [
+    "Print has two consecutive units both headed 'UNIT-IV' and no 'UNIT-V'; the second UNIT-IV is recorded as unit '5'; the draft-side annotation '(second unit printed under the same heading)' is kept in this quirk rather than the unit text (verbatim-only unit text, B28 doc-10 annotation class).",
+    "Lecture counts print between unit heading and body (kept at printed position).",
+    "Printed typos kept verbatim: 'R.Billintan&', 'John Wiely and Sons', 'Wiely Eastern Ltd.', 'Failures & failures modes'."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "FLUID MACHINERY Lab",
+   "name_print": "FLUID MACHINERY Lab",
+   "codes": [
+    "RME651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0 0 2",
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "scheme_row_print": "7 RME651 Fluid Machinery Lab, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 (p.3)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Impact of Jet experiment."
+    },
+    {
+     "no": 2,
+     "exp": "Experiment on Pelton wheel."
+    },
+    {
+     "no": 3,
+     "exp": "Experiment on Francis turbine."
+    },
+    {
+     "no": 4,
+     "exp": "Experiment on Kaplan turbine."
+    },
+    {
+     "no": 5,
+     "exp": "Experiment on Reciprocating pump."
+    },
+    {
+     "no": 6,
+     "exp": "Experiment on centrifugal pump."
+    },
+    {
+     "no": 7,
+     "exp": "Experiment on Hydraulic Jack/Press"
+    },
+    {
+     "no": 8,
+     "exp": "Experiment on Hydraulic Brake"
+    },
+    {
+     "no": 9,
+     "exp": "Experiment on Hydraulic Ram"
+    },
+    {
+     "no": 10,
+     "exp": "Study through visit of any water pumping station/plant"
+    },
+    {
+     "no": 11,
+     "exp": "Any other suitable experiment/test rig such as comparison & performance of different types of pumps and turbines."
+    },
+    {
+     "no": 12,
+     "exp": "Experiment on Compressor"
+    },
+    {
+     "no": 13,
+     "exp": "Experiment for measurement of drag and lift on aerofoil in wind tunnel"
+    }
+   ],
+   "notes": [
+    "Printed preamble: 'Minimum ten experiments out of the following along with study of the machines and processes'.",
+    "Lab code RME651 is printed only in the Sem-VI scheme table (p.3); the lab section itself prints no code."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "THEORY OF MACHINES LAB",
+   "name_print": "THEORY OF MACHINES LAB",
+   "codes": [
+    "RME652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0 0 2",
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "scheme_row_print": "8 RME652 Theory of Machines Lab, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 (p.3)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of simple linkage models/mechanisms"
+    },
+    {
+     "no": 2,
+     "exp": "Study of inversions of four bar linkage"
+    },
+    {
+     "no": 3,
+     "exp": "Study of inversions of single/double slider crank mechanisms"
+    },
+    {
+     "no": 4,
+     "exp": "Experiment on Gears tooth profile, interference etc."
+    },
+    {
+     "no": 5,
+     "exp": "Experiment on Gear trains"
+    },
+    {
+     "no": 6,
+     "exp": "Experiment on longitudinal vibration"
+    },
+    {
+     "no": 7,
+     "exp": "Experiment on transverse vibration"
+    },
+    {
+     "no": 8,
+     "exp": "Experiments on dead weight type governor"
+    },
+    {
+     "no": 9,
+     "exp": "Experiment on spring controlled governor"
+    },
+    {
+     "no": 10,
+     "exp": "Experiment on critical speed of shaft"
+    },
+    {
+     "no": 11,
+     "exp": "Experiment on gyroscope"
+    },
+    {
+     "no": 12,
+     "exp": "Experiment on static/dynamic balancing"
+    },
+    {
+     "no": 13,
+     "exp": "Experiment on Brake"
+    },
+    {
+     "no": 14,
+     "exp": "Experiment on clutch"
+    }
+   ],
+   "notes": [
+    "Printed preamble: 'Minimum eight experiments out of the following:'.",
+    "Lab code RME652 is printed only in the Sem-VI scheme table (p.3); the lab section itself prints no code."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Design And Simulation - Lab II",
+   "name_print": "Design And Simulation - Lab II",
+   "codes": [
+    "RME653"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0 0 2",
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "scheme_row_print": "9 RME653 Design and Simulation Lab II, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 (p.3)",
+   "experiments": [
+    {
+     "no": "A",
+     "exp": "Computer and Language :students are required to learn the basics of computer language such as Cand C++ so that they should be able to write the computer programme (3practical turns)"
+    },
+    {
+     "no": "B",
+     "exp": "Writing Computer programme for conventional design: Students are required to write computerprogram and validate it for the design of machine components done in theory subject (5practical turns)"
+    },
+    {
+     "no": "C",
+     "exp": "Mini Project: Each student will be given a real life problem for the complete design of asubsystem/system using either manual calculation with the help of design handbook or through computer programme, if needed. This will be done as home assignment to be submitted at the end of the semester."
+    }
+   ],
+   "notes": [
+    "Lab items print as lettered parts A./B./C., not a numbered experiment list (recorded with printed letters).",
+    "Lab code RME653 is printed only in the Sem-VI scheme table (p.3); the lab section itself prints no code."
+   ],
+   "quirks": [
+    "Run-ons kept verbatim: 'Language :students', 'Cand C++', 'computerprogram', 'asubsystem/system', '3practical turns', '5practical turns'."
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "REFRIGERATION & AIR CONDITIONING Lab",
+   "name_print": "REFRIGERATION & AIR CONDITIONING Lab",
+   "codes": [
+    "RME654"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0 0 2",
+   "credit": 1,
+   "marks": {
+    "sessional_ta": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_dept_print": "Core Deptt.",
+   "scheme_row_print": "10 RME654 Refrigeration & Air-conditioning, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 (p.3)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Experiment on refrigeration test rig and calculation of various performance parameters."
+    },
+    {
+     "no": 2,
+     "exp": "Study of different types of expansion devices used in refrigeration system."
+    },
+    {
+     "no": 3,
+     "exp": "Study of different types of evaporators used in refrigeration systems."
+    },
+    {
+     "no": 4,
+     "exp": "To study basic components of air-conditioning system."
+    },
+    {
+     "no": 5,
+     "exp": "Experiment on air-conditioning test rig & calculation of various performance parameters."
+    },
+    {
+     "no": 6,
+     "exp": "Experiment on air washers"
+    },
+    {
+     "no": 7,
+     "exp": "Study of window air conditioner."
+    },
+    {
+     "no": 8,
+     "exp": "Study & determination of volumetric efficiency of compressor."
+    },
+    {
+     "no": 9,
+     "exp": "Visit of a central air conditioning plant and its detailed study."
+    },
+    {
+     "no": 10,
+     "exp": "Visit of cold-storage and its detailed study."
+    },
+    {
+     "no": 11,
+     "exp": "Experiment on Ice-plant."
+    },
+    {
+     "no": 12,
+     "exp": "Experiment on two stage Reciprocating compressor for determination of volumetric efficiency , PV diagram and effect of intercooling."
+    },
+    {
+     "no": 13,
+     "exp": "Study of Hermetically sealed compressor."
+    },
+    {
+     "no": 14,
+     "exp": "Experiment on Desert coolers."
+    }
+   ],
+   "notes": [
+    "Printed preamble: 'Minimum eight experiments out of the following:'.",
+    "Lab code RME654 is printed only in the Sem-VI scheme table (p.3); the lab section itself prints no code.",
+    "Scheme table row 10 prints subject name 'Refrigeration & Air-conditioning' (lab implied by L-T-P 0--0--2 and lab marks); section title prints 'REFRIGERATION & AIR CONDITIONING Lab'."
+   ],
+   "program_year": 3
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover",
+   "print": "Dr. A.P.J. Abdul Kalam Technical Unive rsity Uttar Pradesh,Lucknow | B. Tech. | Syllabus for Mechanical Engineering Third Year | (Effective from the Session: 2018-19)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "STUDY AND EVALUATION SCHEME — B-Tech. Mechanical Engineering — YEAR: 3rd / SEMESTER-V — columns: S.No. | Subject Code | Subject Name | Department | L-T-P | Theory / Lab Marks | SESSIONAL (Test, Assignment / Attendance) | Total | Credit — 1 RAS501 Managerial Economics, Applied Science, 3--0--0, 70, 20, 10, 100, 3 — 2 RAS502/RUC501 Sociology /Cyber Security, Applied Science, 3--0--0, 70, 20, 10, 100, 3 — 3 RME501 Machine Design-I, Core Deptt., 3--0--0, 70, 20, 10, 100, 3 — 4 RME502 Heat & Mass Transfer, Core Deptt., 3--1--0, 70, 20, 10, 100, 4 — 5 RME503 Manufacturing Science& Technology-II, Core Deptt., 3--0--0, 70, 20, 10, 100, 3 — 6 RME051-054 Deptt. Elective Course-1, Core Deptt., 3--1--0, 70, 20, 10, 100, 4 — 7 RME551 Design and Simulation Lab I, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 — 8 RME552 Heat & Mass Transfer Lab, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 — 9 RME553 Manufacturing Technology-II Lab, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 — 10 RME559 Seminar – I, (Deptt. blank), 0--0--2, 50, (Test blank), 50, 100, 1",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_total",
+   "print": "TOTAL 1000 24",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "DEPTT  ELECTIVE COURSE-1: 1. RME-051 IC Engines and Compressors 2. RME-052 Mechatronics and Microprocessor 3. RME-053 Finite Element Methods 4. RME-054 Engineering Optimization",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_not_detailed",
+   "print": "1 RAS501 Managerial Economics, Applied Science, 3--0--0, 70, 20, 10, 100, 3 — listed in scheme but NO syllabus section printed in this document",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_not_detailed",
+   "print": "2 RAS502/RUC501 Sociology /Cyber Security, Applied Science, 3--0--0, 70, 20, 10, 100, 3 — listed in scheme but NO syllabus section printed in this document",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_not_detailed",
+   "print": "10 RME559 Seminar – I, (Department cell printed blank), 0--0--2, 50, (Test blank), 50, 100, 1 — listed in scheme but NO syllabus section printed in this document",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "STUDY AND EVALUATION SCHEME — B-Tech. Mechanical Engineering — YEAR: 3rd / SEMESTER-VI — columns: S.No. | Subject Code | Subject Name | Department | L-T-P | Theory / Lab Marks | SESSIONAL (Test, Assignment / Attendance) | Total | Credit — 1 RAS601 Industrial Management, Applied Science, 3--0--0, 70, 20, 10, 100, 3 — 2 RUC601/RAS602 Cyber Security/Sociology, Applied Science, 3--0--0, 70, 20, 10, 100, 3 — 3 RME601 Fluid Machinery, Core Deptt., 3--0--0, 70, 20, 10, 100, 3 — 4 RME602 Theory of Machines, Core Deptt., 3--1--0, 70, 20, 10, 100, 4 — 5 RME603 Machine Design-II, Core Deptt., 3--0--0, 70, 20, 10, 100, 3 — 6 RME061-064 Deptt. Elective Course-2, Core Deptt., 3--1--0, 70, 20, 10, 100, 4 — 7 RME651 Fluid Machinery Lab, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 — 8 RME652 Theory of Machines Lab, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 — 9 RME653 Design and Simulation Lab II, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1 — 10 RME654 Refrigeration & Air-conditioning, Core Deptt., 0--0--2, 50, (Test blank), 50, 100, 1",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_total",
+   "print": "TOTAL 1000 24",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "DEPTT  ELECTIVE COURSE-2: 1. RME061 Refrigeration & Air-conditioning 2. RME062 Production Planning and Control 3. RME063 Mechanical Vibration 4. RME064 Reliability Engineering",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_not_detailed",
+   "print": "1 RAS601 Industrial Management, Applied Science, 3--0--0, 70, 20, 10, 100, 3 — listed in scheme but NO syllabus section printed in this document",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row_not_detailed",
+   "print": "2 RUC601/RAS602 Cyber Security/Sociology, Applied Science, 3--0--0, 70, 20, 10, 100, 3 — listed in scheme but NO syllabus section printed in this document",
+   "locator": "p.3"
+  },
+  {
+   "kind": "stray_fragment",
+   "print": "(page prints blank — no text, no images, no drawings)",
+   "locator": "pp.24-25"
+  },
+  {
+   "kind": "stray_fragment",
+   "print": "L T P ... 3 1 0 (stray table-cell fragments at right of page; no subject title printed anywhere on page)",
+   "locator": "p.26"
+  },
+  {
+   "kind": "stray_fragment",
+   "print": "6 (stray fragment; no subject title printed anywhere on page)",
+   "locator": "p.27"
+  }
+ ],
+ "quirks": [
+  "Cover (p.1) text layer scrambled/out of order; printed fragments concatenated: 'Dr. A.P.J. Abd'+'dul Kalam Technical Unive'+'ersityUttar'+'Pradesh,Lucknow'; cover prints B. Tech. Mechanical Engineering Third Year effective 2018-19 (canonical course BTech per §1b; print 'B. Tech.').",
+  "Trailing pp.24-27 near-blank: stray printed fragments 'L T P'+'3 1 0' (p.26) and '6' (p.27) with NO subject title; verified via rawdict (no images/drawings) and pdftotext cross-check; no subject inferred (zero guessing).",
+  "Fluid Machinery section header prints L-T-P as '30 0'; scheme table prints 3--0--0.",
+  "Heat & Mass Transfer: per-topic lecture counts printed in right column; count for 'Transient Conduction' topic is printed blank.",
+  "Manufacturing Science& Technology-II: Unit-IV and Unit-V titles print prefixed letters 'B.'/'C.' ('Unit-IV B. Metal Joining (Welding)', 'Unit-V C. Introduction to Unconventional Machining and Welding') — stray list-lettering artifact in print.",
+  "MANUFACTURING TECHNOLOGY-II – LAB preamble prints word split 'Mini\\nmum' in text layer (visible print 'Minimum').",
+  "Machine Design-II books list prints numbers 1-7 then 9 (no item 8).",
+  "Refrigeration & Air Conditioning books list prints two items both numbered 7 and no item 6.",
+  "Reliability Engineering prints two consecutive units both headed 'UNIT-IV'; no 'UNIT-V' printed.",
+  "Fluid Machinery: the lecture count '8' for Unit-IV prints displaced (text layer shows it after the 'UNIT-V' heading, before Unit-V body).",
+  "Printed typos kept verbatim incl.: 'Eductaion' (several book entries), 'Theory of Mchines' (TOM books 5-6), 'Design of Machine Eesign' (MD-II book 5), 'Vector re[presentation' (Mech Vibs), 'impellor', 'Velocitytriangles', '(flat &curve)', 'andremedies', 'Managementby', 'Cand C++', 'computerprogram', 'asubsystem/system', 'equipmentse.g', 'Steepest Decent', 'multivariableoptimization', 'methodand', 'Feasibledirections', 'ofunconstrained', 'Optimization:Theory', 'gravitycontrolled', 'byKuhen, Ramsey &Thelked', 'stoecker& Jones', 'Gill, Smith,Ziurs', 'Pulkrabek,,Pearson', 'International Combustion Engines' (IC Engines book 3 title), HMT Lab preamble 'Minimum eight experiment of the following', Design&Simulation Lab II '3practical turns'/'5practical turns', 'Kirchoff’s law; ;' double semicolon (HMT Unit-4).",
+  "Section headings print without space: 'DepartmentalElective Course-1' (p.8), 'DepartmentalElective Course-II' (p.17); heading 'MANUFACTURING SCIENCE& TECHNOLOGY-II'; pool heading 'DEPTT  ELECTIVE COURSE-1/2'.",
+  "Scheme/pool names differ from section titles: scheme row RME654 'Refrigeration & Air-conditioning' vs lab section 'REFRIGERATION & AIR CONDITIONING Lab'; pool 'RME-051 IC Engines and Compressors' vs section 'I C ENGINES & COMPRESSORS'; pool 'RME063 Mechanical Vibration' vs section 'MECHANICAL VIBRATIONS'.",
+  "No course outcomes (COs), K-levels, printed objectives, eligibility or prerequisites anywhere in the document — all such fields printed-blank and omitted per zero-guessing policy.",
+  "Marks columns per scheme: theory rows print Theory/Lab Marks (ESE) 70, SESSIONAL Test 20 + Assignment/Attendance 10, Total 100 (sessional subtotal not printed); lab rows print 50 / Test blank / 50 / Total 100.",
+  "Engineering Optimization UNIT-I heading text split 'Introduct\\nion:' in text layer (visible print 'Introduction:')."
+ ],
+ "flags": [
+  "needs_review: trailing stray fragments pp.24-27 with no identifiable subject title — none inferred (zero guessing).",
+  "info: scheme-only subjects (RAS501, RAS502/RUC501, RME559, RAS601, RUC601/RAS602) have no syllabus section in this print; recorded as non_subject_rows, not dropped."
+ ]
+}

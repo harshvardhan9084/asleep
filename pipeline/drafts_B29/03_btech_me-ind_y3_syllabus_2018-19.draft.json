@@ -1,0 +1,1722 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2018-19/btech_me-ind_y3_syllabus_2018-19.pdf",
+ "session": "2018-19",
+ "course": "BTech",
+ "sha16": "df5b69780b912bb8",
+ "stem": "03_btech_me-ind_y3_syllabus_2018-19",
+ "subjects": [
+  {
+   "name": "Design of Machine Elements",
+   "name_print": "DESIGN OF MACHINE ELEMENTS",
+   "codes": [
+    "RME504"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "units": {
+    "1": "Introduction Design requirements of machine elements, Principles of mechanical design, Modes of failures and Factor of Safety. Systematic design process, Aesthetic and Ergonomic considerations in design, Use of standards in design, Manufacturing consideration in design, Selection of preferred sizes, Indian Standards designation, Designation of carbon & alloy steels, Selection of materials for static and fatigueloads.",
+    "2": "Design for Static and Fluctuating Loads Cyclic stresses, Fatigue and endurance limit, Notch sensitivity, Stress concentration. Design for finite and infinite life, Soderberg, Goodman & Gerber criteria. Shafts, Keys and Couplings Materials for shaft, Stresses in shafts, Design of shafts subjected to twisting moment, bending moment and combined twisting and bending moments, Shafts subjected to fatigue loads. Types of keys, splines, Selection of keys, Strength of keys, Design of rigid and flexible couplings.",
+    "3": "Design of Mechanical Drives Introduction to power transmission and drives. Classification of gears, Terminology, Gear tooth proportions, Tooth forms, System of gear teeth, contact ratio, Standard proportions of gear systems, Interference in involute gears, Backlash, Selection of gear materials, Gear manufacturing methods, Failure of gear tooth, Design considerations, AGMA and Indian standards, Beam strength and wear strength of gear tooth, Design of spur and helical gears.",
+    "4": "Mechanical Springs Classification of springs, Material for helical springs, End connections for compression and tension helical springs, Design of helical springs subjected to static and fatigue loading. Power Screws Forms of threads, multiple threads, Efficiency of square threads, Trapezoidal threads, Stresses in screws, Design of screwjack.",
+    "5": "Basic of Finite Element Method, Variational calculus, Integral formulation, variational methods: Methods of weighted residuals, Approximate solution using variational method, Modified Galerkin method, Boundary conditions. Basic Finite Element Concepts: Basic ideas in a finite element solution, General finite element solution procedure, Finite element equations using modified Galerkin method, Axis symmetric Problems, Axial bars, Torsion bars, Application in Solid Mechanic Problems, Plane truss problems using software application."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Design of Machine Elements,V.B. Bhandari, Tata McGraw HillCo."
+    },
+    {
+     "no": 2,
+     "book": "Design of Machine Elements, Sharma and Purohit,PHI."
+    },
+    {
+     "no": 3,
+     "book": "Machine Design, P C Gope, PHI Publication"
+    },
+    {
+     "no": 4,
+     "book": "Machine Design, Sadhu Singh, Khanna Book Publishing Co."
+    },
+    {
+     "no": 5,
+     "book": "Machine Design-R S Khurmi and J K Gupta, S Chand"
+    },
+    {
+     "no": 6,
+     "book": "J N Reddy “An Introduction to finite element method” Tata Mc Graw Hill 3rdedition"
+    },
+    {
+     "no": 7,
+     "book": "Machine Design Data Book, Sadhu Singh, Khanna Book Publishing Co."
+    },
+    {
+     "no": 8,
+     "book": "S.S. Rao, “Finite Element Method In Engineering”, PergamanPress"
+    },
+    {
+     "no": 9,
+     "book": "P Seshu, Finite Element Analysis, PHI publications,Delhi"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Design of Machine Elements-M.F. Spott, PearsonEductaion"
+    },
+    {
+     "no": 2,
+     "book": "Machine Design-Maleev and Hartman, CBSPublishers."
+    },
+    {
+     "no": 3,
+     "book": "Mechanical Engineering Design, 9e – Joseph E. Shigely, McGraw HillEducation."
+    },
+    {
+     "no": 4,
+     "book": "Design of Machine Elements, GopePHI."
+    },
+    {
+     "no": 5,
+     "book": "Finite Element Method with Applications in Engineering Y M Desai, PearsonPublication"
+    },
+    {
+     "no": 6,
+     "book": "Machine Design, Sadhu Singh, Khanna Book Publishing Co."
+    },
+    {
+     "no": 7,
+     "book": "Introduction to Finite Element Analysis by TirupathiR.Chandrupatla& Ashok D Belegundu, PearsonPublication"
+    },
+    {
+     "no": 8,
+     "book": "Machine Design Data Book, Sadhu Singh, Khanna Book Publishing Co."
+    },
+    {
+     "no": 9,
+     "book": "V.Ramamurti “Finite Element Method in Machine Design”Norosa PublishingHouse"
+    }
+   ],
+   "quirks": [
+    "Printed note (p.4): 'Note: Design data book is allowed in the examination'",
+    "Printed line under Text Books (p.4): 'Design data book: Design Data Handbook for Mechanical Engineering in SI and Metric Units – by K. Mahadevan, and K. Balaveera Reddy.'",
+    "L-T-P/credit/marks taken from the V-sem scheme row for RME504 (p.2): 3---0---0, 70/20/10/100, credit 3; the subject pages themselves print no L-T-P/credit/marks.",
+    "Text-layer word fusions from line-wraps kept verbatim (e.g. 'fatigueloads', 'McGraw HillCo', 'PearsonEductaion', 'Shigely')."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Thermal and Hydraulic Machines",
+   "name_print": "THERMAL AND HYDRAULIC MACHINES",
+   "codes": [
+    "RMI501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "units": {
+    "1": "Thermodynamic equilibrium, cyclic process, enthalpy, Zero, first and second laws of thermodynamics, Carnot cycle, concept of entropy, properties of steam, processes involving steam in closed and open systems, Enthalpy. Vapour Pressure Cycles:Rankine cycle, reheat cycle, Regenerative cycle",
+    "2": "Steam Turbine:Theoretical approach only of Classification, impulse and reaction turbines their velocity diagrams and related calculations, work done and efficiencies, re-heat factor, staging, bleeding and governing of turbines. Gas Turbine:Theoretical approach only of Classification, Brayton cycle, working principle of gas turbine, gas turbine cycle with intercooling, reheat and regeneration, stage and polytrophic efficiencies.",
+    "3": "Otto, Diesel .and Dual cycles, introduction to 2-stroke and 4-stroke SI and CI engines",
+    "4": "Impact of Jet:Introduction to hydrodynamic thrust of jet on a fixed and moving surface ( flat and curve). Hydraulic Turbines: Classification, heads and efficiencies, construction, working, work done and efficiency of impulse turbines.",
+    "5": "Centrifugal Pump:Classification, construction, working. Reciprocating Pump: Classification ,construction, working."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Onkar Singh “Applied Thermodynamics” New Age International,2006."
+    },
+    {
+     "no": 2,
+     "book": "Steam & Gas Turbine by R.Yadav, CPHAllahabad"
+    },
+    {
+     "no": 3,
+     "book": "R.K.Rajput“ A Text Book of Hydraulic Machines” S. Chand & Co.,2008."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 4,
+     "book": "P.L.Ballany “Thermal Engineering “ Khanna Publishers,2003"
+    },
+    {
+     "no": 5,
+     "book": "R.K.Bansal “A Text Book of Fluid Mechanics and Hydraulic Machines” Laxmi Publications,2006."
+    },
+    {
+     "no": 6,
+     "book": "S.S Rattan, Fluid Mechanics and Hydraulic Machines, Khanna Book Publishing Co."
+    },
+    {
+     "no": 7,
+     "book": "Gas Turbine, by V. Ganeshan, Tata McGraw Hill Publishers"
+    }
+   ],
+   "quirks": [
+    "Reference Books list continues the Text Books numbering (printed as 4–7 on p.5); numbers kept verbatim.",
+    "Unit-III print reads 'Otto, Diesel .and Dual cycles' (stray period) — verbatim.",
+    "L-T-P/credit/marks taken from the V-sem scheme row for RMI501 (p.2): 3---1---0, 70/20/10/100, credit 4; subject page (p.5) prints no L-T-P/credit/marks."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Applied Probability and Statics",
+   "name_print": "APPLIED PROBABILITY AND STATISTICS",
+   "codes": [
+    "RMI502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "units": {
+    "1": "Introduction to statistics: Statistical Thinking, Collecting data, Statistical Modeling Frame work, measure of central tendency and variance, Importance of Data summary and Display, Tabular and Graphical display.",
+    "2": "Discrete Random Variables and Probability distributions: Discrete Random variables, Probability distributions and Probability mass functions, Cumulative distribution functions, Mean and Variance of a discrete random variable, discrete uniform distribution, Binominal distribution, Hyper Geometric distribution, Poisson distribution, Applications.",
+    "3": "Continuous Random Variables and Probability Distributions: Continuous random variables, Probability distributions and probability density functions, cumulative distribution functions, Mean and Variance of a continuous random variable, uniform distribution, Normal distribution, Normal approximation to Binominal and Poisson distribution, Exponential distribution.",
+    "4": "Testing of Hypothesis: estimation theory, Hypothesis testing, Inference on the mean of a population (variance known and unknown), Inference on the variance of a normal population, Inference on a population proportion, Testing for Goodness of Fit, Inference for a difference in Means, Variances known, Inference for a difference in means of two normal distributions, Variances unknown, Inference on the Variances of two normal populations, Inference on two population proportions.",
+    "5": "Simple Linear Regressions and Correlation: Simple Linear Regression, Properties of Least square Estimators and Estimation of variances, Transformations to a straight line, Correlation Multiple linear regressions : Multiple linear regressions model, least square estimation of parameters, Correlation- types, correlation coefficients, properties of least square estimators and estimation of variance."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "George C Runger -Applied statistics and Probability for Engineers, John Wiley and Sons, ISBN-0-471-17027-5, 2ndEdn."
+    },
+    {
+     "no": 2,
+     "book": "Richard I Levin, David S Rubin -Statistics for Management, Prentice Hall India, ISBN-81-203-0893-X, 6thEdn."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "William W Hines, Douglas C Montgomery -Probability and Statistics in Engineering, John Wiley and Sons, 2ndEdn."
+    },
+    {
+     "no": 2,
+     "book": "Douglas C. Montgomery, George C. Runger, Norma F. Hubele, “Engineering Statistics”, John Wiley and Sons, 5th Edn, ISBN-13: 978-0470631478 ISBN-10: 0470631473 year:2010"
+    },
+    {
+     "no": 3,
+     "book": "Schaum's Outline of Statistics, 5th Edition (Schaum's Outlines) March 14, 2014, ISBN-13: 978-0071822527 ISBN-10:0071822526"
+    },
+    {
+     "no": 4,
+     "book": "Daniel, Terrell -Business Statistics for Management and Economics, Houghton Mifflin Company, ISBN-0-395-62835-0, 6thEdn."
+    },
+    {
+     "no": 5,
+     "book": "Walpole & Mayer -Probability and Statistics, MacMillan Publishing Company,1989."
+    }
+   ],
+   "quirks": [
+    "Scheme (p.2) prints subject name 'Applied Probability and Statics' while the detail-page title (p.6) prints 'APPLIED PROBABILITY AND STATISTICS'; both kept verbatim.",
+    "Unit-V print joins 'Correlation' and 'Multiple linear regressions :' across a line break — verbatim.",
+    "L-T-P/credit/marks taken from the V-sem scheme row for RMI502 (p.2): 3---0---0, 70/20/10/100, credit 3."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Design and Simulation Lab",
+   "name_print": "DESIG AND SIMULATIONLAB",
+   "codes": [
+    "RME554"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design & Modeling of Cotterjoint."
+    },
+    {
+     "no": 2,
+     "exp": "Design & Modeling of Knucklejoint"
+    },
+    {
+     "no": 3,
+     "exp": "Design & Modeling of riveted joint applied to boilerjoints."
+    },
+    {
+     "no": 4,
+     "exp": "Study of a FEA package and modeling stress analysisof a. Bars of constant cross section area, tapered cross section area and steppedbar b. Trusses, c. Beams – Simply supported, cantilever, beams with UDL, beams with varying loadetc"
+    },
+    {
+     "no": 5,
+     "exp": "Mini Project: Will take up problems from real life applications and optimize using modeling and analysissoftware"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Design of Machine Elements,V.B. Bhandari, Tata McGraw HillCo."
+    },
+    {
+     "no": 2,
+     "book": "Design of Machine Elements, Sharma and Purohit,PHI."
+    },
+    {
+     "no": 3,
+     "book": "Machine Design-R S Khurmi and J K Gupta, S Chand"
+    },
+    {
+     "no": 4,
+     "book": "J N Reddy “An Introduction to finite element method” Tata Mc Graw Hill 3rdedition"
+    },
+    {
+     "no": 5,
+     "book": "S.S. Rao, “Finite Element Method In Engineering”, PergamanPress"
+    },
+    {
+     "no": 6,
+     "book": "P Seshu, Finite Element Analysis, PHI publications,Delhi"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Design of Machine Elements-M.F. Spott, PearsonEductaion"
+    },
+    {
+     "no": 2,
+     "book": "Machine Design-Maleev and Hartman, CBSPublishers."
+    },
+    {
+     "no": 3,
+     "book": "Mechanical Engineering Design, 9e – Joseph E. Shigely, McGraw HillEducation."
+    },
+    {
+     "no": 4,
+     "book": "Design of Machine Elements, GopePHI."
+    },
+    {
+     "no": 5,
+     "book": "Finite Element Method with Applications in Engineering Y M Desai, PearsonPublication"
+    },
+    {
+     "no": 6,
+     "book": "Introduction to Finite Element Analysis by TirupathiR.Chandrupatla& Ashok D Belegundu, PearsonPublication"
+    },
+    {
+     "no": 7,
+     "book": "Machine Design, Sadhu Singh, Khanna Book Publishing Co."
+    },
+    {
+     "no": 8,
+     "book": "V.Ramamurti “Finite Element Method in Machine Design”Norosa Publishing House"
+    },
+    {
+     "no": 9,
+     "book": "Machine Design Data Book, Sadhu Singh, Khanna Book Publishing Co."
+    }
+   ],
+   "quirks": [
+    "Detail-page title (p.8) prints 'DESIG AND SIMULATIONLAB' (typos) while the scheme (p.2) prints 'Design and Simulation Lab' — both verbatim.",
+    "Scheme row 7 (p.2) prints this Lab with theory-style L-T-P 3---1---0, marks 70/20/10/100 and credit 4, unlike the other V-sem labs (0---0---2, 50/50/100) — recorded verbatim as printed.",
+    "Printed note after the experiment list (p.8): 'Each student will be given a real life problem for the complete design of a subsystem/system Using either manual calculation with the help of design handbook or through computer Programme or through software tools. This assignment should be done in groups, which will be submitted at the end of the semester.'",
+    "Printed line under Text Books (p.8): 'Design data book: Design Data Handbook for Mechanical Engineering in SI and Metric Units – by K. Mahadevan, and K. Balaveera Reddy'",
+    "No unit-wise theory text is printed for this lab on p.8."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Thermal & Hydraulic Machine Lab",
+   "name_print": "THERMAL & HYDRAULIC MACHINE LAB",
+   "codes": [
+    "RMI551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study and working of Two stroke petrolEngine"
+    },
+    {
+     "no": 2,
+     "exp": "Study and working of Four stroke petrolEngine"
+    },
+    {
+     "no": 3,
+     "exp": "Study and working of two stroke DieselEngine"
+    },
+    {
+     "no": 4,
+     "exp": "Study and working of four stroke DieselEngine."
+    },
+    {
+     "no": 5,
+     "exp": "Study of compounding of steamturbine"
+    },
+    {
+     "no": 6,
+     "exp": "Study of Impulse & Reactionturbine"
+    },
+    {
+     "no": 7,
+     "exp": "Impact of Jetexperiment."
+    },
+    {
+     "no": 8,
+     "exp": "Turbine experiment on Peltonwheel."
+    },
+    {
+     "no": 9,
+     "exp": "Turbine experiment on Francisturbine."
+    },
+    {
+     "no": 10,
+     "exp": "Turbine experiment on Kaplanturbine."
+    },
+    {
+     "no": 11,
+     "exp": "Experiment on Reciprocatingpump."
+    },
+    {
+     "no": 12,
+     "exp": "Experiment on centrifugalpump."
+    }
+   ],
+   "quirks": [
+    "Printed instruction above the list (p.9): 'Experiments : Minimum 10 experiments out of following:'",
+    "Scheme (p.2 row 8) prints name 'Thermal and Hydraulic Machines lab'; detail title (p.9) prints 'THERMAL & HYDRAULIC MACHINE LAB'.",
+    "Lab marks read from scheme row (p.2): Th/Lab Marks 50, Sessional 50, Total 100, credit 1; L-T-P 0---0---2. The single Sessional 50 is recorded as sessional_total (no Test/Assig split printed for lab rows)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Applied Probability and Statistics Lab",
+   "name_print": "APPLIED PROBABILITY AND STATISTICS LAB",
+   "codes": [
+    "RMI552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Determining the measures of central tendency and dispersion of a givenprocess"
+    },
+    {
+     "no": 2,
+     "exp": "Graphical/ Pictorial representation of data – Histogram, Ogive curve, Bar Chart, Column chart, Pie chart, Linechart"
+    },
+    {
+     "no": 3,
+     "exp": "Interval estimation and hypothesis testing on single populationmean"
+    },
+    {
+     "no": 4,
+     "exp": "Interval estimation and hypothesis testing on Two populationmeans"
+    },
+    {
+     "no": 5,
+     "exp": "Interval estimation and hypothesis testing on single populationProportion"
+    },
+    {
+     "no": 6,
+     "exp": "Interval estimation and hypothesis testing on Two populationProportions"
+    },
+    {
+     "no": 7,
+     "exp": "Hypothesis testing using paired t –test"
+    },
+    {
+     "no": 8,
+     "exp": "Construction of scatter plot and determination of kart Pearson’s correlationcoefficient"
+    },
+    {
+     "no": 9,
+     "exp": "Determination of Spearman’s CorrelationCoefficient"
+    },
+    {
+     "no": 10,
+     "exp": "Conduction of simple linear regressionanalysis"
+    },
+    {
+     "no": 11,
+     "exp": "Testing the goodness of fit using Normaldistribution"
+    },
+    {
+     "no": 12,
+     "exp": "Testing the goodness of fit using Binominal distribution calculationsthrough"
+    },
+    {
+     "no": 13,
+     "exp": "Testing the goodness of fit using Poisson distribution MSExcel"
+    },
+    {
+     "no": 14,
+     "exp": "Testing the goodness of fit using Uniformdistribution"
+    },
+    {
+     "no": 1,
+     "exp": "Determination of basic statistics and construction of histogram for a given quality characteristic"
+    },
+    {
+     "no": 2,
+     "exp": "Determining the probability for discrete probability distributions – Hypergeometric, Binominal and Poissondistributions"
+    },
+    {
+     "no": 3,
+     "exp": "Determining the probability for Continuous probability distributions – Normal and Exponentialdistributions"
+    },
+    {
+     "no": 4,
+     "exp": "Interval estimation and Hypothesis testing on single populationmean."
+    },
+    {
+     "no": 5,
+     "exp": "Interval estimation and Hypothesis testing on two populationmeans"
+    },
+    {
+     "no": 6,
+     "exp": "Interval estimation and Hypothesis testing on single populationProportion."
+    },
+    {
+     "no": 7,
+     "exp": "Interval estimation and Hypothesis testing on two populationProportions"
+    },
+    {
+     "no": 8,
+     "exp": "Hypothesis testing using paired t –Test."
+    },
+    {
+     "no": 9,
+     "exp": "Construction of scatter plot and determining karl Pearson’s correlationcoefficient."
+    },
+    {
+     "no": 10,
+     "exp": "Conduction of simple linear regressionanalysis."
+    },
+    {
+     "no": 11,
+     "exp": "Conduction of Multiple linear regressionanalysis."
+    },
+    {
+     "no": 12,
+     "exp": "Case study on engineering and management relatedproblems"
+    }
+   ],
+   "quirks": [
+    "Lab prints two experiment groups (p.10): items 1–14 under printed group header 'Software: MS Excel' and items 1–12 under printed group header 'Software: statistical software package'; numbering restarts in print, so 'no' values repeat. Group headers kept in this note verbatim.",
+    "Printed closing line (p.10): 'Suggested software packages: MS Excel or LibreOffice Suite Calc (Using Spoken Tutorial MOOCs), SYSTAT / MINITAB 17 -Statistical Software Package etc'",
+    "Items 12–13 of the MS-Excel group print as 'Testing the goodness of fit using Binominal distribution calculationsthrough' / 'Testing the goodness of fit using Poisson distribution MSExcel' (line-wrap fusion of 'MS Excel') — verbatim, confirmed against page image.",
+    "Printed typo 'kart Pearson's correlationcoefficient' (item 8, group 1) vs 'karl Pearson's correlationcoefficient' (item 9, group 2) — verbatim.",
+    "Scheme (p.2 row 9) prints name 'Applied Probability and Statics Lab'; detail title prints 'APPLIED PROBABILITY AND STATISTICS LAB'.",
+    "Lab marks read from scheme row (p.2): Th/Lab Marks 50, Sessional 50, Total 100, credit 1; L-T-P 0---0---2."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Mechatronics and Microprocessor",
+   "name_print": "MECHATRONICS AND MICROPROCESSOR",
+   "codes": [
+    "RME052"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction to Mechatronic Systems: Measurement and control systems their elements and functions, Microprocessor basedcontrollers. Review of Transducers and Sensors: Definition and classification of transducers. Definition and classification of sensors. Principle of working and applications of light sensors, proximity sensors and Hall effect sensors.",
+    "2": "Electrical Actuation Systems: Electrical systems, Mechanical switches, solid-state switches, solenoids, DC & AC motors, Stepper motors and their merits and demerits. Signal Conditioning: Introduction to signal conditioning. The operational amplifier, Protection, Filtering, Wheatstone bridge, Digital signals Multiplexers, Data acquisition, Introduction to Digital system. Processing Pulse-modulation.",
+    "3": "Introduction to Microprocessors: Evolution of Microprocessor, Organization of Microprocessors (Preliminary concepts), basic concepts of programming of microprocessors. Review of concepts - Boolean algebra, Logic Gates and Gate Networks, Binary & Decimal number systems, memory representation of positive and negative integers, maximum and minimum integers. Conversion of real, numbers, floating point notation, representation of floating point numbers, accuracy and range in floating point representation, overflow and underflow, addition of floating point numbers, character representation.",
+    "4": "Logic Function: Data word representation. Basic elements of control systems 8085A processor architecture terminology such as CPU, memory and address, ALU, assembler data registers, Fetch cycle, write cycle, state, bus, interrupts. Micro Controllers. Difference between microprocessor and micro controllers. Requirements for control and their implementation in microcontrollers. Classification of micro controllers.",
+    "5": "Organization & Programming of Microprocessors: Introduction to organization of INTEL 8085-Data and Address buses, Instruction set of 8085, programming the 8085, assembly language programming. Central Processing Unit of Microprocessors: Introduction, timing and control unit basic concepts, Instruction and data flow, system timing, examples of INTEL 8085 and INTEL 4004 register organization."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Mechatronics, W.Bolton, Longman, 2Ed, PearsonPublications,2007."
+    },
+    {
+     "no": 2,
+     "book": "Microprocessor Architecture, Programming AndApplicationsWith 8085/8085A, R.S. Ganokar, WileyEastern."
+    },
+    {
+     "no": 3,
+     "book": "Mechatronics and Microprocessors, K.P.Ramchandran, G.K.Vijayraghavan, M.S.Balasundran, Wiley, 1st Ed,2009"
+    },
+    {
+     "no": 4,
+     "book": "Mechatronics - Principles, Concepts and applications – Nitaigour and PremchandMahilik - Tata McGraw Hill-2003."
+    },
+    {
+     "no": 5,
+     "book": "Mechatronics Principles & applications, Godfrey C. Onwubolu,Elsevier.."
+    },
+    {
+     "no": 6,
+     "book": "Introduction Mechatronics & Measurement systems,David.G."
+    },
+    {
+     "no": 7,
+     "book": "Aliciatore& Michael. B. Bihistaned, Tata McGraw Hill,2000."
+    }
+   ],
+   "quirks": [
+    "Elective-I pool (pp.2, 11) prints 'Mechtronics&Microprocessor.' (typo) while the detail title (p.11) prints 'MECHATRONICS AND MICROPROCESSOR'.",
+    "Only a 'REFERENCE BOOKS:' list is printed (pp.12); no Text Books section — textbooks key omitted (printed-blank).",
+    "Print splits the Alciatore/Histand book across items 6 and 7 ('...David.G.' / 'Aliciatore& Michael. B. Bihistaned, Tata McGraw Hill,2000.'); recorded as two printed items verbatim, confirmed against page image.",
+    "Unit heading prints 'UNITII' (no space) on p.11 — verbatim.",
+    "L-T-P/credit/marks taken from the V-sem Deptt. Elective-I group row (p.2): 3---1---0, 70/20/10/100, credit 4 (group codes printed 'RME052, 055, RMI051, 052')."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Value Engineering",
+   "name_print": "VALUE ENGINEERING",
+   "codes": [
+    "RMI051"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "INTRODUCTION TO VALUE ANALYSIS: Definition of Value, Value Analysis, Value Engineering, Value management, Value Analysis versus Value Engineering, Value Analysis versus Traditional cost reduction techniques, uses, applications, advantages and limitations of Value analysis. Symptoms to apply value analysis, Coaching of Champion concept. TYPE OF VALUES: Reasons for unnecessary cost of product, Peeling cost Onion concept, unsuspected areas responsible for higher cost, Value Analysis Zone, attractive features of value analysis. Meaning of Value, types of value & their effect in cost reduction. Value analysis procedure by simulation. Detailed case studies of simple products.",
+    "2": "FUNCTIONAL COST AND ITS EVALUATION: Meaning of Function and Functional cost, Rules for functional definition, Types of functions, primary and secondary functions using verb and noun, Function evaluation process, Methods of function evaluation. Evaluation of function by comparison, Evaluation of Interacting functions, Evaluation of function from available data, matrix technique, MISS technique, Numerical evaluation of functional relationships and casestudies. PROBLEM SETTING & SOLVING SYSTEM: A problem solvable stated is half solved, Steps in problem setting system, Identification, Separation and Grouping of functions. Case studies. PROBLEM SETTING & SOLVING SYSTEM: Goods system contains everything the task requires. Various steps in problem solving, casestudies.",
+    "3": "VALUE ENGINEERING JOB PLAN: Meaning and Importance of Value Engineering Job plan. Phases of job plan proposed by different value engineering experts, Information phase, Analysis phase, Creative phase, Judgement phase, Development planning phase, and case studies. Cost reduction programs, criteria for cost reduction program, Value analysis change proposal. VALUE ENGINEERING TECHNIQUES: Result Accelerators or New Value Engineering Techniques, Listing, Role of techniques in Value Engineering, Details with Case examples for each of theTechniques.",
+    "4": "ADVANCED VALUE ANALYSIS TECHNIQUES: Functional analysis system technique and case studies, Value Analysis of Management Practice (VAMP), steps involved in VAMP, application of VAMP to Government, University, College, Hospitals, School Problems etc., (service type problems).",
+    "5": "TOTAL VALUE ENGINEERING: Concepts, need, methodology and benefits. APPLICATION OF VALUE ANALYSIS: Application of Value analysis in the field of Accounting, Appearance Design, Cost reduction, Engineering, manufacturing, Management, Purchasing, Quality Control, Sales, marketing, Material Management Etc., Comparison of approach of Value analysis & other management techniques."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Techniques of Value Analysis and Engineering – Lawrence D. Miles - McGraw Hill Book Company - 2ndEdn."
+    },
+    {
+     "no": 2,
+     "book": "Value engineering for Cost Reduction and Product Improvement – M.S. Vittal - Systems Consultancy Services – Edn.1993"
+    },
+    {
+     "no": 3,
+     "book": "Value Management, Value Engineering and Cost Reduction – Edward D Heller - Addison Wesley Publishing Company-1971."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Value Analysis for Better Management – Warren J Ridge – American Management Association - Edn1969"
+    },
+    {
+     "no": 2,
+     "book": "Getting More at Less Cost (The Value Engineering Way) – G.Jagannathan - Tata Mcgraw Hill Pub. Comp - Edn1995."
+    },
+    {
+     "no": 3,
+     "book": "Value Engineering – Arther E Mudge - McGraw Hill Book Comp.-Edn1981."
+    }
+   ],
+   "quirks": [
+    "Unit headings print as 'UNIT – 1', 'UNIT – II', 'UNIT – III', 'UNIT-IV', 'UNIT-V' (mixed styles) — verbatim.",
+    "Unit-II prints the subheading 'PROBLEM SETTING & SOLVING SYSTEM' twice in a row (second occurrence likely intended as problem-solving) — verbatim print.",
+    "L-T-P/credit/marks taken from the V-sem Deptt. Elective-I group row (p.2): 3---1---0, 70/20/10/100, credit 4 (elective list prints 'RMI051: ValueEngineering.'); subject pages (pp.13-14) print no L-T-P/credit/marks."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Maintenance Engineering & Management",
+   "name_print": "MAINTENANCE ENGINEERING & MANAGEMENT",
+   "codes": [
+    "RMI052"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction, operating life cycle, reliability, Failure data analysis, failure rate curve, hazard models, elements in series, parallel, mix, logic diagrams, improving reliability, redundancy- element, unit, standby, maintainability, availability, reliability and maintainability trade off.",
+    "2": "Maintenance Strategies: Break down maintenance, planned maintenance, strategies, preventive maintenance, design out maintenance, planned lubrication, total productive maintenance, zero break down, preventive inspection of equipment used in emergency.",
+    "3": "Replacement planning maintain or replace decision, replacement of items that deteriorate identical equipment, replacement of items that fail without deterioration individual, group replacement, replacement in anticipation of failure.",
+    "4": "Break down maintenance planning, assignment model, waiting time models expected waiting time, minimum cost service rate, PERT.",
+    "5": "Maintenance Management, production maintenance system, objectives and functions, forms, policy, planning, organization, economics of maintenance, manpower planning, materials planning, spare parts planning and control, evaluation of maintenance management."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Management of systems – R.N. Nauhria& R.Prakash."
+    },
+    {
+     "no": 2,
+     "book": "Operations Research –Wangner."
+    },
+    {
+     "no": 3,
+     "book": "Engineering Management, S.C. Sharma & T.R. Banga, Khanna Book Publishing Co."
+    }
+   ],
+   "quirks": [
+    "Subject page (p.15) prints 'LTP 3-0-0' below the title, while the V-sem Deptt. Elective-I group row (p.2) prints 3---1---0 — discrepancy recorded; page print (3-0-0) kept in ltp.",
+    "Book list is printed under a plain 'Books:' heading (p.15) with no Text/Reference split; recorded under textbooks.",
+    "Credit/marks taken from the Elective-I group row (p.2): 70/20/10/100, credit 4 (elective list prints 'RMI052: Maintenance Engineering &Management')."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Advance Machining Processes",
+   "name_print": "ADVANCE MACHINING PROCESSES",
+   "codes": [
+    "RME055"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction: Limitations of Conventional machining processes, Need of advanced machining processes and its classification. Mechanical Type Metal Removal Processes: Ultrasonic machining; Elements of the process; Tool design and economic considerations; Applications and limitations, Abrasive jet and Abrasive water jet machining principles; Mechanics of metal removal; Design of nozzles; applications, Abrasive finishing process, Magnetic abrasive finishing process",
+    "2": "Thermal Type Advance Machining Processes: Classification, General principles and applications of Electro discharge, Plasma arc, Ion beam, Laser beam, Electron beam machining, Mechanics of metal removal in EDM, selection of EDM pulse generator dielectric, machining accuracy, surface finish and surface damage in EDM, Generation and control of electron beam for machining applications, advantages andlimitations",
+    "3": "Chemical and Electro-chemical Type Metal Removal Processes: Principle, working advantages, disadvantages and applications of Electrochemical, Chemical machining, Economy aspects of ECM, Electro-chemical deburring and honing",
+    "4": "Hybrid Unconventional Machining Processes: Introduction to ECDM, ECAM, Abrasive EDMetc.",
+    "5": "Unconventional Forming processes: Principle, working and applications of High energy forming processes such as Explosive Forming, Electromagnetic forming, Electro Discharge forming, water hammer forming, explosive compaction etc. Electronic-device Manufacturing: Brief description of Diffusion and Photo- Lithography process for electronic-device manufacturing"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Advance Machining Processes V.K. Jain NewAge"
+    },
+    {
+     "no": 2,
+     "book": "Modern Machining Processes P.C. Pandey NewAge"
+    },
+    {
+     "no": 3,
+     "book": "Manufacturing Processes Degarmo-"
+    },
+    {
+     "no": 4,
+     "book": "Manufacturing Processes Kalpakjian Tata McGraw-HillInternational"
+    },
+    {
+     "no": 5,
+     "book": "Amitabh Gosh and A.K. Mallik, “Manufacturing Science”, Affiliated East-West Press Pvt. Ltd.,1985"
+    }
+   ],
+   "quirks": [
+    "Title mismatch: elective pools (pp.2, 11) print 'RME055:Advance ManufacturingScience.' but the detailed syllabus page (p.16) is titled 'ADVANCE MACHINING PROCESSES' — both prints recorded; detail title used as name_print.",
+    "Book list is printed under a plain 'Books:' heading (p.16) with no Text/Reference split; recorded under textbooks.",
+    "L-T-P/credit/marks taken from the V-sem Deptt. Elective-I group row (p.2): 3---1---0, 70/20/10/100, credit 4.",
+    "Unit-IV text prints 'Abrasive EDMetc.' and Unit-II prints 'andlimitations' (fusions) — verbatim."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Inventory Management",
+   "name_print": "INVENTORY MANAGEMENT",
+   "codes": [],
+   "semester": 5,
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction: Definition & importance of materials management, MM at micro level & macro level, systems approach to MM, functions, interfaces & benefits of integrated systems approach.",
+    "2": "Purchasing: Principles, procedure, source & supplier selection, learning curve, negotiation, heding, forward buying, make or buy decision, legal aspects of buying, vendor vendee relations& vendor development.",
+    "3": "Inventory management: Definition, types, need & functions of inventory management, cost elements, Economic Ordering Quantity, ABC, FSN, VED analysis and spare parts management. Deterministic models: Instantaneous replenishment model with & without shortages, production lot size model with & without shortages.",
+    "4": "Deterministic/ Probabilistic models: With price breaks and quantity discounts, multi item deterministic model- restriction on floor space, total value and number of items, Probabilistic model, LIMIT technique.",
+    "5": "Stores Management and Operations: Storage System, Stores location and Layout. Development of Storing, Centralization and Decentralization of stores, Standardization and Variety reduction, codification, Materials accounting and materials audit."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A.K. Chitale, R.C. Gupta - Materials Management A Supply Chain Perspective (Text and Cases), 3rd Edition PHI,2014."
+    },
+    {
+     "no": 2,
+     "book": "P. Gopalakrishna& M. Sundaresan -Materials Management- an integrated approach, 1 st Edition, PHI,2012."
+    },
+    {
+     "no": 3,
+     "book": "KantiSwaroop -Operation Research, S Chand &co.,2001."
+    },
+    {
+     "no": 4,
+     "book": "A.K. Dutta -Materials Management, procedure, text and cases, prentice hall of India, new Delhi2006."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Taha -Operation research, Mc Milan, ISBN0-02-418940-5,2001, 9th Edition,2012."
+    },
+    {
+     "no": 2,
+     "book": "S.D.Sharma -Operation research, 4th Edition,2009."
+    }
+   ],
+   "quirks": [
+    "No subject code is printed for Inventory Management anywhere in this document: the V-sem scheme elective-I row (p.2) prints only codes 'RME052, 055, RMI051, 052', while the Elective-I pool on p.11 lists a 5th item '5. InventoryManagement' (uncoded).",
+    "No L-T-P/credit/marks are printed for this subject individually (not among the coded electives in the p.2 group row); keys omitted (printed-blank).",
+    "Unit-II prints 'heding' (likely 'hedging') and 'relations& vendor' fusion — verbatim.",
+    "no code printed anywhere in the document for this Elective-2 subject: the elective pool list (p.11) prints \"5. InventoryManagement\" uncoded and the detail page (p.17) is headed \"INVENTORY MANAGEMENT\" with no code line; sibling electives carry RME/RMI codes — zero-guess keeps codes absent (v10/B06 no-code print class)."
+   ],
+   "flags": [
+    "no-code-printed-in-document"
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Work study and Ergonomics",
+   "name_print": "WORK STUDY & ERGONOMICS",
+   "codes": [
+    "RMI601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Productivity: Definition of productivity, individual enterprises, task of management Productivity of materials, and, building, machine and power. Measurement of productivity, factors affecting the productivity, productivity improvement programs. Work Study: Definition, objective and scope of work study. Human factor in work study Work study and management, work study and supervision, work study and worker.",
+    "2": "Introduction to Method Study : Definition, objective and scope of method study, activity recording and exam aids. Charts to record moments in shop operation – process charts, flow process charts, travel chart and multiple activity charts.( With simple problems) Micro and Memo Motion Study :Charts to record moment at work place – principles of motion economy, classification of movements, two handed process chart, SIMO chart, and micro motion study. Development, definition and installation of the improved method.",
+    "3": "Introduction to Work Measurement: Definition, objective and benefit of work measurement. Work measurement techniques. Work sampling: need, confidence levels, sample size determinations, with simple problems. Time Study: Time Study, Definition, time study equipment, selection of job, steps in time study. Breaking jobs into elements, recording information. Rating, Systems of rating.",
+    "4": "Scales of rating, factors affecting rate of working, allowances and standard time determination. Predetermined motion time study – Method time measurement (MTM) Wages and Incentives: introduction , definition, wage differentials ,methods of wage payment, Advantages ,disadvantages, Financial incentives, non-financial incentives.",
+    "5": "Ergonomics: Introduction, areas of study under ergonomics, man-machine system. Components of man-machine system and their functions –, study of development of stress in human body and their consequences. computer based ergonomics. Usability Engineering and Human Computer interface. Design of man-machine system: Quantitative, qualitative representation and alphanumeric displays. types of control, layouts of panels and machines. Design of work places, influence of climate on human efficiency. Influence of noise, vibration and light on humanefficiency."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "ILO -Introduction to work study, ISBN 13:9788120406025 Publisher: India Book House Pvt. Ltd, 4th Revised Edition,2008."
+    },
+    {
+     "no": 2,
+     "book": "Ralph M Barnes -Motion and Time study, ISBN:13:978981426182 Publisher: John Wiley, 7th edition 2009."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M S Sanders and E J McCormic -Human Factors in Engineering Design, ISBN: 13:9780070549012, Mc Graw Hill, 7th Edition,1992."
+    },
+    {
+     "no": 2,
+     "book": "R.S.Bridger -Introduction to Ergonomics, ISBN:13:9780849373060, Publisher Taylor and Francis dated 20th Aug 2008, 3rdEdition."
+    }
+   ],
+   "quirks": [
+    "Scheme (p.18 row 3) prints 'Work study and Ergonomics' with Teaching Deptt. 'Core Deptt.'; detail title (p.19) prints 'WORK STUDY & ERGONOMICS'.",
+    "Reference list heading prints 'References Books:' (p.20) — verbatim.",
+    "L-T-P/credit/marks from VI-sem scheme row for RMI601 (p.18): 3---0---0, 70/20/10/100, credit 3."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Simulation Modelling & Analysis",
+   "name_print": "SIMULATION MODELING AND ANALYSIS",
+   "codes": [
+    "RME604"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to Simulation: Simulation, advantages, Disadvantages, Areas of application, System environment, components of a system, Model of a system, types of models, steps in a simulation study. Random Numbers: Properties, Generations methods, Tests for Random numbers - Frequency test, Runs test, Autocorrelation test, Gap test, Pokertest.",
+    "2": "Simulation Examples: Simulation of Queuing systems, Simulation of Inventory System, Monte Carlo simulation, General Principles, Concepts in discrete - events simulation, event scheduling / Time advance algorithm.",
+    "3": "Introduction to Probability distributions: Weibull, Triangular, Erlang and Gamma distributions and their applications (No analytical treatment) Random Variate Generation: Inverse Transform Technique- Exponential, Uniform, Weibull, Triangular distributions, Direct transformation for Normal and lognormal Distributions Convolution Method – Erlang distribution Acceptance and Rejection technique – Poisson and Gammadistributions",
+    "4": "Input Modeling: List of steps involved in input modeling – no analytical treatment Selecting input models without data, Multivariate and time series input models – Covariance and correlation, multivariate input models, time series input models . Verification and Validation of Simulation Model: Model Building, Verification and validation, Verification of simulation models, Calibration and Validation of Models, Naylor and Finger’s validation process.",
+    "5": "Output analysis for a single model: types of simulations, stochastic nature of output data, Output analysis of terminating simulations, Output analysis of steady state simulations Optimization via simulation: What does “optimization via simulation” mean? Why is optimization so difficult? Basic GA and TS."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Jerry Banks, John S Carson, II, Berry L Nelson, David M Nicol -Discrete Event system Simulation, III Edition, Pearson Education, Asia, ISBN - 81- 7808 – 505 -4."
+    },
+    {
+     "no": 2,
+     "book": "NarsinghDeo-Systems Simulation with Digital Computer; PHI Publication (EEE), ISBN –0-87692-028-8"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Averill M Law, W David Kelton -Simulation Modeling & Analysis, McGraw Hill International Editions – Industrial Engineering series, ISBN – 0-07-100803-9."
+    }
+   ],
+   "quirks": [
+    "Scheme (p.18 row 4) prints 'Simulation Modelling & Analysis' while the detail title (p.21) prints 'SIMULATION MODELING AND ANALYSIS' (Modelling/Modeling variants) — both verbatim.",
+    "Scheme Teaching Deptt. prints 'Core Deptt.'.",
+    "L-T-P/credit/marks from VI-sem scheme row for RME604 (p.18): 3---1---0, 70/20/10/100, credit 4."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Machine Tool Design",
+   "name_print": "MACHINE TOOL DESIGN",
+   "codes": [
+    "RMI602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction: Developments is machine tools, types of machine tools surface, profits and paths produced by machine tools. Features of construction and operations of basic machine tools e.g. lathe, drill, milling shapes and planers, grinding machine etc. General requirement of machine tool design. Machine tool design process. Tool wear, force Analysis.",
+    "2": "Machine Tools Drives: Classification of machine tool drives, group Vs individual drives, election of electric motor, A brief review of the elements of mechanical transmission e.g. gear, belt and chain drives, slider-crank mechanism, cam mechanism, nut & Screw transmission, Devices for intermittent motion, reversing & differential mechanisms. Couplings and clutches Elements of hydraulic transmission system. e.g. pumps, cylinder, directional control valves, pressure valves etc. Fundamentals of Kinematics structure of machinetools.",
+    "3": "Regulation of Speed and Feed rates: Laws of stepped regulation, selection of range ratio, standard progression ratio, selection of best possible structural diagram, speed chart, Design of feed box, Developing gearing diagrams. Stepless regulation of speed and feed in machine tool, speed and feed control.",
+    "4": "Design of Machine Tool Structure: Requirements and design criteria for machine tool structures, selection of material Basic design procedure for machine tool structures, design of bed, column and housing, Model technique in design. Design of guideways and power screws: Basic guideway profiles, Designing guideway for stiffness a wear resistance & hydrostatic and antifriction guideways. Design of sliding friction power Screws. Design of spindlier & spindle supports. 3 Layout of bearings, selection of bearings machinetools.",
+    "5": "Dynamics of machine tools: General procedure for assessing the dynamic stability of cutting process, closed loop system, chatter in machine tools. Control Systems: Functions, requirements & types of machine tool controls, controls for speed & feed change. Automatic and manual Controls. Basics of numerical controls. Machine tool testing."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Machine Tools Design & Numerical Controls by N.K. Mehta,McGraw-Hill"
+    },
+    {
+     "no": 2,
+     "book": "Design of Machine Tools by S.K. Basu AlliedPublishers."
+    },
+    {
+     "no": 3,
+     "book": "Principles of Machine Tools by Bhattacharya and Sen. New Central BookAgency."
+    },
+    {
+     "no": 4,
+     "book": "Machine Tool Design Handbook by CMTI,McGraw-Hill."
+    }
+   ],
+   "quirks": [
+    "Book list is printed under a plain 'Books :' heading (p.24) with no Text/Reference split; recorded under textbooks.",
+    "Unit-II prints 'election of electric motor' (likely 'selection') and Unit-IV prints 'Design of spindlier & spindle supports. 3 Layout of bearings...' (stray '3') — verbatim typos kept.",
+    "L-T-P/credit/marks from VI-sem scheme row for RMI602 (p.18): 3---0---0, 70/20/10/100, credit 3; Teaching Deptt. 'Core Deptt.'."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Work Study & Ergonomics Lab",
+   "name_print": "WORK STUDY & ERGONOMICS LAB",
+   "codes": [
+    "RMI651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Construction of Outline Process Chart for simpleassembly"
+    },
+    {
+     "no": 2,
+     "exp": "Recording the given activity using Flow ProcessChart"
+    },
+    {
+     "no": 3,
+     "exp": "Recording the given activity using Multiple ActivityChart"
+    },
+    {
+     "no": 4,
+     "exp": "Constructing the String Diagram for a shop-flooractivity"
+    },
+    {
+     "no": 5,
+     "exp": "Construction of Two Handed Process Chart for pin board / Nut and Boltassembly."
+    },
+    {
+     "no": 6,
+     "exp": "Rating practice using walkingsimulator"
+    },
+    {
+     "no": 7,
+     "exp": "Rating practice for dealing a deck ofcards"
+    },
+    {
+     "no": 8,
+     "exp": "Determination of standard time/ rating of pin board assembly using centi minute stop watch."
+    },
+    {
+     "no": 9,
+     "exp": "Determination of standard time for simple operation using Timer ProSoftware"
+    },
+    {
+     "no": 10,
+     "exp": "Measurement of parameters (heart beat rate, calorie consumption) using walking simulator"
+    },
+    {
+     "no": 11,
+     "exp": "Measurement of parameters (heart beat rate, calorie consumption, revolutions per minute) usingergometer"
+    },
+    {
+     "no": 12,
+     "exp": "Conduction of work sampling in office environment to determine standardtime."
+    },
+    {
+     "no": 13,
+     "exp": "Effect of noise, light and heat on human efficiency in workenvironment."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "ILO -Introduction to work study, ISBN 13:9788120406025 Publisher: India Book House Pvt. Ltd, 4th Revised Edition,2008."
+    },
+    {
+     "no": 2,
+     "book": "Ralph M Barnes -Motion and Time study, ISBN:13:978981426182 Publisher: John Wiley, 7th edition2009."
+    }
+   ],
+   "quirks": [
+    "Printed list heading (p.25): 'List of Experiments'.",
+    "Scheme (p.18 row 7) prints 'Work studyand Ergonomicslab' (fusions) with Teaching Deptt. 'Core Deptt.'; detail title (p.25) prints 'WORK STUDY & ERGONOMICS LAB'.",
+    "Lab marks from scheme row (p.18): Th/Lab Marks 50, Sessional 50, Total 100, credit 1; L-T-P 0---0---2."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Simulation Modeling & Analysis Lab",
+   "name_print": "SIMULATION MODELING & ANALYSIS LAB",
+   "codes": [
+    "RME654A"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Introduction to Simulation Packages andselection."
+    },
+    {
+     "no": 2,
+     "exp": "Understanding the SimulationPackage"
+    },
+    {
+     "no": 3,
+     "exp": "Identifying probability distributions for givendata"
+    },
+    {
+     "no": 4,
+     "exp": "Building simulation models for manufacturing operations (Electronic assembly – With Basictemplates)"
+    },
+    {
+     "no": 5,
+     "exp": "Building simulation models for manufacturing operations (Electronic assembly – With Commontemplates)"
+    },
+    {
+     "no": 6,
+     "exp": "Building simulation models for manufacturing operations with transportSystem"
+    },
+    {
+     "no": 7,
+     "exp": "Building simulation models for manufacturing operations withlayout"
+    },
+    {
+     "no": 8,
+     "exp": "Building simulation models for manufacturing operations with layout and transport System"
+    },
+    {
+     "no": 9,
+     "exp": "Building simulation Models for Banking service ( Bank tellerproblem)"
+    },
+    {
+     "no": 10,
+     "exp": "Building simulation Models for Mortgage applicationproblem"
+    },
+    {
+     "no": 11,
+     "exp": "Building simulation Models for food processingproblem"
+    },
+    {
+     "no": 12,
+     "exp": "Building simulation Models for Post officeanimation"
+    },
+    {
+     "no": 13,
+     "exp": "Statistical Analysis of Simulation models ( inputanalysis)"
+    },
+    {
+     "no": 14,
+     "exp": "Statistical Analysis of Simulation models (outputanalysis)"
+    },
+    {
+     "no": 15,
+     "exp": "Simulation model for foundryexercise."
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Jerry Banks, John S Carson, II, Berry L Nelson, David M Nicol -Discrete Event system Simulation, III Edition, Pearson Education, Asia, ISBN - 81- 7808 – 505 -4."
+    },
+    {
+     "no": 2,
+     "book": "NarsinghDeo -Systems Simulation with Digital Computer; PHI Publication (EEE),ISBN – 0-87692-028-8"
+    }
+   ],
+   "quirks": [
+    "Scheme (p.18 row 8) prints 'Simulation Modelling & Analysis lab' with code RME654A and Teaching Deptt. 'Core Deptt.'; detail title (p.26) prints 'SIMULATION MODELING & ANALYSIS LAB' (Modelling/Modeling variants).",
+    "Lab marks from scheme row (p.18): Th/Lab Marks 50, Sessional 50, Total 100, credit 1; L-T-P 0---0---2.",
+    "No unit-wise theory text is printed for this lab on p.26."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Machine Tool Design Lab",
+   "name_print": "MACHINE TOOL DESIGN LAB",
+   "codes": [
+    "RMI652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Measurement and analysis of cutting forces in orthogonalturning."
+    },
+    {
+     "no": 2,
+     "exp": "Flank wear – time characteristics for single point cuttingtools."
+    },
+    {
+     "no": 3,
+     "exp": "(i) Checking the level of installation of a lathe in horizontal & vertical planes (ii) Checking the bed ways for straightness andparallelism."
+    },
+    {
+     "no": 4,
+     "exp": "Testing the main spindle of a lathe for axial movement and truerunning."
+    },
+    {
+     "no": 5,
+     "exp": "Process capability determination of a centerlathe."
+    },
+    {
+     "no": 6,
+     "exp": "Flatness checking of a surfaceplate."
+    },
+    {
+     "no": 7,
+     "exp": "A study of devices for intermittent motion used in machine tools e.g. ratchet gear & GenevaMechanism."
+    },
+    {
+     "no": 8,
+     "exp": "A study of Kinematics structure of lathe/millingmachine."
+    },
+    {
+     "no": 9,
+     "exp": "A study of the drives for reciprocation used in machinetools."
+    },
+    {
+     "no": 10,
+     "exp": "Development the speed chart and gearing diagram for a gassed headlathe."
+    },
+    {
+     "no": 11,
+     "exp": "A study of the cone pulley drive in center lathe and development of its ray diagram for the speedstructure."
+    },
+    {
+     "no": 12,
+     "exp": "Efficiency testing of lathe at variousparameters-values."
+    },
+    {
+     "no": 13,
+     "exp": "Accuracy analysis of finished cylindrical work-pieces produced on alathe."
+    },
+    {
+     "no": 14,
+     "exp": "Cutting (turning) with inclined placed tool (in toolfixture)."
+    },
+    {
+     "no": 15,
+     "exp": "Turning with two simultaneously cutting tool (one from front on usual tool post and the other tool from back on tool-fixture oncarriage"
+    }
+   ],
+   "quirks": [
+    "Printed instruction above the list (p.27): 'Minimum eight experiments out of the following:'.",
+    "Experiment 15 print ends without closing parenthesis: '...tool-fixture oncarriage' — verbatim.",
+    "Experiment 10 prints 'gassed headlathe' (likely 'geared') — verbatim typo.",
+    "Lab marks from scheme row (p.18 row 9): Th/Lab Marks 50, Sessional 50, Total 100, credit 1; L-T-P 0---0---2; Teaching Deptt. 'Core Deptt.'.",
+    "No unit-wise theory text or books are printed for this lab on p.27."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Human Factors in Engineering",
+   "name_print": "HUMAN FACTORS IN ENGINEERING",
+   "codes": [
+    "RMI061"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction Introduction to Human factors, History of Human factors, Human machine systems, Displaying information, coding of information, information processing, memory, decision making, age and information processing, mental workload.",
+    "2": "Visual Displays: The process of seeing, Visual acuity types, quantitative visual displays, Dynamic quantitative displays, Qualitative visual displays, Representational displays",
+    "3": "Auditory, Tactual & Olfactory Displays: The nature and measurement of sound, The anatomy of ear, Auditory displays, principles of auditory displays, Tactual display types , The Olfactory sense and displays.",
+    "4": "Human activities: Muscle physiology, Measure of physiological strain, physical work load, factors affecting, energy consumption, Strength and endurance, Biomechanics of human motion, Function of controls, factors in control design, C/R ratio, Optimum C/R ratio, Principles of hand tool and device design.",
+    "5": "Work space and arrangement: Anthropometry, use of anthropometric data, work spaces, design of work surfaces, science of seating, example of individual work place, human error, accidents and warnings Applications: use of ergonomics in service sector and IT sector. Introduction to BIS on Human factors."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "M S Sanders and E J McCormick -Human factors in Engineering & Design, McGraw Hill, 7th Edition."
+    },
+    {
+     "no": 2,
+     "book": "Wickens J. Lee, YD Liu, S GordanBeckere-Introduction to Human factor in engineering, Prentice Hall Inc, 2003."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "S Dalela and Sourabh-Work Study and Ergonomics, Standard publishers, 5th Revised & Enlarged Edition, 1999."
+    }
+   ],
+   "quirks": [
+    "Unit headings print as 'Unit – 1', 'Unit – II', 'Unit – III', 'Unit– IV', 'Unit– V' (mixed spacing/styles) — verbatim.",
+    "Code RMI061 printed in the VI-sem scheme elective row (p.18) and elective list (p.18: 'RMI061: Human Factors in Engineering.'); L-T-P/credit/marks taken from the group row: 3---1---0, 70/20/10/100, credit 4.",
+    "Unit-1 has a printed subheading 'Introduction' before the text — kept inline."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Facilities Planning and Design",
+   "name_print": "FACILITIES PLANNING AND DESIGN",
+   "codes": [
+    "RMI062"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Plant Location and layout :Factors influencing plant location, location economics - problems. Objectives of plant layout, Principles of plant layout, types of plant layout, their merits and demerits. Line Balancing",
+    "2": "Material Handling : Objectives and principles of Material handling, Unit load concept, classification and types of material handling equipment, Modern material handling concepts and equipment, RFID. Muther’s Systematic Layout Planning procedure – problems.",
+    "3": "Space Determination and Area Allocation : Factors for consideration in space planning, area allocation factors to be considered, Plot plan, Sequence demand Straight line and non directional methods – Analytical treatment. Determination of manpower and equipment requirement, use of travel chart for layout planning, analytical treatment.",
+    "4": "Layout Evaluation: Methods of constructing the layout, efficiency indices. Layout models: Single facility and multi facility location models, warehouse layout models, Warehouse design as per International standards. Conveyor and Storage models (discussion only)",
+    "5": "Computer Aided Layout: Introduction to CRAFT, COFAD, PLANET, CORELAP and ALDEP – Analytical treatment. Layout for software and service organizations: An over view"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "James M Apple -Plant Layout and Material handling, 2nd Edition, John, Wiely and Sons."
+    },
+    {
+     "no": 2,
+     "book": "Francies,R.L. and White,J.A-Facility layout and Location, Mc Graw Hill, 2ndedition."
+    },
+    {
+     "no": 3,
+     "book": "Tompkins J A, White, Bozer and Tanchoco-A Facilities planning, John Wiley & Sons; 4th edition, 2010"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Muther Richard -Practical Plant Layout, Mc GrawHill-1955."
+    },
+    {
+     "no": 2,
+     "book": "SundereshHeragu-Facilities Design, PWS Publishing Company, ISBN-0-534 -95183."
+    },
+    {
+     "no": 3,
+     "book": "James M Moore -Plant Layout Design, Mac Millan Co.1962 LCCCN61-5204."
+    }
+   ],
+   "quirks": [
+    "Code RMI062 printed in the VI-sem elective list (p.18: 'RMI062: Facilities Planning and Design.'); L-T-P/credit/marks taken from the Deptt. Elective Course-2 group row (p.18): 3---1---0, 70/20/10/100, credit 4.",
+    "Unit-5 text is split across pp.30-31 (line 'Unit V' and its text begin p.31) — content continuous.",
+    "Textbook 1 prints 'John, Wiely and Sons' (typo) — verbatim."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Product Data Management",
+   "name_print": "PRODUCT DATA MANAGEMENT",
+   "codes": [
+    "RME065"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction: Introduction to PDM-present market constraints need for collaboration- Internet and developments in server-client computing, Collabrative product commerce",
+    "2": "Components of PDM: Components of a typical PDM set-up hardware and software- document management creation and viewing of documents -creating parts-version control of parts and documents –case studies.",
+    "3": "Configuration Management: Base lines-product structure configuration management -case studies. Projects and Roles: Creation of projects and roles -life cycle of a product- life cycle management –automating information flow -work flows-Creation of work flow templates - life cycle -work flow integration -case studies.",
+    "4": "Change Management: Change issue -change request-change investigation- change proposal- change activity-case studies.",
+    "5": "Generic Products and Variants: Products configuration comparison between sales configuration mild products generic-generic product modeling in configuration mode1er-use of order generator for variant creation –registering ofvarian1s in product register-case studies."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Computer Integrated Design and Manufacturing - David Bed worth. Mark Henderson &.Philips Wolfe - McGraw Hill Inc. - 1991."
+    },
+    {
+     "no": 2,
+     "book": "Visual Modeling with Rational Rose and UML - Terry Quatrain - Addison Wesley - 1998."
+    },
+    {
+     "no": 3,
+     "book": "Wind-chill - RS.O Reference manuals -2000."
+    }
+   ],
+   "quirks": [
+    "Only a 'REFERENCE BOOKS:' list is printed (p.32); no Text Books section — textbooks key omitted (printed-blank).",
+    "Unit-V prints 'mode1er' and 'ofvarian1s' (OCR-like digit substitutions in the print itself, confirmed against page image) — verbatim.",
+    "Code RME065 printed in the VI-sem elective list (p.18: 'RME065:Product Data Management'); L-T-P/credit/marks taken from the Deptt. Elective Course-2 group row (p.18): 3---1---0, 70/20/10/100, credit 4."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Software Engineering & Management",
+   "name_print": "SOFTWARE ENGINEERING & MANAGEMENT",
+   "codes": [
+    "RMI063"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "The Product and the Process: The product - Evolving role of Software, Characteristics, Components, and Applications. The Process - Software process, Models - Linear, sequential, Prototype, RAD, Process Technology, Software Development Life cycle.",
+    "2": "Software Project Management Concepts: The Management Specification, People, Problem,Process. Software Project Planning :Objectives, Scope, Resources, Project estimation, Decomposition Techniques, Empirical Estimation Models, Make-buy decision, Automated estimation tools.",
+    "3": "Risk Management :Reactive v/s Proactive Risk Strategies, Software Risks, Risk identification, Risk projection, Monitoring. Software Project Scheduling and Tracking: Basic concepts, defining a task set selection, Defining Scheduling, Project Plan.",
+    "4": "Software Quality Assurance/Quality Control: Quality assurance concept, Cost impact of software defects, Technical review, statistical Quality assurance, software reliability, ISO 9000 Quality standards. System Analysis Concept and Principles: Requirement analysis, Principles, software prototyping, specifications, Data Modeling, Functional Modeling and Information Flow, Structured Analysis, Data Dictionary.",
+    "5": "System Design Concepts and Principles: Design Process Concept, Modular design, Documentation Design Methods, Data Design, Interface Design, Procedural Design, Design for Real Time Systems, Considerations in Real Time systems, Analysis and Simulation of Real Time Systems."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Roger S. Pressman -Software Engineering: A Practitioner’s Approach, Software Engg. Series, McGraw-Hill International Editions , 4th Ed."
+    },
+    {
+     "no": 2,
+     "book": "Nasib Singh Gill, Software Engineering, Khanna Publishing House"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Somerville -Software Engineering, Adison Wesley publications, 8th edition"
+    }
+   ],
+   "quirks": [
+    "Reference list heading prints 'Reference:' (p.33) — verbatim; author name prints 'Somerville' (commonly Sommerville) — verbatim.",
+    "Elective pool (p.28) prints 'Software Engineering andManagement.' (fusion); detail title prints 'SOFTWARE ENGINEERING & MANAGEMENT'.",
+    "Code RMI063 printed in the VI-sem elective list (p.18: 'RMI063: Software Engineering andManagement'); L-T-P/credit/marks taken from the Deptt. Elective Course-2 group row (p.18): 3---1---0, 70/20/10/100, credit 4."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Quality Engineering In Manufacturing",
+   "name_print": "QUALITY ENGINEERING IN MANUFACTURING",
+   "codes": [],
+   "semester": 6,
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Quality Value and Engineering: An overall quality system, quality engineering in production design, quality engineering in design of production processes. Loss Function and Quality Level: Derivation and use of quadratile loss function, economic consequences of tightening tolerances as a means to improve quality, evaluations and types tolerances.(N-type,S-type and L-type)",
+    "2": "Tolerance Design and Tolerancing: Functional limits, tolerance design for N-type. L-type and S-type characteristics, tolerance allocation fbr multiple components. Parameter and Tolerance Design: Introduction to parameter design, signal to noise ratios, Parameter design strategy, some of the case studies on parameter and tolerance designs.",
+    "3": "Analysis of Variance (ANOVA): NO-way ANOVA, One-way ANOVA, Two-way ANOVA, Critique of Ftest, ANOVA for four level factors, multiple level factors.",
+    "4": "Orthogonal Arrays: Typical test strategies, better test strategies, efficient test strategies, steps in designing, conducting and analyzing an experiment. Interpolation of Experimental Results: Interpretation methods, percent contributor, estimating the mean.",
+    "5": "IS[)-9000 Quality System, BDRE, 6.-sigma, Bench making, Quality circles Brain Storming — Fishbone diagram — problem analysis."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Taguchi Techniques for Quality Engineering / Phillip J. Ross / McGraw Hill, Intl. II Edition, 1995."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Quality Engineering in Production systems I G. Taguchi, A. Elsayed et al / Mc.Graw Hill Intl. Edition,1989."
+    },
+    {
+     "no": 2,
+     "book": "Taguchi Methods explained: Practical steps to Robust Design / Papan P. Bagchi I Prentice Hall md. Pvt. Ltd., New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Design of Experiments using the Taguchi Approach/Ranjit K. Roy, John wiley& sons. Inc.2001."
+    }
+   ],
+   "quirks": [
+    "No subject code is printed for this subject in this document: the VI-sem scheme elective row (p.18) prints only codes 'RMI061,062,063 RME065', while the Elective-2 pool on p.28 lists a 5th item '5. Quality Engineering InManufacturing.' (uncoded).",
+    "No L-T-P/credit/marks are printed for this subject individually; keys omitted (printed-blank).",
+    "Unit-V print is garbled in the visible print itself (confirmed against page image): 'IS[)-9000 Quality System, BDRE, 6.-sigma, Bench making...' — verbatim.",
+    "Unit-II prints 'fbr' (likely 'for'), Unit-I 'quadratile' (likely 'quadratic'), Unit-III 'NO-way ANOVA' (likely 'N-way') — verbatim typos kept.",
+    "no code printed anywhere in the document for this Elective-2 subject: the elective pool list (p.11) prints \"5. Quality Engineering InManufacturing\" uncoded and the detail page (p.34) is headed \"QUALITY ENGINEERING IN MANUFACTURING\" with no code line; sibling electives carry RME/RMI codes — zero-guess keeps codes absent (v10/B06 no-code print class)."
+   ],
+   "flags": [
+    "no-code-printed-in-document"
+   ],
+   "program_year": 3
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover",
+   "print": "DR. A.P.J ABDUL KALAM TECHNICAL UNIVERSITY, LUCKNOW EVALUATION SCHEME & SYLLABUS For B. Tech. 3rd Year MECHANICAL AND INDUSTRIAL ENGINEERING ON CHOICE BASED CREDIT SYSTEM (CBCS) [Effective from session 2018-19]",
+   "locator": "p.1"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "1 RAS501 MANEGIRIAL ECONOMICS | Applied Science | 3---0---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 3",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "2 RAS502/RUC501 SOCIOLOGY /CYBER SECURITY | Applied Science | 3---0---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 3",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "3 RME504 Design of Machine Elements | 3---0---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 3",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "4 RMI501 Thermal and Hydraulic Machines | 3---1---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 4",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "5 RMI502 Applied Probability and Statics | 3---0---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 3",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "6 RME052, 055, RMI051, 052 Deptt. Elective -I | 3---1---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 4",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "7 RME554 Design and Simulation Lab | 3---1---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 4",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "8 RMI551 Thermal and Hydraulic Machines lab | 0---0---2 | Th/Lab Marks 50 | Sessional 50 | Total 100 | Credit 1",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "9 RMI552 Applied Probability and Statics Lab | 0---0---2 | Th/Lab Marks 50 | Sessional 50 | Total 100 | Credit 1",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "10 RMI559 Seminar | Total 100 | Credit 1 (no L-T-P, no ESE/Sessional breakdown printed)",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "TOTAL 1000 | Credit 24",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Department Elective Course –I | 1. RMI051: ValueEngineering. 2. RMI052: Maintenance Engineering &Management 3. RME052: Mechtronics&Microprocessor. 4. RME055:Advance ManufacturingScience.",
+   "locator": "p.2 (V Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Department Elective Course –I | 1. Mechtronics&Microprocessor. 2. ValueEngineering. 3. Maintenance Engineering &Management 4. Advance ManufacturingScience. 5. InventoryManagement (5-item uncoded pool; adds InventoryManagement beyond the 4 coded electives on p.2)",
+   "locator": "p.11"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "1 RAS601 INDUSTRIAL MANAGEMENT | Applied Science | 3---0---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 3",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "2 RUC601/RAS602 CYBER SECURITY/ SOCIOLOGY | Applied Science | 3---0---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 3",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "3 RMI601 Work study and Ergonomics | Core Deptt. | 3---0---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 3",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "4 RME604 Simulation Modelling & Analysis | Core Deptt. | 3---1---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 4",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "5 RMI602 Machine Tool Design | Core Deptt. | 3---0---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 3",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "6 RMI061,062,063 RME065 DEPTT ELECTIVE COURSE-2 | Core Deptt. | 3---1---0 | Th/Lab Marks 70 | Sessional: Test 20, Assig/Att 10 | Total 100 | Credit 4",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "7 RMI651 Work studyand Ergonomicslab | Core Deptt. | 0---0---2 | Th/Lab Marks 50 | Sessional 50 | Total 100 | Credit 1",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "8 RME654A Simulation Modelling & Analysis lab | Core Deptt. | 0---0---2 | Th/Lab Marks 50 | Sessional 50 | Total 100 | Credit 1",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "9 RMI652 Machine Tool Design Lab | Core Deptt. | 0---0---2 | Th/Lab Marks 50 | Sessional 50 | Total 100 | Credit 1",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "evaluation_scheme_row",
+   "print": "10 RMI-659 Seminar | Total 100 | Credit 1 (code printed with dash 'RMI-659'; no L-T-P, no ESE/Sessional breakdown printed)",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Department Elective Course –2 | RMI061: Human Factors in Engineering. RMI062: Facilities Planning and Design. RMI063: Software Engineering andManagement RME065:Product Data Management",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Department Elective Course –2 | 1. Human Factors inEngineering. 2. Facilities Planning andDesign. 3. Product DataManagement 4. Software Engineering andManagement. 5. Quality Engineering InManufacturing. (5-item uncoded pool; adds Quality Engineering InManufacturing beyond the 4 coded electives on p.18)",
+   "locator": "p.28"
+  },
+  {
+   "kind": "scheme_note",
+   "print": "No TOTAL row is printed for the VI Semester Evaluation Scheme (the V Semester table prints 'TOTAL 1000 24').",
+   "locator": "p.18 (VI Semester Evaluation Scheme)"
+  }
+ ],
+ "quirks": [
+  "Cover prints course as 'B. Tech. 3rd Year' with branch scope 'MECHANICAL AND INDUSTRIAL ENGINEERING' on CBCS, '[Effective from session 2018-19]' (p.1).",
+  "RME554 'Design and Simulation Lab' prints theory-style L-T-P 3---1---0 with 70/20/10/100 marks and credit 4 in the V-sem scheme (p.2 row 7), unlike the other labs (0---0---2, 50/50/100) — recorded verbatim as printed.",
+  "VI-semester Evaluation Scheme (p.18) prints no TOTAL row; V-semester prints 'TOTAL 1000 24' (p.2).",
+  "VI-sem seminar code prints as 'RMI-659' (with dash) vs V-sem 'RMI559'; Seminar rows print no L-T-P or marks breakdown (only Total 100, Credit 1).",
+  "Scheme prints 'Applied Probability and Statics'/'Applied Probability and Statics Lab' while detail titles print 'APPLIED PROBABILITY AND STATISTICS( LAB)' — Statics vs STATISTICS mismatch recorded on both rows.",
+  "RME055 printed as 'Advance ManufacturingScience' in both Elective-I pools (pp.2, 11) but the detailed syllabus (p.16) is titled 'ADVANCE MACHINING PROCESSES'.",
+  "Elective pools are internally inconsistent: p.2 codes only 4 Elective-I subjects while p.11 lists 5 (InventoryManagement uncoded); p.18 codes only 4 Elective-2 subjects while p.28 lists 5 (Quality Engineering InManufacturing uncoded).",
+  "Maintenance Engineering & Management (p.15) prints 'LTP 3-0-0' while its Elective-I group row (p.2) prints 3---1---0 — discrepancy recorded on the subject.",
+  "Marks column mapping used for all subjects: 'Th/Lab Marks' → ese_te_pe; Sessional Test → sessional_ct; Assig/Att → sessional_ta; lab rows print a single Sessional value (50) → sessional_total (no Test/Assig split printed for labs).",
+  "Common subjects RAS501 MANEGIRIAL ECONOMICS, RAS502/RUC501 SOCIOLOGY/CYBER SECURITY, RAS601 INDUSTRIAL MANAGEMENT, RUC601/RAS602 CYBER SECURITY/SOCIOLOGY appear in scheme tables only; no unit-wise syllabus is printed for them in this document (kept in non_subject_rows).",
+  "No course outcomes (COs/K-levels), objectives, eligibility, prerequisites or lectures-per-unit are printed anywhere in this document — keys omitted (printed-blank).",
+  "Printed typos kept verbatim throughout (e.g. MANEGIRIAL, DESIG AND SIMULATIONLAB, Mechtronics&Microprocessor, Work studyand Ergonomicslab, DEPTTELECTIVE, Wangner, Pokertest, fbr, quadratile, IS[)-9000, BDRE, 6.-sigma, mode1er, ofvarian1s, gassed headlathe, heding) plus text-layer line-wrap fusions (e.g. fatigueloads, machinetools, PearsonEductaion).",
+  "Page-2 scheme row values cross-checked against rendered page image; RME554 row oddity and lab 50/50/100 reading are as printed."
+ ],
+ "flags": []
+}

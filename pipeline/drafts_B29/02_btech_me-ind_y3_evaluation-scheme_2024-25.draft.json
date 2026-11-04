@@ -1,0 +1,2665 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2024-25/btech_me-ind_y3_evaluation-scheme_2024-25.pdf",
+ "session": "2024-25",
+ "course": "BTech",
+ "sha16": "9c81bf6940829c7d",
+ "stem": "02_btech_me-ind_y3_evaluation-scheme_2024-25",
+ "subjects": [
+  {
+   "name": "Heat & Mass Transfer",
+   "name_print": "Heat & Mass Transfer",
+   "codes": [
+    "BME501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PC",
+   "units": {
+    "1": "Unit‐1 (8-Hours)\nIntroduction to Heat Transfer\nIntroduction of thermodynamics and Heat Transfer, Modes of Heat Transfer: Conduction, convection and radiation, Effect of temperature on thermal conductivity of different types of materials, Introduction to combined heat transfer mechanism, General differential heat conduction equation in the rectangular, cylindrical and spherical coordinate systems, Initial and system boundary conditions.\nSteady State one‐dimensional Heat conduction\nSimple and Composite Systems in rectangular, cylindrical and spherical coordinates with and without energy generation, Concept of thermal resistance, Analogy between heat and electricity flow, Thermal contact resistance and over‐all heat transfer coefficient, Critical radius of insulation for cylindrical, and spherical bodies.",
+    "2": "Unit‐2 (6-Hours)\nFins\nHeat transfer through extended surfaces and its classification, Fins of uniform cross‐sectional area, Error in measurement of temperature of thermometer wells.\nTransient Conduction\nTransient heat conduction, Lumped capacitance method, Time constant, Unsteady state heat conduction in one dimension only, Heisler charts and their applications.",
+    "3": "Unit‐3 (10- Hours)\nForced Convection\nBasic concepts: Hydrodynamic boundary layer, Thermal boundary layer, Approximate integral boundary layer analysis, Analogy between momentum and heat transfer in turbulent flow over a flat surface, Mixed boundary layer, Flow over a flat plate, Flow across a single cylinder and a sphere, Flow inside ducts, Thermal entrance region, Empirical heat transfer relations, Relation between fluid friction and heat transfer, Liquid metal heat transfer.\nNatural Convection\nPhysical mechanism of natural convection, Buoyant force, Empirical heat transfer relations for natural convection over vertical planes and cylinders, horizontal plates, cylinders and sphere, combined free and forced convection, Effect of turbulence.",
+    "4": "Unit‐4 (8-Hours)\nThermal Radiation\nBasic concepts of radiation, Radiation properties of surfaces, Black body radiation Planck's law, Wein's displacement law, Stefan‐Boltzmann law, Kirchhoff's law, Gray body, Shape factor, Black‐body radiation, Radiation exchange between diffuse non‐black bodies in an enclosure, Radiation shields, Radiation combined with conduction and convection; Absorption and emission in gaseous medium; Solar radiation; Greenhouse effect, Radiation network analysis.",
+    "5": "Unit‐5 (10-Hours)\nHeat Exchanger\nDifferent types of heat exchangers, Fouling factors, Overall heat transfer coefficient, Logarithmic mean temperature difference (LMTD) method, Effectiveness‐number of transfer Unit (NTU) method and Compact Heat Exchangers.\nCondensation and Boiling\nIntroduction of condensation phenomena, Heat transfer relations for laminar film condensation on vertical surfaces and on outside & inside of a horizontal tube, Effect of non‐condensable gases, Drop wise condensation, Heat pipes, Boiling modes, pool boiling, Hysteresis in boiling curve, Forced convection boiling.\nIntroduction to Mass Transfer\nIntroduction of Fick's law of diffusion, Steady state equimolar counter diffusion, Steady state diffusion through a stagnant gas film, Heat and Mass Transfer Analogy ‐Convective Mass Transfer Correlations"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of heat and mass transfer.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply the concept of steady and transient heat conduction.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concept of thermal behavior of fins.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of forced and free convection.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the concept of radiation for black and non‐black bodies.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Conduct thermal analysis of heat exchangers.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Heat and Mass Transfer, by Incroperra& DeWitt, John Wiley and Sons"
+    },
+    {
+     "no": 2,
+     "book": "Heat and Mass Transfer by Cengel, McGraw‐Hill"
+    },
+    {
+     "no": 3,
+     "book": "Heat Transfer by J.P. Holman, McGraw‐Hill"
+    },
+    {
+     "no": 4,
+     "book": "Heat and Mass Transfer by Rudramoorthy and Mayilsamy, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Heat Transfer by Ghoshdastidar, Oxford University Press"
+    },
+    {
+     "no": 6,
+     "book": "A text book on Heat Transfer, by Sukhatme, University Press."
+    },
+    {
+     "no": 7,
+     "book": "Heat Transfer by Venkateshan, Ane Books Pvt Ltd"
+    },
+    {
+     "no": 8,
+     "book": "Schaum's outline of Heat Transfer by Pitts & Sisson McGraw‐Hill"
+    },
+    {
+     "no": 9,
+     "book": "Heat and Mass Transfer by R Yadav, Central Publishing House"
+    }
+   ],
+   "quirks": [
+    "No Text Books section printed; only 'Reference Books:‐' list (p.6).",
+    "Unit‐4 header/body span pages 5-6 (page break falls after \"Wein's\"); text layer continuous and clean.",
+    "Print uses U+2010 hyphen (Unit‐1, one‐dimensional, non‐black, over‐all, Stefan‐Boltzmann, McGraw‐Hill, Effectiveness‐number); preserved verbatim.",
+    "'Incroperra& DeWitt' printed without space before '&' (verbatim)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Machine Design",
+   "name_print": "Machine Design",
+   "codes": [
+    "BME502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PC",
+   "units": {
+    "1": "Unit-1 (8-Hours)\nIntroduction\nDefinition, Design requirements of machine elements, Design procedure, Standards in design, Standards designation of carbon & alloy steels, Selection of preferred sizes, Selection of materials for static and fatigue loads, Design against Static Load\nDesign against Fluctuating Loads\nCyclic stresses, Fatigue and endurance limit, Stress concentration factor, Stress concentration factor for various machine parts, Design for finite & infinite life, Soderberg, Goodman, Gerber criteria",
+    "2": "Unit-2 (8-Hours)\nRiveted Joints\nRiveting methods, materials, Types of rivet heads, Types of riveted joints, Caulking and Fullering, Failure of riveted joint, Efficiency of riveted joint, Design of boiler joints, Eccentric loaded riveted joint\nWelded Joints\nStress relieving of welded joints, Butt Joints, Fillet Joints, Strength of Butt Welds, Strength of parallel fillet welds, Strength of transverse fillet welds\nShafts\nCause of failure in shafts, Materials for shaft, Stresses in shafts, Design of shafts subjected to twisting moment, bending moment and combined twisting and bending moments, Shafts subjected to fatigue loads, Design for rigidity, Keys, Types of keys, Selection of square and flat keys, Strength of sunk key",
+    "3": "Unit-3 (8- Hours)\nSpur Gears\nTooth forms, System of gear teeth, contact ratio, Standard proportions of gear systems, Interference in involute gears, Backlash, Selection of gear materials, Gear manufacturing methods, Design considerations, Beam strength of gear tooth, Dynamic tooth load, Wear strength of gear tooth, Failure of gear tooth, Design of spur gears, AGMA and Indian standards.\nHelical Gears\nTerminology, Proportions for helical gears, Force components on a tooth of helical gear, Virtual number of teeth, Beam strength and wear strength of helical gears, Dynamic load on helical gears, Design of helical gears. Introduction, Classification and Applications of Bevel & Worm Gears",
+    "4": "Unit-4 (8-Hours)\nSliding Contact Bearing\nTypes, Selection of bearing, Plain journal bearing, Hydrodynamic lubrication, Properties and materials, Lubricants and lubrication, Hydrodynamic journal bearing, Heat generation, Design of journal bearing.\nRolling Contact Bearing\nAdvantages and disadvantages, Types of ball bearing, Thrust ball bearing, Types of roller bearing, Selection of radial ball bearing, Bearing life, Selection of roller bearings, Dynamic equivalent load for roller contact bearing under constant and variable loading, Reliability of Bearing.",
+    "5": "Unit-5 (8-Hours)\nIC Engine Parts\nSelection of type of IC engine, General design considerations, Design of Cylinder and cylinder head; Design of piston, piston ring and gudgeon pin;\nFriction Clutches\nClutches, Difference between coupling and clutch, Single plate friction clutch, Torque transmitting capacity, Multi‐Disk Clutches, Friction Material"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Recall the basic concepts of Solid Mechanics to understand the subject.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Classify various machine elements based on their functions and applications.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply the principles of solid mechanics to machine elements subjected to static and fluctuating loads.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze forces, bending moments, twisting moments and failure causes in various machine elements to be designed.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Design the machine elements to meet the required specification.",
+     "kl": "K5"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Design of Machine Elements‐V.B. Bhandari, McGraw Hill Co."
+    },
+    {
+     "no": 2,
+     "book": "Design of Machine Elements, Sharma and Purohit, PHI."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Mechanical Engineering Design, 9e – Joseph E. Shigely, McGraw Hill Education."
+    },
+    {
+     "no": 2,
+     "book": "Machine Design‐Maleev and Hartman, CBS Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Design of Machine Design‐M.F. Spott, Pearson Education."
+    },
+    {
+     "no": 4,
+     "book": "Elements of Machine Component Design, Juvinal&Marshek, John Wiley & Sons."
+    },
+    {
+     "no": 5,
+     "book": "Machine design, Robert L. Norton, Pearson Education"
+    },
+    {
+     "no": 6,
+     "book": "Theory & Problem of Machine Design (Schaum's Outline Series) Hall, Holowenko, Laughlin, Tata McGraw Hill Co."
+    },
+    {
+     "no": 7,
+     "book": "Machine Design‐Sharma and Agrawal, S.K. Kataria & Sons."
+    },
+    {
+     "no": 8,
+     "book": "Machine Design, U C Jindal, Pearson Education."
+    }
+   ],
+   "quirks": [
+    "Printed note after Unit-5 (p.8), verbatim: 'Note: Design data book is allowed in the examination'.",
+    "Reference book 3 printed as 'Design of Machine Design‐M.F. Spott' (print typo, kept verbatim); ref 1 'Shigely' printed typo kept.",
+    "Unit-1 prints 'Design against Static Load' as a dangling sub-heading with no following body text before 'Design against Fluctuating Loads' (as printed).",
+    "CO rows printed with 'CO 1'..'CO 5' spacing; normalized to no=1..5."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Industrial Engineering",
+   "name_print": "Industrial Engineering",
+   "codes": [
+    "BME503"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PC",
+   "units": {
+    "1": "Unit-1 (9-Hours)\nOverview of Industrial Engineering: Types of production systems, concept of productivity, productivity measurement in manufacturing and service organizations, operations strategies, liability and process design.\nFacility location and layout: Factors affecting facility location; principle of plant layout design, types of plant layout; computer aided layout design techniques; assembly line balancing; materials handling principles, types of material handling systems, methods of process planning, steps in process selection, production equipment and tooling selection, group technology, and flexible manufacturing.",
+    "2": "Unit-2 (8-Hours)\nProduction Planning and control: Forecasting techniques–causal and time series models, moving average, exponential smoothing, trend and seasonality; aggregate production planning; master production scheduling; materials requirement planning (MRP) and MRP‐II; routing, scheduling and priority dispatching, concept of JIT manufacturing system.\nProject Management: Project network analysis, CPM, PERT and Project crashing.",
+    "3": "Unit-3 (8-Hours)\nEngineering economy and Inventory control: Definition and Meaning of management, Methods of depreciation; break‐even analysis, techniques for evaluation of capital investments, financial statements, time‐cost trade‐off, resource levelling; Inventory functions, costs, classifications, deterministic inventory models, perpetual and periodic inventory control systems, ABC analysis, and VED analysis.\nQueuing Theory: Basis of Queuing theory, elements of queuing theory, Operating characteristics of a queuing system, Classification of Queuing models.",
+    "4": "Unit-4 (7-Hours)\nWork System Design: Taylor's scientific management, Gilbreths's contributions; work study: method study, micro‐motion study, principles of motion economy; work measurement–time study, work sampling, standard data, Predetermined motion time system (PMTS); ergonomics; job evaluation, merit rating, incentive schemes, and wage administration.\nProduct Design and Development: Principles of product design, tolerance design; quality and cost considerations; product life cycle; standardization, simplification, diversification, value engineering and analysis, and concurrent engineering.",
+    "5": "Unit-5 (8-Hours)\nOperational Analysis: Formulation of LPP, Graphical solution of LPP, Simplex Method, Sensitivity Analysis, degeneracy and unbound solutions. Transportation and assignment models; Optimality test: the stepping stone method and MODI method, simulation."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concept of production system, productivity, facility and process planning in various industries",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply the various forecasting and project management techniques",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concept of break‐even analysis, inventory control and resource utilization using queuing theory",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply principles of work study and ergonomics for design of work systems",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Formulate mathematical models for optimal solution of industrial problems using linear programming approach",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Industrial Engineering and Production Management by Martand T Telsang S. Chand Publishing"
+    },
+    {
+     "no": 2,
+     "book": "Industrial Engineering and Production Management by M. Mahajan Dhanpat Rai & Co. (P) Limited"
+    },
+    {
+     "no": 3,
+     "book": "Industrial Engineering and Management by Ravi Shankar, Galgotia Publications Pvt Ltd"
+    },
+    {
+     "no": 4,
+     "book": "Production and Operations Management by Adam, B.E. & Ebert, R.J., PHI"
+    },
+    {
+     "no": 5,
+     "book": "Product Design and Manufacturing by Chitale A.V. and Gupta R.C., PHI"
+    },
+    {
+     "no": 6,
+     "book": "Operations Research Theory & Applications by J K Sharma, Macmillan India Ltd,"
+    },
+    {
+     "no": 7,
+     "book": "Production Systems Analysis and Control by J.L.Riggs, John Wiley & Sons"
+    },
+    {
+     "no": 8,
+     "book": "Automation, Production Systems & Computer Integrated Manufacturing by Groover, M.P. PHI"
+    },
+    {
+     "no": 9,
+     "book": "Operations Research, by A.M. Natarajan, P. Balasubramani, A. Tamilarasi, Pearson Education"
+    },
+    {
+     "no": 10,
+     "book": "Operations Research by P. K. Gupta and D. S. Hira, S. Chand & Co."
+    }
+   ],
+   "quirks": [
+    "Books printed under a single combined header 'Books and References:' (no separate Text/Reference split); recorded under reference_books.",
+    "Unit-1 prints 'operations strategies, liability and process design.' — 'liability' as printed (apparent print typo for 'facility'), kept verbatim.",
+    "Unit-4 prints \"Gilbreths's contributions\" (as printed).",
+    "Book 6 ends with a trailing comma as printed."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Heat Transfer Lab",
+   "name_print": "Heat Transfer Lab",
+   "codes": [
+    "BME551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 50,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 100
+   },
+   "subject_type": "PC",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply the concept of conductive heat transfer.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Apply empirical correlations for both forced and free convection to determine the value of convection heat transfer coefficient",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concept of radiation heat transfer for black and grey body.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze the thermal behaviour of parallel or counter flow heat exchangers",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Conduct thermal analysis of a heat pipe",
+     "kl": "K4"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To determine thermal conductivity of conductive material(s)."
+    },
+    {
+     "no": 2,
+     "exp": "To determine thermal conductivity of insulating material(s)."
+    },
+    {
+     "no": 3,
+     "exp": "To determine heat conduction through lagged pipe."
+    },
+    {
+     "no": 4,
+     "exp": "To determine heat transfer through fin under natural convection."
+    },
+    {
+     "no": 5,
+     "exp": "To determine the heat transfer Rate and Temperature Distribution for a Pin Fin."
+    },
+    {
+     "no": 6,
+     "exp": "Determination of thermal conductivity of different types of fluids."
+    },
+    {
+     "no": 7,
+     "exp": "Experiment on Stefan's Law ‐ determination of emissivity, etc."
+    },
+    {
+     "no": 8,
+     "exp": "Experiment on convective heat transfer through flat plate solar collector."
+    },
+    {
+     "no": 9,
+     "exp": "To compare LMTD and Effectiveness of Parallel and Counter Flow Heat Exchangers."
+    },
+    {
+     "no": 10,
+     "exp": "To find the heat transfer coefficient for Forced Convection in a tube."
+    },
+    {
+     "no": 11,
+     "exp": "To find the heat transfer coefficient for Free Convection in a tube."
+    },
+    {
+     "no": 12,
+     "exp": "To conduct experiments on heat pipe."
+    },
+    {
+     "no": 13,
+     "exp": "To study the rates of heat transfer for different materials and geometries."
+    },
+    {
+     "no": 14,
+     "exp": "Visit to a Thermal Power Station for practical exposure."
+    }
+   ],
+   "quirks": [
+    "Experiment preamble printed verbatim: 'List of Experiments / Minimum eight experiment of the following' ('experiment' singular as printed).",
+    "Lab-row marks print four numbers '50 50 50 100' under CT/TA/Total/TE-PE with no separate overall-total cell linearized; recorded positionally (see doc quirk on lab-row cell alignment; sem-V total 900 implies each lab row overall = 100).",
+    "No units/textbooks printed for this lab."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Machine Design Lab",
+   "name_print": "Machine Design Lab",
+   "codes": [
+    "BME552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 50,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 100
+   },
+   "subject_type": "PC",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply the principles of solid mechanics to design various machine Elements subjected to static and fluctuating loads.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Achieve an expertise in design of Sliding contact bearing in industrial applications.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Write computer programs and validate it for the design of different machine elements",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Evaluate designed machine elements to check their safety.",
+     "kl": "K5"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design a knuckle joint subjected to given tensile load."
+    },
+    {
+     "no": 2,
+     "exp": "Design a riveted joint subjected to given eccentric load."
+    },
+    {
+     "no": 3,
+     "exp": "Design of shaft subjected to combined constant twisting and bending loads"
+    },
+    {
+     "no": 4,
+     "exp": "Design a transverse fillet welded joint subjected to given tensile load."
+    },
+    {
+     "no": 5,
+     "exp": "Design & select suitable Rolling Contact Bearing for a shaft with given specifications"
+    },
+    {
+     "no": 6,
+     "exp": "Design a cylinder head of an IC Engine with prescribed parameters."
+    },
+    {
+     "no": 7,
+     "exp": "Design of Piston & its parts of an IC Engine"
+    }
+   ],
+   "quirks": [
+    "Printed in two labelled parts. Part header A printed verbatim as: 'A / Design of Machine Elements' (experiments 1-7 above).",
+    "Part B header printed verbatim as: 'B.  Computer Programs for conventional design Computer and Language' (as printed, apparently garbled in source); B items numbered 1-3 in print: (1) 'Design a pair of Spur Gear with given specifications to determine its various dimensions using Computer Program in C/C++.' (2) 'Design a pair of Helical Gear with given specifications to determine its various dimensions using Computer Program in C/C++.' (3) 'Design of Sliding Contact Bearing with given specifications & determine its various parameters using Computer Program in C/C++.'; B preamble printed: 'Students are required to learn the basics of computer language such as C/C++/MATLAB so that they should be able to write the computer program.'",
+    "Lab-row marks print '50 50 50 100' under CT/TA/Total/TE-PE (see doc quirk on lab-row cell alignment).",
+    "No units/textbooks printed for this lab."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Internet of Things Lab",
+   "name_print": "Internet of Things Lab",
+   "codes": [
+    "BME553"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 50,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 100
+   },
+   "subject_type": "PC",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand Internet of Things and its hardware and software components",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Interface I/O devices, sensors & communication modules",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Remotely monitor data and control devices",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Design prototype of IoT based smart system",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Develop IoT based projects for real life problem",
+     "kl": "K6"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Familiarization with concept of IoT, Arduino/Raspberry Pi and perform necessary software installation. Outcome: Will be able to understand IoT, Arduino/Raspberry Pi, and also able to install software setup of Arduino/ Respberry Pi"
+    },
+    {
+     "no": 2,
+     "exp": "To interface motor using relay with Arduino/Raspberry Pi and write a program to turn ON/OFF motor. Outcome: Able to use relay to control motor and other mechanical devices"
+    },
+    {
+     "no": 3,
+     "exp": "To interface sensors* with Arduino/Raspberry Pi and write a program to display sensors data on the computer screen. Outcome: Able to retrieve data from sensors and to display it on computer screen"
+    },
+    {
+     "no": 4,
+     "exp": "To interface OLED with Arduino/Raspberry Pi and write a program to display sensor data on it. Outcome: Able to retrieve data from sensors and to display it on OLED"
+    },
+    {
+     "no": 5,
+     "exp": "To interface sensor with Arduino/Raspberry Pi and write a program to turn ON/OFF Relay when sensor data is detected. Outcome: Able to control relay with help of microcontroller and sensors"
+    },
+    {
+     "no": 6,
+     "exp": "To interface sensor with Arduino/Raspberry Pi and write a program to turn ON/OFF Solenoid valve when sensor data is detected. Outcome: Able to control Solenoid valve with help of microcontroller and sensors"
+    },
+    {
+     "no": 7,
+     "exp": "To interface sensor with Arduino/Raspberry Pi and write a program to turn ON/OFF Linear Actuator when sensor data is detected. Outcome: Able to control linear actuator with help of microcontroller and sensors"
+    },
+    {
+     "no": 8,
+     "exp": "To interface sensor with Arduino/Raspberry Pi and write a program to turn ON/OFF Starter Motor when sensor data is detected. Outcome: Able to control Starter Motor with help of microcontroller and sensors"
+    },
+    {
+     "no": 9,
+     "exp": "To interface Bluetooth with Arduino/Raspberry Pi and write a program to send sensor data to smart phone using Bluetooth. Outcome: Able to communicate sensor data from microcontroller to smart phone"
+    },
+    {
+     "no": 10,
+     "exp": "To interface Bluetooth with Arduino/Raspberry Pi and write a program to turn Actuators* ON/OFF when message is received from smart phone using Bluetooth. Outcome: Able to control actuators using mobile phone through Bluetooth"
+    },
+    {
+     "no": 11,
+     "exp": "Write a program on Arduino/Raspberry Pi to upload Sensor data to things peak cloud. Outcome: Able to upload status of devices and sensors on web cloud"
+    },
+    {
+     "no": 12,
+     "exp": "Write a program on Arduino/Raspberry Pi to retrieve sensors data from things peak cloud. Outcome: Able to retrieve status of devices and sensors from web cloud"
+    },
+    {
+     "no": 13,
+     "exp": "Develop IoT based smart lock system for Motor cycle/Car Outcome: Able to develop smart lock system of motor cycle/car"
+    },
+    {
+     "no": 14,
+     "exp": "Develop IoT based Smart water flow system Outcome: Able to develop smart water flow system"
+    },
+    {
+     "no": 15,
+     "exp": "Develop IoT based home security system Outcome: Able to develop smart home security system"
+    }
+   ],
+   "quirks": [
+    "Experiments printed as a 3-column table (S.No. / Name of Experiment / Outcome) spanning pp.13-14; flattened here into one string per experiment with 'Outcome:' separator; original column split noted.",
+    "Experiment 15 printed with number '15.' (with period) while 1-14 are plain numbers (as printed).",
+    "Printed 'Components required‐' list (p.14) recorded verbatim: 1. Arduino with cable; 2. Raspberry Pi with cable and memory card; 3. Node MCU; 4. *Sensors‐IR, LDR, DHT11 sensor, Push button, Pressure sensor, Temperature sensor, Vibration, Rotation, Location, Torque, Sound, Weight etc.; 5. *Actuators‐LED, Buzzer, Relay Switch, Motors, Motor Drivers, OLED, Display, Linear Actuator, Solenoid Valve, Starter Motor etc.; 6. Bluetooth Module, Wi‐fi Module, Ethernet Module; 7. Smart Phone; 8. Computer; 9. Power Supply‐5V, 12V, 3.3V; 10. Internet facility.",
+    "'Respberry Pi' printed typo (exp 1 outcome) kept verbatim; 'things peak cloud' as printed (likely ThingSpeak).",
+    "Lab-row marks print '50 50 50 100' under CT/TA/Total/TE-PE (see doc quirk on lab-row cell alignment).",
+    "No units/textbooks printed for this lab."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Advance Manufacturing Processes",
+   "name_print": "Advance Manufacturing Processes",
+   "codes": [
+    "BME051"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit-1 (8-Hours)\nAdvanced Machining Processes\nIntroduction, Process principle, Material removal mechanism, Parametric analysis and applications of processes such as Water jet machining (WJM), Abrasive water jet machining (AWJM), Electron beam machining (EBM), Laser beam machining (LBM) processes",
+    "2": "Unit-2 (7-Hours)\nAdvanced Casting Processes\nMetal mould casting, Continuous casting, Squeeze casting, Vacuum mould casting, Evaporative pattern casting, Ceramic shell casting",
+    "3": "Unit-3 (8-Hours)\nAdvanced Welding Processes:\nDetails of electron beam welding (EBW), laser beam welding (LBW), ultrasonic welding (USW)",
+    "4": "Unit-4 (8-Hours)\nAdvanced Metal Forming Processes\n Details of high energy rate forming (HERF) process, Electro-magnetic forming, explosive forming Electro-hydraulic forming Stretch forming Contour roll forming",
+    "5": "Unit-5 (7-Hours)\nAdditive Manufacturing Introduction:\nIntroduction to Prototyping, Traditional Manufacturing Vs. Additive Manufacturing, Need for time compression in product development, Usage of Additive Manufacturing parts\nPowder Bed Fusion\nWorking Principal, Process Parameter, Advantage, Disadvantage and Application."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the physics of advanced machining process",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Analysis of advanced casting processes",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Selection of advanced welding process",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Analysis of advanced metal forming processes",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Product development using the advanced manufacturing processes",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "\"Materials and Processes in Manufacturing\" (8th Edition), E. P. De Garmo, J. T Black, R. A. Kohser, Prentice Hall of India, New Delhi (ISBN 0-02-978760)."
+    },
+    {
+     "no": 2,
+     "book": "\"Manufacturing Science\" A. Ghosh, and A. K. Mallik, Affiliated East-West Press Pvt. Ltd. New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "\"Nontraditional Manufacturing Processes\", G.F. Benedict, Marcel Dekker, Inc. New York (ISBN 0- 8247-7352-7"
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – V: Departmental Elective – I' and 'Specialization – Manufacturing & Automation'.",
+    "Page-4 elective pool table places BME 051 under Specialization 'Manufacturing & Automation' for Departmental Elective‐I (consistent with detailed page).",
+    "Unit-4 body prints 'explosive forming Electro-hydraulic forming Stretch forming Contour roll forming' without commas (as printed).",
+    "Unit-5 prints 'Working Principal' (typo, kept verbatim).",
+    "Reference book 3 ends with an unclosed parenthesis '(ISBN 0- 8247-7352-7' as printed.",
+    "CO lead-in printed 'CO / The students will be able to'; K levels printed 'K 2' etc."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "I C Engine Fuel & Lubrication",
+   "name_print": "I C Engine Fuel & Lubrication",
+   "codes": [
+    "BME052"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit‐1 (9-Hours)\nIntroduction to I.C Engines: Engine classification and basic terminology, Two and four stroke engines, SI and CI engines, Valve timing diagram, Valve mechanism‐ Push rod type, Overhead type (SOHC,DOHC).\nThermodynamic analysis of Air standard cycles: Otto cycle, Diesel cycle, Dual cycle, Comparison of Otto, Diesel and Dual cycles Fuel air cycle, factors affecting the fuel air cycle, Actual cycle. Testing and Performance: Performance parameters, Basic measurements, Blow by measurement, Testing of SI and CI engines.",
+    "2": "Unit–2 (7- Hours)\nCombustion: Stages of Combustion in SI & CI engine, Factors affecting combustion, Flame speed, Ignition Delay, Abnormal combustion and its control. Combustion chamber: Squish, Swirl & tumble, Combustion chamber design for SI & CI engine & factors affecting it.",
+    "3": "Unit–3 (8- Hours)\nCarburetion, Mixture requirements, Carburetors and fuel injection system in SI Engine, MPFI, Scavenging in 2 Stroke engines. Fuel injection in CI engines, Requirements, Types of injection systems, Fuel pumps, Fuel injectors, Injection timings. Turbo charging & its types‐Variable Geometry Turbocharger, Waste Gate Turbocharger, Effect of turbo charging on power & emission.",
+    "4": "Unit‐4 (9-Hours)\nEngine Emission and Control: Pollutant ‐ Sources and types – Effect on environment and human health ‐ formation of NOx ‐ Hydrocarbon Emission Mechanism ‐ Carbon Monoxide Formation ‐ Particulate emissions ‐ Methods of controlling Emissions ‐ Catalytic converters and Particulate Traps ‐ Selective Catalytic Reduction (SCR) ‐ Diesel Oxidation Catalyst (DOC).\nFuels: Fuels for SI and CI engine, Important qualities of SI and CI engine fuels, Rating of SI engine and CI engine fuels, Dopes, Additives, Gaseous fuels, LPG, CNG, Biogas, Producer gas, Alternative fuels for IC engines.",
+    "5": "Unit‐5 (9- Hours)\nEngine Cooling and Lubrication: Different cooling systems, Radiators and cooling fans, Engine friction, Lubrication principle, Type of lubrication, Lubrication oils, Crank case ventilation. Ignition System in SI Engine: Ignition system requirements, Magneto and battery ignition systems, ignition timing and spark plug, Electronic ignition. Recent trends in IC engine: Lean burn engine, Stratified charge spark ignition engine, Homogeneous charge spark ignition engine, GDI."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain the working principle, performance parameters and testing of IC Engine.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the combustion phenomena in SI and CI engines and factors Influencing combustion chamber design.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the essential systems of IC engine and latest trends and developments in IC Engines.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the effect of engine emissions on environment and human health and methods of reducing it.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Apply the concepts of thermodynamics to air standard cycle in IC Engines",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Analyze the effect of various operating parameters on IC engine performance.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A Course in International Combustion Engines, by Mathur& Sharma, DhanpatRai& Sons."
+    },
+    {
+     "no": 2,
+     "book": "I.C Engine, by Ganeshan, Tata McGraw Hill Publishers"
+    },
+    {
+     "no": 3,
+     "book": "I.C Engine Analysis & Practice by E.F Obert."
+    },
+    {
+     "no": 4,
+     "book": "Internal Combustion Engine Fundamentals, by John B. Heywood, Tata Mcgraw Hill Publishers."
+    },
+    {
+     "no": 5,
+     "book": "Engine Emission, by B. B. Pundir, Narosa Publication."
+    },
+    {
+     "no": 6,
+     "book": "Engineering Fundamentals of Internal Combustion Engines by W.W. Pulkrabek, Pearson Education."
+    },
+    {
+     "no": 7,
+     "book": "Fundamentals of Internal Combustion Engine by Gill, Smith, Ziurs, Oxford & IBH Publishing CO"
+    },
+    {
+     "no": 8,
+     "book": "Fundamentals of Internal Combustion Engines by H.N. Gupta, Prentice Hall of India."
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – V: Departmental Elective – I' and 'Specialization – Thermal Engineering'.",
+    "Page-4 elective pool table places BME 052 under Specialization 'Thermal Engineering' for Departmental Elective‐I (consistent).",
+    "Reference book 1 prints 'A Course in International Combustion Engines' (apparent print typo for 'Internal'), kept verbatim; 'Mathur& Sharma, DhanpatRai& Sons' spacing as printed.",
+    "Unit headers mix hyphen styles: 'Unit‐1 (9-Hours)', 'Unit–2 (7- Hours)', 'Unit–3 (8- Hours)', 'Unit‐4 (9-Hours)', 'Unit‐5 (9- Hours)' (as printed).",
+    "Unit-5 body spans pp.16-17 (page break after 'Engine friction,')."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Finite Element Methods",
+   "name_print": "Finite Element Methods",
+   "codes": [
+    "BME053"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit 1(8-Hours)\nIntroduction, exact solution vs approximate solution, principle of FEM, application of FEM, general procedure for finite element analysis, pre‐processing, solution, post processing, Stresses and Equilibrium; Boundary Conditions.",
+    "2": "Unit 2(8-Hours)\nStrain‐Displacement Relations, Stress–strain relations, Effect of temperature, various approximate methods: weighted residual method, variational or Rayleigh Ritz method, Galerkin's method, principle of minimum potential energy.",
+    "3": "Unit 3(8-Hours)\nBasic element shapes, generalized co‐ordinates, polynomials, natural co‐ordinates in one‐two‐and three‐dimensions, Lagrange and Hermite polynomials, Application of Finite Element Methods to elasticity problems and heat conduction Problems.",
+    "4": "Unit 4(8-Hours)\nOne dimensional problem of finite element model, Coordinates and Shape function, Potential‐energy approach, Galerkine approach, Assembly of Global Stiffness Matrix and Load Vector. Plane trusses: Global and local coordinate system and stress calculation. Beams and Frames: finite element formulation and calculation of Shear Force and Bending Moment.",
+    "5": "Unit 5(8-Hours)\nTwo‐dimensional problem using Constant Strain Triangles and Four‐node Quadrilateral, Problem modelling and Boundary conditions. Practical consideration in finite element applications, problem solving on a general purpose FEM software package like ANSYS, ABAQUS, NISA etc."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basic concepts of FEM and its applications.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply the procedure involved to solve a problem using Finite Element Methods.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Develop the element stiffness matrices using different approach.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze 1D and 2D problem using different methods.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Analyze the complex geometric problems through FEM software packages.",
+     "kl": "K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Chandrupatla, T. R. and Belegundu, A. K., Introduction to Finite Elements in Engineering, Pearson Education, India (2001)."
+    },
+    {
+     "no": 2,
+     "book": "Rao, S. S., Finite element method in engineering, 5th Edition, Pergaman Int. Library of Science, 2010."
+    },
+    {
+     "no": 3,
+     "book": "Huebner, K. H., The Finite Element Method for Engineers, John Wiley, New York (2001)."
+    },
+    {
+     "no": 4,
+     "book": "Logan, D. L., A first course in the finite element method,6th Edition, Cengage Learning, 2016."
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – V: Departmental Elective – I' and 'Specialization – Design Engineering'.",
+    "Page-4 elective pool table places BME 053 under Specialization 'Design Engineering' for Departmental Elective‐I (consistent).",
+    "Unit headers printed without hyphen/space: 'Unit 1(8-Hours)' style (as printed).",
+    "Textbook 2 prints 'Pergaman' (typo, kept verbatim); textbook 4 prints 'method,6th Edition' without space (as printed).",
+    "CO lead-in printed 'Course Outcome: Student will be able to'."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Ergonomics & Workplace Design",
+   "name_print": "Ergonomics & Workplace Design",
+   "codes": [
+    "BPI051"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit 1: Introduction (7-Hours)\nIntroduction to Ergonomics / Human Factors - overview and background; Design communication and ergonomics; Human-Machine system: Standard format for describing human-machine system, User friendly man machine environment system; Inter disciplinary nature of ergonomics; Modern ergonomics human performance – information processing – factors affecting human performance – physical workload and energy expenditure.",
+    "2": "Unit 2: Human Physiology and Cognitive (8-Hours)\nPhysiological Principles: Sources of Energy, Nervous control of movements, structure of nervous system, Types of nervous system, Neurons, Action potential; Sodium potassium pump, innervations of muscles, Reflex-arc; Dynamics and static muscular work; Physiological (allowable limits and safety factors) and psycho sociological (behavior, cognitive issues, information processing and perception); Work-related Musculoskeletal Disorder, definition and Types of WMSDs, Factors affecting WMSDs; Cognitive processing such as perception, attention, learning, memory, and decision-making, information processing mental workload",
+    "3": "Unit 3: Anthropometry and Workplace Design (8-Hours)\nIntroduction to Anthropometry and its application in design of system; Capabilities and limitations of people - physical (body structure, growth, anthropometry, biomechanics, and movement); Occupational hazards and safety, and environment factors affecting performance. Evaluation of facilities, environment, jobs and tasks, training methods and equipment, and user capabilities; Potential reduction of fatigue, errors, discomforts and unsafe acts; Ergonomics design principles and criteria, and checklist for ease and efficiency including Human-Computer-Interaction (HCI).",
+    "4": "Unit 4: Workplace Design (8-Hours)\nManufacturing work-station design; determining work-station design parameters, Systematic approach for determining work-station design, determining work-station dimension. Tool evaluation and design: Principles of tool design (General principles, Anatomical concern, and Single handle); Attributes of common industrial hand tools, Attributes of common industrial power tools, Tool evaluation check list. Displays and controls, Ergonomic considerations in Visual Display Terminal (VDT) work station design and Office Design.",
+    "5": "Unit V: Effect of Acoustic and Environmental Factors (8-Hours)\nSound and related studies: Definition, evaluation of noise, combining decibels. Levels and Spectra: Sound power level, sound intensity level, numerical problems on sound its measurement, Illumination and its measurement.\nOccupational Human Vibration: Characteristics of vibration, wholebody and hand-arm vibration, Effect of vibration on comfort, health and performance.\nStudies related to the effect of Illumination, Heat and Indoor Air Quality on human performance of different types of tasks."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand ergonomics, design principles for user-friendly systems, and factors influencing human performance and physical workload.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the physiological principles, cognitive processing, mental workload, and factors influencing work-related musculoskeletal disorders.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply anthropometric principles to system design and understand human capabilities and limitations.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Evaluate occupational hazards & safety and job & environmental factors",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Apply ergonomics design principles to enhance performance, reduce fatigue, and improve human-computer interaction",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Design manufacturing workstations and tools.",
+     "kl": "K5"
+    },
+    {
+     "no": 7,
+     "text": "Evaluate and measure sound, illumination, and occupational human vibration, and understand their effects on comfort, health, and performance in various tasks",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "R. S. Bridger, Introduction to Ergonomics, McGraw-Hill, Inc., 1995."
+    },
+    {
+     "no": 2,
+     "book": "M. S. Sanders and E. J. McCormick, Human Factors in Engineering and Design, McGraw-Hill, Inc., 1993."
+    },
+    {
+     "no": 3,
+     "book": "C. D. Wicknes, S. E. Gordon and Y. Liu, An Introduction to Human Factors Engineering, Longman, NY, 1997."
+    },
+    {
+     "no": 4,
+     "book": "D. Chakrabarti, Indian Anthropometric Dimensions for ergonomic design practice, National Institute of Design, Ahmedabad, 1997"
+    },
+    {
+     "no": 5,
+     "book": "J. Dul and B. Weerdmeester, Ergonomics for beginners a quick reference guide, Taylor & Francis, 1993."
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – V: Departmental Elective – I' and 'Specialization – Industrial Management'.",
+    "Page-4 elective pool table places BPI 051 under Specialization 'Industrial Management' for Departmental Elective‐I (consistent).",
+    "Unit 5 header printed with Roman numeral: 'Unit V: Effect of Acoustic and Environmental Factors (8-Hours)' (as printed; Units 1-4 use Arabic numerals).",
+    "CO lead-in printed 'Course Outcomes: The students will be able to'; K levels printed 'K 2'/'K 3' with space.",
+    "Reference book 3 prints 'Wicknes' (apparent typo for Wickens), kept verbatim."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Mechatronic Systems",
+   "name_print": "Mechatronic Systems",
+   "codes": [
+    "BME054"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit-1 (8-Hours)\nMechatronics & Its Scope\nFundamentals of Industrial automation, Introduction to Mechatronic Systems, Evolution, Scope, Application Areas, Basic Elements and Control of Mechatronic systems, Advantages and disadvantages of Mechatronics, Industrial applications of Mechatronics, autotronics, bionics, and avionics and their applications\nControl System Concepts: Introduction to Control Systems, Elements of control system, Basic of open and closed loop control with example.",
+    "2": "Unit-2 (8-Hours)\nSensor & Transducer\nDefinition and classification of sensor and transducer, performance terminology, static and dynamic characteristics, Principle of working and application of Inductive Proximity, Capacitive Proximity, Photoelectric, Ultrasonic, Magnetic, Hall Effect, Tactile Sensor, load cell, LVDT and interfacing sensors in Mechatronic system.",
+    "3": "Unit-3 (8-Hours)\nActuation Systems\nFluid Based Actuation: Concept of Hydraulic and Pneumatic Actuation system, Oil and Air preparation Unit, Direction Control Valve, Pressure Control Valve, Single and doubly actuated systems, Actuators and Accumulators.\nElectrical Actuation Systems: Introduction to Switching devices, Concept of Electro Mechanical Actuation, Solenoids and Solenoid Operated Direction Control Valves, Principle of working of DC and 3 Phase Induction Motor, Stepper motors and Servo Motors with their merits and demerits.",
+    "4": "Unit-4 (8-Hours)\nIndustrial Controllers\nProgrammable Logic Controllers: Basic Structure, Types and Working Principle, Concept of Scan Cycle and Scan Time, IO's and its Types, Selection Criteria and Applications\nProgramming Techniques: Ladder diagram –Concept of Contacts and Coil, Latching/ Holding Circuit, Memory Bits, Timers and Counter.",
+    "5": "Unit-5 (8-Hours)\nMechatronics Applications:\nControl of conveyor motor, sorting and packaging Unit, pick and place robot, coin counter, operations of bottling plant, domestic washing machine, use of PLC for extending and retracting pneumatic pistons and their different combinations, automatic car park system, engine management system, other applications in manufacturing."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Identify key elements of mechatronic and its representation by block diagram.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the concept of sensors and use of interfacing systems.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concept and applications of different actuators",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Illustrate various applications of mechatronic systems.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Develop PLC ladder programming and implementation in real life problem.",
+     "kl": "K5"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Rolf Isennann, \" Mechatronics Systems\", Springer, 2005."
+    },
+    {
+     "no": 2,
+     "book": "W. Bolten, \"Mechatronics\", Pearson Education 2003."
+    },
+    {
+     "no": 3,
+     "book": "HMT Ltd, \"Mechatronics:, Tata McGraw Hill 1998."
+    },
+    {
+     "no": 4,
+     "book": "K. P. Ramachandran, G.K. Vijayaraghavan, M.S. Balasundaram, Mechatronics ‐ Integrated Mechanical Electronic Systems, Wiley."
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – V: Departmental Elective – II' and 'Specialization – Manufacturing & Automation'.",
+    "Page-4 elective pool table places BME 054 under Specialization 'Manufacturing & Automation' for Departmental Elective‐II (consistent).",
+    "Unit-5 body spans pp.21-22 (page break after 'operations of'); text continuous.",
+    "Textbook 1 prints 'Isennann' (apparent typo for Isermann), book 3 prints '\"Mechatronics:,' with unmatched quote (as printed, kept verbatim).",
+    "CO lead-in printed 'Student will be able to'."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Computational Fluid Dynamics",
+   "name_print": "Computational Fluid Dynamics",
+   "codes": [
+    "BME055"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit‐1 (12- Hours)\nIntroduction and Basic Concepts:\nIntroduction of CFD, Types of fluids and basic equations of flow, Mass Conservation, Newton's second law of motion, Fluid flow governing equations, Navier– stokes equation, Boundary layer equations, Expanded form of Navier-stokes equations, Conservation of energy principle, Special form of energy equation, Classification of second order partial differential equations, Initial and Boundary conditions, Governing equations in generalized coordinates, Review of essentials of fluid dynamics.",
+    "2": "Unit‐2 (10-Hours)\nDifferential Equations and Discretisation\nElementary Finite Difference Equations, Basic aspects of finite difference equations, errors and stability analysis, discretization, Taylor's series expansion, difference equation: explicit and implicit approach, Application to heat conduction and convection, problems on one dimension steady state and unsteady state conduction.",
+    "3": "Unit‐3 (06-Hours)\nGrid Transformation\nIntroduction, general transformation equations, matrices and Jacobean, transformed version of governing equation particularly suited for CFD, compressed grids, elliptic grid generation, adaptive grids",
+    "4": "Unit‐4 (08-Hours)\nIntroduction to finite element philosophy\nBasics of finite element method, stiffness matrix, Isoperimetric elements, Formulation of finite elements for flow and heat transfer problems.",
+    "5": "Unit-5 (07-Hours)\nIntroduction to finite volume philosophy: Integral approach, discretization and higher order schemes, Application to complex geometry."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the classification of PDEs, governing equations",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the basic principles of computational methods",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand Solution algorithms and various discretization schemes.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Solve engineering problems using CFD software",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Understand the classification of PDEs, governing equations",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Computational Fluid Dynamics the Basics with Applications, John D Anderson, Jr., McGraw Hill Book Company."
+    },
+    {
+     "no": 2,
+     "book": "An Introduction to Computational Fluid Dynamics: The Finite Volume Method, H K Versteeg, W Malalasekera, Pearson Education Ltd."
+    },
+    {
+     "no": 3,
+     "book": "Introduction to Computational Fluid Dynamics, Anil W Date, Cambridge University Press."
+    },
+    {
+     "no": 4,
+     "book": "Numerical Heat Transfer and Fluid Flow, Suhas V Patankar, Hemisphere Publishing Co."
+    },
+    {
+     "no": 5,
+     "book": "Computational Fluid Dynamics: A Practical Approach, Jiyuan Tu, Guan Heng Yeoh, Chaoqun Liu, Elsevier Principles of Computational Fluid dynamics, Pieter Wesseling, Springer International Edition"
+    },
+    {
+     "no": 6,
+     "book": "Fundamentals of Computational Fluid Dynamics, Tapan K. Sengupta, Universities Press. Introduction to Fluid Mechanics, Edward J Shaughnessy, Jr., Ira M Katz, Oxford University"
+    }
+   ],
+   "quirks": [
+    "NAME SWAP: page-4 elective pool table lists 'BME 055' with name 'Turbo Machines' under Departmental Elective‐II / Thermal Engineering, but the detailed page (p.23) prints 'BME 055 - Computational Fluid Dynamics' (Semester – V: Departmental Elective – II, Specialization – Thermal Engineering). Detailed page used as authoritative; p.4 row transcribed verbatim in non_subject_rows. Mirror inconsistency recorded on BME062.",
+    "CO5 text duplicates CO1 verbatim ('Understand the classification of PDEs, governing equations', K2) — as printed.",
+    "Reference books 5 and 6 each print two titles run together without separator (as printed).",
+    "Unit headers mix formats: 'Unit‐1 (12- Hours)', 'Unit‐2 (10-Hours)', 'Unit‐3 (06-Hours)', 'Unit‐4 (08-Hours)', 'Unit-5 (07-Hours)' (as printed).",
+    "Code-slot collision: the 2024-25 ME-Ind scheme prints BME055 on this subject, but BME055's published owner is turbo-machines (SAME session 2024-25, established by another 2024-25 y3 scheme printing BME055 = Turbo Machines) — same-session tie keeps the published owner (B27 RCS653 class); this print's CFD content lands on the name-exact computational-fluid-dynamics row and BME055 is recorded here as narrative for owner reconciliation."
+   ],
+   "flags": [
+    "BME055-vs-BME062 name swap between p.4 elective table and detailed pages — detailed pages used; no guessing"
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Mechanical Vibrations",
+   "name_print": "Mechanical Vibrations",
+   "codes": [
+    "BME056"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit-1 (10- Hours)\nIntroduction, Classification of Vibration Systems, Harmonic motion, Vector representation of harmonic motion, Natural frequency & response, Effects of vibration, superposition of simple harmonic motions, beats, Fourier analysis‐analytical method.\nSingle Degree Freedom System, Equation of motion, Newton's method, D'Alembert's principle, Energy method etc., Free vibration, Natural frequency, Equivalent systems, Displacement, Velocity and acceleration, Response to an initial disturbance, Torsional vibrations, Damped vibrations, Vibrations of systems with viscous damping, Logarithmic decrement, Energy dissipation in viscous damping.",
+    "2": "Unit –2 (8-Hours)\nSingle Degree Freedom: Forced Vibration Forced vibration, Harmonic excitation with viscous damping, steady state vibrations, Forced vibrations with rotating and reciprocating unbalance, Support excitation, Vibration isolation, Transmissibility, Vibration measuring instruments, Displacement, velocity, and acceleration measuring instruments",
+    "3": "Unit‐ 3 (8-Hours)\nTwo Degree Freedom systems Introduction, Principal modes, Double pendulum, Torsional system withdamping, Coupled system, Principle of vibration absorber, Undamped dynamic vibration absorbers,Torsional vibration absorber, Centrifugal pendulum absorbers, Vibration isolators and Dampers.",
+    "4": "Unit‐4 (10- Hours)\nMulti‐degree Freedom system: Exact Analysis, Undamped free and forced vibrations of multi‐degree freedom systems, influence coefficients, Reciprocal theorem, Torsional vibration of multi‐degree rotor system, Vibration of gear system, Principal coordinates, Continuous systems‐ Longitudinal vibrations of bars, Torsional vibrations of circular shafts.\nMulti Degree Freedom system: Numerical Analysis by Rayleigh's method, Dunkerley's, Holzer's and Stools methods, Rayleigh‐Ritz method.",
+    "5": "Unit‐ 5 (8-Hours)\nCritical speed of shafts, Whirling of uniform shaft, Shaft with one disc with and without damping, Multi‐disc shafts, Secondary critical speed.\nIndustrial case studies (any two) involving mechanical vibrations, their impact and performance analysis.\nIntroduction to the vibration analysis using MATLAB."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand fundamentals of mechanical vibrations along with their classification.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Differentiate among single, two and multiple degree of freedom (DOF) systems.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Analyze, predict and measure the performance of systems undergoing single, two and multiple DOF.",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Design systems with optimized vibration absorption capabilities.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Apply the fundamentals to the real life problems like whirling of shaft",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Solve complicated mathematical models using Numerical methods and software applications.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Mechanical Vibrations‐ V.P. Singh, Dhanpatrai & Co."
+    },
+    {
+     "no": 2,
+     "book": "Mechanical Vibrations‐ G. K. Grover, Jain Brothers, Roorkee."
+    },
+    {
+     "no": 3,
+     "book": "Mechanical Vibrations‐ Kelly"
+    },
+    {
+     "no": 4,
+     "book": "Mechanical Vibrations‐ Tse, Morse & Hinkle"
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – V: Departmental Elective – II' and 'Specialization – Design Engineering'.",
+    "Page-4 elective pool table places BME 056 under Specialization 'Design Engineering' for Departmental Elective‐II (consistent).",
+    "Printed software note recorded verbatim: 'Recommended software packages: 1. MATLAB 2. Any modelling and FEA tool like NX, Solid works etc.'",
+    "Books printed under combined header 'Books and References:' (recorded under reference_books).",
+    "Unit-3 prints 'Torsional system withdamping' and 'absorbers,Torsional' without spaces (as printed); Unit-4 prints 'Stools methods' (apparent typo for Stodola), kept verbatim.",
+    "Unit headers mix formats: 'Unit-1 (10- Hours)', 'Unit –2 (8-Hours)', 'Unit‐ 3 (8-Hours)', 'Unit‐4 (10- Hours)', 'Unit‐ 5 (8-Hours)' (as printed)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Facility Planning & Design",
+   "name_print": "Facility Planning & Design",
+   "codes": [
+    "BPI052"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit-1 (8-Hours)\nFactory Planning: Introduction, factors to be considered\nPlant Location and Site Selection: Objectives and importance of plant location and selection, Levels of plant location, rural, urban and suburban location of plants, factors influencing the plant location, optimum plant location, location theories.",
+    "2": "Unit-2 (8-Hours)\nPlant Layout: Introduction of production system, scope, objectives, importance, and types of plant layout, characteristics of a good plant layout, factors affecting plant layout, procedure of developing a plant layout, different graphical and computer based plant layout design techniques (e.g. ALDEP, CORELAP etc.), installation and evaluation of plant layout, optimum plant layout.",
+    "3": "Unit-3 (8-Hours)\nGroup Technology: Definition, objectives, planning, part families and machine cell formation, product flow analysis, Rank order clustering, evaluation of machine cells, types of GT layout, benefits of GT, implementation of GT.",
+    "4": "Unit-4 (8-Hours)\nLine Balancing: introduction to assembly workstations, assembly line, Definitions, heuristic and analytical methods of balancing the assembly and production line, single and mixed model line balancing, alternatives to line balancing.",
+    "5": "Unit-5 (8-Hours)\nMaterials Handling: Definition, scope, objectives, principles, importance, factors in materials handling problem, analysis of materials handling, types and selection of materials handling equipment's, aids and techniques in materials handling equipment selection. Planning of material flow, advantages of planned material flow, flow planning principles, flow patterns, analysis of material flow."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the group technology, Plant Layout, material handling systems, & their Constituents.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the various plant layout design algorithms and quantitative models.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply various graphical and computerized layout techniques & algorithms for plant layout development.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyze various types of plant layouts, and factors affecting facility location and its layout.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Able to suggest a material handling system for a plant under given constraints.",
+     "kl": "K4"
+    },
+    {
+     "no": 6,
+     "text": "Development of part families, machine cell formation for implementation of Group Technology and their balancing.",
+     "kl": "K4"
+    },
+    {
+     "no": 7,
+     "text": "Evaluate different plant layout alternatives within given constraints.",
+     "kl": "K5"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Francis, R.L., McGinnis, L.F., and White, J.A.,“Facility Layout and Location: An Analytical Approach”, Prentice Hall of India 2004"
+    },
+    {
+     "no": 2,
+     "book": "Meyers, F.E., and Stephens, M.P., “Manufacturing Facilities Design and Material Handling”, Prentice‐ Hall, Inc. 2000"
+    },
+    {
+     "no": 3,
+     "book": "Groover, M.P.,“Automation, Production Systems and Computer Integrated Manufacturing”,2nd 2001 Ed., Pearson Education Inc. Delhi"
+    },
+    {
+     "no": 4,
+     "book": "Sule, D.R.,“Manufacturing Facilities‐Location, Planning, and Design”, PWS Publishing Company 1984"
+    },
+    {
+     "no": 5,
+     "book": "Tompkins, J.A., White, J.A., Bozer,Y.A.,Frazelle, E.H.,Tanchoco, J.M., and Tervino,J.,“Facilities Planning”,2nd 1996 Ed., John Willey & Sons"
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – V: Departmental Elective – II' and 'Specialization – Industrial Management'.",
+    "Page-4 elective pool table places BPI 052 under Specialization 'Industrial Management' for Departmental Elective‐II (consistent).",
+    "Books printed under header 'Recommended Books:' (recorded under reference_books).",
+    "Book 3 prints '“Automation, Production Systems and Computer Integrated Manufacturing”,2nd 2001 Ed.' with comma placement as printed; book 5 prints 'Tervino' (apparent for Trevino) and 'John Willey & Sons' (as printed)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Refrigeration & Air Conditioning",
+   "name_print": "Refrigeration & Air Conditioning",
+   "codes": [
+    "BME601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PC",
+   "units": {
+    "1": "Unit‐1 (8- Hours)\nRefrigeration:\nIntroduction to refrigeration system, Methods of refrigeration, Unit of refrigeration, Refrigeration effect, Carnot refrigeration cycle, Refrigerator and Heat Pump, C.O.P.\nAir Refrigeration cycle:\nOpen and closed air refrigeration cycles, Reversed air Carnot cycle, Bell Coleman or Reversed Joule air refrigeration cycle, Need of Aircraft refrigeration, Classification of aircraft refrigeration system. Boot strap refrigeration, Regenerative, Reduced ambient, Dry air rated temperature (DART).",
+    "2": "Unit‐2 (8- Hours)\nVapour Compression System:\nReversed vapour Carnot cycle, limitation of Reversed vapour Carnot cycle, Simple vapour compression cycle, Analysis of vapour compression cycle, Use of T‐S and P‐H charts, Effect of change in suction and discharge pressures on C.O.P, Effect of sub cooling of condensate & superheating of refrigerant vapour on C.O.P of the cycle, Actual vapour compression refrigeration cycle,\nMultistage System:\nMultistage vapour compression system requirement, Different configuration of multi pressure system, Removal of flash gas, Inter-cooling, Multi evaporator system, Cascade system.",
+    "3": "Unit‐3 (8- Hours)\nVapour Absorption system;\nWorking Principal of vapour absorption refrigeration system, Comparison between absorption & compression systems, Elementary idea of refrigerant absorbent mixtures, Temperature – concentration diagram & Enthalpy – concentration diagram , Adiabatic mixing of two streams, Ammonia – Water vapour absorption system, Lithium‐ Bromide water vapour absorption system, Comparison, Three fluid system.\nRefrigerants:\nClassification of refrigerants, Nomenclature, Desirable properties of refrigerants, Common refrigerants, Secondary refrigerants, and Environment friendly refrigerants, Anti‐freeze solution, Phase changing materials, Ozone layer depletion and global warming considerations of refrigerants, Selection of refrigerants, Future Refrigerants like Hydrofluoro‐Olefines",
+    "4": "Unit‐4 (8- Hours)\nAir Conditioning:\nIntroduction to air conditioning, Psychrometric properties and their definitions, Psychrometric chart, Different Psychrometric processes, Air Washers, Cooling towers & humidifying efficiency, Thermal analysis of human body, Effective temperature and comfort chart, Cooling and heating load calculations, Selection of inside & outside design conditions, Heat transfer through walls & roofs, Infiltration & ventilation, Internal heat gain, Sensible heat factor ( SHF ), By pass factor, Grand Sensible heat factor (GSHF), Apparatus dew point (ADP). Window air Conditioner, Simple air conditioning system, Air conditioning system with ventilation.",
+    "5": "Unit‐5 (8- Hours)\nRefrigeration System Equipment:\nCompressors, Condensers, Expansion Devices and Evaporators, Elementary knowledge of transmission and distribution of air through ducts and fans,\nApplication:\nFood preservation, Transport refrigeration, Cold storage, Refrigerates Freezers, Ice plant, Water coolers, Comfort and Industrial air conditioning Refrigeration.\nOther systems:\nCryogenic liquefaction and refrigeration systems, Brief introduction of Thermo‐electric refrigeration system, Steam jet refrigeration system, Vortex tube refrigeration system, Magnetic refrigeration system."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics concepts of Refrigeration & Air‐Conditioning and its future prospects.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Explain the construction and working of various components in Refrigeration & Air‐Conditioning systems.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the different types of RAC systems with their respective applications.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Apply the basic laws to the thermodynamic analysis of different processes involved in Refrigeration and Air‐Conditioning.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the basic concepts to calculate the COP and other performance parameters for different RAC systems",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Analyze the effects of performance parameters on COP.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Refrigeration and Air conditioning by C.P Arora, McGraw‐Hill"
+    },
+    {
+     "no": 2,
+     "book": "Refrigeration and Air conditioning, by Manohar Prasad, New Age International (P) Ltd. Pub."
+    },
+    {
+     "no": 3,
+     "book": "Refrigeration and Air conditioning by R.C. Arora, PHI"
+    },
+    {
+     "no": 4,
+     "book": "Principles of Refrigeration by Roy J. Dossat. Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Refrigeration and Air conditioning by Stoecker & Jones. McGraw‐Hill"
+    },
+    {
+     "no": 6,
+     "book": "Refrigeration and Air conditioning by Arora & Domkundwar. Dhanpat Rai"
+    },
+    {
+     "no": 7,
+     "book": "Thermal Environment Engineering. By Kuhen, Ramsey & Thelked"
+    }
+   ],
+   "quirks": [
+    "Unit-3 includes the 'Refrigerants:' paragraph printed at top of p.30 before Unit‐4 (Unit-3 body spans pp.29-30); kept inside Unit-3 as printed sequence.",
+    "Unit-3 sub-header printed 'Vapour Absorption system;' with semicolon (as printed); 'Working Principal' typo kept.",
+    "Reference book 7 prints 'Kuhen, Ramsey & Thelked' (as printed).",
+    "All unit headers print 'Unit‐N (8- Hours)' with space after hyphen (as printed)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "CAD/CAM",
+   "name_print": "CAD/CAM",
+   "codes": [
+    "BME602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PC",
+   "units": {
+    "1": "Unit‐1 (8-Hours)\nIntroduction:\nProduct cycle- Design process- sequential and concurrent engineering- Computer aided design – CAD system architecture- Computer graphics – co-ordinate systems- 2D and 3D transformations homogeneous coordinates – Line drawing -Clipping- viewing transformation-Brief introduction to CAD and CAM – Manufacturing Planning, Manufacturing control- Introduction to CAD/CAM –CAD/CAM concepts ––Types of production–Manufacturing models and Metrics– Mathematical models of Production Performance",
+    "2": "Unit‐2 (8-Hours)\nGeometric modeling:\nRepresentation of curves- Hermite curve- Bezier curve- B-spline curves-rational Curves-Techniques for surface modeling – surface patch-Coons and bi-cubic patches-Bezier and B-spline surfaces. Solid Modeling techniques-CSG and B-rep",
+    "3": "Unit‐3 (8-Hours)\nCad standards:\nStandards for computer graphics- Graphical Kernel System (GKS) – standards for exchange images- Open Graphics Library (OpenGL) – Data exchange standards–IGES, STEP, CALS etc.–communication Standards",
+    "4": "Unit‐4 (8-Hours)\n Fundamental of CNC and part programming.\nIntroduction to NC systems and CNC – Machine axis and Co-ordinate system- CNC machine tools- Principle of operation CNC- Construction features including structure-DrivesandCNCcontrollers-2D and 3D Machining on CNC-Introduction of Part Programming, types–Detailed Manual part programming on Lathe & Milling machines using G code sand M codes- Cutting Cycles, Loops, Sub program and Macros- Introduction of CAM package.",
+    "5": "Unit‐5 (8- Hours)\n Cellular manufacturing and flexible manufacturing system (FMS)\nGroup Technology (GT), Part Families–Parts Classification and coding–Simple Problems in Opitz Part Coding system–Production flow Analysis–Cellular Manufacturing–Composite part concept–Types of Flexibility–FMS–FMS Components – FMS Application & Benefits – FMS Planning and Control– Quantitative analysis in FM"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Able to explain the 2D and 3D transformations, clipping algorithm, Manufacturing models and Metrics.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Able to explain the fundamentals of geometric modeling, parametric curves, surfaces And Solids.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Summarize the different types of Standard systems used in CAD.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Able to apply NC & CNC programming concepts to develop part programme for Lathe & Milling Machines",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Understand the different types of techniques used in Cellular Manufacturing and FMS",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "V. Rajaraman. Computer Oriented Numerical Methods, PHI Learning, 4th Edition, 2019."
+    },
+    {
+     "no": 2,
+     "book": "E Zimmer M Groover. CAD/CAM Computer Aided Design and Manufacturing, Pearson, 2014."
+    },
+    {
+     "no": 3,
+     "book": "Na Vitalii Ivanov, Yiming Rong, Justyna Trojanowska, Joachim Venus. Advances in Design, Simulation and Manufacturing, Springer, 1st Edition, 2019."
+    },
+    {
+     "no": 4,
+     "book": "Tiago Franco, Beatriz Costa, Maria Grilo. Product Design Process, Imaginary Cloud Limited, 2019."
+    }
+   ],
+   "quirks": [
+    "Unit-4 prints 'structure-DrivesandCNCcontrollers-2D' run together and 'G code sand M codes' (as printed, kept verbatim).",
+    "Unit-5 prints 'Quantitative analysis in FM' (apparent truncation of FMS in print), kept verbatim.",
+    "Unit-1 prints '––Types' double dash (as printed).",
+    "Unit-5 header prints 'Unit‐5 (8- Hours)' while Units 1-4 print 'Unit‐N (8-Hours)' (as printed)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Theory of Machines",
+   "name_print": "Theory of Machines",
+   "codes": [
+    "BME603"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PC",
+   "units": {
+    "1": "Unit-1 (09-Hours)\nIntroduction, mechanisms and machines, kinematics and kinetics, types of links, kinematic pairs and their classification, types of constraint, degrees of freedom of planar mechanism, Grubler's equation, mechanisms, inversion of four bar chain, slider crank chain and double slider crank chain.\nVelocity analysis: Introduction, velocity of point in mechanism, relative velocity method, velocities in four bar mechanism, instantaneous center.\nAcceleration analysis: Introduction, acceleration of a point on a link, acceleration diagram, Corioli's component of acceleration, crank and slotted lever mechanism,.",
+    "2": "Unit-2 (10-Hours)\nCams: Introduction, classification of cams and followers, cam profiles for knife edge, roller and flat faced followers for uniform velocity, uniform acceleration\nGears and gear trains: Introduction, classification of gears, law of gearing, tooth forms and their comparisons, systems of gear teeth, length of path of contact, contact ratio, minimum number of teeth on gear and pinion to avoid interference, simple, compound, reverted and planetary gear trains, sun and planet gear train.",
+    "3": "Unit-3 (08-Hours)\nForce analysis: Static force analysis of mechanisms, D'Alembert's Principle, dynamics of rigid link in plane motion, dynamic force analysis of planar mechanisms, piston force and crank effort. Turning moment on crankshaft due to force on piston, Turning moment diagrams for single cylinder double acting steam engine, four stroke IC engine and multi‐cylinder engines, Fluctuation of speed, Flywheel.",
+    "4": "Unit-4 (09-Hours)\nBalancing: Introduction, static balance, dynamic balance, balancing of rotating masses, two plane balancing, graphical and analytical methods, balancing of reciprocating masses, balancing of single cylinder engine.\nGovernors: Introduction, types of governors, characteristics of centrifugal governors, gravity controlled and spring controlled centrifugal governors, hunting of centrifugal governors, inertia governors. Effort and Power of governor",
+    "5": "Unit-5 (09-Hours)\nBrakes and dynamometers: Introduction, Law of friction and types of lubrication, types of brakes, effect of braking on rear and front wheels of a four wheeler, dynamometers, belt transmission dynamometer, torsion dynamometer, hydraulic dynamometer\nGyroscope: Space motion of rigid bodies, angular momentum, gyroscopic couples, gyroscopic stabilization, ship stabilization, stability of four wheel and two wheel vehicles moving on curved paths."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the principles of kinematics and dynamics of machines.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Calculate the velocity and acceleration for 4‐bar and slider crank mechanism",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Develop cam profile for followers executing various types of motions",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of gear, gear train and flywheel for power transmission",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply dynamic force analysis for slider crank mechanism and balance rotating & reciprocating masses in machines.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Apply the concepts of gyroscope, governors in fluctuation of load and brake & dynamometer in power transmission",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Kinematics and dynamics of machinery: Wilson and Sadler, Third edition, Pearson."
+    },
+    {
+     "no": 2,
+     "book": "Theory of Mechanisms and Machines: Amitabh Ghosh and Ashok Kumar Mallik, Third Edition Affiliated East‐West Press."
+    },
+    {
+     "no": 3,
+     "book": "Theory of Machines and Mechanisms: Joseph Edward Shigley and John Joseph Uicker, Jr. Oxford University Press"
+    },
+    {
+     "no": 4,
+     "book": "Kinematics and dynamics of machinery: R L Norton, McGraw Hill"
+    },
+    {
+     "no": 5,
+     "book": "Theory of Machines: S.S. Rattan, McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "Theory of Machines: Thomas Bevan, CBS Publishers."
+    }
+   ],
+   "quirks": [
+    "Books printed under combined header 'Text / Reference Books' (recorded under reference_books).",
+    "Printed software note recorded verbatim: 'Suggested Software / Mech Analyzer'.",
+    "Unit-1 ends 'crank and slotted lever mechanism,.' with comma+period (as printed).",
+    "Unit-5 Gyroscope paragraph printed at top of p.34 (Unit-5 spans pp.33-34).",
+    "Unit headers print '(09-Hours)', '(10-Hours)', '(08-Hours)' two-digit hour style (as printed)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Refrigeration & Air Conditioning Lab",
+   "name_print": "Refrigeration & Air Conditioning Lab",
+   "codes": [
+    "BME651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 50,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 100
+   },
+   "subject_type": "PC",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Determine the performance of different refrigeration and air‐conditioning systems.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Apply the concept of psychrometry on different air cooling systems.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Interpret the use of different components, control systems and tools used in RAC systems",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Demonstrate the working of practical applications of RAC systems.",
+     "kl": "K2"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Experiment on refrigeration test rig and calculation of various performance parameters."
+    },
+    {
+     "no": 2,
+     "exp": "Experiment on air‐conditioning test rig & calculation of various performance parameters."
+    },
+    {
+     "no": 3,
+     "exp": "Study of Psychrometer and determination of humidity of air using Sling Psychrometer."
+    },
+    {
+     "no": 4,
+     "exp": "To study and perform experiment on vapour absorption apparatus."
+    },
+    {
+     "no": 5,
+     "exp": "To study the air washer and perform different psychometric processes on air washer."
+    },
+    {
+     "no": 6,
+     "exp": "Study of desert coolers and determine the change in temperature and humidity of ambient air."
+    },
+    {
+     "no": 7,
+     "exp": "Handling, use and familiarization with refrigeration tools and accessories such as: Tube cutter; Tube bender [spring type]; Flaring tool; Swaging tool; Pinch off etc."
+    },
+    {
+     "no": 8,
+     "exp": "Study of window air conditioner."
+    },
+    {
+     "no": 9,
+     "exp": "Study of Hermetically sealed compressor."
+    },
+    {
+     "no": 10,
+     "exp": "To study basic components and control devices of refrigeration and air‐conditioning system."
+    },
+    {
+     "no": 11,
+     "exp": "Experiment on Ice‐plantand calculation of various performance parameters."
+    },
+    {
+     "no": 12,
+     "exp": "Visit of a central air conditioning plant and its detailed study."
+    },
+    {
+     "no": 13,
+     "exp": "Visit of cold‐storage and its detailed study."
+    }
+   ],
+   "quirks": [
+    "Experiment preamble printed verbatim: 'Minimum eight experiments out of the following:'.",
+    "Experiment 11 prints 'Ice‐plantand' run together (as printed).",
+    "Lab-row marks print '50 50 50 100' under CT/TA/Total/TE-PE (see doc quirk on lab-row cell alignment).",
+    "No units/textbooks printed for this lab."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "CAD/CAM Lab",
+   "name_print": "CAD/ CAM Lab",
+   "codes": [
+    "BME652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 50,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 100
+   },
+   "subject_type": "PC",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Line Drawing or Circle Drawing experiment: Writing and validation of computer program."
+    },
+    {
+     "no": 2,
+     "exp": "Geometric Transformation algorithm experiment for translation/rotation/scaling: Writing and validation of computer program."
+    },
+    {
+     "no": 3,
+     "exp": "Design of machine component or other system experiment: Writing and validation of computer program."
+    },
+    {
+     "no": 4,
+     "exp": "Understanding and use of any 3-D Modeling Software commands."
+    },
+    {
+     "no": 5,
+     "exp": "Pro/E/Idea etc. Experiment: Solid modeling of a machine component"
+    },
+    {
+     "no": 6,
+     "exp": "Writing a small program for FEM for 2 spring system and validation of program or using a FEM Package"
+    },
+    {
+     "no": 7,
+     "exp": "Root findings or curve fitting experiment: Writing and validation of computer program."
+    },
+    {
+     "no": 8,
+     "exp": "Numerical differentiation or numerical integration experiment: Writing and validation of computer program."
+    }
+   ],
+   "quirks": [
+    "NO course outcomes (CO) table printed for this lab (only experiment lists) — cos omitted as printed-blank.",
+    "Preamble printed verbatim: 'Total Eight Experiments are to carried out. FOUR Experiments each from CAD and CAM.' ('are to carried out' as printed).",
+    "Printed in two labelled parts: 'A. CAD Experiments' (items 1-8 above) and 'B. CAM Experiments' (items numbered 1-9 in print): (1) 'To study the characteristic features of CNC machine' (2) 'Part Programming (in word address format) experiment for turning operation (including operations such as grooving and threading) and running on CNC machine' (3) 'Part Programming (in word address format or ATP) experiment for drilling operation (point to point) and running on CNC machine' (4) 'Part Programming (in word address format or ATP) experiment for milling operation (contouring) and running on CNC machine' (5) 'Experiment on Robot and programs' (6) 'Experiment on Transfer line/Material handling' (7) 'Experiment on difference between ordinary and NC machine, study or retrofitting' (8) 'Experiment on study of system devices such as motors and feed back devices' (9) 'Experiment on Mecatronics and controls' ('Mecatronics' as printed).",
+    "Scheme row prints 'BME 652 CAD/ CAM Lab' (space as printed); detailed page prints 'BME 652 - CAD/CAM Lab'.",
+    "Lab-row marks print '50 50 50 100' under CT/TA/Total/TE-PE (see doc quirk on lab-row cell alignment).",
+    "No units/textbooks printed for this lab."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Theory of Machines Lab",
+   "name_print": "Theory of Machines Lab",
+   "codes": [
+    "BME653"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 50,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 100
+   },
+   "subject_type": "PC",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Demonstrate various mechanisms, their inversions and brake and clutches in automobiles",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply cam‐follower mechanism to get desired motion of follower.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concepts of gears and gear train to get desired velocity ratio for power transmission.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of governors to control the fuel supply in engine.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Determine the balancing load in static and dynamic balancing problem",
+     "kl": "K3"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To study various types of kinematics links, pairs, chains & Mechanisms"
+    },
+    {
+     "no": 2,
+     "exp": "To study Whitworth Quick Return Motion Mechanisms, Reciprocating Engine Mechanism, and Oscillating Engine Mechanism"
+    },
+    {
+     "no": 3,
+     "exp": "To study of inversions of four bar linkage"
+    },
+    {
+     "no": 4,
+     "exp": "To study of inversions of single/double slider crank mechanisms"
+    },
+    {
+     "no": 5,
+     "exp": "To study various types of gear (Helical, cross helical, worm, bevel gear) and gear profile (involute and cycloidal) and condition for interference Helical, cross helical, worm, bevel gear"
+    },
+    {
+     "no": 6,
+     "exp": "To compute the output velocity invarious gear trains"
+    },
+    {
+     "no": 7,
+     "exp": "To study gyroscopic effects through models"
+    },
+    {
+     "no": 8,
+     "exp": "To determine gyroscopic couple on Motorized Gyroscope"
+    },
+    {
+     "no": 9,
+     "exp": "To perform experiment on dead weight type governor to prepare performance characteristic Curves, and to find stability & sensitivity"
+    },
+    {
+     "no": 10,
+     "exp": "To perform experiment on spring controlled governor to prepare performance characteristic Curves, and to find stability & sensitivity"
+    },
+    {
+     "no": 11,
+     "exp": "To determine whirling speed of shaft theoretically and experimentally"
+    },
+    {
+     "no": 12,
+     "exp": "To perform the experiment for static / dynamic balancing"
+    },
+    {
+     "no": 13,
+     "exp": "To perform experiment on brake"
+    },
+    {
+     "no": 14,
+     "exp": "To perform experiment on clutch"
+    },
+    {
+     "no": 15,
+     "exp": "To perform the experiment for static / dynamic balancing."
+    },
+    {
+     "no": 16,
+     "exp": "To perform experiment on longitudinal vibration"
+    },
+    {
+     "no": 17,
+     "exp": "To perform experiment on transverse vibration"
+    }
+   ],
+   "quirks": [
+    "Preamble printed verbatim: 'List of Experiments / (Minimum eight experiments out of the following) / NOTE: Student has to write computer program in C / C++ / Python and to run to compute the output values for at least ONE experiments.'",
+    "Experiments 12 and 15 both print 'To perform the experiment for static / dynamic balancing' (duplicate in print, kept verbatim).",
+    "Experiment 6 prints 'invarious' run together (as printed).",
+    "Lab-row marks print '50 50 50 100' under CT/TA/Total/TE-PE (see doc quirk on lab-row cell alignment).",
+    "No units/textbooks printed for this lab."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Industrial Robotics",
+   "name_print": "Industrial Robotics",
+   "codes": [
+    "BME061"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit-1 (8-Hours)\nIntroduction to robotics: Brief History, Basic Concepts of Robotics such as Definition, Three laws, Elements of Robotic Systems i.e. Robot anatomy, DOF, Misunderstood devices etc., Classification of Robotic systems on the basis of various parameters such as work volume, type of drive, etc., Associated parameters i.e. resolution, accuracy, repeatability, dexterity, compliance, RCC device etc., Introduction to Principles & Strategies of Automation, Types & Levels of Automations, Need of automation, Industrial applications of robot.",
+    "2": "Unit-2 (8-Hours)\nGrippers and Sensors for Robotics: Grippers for Robotics - Types of Grippers, Guidelines for design for robotic gripper, Force analysis for various basic gripper system. Sensors for Robots - Types of Sensors used in Robotics, Classification and applications of sensors, Characteristics of sensing devices, Selections of sensors. Need for sensors and vision system in the working and control of a robot.",
+    "3": "Unit-3 (8-Hours)\nDrives and Control for Robotics: Drive - Types of Drives, Types of transmission systems, Actuators and its selection while designing a robot system. Control Systems: Types of Controllers, Introduction to closed loop control.",
+    "4": "Unit-4 (8-Hours)\nProgramming and Languages for Robotics: Robot Programming: Methods of robot programming, WAIT, SIGNAL and DELAY commands, subroutines, Programming Languages: Generations of Robotic Languages, Introduction to various types such as VAL, RAIL, AML, Python, ROS etc., Development of languages since WAVE till ROS.",
+    "5": "Unit-5 (8-Hours)\nRelated Topics in Robotics: Socio-Economic aspect of robotisation. Economical aspects for robot design, Safety for robot and standards, Introduction to Artificial Intelligence, AI techniques, Need and application of AI, mobile robotics, New trends & recent updates in robotics. Mobile Robot locomotion: Types of locomotion, hopping robots, legged robots, wheel edrobots, stability, manoeuvr ability, controllability"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain robot anatomy, classification, and applications of robots",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the various sensors, grippers and its selection in robotics",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Obtain basic idea on working principle of various drives, actuators and control concepts",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Program different robot operations and appreciate applications of robots in industry.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Understand the safety and basics of Artificial Intelligence for recent updates in robotics",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "S. K. Saha, Introduction to Robotics 2e,TATA McGraw Hills Education(2014)"
+    },
+    {
+     "no": 2,
+     "book": "Asitava Ghoshal, Robotics: Fundamental concepts and analysis, Oxford University Press (2006)"
+    },
+    {
+     "no": 3,
+     "book": "Dilip Kumar Pratihar, Fundamentals of Robotics, Narosa Publishing House,(2019)"
+    },
+    {
+     "no": 4,
+     "book": "R.K. Mittal, I. J. Nagrath, Robotics and Control, TATA McGraw Hill Publishing Co Ltd, New Delhi (2003)"
+    },
+    {
+     "no": 5,
+     "book": "S. B. Niku, Introduction to Robotics –Analysis, Contro, Applications, 3rd edition, John Wiley & Sons Ltd., (2020)"
+    },
+    {
+     "no": 6,
+     "book": "R. Siegwart, I. R. Nourbakhsh, “Introduction to Autonomous Mobile Robots”, The MIT Press, 2011"
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – VI: Departmental Elective – III' and 'Specialization – Manufacturing and Automation'.",
+    "Page-4 elective pool table places BME 061 under Specialization 'Manufacturing & Automation' for Departmental Elective‐III (consistent).",
+    "Books printed under combined header 'Text Books/References:' (recorded under reference_books).",
+    "Unit-5 prints 'wheel edrobots' and 'manoeuvr ability' (as printed, kept verbatim).",
+    "Reference book 5 prints 'Contro' (apparent typo for Control), kept verbatim."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Turbo Machines",
+   "name_print": "Turbo Machines",
+   "codes": [
+    "BME062"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit-1 (08-Hours)\nIntroduction:\nDefinition of turbo machine, parts of turbo machines, Comparison with positive displacement machines, Classification, Dimensionless parameters and their significance, Unit and specific quantities, model studies and its numerical.\nThermodynamics of fluid flow:\nApplication of first and second law of thermodynamics to turbo machines, Efficiencies of turbo machines, Static and Stagnation states, overall isentropic efficiency, stage efficiency (their comparison) and polytropic efficiency for both compression and expansion processes. Reheat factor for expansion process. Simple Numerical on stage efficiency and polytropic efficiency.",
+    "2": "Unit-2 (07-Hours)\nEnergy exchange in Turbo machines:\nEuler's turbine equation, Alternate form of Euler's turbine equation, Velocity triangles for different values of degree of reaction, Components of energy transfer, Degree of Reaction, utilization factor, Relation between degree of reaction and Utilization factor, Problems.\nGeneral Analysis of Turbo machines:\nRadial flow compressors and pumps – general analysis, Expression for degree of reaction, velocity triangles, Effect of blade discharge angle on energy transfer and degree of reaction, Effect of blade discharge angle on performance, General analysis of axial flow pumps and compressors, degree of reaction, velocity triangles, Numerical Problems.",
+    "3": "Unit-3 (10-Hours)\nSteam Turbines:\nClassification, Single stage impulse turbine, condition for maximum blade efficiency, stage efficiency, Need and methods of compounding, Multi-stage impulse turbine, expression for maximum utilization factor, Numerical Problems.\nReaction turbine:\nParsons's turbine, condition for maximum utilization factor, reaction staging. Numerical Problems",
+    "4": "Unit-4 (9-Hours)\nHydraulic Turbines:\nClassification, various efficiencies, Principle of working, velocity triangles, design parameters, maximum efficiency, Theory and types of Draft tubes. and numerical problems",
+    "5": "Unit-5 (09-Hours)\nCentrifugal Pumps:\nClassification and parts of centrifugal pump, different heads and efficiencies of centrifugal pump, Theoretical head – capacity relationship, Minimum speed for starting the flow, Maximum suction lift, Net positive suction head, Cavitation, Need for priming, Pumps in series and parallel. Problems.\nCentrifugal Compressors:\nStage velocity triangles, slip factor, power input factor, Stage work, Pressure developed, stage efficiency and surging and problems."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Model studies and thermodynamics analysis of turbo-machines.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Analyse the energy transfer in Turbo machine with degree of reaction and utilisation factor.",
+     "kl": "K4"
+    },
+    {
+     "no": 3,
+     "text": "Classify, analyse and understand various type of steam turbine.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Classify, analyse and understand various type of hydraulic turbine.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the concept of radial power absorbing machine and the problems involved during its operation.",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Gas turbine theory: Cohen & Rogers, Addison Weslay Longman Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Turbine, Compressors and Fans, S. M. Yahya,Tata McGraw Hill."
+    },
+    {
+     "no": 3,
+     "book": "Gas Turbine-Ganeshan, Tata McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Thermal Turbomachines, by Singh, Wiley."
+    },
+    {
+     "no": 5,
+     "book": "Turbo Machine by SL Dixon."
+    },
+    {
+     "no": 6,
+     "book": "Turbines, Compressors & Fans by Yahya."
+    },
+    {
+     "no": 7,
+     "book": "Fundamentals of Turbomachinery by Venkanna, PHI, India."
+    }
+   ],
+   "quirks": [
+    "NAME SWAP (mirror of BME055): page-4 elective pool table lists 'BME 062' with name 'Computational Fluid Dynamics' under Departmental Elective‐III, but the detailed page (p.40) prints 'BME 062 – Turbo Machines' (Semester – VI: Departmental Elective – III, Specialization – Thermal Engineering). Detailed page used as authoritative; p.4 row transcribed verbatim in non_subject_rows.",
+    "Unit-3 body spans pp.40-41 (page break after 'Numerical Problems' of Reaction turbine; Unit-4 header on p.41).",
+    "Reference books 2 and 6 are duplicate Yahya titles printed as separate items (as printed).",
+    "Reference book 1 prints 'Addison Weslay' (typo, kept verbatim).",
+    "Unit headers mix 'Unit-N (08-Hours)' and 'Unit-4 (9-Hours)' styles (as printed).",
+    "Code-slot collision: the 2024-25 ME-Ind scheme prints BME062 on this subject, but BME062's published owner is computational-fluid-dynamics (session 2025-26, NEWER — a 2025-26 scheme prints BME062 = CFD); an equal-or-older print never takes a code from its newer-session published owner (B21/B28R class); this print's Turbo Machines content corroborates the name-exact turbo-machines row and BME062 is recorded here as narrative for owner reconciliation."
+   ],
+   "flags": [
+    "BME055-vs-BME062 name swap between p.4 elective table and detailed pages — detailed pages used; no guessing"
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Tribology",
+   "name_print": "Tribology",
+   "codes": [
+    "BME063"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "Unit–1 (8-Hours)\nLubrication and Lubricants\nIntroduction to tribology, tribology in industry, basics modes of lubrication, oil viscosity, temperature and pressure dependence of viscosity, Viscosity index, viscosity measurement, properties of lubricants, temperature characteristics of lubricants, lubricant impurities and contaminants, mineral oils based lubricants, synthetic oils based lubricants, emulsions and aqueous lubricants, greases, and lubricant additives.",
+    "2": "Unit–2 (8-Hours)\nFriction and Wear\nFriction‐causes of friction, theories of dry friction; adhesion theory, abrasive theory, junction growth theory, laws of rolling friction, friction measurement, friction instabilities.\nWear‐ classification; abrasive wear, erosive wear, cavitation wear, adhesive wear, corrosive wear, oxidative wear, fatigue wear, factors affecting wear, measurement of wear, theories of wear, approaches to friction control and wear prevention.",
+    "3": "Unit–3 (8-Hours)\nLubrication of Bearings\nTheory of hydrodynamic lubrication, mechanism of pressure development in oil film, jet lubrication, mist lubrication, lubrication utilizing under race passage, concept of journal bearing, minimum oil film thickness, porous bearings, flat plate thrust bearing, tilting pad bearings, hydrostatic lubrication, squeeze film lubrication, elasto‐hydrodynamic lubrication, rolling element bearings, gas lubricated bearings, and hybrid bearings.",
+    "4": "Unit–4 (8-Hours)\nSolid Lubrication and Surface Treatment\nLubrication by solids, friction and wear characteristics of lamellar solids, reduction of friction by soft metallic films, deposition methods of solid lubricants, techniques for producing wear resistant coatings, characteristics of wear resistant coatings.",
+    "5": "Unit–5 (8-Hours)\nFriction, Lubrication and Wear in Kinematic pairs\nThe concept of friction angle, friction stability, friction in slideways, friction in screws with square threads, friction in screws with triangular threads, mechanism and operation of plate clutch, cone clutch, rim clutch, centrifugal clutch, and belt drives, tribo design aspects of labyrinth seals, analysis of line contact lubrication, analysis of point contact lubrication, cam follower system, traction in the contact zone, and hysteresis losses."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Identify and explain various frictions and wear mechanisms.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Select proper lubricants for different applications.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Select suitable lubrication methods in different bearings.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Study the surfaces coating techniques for reduction of wear.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Analyze the impact of friction in various kinematic pairs.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Engineering Tribology with Applications by Harish Hirani, Cambridge English (2017)"
+    },
+    {
+     "no": 2,
+     "book": "Applied Tribology (Bearing Design and Lubrication), by Michael M Khonsari, John Wiley & Sons (2001)."
+    },
+    {
+     "no": 3,
+     "book": "Principles of Tribology, by J Halling, The Macmillan Press Ltd, London, (1975)."
+    },
+    {
+     "no": 4,
+     "book": "Friction, Wear, Lubrication:A textbook in Tribology, by Ludema K C, CRC Press, (2010)."
+    },
+    {
+     "no": 5,
+     "book": "Fundamentals of Machine Elements, B.J. Hamrock, B.O. Jacobson & S.R. Schmid, McGraw‐Hill Inc., (1998)."
+    },
+    {
+     "no": 6,
+     "book": "Fundamentals of Mechanical Component Design, by K.S. Edwards & R.B. McKee, McGraw‐Hill Inc., (1991)."
+    },
+    {
+     "no": 7,
+     "book": "Mechanical Engineering Design by J.E. Shigley and C R Mischke, Tata McGraw‐Hill Publishing Company Limited, (2003)."
+    },
+    {
+     "no": 8,
+     "book": "Tribophysics, by N.P. Suh Prentice‐Hall, (1986)."
+    },
+    {
+     "no": 9,
+     "book": "Friction, Wear, Lubrication: A Textbook in Tribology, by Kenneth C Ludema, LayoAjayi, CRC Press (2019)."
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – VI: Departmental Elective – III' and 'Specialization – Design Engineering'.",
+    "Page-4 elective pool table places BME 063 under Specialization 'Design Engineering' for Departmental Elective‐III (consistent).",
+    "Unit-5 body spans pp.42-43 (page break after 'analysis of line contact').",
+    "Books printed under combined header 'Books and References:' (recorded under reference_books).",
+    "Unit headers print en-dash style 'Unit–1 (8-Hours)' (as printed).",
+    "Reference book 9 prints 'LayoAjayi' run together (as printed)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Decision Support & Intelligent System",
+   "name_print": "Decision Support & Intelligent System",
+   "codes": [
+    "BPI061"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "PE",
+   "units": {
+    "1": "UNIT‐1: (8-Hours)\nManagement Support Systems: An Overview: Managers and Decision‐Making; Managerial Decision‐ Making and Information Systems; Managers and Computer Support; Computerized Decision Support and the Supporting Technologies.\nA Framework for Decision Support; The Concept of Decision Support Systems; Group Support Systems; Enterprise Information Systems; Knowledge Management Systems; Expert Systems; Advanced IntelligentDecision Support Systems; Hybrid Support Systems.\nDecision‐Making Systems, Modelling, and Support: Decision‐Making: Introduction and Definitions; Systems; Models; Phases of the Decision‐Making Process.",
+    "2": "UNIT‐2: (8-Hours)\nDecision Support Systems: Different types of Managerial Decision Problems and the Role of a DSS in solving them, DSS Configurations; Characteristics and Capabilities of DSS; Components of DSS; theData Management Subsystem.\nModelling and Analysis: Modelling; Classification of Models, Purpose of Modelling, Solution Techniques: Optimization, Heuristics, and Simulation, Desirable features for Models in DSS, Models and Managers Static and Dynamic Models; Certainty, Uncertainty, and Risk; Influence Diagrams; MSS Modelling with Spreadsheets; Decision Analysis of a Few Alternatives.\nDecision Support System Development: Introduction to DSS Development; The Traditional System Development Life cycle; Alternative Development Methodologies.",
+    "3": "UNIT‐3: (8-Hours)\nKnowledge Management\nIntroduction to Knowledge Management; Organizational Learning and Transformation; Knowledge Management Initiatives; Approaches to Knowledge Management; Information Technology in KnowledgeManagement.\nKnowledge Management Systems Implementation; Roles of People in Knowledge Management; Ensuring Success of Knowledge Management.",
+    "4": "UNIT‐4: (8-Hours)\nArtificial Intelligence and Expert Systems: Representation in logic and schemas, semantic networks, production rules and frames, inference techniques – DSS applications.\nSocial networking: package choices‐ knowledge security, integrating with web ‐based and internal operational & support systems, change management, reward systems continuous improvement, Intellectual Property Rights.",
+    "5": "UNIT‐5: (8-Hours)\nAdvanced Intelligent Systems: Machine‐Learning Techniques; Case‐Based Reasoning; Basic Concept of Neural Computing; Learning in Artificial Neural Networks; Genetic Algorithms Fundamentals; DevelopingGenetic Algorithm Applications; Fuzzy Logic Fundamentals.\nIntelligent Systems over the Internet: Web‐Based Intelligent Systems; Intelligent Agents: An Overview; Characteristics of Agents; need of Intelligent Agents; Classification and Types of Agents; Internet‐Based Software Agents; DSS Agents and Multi‐Agents."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of decision support systems, computerized decision aids, expert systems and executive information systems.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the concept of hybrid support system for decision making",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand different components of DSS like Data warehousing, Data mining, modeling and analysis.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the basics of Artificial intelligence and expert systems.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Examine the uses of various mathematical models, heuristics and simulation as a subsystem of DSS.",
+     "kl": "K3"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Decision Support Systems and Intelligent Systems, Seventh Edition, Efraim Turban, Jay E. Aronson,Richard V. McCarthy, Prentice‐Hall of India, 2007."
+    },
+    {
+     "no": 2,
+     "book": "Decision Support Systems, A Knowledge‐Based Approach, Clyde W. Holsapple and Andrew B.Whinston."
+    },
+    {
+     "no": 3,
+     "book": "Business Intelligence and Analytics: Systems for Decision Support” by Ramesh Sharda andDursun Delen."
+    },
+    {
+     "no": 4,
+     "book": "Decision Support and Business Intelligence Systems” by Efraim Turban and Ramesh E Sharda."
+    },
+    {
+     "no": 5,
+     "book": "Decision Making and Knowledge Decision Support Systems” by Anna Maria Gil‐Lafuente and Constantin Zopounidis."
+    },
+    {
+     "no": 6,
+     "book": "Decision Support, Analytics, and Business Intelligence (Information Systems Collection)” by Daniel JPower."
+    },
+    {
+     "no": 7,
+     "book": "Fuzzy Sets, Decision Making, and Expert Systems (International Series in Management ScienceOperations Research)” by Hans‐Jürgen Zimmermann."
+    },
+    {
+     "no": 8,
+     "book": "Decision Support Systems for Business Intelligence by Vicki L. Sauter"
+    }
+   ],
+   "quirks": [
+    "Detailed-page header prints: 'Semester – VI: Departmental Elective – III' and 'Specialization – Industrial Management'.",
+    "Page-4 elective pool table places BPI 061 under Specialization 'Industrial Management' for Departmental Elective‐III (consistent). Note: pool table prints name 'Decision Support & Intelligent System' (detailed page same; pool table additionally prints 'Decision Support &  Intelligent System' with double space).",
+    "Unit headers print 'UNIT‐1: (8-Hours)' style (as printed).",
+    "Books printed under combined header 'Books and References:' (recorded under reference_books); items 3-7 print an unbalanced closing quote '”' after the title and run-together words ('andDursun', 'Daniel JPower', 'Management ScienceOperations', 'DevelopingGenetic', 'theData', 'KnowledgeManagement', 'Advanced IntelligentDecision') — as printed, kept verbatim.",
+    "Unit-3 body spans pp.44-45 (page break after 'Information Technology in KnowledgeManagement.')."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Innovation & Entrepreneurship",
+   "name_print": "Innovation & Entrepreneurship",
+   "codes": [
+    "BOE060"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "OE",
+   "units": {
+    "1": "Unit-1 (8-Hours)\nIntroduction to Innovation and Entrepreneurship:-\nDefinitions and key concepts, The importance of innovation in business, Case studies of successful entrepreneurs, Opportunity Identification and Idea Generation, Techniques for brainstorming and creativity, Market research and analysis, Evaluating and validating ideas.",
+    "2": "Unit-2 (8-Hours)\nBusiness Models and Value Propositions - Designing business models using tools like the Business Model Canvas, Understanding customer needs and value propositions, Competitive analysis",
+    "3": "Unit-3 (8-Hours)\nProduct Development and Prototyping:- From idea to prototype: steps and processes Agile development and iterative testing, Feedback loops and user testing\nBusiness Planning and Strategy, Writing a business plan, Strategic planning and setting objectives ,Legal and ethical considerations",
+    "4": "Unit-4 (8-Hours)\nFunding and Financial Management:- Sources of funding: bootstrapping, venture capital, angel investors, Financial planning and budgeting, Pitching to investors and negotiation skills, Marketing and Sales Strategies, Building a brand and creating a marketing plan, Digital marketing and social media strategies, Sales techniques and customer acquisition",
+    "5": "Unit-5 (8-Hours)\nScaling and Growth:-Strategies for scaling a business, Managing growth and operations, Expanding into new markets, Leadership and Team Building and managing a startup team, Leadership styles and their impact on a startup, Conflict resolution and team dynamics, Challenges and Risks in Entrepreneurship, Identifying and managing risks, Common challenges faced by entrepreneurs, Strategies for overcoming obstacles, Legal and Regulatory Issues- Intellectual property and patents, Business registration and compliance Contracts and agreements, Final Projects and Presentations"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the role of innovation in entrepreneurship & Identify entrepreneurial opportunities.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Develop business models and strategies for startups.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Create a business plan.",
+     "kl": "K5"
+    },
+    {
+     "no": 4,
+     "text": "Learn about funding options and financial management for startups.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Explore the challenges and risks of entrepreneurship",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Automotive Electricals by PL Kohli, McGraw Hill Publications."
+    },
+    {
+     "no": 2,
+     "book": "Robert Bosch “Automotive Hand Book”, SAE (8th Edition), 2011."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Tom Denton, “Automobile Electrical and Electronic Systems” 4th edition‐ Routledge ‐ 2012."
+    },
+    {
+     "no": 2,
+     "book": "Barry Hollembeak, “Automotive Electricity and Electronics”, Delmar Cengage Learning; 5th edition, 2011"
+    }
+   ],
+   "quirks": [
+    "BOOKS ANOMALY: the books printed under 'BOE 060- Innovation & Entrepreneurship' (p.47) are all AUTOMOTIVE titles ('Automotive Electricals', 'Automotive Hand Book', 'Automobile Electrical and Electronic Systems', 'Automotive Electricity and Electronics') — apparent print carry-over from another subject; transcribed verbatim per visible-print rule; flagged for owner review.",
+    "Detailed-page header prints: 'Semester – VI / Open Elective – I'.",
+    "Page-4 Open Electives‐I list prints 'BOE 060 Innovation & Entrepreneurship' with note 'Open for All Branches'.",
+    "Books split printed as 'Books:' (2 items → textbooks) and 'References:' (2 items → reference_books)."
+   ],
+   "flags": [
+    "BOE060 printed books are automotive titles (print carry-over anomaly) — transcribed verbatim, flagged needs_owner_review"
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Quality Control & Reliability",
+   "name_print": "Quality Control & Reliability",
+   "codes": [
+    "BOE061"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "OE",
+   "units": {
+    "1": "Unit-1 (8-Hours)\nIntroduction:\nConcept of Quality, Need, Factor influencing quality, Types of Quality, Quality Control, Cost of Quality Control, Quality Assurance, Benefits, Modern concept, Inspection and Quality Control, Quality Characteristics, Quality Circles",
+    "2": "Unit-2 (8-Hours)\nStatistical Concepts and Control Charts:\nReview of fundamental statistical concepts, Frequency distribution, Central tendency, measures of dispersion, Probability distributions, statistical Quality Control, Theory of Control charts, Control charts for variables and attributes (X, R, p, np and C chart), their advantages and disadvantages, Applications.",
+    "3": "Unit 3 (8-Hours)\nTotal Quality Management:\nIntroduction, Concept of Total quality, Quality Function Deployment tools for continuous quality improvement, The ISO 9000 family of standards, Six Sigma and other extensions of TQM",
+    "4": "Unit 4 (8-Hours)\nIntroduction to Reliability\nConcepts and definition of Reliability, Reliability engineering fundamentals; Failure data analysis; Failure rate; mortality curve; Concept of burn in period; Useful life and wear out phase of a system; Mean time to failure (MTTF); Mean time between failure, (MTBF) and mean time to repair (MTTR); Reliability in terms of Hazard rate and failure density, Conditional probability and multiplication rules",
+    "5": "Unit 5 (8-Hours)\nReliability Management\nReliability testing: Time acceleration factor, influence of acceleration factor in test planning, application to acceleration test, high temperature operating life acceleration model, temperature humidity bias acceleration model, temperature cycle acceleration model, vibration accelerator model, failure free accelerated test planning. Accelerated reliability growth."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of Quality",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand basic statistical concepts, decision preparatory of the control charts and applications.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concepts of TQM",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the Reliability and its relationship with Availability and Maintainability",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the Reliability management",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Grant E L, “Statistical Quality Control “, McGraw-Hill."
+    },
+    {
+     "no": 2,
+     "book": "Shrinath L S, “Reliability Engineering” Affiliated East west press."
+    },
+    {
+     "no": 1,
+     "book": "Besterfield D H, “Quality Control”, Prentice Hall."
+    },
+    {
+     "no": 3,
+     "book": "Sharma S C, “Inspection Quality Control and Reliability”, Khanna Publishers."
+    },
+    {
+     "no": 4,
+     "book": "Prabhakar Murthy D N and Marvin R, “Product Reliability”, Springer-Verlag."
+    },
+    {
+     "no": 5,
+     "book": "Dana Crowe and Alec Feinberg, “Design for Reliability”, CRC Press."
+    },
+    {
+     "no": 6,
+     "book": "Reliability Engineering by E. Balagurusamy"
+    }
+   ],
+   "quirks": [
+    "Reference list numbering printed as 1, 2, 1, 3, 4, 5, 6 (Besterfield renumbered '1.' after Shrinath '2.' in print); reproduced verbatim in no fields.",
+    "Books printed under header 'List of Reference Books:' (recorded under reference_books).",
+    "Detailed-page header prints: 'Semester – VI / Open Elective – I'.",
+    "Page-4 Open Electives‐I list prints 'BOE 061 Quality Control & Reliability' with note 'Open for All Branches'.",
+    "Unit headers mix 'Unit-1/Unit-2' and 'Unit 3/Unit 4/Unit 5' styles (as printed)."
+   ],
+   "flags": [],
+   "program_year": 3
+  },
+  {
+   "name": "Mini Project/Internship Assessment",
+   "name_print": "Mini Project/Internship Assessment*",
+   "codes": [
+    "BME554"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 50,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 100
+   },
+   "subject_type": "P",
+   "quirks": [
+    "SCHEME-ROW-ONLY subject: no detailed syllabus page (units/COs/experiments) is printed for BME 554 in this document; captured from the Semester‐V scheme table (Sl. No. 9, p.2) to prevent a subject gap; full verbatim scheme row also recorded in non_subject_rows.",
+    "Name printed as 'BME 554 Mini Project/Internship Assessment*' — trailing '*' is the footnote marker for: '*The Mini Project or internship (4‐5 weeks) conducted during summer break after IV semester and will be assessed during V semester.'",
+    "Category cell printed blank for this row (Type = P only); subject_type recorded from printed Type.",
+    "Row prints four evaluation numbers '50 50 50 100' under CT/TA/Total/TE-PE (see doc quirk on lab-row cell alignment).",
+    "BME 554 Mini Project/Internship Assessment* — printed only as Sem-V evaluation-scheme row 9 (p.2: P 0-0-2, 50/50/50/100) with the p.2 footnote \"The Mini Project or internship (4‐5 weeks) conducted during summer break after IV semester and will be assessed during semester\"; no detailed syllabus section anywhere in the document (fulltext sweep); scheme-row-only per print design."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Constitution of India/ Essence of Indian Traditional Knowledge",
+   "name_print": "Constitution of India/ Essence of Indian Traditional Knowledge",
+   "codes": [
+    "BNC501",
+    "BNC502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": "NC",
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50
+   },
+   "subject_type": "VA/HS",
+   "quirks": [
+    "Printed as ONE slash-paired scheme row: code cell 'BNC501/ BNC502' over name cell 'Constitution of India/ Essence of Indian Traditional Knowledge' (Semester‐V row 10, p.2). Recorded as a single draft subject (no positional code↔name mapping invented, row not split); not detailed in this print (no units/COs/books); full verbatim row also in non_subject_rows.",
+    "Credits column prints 'NC' (non-credit) — recorded verbatim as credit='NC'.",
+    "Type 'T', Category 'VA/HS' as printed.",
+    "BNC501/502 Constitution of India/ Essence of Indian Traditional Knowledge — printed only as Sem-V evaluation-scheme row 10 (p.2: T VA/HS 2-0-0, 15/10/25/50, NC) with row 11 MOOCs note; no detailed syllabus section anywhere in the document (fulltext sweep); scheme-row-only per print design."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "program_year": 3
+  },
+  {
+   "name": "Constitution of India/ Essence of Indian Traditional Knowledge",
+   "name_print": "Constitution of India/ Essence of Indian Traditional Knowledge",
+   "codes": [
+    "BNC601",
+    "BNC602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": "NC",
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50
+   },
+   "subject_type": "VA/HS",
+   "quirks": [
+    "Printed as ONE slash-paired scheme row: code cell 'BNC601/ BNC602' over name cell 'Constitution of India/ Essence of Indian Traditional Knowledge' (Semester‐VI row 9, p.3). Recorded as a single draft subject (no positional code↔name mapping invented, row not split); not detailed in this print (no units/COs/books); full verbatim row also in non_subject_rows. Same printed name as the Semester‐V BNC501/502 row within the same course — kept as separate semester row as printed.",
+    "Credits column prints 'NC' (non-credit) — recorded verbatim as credit='NC'.",
+    "Type 'T', Category 'VA/HS' as printed.",
+    "BNC601/602 Constitution of India/ Essence of Indian Traditional Knowledge — printed only as Sem-VI evaluation-scheme row 9 (p.3: T VA/HS 2-0-0, 15/10/25/50, NC) with row 10 MOOCs note; no detailed syllabus section anywhere in the document (fulltext sweep); scheme-row-only per print design."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "program_year": 3
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_page",
+   "print": "DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY / UTTAR PRADESH, LUCKNOW / EVALUATION SCHEME / FOR / B.TECH. 3rd YEAR / MECHANICAL AND INDUSTRIAL ENGINEERING / [Effective from Session: 2024‐25]",
+   "locator": "p.1"
+  },
+  {
+   "kind": "evaluation_scheme_table",
+   "print": "B. Tech. / Mechanical and Industrial Engineering / Evaluation Scheme / SEMESTER‐V / Sl. No. | Code | Revised Subject | Type | Category | Period (L T P) | Evaluation Scheme (CT TA Total) | End Semester TE / PE | Total | Credits :: 1 BME 501 Heat & Mass Transfer T PC 3 1 0 20 10 30 70 100 4 :: 2 BME 502 Machine Design T PC 3 1 0 20 10 30 70 100 4 :: 3 BME 503 Industrial Engineering T PC 3 1 0 20 10 30 70 100 4 :: 4 Departmental Elective‐I T PE 3 0 0 20 10 30 70 100 3 :: 5 Departmental Elective‐II T PE 3 0 0 20 10 30 70 100 3 :: 6 BME 551 Heat Transfer Lab P PC 0 0 2 50 50 50 100 1 :: 7 BME 552 Machine Design Lab P PC 0 0 2 50 50 50 100 1 :: 8 BME 553 Internet of Things Lab P PC 0 0 2 50 50 50 100 1 :: 9 BME 554 Mini Project/Internship Assessment* P 0 0 2 50 50 50 100 1 :: 10 BNC501/ BNC502 Constitution of India/ Essence of Indian Traditional Knowledge T VA/HS 2 0 0 15 10 25 50 NC :: 11 MOOCs (Essential for Hons. Degree) :: Total 17 3 8 900 22",
+   "locator": "p.2"
+  },
+  {
+   "kind": "footnote",
+   "print": "*The Mini Project or internship (4‐5 weeks) conducted during summer break after IV semester and will be assessed during V semester.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "evaluation_scheme_table",
+   "print": "B. Tech. / Mechanical and Industrial Engineering / Evaluation Scheme / SEMESTER‐VI / Sl. No. | Code | Revised Subject | Type | Category | Period (L T P) | Evaluation Scheme (CT TA Total) | End Semester TE / PE | Total | Credits :: 1 BME 601 Refrigeration & Air Conditioning T PC 3 1 0 20 10 30 70 100 4 :: 2 BME 602 CAD/CAM T PC 3 1 0 20 10 30 70 100 4 :: 3 BME 603 Theory of Machines T PC 3 1 0 20 10 30 70 100 4 :: 4 Departmental Elective‐III T PE 3 0 0 20 10 30 70 100 3 :: 5 Open Elective‐I T OE 3 0 0 20 10 30 70 100 3 :: 6 BME 651 Refrigeration & Air Conditioning Lab P PC 0 0 2 50 50 50 100 1 :: 7 BME 652 CAD/ CAM Lab P PC 0 0 2 50 50 50 100 1 :: 8 BME 653 Theory of Machines Lab P PC 0 0 2 50 50 50 100 1 :: 9 BNC601/ BNC602 Constitution of India/ Essence of Indian Traditional Knowledge T VA/HS 2 0 0 15 10 25 50 NC :: 10 MOOCs (Essential for Hons. Degree) :: Total 17 3 6 800 21",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Departmental Electives / [table headers: Specialization‐1 Specialization‐2 Specialization‐3 Specialization‐4; column heads: Semester | Specialization | Manufacturing & Automation | Thermal Engineering | Design Engineering | Industrial Management] :: Semester V — Departmental Elective‐I: BME 051 Advance Manufacturing Processes | BME 052 I C Engine Fuel & Lubrication | BME 053 Finite Element Methods | BPI 051 Ergonomics & Workplace Design :: Semester V — Departmental Elective‐II: BME 054 Mechatronic Systems | BME 055 Turbo Machines | BME 056 Mechanical Vibrations | BPI 052 Facility Planning & Design :: Semester VI — Departmental Elective‐III: BME 061 Industrial Robotics | BME 062 Computational Fluid Dynamics | BME 063 Tribology | BPI 061 Decision Support & Intelligent System [NOTE: printed p.4 names for BME 055 and BME 062 are transcribed verbatim here; the detailed pages print BME 055 = Computational Fluid Dynamics and BME 062 = Turbo Machines — see quirks/flags]",
+   "locator": "p.4"
+  },
+  {
+   "kind": "elective_pool",
+   "print": "Open Electives-I :: BOE 060 Innovation & Entrepreneurship :: Open for All Branches :: BOE 061 Quality Control & Reliability",
+   "locator": "p.4"
+  },
+  {
+   "kind": "mooc_row",
+   "print": "MOOCs (Essential for Hons. Degree) — printed as scheme row 11 (Semester‐V, p.2) and row 10 (Semester‐VI, p.3) with no separate marks/credits printed.",
+   "locator": "p.2, p.3"
+  }
+ ],
+ "quirks": [
+  "COURSE/SCOPE: cover prints 'EVALUATION SCHEME FOR B.TECH. 3rd YEAR / MECHANICAL AND INDUSTRIAL ENGINEERING [Effective from Session: 2024‐25]'; running header prints 'Curriculum & Evaluation Scheme V & VI semester' — this is a BTech Mechanical & Industrial Engineering Semester V & VI print; canonical course recorded as BTech.",
+  "NAME SWAP: page-4 elective pool table prints BME 055 = 'Turbo Machines' and BME 062 = 'Computational Fluid Dynamics', while the detailed pages print BME 055 = 'Computational Fluid Dynamics' (p.23) and BME 062 = 'Turbo Machines' (p.40). Detailed pages used as authoritative for subject rows; p.4 rows transcribed verbatim in non_subject_rows.",
+  "LAB-ROW MARKS: lab/sessional rows (BME 551/552/553/554, BME 651/652/653) print four numbers '50 50 50 100' under columns CT/TA/Total/TE-PE with no separate overall-total cell linearized; Total (50) does not equal CT+TA (100). Likely a blank cell / cell misalignment in the source table; recorded positionally as sessional_ct=50, sessional_ta=50, sessional_total=50, ese_te_pe=100. Cross-check: semester totals (900 for V, 800 for VI) imply each lab row overall = 100. Page-image verification attempted but page images unavailable in sub-agent context; text layer otherwise clean.",
+  "BOE 060 books anomaly: books printed under 'BOE 060- Innovation & Entrepreneurship' (p.47) are all automotive titles (see subject quirks) — apparent print carry-over from another subject.",
+  "Print uses U+2010 hyphen ('2024‐25', 'Unit‐1', 'Stefan‐Boltzmann', 'McGraw‐Hill') mixed with ASCII hyphen; preserved verbatim.",
+  "Internal runs of spaces produced by PDF table/line layout were normalized to single spaces in transcribed strings (word content untouched); printed line breaks inside units preserved as newline markers.",
+  "University/running headers and footers ('MECHANICAL AND INDUSTRIAL ENGINEERING', 'Curriculum & Evaluation Scheme V & VI semester', 'Page N') ignored as page furniture per task method.",
+  "BME 554, BNC501/502 and BNC601/602 are scheme-row-only in this print (no detailed syllabus pages); captured as subject entries to prevent gaps AND transcribed verbatim in non_subject_rows.",
+  "SCHEME-ROW-ONLY subjects carry no units/COs — keys omitted (printed-blank), per zero-guessing policy."
+ ],
+ "flags": [
+  "BME055-vs-BME062 name swap between p.4 elective table and detailed pages — detailed pages used; no guessing",
+  "BOE060 printed books are automotive titles (print carry-over anomaly) — transcribed verbatim; needs owner review",
+  "lab-row CT/TA/Total cell alignment ('50 50 50 100') not fully resolvable in text layer; page images unavailable in sub-agent context; recorded positionally with cross-check quirk"
+ ]
+}
