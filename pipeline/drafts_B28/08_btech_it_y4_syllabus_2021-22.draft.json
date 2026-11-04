@@ -1,0 +1,1437 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2021-22/btech_it_y4_syllabus_2021-22.pdf",
+ "session": "2021-22",
+ "course": "BTech",
+ "sha16": "7901eb38c7e30d04",
+ "stem": "08_btech_it_y4_syllabus_2021-22",
+ "course_verification": "Cover (p.1, text layer column-scrambled) and p.2 print 'B.TECH IV YEAR (INFORMATION TECHNOLOGY /CSIT) CURRICULUM STRUCTURE', Semesters VII & VIII, session 2021-22, AS PER AICTE MODEL CURRICULUM -> canonical course BTech",
+ "subjects": [
+  {
+   "name": "Artificial Intelligence",
+   "name_print": "Artificial Intelligence (KCS071)",
+   "codes": [
+    "KCS071"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3‐0‐0 (printed with Unicode hyphen U+2010 on p.4); Semester-VII scheme row prints 3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION : Introduction–Definition – Future of Artificial Intelligence – Characteristics of Intelligent Agents–Typical Intelligent Agents – Problem Solving Approach to Typical AI problems.",
+    "2": "PROBLEM SOLVING METHODS: Problem solving Methods – Search Strategies- Uninformed – Informed – Heuristics – Local Search Algorithms and Optimization Problems – Searching with Partial Observations – Constraint Satisfaction Problems – Constraint Propagation – Backtracking Search – Game Playing – Optimal Decisions in Games – Alpha – Beta Pruning – Stochastic Games",
+    "3": "KNOWLEDGE REPRESENTATION: First Order Predicate Logic – Prolog Programming – Unification – Forward Chaining-Backward Chaining – Resolution – Knowledge Representation – Ontological Engineering-Categories and Objects – Events – Mental Events and Mental Objects – Reasoning Systems for Categories – Reasoning with Default Information",
+    "4": "SOFTWARE AGENTS: Architecture for Intelligent Agents – Agent communication – Negotiation and Bargaining – Argumentation among Agents – Trust and Reputation in Multi-agent systems.",
+    "5": "APPLICATIONS: AI applications – Language Models – Information Retrieval- Information Extraction – Natural Language Processing – Machine Translation – Speech Recognition – Robot – Hardware – Perception – Planning – Moving"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics of the theory and practice of Artificial Intelligence as a discipline and about intelligent agents.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand search techniques and gaming theory.",
+     "kl": "K2, K3"
+    },
+    {
+     "no": 3,
+     "text": "The student will learn to apply knowledge representation techniques and problem solving strategies to common AI applications.",
+     "kl": "K3 , K4"
+    },
+    {
+     "no": 4,
+     "text": "Student should be aware of techniques used for classification and clustering.",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 5,
+     "text": "Student should aware of basics of pattern recognition and steps required for it.",
+     "kl": "K2 , K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "S. Russell and P. Norvig, “Artificial Intelligence: A Modern Approach‖, Prentice Hall, Third Edition, 2009."
+    },
+    {
+     "no": 2,
+     "book": "I. Bratko,  “Prolog: Programming for Artificial Intelligence”, Fourth edition, Addison-Wesley Educational Publishers Inc., 2011."
+    },
+    {
+     "no": 3,
+     "book": "M. Tim Jones, ―Artificial Intelligence: A Systems Approach(Computer Science)‖, Jones and Bartlett Publishers, Inc.First Edition, 2008"
+    },
+    {
+     "no": 4,
+     "book": "Nils J. Nilsson, ―The Quest for Artificial Intelligence‖, Cambridge University Press, 2009."
+    },
+    {
+     "no": 5,
+     "book": "William F. Clocksin and Christopher S. Mellish,‖ Programming in Prolog: Using the ISO Standard‖, Fifth Edition, Springer, 2003."
+    },
+    {
+     "no": 6,
+     "book": "Gerhard Weiss, ―Multi Agent Systems‖, Second Edition, MIT Press, 2013."
+    },
+    {
+     "no": 7,
+     "book": "David L. Poole and Alan K. Mackworth, ―Artificial Intelligence: Foundations of Computational Agents‖, Cambridge University Press, 2010."
+    }
+   ],
+   "quirks": [
+    "CO-5 prints 'Student should aware of...' (verb 'be' missing) — verbatim.",
+    "Detailed-syllabus L-T-P cell prints '3‐0‐0' with Unicode hyphen characters (U+2010) unlike the ASCII '3-0-0' of other subjects (p.4).",
+    "Section heading above the subject prints 'SEVENT SEMESTER (DETAILED SYLLABUS)' (typo for SEVENTH), p.4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Natural Language Processing",
+   "name_print": "Natural Language Processing  (KC072)",
+   "codes": [
+    "KCS072",
+    "KC072"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION: Origins and challenges of NLP – Language Modeling: Grammar-based LM, Statistical LM – Regular Expressions, Finite-State Automata – English Morphology, Transducers for lexicon and rules, Tokenization, Detecting and Correcting Spelling Errors, Minimum Edit Distance WORD LEVEL ANALYSIS : Unsmoothed N-grams, Evaluating N-grams, Smoothing, Interpolation and Backoff – Word Classes, Part-of-Speech Tagging, Rule-based, Stochastic and Transformation-based tagging, Issues in PoS tagging – Hidden Markov and Maximum Entropy models.",
+    "2": "SYNTACTIC ANALYSIS: Context Free Grammars, Grammar rules for English, Treebanks, Normal Forms for grammar – Dependency Grammar – Syntactic Parsing, Ambiguity, Dynamic Programming parsing – Shallow parsing – Probabilistic CFG, Probabilistic CYK, Probabilistic Lexicalized CFGs – Feature structures, Unification of feature structures.",
+    "3": "SEMANTICS AND PRAGMATICS: Requirements for representation, First-Order Logic, Description Logics – Syntax-Driven Semantic analysis, Semantic attachments – Word Senses, Relations between Senses, Thematic Roles, selectional restrictions – Word Sense Disambiguation, WSD using Supervised, Dictionary & Thesaurus, Bootstrapping methods – Word Similarity using Thesaurus and Distributional methods.",
+    "4": "BASIC CONCEPTS of Speech Processing : Speech Fundamentals: Articulatory Phonetics – Production And Classification Of Speech Sounds; Acoustic Phonetics – Acoustics Of Speech Production; Review Of Digital Signal Processing Concepts; Short-Time Fourier Transform, Filter-Bank And LPC Methods.",
+    "5": "SPEECH-ANALYSIS: Features, Feature Extraction And Pattern Comparison Techniques: Speech Distortion Measures– Mathematical And Perceptual – Log–Spectral Distance, Cepstral Distances, Weighted Cepstral Distances And Filtering, Likelihood Distortions, Spectral Distortion Using A Warped Frequency Scale, LPC, PLP And MFCC Coefficients, Time Alignment And Normalization – Dynamic Time Warping, Multiple Time – Alignment Paths.  SPEECH MODELING : Hidden Markov Models: Markov Processes, HMMs – Evaluation, Optimal State Sequence – Viterbi Search, Baum-Welch Parameter Re-Estimation, Implementation Issues."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "To learn the fundamentals of natural language processing",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 2,
+     "text": "To understand the use of CFG and PCFG in NLP",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 3,
+     "text": "To understand the role of semantics of sentences and pragmatic",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "To Introduce Speech Production And Related Parameters Of Speech.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 5,
+     "text": "To Show The Computation And Use Of Techniques Such As Short Time Fourier Transform, Linear Predictive Coefficients And Other Coefficients In The Analysis Of Speech.",
+     "kl": "K3, K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Daniel Jurafsky, James H. Martin―Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics and Speech, Pearson Publication, 2014."
+    },
+    {
+     "no": 2,
+     "book": "Steven Bird, Ewan Klein and Edward Loper, ―Natural Language Processing with Python, First Edition, OReilly Media, 2009."
+    },
+    {
+     "no": 3,
+     "book": "Lawrence Rabiner And Biing-Hwang Juang, “Fundamentals Of Speech Recognition”, Pearson Education, 2003."
+    },
+    {
+     "no": 4,
+     "book": "Daniel Jurafsky And James H Martin, “Speech And Language Processing – An Introduction To Natural Language Processing, Computational Linguistics, And Speech Recognition”, Pearson Education, 2002."
+    },
+    {
+     "no": 5,
+     "book": "Frederick Jelinek, “Statistical Methods Of Speech Recognition”, MIT Press, 1997."
+    },
+    {
+     "no": 6,
+     "book": "Breck Baldwin, ―Language Processing with Java and LingPipe Cookbook, Atlantic Publisher, 2015"
+    },
+    {
+     "no": 7,
+     "book": "Richard M Reese, ―Natural Language Processing with Java, OReilly Media, 2015."
+    },
+    {
+     "no": 8,
+     "book": "Nitin Indurkhya and Fred J. Damerau, ―Handbook of Natural Language Processing, Second Edition, Chapman and Hall/CRC Press, 2010."
+    },
+    {
+     "no": 9,
+     "book": "Tanveer Siddiqui, U.S. Tiwary, ―Natural Language Processing and Information Retrieval, Oxford University Press, 2008."
+    }
+   ],
+   "quirks": [
+    "Subject heading on p.5 prints the code as 'KC072' (S missing); the Departmental Elective-IV pool list on p.3 prints 'KCS072' — both recorded in codes.",
+    "Unit V '08' lecture cell prints detached at the bottom of p.5 (text layer places it after the unit text block); lecture count 08 per unit verified."
+   ],
+   "flags": []
+  },
+  {
+   "name": "High Performance Computing",
+   "name_print": "High Performance Computing  (KCS073)",
+   "codes": [
+    "KCS073"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Overview of Grid Computing Technology, History of Grid Computing, High Performance Computing, Cluster Computing. Peer-to-Peer Computing, Internet Computing, Grid Computing Model and Protocols, Types of Grids: Desktop Grids, Cluster Grids, Data Grids, High-Performance Grids, Applications and Architectures of High Performance Grids, High Performance Application Development Environment.",
+    "2": "Open Grid Services Architecture: Introduction, Requirements, Capabilities, Security Considerations, GLOBUS Toolkit",
+    "3": "Overview of Cluster Computing: Cluster Computer and its Architecture, Clusters Classifications, Components for Clusters, Cluster Middleware and SSI, Resource Management and Scheduling, Programming, Environments and Tools, Cluster Applications, Cluster Systems, ",
+    "4": "Beowulf Cluster: The Beowulf Model, Application Domains, Beowulf System Architecture, Software Practices, Parallel Programming with MPL, Parallel Virtual Machine (PVM).",
+    "5": "Overview of Cloud Computing: Types of Cloud, Cyber infrastructure, Service Oriented Architecture Cloud Computing Components: Infrastructure, Storage, Platform, Application, Services, Clients, Cloud Computing Architecture."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Able to understand the basic concept of Computer architecture and Modern Processor",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Able to understand the basic concepts of access optimization and parallel computers",
+     "kl": "K2, K3"
+    },
+    {
+     "no": 3,
+     "text": "Able to describe different parallel processing platforms involved in achieving high performance computing",
+     "kl": "K3 , K4"
+    },
+    {
+     "no": 4,
+     "text": "Develop efficient and high performance parallel programming.",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 5,
+     "text": "Able to learn parallel programming using message passing paradigm.",
+     "kl": "K2 , K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Laurence T.Yang, Minyi Guo – High Performance Computing Paradigm and Infrastructure John Wiley"
+    },
+    {
+     "no": 2,
+     "book": "Ahmar Abbas, “Grid Computing: Practical Guide to Technology & Applications”, Firewall Media, 2004."
+    },
+    {
+     "no": 3,
+     "book": "Joshy Joseph and Craig Fellenstein , “Grid Computing” Pearson Education, 2004."
+    },
+    {
+     "no": 4,
+     "book": "lan Foster, et al.,“The Open Grid Services Architecture”, Version 1.5 (GFD.80). Open Grid Forum, 2006."
+    },
+    {
+     "no": 5,
+     "book": "RajkumarBuyya. High Performance Cluster Computing: Architectures and Systems. PrenticeHall India, 1999."
+    }
+   ],
+   "quirks": [
+    "Units print no topic headers (body text only), unlike most subjects in this document.",
+    "Unit 1 prints 'High-Performance' split across lines after 'High-' (hyphen line-break join); unit 3 ends with a trailing comma before the lecture cell — verbatim.",
+    "Text book 4 prints author as 'lan Foster' (typo, likely Ian) and book 5 prints 'RajkumarBuyya.' and 'PrenticeHall' unspaced — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Cryptography & Network Security",
+   "name_print": "Cryptography & Network Security  ( KCS074)",
+   "codes": [
+    "KCS074"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to security attacks, services and mechanism, Classical encryption techniques-substitution ciphers and transposition ciphers, cryptanalysis, steganography, Stream and block ciphers. Modern Block Ciphers: Block ciphers principles, Shannon’s theory of confusion and diffusion, fiestal structure, Data encryption standard(DES), Strength of DES, Idea of differential cryptanalysis, block cipher modes of operations, Triple DES",
+    "2": "Introduction to group, field, finite field of the form GF(p), modular arithmetic, prime and relative prime numbers, Extended Euclidean Algorithm, Advanced Encryption Standard (AES) encryption and decryptionFermat’s and Euler’s theorem, Primarily testing, Chinese Remainder theorem, Discrete Logarithmic Problem,Principals of public key crypto systems, RSA algorithm, security of RSA",
+    "3": "Message Authentication Codes: Authentication requirements, authentication functions, message authentication code, hash functions, birthday attacks, security of hash functions, Secure hash algorithm (SHA) Digital Signatures: Digital Signatures, Elgamal Digital Signature Techniques, Digital signature standards (DSS), proof of digital signature algorithm, ",
+    "4": "Key Management and distribution: Symmetric key distribution, Diffie-Hellman Key Exchange, Public key distribution, X.509 Certificates, Public key Infrastructure. Authentication Applications: Kerberos, Electronic mail security: pretty good privacy (PGP), S/MIME.",
+    "5": "IP Security: Architecture, Authentication header, Encapsulating security payloads, combining security associations, key management. Introduction to Secure Socket Layer, Secure electronic, transaction (SET) System Security: Introductory idea of Intrusion, Intrusion detection, Viruses and related threats, firewalls"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Classify the symmetric encryption techniques and Illustrate various Public key cryptographic techniques.",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 2,
+     "text": "Understand security protocols for protecting data on networks and be able to digitally sign emails and files.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand vulnerability assessments and the weakness of using passwords for authentication",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Be able to perform simple vulnerability assessments and password audits",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Summarize the intrusion detection and its solutions to overcome the attacks.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "William Stallings, “Cryptography and Network Security: Principals and Practice”, Pearson Education."
+    },
+    {
+     "no": 2,
+     "book": "Behrouz A. Frouzan: Cryptography and Network Security, McGraw Hill ."
+    },
+    {
+     "no": 3,
+     "book": "C K Shyamala, N Harini, Dr. T.R.Padmnabhan Cryptography and Security ,Wiley"
+    },
+    {
+     "no": 4,
+     "book": "Bruce Schiener, “Applied Cryptography”. John Wiley & Sons"
+    },
+    {
+     "no": 5,
+     "book": "Bernard Menezes,” Network Security and Cryptography”, Cengage Learning."
+    },
+    {
+     "no": 6,
+     "book": "AtulKahate, “Cryptography and Network Security”, McGraw Hill"
+    }
+   ],
+   "quirks": [
+    "Printed typos kept verbatim: 'fiestal structure' (unit 1), 'decryptionFermat’s' (unspaced, unit 2), 'Problem,Principals' (unspaced, unit 2), 'Primarily testing' (unit 2).",
+    "Unit 3 ends with a trailing comma before the lecture cell — verbatim.",
+    "Text books print 'Principals and Practice' (book 1), 'Frouzan' (book 2), 'T.R.Padmnabhan' (book 3), 'Bruce Schiener' (book 4), 'AtulKahate' unspaced (book 6) — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Design & Development Of Applications",
+   "name_print": "Design & Development Of Applications ( KCS075)",
+   "codes": [
+    "KCS075"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION: Introduction to mobile applications – Embedded systems - Market and business drivers for mobile applications – Publishing and delivery of mobile applications – Requirements gathering and validation for mobile applications",
+    "2": "BASIC DESIGN: Introduction – Basics of embedded systems design – Embedded OS - Design constraints for mobile applications, both hardware and software related – Architecting mobile applications – User interfaces for mobile applications – touch events and gestures – Achieving quality constraints – performance, usability, security, availability and modifiability",
+    "3": "ADVANCED DESIGN: Designing applications with multimedia and web access capabilities – Integration with GPS and social media networking applications – Accessing applications hosted in a cloud computing environment – Design patterns for mobile applications.",
+    "4": "TECHNOLOGY I – ANDROID: Introduction – Establishing the development environment – Android architecture – Activities and views – Interacting with UI – Persisting data using SQLite – Packaging and deployment – Interaction with server side applications – Using Google Maps, GPS and Wi-Fi – Integration with social media applications.",
+    "5": "TECHNOLOGY II –iOS: Introduction to Objective C – iOS features – UI implementation – Touch frameworks – Data persistence using Core Data and SQLite – Location aware applications using Core Location and Map Kit – Integrating calendar and address book with social media application – Using Wi-Fi - iPhone marketplace. Swift: Introduction to Swift, features of swift"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Be exposed to technology and business trends impacting mobile applications",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 2,
+     "text": "Be competent with the characterization and architecture of mobile applications.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Be competent with understanding enterprise scale requirements of mobile applications.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 4,
+     "text": "Be competent with designing and developing mobile applications using one application development framework.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Be exposed to Android and iOS platforms to develop the mobile applications",
+     "kl": "K1 , K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Charlie Collins, Michael Galpin and Matthias Kappler, “Android in Practice”, DreamTech, 2012"
+    },
+    {
+     "no": 2,
+     "book": "AnubhavPradhan , Anil V Despande Composing Mobile Apps,Learn ,explore,apply"
+    },
+    {
+     "no": 3,
+     "book": "James Dovey and Ash Furrow, “Beginning Objective C”, Apress, 2012"
+    },
+    {
+     "no": 4,
+     "book": "Jeff McWherter and Scott Gowell, \"Professional Mobile Application Development\", Wrox, 2012"
+    },
+    {
+     "no": 5,
+     "book": " David Mark, Jack Nutting, Jeff LaMarche and Frederic Olsson, “Beginning iOS 6. Development: Exploring the iOS SDK”, Apress, 2013."
+    }
+   ],
+   "quirks": [
+    "Text book 5 line-wrap places '6.' in the list-number column: printed as '...“Beginning iOS' end-of-line then '6. Development: Exploring the iOS SDK”, Apress, 2013.' — title is printed broken across the number column (p.9); transcribed in reading order.",
+    "Text book 2 prints 'AnubhavPradhan' unspaced and 'Composing Mobile Apps,Learn ,explore,apply' without quotes — verbatim.",
+    "Unit 5 header prints 'TECHNOLOGY II –iOS' (no space before iOS) — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Software Testing",
+   "name_print": "Software Testing (KCS076)",
+   "codes": [
+    "KCS076"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Review of Software Engineering: Overview of Software Evolution, SDLC, Testing Process, Terminologies in Testing: Error, Fault, Failure, Verification, Validation, Difference Between Verification and Validation, Test Cases, Testing Suite, Test ,Oracles, Impracticality of Testing All Data; Impracticality of Testing AllPaths. Verification: Verification Methods, SRS Verification, Source Code Reviews, User Documentation Verification, Software, Project Audit, Tailoring Software Quality Assurance Program by Reviews, Walkthrough, Inspection and Configuration Audits",
+    "2": "Functional Testing: Boundary Value Analysis, Equivalence Class Testing, Decision Table Based Testing, Cause Effect Graphing Technique. Structural Testing: Control Flow Testing, Path Testing, Independent Paths, Generation of Graph from Program, Identification of Independent Paths, Cyclomatic Complexity, Data Flow Testing, Mutation Testing",
+    "3": "Regression Testing: What is Regression Testing? Regression Test cases selection, Reducing the number of test cases, Code coverage prioritization technique. Reducing the number of test cases: Prioritization guidelines, Priority category, Scheme, Risk Analysis",
+    "4": "Software Testing Activities: Levels of Testing, Debugging, Testing techniques and their applicability, Exploratory Testing Automated Test Data Generation: Test Data, Approaches to test data generation, test data generation using genetic algorithm, Test Data Generation Tools, Software Testing Tools, and Software test Plan.",
+    "5": "Object Oriented Testing: Definition, Issues, Class Testing, Object Oriented Integration and System Testing. Testing Web Applications: Web Testing, User Interface Testing, Usability Testing, Security Testing, Performance Testing, Database testing, Post Deployment Testing"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Have an ability to apply software testing knowledge and engineering methods.",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 2,
+     "text": "Have an ability to design and conduct a software test process for a software testing project.",
+     "kl": "K3, K4"
+    },
+    {
+     "no": 3,
+     "text": "Have an ability to identify the needs of software test automation, and define and develop a test tool to support test automation.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 4,
+     "text": "Have an ability understand and identify various software testing problems, and solve these problems by designing and selecting software test models, criteria, strategies, and methods.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 5,
+     "text": "Have basic understanding and knowledge of contemporary issues in software testing, such as component-based software testing problems.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Yogesh Singh, “Software Testing”, Cambridge University Press, New York, 2012"
+    },
+    {
+     "no": 2,
+     "book": "K..K. Aggarwal & Yogesh Singh, “Software Engineering”, New Age International Publishers, New Delhi, 2003."
+    },
+    {
+     "no": 3,
+     "book": "Roger S. Pressman, “Software Engineering – A Practitioner’s Approach”, Fifth Edition, McGraw-Hill International Edition, New Delhi,2001."
+    },
+    {
+     "no": 4,
+     "book": "Marc Roper, “Software Testing”, McGraw-Hill Book Co., London, 1994."
+    },
+    {
+     "no": 5,
+     "book": "M.C. Trivedi, Software Testing & Audit, Khanna Publishing House"
+    },
+    {
+     "no": 6,
+     "book": "Boris Beizer, “Software System Testing and Quality Assurance”, Van Nostrand Reinhold, New York, 1984"
+    }
+   ],
+   "quirks": [
+    "Unit 1 prints 'Test ,Oracles' (misplaced comma), 'AllPaths' unspaced, and 'Software, Project Audit' — verbatim.",
+    "Text book 2 prints 'K..K. Aggarwal' (doubled period) and book 3 'New Delhi,2001' unspaced — verbatim.",
+    "Text books 5 and 6 print on one wrapped line ('...Khanna Publishing House 6. Boris Beizer...'); numbered 5 and 6 per the printed list numbers (p.10)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "DISTRIBUTED SYSTEM",
+   "name_print": "DISTRIBUTED SYSTEM  ( KCS077)",
+   "codes": [
+    "KCS077"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-IV",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Characterization of Distributed Systems: Introduction, Examples of distributed Systems, Resource sharing and the Web Challenges. Architectural models, Fundamental Models. Theoretical Foundation for Distributed System: Limitation of Distributed system, absence of global clock, shared memory, Logical clocks ,Lamport’s & vectors logical clocks. Concepts in Message Passing Systems: causal order, total order, total causal order, Techniques for Message Ordering, Causal ordering of messages, global state, termination detection.",
+    "2": "Distributed Mutual Exclusion: Classification of distributed mutual exclusion, requirement of mutual exclusion theorem, Token based and non token based algorithms, performance metric for distributed mutual exclusion algorithms. Distributed Deadlock Detection: system model, resource Vs communication deadlocks, deadlock prevention, avoidance, detection & resolution, centralized dead lock detection, distributed dead lock detection, path pushing algorithms, edge chasing algorithms.",
+    "3": "Agreement Protocols: Introduction, System models, classification of Agreement Problem, Byzantine agreement problem, Consensus problem, Interactive consistency Problem, Solution to Byzantine Agreement problem, Application of Agreement problem, Atomic Commit in Distributed Database system. Distributed Resource Management: Issues in distributed File Systems, Mechanism for building distributed file systems, Design issues in Distributed Shared Memory, Algorithm for Implementation of Distributed Shared Memory.",
+    "4": "Failure Recovery in Distributed Systems: Concepts in Backward and Forward recovery, Recovery in Concurrent systems, Obtaining consistent Checkpoints, Recovery in Distributed Database Systems. Fault Tolerance: Issues in Fault Tolerance, Commit Protocols, Voting protocols, Dynamic voting protocols",
+    "5": "Transactions and Concurrency Control: Transactions, Nested transactions, Locks, Optimistic Concurrency control, Timestamp ordering, Comparison of methods for concurrency control. Distributed Transactions: Flat and nested distributed transactions, Atomic Commit protocols, Concurrency control in distributed transactions, Distributed deadlocks, Transaction recovery. Replication: System model and group communication, Fault - tolerant services, highly available services, Transactions with replicated data."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "To provide hardware and software issues in modern distributed systems.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 2,
+     "text": "To get knowledge in distributed architecture, naming, synchronization, consistency and replication, fault tolerance, security, and distributed file systems.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "To analyze the current popular distributed systems such as peer-to-peer (P2P) systems will also be analyzed.",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "To know about Shared Memory Techniques and have Sufficient knowledge about file access",
+     "kl": "K1"
+    },
+    {
+     "no": 5,
+     "text": "Have knowledge of Synchronization and Deadlock.",
+     "kl": "K1"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Singhal & Shivaratri, \"Advanced Concept in Operating Systems\", McGraw Hill"
+    },
+    {
+     "no": 2,
+     "book": "Ramakrishna,Gehrke,” Database Management Systems”, McGraw Hill"
+    },
+    {
+     "no": 3,
+     "book": "Vijay K.Garg Elements of Distributed Computing , Wiley"
+    },
+    {
+     "no": 4,
+     "book": "Coulouris, Dollimore, Kindberg, \"Distributed System: Concepts and Design”, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Tenanuanbaum, Steen,” Distributed Systems”, PHI"
+    }
+   ],
+   "quirks": [
+    "Unit 1 prints 'clocks ,Lamport’s' (space before comma) — verbatim.",
+    "Text book 4 line ends '...Pearson Education 5.' with the next list number '5.' printed inline at end of the book-4 line; book 5 prints 'Tenanuanbaum' (typo, likely Tanenbaum) — verbatim (p.11).",
+    "Text book 2 prints 'Ramakrishna,Gehrke,”' unspaced — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Deep Learning",
+   "name_print": "Deep Learning  (KCS078)",
+   "codes": [
+    "KCS078"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-V",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION : Introduction to machine learning- Linear models (SVMs and Perceptrons, logistic regression)- Intro to Neural Nets: What a shallow network computes- Training a network: loss functions, back propagation and stochastic gradient descent- Neural networks as universal function approximates",
+    "2": "DEEP NETWORKS : History of Deep Learning- A Probabilistic Theory of Deep Learning-Backpropagation and regularization, batch normalization- VC Dimension and Neural Nets-Deep Vs Shallow Networks-Convolutional Networks- Generative Adversarial Networks (GAN), Semi-supervised Learning",
+    "3": "DIMENTIONALITY REDUCTION 9 Linear (PCA, LDA) and manifolds, metric learning - Auto encoders and dimensionality reduction in networks - Introduction to Convnet - Architectures – AlexNet, VGG, Inception, ResNet - Training a Convnet: weights initialization, batch normalization, hyper parameter optimization",
+    "4": "OPTIMIZATION AND GENERALIZATION : Optimization in deep learning– Non-convex optimization for deep networks- Stochastic Optimization Generalization in neural networks- Spatial Transformer Networks- Recurrent networks, LSTM - Recurrent Neural Network Language Models- Word-Level RNNs & Deep Reinforcement Learning - Computational & Artificial Neuroscience",
+    "5": "CASE STUDY AND APPLICATIONS : Image net- Detection-Audio Wave Net-Natural Language Processing Word2Vec - Joint Detection-Bioinformatics- Face Recognition- Scene Understanding-Gathering Image Captions"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "To present the mathematical, statistical and computational challenges of building neural networks",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 2,
+     "text": "To study the concepts of deep learning",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 3,
+     "text": "To introduce dimensionality reduction techniques",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "To enable the students to know deep learning techniques to support real-time applications",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 5,
+     "text": "To examine the case studies of deep learning techniques",
+     "kl": "K3, K6"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Cosma Rohilla Shalizi, Advanced Data Analysis from an Elementary Point of View, 2015."
+    },
+    {
+     "no": 2,
+     "book": "Deng & Yu, Deep Learning: Methods and Applications, Now Publishers, 2013."
+    },
+    {
+     "no": 3,
+     "book": "Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep Learning, MIT Press, 2016."
+    },
+    {
+     "no": 4,
+     "book": "Michael Nielsen, Neural Networks and Deep Learning, Determination Press, 2015."
+    }
+   ],
+   "quirks": [
+    "Unit 3 header prints 'DIMENTIONALITY REDUCTION 9 Linear (PCA, LDA)' — stray printed '9' after 'REDUCTION' and 'DIMENTIONALITY' typo — verbatim (p.12).",
+    "Unit 4 prints 'deep learning– Non-convex' (no space before en-dash) — verbatim.",
+    "p.12 prints 'Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc18_cs41/preview' after Text books — recorded here as printed.",
+    "CO-5 KL prints 'K3, K6' — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Service Oriented Architecture",
+   "name_print": "Service Oriented Architecture (KSC079)",
+   "codes": [
+    "KCS079",
+    "KSC079"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-V",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction: SOA and MSA Basics: Service Orientation in Daily Life, Evolution of SOA and MSA. Service oriented Architecture and Microservices architecture – Drivers for SOA, Dimensions of SOA, Conceptual Model of SOA, Standards and Guidelines for SOA, Emergence of MSA.  Enterprise-Wide SOA: Considerations for Enterprise-wide SOA, Strawman Architecture for Enterprise-wide SOA, Enterprise SOA Reference Architecture, Object-oriented Analysis and Design (OOAD) Process, Service-oriented Analysis and Design (SOAD) Process, SOA Methodology for Enterprise",
+    "2": "Service-Oriented Applications: Considerations for Service-oriented Applications, Patterns for SOA, Pattern-based Architecture for Service-oriented Applications, Composite Applications, Composite Application Programming Model.  Service-Oriented Analysis and Design: Need for Models, Principles of Service Design, Nonfunctional Properties for Services, Design of Activity Services (or Business Services), Design of Data Services, Design of Client Services, Design of Business Process Services.",
+    "3": "Technologies for SOA: Technologies for Service Enablement, Technologies for Service Integration, Technologies for Service Orchestration.  SOA Governance and Implementation: Strategic Architecture Governance, Service Design-time Governance, Service Run-time Governance, Approach for Enterprise-wide SOA Implementation.",
+    "4": "Big Data and SOA: Concepts, Big Data and its characteristics, Technologies for Big Data, Service-orientation for Big Data Solutions.  Business Case for SOA: Stakeholder Objectives, Benefits of SOA, Cost Savings, Return on Investment (ROI), Build a Case for SOA",
+    "5": "SOA Best Practices: SOA Strategy – Best Practices, SOA Development – Best Practices, SOA Governance – Best Practices.  EA and SOA for Business and IT Alignment: Enterprise Architecture, Need for Business and It Alignment, EA and SOA for Business and It Alignment"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Comprehend the need for SOA and its systematic evolution.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply SOA technologies to enterprise domain.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Design and analyze various SOA patterns and techniques.",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Compare and evaluate best strategies and practices of SOA.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the business case for SOA",
+     "kl": "K1"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Shankar Kambhampaty; Service - Oriented Architecture & Microservices Architecture: For Enterprise, Cloud, Big Data and Mobile; Wiley; 3rd Edition; 2018; ISBN: 9788126564064."
+    },
+    {
+     "no": 2,
+     "book": "Icon Group International; The 2018-2023 World Outlook for Service-Oriented Architecture (SOA) Software and Services; ICON Group International; 1st Edition, 2017; ASIN: B06WGPN8YD."
+    },
+    {
+     "no": 3,
+     "book": "Thomas Erl; Service Oriented Architecture Concepts Technology & Design; Pearson Education Limited; 2015; ISBN-13: 9788131714904."
+    },
+    {
+     "no": 4,
+     "book": "Guido Schmutz, Peter Welkenbach, Daniel Liebhart; Service Oriented Architecture An Integration Blueprint; Shroff Publishers & Distributors; 2010; ISBN-13: 9789350231081"
+    }
+   ],
+   "quirks": [
+    "Subject heading on p.13 prints the code as 'KSC079' (transposed); the Departmental Elective-V pool list on p.3 prints 'KCS079' — both recorded in codes."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Quantum Computing",
+   "name_print": "Quantum Computing  (KCS710)",
+   "codes": [
+    "KCS710"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-V",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Fundamental Concepts: Global Perspectives, Quantum Bits, Quantum Computation, Quantum Algorithms, Quantum Information, Postulates of Quantum Mechanisms.",
+    "2": "Quantum Computation:  Quantum Circuits – Quantum algorithms, Single Orbit operations, Control Operations, Measurement, Universal Quantum Gates, Simulation of Quantum Systems, Quantum Fourier transform, Phase estimation, Applications, Quantum search algorithms – Quantum counting – Speeding up the solution of NP – complete problems – Quantum Search for an unstructured database.",
+    "3": "Quantum Computers:  Guiding Principles, Conditions for Quantum Computation, Harmonic Oscillator Quantum Computer, Optical Photon Quantum Computer – Optical cavity Quantum electrodynamics, Ion traps, Nuclear Magnetic resonance",
+    "4": "Quantum Information:  Quantum noise and Quantum Operations – Classical Noise and Markov Processes, Quantum Operations, Examples of Quantum noise and Quantum Operations – Applications of Quantum operations, Limitations of the Quantum operations formalism, Distance Measures for Quantum information.",
+    "5": "Quantum Error Correction:  Introduction, Shor code, Theory of Quantum Error –Correction, Constructing Quantum Codes, Stabilizer codes, Fault – Tolerant Quantum Computation, Entropy and information – Shannon Entropy, Basic properties of Entropy, Von Neumann, Strong Sub Additivity, Data Compression, Entanglement as a physical resource ."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Distinguish problems of different computational complexity and explain why certain problems are rendered tractable by quantum computation with reference to the relevant concepts in quantum theory.",
+     "kl": "K1 , K2"
+    },
+    {
+     "no": 2,
+     "text": "Demonstrate an understanding of a quantum computing algorithm by simulating it on a classical computer, and state some of the practical challenges in building a quantum computer.",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 3,
+     "text": "Contribute to a medium-scale application program as part of a co-operative team, making use of appropriate collaborative development tools (such as version control systems).",
+     "kl": "K2 , K3"
+    },
+    {
+     "no": 4,
+     "text": "Produce code and documentation that is comprehensible to a group of different programmers and present the theoretical background and results of a project in written and verbal form.",
+     "kl": "K3 , K4"
+    },
+    {
+     "no": 5,
+     "text": "Apply knowledge, skills, and understanding in executing a defined project of research, development, or investigation and in identifying and implementing relevant outcomes.",
+     "kl": "K3, K6"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Micheal A. Nielsen. &Issac L. Chiang, “Quantum Computation and Quantum Information”, Cambridge University Press, Fint South Asian edition, 2002."
+    },
+    {
+     "no": 2,
+     "book": "Eleanor G. Rieffel, Wolfgang H. Polak , “Quantum Computing - A Gentle Introduction” (Scientific and Engineering Computation) Paperback – Import, Oct 2014"
+    },
+    {
+     "no": 3,
+     "book": "Computing since Democritus by Scott Aaronson, Computer Science: An Introduction by N. DavidMermin"
+    },
+    {
+     "no": 5,
+     "book": "Yanofsky's and Mannucci, Quantum Computing for Computer Scientists."
+    }
+   ],
+   "quirks": [
+    "Text-book list prints numbers 1, 2, 3 then 5 (no book numbered 4); the '5.' is printed inline at the end of the book-3 line ('...N. DavidMermin 5.') — verbatim (p.14).",
+    "Text book 1 prints 'Micheal A. Nielsen. &Issac L. Chiang' and 'Fint South Asian edition' — verbatim typos.",
+    "Unit 5 ends '...as a physical resource .' (space before period) — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mobile Computing",
+   "name_print": "Mobile Computing (KCS711)",
+   "codes": [
+    "KCS711"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-V",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0 (subject's own DETAILED SYLLABUS header, p.15); Semester-VII scheme table elective row prints 3-0-0 (p.2)",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": " Introduction, issues in mobile computing, overview of wireless telephony: cellular concept, GSM: air-interface, channel structure, location management: HLR-VLR, hierarchical, handoffs, channel allocation in cellular systems, CDMA, GPRS.",
+    "2": " Wireless Networking, Wireless LAN Overview: MAC issues, IEEE 802.11, Blue Tooth, Wireless multiple access protocols, TCP over wireless, Wireless applications, data broadcasting, Mobile IP, WAP: Architecture, protocol stack, application environment, applications.",
+    "3": "Data management issues, data replication for mobile computers, adaptive clustering for mobile wireless networks, File system, Disconnected operations.",
+    "4": "Mobile Agents computing, security and fault tolerance, transaction processing in mobile computing environment.",
+    "5": "Ad Hoc networks, localization, MAC issues, Routing protocols, global state routing (GSR), Destination sequenced distance vector routing (DSDV), Dynamic source routing (DSR), Ad Hoc on demand distance vector routing (AODV), Temporary ordered routing algorithm (TORA), QoS in Ad Hoc Networks, applications."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain and discuss issues in mobile computing and illustrate overview of wireless telephony and channel allocation in cellular systems.",
+     "kl": "K1, K4"
+    },
+    {
+     "no": 2,
+     "text": "Explore the concept of Wireless Networking and Wireless LAN.",
+     "kl": "K1"
+    },
+    {
+     "no": 3,
+     "text": "Analyse and comprehend Data management issues like data replication for mobile computers, adaptive clustering for mobile wireless networks and Disconnected operations.",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Identify Mobile computing Agents and state the issues pertaining to security and fault tolerance in mobile computing environment.",
+     "kl": "K1, K2"
+    },
+    {
+     "no": 5,
+     "text": "Compare and contrast various routing protocols and will identify and interpret the performance of network systems using Adhoc networks.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "J. Schiller, Mobile Communications, Addison Wesley."
+    },
+    {
+     "no": 2,
+     "book": "A. Mehrotra, GSM System Engineering."
+    },
+    {
+     "no": 3,
+     "book": "M. V. D. Heijden, M. Taylor, Understanding WAP, Artech House."
+    },
+    {
+     "no": 4,
+     "book": "Charles Perkins, Mobile IP, Addison Wesley."
+    },
+    {
+     "no": 5,
+     "book": "Charles Perkins, Ad hoc Networks, Addison Wesley."
+    }
+   ],
+   "quirks": [
+    "L-T-P discrepancy: subject's own detailed-syllabus header prints '3-1-0' (p.15) while the Semester-VII scheme table rows for the elective slots print '3 0 0' (p.2); credit 3 is printed only in the scheme table (no credit printed in the detailed syllabus).",
+    "Units 1 and 2 begin with a leading space in the print — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Internet of Things",
+   "name_print": "Internet of Things (KCS712)",
+   "codes": [
+    "KCS712"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-V",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0 (subject's own DETAILED SYLLABUS header, p.16); Semester-VII scheme table elective row prints 3-0-0 (p.2)",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Internet of Things (IoT): Vision, Definition, Conceptual Framework, Architectural view, technology behind IoT, Sources of the IoT, M2M Communication, IoT Examples. Design Principles for Connected Devices: IoT/M2M systems layers and design standardization, communication technologies, data enrichment and consolidation, ease of designing and affordability",
+    "2": "Hardware for IoT: Sensors, Digital sensors, actuators, radio frequency identification (RFID) technology, wireless sensor networks, participatory sensing technology. Embedded Platforms for IoT: Embedded computing basics, Overview of IOT supported Hardware platforms such as Arduino, NetArduino, Raspberry pi, Beagle Bone, Intel Galileo boards and ARM cortex.",
+    "3": "Network & Communication aspects in IoT: Wireless Medium access issues, MAC protocol survey, Survey routing protocols, Sensor deployment & Node discovery, Data aggregation & dissemination",
+    "4": "Programming the Ardunio: Ardunio Platform Boards Anatomy, Ardunio IDE, coding, using emulator, using libraries, additions in ardunio, programming the ardunio for IoT.",
+    "5": "Challenges in IoT Design challenges: Development Challenges, Security Challenges, Other challenges IoT Applications: Smart Metering, E-health, City Automation, Automotive Applications, home automation, smart cards, communicating data with H/W units, mobiles, tablets, Designing of smart street lights in smart city."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Demonstrate basic concepts, principles and challenges in IoT.",
+     "kl": "K1,K2"
+    },
+    {
+     "no": 2,
+     "text": "Illustrate functioning of hardware devices and sensors used for IoT.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Analyze network communication aspects and protocols used in IoT.",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Apply IoT for developing real life applications using Ardunio programming.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "To develop IoT infrastructure for popular applications",
+     "kl": "K2, K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Olivier Hersent,David Boswarthick, Omar Elloumi “The Internet of Things key applications and protocols”, wiley"
+    },
+    {
+     "no": 2,
+     "book": "Jeeva Jose, Internet of Things, Khanna Publishing House"
+    },
+    {
+     "no": 3,
+     "book": "Michael Miller “The Internet of Things” by Pearson"
+    },
+    {
+     "no": 4,
+     "book": "Raj Kamal “INTERNET OF THINGS”, McGraw-Hill, 1ST Edition, 2016"
+    },
+    {
+     "no": 5,
+     "book": "ArshdeepBahga, Vijay Madisetti “Internet of Things (A hands on approach)” 1ST edition, VPI publications,2014"
+    },
+    {
+     "no": 6,
+     "book": "Adrian McEwen,Hakin Cassimally “Designing the Internet of Things” Wiley India"
+    }
+   ],
+   "quirks": [
+    "CO-5 row label prints 'CP 5' instead of 'CO 5' (p.16) — verbatim.",
+    "'Ardunio' typo printed repeatedly (CO-4, unit 4 'Programming the Ardunio', 'NetArduino' in unit 2) — verbatim.",
+    "CO-1 KL prints 'K1,K2' without space — verbatim.",
+    "L-T-P discrepancy: subject's own detailed-syllabus header prints '3-1-0' (p.16) while the Semester-VII scheme table elective rows print '3 0 0' (p.2); credit 3 is printed only in the scheme table.",
+    "Text book 1 prints 'Olivier Hersent,David Boswarthick' unspaced and publisher 'wiley' lowercase; book 5 'ArshdeepBahga' unspaced, 'publications,2014' unspaced; book 6 'McEwen,Hakin' unspaced — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Cloud Computing",
+   "name_print": "Cloud Computing (KCS713)",
+   "codes": [
+    "KCS713"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-V",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0 (subject's own DETAILED SYLLABUS header, p.17); Semester-VII scheme table elective row prints 3-0-0 (p.2)",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction To Cloud Computing: Definition of Cloud – Evolution of Cloud Computing – Underlying Principles of Parallel and Distributed Computing – Cloud Characteristics – Elasticity in Cloud – On-demand Provisioning.",
+    "2": "Cloud Enabling Technologies Service Oriented Architecture: REST and Systems of Systems – Web Services – Publish, Subscribe Model – Basics of Virtualization – Types of Virtualization – Implementation Levels of Virtualization – Virtualization Structures – Tools and Mechanisms – Virtualization of CPU – Memory – I/O Devices –Virtualization Support and Disaster Recovery.",
+    "3": "Cloud Architecture, Services And Storage: Layered Cloud Architecture Design – NIST Cloud Computing Reference Architecture – Public, Private and Hybrid Clouds – laaS – PaaS – SaaS – Architectural Design Challenges – Cloud Storage – Storage-as-a-Service – Advantages of Cloud Storage – Cloud Storage Providers – S3.",
+    "4": "Resource Management And Security In Cloud: Inter Cloud Resource Management – Resource Provisioning and Resource Provisioning Methods – Global Exchange of Cloud Resources – Security Overview – Cloud Security Challenges – Software-as-a-Service Security – Security Governance – Virtual Machine Security – IAM – Security Standards.",
+    "5": "Cloud Technologies And Advancements Hadoop:  MapReduce – Virtual Box — Google App Engine – Programming Environment for Google App Engine –– Open Stack – Federation in the Cloud – Four Levels of Federation – Federated Services and Applications – Future of Federation."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Describe architecture and underlying principles of cloud computing.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Explain need, types and tools of Virtualization for cloud.",
+     "kl": "K3, K4"
+    },
+    {
+     "no": 3,
+     "text": "Describe Services Oriented Architecture and various types of cloud services.",
+     "kl": "K2, K3"
+    },
+    {
+     "no": 4,
+     "text": "Explain Inter cloud resources management cloud storage services and their providers Assess security services and standards for cloud computing.",
+     "kl": "K2, K4"
+    },
+    {
+     "no": 5,
+     "text": "Analyze advanced cloud technologies.",
+     "kl": "K3, K6"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Kai Hwang, Geoffrey C. Fox, Jack G. Dongarra, “Distributed and Cloud Computing, From Parallel Processing to the Internet of Things”, Morgan Kaufmann Publishers, 2012."
+    },
+    {
+     "no": 2,
+     "book": "Rittinghouse, John W., and James F. Ransome, ―Cloud Computing: Implementation, Management and Security, CRC Press, 2017."
+    },
+    {
+     "no": 3,
+     "book": "Rajkumar Buyya, Christian Vecchiola, S. ThamaraiSelvi, ―Mastering Cloud Computing, Tata Mcgraw Hill, 2013."
+    },
+    {
+     "no": 4,
+     "book": "Toby Velte, Anthony Velte, Robert Elsenpeter, “Cloud Computing – A Practical Approach, Tata Mcgraw Hill, 2009."
+    },
+    {
+     "no": 5,
+     "book": "George Reese, “Cloud Application Architectures: Building Applications and Infrastructure in the Cloud: Transactional Systems for EC2 and Beyond (Theory in Practice), O’Reilly, 2009."
+    }
+   ],
+   "quirks": [
+    "Unit 3 prints 'laaS' (lowercase L, for IaaS) — verbatim.",
+    "Unit 5 prints 'Hadoop:  MapReduce – Virtual Box — Google App Engine ... Engine –– Open Stack' with double spaces/em-dashes as printed — verbatim.",
+    "L-T-P discrepancy: subject's own detailed-syllabus header prints '3-1-0' (p.17) while the Semester-VII scheme table elective rows print '3 0 0' (p.2); credit 3 is printed only in the scheme table.",
+    "Text book 4 prints '“Cloud Computing – A Practical Approach, Tata Mcgraw Hill, 2009.' with unbalanced opening quote — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "SOFTWARE PROJECT MANAGEMENT",
+   "name_print": "SOFTWARE PROJECT MANAGEMENT     (KIT071)",
+   "codes": [
+    "KIT071"
+   ],
+   "semester": 7,
+   "elective_slot_print": "Departmental Elective-V",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction and Software Project Planning: Fundamentals of Software Project Management (SPM), Need Identification, Vision and Scope document, Project Management Cycle, SPM Objectives, Management Spectrum, SPM Framework, Software Project Planning, Planning Objectives, Project Plan, Types of project plan, Structure of a Software Project Management Plan, Software project estimation, Estimation methods, Estimation models, Decision process.",
+    "2": "Project Organization and Scheduling :Project Elements, Work Breakdown Structure (WBS), Types of WBS, Functions, Activities and Tasks, Project Life Cycle and Product Life Cycle, Ways to Organize Personnel, Project schedule, Scheduling Objectives, Building the project schedule, Scheduling terminology and techniques,  Network Diagrams: PERT, CPM, Bar Charts: Milestone Charts, Gantt Charts.",
+    "3": "Project Monitoring and Control: Dimensions of Project Monitoring & Control, Earned Value Analysis, Earned Value Indicators: Budgeted Cost for Work Scheduled (BCWS), Cost Variance (CV), Schedule Variance (SV), Cost Performance Index (CPI), Schedule Performance Index (SPI), Interpretation of Earned Value Indicators, Error Tracking, Software Reviews,  Types of Review: Inspections, Deskchecks, Walkthroughs, Code Reviews, Pair Programming.",
+    "4": "Software Quality Assurance and Testing : Testing Objectives, Testing Principles, Test Plans, Test Cases, Types of Testing, Levels of Testing, Test Strategies, Program Correctness, Program Verification & validation, Testing Automation & Testing Tools, Concept of Software Quality, Software Quality Attributes, Software Quality Metrics and Indicators, The SEI Capability Maturity Model CMM), SQA Activities, Formal SQA Approaches: Proof of correctness, Statistical quality assurance, Cleanroom process.",
+    "5": "Project Management and Project Management Tools: Software Configuration Management: Software Configuration Items and tasks, Baselines, Plan for Change, Change Control, Change Requests Management, Version Control, Risk Management: Risks and risk types, Risk Breakdown Structure (RBS), Risk Management Process: Risk identification, Risk analysis, Risk planning, Risk monitoring, Cost Benefit Analysis. Software Project Management Tools: CASE Tools, Planning and Scheduling Tools, MS-Project."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Identify project planning objectives, along with various cost/effort estimation models.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Organize & schedule project activities to compute critical path for risk analysis.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Monitor and control project activities.",
+     "kl": "K4, K5"
+    },
+    {
+     "no": 4,
+     "text": "Formulate testing objectives and test plan to ensure good software quality under SEI-CMM",
+     "kl": "K6"
+    },
+    {
+     "no": 5,
+     "text": "Configure changes and manage risks using project management tools.",
+     "kl": "K2, K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "M. Cotterell, Software Project Management, Tata McGraw-Hill Publication."
+    },
+    {
+     "no": 2,
+     "book": "Royce, Software Project Management, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "Kieron Conway, Software Project Management, Dreamtech Press"
+    },
+    {
+     "no": 4,
+     "book": "S. A. Kelkar, Software Project Management, PHI Publication."
+    },
+    {
+     "no": 5,
+     "book": "Harold R. Kerzner, Project Mangment “A Systems Approach to Planning, Scheduling, and Controlling” Wiley."
+    },
+    {
+     "no": 6,
+     "book": "Mohapatra, Software Project Management, Cengage Learning."
+    }
+   ],
+   "quirks": [
+    "Unit 2 prints 'Scheduling :Project' (no space after colon) — verbatim; unit 3 prints 'Software Reviews,  Types of Review' (trailing comma) — verbatim.",
+    "Unit 4 prints 'The SEI Capability Maturity Model CMM)' (missing opening parenthesis) — verbatim.",
+    "Text book 5 prints 'Project Mangment' (typo) — verbatim.",
+    "Subject name printed in ALL CAPS in the heading — verbatim name_print retained."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mini Project or Internship Assessment",
+   "name_print": "Mini Project or Internship Assessment   (KIT354 , KIT554 , KIT752)",
+   "codes": [
+    "KIT354",
+    "KIT554",
+    "KIT752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0-0-2 (Semester-VII scheme row 6, p.2)",
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "total": 50
+   },
+   "marks_print": "Semester-VII scheme row 6 prints: L=0 T=0 P=2 | PS=50 | Total=50 | Credit=1 (CT, TA, Total under Evaluation Scheme, TE, PE under End Semester all printed blank); column assignment verified by word x-coordinates (PS≈438, Total≈521, Credit≈560)",
+   "subject_type": "project",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Developing a technical artifact requiring new technical skills and effectively utilizing a new software tool to complete a task",
+     "kl": "K4 , K5"
+    },
+    {
+     "no": 2,
+     "text": "Writing requirements documentation, Selecting appropriate technologies, identifying and creating appropriate test cases for systems.",
+     "kl": "K5 , K6"
+    },
+    {
+     "no": 3,
+     "text": "Demonstrating understanding of professional customs & practices and working with professional standards.",
+     "kl": "K4 , K5"
+    },
+    {
+     "no": 4,
+     "text": "Improving problem-solving, critical thinking skills and report writing.",
+     "kl": "K4 , K5"
+    },
+    {
+     "no": 5,
+     "text": "Learning professional skills like exercising leadership, behaving professionally, behaving ethically, listening effectively, participating as a member of a team, developing appropriate workplace attitudes.",
+     "kl": "K2, K4"
+    }
+   ],
+   "quirks": [
+    "Only the heading + Course Outcome/KL table is printed for this subject (p.19); no unit theory, textbooks, or its own L-T-P cell are printed anywhere in this document — scheme_row_only_detailed_syllabus_not_printed.",
+    "Semester-VII scheme table (p.2) names this row 'Mini Project or Internship Assessment*' with footnote: '*The Mini Project or internship (4 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.'",
+    "Heading prints three codes 'KIT354 , KIT554 , KIT752'; only KIT752 appears in the printed Semester-VII scheme table; semesters of KIT354/KIT554 are not printed in this document (not invented)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "Project   (KIT753 , KIT851)",
+   "codes": [
+    "KIT753",
+    "KIT851"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 8
+   },
+   "ltp_print": "0-0-8 (KIT753, Semester-VII scheme row 7, p.2); KIT851 scheme row (Semester VIII row 4) prints 0-0-18",
+   "credit": 4,
+   "marks": {
+    "ps": 150,
+    "total": 150
+   },
+   "marks_print": "KIT753 Semester-VII scheme row 7 prints: L=0 T=0 P=8 | PS=150 | Total=150 | Credit=4. KIT851 Semester-VIII scheme row 4 prints: L=0 T=0 P=18 | PS=100 | PE=300 | Total=400 | Credit=9. (CT/TA/TE cells printed blank in both rows; column assignment verified by word x-coordinates: PS≈438, PE≈493, Total≈521, Credit≈560)",
+   "subject_type": "project",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Analyze and understand the real life problem and apply their knowledge to get programming solution.",
+     "kl": "K4 , K5"
+    },
+    {
+     "no": 2,
+     "text": "Engage  in  the  creative  design  process  through  the  integration  and  application  of  diverse technical knowledge and expertise to meet customer needs and address social issues.",
+     "kl": "K4 , K5"
+    },
+    {
+     "no": 3,
+     "text": "Use the various tools and techniques, coding practices for developing real life solution to the problem.",
+     "kl": "K5 , K6"
+    },
+    {
+     "no": 4,
+     "text": "Find out the errors in software solutions and establishing the process  to design maintainable software applications",
+     "kl": "K4 , K5"
+    },
+    {
+     "no": 5,
+     "text": "Write the report about what they are doing in project and learning  the team working skills",
+     "kl": "K5, K6"
+    }
+   ],
+   "quirks": [
+    "Only the heading + Course Outcome/KL table is printed for this subject (p.19); no unit theory, textbooks, or its own L-T-P cell are printed anywhere in this document — scheme_row_only_detailed_syllabus_not_printed.",
+    "Semester-VII scheme table (p.2 row 7) prints the subject name as 'Project 1' for KIT753; the CO heading on p.19 prints 'Project (KIT753 , KIT851)'. Semester-VIII table (p.2 row 4) prints 'Project' for KIT851.",
+    "semester/ltp/credit/marks fields reflect the KIT753 Semester-VII scheme row; KIT851's Semester-VIII row values (0-0-18, PS=100, PE=300, Total=400, Credit=9) are recorded verbatim in marks_print.",
+    "CO-4 and CO-5 print extra inter-word double spaces in the text layer ('the process  to design', 'learning  the team working skills') — verbatim tokens retained."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title_page",
+   "print": "Page-1 cover text layer is column-scrambled (word fragments interleaved). Raw fragments verbatim: 'Curric / culum & Eval / luation Schem / me (VII & VII / II semester) / DR / R. A.P.J / UL KAL / J. ABDU / UNIV / VERSIT / TY, UTT / TAR PR / SH, LUC / EVA / ALUAT / TION SC / CHEME / E & SYL / LLABU / US / B. T / INFORM / MATION / ON TECH / HNOLO / OGY /CS / SIT) / TECHN / FOURT / TH (IV) / YEAR / AICTE / E MODE / EL CUR / RRICUL / LUM / S PER / RADES / e from t / the Sess / sion: 20 / 021-22] / Page / e 1 / W / NFORM / MATIO / A'. Interleaved reading of the visible print: 'DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY, UTTAR PRADESH, LUCKNOW — B.TECH. INFORMATION TECHNOLOGY /CSIT — FOURTH (IV) YEAR — Curriculum & Evaluation Scheme (VII & VIII semester) [Effective from the Session: 2021-22] — AS PER AICTE MODEL CURRICULUM'.",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_summary_table_semester_vii",
+   "print": "B.TECH IV YEAR (INFORMATION TECHNOLOGY /CSIT) CURRICULUM STRUCTURE SEMESTER- VII | 1 KHU701/KHU702 HSMC -1 / HSMC-2 3 0 0 30 20 50 100 150 3 | 2 KCS07X Departmental Elective-IV 3 0 0 30 20 50 100 150 3 | 3 KCS07X Departmental Elective-V 3 0 0 30 20 50 100 150 3 | 4 KOE07X Open Elective-II 3 0 0 30 20 50 100 150 3 | 5 KIT751A [lab note — separate row below] 0 0 2 25 25 50 1 | 6 KIT752 Mini Project or Internship Assessment* 0 0 2 50 50 1 | 7 KIT753 Project 1 0 0 8 150 150 4 | 8 MOOCs (Essential for Hons. Degree) | Total 12 0 12 850 18. Column headers: Sl. No. | Subject Codes | Subject | Periods L T P | Evaluation Scheme CT TA Total PS | End Semester TE PE | Total | Credit. KHU701/KHU702 (HSMC) and KOE07X (Open Elective-II) rows carry NO detailed syllabus in this document.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_summary_table_semester_viii",
+   "print": "SEMESTER- VIII | 1 KHU801/KHU802 HSMC-2#/HSMC-1# 3 0 0 30 20 50 100 150 3 | 2 KOE08X Open Elective-III 3 0 0 30 20 50 100 150 3 | 3 KOE08X Open Elective-IV 3 0 0 30 20 50 100 150 3 | 4 KIT851 Project 0 0 18 100 300 400 9 | 5 MOOCs (Essential for Hons. Degree) | Total 9 0 18 850 18. KHU801/KHU802 (HSMC) and KOE08X (Open Electives-III/IV) rows carry NO detailed syllabus in this document.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_lab_note",
+   "print": "KIT751A — 'The Department may conduct one Lab of either of the two Electives (4 or 5) based on the elective chosen for the curriculum. The Department shall on its own prepare complete list of practical for the Lab and arrange for proper setup and conduct accordingly.' | periods 0 0 2 | PS=25, PE=25, Total=50 | Credit=1 (CT/TA/TE printed blank; column assignment verified by word x-coordinates: PS≈438, PE≈493, Total≈521, Credit≈560). No subject heading, COs, units or experiment list printed anywhere for KIT751A in this document.",
+   "locator": "p.2 (Semester-VII scheme row 5)"
+  },
+  {
+   "kind": "footnote",
+   "print": "*The Mini Project or internship (4 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+   "locator": "p.2 (footnote to Semester-VII scheme row 6)"
+  },
+  {
+   "kind": "scheme_row_moocs",
+   "print": "MOOCs (Essential for Hons. Degree) — printed in both semester tables with no code, no periods, no marks, no credit.",
+   "locator": "p.2 (Semester-VII row 8; Semester-VIII row 5)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Departmental Elective-IV | 1. KCS071 Artificial Intelligence | 2. KCS072 Natural language processing | 3. KCS073 High Performance Computing | 4. KCS074 Cryptography and Network Security | 5. KCS075 Design & Development of Applications | 6. KCS076 Software Testing | 7. KCS077 Distributed Systems",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Departmental Elective-V | 1. KCS078 Deep Learning | 2. KCS079 Service Oriented Architecture | 3. KCS710 Quantum Computing | 4. KCS711 Mobile Computing | 5. KCS712 Internet of Things | 6. KCS713 Cloud Computing | 7. KIT071 Software Project Management",
+   "locator": "p.3"
+  }
+ ],
+ "quirks": [
+  "Page-1 cover text layer is column-scrambled (interleaved word fragments); raw fragments + interleaved reading recorded in non_subject_rows. Visible print supports B.Tech IV year (Information Technology /CSIT), Semesters VII & VIII, effective session 2021-22, per AICTE Model Curriculum.",
+  "NLP heading (p.5) prints code 'KC072' while the Departmental Elective-IV pool list (p.3) prints 'KCS072' — both recorded in that subject's codes.",
+  "SOA heading (p.13) prints code 'KSC079' (transposed) while the Departmental Elective-V pool list (p.3) prints 'KCS079' — both recorded in that subject's codes.",
+  "L-T-P discrepancy: Mobile Computing (p.15), Internet of Things (p.16) and Cloud Computing (p.17) detailed-syllabus headers print '3-1-0' while the Semester-VII scheme table elective rows (p.2) print '3 0 0'; credit 3 appears only in the scheme table.",
+  "Scheme-table marks columns are flattened in the text layer; column assignment for every row verified via PyMuPDF word x-coordinates against header positions (L≈288, T≈308, P≈328, CT≈349, TA≈375, Total≈402, PS≈438, TE≈465, PE≈493, Total≈521, Credit≈560).",
+  "p.4 section heading prints 'SEVENT SEMESTER (DETAILED SYLLABUS)' (typo for SEVENTH) — verbatim.",
+  "Internet of Things CO-5 row label prints 'CP 5' instead of 'CO 5' (p.16); 'Ardunio' typo printed repeatedly in that subject.",
+  "Deep Learning unit III prints stray '9' after 'DIMENTIONALITY REDUCTION' (p.12); p.12 also prints 'Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc18_cs41/preview' after the text books.",
+  "Quantum Computing text-book list prints numbers 1, 2, 3 then 5 (no 4), with '5.' inline at the end of the book-3 line (p.14).",
+  "Design & Development Of Applications text book 5 wraps with '6.' in the list-number column ('...“Beginning iOS / 6. Development: Exploring the iOS SDK”, Apress, 2013.') (p.9).",
+  "Distributed System text book 4 line ends with inline '5.' before book 5 'Tenanuanbaum, Steen,…' (p.11).",
+  "Line-break dash joins: where a printed line ends with '-' or '–', the next line is joined without a space (batch convention, cf. draft 02 same unit text 'techniques-substitution'): e.g. 'techniques-substitution' p.8, 'High-Performance' p.7, 'Filter-Bank' p.5, 'Semi-supervised' p.12, 'Deep Learning-Backpropagation' p.12, 'Understanding-Gathering' p.12, 'Agents–Typical' p.4 (en-dash, matching the unspaced mid-line pattern 'Introduction–Definition' in the same sentence).",
+  "Project subject: Semester-VII scheme row prints name 'Project 1' for KIT753 while the CO heading prints 'Project (KIT753 , KIT851)' (p.19)."
+ ],
+ "flags": [
+  "2 subjects (Mini Project or Internship Assessment KIT354/KIT554/KIT752; Project KIT753/KIT851) print heading + CO/KL table only — no unit theory anywhere: flagged scheme_row_only_detailed_syllabus_not_printed (B23/B25/B27 class).",
+  "KHU701/KHU702, KHU801/KHU802 (HSMC) and KOE07X/KOE08X (Open Electives II/III/IV) appear only as scheme rows — no detailed syllabus in this document (recorded in non_subject_rows, not silently dropped).",
+  "KIT751A lab row is a scheme-row note only (department-defined practical list); recorded in non_subject_rows."
+ ]
+}

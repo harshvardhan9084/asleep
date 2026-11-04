@@ -1,0 +1,1517 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_it_y4_syllabus-cbcs_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "3275781ab6bad835",
+ "stem": "07_btech_it_y4_syllabus-cbcs_2019-20",
+ "course_verification": "Cover (p.1) prints 'Evaluation Scheme & Syllabus For B.Tech. Fourth Year (Information Technology) On Choice Based Credit System (Effective from the Session: 2019-20)'; scheme tables print 'B.Tech. (Information Technology)' VII & VIII SEMESTER with RCS/RIT-era codes -> canonical course BTech",
+ "subjects": [
+  {
+   "name": "Cryptography & Network Security",
+   "name_print": "Cryptography & Network Security",
+   "codes": [
+    "RIT701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to security attacks, services and mechanism, Classical encryption techniques-substitution ciphers and transposition ciphers, cryptanalysis, steganography, Stream and block ciphers. Modern Block Ciphers: Block ciphers principles, Shannon’s theory of confusion and diffusion, fiestal structure, Data encryption standard(DES), Strength of DES, Idea of differential cryptanalysis, block cipher modes of operations, Triple DES",
+    "2": "Introduction to group, field, finite field of the form GF(p), modular arithmetic, prime and relative prime numbers, Extended Euclidean Algorithm, Advanced Encryption Standard (AES) encryption and decryptionFermat’s and Euler’s theorem, Primarily testing, Chinese Remainder theorem, Discrete Logarithmic Problem,Principals of public key crypto systems, RSA algorithm, security of RSA",
+    "3": "Message Authentication Codes: Authentication requirements, authentication functions, message authentication code, hash functions, birthday attacks, security of hash functions, Secure hash algorithm (SHA) Digital Signatures: Digital Signatures, Elgamal Digital Signature Techniques, Digital signature standards (DSS), proof of digital signature algorithm,",
+    "4": "Key Management and distribution: Symmetric key distribution, Diffie-Hellman Key Exchange, Public key distribution, X.509 Certificates, Public key Infrastructure. Authentication Applications: Kerberos, Electronic mail security: pretty good privacy (PGP), S/MIME.",
+    "5": "IP Security: Architecture, Authentication header, Encapsulating security payloads, combining security associations, key management. Introduction to Secure Socket Layer, Secure electronic, transaction (SET) System Security: Introductory idea of Intrusion, Intrusion detection, Viruses and related threats, firewalls"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "William Stallings, “Cryptography and Network Security: Principals and Practice”, Pearson Education."
+    },
+    {
+     "no": 2,
+     "book": "Behrouz A. Frouzan: Cryptography and Network Security, Tata McGraw Hill"
+    },
+    {
+     "no": 3,
+     "book": "C K Shyamala, N Harini, Dr. T.R.Padmnabhan Cryptography and Security ,Wiley"
+    },
+    {
+     "no": 4,
+     "book": "Bruce Schiener, “Applied Cryptography”. John Wiley & Sons"
+    },
+    {
+     "no": 5,
+     "book": "Bernard Menezes,” Network Security and Cryptography”, Cengage Learning."
+    },
+    {
+     "no": 6,
+     "book": "AtulKahate, “Cryptography and Network Security”, Tata McGraw Hill"
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (scheme row 4), p.4 (detailed syllabus)",
+   "quirks": [
+    "Detailed heading (p.4) prints ALL-CAPS 'CRYPTOGRAPHY & NETWORK SECURITY' + 'DETAILED SYLLABUS' + '3-1-0'; no code printed on the detailed page — code RIT701 from the scheme table (p.2).",
+    "Printed typos kept verbatim: 'fiestal structure', 'decryptionFermat’s' (missing space), 'Primarily testing' (for Primality), 'Problem,Principals' (missing space), 'Principals and Practice' (book 1), 'Frouzan', 'Schiener', 'AtulKahate', 'T.R.Padmnabhan', 'Security ,Wiley'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Artificial Intelligence",
+   "name_print": "Artificial Intelligence",
+   "codes": [
+    "RCS702"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction: Introduction to Artificial Intelligence, Foundations and History of Artificial Intelligence, Applications of Artificial Intelligence, Intelligent Agents, Structure of Intelligent Agents. Computer vision, Natural Language Possessing.",
+    "2": "Introduction to Search : Searching for solutions, Uniformed search strategies, Informed search strategies, Local search algorithms and optimistic problems, Adversarial Search, Search for games, Alpha - Beta pruning",
+    "3": "Knowledge Representation & Reasoning: Propositional logic, Theory of first order logic, Inference in First order logic, Forward & Backward chaining, Resolution, Probabilistic reasoning, Utility theory, Hidden Markov Models (HMM), Bayesian Networks.",
+    "4": "Machine Learning : Supervised and unsupervised learning, Decision trees, Statistical learning models, Learning with complete data - Naive Bayes models, Learning with hidden data - EM algorithm, Reinforcement learning,",
+    "5": "Pattern Recognition : Introduction, Design principles of pattern recognition system, Statistical Pattern recognition, Parameter estimation methods - Principle Component Analysis (PCA) and Linear Discriminant Analysis (LDA), Classification Techniques – Nearest Neighbor (NN) Rule, Bayes Classifier, Support Vector Machine (SVM), K – means clustering."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Stuart Russell, Peter Norvig, “Artificial Intelligence – A Modern Approach”, Pearson Education"
+    },
+    {
+     "no": 2,
+     "book": "Elaine Rich and Kevin Knight, “Artificial Intelligence”, McGraw-Hill"
+    },
+    {
+     "no": 3,
+     "book": "E Charniak and D McDermott, “Introduction to Artificial Intelligence”, Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "Dan W. Patterson, “Artificial Intelligence and Expert Systems”, Prentice Hall of India,"
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (scheme row 5), p.5 (detailed syllabus)",
+   "quirks": [
+    "Detailed heading (p.5) prints ALL-CAPS 'ARTIFICIAL INTELLIGENCE' + 'DETAILED SYLLABUS' + '3-0-0'; no code printed on the detailed page — code RCS702 from the scheme table (p.2).",
+    "Printed typos kept verbatim: 'Natural Language Possessing' (Unit-I), 'Uniformed search strategies' and 'optimistic problems' (Unit-II), 'Principle Component Analysis' (Unit-V); Unit-IV ends with a trailing comma 'Reinforcement learning,'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Cryptography & Network Security Lab",
+   "name_print": "Cryptography & Network Security Lab",
+   "codes": [
+    "RIT751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0-0-2",
+   "credit": 1,
+   "marks": {
+    "ese_te_pe": 50,
+    "sessional_ta": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments_lead_in_print": "The following programs may be developed -",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write a C program that contains a string (char pointer) with a value \\Hello World’. The program should XOR each character in this string with 0 and displays the result."
+    },
+    {
+     "no": 2,
+     "exp": "Write a C program that contains a string (char pointer) with a value \\Hello World’. The program should AND or and XOR each character in this string with 127 and display the result"
+    },
+    {
+     "no": 3,
+     "exp": "Write a Java program to perform encryption and decryption using the following algorithms: a) Ceaser Cipher b) Substitution Cipher c) Hill Cipher"
+    },
+    {
+     "no": 4,
+     "exp": "Write a Java program to implement the DES algorithm logic"
+    },
+    {
+     "no": 5,
+     "exp": "Write a C/JAVA program to implement the BlowFish algorithm logic"
+    },
+    {
+     "no": 6,
+     "exp": "Write a C/JAVA program to implement the Rijndael algorithm logic."
+    },
+    {
+     "no": 7,
+     "exp": "Using Java Cryptography, encrypt the text “Hello world” using BlowFish. Create your own key using Java keytool."
+    },
+    {
+     "no": 8,
+     "exp": "Write a Java program to implement RSA Algoithm"
+    },
+    {
+     "no": 9,
+     "exp": "Implement the Diffie-Hellman Key Exchange mechanism using HTML and JavaScript. Consider the end user as one of the parties (Alice) and the JavaScript application as other party (bob)."
+    },
+    {
+     "no": 10,
+     "exp": "Calculate the message digest of a text using the SHA-1 algorithm in JAVA."
+    },
+    {
+     "no": 11,
+     "exp": "Calculate the message digest of a text using the SHA-1 algorithm in JAVA."
+    }
+   ],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (scheme row 6), p.5 (lab program list)",
+   "quirks": [
+    "Lab subject: no unit theory printed anywhere — only the lead-in 'The following programs may be developed -' + 11 numbered programs (p.5).",
+    "Scheme table (p.2) row prints marks 50 | (blank CT cell) | 50 | 100: ESE-column 50, CT printed blank, TA 50, Total 100 — blank CT omitted per zero-guess rule; column assignment confirmed by the printed VII-semester TOTAL row (ESE 450 = 70×5+50+50; TA 450 = 10×5+50+50+100+200).",
+    "Text-layer decode artifact: opening quote glyph decodes as backslash in programs 1-2 ('a value \\Hello World’.') — transcribed verbatim.",
+    "Programs 10 and 11 print identically ('Calculate the message digest of a text using the SHA-1 algorithm in JAVA.') — duplicate print kept verbatim.",
+    "Printed typos kept verbatim: 'Ceaser Cipher', 'Algoithm', 'BlowFish'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Artificial Intelligence Lab",
+   "name_print": "Artificial Intelligence Lab",
+   "codes": [
+    "RCS752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "0-0-2",
+   "credit": 1,
+   "marks": {
+    "ese_te_pe": 50,
+    "sessional_ta": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments_lead_in_print": "The following programs may be developed -",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of Prolog."
+    },
+    {
+     "no": 2,
+     "exp": "Write simple fact for the statements using PROLOG."
+    },
+    {
+     "no": 3,
+     "exp": "Write predicates One converts centigrade temperatures to Fahrenheit, the other checks if a temperature is below freezing."
+    },
+    {
+     "no": 4,
+     "exp": "Write a program to solve the Monkey Banana problem."
+    },
+    {
+     "no": 5,
+     "exp": "WAP in turbo prolog for medical diagnosis and show the advantage and disadvantage of green and red cuts."
+    },
+    {
+     "no": 6,
+     "exp": "WAP to implement factorial, fibonacci of a given number."
+    },
+    {
+     "no": 7,
+     "exp": "Write a program to solve 4-Queen problem."
+    },
+    {
+     "no": 8,
+     "exp": "Write a program to solve traveling salesman problem."
+    },
+    {
+     "no": 9,
+     "exp": "Write a program to solve water jug problem using LISP"
+    }
+   ],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (scheme row 7), p.6 (lab program list)",
+   "quirks": [
+    "Lab subject: no unit theory printed anywhere — only the lead-in 'The following programs may be developed -' + 9 numbered programs (p.6); heading prints title-case 'Artificial Intelligence Lab' (unlike the ALL-CAPS theory headings).",
+    "Scheme table (p.2) row prints 50 | 50 | 100 (no blank-cell line for CT): ESE-column 50, TA 50, Total 100, matching sibling lab RIT751 whose CT cell is printed blank — column assignment confirmed by the printed VII-semester TOTAL row.",
+    "Program 3 prints 'One' capitalized mid-sentence; kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Graphics",
+   "name_print": "Computer Graphics",
+   "codes": [
+    "RIT070"
+   ],
+   "semester": 7,
+   "elective_slot_print": "IT-ELECTIVE -3",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction and Line Generation: Types of computer graphics, Graphic Displays- Random scan displays, Raster scan displays, Frame buffer and video controller, Points and lines, Line drawing algorithms, Circle generating algorithms, Mid-point circle generating algorithm, and parallel version of these algorithms.",
+    "2": "Transformations: Basic transformation, Matrix representations and homogenous coordinates, Composite transformations, Reflections and shearing. Windowing and Clipping: Viewing pipeline, Viewing transformations, 2-D Clipping algorithms- Line clipping algorithms such as Cohen Sutherland line clipping algorithm, Liang Barsky algorithm, Line clipping against non rectangular clip windows; Polygon clipping – Sutherland Hodgeman polygon clipping, Weiler and Atherton polygon clipping, Curve clipping, Text clipping",
+    "3": "Three Dimensional: 3-D Geometric Primitives, 3-D Object representation, 3-D Transformation, 3-D viewing, projections, 3-D Clipping.",
+    "4": "Curves and Surfaces:  Quadric surfaces, Spheres, Ellipsoid, Blobby objects, Introductory concepts of Spline, Bspline and Bezier curves and surfaces.",
+    "5": "Hidden Lines and Surfaces: Back Face Detection algorithm, Depth buffer method, A- buffer method, Scan line method, basic illumination models– Ambient light, Diffuse reflection, Specular reflection and Phong model, Combined approach, Warn model, Intensity Attenuation, Color consideration, Transparency and Shadows."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Donald Hearn and M Pauline Baker, “Computer Graphics C Version”, Pearson Education"
+    },
+    {
+     "no": 2,
+     "book": "Foley, Vandam, Feiner, Hughes – “Computer Graphics principle”, Pearson Education."
+    },
+    {
+     "no": 3,
+     "book": "Rogers, “ Procedural Elements of Computer Graphics”, McGraw Hill"
+    },
+    {
+     "no": 4,
+     "book": "W. M. Newman, R. F. Sproull – “Principles of Interactive computer Graphics” – Tata MCGraw Hill."
+    },
+    {
+     "no": 5,
+     "book": "Amrendra N Sinha and Arun D Udai,” Computer Graphics”, Tata MCGraw Hill."
+    },
+    {
+     "no": 6,
+     "book": "R.K. Maurya, “Computer Graphics ” Wiley Dreamtech Publication."
+    },
+    {
+     "no": 7,
+     "book": "Mukherjee, Fundamentals of Computer graphics & Multimedia, PHI Learning Private Limited."
+    },
+    {
+     "no": 8,
+     "book": "Donald Hearn and M Pauline Baker, “Computer Graphics with OpenGL”, Pearson education"
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (elective pool IT-ELECTIVE -3 item 1; scheme row 2), p.6 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.2) prints '1. RIT070  Computer Graphics' under 'IT-ELECTIVE -3' (with stray space: 'IT-ELECTIVE -3'); detailed heading (p.6) prints ALL-CAPS 'COMPUTER GRAPHICS' + 'DETAILED SYLLABUS' + '3-0-0' with no code.",
+    "Marks/credit taken from the printed IT Elective-3 scheme row (p.2): 70/20/10/100, credit 3, L-T-P 3--0--0.",
+    "Text-book list (p.6): item 1 prints WITHOUT a list number (the '1.' token is missing before 'Donald Hearn...'); numbering 2-8 present.",
+    "Printed typos kept verbatim: 'homogenous coordinates', 'Graphic Displays- Random', '“ Procedural' (stray space), 'Vandam' (for Van Dam), 'models– Ambient' (unspaced dash), 'Warn model' (for Warnock)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Application of Soft Computing",
+   "name_print": "Application of  Soft Computing",
+   "codes": [
+    "RCS071"
+   ],
+   "semester": 7,
+   "elective_slot_print": "IT-ELECTIVE -3",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Neural Networks-I (Introduction & Architecture) : Neuron, Nerve structure and synapse, Artificial Neuron and its model, activation functions, Neural network architecture: single layer and multilayer feed forward networks, recurrent networks. Various learning techniques; perception and convergence rule, Auto-associative and hetro-associative memory.",
+    "2": "Neural Networks-II (Back propogation networks): Architecture: perceptron model, solution, single layer artificial neural network, multilayer perception model; back propogation learning methods, effect of learning rule co-efficient ;back propagation algorithm, factors affecting backpropagation training, applications.",
+    "3": "Fuzzy Logic-I (Introduction): Basic concepts of fuzzy logic, Fuzzy sets and Crisp sets, Fuzzy set theory and operations, Properties of fuzzy sets, Fuzzy and Crisp relations, Fuzzy to Crisp conversion.",
+    "4": "Fuzzy Logic –II (Fuzzy Membership, Rules) : Membership functions, interference in fuzzy logic, fuzzy if-then rules, Fuzzy implications and Fuzzy algorithms, Fuzzyfications & Defuzzificataions, Fuzzy Controller, Industrial applications",
+    "5": "Genetic Algorithm(GA): Basic concepts, working principle, procedures of GA, flow chart of GA, Genetic representations, (encoding) Initialization and selection, Genetic operators, Mutation, Generational Cycle, applications."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "S. Rajsekaran & G.A. Vijayalakshmi Pai, “Neural Networks,Fuzzy Logic and Genetic Algorithm:Synthesis and Applications” Prentice Hall of India."
+    },
+    {
+     "no": 2,
+     "book": "N.P.Padhy,”Artificial Intelligence and Intelligent Systems” Oxford University Press."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 3,
+     "book": "Siman Haykin,”Neural Netowrks”Prentice Hall of India"
+    },
+    {
+     "no": 4,
+     "book": "Timothy J. Ross, “Fuzzy Logic with Engineering Applications” Wiley India."
+    },
+    {
+     "no": 5,
+     "book": "Kumar Satish, “Neural Networks” Tata Mc Graw Hill"
+    }
+   ],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (elective pool IT-ELECTIVE -3 item 2; scheme row 2), p.7 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.2) prints '2. RCS071  Application of  Soft Computing' (double space in print, kept in name_print); detailed heading (p.7) prints ALL-CAPS 'APPLICATION OF  SOFT COMPUTING' + 'DETAILED SYLLABUS' + '3-0-0' with no code.",
+    "The 'Reference Books:' label is printed INLINE at the end of text-book item 2's line ('...Oxford University Press. Reference Books:'); items 3-5 are therefore recorded as reference_books (continuation numbering 3/4/5 as printed).",
+    "Printed typos kept verbatim: 'hetro-associative', 'Back propogation', 'perception model' (for perceptron), 'co-efficient ;back' (stray space before semicolon, none after), 'Fuzzyfications & Defuzzificataions', 'interference in fuzzy logic' (for inference), 'Rajsekaran', 'Networks,Fuzzy Logic...Algorithm:Synthesis' (unspaced commas/colon), 'Siman Haykin', 'Netowrks', '”Neural Netowrks”Prentice' (unspaced quotes)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "High Performance Computing",
+   "name_print": "High Performance Computing",
+   "codes": [
+    "RCS072"
+   ],
+   "semester": 7,
+   "elective_slot_print": "IT-ELECTIVE -3",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Overview of Grid Computing Technology, History of Grid Computing, High Performance Computing, Cluster Computing. Peer-to-Peer Computing, Internet Computing, Grid Computing Model and Protocols, Types of Grids: Desktop Grids, Cluster Grids, Data Grids, High-Performance Grids, Applications and Architectures of High Performance Grids, High Performance Application Development Environment.",
+    "2": "Open Grid Services Architecture, Introduction, Requirements, Capabilities, Security Considerations, GLOBUS Toolkit.",
+    "3": "Overview of Cluster Computing, Cluster Computer and its Architecture, Clusters Classifications, Components for Clusters, Cluster Middleware and SSI, Resource Management and Scheduling, Programming, Environments and Tools, Cluster Applications, Cluster Systems,",
+    "4": "Beowulf Cluster: The Beowulf Model, Application Domains, Beowulf System Architecture, Software Practices, Parallel Programming with MPL, Parallel Virtual Machine (PVM).",
+    "5": "Overview of Cloud Computing, Types of Cloud, Cyber infrastructure, Service Oriented Architecture Cloud Computing Components: Infrastructure, Storage, Platform, Application, Services, Clients, Cloud Computing Architecture."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Laurence T.Yang, Minyi Guo – High Performance Computing Paradigm and Infrastructure John Wiley"
+    },
+    {
+     "no": 2,
+     "book": "Ahmar Abbas, “Grid Computing: Practical Guide to Technology & Applications”, Firewall Media, 2004."
+    },
+    {
+     "no": 3,
+     "book": "Joshy Joseph and Craig Fellenstein , “Grid Computing” Pearson Education, 2004."
+    },
+    {
+     "no": 4,
+     "book": "lan Foster, et al.,“The Open Grid Services Architecture”, Version 1.5 (GFD.80). Open Grid Forum, 2006."
+    },
+    {
+     "no": 6,
+     "book": "RajkumarBuyya. High Performance Cluster Computing: Architectures and Systems. PrenticeHall India, 1999."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (elective pool IT-ELECTIVE -3 item 3; scheme row 2), p.8 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.2) prints '3. RCS072  High Performance Computing'; detailed heading (p.8) prints ALL-CAPS 'HIGH PERFORMANCE COMPUTING' + 'DETAILED SYLLABUS' + '3-0-0' with no code.",
+    "Unit-II (p.8) prints one word per line (justified-text token fragmentation in the text layer); joined with single spaces into the printed sentence.",
+    "Text-book list (p.8) prints numbering 1, 2, 3, 4, 6 — item 5 is missing (jump to '6.'); recorded verbatim with printed numbers.",
+    "Unit-III ends with trailing comma 'Cluster Systems,' — verbatim.",
+    "Printed typos kept verbatim: 'lan Foster' (for Ian), 'RajkumarBuyya' and 'PrenticeHall' (missing spaces), 'Laurence T.Yang'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Human Computer Interface",
+   "name_print": "Human Computer Interface",
+   "codes": [
+    "RCS073"
+   ],
+   "semester": 7,
+   "elective_slot_print": "IT-ELECTIVE -3",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction : Importance of user Interface – definition, importance of 8 good design. Benefits of good design. A brief history of Screen design. The graphical user interface – popularity of graphics, the concept of direct manipulation, graphical system, Characteristics, Web user – Interface popularity, characteristics- Principles of user interface",
+    "2": "Design process: Human interaction with computers, importance of 8 human characteristics human consideration, Human interaction speeds, understanding business junctions. III Screen Designing : Design goals – Scre",
+    "3": "Screen Designing : Design goals – Screen planning and purpose, 8 organizing screen elements, ordering of screen data and content – screen navigation and flow – Visually pleasing composition – amount of information – focus and emphasis – presentation information simply and meaningfully – information retrieval on web – statistical graphics – Technological consideration in interface design.",
+    "4": "Windows : New and Navigation schemes selection of window, 8 selection of devices based and screen based controls. Components – text and messages, Icons and increases – Multimedia, colors, uses problems, choosing colors",
+    "5": "Software tools : Specification methods, interface – Building Tools. 8 Interaction Devices – Keyboard and function keys – pointing devices – speech recognition digitization and generation – image and video displays – drivers."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Alan Dix, Janet Finlay, Gregory Abowd, Russell Beale Human Computer Interaction, 3rd Edition Prentice Hall, 2004."
+    },
+    {
+     "no": 2,
+     "book": "Jonathan Lazar Jinjuan Heidi Feng, Harry Hochheiser, Research Methods in HumanComputer Interaction, Wiley, 2010."
+    },
+    {
+     "no": 3,
+     "book": "Ben Shneiderman and Catherine Plaisant Designing the User Interface: Strategies for Effective Human-Computer Interaction (5th Edition, pp. 672, ISBN 0- 321-53735-1, March 2009), Reading, MA: Addison-Wesley Publishing Co."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (elective pool IT-ELECTIVE -3 item 4; scheme row 2), p.9 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.2) prints '4. RCS073  Human Computer Interface'; detailed heading (p.9) prints ALL-CAPS 'HUMAN COMPUTER INTERFACE' + 'DETAILED SYLLABUS' + '3-0-0' with no code.",
+    "Stray '8' tokens print inside the unit text ('importance of 8 good design', 'importance of 8 human characteristics', '8 organizing screen elements', 'selection of window, 8 selection of devices', 'Building Tools. 8 Interaction Devices') while each unit row also ends with the '08' Proposed-Lecture value — column-bleed artifact of the table print, transcribed verbatim.",
+    "Unit-II cell ends mid-word with 'III Screen Designing : Design goals – Scre' — the Unit-III opening ('Screen Designing : Design goals – Scre...') bleeds into the Unit-II row truncated at 'Scre'; Unit-III row then restarts the same sentence. Transcribed verbatim as printed.",
+    "Printed typos kept verbatim: 'importance of 8 good design', 'business junctions', 'Icons and increases', 'HumanComputer Interaction' (book 2), 'characteristics- Principles' (unspaced dash)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Cloud Computing",
+   "name_print": "Cloud Computing",
+   "codes": [
+    "RCS075"
+   ],
+   "semester": 7,
+   "elective_slot_print": "IT-ELECTIVE-4",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION Introduction to Cloud Computing – Definition of Cloud – Evolution of Cloud Computing – Underlying Principles of Parallel and Distributed Computing – Cloud Characteristics – Elasticity in Cloud – On-demand Provisioning.",
+    "2": "CLOUD ENABLING TECHNOLOGIES Service Oriented Architecture – REST and Systems of Systems – Web Services – Publish-Subscribe Model – Basics of Virtualization – Types of Virtualization – Implementation Levels of Virtualization – Virtualization Structures – Tools and Mechanisms – Virtualization of CPU – Memory – I/O Devices –Virtualization Support and Disaster Recovery.",
+    "3": "CLOUD ARCHITECTURE, SERVICES AND STORAGE Layered Cloud Architecture Design – NIST Cloud Computing Reference Architecture – Public, Private and Hybrid Clouds – laaS – PaaS – SaaS – Architectural Design Challenges – Cloud Storage – Storage-as-a-Service – Advantages of Cloud Storage – Cloud Storage Providers – S3.",
+    "4": "RESOURCE MANAGEMENT AND SECURITY IN CLOUD Inter Cloud Resource Management – Resource Provisioning and Resource Provisioning Methods – Global Exchange of Cloud Resources – Security Overview – Cloud Security Challenges – Software-as-a-Service Security – Security Governance – Virtual Machine Security – IAM – Security Standards.",
+    "5": "CLOUD TECHNOLOGIES AND ADVANCEMENTS Hadoop – MapReduce – Virtual Box — Google App Engine – Programming Environment for Google App Engine –– Open Stack – Federation in the Cloud – Four Levels of Federation – Federated Services and Applications – Future of Federation."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Kai Hwang, Geoffrey C. Fox, Jack G. Dongarra, “Distributed and Cloud Computing, From Parallel Processing to the Internet of Things”, Morgan Kaufmann Publishers, 2012."
+    },
+    {
+     "no": 2,
+     "book": "Rittinghouse, John W., and James F. Ransome, ―Cloud Computing: Implementation, Management and Security, CRC Press, 2017."
+    },
+    {
+     "no": 3,
+     "book": "Rajkumar Buyya, Christian Vecchiola, S. ThamaraiSelvi, ―Mastering Cloud Computing, Tata Mcgraw Hill, 2013."
+    },
+    {
+     "no": 4,
+     "book": "Toby Velte, Anthony Velte, Robert Elsenpeter, “Cloud Computing – A Practical Approach, Tata Mcgraw Hill, 2009."
+    },
+    {
+     "no": 5,
+     "book": "George Reese, “Cloud Application Architectures: Building Applications and Infrastructure in the Cloud: Transactional Systems for EC2 and Beyond (Theory in Practice), O’Reilly, 2009."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-4 item 1), p.2 (scheme row 3), p.10 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '1. RCS075  Cloud Computing' (no MOOCS mapping printed for this item); detailed heading (p.10) prints ALL-CAPS 'CLOUD COMPUTING' + 'DETAILED SYLLABUS' + '3-1-0' with no code.",
+    "Each unit cell opens with an ALL-CAPS printed sub-heading followed by the running text on the same line (e.g. 'INTRODUCTION Introduction to Cloud Computing –...'); transcribed verbatim.",
+    "Printed typos/artifacts kept verbatim: 'laaS' (lowercase L for IaaS), '–Virtualization' (unspaced dash, Unit-II), em-dash '—' after 'Virtual Box' and double '––' after 'Engine' (Unit-V), book 4's unclosed quote ('“Cloud Computing – A Practical Approach, Tata Mcgraw Hill, 2009.'), '―' quote-dash decode artifacts in books 2-3."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Blockchain Architecture Design",
+   "name_print": "Blockchain Architecture Design",
+   "codes": [
+    "RCS076"
+   ],
+   "semester": 7,
+   "elective_slot_print": "IT-ELECTIVE-4",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to Blockchain:  Digital Money to Distributed Ledgers , Design Primitives: Protocols, Security, Consensus, Permissions, Privacy. Blockchain Architecture and Design: Basic crypto primitives: Hash, Signature,) Hashchain to Blockchain, Basic consensus mechanisms",
+    "2": "Consensus: Requirements for the consensus protocols, Proof of Work (PoW), Scalability aspects of Blockchain consensus protocols Permissioned Blockchains:Design goals, Consensus protocols for Permissioned Blockchains",
+    "3": "Hyperledger Fabric (A): Decomposing the consensus process , Hyperledger fabric components, Chaincode Design and Implementation Hyperledger Fabric (B):  Beyond Chaincode: fabric SDK and Front End (b) Hyperledger composer tool",
+    "4": "Use case 1 : Blockchain in Financial Software and Systems (FSS): (i) Settlements, (ii) KYC, (iii) Capital markets, (iv) Insurance Use case 2: Blockchain in trade/supply chain: (i) Provenance of goods, visibility, trade/supply chain finance, invoice management discounting, etc",
+    "5": "Use case 3: Blockchain for Government: (i) Digital identity, land records and other kinds of record keeping between government entities, (ii) public distribution system social welfare systems Blockchain Cryptography, Privacy and Security on Blockchain"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Mstering Bitcoin: Unlocking Digital Cryptocurrencies, by Andreas Antonopoulos"
+    },
+    {
+     "no": 2,
+     "book": "Blockchain by Melanie Swa, O’Reilly"
+    },
+    {
+     "no": 3,
+     "book": "Hyperledger Fabric - https://www.hyperledger.org/projects/fabric"
+    },
+    {
+     "no": 4,
+     "book": "Zero to Blockchain - An IBM Redbooks course, by Bob Dill, David Smits - https://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/crse0401.html"
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-4 item 2), p.2 (scheme row 3), p.11 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '2. RCS076  Blockchain Architecture Design' (no MOOCS mapping); detailed heading (p.11) prints ALL-CAPS 'BLOCKCHAIN ARCHITECTURE DESIGN' + 'DETAILED SYLLABUS' + '3-1-0' with no code.",
+    "Unit-I prints a stray close-parenthesis: 'Hash, Signature,) Hashchain to Blockchain'; 'Ledgers , Design' has a space before the comma — verbatim.",
+    "Unit-II prints 'Permissioned Blockchains:Design goals' (missing space after colon) — verbatim.",
+    "Book 4 (p.11) prints one word per line across ~14 lines (justified-text token fragmentation); joined into the printed sentence with the URL verbatim.",
+    "Printed typos kept verbatim: 'Mstering Bitcoin' (book 1), 'Melanie Swa' (book 2, for Swan)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Agile Software Development",
+   "name_print": "Agile Software Development",
+   "codes": [
+    "RCS077"
+   ],
+   "semester": 7,
+   "elective_slot_print": "IT-ELECTIVE-4",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "AGILE METHODOLOGY Theories for Agile Management – Agile Software Development – Traditional Model vs. Agile Model – Classification of Agile Methods – Agile Manifesto and Principles – Agile Project Management – Agile Team Interactions – Ethics in Agile Teams – Agility in Design, Testing – Agile Documentations – Agile Drivers, Capabilities and Values",
+    "2": "AGILE PROCESSES Lean Production – SCRUM, Crystal, Feature Driven Development- Adaptive Software Development – Extreme Programming: Method Overview – Lifecycle – Work Products, Roles and Practices.",
+    "3": "AGILITY AND KNOWLEDGE MANAGEMENT Agile Information Systems – Agile Decision Making – Earl‗S Schools of KM – Institutional Knowledge Evolution Cycle – Development, Acquisition, Refinement, Distribution, Deployment , Leveraging – KM in Software Engineering – Managing Software Knowledge – Challenges of Migrating to Agile Methodologies – Agile Knowledge Sharing – Role of Story-Cards – Story-Card Maturity Model (SMM).",
+    "4": "AGILITY AND REQUIREMENTS ENGINEERING Impact of Agile Processes in RE–Current Agile Practices – Variance – Overview of RE Using Agile – Managing Unstable Requirements – Requirements Elicitation – Agile Requirements Abstraction Model – Requirements Management in Agile Environment, Agile Requirements Prioritization – Agile Requirements Modeling and Generation – Concurrency in Agile Requirements Generation.",
+    "5": "AGILITY AND QUALITY ASSURANCE Agile Product Development – Agile Metrics – Feature Driven Development (FDD) – Financial and Production Metrics in FDD – Agile Approach to Quality Assurance – Test Driven Development – Agile Approach in Global Software Development."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "David J. Anderson and Eli Schragenheim, \"Agile Management for Software Engineering: Applying the Theory of Constraints for Business Results\", Prentice Hall, 2003."
+    },
+    {
+     "no": 2,
+     "book": "Hazza and Dubinsky, \"Agile Software Engineering, Series: Undergraduate Topics in Computer Science\", Springer, 2009."
+    },
+    {
+     "no": 3,
+     "book": "Craig Larman, \"Agile and Iterative Development: A Managers Guide\", Addison-Wesley, 2004."
+    },
+    {
+     "no": 4,
+     "book": "Kevin C. Desouza, \"Agile Information Systems: Conceptualization, Construction, and Management\", Butterworth-Heinemann, 2007."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-4 item 3), p.2 (scheme row 3), p.12 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '3. RCS077  Agile Software Development' (no MOOCS mapping); detailed heading (p.12) prints ALL-CAPS 'AGILE SOFTWARE DEVELOPMENT' + 'DETAILED SYLLABUS' + '3-1-0' with no code.",
+    "Unit cells open with ALL-CAPS printed sub-headings followed by running text on the same line — verbatim.",
+    "Printed artifacts kept verbatim: 'Earl‗S Schools of KM' (Unit-III, double-low-quote decode artifact), 'Deployment , Leveraging' (space before comma), 'Development- Adaptive' and 'RE–Current' (unspaced dashes), 'Documentations'.",
+    "Book titles print with straight double quotes (unlike the curly quotes elsewhere in the document) — verbatim; book 2 author prints 'Hazza and Dubinsky'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Augmented & Virtual Reality",
+   "name_print": "Augmented & Virtual Reality",
+   "codes": [
+    "RCS078"
+   ],
+   "semester": 7,
+   "elective_slot_print": "IT-ELECTIVE-4",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "VIRTUAL REALITY AND VIRTUAL ENVIRONMENTS: The historical development of VR: Scientific landmarks Computer Graphics, Real-time computer graphics, Flight simulation, Virtual environments, Requirements for VR, benefits of Virtual reality.  HARDWARE TECHNOLOGIES FOR 3D USER INTERFACES: Visual Displays Auditory Displays, Haptic Displays, Choosing Output Devices for 3D User Interfaces.",
+    "2": "3D USER INTERFACE INPUT HARDWARE: Input device characteristics, Desktop input devices, Tracking Devices, 3D Mice, Special Purpose Input Devices, Direct Human Input, Home - Brewed Input Devices, Choosing Input Devices for 3D Interfaces.",
+    "3": " SOFTWARE TECHNOLOGIES: Database - World Space, World Coordinate, World Environment, Objects - Geometry, Position / Orientation, Hierarchy, Bounding Volume, Scripts and other attributes, VR Environment - VR Database, Tessellated Data, LODs, Cullers and Occluders, Lights and Cameras, Scripts, Interaction - Simple, Feedback, Graphical User Interface, Control Panel, 2D Controls, Hardware Controls, Room / Stage / Area Descriptions, World Authoring and Playback, VR toolkits, Available software in the market",
+    "4": "3D INTERACTION TECHNIQUES: 3D Manipulation tasks, Manipulation Techniques and Input Devices, Interaction Techniques for 3D Manipulation, Deign Guidelines - 3D Travel Tasks, Travel Techniques, Design Guidelines - Theoretical Foundations of Wayfinding, User Centered Wayfinding Support, Environment Centered Wayfinding Support, Evaluating Wayfinding Aids, Design Guidelines - System Control, Classification, Graphical Menus, Voice Commands, Gestrual Commands, Tools, Mutimodal System Control Techniques, Design Guidelines, Case Study: Mixing System Control Methods, Symbolic Input Tasks, symbolic Input Techniques, Design Guidelines, Beyond Text and Number entry . DESIGNING AND DEVELOPING 3D USER INTERFACES: Strategies for Designing and Developing Guidelines and Evaluation. VIRTUAL REALITY APPLICATIONS: Engineering, Architecture, Education, Medicine, Entertainment, Science, Training.",
+    "5": "Augmented and Mixed Reality, Taxonomy, technology and features of augmented reality, difference between AR and VR, Challenges with AR, AR systems and functionality, Augmented reality methods, visualization techniques for augmented reality, wireless displays in educational augmented reality applications, mobile projection interfaces, marker-less tracking for augmented reality, enhancing interactivity in AR environments, evaluating AR systems."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Alan B Craig, William R Sherman and Jeffrey D Will, “Developing Virtual Reality Applications: Foundations of Effective Design”, Morgan Kaufmann, 2009."
+    },
+    {
+     "no": 2,
+     "book": "Gerard Jounghyun Kim, “Designing Virtual Systems: The Structured Approach”, 2005."
+    },
+    {
+     "no": 3,
+     "book": "Doug A Bowman, Ernest Kuijff, Joseph J LaViola, Jr and Ivan Poupyrev, “3D User Interfaces, Theory and Practice”, Addison Wesley, USA, 2005."
+    },
+    {
+     "no": 4,
+     "book": "Oliver Bimber and Ramesh Raskar, “Spatial Augmented Reality: Meging Real and Virtual Worlds”, 2005."
+    },
+    {
+     "no": 5,
+     "book": "Burdea, Grigore C and Philippe Coiffet, “Virtual Reality Technology”, Wiley Interscience, India, 2003."
+    },
+    {
+     "no": 6,
+     "book": "John Vince, “Virtual Reality Systems”, Addison Wesley, 1995."
+    },
+    {
+     "no": 7,
+     "book": "Howard Rheingold, “Virtual Reality: The Revolutionary Technology and how it Promises to Transform Society”, Simon and Schuster, 1991."
+    },
+    {
+     "no": 8,
+     "book": "William R Sherman and Alan B Craig, “Understanding Virtual Reality: Interface, Application and Design (The Morgan Kaufmann Series in Computer Graphics)”. Morgan Kaufmann Publishers, San Francisco, CA, 2002"
+    },
+    {
+     "no": 9,
+     "book": "Alan B. Craig, Understanding Augmented Reality, Concepts and Applications, Morgan Kaufmann, 2013."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-4 item 4), p.2 (scheme row 3), p.13-14 (detailed syllabus; text books 1-3 on p.13, continue on p.14)",
+   "quirks": [
+    "Elective pool list (p.3) prints '4. RCS078 Augmented & Virtual Reality' (single space after code here, unlike other items); detailed heading (p.13) prints ALL-CAPS 'AUGMENTED & VIRTUAL REALITY' + 'DETAILED SYLLABUS' + '3-1-0' with no code.",
+    "Unit-IV is a very long cell containing three ALL-CAPS sub-sections ('3D INTERACTION TECHNIQUES:', 'DESIGNING AND DEVELOPING 3D USER INTERFACES:', 'VIRTUAL REALITY APPLICATIONS:') — transcribed verbatim.",
+    "Book 3's title runs across the page break p.13→p.14 ('...Theory and Practice”, / Addison Wesley, USA, 2005.') — joined.",
+    "Printed typos kept verbatim: 'Deign Guidelines', 'Gestrual Commands', 'Mutimodal System Control', 'Number entry .' (space before period), 'Home - Brewed', 'Meging Real and Virtual Worlds' (book 4)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Machine Learning",
+   "name_print": "Machine Learning",
+   "codes": [
+    "RCS080"
+   ],
+   "semester": 8,
+   "elective_slot_print": "IT-ELECTIVE-5",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION – Well defined learning problems, Designing a Learning System, Issues in Machine Learning; THE CONCEPT LEARNING TASK - General-to-specific ordering of hypotheses, Find-S, List then eliminate algorithm, Candidate elimination algorithm, Inductive bias",
+    "2": "DECISION TREE LEARNING - Decision tree learning algorithm-Inductive bias- Issues in Decision tree learning;  ARTIFICIAL NEURAL NETWORKS – Perceptrons, Gradient descent and the Delta rule, Adaline, Multilayer networks, Derivation of backpropagation rule Backpropagation AlgorithmConvergence, Generalization;",
+    "3": "Evaluating Hypotheses: Estimating Hypotheses Accuracy, Basics of sampling Theory, Comparing Learning Algorithms;  Bayesian Learning: Bayes theorem, Concept learning, Bayes Optimal Classifier, Naïve Bayes classifier, Bayesian belief networks, EM algorithm;",
+    "4": "Computational Learning Theory: Sample Complexity for Finite Hypothesis spaces, Sample Complexity for Infinite Hypothesis spaces, The Mistake Bound Model of Learning;  INSTANCE-BASED LEARNING – k-Nearest Neighbour Learning, Locally Weighted Regression, Radial basis function networks, Case-based learning",
+    "5": "Genetic Algorithms: an illustrative example, Hypothesis space search, Genetic Programming, Models of Evolution and Learning; Learning first order rules-sequential covering algorithms-General to specific beam search-FOIL; REINFORCEMENT LEARNING - The Learning Task, Q Learning."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Tom M. Mitchell, ―Machine Learning, McGraw-Hill Education (India) Private Limited, 2013."
+    },
+    {
+     "no": 2,
+     "book": "Ethem Alpaydin, ―Introduction to Machine Learning (Adaptive Computation and Machine Learning), The MIT Press 2004."
+    },
+    {
+     "no": 3,
+     "book": "Stephen Marsland, ―Machine Learning: An Algorithmic Perspective, CRC Press, 2009."
+    },
+    {
+     "no": 4,
+     "book": " Bishop, C., Pattern Recognition and Machine Learning. Berlin: Springer-Verlag."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-5 item 1 with MOOCS links), p.2 (scheme row 2 of VIII table), p.14 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '1. RCS080  Machine Learning  (Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc17_cs17/preview https://onlinecourses.nptel.ac.in/noc17_cs26/preview)' — MOOCS links recorded in non_subject_rows; detailed heading (p.14) prints ALL-CAPS 'MACHINE LEARNING' + 'DETAILED SYLLABUS' + '3-1-0' with no code.",
+    "Printed artifacts kept verbatim: 'Backpropagation AlgorithmConvergence' (missing space, Unit-II), 'algorithm-Inductive bias- Issues' (unspaced dashes), 'rules-sequential covering algorithms-General to specific beam search-FOIL' (unspaced dashes, Unit-V).",
+    "Text-book lines 1-3 print a '―' quote-dash decode artifact before the title ('Tom M. Mitchell, ―Machine Learning,...'); book 4 prints a leading space after '4.' — verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Game Programming",
+   "name_print": "Game Programming",
+   "codes": [
+    "RCS081"
+   ],
+   "semester": 8,
+   "elective_slot_print": "IT-ELECTIVE-5",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "3D GRAPHICS FOR GAME PROGRAMMING : 3D Transformations, Quaternions, 3D Modeling And Rendering, Ray Tracing, Shader Models, Lighting, Color, Texturing, Camera And Projections, Culling And Clipping, Character Animation, Physics-Based Simulation, Scene Graphs.",
+    "2": "GAME ENGINE DESIGN: Game Engine Architecture, Engine Support Systems, Resources And File Systems, Game Loop And Real-Time Simulation, Human Interface Devices, Collision And Rigid Body Dynamics, Game Profiling.",
+    "3": "GAME PROGRAMMING : Application Layer, Game Logic, Game Views, Managing Memory, Controlling The Main Loop, Loading And Caching Game Data, User Interface Management, Game Event Management.",
+    "4": "GAMING PLATFORMS AND FRAMEWORKS: 2D And 3D Game Development Using Flash, DirectX, Java, Python, Game Engines – DX Studio, Unity.",
+    "5": "GAME DEVELOPMENT: Developing 2D And 3D Interactive Games Using DirectX Or Python – Isometric And Tile Based Games, Puzzle Games, Single Player Games, Multi Player Games."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Mike Mc Shaffrfy And David Graham, “Game Coding Complete”, Fourth Edition, Cengage Learning, PTR, 2012."
+    },
+    {
+     "no": 2,
+     "book": "Jason Gregory, “Game Engine Architecture”, CRC Press / A K Peters, 2009."
+    },
+    {
+     "no": 3,
+     "book": "David H. Eberly, “3D Game Engine Design, Second Edition: A Practical Approach To Real-Time Computer Graphics” 2nd Editions, Morgan Kaufmann, 2006."
+    },
+    {
+     "no": 4,
+     "book": "Ernest Adams And Andrew Rollings, “Fundamentals Of Game Design”, 2nd Edition Prentice Hall / New Riders, 2009."
+    },
+    {
+     "no": 5,
+     "book": "Eric Lengyel, “Mathematics For 3D Game Programming And Computer Graphics”, 3rd Edition, Course Technology PTR, 2011."
+    },
+    {
+     "no": 6,
+     "book": "Jesse Schell, The Art Of Game Design: A Book Of Lenses, 1st Edition, CRC Press, 2008."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-5 item 2), p.2 (scheme row 2 of VIII table), p.15 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '2. RCS081  Game Programming' (no MOOCS mapping); detailed heading (p.15) prints ALL-CAPS 'GAME PROGRAMMING' + 'DETAILED SYLLABUS' + '3-1-0' with no code.",
+    "Unit cells open with ALL-CAPS printed sub-headings; Unit-I sub-heading prints with space before the colon ('3D GRAPHICS FOR GAME PROGRAMMING :') — verbatim.",
+    "Printed typos kept verbatim: 'Mike Mc Shaffrfy' (book 1), '2nd Editions' (book 3), Title-Case-Every-Word style ('And', 'The', 'Of') as printed.",
+    "Heading (p.15) prints 'GAME PROGRAMMING' indented with extra leading spaces in the text layer ('                    DETAILED SYLLABUS') — layout artifact only."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Image Processing",
+   "name_print": "Image Processing",
+   "codes": [
+    "RCS082"
+   ],
+   "semester": 8,
+   "elective_slot_print": "IT-ELECTIVE-5",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "DIGITAL IMAGE FUNDAMENTALS: Steps in Digital Image Processing – Components – Elements of Visual Perception – Image Sensing and Acquisition – Image Sampling and Quantization – Relationships between pixels – Color image fundamentals – RGB, HSI models, Two-dimensional mathematical preliminaries, 2D transforms – DFT, DCT.",
+    "2": "IMAGE ENHANCEMENT : Spatial Domain: Gray level transformations – Histogram processing – Basics of Spatial Filtering–Smoothing and Sharpening Spatial Filtering, Frequency Domain: Introduction to Fourier Transform– Smoothing and Sharpening frequency domain filters – Ideal, Butterworth and Gaussian filters, Homomorphic filtering, Color image enhancement.",
+    "3": "IMAGE RESTORATION : Image Restoration – degradation model, Properties, Noise models – Mean Filters – Order Statistics – Adaptive filters – Band reject Filters – Band pass Filters – Notch Filters – Optimum Notch Filtering – Inverse Filtering – Wiener filtering",
+    "4": "IMAGE SEGMENTATION: Edge detection, Edge linking via Hough transform – Thresholding – Region based segmentation – Region growing – Region splitting and merging – Morphological processing- erosion and dilation, Segmentation by morphological watersheds – basic concepts – Dam construction – Watershed segmentation algorithm.",
+    "5": "IMAGE COMPRESSION AND RECOGNITION: Need for data compression, Huffman, Run Length Encoding, Shift codes, Arithmetic coding, JPEG standard, MPEG. Boundary representation, Boundary description, Fourier Descriptor, Regional Descriptors – Topological feature, Texture – Patterns and Pattern classes – Recognition based on matching."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Rafael C. Gonzalez, Richard E. Woods,Digital Image Processing Pearson, Third Edition, 2010"
+    },
+    {
+     "no": 2,
+     "book": "Anil K. Jain,Fundamentals of Digital Image Processing Pearson, 2002."
+    },
+    {
+     "no": 3,
+     "book": "Kenneth R. Castleman,Digital Image Processing Pearson, 2006."
+    },
+    {
+     "no": 4,
+     "book": "Rafael C. Gonzalez, Richard E. Woods, Steven Eddins,Digital Image Processing using MATLAB Pearson Education, Inc., 2011."
+    },
+    {
+     "no": 5,
+     "book": "D,E. Dudgeon and RM. Mersereau,Multidimensional Digital Signal Processing Prentice Hall Professional Technical Reference, 1990."
+    },
+    {
+     "no": 6,
+     "book": "William K. Pratt,Digital Image Processing John Wiley, New York, 2002"
+    },
+    {
+     "no": 7,
+     "book": "Milan Sonka et al Image processing, analysis and machine vision Brookes/Cole, Vikas Publishing House, 2nd edition, 1999"
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-5 item 3 with MOOCS links), p.2 (scheme row 2 of VIII table), p.16 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '3. RCS082  Image Processing (Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc18_ee40/preview https://nptel.ac.in/courses/106105032/' — the closing parenthesis after the second URL is NOT printed in the text layer (unclosed paren); MOOCS links recorded in non_subject_rows.",
+    "Printed artifacts kept verbatim: 'Filtering–Smoothing' and 'Transform– Smoothing' (Unit-II), 'processing- erosion' (Unit-IV), unspaced commas in book entries ('Woods,Digital', 'Jain,Fundamentals', 'Eddins,Digital', 'D,E. Dudgeon and RM. Mersereau,Multidimensional'), 'Brookes/Cole' (book 7), books 1 and 6 without trailing period.",
+    "Text-book list (p.16) prints each number on its own line above the entry (table-layout artifact); numbering 1-7 complete."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Parallel and Distributed Computing",
+   "name_print": "Parallel and Distributed Computing",
+   "codes": [
+    "RCS083"
+   ],
+   "semester": 8,
+   "elective_slot_print": "IT-ELECTIVE-5",
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "ltp_print": "3-1-0",
+   "credit": 4,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction: Scope , issues, applications and challenges of Parallel and Distributed Computing Parallel Programming Platforms: Implicit Parallelism: Trends in Microprocessor Architectures, Dichotomy of Parallel Computing Platforms, Physical Organization, Communication Costs in Parallel Machines, Routing Mechanisms for Interconnection Networks, GPU, co-processing. Principles of Parallel Algorithm Design: Decomposition Techniques,Characteristics of Tasks and Interactions,Mapping Techniques for Load Balancing.",
+    "2": "CUDA programming model: Overview of CUDA, Isolating data to be used by parallelized code, API function to allocate memory on parallel computing device, to transfer data, Concepts of Threads, Blocks, Grids, Developing a kernel function to be executed by individual threads, Execution of kernel function by parallel threads, transferring data back to host processor with API function.",
+    "3": "Analytical Modeling of Parallel Programs: Sources of Overhead in Parallel Programs, Performance Metrics for Parallel Systems, The Effect of Granularity on Performance, Scalability of Parallel Systems, Minimum Execution Time and Minimum Cost-Optimal Execution Time",
+    "4": "Dense Matrix Algorithms: Matrix-Vector Multiplication, Matrix-Matrix Multiplication, Issues in Sorting on Parallel Computers, Bubble Sort and Variants, Quick Sort, Other Sorting Algorithms Graph Algorithms: Minimum Spanning Tree: Prim's Algorithm, Single-Source Shortest Paths: Dijkstra's Algorithm, All-Pairs Shortest Paths, Transitive Closure, Connected Components, Algorithms for Sparse Graph",
+    "5": "Search Algorithms for Discrete Optimization Problems: Sequential Search Algorithms, Parallel Depth-First Search, Parallel Best-First Search, Speedup Anomalies in Parallel Search Algorithms"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A Grama, A Gupra, G Karypis, V Kumar. Introduction to Parallel Computing (2nd ed.). Addison Wesley, 2003."
+    },
+    {
+     "no": 2,
+     "book": "C Lin, L Snyder. Principles of Parallel Programming. USA: Addison-Wesley Publishing Company, 2008."
+    },
+    {
+     "no": 3,
+     "book": "J Jeffers, J Reinders. Intel Xeon Phi Coprocessor High-Performance Programming. Morgan Kaufmann Publishing and Elsevier, 2013."
+    },
+    {
+     "no": 4,
+     "book": "T Mattson, B Sanders, B Massingill. Patterns for Parallel Programming. Addison-Wesley Professional, 2004."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-5 item 4 with MOOCS links), p.2 (scheme row 2 of VIII table), p.17 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '4. RCS083  Parallel and Distributed Computing (Mapping with  MOOCS: https://nptel.ac.in/courses/106102114/, https://nptel.ac.in/courses/106104024/)' — MOOCS links recorded in non_subject_rows.",
+    "Unit-I (p.17) prints several phrases one word per line (justified-text token fragmentation: 'Parallel Programming Platforms: Implicit Parallelism: Trends in Microprocessor Architectures,'); joined with single spaces.",
+    "Printed artifacts kept verbatim: 'Scope , issues' (space before comma), 'Techniques,Characteristics' and 'Interactions,Mapping' (missing spaces), 'Computing Parallel Programming Platforms' (sentence run-on as printed), 'A Gupra' (book 1, for Gupta)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Speech and Natural Language Processing",
+   "name_print": "SPEECH AND NATURAL LANGUAGE PROCESSING",
+   "codes": [
+    "RCS085"
+   ],
+   "semester": 8,
+   "elective_slot_print": "IT-ELECTIVE-6",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION  :  Origins and challenges of NLP – Language Modeling: Grammar-based LM, Statistical LM – Regular Expressions, Finite-State Automata – English Morphology, Transducers for lexicon and rules, Tokenization, Detecting and Correcting Spelling Errors, Minimum Edit Distance WORD LEVEL ANALYSIS Unsmoothed N-grams, Evaluating N-grams, Smoothing, Interpolation and Backoff – Word Classes, Part-of-Speech Tagging, Rule-based, Stochastic and Transformation-based tagging, Issues in PoS tagging – Hidden Markov and Maximum Entropy models.",
+    "2": "SYNTACTIC ANALYSIS Context-Free Grammars, Grammar rules for English, Treebanks, Normal Forms for grammar – Dependency Grammar – Syntactic Parsing, Ambiguity, Dynamic Programming parsing – Shallow parsing – Probabilistic CFG, Probabilistic CYK, Probabilistic Lexicalized CFGs – Feature structures, Unification of feature structures.",
+    "3": "SEMANTICS AND PRAGMATICS Requirements for representation, First-Order Logic, Description Logics – Syntax-Driven Semantic analysis, Semantic attachments – Word Senses, Relations between Senses, Thematic Roles, selectional restrictions – Word Sense Disambiguation, WSD using Supervised, Dictionary & Thesaurus, Bootstrapping methods – Word Similarity using Thesaurus and Distributional methods.",
+    "4": "BASIC CONCEPTS of Speech Processing : Speech Fundamentals: Articulatory Phonetics – Production And Classification Of Speech Sounds; Acoustic Phonetics – Acoustics Of Speech Production; Review Of Digital Signal Processing Concepts; Short-Time Fourier Transform, Filter-Bank And LPC Methods.",
+    "5": "SPEECH ANALYSIS: Features, Feature Extraction And Pattern Comparison Techniques: Speech Distortion Measures– Mathematical And Perceptual – Log–Spectral Distance, Cepstral Distances, Weighted Cepstral Distances And Filtering, Likelihood Distortions, Spectral Distortion Using A Warped Frequency Scale, LPC, PLP And MFCC Coefficients, Time Alignment And Normalization – Dynamic Time Warping, Multiple Time – Alignment Paths. UNIT III : SPEECH MODELING : Hidden Markov Models: Markov Processes, HMMs – Evaluation, Optimal State Sequence – Viterbi Search, Baum-Welch Parameter Re-Estimation, Implementation Issues."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Daniel Jurafsky, James H. Martin―Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics and Speech, Pearson Publication, 2014."
+    },
+    {
+     "no": 2,
+     "book": "Steven Bird, Ewan Klein and Edward Loper, ―Natural Language Processing with Python, First Edition, OReilly Media, 2009."
+    },
+    {
+     "no": 3,
+     "book": "Lawrence Rabiner And Biing-Hwang Juang, “Fundamentals Of Speech Recognition”, Pearson Education, 2003."
+    },
+    {
+     "no": 4,
+     "book": "Daniel Jurafsky And James H Martin, “Speech And Language Processing – An Introduction To Natural Language Processing, Computational Linguistics, And Speech Recognition”, Pearson Education, 2002."
+    },
+    {
+     "no": 5,
+     "book": "Frederick Jelinek, “Statistical Methods Of Speech Recognition”, MIT Press, 1997."
+    },
+    {
+     "no": 6,
+     "book": "1. Breck Baldwin, ―Language Processing with Java and LingPipe Cookbook, Atlantic Publisher, 2015."
+    },
+    {
+     "no": 7,
+     "book": "Richard M Reese, ―Natural Language Processing with Java, OReilly Media, 2015."
+    },
+    {
+     "no": 8,
+     "book": "Nitin Indurkhya and Fred J. Damerau, ―Handbook of Natural Language Processing, Second Edition, Chapman and Hall/CRC Press, 2010."
+    },
+    {
+     "no": 9,
+     "book": "Tanveer Siddiqui, U.S. Tiwary, ―Natural Language Processing and Information Retrieval, Oxford University Press, 2008."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-6 item 1 with MOOCS links), p.2 (scheme row 3 of VIII table), p.18-19 (detailed syllabus; text books 1 begins on p.18, continues on p.19)",
+   "quirks": [
+    "Elective pool list (p.3) prints the name as 'Speech Natural language processing' (missing 'AND') while the detailed heading (p.18) prints 'SPEECH AND NATURAL LANGUAGE PROCESSING' — both verbatim; name_print uses the detailed heading, pool variant recorded here.",
+    "Unit-V cell contains a stray printed sub-heading 'UNIT III : SPEECH MODELING :' inside the Unit-V row (unit mislabel in the print), followed by the Hidden-Markov-Model content — transcribed verbatim as printed.",
+    "Book 1's title runs across the page break p.18→p.19 ('...Natural Language / Processing, Computational Linguistics and Speech, Pearson Publication, 2014.') — joined.",
+    "Book 6 prints a double list number ('6. 1. Breck Baldwin, ...') — verbatim.",
+    "Printed artifacts kept verbatim: 'Measures– Mathematical' (unspaced dash), 'Log–Spectral Distance', 'Multiple Time – Alignment Paths' (spaced dash mid-compound), '―' quote-dash decode artifacts in books 1,2,6,7,8,9, 'OReilly' (no apostrophe)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Deep Learning",
+   "name_print": "Deep Learning",
+   "codes": [
+    "RCS086"
+   ],
+   "semester": 8,
+   "elective_slot_print": "IT-ELECTIVE-6",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "INTRODUCTION : Introduction to machine learning- Linear models (SVMs and Perceptrons, logistic regression)- Intro to Neural Nets: What a shallow network computes- Training a network: loss functions, back propagation and stochastic gradient descent- Neural networks as universal function approximates",
+    "2": "DEEP NETWORKS : History of Deep Learning- A Probabilistic Theory of Deep Learning- Backpropagation and regularization, batch normalization- VC Dimension and Neural Nets-Deep Vs Shallow Networks-Convolutional Networks- Generative Adversarial Networks (GAN), Semi-supervised Learning",
+    "3": "DIMENTIONALITY REDUCTION 9 Linear (PCA, LDA) and manifolds, metric learning - Auto encoders and dimensionality reduction in networks - Introduction to Convnet - Architectures – AlexNet, VGG, Inception, ResNet - Training a Convnet: weights initialization, batch normalization, hyperparameter optimization",
+    "4": "OPTIMIZATION AND GENERALIZATION : Optimization in deep learning– Non-convex optimization for deep networks- Stochastic Optimization Generalization in neural networks- Spatial Transformer Networks- Recurrent networks, LSTM - Recurrent Neural Network Language Models- Word-Level RNNs & Deep Reinforcement Learning - Computational & Artificial Neuroscience",
+    "5": "CASE STUDY AND APPLICATIONS : Imagenet- Detection-Audio WaveNet-Natural Language Processing Word2Vec - Joint Detection-Bioinformatics- Face Recognition- Scene Understanding- Gathering Image Captions"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Cosma Rohilla Shalizi, Advanced Data Analysis from an Elementary Point of View, 2015."
+    },
+    {
+     "no": 2,
+     "book": "Deng & Yu, Deep Learning: Methods and Applications, Now Publishers, 2013."
+    },
+    {
+     "no": 3,
+     "book": "Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep Learning, MIT Press, 2016."
+    },
+    {
+     "no": 4,
+     "book": "Michael Nielsen, Neural Networks and Deep Learning, Determination Press, 2015."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-6 item 2 with MOOCS link), p.2 (scheme row 3 of VIII table), p.19-20 (detailed syllabus; text books 1 on p.19, books 2-4 on p.20)",
+   "quirks": [
+    "Elective pool list (p.3) prints '2. RCS086  Deep Learning (Mapping with MOOCS:  https://onlinecourses.nptel.ac.in/noc18_cs41/preview)' — MOOCS link recorded in non_subject_rows.",
+    "Unit-III prints stray '9' after the sub-heading ('DIMENTIONALITY REDUCTION 9 Linear (PCA, LDA)...') — stray character in the print (likely a decode of '('); transcribed verbatim, cf. draft 08 quirk for the same print.",
+    "'DIMENTIONALITY' misspelling printed in Unit-III — verbatim.",
+    "Unspaced dash joins kept verbatim: 'machine learning- Linear', 'regression)- Intro', 'computes- Training', 'descent- Neural', 'Learning- A', 'Learning- Backpropagation', 'normalization- VC', 'Nets-Deep Vs Shallow Networks-Convolutional Networks- Generative', 'learning– Non-convex', 'networks- Spatial', 'Models- Word-Level', 'Imagenet- Detection-Audio WaveNet-Natural', 'Detection-Bioinformatics- Face Recognition- Scene'.",
+    "Unit-I ends 'universal function approximates' (for approximators) — verbatim; book 1 on p.19, books 2-4 continue on p.20 across the page break."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Data Compression",
+   "name_print": "Data Compression",
+   "codes": [
+    "RCS087"
+   ],
+   "semester": 8,
+   "elective_slot_print": "IT-ELECTIVE-6",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Compression Techniques: Loss less compression, Lossy Compression, Measures of performance, Modeling and coding, Mathematical Preliminaries for Lossless compression: A brief introduction to information theory, Models: Physical models, Probability models, Markov models, composite source model, Coding: uniquely decodable codes, Prefix codes.",
+    "2": "The Huffman coding algorithm: Minimum variance Huffman codes, Adaptive Huffman coding: Update procedure, Encoding procedure, Decoding procedure. Golomb codes, Rice codes, Tunstall codes, Applications of Hoffman coding: Loss less image compression, Text compression, Audio Compression.",
+    "3": "Coding a sequence, Generating a binary code, Comparison of Binary and Huffman coding, Applications: Bi-level image compression-The JBIG standard, JBIG2, Image compression. Dictionary Techniques: Introduction, Static Dictionary: Diagram Coding, Adaptive Dictionary. The LZ77 Approach, The LZ78 Approach, Applications: File Compression-UNIX compress, Image Compression: The Graphics Interchange Format (GIF), Compression over Modems: V.42 bits, Predictive Coding: Prediction with Partial match (ppm): The basic algorithm, The ESCAPE SYMBOL, length of context, The Exclusion Principle, The Burrows-Wheeler Transform: Moveto-front coding, CALIC, JPEG-LS, Multi-resolution Approaches, Facsimile Encoding, Dynamic Markoy Compression.",
+    "4": "Distortion criteria, Models, Scalar Ouantization: The Quantization problem, Uniform Quantizer, Adaptive Quantization, Non uniform Quantization.",
+    "5": "Advantages of Vector Quantization over Scalar Quantization, The Linde-Buzo-Gray Algorithm, Tree structured Vector Quantizers. Structured VectorQuantizers."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Khalid Sayood, Introduction to Data Compression, Morgan Kaufmann Publishers"
+    },
+    {
+     "no": 2,
+     "book": "Elements of Data Compression,Drozdek, Cengage Learning"
+    },
+    {
+     "no": 3,
+     "book": "Introduction to Data Compression, Second Edition, Khalid Sayood,The Morgan aufmann Series"
+    },
+    {
+     "no": 4,
+     "book": "Data Compression: The Complete Reference 4th Edition byDavid Salomon, Springer"
+    },
+    {
+     "no": 5,
+     "book": "Text Compression1st Edition by Timothy C. Bell Prentice Hall"
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-6 item 3), p.2 (scheme row 3 of VIII table), p.20 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '3. RCS087  Data Compression' (no MOOCS mapping); detailed heading (p.20) prints ALL-CAPS 'DATA COMPRESSION' + 'DETAILED SYLLABUS' + '3-0-0' with no code.",
+    "Printed typos kept verbatim: 'Loss less' (split word, Units I-II), 'Applications of Hoffman coding' (for Huffman, Unit-II), 'Dynamic Markoy Compression' (for Markov, Unit-III), 'Scalar Ouantization' (for Quantization, Unit-IV), 'Structured VectorQuantizers' (missing space, Unit-V), 'Moveto-front coding' (for Move-to-front), 'compression-The', 'Compression-UNIX'.",
+    "Printed artifacts kept verbatim in books: 'Data Compression,Drozdek' (missing space), 'Sayood,The Morgan aufmann Series' (missing space + 'aufmann' for Kaufmann), 'byDavid Salomon' (missing space), 'Text Compression1st Edition' (missing space)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Quantum Computing",
+   "name_print": "Quantum Computing",
+   "codes": [
+    "RCS088"
+   ],
+   "semester": 8,
+   "elective_slot_print": "IT-ELECTIVE-6",
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "3-0-0",
+   "credit": 3,
+   "marks": {
+    "ese_te_pe": 70,
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Fundamental Concepts: Global Perspectives, Quantum Bits, Quantum Computation, Quantum Algorithms, Quantum Information, Postulates of Quantum Mechanisms.",
+    "2": "Quantum Computation:  Quantum Circuits – Quantum algorithms, Single Orbit operations, Control Operations, Measurement, Universal Quantum Gates, Simulation of Quantum Systems, Quantum Fourier transform, Phase estimation, Applications, Quantum search algorithms – Quantum counting – Speeding up the solution of NP – complete problems – Quantum Search for an unstructured database.",
+    "3": "Quantum Computers:  Guiding Principles, Conditions for Quantum Computation, Harmonic Oscillator Quantum Computer, Optical Photon Quantum Computer – Optical cavity Quantum electrodynamics, Ion traps, Nuclear Magnetic resonance",
+    "4": "Quantum Information:  Quantum noise and Quantum Operations – Classical Noise and Markov Processes, Quantum Operations, Examples of Quantum noise and Quantum Operations – Applications of Quantum operations, Limitations of the Quantum operations formalism, Distance Measures for Quantum information.",
+    "5": "Quantum Error Correction:  Introduction, Shor code, Theory of Quantum Error –Correction, Constructing Quantum Codes, Stabilizer codes, Fault – Tolerant Quantum Computation, Entropy and information – Shannon Entropy, Basic properties of Entropy, Von Neumann, Strong Sub Additivity, Data Compression, Entanglement as a physical resource ."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Micheal A. Nielsen. &Issac L. Chiang, “Quantum Computation and Quantum Information”, Cambridge University Press, Fint South Asian edition, 2002."
+    },
+    {
+     "no": 2,
+     "book": "Eleanor G. Rieffel , Wolfgang H. Polak , “Quantum Computing - A Gentle Introduction” (Scientific and Engineering Computation) Paperback – Import, 3 Oct 2014"
+    },
+    {
+     "no": 3,
+     "book": "Computing since Democritus by Scott Aaronson"
+    },
+    {
+     "no": 4,
+     "book": "Computer Science: An Introduction by N. DavidMermin"
+    },
+    {
+     "no": 5,
+     "book": "Yanofsky's and Mannucci, Quantum Computing for Computer Scientists."
+    }
+   ],
+   "reference_books": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.3 (elective pool IT-ELECTIVE-6 item 4 with MOOCS link), p.2 (scheme row 3 of VIII table), p.21 (detailed syllabus)",
+   "quirks": [
+    "Elective pool list (p.3) prints '4. RCS088  Quantum Computing (Mapping with MOOCS:  https://onlinecourses.nptel.ac.in/noc18_cy07)' — the URL prints WITHOUT a closing parenthesis; MOOCS link recorded in non_subject_rows.",
+    "Text-book list (p.21) prints item 2's date and item 3's number run together on one line ('3 Oct 2014 3. Computing since Democritus by Scott Aaronson') and item 5's number inline within item 4's line ('Computer Science: An Introduction by N. DavidMermin 5. Yanofsky's and Mannucci, ...'); entries split at the printed numbers and recorded verbatim.",
+    "Printed typos kept verbatim: 'Micheal A. Nielsen. &Issac L. Chiang' (for Michael A. Nielsen & Isaac L. Chuang), 'Fint South Asian edition' (for First), 'N. DavidMermin' (missing space), 'Postulates of Quantum Mechanisms' (for Mechanics), 'NP – complete' (spaced dash), 'Quantum Error –Correction' and 'Fault – Tolerant' (spaced dashes), 'physical resource .' (space before period)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Industrial Training",
+   "name_print": "Industrial Training",
+   "codes": [
+    "RIT753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "ltp_print": "0-0-3",
+   "credit": 2,
+   "marks": {
+    "sessional_ta": 100,
+    "total": 100
+   },
+   "subject_type": "industrial-training",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (VII SEMESTER scheme row 8)",
+   "quirks": [
+    "Scheme-row-only subject: the document prints ONLY the VII-semester scheme row ('8 RIT753 Industrial Training 0--0--3 100 100 2') — NO detailed syllabus, units, COs, or description paragraph anywhere in the 21-page document (checked full text; B23/B25/B27 class).",
+    "Marks column assignment: the row prints two '100' values placed in the TA and Total columns — verified arithmetically against the printed VII-semester TOTAL row (TA column sums to 450 = 10×5+50+50+100+200; ESE column to 450 = 70×5+50+50; CT to 100 = 20×5)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "Project",
+   "codes": [
+    "RIT754"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 6
+   },
+   "ltp_print": "0-0-6",
+   "credit": 3,
+   "marks": {
+    "sessional_ta": 200,
+    "total": 200
+   },
+   "subject_type": "project",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (VII SEMESTER scheme row 9)",
+   "quirks": [
+    "Scheme-row-only subject: the document prints ONLY the VII-semester scheme row ('9 RIT754 Project 0--0--6 200 200 3') — NO detailed syllabus, units, COs, or description paragraph anywhere in the document (B23/B25/B27 class).",
+    "Marks column assignment: the row prints two '200' values placed in the TA and Total columns — verified arithmetically against the printed VII-semester TOTAL row (TA column sums to 450 including this 200; ESE to 450; CT to 100).",
+    "Semester-VIII also prints a separate 12-credit 'Project' row RIT852 — recorded as a distinct subject (same printed name, different code/semester/credits)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Seminar",
+   "name_print": "Seminar",
+   "codes": [
+    "RIT851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "ltp_print": "0-0-3",
+   "credit": 2,
+   "marks": {
+    "sessional_ta": 100,
+    "total": 100
+   },
+   "subject_type": "seminar",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (VIII SEMESTER scheme row 4)",
+   "quirks": [
+    "Scheme-row-only subject: the document prints ONLY the VIII-semester scheme row ('4 RIT851 Seminar 0--0--3 100 100 2') — NO detailed syllabus, units, COs, or description paragraph anywhere in the document (B23/B25/B27 class).",
+    "Marks column assignment: the row prints two '100' values placed in the TA and Total columns — verified arithmetically against the printed VIII-semester TOTAL row (TA column sums to 380 = 10×3+100+250; ESE to 560 = 70×3+350; CT to 60 = 20×3)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Project",
+   "name_print": "Project",
+   "codes": [
+    "RIT852"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 12
+   },
+   "ltp_print": "0-0-12",
+   "credit": 12,
+   "marks": {
+    "ese_te_pe": 350,
+    "sessional_ta": 250,
+    "total": 600
+   },
+   "subject_type": "project",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "source_locator": "07_btech_it_y4_syllabus-cbcs_2019-20.pdf#3275781ab6bad835 p.2 (VIII SEMESTER scheme row 5)",
+   "quirks": [
+    "Scheme-row-only subject: the document prints ONLY the VIII-semester scheme row ('5 RIT852 Project 0--0--12 350 250 600 12') — NO detailed syllabus, units, COs, or description paragraph anywhere in the document (B23/B25/B27 class).",
+    "Marks column assignment: 350 in the ESE column, CT printed blank, 250 in the TA column, Total 600 — verified arithmetically against the printed VIII-semester TOTAL row (ESE 560 = 70×3+350; CT 60 = 20×3; TA 380 = 10×3+100+250).",
+    "Same printed name 'Project' as VII-semester RIT754 — distinct subject by code/semester/credits (never merged)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title_page",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW / Evaluation Scheme & Syllabus For B.Tech. Fourth Year (Information Technology) / On Choice Based Credit System (Effective from the Session: 2019-20)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_summary_table_semester_vii",
+   "print": "B.Tech. (Information Technology )  VII SEMESTER — header: SI. No. | Subject Code | Subject Name | L-T-P | Th/Lab Marks ESE | Sessional CT | TA | Total | Credit — rows: 1 | (blank code) | Open Elective-1 / Open  Elective Course -1 | 3--0--0 | 70 | 20 | 10 | 100 | 3 ;; 2 | (blank code) | IT Elective-3 / Deptt Elective Course-3 | 3--0--0 | 70 | 20 | 10 | 100 | 3 ;; 3 | (blank code) | IT Elective-4 / Deptt Elective Course-4 | 3--1--0 | 70 | 20 | 10 | 100 | 4 ;; 4 | RIT701 | Cryptography & Network Security | 3--1--0 | 70 | 20 | 10 | 100 | 4 ;; 5 | RCS702 | Artificial Intelligence | 3--0--0 | 70 | 20 | 10 | 100 | 3 ;; 6 | RIT751 | Cryptography & Network Security Lab | 0--0--2 | 50 | (blank) | 50 | 100 | 1 ;; 7 | RCS752 | Artificial Intelligence Lab | 0--0--2 | 50 | 50 | 100 | 1 ;; 8 | RIT753 | Industrial Training | 0--0--3 | 100 | 100 | 2 ;; 9 | RIT754 | Project | 0--0--6 | 200 | 200 | 3 ;; TOTAL | 450 | 100 | 450 | 1000 | 24",
+   "locator": "p.2 (VII SEMESTER scheme table incl. TOTAL row; Open Elective-1 / IT Elective-3 / IT Elective-4 rows are elective-pool placeholders with no printed code)"
+  },
+  {
+   "kind": "scheme_summary_table_semester_viii",
+   "print": "B.Tech. (Information Technology)  VIII SEMESTER — header: SI. No. | Subject Code | Subject Name | L-T-P | Th/Lab Marks ESE | Sessional CT | TA | Total | Credit — rows: 1 | (blank code) | Open Elective-2 / Open Elective Course-2 | 3--0--0 | 70 | 20 | 10 | 100 | 3 ;; 2 | (blank code) | IT Elective-5 / Deptt Elective Course-5 | 3--1--0 | 70 | 20 | 10 | 100 | 4 ;; 3 | (blank code) | IT Elective-6 / Deptt Elective Course-6 | 3--0--0 | 70 | 20 | 10 | 100 | 3 ;; 4 | RIT851 | Seminar | 0--0--3 | 100 | 100 | 2 ;; 5 | RIT852 | Project | 0--0--12 | 350 | 250 | 600 | 12 ;; TOTAL | 560 | 60 | 380 | 1000 | 24",
+   "locator": "p.2 (VIII SEMESTER scheme table incl. TOTAL row; Open Elective-2 / IT Elective-5 / IT Elective-6 rows are elective-pool placeholders with no printed code)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "DEPARTMENTAL ELECTIVES / IT-ELECTIVE -3 / 1. RIT070  Computer Graphics / 2. RCS071  Application of  Soft Computing / 3. RCS072  High Performance Computing / 4. RCS073  Human Computer Interface",
+   "locator": "p.2 (under VII-semester table)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "IT-ELECTIVE-4 / 1. RCS075  Cloud Computing / 2. RCS076  Blockchain Architecture Design / 3. RCS077  Agile Software Development / 4. RCS078 Augmented & Virtual Reality",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "IT-ELECTIVE-5 / 1. RCS080  Machine Learning  (Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc17_cs17/preview https://onlinecourses.nptel.ac.in/noc17_cs26/preview) / 2. RCS081  Game Programming / 3. RCS082  Image Processing (Mapping with MOOCS: https://onlinecourses.nptel.ac.in/noc18_ee40/preview https://nptel.ac.in/courses/106105032/ [closing parenthesis not printed] / 4. RCS083  Parallel and Distributed Computing (Mapping with  MOOCS: https://nptel.ac.in/courses/106102114/, https://nptel.ac.in/courses/106104024/)",
+   "locator": "p.3 (MOOCS mapping URLs printed inline with items 1, 3, 4)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "IT-ELECTIVE-6 / 1. RCS085  Speech Natural language processing (Mapping with MOOCS:   https://nptel.ac.in/courses/106101007/ https://nptel.ac.in/courses/106105158/) / 2. RCS086  Deep Learning (Mapping with MOOCS:  https://onlinecourses.nptel.ac.in/noc18_cs41/preview) / 3. RCS087  Data Compression / 4. RCS088  Quantum Computing (Mapping with MOOCS:  https://onlinecourses.nptel.ac.in/noc18_cy07 [closing parenthesis not printed]",
+   "locator": "p.3 (MOOCS mapping URLs printed inline with items 1, 2, 4; pool name for RCS085 prints 'Speech Natural language processing' vs detailed heading 'SPEECH AND NATURAL LANGUAGE PROCESSING')"
+  }
+ ],
+ "quirks": [
+  "No Course Outcomes (CO/K-levels), no printed objectives, no eligibility and no prerequisites are printed ANYWHERE in this document (21 pages, grep-checked) — the 2019-20 CBCS format prints scheme tables + unit-topic tables + text books only; cos left empty (printed-blank, not missing).",
+  "Scheme-table marks columns are flattened in the text layer; column assignment for every row (incl. blank CT cells in lab rows and the two-value IT/Project rows) verified via the printed TOTAL-row arithmetic: VII TOTAL 450/100/450/1000/24 implies ESE=70×5+50+50, CT=20×5, TA=10×5+50+50+100+200; VIII TOTAL 560/60/380/1000/24 implies ESE=70×3+350, CT=20×3, TA=10×3+100+250.",
+  "L-T-P prints double-dash form in scheme tables ('3--1--0') and single-dash form on detailed-syllabus pages ('3-1-0'); both recorded (ltp_print uses the detailed page where present).",
+  "Detailed-syllabus pages print NO subject codes; codes for all 20 detailed subjects come from the scheme tables / elective pool lists (p.2-3).",
+  "Justified-print token fragmentation: several regions print one word per line (HPC Unit-II and book 4 p.8/p.11; Blockchain book 4 p.11; Parallel & Distributed Computing Unit-I p.17); joined with single spaces into the printed sentences.",
+  "Quote/dash glyph decode artifacts: curly quotes decode as '“”' (kept), several book titles decode opening quotes as '―' (Machine Learning, Cloud Computing, Speech & NLP books), Agile books decode as straight '\"'; C&NS Lab programs 1-2 decode opening quote as backslash ('\\Hello World’').",
+  "Inter-word spacing anomalies from the justified print (missing spaces like 'decryptionFermat’s', 'AlgorithmConvergence', 'byDavid', 'VectorQuantizers'; extra spaces like 'Ledgers , Design', 'Scope , issues', double spaces in headings) preserved verbatim; recorded per-subject.",
+  "Stray lecture-column bleed in Human Computer Interface units: stray '8' tokens inside unit text (p.9); Unit-II cell truncated mid-word 'Scre' with 'III Screen Designing : Design goals – Scre' bleeding into it.",
+  "Speech & NLP Unit-V cell contains a stray mislabeled sub-heading 'UNIT III : SPEECH MODELING :' (p.18).",
+  "Deep Learning Unit-III prints stray '9' after 'DIMENTIONALITY REDUCTION' (p.19).",
+  "C&NS Lab prints experiments 10 and 11 identically (duplicate print, p.5).",
+  "Data Compression prints typos 'Hoffman', 'Ouantization', 'Markoy', 'aufmann' (p.20); Quantum Computing prints 'Micheal', '&Issac L. Chiang', 'Fint', 'DavidMermin' with book numbers 3 and 5 running inline into neighbouring lines (p.21).",
+  "Image Processing elective item (p.3) and Quantum Computing elective item (p.3) print MOOCS URLs with unclosed parentheses in the text layer; the closing paren glyph was not extracted (noted, not invented).",
+  "Text-book list anomalies: Computer Graphics book 1 prints without a list number (p.6); Application of Soft Computing prints 'Reference Books:' inline at the end of book 2's line (p.7); High Performance Computing book numbering jumps 4→6 (no 5, p.8); Speech & NLP book 6 prints double number '6. 1.' (p.19).",
+  "RIT753 Industrial Training, RIT754 Project (VII) and RIT851 Seminar, RIT852 Project (VIII) print NO detailed syllabus anywhere — recorded as scheme_row_only_detailed_syllabus_not_printed (B23/B25/B27 class)."
+ ],
+ "flags": [
+  "4 subjects (RIT753 Industrial Training, RIT754 Project, RIT851 Seminar, RIT852 Project) print scheme row + L-T-P + marks + credit only — NO units/COs anywhere: flagged scheme_row_only_detailed_syllabus_not_printed (B23/B25/B27 class).",
+  "2 labs (RIT751, RCS752) print experiment lists only (no unit theory) — normal lab print, recorded with experiments + lead-in.",
+  "Open Elective-1/2 and IT Elective-3..6 scheme rows are elective-pool placeholders (no code on the row); pools recorded in non_subject_rows, members extracted as subjects.",
+  "No CO/K-levels printed in this 2019-20 CBCS document — cos empty for all subjects (printed-blank)."
+ ]
+}
