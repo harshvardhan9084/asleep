@@ -194,6 +194,7 @@ def is_lab_name(n):
     return bool(toks & {"lab", "laboratory", "workshop"})
 
 
+
 def ladder(dsub, rows, course, draft_session=""):
     """returns (tier, targets, score_info) — targets: list of row dicts"""
     course = canon_course(course)  # §1b: canonical comparison on both sides
@@ -923,6 +924,53 @@ DOC_SCOPE = {
     "b686fd84fcbe5544": {"branch_names": "All Branches except Agriculture & Bio Tech", "program_year": "1",
         "reason": "cover prints 'Evaluation Scheme & Syllabus for B. Tech. (All Branches except Agriculture & Bio Tech) AS PER AICTE MODEL CURRICULUM (Effective from the Session: 2018-19)'"},
 }
+# ---- B29 DOC_SCOPE (CRON-20261104-B29; branch scope from each ingested document's
+# PRINTED COVER, zero-guess; added pre-commit per the recorded B28R post-commit repair
+# lesson: merges without DOC_SCOPE leave appended rows with empty branch_names) ----
+DOC_SCOPE.update({
+    "5e14dc3f12ac04a3": {
+        "branch_names": "Mechanical Engineering (Mechanical and Industrial Engineering)",
+        "program_year": "2",
+        "reason": "B29 ME-Ind y2 model-curriculum 2019-20: cover prints 'STUDY & EVALUATION SCHEME & SYLLABUS FOR B. TECH 2nd YEAR MECHANICAL ENGINEERING (Mechanical and Industrial Engineering) On AICTE Model Curriculum (Effective from the session 2019-20)'"},
+    "9c81bf6940829c7d": {
+        "branch_names": "Mechanical and Industrial Engineering",
+        "program_year": "3",
+        "reason": "B29 ME-Ind y3 evaluation-scheme 2024-25: cover prints 'EVALUATION SCHEME FOR B.TECH. 3rd YEAR MECHANICAL AND INDUSTRIAL ENGINEERING [Effective from Session: 2024-25]'"},
+    "df5b69780b912bb8": {
+        "branch_names": "Mechanical and Industrial Engineering",
+        "program_year": "3",
+        "reason": "B29 ME-Ind y3 syllabus 2018-19: cover prints 'EVALUATION SCHEME & SYLLABUS For B. Tech. 3rd Year MECHANICAL AND INDUSTRIAL ENGINEERING ON CHOICE BASED CREDIT SYSTEM (CBCS) [Effective from session 2018-19]'"},
+    "818c56493dfa2d0f": {
+        "branch_names": "Mechanical & Industrial Engineering",
+        "program_year": "4",
+        "reason": "B29 ME-Ind y4 CBCS 2019-20: cover prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH 4th YEAR MECHANICAL & INDUSTRIAL ENGINEERING ON CHOICE BASED CREDIT SYSTEM (EFFECTIVE FROM THE SESSION: 2019-20)'"},
+    "a664da8df2b68ed7": {
+        "branch_names": "Mechanical & Industrial Engineering",
+        "program_year": "4",
+        "reason": "B29 ME-Ind y4 2021-22: cover prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH. 4th YEAR MECHANICAL & INDUSTRIAL ENGINEERING [Effective from Session: 2021-22]'"},
+    "72ffdc4ec8f31053": {
+        "branch_names": "Mechanical and Industrial Engineering",
+        "program_year": "4",
+        "reason": "B29 ME-Ind y4 2025-26: cover prints 'COURSE STRUCTURE/EVALUATION SCHEME FOR B.TECH. 4th YEAR MECHANICAL AND INDUSTRIAL ENGINEERING [Effective from Session: 2025-26]'"},
+    "c46b141f3ee05115": {
+        "branch_names": "Mechanical Engineering;Production Engineering;Industrial & Production Engineering;Mechanical & Industrial Engineering",
+        "program_year": "2",
+        "reason": "B29 ME-PE 2009-10 (2nd-4th year combined): cover prints 'Syllabus 2nd, 3rd and 4th Year [Effective from session 2009-10] — 1. B. Tech. Mechanical Engineering 2. B. Tech. Production Engineering 3. B. Tech. Industrial & Production Engineering 4. B. Tech. Mechanical & Industrial Engineering'; per-subject program_year set from the printed semester (2/3/4) so the single-scope fallback never mislabels"},
+    "4514084f982fc59e": {
+        "branch_names": "Mechanical Engineering;Automobile Engineering;Aeronautical Engineering;Industrial Production Engineering;Manufacturing Technology;Mining Engineering",
+        "program_year": "1",
+        "reason": "B29 ME course-structure 2026-27: cover prints 'EVALUATION SCHEME & SYLLABUS of B. TECH. First Year ME STREAM (Mechanical Engineering, Automobile Engineering, Aeronautical Engineering, Industrial Production Engineering, Manufacturing Technology, Mining Engineering)'"},
+    "b4463c0a5bda685f": {
+        "branch_names": "Mechanical Engineering",
+        "program_year": "3",
+        "reason": "B29 ME y3 2018-19: cover prints 'B. Tech. Syllabus for Mechanical Engineering Third Year (Effective from the Session: 2018-19)'"},
+    "be2a8d8948a6c2d6": {
+        "branch_names": "Mechanical Engineering",
+        "program_year": "3",
+        "reason": "B29 ME y3 2020-21: cover prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH. 3rd YEAR MECHANICAL ENGINEERING [Effective from Session: 2020-21]' (garbled text layer; visible-print reconstruction recorded in the draft quirks)"},
+})
+
+
 
 # ---------------- TIER2_OVERRIDES (per-key adjudications, evidence-recorded) ----------------
 # Tier-2 fuzzy matches are adjudicated PER KEY: ALLOW the fuzzy target (name-
@@ -1761,63 +1809,61 @@ TIER2_OVERRIDES = {
     "09_btech_ds_y2_syllabus_2025-26::07::foundation-of-artificial-intelligence-and-machine-learning": {
         "action": "FORCE_APPEND",
         "reason": "B20 wrong-subject FORCE_APPEND (recorded B14/B15/B19 wrong-subject T2 class): draft 'Foundation of Artificial Intelligence and Machine Learning' (BDS401, 2025-26 DS y2 core, 5 verbatim units) fuzzy 85/56-hits artificial-intelligence-and-machine-learning-in-bioinformati (BBI602, 2026-27 Bioinformatics branch elective). Unit-by-unit comparison (patch-b20 evidence): normalized similarity 0.019/0.025/0.021/0.107/0.007 across units 1-5 — COMPLETELY different content (foundations: AI history/first-order-logic/ANN/supervised+unsupervised learning vs bioinformatics applications: expert systems/NLP/ML-algorithms/bioinformatics applications unit). Different subjects (different slot: DS y2 core vs Bioinformatics y3 elective; different code family BDS vs BBI). Appends as its own row with a cross-reference note; zero-GAP holds."},
-
-    # ---------------- B28 adjudications (probe_b28_flags.py / probe_b28_flags2.py evidence) ----------------
-    "01_btech_it_syllabus_2015-16::10::gp": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "general-proficiency",
-        "keep_published_codes": {"NGP-501": "general-proficiency"},
-        "reason": "B28 code-owner corroboration (B23 KEE302 class + B21 older-print guard): draft 'GP' (NGP501, 2015-16 IT scheme-row-only print) — NGP-501 is ALREADY owned by the canon general-proficiency accumulator row (AGP151;AGP251;NGP-401/501/601;GP401-801, session 2026-27). The auto name-identity transfer toward the 'gp' fragment row (2016-17, GP-201/GP-101) would strip a code OFF its published owner based on an OLDER print (RULES §3: older docs corroborate, never overwrite; B21 equal-or-older guard). UPDATE lands on the canon row as backfill-only corroboration; NGP-501 stays owned; 'gp' fragment untouched."},
-    "01_btech_it_syllabus_2015-16::29::gp": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "general-proficiency",
-        "keep_published_codes": {"NGP-601": "general-proficiency"},
-        "reason": "B28 code-owner corroboration (same evidence as 01::10): NGP-601 already owned by the canon general-proficiency accumulator; the 2015-16 print corroborates; transfer toward the 'gp' fragment rejected (older print never takes a code from its published owner)."},
-    "01_btech_it_syllabus_2015-16::15::modelling-and-simulation": {
+    # ---- B29 (CRON-20261104-B29) per-key adjudications, evidence-recorded ----
+    "03_btech_me-ind_y3_syllabus_2018-19::12::simulation-modelling-analysis": {
         "action": "FORCE_APPEND",
-        "reason": "B28 wrong-subject FORCE_APPEND (recorded B23 EM-II / B27 08::03 class): draft 'Modelling and Simulation' (NIT062, 2015-16 IT DE elective, 5 verbatim units: system definition, stochastic activities, discrete/continuous simulation, simulation techniques) fuzzy 86/14-hits process-modelling-and-simulation (ECH701;RCH701, 2009-10 CHEMICAL Engineering row: process models of unit operations). probe_b28_flags2.py D: unit vocabulary ~0.07, best-unit-J 0.00 — different courses printed under a similar name (system-simulation elective vs chemical process modelling). Appends as its own row with a cross-reference note to the CHE row; zero-GAP holds."},
-    "02_btech_it_syllabus_2016-17::04::mobile-application-development": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "mobile-application-development",
-        "keep_published_codes": {"NOE-075": "micro-and-smart-systems"},
-        "reason": "B28 keep-published-owner (B19/B27 RCS653 class): draft 'Mobile Application Development' (NOE-075, 2016-17 IT open-elective print, 5 verbatim units). NOE-075's published owner is micro-and-smart-systems (KEC-077;REC088;EOE-075;NOE-075, session 2021-22 — NEWER than the draft): an equal-or-older print never takes a code from its published owner (B21 guard; AKTU re-used the NOE-075 elective slot for a different elective across sessions). The name-exact mobile-application-development row (2016-17, codes empty) gets the 2016-17 fieldwise update; NOE-075 stays with micro-and-smart-systems; the slot re-use recorded as narrative."},
-    "03_btech_it_y2_model-curriculum_2019-20::03::data-structures-using-c-lab": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "data-structures-using-c-lab",
-        "keep_published_codes": {"KCS-351": "data-structure-using-c-lab"},
-        "reason": "B28 keep-published-owner (B21 older-print guard): draft 'Data Structures Using C Lab' (KCS351, 2019-20 IT y2 model-curriculum print, experiment list). KCS351's published owner is data-structure-using-c-lab (2021-22 CSE-AIML print — NEWER than the draft); the KCS351H plural row data-structures-using-c-lab (2022-23) is the name-exact target. Older 2019-20 print corroborates the name-exact row (backfill-only); KCS-351 stays with its 2021-22 published owner; the singular/plural fragment pair is left for the owner (pre-existing layout, not this batch's to merge)."},
-    "03_btech_it_y2_model-curriculum_2019-20::14::mini-project-or-internship-assessment": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "mini-project-or-internship-assessment",
-        "keep_published_codes": {"KCS-354": "internship-assessment-mini-project"},
-        "reason": "B28 keep-published-owner (B21 older-print guard): draft 'Mini Project or Internship Assessment*' (KCS354, 2019-20 IT print, scheme-row-only). KCS-354's published owner is internship-assessment-mini-project (BCC351;KCS354;KEC354;KCS554;BCS554;BCE554;KCS752, session 2024-25 — NEWER). The name-exact mini-project-or-internship-assessment row (2024-25, owns KCS354H among ~35 assessment-slot codes) gets the corroboration update; KCS-354 stays with its published owner."},
-    "04_btech_it_y2_scheme-syllabus_2009-10::04::object-oriented-systems": {
+        "reason": "B29 wrong-subject FORCE_APPEND (recorded B28 01::15 Modelling-and-Simulation class): draft 'Simulation Modelling & Analysis' (RME604, 2018-19 ME-Ind y3 elective, 5 verbatim units: system modelling concepts, random variates, queuing, DES languages, Petri-nets) fuzzy 87/26-hits modelling-and-simulation (NIT062, 2015-16 Information-Technology row: IT systems-simulation). probe: full-vocab J=0.18, best per-unit J=0.22, zero shared model vocabulary (IT GPSS/Java-simulation vs ME manufacturing/queuing) — different programs print different courses under a similar name. Appends as its own row with a cross-reference note to the IT row; zero-GAP holds."},
+    "07_btech_me-pe_syllabus_2009-10::47::optimisation-techniques-in-engineering": {
         "action": "FORCE_APPEND",
-        "reason": "B28 wrong-subject FORCE_APPEND (B27 07::13 advanced-vs-advance-woven class): draft 'Object Oriented Systems' (ECS-305, 2009-10 IT y2 core, 5 verbatim units: Object Modeling, Dynamic Modeling, OOAD/UML-style methodology) fuzzy 88/35-hits object-oriented-systems-and-c ('Object Oriented Systems and C++', ECS-039, 2009-10 EE-branch elective). probe_b28_flags2.py E: same era and code family but DIFFERENT printed course — the EE variant adds the C++ language component under a different code (ECS-039 vs ECS-305); overlapping OOM intro unit-1 does not make one subject (B27 08::03: different programs print different courses under the same/similar name). Appends as its own row with a cross-reference note; zero-GAP holds."},
-    "04_btech_it_y2_scheme-syllabus_2009-10::09::general-proficiency": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "general-proficiency",
-        "keep_published_codes": {"GP-301": "general-proficiency-lab"},
-        "reason": "B28 code-owner corroboration (B23 KEE302 class + B21 older-print guard): draft 'GP' (GP301, 2009-10 IT scheme-row-only print). GP-301's published owner is general-proficiency-lab (2014-15 EE print — NEWER than the draft); the auto name-identity transfer toward the 'gp' fragment (2016-17) would move a code based on an OLDER print. The canon general-proficiency accumulator row (GP401-801 siblings) gets the backfill-only corroboration; GP-301 stays owned by general-proficiency-lab."},
-    "06_btech_it_y2_syllabus-rev_2014-15::08::information-theory-and-coding": {
-        "action": "RETARGET", "target": "information-theory-coding",
-        "reason": "B28 verbatim-identity join (recorded B23 REE070 class): draft 'Information Theory and Coding' (NEC408, 2014-15 IT print, 5 verbatim units). probe_b28_flags2.py A: doc05::14's REC406 (2017-18) draft units are IDENTICAL word-for-word (best-unit similarity 1.00) and 05::14 fuzzy 93/40-updates information-theory-coding — the 2014-15 print is the SAME subject one era earlier; appending a second Information-Theory-and-Coding row would duplicate the subject (RULES §11). NEC408 joins information-theory-coding as its 2014-15 era code alongside REC406; units are 2014-15-older than the row's 2025-26 content so only backfill applies (RULES §3)."},
-    "06_btech_it_y2_syllabus-rev_2014-15::15::mathematics-iii-science-based-open-elective": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "engg-mathematics-iii",
-        "keep_published_codes": {"NAS-301": "engg-mathematics-iii"},
-        "reason": "B28 keep-published-owner (B21 older-print guard + combo-print class): draft 'Mathematics III/Science Based Open Elective' (NAS301 + NOE031-039 pool, 2014-15 IT scheme-row-only combo print). NAS-301's published owner is engg-mathematics-iii (NAS-301;NAS-401, session 2014-15 SAME session — published owner keeps its code, B27 RCS653 class); the auto name-identity transfer toward the 2017-18 CSE combo row mathematics-iii-science-based-open-elective (EOE 031-038 owner) would move Maths-III codes onto a different program's combo row. All draft codes kept off the update (the NOE pool codes are OE-slot codes, not Maths-III codes); the Maths-III row gains a same-session corroboration mention only."},
-    "06_btech_it_y2_syllabus-rev_2014-15::18::gp": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "ngp",
-        "keep_published_codes": {"NGP-301": "ngp"},
-        "reason": "B28 same-session keep-published-owner (B27 RCS653 class): draft 'GP' (NGP301, 2014-15 IT print) — NGP-301's published owner is the 'ngp' row ('NGP', NGP-301, session 2014-15 SAME session). Newest-print-wins cannot break a same-session tie: the published owner keeps the code and takes the corroboration update; the auto transfer toward the 'gp' fragment (2016-17) rejected."},
-    "06_btech_it_y2_syllabus-rev_2014-15::19::science-based-open-elective-mathematics-iii": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "engg-mathematics-iii",
-        "keep_published_codes": {"NAS-401": "engg-mathematics-iii"},
-        "reason": "B28 keep-published-owner (same evidence as 06::15): draft 'Science Based Open Elective/Mathematics III' (NAS401 + NOE041-049 pool, 2014-15 combo print). NAS-401's published owner is engg-mathematics-iii (NAS-301;NAS-401, same session); transfer toward the 2017-18 Carpet&Textile combo row science-based-open-elective-mathematics-iii rejected; all pool codes kept off the Maths-III row; corroboration mention only."},
-    "06_btech_it_y2_syllabus-rev_2014-15::22::gp": {
-        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "general-proficiency",
-        "keep_published_codes": {"NGP-401": "general-proficiency"},
-        "reason": "B28 code-owner corroboration (same evidence as 01::10): NGP-401 already owned by the canon general-proficiency accumulator; the 2014-15 print corroborates (backfill-only); transfer toward the 'gp' fragment rejected."},
-    "09_btech_me-ind-pe-ipe_y4_syllabus_2016-17::00::computer-aided-design-cad": {
+        "reason": "B29 wrong-subject FORCE_APPEND (recorded B28 01::15 class): draft 'OPTIMISATION TECHNIQUES IN ENGINEERING' (EME-023, 2009-10 ME elective, 5 verbatim units: LP simplex, transportation, assignment, sequencing, network CPM/PERT) fuzzy 87/23-hits optimization-techniques-in-chemical-engineering (ECH021, 2009-10 CHEMICAL Engineering row: chem-flow-sheet optimization). probe: J=0.18, best per-unit 0.26, different program scope (ME generic-OR vs ChemE process) — same recorded wrong-subject class as the ChemE process-modelling vs IT systems-simulation pair. Appends as its own row with a cross-reference note; zero-GAP holds."},
+    "07_btech_me-pe_syllabus_2009-10::72::fundamentals-of-biomedical-engineering": {
         "action": "FORCE_APPEND",
-        "reason": "B28 wrong-subject FORCE_APPEND (B27 08::03 advanced-fabric-structure class: different programs print DIFFERENT courses under the same name): draft 'COMPUTER AIDED DESIGN (CAD)' (NME-701, 2016-17 ME/PE/IPE/ME&I y4 core, 5 verbatim units: CAD/CAE elements, integrated CAD/CAM, graphics software, Bresenham/clip primitives, geometric modeling) fuzzy 91/10-hits computer-aided-design ('COMPUTER AIDED DESIGN', ECE051;NCE051, 2010-11 CIVIL Engineering row: 'Elements of Computer Aided Design and its advantages over conventional design. Hardware required for CAD works' — a Civil design-oriented course). probe_b28_flags2.py B: unit vocabulary ~0.07, best-unit-J 0.00. Appends as its own row (branch scope = the doc's printed ME/PE/IPE/ME&I cover) with a cross-reference note to the Civil row; norm_name keeps the '(CAD)' token so no G3 name collision."},
-    "09_btech_me-ind-pe-ipe_y4_syllabus_2016-17::03::quality-control": {
-        "action": "FORCE_APPEND",
-        "reason": "B28 wrong-subject FORCE_APPEND (B27 08::03 class): draft 'QUALITY CONTROL' (NPI-801, 2016-17 PE/IPE/ME&I y4 core, 5 verbatim units: SQC control charts X/R, acceptance sampling, process capability, metrology) fuzzy 86/19-hits food-quality-control ('Food Quality & Control', KAG-059;RAG055;BAG059;NAG-013, 2020-21 Agricultural Engineering row: food-borne diseases, cereals/pulses/oil-seeds specifications). probe_b28_flags2.py C: completely different content — same generic name family only. Appends as its own row with a cross-reference note; zero-GAP holds."},
+        "reason": "B29 wrong-subject FORCE_APPEND (recorded B28 01::15/B27 08::03 class): draft 'FUNDAMENTALS OF BIOMEDICAL ENGINEERING' (EME-066, 2009-10 ME elective, 5 verbatim units: human physiology, bioelectric phenomena, biomaterials, medical instrumentation, rehabilitation) fuzzy 87/6-hits fundamentals-of-electrical-engineering (AEE101B/BEE101 2026-27 first-year row: circuits, machines). probe: J=0.03, best per-unit 0.06 — token 'fundamentals-of-X-engineering' name collision only, content is a DIFFERENT subject. Appends as its own row with a cross-reference note; zero-GAP holds."},
+    "02_btech_me-ind_y3_evaluation-scheme_2024-25::07::i-c-engine-fuel-lubrication": {
+        "action": "RETARGET", "target": "i-c-engine-fuels-lubrication",
+        "reason": "B29 verbatim-identity RETARGET (recorded B23 REE070 / B28 NEC408 class): draft 'I C Engine Fuel & Lubrication' (BME052, 2024-25 ME-Ind y3 print, 5 verbatim units). probe: i-c-engine-fuels-lubrication (KME054;BME054, 2020-21 establishing print) best per-unit J=1.00 VERBATIM — the 2024-25 print is the SAME subject with a punctuation/plural print variant; appending a second I.C.-Engine row would duplicate the subject (RULES §11). BME052 transfers from mechatronics-systems (its 2020-21-era published owner, older than this print) to the canon row; units fieldwise-win (2024-25 newer)."},
+    "02_btech_me-ind_y3_evaluation-scheme_2024-25::10::mechatronic-systems": {
+        "action": "RETARGET", "target": "mechatronics-systems",
+        "reason": "B29 verbatim-identity RETARGET (B28 NEC408 class + recorded singular/plural name-variant ALLOW): draft 'Mechatronic Systems' (BME054, 2024-25 ME-Ind y3 print, 5 verbatim units: sensors/actuators, modeling, controllers, DAQ, case studies). probe: mechatronics-systems (KME052;BME052, 2020-21) best per-unit J=0.98, full J=0.88 — SAME subject, singular print variant; no name-exact row exists because norm_name keeps the plural 's'. BME054 transfers from i-c-engine-fuels-lubrication (older published owner) to the canon row; units fieldwise-win."},
+    "06_btech_me-ind_y4_syllabus_2025-26::04::total-quality-management": {
+        "action": "RETARGET", "target": "total-quality-management-tqm",
+        "reason": "B29 TIE resolution, verbatim-identity RETARGET (B23 REE070 / B28 NEC408 class): draft 'Total Quality Management' (BPI062, 2025-26 ME-Ind y4 DE print, 5 verbatim units). TIE candidates: total-quality-management-tqm (NME-041, 2016-17 ME-Ind-family row — best per-unit J=1.00 VERBATIM, same branch scope) vs quality-management (NOE072;EOE-072, 2016-17 Civil open-elective row — best per-unit 0.92 on generic quality vocabulary, different program, different name). The verbatim-identical same-family row is the subject's canon; BPI062 joins it as the 2025-26 era code; the Civil quality-management row is untouched (different subject, cross-reference note only)."},
+    "02_btech_me-ind_y3_evaluation-scheme_2024-25::11::computational-fluid-dynamics": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "computational-fluid-dynamics",
+        "keep_published_codes": {"BME055": "turbo-machines"},
+        "reason": "B29 same-session code-slot collision keep (recorded B27 RCS653 / B28R 06::18 NGP-301 class): draft 'Computational Fluid Dynamics' (BME055, 2024-25 ME-Ind y3 print, 5 verbatim units). BME055's published owner is turbo-machines (session 2024-25 — SAME session, established by another 2024-25 y3 scheme that prints BME055 = Turbo Machines): newest-print-wins cannot break a same-session tie, so the published owner keeps the code. The update lands on the name-exact computational-fluid-dynamics row (2024-25 print backfills against its 2025-26 content); BME055 dropped to narrative; the AKTU same-session slot split recorded for owner reconciliation."},
+    "02_btech_me-ind_y3_evaluation-scheme_2024-25::21::turbo-machines": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "turbo-machines",
+        "keep_published_codes": {"BME062": "computational-fluid-dynamics"},
+        "reason": "B29 keep-published-owner (recorded B21 older-print guard / B28R 02::04 NOE-075 class): draft 'Turbo Machines' (BME062, 2024-25 ME-Ind y3 print, 5 verbatim units). BME062's published owner is computational-fluid-dynamics (session 2025-26 — NEWER than the draft; a 2025-26 scheme prints BME062 = CFD): an equal-or-older print never takes a code from its newer-session published owner. The update lands on the name-exact turbo-machines row (same-session 2024-25 corroboration of its 2024-25 units); BME062 dropped to narrative; the across-session slot split recorded for owner reconciliation."},
+    "04_btech_me-ind_y4_syllabus-cbcs_2019-20::02::cad-cam-lab": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "cad-cam-lab",
+        "keep_published_codes": {"RME751": "computer-aided-design-manufacturing-lab"},
+        "reason": "B29 same-session code-slot collision keep (B27 RCS653 class): draft 'CAD/CAM Lab' (RME751, 2019-20 ME-Ind y4 CBCS print, experiment list). RME751's published owner is computer-aided-design-manufacturing-lab (session 2019-20 — SAME session, 'COMPUTER AIDED DESIGN & MANUFACTURING LAB' from the 2019-20 AU-family CBCS print): same-session tie keeps the published owner. The update lands on the name-exact cad-cam-lab row; RME751 dropped to narrative; the same-session same-code cross-branch print pair recorded for owner reconciliation."},
+    "04_btech_me-ind_y4_syllabus-cbcs_2019-20::13::automation-and-robotics": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "automation-and-robotics",
+        "keep_published_codes": {"RME078": "robotics-and-automation"},
+        "reason": "B29 keep-published-owner (recorded B21 older-print guard / B28R NOE-075 class): draft 'Automation and Robotics' (RME078, 2019-20 ME-Ind y4 DE print, 5 verbatim units). RME078's published owner is robotics-and-automation (KAD073;EAU013;RME078, session 2024-25 — NEWER): an equal-or-older print never takes a code from its newer-session published owner. The update lands on the name-exact automation-and-robotics row (2019-20 print backfills/corroborates); RME078 dropped to narrative; the Robotics-and-Automation vs Automation-and-Robotics name pair and the AKTU slot re-use recorded for owner reconciliation."},
+    "07_btech_me-pe_syllabus_2009-10::61::operations-research": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "operations-research",
+        "keep_published_codes": {"EME051": "computer-aided-vehicle-design"},
+        "reason": "B29 same-session code-slot collision keep (B27 RCS653 class): draft 'OPERATIONS RESEARCH' (EME-051, 2009-10 ME elective-VIII print, 5 verbatim units). EME051's published owner is computer-aided-vehicle-design (EAU051;EME051, session 2009-10 — SAME session, established by the 2009-10 AU print): same-session tie keeps the published owner. The update lands on the name-exact operations-research row; EME051 dropped to narrative; the 2009-10 EME-051 cross-branch double print (AU CAVD vs ME Operations-Research) recorded for owner reconciliation."},
+    "07_btech_me-pe_syllabus_2009-10::62::maintenance-engineering-management": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "maintenance-engineering-management",
+        "keep_published_codes": {"EME052": "alternative-energy-sources-for-automobiles"},
+        "reason": "B29 same-session code-slot collision keep (B27 RCS653 class; same evidence pattern as 07::61): draft 'MAINTENANCE ENGINEERING & MANAGEMENT' (EME-052, 2009-10 ME elective print, 5 verbatim units). EME052's published owner is alternative-energy-sources-for-automobiles (EAU052;EME052;RAU082;NAU-052, session 2009-10 — SAME session): the published owner keeps the code; the update lands on the name-exact maintenance-engineering-management row; collision recorded for owner reconciliation."},
+    "07_btech_me-pe_syllabus_2009-10::63::design-of-thermal-systems": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "design-of-thermal-systems",
+        "keep_published_codes": {"EME053": "vehicle-dynamics"},
+        "reason": "B29 same-session code-slot collision keep (B27 RCS653 class; same evidence pattern as 07::61): draft 'DESIGN OF THERMAL SYSTEMS' (EME-053, 2009-10 ME elective print, 5 verbatim units). EME053's published owner is vehicle-dynamics (EAU053;EME053;RAU061;NAU-053, session 2009-10 — SAME session): the published owner keeps the code; the update lands on the name-exact design-of-thermal-systems row; collision recorded for owner reconciliation."},
+    "07_btech_me-pe_syllabus_2009-10::67::finite-element-method": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "finite-element-method",
+        "keep_published_codes": {"EME061": "computer-simulation-of-ic-engines-process"},
+        "reason": "B29 same-session code-slot collision keep (B27 RCS653 class; same evidence pattern as 07::61): draft 'FINITE ELEMENT METHOD' (EME-061, 2009-10 ME elective print, 5 verbatim units). EME061's published owner is computer-simulation-of-ic-engines-process (EAU061;EME061;EME062;NAU-061, session 2009-10 — SAME session): the published owner keeps the code; the update lands on the name-exact finite-element-method row (the 6-branch FEM accumulator); collision recorded for owner reconciliation."},
+    "07_btech_me-pe_syllabus_2009-10::68::non-destructive-testing": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "non-destructive-testing",
+        "keep_published_codes": {"EME062": "computer-simulation-of-ic-engines-process"},
+        "reason": "B29 same-session code-slot collision keep (B27 RCS653 class; same evidence pattern as 07::61): draft 'NON-DESTRUCTIVE TESTING' (EME-062, 2009-10 ME elective print, 5 verbatim units). EME062's published owner is computer-simulation-of-ic-engines-process (session 2009-10 — SAME session): the published owner keeps the code; the update lands on the name-exact non-destructive-testing row; collision recorded for owner reconciliation."},
 }
 
 # ---------------- B21 batch additions (evidence-recorded) ----------------
@@ -2255,6 +2301,62 @@ TIER2_OVERRIDES.update({
         "reason": "B27 same-commit-visibility TIE RETARGET (recorded B23 PS-II class): draft 'Woven Fabric Manufacture' (BHT-501, 2024-25 HT sem-5 core, detailed units: warping, plain power looms + motions, tappet shedding, jacquards, multiple box motions) — at live commit doc 06 (2022-23 HT rev, earlier in the sorted draft order) has already appended woven-fabric-manufacturing-i (KHT-501, sem-5: plain power looms/jacquard/multiple-box) and woven-fabric-manufacturing-ii (KHT-601, sem-6: terry/rapier/air-jet looms + calculations), so the ladder T1-hits BOTH (name-variant 'Manufacture'/'Manufacturing'). Unit evidence: 4/5 draft units thematically match WFM-I's units (power looms, jacquard, box motion; zero overlap with WFM-II's terry/rapier/air-jet), same sem-5 HT core slot — the draft is the 2024-25 print of the WFM-I course. RETARGET pins the update on woven-fabric-manufacturing-i; 2024-25 newer than 2022-23 -> fieldwise wins; BHT-501 joins as era code."},
 })
 
+# B28 (CRON-20261104-B28) per-key TIER2_OVERRIDES (evidence-recorded;
+# probe_b28_flags.py: token overlap + best per-unit Jaccard + direct print probes).
+# B28 = the IT wave (docs 01-08: IT 2009-10..2021-22) + the ME-Industrial pair
+# (docs 09-10). Drafts are the reconciled set: parallel-instance re-extractions
+# for docs 01-08 + this run's extractions for docs 09-10 (run manifest records
+# the reconciliation). 10 adjudications: 3 TIER2 ALLOWs, 4 wrong-subject
+# FORCE_APPENDs, 2 code-owner RETARGETs (recorded B20 classes), 1
+# RETARGET_KEEP_PUBLISHED_CODE_OWNER (recorded B25/B26 GP class); the 8
+# code-identity TIEs are scheme ALTERNATIVE-SLOT prints resolved by the
+# recorded ALTERNATIVE-PAIR-SLOT skip via alternative_pair_row draft flags.
+# ---- B28 TIER2 fuzzy adjudications ----
+TIER2_OVERRIDES.update({
+    "05_btech_it_y2_scheme-syllabus_2017-18::14::information-theory-and-coding": {
+        "action": "ALLOW",
+        "reason": "B28 era-family ALLOW: draft 'Information Theory and Coding' (REC406, 2017-18 IT y2 AICTE-model print, detailed units: entropy/information measure, Kraft-McMillan, Shannon encoding) = the row information-theory-coding (BAC062;KEC-075;KEC075;REC071;NEC031;BEC072;KECZ-071 — the recorded multi-branch/multi-era ITC accumulator, latest print 2025-26 NEP common-scheme). Fuzzy 93/overlap 40; best per-unit Jaccard 0.29 reflects the era rewording (AICTE-model vs NEP unit organization), not a different subject — both units cover the identical topic chain (entropy -> source coding -> channel capacity). Name is the '&'/'and' print variant (B18/B19 recorded class). 2017-18 older than the row's 2025-26 -> backfill/source-history only; REC406 joins code_history."},
+    "06_btech_it_y2_syllabus-rev_2014-15::10::theory-of-automata-and-formal-launguage": {
+        "action": "ALLOW",
+        "reason": "B28 name-variant ALLOW (print-typo class): draft 'Theory Of Automata and Formal Launguage' (NCS402, 2014-15 IT y2 print, detailed units; the 'Launguage' typo is the VERBATIM print, kept in name_print per RULES §6) = the row theory-of-automata-and-formal-languages (BCS402;KCS402;ECS-403;KCS402H;RCS403;BEEZ062 — the recorded TAFL accumulator). Fuzzy 97/overlap 66; same subject under the misspelled 2014-15 print. 2014-15 older than the row's 2023-24 -> backfill/source-history only; NCS402 joins code_history."},
+    "10_btech_me-ind_syllabus_2020-21::08::finite-element-methods": {
+        "action": "ALLOW",
+        "reason": "B28 same-subject ALLOW (singular/plural print variant, B23 neural-networks class): draft 'Finite Element Methods' (KME053, 2020-21 ME-Industrial DE print, detailed units) = the row finite-element-method (RME053;BME053;NAU-062;ECE032;RCE081;NCE032 — the recorded multi-branch FEM accumulator, 2018-19). Fuzzy 98/overlap 49; best per-unit Jaccard 0.13 reflects unit REORGANIZATION between the 2018-19 and 2020-21 prints, not a different subject — both cover the identical FEM topic chain (variational calculus/weighted residual -> shape functions -> element derivation -> assemblies). The row's own recorded design spans 6 branches' FEM prints; the 2020-21 ME-Ind print is newer than the row's 2018-19 -> fieldwise wins; KME053 joins as era code."},
+    # ---- B28 wrong-subject FORCE_APPENDs (same-name different-content, recorded B25/B27 split class) ----
+    "01_btech_it_syllabus_2015-16::15::modelling-and-simulation": {
+        "action": "FORCE_APPEND",
+        "reason": "B28 wrong-subject FORCE_APPEND (B25 NEN-302/B27 advanced-fabric-structure class, recorded unit evidence): draft 'Modelling & Simulation' (NIT062, 2015-16 IT sem-6 DE-II elective, detailed units: system definition, stochastic activities, continuous and discrete systems, simulation techniques, queuing) vs the only Tier-2 candidate process-modelling-and-simulation (ECH701;RCH701, 2009-10 Chemical Engineering: mathematical modeling of unit operations, degree-of-freedom analysis, heat/mass exchanger models) — fuzzy 86 but shared vocab is generic (model/simulation/system) and best per-unit Jaccard 0.19: the IT systems-simulation course and the ChemE process-modeling course are DIFFERENT subjects sharing a generic title. Appends as its own row with a cross-reference note; the ChemE row is never touched."},
+    "04_btech_it_y2_scheme-syllabus_2009-10::04::object-oriented-systems": {
+        "action": "FORCE_APPEND",
+        "reason": "B28 partial-overlap split (B25/B27 same-core different-tail class, recorded unit evidence): draft 'Object Oriented Systems' (ECS-305, 2009-10 IT sem-3 core, detailed units) vs the only Tier-2 candidate object-oriented-systems-and-c (ECS-039, 2009-10 EE/E&E-group elective) — units I-III are the SAME OMT/OOS core (objects/classes/links/associations, dynamic modeling events/states, functional modeling DFD; near-verbatim), but units IV-V DIVERGE COMPLETELY: the IT print teaches Java (operators/classes/multithreading/Applet; Java Beans/Swing/Servlets, 'Migrating from C++ to Java') while the EE print teaches C++ (tokens/constructors/destructors/overloading) + Unix/Linux shell. Different titles ('Object Oriented Systems' vs 'Object Oriented Systems and C++'), different codes (core ECS-305 vs elective-slot ECS-039), different branch programs, different language tracks: DISTINCT subjects sharing a 3-unit OMS core (RULES §11 never merge to save a row). Appends as its own row with a cross-reference note recording the shared-core/divergent-tail evidence."},
+    "09_btech_me-ind-pe-ipe_y4_syllabus_2016-17::00::computer-aided-design-cad": {
+        "action": "FORCE_APPEND",
+        "reason": "B28 wrong-subject FORCE_APPEND (B27 advanced-fabric-structure same-name different-program class, recorded unit evidence): draft 'COMPUTER AIDED DESIGN (CAD)' (NME-701, 2016-17 ME-Industrial y4 core, detailed units: CAD/CAED/CAE elements, integrated CAD/CAM, graphics standards, Bresenham's algorithms, geometric modeling) vs the only Tier-2 candidate computer-aided-design (ECE051;NCE051, 2010-11 Civil elective: CAD hardware, software design principles, 2 thin units) — fuzzy 91 but best per-unit Jaccard 0.11: the ME CAD/CAM course and the Civil CAD-overview elective are DIFFERENT subjects under the same name. Appends as its own row with a cross-reference note; the Civil row is never touched."},
+    "09_btech_me-ind-pe-ipe_y4_syllabus_2016-17::03::quality-control": {
+        "action": "FORCE_APPEND",
+        "reason": "B28 wrong-subject FORCE_APPEND (same recorded class as 09::00): draft 'QUALITY CONTROL' (NPI-801, 2016-17 PI y4 core, detailed units: quality control concepts, metrology, control charts, acceptance sampling, reliability) vs the only Tier-2 candidate food-quality-control (KAG-059;RAG055;BAG059;NAG-013, 2020-21 Agricultural Engineering food QC) — fuzzy 86, best per-unit Jaccard 0.15: industrial QC and food-industry QC are DIFFERENT subjects sharing a generic title. Appends as its own row with a cross-reference note."},
+    # ---- B28 code-owner RETARGETs (recorded B20 classes) ----
+    "03_btech_it_y2_model-curriculum_2019-20::03::data-structures-using-c-lab": {
+        "action": "RETARGET", "target": "data-structure-using-c-lab",
+        "reason": "B20 singular/plural print variant, NOT a code reassignment (recorded B18/B19 DBMS-lab class; the identical 2019-20 CSE-group print is adjudicated at 06_btech_csit-cse_y2_model-curriculum_2019-20::03): draft 'Data Structures Using C Lab' (KCS351, 2019-20 IT y2 AICTE model-curriculum print, verbatim experiment list) — KCS351's published owner is data-structure-using-c-lab ('Data Structure using C Lab', 2021-22 K-era row, primary KCS351). The auto name-transfer toward the 's'-variant name row (data-structures-using-c-lab, KCS351H, 2022-23 Hindi-rev print) would strand the KCS351 owner codeless (B18 recorded rejection of this exact transfer class). UPDATE the KCS351 owner row; the 2019-20 print corroborates (experiments backfill; KCS351 stays)."},
+    "03_btech_it_y2_model-curriculum_2019-20::14::mini-project-or-internship-assessment": {
+        "action": "RETARGET", "target": "internship-assessment-mini-project",
+        "reason": "B20 mini-project CSE&E code-owner RETARGET class (recorded B18/B17/B20 overrides; B16 rejection; the identical 2019-20 CSE-group print is adjudicated at 06_btech_csit-cse_y2_model-curriculum_2019-20::06): draft 'Mini Project or Internship Assessment*' (KCS354, 2019-20 IT y2 AICTE model-curriculum scheme-row print, flagged scheme_row_only) — KCS354 is ALREADY owned by the CSE&E code-owner row internship-assessment-mini-project (all_codes BCC351;KCS354;KEC354;KCS554;BCS554;BCE554;KCS752;BCS752;B20 adjudication (b) keeps OWNED sibling slot codes with that row). The auto name-transfer toward the AG/AE-named cross-branch slot row (mini-project-or-internship-assessment, BAE553;KAG354;BAG554, EMPTY branch_names) is rejected per RULES §1b spirit. UPDATE the CSE&E code-owner row; scheme-row-only corroboration."},
+    # ---- B28 equal/older-print code-owner protections (recorded B25/B26 GP + B27 RCS653 classes) ----
+    "04_btech_it_y2_scheme-syllabus_2009-10::09::general-proficiency": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "general-proficiency",
+        "keep_published_codes": {"GP301": "general-proficiency-lab"},
+        "reason": "TIE-free code-owner protection (recorded B25/B26 GP class, SAME resolution as 05_btech_ft_syllabus-rev_2009-10::52): draft 'General Proficiency' (GP-301, 2009-10 IT scheme slot) — the auto CODE-REASSIGNED name-transfer would move GP301 from general-proficiency-lab (establishing print 2014-15 EE-group, NEWER than this 2009-10 scheme print) to the name-exact general-proficiency row; an equal-or-older print never takes a code from its published newer-print owner (RULES §3). RETARGET pins the corroboration update on the name-exact general-proficiency row and GP301 STAYS with general-proficiency-lab (B19 keep_published_codes mechanism: kept code dropped from the draft copy, narrative recorded on the target row — G2 single ownership preserved)."},
+    "06_btech_it_y2_syllabus-rev_2014-15::15::mathematics-iii-science-based-open-elective": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "mathematics-iii-science-based-open-elective",
+        "keep_published_codes": {"NAS301": "engg-mathematics-iii"},
+        "reason": "B28 same-session cross-branch slot print (recorded B27 RCS653 class: 'newest-print-wins cannot break the tie', B19 mechanism): draft 'Mathematics III/Science Based Open Elective' (NAS-301 + NOE-031..039 pool, 2014-15 IT sem-3 scheme slot, flagged scheme_row_only) — NAS301 is owned by engg-mathematics-iii, established by the SAME-SESSION ECE-group y2 2014-15 print (btech_ece-group_y2_syllabus_2014-15.pdf); the auto transfer would strip a code from a row whose own establishing print carries it (equal session, different branch group — two authoritative same-session schemes). RETARGET pins the update on the name-exact sem-3 slot row mathematics-iii-science-based-open-elective (2017-18 C&T print, EOE 031-038 codes; the IT NOE-031..039 pool codes join it as the slot's N-era pool range); NAS301 STAYS with engg-mathematics-iii (G2 single ownership) and the 2014-15 IT slot print is recorded as narrative on the updated row."},
+    "06_btech_it_y2_syllabus-rev_2014-15::19::science-based-open-elective-mathematics-iii": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "science-based-open-elective-mathematics-iii",
+        "keep_published_codes": {"NAS401": "engg-mathematics-iii"},
+        "reason": "B28 same-session cross-branch slot print (identical class to 06::15): draft 'Science Based Open Elective/Mathematics III' (NOE-041..049 pool + NAS-401, 2014-15 IT sem-4 scheme slot, flagged scheme_row_only) — NAS401 is owned by engg-mathematics-iii (same-session 2014-15 ECE-group establishing print); the auto transfer is rejected per the RCS653 class. RETARGET pins the update on the name-exact sem-4 slot row science-based-open-elective-mathematics-iii (2017-18 C&T print, EOE 041-048; the IT NOE-041..049 pool codes join it as the N-era pool range); NAS401 STAYS with engg-mathematics-iii."},
+})
+
 
 
 # B14 remedy registry: sha16s of documents that a PRIOR batch ingested and
@@ -2288,6 +2390,24 @@ PRIOR_VERIFIED_LOST_SHA = {
         "upload corroborating copy (03d279e76a24f6ff) proven 2026-10-27 in queue "
         "meta.history; upload bytes + parsed fulltext lost in the 12th workspace "
         "reset (2026-10-31); md5 scan of the repo corpus = no match",
+    "13bd875d098f99df":
+        "Common-Subjects-2nd-Year-AKTU-08092023.pdf — charter-mandated released "
+        "companion doc (one of the two released companions, owner release "
+        "recorded in the project charter, RULES §1; a B01-ingested doc): "
+        "supplied the published unit1_text of mathematics-iii-partial-differential-"
+        "equations-statistical-a (source_syllabus cites it pp.1-28, first "
+        "ingestion 2023-24) and the other common-2nd-year-subject rows of that "
+        "ingestion wave. Registered at B28 (2026-11-04) when the row was first "
+        "TOUCHED since the bytes were lost (the B28 code-reassignment executor "
+        "moved the EOE-041-048 pool wart off the row, triggering the first G6 "
+        "spot-check of its unit1 since ingestion): the companion class was "
+        "directly containment-verified while bytes were extant (gate_g6 B19 "
+        "remedy comment, 2026-11-01: rows supplied by exactly these docs passed "
+        "against the extant work/artd_v3/sources/ + upload/ bytes); this row's "
+        "unit1 is byte-identical to the GitHub-published value since the 2023-24 "
+        "first ingestion (GitHub CSV = the durable record per RULES §1c); "
+        "workspace resets wiped work/artd_v3/sources/ + upload/; md5 scan of the "
+        "repo corpus (613 PDFs) + upload/ = no match",
 }
 
 _prior_pub_cache = None
