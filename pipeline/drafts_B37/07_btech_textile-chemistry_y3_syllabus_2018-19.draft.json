@@ -1,0 +1,426 @@
+{
+ "pdf_rel": "",
+ "session": "",
+ "course": "BTech",
+ "sha16": "0fad0dfc23287c88",
+ "stem": "07_btech_textile-chemistry_y3_syllabus_2018-19",
+ "subjects": [
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "name": "",
+   "name_print": "",
+   "codes": [
+    ""
+   ],
+   "flags": [
+    "extraction_failed_scheme_batch"
+   ],
+   "quirks": [],
+   "units": {}
+  },
+  {
+   "scheme_row_only": true,
+   "\n\nGiven the placeholders, perhaps the intent is to extract all subjects from the document? But the format expects a single subject.\n\nHmm, let me look at the output format again:\n{\"name": "<canonical spelling of the printed name>",
+   "name_print": "<verbatim>",
+   "codes": [
+    "<codes exactly as printed, spaces removed>"
+   ],
+   "...' and code is '...": "these are placeholders. The instruction seems incomplete. But I should still try to extract something meaningful.\n\nActually, wait. Looking at the PDF text, there are many subjects listed in the scheme tables. The detail pages cover specific subjects. Let me identify which subjects have detail pages:\n\nPage 4: Textile Testing-I (RTT501A)\nPage 5: Technology of Dyeing-II (RTC502), Technology of Printing-I (RTC503)\nPage 6: Departmental Elective 1 - Polymer Chemistry/Industrial Chemistry (RTC051/RTC052)\nPage 7: Industrial Chemistry continuation\nPage 8: Industrial Management, Cyber Security/Sociology, Textile Testing-II (RTT601), Technology of Printing-II (RTC602)\nPage 9: Technology of Finishing-I (RTC603), Chemistry of Dyes & Colour Chemistry/Fabric Structure & Analysis (RTC062/RTT061)\nPage 10-11: Continuation of Chemistry of Dyes & Fabric Structure\nPage 13: Open Elective 1, Waste Management & Pollution Control, Non Woven Technology\nPage 14: Theory of Textile Structure, Quality Control in Chemical Processing\nPage 15-16: Technology of Finishing-II, Advances in Chemical Processing\nPage 17-18: Coating of Textiles, Technical Textiles\nPage 19-21: Process House Planning & Management, Garment Processing\n\nSince the request has placeholders '...' for both subject and code, and the instruction says",
+   "...' (code print '...": "detail from page N}, ...]}",
+   "carefully": "Extract subject '...' (code print '...', detail from page N}, ...]}\" - this looks like a template where the actual values should be substituted. Since they're '...', maybe I should treat this as extracting everything?\n\nHmm, but the instructions say \"Return ONE JSON object\" and the shape is for a single subject.\n\nLet me reconsider. Perhaps the request is malformed and I should extract the first subject found, or perhaps I should note that the request is ambiguous.\n\nActually, looking at the protocol: \"First, write whatever reasoning you need in plain prose. Be brief.\" Then output the JSON.\n\nGiven the ambiguity, I think the best approach is to extract all subjects that have detail pages, but since the format is for one subject, maybe I should pick the most prominent one or handle this differently.\n\nWait, actually let me re-read the instruction once more: \"Extract subject '...' (code print '...', detail from page N}, ...]}\"\n\nI think this might be a case where the template variables weren't filled in, and I should extract all subjects from the document. But the output format is for a single subject.\n\nAlternatively, maybe I should just extract the first subject with a detail page, which would be Textile Testing-I (RTT501A) on page 4.\n\nActually, you know what, let me look at this differently. The instruction says \"Extract subject '...'\" - if the subject is '...', maybe it means extract ALL subjects. But the output format only supports one subject per JSON object.\n\nHmm, let me look at the protocol again: \"The response_format requires a top-level object, so if the instructions above ask for an array, return that array as the value of one descriptive key\"\n\nSo maybe I should return an array of subjects under a key like \"subjects\".\n\nBut the RULES §7 shape is very specific for a single subject. \n\nLet me think about this differently. The prompt template says \"Extract subject '...' (code print '...', detail from page N}, ...]}\". Since both are '...', perhaps the intent is to extract all subjects. Given the output format constraint, I'll return an object with a \"subjects\" key containing an array of all extracted subjects.\n\nActually wait, I just realized - maybe the '...' is literal and I should interpret this as extracting all subjects from the document. Let me do that.\n\nLet me go through each subject with a detail page:\n\n1. **Textile Testing-I** (RTT501A) - Page 4\n   - L-T-P: 3-1-0 = 4\n   - Units: 5 units with lecture counts\n   - Textbooks: 4 books\n   - No COs, no marks table in detail\n\n2. **Technology of Dyeing-II** (RTC502) - Page 5\n   - L-T-P: 3-0-0 = 3\n   - Units: 5 units\n   - Reference books: 4 books\n\n3. **Technology of Printing-I** (RTC503) - Pages 5-6\n   - L-T-P: 3-0-0 = 3\n   - Units: 5 units\n   - Textbooks: 3 books\n\n4. **Departmental Elective 1: Polymer Chemistry** (RTC051) - Pages 6-7\n   - L-T-P: 3-1-0 = 4\n   - Units: 5 units\n   - Textbooks: 4 books\n\n5. **Departmental Elective 1: Industrial Chemistry** (RTC052) - Page 7\n   - L-T-P: 3-1-0 = 4\n   - Units: 5 units\n   - Reference books: 6 books\n\n6. **Industrial Management** (RAS601) - Page 8\n   - \"As per concerned BoS AKTU",
+   "As per BoS AKTU Syllabus": "no detail\n\n8. **Textile Testing-II** (RTT601) - Page 8\n   - L-T-P: 3-1-0 = 4\n   - Units: 5 units\n   - Textbooks: 4 books\n\n9. **Technology of Printing-II** (RTC602) - Pages 8-9\n   - L-T-P: 3-0-0 = 3\n   - Units: 5 units\n   - Textbooks: 3 books\n\n10. **Technology of Finishing-I** (RTC603) - Page 9\n    - L-T-P: 3-0-0 = 3\n    - Units: 5 units\n    - Reference books: 3 books\n\n11. **Chemistry of Dyes & Colour Chemistry** (RTC062) - Pages 10\n    - L-T-P: 3-1-0 = 4\n    - Units: 4 units (plus grand total)\n    - Textbooks: 2",
+   "Reference": 4,
+   "L-T-P": "3-1-0",
+   "Units": 4,
+   "books": 4,
+   "Syllabus As decided by AKTU": "no detail\n\n14. **Waste Management & Pollution Control** (RTT043?) - Pages 13-14\n    - L-T-P: 3-0-0\n    - Units: 5 units\n    - Reference books: 2\n\n15. **Non Woven Technology** (RTT031) - Page 14\n    - L-T-P: 3-0-0\n    - Units: 5 units\n    - Reference books: 3\n\n16. **Theory of Textile Structure** (RTT041) - Pages 14-15\n    - L-T-P: 3-1-0\n    - Units: 5 units\n    - Textbooks: 3\n\n17. **Quality Control in Chemical Processing** (RTT043) - Page 15\n    - Units: 5 units (no lecture counts)\n    - Books: 5\n\n18. **Technology of Finishing-II** (RTT705) - Page 16\n    - Units: 5 units\n    - Reference books: 3\n\n19. **Advances in Chemical Processing** (RTT053) - Pages 16-17\n    - No units, just paragraphs\n    - Books: 5\n\n20. **Coating of Textiles** (RTT706) - Pages 17-18\n    - Units: 5 units\n    - Reference books: 4\n\n21. **Technical Textiles** (RTT051) - Pages 18-19\n    - Units: 5 units\n    - Textbooks: 3\n\n22. **Process House Planning & Management** (RTT063) - Pages 19-20\n    - Units: 4 units (some without lecture counts)\n    - Reference books: 8\n\n23. **Garment Processing** (RTT064) - Pages 20-21\n    - Units: 5 units\n    - Reference books: 7\n\nThis is a lot of subjects. Given the ambiguity of the request with '...' placeholders, I think the best approach is to extract all subjects that have detail pages.\n\nBut wait, the output format is for a single subject. The protocol says",
+   "locations": [],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "quirks": [
+    "scheme table row only (p.N}, ...]}\n\nThere's no quirks field in the output format. Hmm, but the instruction says): detailed syllabus not printed in this document (recorded B23/B25/B27 zero-GAP class — flagged subject candidate for the ladder)"
+   ],
+   "units": {},
+   "name": "<verbatim>"
+  },
+  {
+   "name_print": "Managerial Economics",
+   "codes": [
+    "RAS501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": null,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Managerial Economics"
+  },
+  {
+   "name_print": "Sociology/ Cyber Security",
+   "codes": [
+    "RAS502/RUC501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": null,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ],
+   "name": "Sociology/ Cyber Security"
+  },
+  {
+   "name_print": "INDUSTRIAL MANAGEMENT",
+   "codes": [
+    "RAS601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": null,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.3); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "INDUSTRIAL MANAGEMENT"
+  },
+  {
+   "name_print": "CYBER SECURITY/ SOCIOLOGY",
+   "codes": [
+    "RUC601/RAS602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": null,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.3); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ],
+   "name": "CYBER SECURITY/ SOCIOLOGY"
+  },
+  {
+   "name_print": "OPEN ELECTIVE-1",
+   "codes": [],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": null,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.12); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "OPEN ELECTIVE-1"
+  },
+  {
+   "name_print": "Technology of Finishing-II Lab",
+   "codes": [
+    "RTT755"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 50,
+    "sessional_total": null,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.12); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Finishing-II Lab"
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [
+  "doc_title_print: ..."
+ ],
+ "flags": [
+  "scheme_batch_failed:ValueError('invalid literal for int() with base 10: \"N}, ...]}\\\\n\\\\nThere\\'s no "
+ ]
+}

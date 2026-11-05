@@ -47,7 +47,15 @@ def chat(messages, max_tokens=8000, temperature=0.5, json_mode=True, retries=5):
                          "Content-Type": "application/json"})
             with urllib.request.urlopen(req, timeout=240) as r:
                 out = json.loads(r.read())
-            return json.loads(out["choices"][0]["message"]["content"])
+            msg = out["choices"][0]["message"]
+            fr = out["choices"][0].get("finish_reason")
+            if msg.get("content") is None:
+                last = f"empty content (finish_reason={fr}, usage={out.get('usage',{}).get('completion_tokens')})"
+                if fr == "length":
+                    body["max_tokens"] = min(60000, int(body["max_tokens"] * 2))
+                time.sleep(4)
+                continue
+            return json.loads(msg["content"])
         except urllib.error.HTTPError as e:
             err = e.read()[:200]
             last = f"HTTP {e.code}: {err!r}"
@@ -62,9 +70,46 @@ def chat(messages, max_tokens=8000, temperature=0.5, json_mode=True, retries=5):
     raise RuntimeError(f"mercury chat failed after {retries+1} attempts: {last}")
 
 
+def fulltext_of(pages):
+    return "\n\n".join(t for _, t in pages)
+
+
 def norm_al(s):
     return re.sub(r"[^a-z0-9]", "", (s or "").lower())
 
+
+
+
+def pages_of(fulltext):
+    """split the dumped fulltext into (page_no, text) pairs"""
+    parts = re.split(r"===== PAGE (\d+) =====", fulltext)
+    out = []
+    for i in range(1, len(parts) - 1, 2):
+        out.append((int(parts[i]), parts[i + 1]))
+    return out
+
+
+def slice_pages(pages, p_from, p_to):
+    lo = min(p for p, _ in pages) if pages else 1
+    sel = [t for p, t in pages if p >= int(p_from or lo) and (p_to is None or p < int(p_to))]
+    return "\n\n".join(sel) if sel else fulltext_of(pages)
+
+
+
+def units_dict(u):
+    """coerce the model's units (dict or list-of-{unit,text}) into a {'1': text} dict"""
+    if isinstance(u, dict):
+        return {str(k): (v.get("text") if isinstance(v, dict) else v) for k, v in u.items()}
+    if isinstance(u, list):
+        out = {}
+        for i, x in enumerate(u, 1):
+            if isinstance(x, dict):
+                k = str(x.get("unit") or x.get("no") or i)
+                out[k] = x.get("text") or x.get("unit_text") or x.get("content") or ""
+            else:
+                out[str(i)] = str(x)
+        return out
+    return {}
 
 def contained(needle, hay, w=60, step=30):
     """sliding-window containment approximating the verifier's check"""
@@ -156,6 +201,8 @@ def extract_one(pdf_name, fulltext, meta, sub, session, course):
                         sub.get("name_print", ""), sub.get("code_print", ""), fulltext)
     out = chat([{"role": "system", "content": SYS},
                 {"role": "user", "content": prompt}], max_tokens=8000)
+    if isinstance(out, list):  # model sometimes returns the bare array
+        out = next((x for x in out if isinstance(x, dict)), {})
     if out.get("scheme_row_only"):
         out.setdefault("flags", []).append("scheme_row_only_detailed_syllabus_not_printed")
         out.setdefault("quirks", []).append(
@@ -164,6 +211,7 @@ def extract_one(pdf_name, fulltext, meta, sub, session, course):
         if sub.get("slot_print"):
             out.setdefault("flags", []).append("alternative_pair_row")
     if is_detail:
+        out["units"] = units_dict(out.get("units"))
         bad = []
         for uk, ut in (out.get("units") or {}).items():
             if ut and contained(ut, fulltext) < 0.85:
@@ -175,9 +223,12 @@ def extract_one(pdf_name, fulltext, meta, sub, session, course):
                          "(you likely paraphrased or dropped fragments). Re-extract those units BYTE-VERBATIM "
                          "from the text below. Return the FULL corrected subject JSON object.\n%s"
                          % (",".join(bad), sub.get("name_print", ""), fulltext)}], max_tokens=8000)
+            if isinstance(fix, list):
+                fix = next((x for x in fix if isinstance(x, dict)), {})
+            fu = units_dict(fix.get("units"))
             for uk in bad:
-                if fix.get("units", {}).get(uk) and contained(fix["units"][uk], fulltext) >= 0.85:
-                    out["units"][uk] = fix["units"][uk]
+                if fu.get(uk) and contained(fu[uk], fulltext) >= 0.85:
+                    out["units"][uk] = fu[uk]
                 else:
                     out.setdefault("flags", []).append("unit_containment_low_print_quirk")
                     out.setdefault("quirks", []).append(
@@ -202,6 +253,7 @@ def draft_doc(parsed_dir, drafts_dir, stem):
     else:
         session, course = meta.get("session", ""), "BTech"
     fulltext = open(f"{parsed_dir}/{stem}.fulltext.txt").read()
+    PAGES = pages_of(fulltext)
     sha16 = meta.get("sha16", "")
     inv = chat([{"role": "system", "content": SYS},
                 {"role": "user", "content": INVENTORY % (pdf_name, session, course) + "\n=== PDF TEXT ===\n" + fulltext}],
@@ -227,7 +279,9 @@ def draft_doc(parsed_dir, drafts_dir, stem):
     results = []
     if scheme_subs:
         try:
-            results.extend(extract_scheme_batch(fulltext, session, course, scheme_subs))
+            first_det = min([int(s.get("page") or 10**9) for s in detail_subs], default=None)
+            scheme_txt = fulltext if first_det is None else fulltext_of([p for p in PAGES if first_det is None or p["n"] < first_det]) if False else (fulltext if first_det is None else "\n\n".join(t for p, t in PAGES if p < first_det))
+            results.extend(extract_scheme_batch(scheme_txt, session, course, scheme_subs))
         except Exception as e:  # noqa: BLE001
             draft.setdefault("flags", []).append(f"scheme_batch_failed:{repr(e)[:80]}")
             for s in scheme_subs:
@@ -236,14 +290,29 @@ def draft_doc(parsed_dir, drafts_dir, stem):
                                           "flags": ["extraction_failed_scheme_batch"], "quirks": [], "units": {}})
             save()
     with ThreadPoolExecutor(max_workers=2) as ex:
-        futs = {ex.submit(extract_one, pdf_name, fulltext, meta, s, session, course): s for s in detail_subs}
+        def safe_pg(x):
+            try:
+                return int(x)
+            except (TypeError, ValueError):
+                return 0
+        det_pages = sorted({safe_pg(s.get("page")) for s in detail_subs if safe_pg(s.get("page"))})
+        det_pages = sorted(set(det_pages))
+        def slice_for(s):
+            p = safe_pg(s.get("page"))
+            if not p:
+                return fulltext
+            nxt = next((q for q in det_pages if q > p), None)
+            return "\n\n".join(t for pp, t in PAGES if pp >= p and (nxt is None or pp < nxt))
+        futs = {ex.submit(extract_one, pdf_name, slice_for(s), meta, s, session, course): s for s in detail_subs}
         for fut in as_completed(futs):
             s = futs[fut]
             try:
                 results.append(fut.result())
             except Exception as e:  # noqa: BLE001 — record and continue; verify will catch gaps
+                import traceback
                 draft.setdefault("flags", []).append(
-                    f"extraction_failed:{s.get('code_print','?')}:{repr(e)[:80]}")
+                    f"extraction_failed:{s.get('code_print','?')}:{repr(e)[:80]}:{traceback.format_exc()[-300:]!s}")
+                traceback.print_exc()
                 save()
                 print(f"FAIL|{stem}|{s.get('code_print','?')}|{repr(e)[:80]}")
                 continue
