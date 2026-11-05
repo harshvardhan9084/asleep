@@ -1,0 +1,1975 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2018-19/btech_plastic_syllabus_2018-19.pdf",
+ "session": "2018-19",
+ "course": "BTech",
+ "sha16": "df2392d3a5902d2a",
+ "stem": "02_btech_plastic_syllabus_2018-19",
+ "branch_print": "B. Tech. in Plastic Engineering",
+ "branch_print_note": "cover p.1: 'Syllabus 3rd Year [Effective from session 2018-19] B. Tech. in Plastic Engineering' (Y3, Sem V & VI only)",
+ "subjects": [
+  {
+   "name": "PLASTIC MATERIALS – I",
+   "name_print": "Plastic Materials-1 (scheme table) / PLASTIC MATERIALS – I (syllabus page)",
+   "codes": [
+    "RPL501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RPL501 | Plastic Materials-1 | L3 T0 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 3 (Semester-V scheme, p.2)",
+   "units": {
+    "1": "Introduction to Polymer Chemistry Sources of raw materials- Monomers - Polymers- Polymerization - Types of Polymerization – Classification.Definition and Classification of Plastics – General properties – Historical development of plastic industry-future trends, Thermoplastics, Thermosetting, Engineering & High performance plastics.",
+    "2": "Structure of Plastics: Molecules –Crystallinity – Effect of Crystallinity on properties – crosslinked plastics – Determination of Molecular weight – Effect of Molecular weight on processing and properties – Molecular weight distribution. Linear, Branched and cross linked structures in polymers. Flexibility and movement of macromolecules. Glass transition temperature (Tg). Relationship",
+    "3": "Introduction- Sources and manufacture of raw materials- basic chemistry- Methods of manufacture- Flow behavior- General properties and applications of Olefin Polymer and Co- polymers Vinyl chloride polymers and co-polymers",
+    "4": "Introduction – Sources and manufacture of raw materials – basic chemistry – Methods of manufacture – Flow behavior – General properties and applications of Styrene and Styrene co- polymers PMMA. Cellulose polymers",
+    "5": "Bio degradable and Bio Plastics Principle and Mechanism of Plastics degradation, Natural Bio-degradable Polymers – Synthetic Bio-degradable Polymers – Water soluble Polymers. Bio plastics types, properties and applications Case studies on applications of above materials."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Brydson, J.A “Plastics Material”"
+    },
+    {
+     "no": 2,
+     "book": "Schwartz & good man “Plastics materials and processing”"
+    },
+    {
+     "no": 3,
+     "book": "Irwin rubin “Hand book of Plastic Materials and Technology”"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "heading 'Reference Books –' printed for the only book list",
+    "Unit-II text ends with the dangling word 'Relationship' (truncated sentence in print)",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PLASTIC PROCESSING-I",
+   "name_print": "Plastic Processing-1 (scheme table) / PLASTIC PROCESSING-I (syllabus page)",
+   "codes": [
+    "RPL502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RPL502 | Plastic Processing-1 | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-V scheme, p.2)",
+   "units": {
+    "1": "Processability of various polymers and the role of rheology in polymer processing.",
+    "2": "General description of extrusion processes, type of extruders, screw and their output in terms of drag, leakage and pressure flow, influence of screw dimensions and output, die and screw characteristics. Design of barrel and screw for commodity, heat sensitive and engineering polymers.Barrier Screws.",
+    "3": "Individual extrusion systems, Dies, Sizing and Downstream equipments, Faults, Causes and Remedies for film, pipe, lamination, profiles, cables, sheet, Box Strapping .",
+    "4": "Twin-screw extrusion and Co Extrusion systems.Casting of films.Multi layer systems for Films and Pipe . Faults , Causes & Remedies.",
+    "5": "General description of Compression and Transfer moulding and its application in processing of thermosetting materials.Faults , Causes & Remedies."
+   },
+   "lectures_per_unit": {
+    "1": "06",
+    "2": "09",
+    "3": "09",
+    "4": "08",
+    "5": "08"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Berins , “Plastics engineering hand book” - society of the Plastics industry"
+    },
+    {
+     "no": 2,
+     "book": "Allen , WS & baker , pn “Hand book of Plastics technology"
+    },
+    {
+     "no": 3,
+     "book": "Chris Rauwendaal, “Polymer Extrusion” Hanser Publication"
+    },
+    {
+     "no": 4,
+     "book": "lyesew, A.I “Compression molding”"
+    },
+    {
+     "no": 5,
+     "book": "BOBB “COMPRESSION & TRANSFER THEORY & TNCHNOLOGY”"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "heading 'Books –' printed for the only book list",
+    "unit hour numbers print with leading zeros: 06/09/09/08/08 (kept verbatim)",
+    "book typos kept verbatim: 'lyesew, A.I', 'BOBB ... TNCHNOLOGY'",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "RHEOLOGY AND TESTING OF POLYMERS",
+   "name_print": "Rheology & Testing of polymers (scheme table) / RHEOLOGY AND TESTING OF POLYMERS (syllabus page)",
+   "codes": [
+    "RPL503"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RPL503 | Rheology & Testing of polymers | L3 T0 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 3 (Semester-V scheme, p.2)",
+   "units": {
+    "1": "Introduction to polymer rheology, Newtonian and non-Newtonian fluids.Viscoelastic behaviour, dynamic and constitutive equations.Mechanical models.Discussion of models for flow and deformation in polymers and treatment of measureable rheological properties.",
+    "2": "Measurement of viscosity and normal stresses.Viscous heat generation Interpretation of time-temperature senstivity of viscoelastic solids and liquids.",
+    "3": "Chemical Properties - Cohesive energy, cohesive energy density, solubility parameter, Prediction of solubility parameter, Effect of polymer structure on solubility in solvents and oils, Influence of structure in prediction of flame retardancy, water repellency , Chemical resistance of polymers, Polymer-in-solution: Polymer-solvent interaction, good and poor solvents, intrinsic viscosity and Mark-Houwink equation. Concept of fractionation processes.",
+    "4": "ASTM, BS, IS and its importance, correlation of these tests with actual performance. Degradation behavior of polymers.Introduction to polymer characterization by advance instrumental techniques such as IR, NMR, DSC, TGA, SEM, etc."
+   },
+   "lectures_per_unit": {
+    "1": "8",
+    "2": "7",
+    "3": "9",
+    "4": "8"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Vishu shah “Plastics testing technology hand book”"
+    },
+    {
+     "no": 2,
+     "book": "Brown RP “Hand book Plastics test methods “"
+    },
+    {
+     "no": 3,
+     "book": "Mathur ,AB &Bhardwaj IS “Testing and evaluation of Plastics”"
+    },
+    {
+     "no": 4,
+     "book": "lves GC, Mead JA & Riley MM “Hand book Plastics test methods”"
+    },
+    {
+     "no": 5,
+     "book": "Braun “simple methods for identification of Plastics”"
+    },
+    {
+     "no": 6,
+     "book": "Crompton “Analysis of Plastics”"
+    },
+    {
+     "no": 7,
+     "book": "Plastics engineering hand Ed 5 Society of the Plastics industry"
+    },
+    {
+     "no": 8,
+     "book": "Haslam“identification and analysis of plastics”"
+    },
+    {
+     "no": 9,
+     "book": "Allen , WS & Baker , PN “Hand book of plastics technology 2 vols”"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "no Unit-V printed — only Units 1-4 (verified on page image, p.6); unit hours print 8/7/9/8",
+    "heading 'Books' printed for the only book list",
+    "typos kept verbatim: 'measureable', 'senstivity', 'lves GC' (Ives?), 'Haslam“identification'",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "no_unit_V_printed"
+   ]
+  },
+  {
+   "name": "ANALYSIS AND IDENTIFICATION OFPOLYMERS LAB",
+   "name_print": "Analysis & Identification of Polymers Lab (scheme table) / ANALYSIS AND IDENTIFICATION OFPOLYMERS  LAB (syllabus page, 'OFPOLYMERS' typo verbatim)",
+   "codes": [
+    "RPL551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "RPL551 | Analysis & Identification of Polymers Lab | L0 T0 P2 | CT blank TA blank Sessional Total 50 | ESE 50 | Subject Total 100 | Credit 1 (Semester-V scheme, p.2)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Identification of unknown polymer using heating, burning, solubility."
+    },
+    {
+     "no": 2,
+     "exp": "Confirmatory chemical tests for Identification of unknown polymer ."
+    },
+    {
+     "no": 3,
+     "exp": "Quantitative estimation of the basic raw materials and auxiliaries used in polymer such as phenol, urea, formaldehyde."
+    },
+    {
+     "no": 4,
+     "exp": "Quantitative estimation of the basic raw materials and auxiliaries used in polymer such as glycerol, plasticizer's initiators."
+    },
+    {
+     "no": 5,
+     "exp": "Quantitative estimation of the basic raw materials and auxiliaries used in polymer industries such as antioxidants, etc"
+    },
+    {
+     "no": 6,
+     "exp": "Determination of purity of solvents, monomers and other auxiliaries."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of physical properties - boiling point using standards techniques."
+    },
+    {
+     "no": 8,
+     "exp": "Determination of physical properties - melting point."
+    },
+    {
+     "no": 9,
+     "exp": "Determination of physical properties - refractive index."
+    },
+    {
+     "no": 10,
+     "exp": "Determination of physical properties - specific gravity of polymer materials ."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "header typo 'ANALYSIS AND IDENTIFICATION OFPOLYMERS  LAB' (OFPOLYMERS) kept verbatim",
+    "prints 'Minimum eight experiments out of the following:' before the 10-experiment list",
+    "CT/TA cells printed blank in scheme row; printed marks cells are 50 / 50 / 100",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PLASTIC PROCESSING LAB",
+   "name_print": "Plastic Processing Lab (scheme table) / PLASTIC PROCESSING LAB (syllabus page)",
+   "codes": [
+    "RPL552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "RPL552 | Plastic Processing Lab | L0 T0 P2 | CT blank TA blank Sessional Total 50 | ESE 50 | Subject Total 100 | Credit 1 (Semester-V scheme, p.2)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Auto Injection Moulding Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 2,
+     "exp": "Micro-Processor Controlled Injection Moulding Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 3,
+     "exp": "Extrusion Process – Free sketch of Machine, Study of Parts & their function. Practice on Die setting, Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 4,
+     "exp": "Compression Moulding or Transfer Moulding Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 5,
+     "exp": "Blow moulding Process – Free sketch of Machine, Study of Parts & their function, Parison die. Practice on Die centering, Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 6,
+     "exp": "Thermoforming (Vacuum forming) Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 7,
+     "exp": "Rotational Moulding Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 8,
+     "exp": "Plastics coating Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 9,
+     "exp": "Plastics Sealing Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 10,
+     "exp": "Plastics welding Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 11,
+     "exp": "Screen-Printing on Plastics"
+    },
+    {
+     "no": 12,
+     "exp": "Hand lay Process for FRP – Study of resin and other components. Making of a product."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "L-T-P CONFLICT: syllabus-page header prints '0 : 0 : 3' but the Semester-V scheme table prints 0-0-2 (verified on page images p.2 and p.6); header value kept in ltp",
+    "prints 'Minimum eight experiments out of the following:' before the 12-experiment list",
+    "CT/TA cells printed blank in scheme row; printed marks cells are 50 / 50 / 100",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "ltp_conflict_header_vs_scheme"
+   ]
+  },
+  {
+   "name": "SYNTHESIS & POLYMERIZATION RESINS LAB",
+   "name_print": "Synthesis & Polymerization Resins Lab (scheme table) / SYNTHESIS & POLYMERIZATION RESINS LAB (syllabus page)",
+   "codes": [
+    "RPL553"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "RPL553 | Synthesis & Polymerization Resins Lab | L0 T0 P2 | CT blank TA blank Sessional Total 50 | ESE 50 | Subject Total 100 | Credit 1 (Semester-V scheme, p.2)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Synthesis of a polymer by Bulk polymerization Techniques"
+    },
+    {
+     "no": 2,
+     "exp": "Synthesis of a polymer by solution polymerization Techniques"
+    },
+    {
+     "no": 3,
+     "exp": "Synthesis of a polymer by suspension polymerization Techniques"
+    },
+    {
+     "no": 4,
+     "exp": "Synthesis of a polymer by emulsion polymerization Techniques"
+    },
+    {
+     "no": 5,
+     "exp": "Determination of molecular weight by viscosity."
+    },
+    {
+     "no": 6,
+     "exp": "Preparation of phenol formaldehyde resin"
+    },
+    {
+     "no": 7,
+     "exp": "Preparation of urea. formaldehyde resin"
+    },
+    {
+     "no": 8,
+     "exp": "Preparation of unsaturated polyester resin"
+    },
+    {
+     "no": 9,
+     "exp": "Determination of acid value in unsaturated polyester resin"
+    },
+    {
+     "no": 10,
+     "exp": "Preparation of saturated polyester resin"
+    },
+    {
+     "no": 11,
+     "exp": "Determination of acid value in saturated polyester resin"
+    },
+    {
+     "no": 12,
+     "exp": "Synthesis of a copolymer based on any common monomers like styrene, acrylates, maleic anhydride, acrylic acid and methacrylic acid"
+    },
+    {
+     "no": 13,
+     "exp": "Modification of epoxy resin modification of any natural polymer such as cellulose, rosin, natural rubber, etc. ."
+    },
+    {
+     "no": 14,
+     "exp": "Depolymerization of waste thermoplastics such as polystyrene or polymethylmethacrylate ."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "prints 'Minimum eight experiments out of the following:' before the 14-experiment list",
+    "exp 7 typo 'Preparation of urea. formaldehyde resin' and exp 13 'Modification of epoxy resin modification of any natural polymer ... etc. .' kept verbatim",
+    "CT/TA cells printed blank in scheme row; printed marks cells are 50 / 50 / 100",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "SEMINAR",
+   "name_print": "SEMINAR (scheme table)",
+   "codes": [
+    "RPL555"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 100,
+    "total": 100
+   },
+   "subject_type": "seminar",
+   "scheme_row_print": "RPL555 | SEMINAR | L0 T0 P2 | CT '-' TA '-' Sessional Total 100 | ESE '-' | Subject Total 100 | Credit 1 (Semester-V scheme, p.2)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "scheme-table row only — no unit-wise syllabus page printed in this PDF",
+    "scheme row prints '-' for CT, TA and ESE; sessional total 100 / subject total 100 kept"
+   ],
+   "flags": [
+    "scheme_only_no_syllabus_page"
+   ]
+  },
+  {
+   "name": "Engineering Economics",
+   "name_print": "Engineering Economics (scheme table)",
+   "codes": [
+    "RAS501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RAS501 | Engineering Economics | L3 T0 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 3 (Semester-V scheme, p.2)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "scheme-table row only — no unit-wise syllabus page printed in this PDF (university-wide subject)"
+   ],
+   "flags": [
+    "scheme_only_no_syllabus_page"
+   ]
+  },
+  {
+   "name": "Sociology/Cyber Security",
+   "name_print": "Sociology/ Cyber Security (scheme table, codes RAS502/ RUC501)",
+   "codes": [
+    "RAS502",
+    "RUC501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RAS502/ RUC501 | Sociology/ Cyber Security | L3 T0 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 3 (Semester-V scheme, p.2)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "scheme-table row only — no unit-wise syllabus page printed in this PDF; printed as an either-or pair 'Sociology/ Cyber Security' with codes 'RAS502/ RUC501'"
+   ],
+   "flags": [
+    "scheme_only_no_syllabus_page",
+    "either_or_pair_row"
+   ]
+  },
+  {
+   "name": "HEAT & MASS TRANSFER",
+   "name_print": "Heat and Mass Transfer (p.2 DE-I list: RME502: Heat and Mass Transfer; p.12 DE-I list: RPL 051.Heat and Mass Transfer) / HEAT & MASS TRANSFER (subject header)",
+   "codes": [
+    "RPL051",
+    "RME502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "scheme_row_print": "RPL 051-053 / RME502 | Department Electives | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-V scheme elective-pool row, p.2)",
+   "units": {
+    "1": "Introduction to Heat Transfer: Thermodynamics and Heat Transfer. Modes of Heat Transfer: Conduction, convection and radiation. Effect of temperature on thermal conductivity of materials; Introduction to combined heat transfer mechanism. 2 Conduction : General differential heat conduction equation in the rectangular, cylindrical and spherical coordinate systems.Initial and boundary conditions. 3 Steady State one-dimensional Heat conduction : Simple and Composite Systems in rectangular, cylindrical and spherical coordinates with and without energy generation; Concept of thermal resistance.Analogy between heat and electricity flow; Thermal contact resistance and over all heat transfer coefficient; Critical radius of insulation. 3",
+    "2": "Fins: Heat transfer from extended surfaces, Fins of uniform cross-sectional area; Errors of measurement of temperature in thermometer wells. 3 Transient Conduction: Transient heat conduction; Lumped capacitance method; Time constant; Unsteady state heat conduction in one dimension only, Heisler charts. 5",
+    "3": "Forced Convection: Basic concepts; Hydrodynamic boundary layer; Thermal boundary layer; Approximate integral boundary layer analysis; Analogy between momentum and heat transfer in turbulent flow over a flat surface; Mixed boundary layer; Flow over a flat plate; Flow across a single cylinder and a sphere; Flow inside ducts; Thermal entrance region, Empirical heat transfer relations; Relation between fluid friction and heat transfer; Liquid metal heat transfer. 5 Natural Convection : Physical mechanism of natural convection; Buoyant force; Empirical heat transfer relations for natural convection over vertical planes and cylinders, horizontal plates and cylinders, and sphere, Combined free and forced convection. 3",
+    "4": "Thermal Radiation : Basic radiation concepts; Radiation properties of surfaces; Black body radiation Planck’s law, Wein’s displacement law, Stefan Boltzmann law, Kirchoff’s law; ; Gray body; Shape factor; Black-body radiation; Radiation exchange between diffuse non black bodies in an enclosure; Radiation shields; Radiation combined with conduction and convection; Absorption and emission in gaseous medium; Solar radiation; Green house effect. 8",
+    "5": "Heat Exchanger : Types of heat exchangers; Fouling factors; Overall heat transfer coefficient; Logarithmic mean temperature difference (LMTD) method; Effectiveness-NTU method; Compact heat exchangers. 3 Condensation and Boiling: Introduction to condensation phenomena; Heat transfer relations for laminar film condensation on vertical surfaces and on outside & inside of a horizontal tube; Effect of non-condensable gases; Dropwise condensation; Heat pipes; Boiling modes, pool boiling; Hysteresis in boiling curve; Forced convection boiling. 3 Introduction to Mass Transfer: Introduction; Fick's law of diffusion; Steady state equimolar counter diffusion; Steady state diffusion though a stagnant gas film. 2"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 2,
+     "book": "Fundamentals of Heat and Mass Transfer, by Incroperra& DeWitt, John Wiley and Sons"
+    },
+    {
+     "no": 3,
+     "book": "Heat and Mass Transfer by Cengel, McGraw-Hill"
+    },
+    {
+     "no": 4,
+     "book": "Heat Transfer by J.P. Holman, McGraw-Hill"
+    },
+    {
+     "no": 5,
+     "book": "Heat and Mass Transfer by Rudramoorthy and Mayilsamy, Pearson Education"
+    },
+    {
+     "no": 6,
+     "book": "Heat Transfer by Ghoshdastidar, Oxford University Press"
+    },
+    {
+     "no": 7,
+     "book": "A text book on Heat Transfer, by Sukhatme, University Press."
+    },
+    {
+     "no": 8,
+     "book": "Heat Transfer by Venkateshan, Ane Books Pvt Ltd"
+    },
+    {
+     "no": 9,
+     "book": "Schaum's outline of Heat Transfer by Pitts & Sisson McGraw-Hill"
+    },
+    {
+     "no": 10,
+     "book": "Heat and Mass Transfer by R Yadav, Central Publishing House"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "CODE CONFLICT across prints: subject header prints 'RPL-051 HEAT & MASS TRANSFER'; p.2 DE-I list prints 'RME502: Heat and Mass Transfer'; p.12 DE-I list prints 'RPL 051.Heat and Mass Transfer' — RME502 belongs to this subject per p.2 print; scheme pool row prints 'RPL 051-053 / RME502'",
+    "unit-hour numbers print per SUB-TOPIC as standalone cells (Unit-1: 2/3/3; Unit-2: 3/5; Unit-3: 5/3; Unit-4: 8; Unit-5: 3/3/2) — retained inline at their printed positions; no single lectures_per_unit printable",
+    "Books list numbering starts at 2 (items 2-10 printed; 9 books)",
+    "double semicolon 'Kirchoff’s law; ; Gray body' and typo 'though a stagnant gas film' kept verbatim",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "elective_code_conflict_DE_I"
+   ]
+  },
+  {
+   "name": "CHEMICAL THERMODYNAMICS",
+   "name_print": "Chemical Thermodynamics (p.2 DE-I list: RPL051: Chemical Thermodynamics; p.12 DE-I list: RPL 052.Chemical Thermodynamics.) / CHEMICAL THERMODYNAMICS (subject header)",
+   "codes": [
+    "RPL052"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "scheme_row_print": "RPL 051-053 / RME502 | Department Electives | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-V scheme elective-pool row, p.2)",
+   "units": {
+    "1": "Basic Concept The first law and conservation of energy.Applications to steady, non steady flow and other engineering problems.The second law.Applications to engineering problems relating to equilibrium, maximum and minimum work.",
+    "2": "Properties of Pure Substances Changes in thermodynamic properties and their inter-relationships.The ideal gas.Fugacity and Fugacity coefficients for real gases.",
+    "3": "Multicomponent System Partial molal properties. Mathematical models for the chemical potential. Ideal and non-ideal solutions.Activity and activity coefficients.The Gibbs Duhem equations.Excess properties of mixtures.",
+    "4": "Phase Equilibria Criteria for equilibrium between different phases in Multicomponent no reacting systems.Applications to systems of engineering interest, particularly to vapour – liquid equilibria and solubility.",
+    "5": "Chemical Equilibrium The equilibrium constant and the variation of yield in chemical reactions with pressure, temperature and Composition."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Y.V.C.Rao,” Chemical Engineering Thermodynamics” University press (1997)."
+    },
+    {
+     "no": 2,
+     "book": "Smith, J.M., Van Ness, H.C. & Abbot, M.M. “Intro to Chemical Engineering 3. Thermodynamics “, 5th edition. New York: Mc-Graw Hill (1996)”"
+    },
+    {
+     "no": 4,
+     "book": "Daubert T.E., \"Chemical Engineering Thermodynamics\" McGraw Hill (1986)."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "CODE CONFLICT across prints: subject header prints 'RPL 052:  CHEMICAL THERMODYNAMICS'; p.2 DE-I list prints it as 'RPL051: Chemical Thermodynamics' (the code the Heat & Mass Transfer header claims); p.12 list prints 'RPL 052.Chemical Thermodynamics.' — header code RPL052 kept primary",
+    "Reference Books numbering prints 1, 2, then a stray '3.' INSIDE book 2's wrapped title ('Intro to Chemical Engineering / 3. Thermodynamics'), then 4 — only 3 distinct books printed; stray '3.' kept verbatim in book 2 text",
+    "unit titles printed above unit text (Basic Concept / Properties of Pure Substances / Multicomponent System / Phase Equilibria / Chemical Equilibrium) retained inline",
+    "typo 'Multicomponent no reacting systems' kept verbatim",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "elective_code_conflict_DE_I"
+   ]
+  },
+  {
+   "name": "POLYMER DEGRADATION AND STABILISATION",
+   "name_print": "Polymer Degradation and Stabilization (p.2 DE-I list: RPL052:...; p.12 DE-I list: RPL 053. Polymer Degradation and Stabilization) / POLYMER DEGRADATION AND STABILISATION (subject header, 'STABILISATION')",
+   "codes": [
+    "RPL053"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "scheme_row_print": "RPL 051-053 / RME502 | Department Electives | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-V scheme elective-pool row, p.2)",
+   "units": {
+    "1": "Introduction and Thermal Degradation: Definition - Modes of Polymer Degradation - Mechanistic Aspects - Single Step Process and Chain Reactions - Auto Oxidation - Random and Specific Site Attack - Thermal Degradation: Introduction - Methods for Evaluation of Heat Resistance (DTA, DSC, TGA, TMA) - Mechanistic Aspects - Heat Resistance Polymers - Ablation –Stabilization – Thermal Degradation and Recycling - Heat Effect in Bio Polymers.",
+    "2": "Mechanical Degradation and Ultrasonic Degradation: Introduction - Mechanistic Aspects - Degradation Studies - Polymer Degradation in Solution. Ultrasonic Degradation - Importance - Experimental Methods - Mechanism of Ultrasonic Degradation (Cavitation and Direct Effects) - Degradation Studies (Detection of Transient Species and Molecular Weight Distribution) Application of Mechanical Degradation: Stress - Induced Chemical Alterations of Polymers- Mastication of Natural and Synthetic Rubber - Mechano Chemical Synthesis of Block and Craft Copolymers.",
+    "3": "Photo degradation: Introduction - Mechanistic Aspects (Excited States, Free Radicals and Ionic Species, Energy Transfer and Energy Migration) - Degradation in the Absence of Oxygen (Norrish Types I & II Reactions) - Photo Oxidation (Auto Oxidative Process, Sensitized Degradation) - Stabilization - Application: Polymers with Predictable Life Time, Photo resists.",
+    "4": "Degradation By High Energy Radiation and Biodegradation:Introduction - Aspects of Radiation - Mechanistic Aspects - Simultaneous Cross Linking and Degradation - Radiation Stability and Protection Radiation Effects in the Bio Polymers - Application: Lithography, X - ray Resists in Contact Microscopy- Graft and Block Copolymerization Bio degradation - Modes of Biological Degradation - Enzymatic Degradation in Bio Polymers (Polysaccharides, Proteins, Malice Acids) - Microbial Degradation of Synthetic Polymers - General Applications of Bio Degradable Plastics - Examples of Biodegradable Polyesters and Polyamides.",
+    "5": "Chemical Degradation: Introduction - Solvolysis - Polymer Characterization by Solvolysis - Stability of Polymer Against Solvolytic Agents - Commercial Applications - Ozonisation - Oxidative Degradation - Auto Oxidation of Polymers. Ionic Degradation: Alkaline Degradation of Poly Saccharides Acidic Degradation of Polyaldehydes and Polyacetals and Cationic Degradation of Polypropylene Sulphide and Polyesters."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "W. Schnabel, Polymer Degradation - Principles and Practical Applications Hanser Publishers, New York, 1992."
+    },
+    {
+     "no": 2,
+     "book": "Ann - Christine Albertsson, Samuel J. Huang, \"Degradative Polymers Recycling and Plastic Waste Management\" Marcel Dekker, New York, 1995."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "CODE CONFLICT across prints: subject header prints 'RPL 053: POLYMER DEGRADATION AND STABILISATION'; p.2 DE-I list prints it as 'RPL052: Polymer Degradation and Stabilization'; p.12 list prints 'RPL 053. Polymer Degradation and Stabilization' — header code RPL053 kept primary",
+    "spelling variants 'STABILISATION' (header) vs 'Stabilization' (lists) kept verbatim",
+    "typos kept verbatim: 'Malice Acids' (Malic), 'Block and Craft Copolymers' (Graft), 'Ablation –Stabilization'",
+    "heading 'BOOKS' printed for the only book list",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "elective_code_conflict_DE_I"
+   ]
+  },
+  {
+   "name": "Plastic Packaging and foam",
+   "name_print": "Plastic Packaging & Foam (p.2 DE-I list: RPL053: Plastic Packaging & Foam; p.12 DE-I list: RPL 014.Plastic Packaging & Foam.) / RPL054: Plastic Packaging and foam (subject header)",
+   "codes": [
+    "RPL054"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "scheme_row_print": "RPL 051-053 / RME502 | Department Electives | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-V scheme elective-pool row, p.2)",
+   "units": {
+    "1": "Introduction to packaging.Scope and functions of a package, advantages and disadvantages of polymeric packages over conventional packing materials.",
+    "2": "Forms of packages. Selection criteria of suitable polymeric packages for oils, fats and allied products, soaps and detergents, cosmetics, food, dairy products, beverages, medicines, chemicals, paints, household and industrial goods, etc. printing on polymeric packages.",
+    "3": "Testing, quality control and development in polymeric packaging.",
+    "4": "Introduction to rigid foam. Chemistry & physical formation, forming ingredients, their effect on foam morphplogy and physical properties of cellular plastics.",
+    "5": "Polymethane foam (rigid & flexible) pol expanded polystyrene foams, epoxy foam. Recent advance of foams."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Susan E.M. Seleke, “Understanding Plastic Packaging Technology”, Hanser Publications – Munich"
+    },
+    {
+     "no": 2,
+     "book": "A.S. Altalye, “Plastics In Packaging”, Tata Mcgraw–Hill Publishing Co. Ltd., New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Mechanics’ Of Cellular Plastics By Hilyard"
+    },
+    {
+     "no": 4,
+     "book": "Plastics Materials By Brydson"
+    },
+    {
+     "no": 5,
+     "book": "Hand Book Of Polymeric Foams & Foam Technology By Klempner"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "CODE CONFLICT across prints: subject header prints 'RPL054: Plastic Packaging and foam'; p.2 DE-I list prints it as 'RPL053: Plastic Packaging & Foam' (the code the Polymer Degradation header claims); p.12 DE-I list prints 'RPL 014.Plastic Packaging & Foam.' — header code RPL054 kept primary",
+    "typos kept verbatim: 'morphplogy' (morphology), 'Polymethane foam' (Polyurethane), 'pol expanded polystyrene foams', 'A.S. Altalye', 'Susan E.M. Seleke'",
+    "heading 'BOOKS' printed for the only book list",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "elective_code_conflict_DE_I"
+   ]
+  },
+  {
+   "name": "Industrial Management",
+   "name_print": "Industrial Management (scheme table)",
+   "codes": [
+    "RAS601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RAS601 | Industrial Management | L3 T0 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 3 (Semester-VI scheme, p.3)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "scheme-table row only — no unit-wise syllabus page printed in this PDF (university-wide subject)"
+   ],
+   "flags": [
+    "scheme_only_no_syllabus_page"
+   ]
+  },
+  {
+   "name": "Cyber Security/Socialogy",
+   "name_print": "Cyber Security/ Socialogy (scheme table, codes RUC601/ RAS602; 'Socialogy' typo verbatim)",
+   "codes": [
+    "RUC601",
+    "RAS602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RUC601/ RAS602 | Cyber Security/ Socialogy | L3 T0 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 3 (Semester-VI scheme, p.3)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "scheme-table row only — no unit-wise syllabus page printed in this PDF; printed as an either-or pair 'Cyber Security/ Socialogy' with codes 'RUC601/ RAS602'",
+    "scheme typo 'Socialogy' kept verbatim (Sem-V print of the same pair reads 'Sociology/ Cyber Security')"
+   ],
+   "flags": [
+    "scheme_only_no_syllabus_page",
+    "either_or_pair_row"
+   ]
+  },
+  {
+   "name": "PLASTIC PRODUCT & MOULD DESIGN",
+   "name_print": "Plastic Product and Mould Design (scheme table) / PLASTIC PRODUCT & MOULD DESIGN (syllabus page)",
+   "codes": [
+    "RPL601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RPL601 | Plastic Product and Mould Design | L3 T0 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 3 (Semester-VI scheme, p.3)",
+   "units": {
+    "1": "Design of polymeric product. Design criteria based upon product functions and geometry. Material selection by property assessment.Selection of appropriate forming processes. Moulding considerations: Draft, radii, dimensional tolerances, wall thicknesses, ribs and bosses, inserts, sink marks, undercuts, feeding system, gate location, flow pattern, shrinkage and post moulding shrinkage.",
+    "2": "Design of Plastic under static load; Design of Plastic under Dynamic load - Gear, Bearing. Metal insert, hinge, fastners.",
+    "3": "Injection mould design: Single, multicavity, semi automatic and automatic moulds. Types of injection mould, their application, detailed structure and working. Feed system, Temperature control system, Ejection System, Standard Mould base.",
+    "4": "Split Mould and types of mechanism, Unscrewing mechanism, Introduction to Hot runner mould. Design concepts for compression moulds, transfer moulds and blow moulds.",
+    "5": "Extrusion Dies - Types of extrusion dies and design characteristics. Die Design for Pipe and Sheet."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "David H Morton Jons John wellis “Polymer product design materials and processing”"
+    },
+    {
+     "no": 2,
+     "book": "Rao NS “Design data for plastics engineers”"
+    },
+    {
+     "no": 3,
+     "book": "Rao NS “design formula for plastics engineers”"
+    },
+    {
+     "no": 4,
+     "book": "Joshi MV “dies for plastics extrusion”"
+    },
+    {
+     "no": 5,
+     "book": "Millar ,Edward “plastics product design part A& B”"
+    },
+    {
+     "no": 6,
+     "book": "DYM “product design with plastics”"
+    },
+    {
+     "no": 7,
+     "book": "Beck “plastics product design”"
+    },
+    {
+     "no": 8,
+     "book": "Dubois “plastics product design engineering hand book”"
+    },
+    {
+     "no": 9,
+     "book": "Malloy , Robert, A “plastics part design for injection moulding”"
+    },
+    {
+     "no": 10,
+     "book": "Bebb,R.H., “Plastics Mould Design Vol.1 Compression and Transfer Moulds"
+    },
+    {
+     "no": 11,
+     "book": "Pye R.G.W., “Injection MOULD Design for Thermoplastics”"
+    },
+    {
+     "no": 12,
+     "book": "DYM, “Injection Moulds and Moulding”"
+    },
+    {
+     "no": 13,
+     "book": "Lee NC “Blow moulding design guide”"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "L-T-P CONFLICT: syllabus-page header prints 'L : T: P 3 : 1: 0' but the Semester-VI scheme table prints 3-0-0 with credit 3 (verified on page images p.3 and p.8); header value kept in ltp; scheme table value kept verbatim in scheme_row_print",
+    "heading 'Books –' printed for the only book list",
+    "typos kept verbatim: 'fastners', 'David H Morton Jons John wellis', 'Injection MOULD Design'",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "ltp_conflict_header_vs_scheme"
+   ]
+  },
+  {
+   "name": "PLASTIC MATERIALS – II",
+   "name_print": "Plastic Materials-II (scheme table) / PLASTIC MATERIALS – II (syllabus page)",
+   "codes": [
+    "RPL602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RPL602 | Plastic Materials-II | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-VI scheme, p.3)",
+   "units": {
+    "1": "Introduction – Sources and manufacture of raw materials – basic chemistry – Methods of manufacture – Flow behaviour – General properties and applications of -Polyamides – Nylon 6, 66 etc. ; Acetal-Homopolymer& Co-polymer Saturated polymers – PETP & PVTP ; Polymers containing fluorine – PTFE, PVDF etc.; Polycarbonate ; Thermoplastics Polyester, Poly urethane",
+    "2": "Introduction – Sources and manufacture of raw materials – basic chemistry – Methods of manufacture – Flow behaviour – General properties and applications of Polyphenylenesulphide ;Polyphenylene oxide ; Polysulphones ; Poly ether ether ketone",
+    "3": "Introduction – Sources and manufacture of raw materials – basic chemistry – Methods of manufacture – Flow behaviour – General properties and applications of Speciality Plastics, Plastic Composites, , High performance Polymer",
+    "4": "Thermosetting plastics. Introduction – Sources for raw materials – resin preparation – polymer structure additives – curing and cross linking–agents, processing behavior, general properties and applications of Phenol formaldehyde, Urea formaldehyde, Melamine formaldehyde, Unsaturated polyesters. Epoxide resins, Polyurethanes, Silicones, etc.",
+    "5": "Alloys and blends Introduction to polymer blends & alloys- Definitions and nomenclature reasons for making polymer blend, compatibilizationmechanisms, Miscibility and flow behaviour of polymer blends, Immiscible blends,"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Plastics Material by Brydson, J.A."
+    },
+    {
+     "no": 2,
+     "book": "lrwinrubin “Hand book of Plastic Materials and technology”"
+    },
+    {
+     "no": 3,
+     "book": "Athalye ,AS “Plastics Materials hand book”"
+    },
+    {
+     "no": 4,
+     "book": "Gowariker VR “Polymer science”"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Berins “Plastics engineering hand book” Society of the plastics industry Inc . SPI"
+    },
+    {
+     "no": 2,
+     "book": "Schwartz & Good man “Plastics materials and processing”"
+    },
+    {
+     "no": 3,
+     "book": "Biriey&scott “Plastics materials (properties and application)”"
+    },
+    {
+     "no": 4,
+     "book": "Billmeyer, FW, “Text book of polymer science” 5"
+    },
+    {
+     "no": 5,
+     "book": "Harper, “Modern of Plastics hand book”"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "L-T-P CONFLICT: syllabus-page header prints 'L: T: P 3: 0: 0' but the Semester-VI scheme table prints 3-1-0 with credit 4 (verified on page images p.3 and p.8); header value kept in ltp — NOTE the T values of RPL-601 and RPL-602 headers appear swapped vs the scheme table",
+    "Books section prints as TWO consecutive numbered runs under a single 'Books –' heading (run 1: items 1-4; run 2: numbering restarts at 1, items 1-5) with no heading printed for the second run — run 2 stored under reference_books",
+    "run-2 item 4 prints a dangling trailing '5' after the title ('Text book of polymer science” 5') kept verbatim",
+    "typos kept verbatim: 'lrwinrubin', 'Biriey&scott', 'Homopolymer& Co-polymer', 'compatibilizationmechanisms', 'cross linking–agents', ', ,' double comma in Unit-3, trailing comma in Unit-5",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "ltp_conflict_header_vs_scheme",
+    "books_second_list_unheaded"
+   ]
+  },
+  {
+   "name": "PLASTIC PROCESSING-II",
+   "name_print": "Plastics Processing-II (scheme table) / PLASTIC PROCESSING-II (syllabus page)",
+   "codes": [
+    "RPL603"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "scheme_row_print": "RPL603 | Plastics Processing-II | L3 T0 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 3 (Semester-VI scheme, p.3)",
+   "units": {
+    "1": "Basic concepts of injection moulding for thermoplastics.Machine layout, construction and specification, type of injection units. Principle and theory of standard operation, elements of moulding cycle, screw plasticizing and conveying output, screw driver principles, outline of mould features, clamping devices-hydraulic and toggle types.",
+    "2": "Process variables and their importance, temperature, pressure, injection rate, etc.Faults and remedies in injection moulding.Injection moulding of thermosets.Reaction injection moulding.",
+    "3": "Description of various thermoforming processes-simple vacuum, drape, bubble and plug assisted formings. Thermoforming and process variables affecting the product quality. Machining of Plastics",
+    "4": "General description of blow moulding processes, type of blow moulding machines, parison control, types of Dies, process variables, problems and their remedies. Stretch blow moulding",
+    "5": "Rotational moulding- description and features of rotational moulding and its comparison with blow moulding. Welding / Joining of Plastics – Defination, Principle of Working ; FRP Processes – Hand lay, Spray, Autoclave, Filament winding, Pultrusion , Matched mold – Principal & working. Faults and remedies."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Rubin , lrvin “Injection molding theory and practice”"
+    },
+    {
+     "no": 2,
+     "book": "Berins “Plastics engineering hand book” By society of the Plastics industry"
+    },
+    {
+     "no": 3,
+     "book": "Strong A Brent “Plastics materials and processing”"
+    },
+    {
+     "no": 4,
+     "book": "Rosato DV “blow molding hand book”"
+    },
+    {
+     "no": 5,
+     "book": "Allen , WS & Baker , pn “Hand book of Plastics technology”"
+    },
+    {
+     "no": 6,
+     "book": "Bolur P C, “A guide to injection moulding of plastics”"
+    },
+    {
+     "no": 7,
+     "book": "Whelan A& craft JL “Development in injection moulding-1”"
+    },
+    {
+     "no": 8,
+     "book": "Schwartz &Gooodman “Plastics materials & processing”"
+    },
+    {
+     "no": 9,
+     "book": "Athalye, “Injection moulding”"
+    },
+    {
+     "no": 10,
+     "book": "James L throne “Thermoforming”"
+    },
+    {
+     "no": 11,
+     "book": "Crawford, RJ and Throne,JL “Basic principles of rotational molding”"
+    },
+    {
+     "no": 12,
+     "book": "Bruin “Basic principles of rotational molding”"
+    },
+    {
+     "no": 13,
+     "book": "Bruin “Basic principle of thermoforming”"
+    },
+    {
+     "no": 14,
+     "book": "Bryce “Plastics injection molding”"
+    },
+    {
+     "no": 15,
+     "book": "Bown,John “Injection Moulding of plastic Components”"
+    },
+    {
+     "no": 16,
+     "book": "Beadle “Plastics Forming”"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "name variants kept verbatim: scheme 'Plastics Processing-II' vs header 'PLASTIC PROCESSING-II'",
+    "header prints 'L : T: P : 3 : 0: 0' (extra colon after P) — matches scheme table",
+    "heading 'Books-' printed for the only book list (16 books)",
+    "typos kept verbatim: 'Defination', 'Principal & working', 'Schwartz &Gooodman', 'lrvin'",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PLASTIC MATERIAL TESTING LAB",
+   "name_print": "Plastic Material Testing Lab (scheme table) / PLASTIC MATERIAL TESTING LAB (syllabus page)",
+   "codes": [
+    "RPL651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "RPL651 | Plastic Material Testing Lab | L0 T0 P2 | CT blank TA blank Sessional Total 50 | ESE 50 | Subject Total 100 | Credit 1 (Semester-VI scheme, p.3)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Determination of Ash Content in plastics materials."
+    },
+    {
+     "no": 2,
+     "exp": "Determination of Moisture Content in plastics materials."
+    },
+    {
+     "no": 3,
+     "exp": "Determination of Filler content in plastics materials."
+    },
+    {
+     "no": 4,
+     "exp": "Determination of Melt flow index of plastics materials."
+    },
+    {
+     "no": 5,
+     "exp": "Determination of Optical properties of plastics materials."
+    },
+    {
+     "no": 6,
+     "exp": "Determination of Thermal Properties of plastics materials."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of Electrical Properties of plastics materials."
+    },
+    {
+     "no": 8,
+     "exp": "Study of Weathering properties of plastic materials."
+    },
+    {
+     "no": 9,
+     "exp": "Determination of Density of plastic materials."
+    },
+    {
+     "no": 10,
+     "exp": "Compounding or Blending using two roll mill"
+    },
+    {
+     "no": 11,
+     "exp": "Specimen preparation using contour cutter ."
+    },
+    {
+     "no": 12,
+     "exp": "Determination of Bulk density for powder materials."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "prints 'Minimum eight experiments out of the following:' before the 12-experiment list",
+    "CT/TA cells printed blank in scheme row; printed marks cells are 50 / 50 / 100",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PLASTIC  PRODUCT TESTING LAB",
+   "name_print": "Plastic Product Testing Lab (scheme table) / PLASTIC  PRODUCT TESTING LAB (syllabus page, double space verbatim)",
+   "codes": [
+    "RPL652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "RPL652 | Plastic Product Testing Lab | L0 T0 P2 | CT blank TA blank Sessional Total 50 | ESE 50 | Subject Total 100 | Credit 1 (Semester-VI scheme, p.3)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Testing of HDPE Pipes"
+    },
+    {
+     "no": 2,
+     "exp": "Testing of UPVC Pipes"
+    },
+    {
+     "no": 3,
+     "exp": "Testing of Water Storage Tanks"
+    },
+    {
+     "no": 4,
+     "exp": "Testing of Films/Sheets,"
+    },
+    {
+     "no": 5,
+     "exp": "Testing of HDPE/PP Woven Sacks/Tapes,"
+    },
+    {
+     "no": 6,
+     "exp": "Testing of Baby Feed Bottles,"
+    },
+    {
+     "no": 7,
+     "exp": "Testing of Milk Packing Pouches"
+    },
+    {
+     "no": 8,
+     "exp": "Testing of Meter box Cover ."
+    },
+    {
+     "no": 9,
+     "exp": "Testing of UPVC Pipe Fitting"
+    },
+    {
+     "no": 10,
+     "exp": "Testing of Irrigation Product-Lateral"
+    },
+    {
+     "no": 11,
+     "exp": "Testing of Irrigation Product-Emitters"
+    },
+    {
+     "no": 12,
+     "exp": "Testing of Irrigation Product-Quick Coupled Pipes"
+    },
+    {
+     "no": 13,
+     "exp": "Testing of FRP Sheets"
+    },
+    {
+     "no": 14,
+     "exp": "Testing of PVC Conduit ."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "prints 'Minimum eight experiments out of the following:' before the 14-experiment list",
+    "CT/TA cells printed blank in scheme row; printed marks cells are 50 / 50 / 100",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "POLYMER CHARACTERIZATION LAB",
+   "name_print": "Polymer Characterization (scheme table — no 'Lab') / POLYMER CHARACTERIZATION LAB (syllabus page)",
+   "codes": [
+    "RPL653"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "RPL653 | Polymer Characterization | L0 T0 P2 | CT blank TA blank Sessional Total 50 | ESE 50 | Subject Total 100 | Credit 1 (Semester-VI scheme, p.3)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Determination of Melt Flow Index of different Plastics Materials and Grades,"
+    },
+    {
+     "no": 2,
+     "exp": "Determination of molecular weight by viscometry."
+    },
+    {
+     "no": 3,
+     "exp": "Determination of K-value of PVC."
+    },
+    {
+     "no": 4,
+     "exp": "Study of rheological properties of concentrated polymeric solution by Brook field viscometer or Rheoviscometer under variable shear rates."
+    },
+    {
+     "no": 5,
+     "exp": "Characterization by Weight loss of common polymers by Thermogravimetric, Analysis, (TGA)."
+    },
+    {
+     "no": 6,
+     "exp": "Characterization of Filler Content /Ash Content of common polymers by Thermogravimetric, Analysis, (TGA)."
+    },
+    {
+     "no": 7,
+     "exp": "Characterization of Thermal stability of common polymers by Thermogravimetric, Analysis, (TGA)."
+    },
+    {
+     "no": 8,
+     "exp": "Characterization by Melting Range of common polymers by Differential Scanning Calorimetry (DSC)."
+    },
+    {
+     "no": 9,
+     "exp": "Characterization by Tg of common polymers by Differential Scanning Calorimetry(D"
+    },
+    {
+     "no": 10,
+     "exp": "Study of UV stabilization of polymer samples by UV-visible spectrophotometer."
+    },
+    {
+     "no": 11,
+     "exp": "Study of UV stabilization of polymer samples by UV-visible spectrophotometer."
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "prints 'Minimum eight experiments out of the following:' before the 11-experiment list",
+    "experiment 9 ends truncated in print at 'Differential Scanning Calorimetry(D' (closing '(DSC)' not printed) — kept verbatim",
+    "experiments 10 and 11 print IDENTICALLY ('Study of UV stabilization of polymer samples by UV-visible spectrophotometer.') — duplicate kept verbatim",
+    "'Thermogravimetric, Analysis, (TGA)' comma placement kept verbatim",
+    "CT/TA cells printed blank in scheme row; printed marks cells are 50 / 50 / 100",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "COMPUTER AIDED PRODUCT & MOULD DESIGN LAB",
+   "name_print": "Computer aided Product & mould Design Lab (scheme table) / COMPUTER AIDED PRODUCT & MOULD DESIGN LAB (syllabus page)",
+   "codes": [
+    "RPL654"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "scheme_row_print": "RPL654 | Computer aided Product & mould Design Lab | L '-' T '-' P2 | CT blank TA blank Sessional Total 50 | ESE 50 | Subject Total 100 | Credit 1 (Semester-VI scheme, p.3)",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Single Impression Two Plate mould"
+    },
+    {
+     "no": 2,
+     "exp": "Multi Impression two Plate Mould"
+    },
+    {
+     "no": 3,
+     "exp": "Three Plate Mould ( Multi Impression )"
+    },
+    {
+     "no": 4,
+     "exp": "Hand Mould For External Undercuts"
+    },
+    {
+     "no": 5,
+     "exp": "Split Mould - Without Delayed Action"
+    },
+    {
+     "no": 6,
+     "exp": "Split Mould - With Delayed Action"
+    },
+    {
+     "no": 7,
+     "exp": "Mould for Internal Undercuts"
+    },
+    {
+     "no": 8,
+     "exp": "Insert Mould"
+    },
+    {
+     "no": 9,
+     "exp": "Mould Design for Internally Threaded"
+    },
+    {
+     "no": 10,
+     "exp": "Components ( Automatic Unscrewing )"
+    },
+    {
+     "no": 11,
+     "exp": "Hot Runner Mould"
+    },
+    {
+     "no": 2,
+     "exp": "Product for Agriculture Application."
+    },
+    {
+     "no": 3,
+     "exp": "Product for Automobile Application."
+    },
+    {
+     "no": 4,
+     "exp": "Product for Medical Application."
+    },
+    {
+     "no": 5,
+     "exp": "Product for Household Application."
+    },
+    {
+     "no": 6,
+     "exp": "Product for Electronic Application"
+    },
+    {
+     "no": 7,
+     "exp": "Design of Plastic Gear"
+    },
+    {
+     "no": 8,
+     "exp": "Design of Plastic Bearing"
+    }
+   ],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "scheme row prints '-' for L and T (only P=2 printed); l/t recorded as null",
+    "lab page prints instruction 'Design Minimum 4 mould using cad' followed by the 11-item mould list (stored as experiments no. 1-11)",
+    "then prints 'Design Minimum 2 Product using cad' followed by items numbered 2-8 (no item 1 printed) — second list stored with its printed numbers 2-8, so 'no' values intentionally repeat",
+    "no 'Minimum eight experiments' line printed for this lab; no Course Outcomes / K-levels printed"
+   ],
+   "flags": []
+  },
+  {
+   "name": "COMPUTATIONAL FLUID DYNAMICS",
+   "name_print": "Computational Fluid Dynamics (p.3 DE-II list & p.16 DE-II list) / COMPUTATIONAL FLUID DYNAMICS (subject header)",
+   "codes": [
+    "RPL061"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "scheme_row_print": "RPL061-064 | Department Elective Course-II | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-VI scheme elective-pool row, p.3)",
+   "units": {
+    "1": "Basic Concepts of Fluid Flow: Philosophy of computational fluid dynamics, conservation principles of mass, energy, and momentum, simplified flow models such as incompressible, inviscid, potential and creeping flows, classification of flows. Turbulence and its Modelling: Transition from laminar to turbulent flow, Effect of turbulence on time-averaged Navier-Stokes equations, Characteristics of simple turbulent flows, Free turbulent flows, Flat plate boundary layer and pipe flow, Turbulence models, Mixing length model, The k-e model, Reynolds stress equation models, Algebraic stress equation models",
+    "2": "Grid Generation: Structured and unstructured grids, choice of grid, general transformation of equations, some modern developments in grid generation in solving the engineering problems. Finite Difference Method: Discretization of ordinary and partial differential equations, approximation of first, second and mixed derivatives, implementation of boundary conditions, discretization errors, applications to the engineering problems.",
+    "3": "Finite Volume Method: Discretization methods, approximations of surface integrals and volume integrals, interpolation and differentiation practices, implementation of boundary conditions, applications to the engineering problems. Introduction, one-dimensional steady state diffusion, two-dimensional diffusion problems, three-dimensional diffusion problems. The Finite Volume Method for Unsteady Flows and Implementation of Boundary Conditions: One- dimensional unsteady heat conduction,",
+    "4": "Special Topics: Flow in a sudden pipe contraction / expansion, flow and heat transfer in a complex tubes and channels, reactive flow, multiphase flow , and turbulent flow processes."
+   },
+   "lectures_per_unit": {
+    "1": "6",
+    "2": "7",
+    "3": "10",
+    "4": "7"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Anderson Jr J. D., “Computational Fluid Dynamics: The Basics with Applications”, McGraw Hill. 1995"
+    },
+    {
+     "no": 2,
+     "book": "Muralidhar K. and Sundararajan T., “Computational Fluid Flow and Heat Transfer”, Narosa Publishing House. 2003"
+    },
+    {
+     "no": 3,
+     "book": "H. K. Versteeg and W. Malalasekera, An introduction to computational fluid dynamics: the finite volume method , Longman scientific & technical publishers 2007"
+    },
+    {
+     "no": 4,
+     "book": "Ranade V. V, “Computation Flow Modeling for Chemical Reactor Engineering”, Academic Press. 2002"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "no Unit-V printed — only Units I-IV (verified on page image, p.16); Unit-3 text ends mid-sentence with a trailing comma at 'One- dimensional unsteady heat conduction,'",
+    "book list printed unnumbered (bullet-style) under heading 'Suggested Books:' — stored under textbooks; no separate reference list",
+    "'The k-e model' kept verbatim (k-epsilon), 'multiphase flow ,' spacing kept",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "no_unit_V_printed"
+   ]
+  },
+  {
+   "name": "Chemical Reaction Engineering",
+   "name_print": "Chemical Reaction Engineering (p.3 DE-II list & p.16 DE-II list: 'Chemical reaction Engineering' on p.16) / RPL 062: Chemical Reaction Engineering (subject header)",
+   "codes": [
+    "RPL062"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "scheme_row_print": "RPL061-064 | Department Elective Course-II | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-VI scheme elective-pool row, p.3)",
+   "units": {
+    "1": "Rate of Reaction, Elementary and non-elementary homogeneous reactions, Molecularity and order of reaction, Mechanism of reaction, temperature dependency from thermodynamics, collision and activated complex theories. Integral and differential methods for analyzing kinetic data, interpretation of constant volume reactor, zero, first, second and third order reactions, half life period, irreversible reaction in parallel and series, catalytic reaction, auto catalytic reaction, reversible reactions.",
+    "2": "Interpretation of variable volume batch reactions for zero, first and second order reactions, design equation for batch, continuous stirred tank, plug flow reactors for isothermal reaction.",
+    "3": "Optimum reactor size, plug flow/mixed flow reactors in series and parallel, recycle reactor",
+    "4": "Design of reactors for multiple reactions, parallel and series reactions. Temperature and pressure effects for single reaction.",
+    "5": "Residence time distribution of fluids in vessels, E, F and C curves, Dispersion model, Tank in series model. Non Isothermal PFR and CSTR, Safety issues in Non Isothermal Reactors."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Smith, J, M, “Chemical Engineering Kinetics”, 3rd Edition, McGraw-Hill (1990)."
+    },
+    {
+     "no": 2,
+     "book": "Levenspiel, O., “Chemical Reaction Engineering”, 3rd Edition, John Wiley (1998)"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Keith J. Laidler, “Chemical Kinetics” 3rd Edition, Pearson (2013)"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "heading 'Books:' for 2 books and 'Reference Book: 1.' (singular) for 1 book — both printed",
+    "p.16 DE-II list prints 'RPL 062: Chemical reaction Engineering' (lowercase r) — kept verbatim in name_print",
+    "Unit-3 text printed with heavy leading indentation; no trailing period",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "ADDITIVES & COMPOUNDING",
+   "name_print": "Additives and Compounding (p.3 DE-II list: RPL063: Additives and Compounding; p.16 DE-II list: 'RPL 063. Plastic Extrusion Technology.' — CONFLICTING NAME) / ADDITIVES & COMPOUNDING (subject header)",
+   "codes": [
+    "RPL063"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "scheme_row_print": "RPL061-064 | Department Elective Course-II | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-VI scheme elective-pool row, p.3)",
+   "units": {
+    "1": "Additives for plastics Types & Mechanism of Additive: - Fillers, Antioxidants, Thermal Stabilizers, Lubricants, Plasticizers, Toughening-agents, Colourants –dyes & pigments, Fire retardants, Coupling agents, blowing agents, Ultraviolet stabilizer, Antistatic agents, Anti blocking agents, Slip and antislip agents, processing aids, mould releasing agents.",
+    "2": "Compounding & Mixing – Selection of polymers and compounding-ingredients-general objectives-possibilities and limitation of additives into polymer matrices. Distributive and Dispersive mixing.",
+    "3": "Mixing equipments. Intensive and Extensive Mixers – Machine construction – specifications – temperature control system – operating characteristics. Pelletizers.",
+    "4": "Case studies on preference of one plastics to other and co-relation of properties of conventional materials and blends and alloys – case studies on application of blends and alloys.",
+    "5": "End Use Market for Plastics Principles of Material selection including consideration of conventional materials competitive with plastics – Case studies on material suitability (e.g. Plastics Gears, Feeding Bottle, Bowels for micro wave ovens). Survey and uses of plastics with reasons for their importance in major industries like, Agriculture, Packaging, Building, Transport, Electrical, electronics and Telecommunications, Medical and Furniture."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 2,
+     "book": "Al – Malaika; S. Golovoy; A and Wilkie(Eds), Chemistry and Technology of Polymer Additives, Black well Science Ltd, Oxford (1999)"
+    },
+    {
+     "no": 3,
+     "book": "Matthews; F. L. and Rawlings; R.D., Composite Materials, Engineering and Science Chairman and Hall, London (1994)"
+    },
+    {
+     "no": 4,
+     "book": "Plastics Testing Technology Hand Books by Vishu Shah"
+    },
+    {
+     "no": 5,
+     "book": "Hand Book of Plastics Test Methods by Brown R. P"
+    },
+    {
+     "no": 6,
+     "book": "Mascia; L., The Role of Additive in Plastics, Edward Arnold Publishers Ltd., U. K. (1974)."
+    },
+    {
+     "no": 7,
+     "book": "Murphy; John, Additives for Plastics Handbook, 2nd Edition, Elsevier Advanced Technology, Oxford"
+    },
+    {
+     "no": 8,
+     "book": "Polymer additive – by Muller"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "NAME CONFLICT in DE-II lists: p.16 DE-II list prints 'RPL 063. Plastic Extrusion Technology.' but the detailed subject under RPL063 (p.17-18) is 'ADDITIVES & COMPOUNDING' and the p.3 DE-II list prints 'RPL063: Additives and Compounding' — detailed header name kept",
+    "header prints 'RPL063: ADDITIVES & COMPOUNDING               LTP : 3 1 0' (LTP label instead of L T P)",
+    "Reference Books numbering starts at 2 (items 2-8 printed; 7 books, no item 1)",
+    "typos kept verbatim: 'Bowels' (Bowls), 'co-relation', 'Engineering and Science Chairman and Hall' (Chapman & Hall?)",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "elective_name_conflict_RPL063"
+   ]
+  },
+  {
+   "name": "FIBRE TECHNOLOGY",
+   "name_print": "Fiber Technology (p.3 DE-II list & p.16 DE-II list) / RPL 064: FIBRE TECHNOLOGY (subject header; 'FIBRE' vs list 'Fiber')",
+   "codes": [
+    "RPL064"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "scheme_row_print": "RPL061-064 | Department Elective Course-II | L3 T1 P0 | CT 20 TA 10 Sessional Total 30 | ESE 70 | Subject Total 100 | Credit 4 (Semester-VI scheme elective-pool row, p.3)",
+   "units": {
+    "1": "Introduction to natural and synthetic polymers.Essential characteristics and molecular architecture of fibre forming polymers",
+    "2": "Concept of order in polymers, crystallinity, orientation, physical structure of natural and man- made fibers.Physical methods for investigating fiber structure.Optical properties of oriented polymers and fibres, refractive index and birefringence.",
+    "3": "Melt spinning, dry and wet spinning of fibers. Fiber drawing, heat setting, texturing and mechanical properties of fibers based on viscose, cellulose acetate, polyamides.",
+    "4": "Fiber drawing, heat setting, texturing and mechanical properties of fibers based on polyesters, acrylics, polypropylene, glass and carbon-fibres. General principles of finishing and dying of fibers. Common types of finishes applied to textile fibers."
+   },
+   "lectures_per_unit": {
+    "3": "8",
+    "4": "8"
+   },
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A.A. Vaidya, Production of synthetic fibres, Prentice Hall of India Pvt. Ltd., New Delhi, 1988.."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "eligibility_print": "",
+   "prerequisites": "",
+   "quirks": [
+    "no Unit-V printed — only Units I-IV; no lecture-hour numbers printed for Units I-II (8 printed for Units III-IV)",
+    "spelling variants 'FIBRE TECHNOLOGY' (header) vs 'Fiber Technology' (DE-II lists) kept verbatim",
+    "heading 'BOOK' (singular) printed for the only book list; trailing '1988..' double period kept verbatim",
+    "Unit-3 and Unit-4 both begin 'Fiber drawing, heat setting, texturing and mechanical properties of fibers based on' — printed repetition kept",
+    "no Course Outcomes / K-levels printed for this subject"
+   ],
+   "flags": [
+    "no_unit_V_printed"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover",
+   "print": "A.K. TECHNICAL UNIVERSITY, LUCKNOW / Syllabus 3rd Year / [Effective from session 2018-19] / B. Tech. in Plastic Engineering",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_header_print",
+   "print": "STUDY & EVALUATION SCHNME / B. Tech. Plastic Engineering / Year 3rd, SEMESTER-V / [Effective From session 2018-19] — column header: S. No. | Course code | Subject | Periods L T P | Evaluation Scheme: Sessional Assessment CT TA Total | ESE | Subject Total | Credit",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "Theory Subjects",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "Practical/Design/Drawing",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total | 18 | 2 | 8 | 120 | 60 | 430 | 570 | 1000 | 24",
+   "locator": "p.2 (Semester-V totals)"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Departmental Elective I — RME502: Heat and Mass Transfer / RPL051: Chemical Thermodynamics / RPL052: Polymer Degradation and Stabilization / RPL053: Plastic Packaging & Foam",
+   "locator": "p.2 (note: code-to-name mapping conflicts with the p.12 list and the elective headers themselves)"
+  },
+  {
+   "kind": "scheme_header_print",
+   "print": "STUDY &EVALUATION SCHNME / B. TECH. Plastic Engineering / Year 3rd, SEMESTER-VI / [Effective From session 2018-19]",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "Theory Subjects",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "Practical/Design/Drawing",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total | 18 | 2 | 8 | 120 | 60 | 380 | 620 | 1000 | 24",
+   "locator": "p.3 (Semester-VI totals)"
+  },
+  {
+   "kind": "note",
+   "print": "Industrial Training-II of 4-6 weeks after VI Sem will be evaluated in VII Sem",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Departmental Elective II — RPL061: Computational Fluid Dynamics / RPL062: Chemical Reaction Engineering / RPL063: Additives and Compounding / RPL064: Fiber Technology",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "DEPARTMENTAL ELECTIVES / Departmental Elective I — RPL 051.Heat and Mass Transfer / RPL 052.Chemical Thermodynamics. / RPL 053. Polymer Degradation and Stabilization RPL 014.Plastic Packaging & Foam.",
+   "locator": "p.12 (code mapping conflicts with p.2 list; 'RPL 014' vs header RPL054)"
+  },
+  {
+   "kind": "scheme_section_header",
+   "print": "Departmental Elective II — RPL 061: Computational Fluid Dynamics / RPL 062: Chemical reaction Engineering / RPL 063. Plastic Extrusion Technology. / RPL 064. Fiber Technology.",
+   "locator": "p.16 ('RPL 063. Plastic Extrusion Technology.' conflicts with detailed RPL063 ADDITIVES & COMPOUNDING and with p.3 list)"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "6. | RPL 051-053 / RME502 | Department Electives | L3 T1 P0 | CT 20 TA 10 Total 30 | ESE 70 | Subject Total 100 | Credit 4",
+   "locator": "p.2 Semester-V scheme row 6"
+  },
+  {
+   "kind": "elective_pool_row",
+   "print": "6. | RPL061-064 | Department Elective Course-II | L3 T1 P0 | CT 20 TA 10 Total 30 | ESE 70 | Subject Total 100 | Credit 4",
+   "locator": "p.3 Semester-VI scheme row 6"
+  }
+ ],
+ "quirks": [
+  "Document covers Y3 only (Semester V & VI) per cover: 'Syllabus 3rd Year [Effective from session 2018-19] B. Tech. in Plastic Engineering'; 18 pages.",
+  "Scheme header typo 'STUDY & EVALUATION SCHNME' (p.2) / 'STUDY &EVALUATION SCHNME' (p.3) — SCHNME for SCHEME, kept verbatim.",
+  "DE-I elective CODE MAPPING CONFLICTS: p.2 list prints RME502=Heat and Mass Transfer, RPL051=Chemical Thermodynamics, RPL052=Polymer Degradation and Stabilization, RPL053=Plastic Packaging & Foam; p.12 list prints RPL 051/052/053/014 against the same four names; the elective headers themselves print RPL-051 Heat & Mass Transfer, RPL 052 Chemical Thermodynamics, RPL 053 Polymer Degradation and Stabilisation, RPL054 Plastic Packaging and foam. Header codes kept primary on each subject row.",
+  "DE-II list p.16 prints 'RPL 063. Plastic Extrusion Technology.' but the detailed RPL063 subject is 'ADDITIVES & COMPOUNDING' (pp.17-18) and the p.3 DE-II list prints 'RPL063: Additives and Compounding'.",
+  "L-T-P header/table conflicts (verified on page images): RPL-601 header 3:1:0 vs scheme 3-0-0 (credit 3); RPL-602 header 3:0:0 vs scheme 3-1-0 (credit 4) — T values of the two headers appear swapped vs the table; RPL552 lab header 0:0:3 vs scheme 0-0-2. Header values kept in ltp; scheme values kept in scheme_row_print.",
+  "RPL-503 prints Units 1-4 only (no Unit-V; hours 8/7/9/8). RPL 061 prints Units I-IV only (no Unit-V; Unit-3 ends mid-sentence at 'One- dimensional unsteady heat conduction,'). RPL 064 prints Units I-IV only (no Unit-V; no hour numbers for Units I-II).",
+  "RPL-501 Unit-II ends with dangling word 'Relationship' (truncated in print).",
+  "RPL-602 Books section prints two consecutive numbered runs (1-4 then 1-5) under a single 'Books –' heading; second run stored under reference_books. RPL 052 Reference Books numbering prints 1, 2, stray '3.' inside book 2's wrapped title, then 4. RPL-051 Books numbering starts at 2 (2-10). RPL063 Reference Books numbering starts at 2 (2-8). RPL654 product list numbering starts at 2 (2-8).",
+  "RPL-653 experiment 9 truncated in print at 'Differential Scanning Calorimetry(D'; experiments 10 and 11 print identically (duplicate kept).",
+  "No Course Outcomes / K-levels, no objectives, no eligibility, no prerequisites printed anywhere in this document — cos[] and blank fields are printed-blank, not omissions.",
+  "Scheme-only subjects (RAS501, RAS502/RUC501, RPL555 SEMINAR, RAS601, RUC601/RAS602) have no unit-wise syllabus pages in this PDF — scheme-table rows only.",
+  "Unit-hour convention: single per-unit hour numbers recorded in lectures_per_unit (printed values kept verbatim, e.g. RPL-502 '06/09'); RPL-051 prints hours per sub-topic as standalone cells (2/3/3, 3/5, 5/3, 8, 3/3/2) retained inline at printed positions.",
+  "Line-wrap joins normalized to single spaces; all spellings/typos kept verbatim, e.g. OFPOLYMERS, TNCHNOLOGY, Socialogy, morphplogy, Bowels, Defination, compatibilizationmechanisms, senstivity, measureable, Biriey&scott, lrwinrubin, Altalye, Seleke, 'urea. formaldehyde', 'Polymethane foam', 'Malice Acids', 'Craft Copolymers'."
+ ],
+ "flags": [
+  "no_course_outcomes_printed",
+  "elective_code_conflict_DE_I (needs_review: RPL051-054 vs RME502 vs RPL 014 mapping across p.2/p.12 lists and elective headers)",
+  "elective_name_conflict_RPL063 (needs_review: 'Plastic Extrusion Technology' vs 'ADDITIVES & COMPOUNDING')",
+  "ltp_conflict_header_vs_scheme (RPL-601, RPL-602, RPL552)",
+  "books_second_list_unheaded (RPL-602)",
+  "scheme_only_subjects_included (RAS501, RAS502/RUC501, RPL555, RAS601, RUC601/RAS602)",
+  "missing_unit_V_printed (RPL-503, RPL 061, RPL 064)"
+ ]
+}

@@ -1,0 +1,2367 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf",
+ "session": "2024-25",
+ "course": "BTech",
+ "sha16": "765c83575ea56515",
+ "stem": "06_btech_plastic_y3_syllabus_2024-25",
+ "subjects": [
+  {
+   "name": "Plastic Materials II",
+   "name_print": "Plastic Materials II",
+   "codes": [
+    "BPE501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 1 0 | 20 10 30 | TE 70 | Total 100 | Credit 4",
+   "subject_type": "Core",
+   "units": {
+    "1": "Engineering Plastics Introduction – Sources and manufacture of raw materials – basic chemistry – Methods of manufacture – Flow behaviour – General properties and applications of ‐Polyamides – Nylon 6, 66 etc.; Acetal‐Homopolymer & Co‐polymer, Polycarbonate, Thermoplastics Polyester, Polyphenylene oxide.",
+    "2": "Thermosets Introduction – Sources for raw materials – resin preparation – polymer structure, additives – curing and cross linking–agents, processing behavior, general properties and applications of Phenol formaldehyde, Urea formaldehyde, Melamine formaldehyde, Unsaturated polyesters, Polysulfones.",
+    "3": "Sources and manufacture of raw materials Basic chemistry – Methods of manufacture – Flow behaviour – General properties and applications of Fluoropolymers, Polyvinyl fluoride, Polyvinylidene fluoride, Polypheneylene oxide, Polyphenylene sulphide, Polytetrafluoroethylene, Polychlorotrifluoroethylene, Polyimidazoles, Polyetheretherketone.",
+    "4": "Thermoplastic elastomers Basic structure, Manufacture, Morphology, Commercial grades and Applications –Thermoplastic styrene block copolymers, Polyester thermoplastic elastomers, polyamide thermoplastic elastomer, Polyurethane thermoplastic elastomers.",
+    "5": "Speciality Polymers Metallocene Polymers, High & Low Temperature Polymers, Interpenetrating Polymer Networks, Ultra‐high modulus fibres, Polymeric foams."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand concepts of engineering plastics and their applications",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand concepts of thermoset plastics and their specific applications",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand knowledge of manufacturing, properties and applications of high end application plastics.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the manufacturing, properties and applications of thermoplastic elastomers",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand knowledge of manufacturing, properties and applications of speciality plastics",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Plastic Materials Ed 7 ‐ By Brydson, J A,1999."
+    },
+    {
+     "no": 2,
+     "book": "Hand Book of Plastics Materials & Technology ‐ By Rubin, Irwin, J,1990."
+    },
+    {
+     "no": 3,
+     "book": "Manas Chanda, Salil.K.Roy, “Plastics Technology Hand book”, 2nd edition, Marcel Dekker, New York, 1993."
+    },
+    {
+     "no": 4,
+     "book": "Matrin.T.Goosey, “Plastics for Electronics”, Elsevier, Applied Science, 1985."
+    },
+    {
+     "no": 5,
+     "book": "R.W. Dyson, “Specialty Polymers”, Chapman & Hall, 2nd edition, 1998."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Plastics Engineering Hand Book Ed. 5 & Society of the Plastic Industry Inc ‐ By SPI,1994."
+    },
+    {
+     "no": 2,
+     "book": "Plastics Materials and Processing ‐ By Schwartz & Goodman,1982."
+    },
+    {
+     "no": 3,
+     "book": "Plastics Materials (Properties & Application) ‐ By Birley & Scott,1982."
+    },
+    {
+     "no": 4,
+     "book": "Modern Plastics Hand Book ‐ By Harper, 2000."
+    },
+    {
+     "no": 5,
+     "book": "Birley; Arthur W. and Scott; Martyn J., Plastics Materials: Properties and Applications, Leonard Hill, Blackie and Sons Ltd., 1982."
+    },
+    {
+     "no": 6,
+     "book": "Biron; Michel, Thermoplastics and Thermoplastic Composites: Technical Information for Plastics Users, Elsevier, Amsterdam, 2007."
+    },
+    {
+     "no": 7,
+     "book": "DuBois; P, Plastics in Agriculture, Applied Science Publishers Ltd., London 1978"
+    },
+    {
+     "no": 8,
+     "book": "H.F.Mark, (Ed), “Encyclopedia of polymer Science & Engineering”, John Wiley & Sons, New York, 1989."
+    },
+    {
+     "no": 9,
+     "book": "Johannes Karl Fink, ‘Handbook of Engineering and Speciality Thermoplastics’, Volume 10. Water Soluble Polymers, John Wiley & Sons, New Jersy, 2011."
+    },
+    {
+     "no": 11,
+     "book": "David Kaplan ,''Biopolymers from renewable resources\" ,Springer,1998."
+    }
+   ],
+   "quirks": [
+    "Content table (p.2) prints name as 'Plastic Materials‐II' (U+2010 hyphen) while subject page (p.5) prints 'Plastic Materials II'.",
+    "Unit I prints stray hyphen in 'applications of ‐Polyamides'; Unit III prints 'Polypheneylene oxide' (extra 'e') though Unit I prints 'Polyphenylene oxide'.",
+    "Unit II prints 'cross linking–agents' (en dash without space).",
+    "UNIT V heading printed at bottom of p.5, its body text on p.6.",
+    "References list printed numbering runs 1-9 then 11 (the '10.' token is part of ref 9 title 'Volume 10. Water Soluble Polymers'; no item numbered 10).",
+    "Printed typos kept verbatim: 'Matrin.T.Goosey' (Martin), 'New Jersy' (Jersey), 'Hand book'/'Hand Book' capitalization inconsistent."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastic Processing II",
+   "name_print": "Plastic Processing II",
+   "codes": [
+    "BPE502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 1 0 | 20 10 30 | TE 70 | Total 100 | Credit 4",
+   "subject_type": "Core",
+   "units": {
+    "1": "Injection Moulding Introduction, Historical Background, advantages, Types of Injection Moulding Machines, Screw, Moulds, Material Selection for Injection Moulding, Clamping Systems, Machine operations, Machine selection, Plastic melt behaviour inside barrel & mould, Machine operation, Process controls, Machine controls, Post moulding operations, Faults & Remedies.",
+    "2": "Thermoforming Process Various stages of thermoforming process, various methods of forming, Vacuum Forming techniques, Pressure forming techniques, Advantages and disadvantages of thermoforming, Applications of thermoforming Process, Material requirements, Thermoforming Machines, Singlestage sheet fed machine, Multiple stage sheet fed machine, In‐line sheet fed machine, Continuous roll fed machine, Packaging machines, Processing Requirements, Heating methods, Temperature control, Vacuum/air pressure, Cooling, Trimming, Process Variables, Trouble Shooting.",
+    "3": "Blow Moulding History, process, material & design considerations, types of blow moulding machines, Extrusion blow moulding, Continuous & intermittent, trimming operation, parison programming, Injection blow moulding, Injection stretch blow moulding, single stage & two stage operation, Common faults & remedies. Multi layer Blow moulding.",
+    "4": "Rotational Moulding History, process, advantages & disadvantages, material requirements, Rotational moulding machines, rotational moulding moulds, part design, process variables, common faults & remedies. Surface treatment Pre‐treatment methods, Mechanical abrasion, Flame treatment, Chemical etching, Corona treatment, Plasma Treatment, Electrical surface treatment, Applications Metallization Vacuum Metallization (Vacuum evaporation, sputtering), Plating (Electroless Plating, Electrolytic Plating).",
+    "5": "Joining & assembling Introduction, Mechanical connection, Gluing (solvent bonding, adhesive bonding, theory of adhesion), Welding (Vibration welding, Spin welding, Ultrasonic welding, Hot‐plate welding, Induction welding, Laser welding, Radio frequency welding, Resistance welding, Hot gas welding, Staking)"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the knowledge of processing of plastic by using Injection Moulding machine",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the process of thermoforming of plastics",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the process of making hollow products by using blow moulding technique",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the process of rotational moulding",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand how plastics are joined and assembled",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Allen; W. S. and Baker; P. N., Hand Book of Plastic Technology, Volume‐1, Plastic Processing Operations [Injection, Compression, Transfer, Blow Molding], CBS Publishers and Distributors, New Delhi (2004).Injection Molding Theory & Practice By Rubin, Irvin."
+    },
+    {
+     "no": 2,
+     "book": "Injection Molding Hand Book By Rusto,D.V & Rosato, D.V, Plastic Engineering Hand Book, by Society of Plastic Industry Inc.,2000."
+    },
+    {
+     "no": 3,
+     "book": "Plastics Material & Processing By Strong, A, Brent , Blow Molding Hand Book By Rosato, D.V & Rosato, D.V, Plastic Extrusion Technology By Hensen."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A Guide to Injection Molding of Plastics By Bolur, P.C.,"
+    },
+    {
+     "no": 2,
+     "book": "Development in Injection Molding By Whelan, A & Craft, J.L."
+    },
+    {
+     "no": 3,
+     "book": "Technician’s Hand Book & Plastics By Grandilli, P.A.,1990."
+    },
+    {
+     "no": 4,
+     "book": "Plastics Materials & Processing By Schwartz & Goodman.,1982."
+    },
+    {
+     "no": 5,
+     "book": "Injection Molding By Athalye, A.S.,1997."
+    },
+    {
+     "no": 6,
+     "book": "Injection Molding Technology By V.D.I."
+    },
+    {
+     "no": 7,
+     "book": "Innovation in Polymer Processing By Stevenson.,1996."
+    }
+   ],
+   "quirks": [
+    "Content table (p.2) prints name as 'Plastic Processing‐II' while subject page (p.7) prints 'Plastic Processing II'.",
+    "Sub-headings 'Surface treatment' and 'Metallization' are printed on p.8 after the UNIT IV text (Rotational Moulding, p.7) with no new UNIT heading before UNIT V; transcribed inside Unit IV.",
+    "Textbook 1 jams two works in one entry: '...(2004).Injection Molding Theory & Practice By Rubin, Irvin.' (missing break). Textbook 3 similarly packs three works in one entry.",
+    "Printed typos kept verbatim: 'Rusto,D.V' (Rosato), 'Singlestage' (single-stage).",
+    "Unit I repeats 'Machine operations'/'Machine operation' wording as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Testing & Quality Control Of Plastics",
+   "name_print": "Testing & Quality Control Of Plastics",
+   "codes": [
+    "BPE503"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 1 0 | 20 10 30 | TE 70 | Total 100 | Credit 4",
+   "subject_type": "Core",
+   "units": {
+    "1": "Importance of testing Standard and specification, National and International standards, Test specimen preparation – Preconditioning and test atmosphere. Identification of common plastics materials by simple test e.g. Visual inspection, density, effects of heat, combustion and solvents, analysis with common solvents.",
+    "2": "Mechanical Properties Density and dimensions, Hardness, tensile strength, compressive strength, flexural strength, impact strength, dynamic stress – strain Properties, creep, friction and wear, abrasion resistance test, fatigue, burst strength, folding endurance.",
+    "3": "Thermal properties Specific heat and thermal conductivity, thermal endurance, glass transition temperature, thermal yield tests, Heat deflection Temperature, Vicat softening temperature, Marten’s heat resistance test, low temperature brittle point and flexibility test, coefficient of thermal expansion, shrinkage, Thermal stability, Thermal ageing and flammability.",
+    "4": "Permeability properties Water absorption, soluble and insoluble matter‐ chemical resistance, environmental stress cracking resistance, ageing, gas permeability, water vapour permeability and weathering. Processing and flow properties, Melt flow index, Optical properties, Refractive index, light transmission, haze, clarity, gloss, colour guard and microscope.",
+    "5": "Electrical properties Insulation resistance, power factor, permittivity, dielectric strength, tracking resistance, arc resistance and antistatic test. Product testing pipe and fittings‐ film and sheets –container testing and FRP based products. Factors affecting the quality of materials and products. Uncertainty measurement. Analysis of failure and its measurements."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the various testing and quality control techniques for plastics.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply various processes and techniques used in determining mechanical properties of plastic materials",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply various processes and techniques used in determining thermal properties of plastics",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply various processes and techniques used in determining permeability parameters",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply various processes and techniques used in determining electrical properties of plastic materials",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Allen; W.S and Baker; P.N, Hand Book of Plastics Technology, Volume 2, Identification, Testing & Recycling of Plastics, CBS Publishers and distributors, New Delhi (2004)."
+    },
+    {
+     "no": 2,
+     "book": "Brown; Roger P (Ed.), Hand Book of Polymer Testing, Marcel Dekker, Inc, New York, (1999)."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Brown; Paul F (Ed), Hand Book of Plastics Test Methods, Longman Scientific and Technical, Harlow (1988)."
+    },
+    {
+     "no": 2,
+     "book": "Shah, Vishu, Hand Book of Plastics Testing Technology, John Wiley and Sons, SPE Monograph (1984)."
+    },
+    {
+     "no": 3,
+     "book": "Blythe; A. R., Electrical Properties of Polymers, Cambridge University Press, Cambridge (1979)."
+    }
+   ],
+   "quirks": [
+    "Content table (p.2) prints name as 'Testing & Quality Control of Plastics' (lowercase 'of') while subject page (p.9) prints 'Testing & Quality Control Of Plastics'.",
+    "Unit III line wrap produces 'Heat deflection Temperature' (capital T mid-phrase) as printed.",
+    "Spacing as printed: 'matter‐ chemical resistance' (Unit IV), 'fittings‐ film and sheets –container testing' (Unit V).",
+    "Unit IV mixes permeability with 'Processing and flow properties' and 'Optical properties' topics as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastic Material Testing Lab",
+   "name_print": "Plastic Material Testing Lab",
+   "codes": [
+    "BPE551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "te": 50,
+    "total": 100
+   },
+   "marks_print": "0 0 2 | CT/TA/Total blank | PS 50 | TE 50 | Total 100 | Credit 1",
+   "subject_type": "Lab",
+   "experiments_note": "Minimum eight experiments out of the following",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Specimen preparation using contour cutter ."
+    },
+    {
+     "no": 2,
+     "exp": "Determination of Ash Content of a plastic sample."
+    },
+    {
+     "no": 3,
+     "exp": "Determination of Moisture Content of a plastic sample."
+    },
+    {
+     "no": 4,
+     "exp": "Determination of Filler content of a plastic sample."
+    },
+    {
+     "no": 5,
+     "exp": "Determination of Melt flow index of a plastic sample."
+    },
+    {
+     "no": 6,
+     "exp": "Determination of Opacity of a plastic sample."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of HDT/VST & melting temperature of a plastic sample."
+    },
+    {
+     "no": 8,
+     "exp": "Determination of Dielectric strength/Tracking Index of a plastic sample."
+    },
+    {
+     "no": 9,
+     "exp": "Study of Weathering properties of plastic materials."
+    },
+    {
+     "no": 10,
+     "exp": "Determination of Density of a few plastic material samples and film samples."
+    },
+    {
+     "no": 11,
+     "exp": "Determination of Bulk density for powder materials."
+    },
+    {
+     "no": 12,
+     "exp": "Determination of Mechanical properties (Tensile strength/Modulus, Flexural Strength /Modulus, Elongation at break, Young’ Modulus, creep resistance, compression strength of Plastic Material."
+    },
+    {
+     "no": 13,
+     "exp": "Determination of abrasion resistance of a plastic sample."
+    },
+    {
+     "no": 14,
+     "exp": "Determination of Impact strength of a plastic sample."
+    },
+    {
+     "no": 15,
+     "exp": "Determination of Hardness of a plastic sample (Rockwell, Durometer)"
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply contour cutting technique to prepare a specimen as per given standard",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Determine basic properties of plastic materials related to nature and composition",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Calculate thermal stability and melting temperature of polymers",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Measure various electrical properties of plastics",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Determine various mechanical properties of plastics",
+     "kl": "K3"
+    }
+   ],
+   "quirks": [
+    "No units/textbooks printed for this lab (printed-blank).",
+    "Experiment 12 prints 'Young’ Modulus' (missing 's') and 'compression strength of Plastic Material.' as printed.",
+    "Experiment 1 prints trailing space before period: 'contour cutter .'",
+    "Printed note above list: 'Minimum eight experiments out of the following' (15 experiments listed)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastic Product Testing Lab",
+   "name_print": "Plastic Product Testing Lab",
+   "codes": [
+    "BPE552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "te": 50,
+    "total": 100
+   },
+   "marks_print": "0 0 2 | CT/TA/Total blank | PS 50 | TE 50 | Total 100 | Credit 1",
+   "subject_type": "Lab",
+   "experiments_note": "Minimum eight experiments out of the following",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Testing of HDPE Pipes"
+    },
+    {
+     "no": 2,
+     "exp": "Testing of UPVC Pipes"
+    },
+    {
+     "no": 3,
+     "exp": "Testing of Water Storage Tanks"
+    },
+    {
+     "no": 4,
+     "exp": "Testing of Films/Sheets,"
+    },
+    {
+     "no": 5,
+     "exp": "Testing of HDPE/PP Woven Sacks/Tapes,"
+    },
+    {
+     "no": 6,
+     "exp": "Testing of Baby Feed Bottles,"
+    },
+    {
+     "no": 7,
+     "exp": "Testing of Milk Packing Pouches"
+    },
+    {
+     "no": 8,
+     "exp": "Testing of Meter box Cover."
+    },
+    {
+     "no": 9,
+     "exp": "Testing of UPVC Pipe Fitting"
+    },
+    {
+     "no": 10,
+     "exp": "Testing of Irrigation Product‐Lateral"
+    },
+    {
+     "no": 11,
+     "exp": "Testing of Irrigation Product‐Emitters"
+    },
+    {
+     "no": 12,
+     "exp": "Testing of Irrigation Product‐Quick Coupled Pipes"
+    },
+    {
+     "no": 13,
+     "exp": "Testing of FRP Sheets"
+    },
+    {
+     "no": 14,
+     "exp": "Testing of PVC Conduit"
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Carryout testing of various parameters of plastic pipes",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Conduct testing of plastics films, water tanks etc",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Measure various quality parameters of Baby feed bottles and milk pouches",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Carryout testing as per standard of Pipe fittings",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Conduct testing of PVC conduits, FRP sheets etc",
+     "kl": "K3"
+    }
+   ],
+   "quirks": [
+    "No units/textbooks printed for this lab (printed-blank).",
+    "Punctuation inconsistent across the list as printed: items 4-6 end with comma, item 8 with period, others with none.",
+    "CO-2 prints 'plastics films' (plural) as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastic Product & Mould Design Lab",
+   "name_print": "Plastic  Product & Mould Design Lab",
+   "codes": [
+    "BPE553"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "te": 50,
+    "total": 100
+   },
+   "marks_print": "0 0 2 | CT/TA/Total blank | PS 50 | TE 50 | Total 100 | Credit 1",
+   "subject_type": "Lab",
+   "experiments_note": "Printed as three titled sections I/II/III rather than a numbered experiment list",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "I. Mould Design using CAD a) Injection Mould design: Design calculations for No. of cavities, Selection of injection moulding machine, shot capacity, plasticizing rate, Clamping force and 2 D / 3 D Modeling for Two plate, Three Plate and split Moulds b) Compression Mould Design: Design calculations for No. of cavities, Flash thickness allowances, Design of loading chamber, Bulk factor, Pressure pad, Heaters and 2 D / 3 D Modeling for Compression Mould. c) Transfer Mould Design: Design calculations for Pot, Bulk factor, Heaters and 2 D / 3 D Modeling for Pot and Plunger transfer Moulds. d) Blow Mould Design: Design calculations for Clamping force, pinch‐off, Head die design, Parison dimensions and 2 D /3 D Modeling for Blow Mould."
+    },
+    {
+     "no": 2,
+     "exp": "II. CAM Programming Programming and Machining of mould elements (Core, Cavity, Gide Pillar and Guide Bush) using CNC Turning Center and CNC Machining Center."
+    },
+    {
+     "no": 3,
+     "exp": "III: Mould flow Analysis a) Design Optimization of Plastic Part, Mould and Process parameters optimization using Moldflow Software b) Modeling, Mesh Creation, Mesh Checking, Surface repair, Creating Feed system and cooling system. c) Analysis: Gate location, Moulding window Fill, Flow, Cool, Pack, Warp, Shrinkage, Stress"
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Design Injection Moulds using CAD software",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Design Compression Moulds using CAD software",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Design Transfer & Blow moulds using CAD software",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Develop the moulds using CAM/CAE software",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Analyse mould flow and optimize the designs",
+     "kl": "K4"
+    }
+   ],
+   "quirks": [
+    "No units/textbooks printed for this lab (printed-blank).",
+    "Name print carries double space: 'Plastic  Product & Mould Design Lab' (p.13); content table prints 'Plastic Product & Mould Design Lab'.",
+    "Section II prints 'Gide Pillar' (Guide Pillar) as printed.",
+    "Third section numbered 'III:' with colon while others use 'I.'/'II.'",
+    "Sub-item letters 'c)' and 'd)' print on their own line separated from their text."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastic Product & Mould Design",
+   "name_print": "Plastic Product & Mould Design",
+   "codes": [
+    "BPE051"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective I",
+   "units": {
+    "1": "Design of polymeric product Design criteria based upon product functions and geometry. Material selection by property assessment. Selection of appropriate forming processes. Moulding considerations Draft, radii, dimensional tolerances, wall thicknesses, ribs and bosses, inserts, sink marks, undercuts, feeding system, gate location, flow pattern, shrinkage and post moulding shrinkage.",
+    "2": "Design of Plastic under static load Design of Plastic under Dynamic load, Metal insert, hinge, fasteners.",
+    "3": "Injection mould design Single, multicavity, semi automatic and automatic moulds. Types of injection moulds, their application, detailed structure and working. Feed system, Temperature control system, Ejection System, Standard Mould base.",
+    "4": "Split Mould and types of mechanism, Unscrewing mechanism, Introduction to Hot runner mould. Design concepts for compression moulds, transfer moulds and blow moulds.",
+    "5": "Extrusion Dies Types of extrusion dies and design characteristics. Die Design for Pipe and Sheet."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics of Plastics mould design and also product design.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Acquire knowledge about various moulds for different processing techniques.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the knowledge of design parameters of an Injection mould",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand various design parameters for a split mould",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Design the extrusion dies for pipes and sheets",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Peter Jones, The Mould Design Guide, Smithers Rapra Technology Limited, 2008, Shawbury, Shrewsbury, Shropshire, SY4 4NR, UK"
+    },
+    {
+     "no": 2,
+     "book": "Injection Mould Design for Thermoplastic ‐ By Pye, R.G.W.,2000."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Injection Mould Design Fundamentals (Vol. I& II) ‐ By Glanvill & Denton"
+    },
+    {
+     "no": 2,
+     "book": "Plastics Moulds & Dies ‐ By Sors et al., Second Edition"
+    },
+    {
+     "no": 3,
+     "book": "Fundamentals of plastics mould design – By Sanjay K Nayak, Pratap Chandra Padhi and Y. Hidayathullah, 2012."
+    },
+    {
+     "no": 4,
+     "book": "Dym J.B Injection Mould& Molding A practical manual, Springer, Second Edition."
+    }
+   ],
+   "quirks": [
+    "Unit IV has no topic heading; body text starts directly after 'UNIT IV'.",
+    "Unit V heading printed as 'UNIT V:' with colon (others plain 'UNIT I'..'UNIT IV').",
+    "Unit II heading says 'static load' but body begins 'Design of Plastic under Dynamic load' — as printed.",
+    "Reference 3 author list wraps mid-name: '...Padhi and Y. Hidayathullah, 2012.'",
+    "Reference 1 prints '(Vol. I& II)' spacing as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polymer Degradation And Stabilisation",
+   "name_print": "Polymer Degradation And Stabilisation",
+   "codes": [
+    "BPE052"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective I",
+   "units": {
+    "1": "Introduction and Thermal Degradation Definition, Modes of Polymer Degradation, Mechanistic Aspects, Single Step Process and Chain Reactions, Auto Oxidation, Random and Specific Site Attack, Thermal Degradation Introduction, Methods for Evaluation of Heat Resistance (DTA, DSC, TGA, TMA), Mechanistic Aspects, Heat Resistance Polymers, Ablation, Stabilization, Thermal Degradation and Recycling, Heat Effect in Bio Polymers.",
+    "2": "Mechanical Degradation and Ultrasonic Degradation Introduction, Mechanistic Aspects, Degradation Studies, Polymer Degradation in Solution. Ultrasonic Degradation, Importance, Experimental Methods, Mechanism of Ultrasonic Degradation (Cavitation and Direct Effects), Degradation Studies (Detection of Transient Species and Molecular Weight Distribution) Application of Mechanical Degradation: Stress, Induced Chemical Alterations of Polymers, Mastication of Natural and Synthetic Rubber, Mechano Chemical Synthesis of Block and Craft Copolymers.",
+    "3": "Photo degradation Introduction, Mechanistic Aspects (Excited States, Free Radicals and Ionic Species, Energy Transfer and Energy Migration), Degradation in the Absence of Oxygen (Norrish Types I & II Reactions), Photo Oxidation (Auto Oxidative Process, Sensitized Degradation), Stabilization, Application: Polymers with Predictable Life Time, Photo resists.",
+    "4": "Degradation By High Energy Radiation and Biodegradation Introduction, Aspects of Radiation, Mechanistic Aspects, Simultaneous Cross Linking and Degradation, Radiation Stability and Protection Radiation Effects in the Bio Polymers, Application: Lithography, X – ray Resists in Contact Microscopy, Graft and Block Copolymerization Bio degradation, Modes of Biological Degradation, Enzymatic Degradation in Bio Polymers (Polysaccharides, Proteins, Malice Acids) Microbial Degradation of Synthetic Polymers, General Applications of Bio Degradable Plastics, Examples of Biodegradable Polyesters and Polyamides.",
+    "5": "Chemical Degradation Introduction, Solvolysis, Polymer Characterization by Solvolysis, Stability of Polymer Against Solvolytic Agents, Commercial Applications, Ozonisation, Oxidative Degradation, Auto Oxidation of Polymers. Ionic Degradation: Alkaline Degradation of Poly Saccharides, Acidic Degradation of Polyaldehydes and Polyacetals, Cationic Degradation of Polypropylene Sulphide and Polyesters."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the thermal degradation of polymer",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand various aspects of mechanical and Ultrasonic degradation",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge of degradation of plastics by the effect of light",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand knowledge of the phenomenon of biodegradation of polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the knowledge about Chemical methods of degradation of polymers",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "W. Schnabel, Polymer Degradation ‐ Principles and Practical Applications Hanser Publishers, New York, 1992."
+    },
+    {
+     "no": 2,
+     "book": "Ann ‐ Christine Albertsson, Samuel J. Huang, \"Degradative Polymers Recycling and Plastic Waste Management\" Marcel Dekker, New York, 1995."
+    }
+   ],
+   "quirks": [
+    "Content table (p.2) prints 'Polymer degradation & stabilization'; subject page (p.16) prints 'Polymer Degradation And Stabilisation'.",
+    "No References section printed (only Text Books) — printed-blank.",
+    "Unit IV spans p.16-17 mid-phrase ('Graft and Block / Copolymerization'); 'Copolymerization Bio degradation' run-on as printed.",
+    "Unit IV prints 'X – ray' with spaces around the dash and 'Malice Acids' (Malic) as printed.",
+    "Unit I embeds second topic 'Thermal Degradation' after a trailing comma ('...Specific Site Attack, Thermal Degradation Introduction,...').",
+    "Unit II prints 'Craft Copolymers' (Graft) and 'Mechano Chemical' spacing as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastics Packaging Technology",
+   "name_print": "Plastics Packaging Technology",
+   "codes": [
+    "BPE053"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective I",
+   "units": {
+    "1": "Selection Criteria for Packaging Materials Introduction to plastics packaging: functions of packaging, advantages of plastic packaging, special requirements of food and medical packaging, Packaging as a system: Elements, approach, package, design, relation criteria for packaging materials, packaging equipment checklist, case histories, major packaging plastics, Introduction ‐ PE, PP, PS, PVC, polyesters, PVA, EVA, PA, PC, ionomers & fluoro polymers.",
+    "2": "Conversion Process for Packaging Materials Conversion process, Compression & transfer for moulding, Injection moulding, Blow moulding, Extrusion, roto moulding, thermoforming, Lamination, metallizing, decoration process, Shrink wrapping, Pallet & stretch wrapping",
+    "3": "Process for flexible Packaging Extrusion, film and flexible packaging, extrusion, cast film & sheet, Blown film, Multi layer film & sheet coatings, coextrusions, pouching, sealing, evaluation of seals in flexible packages, advantages of flexible packaging, flexible packaging products.",
+    "4": "Processes for Rigid Packaging Thermoformed, moulded and rigid packages, Thermoforming packages: Thermoforming & wrap forming, solid phase pressure forming, scrabbles, twin sheet & melt ‐ to‐ mould thermoforming, skin packaging, Polystyrene & other foams systems cushioning, plastic pallets, drums , shipping containers.",
+    "5": "Testing of plastic packaging Testing of plastic packages, barrier, migration & compatibility, Sterilization systems and health care products. Packaging hazards and their controls. Waste management act 2016."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the knowledge of properties for selection of packaging materials",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the techniques for production of packaging materials",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge about various aspects of flexible packaging",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand various forms of rigid packaging",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand testing of plastic packaging",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Susan E.M. Seleke, “Understanding Plastic Packaging Technology”, Hanser Publications – Munich."
+    },
+    {
+     "no": 2,
+     "book": "A.S. Altalye, “Plastics In Packaging”, Tata Mcgraw–Hill Publishing Co. Ltd., New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Mechanics’ Of Cellular Plastics By Hilyard"
+    },
+    {
+     "no": 4,
+     "book": "Hand Book Of Polymeric Foams & Foam Technology By Klempner"
+    }
+   ],
+   "quirks": [
+    "No References section printed (only Text Books) — printed-blank.",
+    "Printed typos kept verbatim: 'Susan E.M. Seleke' (Selke), 'A.S. Altalye' (Athalye).",
+    "Unit IV prints 'scrabbles', 'melt ‐ to‐ mould' (spaced hyphens) and 'drums , shipping containers' spacing as printed.",
+    "Unit II heading body prints 'Compression & transfer for moulding' as printed; no closing period at end of Unit II body.",
+    "Unit V cites 'Waste management act 2016' without formal title as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polyurethane Technology",
+   "name_print": "Polyurethane Technology",
+   "codes": [
+    "BPE054"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective I",
+   "units": {
+    "1": "Introduction to polyurethane Chemistry and materials of polyurethane manufacture: basic reaction, cross linking in polyurethane, important building blocks for polyurethane (isocyanates, polyols, amines and additives) the manufacture of polyurethanes (the process, parameters and controls).",
+    "2": "Polyurethane processing basic design principles of polyurethane processing equipment, steps in the polyurethane processing Flexible foams‐(production, properties and application slab stock foam, carpet backing, flexible moulded foams & semi rigid moulded foams. Reinforced RIM: trends in the use of RIM and RRIM.",
+    "3": "Rigid polyurethane foams chemistry of raw materials, manufacturing of rigid polyurethane (manufacturing of buns, panels, foaming of applications, moulded rigid foams), properties, relationship between production methods and properties‐ application of rigid polyurethane, Polyurethane skin integral foam‐ production, properties and applications.",
+    "4": "Solid polyurethane materials polyurethane casting systems (cast elastomers and casting resins), thermoplastic polyurethane elastomers: productions / processing, properties and applications, polyurethane paints and coatings, adhesives builders, elastomer fibers, manufacture / processing and applications.",
+    "5": "Determination of composition and testing of polyurethane chemical compositions, detection methods, identification of functional groups, determination of properties of materials and products (Characterization, physical/mechanical, temperature dependence, chemical performance, combustibility) polyurethane and environment health and safety: making and using polyurethane safely."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand chemistry and materials of polyurethane manufacture",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand various types of raw materials used in preparation of PU",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the production of flexible and rigid polyurethane foam",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Explain the knowledge of production, properties and uses of solid polyurethane",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Explain the knowledge of PU applications as coatings and adhesives",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Dr. Gumter Oertal (ed.), Polyurethane Hand Book, Hanser Publication Munich."
+    },
+    {
+     "no": 2,
+     "book": "George woods, The ICI Polyurethane book ‐published journals by ICI, John Wiley and sons NY"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "David Landel and Steve Lee, Poly Urethanes, John Wiley 2002."
+    },
+    {
+     "no": 2,
+     "book": "James Henry Saunders and Kurtz Charles Frisch, Poly Urethanes: Chemistry and Technology, R. E. Krieger, 1987."
+    }
+   ],
+   "quirks": [
+    "Unit V spans p.20-21 mid-parenthesis ('...temperature dependence, chemical / performance, combustibility...').",
+    "Printed typos kept verbatim: 'Dr. Gumter Oertal' (Günter Oertel), 'George woods' (Woods).",
+    "Unit II body runs heading into text: 'Polyurethane processing basic design principles...' and 'Flexible foams‐(production...' hyphen spacing as printed.",
+    "Unit III body begins lowercase 'chemistry of raw materials' directly after heading as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastics Waste Management And Recycling Techniques",
+   "name_print": "Plastics Waste Management And Recycling Techniques",
+   "codes": [
+    "BPE055"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective II",
+   "units": {
+    "1": "Plastic waste generation & separation techniques Plastics production and consumption, Plastic waste generation, source and types, Plastic waste composition, quantities, Plastics identification methods physical, chemical and instrumental, sorting and separation technologies, disposal alternatives, Recycling methods, Primary, Secondary and tertiary recycling of plastics, Case studies of plastic waste management, success stories of various Indian cities, conversion of plastic waste into fuel, use of plastic waste in concrete and making of Plastic road, plastic waste in cement kilns, Plastic Recycling & Waste Management Guidelines.",
+    "2": "Processing of Commingled Plastic Waste Size reduction of recycled plastics, cutting / shredding, densification, pulverization and chemical size reduction processes, municipal solid waste and composition, recycling of plastics from urban solid wastes, household waste, industrial sector, density and mechanical properties of recyclable plastics, Processing of commingled / mixed plastic waste, super wood, plastic lumber.",
+    "3": "Recycling of Polyolefins, Pet & PVC Recycling of polyolefins, polyethylene films, Polypropylene battery case recycling, Recycling of HDPE fuel tanks, PET recycling methods, PET film/bottle recycling, Applications of polyolefin and PET recyclate, PVC recycling.",
+    "4": "Recycling of Engineering Thermoplastics Engineering thermoplastics and their major areas where engineering polymers are recycled, Recycling of Polymers like PC, PBT, Nylon, PPO, ABS and polyacetals and their blends. Applications and value addition.",
+    "5": "Recycling of Thermosets Recycling of Polymer thermoset composites, regrind processes, SMC scrap, Pyrolysis and energy recovery, Types of rubber products, rubber grinding methods, tyre grinding, rubber crumb applications, Reclaiming and de‐vulcanization processes, tyre derived fuel and energy recovery, Pyrolysis of scrap tyres."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand various forms of waste and its segregation",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the impact of plastic waste on environment",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand various methods of recycling of commodity plastics",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Explain various aspects of recycling of engineering plastics",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge of various policies & legislations related to environmental issues of plastics waste.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Polymer recycling, “Science, Technology and Applications, John Scheirs, John Wiley & Sons, England 1988"
+    },
+    {
+     "no": 2,
+     "book": "“Recycling of Plastic Materials (Ed)”, Francesco Paolo La Mantia, Chem Tec Publishing."
+    },
+    {
+     "no": 3,
+     "book": "“Plastics Waste Management (Ed)”, Nabil Mustafa, Marcel Dekker, New York,1995."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Degradeable polymers, Recycling and Plastic Waste Management (Eds) Ann Christine Albertson and Samuel J. Huang, Marcel Dekker, New York."
+    },
+    {
+     "no": 2,
+     "book": "John Schiles, Polymer Recycling."
+    },
+    {
+     "no": 3,
+     "book": "Recycling & Plastics Waste Management, Edited by Dr. J. S. Anand, CIPET, 1997."
+    }
+   ],
+   "quirks": [
+    "Textbook 1 prints year '1988' for Scheirs' Polymer Recycling while reference 2 lists 'John Schiles, Polymer Recycling.' — inconsistent spellings/years kept verbatim.",
+    "Reference 1 prints 'Degradeable' and 'Albertson' as printed.",
+    "Unit III heading prints 'Pet' (PET) as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Heat & Mass Transfer",
+   "name_print": "Heat & Mass Transfer (Same as KME 501)",
+   "codes": [
+    "BPE056"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective II",
+   "units": {
+    "1": "Introduction to Heat Transfer (5 Hours) Introduction of thermodynamics and Heat Transfer, Modes of Heat Transfer: Conduction, convection and radiation, Effect of temperature on thermal conductivity of different types of materials, Introduction to combined heat transfer mechanism, General differential heat conduction equation in the rectangular, cylindrical and spherical coordinate systems, Initial and system boundary conditions. Steady State one‐dimensional Heat conduction (3 Hours) Simple and Composite Systems in rectangular, cylindrical and spherical coordinates with and without energy generation, Concept of thermal resistance, Analogy between heat and electricity flow, Thermal contact resistance and over‐all heat transfer coefficient, Critical radius of insulation for cylindrical, and spherical bodies.",
+    "2": "Fins (3 Hours) Heat transfer through extended surfaces and its classification, Fins of uniform cross‐sectional area, Error in measurement of temperature of thermometer wells. Transient Conduction (3 Hours) Transient heat conduction, Lumped capacitance method, Time constant, Unsteady state heat conduction in one dimension only, Heisler charts and their applications.",
+    "3": "Forced Convection (5 Hours) Basic concepts: Hydrodynamic boundary layer, Thermal boundary layer, Approximate integral boundary layer analysis, Analogy between momentum and heat transfer in turbulent flow over a flat surface, Mixed boundary layer, Flow over a flat plate, Flow across a single cylinder and a sphere, Flow inside ducts, Thermal entrance region, Empirical heat transfer relations, Relation between fluid friction and heat transfer, Liquid metal heat transfer. Natural Convection (5 Hours) Physical mechanism of natural convection, Buoyant force, Empirical heat transfer relations for natural convection over vertical planes and cylinders, horizontal plates, cylinders and sphere, combined free and forced convection, Effect of turbulence.",
+    "4": "Thermal Radiation (8 Hours) Basic concepts of radiation, Radiation properties of surfaces, Black body radiation Planck’s law, Wein’s displacement law, Stefan‐Boltzmann law, Kirchhoff’s law, Gray body, Shape factor, Blackbody radiation, Radiation exchange between diffuse non‐black bodies in an enclosure, Radiation shields, Radiation combined with conduction and convection; Absorption and emission in gaseous medium; Solar radiation; Greenhouse effect, Radiation network analysis.",
+    "5": "Heat Exchanger (5 Hours) Different types of heat exchangers, Fouling factors, Overall heat transfer coefficient, Logarithmic mean temperature difference (LMTD) method, Effectiveness‐number of transfer unit (NTU) method and Compact Heat Exchangers. Condensation and Boiling (3 Hours) Introduction of condensation phenomena, Heat transfer relations for laminar film condensation on vertical surfaces and on outside& inside of a horizontal tube, Effect of non‐condensable gases, Drop wise condensation, Heat pipes, Boiling modes, pool boiling, Hysteresis in boiling curve, Forced convection boiling. Introduction to Mass Transfer (2 Hours) Introduction of Fick's law of diffusion, Steady state equimolar counter diffusion, Steady state diffusion through a stagnant gas film, Heat and Mass Transfer Analogy ‐Convective Mass Transfer Correlations"
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of heat and mass transfer.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply the concept of steady and transient heat conduction.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Apply the concept of thermal behavior of fins.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of forced and free convection.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply the concept of radiation for black and non‐black bodies.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Conduct thermal analysis of heat exchangers.",
+     "kl": "K4"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Heat and Mass Transfer, by Incroperra& DeWitt, John Wiley and Sons"
+    },
+    {
+     "no": 2,
+     "book": "Heat and Mass Transfer by Cengel, McGraw‐Hill"
+    },
+    {
+     "no": 3,
+     "book": "Heat Transfer by J.P. Holman, McGraw‐Hill"
+    },
+    {
+     "no": 4,
+     "book": "Heat and Mass Transfer by Rudramoorthy and Mayilsamy, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Heat Transfer by Ghoshdastidar, Oxford University Press"
+    },
+    {
+     "no": 6,
+     "book": "A text book on Heat Transfer, by Sukhatme, University Press."
+    },
+    {
+     "no": 7,
+     "book": "Heat Transfer by Venkateshan, Ane Books Pvt Ltd"
+    },
+    {
+     "no": 8,
+     "book": "Schaum's outline of Heat Transfer by Pitts & Sisson McGraw‐Hill"
+    },
+    {
+     "no": 9,
+     "book": "Heat and Mass Transfer by R Yadav, Central Publishing House"
+    }
+   ],
+   "quirks": [
+    "Subject page (p.24) title prints cross-reference '(Same as KME 501)' — Mechanical Engineering KME501 counterpart; content table (p.2) prints 'Heat and Mass Transfer', electives table (p.4) prints 'Heat & Mass Transfer'.",
+    "CO heading prints only 'The students will be able to' — the words 'Course Outcomes:' are missing (printed omission); six COs printed (CO-1..CO-6) unlike other subjects' five.",
+    "Units numbered with digits 'UNIT‐1'..'UNIT‐5' (all other subjects use Roman numerals).",
+    "Each sub-topic carries a right-aligned '(n Hours)' tag; text layer shows large blank gaps before the tags. Hours as printed: U1 5+3, U2 3+3, U3 5+5, U4 8, U5 5+3+2 (total 42).",
+    "'Natural Convection' block prints on p.25 BEFORE the 'UNIT‐4' heading — belongs to Unit 3 by print order.",
+    "No Text Books section printed; list headed 'Reference Books:‐' (9 entries).",
+    "Printed typos kept verbatim: 'Incroperra& DeWitt' (Incropera), 'Wein’s displacement law' (Wien), 'outside& inside' spacing."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Special Processes & Techniques",
+   "name_print": "Special Processes &  Techniques",
+   "codes": [
+    "BPE057"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective II",
+   "units": {
+    "1": "Casting Process Introduction, Types (Conventional, Solvent, Rotational, Slush), Advantages & applications.",
+    "2": "Dip Moulding Principle, Process, Materials, Inline & chain machines, Rotary machines, advanced machines, Advantages, Applications of dip moulding & dip coating, Limitations, Tooling requirements.",
+    "3": "Printing of Plastics Principles, advantages, requirements, Types (Pad printing, Screen printing, Rotogravure, Laser printing, Hot stamping, Hot transfer Printing, In mould decoration, Film insert moulding, in mould transfer decoration)",
+    "4": "Coating of Plastics Extrusion coating, Calendar coating, Powder coating, Transfer coating, Knife or roller coating, Spray coating. Applications",
+    "5": "Machining of plastics Principle, Different types of operations, Drilling, reaming, threading, and tapping, Sawing & cutting, Milling, Turning & boring, Punching, blanking die cutting, Laser cutting, Polishing. Applications."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Acquire the knowledge of various aspects of casting process",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Familiarized with the process of Dip moulding",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the process of printing of plastics using various techniques",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the process of coating of plastics",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand how plastics are machined",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Plastic Engineering Hand Book & D – 5 ‐ By Society of Plastic Industry Inc."
+    },
+    {
+     "no": 2,
+     "book": "Plastics Material & Processing‐ By Strong, A, Brent"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Cheremisinoff; Nicholas P. and Cheremisinoff; Paul N. (Eds.), Handbook of Applied Polymer Processing Technology, Marcel Dekker Inc., New York (1996)"
+    },
+    {
+     "no": 2,
+     "book": "Plastics Materials & Processing ‐ By Schwartz & Goodman Thermoforming ‐ By James & Throne."
+    }
+   ],
+   "quirks": [
+    "Name print carries double space: 'Special Processes &  Techniques' (p.26).",
+    "Textbook 1 prints 'Hand Book & D – 5' (edition fragment 'D‐5') as printed.",
+    "Reference 2 jams two works: '...Schwartz & Goodman Thermoforming ‐ By James & Throne.' as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Physical Chemistry of Polymers",
+   "name_print": "Physical Chemistry of Polymers",
+   "codes": [
+    "BPE058"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective II",
+   "units": {
+    "1": "Potential energy and conformational energy of molecules Staggered and eclipsed states ‐ conformations and configurations, isomeric states and isomerism in polymers ‐ Tacticity, stereoisomerism, geometric isomerism ‐ Unperturbed and Gaussian chains ‐ Random coils and average end to end distance ‐ Freely jointed and freely rotating chain models – Random flight analysis.",
+    "2": "Thermodynamics First and second law of Thermodynamics, Carnot cycle ‐ Entropy and enthalpy ‐ Energy driven and entropy driven elasticity ‐ Thermoelasticity – Thermodynamic treatment of rubbers ‐ entropic and energetic contributions to the elastic force in rubbers ‐ Statistical mechanical theory.",
+    "3": "Amorphous State Transition temperatures ‐ Glass transition temperature ‐ Free volume, kinetic, and thermodynamic views of glass transition ‐ Factors influencing glass transition temperature.",
+    "4": "Crystalline State Crystal systems, unit cells, primitive cell, Bravais lattices, polymorphism ‐ Polymer single crystals, lamellae, spherulites, supermolecular structures, fringed micelle model ‐ Degree of crystallinity, factors affecting crystallinity ‐ X‐ray diffraction.",
+    "5": "Chain orientation Concept of chain orientation ‐ orientation in amorphous and crystaline polymers ‐ Uniaxial and biaxial orientation practical significance ‐ Orientation processes ‐ fibre spinning, blown film extrusion, solid state extrusion, profile extrusion ‐ Properties of oriented polymers ‐ Birefringence."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Acquire knowledge about various aspects of energy states of polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Explain various concepts of thermodynamics of polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge of amorphous state of polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Acquire knowledge about crystalline state of polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the phenomenon of chain orientation of polymers",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "S. Glasstone and D. Lewis, Elements of Physical Chemistry, Macmillan India Press, Madras, 1995."
+    },
+    {
+     "no": 2,
+     "book": "Paul C. Painter and Michael M. Coleman, Fundamentals of Polymer Science, Technomic Publishing Co. Inc., Lancaster, USA, 1994."
+    },
+    {
+     "no": 3,
+     "book": "Ulf W. Gedde, Polymer Physics, Chapman & Hall, 1995."
+    }
+   ],
+   "quirks": [
+    "No References section printed (only Text Books) — printed-blank.",
+    "Unit V prints 'crystaline' (crystalline) as printed.",
+    "Unit V prints 'biaxial orientation practical significance' without punctuation as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Processing Techniques",
+   "name_print": "Advanced Processing Techniques",
+   "codes": [
+    "BPE601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 1 0 | 20 10 30 | TE 70 | Total 100 | Credit 4",
+   "subject_type": "Core",
+   "units": {
+    "1": "Thermoset Injection Molding Principle, Materials, Process description, Machine Design, Set up procedure and process parameter, Troubleshooting, Applications Reaction Injection Moulding Principle, Materials, Process description, Process parameters, Applications. Resin Transfer Moulding Principle, Materials, Additives, Process description, Process Characteristics, Troubleshooting",
+    "2": "Plastic Foam Molding, Structure Foam Moulding Principle, Materials, Process description and its types, Process Characteristic, Trouble shooting, Applications. Expandable Bead Foam Principle, Materials, Process description and its types, Process Characteristic, Trouble shooting, Applications. Extruded Thermoplastics Foams Principle, Materials, Additives, Process Description, Process parameter, Blowing Agents, Applications.",
+    "3": "Gas Assist Injection Moulding Principle, Features and Benefits of GAIM, Process description and its types, Applications. Water Assist Injection Moulding Principle, Process description and its types, Applications Microcellular Plastic Technology Principle, Process description and characteristic, Cellular and microcellular plastics.",
+    "4": "Laminates Principle, Material used, Additives, Process Description and its types, Process Parameters, Applications Thin Wall Moulding Principle, Part Design, Gate Concept, Demolding Technology, Tool rigidity, Process description, Applications.",
+    "5": "Co‐injection or Sandwich Molding Principle, Advantages, Process description and its types, Effects of Viscosity, Benefits of coinjection molding Multi Component Molding Principle, Materials, Process description and its types Lost core moulding process Principle, Material used and its grade, Major applications."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concepts of thermoset injection moulding.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Acquire knowledge of processes for manufacturing of different Plastic foams.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand the concepts of gas & water Injection moulding.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Acquire knowledge about various forms of plastics laminates.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Explain the phenomenon of sandwich moulding.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Plastic Engineering Hand Book & D – 5 ‐ By Society of Plastic Industry Inc."
+    },
+    {
+     "no": 2,
+     "book": "Plastics Material & Processing‐ By Strong, A, Brent"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Cheremisinoff; Nicholas P. and Cheremisinoff; Paul N. (Eds.), Handbook of Applied Polymer Processing Technology, Marcel Dekker Inc., New York (1996)"
+    },
+    {
+     "no": 2,
+     "book": "Plastics Materials & Processing ‐ By Schwartz & Goodman Thermoforming ‐ By James & Throne."
+    },
+    {
+     "no": 3,
+     "book": "Welding of Plastics ‐ By New Man"
+    }
+   ],
+   "quirks": [
+    "Each unit carries multiple untitled sub-topics (e.g. Unit I: Thermoset Injection Molding / Reaction Injection Moulding / Resin Transfer Moulding); sub-topic headings run directly into their body text as printed.",
+    "Mixed spelling 'Molding'/'Moulding' and 'coinjection' (no hyphen) kept verbatim.",
+    "Reference 3 prints 'New Man' (Newman) as printed; Reference 2 jams two works as printed.",
+    "Textbooks identical print to BPE057 (same two entries)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additives & Compounding",
+   "name_print": "Additives & Compounding",
+   "codes": [
+    "BPE602"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 1 0 | 20 10 30 | TE 70 | Total 100 | Credit 4",
+   "subject_type": "Core",
+   "units": {
+    "1": "Introduction, Technological requirements, Classification, Chemistry and Mechanism, Selection Criteria, General effect on Properties, Evaluation and functions of additives.",
+    "2": "Fillers, Stabilizers, Pigments: Fillers and Reinforcement, Antioxidants, Metal de‐activators, Thermal Stabilisers, Ultraviolet stabilizer, Impact Modifiers/ Toughening agents, Colourants, Fire retardants, Coupling agents, blowing‐agents.",
+    "3": "Plasticizers, Antistatic agents, Anti blocking agents, Slip and anti slip agents, processing aids, Lubricants, mould releasing agents, Additives for recycling, conductive additives, antimicrobial additives",
+    "4": "Mixing and mixing equipments: Mixing Methodologies: Types of Mixing, Dispersive/Distributive, Agglomerates, mixing of solid additives, mixing of liquid additives, Difference between mixing and compounding. Principles, Operating characteristics, Machine construction, Specifications, Process control systems and working details of Batch mixers and continuous mixers, High speed mixer, Two roll mill, Banbury Mixer, Ribbon blender, Planetary mixers, Twin screw extruders [ co rotating / counter rotating.",
+    "5": "Separation & analysis of additives in Polymers: Extraction techniques, Solvent dissolution, centrifugation, Precipitation, filtration and ashing. Identification and estimation of additives by using spectroscopy, chromatography, spectrometry and titrimetry."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand various aspects of polymer additives",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the use of fillers, stabilizers and pigments",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge of Plasticizers, antistatic agents and their merits & demerits.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand various compounding methods used in the manufacturing of compounded thermoplastics and thermosets.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge about various selection criteria for polymeric additives and their characterization",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "R. Gachter , H. Muller, Plastics additives handbook: Stabilizers, processing aids, plasticizers, fillers, reinforcements, colorants for thermoplastics, Hanser Publishers, Munich, 1987."
+    },
+    {
+     "no": 2,
+     "book": "Murphy; John, Additives for Plastics Handbook, 2nd Edition, Elsevier Advanced Technology, Oxford."
+    },
+    {
+     "no": 3,
+     "book": "Al – Malaika; S. Golovoy; A and Wilkie(Eds), Chemistry and Technology of Polymer Additives, Black well Science Ltd, Oxford (1999)"
+    },
+    {
+     "no": 4,
+     "book": "Mascia; L., The Role of Additive in Plastics, Edward Arnold Publishers Ltd., U. K. (1974)."
+    }
+   ],
+   "quirks": [
+    "Stray duplicate heading line 'Additives & Compounding' printed between the CO table and UNIT I (p.32).",
+    "Units have no topic headings — body text starts directly (Units I, III, V) or with 'Fillers, Stabilizers, Pigments:' / 'Mixing and mixing equipments:' run-in headings.",
+    "Unit IV prints unbalanced bracket '[ co rotating / counter rotating.' (no closing bracket) as printed.",
+    "No Text Books section printed; only References (4 entries) — printed-blank."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mould & Die Manufacturing",
+   "name_print": "Mould & Die Manufacturing",
+   "codes": [
+    "BPE603"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 1 0 | 20 10 30 | TE 70 | Total 100 | Credit 4",
+   "subject_type": "Core",
+   "units": {
+    "1": "Mould Making Introduction of mould parts, Mechanism of metal cutting, types of tools, influence of tool angles, Cutting fluids, Tool materials used including coated tools. Mould material, Material selection for mould making, Properties of steels for moulds. Nonferrous metals for moulds ‐ Zinc base alloys and aluminium alloys, Beryllium Copper, Polyesters, Epoxies, Silicones. Review of various machining operations.",
+    "2": "Jig boring, Pantograph, Profile grinding, Electrical discharge machining Characteristics, physical processes, special technological features, types of EDM, design consideration & functions and technological planning. Applications of wire cut EDM in mould making. Electroforming for mould manufacturing ‐ discussion of the process, materials for electroforming, machining for electroformed blanks",
+    "3": "Heat Treatment Processes, Various Types of Furnaces. Hobbing for mould making – Discussion of the hobbing process & its advantages, elements of hobbing like hobbing punch, shape of the hob, materials used for cavity, lubrication, and depth of hobbing, Hobbing presses, Hobbing operations & its economy with examples.",
+    "4": "Polishing technology in mould making Definition of surface roughness, basis of polishing technology, Effect of mould materials on polishability, Types of polishing tools, Methods of polishing. Basic information on electrosonic polishing. Principles of electro‐deposition in damaged moulding surfaces. Surface Texturing of moulds ‐ Process description, types of moulds, types of patterns and mould shapes, metals that can be etched, mould preparation, limitations of chemical texturing.",
+    "5": "Computer aided Manufacturing and Measurement. Introduction to CAM; Automated Manufacturing system; Need of automation, Basic elements of automation, Levels of automation, Automation Strategies, Advantages &disadvantages of automation, classification of NC machine tools, NC Part Programming. Manual (word address format) programming‐ SIMPLE Examples: Canned cycles, Subroutine, and Macro. APT programming. Geometry, Motion and Additional statements, Macro‐ statement Open and closed loops. Control of point to point systems‐Incremental open loop control, Incremental close loop, Absolute close loop; Control loop in contouring systems; Adaptive control."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand mould making process",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand the Electro discharge machining process",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge in surface texturing of mould",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand polishing technology in mould making",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the concept of computer aided manufacturing for polymers",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "“Injection Mold Design” R.G.W.Pye, East West Press Pvt. Ltd., New Delhi."
+    },
+    {
+     "no": 2,
+     "book": "”Mold making handbook for Plastic Engineers”, KlusStokhert (Edt.),Hanser Publishers, NY,1983"
+    },
+    {
+     "no": 3,
+     "book": "“Computer Aided Engineering Design” Anupam Saxena & B. Sahay, Anamaya Publishers"
+    },
+    {
+     "no": 4,
+     "book": "“CAD/CAM” HP Groover & EW Zimmers, Jr. Prentice Hall India Ltd."
+    },
+    {
+     "no": 5,
+     "book": "“CAD/CAM” Theory and Practice Ibrahim Zeid & R Sivasubramaniam McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "“A New Technology”, Bhattacharya, IB Publishers, 1984"
+    },
+    {
+     "no": 7,
+     "book": "Stoeckhert “Menning, Mold making handbook”, 2nd edition, Hanser Publishers, Munich."
+    },
+    {
+     "no": 8,
+     "book": "“Workshop Technology”, Vol I & II, W.A.J Chapman, ELBS."
+    },
+    {
+     "no": 9,
+     "book": "“Mold Engineering”, Herbert Rees, Hanser Publishers, NY. George Menges & Paul Mohren"
+    },
+    {
+     "no": 10,
+     "book": "“How to Make Injection Molds”, Hanser Publishers."
+    },
+    {
+     "no": 11,
+     "book": "“Plastics Mold Engineering”, DuBois; J. Harry and Pribble; W. I. (Eds.),SPE Polymer Technology"
+    }
+   ],
+   "quirks": [
+    "No Text Books section printed; only References (11 entries) — printed-blank.",
+    "Unit V text layer shows fragmented spacing: 'Computer\naided  Manufacturing  and\nMeasurement.  Introduction  to\nCAM;' — wide word spacing in print.",
+    "Printed typos kept verbatim: 'KlusStokhert (Edt.),Hanser' (Stoeckhert), 'R.G.W.Pye' spacing, 'Advantages &disadvantages', ref 2 opening quote is a closing curly quote ('”Mold making...').",
+    "Reference 6 prints only '“A New Technology”' as title fragment; Reference 9 jams 'George Menges & Paul Mohren' after Rees entry; Reference 11 ends truncated 'SPE Polymer Technology'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polymer Characterization Lab",
+   "name_print": "Polymer Characterization Lab",
+   "codes": [
+    "BPE651"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "te": 50,
+    "total": 100
+   },
+   "marks_print": "0 0 2 | CT/TA/Total blank | PS 50 | TE 50 | Total 100 | Credit 1",
+   "subject_type": "Lab",
+   "experiments_note": "Study of the following techniques with analysis & interpretation of results : (Minimum 08)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Differential Scanning Calorimetry ( DSC )"
+    },
+    {
+     "no": 2,
+     "exp": "Thermo Gravimetric Analysis ( TGA )"
+    },
+    {
+     "no": 3,
+     "exp": "Dynamic Mechanical Analysis (DMA)"
+    },
+    {
+     "no": 4,
+     "exp": "Mass spectrometry"
+    },
+    {
+     "no": 5,
+     "exp": "Scanning Electron Microscopy (SEM)"
+    },
+    {
+     "no": 6,
+     "exp": "X Ray Diffractometry ( XRD )"
+    },
+    {
+     "no": 7,
+     "exp": "Gas Chromatography"
+    },
+    {
+     "no": 8,
+     "exp": "CHNSO analyser"
+    },
+    {
+     "no": 9,
+     "exp": "UV visible spectroscopy"
+    },
+    {
+     "no": 10,
+     "exp": "Fourier transform infrared spectroscopy (FTIR)"
+    },
+    {
+     "no": 11,
+     "exp": "Inductively Coupled Plasma (ICP) Spectroscopy"
+    },
+    {
+     "no": 12,
+     "exp": "Biodegradability tests"
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Carryout thermal characterization of polymeric sample using DSC & TGA",
+     "kl": "K4"
+    },
+    {
+     "no": 2,
+     "text": "Analyze a sample using X Ray Diffractometry ( XRD )",
+     "kl": "K4"
+    },
+    {
+     "no": 3,
+     "text": "Analyze the data acquired through characterization of polymeric sample by various spectroscopic methods",
+     "kl": "K4"
+    },
+    {
+     "no": 4,
+     "text": "Interpret the topography of a sample using SEM",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Carryout the study of biodegradability of plastics",
+     "kl": "K4"
+    }
+   ],
+   "quirks": [
+    "No units/textbooks printed for this lab (printed-blank).",
+    "Instrument names print spaced parentheses '( DSC )', '( TGA )', '( XRD )' as printed; 'CHNSO analyser' as printed (CHNS/O)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mould & Die Manufacturing Lab",
+   "name_print": "Mould & Die Manufacturing Lab",
+   "codes": [
+    "BPE652"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "te": 50,
+    "total": 100
+   },
+   "marks_print": "0 0 2 | CT/TA/Total blank | PS 50 | TE 50 | Total 100 | Credit 1",
+   "subject_type": "Lab",
+   "experiments_note": "Study of the following techniques (Minimum eight)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of different types of Cutting tools."
+    },
+    {
+     "no": 2,
+     "exp": "Letter writing on Pantograph milling"
+    },
+    {
+     "no": 3,
+     "exp": "Study of EDM,"
+    },
+    {
+     "no": 4,
+     "exp": "Study of Wire cut EDM"
+    },
+    {
+     "no": 5,
+     "exp": "Study and Detailing of mould assembly"
+    },
+    {
+     "no": 6,
+     "exp": "Manufacturing of Guide Pillar"
+    },
+    {
+     "no": 7,
+     "exp": "Manufacturing of Pocket by Milling"
+    },
+    {
+     "no": 8,
+     "exp": "Gas assisted & Water assisted Injection mould and Hot runner mould"
+    },
+    {
+     "no": 9,
+     "exp": "Hand compression mould design – positive, semi positive, displacement type mould, and design with split cavities"
+    },
+    {
+     "no": 10,
+     "exp": "Transfer mould design (pot type & top plunger type)"
+    },
+    {
+     "no": 11,
+     "exp": "Automatic unscrewing mould"
+    },
+    {
+     "no": 12,
+     "exp": "Study of Mould for Rotational Moulding"
+    },
+    {
+     "no": 13,
+     "exp": "Study of Mould for Thermoforming Moulding"
+    },
+    {
+     "no": 14,
+     "exp": "Study of Mould design for industrial component"
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Demonstrate various types of cutting tool",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Demonstrate mould manufacturing on EDM",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Attain skills for mould assembly",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Acquire skills for manufacture of Guide pillars",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Demonstrate the use Wire cut EDM",
+     "kl": "K3"
+    }
+   ],
+   "quirks": [
+    "No units/textbooks printed for this lab (printed-blank).",
+    "Item 3 prints trailing comma 'Study of EDM,'; CO-5 prints 'Demonstrate the use Wire cut EDM' (missing 'of') as printed.",
+    "Item 13 prints 'Thermoforming Moulding' as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additives & Compounding Lab",
+   "name_print": "Additives & Compounding Lab",
+   "codes": [
+    "BPE653"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 50,
+    "te": 50,
+    "total": 100
+   },
+   "marks_print": "0 0 2 | CT/TA/Total blank | PS 50 | TE 50 | Total 100 | Credit 1",
+   "subject_type": "Lab",
+   "experiments_note": "Study of the following (Minimum eight)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To study operating characteristics, machine construction, specifications, process control systems and working details of various batch and continuous mixers and other equipments."
+    },
+    {
+     "no": 2,
+     "exp": "To study the functioning of two roll mill."
+    },
+    {
+     "no": 3,
+     "exp": "To carry out compounding of PP with various additives for specific applications."
+    },
+    {
+     "no": 4,
+     "exp": "To do PVC compounding using high speed mixer."
+    },
+    {
+     "no": 5,
+     "exp": "Preparation of plasticized polyvinyl chloride (PVC) compound using two roll mill."
+    },
+    {
+     "no": 6,
+     "exp": "Preparation of phenolic moulding compound using two roll mill."
+    },
+    {
+     "no": 7,
+     "exp": "Preparation of filled polymers using twin screw extruder."
+    },
+    {
+     "no": 8,
+     "exp": "To study compounding and dispersion of carbon black filled compositions."
+    },
+    {
+     "no": 9,
+     "exp": "To carry out mixing of thermoplastics with rubber materials on two roll mill. To analyse mixing time v/s speed of rolls, study effects using microscope on morphology."
+    },
+    {
+     "no": 10,
+     "exp": "To study effects of additives on properties of PP."
+    },
+    {
+     "no": 11,
+     "exp": "To study effects of additives on properties of LDPE."
+    },
+    {
+     "no": 12,
+     "exp": "Mixing characteristics of sigma mixer and preparation of Dough Moulding Compound formulations using sigma mixer."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Demonstrate the working of various types of mixing devices and compounders",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Perform PVC compounding using high speed mixer",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Prepare various composites using Twin screw extruder",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Carryout mixing of thermoplastics with rubber using two roll mill",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Analyse the effect of various fillers in common plastic materials",
+     "kl": "K4"
+    }
+   ],
+   "quirks": [
+    "No units/textbooks printed for this lab (printed-blank).",
+    "Item 1 prints 'equipments' (equipment) as printed; item 9 prints 'v/s' as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Analysis And Characterization Of Polymers",
+   "name_print": "Analysis And Characterization Of Polymers",
+   "codes": [
+    "BPE061"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective III",
+   "units": {
+    "1": "Molecular Characterization of Polymers Determination of molecular weight, viscometry, end group analysis, colligative property, osmometry, light scattering technique, determination of molecular weight and molecular weight distribution, gel permeation chromatography (GPC).",
+    "2": "Thermal Analysis Techniques Differential thermal analysis (DTA), differential scanning calorimetry (DSC), thermogravimetric analysis (TGA), thermomechanical analysis (TMA), dynamic mechanical thermal analysis (DMTA).",
+    "3": "X‐ray diffractometry X‐ray diffraction analysis, experimental methods, applications‐Chain conformations, chain packing, disorder in the crystal, degree of Crystallinity, micro structural parameters, degree of orientations.",
+    "4": "Principles of microscopy Optical, SEM, TEM, AFM; Morphology of polymers, Crystallization behavior, phase separation and applications",
+    "5": "UV/Visible Spectroscopy Introduction, principle, Lambert law, Beer’s law, theory, instrumentation, procedure, advantages, disadvantages, interpretation of spectrogram, applications‐qualitative analysis, quantitative analysis; purity, cis‐ and trans‐ conformation. Fourier transform infrared (FTIR) spectroscopy, Introduction, principle, theory, instrumentation, ATR attachment, methods of sample preparation, advantages, disadvantages, interpretation of spectra, applications, establishment of chemical structure of polymers, reaction kinetics, polymer linkage, hydrogen bond formation, purity, copolymerization, qualitative and quantitative results, gas chromatograph (GC) ‐ Mass spectrometer. Nuclear Magnetic Resonance(NMR) spectroscopy, (1H NMR and 13C NMR), Introduction, Principle, theory, Spin‐spin coupling, coupling constant – chemical shifts ‐ instrumentation, procedure, method of sample preparation ‐ applications – chemical structures, purity, tacticity, Solid state NMR – applications."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Have knowledge about various aspects of X‐ray diffractometry",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Attain knowledge about various types of microscopy",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Have understanding of various spectroscopic methods",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Analyze various methods of molecular characterization of polymers",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Analyze the data taken by thermal characterization of polymers",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Nicholas P. Cheremisinoff, Polymer characterization – Laboratory Techniques and Analysis, Elsevier Books."
+    },
+    {
+     "no": 2,
+     "book": "Hunt & James, Polymer characterization – Chapman & Hall, London, 1993"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "ASTM – Volume: 8.01, 8.02 & 8.03, 2000"
+    },
+    {
+     "no": 2,
+     "book": "G. Kämpf, Characterization of plastics using physical methods, Experimental techniques and practical applications. Hanser Publishers, Munich, 1986"
+    },
+    {
+     "no": 3,
+     "book": "D. Campbell & J.R. White, Polymer Characterization, Chapman & Hall, 1989."
+    }
+   ],
+   "quirks": [
+    "Content table (p.2) prints 'Analysis and Characterisation of Polymers' ('Characterisation') while subject page (p.39) prints 'Analysis And Characterization Of Polymers'.",
+    "Unit V is very long and spans p.39-40, packing UV/Visible, FTIR+GC-MS and NMR sub-topics without separate unit headings.",
+    "Sub-topic headings inside Unit V run into body with comma ('UV/Visible Spectroscopy Introduction, ...', 'Fourier transform infrared (FTIR) spectroscopy, Introduction, ...') as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Speciality Polymers",
+   "name_print": "Speciality Polymers",
+   "codes": [
+    "BPE062"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective III",
+   "units": {
+    "1": "High temperature and fire resistant polymers improving low performance polymers for high temperature use – polymers for low fire hazards – polymers for high temperature resistance – Fluoropolymers. Aromatic polymers, polyphenylene sulphide, polysulphones, polyesters, polyamides, polyketones, Heterocyclic polymers.",
+    "2": "Polymers with electrical and electronic properties ‐ Conducting polymers, conducting mechanisms, polyacetylene, polyparaphenylene, polypyrrole, organometallic polymers, photo conducting polymers, polymers in non‐linear optics, polymers with piezoelectric and pyroelectric properties, photoresists for semi conductor fabrication – liquid crystalline polymers. Types of electroactive polymers; Dielectric, Ferroelectric (Electrostrictive and liquid crystalline) and ionic (electrorheological fluid and ion‐metal composite) EAP‘s; Comparison of electronic and ionic behaviors",
+    "3": "Ionic Polymers, synthesis, physical properties and applications, Ion‐exchange, Hydrophilicity, lonomers based on polyethylene, elastomeric ionomers. Ionomers based on polystyrene, ionomers based on PTFE, ionomers with polyaromatic backbones, polyelectrolytes for ion exchange, polyelectrolytes based on carboxylates, polymers with integral ions, polyelectrolyte complexes. Biological and inorganic ionic polymers.",
+    "4": "Polymer concrete, polymer impregnated concrete ultra high modulus fibres, polymers for biomedical applications, polymeric binders for rocket propellants, polymer supported reagents. Definition, classification, synthesis, characterization and application of polymer gels.",
+    "5": "Polymers in telecommunications and power transmission, polymers as insulators – electrical breakdown strength – capacitance, dielectric loss and cable alteration, polymers in telecommunications – submarine, cable insulation, low fire risk materials, polymers in power transmission – Optical fibre telecommunication cables. Photoactive polymers their design, synthesis, characteristic properties and its application."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand about the properties of fire resistant and high temperature polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Acquire knowledge about polymers with electrical properties",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge of ionic polymers and their applications",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understanding of polymer concrete and its applications",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand various application of speciality polymers in telecommunication and transmission",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "R.W. Dyson, Specialty Polymers, Chapman & Hall, 2nd edition, 1998."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "H.F.Mark, (Ed), Encyclopedia of polymer Science & Engineering, John Wiley & Sons, New York, 1989."
+    },
+    {
+     "no": 2,
+     "book": "Matrin.T.Goosey, Plastics for Electronics, Elsevier, Applied Science, 1985."
+    },
+    {
+     "no": 3,
+     "book": "Manas Chanda, Salil.K.Roy, Plastics Technology Hand book, 2nd edition, Marcel Dekker, New York, 1993"
+    }
+   ],
+   "quirks": [
+    "Unit II prints 'EAP‘s' (apostrophe-s) as printed.",
+    "Unit III prints 'lonomers based on polyethylene' with lowercase L (Ionomers) as printed; later instances spelled 'Ionomers'.",
+    "Units III-V have run-in headings without a topic-title line ('Ionic Polymers, synthesis,...') as printed.",
+    "Textbook list has a single entry with extra leading spaces ('1.  R.W. Dyson...').",
+    "Reference 2 repeats BPE501's typo 'Matrin.T.Goosey'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Adhesives And Surface Coatings",
+   "name_print": "Adhesives And Surface Coatings",
+   "codes": [
+    "BPE063"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective III",
+   "units": {
+    "1": "Adhesives, concepts and terminology, functions of adhesives, advantages and disadvantages of adhesive bonding, criteria for selection of adhesives. Types of adhesives, structural adhesives, Urethane structured adhesives, Modified acrylic structural adhesives, phenolic adhesives and modifiers, anaerobic adhesives, cyanoacrylate adhesives, Hot melt adhesives, pressure sensitive adhesives, RTV Silicone adhesives, sealants, water based adhesives.",
+    "2": "Specialty adhesives, adhesives in aerospace, adhesive in automobile industry, conductive adhesives, adhesives in building construction, adhesive in electrical industry. Joint design, stress, types of joints, selection of joint detail, joint criteria, surface preparation of adherend ‐metals, plastics and rubbers. Adhesive bonding process‐ methods for adhesives application and bonding equipment, testing and quality control.",
+    "3": "Introduction to surface coatings Components of paints. Pigments, pigment properties, different types, extenders, solvents, oils, driers, diluents, lacquers, varnishes, paint preparation, formulation, factors affecting pigment dispersion, preparation of pigment dispersion.",
+    "4": "Different types of paints classification based on polymeric resin, emulsion, oil and alkyd paints, acrylic paints, epoxy coatings, polyurethane, silicones, chlorinated rubbers. Classification based on application, fluro polymers, vinyl resins, appliance furnishes, automotive finishes, coil coatings, can coatings, marine coatings, aircraft coatings. Surface preparation and paint application.",
+    "5": "Paint properties and their evaluation, mechanism of film formation, factors affecting coating properties, methods used for film preparation, barrier properties, optical properties, ageing properties, rheological properties and adhesion properties of coatings."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand various adhesives and their specific applications",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand various concepts of speciality and their applications",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge of surface coatings and their uses",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Acquire knowledge about various types of paints",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge of various aspects of paint properties and their evaluation",
+     "kl": "K2"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Handbook of Adhesives – Skeist, Irvind, Van Nistrand, New York, 1990, 3rd Edition Gerald L. Schreberger, Adhesive in manufacturing, Marcel Dekker Inc., New York, 1983"
+    },
+    {
+     "no": 2,
+     "book": "W.C. Wake, Adhesion and the formulation of adhesives. Applied Science Publishers, London, 1976"
+    },
+    {
+     "no": 3,
+     "book": "Swaraj Paul, Surface Coatings, John Wiley & Sons, NY, 1985."
+    },
+    {
+     "no": 4,
+     "book": "George Mathews, Polymer Mixing Technology, Applied Science Publishers. Sheilds, Hand book of adhesives, Butterworths, 1984."
+    }
+   ],
+   "quirks": [
+    "Content table (p.2) prints 'Adhesives & Surface Coating'; subject page (p.43) prints 'Adhesives And Surface Coatings'.",
+    "No Text Books section printed; only References (4 entries) — printed-blank.",
+    "CO-2 prints 'Understand various concepts of speciality and their applications' (object noun missing) as printed.",
+    "Units I, II, IV have no topic-title line — body starts directly; Unit III heading 'Introduction to surface coatings'.",
+    "Reference 1 jams two works and prints 'Irvind' (Irving Skeist), 'Van Nistrand' (Van Nostrand), 'Schreberger' (Schreiber); Reference 4 prints 'Sheilds' (Shields) — all kept verbatim.",
+    "Unit IV prints 'fluro polymers' (fluoro) as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Fibre Technology",
+   "name_print": "Fibre Technology",
+   "codes": [
+    "BPE064"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "marks_print": "3 0 0 | 20 10 30 | TE 70 | Total 100 | Credit 3",
+   "subject_type": "Elective III",
+   "units": {
+    "1": "Criteria for fibre forming Polymers Development of synthetic ‐ commercial synthetic fibres, Raw materials manufacture. DMT, TPA, MEG, Caprolactum, Adipic acid, Hexamethylene Diamine, Acrylonitrile, Polymerisation ‐ types of polymers ‐ criteria for fibre forming polymers ‐ production of polyethylene terephthalate polymer ‐polyamides ‐ production of Nylon 66 polymer, Nylon 6 polymer.",
+    "2": "Fibre Production Methods Production of acrylic fibres ‐ polypropylene ‐ production of other fibres ‐ PVC fibres ‐ PVA fibres Aramid fibres ‐ Melt spinning ‐ Polymer feed ‐ melt spinning equipment ‐ high speed spinning ‐ spin draw processes ‐ crystallization method ‐ melt spinning of PET & PP stable fibres ‐ wet and dry spinning comparison. Spin finishes ‐ functions of spin finish ‐ methods of application of spin finish ‐ spin finish for polyester staple fibres ‐ spin finish for texturing process ‐ effect of spin finish on dyeing.",
+    "3": "Fibre Drawing Processes Stretching or drawing ‐ conditions of drawing ‐ machines for draw warping ‐ texturing ‐false twist process ‐ draw texturing‐ staple fibre production, melt spinning ‐ drawing, heat setting ‐ crimping in fibre line ‐ production of melt spin staple fibre ‐ polyester tops for wool blending ‐ Mass coloration and tow dyeing of polyester, nylon, acrylic ‐polypropylene ‐ dyeing in loose fibre and yarn forms of polyester, nylon, acrylic, PP, other synthetic fibres ‐ loose fibre dyeing.",
+    "4": "Modified Synthetic Fibres Modified synthetic fibres ‐ modified polyester, Nylon, PP, acrylics ‐ Hydrophilic ‐Hollow –Low pilling ‐ flame retardant‐ bicomponent fibres ‐ Dyeability of synthetic fibres",
+    "5": "Testing of Yarn and Fibres Quality control ‐ testing raw material ‐ testing polymers ‐ testing yarns & fibres ‐ waste utilisation of polyester ‐ Nylon 6, 66 ‐ acrylics ‐ PP‐ Energy conservation ‐ pollution control."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand about various aspects of fibres",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand various methods of fibre production",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand different processes of formation of fibres",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Acquire knowledge of various aspects of modified synthetic fibres",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge for testing and quality control of fibres",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A. A. Vaidya, Production of synthetic fibres, Prentice Hall of India Pvt. Ltd., New Delhi, 1988."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Fourne, Franz, “Synthetic Fibres, Machines and Equipment, Manufacture, Properties”, Hanser Publishers, 1999."
+    },
+    {
+     "no": 2,
+     "book": "Corbman Bernard P., “Textiles: fibre to fabric”, Sixth Edition, McGraw Hill, 1983."
+    }
+   ],
+   "quirks": [
+    "Books header prints singular 'Text Book: ‐' with single entry (all other subjects print 'Text Books :‐').",
+    "Units print dash-separated run-on chains with inconsistent spacing ('polymer ‐polyamides', 'texturing ‐false twist', 'Hydrophilic ‐Hollow –Low pilling ‐ flame retardant‐ bicomponent', 'PP‐ Energy conservation') as printed.",
+    "Unit 2 prints 'stable fibres' (staple) and 'Caprolactum' (Caprolactam) as printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mini Project or Internship Assessment*",
+   "name_print": "Mini Project or Internship Assessment*",
+   "codes": [
+    "BPE554"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 100,
+    "total": 100
+   },
+   "marks_print": "0 0 2 | CT/TA/Total blank | PS 100 | Total 100 | Credit 1",
+   "subject_type": null,
+   "units": {},
+   "cos": [],
+   "quirks": [
+    "Scheme-only subject: printed in Semester-V evaluation scheme (p.3, row 9) with code BPE554 but has NO syllabus page in this document and is absent from the p.2 content table; no departmental-component label printed.",
+    "Name carries a trailing asterisk 'Mini Project or Internship Assessment*' but no footnote explaining the asterisk is printed anywhere in the document.",
+    "Evaluation prints only PS 100 (TE/PE blank), Total 100, Credit 1 — as printed."
+   ],
+   "flags": [
+    "scheme-only-subject-no-syllabus"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "evaluation_scheme_semester_V",
+   "print": "B. Tech Plastic Engineering Evaluation Scheme SEMESTER‐V — S.No | Subject codes | Subject | L T P | CT TA Total | PS | TE | PE | End Semester | Total | Credit: 1 BPE501 Plastic Materials‐II 3 1 0 20 10 30 70 100 4; 2 BPE502 Plastic Processing‐II 3 1 0 20 10 30 70 100 4; 3 BPE503 Testing & Quality Control of Plastics 3 1 0 20 10 30 70 100 4; 4 BPE051-BPE054 Departmental Elective‐I 3 0 0 20 10 30 70 100 3; 5 BPE055-BPE058 Departmental Elective‐II 3 0 0 20 10 30 70 100 3; 6 BPE551 Plastic Material Testing lab 0 0 2 — — — 50 — 50 100 1; 7 BPE552 Plastic Product Testing Lab 0 0 2 — — — 50 — 50 100 1; 8 BPE553 Plastic Product & Mould Design Lab 0 0 2 — — — 50 — 50 100 1; 9 BPE554 Mini Project or Internship Assessment* 0 0 2 — — — 100 — — 100 1; 10 BNC501/BNC502 Constitution of India / Essence of Indian Traditional Knowledge 2 0 0 20 10 30 — 70 — 100 (credit blank); 11 MOOCs (Essential for Hons. Degree) [all cells blank]; Total 17 3 8 — 1000 22",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.3"
+  },
+  {
+   "kind": "evaluation_scheme_semester_VI",
+   "print": "SEMESTER‐VI — 1 BPE601 Advanced Processing Techniques 3 1 0 20 10 30 70 100 4; 2 BPE602 Additives & Compounding 3 1 0 20 10 30 70 100 4; 3 BPE603 Mould & Die Manufacturing 3 1 0 20 10 30 70 100 4; 4 BPE061-BPE064 Departmental Elective‐III 3 0 0 20 10 30 70 100 3; 5 [no code] Open Elective‐I 3 0 0 20 10 30 70 100 3; 6 BPE651 Polymer Characterization Lab 0 0 2 50 — 50 100 1; 7 BPE652 Mould & Die Manufacturing Lab 0 0 2 — — — 50 — 50 100 1; 8 BPE653 Additives & Compounding Lab 0 0 2 50 — 50 100 1; 9 BNC601/BNC602 Constitution of India / Essence of Indian Traditional Knowledge 2 0 0 20 10 30 — 70 — 100 (credit blank); 10 MOOCs (Essential for Hons. Degree) [all cells blank]; Total 17 3 6 — 900 21",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 pp.3-4"
+  },
+  {
+   "kind": "nc_course_row",
+   "print": "10 BNC501/ BNC502 Constitution of India / Essence of Indian Traditional Knowledge — 2 0 0 20 10 30 — 70 — 100 — (credit cell blank; non-credit NC course, no syllabus pages in this document)",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.3"
+  },
+  {
+   "kind": "nc_course_row",
+   "print": "9 BNC601/ BNC602 Constitution of India / Essence of Indian Traditional Knowledge — 2 0 0 20 10 30 — 70 — 100 — (credit cell blank; non-credit NC course, no syllabus pages in this document)",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.4"
+  },
+  {
+   "kind": "moocs_row",
+   "print": "11 MOOCs (Essential for Hons. Degree) — row printed with all evaluation cells blank",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.3"
+  },
+  {
+   "kind": "moocs_row",
+   "print": "10 MOOCs (Essential for Hons. Degree) — row printed with all evaluation cells blank",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.4"
+  },
+  {
+   "kind": "open_elective_slot",
+   "print": "5 [no code printed] Open Elective‐I — 3 0 0 20 10 30 — 70 — 100 3 (OE slot with no code or subject name printed in this document)",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.3"
+  },
+  {
+   "kind": "elective_pool_table",
+   "print": "Plastic Engineering Departmental Electives — Students can choose any elective horizontally from the pool of electives. Specialization ‐1 / ‐2 / ‐3 / ‐4: Sem V Code BPE051 Plastic Product & Mould Design, BPE052 Polymer degradation & stabilization, BPE053 Plastic Packaging Technology, BPE054 Polyurethane Technology (Departmental Elective‐I); Sem V Code BPE055 Plastics Waste Management And Recycling Techniques, BPE056 Heat & Mass Transfer, BPE057 Special Processes & Techniques, BPE058 Physical Chemistry of Polymers (Departmental Elective‐II); Sem VI Code BPE061 Analysis and Characterisation of Polymers, BPE062 Speciality Polymers, BPE063 Adhesives & Surface Coating, BPE064 Fibre Technology (Departmental Elective‐III)",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.4"
+  },
+  {
+   "kind": "toc_table",
+   "print": "Syllabus Content of B. Tech Plastic Engineering — S.No | Code | Departmental Component | Subject Name | L T P | Credits | Page No. (rows 2-25 list BPE501..BPE064 with components Core/Lab/Elective I/II/III; row 1 'Third Year Evaluation Scheme (V & VI Semester) 03'; note line 'Departmental Electives from Fifth to Seventh Semester 04' although only V/VI electives are detailed in this document)",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.2"
+  },
+  {
+   "kind": "cover_page",
+   "print": "DR. A. P. J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW, UTTAR PRADESH — STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH. 3rd YEAR PLASTIC ENGINEERING [Effective from Session: 2024‐25]",
+   "locator": "repo_asleep/PDFs/5-course/2024-25/btech_plastic_y3_syllabus_2024-25.pdf#765c83575ea56515 p.1"
+  }
+ ],
+ "quirks": [
+  "Running header/footer furniture on all 46 pages ('PLASTIC ENGINEERING', 'Curriculum & Evaluation Scheme V & VI Semester', 'Page N') ignored per task method; document itself prints no university boilerplate beyond these.",
+  "Hyphen character throughout is U+2010 non-breaking hyphen (e.g. '2024‐25', 'CO‐1', 'BPE051-'); transcriptions preserve it.",
+  "Code-prefix summary: all 25 printed subject codes are BPE-prefixed (BPE5xx cores/labs, BPEx5x electives sem V, BPE6xx/BPE65x sem VI, BPE06x electives sem VI); BNC501/BNC601-602 NC rows and MOOCs rows carry no syllabus; Sem VI Open Elective‐I slot prints no code.",
+  "Scheme table column alignment: lab rows leave CT/TA/Total cells blank and carry PS 50 + TE 50; BPE554 carries PS 100 only; BNC rows leave credit cell blank (semester credit totals 22/21 confirm zero BNC credit).",
+  "Evaluation scheme Sem VI lab rows for BPE651/BPE653 print '50 — 50 100' with the 50 under PS directly after '0 0 2' while BPE652 shows blanks — same PS 50 / TE 50 pattern for all three labs.",
+  "Subject name variants between p.2 content table / p.4 electives table / subject pages recorded in per-subject quirks (Materials II vs Materials‐II; Degradation And Stabilisation vs degradation & stabilization; Heat and Mass Transfer vs Heat & Mass Transfer (Same as KME 501); Adhesives & Surface Coating vs Adhesives And Surface Coatings; Analysis and Characterisation vs Analysis And Characterization).",
+  "Elective pools print code ranges in scheme (BPE051-BPE054, BPE055-BPE058, BPE061-BPE064) — ranges live only in scheme rows, not attached to individual subjects."
+ ],
+ "flags": [
+  "BPE056 Heat & Mass Transfer prints '(Same as KME 501)' — identical syllabus shared with Mechanical Engineering KME501; cross-branch note, same course (BTech), no cross-course issue.",
+  "BPE554 Mini Project or Internship Assessment* included as scheme-only subject (no syllabus detail printed) to avoid a subject GAP; adjudicate at merge.",
+  "Open Elective‐I (Sem VI) and MOOCs rows are OE/NC slots with no codes printed in this document — left as non_subject_rows."
+ ]
+}

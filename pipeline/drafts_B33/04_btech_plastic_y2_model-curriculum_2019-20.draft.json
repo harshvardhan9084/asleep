@@ -1,0 +1,1173 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_plastic_y2_model-curriculum_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "dc50e72083d2b628",
+ "stem": "04_btech_plastic_y2_model-curriculum_2019-20",
+ "locator": "pp.1-16 (cover p.1; scheme tables p.2; detailed syllabus pp.3-16)",
+ "subjects": [
+  {
+   "name": "Thermodynamics of Polymers",
+   "name_print": "THERMODYNAMICS OF POLYMERS",
+   "codes": [
+    "KPE301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Fundamental concepts and definitions, Temperature and zeroth law of thermodynamics, Equation of states, P-V-T- relationships and application, First law of thermodynamics: Application of first law to different processes in close and open systems, Limitations of first law.",
+    "2": "Second law of thermodynamics, entropy concept, entropy and lost work calculations, Microscopic interpretation of entropy, Mathematical statement of second law, Carnot cycle for an ideal gas, Refrigeration cycle, criterion of irreversibility, Third law of thermodynamics and its applications, free energy functions and their significance.",
+    "3": "Constitution and Architecture of Polymers. Glassy, Crystalline and Molten States of Polymers: Thermodynamics of Melting of Polymers, Kinetics of Crystallization (Avram Equation), Thermodynamics of Glass Transition, Free Volume theory.",
+    "4": "Polymer Chain Conformations: Random flight model for polymer, The Gaussian Chain, Chain Conformation under an External Field, Excluded Volume Effect and Theta Condition, Rotational Isomeric States. Mechanical Behavior of Polymers: Rubber Elasticity, Network Model. Viscosity of Polymer Solutions.",
+    "5": "Thermodynamics of Polymers Solutions: Dilute, Semi dilute and Concentrated Solutions, Flory-Huggins Theory, Phase Equilibria in Polymer Solutions, Critical Fluctuations and Spinodal Decomposition Osmotic Pressure- MW Measurement, Zima Diagram - MW Measurement, Viscosity of Dilute Solution - MW Measurement, Screening Effect."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "After completion of this subject student is able to learn polymer features in thermodynamics."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Introduction to Chemical Engineering Thermodynamics / J.M. Smith, H.C. Van Ness, M.M. Abbott / 7th Ed / McGraw Hill."
+    },
+    {
+     "no": 2,
+     "book": "Chemical Engineering Thermodynamics/ Rao/ University Press."
+    },
+    {
+     "no": 3,
+     "book": "A Textbook of Chemical Engineering Thermodynamics/ K.V. Narayanan/ Prentice – Hall of India Pvt. Ltd."
+    },
+    {
+     "no": 4,
+     "book": "Polymer Chemistry, 2/e, P. C. Hiemenz and T. P. Lodge, CRC Press, Boca Raton, 2007."
+    },
+    {
+     "no": 5,
+     "book": "Essentials of Polymer Science and Engineering, Mike Coleman and Paul Painter, DesTech Publications, 2008."
+    },
+    {
+     "no": 6,
+     "book": "Introduction to polymer science and chemistry: a problem solving approach, Manas Chanda, CRC/Taylor and Francis, Boca Raton, 2006."
+    }
+   ],
+   "objectives_print": [
+    "To familiarize the students with concepts of basic thermodynamics and polymer systems."
+   ],
+   "scheme_row_print": "3 KPE301 Thermodynamics of Polymers 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 pp.3-4 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Books printed under a single combined heading 'Books and References:' (p.4) — no textbook/reference split printed; list recorded in reference_books.",
+    "Course Outcomes printed as a single prose paragraph (p.3); no numbered CO list, no K-levels printed.",
+    "Unit-III prints 'Avram Equation' (cf. Avrami); Unit-V prints 'Semi dilute', 'Zima Diagram' (cf. Zimm) and 'Spinodal Decomposition Osmotic Pressure- MW Measurement' with no punctuation between 'Decomposition' and 'Osmotic' — all kept verbatim.",
+    "Unit texts span p.3; the books list continues alone on p.4."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Rheology of Polymers",
+   "name_print": "RHEOLOGY OF POLYMERS",
+   "codes": [
+    "KPE302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Units and dimensions-Properties of fluids-mass density, specific weight, specific volume, specific gravity, viscosity, surface tension and capillarity-Terminologies of fluid flow-Laminar and turbulent flow of Newtonian fluids-Power law-Reynolds number and its significance.",
+    "2": "Introduction to polymer rheology, Newtonian and non-Newtonian fluids, shear stress, shear strain and shear rate, shear modulus, bulk modulus, Zero shear viscosity, Dependence of viscosity with temperature, shear stress, Viscoelasticity - effect of rate of strain, temperature and time on mechanical behavior of polymeric materials.",
+    "3": "Measurement of viscosity and normal stresses. Dynamic flow behavior, time dependent fluid responses. Capillary rheometers, cone and plate viscometer, parallel-plate rheometer, oscillating disc rheometer, Mooney viscometer. Rheology of modified polymer systems.",
+    "4": "Rheology of polymeric liquids: polymer chain conformation, zero shear viscosity, rheology of dilute polymer solutions, entanglement, effect of long chain branching, effect of molecular weight distribution. Measurements of rheological properties.",
+    "5": "Rheology in polymer processing operations: Calendaring and two roll mill, Twin screw extruders, Blow molding, Wire coating, Thermoforming, Sheet extrusion, Internal mixers, Rubber extrusion."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "On completion of the course, students will understand the basics of fluid mechanics and Rheology. Will be able to analyses the rheological properties of polymer systems using rheometers."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Rheology: Concepts, Methods, and Applications/ A.Y. Malkin, A.I. Isayev/ ChemTec Publishing."
+    },
+    {
+     "no": 2,
+     "book": "Rheology and Processing of Polymeric Materials Vol. 1/ Oxford University Press."
+    },
+    {
+     "no": 3,
+     "book": "Melt Rheology and its Role in Plastic Processing: Theory and applications/ Dealy&Wissbrun/ Chappman and Hall."
+    },
+    {
+     "no": 4,
+     "book": "Vishu shah “Plastics testing technology hand book”."
+    }
+   ],
+   "objectives_print": [
+    "To familiarize the students with the basics of polymer deformation and flow properties."
+   ],
+   "scheme_row_print": "4 KPE302 Rheology of Polymers 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 pp.5-6 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Books printed under a single combined heading 'Books and References:' — no textbook/reference split printed; list recorded in reference_books; items 1-2 print on p.5, items 3-4 continue on p.6.",
+    "Course Outcomes printed as a single prose paragraph; no numbered CO list, no K-levels printed; CO prints 'Will be able to analyses' — kept verbatim.",
+    "Reference 3 prints 'Dealy&Wissbrun' (no spaces) and 'Chappman and Hall' (cf. Chapman); reference 4 prints 'Vishu shah “Plastics testing technology hand book”' (lowercase surname; no trailing period) — kept verbatim.",
+    "UNIT-III label is printed directly after Unit-II text with no blank line (p.5) — layout artifact, units transcribed separately."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Fundamentals of Polymer Science",
+   "name_print": "FUNDAMENTALS OF POLYMER SCIENCE",
+   "codes": [
+    "KPE303"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "History of polymer science, Classification of Polymers, Functionality and structure ofpolymers, Physical properties and characterization of polymers, effect of structure onproperties of polymers, Inorganic polymers. Concept of macromolecules. Stereochemistry ofpolymers.",
+    "2": "Introduction, Chain & step growth polymerization, Polymerization techniques, Kinetics ofPolymerization (Free radical, Cationic, Anionic polymerization, Polycondensation).",
+    "3": "Molecular weight, Number average and weight average molecular weight, Sedimentation andViscosity average molecular weight, Molecular weight and degree of polymerization,Polydispersity, Size of polymer molecules.",
+    "4": "Glass transition temperature, Transitions, significance and factors influencing the Tg. Effectof Plasticizers on Tg. Glass transition of copolymers.Morphology and order of Polymers, Crystallinity in polymers, Degree of crystallinity andPolymer crystallization.Effect of crystallinity on properties of Polymers.",
+    "5": "Polymer degradation and stability.Types of degradation.Mechanism of degradation.Factorsaffecting degradation.Polymer solutions.Process of dissolution of polymers.Thermodynamics of Dissolution.Flory-Huggins Theory, Viscosity of Polymeric solutions."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "On completion of the course, students will understand the basic fundamentals of polymer."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Plastics Material, Brydson, J.A"
+    },
+    {
+     "no": 2,
+     "book": "Text Book of Polymer Science, Billmeyer, Fred W."
+    },
+    {
+     "no": 3,
+     "book": "Principles of Polymer Systems By Ferdinand Rodriguez"
+    },
+    {
+     "no": 4,
+     "book": "Principles of Polymer Chemistry By A. Ravve"
+    },
+    {
+     "no": 5,
+     "book": "Introduction of Polymer Science By Hans-Georg Elias"
+    },
+    {
+     "no": 6,
+     "book": "Polymer Science & Technology By Joel R. Fried."
+    },
+    {
+     "no": 7,
+     "book": "Polymer Science ByGowariker V R, Vishwanathan NV, JayadevSreedhar."
+    }
+   ],
+   "objectives_print": [
+    "To familiarize the students about the fundamental theories of polymer science."
+   ],
+   "scheme_row_print": "5 KPE303 Fundamental of Polymer Science 3 0 0 30 20 50  100  150 3 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.7 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Name variant: scheme table (p.2) prints 'Fundamental of Polymer Science'; detailed heading (p.7) prints 'FUNDAMENTALS OF POLYMER SCIENCE' — both transcribed.",
+    "Books printed under a single combined heading 'Books and References:' — no textbook/reference split printed; list recorded in reference_books.",
+    "Course Outcomes printed as a single prose paragraph; no numbered CO list, no K-levels printed.",
+    "Missing-space prints kept verbatim (verified as single words in the PDF word layer): 'ofpolymers' (x2), 'onproperties', 'ofPolymerization', 'andViscosity', 'polymerization,Polydispersity', 'Effectof', 'copolymers.Morphology', 'andPolymer', 'crystallization.Effect', 'degradation.Factorsaffecting'; reference 7 prints 'ByGowariker' and 'JayadevSreedhar'.",
+    "Books 1, 3, 4 and 5 print no trailing period; book 1 prints 'Plastics Material, Brydson, J.A' — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Material Testing Lab",
+   "name_print": "MATERIAL TESTING LAB",
+   "codes": [
+    "KME352"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Strength test of a given mild steel specimen on UTM with full details and stress versus strain plot on the machine."
+    },
+    {
+     "no": 2,
+     "exp": "Other tests such as shear, bend tests on UTM."
+    },
+    {
+     "no": 3,
+     "exp": "Impact test on impact testing machine like Charpy, Izod or both."
+    },
+    {
+     "no": 4,
+     "exp": "Hardness test of given specimen using Rockwell and Vickers/Brinell testing machines."
+    },
+    {
+     "no": 5,
+     "exp": "Spring index test on spring testing machine."
+    },
+    {
+     "no": 6,
+     "exp": "Fatigue test on fatigue testing machine."
+    },
+    {
+     "no": 7,
+     "exp": "Creep test on creep testing machine."
+    },
+    {
+     "no": 8,
+     "exp": "Experiment on deflection of beam, comparison of actual measurement of deflection with dial gauge to the calculated one, and or evaluation of young’s modulus of beam."
+    },
+    {
+     "no": 9,
+     "exp": "Torsion test of a rod using torsion testing machine."
+    },
+    {
+     "no": 10,
+     "exp": "Study of NDT (non-destructive testing) methods like magnetic flaw detector, ultrasonic flaw detector, eddy current testing machine, dye penetrant tests."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "The students who have undergone the course will be able to measure various properties of materials."
+    }
+   ],
+   "objectives_print": [
+    "To understand the principles and performance characteristics different materials.",
+    "To know about material properties."
+   ],
+   "scheme_row_print": "6 KME352 Material Testing Lab 0 0 2   25  25 50 1 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.8 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Code prefix KME (Mechanical Engineering series) printed in the Plastics Engineering scheme — kept verbatim.",
+    "Objectives printed as two bullet items (bullet glyphs render as private-use char 0xF0B7 in the text layer); objective 1 prints 'performance characteristics different materials' (no 'of') — kept verbatim.",
+    "Experiment-list header prints 'List of Experiments: (At least 8 of the following)'.",
+    "Experiment 8 prints 'young’s modulus' (lowercase y) and 'and or evaluation'; experiment 10's number is printed glued to its first word ('10.Study') — kept verbatim.",
+    "Course Outcomes printed as a single prose paragraph; no numbered CO list, no K-levels printed; no books printed for this lab."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Rheology of Polymers Lab",
+   "name_print": "RHEOLOGY OF POLYMERS LAB",
+   "codes": [
+    "KPE352"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Determination of viscosity of various thermoset and thermoplastic polymers by Brookfield viscometer."
+    },
+    {
+     "no": 2,
+     "exp": "Determination of “gel time” of various adhesives and polymers by Gelation Timer."
+    },
+    {
+     "no": 3,
+     "exp": "Determination of viscosity of PVC polymers by Ostwald viscometer."
+    },
+    {
+     "no": 4,
+     "exp": "To determine the viscoelastic properties of the given samples."
+    },
+    {
+     "no": 5,
+     "exp": "To determine the resistance to peel from a given samples."
+    },
+    {
+     "no": 6,
+     "exp": "Determination of molecular weight by viscosity."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of rheology of Thixotropic polymers by Couette Viscometers."
+    },
+    {
+     "no": 8,
+     "exp": "Determination of rheology of Dilatants/Shear Thickening polymers by Couette Viscometers."
+    },
+    {
+     "no": 9,
+     "exp": "To determine the Viscosity Index of a given samples."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "The students who have undergone the course will be able to measure various rheological properties of polymer systems."
+    }
+   ],
+   "objectives_print": [
+    "To understand the polymer rheology",
+    "Determination of viscosity and related properties of polymer fluids."
+   ],
+   "scheme_row_print": "7 KPE352 Polymer Rheology Lab 0 0 2   25  25 50 1 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.9 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Name variant: scheme table (p.2) prints 'Polymer Rheology Lab'; detailed heading (p.9) prints 'RHEOLOGY OF POLYMERS LAB' — both transcribed.",
+    "Experiment-list header prints 'List of Experiments:(At least 8 experiments)' (no space before the parenthesis) — kept verbatim.",
+    "Objectives printed as two bullet items (bullet glyphs render as private-use char 0xF0B7 in the text layer); objective 1 prints with no trailing period; experiments 5 and 9 print 'a given samples' — kept verbatim.",
+    "Course Outcomes printed as a single prose paragraph; no numbered CO list, no K-levels printed; no books printed for this lab."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Identification of Polymers Lab",
+   "name_print": "IDENTIFICATION OF POLYMERS LAB",
+   "codes": [
+    "KPE353"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Identification of unknown polymer using heating, burning, solubility."
+    },
+    {
+     "no": 2,
+     "exp": "Confirmatory chemical tests for Identification of unknown polymer ."
+    },
+    {
+     "no": 3,
+     "exp": "Quantitative estimation of the basic raw materials and auxiliaries used in polymer such as phenol, urea, formaldehyde."
+    },
+    {
+     "no": 4,
+     "exp": "Quantitative estimation of the basic raw materials and auxiliaries used in polymer such as glycerol, plasticizer's initiators."
+    },
+    {
+     "no": 5,
+     "exp": "Quantitative estimation of the basic raw materials and auxiliaries used in polymer industries such as antioxidants, etc"
+    },
+    {
+     "no": 6,
+     "exp": "Determination of purity of solvents, monomers and other auxiliaries."
+    },
+    {
+     "no": 7,
+     "exp": "Determination of physical properties - boiling point using standards techniques."
+    },
+    {
+     "no": 8,
+     "exp": "Determination of physical properties - melting point."
+    },
+    {
+     "no": 9,
+     "exp": "Determination of physical properties - refractive index."
+    },
+    {
+     "no": 10,
+     "exp": "Determination of physical properties - specific gravity of polymer materials ."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "The students will be able to identify and determine the physical properties of different polymers."
+    }
+   ],
+   "objectives_print": [
+    "To understand the basics of polymer identification"
+   ],
+   "scheme_row_print": "8 KPE353 Identification of Polymers Lab 0 0 2   25  25 50 1 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.10 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Experiment-list header prints 'Minimum eight experiments out of the following:'.",
+    "Experiments 2 and 10 print a space before the full stop ('polymer .' / 'materials .'); experiment 10's trailing period is printed on its own line after 'materials' — kept verbatim.",
+    "Experiment 4 prints 'plasticizer's initiators'; experiment 5 ends without a period ('antioxidants, etc'); experiment 7 prints 'standards techniques' — kept verbatim.",
+    "Objectives prints with no trailing period; Course Outcomes printed as a single prose paragraph (no numbered CO list, no K-levels); no books printed for this lab."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastics Materials-I",
+   "name_print": "PLASTICS MATERIALS –I",
+   "codes": [
+    "KPE401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Polymers, Definition and Classification of Plastics – General properties, Thermoplastics, Thermosetting, Engineering &High-performance plastics. Structure of Plastics: Molecules – Crystallinity – Effect of Crystallinity on properties – crosslinked plastics – Determination of Molecular weight – Effect of Molecular weight on processing and properties– Molecular weight distribution. Linear, Branched and cross linked structures in polymers. Glass transition temperature (Tg).",
+    "2": "Introduction- Sources and manufacture of raw materials- basic chemistry- Methods of manufacture-Flow behavior- General properties and applications of Olefin Polymer and Co-polymers Vinyl chloride polymers and co-polymers.",
+    "3": "Introduction – Sources and manufacture of raw materials –basic chemistry – Methods of manufacture–Flow behavior – General properties and applications of Styrene and Styrene co-polymers PMMA.Cellulose polymers.",
+    "4": "Introduction- Sources and manufacture of raw materials- basic chemistry- Methods of manufacture-Flow behavior- General properties and applications of Epoxy Plastics, Polyurethane (PU), Silicones.",
+    "5": "Bio degradable and Bio Plastics, Principle and Mechanism of Plastics degradation, Natural Bio-degradable Polymers – Synthetic Biodegradable Polymers – Water soluble Polymers. Bio plastics types, properties and applications."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion of the course, the students will have the knowledge of manufacturing, properties and applications of variety of plastics."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Brydson, J.A “Plastics Material”."
+    },
+    {
+     "no": 2,
+     "book": "Schwartz & good man “Plastics materials and processing”."
+    },
+    {
+     "no": 3,
+     "book": "Irwin rubin “Hand book of Plastic Materials and Technology."
+    }
+   ],
+   "objectives_print": [
+    "To enable the students, understand the preparation properties and applications of different classes of polymers."
+   ],
+   "scheme_row_print": "3 KPE401 Plastics Materials-I 3 0 0 30 20 50  100  150 3 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 pp.11-12 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Heading (p.11) prints 'PLASTICS MATERIALS –I' (en dash before I, with leading whitespace run on the L-T-P line); scheme row prints 'Plastics Materials-I' — both transcribed.",
+    "Objectives print 'To enable the students, understand' (comma splice) — kept verbatim; CO label prints lowercase 'Course outcomes:' (other subjects print 'Course Outcomes:').",
+    "Unit-I prints 'Engineering &High-performance' (glued &) and 'properties– Molecular' (glued en dash); Unit-II prints 'Co-polymers Vinyl chloride polymers' with no comma between the phrases; Unit-III prints 'PMMA.Cellulose' glued — kept verbatim.",
+    "Reference 2 prints 'Schwartz & good man'; reference 3 prints 'Irwin rubin' with an unbalanced closing quote — kept verbatim.",
+    "Books printed under a single combined heading 'Books and References:' (p.12) — no textbook/reference split printed; list recorded in reference_books; COs as a single prose paragraph, no K-levels printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastics Processing-I",
+   "name_print": "PLASTICS PROCESSING-I",
+   "codes": [
+    "KPE402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to polymer processing – Plastics processing techniques.General description of extrusion processes, type of extruders, screw and their output in terms ofdrag, leakage and pressure flow, influence of screw dimensions and output, die and screwcharacteristics. Design of barrel and screw for commodity, heat sensitive and engineeringpolymers.Barrier Screws.",
+    "2": "Individual extrusion systems, Dies, Sizing and Downstream equipments, Faults, Causes and Remedies for film, pipe, lamination, profiles, cables, sheet, Box Strapping.",
+    "3": "Twin-screw extrusion and Co Extrusion systems. Casting of films. Multi layer systems for Films and Pipe. Faults, causes & remedies.",
+    "4": "General description of Compression and Transfer moulding and its application in processing of thermosetting materials.Faults, Causes & Remedies.",
+    "5": "Calendaring and Milling: Introduction, calendar roll, calendar configuration and operations. Recycling of plastics."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion student will have the knowledge of extrusion process, calendaring, compression and transfer molding."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Berins, “Plastics engineering hand book” - society of the Plastics industry."
+    },
+    {
+     "no": 2,
+     "book": "Allen, WS &baker,pn “Hand book of Plastics technology."
+    },
+    {
+     "no": 3,
+     "book": "Chris Rauwendaal, “Polymer Extrusion” Hanser Publication."
+    },
+    {
+     "no": 4,
+     "book": "Lyesew, A.I “Compression molding”."
+    },
+    {
+     "no": 5,
+     "book": "BOBB “COMPRESSION & TRANSFER THEORY & TNCHNOLOGY”."
+    },
+    {
+     "no": 6,
+     "book": "Harper “Handbook of Plastic Processes” Wiley Interscience."
+    },
+    {
+     "no": 7,
+     "book": "R J Crawford “Plastics Engineering” Butterworths."
+    }
+   ],
+   "objectives_print": [
+    "To impart knowledge of plastics processing to the students."
+   ],
+   "scheme_row_print": "4 KPE402 Plastics Processing-I 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.13 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Books label (p.13) prints 'Books and References' without colon (other pages print 'Books and References:'); combined list, no textbook/reference split printed; recorded in reference_books.",
+    "Missing-space prints kept verbatim (verified in the PDF word layer): 'techniques.General', 'ofdrag,', 'screwcharacteristics.', 'engineeringpolymers.Barrier', 'materials.Faults,'.",
+    "Reference 2 prints 'Allen, WS &baker,pn' with an unbalanced closing quote; reference 4 prints 'Lyesew, A.I'; reference 5 prints 'BOBB' and 'TNCHNOLOGY' (cf. TECHNOLOGY) — kept verbatim.",
+    "Course Outcomes printed as a single prose paragraph; no numbered CO list, no K-levels printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polymerization Engineering",
+   "name_print": "POLYMERIZATION ENGINEERING",
+   "codes": [
+    "KPE403"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Industrial methods of polymerization such as bulk, solution, suspension, emulsion. Layoutand arrangement of polymer plant. Types of polymer production processes and reactors.Safety and plant automation.",
+    "2": "Concept of stereo-chemistry of polymers, stereo-specific polymerization. Catalyst – theirutility in polymer manufacture, Zeigler Natta, Metallocene and other catalyst systems.",
+    "3": "Copolymerization - Mechanism and Kinetics of free radical - Ionic copolymerization - Determination of Monomer reactivity ratios. Polymerization techniques - Bulk polymerization - Solution polymerization - Suspension polymerization - Emulsion polymerization - Interfacial condensation.",
+    "4": "Manufacturing details, properties and applications of various thermosetting resins such asphenol-formaldehyde, urea-formaldehyde and melamine-formaldehyde and preparation ofmolding powders.",
+    "5": "Production technology, properties and application of Polystyrene, Polyvinylchloride, andtheir copolymer grades."
+   },
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion student will have the knowledge of Polymerization techniques."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "J. A. Brydson, \" Polymer Materials \", Butterworth-Heinemann, 1990."
+    },
+    {
+     "no": 2,
+     "book": "Mark &Overberger, \" Encyclopedia of Polymer Science & Tech. \" Wiley-Interscience, 1986."
+    },
+    {
+     "no": 3,
+     "book": "J. Scheries& W. Kaminsky, \" Metallocene based Polymers \", Wiley, 2000."
+    },
+    {
+     "no": 4,
+     "book": "Vasant R. Gowariker, \"Polymer Science \", New Age International, 1986."
+    },
+    {
+     "no": 5,
+     "book": "Christopher C. Ibeh, \" Thermoplastic Materials: Properties, Manufacturing Methods, and Applications \", Taylor and Francis Group, 2011."
+    }
+   ],
+   "objectives_print": [
+    "To impart knowledge of all polymerization techniques."
+   ],
+   "scheme_row_print": "5 KPE403 Polymerization Engineering 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.14 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Books printed under a single combined heading 'Books and References:' — no textbook/reference split printed; list recorded in reference_books.",
+    "Missing-space prints kept verbatim (verified in the PDF word layer): 'Layoutand', 'reactors.Safety', 'theirutility', 'asphenol-', 'ofmolding', 'andtheir'; references 2-3 print 'Mark &Overberger' and 'J. Scheries& W. Kaminsky' (glued ampersands).",
+    "Unit-II prints 'Zeigler Natta' (cf. Ziegler) — kept verbatim.",
+    "Course Outcomes printed as a single prose paragraph; no numbered CO list, no K-levels printed."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Synthesis and Polymerization Lab",
+   "name_print": "SYNTHESIS AND POLYMERIZATION LAB",
+   "codes": [
+    "KPE451"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Synthesis of a polymer by Bulk polymerization Techniques"
+    },
+    {
+     "no": 2,
+     "exp": "Synthesis of a polymer by solution polymerization Techniques"
+    },
+    {
+     "no": 3,
+     "exp": "Synthesis of a polymer by suspension polymerization Techniques"
+    },
+    {
+     "no": 4,
+     "exp": "Synthesis of a polymer by emulsion polymerization Techniques"
+    },
+    {
+     "no": 5,
+     "exp": "Determination of molecular weight by viscosity."
+    },
+    {
+     "no": 6,
+     "exp": "Preparation of phenol formaldehyde resin"
+    },
+    {
+     "no": 7,
+     "exp": "Preparation of urea. formaldehyde resin"
+    },
+    {
+     "no": 8,
+     "exp": "Preparation of unsaturated polyester resin"
+    },
+    {
+     "no": 9,
+     "exp": "Determination of acid value in unsaturated polyester resin"
+    },
+    {
+     "no": 10,
+     "exp": "Preparation of saturated polyester resin"
+    },
+    {
+     "no": 11,
+     "exp": "Determination of acid value in saturated polyester resin"
+    },
+    {
+     "no": 12,
+     "exp": "Synthesis of a copolymer based on any common monomers like styrene, acrylates, maleic anhydride, acrylic acid and methacrylic acid"
+    },
+    {
+     "no": 13,
+     "exp": "Modification of epoxy resin modification of any natural polymer such as cellulose, rosin, naturalrubber, etc."
+    },
+    {
+     "no": 14,
+     "exp": "Depolymerization of waste thermoplastics such as polystyrene or polymethylmethacrylate."
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Upon completion student will have the knowledge of Polymerization & Synthesis techniques."
+    }
+   ],
+   "objectives_print": [
+    "The student will have an understanding of the polymer synthesis by different techniques."
+   ],
+   "scheme_row_print": "6 KPE451 Synthesis and Polymerization Lab 0 0 2   25  25 50 1 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.15 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Experiment-list header prints 'Minimum eight experiments out of the following:'.",
+    "Experiment 7 prints 'Preparation of urea. formaldehyde resin' (period printed instead of a hyphen) — kept verbatim.",
+    "Experiment 13 prints 'Modification of epoxy resin modification of any natural polymer' (repeated 'modification') and 'naturalrubber' glued — kept verbatim; experiments 1-4, 6, 8, 10, 12 print no trailing period.",
+    "Course Outcomes printed as a single prose paragraph; no numbered CO list, no K-levels printed; no books printed for this lab."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastics Processing-I Lab",
+   "name_print": "PLASTICS PROCESSING - I LAB",
+   "codes": [
+    "KPE452"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Extrusion Process – Free sketch of Machine, Study of Parts & their function. Practice on Die setting, Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 2,
+     "exp": "Twin screw extrusion process, Study of Parts & their function. Practice on Die setting, Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 3,
+     "exp": "Compression Moulding or Transfer Moulding Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 4,
+     "exp": "Blow moulding Process – Free sketch of Machine, Study of Parts & their function, Parison die. Practice on Die centering, Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 5,
+     "exp": "Thermoforming (Vacuum forming) Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 6,
+     "exp": "Rotational Moulding Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 7,
+     "exp": "Plastics coating Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 8,
+     "exp": "Plastics Sealing Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 9,
+     "exp": "Plastics welding Process – Free sketch of Machine, Study of Parts & their function. Cycle time analysis, Start up and shut down Procedure."
+    },
+    {
+     "no": 10,
+     "exp": "Calendaring process."
+    },
+    {
+     "no": 11,
+     "exp": "Two –roll mill process."
+    }
+   ],
+   "objectives_print": [
+    "The student will have an understanding of the polymer processing by different processing techniques."
+   ],
+   "scheme_row_print": "7 KPE452 Plastics Processing-I Lab 0 0 2   25  25 50 1 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.16 (detailed syllabus), p.2 (scheme row)",
+   "quirks": [
+    "Heading prints 'PLASTICS PROCESSING - I LAB' (spaced hyphen); scheme row (p.2) prints 'Plastics Processing-I Lab' — both transcribed.",
+    "No 'List of Experiments' header is printed; the 11 numbered experiments follow the Objectives directly.",
+    "No Course Outcomes are printed for this lab (the section ends after experiment 11, followed by the INDUSTRIAL VISIT paragraph) — cos omitted per zero-guessing; no books printed for this lab.",
+    "Experiment 11 prints 'Two –roll mill process' (en dash glued to 'roll') — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Industrial Visit",
+   "name_print": "INDUSTRIAL VISIT",
+   "codes": [
+    "KPE453"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "core",
+   "evaluation_note": "The student will have to visit the plastic processing and testing industries and record their observations in the same semester. The students will be evaluated on the basis of viva and technical report.",
+   "scheme_row_print": "8 KPE453 Industrial visit 0 0 2   25  25 50 1 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.16 (detailed description), p.2 (scheme row)",
+   "quirks": [
+    "Name variant: scheme table (p.2) prints 'Industrial visit' (lowercase v); detailed heading (p.16) prints 'INDUSTRIAL VISIT' — both transcribed.",
+    "No units, COs, objectives or experiment list are printed; p.16 carries a single description/evaluation paragraph (recorded verbatim in evaluation_note) printed directly below the Plastics Processing-I Lab experiment list.",
+    "Course Outcomes not printed — cos omitted per zero-guessing; no books printed.",
+    "p.16 prints a single prose paragraph under the heading INDUSTRIAL VISIT (visit conduct + evaluation basis: viva and technical report) — the subject's entire printed detail; no units/COs/experiments printed anywhere; flagged notes_only_no_units_printed (verifier v17 evidence class) with this page citation."
+   ],
+   "flags": [
+    "notes_only_no_units_printed"
+   ],
+   "notes_print": [
+    "The student will have to visit the plastic processing and testing industries and record their observations in the same semester. The students will be evaluated on the basis of viva and technical report."
+   ]
+  },
+  {
+   "name": "Engg. Science Course/Maths IV",
+   "name_print": "Engg. Science Course/Maths IV",
+   "codes": [
+    "KOE031-38",
+    "KAS302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "scheme_row_print": "1 KOE031-38/KAS302 Engg. Science Course/Maths IV 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.2 (scheme row)",
+   "quirks": [
+    "Scheme-row-only subject: appears only in the Sem-III scheme table (p.2, Sl.No.1); no detailed syllabus, units, COs or books printed anywhere in this document.",
+    "'KOE031-38' is a printed elective-pool range, not a single code; transcribed verbatim from the print 'KOE031- 38/KAS302' (code cell wraps across two lines).",
+    "Scheme ALTERNATIVE-SLOT print ('KOE031-38/KAS302 Engg. Science Course/Maths IV' — slash-separated pair; program structure, not a single subject)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ]
+  },
+  {
+   "name": "Technical Communication/Universal Human Values",
+   "name_print": "Technical Communication/Universal Human Values",
+   "codes": [
+    "KAS301",
+    "KVE401"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "scheme_row_print": "2 KAS301/ KVE401 Technical Communication/Universal Human Values 2 1 0 30 20 50  100  150 3 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.2 (scheme row)",
+   "quirks": [
+    "Scheme-row-only subject: appears only in the Sem-III scheme table (p.2, Sl.No.2); no detailed syllabus, units, COs or books printed anywhere in this document.",
+    "Row prints TWO L-T-P number lines: '2 1 0' (upper line) and '3 0 0' (lower line, aligned with the KVE401 name line) — one printed row carrying both alternatives' period patterns; marks/credit printed once (30/20/50/100/150, credit 3); verified from PyMuPDF word coordinates (y≈166.0 vs y≈181.5).",
+    "Scheme ALTERNATIVE-SLOT print ('KAS301/KVE401 Technical Communication/Universal Human Values' — slash-separated pair; program structure, not a single subject)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ]
+  },
+  {
+   "name": "Mini Project or Internship Assessment*",
+   "name_print": "Mini Project or Internship Assessment*",
+   "codes": [
+    "KPE354"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_total": 50,
+    "total": 50
+   },
+   "scheme_row_print": "9 KPE354 Mini Project or Internship Assessment* 0 0 2   50    50 1 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.2 (scheme row + footnote)",
+   "quirks": [
+    "Scheme-row-only subject: appears only in the Sem-III scheme table (p.2, Sl.No.9); no detailed syllabus, units, COs or books printed anywhere in this document.",
+    "Name carries the asterisk of the printed footnote: '*The Mini Project or internship (3-4 weeks) conducted during summer break after II semester and will be assessed during III semester.' (p.2 bottom).",
+    "Marks: CT/TA/PS/TE/PE printed blank; the two 50s print in the Evaluation-Scheme Total column (x≈407) and the End-Semester Total column (x≈542.5) — recorded sessional_total 50, total 50; Credit 1."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
+  },
+  {
+   "name": "Computer System Security/Python Programming",
+   "name_print": "Computer System Security/Python Programming",
+   "codes": [
+    "KNC301",
+    "KNC302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 0,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50
+   },
+   "scheme_row_print": "10 KNC301/ KNC302 Computer System Security/Python Programming 2 0 0 15 10 25  50     0 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.2 (scheme row)",
+   "quirks": [
+    "Scheme-row-only subject: appears only in the Sem-III scheme table (p.2, Sl.No.10); no detailed syllabus, units, COs or books printed anywhere in this document.",
+    "Credit column prints 0 (non-credit audit slot); End-Semester Total column printed blank — only CT 15/TA 10/Total 25 and TE 50 are printed.",
+    "Combined row printing two alternative courses (KNC301 Computer System Security / KNC302 Python Programming) — slash-separated pair; program structure, not a single subject."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ]
+  },
+  {
+   "name": "Maths IV/ Engg. Science Course",
+   "name_print": "Maths IV/ Engg. Science Course",
+   "codes": [
+    "KAS402",
+    "KOE041-48"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "scheme_row_print": "1 KAS402/ KOE041-48 Maths IV/ Engg. Science Course 3 1 0 30 20 50  100  150 4 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.2 (scheme row)",
+   "quirks": [
+    "Scheme-row-only subject: appears only in the Sem-IV scheme table (p.2, Sl.No.1); no detailed syllabus, units, COs or books printed anywhere in this document.",
+    "'KOE041-48' is a printed elective-pool range, not a single code; transcribed verbatim from the print 'KAS402/ KOE041-48'.",
+    "Scheme ALTERNATIVE-SLOT print ('KAS402/KOE041-48 Maths IV/ Engg. Science Course' — slash-separated pair; program structure, not a single subject; name prints a space after the slash)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ]
+  },
+  {
+   "name": "Universal Human Values/ Technical Communication",
+   "name_print": "Universal Human Values/ Technical Communication",
+   "codes": [
+    "KVE401",
+    "KAS401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "scheme_row_print": "2 KVE401/ KAS401 Universal Human Values/ Technical Communication 3 0 0 30 20 50  100  150 3 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.2 (scheme row)",
+   "quirks": [
+    "Scheme-row-only subject: appears only in the Sem-IV scheme table (p.2, Sl.No.2); no detailed syllabus, units, COs or books printed anywhere in this document.",
+    "Row prints TWO L-T-P number lines: '3 0 0' (upper line) and '2 1 0' (lower line, aligned with the KAS401 name line) — mirror-image of the Sem-III row-2 artifact; marks/credit printed once (30/20/50/100/150, credit 3); verified from PyMuPDF word coordinates (y≈535.2 vs y≈550.7).",
+    "Scheme ALTERNATIVE-SLOT print ('KVE401/KAS401 Universal Human Values/ Technical Communication' — slash-separated pair; program structure, not a single subject; name prints a space after the slash)."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ]
+  },
+  {
+   "name": "Python Programming/Computer System Security",
+   "name_print": "Python Programming/Computer System Security",
+   "codes": [
+    "KNC402",
+    "KNC401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 0,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50
+   },
+   "scheme_row_print": "9 KNC402/ KNC401 Python Programming/Computer System Security 2 0 0 15 10 25  50     0 (p.2)",
+   "source": "04_btech_plastic_y2_model-curriculum_2019-20.pdf#dc50e72083d2b628 p.2 (scheme row)",
+   "quirks": [
+    "Scheme-row-only subject: appears only in the Sem-IV scheme table (p.2, Sl.No.9); no detailed syllabus, units, COs or books printed anywhere in this document.",
+    "Credit column prints 0 (non-credit audit slot); End-Semester Total column printed blank — only CT 15/TA 10/Total 25 and TE 50 are printed; mirrors the Sem-III Sl.No.10 row with the alternative order (KNC402 Python Programming / KNC401 Computer System Security).",
+    "Combined row printing two alternative courses — slash-separated pair; program structure, not a single subject."
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW — STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH 2nd YEAR MECHANICAL ENGINEERING (Plastics Engineering) (EFFECTIVE FROM THE SESSION: 2019-20)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "SEMESTER- III — table header row: Sl. No | Subject Codes | Subject | Periods (L T P) | Evaluation Scheme (CT TA Total) | End Semester (PS TE PE) | Total | Credit",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_non_subject",
+   "print": "11  MOOCs (Essential for Hons. Degree) — all Periods/Evaluation/End-Semester/Total/Credit cells printed blank",
+   "locator": "p.2 Sem-III Sl.No.11"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 950 22 (Semester-III totals: marks 950, credits 22)",
+   "locator": "p.2"
+  },
+  {
+   "kind": "footnote",
+   "print": "*The Mini Project or internship (3-4 weeks) conducted during summer break after II semester and will be assessed during III semester.",
+   "locator": "p.2 bottom (below Sem-III table)"
+  },
+  {
+   "kind": "scheme_header",
+   "print": "SEMESTER- IV — same table header row (no course header line printed above this table)",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row_non_subject",
+   "print": "10  MOOCs (Essential for Hons. Degree) — all Periods/Evaluation/End-Semester/Total/Credit cells printed blank",
+   "locator": "p.2 Sem-IV Sl.No.10"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "Total 900 21 (Semester-IV totals: marks 900, credits 21)",
+   "locator": "p.2"
+  },
+  {
+   "kind": "semester_header",
+   "print": "SEMESTER-III (detailed-syllabus section opener; no course/branch header line printed)",
+   "locator": "p.3"
+  },
+  {
+   "kind": "semester_header",
+   "print": "SEMESTER-IV (detailed-syllabus section opener; no course/branch header line printed)",
+   "locator": "p.11"
+  }
+ ],
+ "quirks": [
+  "Course identity: cover (p.1) prints 'B. TECH 2nd YEAR MECHANICAL ENGINEERING (Plastics Engineering)' (EFFECTIVE FROM THE SESSION: 2019-20) -> canonical course BTech (RULES §1b); branch Plastics Engineering housed under Mechanical Engineering; document covers Semesters III-IV (2nd year).",
+  "Scheme table (p.2) prints TWO L-T-P number lines inside the two alternate-slot rows: Sem-III row 2 (KAS301/KVE401) prints '2 1 0' (upper line) and '3 0 0' (lower line); Sem-IV row 2 (KVE401/KAS401) mirrors it with '3 0 0' (upper) and '2 1 0' (lower) — one printed row carrying both alternatives' period patterns; marks/credit printed once per row. Cell assignment verified from PyMuPDF word coordinates (y≈166.0/181.5 and y≈535.2/550.7).",
+  "Marks-column print pattern: labs print CT/TA/Sessional-Total and TE blank with PS 25 + PE 25 -> Total 50; KPE354 prints its 50 in the Evaluation-Scheme Total column and 50 in the End-Semester Total column (x≈407/x≈542.5); KNC rows print credit 0 with End-Semester Total blank (only CT 15/TA 10/Total 25 + TE 50).",
+  "Printed-glued tokens (missing spaces in the visible print, verified as single words in the PDF word layer — NOT extraction artifacts; kept verbatim): p.7 'structure ofpolymers', 'onproperties', 'Kinetics ofPolymerization', 'andViscosity', 'polymerization,Polydispersity', 'Effectof', 'copolymers.Morphology', 'andPolymer', 'crystallization.Effect', 'degradation.Factorsaffecting', 'ByGowariker', 'JayadevSreedhar'; p.13 'techniques.General', 'ofdrag,', 'screwcharacteristics.', 'engineeringpolymers.Barrier', 'materials.Faults,'; p.14 'Layoutand', 'reactors.Safety', 'theirutility', 'asphenol-', 'ofmolding', 'andtheir'; p.11 'Engineering &High-performance', 'PMMA.Cellulose', 'properties–' (en dash glued).",
+  "Printed typos kept verbatim: p.3 'Avram Equation' (cf. Avrami), 'Zima Diagram' (cf. Zimm), 'Semi dilute'; p.5 CO 'Will be able to analyses'; p.6 'Chappman and Hall', 'Vishu shah', 'hand book'; p.11 'To enable the students, understand'; p.12 'Schwartz & good man', 'Irwin rubin'; p.13 'Allen, WS &baker,pn', 'TNCHNOLOGY' (cf. TECHNOLOGY), 'Lyesew'; p.14 'Zeigler Natta' (cf. Ziegler); p.15 'Preparation of urea. formaldehyde resin', 'naturalrubber'; p.8 'young's modulus' lowercase, experiment number printed glued '10.Study'.",
+  "Every book list in the document prints under a single combined heading 'Books and References:' (p.13 prints it without colon) — no separate Textbooks/Reference-Books split anywhere; lists recorded in reference_books.",
+  "Course Outcomes are printed as single prose paragraphs (no numbered CO list and no K-levels anywhere in this document); recorded verbatim as cos[0].",
+  "No eligibility, no prerequisites, no printed lectures-per-unit, no printed subject-type labels, and no MOOC course details anywhere in the document.",
+  "p.16: 'PLASTICS PROCESSING - I LAB' prints no 'List of Experiments' header (11 numbered experiments follow Objectives directly) and no Course Outcomes; the 'INDUSTRIAL VISIT' section shares the page below the lab's experiment list.",
+  "Scheme-row-only slots (no detailed syllabus printed in this document): KOE031-38/KAS302, KAS301/KVE401, KNC301/KNC302, KAS402/KOE041-48, KVE401/KAS401, KNC402/KNC401, KPE354 — extracted as subjects with scheme_row_only flag per the sibling model-curriculum draft convention (03_btech_it_y2_model-curriculum_2019-20).",
+  "KME352 Material Testing Lab carries a KME (Mechanical Engineering) code inside the Plastics Engineering scheme — kept verbatim.",
+  "Printed code duplication (kept verbatim per print): KVE401 appears in BOTH the Sem-III alternate pair (KAS301/KVE401, Sl.No.2) and the Sem-IV alternate pair (KVE401/KAS401, Sl.No.2) — the scheme itself assigns UHV either semester; KAS401 likewise pairs with it in Sem-IV while KAS301 pairs in Sem-III. Code ownership adjudication is a merge-time decision (G2, per course BTech)."
+ ],
+ "flags": []
+}

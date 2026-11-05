@@ -1,0 +1,454 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2017-18/btech_plastic_y2_scheme-syllabus_2017-18.pdf",
+ "session": "2017-18",
+ "course": "BTech",
+ "sha16": "d18ea6ac8bd95522",
+ "stem": "05_btech_plastic_y2_scheme-syllabus_2017-18",
+ "subjects": [
+  {
+   "name": "Industrial Chemistry",
+   "name_print": "INDUSTRIAL CHEMISTRY",
+   "codes": [
+    "RPL401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "scheme_line_print": "5 | RPL401 | Industrial Chemistry | 3-1-0 | ESE:70 CT:20 TA:10 | Total:100 | Credit:4",
+   "locator": "p.3 (IV-SEMESTER scheme row 5); detailed syllabus p.4",
+   "units": {
+    "1": "Stereoisomerism: Geometrical isomerism with and without chirality, concept of aromaticity directive influence of substitute. Criteria & techniques of purity of compounds. Melting point, Boiling point, recrystallisation, various distillations. Distillation of petroleum, refining of various fraction, Cracking.",
+    "2": "Chemical Kinetics: Kinetics of parallel side, opposite, consecutive and chain reactions, fast reactions fundamental aspect of kinetics of reactions in solution. Catalysis: Acid basis catalysis, Enzyme catalysis, heterogeneous reactions.",
+    "3": "Reactions, Synthesis & mechanism: Hydrocarbons including cyclic, alcohol, phenols, aldehyde & ketones, carboxylic acids & their derivatives, halides, nitro, amino & diazo compounds.",
+    "4": "Conformational analysis: Various terms, conformation analysis of ethane, cyclohexane & 1,2 disubstituted cyclohexane Heterocyclic: Classification, preparation and properties of pyridine. Bimolecules: Structures & reactions of mono & disaccharides, proteins.",
+    "5": "Surface chemistry: adsorption, adsorption isotherms, surface tension and its determination. Colloids chemistry: General preparation properties and classification hydrophilic and lypophobic sols."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Finar, IL, “Organic Chemistry: Vol. I & II”."
+    },
+    {
+     "no": 2,
+     "book": "Morrison & Boyd, “Organic Chemistry”."
+    },
+    {
+     "no": 3,
+     "book": "March, J., “Organic Chemistry”."
+    },
+    {
+     "no": 4,
+     "book": "Soloman, T., “Organic Chemistry”."
+    },
+    {
+     "no": 5,
+     "book": "Glasstone, S., “Physical Chemistry”."
+    },
+    {
+     "no": 6,
+     "book": "Atkin, PW, “Physical Chemistry”."
+    },
+    {
+     "no": 7,
+     "book": "Banwell, CN, “Fundamentals of Molecular Spectroscopy”."
+    },
+    {
+     "no": 8,
+     "book": "Willard Merit & Dean “Instrumental Methods of Chemical Analysis”."
+    },
+    {
+     "no": 9,
+     "book": "Skoog& West “Instrumental Methods of Chemical Analysis”."
+    }
+   ],
+   "experiments": [],
+   "quirks": [
+    "Detailed syllabus heading prints 'RPL401: INDUSTRIAL CHEMISTRY' (all caps) vs scheme-table name 'Industrial Chemistry'.",
+    "Unit-I prints 'concept of aromaticity directive influence of substitute' with no punctuation between the phrases - kept verbatim.",
+    "Unit-II prints 'Kinetics of parallel side' - kept verbatim.",
+    "Unit-II prints 'Acid basis catalysis' (cf. acid-base catalysis) - kept verbatim.",
+    "Unit-IV prints 'Bimolecules' (cf. Biomolecules) - kept verbatim.",
+    "Unit-IV has no punctuation between 'disubstituted cyclohexane' and 'Heterocyclic' - kept verbatim.",
+    "Unit-V prints 'lypophobic' (cf. lyophobic) - kept verbatim.",
+    "Reference 4 prints 'Soloman, T.'; ref 6 prints 'Atkin, PW'; ref 8 prints 'Willard Merit & Dean'; ref 9 prints 'Skoog& West' (no space after Skoog) - all kept verbatim.",
+    "Only a combined 'Books and References:' list (9 items) is printed; no separate Textbooks section; no COs/K-levels printed in this document."
+   ],
+   "flags": [
+    "detailed_syllabus_printed",
+    "combined_books_list_no_cos"
+   ]
+  },
+  {
+   "name": "Fundamentals of Polymer Science",
+   "name_print": "FUNDAMENTALS OF POLYMER SCIENCE",
+   "codes": [
+    "RPL402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "scheme_line_print": "6 | RPL402 | Fundamentals of Polymer Science | 3-0-0 | ESE:70 CT:20 TA:10 | Total:100 | Credit:3",
+   "locator": "p.3 (IV-SEMESTER scheme row 6); detailed syllabus p.5",
+   "units": {
+    "1": "History of polymer science, Classification of Polymers, Functionality and structure of polymers, Physical properties and characterization of polymers, effect of structure on properties of polymers, Inorganic polymers. Concept of macromolecules. Stereochemistry of polymers.",
+    "2": "Introduction, Chain & step growth polymerization, Polymerisation techniques, Kinetics of Polymerisation (Free radical, Cationic, Anionic polymerization, Polycondensation).",
+    "3": "Molecular weight, Number average and weight average molecular weight, Sedimentation and Viscosity average molecular weight, Molecular weight and degree of polymerization, Polydispersity, Size of polymer molecules.",
+    "4": "Glass transition temperature, Transitions, significance and factors influencing the Tg. Effect of Plasticizers on Tg. Glass transition of copolymers. Morphology and order of Polymers, Crystallinity in polymers, Degree of crystallinity and Polymer crystallization.Effect of crystallinity on properties of Polymers.",
+    "5": "Polymer degradation and stability.Types of degradation.Mechanism of degradation.Factors affecting degradation. Polymer solutions. Process of dissolution of polymers.Thermodynamics of Dissolution. Flory-Huggins Theory, Viscosity of Polymeric solutions."
+   },
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Plastics Material, Brydson, J.A"
+    },
+    {
+     "no": 2,
+     "book": "Text Book of Polymer Science, Billmeyer, Fred W."
+    },
+    {
+     "no": 3,
+     "book": "Principles of Polymer Systems By Ferdinand Rodriguez"
+    },
+    {
+     "no": 4,
+     "book": "Principles of Polymer Chemistry By A. Ravve"
+    },
+    {
+     "no": 5,
+     "book": "Introduction of Polymer Science By Hans-Georg Elias"
+    },
+    {
+     "no": 6,
+     "book": "Polymer Science & Technology By Joel R. Fried."
+    },
+    {
+     "no": 7,
+     "book": "Polymer Science By Gowariker V R, Vishwanathan NV, Jayadev Sreedhar."
+    }
+   ],
+   "experiments": [],
+   "quirks": [
+    "Detailed syllabus heading prints 'RPL402: FUNDAMENTALS OF POLYMER SCIENCE' (all caps) vs scheme-table name 'Fundamentals of Polymer Science'.",
+    "Unit-IV prints 'Polymer crystallization.Effect' with no space after the period - kept verbatim.",
+    "Unit-V prints 'stability.Types of degradation.Mechanism of degradation.Factors' and 'polymers.Thermodynamics of Dissolution.' with no spaces after periods - kept verbatim.",
+    "Reference 1 prints 'Plastics Material' (cf. Plastics Materials) - kept verbatim.",
+    "Only a combined 'Books and References:' list (7 items) is printed; no separate Textbooks section; no COs/K-levels printed in this document."
+   ],
+   "flags": [
+    "detailed_syllabus_printed",
+    "combined_books_list_no_cos"
+   ]
+  },
+  {
+   "name": "Industrial Chemistry Lab",
+   "name_print": "INDUSTRIAL CHEMISTRY LAB",
+   "codes": [
+    "RPL451"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "scheme_line_print": "9 | RPL451 | Industrial ChemistryLab | 0-0-2 | ESE:50 CT:30 TA:20 | Total:100 | Credit:1",
+   "locator": "p.3 (IV-SEMESTER scheme row 9); detailed lab experiment list p.6",
+   "units": {},
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Identification of liquid organic compounds."
+    },
+    {
+     "no": 2,
+     "exp": "Identification of two organic compounds (one water soluble and one water insoluble) in a mixture."
+    },
+    {
+     "no": 3,
+     "exp": "Minor estimation of phenol, glucose & aniline."
+    },
+    {
+     "no": 4,
+     "exp": "Preparation of p- Nitro acetanilide from Acetanilide."
+    },
+    {
+     "no": 5,
+     "exp": "To find out the percentage composition of given solution by viscosity measurement with the helpof Ostwald’s viscometer."
+    },
+    {
+     "no": 6,
+     "exp": "To verify the distribution of Particle Size."
+    },
+    {
+     "no": 7,
+     "exp": "To determine the rate constant (K) for the hydrolysis of Ethyl Acetate catalyzed by HCl acid."
+    },
+    {
+     "no": 8,
+     "exp": "To determine the molecular weight of the given compounds by elevation of boiling point."
+    },
+    {
+     "no": 9,
+     "exp": "To determine the molecular weight of the given compounds by depression of freezing point."
+    },
+    {
+     "no": 10,
+     "exp": "To determine pH of a solution."
+    }
+   ],
+   "experiments_preface_print": "Minimum 8 experiments out of following (or such experiment) are to be performed:",
+   "quirks": [
+    "Detailed heading prints 'RPL 451:INDUSTRIAL CHEMISTRY LAB' - code printed with an internal space ('RPL 451') and no space after the colon; scheme table prints code 'RPL451'.",
+    "Scheme table (p.3 row 9) prints the name as 'Industrial ChemistryLab' with no space before 'Lab' - kept verbatim there; this row uses the detailed-heading name.",
+    "Experiment 5 prints 'helpof' (missing space) and 'p- Nitro' spacing in exp 4 - kept verbatim.",
+    "Lab preface printed: 'Minimum 8 experiments out of following (or such experiment) are to be performed:' - kept verbatim; no COs/K-levels printed."
+   ],
+   "flags": [
+    "detailed_lab_list_printed",
+    "code_space_in_heading"
+   ]
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_title",
+   "print": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY LUCKNOW — Study & Evaluation Scheme with Syllabus for B.Tech. Second Year Plastic Engineering On Choice Based Credit System (Effective from the Session: 2017-18)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "semester_header",
+   "print": "2nd Year III-SEMESTER",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_table_header",
+   "print": "S. No. | Subject Code | Subject Name | L-T-P Th/Lab | ESE | Sessional (CT | TA) | Total | Credit",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "1. | RAS301/ ROE030 to 034, 036, 038, 039 | Mathematics-III/ Science Based OE | 3-1-0 | 70 | 20 | 10 | 100 | 4",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "2. | RVE301/ RAS302 | Universal Human Values & Professional Ethics / Environment & Ecology | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "3. | RCE303 | Fluid Mechanics | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "4. | RME301 | Material Science | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "5. | RME302 | Thermodynamics | 3-1-0 | 70 | 20 | 10 | 100 | 4",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "6. | RME303 | Mechanics of Solids | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "7. | RCE353 | Fluid Mechanics Lab | 0-0-2 | 50 | 30 | 20 | 100 | 1",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "8. | RME351 | Material Science &Testing Lab | 0-0-2 | 50 | 30 | 20 | 100 | 1",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "9. | RME352 | Thermodynamics Lab | 0-0-2 | 50 | 30 | 20 | 100 | 1",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "10. | RME353 | Computer AidedMachine Drawing–I Lab | 0-0-2 | 50 | 30 | 20 | 100 | 1",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "11. | RME101* | Elements of Mechanical Engineering* | 3-1-0 | 70 | 20 | 10 | 100* | --",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "12. | RCE151* | Computer Aided Engineering Graphics* | 0-0-3 | 50 | 30 | 20 | 100* | --",
+   "locator": "p.2 (III-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL | 1000 | 24",
+   "locator": "p.2"
+  },
+  {
+   "kind": "legend",
+   "print": "CT: Class Test | TA:Teacher Assessment | L/T/P:Lecture/ Tutorial/ Practical",
+   "locator": "p.2"
+  },
+  {
+   "kind": "footnote",
+   "print": "*B.Tech. IInd year lateral entry students belonging to B.Sc. Stream, shall clear the subjects RCE151/RCE251 and RME101/201 of the first year Engineering Programme along with the second year subjects.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Science Based Open Electives: a. ROE030/ROE040 Manufacturing Process | b. ROE031/ROE041 Introduction to soft computing | c. ROE032/ROE042 Nano Science | d. ROE033/ROE043 Laser System and Application | e. ROE034/ROE044 Space Science | f. ROE036/ROE046 Nuclear Science | g. ROE038/ROE048 Discrete Mathematics | h. ROE039/ROE049 Applied Linear Algebra",
+   "locator": "p.2"
+  },
+  {
+   "kind": "semester_header",
+   "print": "2nd Year IV-SEMESTER",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_table_header",
+   "print": "S. No. | Subject Code | Subject Name | L-T-P | ESE | Marks: Sessional (CT | TA) | Total | Credit",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "1. | ROE040 to 044, 046, 048, 049/ RAS401 | Science Based OE/ Mathematics-III | 3-1-0 | 70 | 20 | 10 | 100 | 4",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "2. | RAS402/ RVE401 | Environment & Ecology/ Universal Human Values & Professional Ethics | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "3. | REE409 | Electrical Machines &Controls | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "4. | RME401 | Measurement and Metrology | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "5. | RPL401 | Industrial Chemistry | 3-1-0 | 70 | 20 | 10 | 100 | 4",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "6. | RPL402 | Fundamentals of Polymer Science | 3-0-0 | 70 | 20 | 10 | 100 | 3",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "7. | REE459 | Electrical Machines and Controls Lab | 0-0-2 | 50 | 30 | 20 | 100 | 1",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "8. | RME451 | Measurement and Metrology Lab | 0-0-2 | 50 | 30 | 20 | 100 | 1",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "9. | RPL451 | Industrial ChemistryLab | 0-0-2 | 50 | 30 | 20 | 100 | 1",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "10. | RME453 | Computer Aided Machine Drawing-II Lab | 0-0-2 | 50 | 30 | 20 | 100 | 1",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "11. | RME201* | Elements of Mechanical Engineering* | 3-1-0 | 70 | 20 | 10 | 100* | --",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "12. | RCE251* | Computer Aided Engineering Graphics* | 0-0-3 | 50 | 30 | 20 | 100* | --",
+   "locator": "p.3 (IV-SEMESTER scheme row)"
+  },
+  {
+   "kind": "scheme_total_row",
+   "print": "TOTAL | 1000 | 24",
+   "locator": "p.3"
+  },
+  {
+   "kind": "legend",
+   "print": "CT: Class Test | TA:Teacher Assessment | L/T/P:Lecture/ Tutorial/ Practical",
+   "locator": "p.3"
+  },
+  {
+   "kind": "footnote",
+   "print": "*B.Tech. IInd year lateral entry students belonging to B.Sc. Stream, shall clear the subjects RCE151/RCE251 and RME101/201 of the first year Engineering Programme along with the second year subjects.",
+   "locator": "p.3"
+  },
+  {
+   "kind": "scheme_note",
+   "print": "NOTE: Practical summer training-1 of 4-weeks after IV semester or Minor fabrication project will be evaluated in VII semester.",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "Science Based Open Electives: a. ROE030/ROE040 Manufacturing Process | b. ROE031/ROE041 Introduction to soft computing | c. ROE032/ROE042 Nano Science | d. ROE033/ROE043 Laser System and Application | e. ROE034/ROE044 Space Science | f. ROE036/ROE046 Nuclear Science | g. ROE038/ROE048 Discrete Mathematics | h. ROE039/ROE049 Applied Linear Algebra",
+   "locator": "p.3"
+  }
+ ],
+ "quirks": [
+  "Document is mostly scheme tables (pp.2-3, 12 rows each) plus detailed print for only 3 subjects: RPL401 (p.4), RPL402 (p.5), RPL451 (p.6); all other scheme rows carry no unit-wise syllabus in this document.",
+  "III-semester table header prints column group 'Th/Lab' beside L-T-P; IV-semester table header prints 'Marks' spanning ESE/Sessional - minor header inconsistency between pages, kept verbatim in the table-header rows.",
+  "Rows 11-12 of each semester (RME101*/RCE151*, RME201*/RCE251*) print credit '--' and total '100*' (asterisked) with the lateral-entry footnote; these are first-year carry subjects for B.Sc.-stream lateral entry students.",
+  "Scheme table prints compressed pool codes: 'RAS301/ ROE030 to 034, 036, 038, 039' (p.2 row 1) and 'ROE040 to 044, 046, 048, 049/ RAS401' (p.3 row 1) - kept verbatim; the printed Science Based Open Electives list on the same pages gives the full ROE pairs.",
+  "Scheme name typos kept verbatim: 'Material Science &Testing Lab' (p.2 row 8), 'Computer AidedMachine Drawing–I Lab' (p.2 row 10), 'Electrical Machines &Controls' (p.3 row 3), 'Industrial ChemistryLab' (p.3 row 9).",
+  "Both semester tables print TOTAL = 1000 marks, 24 credits.",
+  "Text layer (PyMuPDF) is clean and agrees across the parsed JSON, fulltext and page renders; no garbled regions encountered - page images not needed for decode."
+ ],
+ "flags": [
+  "scheme_rows_recorded_as_non_subject_rows_per_owner_directive",
+  "scheme_row_only_subjects_not_detailed_in_this_doc: RAS301, ROE030-049 pool, RVE301, RAS302, RCE303, RME301, RME302, RME303, RCE353, RME351, RME352, RME353, RME101, RCE151, RAS401, RAS402, RVE401, REE409, RME401, REE459, RME451, RME453, RME201, RCE251"
+ ]
+}

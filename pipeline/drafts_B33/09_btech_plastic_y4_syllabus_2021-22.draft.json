@@ -1,0 +1,938 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2021-22/btech_plastic_y4_syllabus_2021-22.pdf",
+ "session": "2021-22",
+ "course": "BTech",
+ "sha16": "b973ca1fcea7820e",
+ "stem": "09_btech_plastic_y4_syllabus_2021-22",
+ "subjects": [
+  {
+   "name": "Plastic Recycling & Waste Management",
+   "name_print": "Plastic Recycling & Waste Management",
+   "codes": [
+    "KPE 751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "ltp_print": "L T P : 0 0 2",
+   "credit": 1,
+   "credit_print": "1",
+   "marks": {
+    "ps": 25,
+    "pe": 25,
+    "total": 50
+   },
+   "subject_type": "lab",
+   "slot_print": "Subject Code: KPE 751 (p.3; scheme slot: Sem VII row 5)",
+   "experiments_preamble_print": "Study of the following (At least 8 of the following)",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To study various sources of plastic waste"
+    },
+    {
+     "no": 2,
+     "exp": "To study waste disposal method."
+    },
+    {
+     "no": 3,
+     "exp": "To perform segregation of plastic waste by simple identification methods"
+    },
+    {
+     "no": 4,
+     "exp": "To perform plastic waste size reduction by mechanical method"
+    },
+    {
+     "no": 5,
+     "exp": "To carry out separation of plastics using float-sink method"
+    },
+    {
+     "no": 6,
+     "exp": "To carry out agglomeration of plastic film waste"
+    },
+    {
+     "no": 7,
+     "exp": "To perform primary recycling of plastic film waste"
+    },
+    {
+     "no": 8,
+     "exp": "To study recycling by chemical modification of plastic waste"
+    },
+    {
+     "no": 9,
+     "exp": "To study secondary recycling by co-extrusion and co-injection modling"
+    }
+   ],
+   "cos_preamble_print": "Course outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Environmental impact due to misuse of plastic product",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Practical knowledge of plastic recycling & waste Management",
+     "kl": "K1"
+    },
+    {
+     "no": 3,
+     "text": "Hands-on experience of Various process involve for plastic recycling.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyse the effect recycling by chemical modification of plastic waste",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Determine the optimum recycling by co-extrusion and co-injection modeling",
+     "kl": "K2"
+    }
+   ],
+   "units": {},
+   "scheme_row_print": "5 KPE 751 Plastic Recycling & Waste Management 0 0 2 [CT blank] [TA blank] [Total blank] 25 [TE blank] 25 50 1 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e p.3 (experiments + COs), p.2 (scheme row)",
+   "quirks": [
+    "Lab subject: no units/objectives/textbooks printed (p.3); only experiment list + CO table.",
+    "Experiment 9 prints 'co-injection modling' (cf. moulding/modeling); CO5 prints 'co-injection modeling' — both kept verbatim.",
+    "CO labels printed 'CO1'..'CO5' (no hyphen), unlike the 'CO-1' style used by the elective subjects.",
+    "CO4/CO5 print shows irregular extra spacing around 'effect recycling'/'optimum recycling' (collapsed to single space; text verbatim otherwise).",
+    "Scheme row (p.2, x-coordinates verified): PS=25, PE=25, Total=50, Credit=1; CT/TA/sessional Total/TE cells printed blank.",
+    "Scheme row 6 prints KPE 752 Mini Project or Internship Assessment* and row 7 KPE 753 Project — these are not detailed as subjects in this document (see non_subject_rows)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polymer Composites",
+   "name_print": "Polymer Composites",
+   "codes": [
+    "KPE 071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "slot_print": "Semester – VII: Departmental Elective – IV",
+   "cos_preamble_print": "Course Outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concepts of polymer composites and their applications",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand of theories of composite formation and mechanism of load transfer",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge of various techniques for compounding of thermoplastics.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the process of manufacture of fibre reinforced plastics",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge of testing & characterisation of composites",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Introduction to composite materials\nClassification - advantages - polymer composites. Thermosetting and thermoplastic matrix materials – Reinforcements-Types and Forms-particulate, flake, fibrous etc.- coupling agents-Principles of composite reinforcement. Effect of reinforcement on composite properties.",
+    "2": "Theory of composite materials\nCalculation of composite properties- mechanism of load transfer, minimum and critical fibre content, critical fibre length- Rule of mixtures – Halpin -Tsai - equation.",
+    "3": "Compounding of Thermoplastics\nTwin screw extrusion, compression moulding- compounding of polyolefins, polystyrene and styrene copolymers, engineering polymers, wood floor and natural fiber filled plastics, compounding lines, post compounding operations.",
+    "4": "FRP processing\nImportant methods - hand layup, spray up, filament winding, compression moulding, injection moulding, resin, transfer moulding, reaction injection moulding, pultrusion,\n\nMiscellaneous Methods\nMachinery, operation, advantages and disadvantages.",
+    "5": "Characterization of Composites\nControl of particle/fibre and porosity content, particle/fibre distribution, Interfacial Reaction of matrix-reinforcing component, Coating of reinforcing component, Strength analysis\nTesting Quality control & end use of Composites\nTesting for mechanical, electrical, thermal, optical and chemical properties, Determination of shelf life and gel time – Non-destructive testing methods.\n\nApplication of composite\nMarine, chemical, railways, electrical and electronic industry, space structures, Robotics."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "J.A.Brydson, \"Plastics materials\", Butterworth- Heinemann - Oxford, 6th Ed., 1995."
+    },
+    {
+     "no": 2,
+     "book": "S.T.Peters, “Handbook of Composites”, Chapman & hall, 2nd Edition 1998."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "G Lubin, “Hand Book of Composites”, 2nd Ed, Van Nostrand Reinhold, New York, 1982."
+    },
+    {
+     "no": 2,
+     "book": "F.L. Matthews and R.D. Rawlings, 'Composite materials: engineering and science', Chapman and Hall, 1994."
+    },
+    {
+     "no": 3,
+     "book": "P.K. Mallick, 'Composites Engineering Handbook', Marcel Dekker Inc.NY., 1997."
+    },
+    {
+     "no": 4,
+     "book": "D. Hull and T. W. Clyne, \"An introduction to Composite Materials 2nd Ed\", Cambridge, 1996"
+    },
+    {
+     "no": 5,
+     "book": "Astrom; B.T, Manufacture of Polymer Composites, Chapman and Hall, London(1997)."
+    }
+   ],
+   "scheme_row_print": "2 KPE 071 - 074 Departmental Elective-IV 3 0 0 30 20 50 100 150 3 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e pp.4-5 (syllabus), p.2 (scheme row + DE-IV pool)",
+   "quirks": [
+    "Unit V heading and first part printed at bottom of p.4; the sub-block 'Application of composite / Marine, chemical, railways, electrical and electronic industry, space structures, Robotics.' is printed on p.5 with no UNIT VI heading, so it belongs to Unit V.",
+    "Unit III prints 'wood floor' (cf. wood flour) — kept verbatim.",
+    "Unit IV prints 'resin, transfer moulding' (cf. resin transfer moulding) and a trailing comma after 'pultrusion,' — kept verbatim.",
+    "Unit II prints irregular spacing 'Halpin -Tsai - equation' — kept verbatim.",
+    "Pool table on p.2 prints the name as 'Polymer composites' (lowercase c) vs title 'Polymer Composites' (p.4)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Biomedical Plastics",
+   "name_print": "Biomedical Plastics",
+   "codes": [
+    "KPE 072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "slot_print": "Semester – VII: Departmental Elective – IV",
+   "cos_preamble_print": "Course Outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Acquire knowledge of nature and application of biomedical plastics",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand various aspects of natural biomedical polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge about various applications of polymers in biomedical devices",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand the various aspect of application of polymers in soft lenses",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand the various aspect of biopolymers in dental field",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Introduction to biomedical applications of polymers;\nContemporary biomedical materials, Their advantages over other materials in use.\n\nBiomaterials\nBiomaterials, Bio-Compatibility, Stabilization, Inflammation and Wound Healing, Blood Clotting System, Kinn System, Biological response to Implants, Implant Design and Applications.",
+    "2": "Biomedical Polymers\nNatural biomedical polymers (natural rubber, representative biopolymers) Biodegradation and biodegradable polymers like polylactides, polyglycolides and their copolymers; polydioxanones etc., Criteria for the Selection of Biomedical Polymers, Physicochemical Aspects of the Blood Compatibility of Polymeric Surface. Biomedical Polymers from biological source, Poly hydroxy Alkanoic Acids, Microbial polysaccharides, Silk, Collagen, Microbial Cellulose, Hyaluronic Acid, Synthetic Polymers such as PTMA, Silicon Rubber, Polyethylene, Natural Rubber, Hydrogels.",
+    "3": "Biomedical Applications of Polymers\nPermanent implants For Function- Orthopaedics, Cardio Vascular, Respiratory Patches and Tubes, Digestive System, Genitourinary System, Nervous System, Orbital (Corneal And Lens Prosthesis) – Permanent Implant For Cosmoses, Other Applications of Engineered Material In Clinical Practices, Silicone Implants, Polymer Membranes, drug delivery systems, Polymer Skin, Polymeric Blood substitute. Properties and applications of various polymers used for biomedical polymers Synthetic biomedical polymers [Polyolefins; PVC, Polyacrylates, Polystyrenes and its copolymers, Polyesters, Polyamides (Nylons), Fluorocarbon polymers, Polyacetals, Polycarbonates, Polysulphones, Epoxy resins]",
+    "4": "Polymeric Lenses\nContact Lenses, Hard Lenses, Gas Permeable Lenses, Flexible Lenses, Soft Lenses, Hydrogels, Equilibrium Swelling, Absorption and Desorption, Oxygen Permeability, Types of Soft Lenses, Manufacture, Cleaning And Disinfection.",
+    "5": "Dental Polymers\nDental applications, denture bases, dentate reliners, crown and bridge resins, plastic teeth, mouth protectors, maxillofacial prosthetic materials, restorative material, polyelectrolyte based restoratives, sealants, adhesives, dental impression and duplicating materials, agar, algometer elastomers."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "H.F. Mark (Ed), Encyclopedia of polymer science and engineering, John Wiley and Sons New York, 1989."
+    },
+    {
+     "no": 2,
+     "book": "Galin and M. Ruben Ed., Soft compact Lenses clinical and applied Technology. John Wiley and Sons, Inc. New York, 1978."
+    },
+    {
+     "no": 3,
+     "book": "HR Allcock, FW Lampe and JE Mark. Contemporary polymer chemistry (3rd edition). Pearson Education, Inc (Pearson/Prentice Hall)"
+    },
+    {
+     "no": 4,
+     "book": "Manas Chanda, Salil K. Roy (Ed) Plastic Technology Hand Book Marcel Dekker, Inc. New York, 1993."
+    }
+   ],
+   "scheme_row_print": "2 KPE 071 - 074 Departmental Elective-IV 3 0 0 30 20 50 100 150 3 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e pp.6-7 (syllabus), p.2 (scheme row + DE-IV pool)",
+   "quirks": [
+    "No Text Books section printed for this subject; only 'Reference Books:' (p.7).",
+    "Unit I prints 'Kinn System' (cf. Kinin System) — kept verbatim.",
+    "Unit III prints 'Permanent Implant For Cosmoses' (cf. Cosmesis) and 'PTMA' (cf. PMMA) — kept verbatim.",
+    "Unit V prints 'dentate reliners' (cf. denture reliners) and 'algometer elastomers' (cf. alginate elastomers) — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Conducting Polymers",
+   "name_print": "Conducting Polymers",
+   "codes": [
+    "KPE 073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "slot_print": "Semester – VII: Departmental Elective – IV",
+   "cos_preamble_print": "Course Outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understanding of the basics of conducting polymers and their conduction mechanism",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "understand various types of conducting polymers and their properties",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Aquire knowledge about various mechanisms and techniques used in synthesis of conducting polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand various characterisation techniques for conducting polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge of various applications of conducting polymers",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Introduction\nNeed of conducting polymers, Classification of conducting polymer, Concept of doping,n-Type, p-Type, Electrochemistry of electronically conducting polymers-source of electronic conduction in polymers, polaron, bipolaron, conduction mechanism.",
+    "2": "Properties of conducting polymers\nStructure-property relationship, Types of conducting polymers, e.g. Polyaniline (PANI), Polypyrrole (PPy), Polythiophene (PTh), Discovery of polyacetylene",
+    "3": "Synthesis of conducting polymer-Chemical synthesis, electrochemical synthesis, template synthesis, precursor synthesis, soluble polymers (Colloid and dispersion), advantage and disadvantage of various synthesis methods. General Methodology; Synthesis and processability of selected conducting polymers like – Polyacetylene, Polyaniline, Polypyrrole, Polythiophene and Poly-para – phenylene",
+    "4": "Analytical Techniques for Characterization of Conducting polmers\nIR ,UV, Impedance spectroscopy, Fourier Transform Infra-red spectroscopy, X-ray photoelectron spectroscopy, Scanning Electron microscopy (SEM), Transmission electron microscopy(TEM), Electrochemical quartz crystal micro balance(EQCM), Four Probe conductivity measurement, Galvanostat/Potentiostat",
+    "5": "Applications\nRechargeable batteries, o-LED, Gas sensors, Bio sensors, Photovoltaic energy device, Microelectronics, PCB fabrication, Electro catalyst. Application proposed antistatic coating, electrochemical mechanical device, super capacitor, Telecommunication system, Electromagnetic screening material, Analytical sensor.\nRecent trend in conducting polymer, functionalized conducting polymer (Second generation polymer), Super conductor (Inorganic, organic hybrid structure), Conducting polymer based on nano composite."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Electrochemical science and technology of polymers -1 & 2 ed., R.G Linford, Elsevier applied sciences, London 1987 and 1989."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Hand book of Conducting Polymers: Terje A. Skotheim (Vol.l), Dekker (668.42)"
+    },
+    {
+     "no": 2,
+     "book": "Hand book of Polymer Synthesis (Part B): Hans Kricheldorf, Dekker (668.9)."
+    },
+    {
+     "no": 3,
+     "book": "Sensors: Principles and Applications: Peter Hauptmann, Prentice Hall"
+    },
+    {
+     "no": 4,
+     "book": "Polymer Science and Technology: Premamoy Ghosh, Tata McGraw Hill (668.42)."
+    },
+    {
+     "no": 5,
+     "book": "Hand book of organic conductive molecules and polymers, Hari singh Nalwa (ed.), 4-Volume set, John wiley and sons, England 1997."
+    }
+   ],
+   "scheme_row_print": "2 KPE 071 - 074 Departmental Elective-IV 3 0 0 30 20 50 100 150 3 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e pp.8-9 (syllabus), p.2 (scheme row + DE-IV pool)",
+   "quirks": [
+    "Unit III has no separate title line; body text starts directly after 'UNIT III'.",
+    "Unit IV title prints 'Conducting polmers' (cf. polymers) — kept verbatim.",
+    "CO-3 prints 'Aquire' (cf. Acquire); CO-2 begins lowercase 'understand' — kept verbatim.",
+    "Unit I prints 'Concept of doping,n-Type' (missing space after comma) — kept verbatim.",
+    "Unit IV prints 'IR ,UV' and 'microscopy(TEM)' spacing — kept verbatim.",
+    "Books heading printed 'Text book :-' (singular) with 1 textbook; 'Reference Books:' with 5 references (p.9)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polymer Structure And Property Relationship",
+   "name_print": "Polymer Structure And Property Relationship",
+   "codes": [
+    "KPE 074"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "slot_print": "Semester – VII: Departmental Elective – IV",
+   "cos_preamble_print": "Course Outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the basics of structure and properties of polymers.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Acquire knowledge about effect of polymer structure on various properties of polymers.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge of different thermal transitions in polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand various electrical and optical properties of polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand various chemical properties of polymers",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Structure of polymers\nLinear, branched, cross-linked and network polymers – Homochain and hetero atomic chain polymers-Co-polymers-Linear and cyclic arrangement – Prediction of polymer properties, group contribution techniques, topological techniques- Volumetric properties-molar volume, Density, Vander Waals volume - Coefficient of linear thermal expansion and volumetric thermal expansion – Pressure volume temperature (PVT) relationship.",
+    "2": "Stress-strain properties of polymers\nEffect of polymer structure on modulus of elasticity, tensile strength, flexural strength, impact strength, yield strength, fracture toughness –Crazing in glassy polymers - Ductile brittle transition. Effect of additives on mechanical properties of polymers - Creep, stress relaxation and fatigue.",
+    "3": "Thermodynamic and transition properties\nTransition temperature in polymers, glass transition (Tg), melt transition (Tm), relationship between Tg and Tm – other transitions like ß-transitions, upper and lower glass transition temperatures-Prediction of Tg and Tm of polymers by group contributions.\nCalorimetric properties – Heat capacity, specific heat, latent heat of crystallization and fusion, enthalpy and entropy – Calculation of heat capacities of polymers.",
+    "4": "Electrical and optical properties\nEffect of polymer structure on Dielectric constant, power factor, dissipation factor and loss factor effect of frequency of voltage and temperature on dielectric properties - Prediction of molar polarization and effective dipole moment. Effect of additives on electrical properties of polymers. Optical properties- Effect of polymer structure on optical properties-clarity, transparency, haze, transmittance, reflectance and gloss – Prediction of refractive indices of polymers by group contributions.",
+    "5": "Chemical Properties\nCohesive energy, cohesive energy density, solubility parameter, determination of solubility parameter of polymers – Prediction of solubility parameter- Effect of polymer structure on solubility in solvents and oils - Influence of structure in prediction of flame retardancy, water repellency – Chemical resistance of polymers - Polymer toxicity."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "D.W. Van Krevelen And P.J. Hoftyzen, \"Properties Of Polymer , 3rd Edition Elsevier Scientific, Publishing Company Amsterdam - Oxford - Newyork . 1990."
+    },
+    {
+     "no": 2,
+     "book": "J.E. Mark Ed.AIP, Physical Properties Of Polymers Hand Book, Williston, Vt, 1996."
+    }
+   ],
+   "scheme_row_print": "2 KPE 071 - 074 Departmental Elective-IV 3 0 0 30 20 50 100 150 3 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e pp.10-11 (syllabus), p.2 (scheme row + DE-IV pool)",
+   "quirks": [
+    "Name printed over two lines 'Polymer Structure And Property / Relationship' (p.10); pool table on p.2 prints it as 'Polymer Structure Property relationship' (missing 'And').",
+    "Unit V heading 'UNIT V / Chemical Properties' printed at bottom of p.10 with body continuing on p.11.",
+    "Unit III prints 'ß-transitions' (beta glyph rendered as ß in text layer) — kept verbatim.",
+    "Books heading printed 'Reference :-' with 2 items; no Text Books section printed.",
+    "Reference 1 prints 'Properties Of Polymer ,' and 'Newyork . 1990.' spacing verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Biodegrdable Polymers",
+   "name_print": "Biodegrdable Polymers",
+   "codes": [
+    "KPE 075"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "slot_print": "Semester – VII: Departmental Elective – V",
+   "cos_preamble_print": "Course Outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand various methods of biodegradation of polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand various aspects of starch based products",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Acquire knowledge of bio-polyesters and their applications",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Acquire knowledge of the recycling of biodegradable polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge about various test methods and standards for biodegradable polymers",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Chemistry and Biochemistry of Polymer Degradation\nIntroduction, enzymes – enzyme nomenclature – enzyme specificity – physical factors affecting the activity of enzymes – enzyme mechanism, Chemical degradation initiated biodegradation, Hydrolysis of synthetic biodegradable polymers.",
+    "2": "Particulate Starch Based Products\nDevelopment of Technology, Current objectives, relative starch technology, Manufacture of master batch, Conversion technology – processing precautions – moisture and temperature – rheological considerations, cyclic conversion process, physical properties of products – sample preparation – physical testing methods – test results, Quality control testing of degradation – auto oxidation measurement – biodegradation assessment – soil burial test. Introduction",
+    "3": "History of Bio-polyesters\nBiosynthesis, Isolation – solvent extraction - sodium hypo chloride digestion, enzymatic digestion, Properties – crystal structure and morphology.",
+    "4": "Recycling Technology for Biodegradable Plastics\nIntroduction, conventional recycling – economic incentive – recycling problems, degradable complicate recycling – polyethylene/starch film, reprocessing polyethylene/corn starch film scrap – learning to reprocess PE/S - Calcium oxide moisture scavenger – temperature control – accounting for pro-oxidant – handling PE/S repro – economics of in-plant recycling, Using PE/S repro – comparative study of PE/S repro on film properties, recycling other degradables.",
+    "5": "Test Methods & Standards for Biodegradable Plastics\nIntroduction, defining biodegradability, criteria used in the evaluation of biodegradable polymers, tiered systems for evaluating biodegradability, choice of environment, choosing the most appropriate methodology, description of current test methods – screening test for ready biodegradability, tests for inherent biodegradability, tests for simulation studies, other methods for assessing biodegradability – petri-dish screen – environmental chamber method – composting methods - soil burial tests."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "G.J.L Griffin Blackie (ed.), Chemistry & Technology of biodegradable polymers Academic & Professional London 1994."
+    },
+    {
+     "no": 2,
+     "book": "Yoshiharu Doi , Kazuhiko Fukuda(ed.) Biodegradable plastics & Polymers Elsevier 1994"
+    },
+    {
+     "no": 3,
+     "book": "Abraham J. Donb & others (ed.) Handbook of Biodegradable polymers, Harvard academic publishers Australia 1997."
+    }
+   ],
+   "scheme_row_print": "3 KPE 075 - 078 Departmental Elective-V 3 0 0 30 20 50 100 150 3 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e pp.12-13 (syllabus), p.2 (scheme row + DE-V pool)",
+   "quirks": [
+    "Subject name printed 'Biodegrdable Polymers' (typo, missing 'a'); the DE-V pool table on p.2 spells it 'Biodegradable Polymers'. Kept verbatim per RULES §6.",
+    "Unit II ends with a stray trailing word 'Introduction' after 'soil burial test.' — kept verbatim.",
+    "No Text Books section printed; only 'Reference Books:' (p.13).",
+    "Reference 3 prints 'Abraham J. Donb' (cf. Domb) — kept verbatim.",
+    "Unit I title prints 'Chemistry and Biochemistry of Polymer Degradation' with trailing double space in text layer (collapsed)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Rubber Technology",
+   "name_print": "Rubber Technology",
+   "codes": [
+    "KPE 076"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "slot_print": "Semester – VII: Departmental Elective – V",
+   "cos_preamble_print": "Course Outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Acquire knowledge about various aspects of Natural Rubbers",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply the knowledge of compound design and vulcanisation",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand various aspects of synthetic elastomers",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Understand various thermoplastic elastomers",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand various applications of Rubbers",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Natural Rubber\nTapping latex, Processing of Latex - Dry rubber production (Smoked sheet, air dried sheet, Crepe etc.) - Grading of rubbers - Modified natural rubber, Reclaimed rubber - process of reclamation – applications.",
+    "2": "Compounding Design and Vulcanization\nSulphur vulcanization and non-sulphur vulcanization, vulcanization systems - accelerators, activators, promoters, antioxidants, antiozonants, processing aids, fillers and effect of fillers, Blowing agents etc.",
+    "3": "Synthetic Elastomers\nManufacturing, structure, properties, compounding, curing and applications - Polyisoprene, Polybutadiene, SBR, EPDM, Butyl rubber, Neoprene, Nitrile rubber, Silicone rubber, Fluoroelastomer, Polysulphide rubber, polyurethane rubber, Acrylic rubber.",
+    "4": "Thermoplastic Elastomers\nBasic structure, Manufacture, Morphology, Commercial grades and Applications – Thermoplastic styrene block copolymers, Polyester thermoplastic elastomers, polyamide thermoplastic elastomer, Polyurethane thermoplastic elastomers.",
+    "5": "Rubber Product Manufacturing\nManufacturing of Belting, Hoses, Footwear, Rubber metal bonded items, sports goods, cellular rubber, tyres etc."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "C.M.Blow and Hepburn, - Rubber Technology and Manufacture, 2nd edition, 1982."
+    },
+    {
+     "no": 2,
+     "book": "Hoffman, Rubber Technology Handbook - Hanser Pub. Munich – 1996"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Anil .K. Bhowmic, Howard L. Stephens (Edt), Handbook of Elastomers – New Developments & Technology, Marcel Decker Inc. New York 1988."
+    },
+    {
+     "no": 2,
+     "book": "Maurice Morton, Rubber Technology,1998."
+    }
+   ],
+   "scheme_row_print": "3 KPE 075 - 078 Departmental Elective-V 3 0 0 30 20 50 100 150 3 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e p.14 (syllabus), p.2 (scheme row + DE-V pool)",
+   "quirks": [
+    "Whole subject (COs + Units I-V + books) printed on a single page (p.14).",
+    "Reference 1 prints 'Anil .K. Bhowmic' (stray space before .K.) and 'Marcel Decker' — kept verbatim.",
+    "Reference 2 prints 'Rubber Technology,1998.' (no space after comma) — kept verbatim.",
+    "Textbook 1 prints 'C.M.Blow and Hepburn, - Rubber Technology...' stray dash after comma — kept verbatim."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polymeric Nanomaterials",
+   "name_print": "Polymeric Nanomaterials",
+   "codes": [
+    "KPE 077"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "slot_print": "Semester – VII: Departmental Elective – V",
+   "cos_preamble_print": "Course Outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand basics of Polymeric nanoparticles",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand various types of nanocomposites of polymers and inorganic particles",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand various aspects of carbon nanomaterials",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Acquire knowledge of various applications of nanomaterials",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge about various methods of characterisation of nanomaterials",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Polymeric nanoparticles\nIntroduction, synthetic routes for polymeric nanoparticles, super critical fluid based particle production, droplet and aerosol techniques, gas atomization approaches dendrimers, hyper branched polymers or star polymers, molecular imprint polymers, applications of polymeric particles. Nano clays, nano oxides, nanowires, nanotubes and nanofibres, polymer nanofilm, nanostructured polymers with special architectures.",
+    "2": "Nanocomposites of polymers and inorganic particles\nIntroduction, preparation of nanocomposites, characterization and properties of Nanocomposites, structure of clay and its modification with surfactants, preparative methods and structure of polymer/clay nanocomposites, types of polymers used for polymer/clay nanocomosites preparation, material properties of polymer/clay nanocomposites, processing operations of nanocomposites.",
+    "3": "Carbon nanomaterials\nStructural aspects, preparation of nano tubes: carbon arc process, catalytic assisted pyrolysis, laser technique, electro chemical method, purification of carbon nano tube, properties of nano tubes, Single walled nano tubes, multi walled nano tubes, application of nanotubes, CNT- polymer-matrix composites – processing of polymer nano composites - properties of polymer nanocomposites.",
+    "4": "Applications of Nanoparticles\nIntroduction, features of polymeric materials, preparation and characterization of nanoparticles, recent developments in nanoparticles technology, nanoparticles for some specific applications.",
+    "5": "Characterisation of Nanomaterials\nIntroduction, Morphological characterisation, Physico-chemical characterisation, Atomic Force Microscopy, Small angle X-ray scattering, Raman Spectroscopy, Dynamic light scattering, Brunauer-Emmett-Teller-Method, Nanoparticle Tracking Analysis, Ultra Centrifugation, Electrophoresis."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Y.C. Ke, P. Stroeve and F.S. Wang, Polymer layered silicate and silica nano composites, Elsevier, 2005."
+    },
+    {
+     "no": 2,
+     "book": "B. K. G. Theng. Formation and properties of clay-polymer complexes. Elsevier, Amsterdam, 1979."
+    },
+    {
+     "no": 3,
+     "book": "B.K.G. Theng. Chemistry of clay-organic reactions. Wiley, New York, 1974."
+    },
+    {
+     "no": 4,
+     "book": "V.Chirala, G.Marginean, W.Brandl and T.Iclanzan, Vapour grown carbon nanofibres-polypropylene composites and their properties in Carbon nanotubes edited by V.N. Popov and P.Lambin, Springer (2006), Netherlands."
+    },
+    {
+     "no": 5,
+     "book": "Recent Advances in Polymer Nanocomposites; Editors: S. Thomas, G.E. Zaikov and S.V. Valsaraj, CRC Press, 2009"
+    }
+   ],
+   "scheme_row_print": "3 KPE 075 - 078 Departmental Elective-V 3 0 0 30 20 50 100 150 3 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e pp.15-16 (syllabus), p.2 (scheme row + DE-V pool)",
+   "quirks": [
+    "Title page (p.15) prints 'Polymeric Nanomaterials'; the DE-V pool table on p.2 prints 'Polymer Nanomaterials'.",
+    "Unit V heading 'UNIT V / Characterisation of Nanomaterials' printed at bottom of p.15 with body on p.16.",
+    "Unit II prints 'nanocomosites' (cf. nanocomposites) — kept verbatim.",
+    "Unit I prints 'gas atomization approaches dendrimers' (no comma between 'approaches' and 'dendrimers') — kept verbatim.",
+    "No Text Books section printed; only 'Reference Books:-' (p.16)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Thermoplastic Elastomers",
+   "name_print": "Thermoplastic Elastomers",
+   "codes": [
+    "KPE 078"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "ltp_print": "L T P : 3 0 0",
+   "credit": 3,
+   "credit_print": "3",
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective",
+   "slot_print": "Semester – VII: Departmental Elective – V",
+   "cos_preamble_print": "Course Outcomes: The students will be able to (K-level column headed 'Blooms Taxonomy')",
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand various classifications of thermoplastic elastomers",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand different thermoplastic elastomers from conventional polymers",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand various aspects of Polyurethane elastomers",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Acquire knowledge of various aspects of Polyamide and Polyether based Elastomers",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Acquire knowledge of various Thermoplastic elastomer from Blends",
+     "kl": "K2"
+    }
+   ],
+   "units": {
+    "1": "Classification of Thermoplastic Elastomers\nIntroduction to Thermoplastic Elastomers (TPE) Polyolefin based thermoplastic elastomers – Block copolymer, Random Block polymers, Graft copolymers, Polyolefin blend TPE’s, preparation, properties, processing and applications.",
+    "2": "Thermoplastic Elastomers from Conventional Polymers\nPolyvinylchloride based Thermoplastic Elastomers – PVC/Nitrile Rubber blends, PVC/Polyurethane blends. Styrenic Thermoplastic Elastomers – Manufacture, Properties and applications.",
+    "3": "Polyurethane Elastomers\nThermoplastic Polyurethane Elastomer – Raw materials, Synthesis, Properties, Processing, Blends and their applications.",
+    "4": "Polyamide and Polyether based Elastomers\nPolyamides based Thermoplastic Elastomers – Polyamide thermoplastic elastomers, Preparation, properties, and applications. Thermoplastic Polyether ester elastomers – Synthesis, Properties and applications.",
+    "5": "Thermo Plastic Elastomers from Blends\nIntroduction - Preparation of Elastomer – Plastic blends by dynamic vulcanization, properties and applications. Ionomeric Thermoplastic Elastomers: Synthesis, Properties and applications of ionomeric elastomers."
+   },
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Anil K. Bhowmick, Howard L. Stephens, Hand Book of Elastomers, New Developments and Technology, Marcel Dekker, Inc., New York, 1988."
+    },
+    {
+     "no": 2,
+     "book": "Benjamin M. Walker, Hand Book of Thermoplastic Elastomers, Van Mostrand Reinhold Company, New York, 1979"
+    },
+    {
+     "no": 3,
+     "book": "G.Holden, N.R. Legge, R. Quirk, H.E. Schrolder, Thermoplastic Elastomers – 2nd Edition, Hanser Publishers, Munich, 1996."
+    },
+    {
+     "no": 4,
+     "book": "S.K. De, Anil K. Bhowmick, Thermoplastic Elastomers from Rubber – Plastic Blends, Ellis Horwood, N"
+    }
+   ],
+   "scheme_row_print": "3 KPE 075 - 078 Departmental Elective-V 3 0 0 30 20 50 100 150 3 (p.2 SEMESTER-VII)",
+   "source": "09_btech_plastic_y4_syllabus_2021-22.pdf#b973ca1fcea7820e p.17 (syllabus), p.2 (scheme row + DE-V pool)",
+   "quirks": [
+    "Reference 4 is truncated in the print itself: page 17's last printed line ends '...Ellis Horwood, N' (word-coordinate scan confirms the text layer ends there; no p.18 in the 17-page PDF; presumably 'New York' cut off at page bottom). Kept verbatim.",
+    "Reference 2 prints 'Van Mostrand Reinhold' (cf. Van Nostrand); Reference 3 prints 'H.E. Schrolder' (cf. Schroeder) — kept verbatim.",
+    "Unit V title prints 'Thermo Plastic Elastomers from Blends' (three words) — kept verbatim.",
+    "No Text Books section printed; only 'References :-' (p.17)."
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover",
+   "print": "DR. A. P. J. ABDUL L KALAM TECHNICAL UNIVERSITY LUCKNOW, UTTAR PRADESH — SYLLABUS & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH. 4th YEAR PLASTIC ENGINEERING AS PER AICTE MODEL CURRICULUM [Effective from the Session: 2021-22]",
+   "locator": "p.1 (fragments in text-layer reading order; see top-level quirks for split-fragment evidence)"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "1 HSMC-1/HSMC-2 3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 SEMESTER-VII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "2 KPE 071 - 074 Departmental Elective-IV 3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 SEMESTER-VII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "3 KPE 075 - 078 Departmental Elective-V 3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 SEMESTER-VII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "4 Open Elective-II 3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 SEMESTER-VII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "6 KPE 752 Mini Project or Internship Assessment* 0 0 2 [CT TA Total blank] 50 [TE PE blank] 50 1 (x-verified: PS=50, Total=50)",
+   "locator": "p.2 SEMESTER-VII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "7 KPE 753 Project 0 0 8 [CT TA Total PS-adjacent blank cells dropped] 150 150 4 (x-verified: 150@x425=PS, 150@x516=Total)",
+   "locator": "p.2 SEMESTER-VII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "8 MOOCs (Essential for Hons. Degree) [all mark cells blank]",
+   "locator": "p.2 SEMESTER-VII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "Total 9 0 12 21 850 18",
+   "locator": "p.2 SEMESTER-VII evaluation scheme"
+  },
+  {
+   "kind": "footnote",
+   "print": "*The Mini Project or internship (5 - 6 weeks) conducted during summer break after VI semester and will be assessed during VII semester.",
+   "locator": "p.2 below SEMESTER-VII table"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "1 HSMC-2/HSMC-1 3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 SEMESTER-VIII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "2 Open Elective-III 3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 SEMESTER-VIII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "3 Open Elective-IV 3 0 0 30 20 50 100 150 3",
+   "locator": "p.2 SEMESTER-VIII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "4 KPE 851 Project 0 0 18 [CT TA Total blank] 100 300 400 9 (x-verified: 100@x419=PS, 300@x482=PE, 400@x514=Total)",
+   "locator": "p.2 SEMESTER-VIII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "5 MOOCs (Essential for Hons. Degree) [all mark cells blank]",
+   "locator": "p.2 SEMESTER-VIII evaluation scheme"
+  },
+  {
+   "kind": "scheme_row",
+   "print": "Total 9 0 18 27 850 18",
+   "locator": "p.2 SEMESTER-VIII evaluation scheme"
+  },
+  {
+   "kind": "note",
+   "print": "Students can choose any elective horizontally from the pool of electives.",
+   "locator": "p.2 below SEMESTER-VIII table"
+  },
+  {
+   "kind": "elective_pool_table",
+   "print": "Specialization -1/-2/-3/-4 | Sem VII Code: KPE 071, KPE 072, KPE 073, KPE 074 | Departmental Elective-IV: Polymer composites, Biomedical Plastics, Conducting Polymers, Polymer Structure Property relationship",
+   "locator": "p.2 Specialization pool table"
+  },
+  {
+   "kind": "elective_pool_table",
+   "print": "Sem VII Code: KPE 075, KPE 076, KPE 077, KPE 078 | Departmental Elective-V: Biodegradable Polymers, Rubber Technology, Polymer Nanomaterials, Thermoplastic Elastomers",
+   "locator": "p.2 Specialization pool table"
+  }
+ ],
+ "quirks": [
+  "Cover (p.1): letter-spaced title lines split in the text layer into fragments ('UNIV'/'VERSITY', 'LUCKN'/'NOW', 'EVA'/'ALUATION', 'SYL'/'LLABUS', 'PLA'/'ASTIC', duplicated 'M' in 'AICTE M'/'MODEL'); visible print reads 'SYLLABUS & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH. 4th YEAR PLASTIC ENGINEERING AS PER AICTE MODEL CURRICULUM [Effective from the Session: 2021-22]'.",
+  "Scheme tables: blank cells are dropped by the text layer; PS/TE/PE column assignment of the project/lab rows verified via PyMuPDF word x-coordinates (KPE 751: PS 25 + PE 25; KPE 752: PS 50; KPE 753: PS 150, Total 150; KPE 851: PS 100 + PE 300).",
+  "17-page PDF ends mid-print: the last printed line (p.17, reference 4 of KPE 078) ends '...Ellis Horwood, N' — no p.18 exists; truncation is in the print itself.",
+  "All nine detailed subjects are Semester-VII; the document prints NO detailed subject pages for Semester VIII (scheme rows only).",
+  "K-level column in every CO table is headed only 'Blooms Taxonomy' (no 'Level' word printed).",
+  "Printed typos kept verbatim include: 'Biodegrdable Polymers' (KPE 075 title), 'modling'/'modeling' (KPE 751 exp 9 / CO5), 'Aquire' (KPE 073 CO-3), 'polmers' (KPE 073 Unit-IV title), 'Kinn System' & 'Cosmoses' & 'PTMA' (KPE 072), 'wood floor' (KPE 071), 'nanocomosites' (KPE 077), 'Van Mostrand' & 'Schrolder' (KPE 078 refs), 'Donb' (KPE 075 ref), 'Vander Waals' (KPE 074).",
+  "Name variants between title pages and p.2 pool tables: 'Polymer Composites' vs 'Polymer composites'; 'Polymer Structure And Property Relationship' vs 'Polymer Structure Property relationship'; 'Polymeric Nanomaterials' vs 'Polymer Nanomaterials'; 'Biodegrdable Polymers' vs 'Biodegradable Polymers'."
+ ],
+ "flags": []
+}

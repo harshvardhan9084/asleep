@@ -1,0 +1,1353 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_plastic_y4_syllabus-cbcs_2019-20.pdf",
+ "session": "2019-20",
+ "course": "BTech",
+ "sha16": "0cbe0cde1dcf85fa",
+ "stem": "07_btech_plastic_y4_syllabus-cbcs_2019-20",
+ "subjects": [
+  {
+   "name": "Computer Aided Design",
+   "name_print": "COMPUTER AIDED DESIGN (CAD)",
+   "codes": [
+    "RPL701"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction: Introduction to CAD/CAED/CAE, Elements of CAD, Essential requirements of CAD, Concepts of integrated CAD/CAM, Necessity & its importance, Engineering Applications Computer Graphics-I CAD/CAM systems, Computer Graphics-I Graphics Input devices-cursor control Devices, Digitizers, Keyboard terminals, Image scanner, Speech control devices and Touch, panels, Graphics display devices: Cathode Ray Tube, Random & Raster scan display, Color CRT monitors, Direct View Storage Tubes, Flat Panel display, Hard copy printers and plotters.",
+    "2": "Computer Graphics-II: Graphics standards, Graphics Software, Software Configuration, Graphics Functions, Output primitives- Bresenham’s line drawing algorithm and Bresenham’s circle generating algorithm Geometric Transformations: World/device Coordinate Representation, Windowing and clipping, 2 D Geometric transformations -Translation, Scaling, Shearing, Rotation & Reflection Matrix representation, Composite transformation, 3 D transformations, multiple transformation.",
+    "3": "Curves: Curves representation, Properties of curve design and representation, Interpolation vs approximation, Parametric representation of analytic curves, Parametric continuity conditions, Parametric representation of synthetic curves-Hermite cubic splines-Blending function formulation and its properties, Bezier curves-Blending function formulation and its properties, Composite Bezier curves, B-spline curves and its properties, Periodic and non-periodic B-spline curves.",
+    "4": "3D Graphics: Polygon Surfaces-Polygon mesh representations, Quadric and Super quadric surfaces and blobby objects; Solid Modeling-Solid entities, Fundamentals of Solid Modeling-Set theory, regularized set operations; Half spaces, Boundary representation, Constructive solid geometry, Sweep representation, Color models. Basic application commands for 2d drafting software like AutoCAD/Draft sight (any one) & 3d solid modeling software Solid works/Autodesk Inventor/ PTC Creo /Catia (Any one) etc.",
+    "5": "Finite Element Analysis: Basic concept of the finite element method, comparison of FEM with direct analytical solutions; Steps in finite element analysis of physical systems, Finite Element analysis of 1-D problems like spring, bar, truss and beam elements formulation by direct approach; development of elemental stiffness equations and their assembly, solution and its post processing."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Computer Graphics, by Hearn & Baker, Prentice Hall of India"
+    },
+    {
+     "no": 2,
+     "book": "CAD/CAM, by Groover and Zimmers, Prentice Hall India Ltd."
+    },
+    {
+     "no": 3,
+     "book": "CAD/CAM :Theory and Practice, by Zeid, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "CAD/CAM: Computer Aided Design and Manufacturing, by Groover, Pearson India"
+    },
+    {
+     "no": 5,
+     "book": "Mathematical Elements for Computer Graphics, buy Rogers and Adams, McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "Finite Element Method By S SRao"
+    },
+    {
+     "no": 7,
+     "book": "FE Analysis Theory and Programming, by Krishnamoorthy, Tata McGraw Hill"
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus heading (p.5) prints 'COMPUTER AIDED DESIGN (CAD)'; VII-semester scheme table (p.2) prints subject name 'Computer Aided Design' — heading carries a '(CAD)' suffix absent from the scheme name.",
+    "Detailed-syllabus page (p.5) prints no subject code; code RPL701 mapped from the VII-semester scheme table (p.2).",
+    "Print typos kept verbatim: 'CAD/CAED/CAE' (Unit-I), repeated phrase 'Computer Graphics-I ... Computer Graphics-I' in Unit-I (sic), 'Touch, panels' (stray comma), 'Draft sight', 'Solid works', book 5 'buy Rogers and Adams' (sic), book 6 'Finite Element Method By S SRao' (sic).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polymer Composites",
+   "name_print": "POLYMER COMPOSITES",
+   "codes": [
+    "RPL702"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction of composite material, comparison of different materials with composites advantages and disadvantages. Principles of composite reinforcement.Effect of fibrous reinforcement on composite strength.",
+    "2": "Fibrous and particulate composites, Types of reinforcement such as natural, glass, carbon/graphite, aramid fibers, high strength and high modulus fibers.Surface treatment and various forms of fibers.Reinforcement of various nanofillers such as CNT’s, HNT’s, MMT, Nano silica etc. in polymer matric for the fabrication of Nano composite.",
+    "3": "Thermosetting and thermoplastic materials for the composites and their selection for a particular application.Evaluation of strength and failure criteria of composites, Optimum fiber reinforcement criteria, Kelly- Davies model.",
+    "4": "Processing and production techniques like hand-lay-up, spray-up, bag moldings, filament winding and pultrusion- defects.",
+    "5": "Prepregs manufacture and characterization. Sheet molding and dough molding compounds and their processing, preform and resin transfer moldings. Hybrid and sandwich type composites. Composite Testing, joining and environmental effects."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Mechanical Properties of Polymers and Composites”, 2nd Edn., Marcel Dekker, New York (1994)- Lawrence E.Nielsen and Robert F. Landel."
+    },
+    {
+     "no": 2,
+     "book": "Manufacturing of polymer Composites, Chapman and Hall, London (1995)-B.T.Astrom."
+    },
+    {
+     "no": 3,
+     "book": "Advanced Composites manufacturing, John Wiley and Sons, New York (1997)-T.G.Gutowski."
+    },
+    {
+     "no": 4,
+     "book": "Mechanics of Composites Materials” Script a Book Co- Jones, R.M."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.6) prints no subject code; code RPL702 mapped from the VII-semester scheme table (p.2).",
+    "Print typos kept verbatim: 'reinforcement.Effect' / 'fibers.Surface treatment' / 'application.Evaluation' (missing spaces), 'polymer matric' (Unit-II, sic), 'Kelly- Davies' (stray space), 'CNT’s, HNT’s'.",
+    "Book list printed without periods after entry numbers ('1 ... 2 ... 3 ... 4'); book 1 prints an orphan closing double-quote ('Composites”,') with no opening quote; book 4 prints 'Materials”' orphan quote and 'Script a Book Co-' (sic).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Aided Design Lab",
+   "name_print": "COMPUTER AIDED DESIGN LAB",
+   "codes": [
+    "RPL751"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ese_te_pe": 50,
+    "sessional_total": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Line Drawing or Circle Drawing experiment: Writing and validation of computer program."
+    },
+    {
+     "no": 2,
+     "exp": "Geometric Transformation algorithm experiment for translation/rotation/scaling: Writing and validation of computer program."
+    },
+    {
+     "no": 3,
+     "exp": "Design of machine component or other system experiment: Writing and validation of computer program."
+    },
+    {
+     "no": 4,
+     "exp": "Understanding and use of any 3-D Modeling Software commands."
+    },
+    {
+     "no": 5,
+     "exp": "Pro/E/Idea etc. Experiment: Solid modeling of a machine component."
+    },
+    {
+     "no": 6,
+     "exp": "Writing a small program for FEM for 2 spring system and validation of program or using a FEM Package."
+    },
+    {
+     "no": 7,
+     "exp": "Root findings or curve fitting experiment: Writing and validation of computer program."
+    },
+    {
+     "no": 8,
+     "exp": "Numerical differentiation or numerical integration experiment: Writing and validation of computer program."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.7) prints no subject code; code RPL751 mapped from the VII-semester scheme table (p.2, row 6: 'RPL751 Computer Aided Design Lab 0-0-2 50 [blank] 50 100 1').",
+    "Preamble prints 'Total 7 Experiments are to be carried out.' but 8 numbered experiments are listed (printed discrepancy, p.7).",
+    "Experiment list printed under subheading 'CAD Experiments'; experiment 8 printed with a leading space before the number in the source line (' 8.').",
+    "No unit theory printed (lab by design); no COs, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mould & Die Manufacturing Lab",
+   "name_print": "NPL-752: MOULD & DIE MANUFACTURING LAB",
+   "codes": [
+    "RPL752",
+    "NPL-752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "ese_te_pe": 50,
+    "sessional_total": 50,
+    "total": 100
+   },
+   "subject_type": "lab",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of different types of Cutting tools."
+    },
+    {
+     "no": 2,
+     "exp": "Letter writing on Pantograph milling"
+    },
+    {
+     "no": 3,
+     "exp": "Study of EDM,"
+    },
+    {
+     "no": 4,
+     "exp": "Study of Wire cut EDM"
+    },
+    {
+     "no": 5,
+     "exp": "Study and Detailing of mould assembly"
+    },
+    {
+     "no": 6,
+     "exp": "Manufacturing of Guide Pillar"
+    },
+    {
+     "no": 7,
+     "exp": "Manufacturing of Pocket By Milling"
+    },
+    {
+     "no": 8,
+     "exp": "Gas assisted and Water assisted Injection mould and Hot runner mould"
+    },
+    {
+     "no": 9,
+     "exp": "Hand compression mould design – positive, semi positive, displacement type mould, and design with split cavities"
+    },
+    {
+     "no": 10,
+     "exp": "Transfer mould design (pot type & top plunger type)"
+    },
+    {
+     "no": 11,
+     "exp": "Automatic unscrewing mould"
+    },
+    {
+     "no": 12,
+     "exp": "Study of Mould for Rotational Moulding"
+    },
+    {
+     "no": 13,
+     "exp": "Study of Mould for Thermoforming Moulding"
+    },
+    {
+     "no": 14,
+     "exp": "Study of Mould design for industrial component"
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.8) prints the code as 'NPL-752' ('NPL-752: MOULD & DIE MANUFACTURING LAB') while the VII-semester scheme table (p.2) prints 'RPL752' — both printed forms recorded; NPL-752 treated as a print variant of RPL752 (same subject, same L-T-P/marks row).",
+    "Preamble prints 'Minimum 8 experiments' but 14 numbered experiments are listed (p.8).",
+    "Print typos kept verbatim: 'Letter writing on Pantograph milling', 'Study of EDM,' (trailing comma), 'Manufacturing of Pocket By Milling'.",
+    "No unit theory printed (lab by design); no COs, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Testing of Plastics Material and Product",
+   "name_print": "TESTING OF PLASTICS MATERIAL AND PRODUCT",
+   "codes": [
+    "RPL070"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Consideration of the importance of testing-identification of plastics – Determination of necessary manufacturing conditions – Assessment of properties of finished products in relation to service requirements.Standard and specification – National and International standards – Test specimen preparation– Preconditioning and test atmosphere.",
+    "2": "Identification of common plastics materials by simple tests e.g., Visual inspection, density, effects of heat, combustion and solvents, analysis with common solvents. Mechanical Properties: Density and dimensions – Hardness-tensile strength – compressive strength – strength –flexural strength-heat strength – impact strength – dynamic stress-stain properties – creep – relaxation, friction and wear-abrasion test-fatigue-burst strength-and folding endurance.",
+    "3": "Thermal Properties: Specific heat and thermal conductivity thermal dependant properties -thermal endurance-glass transition temperature-thermal yield tests – Heat deflection temperature – Vicat softening temperature – Marten’s heat resistance test-low temperature brittle point and flexibility test-coefficient of thermal expansion-shrinkage – Thermal stability – Thermal ageing and flammability. Permeability Properties: Water absorption – soluble and insoluble matter – chemical resistance, environmental stress cracking resistance – ageing – gas permeability – water vapour permeability and weathering.",
+    "4": "Processing and flow properties-Melt flow index, relationship of melt flow index on processing behaviour and properties. Optical Properties – Refractive index – light transmission – haze – clarity – gloss – colour guard and microscope. Electrical properties- Effect of polymer structure, Insulation resistance-power factor permittivity-dielectric strength-tracking resistance-arc resistance and antistatic test.",
+    "5": "Product testing-pipe and fittings-film and sheets, Pipe and tube, blow bottle testing and FRP based products. Factors for designing tests for newer products.Factors affecting the quality of materials and products."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "“Plastics testing technology hand book”- Vishu shah."
+    },
+    {
+     "no": 2,
+     "book": "“Hand book Plastics test methods “-Brown RP."
+    },
+    {
+     "no": 3,
+     "book": "“Testing and evalution of Plastics”- Mathur ,AB&Bhardwaj IS."
+    },
+    {
+     "no": 4,
+     "book": "“Hand book Plastics test methods”- lves GC, Mead JA & Riley MM."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus heading (p.9) prints 'TESTING OF PLASTICS MATERIAL AND PRODUCT'; DEPARTMENTAL ELECTIVE-3 pool table (p.2) prints 'Testing of Plastics Materials & Product' — variant name prints recorded (Materials/MATERIAL, &/AND).",
+    "Detailed-syllabus page (p.9) prints no subject code; code RPL070 mapped from the DE-3 elective pool table (p.2).",
+    "Print typos kept verbatim: 'requirements.Standard and specification' (missing space), 'dynamic stress-stain properties' (sic), 'strength –flexural strength-heat strength' (sic), 'dependant', 'colour guard', book 3 'evalution' (sic), book 4 'lves GC' (sic); unbalanced/misplaced double-quotes in all four book titles.",
+    "DE-3 slot is 3-0-0 / credit 3 per VII-scheme row 2 ('DEPT. ELECTIVE COURSE-3, 3-0-0, 70, 20, 10, 100, 3'), matching the printed L-T-P 3-0-0 on p.9.",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Biodegradable Polymers",
+   "name_print": "BIODEGRADABLE POLYMERS",
+   "codes": [
+    "RPL071"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Chemistry and biochemistry of polymer degradation: Introduction, enzymes – enzyme nomenclature – enzyme specificity – physical factors affecting the activity of enzymes – enzyme mechanism, Chemical degradation initiates biodegradation, Hydrolysis of synthetic biodegradable polymers.",
+    "2": "Particulate starch-based products: Development of Technology, Current objectives, relative starch technology, Manufacture of master batch, Conversion technology – processing precautions – moisture and temperature – rheological considerations, cyclic conversion process, physical properties of products – sample preparation – physical testing methods – test results, Quality control testing of degradation – auto oxidation measurement – biodegradation assessment – soil burial test.",
+    "3": "Bio polyesters: Introduction, History, biosynthesis, Isolation – solvent extraction - sodium hypo chloride digestion, enzymatic digestion, Properties – crystal structure – nascent morphology, degradation - Intracellular biodegradation - extra cellular biodegradation – thermal degradation – hydrolytic degradation – environmental degradation – effects of recycling, applications, economics, future prospects.",
+    "4": "Recycling technology for biodegradable plastics: Introduction, conventional recycling – economic incentive – recycling problems, degradable complicate recycling – polyethylene/starch film, reprocessing polyethylene/corn starch film scrap – learning to reprocess PE/S - Calcium oxide moisture scavenger – temperature control – accounting for pro-oxidant – handling PE/S repro – economics of in-plant recycling, Using PE/S repro – comparative study of PE/S repro on film properties, recycling other degradable.",
+    "5": "Test methods & standards for biodegradable plastics: Introduction, defining biodegradability, criteria used in the evaluation of biodegradable polymers, tiered systems for evaluating biodegradability, choice of environment, choosing the most appropriate methodology, description of current test methods – screening test for ready biodegradability, tests for inherent biodegradability, tests for simulation studies, other methods for assessing biodegradability – petri dish screen – environmental chamber method – soil burial tests, Test method developments for the future."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Chemistry & Technology of Biodegradable Polymers Academic & Professional London 1994- G.J.L Griffin Blackie(ed.)."
+    },
+    {
+     "no": 2,
+     "book": "Biodegradable Plastics & Polymers, Elsevier 1994- Yoshiharu Doi, Kazuhiko Fukuda (ed.)."
+    },
+    {
+     "no": 3,
+     "book": "Handbook of Biodegradable polymers- Abraham J.Donb& Others (ed.)."
+    },
+    {
+     "no": 4,
+     "book": "Harvard Academic Publishers Australia 1997."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.10) prints no subject code; code RPL071 mapped from the DE-3 elective pool table (p.2).",
+    "Unit-IV (p.10) prints a run of words each isolated on its own line by justified spacing ('economic / incentive / – / recycling / problems, / degradable / complicate / recycling / –'); joined with single spaces, word-level content unaltered.",
+    "Book 4 prints a publisher-only fragment as a numbered book ('Harvard Academic Publishers Australia 1997.') — recorded verbatim; book 3 'Abraham J.Donb& Others' (missing space, sic); book 1 'G.J.L Griffin Blackie(ed.).' (sic).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Speciality Polymers",
+   "name_print": "SPECIALITY POLYMERS",
+   "codes": [
+    "RPL072"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "High temperature and fire-resistant polymers, Applications of heat resistant polymers like polyamides,polyimides, polyquinolines, polyquinoxalines, PEEK, polysiloxane, polyphosphazenes, polybenzoxazines and polyetherimide",
+    "2": "Conducting polymers,conduction mechanism, doping of polymeric systems.Preparation, properties and applications of polyaniline, polyacetylene, polypyrole, Photo-conducting and piezoelective polymers",
+    "3": "Polymers as corrosion inhibitors, Polymers as antistatic agents, Polymer colloids, Polymeric surfactants, Polymers in conversion and energy storage.  Liquid crystalline polymers",
+    "4": "Preparation, properties and applications of polymers for biomedical applications, hydrophilic polymers and ionic polymers",
+    "5": "Recent advancements in specialist polymers"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Specialty polymer by R.W Dayson."
+    },
+    {
+     "no": 2,
+     "book": "Specialty polymer: Materials and Applications by Faiz Mohammad."
+    },
+    {
+     "no": 3,
+     "book": "Speciality Plastics, Foams (Urethane, Flexible, Rigid) Pet & Preform Processing Technology Handbook."
+    },
+    {
+     "no": 4,
+     "book": "Modern Technology of Plastic Processing Industries (2nd Edition)."
+    },
+    {
+     "no": 5,
+     "book": "The Complete Technology Book on Expanded Plastics, Polyurethane, Polyamide and Polyester Fibres."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.11) prints no subject code; code RPL072 mapped from the DE-3 elective pool table (p.2).",
+    "Unit-I prints 'polyphospha' / 'zenes' split across a line break without a hyphen; joined as 'polyphosphazenes' (mid-word line break, word-level content unaltered).",
+    "Print typos kept verbatim: 'polyamides,polyimides' (missing space), 'polymers,conduction' (missing space), 'polypyrole' (sic), 'piezoelective' (sic), Unit-V 'specialist polymers' (sic); Units I-V printed without full stops at ends.",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polymer Blends & Alloys",
+   "name_print": "POLYMER BLENDS & ALLOYS",
+   "codes": [
+    "RPL073"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction to polymer blends & alloys- Definitions and nomenclature reasons for making polymer blend – how to select blend components preparation of alloys & blends– economy of blending.",
+    "2": "Compatibilization and reactive blending: Introduction – compatibilization mechanisms – compatibilization methods compatibilization by addition of copolymer reactive blending –future trends. Determination of compatibility behavior of Polymer solution blends by Ultrasonic interferometry.",
+    "3": "Rheology of polymer blends, Introduction to miscibility and immiscibility, types of blends, Flow behavior of immiscible and miscible polymer blends.",
+    "4": "Techniques for studying the morphological properties of blends and alloys through optical microscopy, SEM, Atomic Force Microscopy and TEM.Specimen preparation for SEM and TEM analysis.",
+    "5": "Thermal analysis of polymer blends using DSC, TGA and DMA for their various thermal properties such as thermal stability and degradation behavior, determination of melt temperature, glass transition temperature and crystallization temperature"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Commercial Polymer Blends, Chapman & Hall, London, 1998- LA. Utracki."
+    },
+    {
+     "no": 2,
+     "book": "Polymer Blends and Alloys an Overview, Asian Books Pvt.Ltd, New Delhi, 2002- RP.Singh, C.K.Das, S.K. Mustafi."
+    },
+    {
+     "no": 3,
+     "book": "Polymer Blends, Vol.1 & 2, Academic Press, New York, 1978- D.R.Paul& Seymour Newman."
+    },
+    {
+     "no": 4,
+     "book": "Polymer Mixing A self- study Guide, Hanser Publishers, Munich, 1998- Chris Rauwendaal."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.12) prints no subject code; code RPL073 mapped from the DE-3 elective pool table (p.2, prints 'Polymer blends & alloys').",
+    "Print typos kept verbatim: 'blend – how to select blend components preparation of alloys & blends– economy' (missing space before dash), '–future trends', 'TEM.Specimen' (missing space), Unit-V ends without a full stop, book 3 'D.R.Paul& Seymour Newman' (missing space), book 1 'LA. Utracki' (sic), book 4 'A self- study Guide' (stray space).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Polymeric Materials",
+   "name_print": "ADVANCED POLYMERIC MATERIALS",
+   "codes": [
+    "RPL075"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "High tech-areas for applications of plastics. High temperature polymers",
+    "2": "Polymer blends and alloys, interpenetrating polymers networks. Introduction – basic chemistry – General properties and applications of thermoplastic elastomers.",
+    "3": "Polymer concretes and polymer reagents. Introduction – basic chemistry – General properties and applications of Ultra-high modulus fibres.",
+    "4": "Introduction – basic chemistry – General properties and applications of Liquid crystalline polymers. Introduction – basic chemistry – General properties and applications of Polymeric foams.",
+    "5": "Introduction – basic chemistry – General properties of Polymers for low temperature and Bio-medical applications."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Temperature Engg. Thermoplastics, Elsevier pub- Collyer, A.A,High"
+    },
+    {
+     "no": 2,
+     "book": "Silicon Based Polymers, Noyes.-Jeigler, J.M."
+    },
+    {
+     "no": 3,
+     "book": "Plastics Material- Brydson, J.A"
+    },
+    {
+     "no": 4,
+     "book": "Commercial Polymer Blends, Chapman & Hall, London, 1998 - LA. Utracki"
+    },
+    {
+     "no": 5,
+     "book": "Polymer Blends and Alloys an Overview, Asian Books Pvt.Ltd, New Delhi, 2002- C.K.Das, S.K. Mustafi, RP.Singh"
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.13) prints no subject code; code RPL075 mapped from the DEPARTMENTAL ELECTIVE-4 pool table (p.2).",
+    "Unit-I is printed very short ('High tech-areas for applications of plastics. High temperature polymers') and ends without a full stop — verbatim.",
+    "Book 1 prints a displaced word at its end ('Collyer, A.A,High' — 'High' likely belongs before 'Temperature Engg. Thermoplastics'); recorded verbatim. Book 2 'Noyes.-Jeigler, J.M.' (sic).",
+    "DE-4 slot is 3-1-0 / credit 4 per VII-scheme row 3 ('DEPT. ELECTIVE COURSE-4, 3-1-0, 70, 20, 10, 100, 4'), matching printed L-T-P 3-1-0 on p.13.",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Blow Moulding Process Technology",
+   "name_print": "ADVANCED BLOW MOULDING PROCESS TECHNOLOGY",
+   "codes": [
+    "RPL076"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "BLOW MOLDING OF IRREGULAR PARTS Introduction, Blow molding light weight irregular shaped parts, Moving mould sections, Integral HDPE Handle lid, Double wall internally threaded lid, Drum integral Handling HDPE Ring (L-Ring), Caps and closures, Multiple parting lines, Industrial Double wall Blow Molding, Mold preparation and other considerations. TYPE OF AUTO FEEDING MECHANISMS Hopper loader, Screw feeders, Hopper mounting & emptying devices, Metering devices",
+    "2": "DIES/MOULDS Design guideline, Introduction – Die assembly and it parts – Flow of parison, Blowing of parison, Parison thickness control, Parison swell, Calculation of Die and Mandrel dimensions, Thread closer MOLD DESIGN BASICS Shrinkage, Parting line, Pinch off, molded neck finishing, Venting, Clamping tonnage, Part ejection, mould cooling,",
+    "3": "INTRODUCTION TO MOULDS Simple blow moulds, Stretched Blow moulds, Preform moulds, Mold materials Control system for Blow molding machines. Introduction, Temperature controlling system & elements, Hydraulic controlling system &elements, Electrical controlling system &elements, Micro process control, Types of sensors, Process control, Product Control",
+    "4": "MAINTENANCE Maintenance of machines, Preventive & breakdown maintenance of different Controlling mechanism, Start and shut down process, Handling of Dies, molds and accessories, Assembly of dies &molds, Dismantling of dies &molds, Cleaning of moulds and dies,",
+    "5": "TECHNICAL COST ANALYSIS Elements, Fixed and variable cost elements, Blow molding cost model – (case study for product to be manufacture), Break even point – cycle time, Annual production volume – Comparative cost analysis – (case study), Injection molding, Thermoforming , and Summary of cost comparisons"
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Blow Moulding of Plastics – Fisher"
+    },
+    {
+     "no": 2,
+     "book": "Design of Blow Moulds – R. C. Batra"
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.14) prints no subject code; code RPL076 mapped from the DEPARTMENTAL ELECTIVE-4 pool table (p.2).",
+    "Units carry embedded ALL-CAPS sub-headings in the print ('BLOW MOLDING OF IRREGULAR PARTS', 'TYPE OF AUTO FEEDING MECHANISMS', 'DIES/MOULDS', 'MOLD DESIGN BASICS', 'INTRODUCTION TO MOULDS', 'MAINTENANCE', 'TECHNICAL COST ANALYSIS') with no punctuation between sub-heading and following text — transcribed verbatim.",
+    "Print typos kept verbatim: 'Die assembly and it parts' (sic), 'Thermoforming , and' (stray comma), 'product to be manufacture' (sic), trailing comma at end of Unit-II and Unit-IV, 'system &elements' / 'dies &molds' (missing spaces).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Mould & Die Manufacturing",
+   "name_print": "MOULD & DIE MANUFACTURING",
+   "codes": [
+    "RPL077"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Mold Making: Introduction of mold parts, Mechanism of metal cutting, types of tools, influence of tool angles, Cutting fluids, Tool materials used including coated tools. Mould material, Material selection for mould making, Properties of steels for moulds. Nonferrous metals for moulds - Zinc base alloys and aluminium alloys, Beryllium Copper, Polyesters, Epoxies, Silicones. Review of various machining operations.",
+    "2": "Jig boring, Pentograph, Profile grinding, Electrical discharge machining Characteristics, physical processes, special technological features, types of EDM, design consideration &functions and technological planning. Applications of wire cut EDM in mold making. Electroforming for mold manufacturing - discussion of the process, materials for electroforming, machining for electroformed blanks",
+    "3": "HEAT TREATMENT PROCESSES, VARIOUS TYPES OF FURNACES. Hobbing for mold making – Discussion of the hobbing process & its advantages, elements of hobbing like hobbingpunch, shape of the hob, materials used for cavity, lubrication, and depth of hobbing, Hobbing presses, Hobbing operations & its economy with examples.",
+    "4": "Polishing technology in mold making: Definition of surface roughness, basis of polishing technology, Effect of mold materials on polishability, Types of polishing tools, Methods of polishing.Basic information on Electro sonic polishing. Principles of Electro deposition in damaged molding surfaces. Surface Texturing of molds - Process description, types of molds, types of patterns and mold shapes, metals that can be etched, mold preparation, limitations of chemical texturing.",
+    "5": "Computer aided Manufacturing and Measurement. Introduction to CAM; Automated Manufacturing system; Need of automation, Basic elements of automation, Levels of automation, Automation Strategies, Advantages &disadvantages of automation, classification of NC machine tools, NC Part Programming. Manual (word address format) programming- SIMPLE Examples:Canned cycles, Subroutine, and Macro. APT programming. Geometry, Motion and Additional statements, Macro- statement Open and closed loops. Control of point to point systems-Incremental open loop control, Incremental close loop, Absolute close loop; Control loop in contouring systems; Adaptive control."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "“Injection Mold Design” R.G.W.Pye, East West Press Pvt. Ltd., New Delhi."
+    },
+    {
+     "no": 2,
+     "book": "”Mold making handbook for Plastic Engineers”, KlusStokhert (Edt.),Hanser Publishers, NY,1983"
+    },
+    {
+     "no": 3,
+     "book": "“Computer Aided Engineering Design” AnupamSaxena& B. SahayAnamaya Publishers"
+    },
+    {
+     "no": 4,
+     "book": "“CAD/CAM” HP Groover& EW Zimmers, Jr. Prentice Hall India Ltd."
+    },
+    {
+     "no": 5,
+     "book": "“CAD/CAM” Theory and Practice Ibrahim Zeid& R Sivasubramaniam McGraw Hill"
+    },
+    {
+     "no": 6,
+     "book": "“A New Technology”, Bhattacharya, IB Publishers, 1984"
+    },
+    {
+     "no": 7,
+     "book": "Stoeckhert “Menning, Mold making handbook”, 2nd edition, Hanser Publishers, Munich."
+    },
+    {
+     "no": 8,
+     "book": "“Workshop Technology”, Vol I & II, W.A.J Chapman,ELBS."
+    },
+    {
+     "no": 9,
+     "book": "“Mold Engineering”, Herbert Rees, Hanser Publishers, NY. George Menges& Paul Mohren"
+    },
+    {
+     "no": 10,
+     "book": "“How To Make Injection Molds”, Hanser Publishers."
+    },
+    {
+     "no": 11,
+     "book": "“Plastics Mold Engineering”, DuBois; J. Harry and Pribble; W. I. (Eds.),SPE Polymer Technology"
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.15) prints no subject code; code RPL077 mapped from the DEPARTMENTAL ELECTIVE-4 pool table (p.2). Note this theory subject shares its name with the VII-semester lab RPL752 'Mould & Die Manufacturing Lab' (p.8) — distinct subjects (lab row kept separate per RULES §3).",
+    "Units and books span pp.15-16 (books 1-3 on p.15, books 4-11 continue on p.16).",
+    "Unit headings print as 'UNIT –III' and 'UNIT –IV' with spaced dashes on p.15 (elsewhere 'UNIT-I'/'UNIT-II') — verbatim.",
+    "Print typos kept verbatim: 'Pentograph' (Unit-II, sic), 'design consideration &functions' (missing space), 'hobbingpunch' (missing space), 'polishing.Basic' (missing space), 'Electro sonic polishing' (sic), 'Advantages &disadvantages', 'Examples:Canned' (missing space), book 2 'KlusStokhert' (sic), book 3 'AnupamSaxena& B. SahayAnamaya' (missing spaces), book 4 'HP Groover& EW Zimmers', book 5 'Ibrahim Zeid& R Sivasubramaniam', book 9 'George Menges& Paul Mohren'.",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Additives & Compounding",
+   "name_print": "ADDITIVES & COMPOUNDING",
+   "codes": [
+    "RPL078"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Additives for plastics Types & Mechanism of Additive: - Fillers, Antioxidants, Thermal Stabilizers, Lubricants, Plasticizers, Toughening-agents, Colorants –dyes & pigments, Fire retardants, coupling agents, blowing agents, Ultraviolet stabilizer, Antistatic agents, Anti blocking agents, Slip and anti-slip agents, processing aids, mold releasing agents.",
+    "2": "Compounding & Mixing – Selection of polymers and compounding-ingredients-general objectives-possibilities and limitation of additives into polymer matrices. Distributive and Dispersive mixing.",
+    "3": "Mixing equipment’s. Intensive and Extensive Mixers – Machine construction – specifications – temperature control system – operating characteristics. Pelletizers.",
+    "4": "Case studies on preference of one plastic to other and co-relation of properties of conventional materials and blends and alloys – case studies on application of blends and alloys.",
+    "5": "End Use Market for Plastics Principles of Material selection including consideration of conventional materials competitive with plastics – Case studies on material suitability (e.g. Plastics Gears, Feeding Bottle, Bowels for micro wave ovens). Survey and uses of plastics with reasons for their importance in major industries like, Agriculture, Packaging, Building, Transport, Electrical, electronics and Telecommunications, Medical and Furniture."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Al – Malaika; S. Golovoy; A and Wilkie(Eds), Chemistry and Technology of Polymer Additives, Black well Science Ltd, Oxford (1999)."
+    },
+    {
+     "no": 2,
+     "book": "Matthews; F. L. and Rawlings; R.D., Composite Materials, Engineering and Science Chairman and Hall, London (1994)."
+    },
+    {
+     "no": 3,
+     "book": "Plastics Testing Technology Hand Books by Vishu Shah."
+    },
+    {
+     "no": 4,
+     "book": "Hand Book of Plastics Test Methods by Brown R. P."
+    },
+    {
+     "no": 5,
+     "book": "Mascia; L., The Role of Additive in Plastics, Edward Arnold Publishers Ltd., U. K. (1974)."
+    },
+    {
+     "no": 6,
+     "book": "Murphy; John, Additives for Plastics Handbook, 2nd Edition, Elsevier Advanced Technology, Oxford."
+    },
+    {
+     "no": 7,
+     "book": "Polymer additive – by Muller."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus heading (p.17) prints 'ADDITIVES & COMPOUNDING'; DE-4 pool table (p.2) prints 'Additives and Compounding'; the DEPARTMENTAL ELECTIVE-6 pool table (p.3) prints 'Additives and Computing' for RPL088 — variant prints recorded (see doc-level quirk on DE-6 pool mismatch).",
+    "Detailed-syllabus page (p.17) prints no subject code; code RPL078 mapped from the DEPARTMENTAL ELECTIVE-4 pool table (p.2).",
+    "Page 17 prints 'UNIT-I:' with the unit text separated from the heading by a large blank run (page-break whitespace in the text layer); text transcribed verbatim.",
+    "Print typos kept verbatim: 'Additive: - Fillers' (sic), 'Colorants –dyes', 'Mixing equipment’s.' (sic), 'Bowels for micro wave ovens' (sic), book 1 'Al – Malaika; S. Golovoy; A and Wilkie(Eds)' (sic), book 2 'Chairman and Hall' (sic, cf. Chapman and Hall), book 7 'Polymer additive – by Muller.'",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Industrial Training",
+   "name_print": "INDUSTRIAL TRAINING",
+   "codes": [
+    "RPL753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_total": 100,
+    "total": 100
+   },
+   "subject_type": "core",
+   "quirks": [
+    "SCHEME-ROW-ONLY: RPL753 INDUSTRIAL TRAINING appears only in the VII-semester scheme table (p.2, row 8: 'RPL753 INDUSTRIAL TRAINING Core Dept. 0-0-3 [blank] [blank] 100 100 2'); NO detailed syllabus, units, COs or books are printed anywhere in this document.",
+    "Marks read as Sessional 100, Total 100 from row values (ESE and CT cells blank in the printed row; VII TOTAL row ESE 450 = 70x5+50+50 contains no Industrial Training component)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Project-1",
+   "name_print": "PROJECT-1",
+   "codes": [
+    "RPL754"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 6
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_total": 200,
+    "total": 200
+   },
+   "subject_type": "core",
+   "quirks": [
+    "SCHEME-ROW-ONLY: RPL754 PROJECT-1 appears only in the VII-semester scheme table (p.2, row 9: 'RPL754 PROJECT-1 Core Dept. 0-0-6 [blank] [blank] 200 200 3'); NO detailed syllabus, units, COs or books are printed anywhere in this document.",
+    "Marks read as Sessional 200, Total 200 (VII TOTAL row ESE 450 contains no Project component).",
+    "Same subject name family 'Project' as VIII-semester RPL852 PROJECT-2 (different code, semester, credits) — kept as separate rows."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Plastic Waste Management",
+   "name_print": "PLASTIC WASTE MANAGEMENT",
+   "codes": [
+    "RPL080"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction – Sources of plastics waste – Separation technologies, viz. Sorting – Manual, automated, Density separation, Flotation, Solvent separation, Melt filtration, Separation of resin from fiber in waste FRP.",
+    "2": "Plastics waste management – 4 R & I approach viz. Source reduction, Reuse, Repair, Recycling, and Incineration with examples. Plastics recycling, Classification Code of practice – Primary, secondary, territory and quaternary recycling with examples – Coextrusion and co- injection moulding – Waste plastics as fillers.",
+    "3": "Mechanical recycling of commonly used plastics, such as PP, PE. PET, etc. mixed waste recycling – co-extruded films waste, commingled waste Extrusion flow moulding for production of plastics lumbers, chemical recycling/feed Stoch recycling processes for recovery of oil, monomer and energy – thermolytic processes. Solvolysis – process outline for PMMA, PET, etc.",
+    "4": "Recycling of plastics by surface refurbishing – Application of a coating, polishing with examples – Plastics ageing – Environmental ageing – Thermal ageing – Chemical degradation – Wear and erosion.",
+    "5": "Biodegradable plastics – an overview. Environmental issues, policies and legislation in India. Plastics – Energy saving, Eco-friendly – Case studies. Life cycle analysis – a model."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Recycling and recovery of plastics, Hanser Publishers, New York, 1996- R.JohannerBrandrup."
+    },
+    {
+     "no": 2,
+     "book": "Plastics Waste Management, Disposal Recyding and reuse, Marcel Dekker, Inc. New York, 1993- Nabil Mustafa."
+    },
+    {
+     "no": 3,
+     "book": "Plastics and the Environment, Wiley Interscience, New York (2003)- Anthony L. Andrady (Ed.)."
+    },
+    {
+     "no": 4,
+     "book": "Plastics Recycling, Products and Processes, Hanser Publishers, New York, 1992- R.J. Ehrig."
+    },
+    {
+     "no": 5,
+     "book": "Technologies in Plastics Recyding, American Chemical Society, Washington, DC 1992."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.19) prints no subject code; code RPL080 mapped from the DEPARTMENTAL ELECTIVE-5 pool table (p.3).",
+    "Print typos kept verbatim: 'territory and quaternary recycling' (Unit-II, sic — cf. tertiary), 'PP, PE. PET' (stray full stop), 'Stoch recycling' (Unit-III, sic), 'co- injection' (stray space), books 2 and 5 'Recyding' (sic), book 1 'R.JohannerBrandrup' (sic).",
+    "DE-5 slot is 3-1-0 / credit 4 per VIII-scheme row 2 ('DEPT. ELECTIVE COURSE-5, 3-1-0, 70, 20, 10, 100, 4'), matching printed L-T-P 3-1-0 on p.19.",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Injection Moulding Technology",
+   "name_print": "ADVANCED INJECTION MOULDING TECHNOLOGY",
+   "codes": [
+    "RPL081"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction to light weighted formed / hollow injection Molded articles: Gas-assisted injection molding – Introduction, Field of application, Materials – Gas injection systems & mechanisms, Processing technology & steps, Discontinuous pressure generation Continuous pressure generation, Gas pressure control, Gas Injection units (through nozzle & into mould), Mould technology, Product properties, Design guidelines & quality, Troubleshooting. Injection molding with fusible core technology: Introduction, application and advantages.",
+    "2": "Injection molding machine for thermosets: Feeding system, Oil heated barrel, Oil temperature controller, Screw / barrel / nozzle design. Controlled low pressure injection molding: Concept of low- pressure moulding, Alternative injection moulding strategies, Operating conditions, Foaming agents, Equipments, Process Control, Thermoplastic solid molding, Structural foam molding.",
+    "3": "Hydraulic application: Hydraulic system, Multi pump, Variable pump, Accumulator, High capacity valves, Intensifier, Hydraulic safety gate. Introduction and process in brief: Co-injection (sandwich) molding, Injection Blow Moulding, Injection Stretch Blow Moulding – Resin Transfer Moulding, Injection Molding Decoration, Assembly Techniques (introduction only), Molding-injection Assembly – Chemical Bonding system, Thermal welding Method, Assembly with Fasteners, Orientation and Warpage Prediction in polymer processing, Lamellar injection moulding (LIM) process for multi phase polymer System.",
+    "4": "Type of molds: Introduction to mold design only, Hot runner moulds, Gas – assisted injection moulds, Low– pressure injection moulds, Moulds for two - colour/ two component molding, Moulds for rotating core process, Moulds for retractable core process, Reaction injection moulds. Introduction to packaging products its process & printing Techniques: Equipment’s, Auto labelling, Surface treatment, Printing techniques &it's process.",
+    "5": "Technical cost analysis: Introduction to Technical cost modeling, Cost analysis method, Direct & indirect cost elements, Fixed and variable cost elements, Injection molding cost model – ( case study for product to be manufacture), Breakeven point – cycle time, Annual production volume, Comparative cost analysis – (case study), Summary of cost comparisons."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Plastic Engineering Handbook – Berrins."
+    },
+    {
+     "no": 2,
+     "book": "Injection Moulding Theory and Practice – Rubins."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus heading (p.20) prints 'ADVANCED INJECTION MOULDING TECHNOLOGY'; DE-5 pool table (p.3) prints 'Advanced Injection Moulding Process Technology' — the word 'Process' is absent from the detailed heading; variant name prints recorded.",
+    "Detailed-syllabus page (p.20) prints no subject code; code RPL081 mapped from the DEPARTMENTAL ELECTIVE-5 pool table (p.3).",
+    "Print typos kept verbatim: 'Discontinuous pressure generation Continuous pressure generation' (missing punctuation), 'low- pressure' (stray space), 'Gas – assisted' / 'Low– pressure' / 'two - colour' (stray spaces around dashes), 'Equipment’s', 'techniques &it's process' (sic), '( case study' (stray space), books 'Berrins'/'Rubins' (sic).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Surface Coating Technology",
+   "name_print": "SURFACE COATING TECHNOLOGY",
+   "codes": [
+    "RPL082"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Origin and development of surface coatings.Constituents of paint, varnishes and lacquers.",
+    "2": "Functions of coating and mechanism of film formation.Characteristics of natural and synthetic film formation.",
+    "3": "Pigments and pigmentation.Dispersion techniques. Fundamentals of coating formulations based on natural and synthetic polymers. Role of wetting agents, driers, solvents and plasticizers in coatings.",
+    "4": "Surface preparation and pretreatments.Rheological behaviors of coatings.Application methods and curing techniques.",
+    "5": "Specialty coatings like water based, powder and high solid, etc. industrial and architectural finishes."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Organic Coatings: Science and Technology, Zeno W. Wicks, John Wiley and Sons Ltd"
+    },
+    {
+     "no": 2,
+     "book": "Surfactants in Polymers, Coatings, Inks and Adhesives, Edited by D.R. Karsa,"
+    },
+    {
+     "no": 3,
+     "book": "Coatings Materials and Surface Coating ; Arthur A. Tracton"
+    },
+    {
+     "no": 4,
+     "book": "DonatasSatas, Arthur A Tracton , Coatings Technology Handbook"
+    },
+    {
+     "no": 5,
+     "book": "Coatings Technology: Fundamentals, Testing, and Processing Techniques Arthur A Tracton,"
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.21) prints no subject code; code RPL082 mapped from the DEPARTMENTAL ELECTIVE-5 pool table (p.3).",
+    "Units are terse one/two-line prints; missing spaces kept verbatim ('coatings.Constituents', 'formation.Characteristics', 'pigmentation.Dispersion', 'pretreatments.Rheological', 'coatings.Application').",
+    "Book typos kept verbatim: book 2 and book 5 end with a trailing comma; book 3 'Surface Coating ; Arthur' (spaced semicolon); book 4 'DonatasSatas' (missing space), 'Tracton , Coatings'.",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Secondary Processing Techniques",
+   "name_print": "SECONDARY PROCESSING TECHNIQUES",
+   "codes": [
+    "RPL083"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "FRP Laminates: Introduction, FRP processing methods contact molding hand lay-up, spray up method vacuum bag & pressure bag moulding, filament welding, centrifugal casting, pultrusion, matched die molding laminates, definition of terms high, pressure laminating process, types of machinery, impregnation systems – decorative and industrial laminates, continuous high-pressure laminating process, application.",
+    "2": "Cellular Plastics: Introduction process to create foam in resins mechanical foaming, chemical foaming, physical foaming processes to shape and solidify foams low pressure foam moulding, high pressure foam moulding, RIM extrusion foaming, casting foams, steam chest moulding structural foam moulding applications.",
+    "3": "Machinery & joining of Plastics: Introduction – Importance of machining methods viz. cutting, drilling, blending, filling, etc. Joining principles cohesion Principle, adhesion principle- solvent cementing, DOP cementing, welding, vibration welding, hot plate welding, ultrasonic welding, Adhesive bonding examples: Mechanical fasteners.",
+    "4": "Casting Processes: Dip casting, slush casting, continuous casting, cell casting, processes and applications. Calendaring – Types of Calendaring systems.",
+    "5": "Coating Processes: Roller coating, powder coating, fluidized bed coating, electrostatic spray coating, processes and applications. Other Secondary Processes: Printing, painting, hot stamping, in mould decoration, Electro plating and vacuum metallizing, decorating."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Plastics Finishing and Decoration, Van Nostrand Reinhold company, New York, 1986- DonatarSatar."
+    },
+    {
+     "no": 2,
+     "book": "Decorating Plastics, Hanser Publishers, New York, 1986 James M. Margolis."
+    },
+    {
+     "no": 3,
+     "book": "Plastics engineering hand book, By society of the Plastics industry- Berins."
+    },
+    {
+     "no": 4,
+     "book": "Manufacturing of polymer Composites, Chapman and Hall, London (1995)-B.T.Astrom."
+    },
+    {
+     "no": 5,
+     "book": "Plastics Processing Data Book, Van Nostrand Reinhold, New York, 1990- DonalV.Rosato& Dominick V.Rosato."
+    },
+    {
+     "no": 6,
+     "book": "Plastics: Materials and Processing Practice- Hall, New Jersey, 1996- A. Brent Strong."
+    },
+    {
+     "no": 7,
+     "book": "Joining Plastics in Production, The Welding Institute, Cambridge, 1988- M.N.Watson."
+    }
+   ],
+   "quirks": [
+    "Detailed-syllabus page (p.22) prints no subject code; code RPL083 mapped from the DEPARTMENTAL ELECTIVE-5 pool table (p.3).",
+    "Print typos kept verbatim: 'filament welding' (Unit-I, sic — cf. filament winding), 'definition of terms high, pressure laminating process' (sic), 'Introduction process to create foam in resins mechanical foaming' (missing punctuation), 'DOP cementing' (sic), 'Calendaring – Types of Calendaring systems' (sic, cf. Calendering), book 1 'DonatarSatar' (sic), book 3 'By society of the Plastics industry- Berins' (sic), book 5 'DonalV.Rosato& Dominick V.Rosato' (missing space).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Technology of Elastomers",
+   "name_print": "TECHNOLOGY OF ELASTOMERS",
+   "codes": [],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Sources and history of natural and synthetic elastomers, significance of structure of elastomers.Mastication, compounding ingredients and methods of compounding.Reinforcing fillers and mechanism of reinforcement of elastomers.",
+    "2": "Production of different grades of natural rubber from latex, modified and natural rubber derivatives, Reactions of rubber, application of latex, technically specified rubber, chemistry and technology of vulcanization.",
+    "3": "Manufacturing processes, properties and application of synthetic elastomers viz. styrene butadiene rubers, Acrylonitrile-butadiene rubber, butyl rubber, polychloroprene rubber.",
+    "4": "Manufacturing processes, properties and applications of ethylene-propylene rubber, polyurethane elastomers, chlorosulphonated polyethylene, polysulphide and silicon, thermoplastic elastomers.",
+    "5": "Industrial fabrication of rubber article such as transmission belts, hoses, tyres, purged goods, compounding and processing techniques, direct manufacture of articles from latex."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Rubber toughened Plastics, American Society- C. Keith Riew."
+    },
+    {
+     "no": 2,
+     "book": "Rubber Technology” Hanser Gardner Publications- John Dick."
+    }
+   ],
+   "quirks": [
+    "NO CODE PRINTED: the detailed-syllabus page (p.23) prints no subject code, and the printed DEPARTMENTAL ELECTIVE-6 pool table (p.3) lists RPL085-RPL088 with names duplicating the DE-4 pool ('Advanced Polymeric Materials', 'Advanced Blow Moulding Process Technology', 'Mould & Die Manufacturing', 'Additives and Computing') that do NOT match the four printed DE-6 syllabus headings — code left blank per zero-guessing rule (see doc-level flag).",
+    "Subject sits under the printed heading 'DEPARTMENT ELECTIVES – 6' (p.23); DE-6 slot is 3-0-0 / credit 3 per VIII-scheme row 3 ('DEPT. ELECTIVE COURSE-6, 3-0-0, 70, 20, 10, 100, 3'), matching printed L-T-P 3-0-0 on p.23.",
+    "Print typos kept verbatim: 'elastomers.Mastication' / 'compounding.Reinforcing' (missing spaces), 'rubers' (Unit-III, sic), 'polysulphide and silicon' (sic), 'purged goods' (Unit-V, sic), 'rubber article' (sic), book 2 prints an orphan closing double-quote ('Rubber Technology” Hanser...').",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Extrusion Process Technology",
+   "name_print": "ADVANCED EXTRUSION PROCESS TECHNOLOGY",
+   "codes": [],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "EXTRUSION LINES (with calibration system and takeoff / haul off units) Dies, Pipes, Corrugated pipes, Nylon braided PVC hose pipe, PVC reinforced PVC suction hose pipe, Post extrusion process BLOWN FILM EXTRUSION Dies, Tubular film extrusion, Blown film Co – extrusion, Polymers, combinations and properties, Advantages. FLAT FILM & SHEETS – Dies, Introduction, Calendaring mechanisms, Polishing stack operation.",
+    "2": "MANUFACTURE OF ORIENTED FILMS Advantages, Process, Temperature control of film System, Stretching units EXTRUSION COATING & LAMINATION Dies, Introduction & Advantages, Paper film & foil lamination, Material combination, Adhesion, Pretreatment, Co - extrusion as adhesion promoter",
+    "3": "EXTRUSION OF FOAMED INTERMEDIATE PRODUCTS. Dies, Manufacturing process, Raw material, Post extrusion, Single stage & multi stage process, Dies & calibrating devices. ROD EXTRUSION OF PTFE AND UHMWPE, Description of the process, Processing machine, Extrusion dies.",
+    "4": "PACKAGING Introduction & Advantage, Monolayer & Multilayer Packaging, Additives & Plastic materials, Equipments, Bag making machinery, Thermoform / fill / seal packaging, Vertical form / fill / seal packaging, Labeling, Printing & welding Maintenance (Electrical & Mechanical) PROCESS CONTROL SYSTEM – Introduction, Temperature controlling system & elements, Hydraulic Controlling system & elements, Electrical controlling system & elements, Micro process control, Type of sensors, Process control, Product control.",
+    "5": "TECHNICAL COST ANALYSIS, Introduction to Technical cost modeling, Cost analysis method, Direct & indirect cost elements, Fixed and variable cost elements, Extrusion molding cost model – ( case study for product to be manufacture), Break even point – cycle time, Annual production volume –Comparative cost analysis – ( case study), Summary of cost comparisons."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Plastic Extrusion Technology – Fisher"
+    },
+    {
+     "no": 2,
+     "book": "Plastics Engineering Hand Book (Spi) – Berrins"
+    },
+    {
+     "no": 3,
+     "book": "Plastic Extrusion Technology Hand Book- Levy"
+    },
+    {
+     "no": 4,
+     "book": "Hand Book Of Polymeric Foams & Foam Technology-Klempner"
+    }
+   ],
+   "quirks": [
+    "NO CODE PRINTED: the detailed-syllabus page (p.24) prints no subject code, and the printed DEPARTMENTAL ELECTIVE-6 pool table (p.3) lists RPL085-RPL088 with names duplicating the DE-4 pool that do NOT match the printed DE-6 syllabus headings — code left blank per zero-guessing rule (see doc-level flag).",
+    "Unit-V is printed as 'UNIT V' (no hyphen) on p.24, unlike 'UNIT-I'..'UNIT-IV' — verbatim.",
+    "Units carry embedded ALL-CAPS sub-headings ('EXTRUSION LINES', 'BLOWN FILM EXTRUSION', 'FLAT FILM & SHEETS', 'MANUFACTURE OF ORIENTED FILMS', 'EXTRUSION COATING & LAMINATION', 'EXTRUSION OF FOAMED INTERMEDIATE PRODUCTS.', 'ROD EXTRUSION OF PTFE AND UHMWPE', 'PACKAGING', 'Maintenance (Electrical & Mechanical)', 'PROCESS CONTROL SYSTEM', 'TECHNICAL COST ANALYSIS') with no punctuation between sub-heading and following text — transcribed verbatim.",
+    "Print typos kept verbatim: 'Calendaring mechanisms' (sic, cf. Calendering), 'Co - extrusion' (stray spaces), 'volume –Comparative' (missing space), '( case study' (stray space), book 2 'Berrins' (sic).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Applications of Nanotechnology in Polymers",
+   "name_print": "APPLICATIONS OF NANOTECHNOLOGY IN POLYMERS",
+   "codes": [],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Importance and emergence of nanotechnology, Size dependence of properties, crystal structure, energy bands, insulators, semiconductors and conductors, gaps of semiconductors, Fermi surfaces, localized particles.",
+    "2": "Improvements in solar energy conversion and storage; better energy efficient lighting; stronger and newer materials to improve energy transportation efficiency; use of low-energy chemical pathways to break down toxic substances for remediation and restoration; Device applications, Use in hydrogen Storage and Production, Fuel Cells, Battery, Carbon Nanotubes for energy storage.",
+    "3": "Polymeric Nanoelectronics, Molecular Electronics Components, Concepts of Nano polymer based switches and complex molecular devices, Molecular rectifying diode switches, Polymeric nanophotonic, Photonic Properties of Nanomaterials; Photon Absorption, Emission & Scattering, Band gap of Nanoscale Semiconductors, Laser & uses of Quantum Dots, Lasers based on Quantum Confinement Near Field Light, Optical Tweezers, Photonic Crystals, Semiconductor nanowires, Basics of Nanoelectronics& Nano computer architectures.",
+    "4": "Nano polymers in Medicines, Nanomedicine, Molecular design using biological selection, DNA and protein based nanocircuitry, Neurons for network formation, DNA based nanomechanical devices, Drug Delivery.",
+    "5": "Therapeutic action of nanoparticles and nanodevices, Targeted, Nontargeted delivery, Controlled drug release; exploiting novel delivery routes using nanoparticles; gene therapy using nanoparticles."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Organic and Inorganic Nanostructures/ Nabok/ Artech House, 2005."
+    },
+    {
+     "no": 2,
+     "book": "Nanoscience: Nanotechnologies and Nanophysics/ Dupas, Houdy, Lahmani/ Springer-Verlag Berlin Heidelberg ,2007."
+    },
+    {
+     "no": 3,
+     "book": "Nanostructured Materials and Nanotechnology/ H.S. Nalwa/ Academic Press , 2002."
+    },
+    {
+     "no": 4,
+     "book": "A Textbook of Nanoscience and Nanotechnology/ Pradeep/ Tata McGraw Hill Education Pvt. Ltd. 2012."
+    }
+   ],
+   "quirks": [
+    "NO CODE PRINTED: the detailed-syllabus page (p.25) prints no subject code, and the printed DEPARTMENTAL ELECTIVE-6 pool table (p.3) lists RPL085-RPL088 with names duplicating the DE-4 pool that do NOT match the printed DE-6 syllabus headings — code left blank per zero-guessing rule (see doc-level flag).",
+    "Print typos kept verbatim: 'Nanoelectronics& Nano computer architectures' (missing space, Unit-III), 'Polymeric nanophotonic' (sic), 'Heidelberg ,2007' / 'Press , 2002' (stray spaces before commas); book titles separated by slashes '/' in the print.",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Polyurethane Technology",
+   "name_print": "POLYURETHANE TECHNOLOGY",
+   "codes": [],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "deptt-elective",
+   "units": {
+    "1": "Introduction to polyurethane- chemistry and materials of polyurethane manufacture: basic reaction, cross linking in polyurethane, important building blocks for polyurethane (isocynates, polyols, amines and additives) - The manufacturer of polyurethanes (the process, parameters and controls).",
+    "2": "Polyurethane processing-basic design principles of polyurethane processing equipment -steps in the polyurethane processing. Flexible foams-(production, properties and application slabstock foam, carpet backing, flexible molded foams &semirigidmolded foams. Reinforced RIM – trends in the use of RIM and RRIM.",
+    "3": "Rigid polyurethane foams-chemistry of raw materials, manufacturing of rigid polyurethane (manufacturing of buns, panels, foaming of applications, molded rigid foams), properties, relationship between production methods and properties- application of rigid polyurethane. Polyurethane skin integral foam-production, properties and applications.",
+    "4": "Solid polyurethane materials- polyurethane casting systems (cast elastomers and casting resins)-thermoplastic polyurethane elastomers: productions / processing, properties and applications, polyurethane, pains, technique and coatings, adhesives builders, elastomers fibers, manufacture / processing and applications.",
+    "5": "Determination of composition and testing of polyurethane-chemical compositions, detection methods, identification of functional groups, determinations of properties materials and products (Characterisation, physics/mechanical, temp dependence, chemical performance, combustibility) polyurethane and environment health and safety: making and using polyurethane safety."
+   },
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Polyurethane Hand Book, Hanser Publication Munich- Dr.GumterOertal (ed.)"
+    },
+    {
+     "no": 2,
+     "book": "The ICI Polyurethane book -published journals by ICI, John Wiley and sons NYGeorge woods."
+    }
+   ],
+   "quirks": [
+    "NO CODE PRINTED: the detailed-syllabus page (p.26) prints no subject code, and the printed DEPARTMENTAL ELECTIVE-6 pool table (p.3) lists RPL085-RPL088 with names duplicating the DE-4 pool that do NOT match the printed DE-6 syllabus headings — code left blank per zero-guessing rule (see doc-level flag).",
+    "Print typos kept verbatim: 'isocynates' (Unit-I, sic), 'equipment -steps' (stray space), '&semirigidmolded' (missing space), 'application slabstock foam' (missing punctuation, Unit-II), 'pains, technique and coatings' (Unit-IV, sic — cf. paints), 'physics/mechanical' (sic), book 1 'Dr.GumterOertal' (sic), book 2 'NYGeorge woods' (missing space).",
+    "No course outcomes (COs), K-levels, objectives, eligibility or prerequisites printed in this document."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Seminar",
+   "name_print": "SEMINAR",
+   "codes": [
+    "RPL851"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_total": 100,
+    "total": 100
+   },
+   "subject_type": "core",
+   "quirks": [
+    "SCHEME-ROW-ONLY: RPL851 SEMINAR appears only in the VIII-semester scheme table (p.3, row 4: 'RPL851 SEMINAR Core Dept. 0-0-3 [blank] [blank] 100 100 2'); NO detailed syllabus, units, COs or books are printed anywhere in this document.",
+    "Marks read as Sessional 100, Total 100 from row values (ESE and CT cells blank in the printed row; VIII TOTAL row ESE 560 = 70x3+350 contains no Seminar component)."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Project-2",
+   "name_print": "PROJECT-2",
+   "codes": [
+    "RPL852"
+   ],
+   "semester": 8,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 12
+   },
+   "credit": 12,
+   "marks": {
+    "ese_te_pe": 350,
+    "sessional_total": 250,
+    "total": 600
+   },
+   "subject_type": "core",
+   "quirks": [
+    "SCHEME-ROW-ONLY: RPL852 PROJECT-2 appears only in the VIII-semester scheme table (p.3, row 5: 'RPL852 PROJECT-2 Core Dept. 0-0-12 350 [blank] 250 600 12'); NO detailed syllabus, units, COs or books are printed anywhere in this document.",
+    "Marks read as ESE 350, Sessional 250, Total 600 (VIII TOTAL row ESE 560 = 70+70+70+350 confirms 350 in the ESE column; sessional 380 = 10+10+10+100+250).",
+    "Same subject name family 'Project' as VII-semester RPL754 PROJECT-1 (different code, semester, credits) — kept as separate rows."
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [
+  {
+   "kind": "cover_print",
+   "print": "STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH 4th YEAR PLASTICS ENGINEERING ON CHOICE BASED CREDIT SYSTEM (EFFECTIVE FROM THE SESSION: 2019-20)",
+   "locator": "p.1"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "SEVENTH SEMESTER — [S.No | Subject Code | Subject Name | Department | L-T-P | Th/Lab Marks: ESE | CT | TA | Sessional | Total | Credit] 1. OPEN ELECTIVE COURSE-1 / Other Dept., 3-0-0, 70, 20, 10, 100, 3. 2. DEPT. ELECTIVE COURSE-3 / Core Dept., 3-0-0, 70, 20, 10, 100, 3. 3. DEPT. ELECTIVE COURSE-4 / Core Dept., 3-1-0, 70, 20, 10, 100, 4. 4. RPL701 Computer Aided Design / Core Dept., 3-1-0, 70, 20, 10, 100, 4. 5. RPL702 Polymer Composites / Core Dept., 3-0-0, 70, 20, 10, 100, 3. 6. RPL751 Computer Aided Design Lab / Core Dept., 0-0-2, 50, [blank], 50, 100, 1. 7. RPL752 Mould & Die Manufacturing Lab / Core Dept., 0-0-2, 50, [blank], 50, 100, 1. 8. RPL753 INDUSTRIAL TRAINING / Core Dept., 0-0-3, [blank], [blank], 100, 100, 2. 9. RPL754 PROJECT-1 / Core Dept., 0-0-6, [blank], [blank], 200, 200, 3. TOTAL [blank] [blank] [blank] 450 100 450 1000 24.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "scheme_table",
+   "print": "EIGHT SEMESTER — [same column header] 1. OPEN ELECTIVE COURSE-2 / Other Dept., 3-0-0, 70, 20, 10, 100, 3. 2. DEPT. ELECTIVE COURSE-5 / Core Dept., 3-1-0, 70, 20, 10, 100, 4. 3. DEPT. ELECTIVE COURSE-6 / Core Dept., 3-0-0, 70, 20, 10, 100, 3. 4. RPL851 SEMINAR / Core Dept., 0-0-3, [blank], [blank], 100, 100, 2. 5. RPL852 PROJECT-2 / Core Dept., 0-0-12, 350, [blank], 250, 600, 12. TOTAL [blank] [blank] [blank] 560 60 380 1000 24.",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_slot_print",
+   "print": "SEVENTH SEMESTER row 1: OPEN ELECTIVE COURSE-1, Other Dept., L-T-P 3-0-0, ESE 70, CT 20, TA 10, Total 100, Credit 3. Row 2: DEPT. ELECTIVE COURSE-3, Core Dept., 3-0-0, 70, 20, 10, 100, 3. Row 3: DEPT. ELECTIVE COURSE-4, Core Dept., 3-1-0, 70, 20, 10, 100, 4.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_slot_print",
+   "print": "EIGHT SEMESTER row 1: OPEN ELECTIVE COURSE-2, Other Dept., L-T-P 3-0-0, ESE 70, CT 20, TA 10, Total 100, Credit 3. Row 2: DEPT. ELECTIVE COURSE-5, Core Dept., 3-1-0, 70, 20, 10, 100, 4. Row 3: DEPT. ELECTIVE COURSE-6, Core Dept., 3-0-0, 70, 20, 10, 100, 3.",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "DEPARTMENTAL ELECTIVE-3 — Sub. Code / Subject Name: RPL070 Testing of Plastics Materials & Product; RPL071 Biodegradable Polymers; RPL072 Speciality Polymers; RPL073 Polymer blends & alloys.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "DEPARTMENTAL ELECTIVE-4 — Sub. Code / Subject Name: RPL075 Advanced Polymeric Materials; RPL076 Advanced Blow Moulding Process Technology; RPL077 Mould & Die Manufacturing; RPL078 Additives and Compounding.",
+   "locator": "p.2"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "DEPARTMENTAL ELECTIVE-5 — Sub. Code / Subject Name: RPL080 Plastic Waste Management; RPL081 Advanced Injection Moulding Process Technology; RPL082 Surface Coating Technology; RPL083 Secondary Processing Techniques.",
+   "locator": "p.3"
+  },
+  {
+   "kind": "elective_pool_list",
+   "print": "DEPARTMENTAL ELECTIVE-6 — Sub. Code / Subject Name: RPL085 Advanced Polymeric Materials; RPL086 Advanced Blow Moulding Process Technology; RPL087 Mould & Die Manufacturing; RPL088 Additives and Computing. [NOTE: listed names duplicate the DE-4 pool (p.2) and do NOT match the four printed DE-6 detailed syllabus headings (Technology of Elastomers p.23, Advanced Extrusion Process Technology p.24, Applications of Nanotechnology in Polymers p.25, Polyurethane Technology p.26); 'Additives and Computing' differs from DE-4's 'Additives and Compounding' — printed as-is.]",
+   "locator": "p.3"
+  },
+  {
+   "kind": "note",
+   "print": "Students who was not-place in any company, it is mandatory to select any one subject from DE-5 & 6.",
+   "locator": "p.3"
+  },
+  {
+   "kind": "note",
+   "print": "Students who was place in any company, it is mandatory to select MOOC subject in both DE-5 & 6.",
+   "locator": "p.3"
+  },
+  {
+   "kind": "mooc_list",
+   "print": "S.No. / MOOC Subject Name — 5. Plastic Waste M  [print truncates the subject name mid-word; verbatim fragment]",
+   "locator": "p.3"
+  },
+  {
+   "kind": "mooc_list",
+   "print": "S.No. / MOOC Subject Name — RPL089 Plastic Working of Metallic Materials",
+   "locator": "p.3"
+  },
+  {
+   "kind": "mooc_list",
+   "print": "S.No. / MOOC Subject Name — RME084 Industrial Safety Engineering",
+   "locator": "p.3"
+  },
+  {
+   "kind": "separator_print",
+   "print": "OR  [printed twice between the MOOC table fragments on p.3]",
+   "locator": "p.3"
+  },
+  {
+   "kind": "section_divider",
+   "print": "SEMESTER-VII",
+   "locator": "p.4"
+  },
+  {
+   "kind": "section_divider",
+   "print": "SEMESTER-VIII",
+   "locator": "p.18"
+  }
+ ],
+ "quirks": [
+  "Cover print (p.1): 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH 4th YEAR PLASTICS ENGINEERING ON CHOICE BASED CREDIT SYSTEM (EFFECTIVE FROM THE SESSION: 2019-20)' — canonical course BTech (RULES §1b); branch print 'PLASTICS ENGINEERING'; session print '2019-20'.",
+  "No course outcomes (COs), K-levels, printed objectives, eligibility or prerequisites anywhere in this document; cos/objectives/eligibility keys omitted per zero-guessing rule.",
+  "No per-subject contact-hours/'lectures' counts printed; lectures_per_unit omitted. No Text-Books vs References split: every detailed page prints one combined 'Books and References:' list, recorded under textbooks.",
+  "Detailed-syllabus pages (pp.5-26) print codes only on the CAD-lab page ('NPL-752', p.8); all other codes mapped from the VII/VIII scheme tables and DE-3/4/5 elective pool tables (pp.2-3) by printed name match.",
+  "DE-6 pool table (p.3) prints RPL085-RPL088 with names duplicating the DE-4 pool (p.2); the four printed DE-6 detailed syllabi (pp.23-26: Technology of Elastomers, Advanced Extrusion Process Technology, Applications of Nanotechnology in Polymers, Polyurethane Technology) carry no codes anywhere in the document — codes left blank per zero-guessing rule (doc-level flag recorded).",
+  "Lab code print variant: p.8 prints 'NPL-752' while the scheme table (p.2) prints 'RPL752' for Mould & Die Manufacturing Lab — both forms recorded on the subject.",
+  "Scheme-table lab rows (RPL751, RPL752) print an extra blank cell between the two 50s (CT cell unprinted); Industrial Training/Seminar rows print blank ESE and CT cells — read against TOTAL-row cross-checks (VII: ESE 450 = 70x5+50+50, TA 450 = 10x5+50+50+100+200; VIII: ESE 560 = 70x3+350, sessional 380 = 10x3+100+250).",
+  "MOOC table fragments (p.3) print truncated/detached rows: '5. Plastic Waste M' (name cut mid-word in print), 'RPL089 Plastic Working of Metallic Materials', 'RME084 Industrial Safety Engineering', separated by printed 'OR' tokens — recorded verbatim in non_subject_rows; RME084 is a Mechanical-Engineering-department MOOC code appearing in this Plastics document.",
+  "Print-name variants between pool tables and detailed headings: DE-3 pool 'Testing of Plastics Materials & Product' vs heading 'TESTING OF PLASTICS MATERIAL AND PRODUCT' (p.9); DE-5 pool 'Advanced Injection Moulding Process Technology' vs heading 'ADVANCED INJECTION MOULDING TECHNOLOGY' (p.20, word 'Process' absent); DE-4 pool 'Additives and Compounding' vs heading 'ADDITIVES & COMPOUNDING' (p.17); DE-6 pool 'Additives and Computing' (sic).",
+  "Mid-word line breaks without hyphens in the print were joined with no hyphen ('polyphospha'/'zenes' → 'polyphosphazenes', p.11); multiple-space runs and justified one-word-per-line spacing (Biodegradable Polymers Unit-IV, p.10) collapsed to single spaces; word-level content unaltered.",
+  "RPL077 Mould & Die Manufacturing (theory, 3-1-0) shares its name with RPL752 Mould & Die Manufacturing Lab (0-0-2) — distinct rows per RULES §3 (labs are distinct rows)."
+ ],
+ "flags": [
+  "DE-6-CODES-UNPRINTED: the four DE-6 subjects (Technology of Elastomers, Advanced Extrusion Process Technology, Applications of Nanotechnology in Polymers, Polyurethane Technology) print no codes in this document; the printed DE-6 pool table (p.3) lists RPL085-RPL088 under DE-4-duplicate names. Codes left blank per zero-guessing rule; RPL085-RPL088 ownership needs owner adjudication before any Tier-0 assignment."
+ ]
+}
