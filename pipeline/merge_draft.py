@@ -3141,5 +3141,173 @@ def run(mode, drafts_dir):
     return 0
 
 
+
+
+# ---- B32 (CRON-20261105-B32) per-key adjudications, evidence-recorded ----
+TIER2_OVERRIDES.update({
+    "01_btech_open-electives_2019-20::05::renewable-energy-resources": {
+        "action": "ALLOW",
+        "reason": "B32 TIER2 same-subject era update STAND (recorded name-variant class): draft 'Renewable Energy Resources' (ROE086, 2019-20 Open-Electives-II print, 5 verbatim units) vs renewable-energy-sources (KAG-057;BAG057;NAG-081;KOE074, 2020-21 AG establishing): probe fullJ=0.94, per-unit 0.84-0.96, unit1 VERBATIM opening ('Introduction: Various non-conventional energy resources- Introduction, availability, classification, relative merits and demerits. Solar Cells: Theory of...') — the same renewables canon (solar, wind, biomass, geothermal, fuel cells); 'Resources'/'Sources' is the recorded singular/plural-adjacent print-variant class (B10 0.982 / B31 operation-research singular/plural). Draft 2019-20 OLDER than the row's 2020-21 session so backfill-empty only (RULES §3); ROE086 (unowned) joins as the 2019-20 OE-era code."},
+    "02_btech_pe-ipe_syllabus_2020-21::26::project-management": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "project-management",
+        "keep_published_codes": {"KPI072": "facility-planning-design"},
+        "reason": "B32 older-draft-never-steals-a-code adjudication (recorded B19/B20 older-print guard + B29 1841 turbo-machines class): draft 'Project Management' (2020-21 PE/I-PE print, 5 verbatim units) carries an INTRA-DOC code clash — detail p.53 prints 'KPI 072' but the doc's own contents/pool print KPI 073 (clash quirk recorded by the draft). KPI072's published owner is facility-planning-design (all_codes BPI052;RMI062;KPI072): the 2021-22 PE/I-PE y4 print (this same commit's doc-07 draft: KPI072=Facility Planning and Design, KPI073=Project Management) and the 2024-25 ME-Ind scheme (B29) BOTH corroborate KPI072=Facility Planning; the 2020-21 print is OLDER than both. Ruling: UPDATE project-management by name identity (fullJ 0.46 vs the row's RAU072 2019-20 canon, u3-u5 0.51-0.64 — the era-reorganized same PM course; draft session 2020-21 newer than the row's 2019-20 so units fieldwise-win per RULES §3); KPI073 (the contents/pool print, corroborated by the 2021-22 print) joins project-management; KPI072 STAYS with facility-planning-design and the 2020-21 p.53 'KPI 072' print is recorded as a narrative history mention (dual-use slot across sessions, B19/B20 class)."},
+    "04_btech_pe-ipe_y3_evaluation-scheme_2024-25::07::ergonomics-workplace-design": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "ergonomics-workplace-design",
+        "keep_published_codes": {"BPI052": "facility-planning-design"},
+        "reason": "B32 same-session code-slot collision keep (recorded B27 RCS653 / B29 1835 computational-fluid-dynamics class): draft 'Ergonomics & Workplace Design' (BPI052, 2024-25 PE/I-PE y3 evaluation-scheme print, 5 verbatim units). BPI052's published owner is facility-planning-design (primary BPI052, session 2024-25 — SAME session, established by the 2024-25 ME-Ind y3 evaluation-scheme print, B29): newest-print-wins cannot break a same-session tie, so the published owner keeps the code. The update lands on the name-exact ergonomics-workplace-design row (owns BPI051 — the 2024-25 ME-Ind scheme's Ergonomics code; probe fullJ=1.00, all 5 units VERBATIM-identical between the PE/I-PE and ME-Ind 2024-25 prints — the same NEP-era course printed in both branch docs); BPI052 dropped to narrative; the 2024-25 BPI052 cross-branch double print (ME-Ind Facility Planning vs PE/I-PE Ergonomics) recorded for owner reconciliation."},
+    "05_btech_pe-ipe_y3_syllabus_2018-19::18::instrumentation-and-control": {
+        "action": "FORCE_APPEND",
+        "reason": "B32 wrong-subject FORCE_APPEND (recorded B23 sensors/transducers + B28 01::15 Modelling-and-Simulation class): draft 'INSTRUMENTATION AND CONTROL' (RPI061, 2018-19 PE/I-PE y3 DE-IV print, 5 verbatim units) fuzzy 87/4-hits instrumentation-and-process-control (ECH507;NCH-507, 2009-10 FT-family print): probe fullJ=0.02, per-unit <=0.03, only 3 generic shared terms (control, measurement, principle). The 2009-10 row is the process-control course (elements of measurement, indicating/recording instruments, process dynamics); the 2018-19 print is the basic-instrumentation course (accuracy/precision, error statistics, IEEE standards, transducers/signal conditioning). Different subjects sharing a name family; appends as its own row with a cross-reference note to instrumentation-and-process-control; RPI061 (unowned) joins it."},
+    "06_btech_pe-ipe_y4_syllabus-cbcs_2019-20::02::cad-cam-lab": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "cad-cam-lab",
+        "keep_published_codes": {"RME751": "computer-aided-design-manufacturing-lab"},
+        "reason": "B32 same-session code-slot collision keep — EXACT REPLAY of the recorded B29 ruling on this same subject/code (04_btech_me-ind_y4_syllabus-cbcs_2019-20::02::cad-cam-lab): draft 'CAD/CAM Lab' (RME751, 2019-20 PE/I-PE y4 CBCS print, experiment list). RME751's published owner is computer-aided-design-manufacturing-lab (session 2019-20 — SAME session, 'COMPUTER AIDED DESIGN & MANUFACTURING LAB' from the 2019-20 AU-family CBCS print): same-session tie keeps the published owner. The update lands on the name-exact cad-cam-lab row (the multi-era EAU751;NAU-751;NME-751;BME652;EME-751 accumulator); RME751 dropped to narrative; the 2019-20 three-print same-code set (AU long-name / ME-Ind / PE-IPE CAD-CAM Lab) recorded for owner reconciliation."},
+})
+DOC_SCOPE.update({
+    "3ad2353279d419ea": {
+        "branch_names": "",
+        "program_year": "4",
+        "reason": "B32 Open-Electives 2019-20: cover p.1 prints 'Open Electives / For / Bachelor of Technology / (Choice Based Credit System) / 7th & 8th Semester, 2019-20' — NO branch names printed anywhere on the cover or pool lists, so branch_names stay BLANK per the recorded B16 zero-guess class (B31 doc-10 2009-10 science-OE precedent); program_year 4 from the printed '7th & 8th Semester' + 'B.Tech 4th year (CBCS)' pool headers."},
+    "749493b449640e50": {
+        "branch_names": "Production Engineering; Industrial Production Engineering",
+        "program_year": "3",
+        "reason": "B32 PE/I-PE 2020-21 y3: cover p.1 prints 'FOR B. TECH. 3rd YEAR Production Engineering/ Industrial Production Engineering [Effective from Session: 2020-21]'; running headers print 'PRODUCTION ENGINEERING/ INDUSTRIAL PRODUCTION ENGINEERING' (draft DOC_SCOPE quirk)."},
+    "5a3056fc8c33bc06": {
+        "branch_names": "Production Engineering; Industrial Production Engineering",
+        "program_year": "3",
+        "reason": "B32 PE/I-PE 2024-25 y3: cover p.1 prints 'EVALUATION SCHEME / FOR / B.TECH. 3rd YEAR / Production Engineering/ / Industrial Production Engineering / [Effective from Session: 2024-25]' (cover text verified from the parsed text layer)."},
+    "819674f872d40b8d": {
+        "branch_names": "Production Engineering; Industrial Production Engineering",
+        "program_year": "3",
+        "reason": "B32 PE/I-PE 2018-19 y3: cover p.1 prints 'B. Tech. 3rd Year / Production Engineering'; evaluation-scheme headers (pp.2, 17) print 'PRODUCTION ENGINEERING and INDUSTRIAL PRODUCTION' — the document serves both printed branches (draft DOC_SCOPE quirk)."},
+    "2b3dc38be733f99e": {
+        "branch_names": "Production Engineering; Industrial Production Engineering",
+        "program_year": "4",
+        "reason": "B32 PE/I-PE 2019-20 y4 CBCS: cover p.1 prints 'B. TECH 4th YEAR PRODUCTION ENGINEERING/INDUSTRIAL PRODUCTION ENGINEERING' (draft DOC_SCOPE quirk)."},
+    "196c30b1f09eccf3": {
+        "branch_names": "Petroleum Engineering",
+        "program_year": "2",
+        "reason": "B32 Petroleum y2 2017-18: cover p.1 prints 'B.Tech. Second Year / Petroleum Engineering' — single printed branch, no parenthetical expansion (draft DOC_SCOPE quirk; B31 Mining first-class-branch class)."},
+    "5da3e4e52504a5cb": {
+        "branch_names": "Petroleum Engineering",
+        "program_year": "4",
+        "reason": "B32 Petroleum y4 2017-18: cover p.1 prints 'B.Tech. Fourth Year / Petroleum Engineering' — single printed branch, no parenthetical expansion (draft DOC_SCOPE quirk; B31 Mining first-class-branch class)."},
+})
+
+
+
+
+# ---- B31 (CRON-20261104-B31) per-key adjudications, evidence-recorded ----
+TIER2_OVERRIDES.update({
+    "01_btech_mfg-tech_y3_syllabus_2018-19::03::manufacturing-science-and-technology-ii": {
+        "action": "RETARGET", "target": "manufacturing-science-technology-ii",
+        "reason": "B31 TIE resolution on name-family + content evidence: draft 'Manufacturing Science and Technology II' (RME505, 2018-19 Mfg-Tech y3, 5 verbatim units) TIEs fuzzy 93/manufacturing-science-technology-i (NME402;RME402) vs 95/manufacturing-science-technology-ii (RME503, sess 2018-19). The II token is the subject's own print — merging II into I would violate the recorded distinct-row design (MST-I/MST-II are separate courses, cf. electro-mechanical-energy-conversion-i/ii); the probe: draft vs MST-II fullJ=0.38 (U1 0.63, U5 0.51 — era-reorganized same course) vs MST-I fullJ=0.10. RETARGET pins MST-II; RME505 (unowned) joins as the 2018-19 Mfg-Tech era code; the SAME-SESSION dual-print (ME-Ind RME503 establishing print vs Mfg-Tech RME505 print, units fieldwise per the >= rule) is recorded here for owner reconciliation (B27 RCS653 same-session class narrative)."},
+    "01_btech_mfg-tech_y3_syllabus_2018-19::04::advance-welding-technology": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND: draft 'Advance Welding Technology' (RME506, 2018-19 Mfg-Tech y3, 4 units — no Unit-V printed) vs advanced-welding-technology row: probe sim 0.98, fullJ=0.99 (unitJ 0.97-1.0) — VERBATIM same subject ('Advance'/'Advanced' print variant, recorded B10 0.982 class). RME506 (unowned) joins; 2018-19 row session fieldwise."},
+    "01_btech_mfg-tech_y3_syllabus_2018-19::09::advance-casting-process": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND: draft 'Advance Casting Process' (RMT051, 2018-19 Mfg-Tech y3, 5 verbatim units) vs advanced-casting-processes (EMT-012, 2010-11 establishing print): probe fullJ=1.0, per-unit all 1.0 — VERBATIM; 2018-19 newer so units fieldwise-win (B10 'ADVANCE/ADVANCED' 0.982 print-variant class). RMT051 (unowned) joins."},
+    "01_btech_mfg-tech_y3_syllabus_2018-19::10::plastic-material-and-manufacturing": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND: draft 'Plastic Material and Manufacturing' (RMT052, 2018-19 Mfg-Tech y3, 5 verbatim units) vs plastic-materials-manufacturing (KMT051, 2020-21 establishing): probe fullJ=0.99 (per-unit 0.94-1.0) — verbatim modulo singular/plural + '&'/'and' print variance (recorded name-variant class); draft 2018-19 OLDER so backfill-empty only (RULES §3). RMT052 (unowned) joins."},
+    "01_btech_mfg-tech_y3_syllabus_2018-19::16::pneumatics-and-hydraulics": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND: draft 'Pneumatics and Hydraulics' (RMT601, 2018-19 Mfg-Tech y3, 5 verbatim units) vs pneumatics-hydraulics (EMT-601, 2010-11 establishing): probe fullJ=0.99 (per-unit 0.95-1.0) — verbatim era print; 2018-19 newer so units fieldwise-win. The competing pneumatics-hydraulics-lab hit (J=0.0) is the recorded distinct-lab-row design (labs are separate rows, RULES §3) and stays untouched. RMT601 (unowned) joins."},
+    "01_btech_mfg-tech_y3_syllabus_2018-19::18::production-planning-and-control": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND: draft 'Production Planning and Control' (RMT602, 2018-19 Mfg-Tech y3, 4 units — no Unit-V printed) vs production-planning-control (EPI-501, 2009-10 establishing): probe unit1 J=0.81 with the SAME opening sentence ('Introduction: Types and characteristics of production systems Objective and functions of Production, Planning & Control'); 6 shared distinctive terms (capacity, forecasting, inventory, layout, MRP, scheduling) — the 2018-19 print is the era-reorganized same PPC course (B30 facility-planning class); 2018-19 newer so units fieldwise-win. RMT602 (unowned) joins."},
+    "01_btech_mfg-tech_y3_syllabus_2018-19::24::product-design-and-development": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND (recorded B30 08::23 ruling on this exact pair): draft 'Product Design and Development' (RMT061, 2018-19 Mfg-Tech y3, 5 verbatim units) vs product-development-and-design (EME-013, 2009-10 establishing; KMT063 2020-21 joined in B30 with per-unit J 0.84-0.97 evidence). fuzzy 100/111 shared distinctive terms — the 2018-19 Mfg-Tech print is the same PDD course; draft OLDER than the row's 2020-21 session so backfill-empty only (RULES §3). RMT061 (unowned) joins."},
+    "01_btech_mfg-tech_y3_syllabus_2018-19::26::operation-research": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND: draft 'Operation Research' (RMT063, 2018-19 Mfg-Tech y3, 5 verbatim units) vs operations-research (NOE073, 2016-17): fuzzy 97 singular/plural name variant (recorded class); probe 7 shared distinctive OR terms (assignment, CPM, inventory, PERT, queuing, sequencing, transportation) — the canonical OR course across eras; 2018-19 newer so units fieldwise-win. RMT063 (unowned) joins."},
+    "01_btech_mfg-tech_y3_syllabus_2018-19::27::machine-vision-and-image-processing": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND: draft 'Machine Vision and Image Processing' (RME066, 2018-19 Mfg-Tech y3, 5 verbatim units) vs machine-vision-image-processing (KMT061, 2020-21 establishing): probe fullJ=0.99 (per-unit 0.95-1.0) — verbatim era print; draft 2018-19 OLDER so backfill-empty only. RME066 (unowned) joins."},
+    "02_btech_mfg-tech_y4_syllabus-cbcs_2019-20::01::automation-robotics": {
+        "action": "RETARGET", "target": "automation-and-robotics",
+        "reason": "B31 TIE resolution via the recorded accumulator model (B30 08::11 KMT053 ruling): draft 'Automation & Robotics' (RPI701, 2019-20 Mfg-Tech y4 CBCS, 5 verbatim units) TIEs fuzzy 90/automation-and-robotics vs 90/robotics-and-automation; probe vs the 2019-20 ME DE print (B30 durable draft 04::11, RME078): per-unit J 0.81-0.95 (U1 verbatim 'Automation: Definition, Advantages, goals, types, need, laws and principles of Automation...') — the SAME 2019-20 print family; a third same-name row is G3-forbidden. The name-exact accumulator automation-and-robotics takes the 2019-20 Mfg-Tech era print (draft OLDER than the 2023-24 establishing session: backfill-empty only, units untouched); RPI701 (unowned) joins; the print divergence vs the accumulator's 2023-24 units recorded in notes for owner reconciliation (B30 open-item-4 class)."},
+    "02_btech_mfg-tech_y4_syllabus-cbcs_2019-20::05::advanced-material-technology": {
+        "action": "FORCE_APPEND",
+        "reason": "B31 wrong-subject FORCE_APPEND (recorded B28 01::15 Modelling-and-Simulation class): draft 'Advanced Material Technology' (RPI070, 2019-20 Mfg-Tech y4 CBCS, 5 verbatim units: intelligent/smart materials, functional/polyfunctional/structural/bio-compatible materials) fuzzy 98-hits advanced-materials-technology (2009-10 ADVANCED MATERIALS TECHNOLOGY row: ferrous materials, plain-carbon steels, alloying elements) — probe fullJ=0.09 (unitJ 0.10-0.12), only 2 generic shared terms (ceramics, polymers): the 2009-10 row is the classical ferrous/alloy metallurgy course, the 2019-20 print is the smart/functional-materials course. Different subjects sharing a name family; appends as its own row with a cross-reference note to the 2009-10 row."},
+    "02_btech_mfg-tech_y4_syllabus-cbcs_2019-20::08::reverse-engineering": {
+        "action": "FORCE_APPEND",
+        "reason": "B31 wrong-fuzzy FORCE_APPEND (recorded B23 sensors class): draft 'Reverse Engineering' (RPI075, 2019-20 Mfg-Tech y4 CBCS, 5 verbatim units incl. the printed Course Outcomes paragraph p.17) fuzzy 89-hits river-engineering (BCE062, 2024-25 CE row) on the generic 'engineering' token only — probe fullJ=0.09. NO reverse-engineering row exists in BTech; the subject (3D scanning, digitization, point-cloud/CAD reconstruction, B30's RME073-adjacent Mfg-Tech DE print) appends as its own row; zero-GAP holds."},
+    "06_btech_mining_y3_syllabus_2025-26::00::mine-environmental-engineering": {
+        "action": "FORCE_APPEND",
+        "reason": "B31 wrong-subject FORCE_APPEND (recorded B28 01::15 class): draft 'Mine Environmental Engineering' (BMN-501, 2025-26 Mining y3 core, 5 verbatim units) TIEs 5 name-family candidates (environmental-engineering BCE603 J=0.10; environmental-engineering-i ECE503 J=0.06; -ii ECE602 J=0.10; geoenvironmental-engineering RCE053 J=0.07; environmental-engineering-process NEN-302 J=0.08) — ALL are the Civil/Environmental generic pollution-control courses; the mining print covers mine-specific content (mine gases/dust/climate, subsidence and strata control, mine fires/spontaneous heating, mine water environmental impact). Same-name different-program class: appends as its own Mining-scope row with a cross-reference note to the Civil environmental-engineering rows."},
+    "06_btech_mining_y3_syllabus_2025-26::09::mine-environmental-engineering-lab": {
+        "action": "FORCE_APPEND",
+        "reason": "B31 wrong-subject FORCE_APPEND (same evidence as 06::00, lab row per the recorded labs-are-distinct-rows rule): draft 'Mine Environmental Engineering Lab' (BMN-551, 2025-26 Mining y3 lab) fuzzy 92-hits environmental-engineering-lab (BCE653, 2024-25 Civil) — probe J=0.0 (no shared unit vocabulary; the mining lab's printed experiment list is mine-specific). Appends as its own row with a cross-reference note."},
+    "06_btech_mining_y3_syllabus_2025-26::16::geo-informatics": {
+        "action": "ALLOW",
+        "reason": "B31 TIER2 same-subject era update STAND: draft 'Geo-Informatics' (BMN-062, 2025-26 Mining y3 DE, 5 verbatim units) vs geoinformatics (ECE402, 2009-10 establishing): sim 1.0 name identity; probe shared distinctive core = the discipline's own vocabulary (GIS, GPS, photogrammetry, remote sensing, sensors) with era-reorganized unit splits (the 2009-10 print leads with aerial-photography/photogrammetry, the 2025-26 print leads with GIS fundamentals — recorded era-reorganization class, B30 facility-planning/B31 01::18 evidence standard). 2025-26 newer so units fieldwise-win; the 2009-10 photogrammetry-led text stays in source_history/git (RULES §1c). BMN-062 (unowned) joins."},
+    "10_btech_open-electives-science_2009-10::00::introduction-to-soft-computing-neural-networks-fuzzy-logic-a": {
+        "action": "ALLOW",
+        "reason": "B31 STAND of the pre-adjudicated CODE-REASSIGNED-ACROSS-SESSIONS auto (RESOLVE_APPEND B3/B02 class): the unique Tier-0 code owner of EOE-031/EOE-041 is the k_era range print on the Mathematics-III/Science-Based-OE slot rows ('EOE 031-038'/'EOE 041-048' program-structure prints); the draft (2009-10 science-OE doc, the ORIGINAL establishing print) names Introduction-to-Soft-Computing, and exactly one name-identity row exists (sess 2009-10, empty units) — the slot-code-to-subject convergence (recorded B17 SLOT-CODE-TRANSFER class): the name-identity row gains the exact codes + the verbatim units; the pool slot rows keep their range prints (G2-exempt)."},
+    "10_btech_open-electives-science_2009-10::01::nano-sciences": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "nano-sciences",
+        "keep_published_codes": {"EOE-042": "power-station-practice"},
+        "reason": "B31 equal-session code-slot keep (recorded B19/RCS653 class): draft 'Nano Sciences' (2009-10 science-OE doc, 5 verbatim units) prints the paired slot 'EOE-032/EOE-042'; Tier-0 TIEs across nano-sciences (owns EOE-032) and power-station-practice (EEE-042;EOE-042, its own 2009-10 establishing print). Equal-session establishing prints never steal each other's codes: the update lands on the name-exact nano-sciences row (units backfill — the row prints none), EOE-042 STAYS with power-station-practice (G2 single ownership), and the science-OE pairing print is recorded as narrative on the nano-sciences row."},
+    "10_btech_open-electives-science_2009-10::04::polymer-science-and-technology": {
+        "action": "ALLOW",
+        "reason": "B31 STAND of the pre-adjudicated CODE-REASSIGNED-ACROSS-SESSIONS auto (B3 BBC102 class): the unique Tier-0 code owner EOE-035/EOE-045 is polymer-science-technology ('Polymer Science & Technology', 2009-10, units empty, ROE035;ROE045 also owned); the draft name 'Polymer Science and Technology' name-matches exactly one same-course row (polymer-science-and-technology, BOE311;BOE411, 2023-24, 5 units — the NEP open-elective print of the SAME science elective; '&'/'and' print variance across eras, distinctive probe: polymerization/composites/polymers). The auto transfers EOE-035/EOE-045 to the name-identity accumulator row (the &-form row keeps ROE codes + narrative; recorded variant-name-rows-pending-reconciliation owner open item); draft 2009-10 OLDER so backfill-empty only."},
+})
+
+# ---- B35 (CRON-20261105-B35) re-keyed open-electives-science overrides (batch35 stem 08_) ----
+TIER2_OVERRIDES.update({
+    "08_btech_open-electives-science_2009-10::00::introduction-to-soft-computing-neural-networks-fuzzy-logic-a": {
+        "action": "ALLOW",
+        "reason": "B35 RE-KEY of the recorded B31 STAND (identical content to '10_btech_open-electives-science_2009-10::00' — the durable B31 draft was adopted into batch35 at slot 08): STAND of the pre-adjudicated CODE-REASSIGNED-ACROSS-SESSIONS auto (RESOLVE_APPEND B3/B02 class): the unique Tier-0 code owner of EOE-031/EOE-041 is the k_era range print on the Mathematics-III/Science-Based-OE slot rows ('EOE 031-038'/'EOE 041-048' program-structure prints); the draft (2009-10 science-OE doc, the ORIGINAL establishing print) names Introduction-to-Soft-Computing, and exactly one name-identity row exists (sess 2009-10, empty units) — the slot-code-to-subject convergence (recorded B17 SLOT-CODE-TRANSFER class): the name-identity row gains the exact codes + the verbatim units; the pool slot rows keep their range prints (G2-exempt)."},
+    "08_btech_open-electives-science_2009-10::01::nano-sciences": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "nano-sciences",
+        "keep_published_codes": {"EOE-042": "power-station-practice"},
+        "reason": "B35 RE-KEY of the recorded B31 equal-session code-slot keep (identical content to '10_btech_...::01'; recorded B19/RCS653 class): draft 'Nano Sciences' (2009-10 science-OE doc, 5 verbatim units) prints the paired slot 'EOE-032/EOE-042'; Tier-0 TIEs across nano-sciences (owns EOE-032) and power-station-practice (EEE-042;EOE-042, its own 2009-10 establishing print). Equal-session establishing prints never steal each other's codes: the update lands on the name-exact nano-sciences row (units backfill — the row prints none), EOE-042 STAYS with power-station-practice (G2 single ownership), and the science-OE pairing print is recorded as narrative on the nano-sciences row."},
+    "08_btech_open-electives-science_2009-10::04::polymer-science-and-technology": {
+        "action": "ALLOW",
+        "reason": "B35 RE-KEY of the recorded B31 STAND (identical content to '10_btech_...::04'): STAND of the pre-adjudicated CODE-REASSIGNED-ACROSS-SESSIONS auto (B3 BBC102 class): the unique Tier-0 code owner EOE-035/EOE-045 is polymer-science-technology ('Polymer Science & Technology', 2009-10, units empty, ROE035;ROE045 also owned); the draft name 'Polymer Science and Technology' name-matches exactly one same-course row (polymer-science-and-technology, BOE311;BOE411, 2023-24, 5 units — the NEP open-elective print of the SAME science elective; '&'/'and' print variance across eras, distinctive probe: polymerization/composites/polymers). The auto transfers EOE-035/EOE-045 to the name-identity accumulator row (the &-form row keeps ROE codes + narrative; recorded variant-name-rows-pending-reconciliation owner open item); draft 2009-10 OLDER so backfill-empty only."},
+})
+
+
+# ---- B31 (CRON-20261104-B31) doc-level scope from the PRINTED COVERS ----
+DOC_SCOPE.update({
+    "0ade72fa693fbd9c": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "3",
+        "reason": "B31 doc01: cover prints 'EVALUATION SCHEME & SYLLABUS For B. Tech. 3rd Year Manufacturing Technology ON CBCS [Effective from session 2018-19]' — single-branch Mfg-Tech 3rd-year CBCS print; per-subject program_year from printed semesters (V/VI -> 3)"},
+    "ae8c8559100c3cbf": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "4",
+        "reason": "B31 doc02: cover prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS FOR B. TECH 4th YEAR MANUFACTURING TECHNOLOGY ON CHOICE BASED CREDIT SYSTEM (EFFECTIVE FROM THE SESSION: 2019-20)' (R-era CBCS Sem VII/VIII)"},
+    "16b336aad90afc2b": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "4",
+        "reason": "B31 doc03: cover prints 'STUDY & EVALUATION SCHEME — B.Tech.ManufacturingTechnology [EffectivefromSession2016-17] — YEAR IV, SEMESTER-VII' (kerning-fused print; N-era NME/NMT codes)"},
+    "b3c1767fa66cb1cb": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "4",
+        "reason": "B31 doc04: cover prints 'STUDY & EVALUATION SCHEME WITH SYLLABUS | FOR | B. TECH. 4th YEAR | MANUFACTURING TECHNOLOGY | [Effective from Session: 2021-22]' (K-era KMT/KPI codes)"},
+    "2e50304ddbcc9f22": {
+        "branch_names": "Manufacturing Technology",
+        "program_year": "4",
+        "reason": "B31 doc05: cover prints 'COURSE STRUCTURE/EVALUATION SCHEME FOR B.TECH. 4th YEAR MANUFACTURING TECHNOLOGY [Effective from Session: 2025-26]' (B-era NEP BME/BPI codes)"},
+    "d97d9fe331d271c1": {
+        "branch_names": "Mining Engineering",
+        "program_year": "3",
+        "reason": "B31 doc06: cover (p.1) prints 'Evaluation Scheme & Syllabus For B.Tech. 3rd Year MINING ENGINEERING [Effective from the Session: 2025-26}' (B-era BMN codes; the closing brace is a printed cover typo, kept verbatim); per-subject program_year from printed semesters (V/VI -> 3)"},
+    "1b93096db8304b23": {
+        "branch_names": "Mining Engineering",
+        "program_year": "4",
+        "reason": "B31 doc07: cover prints 'Evaluation Scheme & Syllabus For B.Tech. 4th Year MINING ENGINEERING [Effective from the Session: 2026-27}' (B-era BMN codes; printed bracket typo '2026-27}' kept verbatim)"},
+    "db1f836f585af9c4": {
+        "branch_names": "",
+        "program_year": "",
+        "reason": "B31 doc10: cover prints 'U.P. TECHNICAL UNIVERSITY LUCKNOW Syllabus 1. Science based Open Electives 2. Open Electives-I 3. Open Electives-II [Effective from the session : 2009-10] B.TECH. COURSES' — no branch list printed (science-based OE / OE-I / OE-II are common university slots, B16 BNC zero-guess class); branch_names stays BLANK; all 16 subjects resolve as UPDATES on existing rows so no append scope is consumed"},
+})
+
+
 if __name__ == "__main__":
     sys.exit(run(sys.argv[1], sys.argv[2]))

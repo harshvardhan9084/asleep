@@ -1,3 +1,7 @@
+# CRON-20261105-B35 — B35 — 2026-11-05
+
+rows 2126→2165, codes 4452→4544, +39 appends/~145 updates/!0 repairs
+
 # CRON-20261105-B34 — B34 — 2026-11-05
 
 rows 2094→2126, codes 4264→4452, +32 appends/~145 updates/!0 repairs
