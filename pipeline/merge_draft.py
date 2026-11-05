@@ -3271,6 +3271,36 @@ TIER2_OVERRIDES.update({
         "reason": "B35 RE-KEY of the recorded B31 STAND (identical content to '10_btech_...::04'): STAND of the pre-adjudicated CODE-REASSIGNED-ACROSS-SESSIONS auto (B3 BBC102 class): the unique Tier-0 code owner EOE-035/EOE-045 is polymer-science-technology ('Polymer Science & Technology', 2009-10, units empty, ROE035;ROE045 also owned); the draft name 'Polymer Science and Technology' name-matches exactly one same-course row (polymer-science-and-technology, BOE311;BOE411, 2023-24, 5 units — the NEP open-elective print of the SAME science elective; '&'/'and' print variance across eras, distinctive probe: polymerization/composites/polymers). The auto transfers EOE-035/EOE-045 to the name-identity accumulator row (the &-form row keeps ROE codes + narrative; recorded variant-name-rows-pending-reconciliation owner open item); draft 2009-10 OLDER so backfill-empty only."},
 })
 
+# ---- B36 (CRON-20261105-B36) maths-v KAS304/KAS404 dual-slot convergence ----
+TIER2_OVERRIDES.update({
+    "10_btech_s3-4_kas304-404-maths-v_2019-20::00::mathematics-v": {
+        "action": "RETARGET", "target": "maths-v-engineering-science-course",
+        "reason": "B36 dual-slot convergence (recorded B17 SLOT-CODE-TRANSFER + B31 08::00 soft-computing class, update-first): the detailed 2019-20 print (B.Tech BioTechnology/Agriculture Engineering, subject code cell 'KAS304/KAS404' — ONE subject, BioTech sem-III / Ag-Engg sem-IV offering of the same AICTE-model course; verbatim 5 units + COs + books, Mercury-3 extraction containment-verified) TIEs at Tier-0 across the two scheme-row slot prints engineering-science-course-maths-v (KOE031-38 pool range; owns KAS304) and maths-v-engineering-science-course (primary KAS404). The KAS404-primary row is the convergence target: it gains the verbatim units/COs/books (both slot rows print none — backfill), KAS304 joins its codes via the recorded transfer (the pool-range row keeps its KOE031-38 range print + narrative history, G2-exempt), and the 'Mathematics-V' name + dual-slot cell print are recorded as the detailed print evidence (same-session 2019-20 detailed print fieldwise-fills empty fields; update first > append second — no duplicate row)."},
+})
+
+
+# ---- B36 (CRON-20261105-B36) re-keyed B32 pe-ipe/petroleum overrides (batch36 stems) ----
+# The durable B32 drafts 03-10 were adopted into batch36 at slots 01-08; the
+# stem-keyed recorded adjudications are re-keyed verbatim (evidence unchanged).
+REKEY_B32 = {
+    "04_btech_pe-ipe_y3_evaluation-scheme_2024-25": "02_btech_pe-ipe_y3_evaluation-scheme_2024-25",
+    "05_btech_pe-ipe_y3_syllabus_2018-19": "03_btech_pe-ipe_y3_syllabus_2018-19",
+    "06_btech_pe-ipe_y4_syllabus-cbcs_2019-20": "04_btech_pe-ipe_y4_syllabus-cbcs_2019-20",
+    "07_btech_pe-ipe_y4_syllabus_2021-22": "05_btech_pe-ipe_y4_syllabus_2021-22",
+    "08_btech_pe-ipe_y4_syllabus_2025-26": "06_btech_pe-ipe_y4_syllabus_2025-26",
+    "09_btech_petroleum_y2_scheme-syllabus_2017-18": "07_btech_petroleum_y2_scheme-syllabus_2017-18",
+    "10_btech_petroleum_y4_scheme-syllabus_2017-18": "08_btech_petroleum_y4_scheme-syllabus_2017-18",
+}
+_rekeyed = {}
+for _k, _v in list(TIER2_OVERRIDES.items()):
+    _old_stem = _k.split("::")[0]
+    if _old_stem in REKEY_B32:
+        _newk = REKEY_B32[_old_stem] + _k[len(_old_stem):]
+        _rekeyed[_newk] = _v
+        _rekeyed[_newk]["reason"] = "B36 RE-KEY of the recorded B32 entry (identical evidence; batch36 renumbered slot): " + _v["reason"]
+TIER2_OVERRIDES.update(_rekeyed)
+
+
 
 # ---- B31 (CRON-20261104-B31) doc-level scope from the PRINTED COVERS ----
 DOC_SCOPE.update({
