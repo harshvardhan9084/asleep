@@ -1,72 +1,10 @@
 {
- "pdf_rel": "",
- "session": "",
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_textile-chemistry_y2_model-curriculum_2019-20.pdf",
+ "session": "2019-20",
  "course": "BTech",
  "sha16": "58c40cf3f4fc48d9",
  "stem": "05_btech_textile-chemistry_y2_model-curriculum_2019-20",
  "subjects": [
-  {
-   "name_print": "",
-   "codes": [],
-   "semester": null,
-   "ltp": {
-    "l": null,
-    "t": null,
-    "p": null
-   },
-   "credit": null,
-   "marks": null,
-   "subject_type": "",
-   "quirks": [
-    "scheme table row only (p.?); detailed syllabus not printed in this document"
-   ],
-   "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
-   ],
-   "name": ""
-  },
-  {
-   "name_print": "MOOCs (Essential for Hons. Degree)",
-   "codes": [],
-   "semester": 3,
-   "ltp": {
-    "l": null,
-    "t": null,
-    "p": null
-   },
-   "credit": null,
-   "marks": null,
-   "subject_type": "",
-   "quirks": [
-    "scheme table row only (p.2); detailed syllabus not printed in this document"
-   ],
-   "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
-   ],
-   "name": "MOOCs (Essential for Hons. Degree)"
-  },
-  {
-   "name_print": "MOOCs (Essential for Hons. Degree)",
-   "quirks": [
-    "scheme-row extraction empty"
-   ],
-   "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
-   ],
-   "name": "MOOCs (Essential for Hons. Degree)",
-   "codes": []
-  },
-  {
-   "name_print": "",
-   "quirks": [
-    "scheme-row extraction empty"
-   ],
-   "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
-   ],
-   "name": "",
-   "codes": []
-  },
   {
    "name_print": "Technical Communication/Universal Human values",
    "codes": [
@@ -183,19 +121,30 @@
    ],
    "semester": null,
    "ltp": {
-    "l": null,
-    "t": null,
-    "p": null
+    "l": 0,
+    "t": 0,
+    "p": 2
    },
-   "credit": null,
-   "marks": null,
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 25,
+    "ese_te_pe": 25,
+    "total": 50
+   },
    "subject_type": null,
    "units": {},
    "lectures_per_unit": null,
    "cos": [],
    "textbooks": [],
    "reference_books": [],
-   "experiments": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Dye cotton with direct, reactive, vat and sulphur dye, dyeing polyester, wool, silk, acrylic and nylon using, appropriate disperse, acid and basic dyes, Print cotton fabric using various styles of printing, namely, direct, resist and discharge, Evaluate colour fastness to washing, light, perspiration and rubbing properties"
+    }
+   ],
    "objectives_print": [
     "Dye cotton with direct, reactive, vat and sulphur dye, dyeing polyester, wool, silk, acrylic and ",
     "nylon using, appropriate disperse, acid and basic dyes, Print cotton fabric using various styles ",
@@ -205,7 +154,8 @@
    "prerequisites": null,
    "quirks": [
     "Leading '8' on first line likely page number",
-    "Line breaks within description preserved as printed"
+    "Line breaks within description preserved as printed",
+    "re-extracted from detail page p.2 (B37 verify repair)"
    ],
    "flags": []
   },
@@ -266,9 +216,330 @@
     "alternative_pair_row"
    ],
    "name": "Universal Human Values/ Technical Communication"
+  },
+  {
+   "name_print": "Engg. Science Course/Maths IV",
+   "codes": [
+    "KOE031"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Engg. Science Course/Maths IV"
+  },
+  {
+   "name_print": "Engg. Science Course/Maths IV",
+   "codes": [
+    "KAS302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Engg. Science Course/Maths IV"
+  },
+  {
+   "name_print": "Textile Fibre-I",
+   "codes": [
+    "KTT303"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Textile Fibre-I"
+  },
+  {
+   "name_print": "Principle of Yarn Manufacture",
+   "codes": [
+    "KTC301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Principle of Yarn Manufacture"
+  },
+  {
+   "name_print": "Preparatory to Processing of Textiles",
+   "codes": [
+    "KTC302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Preparatory to Processing of Textiles"
+  },
+  {
+   "name_print": "Textile Fibre-I Lab",
+   "codes": [
+    "KTT353"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 25,
+    "ese_te_pe": 25,
+    "total": 50
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Textile Fibre-I Lab"
+  },
+  {
+   "name_print": "Principle of Yarn Manufacture  Lab",
+   "codes": [
+    "KTC351"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 25,
+    "ese_te_pe": 25,
+    "total": 50
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Principle of Yarn Manufacture  Lab"
+  },
+  {
+   "name_print": "Preparatory to Processing of Textiles Lab",
+   "codes": [
+    "KTC352"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 25,
+    "ese_te_pe": 25,
+    "total": 50
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Preparatory to Processing of Textiles Lab"
+  },
+  {
+   "name_print": "Maths IV/Engg. Science Course",
+   "codes": [
+    "KAS402"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Maths IV/Engg. Science Course"
+  },
+  {
+   "name_print": "Principle of Fabric Manufacture",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Principle of Fabric Manufacture",
+   "codes": [
+    "KTC401"
+   ]
+  },
+  {
+   "name_print": "Technology of Dyeing -I",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Dyeing -I",
+   "codes": [
+    "KTC402"
+   ]
+  },
+  {
+   "name_print": "Textile Fibre-II Lab",
+   "quirks": [
+    "scheme-row extraction empty",
+    "subject prints only in the scheme/evaluation table of this document; no detail page (print evidence, B37 verify repair)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Textile Fibre-II Lab",
+   "codes": [
+    "KTT453"
+   ]
+  },
+  {
+   "name_print": "Principle of Fabric Manufacture  Lab",
+   "quirks": [
+    "scheme-row extraction empty",
+    "subject prints only in the scheme/evaluation table of this document; no detail page (print evidence, B37 verify repair)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Principle of Fabric Manufacture  Lab",
+   "codes": [
+    "KTC451"
+   ]
   }
  ],
- "non_subject_rows": [],
- "quirks": [],
+ "non_subject_rows": [
+  {
+   "kind": "moocs-note",
+   "print": "MOOCs (Essential for Hons. Degree)",
+   "locator": "draft subject row (no code printed)"
+  },
+  {
+   "kind": "moocs-note",
+   "print": "MOOCs (Essential for Hons. Degree)",
+   "locator": "draft subject row (no code printed)"
+  }
+ ],
+ "quirks": [
+  "durable in-flight draft (parallel instance @0a3b85b) adopted by CRON-20261106-B37; pdf_rel/session/course repaired from restored queue (sha16 match)"
+ ],
  "flags": []
 }

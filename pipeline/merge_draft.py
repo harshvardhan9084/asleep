@@ -534,9 +534,22 @@ def build_append(dsub, dmeta, ev, scope_row, policy):
     row["subject_type"] = dsub.get("subject_type", "")
     row["subject_category_print"] = dsub.get("category_print", "")
     lt = dsub.get("ltp", {})
+    if isinstance(lt, str):  # B37 hardening: string prints like '3-1-0' coerce to dict
+        nums = re.findall(r"\d+", lt)
+        lt = {"l": int(nums[0]) if len(nums) > 0 else None,
+              "t": int(nums[1]) if len(nums) > 1 else None,
+              "p": int(nums[2]) if len(nums) > 2 else None}
+    if not isinstance(lt, dict):
+        lt = {}
     row["L"], row["T"], row["P"] = str(lt.get("l", "") or ""), str(lt.get("t", "") or ""), str(lt.get("p", "") or "")
     row["credit"] = str(dsub.get("credit") or "")
     m = dsub.get("marks") or {}
+    if isinstance(m, str):  # B37 hardening: string marks print -> dict
+        nums = re.findall(r"\d+", m)
+        keys = ("sessional_ct", "sessional_ta", "sessional_total", "ese_te_pe", "total")
+        m = {keys[i]: (int(nums[i]) if i < len(nums) else None) for i in range(len(keys))}
+    if not isinstance(m, dict):
+        m = {}
     row["sessional_ct"] = str(m.get("sessional_ct", "") or "")
     row["sessional_ta"] = str(m.get("sessional_ta", "") or "")
     row["sessional_total"] = str(m.get("sessional_total", "") or "")
@@ -932,6 +945,31 @@ DOC_SCOPE = {
 # published B06 manifest ("TIER2_OVERRIDES mechanism added ... per-key,
 # evidence-recorded"), re-evidenced against the drafts + baseline rows.
 TIER2_OVERRIDES = {
+    # --- B37 commit-run TIE adjudications (adjudicate_b37b marker) ---
+    "03_btech_syllabus_2013-14::32::computer-programming-lab": {
+        "action": "RETARGET", "target": "computer-programming-lab",
+        "reason": "B37 TIE resolution (code identity across rows on NCS-151/NCS-252): draft 'Computer Programming Lab' (2013-14 y1/y2 paired lab print, WAP experiment list) RETARGETs onto the name-identity computer-programming-lab row (the same university-wide lab; dual-print class recorded B36 KAS304/KAS404); the competing code-identity row keeps its codes untouched; 2013-14 older print: backfill-empty only."},
+    "04_btech_textile-chem-texteng-mmft_y2_syllabus_2009-10::147::mathematics-iii": {
+        "action": "RETARGET", "target": "mathematics-iii",
+        "reason": "B37 TIE resolution (code identity EAS-301/EAS-401 after the paired-print splits): draft 'Mathematics-III' (EAS-301/EAS-401, 2009-10 instrumentation-family, 5 verbatim units) RETARGETs onto the name-identity mathematics-iii accumulator row (EAS-301-era establishing print; recorded era-ladder class); the science-based-OE slot rows keep their EOE range prints (recorded B31/B35 class) and the paired print is preserved in the draft's non_subject_rows."},
+    "04_btech_textile-chem-texteng-mmft_y2_syllabus_2009-10::50::general-proficiency": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "general-proficiency",
+        "keep_published_codes": {"GP301": "general-proficiency-lab"},
+        "reason": "B37 recorded GP301 keep-owner class (B25/B26 + recorded entry 07_btech_me-pe_syllabus_2009-10::02::general-proficiency): the 2009-10 GP301 General Proficiency print corroborates the general-proficiency row; GP301's published owner general-proficiency-lab keeps the code (equal/older print never takes a code from its published owner); fieldwise backfill-empty only."},
+
+    # --- B37 adjudications (adjudicate_b37 marker) ---
+    "02_btech_syllabus_2009-10::39::transducers-and-sensors": {
+        "action": "RETARGET", "target": "transducer-and-sensors",
+        "reason": "B37 TIE resolution (fuzzy 98 transducer-and-sensors vs 100 sensors-and-transducers) on code-lineage identity: draft 'Transducers and Sensors' (EIC-401, 2009-10 Instrumentation-family 3rd/4th-yr syllabus, 5 verbatim units) — the transducer-and-sensors row owns NIC-502 (2016-17 N-era print of the SAME instrumentation branch family EIC->NIC, establishing source btech_applied-electronics-ece-ei_syllabus); the competing sensors-and-transducers row (KEE052/BEE052, 2020-21 EE-branch open-elective accumulator) is a DIFFERENT branch's elective with its own code family (recorded B29-TQM / B23 code-owner class: lineage beats generic-vocabulary ratio). 2009-10 is the older print: backfill-empty only; NIC-502 ownership unchanged."},
+    "03_btech_syllabus_2013-14::24::engineering-chemistry": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "engineering-chemistry",
+        "keep_published_codes": {"NAS202": "engineering-physics-ii"},
+        "reason": "B37 TIE resolution (code identity across rows on NAS-102/NAS-202) on name identity + era-ladder lineage: draft 'ENGINEERING CHEMISTRY' (NAS-102/NAS-202 paired 2013-14 y1/y2 print, 5 verbatim units) — the engineering-chemistry accumulator row already owns the whole era ladder of this university-wide course (RAG202; KAS-102T/KAS-202T; BAS102/BAS202; RAS102/RAS202 from the AG 2016-17 establishing print); NAS-102/NAS-202 are the 2013-14-era codes of the SAME course (EAS->NAS->KAS/BAS/RAS ladder). G2 ruling (recorded B36 KAS304 same-session class): NAS-202 stays with its published owner engineering-physics-ii (equal-session prints never transfer codes); the chemistry row gains NAS-102 only; the NAS-202 chemistry/physics dual-print is recorded for owner reconciliation."},
+    "09_btech_textile-tech_course-structure_2026-27::19::applied-physics-lab-applied-chemistry-for-fibres-polymers-an": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER", "target": "applied-physics-lab",
+        "keep_published_codes": {"AAS152": "applied-chemistry-lab"},
+        "reason": "B37 TIE resolution (code identity across rows on the AAS151/ASS251 paired lab cell) — same-session corroborating print (recorded B27 RCS-653 class): the TX-stream 2026-27 first-year doc prints 'AAS151/ ASS251 Applied Physics Lab/ Applied Chemistry ... Lab' as a PAIRED scheme cell; the applied-physics-lab row is the 2026-27 establishing print (btech_ag_course-structure_2026-27, owns AAS151/AAS251/ASS251). Equal-session prints never take codes from their published owner (B29 RETARGET class): the TX doc is recorded as a corroborating source with backfill-empty-only, and the paired-cell lab-content split (physics vs chemistry experiments in one cell) is flagged needs_review for owner reconciliation per RULES §4 — the draft's merged experiment list is NOT written fieldwise."},
+
 
     # ---- B29 (CRON-20261105-B29) per-key adjudications, evidence-recorded ----
     "02_btech_me-ind_y3_evaluation-scheme_2024-25::03::heat-transfer-lab": {

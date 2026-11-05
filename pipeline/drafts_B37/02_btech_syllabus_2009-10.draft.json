@@ -1,0 +1,1757 @@
+{
+ "pdf_rel": "",
+ "session": "",
+ "course": "BTech",
+ "sha16": "6d5edf4f56798d9b",
+ "stem": "02_btech_syllabus_2009-10",
+ "subjects": [
+  {
+   "name": "FUNDAMENTALS OF ELECTRONICS DEVICES",
+   "name_print": "FUNDAMENTALS OF ELECTRONICS DEVICES",
+   "codes": [
+    "EEC301"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Crystal Properties and charge Carriers in Semiconductors:\nElemental and compound semiconductor materials, crystal lattice \nstructure,  \nBonding forces and energy bands in solids, charge carriers in \nsemiconductors, carrier concentrations, drift of carriers in electric and \nmagnetic fields.",
+    "2": "Excess Carriers in Semiconductors: Optical absorption, luminescence, \ncarrier life time and photo conductivity, diffusion of carriers.",
+    "3": "Junction Properties: Equilibrium conditions, biased junctions, steady \nstate conditions, reverse bias break down, transient and AC conditions. \nMetal semiconductor junctions.",
+    "4": "Transistors: \nMetal-semiconductor-field-effect-transistors \n(MESFET), \nMetal-insulator-semiconductor-field-effect-transistors (MISFET), Metal \noxide semiconductor field effect transistor (MOSFET):  Construction, \nOperation and characteristics of above devices.  \nBipolar \njunction \ntransistors: \nFundamentals \nof \nBJT \noperation, \namplification with BJTs,",
+    "5": "Some special devices: \nPhotodiodes, photo detectors, solar cell, light emitting diodes, \nsemiconductor lasers, light emitting materials. \nTunnel Diode: degenerate semiconductors,  \nIMPATT diode;  \nThe transferred electron mechanism: The GUNN diode. \nP-N-P-N diode, semiconductor controlled rectifier (SCR), bilateral \ndevices: DIAC, TRIAC, IGBT."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "B. G. Streetman and S. Banerjee \"Solid state electronics devices\", 5th Edition, PHI."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Alok Dutta, \"Semiconductor Devices and circuits\", Oxford University Press."
+    },
+    {
+     "no": 2,
+     "book": "Donald A Neaman, \"Semiconductor Physics and  Devices Basic Principles\" 3rd  Ed  TMH India."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Chapter/section references printed per unit: I: 1.1-1.2, 3.1-3.4; II: 4.1-4.3, 4.4.1-4.4.4; III: 5.2-5.5, 5.7; IV: 6.3.1-6.3.2, 6.4.1-6.4.2, 6.5.1-6.5.2, 7.1-7.2; V: 8.1, 8.2.1, 8.2.3, 8.3, 8.4, 10.1, 10.2, 10.3.1, 10.3.2, 11.1-11.3",
+    "Proposed lecture counts per unit: I:8, II:8, III:10, IV:6, V:8",
+    "No course outcomes (COs) printed",
+    "No marks scheme printed",
+    "Credit not explicitly printed",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "DIGITAL ELECTRONICS",
+   "name_print": "EEC 302 DIGITAL ELECTRONICS",
+   "codes": [
+    "EEC302"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Digital system and binary numbers: Signed binary numbers, binary \ncodes, cyclic codes, error detecting and correcting codes, hamming \ncodes. \nFloating point representation \nGate-level minimization: The map method up to five variable, don’t care \nconditions, POS simplification, NAND and NOR implementation, Quine \nMc-Clusky method (Tabular method).",
+    "2": "Combinational Logic: Combinational circuits, analysis procedure, design \nprocedure, binary adder-subtractor, decimal adder, binary multiplier, \nmagnitude comparator, decoders, encoders, multiplexers",
+    "3": "Synchronous Sequential logic: Sequential circuits, storage elements: \nlatches, flip flops, analysis of clocked sequential circuits, state reduction \nand assignments, design procedure. \nRegisters and counters: Shift registers, ripple counter, synchronous \ncounter, other counters.",
+    "4": "Memory and programmable logic: RAM, ROM, PLA, PAL. \n \nDesign at the register transfer level: ASMs, design example, design with \nmultiplexers.",
+    "5": "Asynchronous sequential logic: Analysis procedure, circuit with latches, \ndesign procedure, reduction of state and flow table, race free state \nassignment, hazards."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "M. Morris Mano and M. D. Ciletti, “Digital Design”, 4th Edition, Pearson Education"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Hill & Peterson, “Switching Circuit & Logic Design”, Wiley."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Chapter/section references are printed as separate lines after each unit's topic text (e.g., '1.6, 1.7, 7.4' then '3.1 to 3.7, 3.10'), not aligned in table columns",
+    "The 'Proposed number of Lectures' column values are printed as standalone numbers (8) after the chapter references",
+    "Unit IV contains a blank line between its two paragraphs",
+    "The textbook label is printed as 'Text Book:' and reference label as 'Reference Books:'",
+    "The table header 'Chapter/ Section' is split across two lines in the source",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "FUNDAMENTAL OF NETWORK ANALYSIS & SYNTHESIS",
+   "name_print": "FUNDAMENTAL OF NETWORK ANALYSIS & SYNTHESIS",
+   "codes": [
+    "EEC304"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Signal analysis, complex frequency, network analysis, network synthesis \nGeneral characteristics and descriptions of signals, step function and \nassociated wave forms, The unit impulse \nIntroduction to network analysis, network elements, initial and final \nconditions, step and impulse response, solution of network equations,",
+    "2": "Review of Laplace transforms, poles and zeroes, initial and final value \ntheorems, The transform circuit, Thevenin’s and Norton’s theorems, the \nsystem function, step and impulse responses, the convolution integral. \nAmplitude and phase responses. \nNetwork functions, relation between port parameters, transfer functions \nusing two port parameters, interconnection of two ports.",
+    "3": "Hurwitz polynomials, positive real functions. \nProperties of real immittance functions, synthesis of LC driving point \nimmittances, properties of RC driving point impedances, synthesis of RC \nimpedances or RL admittances, properties of RL impedances and RC \nadmittances.",
+    "4": "Properties of transfer functions, zeroes of transmission, synthesis of Y21 \nand Z21 with 1Ω terminations.",
+    "5": "Introduction to active network synthesis  \n \nActive Network Synthesis \nMaterial available \non UPTU website \n& \n8.7 (Text Book 2)"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Franklin F. Kuo, “Network Analysis and synthesis”, 2nd Edition, Wiley India Pvt Ltd."
+    },
+    {
+     "no": 2,
+     "book": "Behrouz Peikari, “Fundamentals of Network Analysis & synthesis”, Jaico Publishing House, 2006."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M. E. Van Valkenberg, “Network Analysis”, 2nd Edition, Prentice Hall of India Ltd."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Chapter/Section references are printed as separate lines within each unit block (e.g., '1.1 to 1.4', '2.1 to 2.3', '5.1 to 5.5' for Unit I), representing separate table columns.",
+    "Unit V contains garbled/broken table content: 'Active Network Synthesis', 'Material available on UPTU website', and '8.7 (Text Book 2)' appear as stray lines within the unit text.",
+    "Unit IV contains the special character 'Ω' (ohm sign) in '1Ω terminations'.",
+    "Lecture counts per unit vary (10, 8, 8, 6, 8), so no single lectures_per_unit value applies.",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name_print": "Industrial Psychology/ Industrial Sociology",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Industrial Psychology/ Industrial Sociology",
+   "codes": [
+    "EHU301"
+   ]
+  },
+  {
+   "name_print": "verbatim",
+   "codes": "printed code",
+   " So \"codes\" is an array. For a row with multiple codes, we can include all. But the instruction lists them separately, meaning we have two objects, each with its own name_print and codes. For EHU301, the name_print is \"Industrial Psychology/ Industrial Sociology\" (verbatim from the row). The codes as printed in the row are \"EHU-301/ EHU-302\" — but that is a single string with a slash. Should we split? The instruction says \"codes exactly as printed, spaces removed\" — so we keep the string as is, but remove spaces. So \"EHU-301/EHU-302": "without spaces). But that would be the same for both objects. That seems redundant but maybe acceptable. Alternatively, we could treat each code separately: for EHU301, code",
+   "EHU-302\". But the instruction says \"as printed": "the printed code includes both. Hmm.\n\nLet's look at other similar cases:",
+   "EOE031 /EOE041 Introduction to soft computing (Neural network, Fuzzy logic an (p.2)\" as one item. In the PDF, the row is \"EOE031/EOE041\" with subject \"Introduction to soft computing (Neural network, Fuzzy logic and Genetic algorithm)\". So that is one subject with two codes. So we treat that as one object with codes [\"EOE031/EOE041\"] (spaces removed). Similarly, \"EOE032 /EOE042 Nano-sciences\" etc. So for the first item, \"EHU301 Industrial Psychology/ Industrial Sociology\" and \"EHU302 Industrial Psychology/ Industrial Sociology\" are listed separately, but in the PDF they are in one row. The instruction probably wants us to treat them as separate entries because they are listed separately. But then the code would be the same? That doesn't make sense. Maybe the instruction made a mistake and actually they are two separate rows? But in the PDF, there is only one row for semester III with code \"EHU-301/ EHU-302\". The instruction lists both EHU301 and EHU302 as separate subjects, but they are actually the same row. Possibly the instruction wants us to return two objects, one for each code, but with the same name_print and same other details. That would duplicate the row. However, the instruction says \"For EACH, return one object": "so we must return one object for each listed subject. So we will create two objects: one for EHU301 and one for EHU302. For each, the name_print is",
+   "Sociology": "with space after slash). codes: the printed code is",
+   "EHU-301/ EHU-302\". The instruction says \"codes exactly as printed\" — so we should include the entire printed string. But that would be the same for both. Alternatively, we could interpret that the row has two codes, and we should list both in the codes array for each object? That would be weird. Let's check the instruction for \"EOE031 /EOE041\" — it's listed as one subject, so we put codes [\"EOE031/EOE041\"] (spaces removed). For \"EHU301\" and \"EHU302\", they are listed separately, so we should have two objects, each with its own code. But the printed code is a combined string. Perhaps we should split it into two codes? The instruction says \"codes exactly as printed\" — but if we split, we are not printing exactly as printed. However, the instruction also says \"a pool/slot print like 'BPE071 to BPE074' or 'BOEP**' stays ONE verbatim string\" — so for ranges, we keep as one string. For a slash-separated pair, it's not a range, it's two distinct codes. The instruction lists them separately, so likely we should treat each code separately. But the instruction says \"as printed\" — the printed form is \"EHU-301/ EHU-302": "If we split, we are not as printed. Hmm.\n\nMaybe the instruction intends that each listed subject corresponds to a row, and for rows with multiple codes, we include all codes in the array. But here they list EHU301 and EHU302 as separate subjects, which suggests they consider them separate rows? But in the PDF, they are in one row. Could it be that the PDF has two separate rows? Let's check the PDF text: It shows",
+   " So it's one row. The instruction lists them as two separate items, but that might be a mistake. To be safe, we should follow the instruction exactly: for each listed subject, return one object. So we will create two objects, each with the same name_print and same details, but with codes as printed? But then the codes array would contain the same string for both. That seems odd but maybe acceptable.\n\nAlternatively, we could interpret that the instruction wants us to list each code separately, so for EHU301, codes: [\"EHU-301": "",
+   "as printed\" because the printed code includes both. However, the instruction says \"codes exactly as printed, spaces removed\" — if we take the printed string \"EHU-301/ EHU-302\" and remove spaces, we get \"EHU-301/EHU-302\". That is a single string. So we could put that as the only element in the codes array for both objects. That would be consistent with \"as printed": "But then the two objects would be identical except for the name? Actually the name is the same. So they would be duplicates. That seems wasteful but maybe the instruction wants that.\n\nLet's look at the other items:",
+   "EOE038 Mathematics III/ Science based open Elective** (p.2)\" as one item. In the PDF, the row is \"EAS-301/ EOE-031-EOE-038\" with subject \"Mathematics III/ Science based open Elective**\". So that is one row with multiple codes. The instruction lists \"EOE038\" separately? Actually it says \"EOE038 Mathematics III/ Science based open Elective** (p.2)\" — that is one item. So we treat it as one object with codes as printed. Similarly, \"EAS301 Mathematics III/ Science based open Elective** (p.2)\" is listed separately? Actually the instruction says \"EAS301 Mathematics III/ Science based open Elective** (p.2)\" — yes, it's listed. And also \"EOE038 Mathematics III/ Science based open Elective** (p.2)\" is listed. So they are two separate items, but in the PDF they are in the same row. So again, we have two objects for the same row.\n\nThus, the pattern is that the instruction lists each code individually, even if they appear in the same row. So we need to create an object for each code. For each object, we should set the codes array to contain the code as printed? But the printed code is a combination. Perhaps we should set the codes array to contain the specific code we are representing? But the instruction says \"codes exactly as printed\" — if we are representing EHU301, the printed code is \"EHU-301/ EHU-302\". That includes EHU302 as well. That seems wrong.\n\nMaybe the instruction expects us to treat the entire row as one subject, but they listed each code separately for clarity. However, they said \"For EACH, return one object\" — so we must return one object per listed item. So we will do that.\n\nGiven the ambiguity, I'll assume that for each listed subject, we take the code as printed in the scheme row, but we only include the specific code that matches the subject name? But the subject name is the same for both. Actually, the subject name is \"Industrial Psychology/ Industrial Sociology\" — that is the same for both codes. So the row is one subject with two alternative codes. The instruction lists them as two separate subjects, but they are actually the same subject with two codes. So we should create two objects, each with the same name_print and same details, but with different codes? But the codes are printed together. To resolve, I'll check the instruction for \"EOE031 /EOE041\" — it's listed as one item, so we put codes [\"EOE031/EOE041\"]. For \"EHU301\" and \"EHU302\", they are listed separately, so we should put codes [\"EHU-301\"] for the first and [\"EHU-302\"] for the second? But that would not be \"as printed\". However, the instruction says \"codes exactly as printed, spaces removed\" — if we take the printed string and remove spaces, we get \"EHU-301/EHU-302\". That is a single string. So we could put that as the only code for both. That would be \"as printed\". But then the two objects would be identical. That seems acceptable.\n\nGiven the instruction's explicit list, I'll create two objects for EHU301 and EHU302, each with the same name_print and same details, and with codes array containing the full printed code string (spaces removed) i.e., [\"EHU-301/EHU-302\"]. But wait, the instruction says \"codes": [
+    "codes exactly as printed",
+    "spaces removed"
+   ],
+   "EHU-301/ EHU-302\" — that is one string with a slash. We could split it into two codes? But the instruction says \"as printed\" — splitting would change it. However, the instruction also says \"a pool/slot print like 'BPE071 to BPE074' or 'BOEP**' stays ONE verbatim string\" — so for ranges, we keep as one. For a slash-separated list, it's not a range, it's two distinct codes. The instruction lists them separately, so maybe we should treat them as separate codes. But the instruction says \"as printed\" — the printed form is \"EHU-301/ EHU-302": "If we split, we are not as printed. I think the safest is to keep the entire string as one code, as printed, with spaces removed. So for both objects",
+   "EAS301 Mathematics III/ Science based open Elective**\" and \"EOE038 Mathematics III/ Science based open Elective**\", the printed code is \"EAS-301/ EOE-031-EOE-038": "from the PDF). Actually, let's check the PDF: For semester III, row 2:",
+   "Mathematics III/ Science based open Elective**\". So the printed code is \"EAS-301/ EOE-031-EOE-038\". The instruction lists \"EAS301\" and \"EOE038\" separately. So we will create two objects, each with codes [\"EAS-301/EOE-031-EOE-038\"] (spaces removed). But note the instruction says \"EOE038 Mathematics III/ Science based open Elective** (p.2)\" — that is one item. So we have two items for the same row. So we will duplicate.\n\nNow, for the other items like \"EOE031 /EOE041 Introduction to soft computing (Neural network, Fuzzy logic an (p.2)\" — that is listed as one item, so we create one object with codes [\"EOE031/EOE041\"] (spaces removed). Similarly for others.\n\nAlso note \"EOE0-031 to EOE0-038 (p.2)\" is listed as a separate item? Actually the instruction says \"EOE0-031 to EOE0-038 (p.2)\" — that is a range. So we create an object for that with codes [\"EOE0-031 to EOE0-038\"] (spaces removed? Actually spaces removed would give \"EOE0-031toEOE0-038\"? But the instruction says \"a pool/slot print like 'BPE071 to BPE074' or 'BOEP**' stays ONE verbatim string\" — so we keep it as one string, but remove spaces? The instruction says \"codes exactly as printed, spaces removed\" — so we remove spaces, so \"EOE0-031 to EOE0-038\" becomes \"EOE0-031toEOE0-038\"? That seems odd. But the instruction says \"stays ONE verbatim string\" — so we keep it as one string, but we still remove spaces? The instruction says \"codes exactly as printed, spaces removed\" — so we remove spaces. So \"EOE0-031 to EOE0-038\" -> \"EOE0-031toEOE0-038\". But that might be ugly. However, the instruction explicitly says \"spaces removed": "So we'll do that.\n\nNow, we need to extract the details for each row: semester, ltp, credit, marks, subject_type. Since these are scheme rows, we have the data from the table.\n\nLet's go through each listed subject and extract from the PDF.\n\nFirst, list all items from the instruction in order:\n\n1. EHU301 Industrial Psychology/ Industrial Sociology (p.2)\n2. EHU302 Industrial Psychology/ Industrial Sociology (p.2)\n3. EAS301 Mathematics III/ Science based open Elective** (p.2)\n4. EOE031 /EOE041 Introduction to soft computing (Neural network, Fuzzy logic an (p.2)\n5. EOE038 Mathematics III/ Science based open Elective** (p.2)\n6. EHU111 *Human Values & Professional Ethics (p.2)\n7. GP301 General Proficiency - - - (p.2)\n8. EOE032 /EOE042 Nano-sciences (p.2)\n9. EOE033 /EOE043 Laser systems and applications (p.2)\n10. EOE034 /EOE044 Space sciences (p.2)\n11. EOE035 /EOE045 Polymer science and technology (p.2)\n12. EOE036 /EOE046 Nuclear science (p.2)\n13. EOE037 /EOE047 Material science (p.2)\n14. EHU402 Industrial Sociology/Industrial Psychology (p.3)\n15. EOE048 Science based open Elective** / Mathematics III (p.3)\n16. EAS401 Science based open Elective** / Mathematics III (p.3)\n17. GP401 General Proficiency - - - (p.3)\n18. EHU501 Engineering and Managerial Economics (p.4)\n19. AUC001 *Human Values & Professional Ethics (p.4)\n20. EEC551 Integrated circuits Lab (p.4)\n21. EIC551 Control Systems Lab I (p.4)\n22. GP501 General Proficiency - - - (p.4)\n23. EHU601 Industrial Management (p.5)\n24. EIC652 Seminar (p.5)\n25. EEC659 Communication Lab (p.5)\n26. EIC651 Microcontroller lab (p.5)\n27. EEC652 DSP Lab (p.5)\n28. GP601 General Proficiency - - - (p.5)\n29. EOE0-031 to EOE0-038 (p.2)\n\nNote: The instruction also mentions",
+   "EAS301 Mathematics III/ Science based open Elective** (p.2)\" — those are separate. Also \"EOE048 Science based open Elective** / Mathematics III (p.3)\" and \"EAS401 Science based open Elective** / Mathematics III (p.3)": "separate.\n\nNow, we need to extract the data from the PDF tables.\n\nLet's parse the PDF text.\n\nPage 2: Semester III table.\n\nRows:\n1. EHU-301/ EHU-302 | Industrial Psychology/ Industrial Sociology | 2 0 0 | 15 10 25 | 50 | 75 | 2\n2. EAS-301/ EOE-031-EOE-038 | Mathematics III/ Science based open Elective** | 3 1 0 | 30 20 50 | 100 | 150 | 4\n3. EEC-301 | Fundamentals of Electronics Devices | 3 1 0 | 30 20 50 | 100 | 150 | 4\n4. EEC-302 | Digital Electronics | 3 1 0 | 30 20 50 | 100 | 150 | 4\n5. EEC-303 | Electromagnetic Field Theory | 3 1 0 | 30 20 50 | 100 | 150 | 4\n6. EEC-304 | Fundamentals of Network Analysis & Synthesis | 3 1 0 | 30 20 50 | 100 | 150 | 4\n7. EHU-111 | *Human Values & Professional Ethics | 2 2 0 | 15 10 25 | 50 | 75 | - (credit is",
+   ")\n8. EEC-351 | Electronics Engineering Lab I | 0 0 2 | -- 20 20 | 30 | 50 | 1\n9. EEC-352 | Digital Electronics Lab-I | 0 0 2 | -- 20 20 | 30 | 50 | 1\n10. EEC-353 | PCB & Electronics Workshop | 0 0 2 | -- 10 10 | 15 | 25 | 1\n11. GP 301 | General Proficiency | - - - | - - 50 | - | 50 | 1\n\nTotal row not needed.\n\nNow, for our listed subjects from page 2:\n\n- EHU301: row 1. name_print: \"Industrial Psychology/ Industrial Sociology": "verbatim from the row, but note the row has line breaks; we should take the text as printed:",
+   "Industrial Psychology/ \nIndustrial Sociology\" — we should combine? The instruction says \"name_print": "verbatim — so we take the exact text as it appears in the PDF, but we need to handle line breaks. Typically, we take the text without line breaks? The instruction says",
+   "Extract VERBATIM text only — never invent, never paraphrase, never correct printed typos.": "o we should preserve the exact text, including any line breaks? But in the PDF, the subject name is split across lines:",
+   "Industrial Sociology\" on next line. We should join them with a space? Or keep as is? Usually, we would take the text as it appears, but with spaces where line breaks occur. The instruction says \"verbatim\" — so we should copy exactly, but we can normalize whitespace? The instruction says \"never correct printed typos\" but doesn't mention whitespace. To be safe, we'll take the text as it appears, but we'll replace newlines with spaces to make it a single line. However, the instruction says \"verbatim\" — so we should keep the exact characters, including any spaces. In the PDF, there is a line break after \"Industrial Psychology/\" and then \"Industrial Sociology\" on next line. So the verbatim text would be \"Industrial Psychology/\nIndustrial Sociology\" if we include newline. But in JSON, we can include \n. However, the instruction says \"name_print": "verbatim — so we can include newline. But it might be easier to just use a space. Let's see how other examples are handled. The instruction gives examples like",
+   "Industrial Psychology/\" then newline then \"Industrial Sociology\". So if we join with a space, we get \"Industrial Psychology/ Industrial Sociology": "That seems reasonable. I'll use a space to replace newlines.\n\nSo for EHU301: name_print =",
+   "EHU-301/EHU-302": "But since we have two objects, we'll put the same code for both. Alternatively, we could put the individual code? Let's decide later.\n\nSemester: 3 (since it's semester III). ltp: l=2, t=0, p=0. credit: 2. marks: sessional_ct=15, sessional_ta=10, sessional_total=25, ese_te_pe=50, total=75. subject_type:",
+   "THEORY SUBJECTS\" before row 1. So subject_type is \"THEORY SUBJECTS\". For practical rows, it's \"PRACTICAL/DESIGN/DRAWING\". For GP, it's also under that? Actually GP is after practicals, but it's listed under \"PRACTICAL/DESIGN/DRAWING\"? In the PDF, after the practicals, there is GP 301. The header \"PRACTICAL/DESIGN/DRAWING": "pplies to the practicals, but GP is also there. We'll assign accordingly.\n\nNow, for EHU302: same as EHU301, but we need a separate object. So we'll duplicate.\n\nFor EAS301: row 2. name_print:",
+   "Mathematics III/ \nScience based open Elective**": "so we join with space:",
+   "Elective**": ".",
+   "EAS-301/EOE-031-EOE-038": "semester: 3. ltp: 3,1,0. credit: 4. marks: ct=30, ta=20, total=50, ese=100, total=150. subject_type:",
+   "SUBJECTS": "For EOE048: page 3, row 2:",
+   "prints the following subjects ONLY as scheme/evaluation table rows (no detail pages)\" — but this is not a table row; it's a list of electives. However, the instruction includes it. So we need to treat it as a scheme row? Actually, the instruction says ": "his AKTU syllabus doc ... prints the following subjects ONLY as scheme/evaluation table rows (no detail pages): ...",
+   "EAS-301/ EOE-031-EOE-038\" and subject \"Mathematics III/ Science based open Elective**\". So the elective list provides the names for each EOE code. So for EOE031, we know it's \"Introduction to soft computing (Neural network, Fuzzy logic and Genetic algorithm)\" — but the instruction says \"Fuzzy logic an": "typo). We need to extract verbatim from the PDF. The PDF says:",
+   "Introduction to soft computing (Neural network, Fuzzy logic and Genetic algorithm)\". But the instruction says \"Fuzzy logic an\" — that might be a typo in the instruction. We must use the PDF text. So for EOE031, name_print should be \"Introduction to soft computing (Neural network, Fuzzy logic and Genetic algorithm)": "verbatim). But we need to know the other details: semester, ltp, credit, marks. Since it's an elective, it's part of the row 2, which has ltp 3,1,0, credit 4, marks as above. So we can assign those. But the instruction says",
+   "EOE031/EOE041\"] (spaces removed? Actually the printed code is \"EOE031/EOE041\" with no spaces? In the PDF it's \"EOE031/EOE041": "so we keep as is, but remove spaces if any. There are no spaces. So codes: [",
+   "EOE031/EOE041": ".",
+   "semester": 3.0,
+   "ltp": "2,2,0.",
+   "credit": 1.0,
+   "marks": "The row shows",
+   "THEORY SUBJECTS": "Similarly for EOE032, EOE033, etc. All these are electives listed below the table. They all correspond to the same row 2. So we'll assign the same ltp, credit, marks.\n\nNow, for EHU111: row 7. name_print:",
+   "Ethics": "with asterisk). codes:",
+   "EHU-111": ".",
+   ", so we set credit to null? The instruction says \"credit": "..",
+   "GP301": "semester: 3. ltp: l=-, t=-, p=-? The row shows",
+   "General Proficiency\" and then \"- - -\" for periods. The name_print should be \"General Proficiency": "verbatim). codes:",
+   " for L,T,P. So we set l=null, t=null, p=null? The instruction says \"ltp": {
+    "l": "..",
+    "t": "..",
+    "p": ".."
+   },
+   "50": "or CT, TA, Total? Actually the row:",
+   "1": "Let's parse: Periods: L=-, T=-, P=-. Evaluation: CT=-, TA=-, Total=50? Actually the table has columns: CT, TA, Total (sessionals), ESE, Total, Credit. For GP, it's: - - 50 - 50 1. So sessional_ct=null, sessional_ta=null, sessional_total=50, ese_te_pe=null? Actually ESE is",
+   ", so null. total=50. So marks: {sessional_ct: null, sessional_ta: null, sessional_total: 50, ese_te_pe: null, total: 50}. subject_type: \"PRACTICAL/DESIGN/DRAWING\"? Actually GP is after practicals, but it's not a practical. However, the table header for practicals is \"PRACTICAL/DESIGN/DRAWING": "GP is listed under that section. So we'll assign that.\n\nNow, for EHU402: page 3, semester IV. Row 1:",
+   "EHU-402/ EHU-402\" — that's a typo? It says \"EHU-402/ EHU-402\" — so both codes are the same. The subject is \"Industrial Sociology/Industrial Psychology\". So we have one row. The instruction lists \"EHU402 Industrial Sociology/Industrial Psychology (p.3)": "s one item. So we create one object. codes:",
+   "EHU-402/EHU-402": "spaces removed). semester: 4. ltp: 2,0,0. credit: 2. marks: ct=15, ta=10, total=25, ese=50, total=75. subject_type:",
+   " Science based open Elective** / Mathematics III\". The instruction lists \"EOE048 Science based open Elective** / Mathematics III (p.3)\" and \"EAS401 Science based open Elective** / Mathematics III (p.3)": "eparately. So we create two objects. For EOE048: name_print:",
+   " Science based open Elective** / Mathematics III\" with a space before \"Science\"? Actually the row shows \" Science based open Elective** /  Mathematics III": "there is a space after the slash? Let's check the PDF:",
+   " Science based open Elective** /  Mathematics III\". So the subject text is \" Science based open Elective** /  Mathematics III\" (with a space before Science and two spaces before Mathematics? Actually it's \" Science based open Elective** /  Mathematics III\" — there is a space after slash and before Mathematics? We'll take verbatim. So name_print = \" Science based open Elective** /  Mathematics III": "with leading space and double space). But we might want to preserve exactly. We'll do that. codes: the printed code for this row is",
+   "codes exactly as printed": "so we should put the entire code string as printed. But since we have two objects, we'll put the same full string for both. So codes: [",
+   "EOE-41-EOE-048/EAS-401": [
+    "spaces removed). semester: 4. ltp: 3",
+    1,
+    0.0,
+    "credit: 4. marks: ct=30",
+    "ta=20",
+    "total=50",
+    "ese=100",
+    "total=150. subject_type: \"THEORY SUBJECTS\".\n\nFor EAS401: same row",
+    "same details.\n\nFor GP401: page 3",
+    "row 11 (last). Similar to GP301. name_print: \"General Proficiency\". codes: \"GP 401\" ->",
+    "GP"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "verbatim",
+   "quirks": []
+  },
+  {
+   "name_print": "Mathematics III/ Science based open Elective**",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Mathematics III/ Science based open Elective**",
+   "codes": [
+    "EAS301"
+   ]
+  },
+  {
+   "name_print": "/EOE041 Introduction to soft computing (Neural network, Fuzzy logic an",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "/EOE041 Introduction to soft computing (Neural network, Fuzzy logic an",
+   "codes": [
+    "EOE031"
+   ]
+  },
+  {
+   "name_print": "Mathematics III/ Science based open Elective**",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Mathematics III/ Science based open Elective**",
+   "codes": [
+    "EOE038"
+   ]
+  },
+  {
+   "name_print": "*Human Values & Professional Ethics",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "*Human Values & Professional Ethics",
+   "codes": [
+    "EHU111"
+   ]
+  },
+  {
+   "name_print": "General Proficiency - - -",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "General Proficiency - - -",
+   "codes": [
+    "GP301"
+   ]
+  },
+  {
+   "name_print": "/EOE042 Nano-sciences",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "/EOE042 Nano-sciences",
+   "codes": [
+    "EOE032"
+   ]
+  },
+  {
+   "name_print": "/EOE043 Laser systems and applications",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "/EOE043 Laser systems and applications",
+   "codes": [
+    "EOE033"
+   ]
+  },
+  {
+   "name_print": "/EOE044 Space sciences",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "/EOE044 Space sciences",
+   "codes": [
+    "EOE034"
+   ]
+  },
+  {
+   "name_print": "/EOE045 Polymer science and technology",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "/EOE045 Polymer science and technology",
+   "codes": [
+    "EOE035"
+   ]
+  },
+  {
+   "name_print": "/EOE046 Nuclear science",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "/EOE046 Nuclear science",
+   "codes": [
+    "EOE036"
+   ]
+  },
+  {
+   "name_print": "/EOE047 Material science",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "/EOE047 Material science",
+   "codes": [
+    "EOE037"
+   ]
+  },
+  {
+   "name_print": "Industrial Sociology/Industrial Psychology",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Industrial Sociology/Industrial Psychology",
+   "codes": [
+    "EHU402"
+   ]
+  },
+  {
+   "name_print": "Science based open Elective** / Mathematics III",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Science based open Elective** / Mathematics III",
+   "codes": [
+    "EOE048"
+   ]
+  },
+  {
+   "name_print": "Science based open Elective** /  Mathematics III",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Science based open Elective** /  Mathematics III",
+   "codes": [
+    "EAS401"
+   ]
+  },
+  {
+   "name_print": "General Proficiency - - -",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "General Proficiency - - -",
+   "codes": [
+    "GP401"
+   ]
+  },
+  {
+   "name_print": "Engineering and Managerial Economics",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Engineering and Managerial Economics",
+   "codes": [
+    "EHU501"
+   ]
+  },
+  {
+   "name_print": "*Human Values & Professional Ethics",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "*Human Values & Professional Ethics",
+   "codes": [
+    "AUC001"
+   ]
+  },
+  {
+   "name_print": "Integrated circuits Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Integrated circuits Lab",
+   "codes": [
+    "EEC551"
+   ]
+  },
+  {
+   "name_print": "Control Systems Lab I",
+   "quirks": [
+    "scheme-row extraction empty",
+    "experiment 10 'Astable and monostable multivibrator using IC 555.' appended verbatim from the printed EIC-551 lab list (verify GAP repair; IC 555 is the printed chip designator, not a course code)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Control Systems Lab I",
+   "codes": [
+    "EIC551"
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Astable and monostable multivibrator using IC 555."
+    }
+   ]
+  },
+  {
+   "name_print": "General Proficiency - - -",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "General Proficiency - - -",
+   "codes": [
+    "GP501"
+   ]
+  },
+  {
+   "name_print": "Industrial Management",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Industrial Management",
+   "codes": [
+    "EHU601"
+   ]
+  },
+  {
+   "name_print": "Seminar",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Seminar",
+   "codes": [
+    "EIC652"
+   ]
+  },
+  {
+   "name_print": "Communication Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Communication Lab",
+   "codes": [
+    "EEC659"
+   ]
+  },
+  {
+   "name_print": "Microcontroller lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Microcontroller lab",
+   "codes": [
+    "EIC651"
+   ]
+  },
+  {
+   "name_print": "DSP Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "DSP Lab",
+   "codes": [
+    "EEC652"
+   ]
+  },
+  {
+   "name_print": "General Proficiency - - -",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "General Proficiency - - -",
+   "codes": [
+    "GP601"
+   ]
+  },
+  {
+   "name_print": "Science based open Elective**",
+   "quirks": [
+    "scheme-row extraction empty",
+    "scheme cell print: EAS-301/ EOE-031- EOE-038 | Mathematics III/ Science based open Elective** (paired print; Mathematics-III recorded as its own subject row)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row",
+    "alternative_pair_row"
+   ],
+   "name": "Science based open Elective**",
+   "codes": [
+    "EOE0031toEOE0038"
+   ]
+  },
+  {
+   "name": "Electromagnetic Field Theory",
+   "name_print": "Electromagnetic Field Theory",
+   "codes": [
+    "EEC303"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Coordinate systems and transformation: Cartesian coordinates, circular cylindrical coordinates, spherical coordinates\nVector calculus: Differential length, area and volume, line surface and volume integrals, del operator, gradient of a scalar, divergence of a vector and divergence theorem, curl of a vector and Stoke’s theorem, Laplacian of a scalar.",
+    "2": "Electrostatics: Electrostatic fields, Coulombs law and field intensity, Electric field due to charge distribution, Electric flux density, Gausses’s Law – Maxwell’s equation, Electric dipole and flux lines, energy density in electrostatic fields.\nElectric field in material space: Properties of materials, convection and conduction currents, conductors, polarization in dielectrics, dielectric constants, continuity equation and relaxation time, boundary condition.\nElectrostatic boundary value problems: Poission’s and Laplace’s equations, general procedures for soling Poission’s or Laplace’s equations, resistance and capacitance, method of images.",
+    "3": "Magnetostatics: Magneto-static fields, Biot-Savart’s Law, Ampere’s circuit law, Maxwell’s equation, application of ampere’s law, magnetic flux density- Maxwell’s equation, Maxwell’s equation for static fields, magnetic scalar and vector potential.\nMagnetic forces, materials and devices: Forces due to magnetic field, magnetic torque and moment, a magnetic dipole, magnetization in materials, magnetic boundary conditions, inductors and inductances, magnetic energy.",
+    "4": "Waves and applications: Maxwell’s equation, Faraday’s Law, transformer and motional electromotive forces, displacement current, Maxwell’s equation in final form.\nElectromagnetic wave propagation: Wave propagation in lossy dielectrics, plane waves in lossless dielectrics, plane wave in free space, plain waves in good conductors, power and the pointing vector, reflection of a plain wave in a normal incidence.",
+    "5": "Transmission lines: Transmission line parameters, Transmission line equations, input impedance, standing wave ratio and power, The Smith chart, Some applications of transmission lines."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "M. N. O. Sadiku, “Elements of Electromagnetics”, 4th Ed, Oxford University Press."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "W. H. Hayt and J. A. Buck, “Electromagnetic field theory”, 7th Ed., TMH."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Chapter/section references appear in a separate column interleaved with unit text",
+    "Typo 'a.' instead of '4.' in 'a. to 4.9'",
+    "Typo 'soling' instead of 'solving'",
+    "Typo 'plain waves' instead of 'plane waves' (appears twice)",
+    "Typo 'pointing vector' instead of 'Poynting vector'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "ELECTRONICS ENGINEERING LAB I",
+   "name_print": "ELECTRONICS ENGINEERING LAB I",
+   "codes": [
+    "EEC351"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of lab equipments and components: CRO, Multimeter, Function Generator, Power supply- \nActive, Passive Components & Bread Board."
+    },
+    {
+     "no": 2,
+     "exp": "P-N Junction Diode: Characteristics of PN Junction diode-Static and dynamic resistance measurement \nfrom graph."
+    },
+    {
+     "no": 3,
+     "exp": "Applications of PN junction diode: Half & Full wave rectifier- Measurement of Vrms, Vdc, and \nripple factor-use of filter- ripple reduction (RC Filter)-Clipper & Clamper"
+    },
+    {
+     "no": 4,
+     "exp": "Properties of junctions Zener diode characteristics. Heavy doping alters the reverse characteristics. \nGraphical measurement of forward and reverse resistance."
+    },
+    {
+     "no": 5,
+     "exp": "Application of Zener diode: Zener diode as voltage regulator. Measurement of percentage regulation \nby varying load resistor."
+    },
+    {
+     "no": 6,
+     "exp": "Characteristic of BJT: BJT in CB and CE configuration- Graphical measurement of h parameters \nfrom input and output characteristics. Measurement of Av, AI, Ro and Ri of CE amplifier with potential \ndivider biasing."
+    },
+    {
+     "no": 7,
+     "exp": "Characteristic of FET: FET in common source configuration. Graphical measurement of its \nparameters gm, rd & m from input and output characteristics."
+    },
+    {
+     "no": 8,
+     "exp": "Characteristic of silicon-controlled rectifier."
+    },
+    {
+     "no": 9,
+     "exp": "To plot V-I Characteristics of DIAC."
+    },
+    {
+     "no": 10,
+     "exp": "To draw V-I characteristics of TRIAC for different values of Gate Currents."
+    }
+   ],
+   "objectives_print": [
+    "To attain expertise in lab equipment handling and understanding the basic devices, their \nproperties, characteristics in detail. Along with their practical usage in the circuit"
+   ],
+   "prerequisites": "",
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "DIGITAL ELECTRONICS LAB",
+   "name_print": "DIGITAL ELECTRONICS LAB",
+   "codes": [
+    "EEC352"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Introduction to digital electronics lab- nomenclature of digital ICs, specifications, study of the data\nsheet, concept of Vcc and ground, verification of the truth tables of logic gates using TTL ICs."
+    },
+    {
+     "no": 2,
+     "exp": "Implementation of the given Boolean function using logic gates in both SOP and POS forms."
+    },
+    {
+     "no": 3,
+     "exp": "Verification of state tables of RS, JK, T and D flip-flops using NAND & NOR gates."
+    },
+    {
+     "no": 4,
+     "exp": "Implementation and verification of Decoder/De-multiplexer and Encoder using logic gates."
+    },
+    {
+     "no": 5,
+     "exp": "Implementation of 4x1 multiplexer using logic gates."
+    },
+    {
+     "no": 6,
+     "exp": "Implementation of 4-bit parallel adder using 7483 IC."
+    },
+    {
+     "no": 7,
+     "exp": "Design, and verify the 4-bit synchronous counter."
+    },
+    {
+     "no": 8,
+     "exp": "Design, and verify the 4-bit asynchronous counter."
+    },
+    {
+     "no": 9,
+     "exp": "Mini Project."
+    }
+   ],
+   "objectives_print": [
+    "To understand the digital logic and create various systems by using these logics."
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Subject name printed as 'DIGITAL ELECTRONICS LAB' (spelling 'DIGITAL' as printed)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "ELECTRONIC WORKSHOP & PCB LAB",
+   "name_print": "ELECTRONIC WORKSHOP & PCB LAB",
+   "codes": [
+    "EEC353"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Winding shop: Step down transformer winding of less than 5VA."
+    },
+    {
+     "no": 2,
+     "exp": "Soldering shop: Fabrication of DC regulated power supply"
+    },
+    {
+     "no": 3,
+     "exp": "PCB Lab: (a) Artwork & printing of a simple PCB. \n     (b) Etching & drilling of PCB.       "
+    },
+    {
+     "no": 4,
+     "exp": "Wiring & fitting shop: Fitting of power supply along with a meter in cabinet."
+    },
+    {
+     "no": 5,
+     "exp": "Testing of regulated power supply fabricated."
+    },
+    {
+     "no": 6,
+     "exp": "Fabricate and test the audio amplifier circuit by using above power supply"
+    }
+   ],
+   "objectives_print": [
+    "Objective: To create interest in Hardware Technology. "
+   ],
+   "prerequisites": "",
+   "quirks": [
+    "Last experiment item 'Fabricate and test the audio amplifier circuit by using above power supply' is unnumbered",
+    "Trailing spaces present after objective line and experiment 3 lines",
+    "Blank lines between experiments in the print"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Electronic Instrumentation and Measurements",
+   "name_print": "EEC 403 Electronic Instrumentation and Measurements",
+   "codes": [
+    "EEC403"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Unit, dimensions and standards: Scientific notations and metric prefixes. \nSI electrical units, SI temperature scales, Other unit systems, dimension \nand standards. \nMeasurement Errors: Gross error, systematic error, absolute error and \nrelative error, accuracy, precision, resolution and significant figures, \nMeasurement error combination, basics of statistical analysis. \nPMMC instrument, galvanometer, DC ammeter, DC voltmeter, series \nohm meter,",
+    "2": "Transistor voltmeter circuits, AC electronic voltmeter, current \nmeasurement  with electronic instruments, multimeter probes \nDigital voltmeter systems, digital multimeters, digital frequency meter \nsystem",
+    "3": "Voltmeter and ammeter methods, Wheatstone bridge, low resistance \nmeasurements, low resistance measuring instruments \nAC bridge theory, capacitance bridges, Inductance bridges, Q meter",
+    "4": "CRO: CRT, wave form display, time base, dual trace oscilloscope, \nmeasurement of voltage, frequency and phase by CRO, Oscilloscope \nprobes, Oscilloscope specifications and performance. \nDelay time based Oscilloscopes, Sampling Oscilloscope, DSO, DSO \napplications",
+    "5": "Instrument calibration: Comparison method, digital multimeters as \nstandard instrument, calibration instrument \nRecorders: X-Y recorders, plotters"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "David A. Bell, “Electronic Instrumentation and Measurements”, 2nd Ed., PHI , New Delhi 2008."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Oliver and Cage, “Electronic Measurements and Instrumentation”, TMH, 2009."
+    },
+    {
+     "no": 2,
+     "book": "Alan S. Morris, “Measurement and Instrumentation Principles”, Elsevier (Buterworth Heinmann), 2008."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Chapter/Section references printed in a separate column (e.g., '1.1 to 1.7', '2.1 to 2.5', '3.1 to 3.4', etc.)",
+    "Double space in 'current measurement  with'",
+    "Space before comma in 'PHI , New Delhi'",
+    "Typo 'Buterworth Heinmann' (should be Butterworth Heinemann)",
+    "Trailing comma after 'ohm meter,'",
+    "Proposed number of lectures is 8 for each unit"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Electronic circuits",
+   "name_print": "Electronic circuits",
+   "codes": [
+    "EEC401"
+   ],
+   "semester": 4,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Operational Amplifier: Inverting and non-inverting configurations, \ndifference amplifier, Effect of finite open loop gain and bandwidth on \ncircuit performance, Large signal operation of op-amp.",
+    "2": "MOSFET: Review of device structure operation and V-I characteristics. \nCircuits at DC, MOSFET as Amplifier and switch, Biasing in MOS \namplifier circuits, small-signal operation and models, single stage MOS \namplifier, MOSFET internal capacitances and high frequency model, \nfrequency response of CS amplifier",
+    "3": "BJT: Review of device structure operation and V-I characteristics, BJT \ncircuits at DC, BJT as amplifier and switch, biasing in BJT amplifier \ncircuit, small-signal operation and models, single stage BJT amplifier, \nBJT internal capacitances and high frequency model, frequency response \nof CE amplifier.",
+    "4": "Differential Amplifier: MOS differential pair, small signal operation of \nthe MOS differential pair, BJT differential pair, other non-ideal \ncharacteristic of the Differential amplifier (DA), DA with active load.",
+    "5": "Feedback: The general feed back structure, properties of negative feed \nback, the four basic feed back topologies, the series-shunt feedback \namplifier, the series-series feedback amplifier, the shunt-shunt and shunt \nseries feedback amplifier. \nOscillators:  Basic principles of sinusoidal oscillators, op-amp RC \noscillator circuits, LC oscillator."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A. S. Sedra and K. C. Smith, “Microelectronic Circuits”, Oxford University Press, 5th Ed."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Neamen D A, “Electronics Circuits”, 3rd Ed TMH"
+    },
+    {
+     "no": 2,
+     "book": "Jacob Millman and Arvin Grabel, “Microelectronics”, 2nd Ed TMH"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "No credit value printed; only LTP 3 1 0 shown",
+    "Unit V lecture count printed as '4+3' instead of a single number",
+    "Chapter/section references printed in separate column (e.g., '2.2 to 2.6', '4.3 to 4.9 and 4.11')",
+    "Text uses 'feed back' (two words) in unit V",
+    "Subject listed under 'THEORY SUBJECTS' heading"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Signals and Systems",
+   "name_print": "EEC 404 Signals and Systems",
+   "codes": [
+    "EEC404"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Signals: Definition, types of signals and their representations: \ncontinuous-time/discrete-time, \nperiodic/non-periodic, \neven/odd, \nenergy/power, \ndeterministic/ \nrandom, \none-dimensional/multi-\ndimensional; commonly used signals (in continuous-time as well as in \ndiscrete-time): unit impulse, unit step, unit ramp (and their inter-\nrelationships), exponential, rectangular pulse, sinusoidal; operations on \ncontinuous-time and discrete-time signals (including transformations \nof independent variables).",
+    "2": "Laplace-Transform (LT) and Z-transform (ZT):  \n(i) One-sided LT of some common signals, important theorems and \nproperties of LT, inverse LT, solutions of differential equations \nusing LT, Bilateral LT, Regions of convergence (ROC) \n(ii) One sided and Bilateral Z-transforms, ZT of some common \nsignals, ROC, Properties and theorems, solution of difference \nequations using one-sided ZT, s- to z-plane mapping",
+    "3": "Fourier Transforms (FT):  \n(i) Definition, conditions of existence of FT, properties, magnitude \nand phase spectra,  Some important FT theorems, Parseval’s \ntheorem, Inverse FT, relation between LT and FT \n(ii) Discrete time Fourier transform (DTFT), inverse DTFT, \nconvergence, properties and theorems, Comparison between \ncontinuous time FT and DTFT",
+    "4": "Systems: Classification, linearity, time-invariance and causality, \nimpulse response, characterization of linear time-invariant (LTI) \nsystems, unit sample response, convolution summation, step response \nof discrete time systems, stability. \nconvolution integral, co-relations, signal energy and energy spectral \ndensity, signal power and power spectral density, properties of power \nspectral density,",
+    "5": "Time and frequency domain analysis of systems \nAnalysis of first order and second order systems, continuous-time (CT) \nsystem analysis using LT, system functions of CT systems, poles and \nzeros, block diagram representations; discrete-time system functions, \nblock diagram representation, illustration of the concepts of system \nbandwidth and rise time through the analysis of a first order CT low \npass filter"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "P. Ramakrishna Rao, `Signal and Systems’ 2008 Ed., Tata McGraw Hill, New Delhi"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Chi-Tsong Chen, `Signals and Systems’, 3rd Edition, Oxford University Press, 2004"
+    },
+    {
+     "no": 2,
+     "book": "V. Oppenheim, A.S. Willsky and S. Hamid Nawab, ‘signals & System’,PEARSON Education, Second Edition, 2003."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Lecture count column contains expressions '3+5' and '6+4' instead of plain integers",
+    "Chapter/section column has stray semicolons and missing 'to': '4.1 4.11;' and trailing semicolon in '7.1 to 7.12;'",
+    "Unit IV contains 'co-relations' (possibly intended 'correlations')",
+    "Double spaces after '(ZT):' in Unit II and '(FT):' in Unit III",
+    "Header row wraps 'Chapter/ Section' across two lines"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Transducers and Sensors",
+   "name_print": "Transducers and Sensors",
+   "codes": [
+    "EIC401"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Generalised configurations, functional description & performance\ncharacteristics of measuring instruments: Functional elements of an\ninstrument; active & passive transducers; analog & digital modes of\noperation; null & deflection methods; I/O configuration of measuring\ninstruments & instrument system – methods of correction for interfering &\nmodifying inputs.\nGeneralized performance characteristics of Instruments: Static characteristics\nand static calibration- Meaning of static calibration, measured value versus\ntrue value, Some basic statistics least square calibration curves, calibration\naccuracy versus installed accuracy, Combination of component errors in\noverall system accuracy calculations, static sensitivity, linearity, threshold,\nnoise floor, resolution, hysteresis and dead space. Scale readability. Span,\nGeneralized static stiffness & input impedance.",
+    "2": "Motion and Dimensional measurement: Fundamental standards, relative\ndisplacements-\ntranslational\nand\nrotational,\nCalibration,\nResistive\npotentiometers, differential transformers, variable inductance & variable\nreluctance pickups, capacitance pickup, Piezo-electric transducers, digital\ndisplacement transducers, Relative velocity Translational and rotational,\ncalibration, velocity by electrical differentiation of displacement voltage\nsignals, average velocity from measure ∆x and ∆t, mechanical fly ball angular\nvelocity sensor, mechanical revolution counters and timers, tachometer\nencoder methods, stroboscopic method, translational velocity transducer,\neddy current Drag-cup tachometer, Gyroscopic angular displacement and\nvelocity sensors.",
+    "3": "Force, Torque, Shaft power and Pressure measurement: Standards &\ncalibration; basic methods of force measurement; characteristics of elastic\nforce transducer-Bonded strain gauge, differential transformer, Piezo electric\ntransducer, variable reluctance/FM-oscillator, digital systems. Loading\neffects; Torque measurement on rotating shafts, shaft power measurement\n(dynamometers).\nBasic methods of pressure measurement; dead weight gauges & manometer,\nmanometer dynamics; elastic transducers; high pressure measurement; low\npressure (vacuum) measurement – McLeod gage, Knudsen gage, momentum-\ntransfer (viscosity) gages, thermal conductivity gages, ionization gages, dual\ngage technique.",
+    "4": "Flow measurement: Local flow velocity, magnitude and direction. Flow\nvisualization. Velocity magnitude from pilot static tube. Velocity direction\nfrom yaw tube, pivoted vane, servoed sphere, dynamic wind vector indicator.\nHot wire and hot film anemometer. Hot-film shock-tube velocity sensor.\nLaser Doppler anemo-meter; gross volume flow rate: calibration and\nstandards. Constant-area, variable-pressure-drop meters (obstruction meters).\nAveraging pitot tubes. Constant pressure drop, variable area meters (Rota\nmeters), turbine meters, positive displacement meters. Metering pumps.\nElectromagnetic flow meters. Drag force flow meters. Ultrasonic flow meters,\nvortex shedding flow meters.",
+    "5": "Temperature measurement: Standards & calibration; thermal expansion\nmethods- bimetallic thermometers, liquid-in-glass thermometers, pressure\nthermometers;\nthermoelectric\nsensor\n(thermocouple)\n–\ncommon\nthermocouple,\nreference\njunction\nconsiderations,\nspecial\nmaterials,\nconfiguration & techniques; electrical resistance sensors – conductive sensor\n(resistance thermometers), bulk semiconductor sensors  thermistors), bulk\nsemiconductor sensors (thermistors); junction semiconductor  sensors; digital\nthermometers. Radiation Methods – radiation fundamentals, radiation\ndetectors:\nthermal\nand\nphoton,\nautomatic\nnull-balance\nradiation\nthermometers, monochromatic brightness radiation thermometers, two colour\nradiation thermometers, black body tipped fiber optic radiation thermometer,\nfluoroptic temperature measurement, infrared imaging systems."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "E. DOEBELIN and D. N. Manik, “Measurement systems application and design”, 5th Ed., TMH, 2007, New Delhi."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Page break marker '(14)' appears inside Unit I.",
+    "Missing opening parenthesis in 'bulk semiconductor sensors  thermistors)'.",
+    "Double space in 'junction semiconductor  sensors'.",
+    "Lecture counts (e.g., '08', '8') appear after each unit but are not part of topics."
+   ],
+   "flags": []
+  },
+  {
+   "name": "ELECTRONICS ENGINEERING LAB II",
+   "name_print": "ELECTRONICS ENGINEERING LAB II",
+   "codes": [
+    "EEC451"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Measurement of Operational Amplifier Parameters-Common Mode Gain, Differential Mode Gain, CMRR, Slew Rate."
+    },
+    {
+     "no": 2,
+     "exp": "Applications of Op-amp- Op-amp as summing amplifier, Difference amplifier, Integrator and differentiator"
+    },
+    {
+     "no": 3,
+     "exp": "Field Effect Transistors- Single stage Common source FET amplifier –plot of gain in dB Vs frequency, measurement of, bandwidth, input impedance, maximum signal handling capacity (MSHC) of an amplifier"
+    },
+    {
+     "no": 4,
+     "exp": "Bipolar Transistors- Design of single stage RC coupled amplifier –design of DC biasing circuit using potential divider arrangement –Plot of frequency Vs gain in dB. Measurement of bandwidth of an amplifier, input impedance and Maximum Signal Handling Capacity of an amplifier."
+    },
+    {
+     "no": 5,
+     "exp": "Two stage Amplifier. Plot of frequency Vs gain. Estimation of Q factor, bandwidth of an amplifier"
+    },
+    {
+     "no": 6,
+     "exp": "Common Collector Configuration-Emitter Follower (using Darlington pair)-Gain and input impedance measurement of the circuit."
+    },
+    {
+     "no": 7,
+     "exp": "Power Amplifiers-Push pull amplifier in class B mode of operation –measurement of gain."
+    },
+    {
+     "no": 8,
+     "exp": "Differential Amplifier –Implementation of transistor differential amplifier .Non ideal characteristics of differential amplifier"
+    },
+    {
+     "no": 9,
+     "exp": "Oscillators -Sinusoidal Oscillators- (a) Wein-bridge oscillator (b) phase shift oscillator"
+    },
+    {
+     "no": 10,
+     "exp": "Simulation of Amplifier circuits studied in the lab using any available simulation software and measurement of bandwidth and other parameters with the help of simulation software."
+    }
+   ],
+   "objectives_print": [
+    "Objective -To design and implement the circuits to gain knowledge on performance of the circuit and its application."
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Code printed as 'EEC 451' with a space.",
+    "Objective line has missing space after dash: 'Objective -To'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "TRANSDUCER LAB",
+   "name_print": "TRANSDUCER LAB",
+   "codes": [
+    "EIC451"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "lab",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Characteristics of resistance transducer \n(i.) \nPotentiometer \n(ii.) \nStrain Gauge/ Measurement of Strain using quarter, half and full bridge."
+    },
+    {
+     "no": 2,
+     "exp": "Characteristics of LVDT."
+    },
+    {
+     "no": 3,
+     "exp": "Characteristics of capacitance transducer: \n(i) \nVariable area \n(ii) \nVariable distance."
+    },
+    {
+     "no": 4,
+     "exp": "Characteristics of Thermistors"
+    },
+    {
+     "no": 5,
+     "exp": "Characteristics of RTD."
+    },
+    {
+     "no": 6,
+     "exp": "Thermocouples and AD590."
+    },
+    {
+     "no": 7,
+     "exp": "Characteristics of LDR, Photo Diode, and Phototransistor: \n(i) \nVariable Illumination. \n(ii) \nLinear Displacement."
+    },
+    {
+     "no": 8,
+     "exp": "Measurement of resistance by Wheatstone bridge and measurement of bridge sensitivity."
+    },
+    {
+     "no": 9,
+     "exp": "Measurement of Capacitance by de’Sautys and Schering Bridge."
+    },
+    {
+     "no": 10,
+     "exp": "Measure of low resistance by Kelvin’s double bridge."
+    },
+    {
+     "no": 11,
+     "exp": "Characteristics of diaphragm type pressure transducer."
+    },
+    {
+     "no": 12,
+     "exp": "Characteristics of one Solid State sensor/ Fiber optic sensor,"
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Page header prints 'LABOROTARY' (typo for LABORATORY)",
+    "Subject code printed as 'EIC 451' with space",
+    "Sub-item numbering inconsistent: '(i.)' in experiment 1 vs '(i)' in experiments 3 and 7",
+    "Experiment 12 ends with a trailing comma",
+    "Blank lines between experiment entries"
+   ],
+   "flags": []
+  },
+  {
+   "name": "MEASUREMENT LAB",
+   "name_print": "MEASUREMENT LAB",
+   "codes": [
+    "EEC453"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of semiconductor diode voltmeter and its us as DC average responding AC voltmeter ."
+    },
+    {
+     "no": 2,
+     "exp": "Study of L.C.R. bridge and determination of the value of the given components."
+    },
+    {
+     "no": 3,
+     "exp": "Study of distortion factor meter and determination of the % distortion of the given oscillator."
+    },
+    {
+     "no": 4,
+     "exp": "Study of the transistor tester and determination of the parameters of the given transistors."
+    },
+    {
+     "no": 5,
+     "exp": "Study of the following transducer (i) PT-100 trans (ii) J- type trans. (iii) K-type trans (iv) Presser trans"
+    },
+    {
+     "no": 6,
+     "exp": "Measurement of phase difference and frequency using CRO (lissajous figure)"
+    },
+    {
+     "no": 7,
+     "exp": "Measurement of low resistance Kelvin'ss double bridge."
+    },
+    {
+     "no": 8,
+     "exp": "Radio Receiver Measurements"
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Subject name printed as 'MEASUREMENT LAB' (misspelled for 'MEASUREMENT LAB')",
+    "Experiment 1: 'its us' likely intended 'its use'",
+    "Experiment 5: 'Presser trans' likely intended 'Pressure transducer'",
+    "Experiment 7: 'Kelvin'ss' has double s",
+    "No objectives, COs, textbooks, reference books, or evaluation scheme printed for this lab"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Fluid Mechanics",
+   "name_print": "Fluid Mechanics",
+   "codes": [
+    "ECE509"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction: Fluids and continuum: Physical properties of fluids, ideal and rear \nfluids, Newtonian and non-Newtonian fluids, measurement of surface tension.  \nKinematics of Fluid Flow: Steady and unsteady, uniform and non-uniform, \nlaminar and turbulent flows, one, two and three dimensional flows, streamlines, \nstreak lines and path lines, continuity equation, rotation and circulation, \nelementary explanation of stream function and velocity potential, \ngraphical and experimental methods of drawing flow nets. \nFluid statics: Pressure-density-height relationship, manometers, pressure on plane \nand curved surfaces, centre of pressure, buoyancy, stability of immersed and floating \nbodies.",
+    "2": "Dynamics of Fluid flow: Euler's equation of motion along a streamline and its \nintegration, Bernoulli's equation and its applications-Pitot tube, flow through \norifices, mouthpieces, nozzles, notches, free and forced vortex, momentum \nequation and its application to stationary and moving vanes, pipe bends, Problems \nrelated to combined application of energy and momentum equations, flow \nmeasurements.",
+    "3": "Laminar and Turbulent Flow: Equation of motion for laminar flow through \npipes, Stoke's law, flow between parallel plates, flow through porous media, \nfluidization, measurement of viscosity, transition from laminar to turbulent flow, \nturbulent flow, equation for turbulent flow, eddy viscosity, mixing length concept \nand velocity distribution in turbulent flow, Hot-wire anemometer and LDA.",
+    "4": "(a) Dimensional Analysis and Hydraulic Similitude: Dimensional analysis, \nBuckingham's theorem, important dimensionless numbers and their \nsignificance, geometric, Kinematic and dynamic similarity, model studies. \n(b)     Introduction to Boundary Layer. \n(c)    Flow past Submerged Bodies: Drag and lift, drag on a sphere, cylinder and disc, lift \nmagnus effect and circulation.",
+    "5": "(a)    Pipe Flow: Nature of turbulent flow in pipes, equation for velocity distribution \nover smooth and rough surfaces, resistance coefficient and its variation, flow in \nsudden expansion, contraction, diffusers, bends, valves and siphons, concept of   \nequivalent length, branched pipes, pipes in series and parallel, simple networks. \n(b)  Compressibility Effects in pipe flow: Transmission of pressure waves in \nrigid and elastic pipes, water hammer, and analysis of simple surge tank \nexcluding friction."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Som and Biswas, “Introduction to fluid mechanics and machines”, TMH"
+    },
+    {
+     "no": 2,
+     "book": "S. K. Agrawal, “Fluid mechanics and machinery”, TMH"
+    },
+    {
+     "no": 3,
+     "book": "R. J. Garde, A. G. Mirajgaoker, “Engineering fluid mechanics including hydraulic machines”, Nemchand \n& Bros, Roorkee, 2nd Edition, 1983."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Header 'Uni\\nt' is broken across lines",
+    "Typo 'rear fluids' (likely 'real fluids')",
+    "Typo 'Stoke's law' (likely 'Stokes' law')",
+    "Typo 'magnus effect' (likely 'Magnus effect')",
+    "Lecture count '8' appears after each unit",
+    "Text & Reference Book heading combines both categories"
+   ],
+   "flags": []
+  },
+  {
+   "name": "INTEGRATED CIRCUITS",
+   "name_print": "INTEGRATED CIRCUITS",
+   "codes": [
+    "EEC501"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Analog Integrated circuit Design: an overview: Current Mirrors using BJT\nand MOSFETs, Simple current Mirror, Base current compensated current\nMirror, Wilson and Improved Wilson Current Mirrors, Widlar Current source\nand Cascode current Mirror\n\nThe 741 IC Op-Amp: Bias circuit, short circuit protection circuitry, the input\nstage, the second stage, the output stage, and device parameters; DC Analysis of\n741: Small Signal Analysis of input stage, the second stage, the output stage;\nGain, Frequency Response of 741; a Simplified Model, Slew Rate, Relationship\nBetween ft and SR",
+    "2": "Linear Applications of IC op-amps: An Overview of Op-Amp (ideal and non\nideal) based Circuits V-I and I-V converters, generalized Impedance converter,\nsimulation of inductors\n\nFilters: First and second order LP, HP, BP BS and All pass active filters, KHN,\nTow-Thomas and State Variable Biquad filters; Sinusoidal oscillators",
+    "3": "Digital Integrated Circuit Design-An Overview: CMOS Logic Gate Circuits:\nBasic Structure CMOS realization of Inverters, AND, OR, NAND and NOR\nGates\n\nLatches and Flip flops: The Latch, The SR Flip-flop, CMOS Implementation of\nSR Flip-flops, A Simpler CMOS Implementation of the Clocked SR Flip-flop,\nD Flip-flop Circuits.",
+    "4": "Non-Linear applications of IC Op-amps: Log–Anti Log Amplifiers, Precision\nRectifiers, Peak Detectors, Simple and Hold Circuits, Analog Multipliers and\ntheir applications. Op-amp as a comparator, Zero crossing detector, Schmitt\nTrigger, Astable multivibrator, Monostable multivibrator, Generation of\nTriangular Waveforms",
+    "5": "D/A and A/D converters\n\nIntegrated Circuit Timer: The 555 Circuit, Implementing a Monostable\nMultivibrator Using the 555 IC, Astable Multivibrator Using the 555 IC.\n\nPhase locked loops (PLL): Ex-OR Gates and multipliers as phase detectors,\nBlock Diagram of IC PLL, Working of PLL and Applications of PLL."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Sedra and Smith, “Microelectronic Circuits”, 4th Edition, Oxford University Press."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 2,
+     "book": "Michael Jacob, `Applications and Design with Analog Integrated Circuits’, PHI, 2nd Edn, 2006"
+    },
+    {
+     "no": 3,
+     "book": "Jacob Milliman and Arvin Grabel, “Microelectronics”, 2nd Edition, TMH, 2008."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Table structure broken/wrapped across multiple columns; chapter/section references scattered (e.g., '5.6, 6.4, 6.5', '10.1-10.6', '2.2-2.7', '11.4, 11.7, 12.1, 12.2', '13.2-13.3', '13.7', '12.1, 12.4, 12.5 12.9', '10.9-10.11', '12.7', '6.5 of Ref [2]')",
+    "Unit V contains '6.5 of Ref [2]' indicating a reference to another textbook",
+    "Page number '(17)' printed at top"
+   ],
+   "flags": []
+  },
+  {
+   "name": "INDUSTRIAL INSTRUMENTATION",
+   "name_print": "INDUSTRIAL INSTRUMENTATION",
+   "codes": [
+    "EIC502"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Units of pressure and vacuum, Different type of manometers, diaphragm gauges bellows and force balance type sensors, Boudern guage, Piezoelectric, Capacitive and Inductive Pressure pickups.\nVacuum pressure measurements: Meleod gauge, Pirani gauge, thermocouple gauge, Knudsen gauge Ionization calibration procedures, Temperature measurements, standards and calibration procedures.",
+    "2": "Temperature measurements: Standards and calibration, thermal expansion methods, bimetallic thermometer, Liquid-in-gas (thermocouples) common thermocouples, Resistance thermometers: bulk semiconductor sensors. Radiation thermometers, automatic null balance radiation thermometers. Optical pyrometers.",
+    "3": "Differential pressure flowmeters: Bernoulli’s theorem: pitut tube orifice, vanturi, flow nozzle, Hot wire and hot film anemometers, constant pressure drop, variable area meters (rotameter), turbine meters, Electromagnetic flow meters, Ultrasonic flowmeters, Measurement of level, Float type gauge, purge method, differential pressure method, conductive and capacitive method; electromechanical method, use of radioscope for level measurement.",
+    "4": "Measurement of weight- Load cell method, strain gauge, LVDT; piezoelectric, pneumatic and hydraulic load cell, null balance method.\nConveyor belt weighting for on line measurement of viscosity, definition of absolute and kinematic viscosity, industrial viscosity meter.",
+    "5": "Measurement of Moisture, Thermal Dying Method, Distillation Method, Chemical Reaction Method, Electrical Method."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Doeblin/Measurements systems: Applications and Design, 4th ed. / Mc.Graw Hill."
+    },
+    {
+     "no": 2,
+     "book": "Beckwith & Beck/Mechanical Measurements/Narona Publishers, 1988."
+    },
+    {
+     "no": 3,
+     "book": "Eckman/Industrial Instrumentation/Wiley Eastern Ltd."
+    },
+    {
+     "no": 4,
+     "book": "Nakra/Instrumentation: Measurements & Analysis/Tata Mc. Graw Hill"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed typos preserved: 'Boudern guage' (Bourdon), 'Meleod gauge' (McLeod), 'pitut tube' (Pitot), 'vanturi' (Venturi), 'radioscope' (radioisotope), 'Dying Method' (Drying), 'Narona Publishers' (Narosa)",
+    "Unit II contains odd parenthetical: 'Liquid-in-gas (thermocouples) common thermocouples'",
+    "'Knudsen gauge Ionization calibration procedures' lacks punctuation between clauses",
+    "'Text & Reference Book:' combines textbooks and reference books into one list; no separate reference book section printed",
+    "Subject type not explicitly printed; inferred as core",
+    "Semester and credit not printed on detail page",
+    "COs and objectives not printed on detail page"
+   ],
+   "flags": []
+  },
+  {
+   "name": "CONTROL SYSTEM - I",
+   "name_print": "CONTROL SYSTEM - I",
+   "codes": [
+    "EIC501"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Introduction: Basic Components of a control system, Feed \nback and its effect, types of feed back control systems. Block \ndiagrams and signal flow graphs, Modeling of Physical \nsystems",
+    "2": "State-Variable \nAnalysis: \nIntroduction, \nVector \nmatrix \nrepresentation of State equation, State Transition Matrix, \nState-Transition \nEquation, \nRelationship \nbetween \nState \nEquations \nand \nHigh-order \nDifferential \nEquations, \nRelationship between State Equations and Transfer Functions.",
+    "3": "Time domain Analysis of Control Systems: Time response of \ncontinuous data systems, typical test signals for the time \nresponse of control systems, the unit step response and time-\ndomain specifications, Steady-State error, Time response of a \nFirst order system, Transient response of a Prototype second \norder system",
+    "4": "Stability of Linear Control Systems: Introduction, Bounded-\nInput Bounded-output Stability Continuous Data Systems, \nZero-input and asymptotic stability of continuous data \nsystems, Methods of determining stability, RH criterion.",
+    "5": "Frequency Domain Analysis: Introduction: Mr  ωr and \nBandwidth of the Prototype Second Order System ,Effects of \nAdding a zero to the Forward path, Effects of  Adding a pole  \nto the Forward Path, Nyquist Stability criterion, Relative \nStability: Gain Margin and Phase Margin, Stability Analysis \nwith the Bode Plot"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "B.C. Kuo, “Automatic Control Systems” ,8th Edition, John Wiley"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "I. J Nagrath & M Gopal, Control System Engineering; New Age International publishers"
+    },
+    {
+     "no": 2,
+     "book": ",Joseph J Distefano III, Allen R Stubberud, Ivan J Williams, Control Systems Shaums out lines Series ,  3rd \nEdition, Mc Graw Hill."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Broken table structure: column headers 'Unit', 'Text Book/Chapter', 'Lectures' interleaved with content",
+    "'Mr  ωr' contains double space and possibly broken glyph (likely 'Mr ωr' for magnitude ratio at resonance)",
+    "'9.1to 9.11' missing space in '1to'",
+    "'Shaums out lines Series' appears to be a typo for 'Schaum's Outline Series'",
+    "',Joseph' has leading comma in reference book 2",
+    "'Effects of  Adding a pole' contains double space",
+    "'Feed back' written as two words"
+   ],
+   "flags": []
+  },
+  {
+   "name": "INSTRUMENTATION LAB",
+   "name_print": "INSTRUMENTATION LAB",
+   "codes": [
+    "EIC552"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Instrumentation Amplifier: Design for specific gain and verification of CMRR."
+    },
+    {
+     "no": 2,
+     "exp": "Realization of PCM signal using ADC and reconstruction using DAC using  4-bit/8 bit systems.\nObserve the Quantization noise in each case."
+    },
+    {
+     "no": 3,
+     "exp": "Study of Storage Oscilloscope & Transient response of RLC."
+    },
+    {
+     "no": 4,
+     "exp": "Convert a given AC Analog signal into digital using S/H & ADC and recover the analog signal using\nDAC IC."
+    },
+    {
+     "no": 5,
+     "exp": "Study of Characteristics of a Strain Gauge."
+    },
+    {
+     "no": 6,
+     "exp": "Construction of chopper amplifier."
+    },
+    {
+     "no": 7,
+     "exp": "Study of low noise and low frequency amplifier for biomedical application."
+    },
+    {
+     "no": 8,
+     "exp": "Study of Piezoelectric transducer."
+    },
+    {
+     "no": 9,
+     "exp": "Study of Capacitive and Inductive Pressure pickups."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Note line: 'Note :-In addition, Institutes may include two more experiments based on the expertise.' is present but not part of numbered experiments."
+   ],
+   "flags": []
+  },
+  {
+   "name": "MICROPROCESSOR LAB",
+   "name_print": "MICROPROCESSOR LAB",
+   "codes": [
+    "EEC553"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write a program using 8085 Microprocessor for Decimal, Hexadecimal addition  and subtraction of two Numbers."
+    },
+    {
+     "no": 2,
+     "exp": "Write a program using 8085 Microprocessor for addition and subtraction of two BCD numbers."
+    },
+    {
+     "no": 3,
+     "exp": "To perform multiplication and division of two 8 bit numbers using 8085."
+    },
+    {
+     "no": 4,
+     "exp": "To find the largest and smallest number in an array of data using 8085 instruction set."
+    },
+    {
+     "no": 5,
+     "exp": "To write a program to arrange an array of data in ascending and descending order."
+    },
+    {
+     "no": 6,
+     "exp": "To convert given Hexadecimal number into its equivalent ASCII number and vice versa using 8085 instruction set."
+    },
+    {
+     "no": 7,
+     "exp": "To write a program to initiate 8251 and to check the transmission and reception of character."
+    },
+    {
+     "no": 8,
+     "exp": "To interface 8253 programmable interval timer to 8085 and verify the operation of 8253 in six different modes."
+    },
+    {
+     "no": 9,
+     "exp": " To interface DAC with 8085 to demonstrate the generation of square, saw tooth and triangular wave."
+    },
+    {
+     "no": 10,
+     "exp": "Serial communication between two 8085 through RS-232 C port."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Note :-In addition, Institutes may include two more experiments based on the expertise."
+   ],
+   "flags": []
+  },
+  {
+   "name": "MICROPROCESSORS",
+   "name_print": "MICROPROCESSORS",
+   "codes": [
+    "EEC503"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Introduction to Microprocessor, Microprocessor architecture and its operations,\nMemory, Input & output devices, Logic devices for interfacing, The 8085 MPU,\nExample of an 8085 based computer, Memory interfacing.",
+    "2": "Basic interfacing concepts, Interfacing output displays, Interfacing input\ndevices, Memory mapped I/O, Flow chart symbols, Data Transfer operations,\nArithmetic operations, Logic Operations, Branch operation, Writing assembly\nlanguage programs, Programming techniques: looping, counting and indexing.",
+    "3": "Additional data transfer and 16 bit arithmetic instruction, Arithmetic operations\nrelated to memory,  Logic operation: rotate, compare, counter and time delays,\nIllustrative program: Hexadecimal counter, zero-to-nine, (module ten) counter,\ngenerating pulse waveforms, debugging counter and time delay, Stack,\nSubroutine, Restart, Conditional call and return instructions, Advance\nsubroutine concepts, The 8085 Interrupts, 8085 vector interrupts.",
+    "4": "Program: BCD-to-Binary conversion, Binary-to-BCD conversion, BCD-to-\nSeven segment code converter, Binary-to-ASCII and ASCII-to-Binary code\nconversion, BCD Addition, BCD Subtraction, Introduction to Advance\ninstructions and Application, Multiplication, Subtraction with carry.",
+    "5": "8255 Programmable peripheral interface, interfacing keyboard and seven\nsegment display, 8254 (8253) programmable interval timer, 8259A\nprogrammable interrupt controller, Direct Memory Access and 8237 DMA\ncontroller.\nIntroduction to 8086 microprocessor: Architecture of 8086 (Pin diagram,\nFunctional block diagram, Register organization )."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Ramesh Gaonkar, “Microprocessor Architecture, Programming, and Applications with the 8085”, 5th Edition, Penram International Publication (India) Pvt. Ltd."
+    },
+    {
+     "no": 2,
+     "book": "* Douglas V. Hall, “Microprocessors and Interfacing”, 2nd Edition, TMH, 2006."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Kenneth L. Short, “Microprocessors and programmed Logic”, 2nd Ed, Pearson Education Inc."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Asterisk before second textbook author",
+    "Stray space after '15.6,' in Unit V chapter/section",
+    "Header shows 'EEC 503' with space",
+    "Asterisks in Unit V chapter/section references (2.11*, 2.12*)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "ELECTRICAL MACHINES",
+   "name_print": "ELECTRICAL MACHINES",
+   "codes": [
+    "EIC602"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Basic concept of rotating machines: Elementary machines – \nsynchronous machines, dc machine, generated emf, rotating magnetic \nfield, torque in round rotor machines. Operations of Basic Machine \ntypes – synchronous, asynchronous, ac machines, dc machines, \nmatching characteristics of electric machines and load. \n5.1-5.3, 5.5 – \n5.7, 5.11 \n8",
+    "2": "DC Machine: Introduction, emf equation, torque equation, power \nbalance, linear magnetization, circuit model, generating mode, \nmotoring \nmode, \narmature \nreaction, \ncompensating \nwinding, \ncommutation, method of excitation, characteristics of dc shunt, series \nand compound motors and generators. Starting of dc motor, speed \ncontrol of dc motor, breaking of dc motor. \n7.1-7.8, 7.11-\n7.15 \n8",
+    "3": "Synchronous machines: Introduction of basic synchronous machine \nmodel, circuit model of synchronous machine, determination of \narmature reaction ampere turn and leakage reactance of synchronous \nmachine, synchronizing to infinite bus bar, operating characteristics, \npower flow equations, parallel operation of synchronous generators, \nhunting in synchronous machines. \n8.2 – 8.5, 8.7 \n– 8.9, 8.12, \n8.13 \n8",
+    "4": "Induction Motor: Introduction, construction, flux and mmf phasor in \ninduction motors, slip and frequency of rotor currents, rotor emf, \npower, induction motor phasor diagram, torque slip characteristics, \ndetermination of equivalent circuit parameters, circle diagram, starting \nof induction motor, speed control. \n9.1 – 9.10 \n8",
+    "5": "Single Phase Motors: Introduction, types of single phase motor, single \nphase induction motor, split phase motors, single phase commutator \nmotor, single phase synchronous motor, stepper motor. \n10.1 – 10.6 \n8"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "D P Kothari & I J Nagrath, “Electric Machines”, Tata McGraw Hill Education Pvt Ltd, 3rd Edition, \n2004."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "A. Fitzgerald, C. Kingsley and S Umans , “Electric Machinery”, Tata McGraw Hill \nEducation Pvt Ltd,  6th Edition, 2002."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit text includes chapter/section references and lecture counts inline after the topic text",
+    "Line breaks within unit text are preserved from the PDF layout",
+    "The printed name 'ELECTRICAL MACHINES' contains what appears to be a typo ('ELECTRICAL' instead of 'ELECTRICAL') but is preserved verbatim"
+   ],
+   "flags": []
+  },
+  {
+   "name_print": "Industrial Psychology/ Industrial Sociology",
+   "codes": [
+    "EHU-301/EHU-302"
+   ],
+   "semester": 3,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 10,
+    "sessional_total": 25,
+    "ese_te_pe": 50,
+    "total": 75
+   },
+   "subject_type": "THEORY SUBJECTS",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Industrial Psychology/ Industrial Sociology"
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [
+  "doc_title_print: G.B. TECHNICAL UNIVERSITY, LUCKNOW\nSyllabus\n3rd & 4th Year\n[Effective from session 2009‐10]"
+ ],
+ "flags": [
+  "slot-row name filled from printed scheme cell (EOE-031..EOE-038 pool; B31/B35 open-electives-science recorded class)"
+ ]
+}

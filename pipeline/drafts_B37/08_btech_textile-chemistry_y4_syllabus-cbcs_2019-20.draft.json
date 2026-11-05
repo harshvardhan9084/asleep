@@ -1,6 +1,6 @@
 {
- "pdf_rel": "",
- "session": "",
+ "pdf_rel": "repo_asleep/PDFs/5-course/2019-20/btech_textile-chemistry_y4_syllabus-cbcs_2019-20.pdf",
+ "session": "2019-20",
  "course": "BTech",
  "sha16": "70b2d05bfb452830",
  "stem": "08_btech_textile-chemistry_y4_syllabus-cbcs_2019-20",
@@ -27,7 +27,8 @@
     "scheme table row only (p.2); detailed syllabus not printed in this document"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "no code printed in document (elective/DE/OE slot family)"
    ],
    "name": "OPEN ELECTIVE COURSE -1"
   },
@@ -53,7 +54,8 @@
     "scheme table row only (p.3); detailed syllabus not printed in this document"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "no code printed in document (elective/DE/OE slot family)"
    ],
    "name": "OPEN ELECTIVE COURSE -2"
   },
@@ -427,9 +429,12 @@
    "prerequisites": null,
    "quirks": [
     "Typo 'carryout' instead of 'carry out'",
-    "Line breaks occur mid-sentence in the original text"
+    "Line breaks occur mid-sentence in the original text",
+    "training/project row prints only in the evaluation scheme (L-T-P 0-0-2 + marks); no detail page in this document (print evidence)"
    ],
-   "flags": []
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
   },
   {
    "scheme_row_only": true,
@@ -448,9 +453,11 @@
    "quirks": [
     "scheme table row only; detailed syllabus not printed in this document",
     "Brief description present: Students will carry out minor project during seventh semester as a part of curriculum as per AKTU guidelines.",
-    "scheme table row only (p.9): detailed syllabus not printed in this document (recorded B23/B25/B27 zero-GAP class — flagged subject candidate for the ladder)"
+    "scheme table row only (p.9): detailed syllabus not printed in this document (recorded B23/B25/B27 zero-GAP class — flagged subject candidate for the ladder)",
+    "training/project row prints only in the evaluation scheme (L-T-P 0-0-2 + marks); no detail page in this document (print evidence)"
    ],
    "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
     "scheme_row_only_detailed_syllabus_not_printed"
    ],
    "name": "Project-1"
@@ -504,9 +511,11 @@
    },
    "subject_type": "PROJECT-2",
    "quirks": [
-    "scheme table row only (p.3); detailed syllabus not printed in this document"
+    "scheme table row only (p.3); detailed syllabus not printed in this document",
+    "training/project row prints only in the evaluation scheme (L-T-P 0-0-2 + marks); no detail page in this document (print evidence)"
    ],
    "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
     "scheme_row_only_detailed_syllabus_not_printed"
    ],
    "name": "PROJECT-2"
@@ -794,7 +803,8 @@
  ],
  "non_subject_rows": [],
  "quirks": [
-  "doc_title_print: DR. A.P.J ABDUL KALAM TECHNICAL \nUNIVERSITY, LUCKNOW \n\n\nPROPOSED STUDY & EVALUATION SCHEME \nFOR  \nB.TECH. FOURTH YEAR  \n(TEXTILE CHEMISTRY) \nON  \nCHOICE BASED CREDIT SYSTEM (CBCS) \n(Effective from session 2019-20)"
+  "doc_title_print: DR. A.P.J ABDUL KALAM TECHNICAL \nUNIVERSITY, LUCKNOW \n\n\nPROPOSED STUDY & EVALUATION SCHEME \nFOR  \nB.TECH. FOURTH YEAR  \n(TEXTILE CHEMISTRY) \nON  \nCHOICE BASED CREDIT SYSTEM (CBCS) \n(Effective from session 2019-20)",
+  "durable in-flight draft (parallel instance @0a3b85b) adopted by CRON-20261106-B37; pdf_rel/session/course repaired from restored queue (sha16 match)"
  ],
  "flags": []
 }

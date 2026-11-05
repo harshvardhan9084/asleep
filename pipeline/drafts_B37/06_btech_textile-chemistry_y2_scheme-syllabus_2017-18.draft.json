@@ -1,6 +1,6 @@
 {
- "pdf_rel": "",
- "session": "",
+ "pdf_rel": "repo_asleep/PDFs/5-course/2017-18/btech_textile-chemistry_y2_scheme-syllabus_2017-18.pdf",
+ "session": "2017-18",
  "course": "BTech",
  "sha16": "a1eadc45e6ecbb98",
  "stem": "06_btech_textile-chemistry_y2_scheme-syllabus_2017-18",
@@ -611,19 +611,30 @@
    ],
    "semester": null,
    "ltp": {
-    "l": null,
-    "t": null,
-    "p": null
+    "l": 0,
+    "t": 0,
+    "p": 2
    },
-   "credit": null,
-   "marks": null,
+   "credit": 1,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
    "subject_type": null,
    "units": {},
    "lectures_per_unit": null,
    "cos": [],
    "textbooks": [],
    "reference_books": [],
-   "experiments": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Dye cotton with direct, reactive, vat and sulphur dye, dyeing polyester, wool, silk, acrylic and \nnylon using, appropriate disperse, acid and basic dyes, Print cotton fabric using various styles \nof printing, namely, direct, resist and discharge, Evaluate colour fastness to washing, light, \nperspiration and rubbing properties"
+    }
+   ],
    "objectives_print": [
     "Dye cotton with direct, reactive, vat and sulphur dye, dyeing polyester, wool, silk, acrylic and \nnylon using, appropriate disperse, acid and basic dyes, Print cotton fabric using various styles \nof printing, namely, direct, resist and discharge, Evaluate colour fastness to washing, light, \nperspiration and rubbing properties"
    ],
@@ -631,7 +642,8 @@
    "quirks": [
     "Only course description printed; no detailed syllabus with units, COs, textbooks, or experiments present",
     "Stray comma in 'using, appropriate'",
-    "Leading '7' on first line may be page or item number"
+    "Leading '7' on first line may be page or item number",
+    "re-extracted from detail page p.2 (B37 verify repair)"
    ],
    "flags": []
   },
@@ -758,7 +770,8 @@
  ],
  "non_subject_rows": [],
  "quirks": [
-  "doc_title_print: DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY\nLUCKNOW \nStudy & Evaluation Scheme with Syllabus\nfor\nB.Tech. Second Year\nTextile Chemistry \nOn\nChoice Based Credit System\n(Effective from the Session: 2017-18)"
+  "doc_title_print: DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY\nLUCKNOW \nStudy & Evaluation Scheme with Syllabus\nfor\nB.Tech. Second Year\nTextile Chemistry \nOn\nChoice Based Credit System\n(Effective from the Session: 2017-18)",
+  "durable in-flight draft (parallel instance @0a3b85b) adopted by CRON-20261106-B37; pdf_rel/session/course repaired from restored queue (sha16 match)"
  ],
  "flags": []
 }

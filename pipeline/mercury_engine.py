@@ -80,6 +80,13 @@ def norm_al(s):
 
 
 
+def safe_pg(x):
+    try:
+        return int(x)
+    except (TypeError, ValueError):
+        return 0
+
+
 def pages_of(fulltext):
     """split the dumped fulltext into (page_no, text) pairs"""
     parts = re.split(r"===== PAGE (\d+) =====", fulltext)
@@ -97,17 +104,26 @@ def slice_pages(pages, p_from, p_to):
 
 
 def units_dict(u):
-    """coerce the model's units (dict or list-of-{unit,text}) into a {'1': text} dict"""
+    """coerce the model's units (dict or list-of-{unit,text}) into a {'1': text} dict;
+    list-valued entries (bare-array unit text) are joined to strings (B37 hardening)"""
+    def _s(v):
+        if isinstance(v, str):
+            return v
+        if isinstance(v, list):
+            return "\n".join(str(x) for x in v)
+        if isinstance(v, dict):
+            return v.get("text") or v.get("content") or json.dumps(v, ensure_ascii=False)
+        return str(v) if v is not None else ""
     if isinstance(u, dict):
-        return {str(k): (v.get("text") if isinstance(v, dict) else v) for k, v in u.items()}
+        return {str(k): _s(v) for k, v in u.items()}
     if isinstance(u, list):
         out = {}
         for i, x in enumerate(u, 1):
             if isinstance(x, dict):
                 k = str(x.get("unit") or x.get("no") or i)
-                out[k] = x.get("text") or x.get("unit_text") or x.get("content") or ""
+                out[k] = _s(x.get("text") or x.get("unit_text") or x.get("content") or "")
             else:
-                out[str(i)] = str(x)
+                out[str(i)] = _s(x)
         return out
     return {}
 
@@ -173,6 +189,27 @@ For EACH, return one object in the array: {"name_print": verbatim, "codes": [cod
 Return JSON: {"rows": [ ... one per listed subject, same order ... ]}.
 === PDF TEXT ===
 %s"""
+
+
+def inventory(pdf_name, fulltext, session, course, max_tokens=6000):
+    """validated inventory call: the model sometimes returns junk/bare title
+    strings or non-dict entries — re-ask up to 3 attempts, else raise."""
+    msgs = [{"role": "system", "content": SYS},
+            {"role": "user", "content": INVENTORY % (pdf_name, session, course) + "\n=== PDF TEXT ===\n" + fulltext}]
+    last = None
+    for tries in range(3):
+        inv = chat(msgs, max_tokens=max_tokens)
+        if isinstance(inv, list):
+            inv = {"subjects": inv}
+        if not isinstance(inv, dict):
+            last = repr(inv)[:120]
+            continue
+        subs = inv.get("subjects", []) or []
+        good = [s for s in subs if isinstance(s, dict) and (s.get("code_print") or s.get("name_print"))]
+        if good:
+            return inv, good
+        last = f"{len(subs)} entries, none valid dicts with code/name"
+    raise RuntimeError(f"inventory returned no valid subject dicts after 3 attempts: {last}")
 
 
 def extract_scheme_batch(fulltext, session, course, subs):
@@ -255,12 +292,7 @@ def draft_doc(parsed_dir, drafts_dir, stem):
     fulltext = open(f"{parsed_dir}/{stem}.fulltext.txt").read()
     PAGES = pages_of(fulltext)
     sha16 = meta.get("sha16", "")
-    inv = chat([{"role": "system", "content": SYS},
-                {"role": "user", "content": INVENTORY % (pdf_name, session, course) + "\n=== PDF TEXT ===\n" + fulltext}],
-               max_tokens=6000)
-    if isinstance(inv, list):  # model sometimes returns the bare array
-        inv = {"subjects": inv}
-    subs = inv.get("subjects", []) or []
+    inv, subs = inventory(pdf_name, fulltext, session, course)
     print(f"INVENTORY|{stem}|{len(subs)} subjects (detail {sum(1 for s in subs if s.get('class')=='detail')}, "
           f"scheme_only {sum(1 for s in subs if s.get('class')!='detail')})")
     draft = {"pdf_rel": pdf_rel, "session": session, "course": course, "sha16": sha16,

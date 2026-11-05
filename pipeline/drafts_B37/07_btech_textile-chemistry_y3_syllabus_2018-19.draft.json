@@ -6,363 +6,710 @@
  "stem": "07_btech_textile-chemistry_y3_syllabus_2018-19",
  "subjects": [
   {
-   "name": "",
-   "name_print": "",
+   "name": "Technology of Printing-I",
+   "name_print": "Technology of Printing-I",
    "codes": [
-    ""
+    "RTC503"
    ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "name": "",
-   "name_print": "",
-   "codes": [
-    ""
-   ],
-   "flags": [
-    "extraction_failed_scheme_batch"
-   ],
-   "quirks": [],
-   "units": {}
-  },
-  {
-   "scheme_row_only": true,
-   "\n\nGiven the placeholders, perhaps the intent is to extract all subjects from the document? But the format expects a single subject.\n\nHmm, let me look at the output format again:\n{\"name": "<canonical spelling of the printed name>",
-   "name_print": "<verbatim>",
-   "codes": [
-    "<codes exactly as printed, spaces removed>"
-   ],
-   "...' and code is '...": "these are placeholders. The instruction seems incomplete. But I should still try to extract something meaningful.\n\nActually, wait. Looking at the PDF text, there are many subjects listed in the scheme tables. The detail pages cover specific subjects. Let me identify which subjects have detail pages:\n\nPage 4: Textile Testing-I (RTT501A)\nPage 5: Technology of Dyeing-II (RTC502), Technology of Printing-I (RTC503)\nPage 6: Departmental Elective 1 - Polymer Chemistry/Industrial Chemistry (RTC051/RTC052)\nPage 7: Industrial Chemistry continuation\nPage 8: Industrial Management, Cyber Security/Sociology, Textile Testing-II (RTT601), Technology of Printing-II (RTC602)\nPage 9: Technology of Finishing-I (RTC603), Chemistry of Dyes & Colour Chemistry/Fabric Structure & Analysis (RTC062/RTT061)\nPage 10-11: Continuation of Chemistry of Dyes & Fabric Structure\nPage 13: Open Elective 1, Waste Management & Pollution Control, Non Woven Technology\nPage 14: Theory of Textile Structure, Quality Control in Chemical Processing\nPage 15-16: Technology of Finishing-II, Advances in Chemical Processing\nPage 17-18: Coating of Textiles, Technical Textiles\nPage 19-21: Process House Planning & Management, Garment Processing\n\nSince the request has placeholders '...' for both subject and code, and the instruction says",
-   "...' (code print '...": "detail from page N}, ...]}",
-   "carefully": "Extract subject '...' (code print '...', detail from page N}, ...]}\" - this looks like a template where the actual values should be substituted. Since they're '...', maybe I should treat this as extracting everything?\n\nHmm, but the instructions say \"Return ONE JSON object\" and the shape is for a single subject.\n\nLet me reconsider. Perhaps the request is malformed and I should extract the first subject found, or perhaps I should note that the request is ambiguous.\n\nActually, looking at the protocol: \"First, write whatever reasoning you need in plain prose. Be brief.\" Then output the JSON.\n\nGiven the ambiguity, I think the best approach is to extract all subjects that have detail pages, but since the format is for one subject, maybe I should pick the most prominent one or handle this differently.\n\nWait, actually let me re-read the instruction once more: \"Extract subject '...' (code print '...', detail from page N}, ...]}\"\n\nI think this might be a case where the template variables weren't filled in, and I should extract all subjects from the document. But the output format is for a single subject.\n\nAlternatively, maybe I should just extract the first subject with a detail page, which would be Textile Testing-I (RTT501A) on page 4.\n\nActually, you know what, let me look at this differently. The instruction says \"Extract subject '...'\" - if the subject is '...', maybe it means extract ALL subjects. But the output format only supports one subject per JSON object.\n\nHmm, let me look at the protocol again: \"The response_format requires a top-level object, so if the instructions above ask for an array, return that array as the value of one descriptive key\"\n\nSo maybe I should return an array of subjects under a key like \"subjects\".\n\nBut the RULES §7 shape is very specific for a single subject. \n\nLet me think about this differently. The prompt template says \"Extract subject '...' (code print '...', detail from page N}, ...]}\". Since both are '...', perhaps the intent is to extract all subjects. Given the output format constraint, I'll return an object with a \"subjects\" key containing an array of all extracted subjects.\n\nActually wait, I just realized - maybe the '...' is literal and I should interpret this as extracting all subjects from the document. Let me do that.\n\nLet me go through each subject with a detail page:\n\n1. **Textile Testing-I** (RTT501A) - Page 4\n   - L-T-P: 3-1-0 = 4\n   - Units: 5 units with lecture counts\n   - Textbooks: 4 books\n   - No COs, no marks table in detail\n\n2. **Technology of Dyeing-II** (RTC502) - Page 5\n   - L-T-P: 3-0-0 = 3\n   - Units: 5 units\n   - Reference books: 4 books\n\n3. **Technology of Printing-I** (RTC503) - Pages 5-6\n   - L-T-P: 3-0-0 = 3\n   - Units: 5 units\n   - Textbooks: 3 books\n\n4. **Departmental Elective 1: Polymer Chemistry** (RTC051) - Pages 6-7\n   - L-T-P: 3-1-0 = 4\n   - Units: 5 units\n   - Textbooks: 4 books\n\n5. **Departmental Elective 1: Industrial Chemistry** (RTC052) - Page 7\n   - L-T-P: 3-1-0 = 4\n   - Units: 5 units\n   - Reference books: 6 books\n\n6. **Industrial Management** (RAS601) - Page 8\n   - \"As per concerned BoS AKTU",
-   "As per BoS AKTU Syllabus": "no detail\n\n8. **Textile Testing-II** (RTT601) - Page 8\n   - L-T-P: 3-1-0 = 4\n   - Units: 5 units\n   - Textbooks: 4 books\n\n9. **Technology of Printing-II** (RTC602) - Pages 8-9\n   - L-T-P: 3-0-0 = 3\n   - Units: 5 units\n   - Textbooks: 3 books\n\n10. **Technology of Finishing-I** (RTC603) - Page 9\n    - L-T-P: 3-0-0 = 3\n    - Units: 5 units\n    - Reference books: 3 books\n\n11. **Chemistry of Dyes & Colour Chemistry** (RTC062) - Pages 10\n    - L-T-P: 3-1-0 = 4\n    - Units: 4 units (plus grand total)\n    - Textbooks: 2",
-   "Reference": 4,
-   "L-T-P": "3-1-0",
-   "Units": 4,
-   "books": 4,
-   "Syllabus As decided by AKTU": "no detail\n\n14. **Waste Management & Pollution Control** (RTT043?) - Pages 13-14\n    - L-T-P: 3-0-0\n    - Units: 5 units\n    - Reference books: 2\n\n15. **Non Woven Technology** (RTT031) - Page 14\n    - L-T-P: 3-0-0\n    - Units: 5 units\n    - Reference books: 3\n\n16. **Theory of Textile Structure** (RTT041) - Pages 14-15\n    - L-T-P: 3-1-0\n    - Units: 5 units\n    - Textbooks: 3\n\n17. **Quality Control in Chemical Processing** (RTT043) - Page 15\n    - Units: 5 units (no lecture counts)\n    - Books: 5\n\n18. **Technology of Finishing-II** (RTT705) - Page 16\n    - Units: 5 units\n    - Reference books: 3\n\n19. **Advances in Chemical Processing** (RTT053) - Pages 16-17\n    - No units, just paragraphs\n    - Books: 5\n\n20. **Coating of Textiles** (RTT706) - Pages 17-18\n    - Units: 5 units\n    - Reference books: 4\n\n21. **Technical Textiles** (RTT051) - Pages 18-19\n    - Units: 5 units\n    - Textbooks: 3\n\n22. **Process House Planning & Management** (RTT063) - Pages 19-20\n    - Units: 4 units (some without lecture counts)\n    - Reference books: 8\n\n23. **Garment Processing** (RTT064) - Pages 20-21\n    - Units: 5 units\n    - Reference books: 7\n\nThis is a lot of subjects. Given the ambiguity of the request with '...' placeholders, I think the best approach is to extract all subjects that have detail pages.\n\nBut wait, the output format is for a single subject. The protocol says",
-   "locations": [],
-   "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
-   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Introduction to printing, methods and styles of printing, classification of printing\nthickners and methods of thickners paste preparation, emulsion thickners, synthetic thickners, and\nmechanism of viscosity build up in emulsion and synthetic thickness,  Rheological behavior of\nthickners  Total Lectures Required = 9",
+    "2": "Preparation of cloth for printing, preparation of paste for printing, General description,\npreparation of paste, wetting agents, hygroscopic chemicals dispersing agents, oxidation and\nreducing agents etc., precaution Total Lectures Required = 9",
+    "3": "Methods of printing - block printing, block preparation, spray printing, transfer printing-\nfundamental principle of transfer printing, various machines and application techniques, its\nadvantages and disadvantages (2), roller engraving and chroming rollers. Total Lectures\nRequired = 8"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
    "quirks": [
-    "scheme table row only (p.N}, ...]}\n\nThere's no quirks field in the output format. Hmm, but the instruction says): detailed syllabus not printed in this document (recorded B23/B25/B27 zero-GAP class — flagged subject candidate for the ladder)"
+    "Unit numbering uses parentheses: 'Unit (1)', 'Unit (2)', 'Unit (3)'",
+    "'thickners' consistently misspelled (should be 'thickeners')",
+    "'synthetic thickness' in unit 1 likely should be 'synthetic thickeners'",
+    "Stray '(2)' in unit 3 after 'disadvantages'",
+    "Double spaces present in unit 1 text",
+    "Subject numbered '5.' in the syllabus list"
    ],
-   "units": {},
-   "name": "<verbatim>"
+   "flags": []
+  },
+  {
+   "name": "Polymer Chemistry",
+   "name_print": "Polymer Chemistry",
+   "codes": [
+    "RTC554"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "departmental-elective-1",
+   "units": {
+    "1": "Scope of Polymer Chemistry, (a) definition of monomers, homo-polymers and \ncopolymers (b) Chemistry of important monomers  (c) Thermo sets (d) Thermoplastic (e) \nElastomers (f) Tg, Tm, and solution properties of polymers. Total Lectures Required = 9",
+    "2": "Condensation polymerization  (b) Mechanism, kinetic and molecular weight build up, (c) \nBulk, Solution, Emulsion and suspension polymerization  (d) comparison of condensation and \naddition polymerization. Total Lectures Required = 8",
+    "3": "Addition polymerization , (b) Type of addition polymerization , (c) Radical, cationic \nand anionic polymerization (d) Mechanism and kinetics of polymerization  (e) Copolymerization, \nStereo-Regular polymerization, Block and Graft polymerization. Total Lectures Required = 9",
+    "4": "Characterization of molecular weight of polymers, End-Group analysis method, \nViscosity of measurement method, gel permeable chromatography. Techniques for measurement \nPolydispersity Total Lectures Required = 8",
+    "5": "Application of polymer to textiles, Fiber forming synthetic polymer,  Properties of fiber \nforming synthetic polymer. Total Lectures Required = 8"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Text Book of Polymer science by F.W. Bill Meyer"
+    },
+    {
+     "no": 2,
+     "book": "Text bookof Polymer,Vol.I, II, III by M.S.Bhatnagar"
+    },
+    {
+     "no": 3,
+     "book": "Polymer science by Gawaskar, Vishwanathan, sreedhar and Jaydev"
+    },
+    {
+     "no": 4,
+     "book": "Polymer chemistry by B.K.Sharma"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit numbering style inconsistent: Unit (1), Unit (2), Unit (3):, Unit (4):, Unit (5):",
+    "Label printed as 'Text Books & Reference Books:' — combined list, placed in textbooks",
+    "Typo in book 2: 'Text bookof Polymer'",
+    "Subject header: '6. Departmental Elective 1 (L T P 3-1-0 = 4) Polymer Chemistry/ Industrial Chemistry' — two subjects share the elective slot; only Polymer Chemistry extracted"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Textile Testing-I",
+   "name_print": "Textile Testing-I",
+   "codes": [
+    "RTT501A"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to fiber, yarn and fabric testing, sampling, random sampling, \nbiased sampling, sampling techniques, square and cut-square technique, selection of \nsample for testing.\nTotal Lectures required =8",
+    "2": "Atmospheric conditions for testing, absolute and relative humidity, moisture \nregain & moisture content and their measurement, dry and wet bulb hygrometer, \nimportance of moisture in textiles, effect of moisture on properties (physical, & \nmechanical) of textile material, factors affecting the regain, Shirley moisture meter, \ncontrol of atmospheric conditions during testing.\nTotal Lectures required =9",
+    "3": "Measurement of physical characteristics of cotton viz. length, fineness, \nmaturity, bundle strength, colour and foreign matter including principle, construction, \noperation, and calibration of the equipment in common use.\nTotal Lectures required =8",
+    "4": "Mechanical properties of fibres, relation between structure and mechanical \nproperties of fibres, Measurement of physical properties of man-made fibres i.e. length, \ndenier, strength, elongation, modulus, work of rupture, crimp, spin finish, fibre quality \nindex etc.\nTotal Lectures required =8",
+    "5": "determination of yarn count, diameter, resultant count of folded yarn, relation \nbetween Ne, D, T, Nm,   Instruments used for determination of count, quadrant balance, \nKnowles balance, Beeslay balance and physical balance, Twist, classification of twist, \ntwist measurement, direct counting method, continuous twist tester, twist-untwist \nmethod, Twist tester, R.B. twist tester, level of twist.\nTotal Lectures required =9"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Quality control and testing management, by V.K. Kothari"
+    },
+    {
+     "no": 2,
+     "book": "Principles of textile testing, by J.E. Booth"
+    },
+    {
+     "no": 3,
+     "book": "Physical testing of textiles, by B.P. Savile"
+    },
+    {
+     "no": 4,
+     "book": "Physical properties of fibres, by W.E. Morton and J.W.S. Hearle"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Unit headings use parentheses e.g. 'Unit (1):'",
+    "Typo: 'determination' lowercase in Unit 5",
+    "Possible typo: 'Beeslay balance'",
+    "Code not printed in text; taken from request",
+    "Total lectures lines included in unit blocks",
+    "unit 1 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "Textile Testing-II",
+   "name_print": "Textile Testing-II",
+   "codes": [
+    "RTT601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Tensile properties of yarn and fabric, stress-strain curve, various methods \nfor finding of yield point, methods for finding of various modulus, destination of \ntenacity, and stiffness of fabric.",
+    "2": "Procedure of determination of strength and elongation in the spun yarns, \nknowledge about the equipment used,  yarn tensile strength testing machines, single \nyarn strength tester, lea strength tester,  fabric strength tester- impact tester, Grab test, \nfabric B.S. Test, Scott serigraph, Instron tensile tester.",
+    "3": "Measurement of evenness testing of yarns, nature and causes of irregularities, \nprinciples and methods of evenness testing, evaluation and interpretation of evenness diagram \n& spectrogram and their associated equipment, Classimat faults.",
+    "4": "Measurement of physical properties of fabric and the knowledge of the equipment \nused, tensile strength, bursting strength, tearing strength, pilling, air permeability, crimp, \nthickness, EPI, PPI, weight and cover factor.",
+    "5": "Measurement of water repellency, shrinkage, measurement of fastness to light and \nrubbing, thermal transmission, Brief introduction to FAST and KAWABATA."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Physical testing of textiles by B.P. Saville."
+    },
+    {
+     "no": 2,
+     "book": "Quality control and testing management by Dr. V.K. Kothari."
+    },
+    {
+     "no": 3,
+     "book": "Principles of textile testing by J.E. Booth."
+    },
+    {
+     "no": 4,
+     "book": "Quality control by V.K. Kothari"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Code RTT601 not printed in the PDF text layer; supplied by user",
+    "Typo 'destination of tenacity' (likely 'determination') preserved verbatim",
+    "Inconsistent unit numbering: 'Unit (1)', 'Unit (2)', 'Unit(3)', 'Unit (4)', 'Unit (5)'",
+    "Inconsistent lecture count formatting: 'Total Lectures Required = 7', 'Total Lectures Required = 9', 'Total Lectures required =9', 'Total Lectures required =10', 'Total Lectures required =7'",
+    "Header 'Text Books & Reference Books: -' combines textbooks and references without separation"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Chemistry of Dyes & Colour Chemistry",
+   "name_print": "Chemistry of Dyes & Colour Chemistry",
+   "codes": [
+    "RTC654"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Fractional distillation of coal tar and its products, and their use in textile industry (3), \nIsolation of Xylene, Benzene, Toluene, Naphthalene and Anthracene,  Total lectures required = \n8",
+    "2": "Unit 2:. (4) Unit organic process/operation sulphonation, nitration, amination and hydroxy \ncompound Total lectures required = 8",
+    "3": "Classification of dyes according to chemical constitution Relation between coulour and \nchemical constitution. Methods of preparation of Nitro,nitroso, Azo:-mono-azo and di-azo, \ndiphynyl methane and tri phynyl methane dyes., Total lectures required = 10",
+    "4": "Chemistry of anthraquionone, acridine Chemistry of reactive dyes- monochloro triazine \nand dichlorotriazine, identification of dyes on fibres. Total lectures required = 8"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Synthetic dye stuff:  Cain &  thrope"
+    },
+    {
+     "no": 2,
+     "book": "Chemistry of dye agent principle of dying: U.K. Shenai"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 3,
+     "book": "Process of dye chemistry: Fierz, David & Ballengray"
+    },
+    {
+     "no": 4,
+     "book": "Dyeing and chemical technology of fibre: E.K. Frotran"
+    },
+    {
+     "no": 5,
+     "book": "Processing of textile fibres: Sadov"
+    },
+    {
+     "no": 6,
+     "book": "Chemistry of synthetic dyes:  Venkataraman"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Reference books are numbered 3-6, continuing from textbooks 1-2.",
+    "Typo 'coulour' instead of 'colour'.",
+    "Typo 'diphynyl' and 'tri phynyl'.",
+    "Line break after 'Total lectures required =' in unit 1.",
+    "Odd formatting in unit 2: 'Unit 2:. (4) Unit organic process/operation'.",
+    "Subject header combines 'Chemistry of Dyes & Colour Chemistry' with 'Fabric Structure & Analysis', but only the first part is extracted.",
+    "unit 2 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk"
+   ]
   },
   {
    "name_print": "Managerial Economics",
-   "codes": [
-    "RAS501"
-   ],
-   "semester": 5,
-   "ltp": {
-    "l": 3,
-    "t": 0,
-    "p": 0
-   },
-   "credit": 3,
-   "marks": {
-    "sessional_ct": 20,
-    "sessional_ta": 10,
-    "sessional_total": null,
-    "ese_te_pe": 70,
-    "total": 100
-   },
-   "subject_type": null,
    "quirks": [
-    "scheme table row only (p.2); detailed syllabus not printed in this document"
+    "scheme-row extraction empty"
    ],
    "flags": [
     "scheme_row_only_detailed_syllabus_not_printed"
    ],
-   "name": "Managerial Economics"
+   "name": "Managerial Economics",
+   "codes": [
+    "RAS501"
+   ]
   },
   {
    "name_print": "Sociology/ Cyber Security",
-   "codes": [
-    "RAS502/RUC501"
-   ],
-   "semester": 5,
-   "ltp": {
-    "l": 3,
-    "t": 0,
-    "p": 0
-   },
-   "credit": 3,
-   "marks": {
-    "sessional_ct": 20,
-    "sessional_ta": 10,
-    "sessional_total": null,
-    "ese_te_pe": 70,
-    "total": 100
-   },
-   "subject_type": null,
    "quirks": [
-    "scheme table row only (p.2); detailed syllabus not printed in this document"
-   ],
-   "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed",
-    "alternative_pair_row"
-   ],
-   "name": "Sociology/ Cyber Security"
-  },
-  {
-   "name_print": "INDUSTRIAL MANAGEMENT",
-   "codes": [
-    "RAS601"
-   ],
-   "semester": 6,
-   "ltp": {
-    "l": 3,
-    "t": 0,
-    "p": 0
-   },
-   "credit": 3,
-   "marks": {
-    "sessional_ct": 20,
-    "sessional_ta": 10,
-    "sessional_total": null,
-    "ese_te_pe": 70,
-    "total": 100
-   },
-   "subject_type": null,
-   "quirks": [
-    "scheme table row only (p.3); detailed syllabus not printed in this document"
+    "scheme-row extraction empty"
    ],
    "flags": [
     "scheme_row_only_detailed_syllabus_not_printed"
    ],
-   "name": "INDUSTRIAL MANAGEMENT"
+   "name": "Sociology/ Cyber Security",
+   "codes": [
+    "RAS502"
+   ]
+  },
+  {
+   "l": 3,
+   "t": 0,
+   "p": 0,
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Sociology/ Cyber Security",
+   "codes": [
+    "RUC501"
+   ],
+   "quirks": [
+    "name filled from printed scheme cell (deterministic pairing)"
+   ],
+   "name_print": "Sociology/ Cyber Security"
+  },
+  {
+   "sessional_ct": 20,
+   "sessional_ta": 10,
+   "sessional_total": 30,
+   "ese_te_pe": 70,
+   "total": 100,
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Dyeing- II",
+   "codes": [
+    "RTC502"
+   ],
+   "quirks": [
+    "name filled from printed scheme cell (deterministic pairing)"
+   ],
+   "name_print": "Technology of Dyeing- II"
+  },
+  {
+   "sessional_ct": "..",
+   "sessional_ta": "..",
+   "sessional_total": "..",
+   "ese_te_pe": "..",
+   "total": "..",
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "/RTC052 DEPTT. Elective I",
+   "codes": [
+    "RTC051"
+   ],
+   "quirks": [
+    "name filled from printed scheme cell (deterministic pairing)"
+   ],
+   "name_print": "/RTC052 DEPTT. Elective I"
+  },
+  {
+   "name_print": "Textile Testing –I Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Textile Testing –I Lab",
+   "codes": [
+    "RTT551"
+   ]
+  },
+  {
+   "name_print": "Technology of Dyeing- II Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Dyeing- II Lab",
+   "codes": [
+    "RTC552"
+   ]
+  },
+  {
+   "name_print": "Technology of Printing-I Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Printing-I Lab",
+   "codes": [
+    "RTC553"
+   ]
+  },
+  {
+   "name_print": "INDUSTRIAL MANAGEMENT",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "INDUSTRIAL MANAGEMENT",
+   "codes": [
+    "RAS601"
+   ]
   },
   {
    "name_print": "CYBER SECURITY/ SOCIOLOGY",
-   "codes": [
-    "RUC601/RAS602"
-   ],
-   "semester": 6,
-   "ltp": {
-    "l": 3,
-    "t": 0,
-    "p": 0
-   },
-   "credit": 3,
-   "marks": {
-    "sessional_ct": 20,
-    "sessional_ta": 10,
-    "sessional_total": null,
-    "ese_te_pe": 70,
-    "total": 100
-   },
-   "subject_type": null,
    "quirks": [
-    "scheme table row only (p.3); detailed syllabus not printed in this document"
+    "scheme-row extraction empty"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed",
-    "alternative_pair_row"
+    "scheme_row_only_detailed_syllabus_not_printed"
    ],
-   "name": "CYBER SECURITY/ SOCIOLOGY"
+   "name": "CYBER SECURITY/ SOCIOLOGY",
+   "codes": [
+    "RUC601"
+   ]
   },
   {
-   "name_print": "OPEN ELECTIVE-1",
+   "name_print": "CYBER SECURITY/ SOCIOLOGY",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "CYBER SECURITY/ SOCIOLOGY",
+   "codes": [
+    "RAS602"
+   ]
+  },
+  {
+   "name_print": "Technology of Printing-II",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Printing-II",
+   "codes": [
+    "RTC602"
+   ]
+  },
+  {
+   "name_print": "Technology of Finishing-I",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Finishing-I",
+   "codes": [
+    "RTC603"
+   ]
+  },
+  {
+   "name_print": "Elective 2 Fabric Structure & Analysis/ Chemistry of Dyes & Colour Chemistry/",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Elective 2 Fabric Structure & Analysis/ Chemistry of Dyes & Colour Chemistry/",
+   "codes": [
+    "RTT061"
+   ]
+  },
+  {
+   "name_print": "Elective 2 Fabric Structure & Analysis/ Chemistry of Dyes & Colour",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Elective 2 Fabric Structure & Analysis/ Chemistry of Dyes & Colour",
+   "codes": [
+    "RTC062"
+   ]
+  },
+  {
+   "name_print": "Textile Testing-II",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Textile Testing-II",
+   "codes": [
+    "RTT651"
+   ]
+  },
+  {
+   "name_print": "Technology of Printing-II Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Printing-II Lab",
+   "codes": [
+    "RTC652"
+   ]
+  },
+  {
+   "name_print": "Technology of Finishing-I Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Finishing-I Lab",
+   "codes": [
+    "RTC653"
+   ]
+  },
+  {
+   "name_print": "RTT03 Elective 3 Non Woven Technology/ Waste Management &",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "RTT03 Elective 3 Non Woven Technology/ Waste Management &",
+   "codes": [
+    "RTT031"
+   ]
+  },
+  {
+   "name_print": "Elective 4 Theory of Textile Structure / Quality Control in Chemical Processing",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Elective 4 Theory of Textile Structure / Quality Control in Chemical Processing",
+   "codes": [
+    "RTT041"
+   ]
+  },
+  {
+   "name_print": "Elective 4 Theory of Textile Structure / Quality Control in Chemical",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Elective 4 Theory of Textile Structure / Quality Control in Chemical",
+   "codes": [
+    "RTT043"
+   ]
+  },
+  {
+   "name_print": "Technology of Finishing- II",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Finishing- II",
+   "codes": [
+    "RTT705"
+   ]
+  },
+  {
+   "name_print": "Coating of Textiles",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Coating of Textiles",
+   "codes": [
+    "RTT706"
+   ]
+  },
+  {
+   "name_print": "Technology of Finishing- II Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technology of Finishing- II Lab",
+   "codes": [
+    "RTT755"
+   ]
+  },
+  {
+   "name_print": "Coating of Textiles Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Coating of Textiles Lab",
+   "codes": [
+    "RTT756"
+   ]
+  },
+  {
+   "name_print": "Industrial Training",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Industrial Training",
+   "codes": [
+    "RTT753"
+   ]
+  },
+  {
+   "name_print": "PROJECT-1",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "PROJECT-1",
+   "codes": [
+    "RTT754"
+   ]
+  },
+  {
+   "name_print": "Technical Textiles /Advances in Chemical Processing",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technical Textiles /Advances in Chemical Processing",
+   "codes": [
+    "RTT051"
+   ]
+  },
+  {
+   "name_print": "Technical Textiles /Advances in Chemical Processing",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Technical Textiles /Advances in Chemical Processing",
+   "codes": [
+    "RTT053"
+   ]
+  },
+  {
+   "name_print": "Process House Planning & Management/ Garment Processing",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Process House Planning & Management/ Garment Processing",
+   "codes": [
+    "RTT063"
+   ]
+  },
+  {
+   "name_print": "Process House Planning & Management/ Garment Processing",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Process House Planning & Management/ Garment Processing",
+   "codes": [
+    "RTT064"
+   ]
+  },
+  {
+   "name_print": "SEMINAR",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "SEMINAR",
+   "codes": [
+    "RTT851"
+   ]
+  },
+  {
+   "name": "Waste Management & Pollution Control",
+   "name_print": "Waste Management & Pollution Control",
    "codes": [],
    "semester": 7,
    "ltp": {
@@ -370,57 +717,379 @@
     "t": 0,
     "p": 0
    },
-   "credit": 3,
-   "marks": {
-    "sessional_ct": 20,
-    "sessional_ta": 10,
-    "sessional_total": null,
-    "ese_te_pe": 70,
-    "total": 100
+   "credit": null,
+   "marks": null,
+   "subject_type": "departmental-elective-5",
+   "units": {
+    "1": "Toxicity of intermediates, dyes, processing aids- bleaching, dyeing, printing and \nfinishing auxiliaries etc, Analytical methods for various pollutants, Formaldehydes, \nPentachlorophenol, Biological Oxygen Demand (BOD), Chemical Oxygen demand \n(COD)",
+    "2": " Environmental impact assessment, Definition & need, Introduction to \nenvironmental impact assessment methodology, Unit process, waste minimization and \nrecycling",
+    "3": "textile effluent and their characterization, Methods of effluent treatment, Disposal \nof effluents, reuce of water in a process house, Fibre and polymer waste, recovery and \nrecycling of monomer, Modification of polymer waste & its utilization.",
+    "4": "Source of water: factors contributing water pollution and their effect, water \npollution parameters, physical, biological, chemical standards for quality of treaed water, \nEffluent \ntreatment \nmethods \nand control, \nbasic \nprinciples, \nUnit \nOperations \n9Sedimentation, precipitation, filtration and incineration), specific pollutants.",
+    "5": "Polution of air, causes, effect, monitoring and control, Source of noise pollution, \nits effect and control, Legislation- salient provisions of water act, Air act, Environment \npollution act, Environment Impact Assessment, basic principles, purpose, components, \nmethodology and constraints."
    },
-   "subject_type": null,
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Basic course in environmental studies- S. Deswal & Anupama Deswal"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
    "quirks": [
-    "scheme table row only (p.12); detailed syllabus not printed in this document"
+    "Unit 4 contains broken line breaks and '9Sedimentation' likely a typo for '(' or '9'",
+    "Subject name appears with 'a)' prefix in the list",
+    "no individual course code printed for this subject in this document (elective/DE detail section)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
-   ],
-   "name": "OPEN ELECTIVE-1"
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
   },
   {
-   "name_print": "Technology of Finishing-II Lab",
-   "codes": [
-    "RTT755"
-   ],
-   "semester": 7,
+   "name": "Non Woven Technology",
+   "name_print": "Non Woven Technology",
+   "codes": [],
+   "semester": null,
    "ltp": {
-    "l": 0,
-    "t": 0,
-    "p": 2
+    "l": null,
+    "t": null,
+    "p": null
    },
-   "credit": 1,
-   "marks": {
-    "sessional_ct": null,
-    "sessional_ta": 50,
-    "sessional_total": null,
-    "ese_te_pe": 50,
-    "total": 100
+   "credit": null,
+   "marks": null,
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "National and international scenario on non-woven fabric production, Concept about felts and non woven, Classification of non-woven fabrics, fibres for non-woven fabrics, Felt Manufacturing process",
+    "2": "Various method of web formation, web characteristics and their influence on properties of non-woven fabrics, (3) Non woven fabric by Needle punch, Description of needle punching machine, effect of process variables on properties of needle punch fabric",
+    "3": "Non-woven fabric by hydro entanglement, Description of hydro entanglement machine, effect of process variables on properties of hydro entanglement non woven fabric, Non-woven fabric by adhesive bonding, mechanical bonding, Melt blown process of non-woven fabric manufacturing",
+    "4": "Non-woven fabric by Stitch bonding, Non-woven fabric by chemical bonding, Non-woven fabric by bonding with thermoplastic adhesives, Non-woven fabric by Spun laced, Effect of process variables on properties of stitch bonding, chemical bonding spun laced non-woven fabrics.",
+    "5": "Flocked fabric, Laminates, latest development in non-woven industry: ultrasonic bonding, Infra-red bonding, bonding by bi-component fibres. Application of various non woven fabrics"
    },
-   "subject_type": null,
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Non Woven – N.N. Banarjee"
+    },
+    {
+     "no": 2,
+     "book": "Non woven – NCUTE"
+    },
+    {
+     "no": 3,
+     "book": "Knitting technology : Spencer"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
    "quirks": [
-    "scheme table row only (p.12); detailed syllabus not printed in this document"
+    "Subject listed as 'b)' under a department elective group; exact elective number not printed in this excerpt",
+    "Stray '(3)' appears in Unit 2 text",
+    "Heading 'Reference & Text Books' combines both reference and textbook categories; all three books placed in reference_books",
+    "No code, semester, LTP, credit, or marks printed for this subject",
+    "Lecture counts vary per unit (9,9,8,8,8); total 42 lectures",
+    "no individual course code printed for this subject in this document (elective/DE detail section)"
    ],
    "flags": [
-    "scheme_row_only_detailed_syllabus_not_printed"
+    "no_code_printed_in_doc"
+   ]
+  },
+  {
+   "name": "Theory of Textile Structure",
+   "name_print": "Theory of Textile Structure",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "Classification of yarns, Yarn geometry- idealized yarn geometry, relationship of\nyarn number and twist factor, packing of fibres in a yarn, ideal packing, hexagonal close\npacking and radial packing, packing factor and its measurement, yarn diameter, method of\nmeasurement of twist contraction. Total Lectures required =10"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Only Unit 1 is printed; subject detail incomplete.",
+    "Code field is blank.",
+    "Subject listed under 'Department Elective-4'.",
+    "Unit header printed as 'Unit (1)' with parentheses.",
+    "no individual course code printed for this subject in this document (elective/DE detail section)"
    ],
-   "name": "Technology of Finishing-II Lab"
+   "flags": [
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Fabric Structure & Analysis",
+   "name_print": "Fabric Structure & Analysis",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Classification of various fabrics, construction of plain weave and its derivatives (rib \nand mat weave), ordinary twill, right hand twill, warp faced, weft faced & balanced twills,   \nTotal Lectures required = 8",
+    "2": "Satin regular, irregular and their extension. Combined twills, end to end and pick-\nto-pick combination, elongated twills, steep twills, broken twill, curved twill, Fancy twills-\nlarge diagonal shaded twills, Wave/ zig-zag, herringbone twill.   \nTotal Lectures Required = 8",
+    "3": "Regular and irregular satin, sateen base diagonals and brained twills, Diamond, \nmock leno, ordinary honeycomb, brighten honeycomb , Huck-a-back and crepe weave. \nTotal Lectures Required = 9",
+    "4": "derivatives of hopsack, barley corn stitched hopsack and twilled hopsack, Ripstop \nweave, Simple and wadded bed ford cords (1), weft and piques (1), principle of figuring with \nextra material extra warp figuring,  extra weft, limitation of extra thread.  \nTotal Lectures Required = 9"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "W. Watson Textile Design & colour Longmans Greens Co. London."
+    },
+    {
+     "no": 2,
+     "book": "Z.J Grosicki Watson’s Textile design and colour Newnes Buter Worth, London."
+    },
+    {
+     "no": 3,
+     "book": "Z.J. Grosicki, Advance Textile Design Newnes Butter Worth, London."
+    },
+    {
+     "no": 4,
+     "book": "“Nishant” A Grammar of textile."
+    }
+   ],
+   "experiments": null,
+   "objectives_print": null,
+   "prerequisites": null,
+   "quirks": [
+    "Unit 2 contains 'Fancy twills-large diagonal shaded twills,' with a comma after 'twills'.",
+    "Unit 4 contains stray '(1)' after 'bed ford cords' and 'piques'.",
+    "Unit 3 has 'brighten honeycomb' and 'brained twills' possibly typos.",
+    "Reference book 2 has 'Buter Worth' possibly typo for 'Butterworth'.",
+    "The heading 'Reference Book: -' includes a dash.",
+    "Unit headings use parentheses: 'Unit (1):' etc.",
+    "Unit 1 has trailing spaces before 'Total Lectures required = 8'.",
+    "Grand Total Lectures Required = 34 appears after unit 4.",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "no individual course code printed for this subject in this document (elective/DE detail section)"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Quality Control in Chemical Processing",
+   "name_print": "Quality Control in Chemical Processing",
+   "codes": [],
+   "semester": null,
+   "ltp": null,
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Reviewing various areas of chemical processing of textiles. Pretreatment: Optimized \nprocess parameters imparted to textiles in pretreatment and quality of products obtained, viz. \nsingeing, desizing, scouring, bleaching, mercerization,",
+    "2": "Assessment of quality of pretreated product after each stage. Colouration: Optimized \ndyeing parameters for dyeing of natural, manmade and blended textiles and quality of dyed \nproduct,",
+    "3": "Quality printing in various styles and methods. Finishing: Optimized finishing \nparameters to impart various finishes on different fibres. Process parameters / process \nmodification / any other changes.",
+    "4": "Change in quality due to selection of impure chemicals / faulty fabric / machine handing. \nMethods to assess quality of processed product after every stage of processing and that of final \nproduct.",
+    "5": "Standardization of instruments / machineries, analysis of colour to check impurity \npercentage, evaluation of chemicals to check their efficiencies."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Gokhale S V and Modi J R, “Process and Quality Control in Chemical Processing of Textiles”, ATIRA, Ahmedabad, 1992."
+    },
+    {
+     "no": 2,
+     "book": "Doshi S M and Shah H A, “Quality and Process Control”, Chemical Processing Tablet IX, The Textile Association Education System, Ed. P C Mehta, The Textile Association (India), 1984."
+    },
+    {
+     "no": 3,
+     "book": "Karmakar S R, “Chemical Technology in the pretreatment processes of Textiles”, Textile Science and Technology Series, Vol-12, 1st Edition, Elsevier (1999)."
+    },
+    {
+     "no": 4,
+     "book": "Peters R H, “Textile Chemistry”, Vol- III, Elsevier Scientific Publishing Co., New York, 1975."
+    },
+    {
+     "no": 5,
+     "book": "Datye K.V and Vaidye A.A, “Chemical Processing of Synthetic Fibres and Blends”, John Wiley and Sons, New York, 1984."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Subject title printed as 'b) Quality Control in Chemical Processing' with list marker 'b)'.",
+    "Unit numbers printed as 'Unit 1:' etc.; unit text extracted without the header.",
+    "Trailing commas present after some units.",
+    "Typo in Unit 4: 'machine handing' instead of 'machine handling'.",
+    "Subject code not printed.",
+    "Semester not specified in this section.",
+    "Subject type not explicitly printed; assumed 'core'.",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "no individual course code printed for this subject in this document (elective/DE detail section)"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Technical Textiles",
+   "name_print": "Technical Textiles",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Introduction to technical textile, types of technical textiles, textiles used in industry such as filtration, filter fabric construction- woven, needle felt & knitted filter fabric, finishing treatment of filter fabric, thermal and chemical properties of filter fabric, essential requirements of good filter fabric. Application of nano technology and nano materials for the improved filtration.",
+    "2": "Manufacture and properties of protective textiles- water proof/coated and water repellent, antimicrobial, flame retardant, chemical resistance, Nuclear and biological resistance, mechanical resistance such as bullet proof, cut prof, stab proof",
+    "3": "Medical textiles, fibres used, classification of medical textiles- non-implantable material wound dressings, bandages, plasters, etc, Extra-corporal devices – Artificial kidney, liver lung, implantable material- suture, soft tissue implant, Orthopedic implants, Cardiovascular implants, Healthcare/ hygiene products, medical cost, surgical gown, face mast etc.",
+    "4": "Smart textiles, brief introduction of smart textiles, classification of smart textiles, passive smart textiles, active smart textiles, brief discussion of smart shirt, smart suit, musical jacket, space suit etc. automotive textiles: type cord, seat belt, air bag, seat upholstery, carpets, headliners, helmets etc, Agro textile: Shade net, green house film, Mulch net, crop cover, anti hail and bird protection net, finishing net etc.",
+    "5": "Introduction of geo textile, classification of geo textiles, functions of geo textile-soil reinforcement, drainage (fluid transmission), filtration, separation, erosion control/ absorption, objective of geo textiles, manufacturing of geo textile, essential properties of geo textiles- Mechanical determinants, Hydraulic determinants, durability determinants"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Hand book of technical textiles- A.R. Horrocks & S.C. Anand"
+    },
+    {
+     "no": 2,
+     "book": "Smart fibre, fabrics and clothing Tao X"
+    },
+    {
+     "no": 3,
+     "book": "Shears handbook of industrial Textiles"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Subject printed as 'b)' under a departmental elective grouping; exact elective number not determinable from surrounding text",
+    "Third textbook 'Shears handbook of industrial Textiles' printed without a number",
+    "Printed typos preserved verbatim: 'cut prof', 'face mast', 'Extra-corporal', 'Cardiovascular', 'type cord'",
+    "Lecture counts vary per unit (8,9,8,9,8); grand total printed as 42",
+    "Header printed as 'Text Books and Reference material:' (combined section)",
+    "no individual course code printed for this subject in this document (elective/DE detail section)"
+   ],
+   "flags": [
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Garment Processing",
+   "name_print": "Garment Processing",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "",
+   "units": {
+    "1": "Unit 1: Introduction to Garment processing - Importance of garment processing- Advantages and limitations of garment processing – Characteristics of various fibers used in garment, manufacturing with respect to garment processing. Major issues in Garment processing",
+    "2": "Unit 2 Garment Dyeing: Concepts of garment stage and pre garment stage dyeing- General precautions for garment dyeing – flow chart for garment dyeing - Various machinery used for Garment, dyeing like paddle dyeing machine, drum dyeing machine, Drying of garment dyed goods – Various drying machinery like Hydroextractor, Tumble, dryer, RF dryer, Problems in Garment dyeing and its remedies.",
+    "3": "Unit 3: Garment Printing: Special print recipes for garments – Khadi – Metallic – Flock – Plastizol – Reflective –, Pearl – Fluorescent – High density printing – Puff Printing – Foil Printing – Plastic, Printing – Printing of Garments with Photochromatic and Thermo chromatic dyes –, Garment Printing Machinery, Table printing- Multi arm flat bed printing machine for Garments, Digital printing, Transfer printing",
+    "4": "Unit 4 Garment Finishing: Classification – Flow chart, Fragrance finish – UV protection finish - Cool finish - thermo cat finish – water resistant breathable finishes",
+    "5": "Unit 5: Garment Washing, Introduction – Various wash down effect - Flow chart – Stone washing – Various stone, less stone washing effects like enzyme wash, Mud wash, Ion wash, Chalk wash and Monkey wash.  Other novel wash down effects like Acid wash, Antique wash, Denim Hand Sand / Scraping- Sand Blasting – Ball Blasting - Whiskering – Ozone Fading – Back Staining- It’s causes and remedies, Laundering, Objective – Laundering procedure for garments made up of various fibers like cotton, linen, wool, silk and manmade textiles – various laundering equipments"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Dinkar Mahajan- Know All About Denim- Mahajan Publishers Private Limited, Ahmadabad."
+    },
+    {
+     "no": 2,
+     "book": "Chemical Finishing of textiles by W D Schindler and P J Hauser"
+    },
+    {
+     "no": 3,
+     "book": "Textile finishing by Derek Heywood"
+    },
+    {
+     "no": 4,
+     "book": "Chemical after treatments of textiles by mark, atlas & wooding"
+    },
+    {
+     "no": 5,
+     "book": "Textile Finishing by A J Hall"
+    },
+    {
+     "no": 6,
+     "book": "Etters J.N., \"Influence of Fabric Surface Effects on Colour Depth and Hue of Garment Dyed Textiles\", American Dyestuff Reporter, 1997 (5) 15 – 18"
+    },
+    {
+     "no": 7,
+     "book": "Murphy J.M., \"Improving Preparation Techniques for Garment Dyeing\", American Dyestuff Reporter, 1987, 41 – 48, 50"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Subject is labeled 'b) Garment Processing' in the document (list marker 'b)')",
+    "Unit 2 and Unit 4 lack a colon after the unit number ('Unit 2 Garment Dyeing', 'Unit 4 Garment Finishing')",
+    "Unit 3 contains stray commas: 'Reflective –, Pearl', 'Plastic, Printing', 'Thermo chromatic dyes –, Garment Printing Machinery'",
+    "Unit 5 contains 'It’s' with a curly apostrophe",
+    "Reference books section header is printed as 'References Books:' (typo for 'Reference Books')",
+    "No semester, LTP, credit, marks, or subject type information is printed for this subject",
+    "Unit 5 contains double spaces after the period: 'Monkey wash.  Other novel'",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "no individual course code printed for this subject in this document (elective/DE detail section)"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
   }
  ],
  "non_subject_rows": [],
- "quirks": [
-  "doc_title_print: ..."
- ],
- "flags": [
-  "scheme_batch_failed:ValueError('invalid literal for int() with base 10: \"N}, ...]}\\\\n\\\\nThere\\'s no "
- ]
+ "quirks": [],
+ "flags": []
 }

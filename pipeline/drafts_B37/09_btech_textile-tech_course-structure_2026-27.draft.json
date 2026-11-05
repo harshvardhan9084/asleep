@@ -1,0 +1,2098 @@
+{
+ "pdf_rel": "",
+ "session": "",
+ "course": "BTech",
+ "sha16": "33e3c8f02eb5b32b",
+ "stem": "09_btech_textile-tech_course-structure_2026-27",
+ "subjects": [
+  {
+   "name": "Physics of Fibres and Textile Materials",
+   "name_print": "Physics of Fibres and Textile Materials",
+   "codes": [
+    "AAS101",
+    "AAS201"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Inadequacy of classical mechanics, de-Broglie concept\nof matter waves, Davisson and Germer experiment,\nwave\npacket,\nphase\nvelocity,\ngroup\nvelocity,\nHeisenberg’s\nuncertainty\nprinciple\nand\nits\napplications, time-dependent and time-independent\nSchrodinger wave equations, particle confined in one\ndimensional box, wave function and its physical\ninterpretation.",
+    "2": "Interference: Coherent sources, interference in thin\nfilm of uniform and non-uniform thickness, Newton’s\nrings and its applications (wavelength and refractive\nindex).\nDiffraction: Single slit diffraction, diffraction grating,\ndispersive power and resolving power of grating.\nPolarisation: Unpolarised and polarised light, double\nrefraction, Huygens' explanation of double refraction,\nNicol prism-construction and working, optical activity.",
+    "3": "Laws of thermodynamics, heat conduction, convection\nand radiation, heat capacity, thermal conductivity,\nband theory of solids, conductors, semiconductors,\ninsulators, dielectric materials, piezoelectricity, ferro-\nelectricity.",
+    "4": "Ultrasonics: Introduction, generation of ultrasonic\nwaves (magnetostriction and piezoelectric methods)\nand detection, applications in textile industry.\nFiber optics: Fundamental idea about optical fiber,\nacceptance\nangle,\nacceptance\ncone,\nnumerical\naperture, principle of light propagation in optical fiber.\nLaser:\nInteraction\nof\nradiation\nwith\nmatter\n(absorption, spontaneous and stimulated emission),\nmain components of a laser system, Ruby laser, He-Ne\nlaser, laser applications in textile industry.",
+    "5": "Superconductors:\nTemperature\ndependence\nof\nresistivity and critical field in superconducting\nmaterials, Meissner effect, Type I and Type II\nsuperconductors,\npersistent\ncurrent,\nhigh\ntemperature\nsuperconductors,\napplication\nof\nsuperconductors.\nNano-materials: Introduction and properties of nano-\nmaterials, basic concept of quantum dots, quantum\nwires and quantum well, application of nano-\nmaterials."
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the foundational concepts and principles\nof quantum mechanics.",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Comprehend the principles and applications of wave\noptics.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply the laws of thermodynamics and the principles\nof heat transfer and explain the electrical behavior of\nconductors, semiconductors, and insulators.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Solve ultrasonic and photonics systems for textile\napplications.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Explore the fundamental properties and phenomena of\nsuperconductivity and diverse applications of nano-\nmaterials, in advanced technological contexts.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Engineering Physics: Theory and Practical- Katiyar and Pandey (Wiley India)"
+    },
+    {
+     "no": 2,
+     "book": "Introduction to Quantum Mechanics – David J. Griffiths (Prentice Hall)"
+    },
+    {
+     "no": 3,
+     "book": "Engineering Physics Theory and Experiments-Srivastava and Yadav (New Age International)"
+    },
+    {
+     "no": 4,
+     "book": "Optics - Brijlal & Subramanian (S. Chand)"
+    },
+    {
+     "no": 5,
+     "book": "Concepts of Modern Physics - Aurthur Beiser (Mc-Graw Hill)"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [
+    "1. To understand the foundational concepts and principles of quantum mechanics.",
+    "2. To comprehend the principles and applications of wave optics.",
+    "3. To apply the laws of thermodynamics and the principles of heat transfer and explain the electrical behavior of conductors, semiconductors, and insulators.",
+    "4. To design and analyze ultrasonic and photonics systems for textile applications.",
+    "5. To explore the fundamental properties and phenomena of superconductivity and diverse applications of nano-materials, in advanced technological contexts."
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Unit descriptions contain unusual line breaks (each word on separate line) due to table formatting.",
+    "Textbook list is labeled 'Suggested Textbooks / Reference Books' and is combined; no separate reference books section."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Applied Chemistry for Fibres, Polymers and Sustainable Textiles",
+   "name_print": "Applied Chemistry for Fibres, Polymers and Sustainable Textiles",
+   "codes": [
+    "AAS102",
+    "AAS202"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Chemistry of Textile Fibres: Classification of textile fibres; natural fibres (cotton, wool, silk, jute) and their chemical composition; synthetic fibres (nylon, polyester, acrylic); physical and chemical properties of fibres; moisture absorption and swelling; fibre morphology and structure-property relationship.",
+    "2": "Polymer Chemistry and Fibre Formation: Introduction to polymers; monomers and polymerization; addition and condensation polymerization, copolymerization, step-growth and chain-growth mechanisms, melt, dry, and wet spinning processes, drawing and orientation, fiber crystallinity and amorphous regions, chemical modification of fibers (graft copolymerization, cross-linking), recycled and bio-based synthetic fibers (PLA, PHA)",
+    "3": "Textile Wet Processing Chemistry: Preparation processes (desizing, scouring, bleaching – chemistry and agents), chemistry of direct, reactive, acid, basic, vat, and disperse dyes, dye-fiber interactions and bonding mechanisms, printing pastes and thickeners, fixation chemistry, after-treatments, water and effluent chemistry in wet processing",
+    "4": "Textile Finishing Chemistry: Mechanical and chemical finishing principles, softeners (anionic, cationic, silicone-based), anti-wrinkle and easy-care finishes (DMDHEU chemistry), water-repellent finishes (fluorocarbon, C6 vs C8), flame-retardant finishes (halogenated and phosphorus-based), UV protection finishes, nanotechnology in textile finishing",
+    "5": "Sustainable and Functional Textile Chemistry: Environmental issues in textile industry,Green chemistry in textile processing, biodegradable dyes and natural dyes, enzyme-based processes (amylases, cellulases, proteases), antimicrobial textiles (silver nanoparticles, chitosan, zinc oxide), phase-change materials in textiles, e-textiles chemistry, recycling of textile waste, circular economy in textile industry"
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the chemical structure and properties of natural and synthetic textile fibers",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Understand polymer chemistry principles to analyze fiber formation and chemical modification",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Implement dye-fiber chemistry and wet processing to optimize textile coloration processes",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Describe finishing chemistry to design functional textile properties such as water repellency and flame retardancy",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Understand green chemistry and sustainable practices to textile processing and functional textile design",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Engineering Chemistry – Jain and Jain"
+    },
+    {
+     "no": 2,
+     "book": "Textile Chemistry – Thomas Bechtold and Tung Pham"
+    },
+    {
+     "no": 3,
+     "book": "Chemistry and Technology of Fabric Preparation and Finishing – C. Tomasino"
+    },
+    {
+     "no": 4,
+     "book": "Polymer Chemistry – Malcolm P. Stevens"
+    },
+    {
+     "no": 5,
+     "book": "Dyes and Pigments – R. Christie"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [
+    "To understand the chemical structure and properties of natural and synthetic textile fibers",
+    "To apply principles of polymer chemistry to analyze fiber formation, modification, and performance",
+    "To study the chemistry of textile dyeing, printing, and finishing processes",
+    "To analyze the environmental impact of textile chemicals and apply green chemistry in wet processing",
+    "To introduce functional and smart textile chemistry including antimicrobial, flame-retardant, and sustainable textile innovations"
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Unit 5 contains a missing space: 'industry,Green'",
+    "Course content units include weightage percentages (20% each)",
+    "Evaluation pattern given as percentages (30% internal, 70% external), not marks",
+    "Textbooks and reference books listed together under combined heading 'Suggested Textbooks / Reference Books'",
+    "Course code printed as 'AAS102E/ AAS202E' with space after slash"
+   ],
+   "flags": []
+  },
+  {
+   "l": null,
+   "t": null,
+   "p": null,
+   "units": {},
+   "name": "Calculus and Linear Algebra",
+   "codes": [
+    "AAS103E"
+   ],
+   "quirks": [
+    "name filled from printed scheme cell (deterministic pairing)",
+    "re-extracted from detail page p.16 (B37 verify repair)",
+    "detail re-extraction returned scheme-row-only (print evidence)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name_print": "Calculus and Linear Algebra"
+  },
+  {
+   "name": "Calculus and Numerical Method",
+   "name_print": "Calculus and Numerical Method",
+   "codes": [
+    "AAS203E"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Differential Equations: Linear differential equation of nth\norder with constant coefficients, Cauchy-Euler equation,\nsolution of second order linear differential equations with\nvariable coefficient by the method of variation of\nparameters, change of independent variable, normal form.\nApplications: Modeling heat transfer during textile drying\nand curing processes, Analysis of fiber stretching and yarn\ntension during spinning.",
+    "2": "Laplace Transform\nDefinition of Laplace Transform, Existence Conditions,\nLinearity Property, Laplace Transform of some standard\nfunctions, I and II Shifting theorems (without proof),\nChange of Scale Property, Laplace transform of derivatives\nand integrals, Periodic Functions, Unit Step Function,\nInverse Laplace Transform, Partial Fraction Method,\nConvolution theorem (without proof), Application of\nLaplace transform to solve ordinary differential equation.\nApplications: Dynamic analysis of textile machinery and\ndrive systems, Modeling transient heat flow in dyeing and\nfinishing processes.",
+    "3": "Complex Analysis\nFunctions of Complex Variables, Limit Continuity and\nDifferentiability, Analytic Function, Cauchy-Riemann\nEquations\n(Cartesian\nand\nPolar\nForm),\nHarmonic\nFunction, Milne-Thomson Method, Complex integrals,\nCauchy-Integral theorem (without proof), Cauchy integral\nformula (without proof), Taylor’s series and Laurent’s\nseries, Singularities, Residue of a function, Cauchy\nResidue Theorem, Evaluating the Real definite integrals.\nApplications: Modeling fluid flow around textile fibers\nduring\ncoating\nand\ndye\npenetration,\nAnalysis\nof\nelectrostatic fields in electrospinning processes.",
+    "4": "Fourier Series & Fourier Transform\nPeriodic function, even and odd function, Dirichlet’s\nCondition for the Existence of a Fourier Series, Fourier\nseries expansion of a function in the interval c to c+2l,\nChange of Interval, Half Range Series: Half range sine and\ncosine series in the interval -l to l, Parseval’s Identity.\nFourier Integral theorem, Fourier transform, Inverse\nFourier Transform, Finite Fourier Sin and Cosine\ntransform.\nApplications: Fabric defect detection using frequency-\ndomain image processing, Signal analysis in textile quality\nmonitoring systems.",
+    "5": "Applied Linear Algebra: Eigen Value Decomposition and\nSingular Value Decomposition, Matrix factorization, LU\nDecomposition (Dolittle method), QR Decomposition,\nLinear transformation, Matrix representation of Linear\nTransformation, Kernel and Range, Introduction to inner\nproduct space, Norm of a vector.\nApplication: Principal Component Analysis (PCA) for\ntextile quality inspection, Machine learning for textile\ndefect classification using SVD."
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Solve higher-order linear differential equations using analytical methods and apply them to engineering problems.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Apply Laplace transform techniques to solve ordinary differential equations and analyze dynamic engineering systems.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Solve complex functions, evaluate contour integrals, determine residues, and solve engineering problems using complex variable techniques.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply Fourier series and Fourier transform methods to analyze periodic and transient engineering signals and processes.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Apply matrix decompositions, linear transformations, and vector space concepts to solve computational and engineering problems.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "E. Kreyszig, Advance Engineering Mathematics, John Wiley & Sons, 2005."
+    },
+    {
+     "no": 2,
+     "book": "B.V. Ramana, Higher Engineering Mathematics, Tata McGraw-Hill Publishing Company Ltd., 2008."
+    },
+    {
+     "no": 3,
+     "book": "B.S. Grewal, Higher Engineering Mathematics, Khanna Publisher, 2005."
+    },
+    {
+     "no": 4,
+     "book": "R.K. Jain & S.R.K. Iyenger, Advance Engineering Mathematics, Narosa Publishing-House, 2002"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Peter V.O’ Neil, Advance Engineering Mathematics, Thomson (Cengage) Learning,2007."
+    },
+    {
+     "no": 2,
+     "book": "Maurice D. Weir, Joel Hass, Frank R. Giordano, Thomas, Calculus, Eleventh Edition, Pearson."
+    },
+    {
+     "no": 3,
+     "book": "G.B Thomas, RL Finney, Calculus and Analytical Geometry, Ninth Edition Pearson, 2002."
+    },
+    {
+     "no": 4,
+     "book": "James Ward Brown and Ruel V Churchill, Fourier Series and Boundary Value Problems,8th Edition-McGraw-Hill"
+    },
+    {
+     "no": 5,
+     "book": "D. Poole, Linear Algebra: A Modern Introduction, 2nd Edition, Brooks/ Cole, 2005."
+    },
+    {
+     "no": 6,
+     "book": "Veerarajan T., Engineering Mathematics for first year, McGraw-Hill, New Delhi, 2008."
+    },
+    {
+     "no": 7,
+     "book": "Charles E Roberts Jr, Ordinary Diffrential Equations, Application, Model and Computing, CRC Press T&F Group."
+    },
+    {
+     "no": 8,
+     "book": "Ray Wylie C and Louis C Barret, Advanced Engineering Mathematics, 6th Edition, McGraw-Hill."
+    },
+    {
+     "no": 9,
+     "book": "James Ward Brown and Ruel V Churchill, Complex Variable and Applications, 8th Edition, McGraw-Hill."
+    },
+    {
+     "no": 10,
+     "book": "P. Sivaramakrishna Das and C. Vijaya kumari, Engineering Mathematics, 1st Edition, Pearson India Education Services Pvt. Ltd."
+    },
+    {
+     "no": 11,
+     "book": "Advanced Engineering Mathematics By Chandrika Prasad, Reena Garg Khanna Publishing House, Delhi."
+    },
+    {
+     "no": 12,
+     "book": "Laplace Transforms by Schaum’s series, 2005 Edition, Spiegel Publication."
+    },
+    {
+     "no": 13,
+     "book": "Dan Hamilton, Calculus 1 - Differentiation and Integration, Hamilton Education Guides 2018."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [
+    "1. Develop the ability to formulate and solve differential equations arising in engineering and scientific applications.",
+    "2. Understand and apply Laplace transforms for solving differential equations and analyzing engineering systems.",
+    "3. Acquire knowledge of complex variable theory and apply complex analysis techniques to engineering problems.",
+    "4. Learn Fourier series and Fourier transforms for the analysis of periodic and non-periodic phenomena in engineering.",
+    "5. Develop an understanding of advanced linear algebra concepts and their applications in computational and engineering problems."
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Stray checkmark glyphs in Main Focus section.",
+    "Unit descriptions contain line breaks within phrases (e.g., 'Equations (Cartesian and Polar Form)' split across lines).",
+    "Footer line 'Back to Course Structure & Evaluation Scheme' appears at end.",
+    "NCrF Hours value 60 is printed but not part of standard fields."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Fundamentals of Electrical Engineering",
+   "name_print": "Fundamentals of Electrical Engineering",
+   "codes": [
+    "AEE101B",
+    "AEE201B"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": "Engineering Science Course (ESC)",
+   "units": {
+    "1": "Basic Electrical Quantities and DC Circuits: Basic concepts of Electric charge, current, voltage, resistance, power, and energy; Ohm's law; series and parallel combination of resistors; Kirchhoff's Voltage Law (KVL) and Kirchhoff's Current Law (KCL); Thevenin's theorem (simple concept and problem). simple mesh and nodal analysis.",
+    "2": "Single-Phase AC Circuits and Power: AC voltage and current — peak, RMS, average values; phasor representation; R, L, and C circuits and their series and parallel connections; admittance and impedance; active power (P), reactive power (Q), apparent power (S); power factor and its significance; power factor correction using shunt capacitors; single-phase power measurement using wattmeter.",
+    "3": "Unit III – Three-Phase Systems: Three phase power supply and loads, balanced star and delta connections; phase and line voltages and currents; three-phase power; two-wattmeter method.",
+    "4": "Unit IV – Transformers and Electrical Machines: Working principle of single-phase transformer; EMF equation; voltage and current ratio; losses and efficiency; concept of step-up and step-down transformer; Equivalent circuit and phasor diagram (no load condition). DC motor — types, working principle, back EMF, torque; three-phase induction motor — rotating magnetic field, slip, torque-speed curve, starting (DOL and star-delta).",
+    "5": "Unit V – Electrical Safety and Emerging applications: Electrical hazards — shock and fire; earthing and grounding; working principle of fuses and circuit breakers; electrical safety in laboratory; Applications: Working of fluorescent lamps; motor used in water pumps, lathe machines; key components of energy bills."
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply Ohm's law and Kirchhoff's laws to solve DC circuit problems in industrial instrumentation",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Analyse single-phase AC circuits and explain power factor significance for industrial loads",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Analyse three-phase circuits and measure three-phase power in industrial motor systems",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Explain fundamental concepts of transformer and machines",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Remember electrical safety knowledge and understand relevant industrial applications.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Fundamentals of Electric Circuits- Alexander & Sadiku, (McGraw Hill)"
+    },
+    {
+     "no": 2,
+     "book": "Electrical & Electronic Technology- Hughes, (Pearson)"
+    },
+    {
+     "no": 3,
+     "book": "Basic Electrical Engineering – D.C. Kulshreshtha (McGraw Hill)"
+    },
+    {
+     "no": 4,
+     "book": "Fundamentals of Electrical Engineering, 2ed, B. Dwivedi, A. Tripathi, (Wiley & Sons)"
+    },
+    {
+     "no": 5,
+     "book": "Electrical Technology Vol. I & II – B.L. Theraja and A.K. Theraja (S. Chand)"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "NPTEL – Basic Electrical Engineering, IIT Bombay"
+    },
+    {
+     "no": 2,
+     "book": "Bureau of Energy Efficiency (BEE India) – Industrial Motor and Energy Efficiency modules"
+    },
+    {
+     "no": 3,
+     "book": "Siemens Learning Hub – VFD and Motor Drives (free access)"
+    },
+    {
+     "no": 4,
+     "book": "Variable Frequency Drives: Energy Savings in Industrial Motors"
+    },
+    {
+     "no": 5,
+     "book": "Solar Rooftop Systems for Factories and Construction Sites"
+    },
+    {
+     "no": 6,
+     "book": "Electric Vehicles in Industry: AGVs, Forklifts, and Electric Trucks"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [
+    "Understand basic electrical quantities and apply Ohm's law and Kirchhoff's laws to DC circuits",
+    "Analyse single-phase AC circuits and understand power factor in the context of industrial loads",
+    "Understand three-phase power systems used in industrial motors, drives, and process plants",
+    "Learn how transformers and electrical machines work and how they are selected for industrial use",
+    "Apply electrical safety knowledge and understand relevant industrial applications."
+   ],
+   "prerequisites": "",
+   "quirks": [
+    "Course code printed as 'AEE101B/ AEE201B' with space after slash",
+    "Units 3-5 include 'Unit III/IV/V' prefixes in their titles while units 1-2 do not",
+    "Teaching-Learning Methodology contains 'numericals' (likely typo for 'numericals')",
+    "No L-T-P breakdown printed in document",
+    "No semester number printed; course is for B.Tech First Year TX Stream",
+    "Evaluation pattern given as weightage percentages (30% internal, 70% end semester), not marks",
+    "Main Focus of Course Outcomes shows checkmarks (✔) for Employability, Skill Development, and Entrepreneurship"
+   ],
+   "flags": [
+    "No LTP specified",
+    "No semester specified"
+   ]
+  },
+  {
+   "name": "Fundamentals of Electronics Engineering",
+   "name_print": "Fundamentals of Electronics Engineering",
+   "codes": [
+    "AEC101B",
+    "AEC201B"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Engineering Science Course (ESC)",
+   "units": {
+    "1": "Diodes, Rectifiers, and Regulated Power Supplies: p-n \njunction diode — basic concept, forward bias, reverse bias; \ndiode as a switch and rectifier; half-wave and full-wave \nbridge rectifier; filter capacitor; Zener diode voltage \nregulator; \nLED \nand \nphotodiode \n(what \nthey \ndo); \napplications: DC power supply for control panels and PLC \nunits, indicator LEDs in machinery, photoelectric sensors \nin conveyor lines, regulated supply for field instruments",
+    "2": "Transistors and Switching Circuits: BJT — Construction \n& VI characteristics of BJT, NPN transistor concept; \nsaturation and cut-off (switch operation); transistor \ndriving a relay; Introduction to FETs, MOSFET as a switch \n(basic idea); transistor/MOSFET in PWM motor speed \ncontrol; optocoupler — concept and use for isolation; \napplications: transistor relay driver in industrial control \ncircuits, MOSFET in VFD gate drive (concept), optocoupler \nisolating PLC output from high-power load, solid-state \nrelay (SSR)",
+    "3": "Sensors, Transducers, and Signal Conditioning: Types \nof \nsensors \n— \ntemperature \n(thermistor, \nPT100, \nthermocouple), pressure (strain gauge, piezoresistive), \ndisplacement \n(LVDT \nconcept), \nproximity \n(inductive, \ncapacitive, \nIR); \nWheatstone \nbridge \nfor \nsensor \nmeasurement; op-amp as non-inverting amplifier and \ncomparator for signal conditioning; analog signal (4–20 \nmA, 0–10V) and why it is used in industry; applications: \ntemperature control in chemical reactors, pressure \nmonitoring in process plants, proximity sensor in textile \nloom, structural tilt sensor in civil engineering",
+    "4": "Digital Basics and Microcontroller Overview: Logic \nlevels and digital signals; basic gates — AND, OR, NOT, \nNAND (truth table only); Boolean expression for simple \nindustrial logic (e.g. motor ON when switch A AND NOT \nemergency stop); ADC concept — converting sensor analog \noutput to digital; microcontroller overview (Arduino/PLC \nconcept) — inputs, outputs, program logic; display devices \n— LCD and 7-segment (what they show); applications: \ndigital readout of temperature/pressure on plant display, \nautomated ON/OFF control logic, PLC ladder logic concept",
+    "5": "Industrial Electronics and Smart Systems: Introduction \nto PLC (Programmable Logic Controller) — what it does, \ninputs, outputs, ladder logic concept; Variable Frequency \nDrive (VFD) electronics — rectifier, DC bus, inverter stage \n(block diagram only); SCADA and HMI — concept of remote \nmonitoring; wireless sensor networks in industry — \nconcept of industrial IoT (IIoT); smart manufacturing \nelectronics — condition monitoring sensor nodes, vibration \nsensors on motors;"
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain diode and rectifier circuit operation and identify their role in industrial power supplies",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Explain transistor and optocoupler operation in switching and isolation circuits",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Select appropriate sensors for physical measurement and apply op-amp signal conditioning",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Interpret digital logic and understand microcontroller/PLC role in industrial automation",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Relate PLC, VFD electronics, and IIoT concepts to smart manufacturing and process control",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [],
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "Introduction to Indian Knowledge System",
+   "name_print": "Introduction to Indian Knowledge System",
+   "codes": [
+    "AAS104",
+    "AAS204"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 2,
+   "marks": null,
+   "subject_type": "Engineering Science Course (ESC)",
+   "units": {
+    "1": "Foundations of the Indian Knowledge System\nDefinition, scope, characteristics and significance of IKS; the IKS vision of NEP 2020; the fourteen (Chaturdasha) Vidyasthanas — four Vedas, four Upavedas and six Vedangas; Schools of Indian Philosophy: Orthodox and Heterodox Schools; Oral and Written Knowledge Systems, Knowledge validation (pramanas).\nCase study: relevance of IKS for a present-day engineer.",
+    "2": "Indian Mathematics, Astronomy and Scientific Thinking\nNumber Systems: Decimal place-value system, zero and infinity; Bhutasankhya and Katapayadi numeration; Pingala’s Chandahshastra and binary representation; Sulbasutras; contributions of Aryabhata, Brahmagupta, Bhaskara and the Kerala School; Indian astronomy and the Panchanga.\nNumerical: encoding numbers using the Katapayadi scheme/Observing Panchang and Reflecting on the Patterns",
+    "3": "Engineering, Technology and Material Sciences\nMetallurgy — Wootz steel, zinc distillation and the Delhi Iron Pillar; town planning and architecture (Harappan, Vastu and Shilpa Shastra); water management — stepwells, tanks and irrigation, textile engineering\nCase study: materials-science analysis of the Iron Pillar/ Architecture of Stupas",
+    "4": "Health, Wellness, Environment and Governance\nAyurveda (Charaka and Sushruta), Tridosha; Yoga (Patanjali’s Ashtanga) and wellness; environment and sustainability in Indian thought; governance and management — Kautilya’s Arthashastra; ethics from the Bhagavad Gita.\nCase study: Yoga for well-being / Arthashastra management principles/ Learnings from Geeta",
+    "5": "Contemporary Relevance, AI and Applications of IKS\nDigital preservation (CSIR-TKDL, IKS Division) and IPR; Sanskrit and computational linguistics — Panini’s Ashtadhyayi, NLP and AI for ancient texts; IKS-inspired sustainable engineering and innovation.\nCase study: AI/NLP applied to a Sanskrit corpus."
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Learn the nature, scope and classification of the Indian Knowledge System.",
+     "kl": "K1"
+    },
+    {
+     "no": 2,
+     "text": "Understand India’s contributions to mathematics and astronomy and relate them to modern concepts.",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Understand indigenous engineering, metallurgical and architectural achievements.",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Interpret Indian traditions of health, wellness, governance and ethics.",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Recognize the contemporary relevance of IKS, including AI-enabled study and sustainability.",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Mahadevan, Bhat & Nagendra Pavana, Introduction to Indian Knowledge System: Concepts and Applications, PHI Learning."
+    },
+    {
+     "no": 2,
+     "book": "Kapil Kapoor & Avadhesh Kumar Singh (Eds.), Indian Knowledge Systems, Vols. I & II, D. K. Printworld."
+    },
+    {
+     "no": 3,
+     "book": "Pride of India: A Glimpse into India’s Scientific Heritage, Samskrita Bharati."
+    },
+    {
+     "no": 4,
+     "book": "B. V. Subbarayappa, Science in India: Past and Present, Nehru Centre."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [
+    "1. To introduce the meaning, scope, classification and significance of the Indian Knowledge System (IKS) and its corpus.",
+    "2. To develop an understanding of India’s contributions to philosophy, mathematics, astronomy and the sciences.",
+    "3. To familiarise students with indigenous engineering, technology, metallurgy and architecture.",
+    "4. To create awareness of Indian traditions of health, wellness, environment, governance and ethics.",
+    "5. To expose students to the contemporary relevance of IKS — digital preservation, AI-enabled study and sustainable applications."
+   ],
+   "prerequisites": "",
+   "quirks": [
+    "Course code printed as 'AAS104/ AAS204' with a space after slash",
+    "Unit 2 numerical section has 'Observing' capitalized oddly (likely typo for 'Observing')",
+    "Weightage column shows 20 for each unit but is separate from unit description text",
+    "CO-PO articulation matrix has many empty cells",
+    "Evaluation pattern given as percentages (30% internal, 70% ESE) rather than absolute marks"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Professional Communication and Technical Writing",
+   "name_print": "Professional  Communication and Technical Writing",
+   "codes": [
+    "AAS105",
+    "AAS205"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 2,
+   "marks": null,
+   "subject_type": "HSMC",
+   "units": {
+    "1": "Professional Communication and Workplace Readiness\nFundamentals of communication: definition, process, importance of communication barriers to communication, 7 C's of communication\nBusiness Correspondence: Emails, Notices, Agenda, Minutes of Meeting, Technical Report and proposal\nRésumé, CV and Cover Letter Writing\nInterview Skills, Professional Networking and branding e,g.,LinkedIn , X, ATS Score\nDigital Communication Etiquette : online presence and virtual meetings\nAssignments/Activities\nPrepare a professional résumé and cover letter.\nDraft business emails and meeting minutes.\nParticipate in a mock interview.",
+    "2": "Grammar and Vocabulary for Technical Writing\nParts of Speech and Sentence Structure\nCommon Grammatical Errors, Subject–Verb Agreement, Tenses, and Articles\nTechnical Vocabulary, Word Formation, and Precision in Language\nTone, Style, and Clarity in Technical English\nEditing and Proofreading Techniques for Technical Writing\nGrammar and Vocabulary Enhancement through Practical Writing Exercises\nAssignments/Activities\nEdit and proofread a technical paragraph to improve grammar, vocabulary, precision, and clarity.",
+    "3": "Public Speaking, Presentation and AI-Assisted Communication\nPublic speaking technique: Modes, verbal, and non-verbal communication\nUnderstating non-verbal Communication through the Natyashastra: Angika Abhinaya (Body Language: Posture, Gestures, Facial Expressions),Vachika Abhinaya (Voice Modulation and Speech Delivery) ,Sattvika Abhinaya (Expression of Emotions and Authentic Communication)\nPresentation Planning and Delivery\nData Visualization and Slide Design\nElevator Pitch\nAI Tools for Presentation Design and Speech Practice, prompt writing for effective communication\nEthical Use of AI in Communication\nAssignments/Activities\nDeliver an individual presentation.\nPrepare an AI-assisted presentation with proper citations.\nRecord and evaluate an elevator pitch.",
+    "4": "Emotional Intelligence and Critical Thinking for Workplace Communication\nEmotional Intelligence through the Bhagavad Gita :Self-awareness ,Self-regulation ,Empathy, Emotional Balance\nCritical Thinking through Indian Values and Logical Traditions: Nyaya (Logical Reasoning),Viveka (Discrimination and Judgment),\nValue-based Decision Making\nEthical Problem Solving\nReflective Thinking in Professional Contexts\nAssignments/Activities\nCase study analysis using value-based decision making.\nReflective journal on emotional intelligence.\nGroup discussion on workplace ethical dilemmas.",
+    "5": "Leadership, Workplace Well-being, and Mindful Communication\nLeadership definition and types"
+   },
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "Introduction to AI and Prompt Engineering",
+   "name_print": "Introduction to AI and Prompt Engineering",
+   "codes": [
+    "AAI101",
+    "AAI201"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": 15,
+    "sessional_ta": 15,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "Engineering Science Course (ESC)",
+   "units": {
+    "1": "1. Definition and scope of AI; brief history — from Alan Turing to ChatGPT\n2. Types of AI — Narrow AI, General AI, Super AI (concept)\n3. AI vs Machine Learning vs Deep Learning — what is the difference\n4. How machines learn — data, patterns, and predictions (concept, no maths)\n5. AI today — where it already exists in daily life (Google Maps, Spotify, Netflix, Google Photos, voice assistants)\n6. Machine Learning Concepts, Learning Strategies- Supervised, Unsupervised, Reinforcement Learning\n7. Data, Data Visualization, Data Pre-processing\nClass Activity: Students list 5 AI tools they use every day and discuss how each one 'learns'.\nBranch connect: CE — AI in structural health monitoring; ME — AI in predictive maintenance; EE — smart grid; CSE — AI in compilers; BT — drug discovery; AG — crop yield prediction.",
+    "2": "1. Machine learning: Classification Techniques- K-Nearest Neighbors (KNN), Naïve Bayes, Clustering Technique-K-Means\n2. Classification metrics-accuracy, precision, recall, F1 score, MAE.\n3. Neural networks — concept of neurons, layers, weights (simple diagram)\n4. Deep learning — what makes it 'deep'; why it needs GPUs, CNN\n5. Computer vision — how AI sees images (face recognition, medical imaging)\n6. Natural Language Processing (NLP) — how AI understands text and speech\nClass Activity: Show Google Teachable Machine (teachablemachine.withgoogle.com) — train a simple image classifier in 5 minutes, no code.\nBranch connect: ECE — image sensors + AI; BT — protein structure prediction (AlphaFold); AG — plant disease detection from photos; TX — fabric defect detection.",
+    "3": "1. What is Generative AI — AI that creates text, images, code, audio, video\n2. Large Language Models (LLMs) — what they are, how they are trained (concept)\n3. Popular LLMs — ChatGPT (OpenAI), Gemini (Google), Claude (Anthropic), Llama (Meta)\n4. Tokens, context window, temperature — simple explanation\n5. Multimodal AI — text + image + voice in one model (GPT-4o, Gemini concept)\n6. AI image generation — Stable Diffusion, Midjourney, DALL-E (concept + demo)\n7. Limitations of LLMs — hallucination, knowledge cutoff, bias\n8. Responsible use — academic integrity, plagiarism, AI-generated content disclosure\nClass Activity: Students interact with ChatGPT/Gemini/Claude; observe how different inputs give different outputs; identify one hallucination example.\nEvery professional today uses at least one Generative AI tool. Understanding how LLMs work makes students better users and future developers.",
+    "4": "1. AI in Civil Engineering — structural health monitoring, smart cities, traffic optimisation\n2. AI in Mechanical Engineering — predictive maintenance, design optimisation, robotics\n3. AI in Electrical and Electronics — smart grids, fault detection, VLSI design automation\n4. AI in CSE — code generation (GitHub Copilot), cybersecurity, natural language interfaces\n5. AI in Biotechnology and Healthcare — drug discovery, medical imaging, genomics, wearables\n6. AI in Agricultural Engineering — precision farming, crop monitoring, drone-based spraying, soil analysis\n7. AI in Chemical and Textile Engineering — process optimisation, quality control, material design\n8. Ethical concerns — bias in AI, data privacy, job displacement, responsible AI\nClass Activity: One case study per student group — each group presents a 2-minute real AI application from their own engineering branch.\nThis unit ensures every student, regardless of branch, sees AI as directly relevant to their future career.",
+    "5": "1. What is a prompt — the instruction you give to an AI model\n2. Why prompt quality matters — same AI, very different results with different prompts\n3. Principles of good prompting — clarity, context, specificity, role assignment, format instruction\n4. Prompting techniques:     • Zero-shot prompting — direct question     • Few-shot prompting — give examples in the prompt     • Chain-of-thought prompting — ask AI to think step by step     • Role prompting — 'Act as a civil engineer and...'\n5. Prompt for different tasks — summarisation, explanation, code generation, report writing, brainstorming, translation\n6. Domain-specific prompting — students write prompts relevant to their own branch (CE, ME, BT, AG, etc.)\n7. AI tools for engineers — GitHub Copilot (code), Grammarly (writing), Consensus (research), Wolfram Alpha, Canva AI, Notion AI\nHands-on Practice (every lecture): Students write prompts, compare outputs, refine and improve.\nGraded prompt assignment: write 5 prompts for an engineering problem from their own branch.\nPrompt Engineering is already a job role (avg. salary $100K+ globally). Every engineer who can communicate well with AI has a significant career advantage."
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain what AI is, its types, and identify AI applications in everyday life and their own engineering domain",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Describe key AI concepts — ML, Deep Learning, NLP, Computer Vision — and relate them to real applications",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Apply the working principles, capabilities, limitations, and responsible use of Generative AI and Large Language Models.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply the concept of Artificial Intelligence across engineering domains and their societal, ethical, and professional implications.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Design and refine effective prompts using zero-shot, few-shot, chain-of-thought, and role prompting techniques for domain-specific tasks",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "The Quick Guide to Prompt Engineering, I. Khan, John Wiley & Sons Inc."
+    },
+    {
+     "no": 2,
+     "book": "AI: Its Nature and Future – Margaret Boden (Oxford University Press) — accessible, non-technical introduction to AI concepts"
+    },
+    {
+     "no": 3,
+     "book": "Human Compatible: Artificial Intelligence and the Problem of Control – Stuart Russell (Penguin) — accessible reading"
+    },
+    {
+     "no": 4,
+     "book": "The Age of AI – Henry Kissinger, Eric Schmidt, Daniel Huttenlocher — for AI and society context"
+    },
+    {
+     "no": 5,
+     "book": "Prompt Engineering for Generative AI – James Phoenix and Mike Taylor (O’Reilly) — practical guide to LLMs and prompting, supports Units IV & V"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [
+    "1. Understand what Artificial Intelligence is, its history, and how it is changing every engineering field",
+    "2. Understand key AI concepts — Machine Learning, Deep Learning, and Neural Networks — at a conceptual level",
+    "3. Explore how AI is applied across domains — healthcare, agriculture, manufacturing, finance, and education",
+    "4. Understand Generative AI — how large language models (LLMs) like ChatGPT and Gemini work",
+    "5. Learn and practise Prompt Engineering — the skill of communicating effectively with AI tools to get useful results"
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Unit 1 has duplicate numbering '1.' for the first two items.",
+    "The 'Prompting techniques' line contains extra spaces and bullet points embedded in the text.",
+    "The course content is presented in a flattened table format with headers 'Unit', 'Topics', 'Weightage'.",
+    "The 'Main Focus of the Course Outcomes' section uses checkmarks in a table.",
+    "The 'CO–PO Articulation Matrix' is a table with numbers and dashes.",
+    "The 'Evaluation Pattern' table lists components with marks and weightage.",
+    "Page headers repeat 'Dr. APJ Abdul Kalam Technical University,"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Applied Physics Lab",
+   "name_print": "Applied Physics Lab",
+   "codes": [
+    "AAS151",
+    "ASS251"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Determine the wavelength of monochromatic light,\npolychromatic\nlight\nand\nspecific\nrotation\noptical\ninstruments",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Determine Planck's constant using photoelectric effect,\nstudy of attenuation in optical fibre and verification of\nStefan’s law.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Determine the energy band gap and Hall coefficient of\nsemiconductor materials.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Investigate\nthe\nelectrical,\nmagnetic\nand\nthermal\nproperties of\nmaterials and to verify respective\nfundamental laws.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Verify discrete nature of atomic energy transitions by\nFranck-Hertz experiment and study the switching\ncharacteristics of fundamental logic gates.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Practical Physics- K. K. Dey & B. N. Dutta (Kalyani Publishers New\nDelhi"
+    },
+    {
+     "no": 2,
+     "book": "Engineering Physics Practical- S K Gupta (Krishna Prakashan\nMeerut)"
+    },
+    {
+     "no": 3,
+     "book": "Engineering Physics: Theory and Practical- Katiyar and Pandey\n(Wiley India)"
+    },
+    {
+     "no": 4,
+     "book": "Engineering Physics Theory and Experiments-Srivastava and Yadav\n(New Age International)"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To determine the wavelength of different\nspectral lines of mercury light using plane\ntransmission grating."
+    },
+    {
+     "no": 2,
+     "exp": "To determine the wavelength of He-Ne laser\nlight using single slit diffraction."
+    },
+    {
+     "no": 3,
+     "exp": "To determine the specific rotation of cane\nsugar solution using polarimeter."
+    },
+    {
+     "no": 4,
+     "exp": "To\ndetermine\nthe\nfocal\nlength\nof\nthe\ncombination of two lenses separated by a\ndistance and verify the formula for the focal\nlength of combination of lenses."
+    },
+    {
+     "no": 5,
+     "exp": "To\ndetermine\nPlanck's\nconstant\nusing\nphotoelectric effect."
+    },
+    {
+     "no": 6,
+     "exp": "To measure attenuation in an optical fiber."
+    },
+    {
+     "no": 7,
+     "exp": "To verify Stefan’s law by electric method."
+    },
+    {
+     "no": 8,
+     "exp": "To determine the energy band gap of a given\nsemiconductor material."
+    },
+    {
+     "no": 9,
+     "exp": "To study Hall effect and determine Hall\ncoefficient, carrier density and mobility of a\ngiven semiconductor material using Hall\neffect setup."
+    },
+    {
+     "no": 10,
+     "exp": "To determine the variation of magnetic field\nwith the distance along the axis of a current\ncarrying coil and estimate the radius of the\ncoil."
+    },
+    {
+     "no": 11,
+     "exp": "To draw hysteresis curve (B-H curve) of a\nspecimen in the form of a transformer and to\ndetermine its hysteresis loss."
+    },
+    {
+     "no": 12,
+     "exp": "To determine resistance per unit length and\nspecific resistance of a given resistance using\nCarey Foster's Bridge."
+    },
+    {
+     "no": 13,
+     "exp": "To determine the electrochemical equivalent\n(ECE) of copper."
+    },
+    {
+     "no": 14,
+     "exp": "To determine the coefficient of viscosity of a\ngiven liquid."
+    },
+    {
+     "no": 15,
+     "exp": "To measure surface tension of a liquid (e.g.,\nwater, ethanol, and surfactant solutions) at\nroom temperature using capillary rise or\nstalagmometer."
+    },
+    {
+     "no": 16,
+     "exp": "To determine the value of acceleration due to\ngravity (g) using compound pendulum."
+    },
+    {
+     "no": 17,
+     "exp": "To determine the moment of inertia of a\nflywheel about its own axis of rotation."
+    },
+    {
+     "no": 18,
+     "exp": "To determine the Young’s Modulus of a\nmaterial by Searle's apparatus."
+    },
+    {
+     "no": 19
+    }
+   ],
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "Essentials of Data Structure",
+   "name_print": "Essentials of Data Structure",
+   "codes": [
+    "ACS201"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 2,
+   "marks": null,
+   "subject_type": "Engineering Science Course (ESC)",
+   "units": {
+    "1": "1. \nC / \nPython \nIntroduction and Arrays \n1. Data structure — definition, need, classification (linear / non-linear, static / dynamic) \n2. Algorithm efficiency — Big O notation: O(1), O(n), O(log n), O(n²) — concept only \n3. Array — insert, delete, search, traverse in C/Python \n4. 2D array — matrix addition and transpose \nReal connect:NumPy array (AI/ML), image as 2D matrix, sensor data log as array, spreadsheet rows. \n20%",
+    "2": "2. \nC/Python \nLinked List \n1. Node — data + pointer; why linked list over array \n2. Singly linked list — insert (head, tail, position), delete, traverse \n3. Doubly linked list — concept and structure only \n4. Circular linked list — concept only \nReal connect: Browser back/forward = doubly linked list. Music playlist = circular. Python deque = doubly linked list (used in BFS, LRU cache). \n20%",
+    "3": "3. \nC/Python \nStack and Queue \n1. Stack — LIFO; push, pop, peek; implementation using array in C/Python \n2. Application: balanced parentheses check; function call stack (concept) \n3. Queue — FIFO; enqueue, dequeue; implementation using array in C/ Python  \n4. Application: print spooler; task scheduling queue, Polish Notation \nReal connect: Ctrl+Z = Stack. WhatsApp delivery = Queue. Python error traceback IS a call stack. CPU scheduling = queue. \n20%",
+    "4": "4. \nC/Python \nSearching and Sorting \n1. Linear search, binary search, comparison \n2. Bubble sort and insertion sort, Quick Sort and Selection Sort — trace + C/ Python \n3. Merge sort — concept and trace only \n4. Python built-in sort() and sorted() \nReal connect: Binary search in database index. Python sort() uses Timsort. E-commerce ranking, leaderboard, ML data preprocessing = sorting. \n20%",
+    "5": "5. \nTrace + \nPython \ndemo \nTrees and Graphs (Concept Level) \n1. Binary tree — terminology (root, leaf, height, level); properties \n2. Binary Search Tree — insert, search; inorder/preorder traversal trace \n3. Graph — vertex, edge, directed/undirected; adjacency list representation, insertion \n4. BFS and DFS — trace on a small graph (5–6 nodes) \nReal connect: File system = tree. BST in database indexing. Google Maps = weighted graph. Social network = graph. Decision Tree in ML = binary tree. \n20%"
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain data structure types and Big O; implement array insert, delete, and search in C/Python",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Implement singly linked list operations and relate to real-world applications",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Implement stack and queue using arrays and apply them to solve simple problems",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply linear and binary search; trace and implement bubble and insertion sort",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Trace BST insert and traversal; trace BFS/DFS on a small graph",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Data Structures Using C – ReemaThareja (Oxford University Press)"
+    },
+    {
+     "no": 2,
+     "book": "Data Structures and Algorithms in Python – Goodrich, Tamassia, Goldwasser(Wiley)"
+    },
+    {
+     "no": 3,
+     "book": "Problem Solving with Algorithms and Data Structures using Python – Brad Miller (free: runestone.academy)"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [
+    "1. Understand data structures and why choosing the right one affects program performance",
+    "2. Implement linked list and perform basic insert, delete, and traverse operations",
+    "3. Implement stack and queue and apply them to simple real-world problems",
+    "4. Apply searching and sorting algorithms and compare their efficiency",
+    "5. Understand trees and graphs at a conceptual level with real-world connections"
+   ],
+   "prerequisites": "ACS101 – Programming Language (C/C++ + Python)",
+   "quirks": [
+    "Unit headings include language and weightage inline",
+    "Some lines have extra spaces, e.g., 'C/ Python' has a space before Python",
+    "'Real connect:NumPy array' missing space after colon",
+    "Suggested Assignment / Practice Problems section present but not extracted",
+    "Teaching-Learning Methodology and Online Resources sections present but not extracted",
+    "Evaluation pattern gives weightage percentages, not marks"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Applied Chemistry for Fibres, Polymers and Sustainable Textiles Lab",
+   "name_print": "Applied Chemistry for Fibres, Polymers and \nSustainable Textiles Lab",
+   "codes": [
+    "AAS152",
+    "AAS252"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "Basic Science Course (BSC)",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Identify textile fibres by solubility and burning tests and \ndetermine moisture regain",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Determine viscosity-average molecular weight and degree of \npolymerisation of polymer samples",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Perform dyeing experiments and evaluate dye exhaustion \nand effluent quality",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Apply softener and water-repellent finishes and evaluate \nfabric property changes",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Extract and apply natural dyes and demonstrate enzyme-\nbased green textile processing",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Engineering Chemistry – Jain and Jain"
+    },
+    {
+     "no": 2,
+     "book": "Textile Chemistry – Thomas Bechtold and Tung Pham"
+    },
+    {
+     "no": 3,
+     "book": "Dyes and Pigments – R. Christie"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Fibre Identification by Chemical Solubility Tests - Identify given natural and synthetic fibre samples (cotton, wool, silk, nylon, polyester, acrylic) using differential solubility in acids, alkalis, and solvents; record systematic observations"
+    },
+    {
+     "no": 2,
+     "exp": "Moisture Regain and Moisture Content of Fibres - Determine moisture regain and moisture content of cotton, wool, nylon, and polyester samples by oven-drying method; relate to hygroscopicity and comfort properties of fibres"
+    },
+    {
+     "no": 3,
+     "exp": "Viscosity Average Molecular Weight of Polymer - Measure viscosity of polymer solution (PVA or cellulose) at different concentrations using Ostwald viscometer; determine intrinsic viscosity [η]; compute viscosity-average molecular weight using Mark-Houwink equation"
+    },
+    {
+     "no": 4,
+     "exp": "Degree of Polymerisation by Viscosity Method - Determine degree of polymerisation (DP) of a cellulose or polymer sample from intrinsic viscosity; relate DP to fibre strength and processing behaviour"
+    },
+    {
+     "no": 5,
+     "exp": "Dyeing of Cotton with Direct Dye - Dye a cotton fabric sample with a direct dye at optimum temperature and salt concentration; measure dye exhaustion by UV-Vis spectrophotometry; calculate % exhaustion and colour strength (K/S value)"
+    },
+    {
+     "no": 6,
+     "exp": "Dyeing of Nylon with Acid Dye - Dye a nylon fabric with an acid dye under acidic conditions; control pH with acetic acid; measure exhaustion by UV-Vis; study effect of pH on dye uptake"
+    },
+    {
+     "no": 7,
+     "exp": "Effluent Analysis of Dye Bath - Analyse the exhausted dye bath effluent for BOD, COD, and colour; relate to environmental impact of textile wet processing; assess need for treatment"
+    },
+    {
+     "no": 8,
+     "exp": "Softener Finish – Effect on Fabric Handle - Apply cationic softener to cotton fabric at different concentrations; evaluate handle by subjective bending test and crease recovery angle measurement; relate to softener chemistry"
+    },
+    {
+     "no": 9,
+     "exp": "Water Repellency Test on Finished Fabric - Apply water-repellent finish (fluorocarbon or silicone-based) to fabric samples; evaluate water repellency by spray test (IS/AATCC method) and contact angle measurement; relate to DWR chemistry"
+    },
+    {
+     "no": 10,
+     "exp": "Natural Dye Extraction and Dyeing - Extract natural dye from turmeric, henna, or onion skin; mordant cotton fabric with alum; dye and assess colour strength by UV-Vis; relate to sustainable natural dyeing and green textile chemistry"
+    },
+    {
+     "no": 11,
+     "exp": "Enzymatic Scouring of Cotton (Bio-scouring Demo) - Scour cotton fabric using pectinase enzyme solution; compare whiteness, wettability, and weight loss with conventional alkali scouring; relate to enzyme-based green processing"
+    },
+    {
+     "no": 12,
+     "exp": "Burning Test and Melting Behaviour of Fibres - Perform burning test on natural (cotton, wool, silk) and synthetic (nylon, polyester, acrylic) fibres; observe flame behaviour, odour, and ash; correlate with fibre chemical structure and fire safety"
+    }
+   ],
+   "objectives_print": [
+    "1. To identify and characterise natural and synthetic textile fibres by \nchemical and physical tests",
+    "2. To study polymer properties including viscosity, degree of \npolymerisation, and solubility",
+    "3. To perform dyeing experiments and determine dye-fibre affinity and \nexhaustion",
+    "4. To evaluate finishing chemicals and their effect on textile fabric \nproperties",
+    "5. To apply green chemistry in textile processing and assess effluent \nquality"
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Course code printed as 'AAS152B/ AAS252B' with a space after slash",
+    "Course title split across two lines in the PDF",
+    "Experiment list contains 12 experiments though only 10 are required",
+    "Evaluation pattern given as three components (day-to-day, record, end semester) rather than standard CT/TA/ESE split",
+    "CO-PO articulation matrix present but not extracted",
+    "Safety instructions present but not part of required fields"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Electrical Engineering Lab",
+   "name_print": "Electrical Engineering Lab",
+   "codes": [
+    "AEE151",
+    "AEE251"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "Engineering Science Course (ESC)",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Verify Ohm's law, KVL, KCL, and Thevenin's theorem in DC circuit experiments with industrial context",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Measure AC power, power factor, and demonstrate power factor improvement for laboratory setup",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Set up three-phase circuits and measure power using the two-wattmeter method",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Evaluate transformer efficiency and demonstrate induction motor starting.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Demonstrate electrical safety practices, conduct energy metering and demonstrate working of Fluorescent Lamp and protection equipment.",
+     "kl": "K2"
+    }
+   ],
+   "quirks": [
+    "re-extracted from detail page p.3 (B37 verify repair)"
+   ],
+   "flags": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Electrical Safety Practices in the Laboratory\nDemonstrate safe handling of electrical equipment, proper use of insulated tools, earthing, and emergency shutdown procedures. Application: Safe operation of electrical systems in laboratories and workplace"
+    },
+    {
+     "no": 2,
+     "exp": "Verification of Ohm's Law\nVerify the relationship between voltage and current for a resistor and determine its resistance.."
+    },
+    {
+     "no": 3,
+     "exp": "Verification of KVL and KCL\nVerify Kirchhoff's Voltage Law in a series circuit and Kirchhoff's Current Law in a parallel circuit"
+    },
+    {
+     "no": 4,
+     "exp": "Thevenin's Theorem Verification\nFind Thevenin's equivalent of a DC network; verify with different load resistors."
+    },
+    {
+     "no": 5,
+     "exp": "Power and Power Factor Measurement\nConnect a single-phase inductive load (choke / single-phase motor); measure voltage, current, and active power using a wattmeter; compute power factor."
+    },
+    {
+     "no": 6,
+     "exp": "Power Factor Improvement Using Capacitor\nImprove power factor of an inductive load by adding capacitors in steps; record reduction in line current."
+    },
+    {
+     "no": 7,
+     "exp": "Three-Phase Star Connection – Voltage and Current\nSet up a balanced three-phase star resistive load; measure phase and line voltages and currents; verify the √3 relationship. Application: three-phase supply to textile machines, chemical plant drives, and construction site distribution boards."
+    },
+    {
+     "no": 8,
+     "exp": "Measurement of Three-Phase Power by Two-Wattmeter Method\nMeasure the total power of a three-phase balanced load using the two-wattmeter method."
+    },
+    {
+     "no": 9,
+     "exp": "No-Load Test on a Single-Phase Transformer\nMeasure no-load voltage, current, and input power; observe the no-load characteristics of a transformer."
+    },
+    {
+     "no": 10,
+     "exp": "Verification of Voltage and Current Ratio of a Single-Phase Transformer\nMeasure primary and secondary voltages and currents to verify the transformation ratio."
+    },
+    {
+     "no": 11,
+     "exp": "Starting of a Three-Phase Induction Motor Using DOL Starter\nStart a three-phase induction motor using a DOL starter and observe its operation and direction of rotation."
+    },
+    {
+     "no": 12,
+     "exp": "Demonstration of Star-Delta Starter\nObserve the starting of a three-phase induction motor using a star-delta starter and compare it with DOL starting.."
+    },
+    {
+     "no": 13,
+     "exp": "Working of Fluorescent Lamp Circuit\nConnect and observe the operation of a fluorescent lamp using a choke and starter."
+    },
+    {
+     "no": 14,
+     "exp": "Demonstration of Fuse, MCB and Earthing\nDemonstrate the operation of a fuse and MCB and verify proper earthing of electrical equipment."
+    },
+    {
+     "no": 15,
+     "exp": "Study of Domestic Energy Meter and Energy Bill\nObserve the operation of a single-phase energy meter and identify the major components of a domestic electricity bill"
+    }
+   ],
+   "objectives_print": [
+    "1. Verify Ohm's law and Kirchhoff's laws through simple DC circuit experiments",
+    "2. Measure AC power, power factor, and demonstrate power factor improvement for industrial loads",
+    "3. Set up three-phase circuits and measure three-phase power relevant to industrial motors",
+    "4. Study transformer efficiency and induction motor starting and performance",
+    "5. Demonstrate working of Fluorescent Lamp, electrical safety and protection equipment, and energy metering."
+   ]
+  },
+  {
+   "name": "Electronics Engineering Lab",
+   "name_print": "Electronics Engineering Lab",
+   "codes": [
+    "AEC151",
+    "AEC251"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 1,
+   "marks": null,
+   "subject_type": "Engineering Science Course (ESC)",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Set up diode rectifier and Zener voltage regulator\ncircuits for industrial instrument supply",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Use BJT and optocoupler to switch relays and isolate\ncontrol circuits from power circuits",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Calibrate sensors, set up bridge circuits, and apply\nop-amp amplification and comparator alarm",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Verify logic gate truth tables and demonstrate digital\ncontrol logic and 7-segment display",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Demonstrate a complete sensor-to-display signal\nchain and an IIoT sensor monitoring demo",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Diode Characteristics and\nRectifier\nPlot forward V-I characteristic of\na silicon diode; set up a full-\nwave bridge rectifier; observe\noutput with and without filter\ncapacitor.\nApplication:\nDC\nsupply for industrial sensor\ntransmitter\nor\nPLC\ninput\nmodule."
+    },
+    {
+     "no": 2,
+     "exp": "Zener\nDiode\nVoltage\nRegulator\nSet up a Zener voltage regulator;\nvary supply and load; measure\nregulation.\nApplication:\nregulated 5V / 12V supply for\nfield\ninstrument\ntransmitter\ncircuits in process plant."
+    },
+    {
+     "no": 3,
+     "exp": "BJT as a Switch – Relay\nDriver\nfor\nActuator\nControl\nUse NPN BJT to drive a relay\ncoil; connect relay to switch a\nlamp or motor ON/OFF using a\nsmall\ncontrol\nsignal.\nApplication:\nPLC\ntransistor\noutput driving a solenoid valve\nin chemical plant or a conveyor\nbelt relay in textile mill."
+    },
+    {
+     "no": 4,
+     "exp": "Optocoupler – Isolation\nbetween\nControl\nand\nPower Circuit\nDemonstrate\nan\noptocoupler\n(PC817) isolating a low-voltage\ncontrol signal from a higher-\nvoltage load circuit; observe\nLED-phototransistor\naction.\nApplication:\nPLC\noutput\nisolation, VFD signal isolation\nin industrial drives."
+    },
+    {
+     "no": 5,
+     "exp": "Thermistor / LDR Sensor\nCharacteristics\nand\nBridge Circuit\nMeasure\nresistance-\ntemperature\n(thermistor)\nor\nresistance-light\n(LDR)\ncharacteristics;\nset\nup\na\nWheatstone\nbridge;\nobserve\nbridge output voltage change\nwith sensor input. Application:\ntemperature\nsensing\nin\nchemical\nreactor\nor\nlight\nsensing in greenhouse."
+    },
+    {
+     "no": 6,
+     "exp": "Op-Amp Signal Amplifier\nfor Sensor Output\nConnect\nthermistor\nbridge\noutput to a non-inverting op-\namp amplifier (IC 741); measure\namplified output voltage for\ndifferent\ntemperatures.\nApplication:\namplifying\n4–20\nmA sensor signal for PLC analog\ninput in process control."
+    },
+    {
+     "no": 7,
+     "exp": "Op-Amp\nComparator\n–\nThreshold Alarm\nSet up an op-amp comparator\nwith a sensor (thermistor or\nLDR) on one input and an\nadjustable reference on the\nother;\nobserve\nalarm\nLED\ntriggering when threshold is\ncrossed.\nApplication:\nover-\ntemperature alarm in chemical\nreactor, level alarm in storage\ntank."
+    },
+    {
+     "no": 8,
+     "exp": "Logic Gate Truth Table\nVerification\nVerify truth tables of AND, OR,\nNOT, NAND gates using a logic\ntrainer; implement a simple\nindustrial logic: Motor ON =\nSwitch_A\nAND\n(NOT\nEmergency_Stop). Application:\nbasic\nPLC\nladder\nlogic\neqequivalent in discrete gate form."
+    },
+    {
+     "no": 9,
+     "exp": "7-Segment Display Driver\n– Digital Readout\nDrive a 7-segment display using\na BCD decoder IC (7447) and\nDIP switches to display digits 0–\n9; understand how a digital\nreadout shows sensor data.\nApplication:\ndigital\ntemperature/pressure\ndisplay\non process plant HMI."
+    },
+    {
+     "no": 10,
+     "exp": "Complete\nSensor-to-\nDisplay Chain\nConnect a thermistor sensor →\nWheatstone bridge → op-amp\namplifier → op-amp comparator\n(alarm) → digital display (or LED\nbar graph); demonstrate the full\nsignal\nchain.\nApplication:\ntemperature\nmonitoring\nand\nalarm\nsystem\nin\na\nmanufacturing plant or textile\ndrying oven."
+    },
+    {
+     "no": 11,
+     "exp": "IIoT Demo – Sensor Data\non\nCloud\nDashboard\n(Arduino/NodeMCU)\nConnect a temperature or soil\nmoisture sensor to a NodeMCU;\ndisplay\nreadings\non\nserial\nmonitor; (if Wi-Fi available)\npush data to a free IoT platform\n(ThingSpeak\n/\nBlynk).\nApplication: remote condition\nmonitoring\nof\nmachines\nin\nIndustry 4.0 factory."
+    }
+   ],
+   "objectives_print": [
+    "Set up diode rectifier and regulated power supply for an electronic\ncontrol circuit",
+    "Use transistor as a switch to drive relay and control a real actuator",
+    "Calibrate a physical sensor (temperature, light) and condition its\noutput using an op-amp",
+    "Verify logic gate truth tables and understand basic digital control\nlogic",
+    "Demonstrate industrial electronics — sensor-to-display chain, relay\ncontrol, and an IIoT demo"
+   ],
+   "prerequisites": null,
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "Innovation & Design Thinking Lab (Project-Based Learning)",
+   "name_print": "Innovation & Design Thinking Lab (Project-\nBased Learning)",
+   "codes": [
+    "AID151",
+    "AID251"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "Skill Development Course (SDC)",
+   "units": {
+    "1": "Module 1 – Introduction to Design Thinking & \nInnovation: What is Design Thinking; difference \nbetween \ndesign \nthinking \nand \nconventional \nproblem solving; the five stages (Empathize, \nDefine, Ideate, Prototype, Test); innovation vs \ninvention; examples of design thinking success \nstories (Apple, Airbnb, IDEO, Indian startups); \ncreativity \nand \nthe \ninnovation \nmindset; \nintroduction to the team project. \n6 hrs",
+    "2": "Module 2 – Empathize: Understanding the User: \nHuman-centred design; observation and user \nresearch techniques; conducting interviews and \nsurveys; empathy mapping; identifying user needs, \npain points, and latent needs; stakeholder \nanalysis; developing personas. Studio Activity: \nfield observation and user interviews for the \nchosen problem. \n8 hrs",
+    "3": "Module 3 – Define & Ideate: Synthesising \nresearch; framing the problem statement (Point of \nView); 'How Might We' questions; brainstorming \nrules and techniques; SCAMPER, mind mapping, \nlateral thinking; idea selection and prioritisation \n(impact-effort \nmatrix, \ndot \nvoting); \nconcept \ndevelopment. Studio Activity: define problem \nstatement and generate/short-list solution ideas. \n10 hrs",
+    "4": "Module 4 – Prototype: Purpose of prototyping; \ntypes of prototypes (paper, low-fidelity, working \nmodel, digital mock-up); rapid prototyping with \nlow-cost materials; storyboarding; introduction to \nprototyping tools (cardboard, clay, 3D printing \nbasics, \nTinkercad, \nFigma/Canva \nfor \ndigital \nprototypes). Studio Activity: build a low-cost \nprototype of the team's solution. \n12 hrs",
+    "5": "Module 5 – Test, Iterate & Pitch: User testing \nand feedback collection; iteration and refinement \nbased \non \nfeedback; \nfailure \nas \nlearning; \nintroduction to business model canvas (basic); \nvalue \nproposition; \nstorytelling \nand \npitching; \npreparing and delivering the final project pitch. \nStudio Activity: test prototype with users, iterate, \nand present the final pitch. \n9 hrs"
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain the design thinking process and apply the innovation mindset to real problems",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Apply empathy tools (interviews, observation, empathy maps) to identify genuine user needs",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Define a clear problem statement and generate creative solutions through structured ideation",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Build a low-cost prototype of a proposed solution using appropriate tools",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Test and iterate the prototype based on user feedback and pitch the solution effectively as a team",
+     "kl": "K4"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "AICTE Model Curriculum – Design Thinking (aicte-india.org)"
+    },
+    {
+     "no": 2,
+     "book": "The Design of Everyday Things – Don Norman"
+    },
+    {
+     "no": 3,
+     "book": "Change by Design – Tim Brown (IDEO)"
+    },
+    {
+     "no": 4,
+     "book": "Design Thinking Bootleg – Stanford d.school (dschool.stanford.edu, free)"
+    },
+    {
+     "no": 5,
+     "book": "IBM Enterprise Design Thinking – ibm.com/design/thinking (free)"
+    },
+    {
+     "no": 6,
+     "book": "NPTEL – Design Thinking: A Primer (IIT Madras)"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [
+    "1. To introduce students to the Design Thinking process as a human-centred approach to problem solving",
+    "2. To develop empathy and the ability to identify real user needs and define meaningful problems",
+    "3. To build creative ideation, brainstorming, and lateral-thinking skills",
+    "4. To enable students to build low-cost prototypes and test them with users",
+    "5. To foster teamwork, communication, and an innovation and entrepreneurial mindset through a hands-on team project"
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Title printed with a line break after 'Project-' (i.e., 'Project-\nBased Learning').",
+    "Module descriptions contain irregular line breaks and spacing due to PDF text extraction.",
+    "Course code printed as 'AID151/AID251' with a slash.",
+    "The line 'Back to Course Structure & Evaluation Scheme' is a navigation link, not part of the syllabus."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Aided Engineering Drawing Lab",
+   "name_print": "Computer Aided Engineering Drawing Lab",
+   "codes": [
+    "ACE151",
+    "ACE251"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 2,
+   "marks": null,
+   "subject_type": "Engineering Science Course (ESC)",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply engineering drawing standards and conventions (BIS/ISO) while setting up and dimensioning a drawing.",
+     "kl": "3"
+    },
+    {
+     "no": 2,
+     "text": "Construct orthographic and sectional views of points, lines, planes and solids using a CAD package.",
+     "kl": "3"
+    },
+    {
+     "no": 3,
+     "text": "Develop surfaces and isometric views of solids, read given views to visualise the object, and apply this to draw textile machine components, weave-design diagrams and mill layouts.",
+     "kl": "3"
+    },
+    {
+     "no": 4,
+     "text": "Create three-dimensional models in CAD, derive two-dimensional views from them, and exchange drawing data in standard formats.",
+     "kl": "3"
+    },
+    {
+     "no": 5,
+     "text": "Compose, plot and defend a complete stream specific drawing set through a mini project, using contemporary CAD practice and emerging parametric/AI assisted tools.",
+     "kl": "6"
+    }
+   ],
+   "quirks": [
+    "re-extracted from detail page p.3 (B37 verify repair)",
+    "re-extracted from detail page p.76 (B37 verify repair)"
+   ],
+   "flags": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Drawing standards, sheet layout and the CAD environment\nSheet sizes, borders, title block, lines, lettering and dimensioning as per BIS conventions (SP 46 : 2003 (BIS) Engineering Drawing Practice for Schools and Colleges; IS 10711 (sheet sizes and layout); IS 9609 (lettering); IS 10714 (line conventions); IS 11669 (preparation of general engineering drawings); ISO 128 series.). Familiarisation with the CAD interface: coordinate entry, units, limits, object snap, layers, line types and file management.\nStudents set up a standard A3/A4 template with a title block that will be reused throughout the semester."
+    },
+    {
+     "no": 2,
+     "exp": "Geometric constructions and engineering curves\nConstruction of polygons, tangents, plain and diagonal scales; conic sections (ellipse, parabola, hyperbola) and one roulette (cycloid or involute) using CAD draw and modify commands (LINE, ARC, OFFSET, TRIM, ARRAY, MIRROR). Stream context: cam profiles of a tappet shedding mechanism, the helix of yarn twist on a package, and the cycloidal traverse of a builder motion."
+    },
+    {
+     "no": 3,
+     "exp": "Orthographic projection of points and straight lines\nProjections of points in the four quadrants; projections of lines inclined to one and both reference planes; true length and true inclination by rotation/trapezoidal method. Principal planes handled on separate CAD layers."
+    },
+    {
+     "no": 4,
+     "exp": "Orthographic projection of planes and simple solids\nFirst angle projection of planes and of prisms, pyramids, cylinders and cones resting in given positions; front, top and side views. Third angle convention introduced for comparison, since it is common in imported drawings."
+    },
+    {
+     "no": 5,
+     "exp": "Sections of solids and true shape of section\nSolids cut by section planes perpendicular to one reference plane and inclined to the other; sectional views, cutting plane line, hatching conventions and true shape of the section obtained by auxiliary projection."
+    },
+    {
+     "no": 6,
+     "exp": "Development of lateral surfaces\nParallel line and radial line development of cube, prism, cylinder, cone and truncated solids. Stream context: development of a cone/cheese package surface, a conical funnel of a fibre transport duct and a sheet metal machine guard."
+    },
+    {
+     "no": 7,
+     "exp": "Isometric projection and reading of orthographic views\nIsometric scale, isometric axes and isometric drawing aids in CAD; conversion of given orthographic views into an isometric view, and the reverse exercise of reading a pictorial view and producing orthographic views. Missing line and missing view problems for visualisation practice."
+    },
+    {
+     "no": 8,
+     "exp": "Drawing of a textile machine component\nOrthographic and sectional drawing of a machine part, a ring frame spindle with bolster and wharve, a heald and reed section, a shuttle, a tappet/cam profile or a drafting roller with its bearing. The cam profile is plotted from the displacement diagram rather than copied, so that the link between motion requirement and geometry is visible."
+    },
+    {
+     "no": 9,
+     "exp": "Weave design: point paper design, draft and peg plan\nPreparation of point paper (design paper) representations of plain, twill, satin/sateen and a simple derivative weave, together with the corresponding drafting plan and peg/lifting plan, drawn on a CAD grid using ARRAY and layer control; cross sectional views of the fabric structure along warp and weft. A colour and weave effect is produced for one design."
+    },
+    {
+     "no": 10,
+     "exp": "3D modelling of a textile component\nSolid model of a component such as a bobbin, cone, cot/apron roller or a package holder arm, using revolve/extrude/sweep features; automatic generation of orthographic and sectional views from the model."
+    },
+    {
+     "no": 11,
+     "exp": "Garment pattern block, mill layout, sheet composition and plotting\nDrafting of a basic bodice/sleeve block to given measurements with grain lines, notches and seam allowances; and a machine layout plan of a spinning or weaving shed showing machine positions, passages, material flow and clearances. Composition of a complete sheet with title block; plotting to scale and export to PDF/DXF."
+    },
+    {
+     "no": 12,
+     "exp": "Mini project with an introduction to textile CAD/CAM and AI tools\nIn groups of two or three, students deliver either a machine component drawing set (detail plus assembly, with 3D model) or a design set (weave/print design with fabric cross sections and a pattern block). The session includes a demonstration of jacquard/dobby design software, digital printing workflows, 3D garment simulation, and AI assisted print/weave design generation and defect detection. Evaluation by presentation and viva voce."
+    }
+   ],
+   "objectives_print": [
+    "1. To familiarise the student with the principles, conventions and standards of engineering drawing, so that a drawing can be read and prepared without ambiguity.",
+    "2. To develop the ability to visualise a three-dimensional object and to represent it through orthographic, sectional and pictorial views.",
+    "3. To develop working competence in a CAD package for two-dimensional drafting and for basic three-dimensional modelling.",
+    "4. To develop the ability to prepare drawings of the components, systems and layouts that occur in the Textile Engineering Stream (TX), rather than generic examples.",
+    "5. To develop the ability to prepare drawings of textile machine components, fabric design diagrams and mill layouts, and to introduce textile specific CAD as used in the industry."
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "N. D. Bhatt and V. M. Panchal, Engineering Drawing, Charotar Publishing House, Anand (latest edition)."
+    },
+    {
+     "no": 2,
+     "book": "Z. Grosicki, Watson's Textile Design and Colour, Woodhead Publishing/CRC Press (latest edition)."
+    },
+    {
+     "no": 3,
+     "book": "H. Nisbet, Grammar of Textile Design, Abhishek Publications / reprint edition."
+    },
+    {
+     "no": 4,
+     "book": "P. R. Lord and M. H. Mohamed, Weaving: Conversion of Yarn to Fabric, Woodhead Publishing (latest edition)."
+    },
+    {
+     "no": 5,
+     "book": "Winifred Aldrich, Metric Pattern Cutting for Women's Wear, Wiley Blackwell (latest edition)."
+    },
+    {
+     "no": 6,
+     "book": "K. Venugopal, Engineering Drawing and Graphics + AutoCAD, New Age International Publishers (latest edition)."
+    },
+    {
+     "no": 7,
+     "book": "SP 46 : 2003, Engineering Drawing Practice for Schools and Colleges, Bureau of Indian Standards."
+    },
+    {
+     "no": 8,
+     "book": "Pandey, S. K. (2001). Learn AutoCAD: In a Easy Way. S.K. Kataria & Sons. ISBN: 978-81-85749-78-5."
+    }
+   ]
+  },
+  {
+   "name": "Language Lab",
+   "name_print": "Language Lab",
+   "codes": [
+    "AAS153",
+    "AAS253"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "Applied Science & Humanities (AS&H)",
+   "units": {
+    "1": "Part I: Interactive Communication Skills Lab\nThe laboratory shall provide experiential learning through role plays, simulations, presentations, discussions and workplace communication activities.\nList of Practical Activities\n1. Self-Introduction, Video Introduction, and SWOT Analysis\n2. Professional Networking and Digital Professional Branding (LinkedIn, X, or Professional Blogs)\n3. Business Communication: Email, Notice, Agenda, Minutes of Meeting, and Technical Report Writing\n4. Group Discussion (Case-based, Panel Discussion, and Turn-taking Techniques)\n5. Role Play on Workplace Communication, Professional Etiquette, Negotiation, and Conflict Resolution\n6. Mock Interview (HR, Technical, Behavioral, and Situational Interviews)\n7. Extempore Speech, Just A Minute (JAM), and Elevator Pitch\n8. Technical and AI-assisted Presentation with Ethical Use of AI\n9. Non-verbal Communication: Body Language (Kinesics), Eye Contact, Gestures, Proxemics, Facial Expressions, and Voice Modulation\n10. Listening and Phonetics: IPA Basics, Pronunciation, Stress, Intonation, Accent Neutralization, and Audio-Video Comprehension using language learning software\n11. Critical Thinking through Case Studies, Debate, Storytelling, and Collaborative Problem-solving\n12. Professional Digital Portfolio: Résumé, Cover Letter, Video Portfolio and Career Portfolio",
+    "2": "Part II: Computer-Assisted Language Learning\nStudents shall complete self-paced software-based language* learning modules aligned with CEFR (Target Level: B2) to enhance employability and workplace communication.\nSuggested Modules\n Grammar and Vocabulary\n Listening and Reading Comprehension\n Pronunciation, Phonetics, Stress, and Intonation\n Spoken English and Fluency\n Business Communication and Email Writing\n Interview Preparation and Presentation Skills\nSuggested Tools\n Praat : https://www.fon.hum.uva.nl/praat/\n BBC Learning English : https://www.bbc.co.uk/learningenglish\n Sounds of Speech : http://soundsofspeech.uiowa.edu/\n British Council Learn English : https://learnenglish.britishcouncil.org/\n Forvo : https://forvo.com/\n Mozilla Common Voice : https://commonvoice.mozilla.org/en\n British council: English score app ( Google play store)\n*Note: The institute may use any software that meets the suggested modules criteria, depending on its availability."
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Demonstrate effective Listening, Speaking, Reading and Writing (LSRW) skills for academic, professional and workplace communication.",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Apply appropriate verbal and non-verbal communication skills in presentations, group discussions, interviews and workplace interactions.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Use correct pronunciation, grammar, vocabulary and digital language learning tools to improve fluency and communication effectiveness.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Analyse professional communication situations and prepare effective reports, presentations and formal workplace documents using appropriate communication strategies.",
+     "kl": "K4"
+    },
+    {
+     "no": 5,
+     "text": "Demonstrate employability skills, teamwork, leadership, ethical communication and AI-assisted communication practices in professional environments.",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Self-Introduction, Video Introduction, and SWOT Analysis"
+    },
+    {
+     "no": 2,
+     "exp": "Professional Networking and Digital Professional Branding (LinkedIn, X, or Professional Blogs)"
+    },
+    {
+     "no": 3,
+     "exp": "Business Communication: Email, Notice, Agenda, Minutes of Meeting, and Technical Report Writing"
+    },
+    {
+     "no": 4,
+     "exp": "Group Discussion (Case-based, Panel Discussion, and Turn-taking Techniques)"
+    },
+    {
+     "no": 5,
+     "exp": "Role Play on Workplace Communication, Professional Etiquette, Negotiation, and Conflict Resolution"
+    },
+    {
+     "no": 6,
+     "exp": "Mock Interview (HR, Technical, Behavioral, and Situational Interviews)"
+    },
+    {
+     "no": 7,
+     "exp": "Extempore Speech, Just A Minute (JAM), and Elevator Pitch"
+    },
+    {
+     "no": 8,
+     "exp": "Technical and AI-assisted Presentation with Ethical Use of AI"
+    },
+    {
+     "no": 9,
+     "exp": "Non-verbal Communication: Body Language (Kinesics), Eye Contact, Gestures, Proxemics, Facial Expressions, and Voice Modulation"
+    },
+    {
+     "no": 10,
+     "exp": "Listening and Phonetics: IPA Basics, Pronunciation, Stress, Intonation, Accent Neutralization, and Audio-Video Comprehension using language learning software"
+    },
+    {
+     "no": 11,
+     "exp": "Critical Thinking through Case Studies, Debate, Storytelling, and Collaborative Problem-solving"
+    },
+    {
+     "no": 12,
+     "exp": "Professional Digital Portfolio: Résumé, Cover Letter, Video Portfolio and Career Portfolio"
+    }
+   ],
+   "objectives_print": [
+    "1. Develop proficiency in Listening, Speaking, Reading and Writing (LSRW) skills for academic, professional and workplace communication.",
+    "2. Build confidence in spoken English through interactive, collaborative and technology-enabled learning.",
+    "3. Strengthen pronunciation, fluency, vocabulary, grammar and presentation skills using digital language learning tools.",
+    "4. Develop professional communication skills required for interviews, group discussions, presentations, meetings and workplace interactions.",
+    "5. Enhance employability, critical thinking, leadership, teamwork and ethical communication through experiential learning and AI-assisted language practice"
+   ],
+   "prerequisites": "",
+   "quirks": [
+    "Total Credits printed as 'Non-Credit' (no numeric value)",
+    "Asterisk in 'language* learning modules' in Unit 2",
+    "Bullet character 'U+F0B7' used in Suggested Modules/Tools lists",
+    "Odd spacing in 'British council: English score app ( Google play store)'",
+    "CO-PO Articulation Matrix printed but not part of extraction schema",
+    "Evaluation Pattern uses weightages (50% PS, 50% PE) rather than standard marks breakdown"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Environment & Sustainability",
+   "name_print": "Environment & Sustainability",
+   "codes": [
+    "AAC101",
+    "AAC201"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 0,
+   "marks": null,
+   "subject_type": "Mandatory Non-Credit / Audit Course (AU)",
+   "units": {
+    "1": "Environment and Ecosystems: Environment — definition, components (atmosphere, hydrosphere, lithosphere, biosphere); ecosystem — structure and function; food chain, food web, energy flow (basic concept); biodiversity — meaning, importance, and threats; need for conservation. Awareness focus: local ecosystems and why they matter.",
+    "2": "Natural Resources and their Conservation: Renewable and non-renewable resources; water resources — scarcity and conservation; forest and land resources; energy resources (brief); over-exploitation of resources; the concept of the 3 R's — Reduce, Reuse, Recycle; rainwater harvesting (concept). Awareness focus: simple resource-saving practices in daily life.",
+    "3": "Environmental Pollution: Air pollution — causes, effects, control (basic); water pollution — sources, effects, prevention; soil pollution; noise pollution; solid waste management — segregation, composting, recycling; e-waste and plastic waste (awareness). Awareness focus: pollution in the student's own city/campus and how to reduce it.",
+    "4": "Climate Change and Sustainable Development: Global warming and greenhouse effect (simple explanation); climate change — causes and impacts; carbon footprint (concept + how to reduce); sustainable development — definition and need; UN Sustainable Development Goals (SDGs) — overview of the 17 goals; renewable energy — solar, wind, biomass (awareness level). Awareness focus: calculating and reducing one's own carbon footprint.",
+    "5": "Environmental Protection, Law and the Role of Engineers: Environmental protection measures; brief overview of environmental laws in India (Environment Protection Act, Water Act, Air Act — awareness only, no legal detail); role of individuals, society, and technology in environmental protection; green campus and green buildings (concept); role of engineers in sustainable design and clean technology; environmental ethics. Awareness focus: how each engineering branch can contribute to sustainability."
+   },
+   "lectures_per_unit": 6,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain the components of environment and ecosystems and the importance of biodiversity",
+     "kl": "K2"
+    },
+    {
+     "no": 2,
+     "text": "Describe natural resources and identify practical measures for their conservation",
+     "kl": "K2"
+    },
+    {
+     "no": 3,
+     "text": "Explain the causes and control of environmental pollution and waste",
+     "kl": "K2"
+    },
+    {
+     "no": 4,
+     "text": "Explain climate change, carbon footprint, and the UN Sustainable Development Goals",
+     "kl": "K2"
+    },
+    {
+     "no": 5,
+     "text": "Identify the role of engineers and individuals in environmental protection and sustainability",
+     "kl": "K2"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Textbook of Environmental Studies for Undergraduate Courses – Erach Bharucha (UGC recommended)"
+    },
+    {
+     "no": 2,
+     "book": "Environmental Studies – Anindita Basak (Pearson)"
+    },
+    {
+     "no": 3,
+     "book": "Environmental Science – Y.K. Singh"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "UN Sustainable Development Goals – sdgs.un.org (free, official)"
+    },
+    {
+     "no": 2,
+     "book": "NPTEL – Environmental Studies / Sustainability courses (free video lectures)"
+    },
+    {
+     "no": 3,
+     "book": "Ministry of Environment, Forest & Climate Change (MoEFCC), Govt. of India – moef.gov.in"
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Visit a nearby lake, river, park, or forest and prepare a short observation report"
+    },
+    {
+     "no": 2,
+     "exp": "Conduct a waste segregation / plastic-free drive on campus and document it"
+    },
+    {
+     "no": 3,
+     "exp": "Prepare a poster or short video on an environmental issue (water, air, plastic, climate)"
+    },
+    {
+     "no": 4,
+     "exp": "Calculate your household or personal carbon footprint and suggest ways to reduce it"
+    },
+    {
+     "no": 5,
+     "exp": "Plant and maintain a sapling; document its growth over the semester (Green initiative)"
+    },
+    {
+     "no": 6,
+     "exp": "Survey energy or water use in a hostel/department and suggest saving measures"
+    }
+   ],
+   "objectives_print": [
+    "To create awareness about the environment, natural resources, and ecological balance",
+    "To understand the causes, effects, and control of environmental pollution",
+    "To understand the concept of sustainable development and the UN Sustainable Development Goals (SDGs)",
+    "To understand climate change, renewable energy, and the engineer's role in sustainability",
+    "To encourage students to adopt simple sustainable practices and environmental responsibility"
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Document includes SOPs for other courses (Innovation & Design Thinking Lab, General Proficiency, Academic Activity Points) after this syllabus",
+    "Evaluation pattern uses percentages (30% sessional, 70% ESE) rather than absolute marks",
+    "Course is marked as Mandatory Non-Credit / Audit Course (AU) with 0 credits",
+    "Suggested Field / Awareness Activities are listed under experiments; any one activity to be completed",
+    "Course code printed as 'AAC101 / AAC201' indicating offering in both semesters",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name_print": "Programming Languages",
+   "codes": [
+    "ACS101"
+   ],
+   "semester": 1,
+   "ltp": {
+    "l": 2,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "ESC",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document",
+    "detail re-extraction returned scheme-row-only (print evidence)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Programming Languages"
+  },
+  {
+   "name_print": "Applied Physics Lab/ Applied Chemistry for Fibres, Polymers and Sustainable Textiles Lab",
+   "codes": [
+    "AAS151",
+    "AAS152"
+   ],
+   "semester": 1,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "BSC",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document",
+    "re-extracted from detail page p.59 (B37 verify repair)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Applied Physics Lab/ Applied Chemistry for Fibres, Polymers and Sustainable Textiles Lab",
+   "units": {
+    "1": "Unit I\nFibre Identification by Chemical Solubility Tests\nMoisture Regain and Moisture Content of Fibres\nBurning Test and Melting Behaviour of Fibres",
+    "2": "Unit II\nViscosity Average Molecular Weight of Polymer\nDegree of Polymerisation by Viscosity Method",
+    "3": "Unit III\nDyeing of Cotton with Direct Dye\nDyeing of Nylon with Acid Dye\nEffluent Analysis of Dye Bath",
+    "4": "Unit IV\nSoftener Finish – Effect on Fabric Handle\nWater Repellency Test on Finished Fabric",
+    "5": "Unit V\nNatural Dye Extraction and Dyeing\nEnzymatic Scouring of Cotton (Bio-scouring Demo)"
+   },
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Diffraction grating - To determine the wavelength of different spectral lines of mercury light using plane transmission grating."
+    },
+    {
+     "no": 2,
+     "exp": "He -Ne Laser - To determine the wavelength of He-Ne laser light using single slit diffraction."
+    },
+    {
+     "no": 3,
+     "exp": "Polarimeter - To determine the specific rotation of cane sugar solution using polarimeter."
+    },
+    {
+     "no": 4,
+     "exp": "Nodal Slide - To determine the focal length of the combination of two lenses separated by a distance and verify the formula for the focal length of combination of lenses."
+    },
+    {
+     "no": 5,
+     "exp": "Planck's constant - To determine Planck's constant using photoelectric effect."
+    },
+    {
+     "no": 6,
+     "exp": "Optical Fiber - To measure attenuation in an optical fiber."
+    },
+    {
+     "no": 7,
+     "exp": "Stefan’s Law - To verify Stefan’s law by electric method."
+    },
+    {
+     "no": 8,
+     "exp": "Energy Band Gap - To determine the energy band gap of a given semiconductor material."
+    },
+    {
+     "no": 9,
+     "exp": "Hall Effect - To study Hall effect and determine Hall coefficient, carrier density and mobility of a given semiconductor material using Hall effect setup."
+    },
+    {
+     "no": 10,
+     "exp": "Variation of Magnetic Field - To determine the variation of magnetic field with the distance along the axis of a current carrying coil and estimate the radius of the coil."
+    },
+    {
+     "no": 11,
+     "exp": "B-H Curve - To draw hysteresis curve (B-H curve) of a specimen in the form of a transformer and to determine its hysteresis loss."
+    },
+    {
+     "no": 12,
+     "exp": "Carey Foster's Bridge - To determine resistance per unit length and specific resistance of a given resistance using Carey Foster's Bridge."
+    },
+    {
+     "no": 13,
+     "exp": "Electrochemical Equivalent - To determine the electrochemical equivalent (ECE) of copper."
+    },
+    {
+     "no": 14,
+     "exp": "Coefficient of Viscosity - To determine the coefficient of viscosity of a given liquid."
+    },
+    {
+     "no": 15,
+     "exp": "Surface Tension - To measure surface tension of a liquid (e.g., water, ethanol, and surfactant solutions) at room temperature using capillary rise or stalagmometer."
+    },
+    {
+     "no": 16,
+     "exp": "Compound Pendulum - To determine the value of acceleration due to gravity (g) using compound pendulum."
+    },
+    {
+     "no": 17,
+     "exp": "Moment of Inertia - To determine the moment of inertia of a flywheel about its own axis of rotation."
+    },
+    {
+     "no": 18,
+     "exp": "Young’s Modulus - To determine the Young’s Modulus of a material by Searle's apparatus."
+    },
+    {
+     "no": 19,
+     "exp": "Franck-Hertz Experiment - To determine the first excitation potential of a gas (e.g. Argon) by Franck-Hertz experiment and verify discrete nature of atomic energy transitions."
+    },
+    {
+     "no": 20,
+     "exp": "Solar Cell - To study the characteristics of a solar cell."
+    },
+    {
+     "no": 21,
+     "exp": "Characteristics of Logic Gates - To study the switching characteristics of fundamental logic gates constructed using transistors (BJT/MOSFET), measure propagation delay and power dissipation."
+    },
+    {
+     "no": 22,
+     "exp": "Fibre Identification by Chemical Solubility Tests - Identify given natural and synthetic fibre samples (cotton, wool, silk, nylon, polyester, acrylic) using differential solubility in acids, alkalis, and solvents; record systematic observations"
+    },
+    {
+     "no": 23,
+     "exp": "Moisture Regain and Moisture Content of Fibres - Determine moisture regain and moisture content of cotton, wool, nylon, and polyester samples by oven-drying method; relate to hygroscopicity and comfort properties of fibres"
+    },
+    {
+     "no": 24,
+     "exp": "Viscosity Average Molecular Weight of Polymer - Measure viscosity of polymer solution (PVA or cellulose) at different concentrations using Ostwald viscometer; determine intrinsic viscosity [η]; compute viscosity-average molecular weight using Mark-Houwink equation"
+    },
+    {
+     "no": 25,
+     "exp": "Degree of Polymerisation by Viscosity Method - Determine degree of polymerisation (DP) of a cellulose or polymer sample from intrinsic viscosity; relate DP to fibre strength and processing behaviour"
+    },
+    {
+     "no": 26,
+     "exp": "Dyeing of Cotton with Direct Dye - Dye a cotton fabric sample with a direct dye at optimum temperature and salt concentration; measure dye exhaustion by UV-Vis spectrophotometry; calculate % exhaustion and colour strength (K/S value)"
+    },
+    {
+     "no": 27,
+     "exp": "Dyeing of Nylon with Acid Dye - Dye a nylon fabric with an acid dye under acidic conditions; control pH with acetic acid; measure exhaustion by UV-Vis; study effect of pH on dye uptake"
+    },
+    {
+     "no": 28,
+     "exp": "Effluent Analysis of Dye Bath - Analyse the exhausted dye bath effluent for BOD, COD, and colour; relate to environmental impact of textile wet processing; assess need for treatment"
+    },
+    {
+     "no": 29,
+     "exp": "Softener Finish – Effect on Fabric Handle"
+    }
+   ],
+   "cos": [
+    {
+     "no": 1,
+     "text": "Determine the wavelength of monochromatic light, polychromatic light and specific rotation optical instruments",
+     "kl": "K3"
+    },
+    {
+     "no": 2,
+     "text": "Determine Planck's constant using photoelectric effect, study of attenuation in optical fibre and verification of Stefan’s law.",
+     "kl": "K3"
+    },
+    {
+     "no": 3,
+     "text": "Determine the energy band gap and Hall coefficient of semiconductor materials.",
+     "kl": "K3"
+    },
+    {
+     "no": 4,
+     "text": "Investigate the electrical, magnetic and thermal properties of materials and to verify respective fundamental laws.",
+     "kl": "K3"
+    },
+    {
+     "no": 5,
+     "text": "Verify discrete nature of atomic energy transitions by Franck-Hertz experiment and study the switching characteristics of fundamental logic gates.",
+     "kl": "K3"
+    },
+    {
+     "no": 6,
+     "text": "Identify textile fibres by solubility and burning tests and determine moisture regain",
+     "kl": "K3"
+    },
+    {
+     "no": 7,
+     "text": "Determine viscosity-average molecular weight and degree of polymerisation of polymer samples",
+     "kl": "K3"
+    },
+    {
+     "no": 8,
+     "text": "Perform dyeing experiments and evaluate dye exhaustion and effluent quality",
+     "kl": "K3"
+    },
+    {
+     "no": 9,
+     "text": "Apply softener and water-repellent finishes and evaluate fabric property changes",
+     "kl": "K3"
+    },
+    {
+     "no": 10,
+     "text": "Extract and apply natural dyes and demonstrate enzyme-based green textile processing",
+     "kl": "K3"
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Practical Physics- K. K. Dey & B. N. Dutta (Kalyani Publishers New Delhi"
+    },
+    {
+     "no": 2,
+     "book": "Engineering Physics Practical- S K Gupta (Krishna Prakashan Meerut)"
+    },
+    {
+     "no": 3,
+     "book": "Engineering Physics: Theory and Practical- Katiyar and Pandey (Wiley India)"
+    },
+    {
+     "no": 4,
+     "book": "Engineering Physics Theory and Experiments-Srivastava and Yadav (New Age International)"
+    },
+    {
+     "no": 5,
+     "book": "Engineering Chemistry – Jain and Jain"
+    },
+    {
+     "no": 6,
+     "book": "Textile Chemistry – Thomas Bechtold and Tung Pham"
+    },
+    {
+     "no": 7,
+     "book": "Dyes and Pigments – R. Christie"
+    }
+   ]
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [],
+ "flags": []
+}

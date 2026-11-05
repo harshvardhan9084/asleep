@@ -1,18 +1,22 @@
 {
- "pdf_rel": "",
- "session": "",
+ "pdf_rel": "repo_asleep/PDFs/5-course/2020-21/btech_y3s5-6_non-credit-courses_2020-21.pdf",
+ "session": "2020-21",
  "course": "BTech",
  "sha16": "07fa7e059354ecac",
  "stem": "01_btech_s5-6_non-credit-courses_2020-21",
  "subjects": [
   {
-   "name": "",
-   "name_print": "",
+   "name": "CONSTITUTION OF INDIA, LAW AND ENGINEERING",
+   "name_print": "CONSTITUTION OF INDIA, LAW AND ENGINEERING",
    "codes": [
     "KNC501KNC601"
    ],
-   "quirks": [],
-   "flags": []
+   "quirks": [
+    "name from the printed non-credit course list cell (KNC501/KNC601 paired print)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ]
   },
   {
    "name": "INDIAN TRADITION, CULTURE AND SOCIETY",
@@ -119,7 +123,8 @@
  ],
  "non_subject_rows": [],
  "quirks": [
-  "doc_title_print: Non Credit Course 2020-21 AICTE Model Curriculum K series (V & VI Semester)\nPage 1\n\nDR. A.P.J. ABDUL KALAM TECHNICAL\nUNIVERSITY, LUCKNOW"
+  "doc_title_print: Non Credit Course 2020-21 AICTE Model Curriculum K series (V & VI Semester)\nPage 1\n\nDR. A.P.J. ABDUL KALAM TECHNICAL\nUNIVERSITY, LUCKNOW",
+  "durable in-flight draft (parallel instance @0a3b85b) adopted by CRON-20261106-B37; pdf_rel/session/course repaired from restored queue (sha16 match)"
  ],
  "flags": []
 }

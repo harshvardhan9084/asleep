@@ -1,0 +1,1036 @@
+{
+ "pdf_rel": "",
+ "session": "",
+ "course": "BTech",
+ "sha16": "93bce2667fcfd75b",
+ "stem": "10_btech_textile-tech_syllabus_2018-19",
+ "subjects": [
+  {
+   "name": "Textile Testing-I",
+   "name_print": "Textile Testing-I",
+   "codes": [],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Introduction of textile testing (1), sampling, random sampling, biased sampling (1), sampling techniques, square, cut square, zoning technique (1), selection of sample for testing, grading of cotton fibre with respect to staple length (1), laboratory measurement of fibre length, span length, Baer sorter (1), Shirley photo electric staple, servo fibro graph (1), salient features of HVI (1).",
+    "2": "Atmospheric conditions for testing, absolute & relative humidity, moisture regain & moisture contest (1), importance of moisture in textiles, measurement of moisture regain & content (1), effect of moisture on properties (physical & mechanical) of textile material, factors affecting the regain (2), correct numerical weight, oven dry weight (1), shrilly moisture meter (1).",
+    "3": "Dry and wet bulb hygrometer, sling assmann, hair hygrometers (2), control of testing room atmosphere (1), AFIS (1), Napping potential (1), Nep count (1), rating of neps, maturity coefficient measurement by NaOH method, fibre fineness by airflow meter & Sheffield micronaire (2).",
+    "4": "Fibre bundle strength by Pressley, stelometer (2), fibre quality index, linear density of man made fibres and strength (1), spin finish, crimp analysis (1), Trash, Shirly trash analyzer (1). Yarn numbering system (1), wrapping test for lap, sliver, roving (1),",
+    "5": "determination of yarn count, diameter (1), average & resultant count of folded yarn, relation between Ne, D, T, Nm (1). Instruments used for determination of count, quadrant balance, Knowles balance, beeslay balance and physical balance (2), Twist, classification of twist, twist measurement, direct counting method, continuous twist tester, twist-untwist method, (2), Twist tester, (2), R.B. twist tester, level of twist (1)."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Quality control and testing management by Dr. V.K. Kothari"
+    },
+    {
+     "no": 2,
+     "book": "Principle of textile testing by J.E. Booth"
+    },
+    {
+     "no": 3,
+     "book": "Physical testing of textiles by B.P. Savile."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Code RTT501 not printed in text layer",
+    "Subject listed as item 3 in list",
+    "Unit texts include lecture counts in parentheses",
+    "Stray line 'Grand total of lectures required = 36' after unit 5",
+    "Reference books section has dash after 'Reference Books: -'",
+    "Typo 'moisture contest' in unit 2"
+   ],
+   "flags": [
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Yarn Manufacture-III",
+   "name_print": "Yarn Manufacture-III",
+   "codes": [
+    "RTT502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Unit (1): Objects of Ring Frame, drafting, twisting & winding on ring frame, Traveller \ntwisting, yarn twist by traveler, propagation of twist, spinning triangle \n"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Unit 1 text is truncated in the PDF text layer; the line ends with 'spinning triangle' without further content."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Fabric manufacture-III",
+   "name_print": "Fabric manufacture-III",
+   "codes": [
+    "RTT503"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Jacquards shedding, types of jacquards and their principle of working , cross\nborder jacquards (2). Single lift single cylinder Jacquard, Double lift single cylinder,\nDouble lift double cylinder",
+    "2": "Different system of harness tie-up, terry mechanism, Recent developments in\njacquard weaving, split harness",
+    "3": "Automatic loom: pirn change, shuttle change loom, detailed study of various\nmotions of automatic looms, mechanical warp stop motions, electro-mechanical warp\nstop motion",
+    "4": "Multiple box motion, their types, two colours and four-colour drop box motion,\nbrief description of pick-at will, pick and pick motion. On line process and quality\ncontrol, estimation of productivity, snap study.",
+    "5": "Harness mounting London and Norwich system, Card cutting, limitations of\njacquards, Electronic jacquard."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Weaving mechanism by Fox."
+    },
+    {
+     "no": 2,
+     "book": "Weaving mechanism by N.N. Bannergy."
+    },
+    {
+     "no": 3,
+     "book": "Weaving Calculation by R. Sengupta."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Unit headings use inconsistent formatting: 'Unit (1):', 'Unit 2:', 'Unit 3:', 'Unit (4):', 'Unit (5):'",
+    "Total Lectures Required = 08 has leading zero",
+    "Header line includes '5.' prefix",
+    "Reference Books line ends with a dash",
+    "The text includes 'Total Lecturers Required' in a preceding section (different subject) but not here",
+    "unit 1 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 2 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "Textile Testing-II",
+   "name_print": "Textile Testing-II",
+   "codes": [
+    "RTT601"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Tensile properties of yarn and fabric, stress-strain curve, various methods \nfor finding of yield point, methods for finding of various modulus, destination of \ntenacity, and stiffness of fabric. Total Lectures Required = 7",
+    "2": "Procedure of determination of strength and elongation in the spun yarns, \nknowledge about the equipment used,  yarn tensile strength testing machines, single \nyarn strength tester, lea strength tester,  fabric strength tester- impact tester, Grab test, \nfabric B.S. Test, Scott serigraph, Instron tensile tester. Total Lectures Required = 9",
+    "3": "Measurement of evenness testing of yarns, nature and causes of irregularities, \nprinciples and methods of evenness testing, evaluation and interpretation of evenness diagram \n& spectrogram and their associated equipment, Classimat faults. Total Lectures required =9",
+    "4": "Measurement of physical properties of fabric and the knowledge of the equipment \nused, tensile strength, bursting strength, tearing strength, pilling, air permeability, crimp, \nthickness, EPI, PPI, weight and cover factor.  \nTotal Lectures required =10",
+    "5": "Measurement of water repellency, shrinkage, measurement of fastness to light and \nrubbing, thermal transmission, Brief introduction to FAST and KAWABATA. Total \nLectures required =7"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Physical testing of textiles by B.P. Saville."
+    },
+    {
+     "no": 2,
+     "book": "Quality control and testing management by Dr. V.K. Kothari."
+    },
+    {
+     "no": 3,
+     "book": "Principles of textile testing by J.E. Booth."
+    },
+    {
+     "no": 4,
+     "book": "Quality control by V.K. Kothari"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Code RTT601 not printed in syllabus text; taken from request",
+    "Unit lecture counts vary (7,9,9,10,7); lectures_per_unit set to null",
+    "'destination of tenacity' likely a typo for 'determination' but kept verbatim",
+    "Textbooks and reference books listed together under 'Text Books & Reference Books:' without separation"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Structure & properties of Fibres",
+   "name_print": "Structure & properties of Fibres",
+   "codes": [
+    "RTT554",
+    "NTT-011"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "departmental-elective-1",
+   "units": {
+    "1": "Basic structural features of fibre, Structure of Cotton, wool, silk, and other \ntextile fibres, relation between fibre structure and fibre,  Methods of estimating molecular \nweight, orientation, crystallinity & crystalline orientation of fibre forming polymer, \nOverall orientation by “sonic modulus tester,",
+    "2": "Concept of scanning electron microscope (SEM), Concept of transmission \nelectron microscope (TEM) Fourier Transform Infrared Spectroscopy (FTIR), Atomic \nforce microscopy, fibre fracture.",
+    "3": "Thermal behavior of textile fibres by Differential Scanning Calorimeter (DSC) \n(2), TGA, thermal mechanical analysis (TGA) (2), Thermomechanical Analyser (TMA) \nDensity gradient column (2), Preparation of density gradient coloumn (2) Crystallinity by \ndensity gradient coloumn.",
+    "4": "Optical properties of fibres (2), Birefringence behavior, dielectric properties, \nfibre friction, fibre friction measurement, fibre to fibre, yarn to yarn friction measurement",
+    "5": "Creep behavior (2), concept of moisture absorption by fibres (2), (2). Moisture \nabsorption, heat of absorption, differential heat of absorption, integral heat of absorption, \nQuantitative theory of heat moisture absorption, Rate of moisture absorption"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Manufactured fibre technology by V.B. Gupta, V.K. Kothari"
+    },
+    {
+     "no": 2,
+     "book": "Physical properties of fibre by J.W.S. Hearle"
+    },
+    {
+     "no": 3,
+     "book": "Thermal behavior of material by Turi"
+    },
+    {
+     "no": 4,
+     "book": "Modern yarn production by Ray"
+    },
+    {
+     "no": 5,
+     "book": "Textile fibres by ATIRA"
+    },
+    {
+     "no": 6,
+     "book": "ASTM Standard books"
+    },
+    {
+     "no": 7,
+     "book": "Polymers by fibre & textiles encyclopedia"
+    },
+    {
+     "no": 8,
+     "book": "Advances in fibre source by S.K. Mukhopadhyaya"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Printed code is NTT-011, but requested code is RTT554",
+    "Misspelling 'coloumn' instead of 'column' (twice in Unit 3)",
+    "Unusual opening quote before 'sonic modulus tester' in Unit 1",
+    "Stray '(2)' in Unit 5: 'concept of moisture absorption by fibres (2), (2)'",
+    "'thermal mechanical analysis (TGA)' — possibly should be thermogravimetric analysis",
+    "unit 2 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "Fabric Structure & Analysis",
+   "name_print": "Fabric Structure & Analysis",
+   "codes": [
+    "RTT654"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Classification of various fabrics, construction of plain weave and its derivatives (rib and mat weave), ordinary twill, right hand twill, warp faced, weft faced & balanced twills,   Total Lectures required = 8",
+    "2": "Satin regular, irregular and their extension. Combined twills, end to end and pick-to-pick combination, elongated twills, steep twills, broken twill, curved twill, Fancy twills-large diagonal shaded twills, Wave/ zig-zag, herringbone twill.   Total Lectures Required = 8",
+    "3": "Regular and irregular satin, sateen base diagonals and brained twills, Diamond, mock leno, ordinary honeycomb, brighten honeycomb , Huck-a-back and crepe weave. Total Lectures Required = 9",
+    "4": "derivatives of hopsack, barley corn stitched hopsack and twilled hopsack, Ripstop weave, Simple and wadded bed ford cords (1), weft and piques (1), principle of figuring with extra material extra warp figuring,  extra weft, limitation of extra thread.  Total Lectures Required = 9"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "W. Watson Textile Design & colour Longmans Greens Co. London."
+    },
+    {
+     "no": 2,
+     "book": "Z.J Grosicki Watson’s Textile design and colour Newnes Buter Worth, London."
+    },
+    {
+     "no": 3,
+     "book": "Z.J. Grosicki, Advance Textile Design Newnes Butter Worth, London."
+    },
+    {
+     "no": 4,
+     "book": "“Nishant” A Grammar of textile."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Subject appears under '6. Departmental Elective-2' with prefix 'a)'.",
+    "Code RTT654 not printed in the detailed syllabus text.",
+    "Unit 3 has 'brighten honeycomb ,' with space before comma.",
+    "Unit 4 has 'bed ford cords' (possibly intended 'bedford cords').",
+    "Unit 4 has 'brained twills' (possibly intended 'braided twills').",
+    "Lecture counts vary per unit: 8,8,9,9.",
+    "After unit 4, 'Grand Total Lectures Required = 34' is printed separately.",
+    "Reference book section is titled 'Reference Book: -'.",
+    "Laboratory work is only 'As per the lab Syllabus'."
+   ],
+   "flags": []
+  },
+  {
+   "sessional_ct": "..",
+   "sessional_ta": "..",
+   "sessional_total": "..",
+   "ese_te_pe": "..",
+   "total": "..",
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Managerial Economics",
+   "codes": [
+    "RAS501"
+   ],
+   "quirks": [
+    "name filled from printed scheme cell (deterministic pairing)"
+   ],
+   "name_print": "Managerial Economics"
+  },
+  {
+   "name_print": "Sociology/ Cyber Security",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Sociology/ Cyber Security",
+   "codes": [
+    "RAS502"
+   ]
+  },
+  {
+   "name_print": "Structure & Properties of Fibres/ Textile Design & Colour",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Structure & Properties of Fibres/ Textile Design & Colour",
+   "codes": [
+    "RTT051"
+   ]
+  },
+  {
+   "name_print": "Structure & Properties of Fibres/ Textile Design & Colour",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Structure & Properties of Fibres/ Textile Design & Colour",
+   "codes": [
+    "RTT052"
+   ]
+  },
+  {
+   "name_print": "Textile Testing-I Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Textile Testing-I Lab",
+   "codes": [
+    "RTT551"
+   ]
+  },
+  {
+   "name_print": "Yarn Manufacture-III Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Yarn Manufacture-III Lab",
+   "codes": [
+    "RTT552"
+   ]
+  },
+  {
+   "name_print": "Fabric Manufacture-III Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Fabric Manufacture-III Lab",
+   "codes": [
+    "RTT553"
+   ]
+  },
+  {
+   "name_print": "INDUSTRIAL MANAGEMENT",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "INDUSTRIAL MANAGEMENT",
+   "codes": [
+    "RAS601"
+   ]
+  },
+  {
+   "name_print": "CYBER SECURITY/ SOCIOLOGY",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "CYBER SECURITY/ SOCIOLOGY",
+   "codes": [
+    "RUC601"
+   ]
+  },
+  {
+   "name_print": "CYBER SECURITY/ SOCIOLOGY",
+   "quirks": [
+    "scheme-row extraction empty",
+    "paired scheme cell print (two subjects in one cell; both own registry rows) - program-structure slot print"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "alternative_pair_row"
+   ],
+   "name": "CYBER SECURITY/ SOCIOLOGY",
+   "codes": [
+    "RAS602"
+   ]
+  },
+  {
+   "name_print": "Advanced Spinning Technology",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Advanced Spinning Technology",
+   "codes": [
+    "RTT602"
+   ]
+  },
+  {
+   "name_print": "Advanced Weaving Technology",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Advanced Weaving Technology",
+   "codes": [
+    "RTT603"
+   ]
+  },
+  {
+   "name_print": "Fabric Structure & Analysis/ Multi & Long Fibre Spinning / Textured yarn Technology",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Fabric Structure & Analysis/ Multi & Long Fibre Spinning / Textured yarn Technology",
+   "codes": [
+    "RTT061"
+   ]
+  },
+  {
+   "name_print": "Fabric Structure & Analysis/ Multi & Long Fibre Spinning / Textured yarn Technology",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Fabric Structure & Analysis/ Multi & Long Fibre Spinning / Textured yarn Technology",
+   "codes": [
+    "RTT062"
+   ]
+  },
+  {
+   "name_print": "Fabric Structure & Analysis/ Multi & Long Fibre Spinning Textured yarn",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Fabric Structure & Analysis/ Multi & Long Fibre Spinning Textured yarn",
+   "codes": [
+    "RTT063"
+   ]
+  },
+  {
+   "name_print": "Textile Testing Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Textile Testing Lab",
+   "codes": [
+    "RTT651"
+   ]
+  },
+  {
+   "name_print": "Advanced Spinning Technology Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Advanced Spinning Technology Lab",
+   "codes": [
+    "RTT652"
+   ]
+  },
+  {
+   "name_print": "Advanced Weaving Technology Lab",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Advanced Weaving Technology Lab",
+   "codes": [
+    "RTT653"
+   ]
+  },
+  {
+   "name": "Knitting Technology",
+   "name_print": "Knitting Technology",
+   "codes": [],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Difference between knits and wovens, knitting terms and definitions (Course,, wale, \nstitch density) different type of knitting needles: bearded needle, latch needle, sinker, jack, \ncam arrangement,  overlap, under lap, closed lap, open lap. Total Lectures required =8",
+    "2": "Comparison of warp and weft knitting,  Classification of weft knitting machine, \nelements of knitting machine like type of needles, sinkers, etc Needle numbering system, \ntechnology of loop formation, geometry of loop structure, Elements of loop structure: needle \nloop, sinker loop,  relation between yarn count, machine gauge and stitch density. Total \nLectures required =9",
+    "3": "Classification of knit-structures, loop formation on: single jersey, Rib machines and \ninters look machines, socks knitting technology, Loop formation on flat bed machine  \nTotal Lectures required =9",
+    "4": "Four primary base knitting structures: Plain knitted fabric, Rib fabric, Interlock and \nPurl fabric, Special knitting machines: Fabric machine, garment length machine, flat \nmachine, circular machine fabrics and Spacer fabrics.  Total Lectures required =7",
+    "5": "Basic warp knitting machines, classification of warp knitting, Modern developments \nin weft knitting technique, calculations regarding production, gsm, stitch density etc, Causes \nand remedies of faults of knitted fabrics.  Total Lectures required =9"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Knitting Technology – Chamberlin"
+    },
+    {
+     "no": 2,
+     "book": "Knitting Technology – W.J. Spencer"
+    },
+    {
+     "no": 3,
+     "book": "International Textile Journel – Knitting"
+    },
+    {
+     "no": 4,
+     "book": "Knitting Calculation – Chamberlin"
+    },
+    {
+     "no": 5,
+     "book": "Wet Knitting Vol. 1&2 –Published by IIT New Delhi."
+    },
+    {
+     "no": 6,
+     "book": "Knitting – NCUTE"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit 1 contains 'Course,,' with double comma (printed typo)",
+    "'inters look machines' in Unit 3 (possibly intended 'interlock machines')",
+    "'Wet Knitting' in textbook 5 (possibly intended 'Weft Knitting')",
+    "'Journel' in textbook 3 (typo for 'Journal')",
+    "Heading reads 'Reference and Text Book-' with trailing hyphen",
+    "'Laboratory work: As per Lab Syllabus' — no specific experiments enumerated",
+    "no individual course code printed for this subject in this document (elective detail section)"
+   ],
+   "flags": [
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Colour & Design",
+   "name_print": "Colour & Design",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Light and colour phenomena, physical basis of colour, Emission & absorption\ntheory of light, Colour vision and light theory of colours, Complementary colours,\nChromatic circle, Pigment theory of colours, Brewster circle, Attributes of the primary &\nsecondary colours,",
+    "2": "Colour measurement, Primary, Secondary, Tertiary & compound colours,\nBiren’s triangle, Modification of colours, Coloured greys, Colours in combination,\nColour contrast, contrast in hue, contrast of tone, colour harmony, Relative spaces\noccupied by colours, divisional colours, Application of colours, Mixed colour effect,.",
+    "3": "Composition of designs, Condition to be observed during ornamentation of\nfabrics, Mode shade, Harmony of succession, gradation of hue, Different stages of\ncolouring of textile materials, Colour and weave effect and its classification. Bases of\nTextile design, One third and one fourth drop design, Half drop and drop reverse design,",
+    "4": "Unit repeating design, Geometric ornamentation, Construction of symmetrical\ndesigns, Stripe and check effect designs, Sari border / vertical border design, Factor\naffecting the woven designs, reversing inclined figure, Diamond, Ogee, & diagonal\nwaved line base, applications of colours.",
+    "5": "Art sheet based question covering all above units"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "W. Watson- Textile design and colour"
+    },
+    {
+     "no": 2,
+     "book": "Traditional Textile designs B K Behera"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Subject line includes 'a)' prefix before name.",
+    "Unit 2 ends with 'Mixed colour effect,. ' (comma then period).",
+    "Unit 5 has no lecture count specified.",
+    "Total lectures are given separately after each unit.",
+    "Reference books are listed with numbers.",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "no individual course code printed for this subject in this document (elective detail section)"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Garment Technology",
+   "name_print": "Garment Technology",
+   "codes": [],
+   "semester": 7,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to garment manufacturing technology, Sample cutting, Fusing, \nSewing, Pressing, Finishing and inspection, Line balancing concept. Total Lectures \nrequired =8",
+    "2": "Introduction to measurement of fabric dimensional properties, fabric comfort, \nthermal comfort, objective evaluation of fabric, low stress fabric properties, Kawabata \nsystem, fabric assurance by sample testing, fabric defects, Fabtic inspection and feedback to \nback process. \nTotal Lectures required =9",
+    "3": "Introduction to garment cutting, Marker planning, Efficiency of Marker planning, \nmethods of marker planning and marker use, spreading of the fabric, to form a lay, spreading \nrequirements, methods of spreading, fabric packages, objective of cuttings, methods of \ncuttings \nTotal Lectures required =9",
+    "4": "Introduction to seam, stitch, stitch classification, stitch structure, seam formation, \njoining material, surface characteristics, seam appearance, damages (thermal and \nmechanical), seam performance, seam degradation, seam failure, seam puckering and seam \ntesting. Sewing needle and sewing thread, thread consuption \nTotal Lectures required = 9",
+    "5": "Introduction of spreading machines and cutting machines- types and functions, \nHistory of sewing machines. Sewing machinery- classification according to bed types, stitch \ntypes (hook or looper) material wise (extra light to heavy weight). Major parts of sewing \nmachinery and functions. Parts, functions and adjustments of Over Lock: Collar turning \nmachines, folding machinery fusing and pressing machinery, Computer controlled cutting, \nsewing, folding machinery. \nTotal Lecture Required: 8"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Introduction to Garment Manufacturing Technology By T Ramchandran"
+    },
+    {
+     "no": 2,
+     "book": "Garment Manufacturing Technology by By T Ramchandran"
+    },
+    {
+     "no": 3,
+     "book": "Practical Clothing Construction Part I & II by Mary Methews"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Typo 'Fabtic' in Unit 2 (should be 'Fabric').",
+    "Typo 'thread consuption' in Unit 4 (should be 'consumption').",
+    "Textbook 2 has double 'by': 'by By T Ramchandran'.",
+    "Inconsistent unit numbering: 'Unit (1):', 'Unit (2):', 'Unit (3)', 'Unit (4):', 'Unit 5:'.",
+    "Inconsistent total lecture wording: 'Total Lectures required =8' vs 'Total Lecture Required: 8'.",
+    "'Over Lock' capitalized in Unit 5.",
+    "'Grand total of lectures required = 42' appears after Unit 5, not part of any unit.",
+    "'Laboratory work: NA' indicates no lab experiments.",
+    "no individual course code printed for this subject in this document (elective detail section)"
+   ],
+   "flags": [
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Functional Textiles",
+   "name_print": "Functional Textiles",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Definition of functional clothing, Classification of functional clothing, Functional\nfinishes, ways to apply functional finishes on textile surfaces, Functional clothing market\nreview",
+    "2": "Functional Protective clothing: Nuclear biological Chemical protective clothing, \nextreme cold clothing; design, mechanism and applications, Fire retardant clothing, \napproaches to achieve fire retardancy in clothing, mechanism of fire retardancy, Soft and \nhard body armour ,  super thickening fluids (non-nutonean)  for body armour, water proof \nbeathable fabrics, ways to achieve waterproofness and breathability in textiles",
+    "3": "Medical functional clothing: therapeutic and rehabilitative clothing, biosensing \nclothing, wound healing promoting dressings, antimicrobial sutures",
+    "4": "Sportswear clothing: moisture management in sportswear, compression textiles, \nAerodynamics, Spacesuit design and development, woven and knitted sportswear,"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "List marker 'b)' precedes subject name",
+    "Typo 'non-nutonean' for non-Newtonian",
+    "Typo 'beathable' for breathable",
+    "Trailing comma in Unit 4",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "no individual course code printed for this subject in this document (elective detail section)"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Theory of Textile Structure",
+   "name_print": "Theory of Textile Structure",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "Classification of yarns, Yarn geometry- idealized yarn geometry, relationship of \nyarn number and twist factor, packing of fibres in a yarn, ideal packing, hexagonal close \npacking and radial packing, packing factor and its measurement, yarn diameter, method of \nmeasurement of twist contraction. Total Lectures required =10",
+    "2": "Fibre migration: mean fibre position, amplitude of migration and frequency of \nmigration, mechanism of migration, spinning-in coefficient and fibre extent. estimation of \nstrength of blended yarn  Total Lectures required =6",
+    "3": "Mechanism of staple fibre yarns, translation of fibre properties into yarn properties, \ntwist and strength relationship, limit of twist, spinability of textile fibres, relation with end-\nbreakage rate. Total Lectures required =9",
+    "4": "Elements of fabric geometry, cloth setting theories, flexible and rigid thread model, \nPierce’s equation and later modifications.  \nTotal Lectures required =7",
+    "5": "Relation of fabric properties to simple geometry, crimp interchange in woven \nfabric, crimp balance equation, Fabric cover, cover factor and their significance, relation \nbetween cover and weight per unit area of fabric, Theoretical treatment of fabric deformation \nin tension \nTotal Lectures required =10"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Textile Yarn- B.C. Goswami, J.G. Martindale, F.L. Scardine"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit numbering inconsistent: 'Unit (1)', 'Unit (2)', 'Unit 3', 'Unit (4)', 'Unit (5)'",
+    "Textbook entry has '1.' on its own line before the book title",
+    "'estimation' starts with lowercase after a period in Unit 2 (printed typo)",
+    "No course code printed for this subject",
+    "Subject labeled as 'a)' under '5. Departmental Elective 4'",
+    "Heading reads 'Text Books and Reference material:' but only one book is listed",
+    "no individual course code printed for this subject in this document (elective detail section)"
+   ],
+   "flags": [
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Technical Textiles",
+   "name_print": "Technical Textiles",
+   "codes": [],
+   "semester": 8,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "departmental-elective-5",
+   "units": {
+    "1": "Introduction to technical textile, types of technical textiles, textiles used in \nindustry such as filtration, filter fabric construction- woven, needle felt & knitted filter \nfabric, finishing treatment of filter fabric, thermal and chemical properties of filter fabric, \nessential requirements of good filter fabric. Application of nano technology and nano \nmaterials for the improved filtration. \nTotal Lectures required =8",
+    "2": "Manufacture and properties of protective textiles- water proof/coated and water \nrepellent, antimicrobial, flame retardant, chemical resistance, Nuclear and biological \nresistance, mechanical resistance such as bullet proof, cut prof, stab proof  \nTotal Lectures required =9",
+    "3": "Medical textiles, fibres used, classification of medical textiles- non-implantable \nmaterial wound dressings, bandages, plasters, etc, Extra-corporal devices – Artificial \nkidney, liver lung, implantable material- suture, soft tissue implant, Orthopedic implants, \nCardiovascular implants, Healthcare/ hygiene products, medical cost, surgical gown, face \nmast etc.  \nTotal Lectures required =8",
+    "4": "Smart textiles, brief introduction of smart textiles, classification of smart \ntextiles, passive smart textiles, active smart textiles, brief discussion of smart shirt, smart \nsuit, musical jacket, space suit etc. automotive textiles: type cord, seat belt, air bag, seat \nupholstery, carpets, headliners, helmets etc, Agro textile: Shade net, green house film, \nMulch net, crop cover, anti hail and bird protection net, finishing net etc.  \nTotal Lectures required =9",
+    "5": "Introduction of geo textile, classification of geo textiles, functions of geo \ntextile-soil reinforcement, drainage (fluid transmission), filtration, separation, erosion \ncontrol/ absorption, objective of geo textiles, manufacturing of geo textile, essential \nproperties of geo textiles- Mechanical determinants, Hydraulic determinants, durability \ndeterminants \nTotal Lectures required =8"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Hand book of technical textiles- A.R. Horrocks & S.C. Anand"
+    },
+    {
+     "no": 2,
+     "book": "Smart fibre, fabrics and clothing Tao X"
+    },
+    {
+     "no": 3,
+     "book": "Shears handbook of industrial Textiles."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Text Books and Reference material: list is combined; no separate reference books section.",
+    "Typo in Unit 2: 'cut prof' likely 'cut proof'.",
+    "Typo in Unit 3: 'face mast' likely 'face mask'.",
+    "Typo in Unit 3: 'Extra-corporal' likely 'Extracorporeal'.",
+    "Typo in Unit 4: 'upholstery' likely 'upholstery' (spelling).",
+    "Unit numbering uses parentheses: Unit (1), etc.",
+    "no individual course code printed for this subject in this document (elective detail section)"
+   ],
+   "flags": [
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "name": "Clothing Science",
+   "name_print": "Clothing Science",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Definition of clothing comfort: importance of studying clothing comfort, various \ncomponents and definition of clothing science, Brief introduction to the various processes related to \ncomfort aspect: psychological, neurophysiological, physiological and physical, Psychology and \nComfort: Psychological scaling, scales of measurement, wear trial technique, Aesthetic Comfort: \nGeneral aspects, measurement of aesthetic properties, changes in aesthetic behavior",
+    "2": "Neurophysiological basis of sensory perceptions: Perceptions of skin sensations related to \nmechanical stimuli: Dynamics of wear sensation, touch and pressure, prickle, itch and inflammation, \nroughness and scratchiness, Perceptions of sensations related to thermal and moisture stimuli: Fabric \nmechanical properties and tactile- pressure sensations:Fabric prickliness, fabric itchiness, fabric \nstiffness, fabric softness, fabric smoothness, roughness and scratchiness, fabric hand",
+    "3": "Thermal Conductivity of Fibrous Materials: Various parameters and related factors that \naffect the thermal conduction through fibrous materials like fibrebatts, nonwoven fabrics, pile fabrics, \nwoven and knitted fabrics, thickness, cover factor, fibre type, yarn structure, fibre morphology and \nshape, effect of fabric layers etc. Transient heat transfer mechanism (the warm-cool feeling): \nKawabata’s theoretical proposition of thermal diffusivity as an objective parameter for evaluation of \nwarm-cool feeling, Hess’s proposition of thermal absorbtivity as a more suitable parameter for the \nsame purpose, Kawabata’s instrument, Alambeta",
+    "4": "Liquid Moisture Transfer through Fibrous Materials (Wicking and Water absorption):Theory \nof surface tension, theory of capillary action, wetting and wicking, interaction between liquid and \nfibrous materials, liquid spreading dynamics on a solid surface, Rayleigh instability, Lucas-Washburn \ntheory, various theories and models on vertical and horizontal wicking through yarns, nonwoven \nfabrics and woven fabrics, absorption of water by a fibrous mass, objective measurement of wicking \nand absorption: angle of contact, droplet absorption test, vertical wicking, horizontal or transverse \nwicking tests",
+    "5": "Transfer of moisture vapour through Fibrous Materials: Diffusion of vapour through a \nporous medium, various modeling approaches, moisture vapour permeability of fabrics, influence of \nvarious fabric parameters such as thickness, cover factor, etc. on the moisture vapour permeability, \nmeasurement of moisture vapour permeability, International standards."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Science in Clothing Comfort Apurba Das, R. Alagirusamy, Woodhead Publishing India Pvt Limited, 2010 - Technology & Engineering - 175 pages"
+    },
+    {
+     "no": 2,
+     "book": "Improving Comfort in Clothing edited by Guowen Song Woodhead Publications"
+    },
+    {
+     "no": 3,
+     "book": "Textiles for Cold Weather Apparel, J. Williams Woodhead Publications"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Unit 2 uses semicolon instead of colon in heading",
+    "Typo 'fibrebatts' (likely 'fibre bats')",
+    "Typo 'absorbtivity' (likely 'absorptivity')",
+    "Inconsistent punctuation in unit headings (colon vs semicolon)",
+    "The subject appears under a list item 'b)'",
+    "no individual course code printed for this subject in this document (elective detail section)"
+   ],
+   "flags": [
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  },
+  {
+   "scheme_row_only": true,
+   "name_print": "Air conditioning and Refrigeration system",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "quirks": [
+    "scheme table row only; detailed syllabus not printed in this document",
+    "scheme table row only (p.25): detailed syllabus not printed in this document (recorded B23/B25/B27 zero-GAP class — flagged subject candidate for the ladder)",
+    "detail section present (p.25) but subject prints no individual course code in this document (elective/DE slot family)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ],
+   "units": {},
+   "name": "Air conditioning and Refrigeration system"
+  },
+  {
+   "name": "TEXTILE MARKETING AND MERCHANDISING",
+   "name_print": "TEXTILE MARKETING AND MERCHANDISING",
+   "codes": [],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": "departmental-elective-6",
+   "units": {
+    "1": "Introduction to Textile Marketing function; genesis, the marketing concept. \nMarketing Management System: objectives, its interfaces with other functions in the \norganisation. Environment of Textile Marketing, Political and Economic Environment, \nMarket segmentation Consumer buying behaviour. Socio- cultural environment",
+    "2": "Textile Marketing Strategy:- Marketing planning and Marketing programming. The \nconcept of marketing mix, Product policy; the concept of textile product life cycle. New \nproduct decisions. Textile  marketing and Pricing, Management of distribution: channels of \ndistribution. Advertising and promotions. The concept of Unique Selling Proposition.",
+    "3": "Implementation and Control. The marketing organization alternative organization \nstructures; the concept of product management. Administration of the textile marketing \nprogramme: sales forecasting; marketing and sales budgeting; sales management; \nmanagement of sales force. \nEvaluation of marketing performance; sales analysis; control of marketing effort; marketing \naudit",
+    "4": "Jute textile sector, Silk textile sector, Man-made textile sector, Wool Textile sector, \nStatistics of Indian textile business (Domestic & Export) and World textile trade, Textile \npolicy, World trade practices, norms, barriers, etc., Various pertinent prevailing issue \nimpacting textile industry and trade, corporate social responsibility, ISO accreditation, etc., \nRetailing in textiles vis-a-vis consumer trends and behaviour and the challenges,",
+    "5": "Textile Merchandising: Process of Planning, Purchasing, Motivating and \nControlling of Materials in a optimum manner, vendor development, manufacturing, \npricing, product design and development, exporting etc."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Marketing Research A S Rao, Neha Publishers and distributors"
+    },
+    {
+     "no": 2,
+     "book": "Marketing: Connecting with Customers, Gilbert D. Harrell, Michigan State University ISBN-10: 0-9798304-7-1, Chicago Education Press, LLC.2012"
+    },
+    {
+     "no": 3,
+     "book": "Pocket Textile Merchandising & Marketing Expert Hardcover – 2008 by Textile Industries Media Group"
+    },
+    {
+     "no": 4,
+     "book": "Apparel Merchandising: The Line Starts Here, 2nd Edition by Jeremy A. Rosenau , David L. Wilson, ISBN-13: 978-1563674488"
+    },
+    {
+     "no": 5,
+     "book": "Retail Merchandising Sapna Pradhan  Tata McGraw Hill Education Private Limited 2009"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Subject appears as 'c)' under a list; section header '3. Departmental Elective-6' appears after the subject's details.",
+    "No subject code is printed.",
+    "Odd spacing in 'Textile  marketing' and 'Socio- cultural'.",
+    "Reference books are labeled 'Reference Books'; no textbooks section is present.",
+    "Credit is indicated as '=3' after the LTP tuple.",
+    "no individual course code printed for this subject in this document (elective detail section)"
+   ],
+   "flags": [
+    "no_code_printed_in_doc",
+    "no code printed in document (elective/DE/OE slot family)"
+   ]
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [],
+ "flags": []
+}

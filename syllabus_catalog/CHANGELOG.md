@@ -1,3 +1,7 @@
+# CRON-20261106-B37 — B37 — 2026-11-05
+
+rows-2208-to-2346-codes-4610-to-4829-138-appends-250-updates-0-repairs
+
 # CRON-20261105-B36 — B36 — 2026-11-05
 
 rows 2165→2208, codes 4544→4610, +43 appends/~99 updates/!1 repair (KPI072 ownership restored)
