@@ -945,6 +945,37 @@ DOC_SCOPE = {
 # published B06 manifest ("TIER2_OVERRIDES mechanism added ... per-key,
 # evidence-recorded"), re-evidenced against the drafts + baseline rows.
 TIER2_OVERRIDES = {
+    # --- B33 commit-run live-ladder adjudications (b33b marker) ---
+    "04_btech_plastic_y2_model-curriculum_2019-20::06::plastics-materials-i": {
+        "action": "RETARGET", "target": "plastic-materials-i",
+        "reason": "B33 live-ladder TIE resolution (fuzzy 97/plastic-materials-i vs 95/plastic-materials-ii) on roman-numeral identity + recorded singular/plural print-variance class: draft 'Plastics Materials-I' (KPE401, 2019-20 y2 model-curriculum sem-4 print) — the plastic-materials-i row is this commit's accumulator of the SAME course (EPL-501 2009-10 'PLASTIC MATERIALS - I' + RPL-501 2018-19 prints); 'Plastics' vs 'Plastic' is the recorded plural print variance (B29 ALLOW class); the -II row is a DIFFERENT semester course (KPE501/EPL601). RETARGET pins the update on the numeral-matching -i row."},
+    "04_btech_plastic_y2_model-curriculum_2019-20::07::plastics-processing-i": {
+        "action": "RETARGET", "target": "plastic-processing-i",
+        "reason": "B33 live-ladder TIE resolution (fuzzy 98/plastic-processing-i vs 95/plastic-processing-ii) on roman-numeral identity + recorded singular/plural print-variance class: draft 'Plastics Processing-I' (KPE402, 2019-20 y2 model-curriculum sem-4 print) — the plastic-processing-i row is this commit's accumulator of the SAME course (EPL-503 2009-10 'PLASTIC PROCESSING-I' + RPL-502 2018-19); the -II row is a DIFFERENT semester course (KPE502/EPL602). RETARGET pins the update on the numeral-matching -i row."},
+    "04_btech_plastic_y2_model-curriculum_2019-20::09::synthesis-and-polymerization-lab": {
+        "action": "ALLOW",
+        "reason": "B33 same-lab ALLOW (recorded TIER2 name-variant class; overlap-0 is the no-unit-prose lab artifact): draft 'Synthesis and Polymerization Lab' (KPE451, 2019-20 y2 model-curriculum sem-4 lab) -> synthesis-polymerization-lab row (fuzzy 93; the row is this commit's accumulator of doc-01 'SYNTHESIS & POLYMERIZATION LAB' EPL-554) — 14 experiments each with 9+ verbatim-identical items (bulk/solution/suspension/emulsion polymerization, viscosity molecular weight, phenol-formaldehyde/urea-formaldehyde/unsaturated-polyester resins); the residual fuzz cap is the '&'/and print variance. Same lab, era ladder converges on one row."},
+
+    # --- B33 adjudications (adjudicate_b33 marker) ---
+    "01_btech_plastic_syllabus_2009-10::03::manufacturing-technology": {
+        "action": "FORCE_APPEND",
+        "reason": "B33 wrong-subject FORCE_APPEND (recorded B30 EMT-011/EMT-801 class + RULES §11 never-merge-different-subjects): draft 'MANUFACTURING TECHNOLOGY' (EME-405, 2009-10 Plastic-Engineering DE print, 5 verbatim units) — the Tier-2 hit garment-manufacturing-technology (KHT-051 Fashion/Tech row, fuzzy 86, overlap 13) is a DIFFERENT subject (garment/fabric domain vs this manufacturing course: sheet-metal working, jigs & fixtures, metal cutting); it shares only a two-sentence generic intro with Manufacturing Science-I (EME402) whose unit bodies differ materially (unit1 428 vs 299 chars, different topics + hour structures). No 'Manufacturing Technology' theory row exists in BTech (only Manufacturing Science-I/II and the RME452/RME553 LAB rows). Appends as its own row owning the unclaimed EME405, with cross-reference notes to manufacturing-science-i and garment-manufacturing-technology."},
+    "01_btech_plastic_syllabus_2009-10::34::instrumentation": {
+        "action": "FORCE_APPEND",
+        "reason": "B33 wrong-subject FORCE_APPEND (same recorded class): draft 'INSTRUMENTATION' (EPL-021, 2009-10 Plastic-Engineering DE print, 4 verbatim units: measurement fundamentals, standards/accuracy, IP quantities, telemetry) — the Tier-2 hit bio-instrumentation (EBM-501 Biomedical row, fuzzy 88, overlap 7) is a DIFFERENT subject (biomedical signals/patient safety). No unit identity with industrial-instrumentation (NIC-602), process-instrumentation (NCH604) or instrumentation-and-process-control (ECH507) either. Appends as its own row owning the unclaimed EPL021, with cross-reference notes."},
+    "01_btech_plastic_syllabus_2009-10::29::chemical-thermodynamics": {
+        "action": "RETARGET", "target": "chemical-engineering-thermodynamics",
+        "reason": "B33 same-course RETARGET (per-unit verbatim identity class, identical evidence to 02::10): draft 'CHEMICAL THERMODYNAMICS' (EPL-012/ECH-401, 2009-10 Plastic DE-I print) — all five units are character-identical (±1 whitespace artifact) to the chemical-engineering-thermodynamics accumulator row's establishing ECH-401 print; the plastic DE list prints the CHE core course under the shortened name with the DE-list code EPL-012. The auto code-slot-collision APPEND (collapsed-name 0.80 < 0.84) would SPLIT one subject into two rows (RULES §11); the name-similarity miss is a prefix-artifact ('Engineering' inserted mid-name). RETARGET pins the update on the ECH401 accumulator: EPL-012 joins code_history, ECH-401 ownership unchanged (already the row's own), the DE print variant recorded via name_print."},
+    "02_btech_plastic_syllabus_2018-19::10::chemical-thermodynamics": {
+        "action": "RETARGET", "target": "chemical-engineering-thermodynamics",
+        "reason": "B33 same-course RETARGET (per-unit verbatim identity class, B37 computer-programming-lab dual-print analog): draft 'CHEMICAL THERMODYNAMICS' (RPL052, 2018-19 Plastic DE-I print) — all five units are character-identical (±1 whitespace artifact) to the chemical-engineering-thermodynamics accumulator row's establishing ECH-401 print (2009-10); the R-era DE list re-codes the SAME university course as RPL-052. The Tier-2 auto hit chemical-process-thermodynamics (KCH 505, 2020-21, different unit bodies) is a different course. RETARGET pins the update on the ECH401 accumulator: RPL052 joins code_history, the canonical name stays, the 'Chemical Thermodynamics' print variant is recorded via name_print."},
+    "06_btech_plastic_y3_syllabus_2024-25::11::heat-mass-transfer": {
+        "action": "ALLOW",
+        "reason": "B33 same-subject name-variant ALLOW (recorded TIER2 ALLOW class): 'Heat & Mass Transfer' (BPE056, 2024-25 Plastic print; the doc itself states '(Same as KME 501)' — recorded in the draft quirks) -> heat-and-mass-transfer row (fuzzy 90, overlap 180); ampersand print variance of the same BTech shared course; the doc's cross-branch same-course note is recorded on the row."},
+    "08_btech_plastic_y4_syllabus_2016-17::02::industrial-safety-hazard-management": {
+        "action": "ALLOW",
+        "reason": "B33 same-subject name-variant ALLOW (recorded TIER2 ALLOW class): 'Industrial Safety & Hazard Management' (NPL-801, 2016-17 Plastic y4 print) -> industrial-safety-and-hazard-management row (fuzzy 95, overlap 85); '&'/'and' print variance, same subject; the ECH-043 2009-10 print (doc 01::27) stays with its published owner per the recorded CODE-REASSIGNED class."},
+
     # --- B37 commit-run TIE adjudications (adjudicate_b37b marker) ---
     "03_btech_syllabus_2013-14::32::computer-programming-lab": {
         "action": "RETARGET", "target": "computer-programming-lab",
