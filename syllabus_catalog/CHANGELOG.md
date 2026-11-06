@@ -1,3 +1,7 @@
+# CRON-20261107-B44 — B44 — 2026-11-06
+
+rows 2803-to-2867, codes 5585-to-5729, +64 appends/~155 updates/!0 repairs — MBA Healthcare/Hospital + Logistics-SCM (3 sessions) + 2008-09/2013-14/2017-18 main books + Tourism AICTE-rev via 5-key mercury-3 pool, 0 fallbacks
+
 # CRON-20261107-B43 — B43 — 2026-11-06
 
 rows 2687-to-2803, codes 5443-to-5585, +116 appends/~136 updates/!0 repairs — MBA Business-Analytics + common y1/y2 waves and the FIRST MCA rows (2004-05 MCA electives book, §1b filename-override) via 5-key mercury-3 pool, 0 fallbacks
