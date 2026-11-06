@@ -275,6 +275,21 @@ def extract_one(pdf_name, fulltext, meta, sub, session, course):
     return sub.get("code_print", ""), out
 
 
+def queue_meta_for(stem, rec_meta):
+    """B41 fix: parse records stage files as NN_<stem>.pdf and carry rel=''/session=''
+    (the B40 defect: drafts fell back to course=BTech/session='' — §3 fieldwise
+    silently degraded to backfill-only). Match the queue entry by the stem with
+    its NN_ index prefix stripped, falling back to the basename forms."""
+    q = json.load(open("/home/z/my-project/work/pipeline_v2/queue.json"))
+    base = os.path.basename(rec_meta.get("pdf_path", "") or (stem + ".pdf"))
+    cands = {base, stem + ".pdf", re.sub(r"^\d+_", "", stem) + ".pdf"}
+    for e in q["entries"]:
+        b = os.path.basename(e["rel"])
+        if b in cands or re.sub(r"^\d+_", "", stem) + ".pdf" == b:
+            return e
+    return None
+
+
 def draft_doc(parsed_dir, drafts_dir, stem):
     rec = json.load(open(f"{parsed_dir}/{stem}.json"))
     meta = rec.get("meta", rec)
@@ -289,6 +304,14 @@ def draft_doc(parsed_dir, drafts_dir, stem):
             break
     else:
         session, course = meta.get("session", ""), "BTech"
+    # B41 fix (root cause of the B40 empty-session drafts): the staged basename
+    # carries the NN_ index prefix so the basename lookup above fails; resolve
+    # via the stem-based queue match and OVERRIDE the fallback fields.
+    qe = queue_meta_for(stem, meta)
+    if qe:
+        pdf_rel = qe["rel"]
+        session = qe.get("session", "") or session
+        course = qe.get("course", "") or course
     fulltext = open(f"{parsed_dir}/{stem}.fulltext.txt").read()
     PAGES = pages_of(fulltext)
     sha16 = meta.get("sha16", "")

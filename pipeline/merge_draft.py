@@ -401,8 +401,9 @@ def apply_update(row, dsub, dmeta, doc_short, ev):
             if ct.get(n) and ct[n] != row.get(f, ""):
                 row[f] = ct[n]
                 changed.append(f"co{n}")
-        for f, v in (("L", dsub.get("ltp", {}).get("l")), ("T", dsub.get("ltp", {}).get("t")),
-                     ("P", dsub.get("ltp", {}).get("p")), ("credit", dsub.get("credit"))):
+        _lt = dsub.get("ltp") or {}  # B41 hardening: null ltp (hand-built pool rows) must not crash
+        for f, v in (("L", _lt.get("l")), ("T", _lt.get("t")),
+                     ("P", _lt.get("p")), ("credit", dsub.get("credit"))):
             if v not in (None, "") and str(v) != row.get(f, ""):
                 row[f] = str(v)
                 changed.append(f)
@@ -441,6 +442,13 @@ def apply_update(row, dsub, dmeta, doc_short, ev):
         if kl and kl != row.get("co_kls", ""):
             row["co_kls"] = kl
             changed.append("kls")
+        # B41 fix (RULES §3 semantics): effective_session_latest must track the
+        # newest applied print — the update path never refreshed it (the B40
+        # empty-session defect compounded: appended rows kept '' even after
+        # their establishing drafts were re-applied fieldwise)
+        if dmeta["session"] and dmeta["session"] != row.get("effective_session_latest", ""):
+            row["effective_session_latest"] = dmeta["session"]
+            changed.append("session=" + dmeta["session"])
         if dsub.get("name_print") and dsub["name_print"] != row.get("subject_name_print", ""):
             row["subject_name_print"] = (row.get("subject_name_print", "") + " | detailed-doc print: " + dsub["name_print"])[:250]
             changed.append("name_print")
@@ -533,7 +541,9 @@ def build_append(dsub, dmeta, ev, scope_row, policy):
     row["first_introduced_session"] = dmeta["session"]
     row["subject_type"] = dsub.get("subject_type", "")
     row["subject_category_print"] = dsub.get("category_print", "")
-    lt = dsub.get("ltp", {})
+    lt = dsub.get("ltp")
+    if lt is None:
+        lt = {}
     if isinstance(lt, str):  # B37 hardening: string prints like '3-1-0' coerce to dict
         nums = re.findall(r"\d+", lt)
         lt = {"l": int(nums[0]) if len(nums) > 0 else None,
@@ -946,12 +956,23 @@ DOC_SCOPE = {
 # evidence-recorded"), re-evidenced against the drafts + baseline rows.
 TIER2_OVERRIDES = {
     # --- B40 commit-run adjudications (adjudicate_b40 marker) ---
+    "03_btech_y3s6_open-elective-1_2020-21::06::understanding-human-being-nature-and-existence-comprehensive": {
+        "action": "RETARGET", "target": "understanding-human-being-nature-and-existence-comprehensive",
+        "reason": "B41 commit-run TIE resolution (corroborating-copy convergence, same class as the 03::09 gis pin): the non-AICTE 2020-21 doc prints the identical KOE-069 'UNDERSTANDING HUMAN BEING, NATURE AND EXISTENCE...' course whose establishing row is the exact-name understanding-human-being-nature-and-existence-comprehensive (the B40 CODE-REASSIGNED executor's designated name-identity owner of KOE069). The TIE is the plan-phase sequencing artifact of the transfer (the donor row's narrative still mentions the code when the later same-batch draft ladders). RETARGET pins the idempotent update on the name-identity row."},
+    "03_btech_y3s6_open-elective-1_2020-21::09::gis-remote-sensing": {
+        "action": "RETARGET", "target": "gis-remote-sensing",
+        "reason": "B41 commit-run TIE resolution (corroborating-copy convergence): the non-AICTE 2020-21 OE-I doc prints the IDENTICAL KOE-066 'GIS & REMOTE SENSING' course as the AICTE 2020-21 doc (02::07) — same subject, same codes, same unit content. The TIE arose as a plan-phase sequencing artifact: 02::07's apply added KOE066/KOE-066 to gis-remote-sensing while the CODE-REASSIGNED executor's strip of the same codes off remote-sensing-and-gis runs only as a post-step, so 03::09's Tier-0 saw the code on both rows. RETARGET pins the update on gis-remote-sensing (the exact-name OE row; update is idempotent — identical content)."},
+    # B41 correction: the four B40 gis-remote-sensing ALLOW overrides were REMOVED —
+    # B41 unit-fingerprint evidence (u2-u5: OE print "Different types of sensors and
+    # platforms..." vs AG print "Principal applications of different wavelength regions...")
+    # shows the OE-era GIS & REMOTE SENSING (KOE-066/BOE-066/ROE-079) is a DISTINCT
+    # subject from the AG-branch Remote Sensing and GIS (KAG-062/RAG070) accumulator;
+    # the ladder resolves all four keys correctly without overrides (02/03: Tier-0
+    # code-reassignment KOE066 -> gis-remote-sensing; 04/05: Tier-1 exact name); the
+    # original u1-verbatim premise was insufficient (recorded B41 repair class).
     "02_btech_y3s6_open-elective-1-aicte_2020-21::00::embedded-system": {
         "action": "ALLOW",
         "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 97, overlap 28; name-identity + era-rewording class): draft 'EMBEDDED SYSTEM' (KOE-062, 2020-21 AICTE OE-I print) vs the embedded-systems row 'Embedded Systems' (NCS-087;RCS070;KEN-062;BEN062;EEC-047;ECS-083, sess 2016-17) — singular/plural print variance (recorded B29/B33 class) and the row is ALREADY the multi-era multi-branch Embedded Systems accumulator (6 codes across IT/CEC/EI eras). Unit-I is era-reworded, not a different course: the 2020-21 print ('The build process for embedded systems, Structural units in Embedded processor, selection of processor') vs the 2016-17 print ('Classification, Characteristics and requirements, Applications') are two treatments of the same university OE course — the recorded B39 ITC REC406 era-rewording precedent ('the multi-era accumulator, era rewording not a different subject'); 28 shared distinctive domain terms pass the §2 overlap threshold. Newest-session fieldwise (2020-21 ≥ 2016-17, RULES §3): the row's units update to the 2020-21 print; the older print corroborates in source_history. KOE-062/KOE062 unowned in BTech, accumulates cleanly.")},
-    "02_btech_y3s6_open-elective-1-aicte_2020-21::07::gis-remote-sensing": {
-        "action": "ALLOW",
-        "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 90, overlap 108): draft 'GIS & REMOTE SENSING' (KOE-066/KOE066, 2020-21 AICTE OE-I print) vs the remote-sensing-and-gis row 'Remote Sensing and GIS' (KAG-062;RAG070, sess 2020-21) — word-order + '&'/and print-variance class (recorded B29/B33); unit-I VERBATIM ('Basic component of remote sensing (RS), advantages and limitations of RS, possible use of RS techniques in assessment and monitoring of land and water resources...'). KOE066 unowned, accumulates cleanly.")},
     "02_btech_y3s6_open-elective-1-aicte_2020-21::08::real-time-systems": {
         "action": "ALLOW",
         "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 97, overlap 105): draft 'REAL TIME SYSTEMS' (KOE-061, 2020-21 AICTE OE-I print) vs the real-time-system row 'Real Time System' (NCS-082;KCS-063;NEC013R;REC053;ECS-081, sess 2016-17) — plural print variance (recorded class); unit-I VERBATIM ('Definition, Typical Real Time Applications: Digital Control, High Level Controls, Signal Processing etc., Release Times, Dead-lines, and Timing Constraints...'). KOE-061 unowned, accumulates cleanly.")},
@@ -961,21 +982,12 @@ TIER2_OVERRIDES = {
     "03_btech_y3s6_open-elective-1_2020-21::08::embedded-system": {
         "action": "ALLOW",
         "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 97, overlap 28): same row + class as 02::00 — the non-AICTE 2020-21 doc prints the identical KOE-062 'EMBEDDED SYSTEM' course (corroborating copy); era-rewording precented, newest-session fieldwise updates the units.")},
-    "03_btech_y3s6_open-elective-1_2020-21::09::gis-remote-sensing": {
-        "action": "ALLOW",
-        "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 90, overlap 108): same row + class as 02::07 — the non-AICTE 2020-21 doc prints the identical KOE-066 'GIS & REMOTE SENSING' course with identical unit-I (corroborating copy).")},
     "04_btech_y3s6_open-elective-1_2024-25::05::embedded-system": {
         "action": "ALLOW",
         "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 97, overlap 28): same row + class as 02::00 — the 2024-25 NEP doc prints the identical course as BOE-062 'EMBEDDED SYSTEM' (B-era reprint of the KOE-062 syllabus); BOE-062 unowned, accumulates on the embedded-systems accumulator; 2024-25 is the newest session so its print wins fieldwise.")},
-    "04_btech_y3s6_open-elective-1_2024-25::07::gis-remote-sensing": {
-        "action": "ALLOW",
-        "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 90, overlap 108): same row + class as 02::07 — the 2024-25 NEP doc prints the identical course as BOE-066 'GIS & REMOTE SENSING'; BOE-066 unowned, accumulates.")},
     "05_btech_y4_open-electives_2020-21::03::computerized-process-control": {
         "action": "ALLOW",
         "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 96, overlap 82): draft 'COMPUTERIZED PROCESS CONTROL' (ROE-076, 2020-21 y4 OE print) vs the computerised-process-control row 'Computerised Process Control' (REC078;KIC077;EIC-031, sess 2019-20) — z/s spelling print variance (recorded keep-print-verbatim class); unit-I VERBATIM ('Basics of Computer-Aided Process Control: Role of computers in process control, Elements of a computer aided Process control System...'). ROE-076 unowned, accumulates.")},
-    "05_btech_y4_open-electives_2020-21::06::gis-remote-sensing": {
-        "action": "ALLOW",
-        "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 90, overlap 108): same row + class as 02::07 — the 2020-21 y4 OE doc prints the identical course as ROE-079 'GIS & REMOTE SENSING' with identical unit-I; ROE-079 unowned, accumulates.")},
     "06_btech_y4_syllabus_2016-17::20::biomedical-signal-processing": {
         "action": "ALLOW",
         "reason": ("B40 TIER2 same-subject ALLOW (fuzzy 98, overlap 88): draft 'Biomedical Signal Processing' (NIC041, 2016-17 NIC DE-III print) vs the bio-medical-signal-processing row 'BIO-MEDICAL SIGNAL PROCESSING' (EBM-603;RBM602;BEC-056;RIC080;EIC-032;BIC-062, sess 2010-11) — hyphen print variance (recorded class); unit-I VERBATIM ('Introduction to Bio-Medical Signals: Classification, Acquisition and Difficulties during Acquisition. Basics of Electrocardiography, Electroencephalography, Electromyogr...'). NIC041 unowned, accumulates cleanly.")},

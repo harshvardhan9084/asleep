@@ -1,3 +1,7 @@
+# CRON-20261106-B41 — B41-repair — 2026-11-06
+
+B40 session-defect repair: 20 draft headers restored from queue, fieldwise updates re-applied (133 in-place updates, 0 appends), KOE066/KOE069 code-ownership settled, sessions backfilled (gis-remote-sensing 2020-21/2024-25, smart-manufacturing 2025-26, embedded-systems 2024-25); engine + merge toolchain hardened
+
 # CRON-20261106-B40 — B40 — 2026-11-06
 
 rows 2494→2505, codes 5214→5271, +11 appends/~122 updates/!0 repairs (OE universe + 2016-17 NIC + 2025-26 NEP waves)

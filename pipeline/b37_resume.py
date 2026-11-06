@@ -18,12 +18,20 @@ fulltext = open(f"{parsed_dir}/{stem}.fulltext.txt").read()
 PAGES = me.pages_of(fulltext)
 q = json.load(open("/home/z/my-project/work/pipeline_v2/queue.json"))
 session = course = ""
+pdf_rel = ""
 for e in q["entries"]:
     if e["rel"].endswith("/" + os.path.basename(pdf_name)):
         pdf_rel, session, course = e["rel"], e.get("session", ""), e.get("course", "BTech")
         break
 else:
     pdf_rel, session, course = "", meta.get("session", ""), "BTech"
+# B41 fix (B40 empty-session defect): staged basenames carry the NN_ prefix;
+# resolve via the stem-based match and override the fallback fields.
+_stem_clean = re.sub(r"^\d+_", "", stem)
+for e in q["entries"]:
+    if os.path.basename(e["rel"]) == _stem_clean + ".pdf":
+        pdf_rel, session, course = e["rel"], e.get("session", "") or session, e.get("course", "") or course
+        break
 
 P = f"{drafts_dir}/{stem}.draft.json"
 if os.path.exists(P):
