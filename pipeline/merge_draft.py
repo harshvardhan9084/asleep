@@ -2108,6 +2108,99 @@ TIER2_OVERRIDES = {
     "09_btech_ds_y2_syllabus_2025-26::07::foundation-of-artificial-intelligence-and-machine-learning": {
         "action": "FORCE_APPEND",
         "reason": "B20 wrong-subject FORCE_APPEND (recorded B14/B15/B19 wrong-subject T2 class): draft 'Foundation of Artificial Intelligence and Machine Learning' (BDS401, 2025-26 DS y2 core, 5 verbatim units) fuzzy 85/56-hits artificial-intelligence-and-machine-learning-in-bioinformati (BBI602, 2026-27 Bioinformatics branch elective). Unit-by-unit comparison (patch-b20 evidence): normalized similarity 0.019/0.025/0.021/0.107/0.007 across units 1-5 — COMPLETELY different content (foundations: AI history/first-order-logic/ANN/supervised+unsupervised learning vs bioinformatics applications: expert systems/NLP/ML-algorithms/bioinformatics applications unit). Different subjects (different slot: DS y2 core vs Bioinformatics y3 elective; different code family BDS vs BBI). Appends as its own row with a cross-reference note; zero-GAP holds."},
+    "01_mba_business-analytics_y1_syllabus_2020-21::12::financial-management-and-corporate-finance": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 95, overlap 43): draft 'FINANCIAL MANAGEMENT AND CORPORATE FINANCE'/equivalent print vs the MBA financial-management-corporate-finance accumulator — name-variant (&/and) of the same two-part course; Tier-2 qualified; same course MBA per §1b; update-first fieldwise; newer-session print wins, older prints corroborate source_history; draft codes unowned, accumulate"},
+    "02_mba_business-analytics_y1_syllabus_2024-25::13::financial-management-and-corporate-finance": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 95, overlap 82): draft 'FINANCIAL MANAGEMENT AND CORPORATE FINANCE'/equivalent print vs the MBA financial-management-corporate-finance accumulator — name-variant (&/and) of the same two-part course; Tier-2 qualified; same course MBA per §1b; update-first fieldwise; newer-session print wins, older prints corroborate source_history; draft codes unowned, accumulate"},
+    "05_mba_common_y1_syllabus_2020-21::12::financial-management-and-corporate-finance": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 95, overlap 100): draft 'FINANCIAL MANAGEMENT AND CORPORATE FINANCE'/equivalent print vs the MBA financial-management-corporate-finance accumulator — name-variant (&/and) of the same two-part course; Tier-2 qualified; same course MBA per §1b; update-first fieldwise; newer-session print wins, older prints corroborate source_history; draft codes unowned, accumulate"},
+    "06_mba_common_y1_syllabus_2024-25::11::financial-management-and-corporate-finance": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 95, overlap 81): draft 'FINANCIAL MANAGEMENT AND CORPORATE FINANCE'/equivalent print vs the MBA financial-management-corporate-finance accumulator — name-variant (&/and) of the same two-part course; Tier-2 qualified; same course MBA per §1b; update-first fieldwise; newer-session print wins, older prints corroborate source_history; draft codes unowned, accumulate"},
+    "02_mba_business-analytics_y1_syllabus_2024-25::02::business-statistics-and-analytics": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 94, overlap 116): draft 'BUSINESS STATISTICS AND ANALYTICS' (BMBA103, 2024-25 BA print) vs the MBA business-statistics-analytics row (KMBA103-era, 2020-21) — and/&-variant of the same course; 116 shared distinctive terms conclusive (B41 class cited overlaps 70-152); update-first: 2024-25 print newer — fieldwise; BMBA103 accumulates"},
+    "02_mba_business-analytics_y1_syllabus_2024-25::14::database-management-system-and-sql": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 87, overlap 31): draft 'Database Management System and SQL' (BMBA205, 2024-25 BA print) vs the MBA database-management-system-mba row — the 2024-25 title extends the same DBMS course with the SQL component (unit-I covers the generic DBMS core); recorded B42 context-print class (CRM-in-BFSI); Tier-2 qualified (87>=85, 31>=3); BMBA205 accumulates"},
+    "02_mba_business-analytics_y1_syllabus_2024-25::15::quantitative-techniques-for-managers": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 99, overlap 110): draft 'QUANTITATIVE TECHNIQUES FOR MANAGERS' (BMBA206) vs the quantitative-techniques-for-manager row — plural/singular name-variant, 110 shared terms conclusive; update-first fieldwise; BMBA206 accumulates"},
+    "03_mba_business-analytics_y2_syllabus_2021-22::07::social-media-web-analytics": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 93, overlap 0): draft 'Social Media & Web Analytics' (KMBA403, 2021-22 BA print) vs the social-media-and-web-analytics row — and/&-variant of the same course title (token-ratio 93 = name-identity); overlap 0 because the established row's units come from a different-session print (recorded B42 overlap-0 name-identity class); same course MBA per §1b; update-first fieldwise where newer; KMBA403 accumulates"},
+    "03_mba_business-analytics_y2_syllabus_2021-22::10::database-management-systems": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 98, overlap 27): draft 'Data base management system' (KMBA406, 2021-22 BA print; verbatim lower-case print kept) vs the database-management-system-mba row — same course, spacing/casing print variance; Tier-2 qualified; KMBA406 accumulates"},
+    "03_mba_business-analytics_y2_syllabus_2021-22::11::financial-and-credit-risk-analytics": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 96, overlap 122): draft 'Financial and Credit Risk Analytics' (KMBA407, 2021-22 BA print) vs the financial-and-credit-risk-analysis row — and/analysis-vs-analytics name-variant; 122 shared distinctive terms conclusive; update-first; KMBA407 accumulates"},
+    "04_mba_business-analytics_y2_syllabus_2025-26::08::financial-and-credit-risk-analytics": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 96, overlap 125): draft 'Financial and Credit Risk Analytics' (BMBAFM03, 2025-26 BA print) vs the financial-and-credit-risk-analysis row — same class as 03::11; 125 shared terms conclusive; BMBAFM03 accumulates"},
+    "04_mba_business-analytics_y2_syllabus_2025-26::09::customer-relationship-management-analytics": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 86, overlap 59): draft 'Customer Relationship Management Analytics' (BMBAMK05, 2025-26 BA MK-05 print) vs the MBA customer-relationship-management row (BMBAI306-established) — recorded B42 class (CRM-in-BFSI ALLOW, fuzzy 89/overlap 26): the analytics-context print of the MBA CRM course, unit-I covers the generic CRM core plus analytics applications; 59 shared terms > the 26-term B42 precedent; Tier-2 qualified; update-first fieldwise; BMBAMK05 accumulates"},
+    "04_mba_business-analytics_y2_syllabus_2025-26::15::quality-management": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 86, overlap 32): draft 'Quality Management' (BMBAOM03, 2025-26 BA print) vs the total-quality-management row (KMBI504;RMBI504, 2020-21) — the 2021-22/2025-26 AICTE-model prints name the TQM course 'QUALITY MANAGEMENT'; unit-I carries the identical TQM core (Deming's/Juran's/Crosby's philosophies, QC vs QA, dimensions of quality); 32 shared TQM-specific terms; update-first: newer print updates fieldwise; BMBAOM03 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::33::quality-management": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 86, overlap 33): draft 'Quality Management' (KMBNOM03, 2021-22 common print) vs the total-quality-management row — same class as 04::15 (identical TQM unit-I core, 33 shared terms); KMBNOM03 accumulates"},
+    "08_mba_common_y2_syllabus_2025-26::11::quality-management": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 86, overlap 32): draft 'QUALITY MANAGEMENT' (BMBOM03, 2025-26 common print) vs the total-quality-management row — same class as 04::15; corroborating same-session print; BMBOM03 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::01::innovation-and-entrepreneurship": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 93, overlap 107): draft 'INNOVATION AND ENTREPRENEURSHIP' (KMBN302, 2021-22 common print) vs the innovation-entrepreneurship-mba row — same course; 107 shared terms conclusive; update-first (2021-22 print fieldwise where newer); KMBN302 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::08::employee-relations-and-labor-laws": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 99, overlap 64): draft 'EMPLOYEE RELATIONS AND LABOUR LAWS' (KMBNHR02) vs the employee-relations-and-labour-laws row — labor/labour spelling variant (recorded z/s spelling class); update-first; KMBNHR02 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::09::consumer-behavior-and-marketing-communication": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 95, overlap 135): draft 'CONSUMER BEHAVIOUR AND MARKETING COMMUNICATION' (KMBNMK01) vs the consumer-behavior-marketing-communication row — behaviour/behavior spelling variant; 135 shared terms conclusive; KMBNMK01 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::12::b2b-and-services-marketing": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 89, overlap 152): draft 'B2B AND SERVICES MARKETING' (KMBNMK03) vs the b2b-service-marketing row — and/&-variant of the same course; 152 shared terms conclusive; KMBNMK03 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::18::financial-and-credit-risk-analytics": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 96, overlap 122): draft 'FINANCIAL AND CREDIT RISK ANALYTICS' (KMBNFM05, 2021-22 common print) vs the financial-and-credit-risk-analysis row — same class as 03::11; corroborating print; KMBNFM05 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::25::international-trade-law": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 98, overlap 0): draft 'INTERNATIONAL TRADE LAWS' (KMBNIB05) vs the international-trade-laws row — singular/plural name-variant (token-ratio 98 = name-identity); overlap 0 = different-session unit phrasing (recorded B42 overlap-0 name-identity class); KMBNIB05 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::27::database-management-systems": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 98, overlap 27): draft 'DATABASE MANAGEMENT SYSTEMS' (KMBNIT03; menu detail-header print variants recorded) vs the database-management-system-mba row — same course, plural print variant; KMBNIT03 accumulates"},
+    "07_mba_common_y2_syllabus_2021-22::29::supply-chain-logistics-management": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 94, overlap 36): draft 'SUPPLY CHAIN & LOGISTICS MANAGEMENT' (KMBNOM01) vs the logistics-and-supply-chain-management-mba row — recorded B39 word-order class (transposed concept order of the same two-concept course); Tier-2 qualified; KMBNOM01 accumulates"},
+    "08_mba_common_y2_syllabus_2025-26::04::employee-relations-and-labor-laws": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 99, overlap 64): draft 'EMPLOYEE RELATIONS AND LABOR LAWS' (BMBHR02, 2025-26 print) vs the employee-relations-and-labour-laws row — labor/labour variant; corroborating same-subject print; BMBHR02 accumulates"},
+    "08_mba_common_y2_syllabus_2025-26::06::sales-distribution-management": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 94, overlap 44): draft 'SALES & DISTRIBUTION MANAGEMENT' (BMBMK04) vs the sales-and-distribution-management row — and/&-variant; Tier-2 qualified; BMBMK04 accumulates"},
+    "08_mba_common_y2_syllabus_2025-26::08::supply-chain-logistics-management": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 94, overlap 38): draft 'SUPPLY CHAIN & LOGISTICS MANAGEMENT' (BMBOM01) vs the logistics-and-supply-chain-management-mba row — same B39 word-order class as 07::29; BMBOM01 accumulates"},
+    "08_mba_common_y2_syllabus_2025-26::09::financial-credit-and-risk-analysis": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 100, overlap 123): draft 'Financial Credit and Risk Analysis' (BMBFM03 detail header; menu prints 'BMB FM 03 FINANCIAL AND CREDIT RISK ANALYSIS' — both verbatim prints recorded) vs the financial-and-credit-risk-analysis row — name-variant of the same course; 123 shared terms conclusive; BMBFM03 accumulates"},
+    "08_mba_common_y2_syllabus_2025-26::13::export-import-documentations": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 98, overlap 0): draft 'EXPORT IMPORT DOCUMENTATION' (BMBIB02) vs the export-import-documentation row — plural print variant (token-ratio 98 = name-identity); overlap 0 = different-session phrasing (B42 overlap-0 name-identity class); BMBIB02 accumulates"},
+    "08_mba_common_y2_syllabus_2025-26::26::investment-and-portfolio-management": {
+        "action": "ALLOW",
+        "reason": "B43 TIER2 same-subject ALLOW (fuzzy 89, overlap 56): draft 'Investment and Portfolio Management' (BMBFM01, 2025-26 print; name-before-code detail header) vs the investment-analysis-and-portfolio-management row — the 2025-26 title drops 'Analysis' (name-variant of the same course family); 56 shared terms; Tier-2 qualified; BMBFM01 accumulates"},
+    "04_mba_business-analytics_y2_syllabus_2025-26::14::ai-in-supply-chain-management": {
+        "action": "FORCE_APPEND",
+        "reason": "B43 wrong-subject FORCE_APPEND (recorded B28/B30/B38 class) (fuzzy 88, overlap 29): draft 'AI in Supply Chain Management' (BMBAOM04, 2025-26 BA OM-04 print, 5 detailed units) vs the supply-chain-management-mba row (KMBI802;RMBI702, 2021-22 classic SCM curriculum: unit-I 'Concept of SCM-Evolution, Flows in SCM, Process View, Drivers, Macro Process…', unit-IV logistics/bullwhip, unit-V purchasing/sourcing) — the 2025-26 print is the AI-APPLICATIONS course (unit-I 'Overview of SCM and current challenges, Role of AI in modern SCM, Types of AI technologies: ML, NLP, Computer Vision, AI vs traditional analytics…'); units diverge beyond the one-line overview (recorded B28 same-core-different-tail / B38 wrong-family class); the 29 shared terms are generic SCM vocabulary. Appends as its own row owning the unclaimed BMBAOM04 with a cross-reference note to the classic SCM row"},
+    "08_mba_common_y2_syllabus_2025-26::24::organizational-development-and-change-management": {
+        "action": "FORCE_APPEND",
+        "reason": "B43 wrong-subject FORCE_APPEND (recorded B28/B30/B38 class) (fuzzy 86, overlap 15): draft 'ORGANIZATIONAL DEVELOPMENT AND CHANGE MANAGEMENT' (BMBHR05, 2025-26 common HR-05 print, 5 detailed units) vs the organisational-design-and-change-management row (RMBIHR08;KMBIHR06, 2022-23, unit-I 'Organisation and Its Environment…', unit-II 'Organizational Design: Determinants, Components, Types…') — the 2025-26 print is the ORGANIZATIONAL DEVELOPMENT curriculum (unit-I 'Defining OD Concepts, Nature and Scope of O.D., Characteristics of OD, Evolution and Process of OD…'); Development-vs-Design is a DIFFERENT HR discipline (recorded B28 wrong-subject class; the 15 shared terms are generic org/change vocabulary). Appends as its own row owning the unclaimed BMBHR05 with a cross-reference note"},
 }
 
 # ---------------- B21 batch additions (evidence-recorded) ----------------

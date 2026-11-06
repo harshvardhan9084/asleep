@@ -1,3 +1,7 @@
+# CRON-20261107-B43 — B43 — 2026-11-06
+
+rows 2687-to-2803, codes 5443-to-5585, +116 appends/~136 updates/!0 repairs — MBA Business-Analytics + common y1/y2 waves and the FIRST MCA rows (2004-05 MCA electives book, §1b filename-override) via 5-key mercury-3 pool, 0 fallbacks
+
 # CRON-20261106-B42 — B42 — 2026-11-06
 
 rows 2565-to-2687, codes 5371-to-5443, +122 appends/~70 updates/!0 repairs — MBA BFSI+Agribusiness specialization waves (BMBF/KMBF/BMBAB universes) via 5-key mercury-3 pool, 0 fallbacks
