@@ -1007,6 +1007,167 @@ TIER2_OVERRIDES = {
     "08_mba_syllabus_2017-18::31::integrated-marketing-communication": {
         "action": "ALLOW",
         "reason": "B44 TIER2 same-subject ALLOW (fuzzy 99, overlap 68) vs the 'Integrated Marketing Communications' row appended earlier in THIS commit from the 2013-14 print (NMBA MK 02) — intra-batch cascade match (same commit-mode-only class as 08::10): singular/plural print variant (recorded class), 68 shared distinctive unit terms ('Marketing Communication: Objectives of Marketing Communication...' both sides). Tier-2 qualified per RULES §2; update-first: the 2013-14 print establishes, the 2017-18 RMB MK 05 print corroborates fieldwise."},
+    # --- B45 commit-run adjudications (adjudicate_b45 marker) ---
+    "04_mba_tourism_syllabus_2014-15::13::cost-management-accounting": {
+        "action": "RETARGET",
+        "target": "cost-and-management-accounting",
+        "reason": "B45 TIE resolution (fuzzy 93/cost-and-management-accounting vs 89/management-accounting) per the recorded B41/B44 CMA class: the name-identical higher-fuzzy joint Cost+Management-Accounting accumulator (BMB207;KMHC207;MBA026;NMBA026) takes the print; draft MBTM026 u1 ('Introduction: Accounting for Management, Role of Cost in decision making, Comparison of Management Accounting and Cost Accounting') is the same CMA core as the row's u1 ('Meaning, nature and scope of Management Accounting; Difference between management accounting and financial accounting, Cost concept...'). 2014-15 older than 2024-25 -> backfill/source-history only; MBTM026 joins code_history."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::06::investment-analysis-portfolio-management": {
+        "action": "RETARGET",
+        "target": "investment-and-portfolio-management",
+        "reason": "B45 TIE resolution (fuzzy 95/investment-analysis-and-portfolio-management vs 91/investment-and-portfolio-management) on CONTENT evidence: draft KMBFM01 u1 ('Overview of Capital Market: Market of securities, Stock Exchange and New Issue Markets - their nature...') is VERBATIM-shared with the investment-and-portfolio-management row's u1 ('Investments (10 hrs) Overview of Capital Market: Market of securities, Stock Exchange and New Issue Markets - their nature, struct...'), while the higher-fuzzy 2026-27 row's u1 is the redesigned 'Module I: Conceptual Framework of Investments' print. The KMBFM01 (2019-20) print belongs to the BMBFM01 (2025-26) design lineage; the name is the &/and + 'Analysis' variant (recorded classes). The 2026-27 Module-I row corroborates as the same FM-elective family print."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::26::sales-retail-management": {
+        "action": "RETARGET",
+        "target": "sales-and-retail-management",
+        "reason": "B45 TIE resolution (fuzzy 92/sales-and-retail-management vs 85/retail-management) per the B41 name-identical-higher-fuzzy class: draft KMBMK01 u1 ('Introduction to Sales: Role of selling in marketing, Personal selling, Salesmanship and sales manager, Types of...') is verbatim-shared with the sales-and-retail-management row's u1 ('Introduction to Sales: Role of selling in marketing, Personal selling, Types of sales personnel...'); the retail-management row (MBAMK4, 2008-09 scheme-only print) keeps its own row (its draft sibling 08::44 updates it by code)."},
+    "01_mba_tourism-mgmt_syllabus_2016-17::04::business-statistics": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 97, overlap 42): draft 'Business Statistics' vs the MBA business-statistics accumulator (KMBAI205;RAS206;BMBAI-205;MBA015;NMBA015, sess 2024-25) — name-identical modulo spacing (BUSINESSSTATISTICS single-token print); u1 'Measures of Central tendency – Mean' core shared; RMT104 unowned, joins code_history. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "01_mba_tourism-mgmt_syllabus_2016-17::05::organizational-behavior": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 98, overlap 39): draft 'ORGANIZATIONAL BEHAVIOR' vs the MBA organizational-behaviour accumulator (KMBAI202;RMBI201;BMBAI-201;MBA014;KMT105, sess 2024-25) — behaviour/behavior + z/s spelling variants (recorded B40/B43 classes); u1 'Introduction to OB: The meaning of OB' core shared; RMT105 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "04_mba_tourism_syllabus_2014-15::04::business-statistics": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 97, overlap 33): draft 'BUSINESS STATISTICS' vs the MBA business-statistics accumulator (KMBAI205;RAS206;BMBAI-205;MBA015;NMBA015, sess 2024-25) — same row + class as 01::04 (the 2014-15 corroborating print); MBTM015 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "04_mba_tourism_syllabus_2014-15::08::managing-human-resources": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 86, overlap 45): draft 'Managing Human Resources' vs the MBA human-resource-management accumulator (BMBAB202;KMBF202;BMBF202;KMBA204-era HRM accumulator, sess 2025-26) — recorded B42 context-print class (managing-human-resources → human-resource-management); u1 'Human Resources Management (HRM): Meaning, Nature and Scope, Difference between HRM and Personnel Management' core shared; MBTM021 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "04_mba_tourism_syllabus_2014-15::09::business-laws": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 96, overlap 47): draft 'BUSINESS LAWS' vs the MBA business-law accumulator (KMBAI203;RMBI202;BMBAI401;MBA022;NMBA022, sess 2025-26) — singular/plural print variant (recorded class); u1 'The Indian Contract Act, 1872 Definition of a Contract and its essentials' core shared; MBTM022 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "04_mba_tourism_syllabus_2014-15::14::travel-agency-and-tour-operations": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 95, overlap 107): draft 'TRAVEL AGENCY AND TOUR OPERATIONS' vs the MBA travel-agency-and-tour-operators accumulator (KMT208, sess 2018-19) — operators/operations print variant (recorded class); u1 'Travel formalities: Travel Formalities: Passport, Visa, Health requirements...' VERBATIM-shared; MBTM027 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "05_mba_travel-tourism_y1_syllabus_2020-21::04::tourism-concepts-practices": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 88, overlap 31): draft 'TOURISM: CONCEPTS & PRACTICES' vs the MBA tourism-concepts-impacts accumulator (KMT206, sess 2018-19) — recorded B28 era-rewording class (AICTE-model redesign, not a different subject): u5 'Tourism Organizations: ... United Nations World Tourism Organization (WTO), Pacific Asia Travel Association(PATA)...' matches the row's u5 organizations core verbatim ('Origin, location and functions of WTO, IATA, PATA, ASTA, UFTAA'); u1 definitions/history core shared; the 2020-21 print is NEWER -> fieldwise wins per §3 (KMTT105 unowned, joins). Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "05_mba_travel-tourism_y1_syllabus_2020-21::16::travel-agency-and-tour-operations": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 95, overlap 88): draft 'TRAVEL AGENCY AND TOUR OPERATIONS' vs the MBA travel-agency-and-tour-operators accumulator (KMT208, sess 2018-19) — same row + class as 04::16; u1 'Introduction to Travel Trade: Historical Background of Travel Trade, Significance of Travel Agency Business' core shared; KMTT208 unowned, joins; 2020-21 newer -> fieldwise wins per §3. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "07_mba_y1_model-curriculum_2018-19::04::organizational-behavior": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 98, overlap 37): draft 'ORGANIZATIONAL BEHAVIOR' vs the MBA organizational-behaviour accumulator (KMBAI202;RMBI201;BMBAI-201;MBA014;KMT105, sess 2024-25) — same row + class as 01::05; KMB105 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "07_mba_y1_model-curriculum_2018-19::11::corporate-financial-management": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 88, overlap 74): draft 'CORPORATE FINANCIAL MANAGEMENT' vs the MBA financial-management-corporate-finance accumulator (KMBF204;BMBF204;KMBA204;BMBA204;KMBN204;BMB204;BMLS204, sess 2025-26) — recorded B42 accumulator class (5th print); u1 'Introduction to Finance & Corporate Finance: Finance & its scope...' VERBATIM-shared with the row's u1; the 2018-19 model-curriculum name 'CORPORATE FINANCIAL MANAGEMENT' is the era print of the same FM course; KMB204 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "07_mba_y1_model-curriculum_2018-19::13::quantitative-techniques-in-management": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 86, overlap 92): draft 'Quantitative Techniques in Management' vs the MBA quantitative-techniques-for-manager accumulator (BMBAB206;KMBF206;BMBF206;KMBA206;BMBA206;KMBN206;BMB206, sess 2025-26) — name-variant class ('in Management' vs 'FOR MANAGER' era prints); u1 'Operations Research Introduction... Scope of Operations Research, Phases of Operations Research' core shared with the row's 'Unit I (6 Hrs)-Operations Research & Decision-Making Environments...'; KMB206 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "09_mba_y1_scheme_2016-17::03::business-statistics": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 97, overlap 38): draft 'BUSINESS STATISTICS' vs the MBA business-statistics accumulator (KMBAI205;RAS206;BMBAI-205;MBA015;NMBA015, sess 2024-25) — same row + class as 01::04; RMB104 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "09_mba_y1_scheme_2016-17::04::organizational-behavior": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 98, overlap 38): draft 'ORGANIZATIONAL BEHAVIOR' vs the MBA organizational-behaviour accumulator (KMBAI202;RMBI201;BMBAI-201;MBA014;KMT105, sess 2024-25) — same row + class as 01::05; RMB105 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "09_mba_y1_scheme_2016-17::12::management-accounting-and-control": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 92, overlap 65): draft 'Management Accounting And Control' vs the MBA cost-and-management-accounting accumulator (BMB207;KMHC207;MBA026;NMBA026, sess 2024-25) — the 2016-17 RMB-era y1 name of the CMA course ('and Control' era tail, recorded B41 CMA class); u1 'Introduction: Nature and scope of cost Accounting and Management Accounting, Cost Accounting VS Management Accounting vs Financial Accounting' core shared; RMB205 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::08::financial-market-and-services": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 85, overlap 37): draft 'Financial Market and Services' vs the MBA financial-markets-products-and-services accumulator (FM02;BMBF-306, sess 2026-27) — name-variant class ('and Services' vs 'Products and Services' era prints); u1 'Structure of Indian financial system: An overview...' core shared with the row's 'Module I: Financial System and Market Structure (10 Hours)...'; KMBFM03 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::09::working-capital-management": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 95, overlap 48): draft 'Working Capital Management' vs the MBA management-of-working-capital accumulator (MBAFM01;RMBFM04, sess 2017-18) — word-order print variant (recorded B39 class); u1 'Introduction to Working Capital (10 Hrs) Nature, Scope and Definition of Working Capital, Types of working Capital, Determinants...' VERBATIM-shared; KMBFM04 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::19::international-trade-law": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 98, overlap 124): draft 'International Trade Law' vs the MBA international-trade-laws accumulator (KMBIIB08;KMBNIB05, sess 2022-23) — singular/plural print variant (recorded class); u1 '(6 Hours) The World Trade Organization: Introduction to International trade and the law of the WTO, Sources of WTO Law...' VERBATIM-shared; KMBIB04 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::22::web-technology-e-commerce": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 93, overlap 77): draft 'Web Technology & E-Commerce' vs the MBA web-technology-and-e-commerce accumulator (RMBIT02, sess 2017-18) — &/and print variant (recorded class); u1 'History of Web and Internet...' core shared; KMBIT02 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::25::system-analysis-design": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 92, overlap 38): draft 'System Analysis & Design' vs the MBA system-analysis-and-design accumulator (KMBIIT03;RMBIT05, sess 2021-22) — &/and print variant; u1 'Systems: Concept & Characteristics of a System, Elements of System, Types of Systems' core shared with the row's 'System Concepts and Information Systems Environment: The System Concept: Definition, Characteristics of Systems...'; KMBIT05 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::27::consumer-behaviour-marketing-communication": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 99, overlap 95): draft 'Consumer Behaviour & Marketing Communication' vs the MBA consumer-behavior-marketing-communication accumulator (KMBI MK01;KMBNMK01;MBA034, sess 2021-22) — behaviour/behavior spelling variant (recorded class); u1 'Introduction: Introduction to Consumer Behavior...' core shared; KMBMK02 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::31::supply-chain-logistics-management": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 94, overlap 36): draft 'Supply Chain & Logistics Management' vs the MBA logistics-and-supply-chain-management-mba accumulator (BMBAI502;KMBNOM01;BMBOM01;BMLS106;KMLS106, sess 2026-27) — word-order + &/and print variants (recorded B39 class); u1 'Supply Chain Concepts: Objectives of a Supply Chain, Stages of Supply chain, Value Chain Process, Cycle view...' core shared (the row's u1 is the same intro-SCM curriculum per the recorded B44 04::05 evidence); KMBOM01 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "10_mba_y2_model-curriculum-rev-aicte_2019-20::32::operations-planning-and-control": {
+        "action": "ALLOW",
+        "reason": "B45 TIER2 same-subject ALLOW (fuzzy 93, overlap 103): draft 'Operations Planning and Control' vs the MBA operations-planning-control accumulator (KMBNOM02, sess 2021-22) — &/and print variant; u1 'Introduction: Meaning and objective of Production Planning & Control, functions, roles & responsibilities of PPC manager...' VERBATIM-shared; KMBOM02 unowned, joins. Tier-2 qualified per RULES §2 (same course MBA per §1b; name-variant/era class recorded). Update-first: fieldwise update; older prints corroborate code_history, newer prints win fieldwise per §3."},
+    "01_mba_tourism-mgmt_syllabus_2016-17::01::management-concepts-and-applications": {
+        "action": "RETARGET",
+        "target": "management-concepts-and-organisational-behaviour",
+        "reason": "B45 RETARGET below the fuzzy threshold on unit evidence (recorded B43 combined-print class): draft RMT101 u1 ('Management practices from past to present, Different levels of management, Managerial skills, Roles& Functions, Manager and Business environment. (7 hours)') is near-verbatim the concepts+OB accumulator's u1 ('Fundamentals of Management: Management practices from past to present, Different levels of management, Managerial skills and Managerial Functions...'); the 2016-17 RMT-era y1 name 'Management Concepts and Applications' is the era print of the same AICTE-model course. RMT101 unowned, joins code_history."},
+    "01_mba_tourism-mgmt_syllabus_2016-17::08::computer-applications-and-management-information-system": {
+        "action": "RETARGET",
+        "target": "computer-applications-in-management",
+        "reason": "B45 RETARGET below the fuzzy threshold on unit evidence: draft RMT108 u1 ('Unit I (05 hours) Introduction Hardware: (a) Input devices - keyboard, printing devices, voice speech devices, scanner, MICR, OMR, Bar code reader...') is verbatim the computer-applications-in-management row's u1 ('UNIT I (05 hours) Conceptual Framework Hardware: (a) Input devices - keyboard...'); the row already owns KMT108 (the 2018-19 tourism print of the same course) + MBA017; RMT108 joins."},
+    "01_mba_tourism-mgmt_syllabus_2016-17::13::management-accounting-control": {
+        "action": "RETARGET",
+        "target": "cost-and-management-accounting",
+        "reason": "B45 RETARGET below the fuzzy threshold on unit evidence (recorded B41 CMA class): draft RMT205 u1 ('Introduction: Nature and scope of cost Accounting and Management Accounting, Cost Accounting VS Management Accounting vs Financial Accounting') is topic-identical to the CMA accumulator's u1 ('Meaning, nature and scope of Management Accounting; Difference between management accounting and financial accounting, Cost concept...') and near-verbatim the 09::12 sibling's u1 (which the ladder itself resolved to this row at fuzzy 92/overlap 65); the '& Control' tail is the 2016-17 era print. RMT205 unowned, joins."},
+    "01_mba_tourism-mgmt_syllabus_2016-17::00::comprehaensive-viva": {
+        "action": "RETARGET",
+        "target": "comprehensive-viva",
+        "reason": "B45 RETARGET (codeless print-typo row): draft 'Comprehaensive Viva' is the VERBATIM p.2 print typo of 'Comprehensive Viva' (RULES §6 — kept in name_print with quirk); the scheme row prints NO code (no-code evidence quirk recorded); the comprehensive-viva accumulator already owns the tourism-era viva print KMT209 (2018-19), so the 2016-17 RMT-era scheme print corroborates the same accumulator. Codeless: nothing joins code_history; source_history only. Zero-GAP holds (the subject owns a row)."},
+    "07_mba_y1_model-curriculum_2018-19::07::computer-applications-and-management-information-system": {
+        "action": "RETARGET",
+        "target": "computer-applications-in-management",
+        "reason": "B45 RETARGET below the fuzzy threshold on unit evidence: draft KMB108 u1 ('UNIT I (05 hours) Conceptual Framework Hardware: (a) Input devices - keyboard...') is verbatim the row's u1; the 2018-19 scheme prints 'KMB108 COMPUTER APPLICATION IN MANAGEMENT' while the detail page (p.19) prints 'Computer Applications and Management Information System KMB108' — both forms of the same course the row owns (KMBAI105;RCS102;MBA017;KMT108); KMB108 joins."},
+    "08_mba_y1_scheme_2008-09::01::accounting-financial-analysis": {
+        "action": "RETARGET",
+        "target": "financial-accounting-and-analysis",
+        "reason": "B45 RETARGET superseding the B21 code-slot-collision auto: the 2008-09 scheme's 'Accounting & Financial Analysis' (MBA 012) is the SAME print the B44 book doc (06::02) ALLOWed onto the financial-accounting-and-analysis accumulator per the recorded B39 transposed-word-order class ('ACCOUNTING AND FINANCIAL ANALYSIS' vs 'Financial Accounting and Analysis') — collapsed-name similarity 0.70 mis-measures the transposed pair; the recorded B39/B44 adjudication governs. MBA012 stays owned by the accumulator (no transfer); the scheme row corroborates (2008-09 older -> backfill/source-history only)."},
+    "08_mba_y1_scheme_2008-09::14::managing-human-resources": {
+        "action": "RETARGET",
+        "target": "human-resource-management",
+        "reason": "B45 RETARGET superseding the B21 code-slot-collision auto per the recorded B42 context-print class ('managing-human-resources' → 'human-resource-management', printed evidence recorded in B44): the 2008-09 scheme's 'Managing Human Resources' (MBA 028) is the same print B44's book doc already consolidated onto the HRM accumulator; MBA028 stays owned (no transfer); the scheme row corroborates."},
+    "09_mba_y1_scheme_2016-17::00::management-concepts-and-application": {
+        "action": "RETARGET",
+        "target": "management-concepts-and-organisational-behaviour",
+        "reason": "B45 RETARGET on unit evidence (same row + class as 01::01): draft RMB101 u1 ('Management practices from past to present, Different levels of management, Managerial skills, Roles& Functions...') near-verbatim the accumulator's u1; the 2016-17 RMB-era y1 print is the same AICTE-model course; RMB101 unowned, joins."},
+    "09_mba_y1_scheme_2016-17::07::computer-applications-and-management-information-system": {
+        "action": "RETARGET",
+        "target": "computer-applications-in-management",
+        "reason": "B45 RETARGET on unit evidence (same row + class as 01::08): draft RMB108 u1 ('Unit I (05 hours) Conceptual Framework Hardware: (a) Input devices...') verbatim the row's u1; RMB108 unowned, joins."},
+    "09_mba_y1_scheme_2016-17::13::production-operations-and-supply-chain-management": {
+        "action": "RETARGET",
+        "target": "operations-management",
+        "reason": "B45 RETARGET below the fuzzy threshold on unit-structure evidence (recorded era-rename class): draft RMB206's five units ('Production Concept...' / 'Operation Concept...' / 'Material and Inventory Management Types of production planning...' / 'Supply Chain Management Conceptual model of SCM, Supply chain drivers...' / 'Productivity and Quality TQM, Deming's 14 principles, PDCA cycle - KAIZEN...') follow the IDENTICAL topic chain as the operations-management accumulator's units (which owns NMBA027 'Production & Operations Management' 2013-14 + RMBI405); u3/u4/u5 cores verbatim-shared. The 2016-17 name adds 'Supply Chain' (the era print of the same course). RMB206 unowned, joins."},
+    "09_mba_y1_scheme_2016-17::16::comprehaensive-viva": {
+        "action": "RETARGET",
+        "target": "comprehensive-viva",
+        "reason": "B45 RETARGET (print-typo row, same class as 01::00): draft 'Comprehaensive Viva' is the verbatim print typo of 'Comprehensive Viva'; the RMB209 code is unowned and joins the accumulator's code_history (the accumulator owns KMBI406;RMBI406;RMBI606;KMT209). Zero-GAP holds."},
+    "03_mba_tourism-mgmt_y2_model-curriculum_2019-20::10::mice-and-hospitality-management": {
+        "action": "RETARGET",
+        "target": "event-hospitality-management",
+        "reason": "B45 RETARGET to the row appended EARLIER IN THIS COMMIT by 02::10's FORCE_APPEND (intra-batch cascade; the live commit re-ladder sees the appended row): draft KMT403 u1/u2 ('Concept of MICE, Scope - Nature and Importance – Types of Events in MICE...' / 'Important Events Organization Agencies. History & Functions of ICCA, Role of ICPB...') are VERBATIM-identical to the 2017-18 RMT401 print's u1/u2 — the 2019-20 'MICE and Hospitality Management' name is the era print of the same course. 2019-20 NEWER than 2017-18 -> fieldwise wins per §3."},
+    "05_mba_travel-tourism_y1_syllabus_2020-21::09::computerized-reservation-system": {
+        "action": "RETARGET",
+        "target": "computerized-reservation-system",
+        "reason": "B45 RETARGET to the row appended EARLIER IN THIS COMMIT by 02::07 'Computerized Reservation System' (RMT305, 2017-18) — intra-batch cascade (both docs print the same-titled course; the commit re-ladder resolves): the 2020-21 KMTT201 print is newer -> fieldwise wins per §3. (If the ladder's live plan already resolves by T1 name-identity, this entry is a recorded no-op stand.)"},
+    "05_mba_travel-tourism_y1_syllabus_2020-21::13::tourism-marketing": {
+        "action": "RETARGET",
+        "target": "tourism-marketing",
+        "reason": "B45 RETARGET to the row appended EARLIER IN THIS COMMIT by 03::09 'Tourism Marketing' (KMT305? 2019-20) — intra-batch cascade stand: the 2020-21 KMTT205 print is newer -> fieldwise wins per §3. (Recorded no-op stand if the live ladder already T1-matches.)"},
+    "05_mba_travel-tourism_y1_syllabus_2020-21::15::cultural-tourism-in-india": {
+        "action": "RETARGET",
+        "target": "cultural-tourism-in-india",
+        "reason": "B45 RETARGET to the row appended EARLIER IN THIS COMMIT by 03::07 'Cultural Tourism in India' — intra-batch cascade stand: the 2020-21 KMTT207 print is newer -> fieldwise wins per §3. (Recorded no-op stand if the live ladder already T1-matches.)"},
+    "06_mba_travel-tourism_y2_syllabus_2021-22::05::global-tourism-geography": {
+        "action": "RETARGET",
+        "target": "geography-of-international-tourism",
+        "reason": "B45 RETARGET to the row appended EARLIER IN THIS COMMIT by 02::08 'Geography of International Tourism' (RMT306; 03::05 corroborates verbatim) — intra-batch cascade on the recorded B28 era-rewording class: the 2021-22 'GLOBAL TOURISM GEOGRAPHY' (KMTT305) is the AICTE redesign print of the same tourism-geography course (u1 geography-elements/climate/importance core shared; u2 IATA areas/codes/GMT is the expanded print of the maps/date-line/time core). 2021-22 NEWEST -> fieldwise wins per §3."},
+    "08_mba_y1_scheme_2008-09::27::management-of-financial-institutions-services": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "management-of-financial-institutions-and-services",
+        "keep_published_codes": {"MBAFM03": "management-of-financial-institutions-and-services"},
+        "reason": "B45 KEEP-PUBLISHED-CODE-OWNER (recorded B20/B25 class, superseding the name-transfer auto): the &-form draft name is the print variant of the AND-form accumulator that ALREADY owns MBAFM03 (consolidated in B44 from the 2008-09 book's MBA FM 03 detail print); the 2004-05 MBAFM3 row is a DIFFERENT token (MBAFM3 vs MBAFM03) and keeps its own row; the 2008-09 scheme print corroborates the accumulator (older -> backfill/source-history only). G2 clean: no transfer."},
+    "08_mba_y1_scheme_2008-09::28::tax-panning-financial-reporting": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "tax-planning-management",
+        "keep_published_codes": {"MBAFM04": "tax-planning-management"},
+        "reason": "B45 KEEP-PUBLISHED-CODE-OWNER (B20/B25 class, superseding the name-transfer auto): the scheme's 'Tax Panning & Financial Reporting' is the print of MBA FM 04 whose B44 label-verification recorded the book's own print as 'TAX PLANNING AND MANAGEMENT' (zero-guess page-anchored verification); 'Panning' is a verbatim print typo of 'Planning' (RULES §6 — kept in name_print with quirk) and the accumulator already owns MBAFM04. G2 clean: no transfer."},
+    "08_mba_y1_scheme_2008-09::43::sales-distribution-management": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "sales-and-distribution-management",
+        "keep_published_codes": {"MBAMK03": "sales-and-distribution-management"},
+        "reason": "B45 KEEP-PUBLISHED-CODE-OWNER (B20/B25 class, superseding the name-transfer auto): the &-form draft name is the print variant of the AND-form accumulator that ALREADY owns MBAMK03 (B44 book consolidation); the RMBMK01-era sales-distribution-management row keeps its own row pending the owner's variant-name reconciliation (recorded open item); the 2008-09 scheme print corroborates the accumulator. G2 clean: no transfer."},
+    "02_mba_tourism-mgmt_syllabus_2017-18::10::event-hospitality-management": {
+        "action": "FORCE_APPEND",
+        "reason": "B45 wrong-subject FORCE_APPEND (recorded B28 same-core-different-tail split class): draft 'Event & Hospitality Management' (RMT401, 2017-18) units I-III are the MICE/EVENT core ('Concept of MICE...', 'Important Events Organization Agencies. History & Functions of ICCA, Role of ICPB...', 'Introduction to Event Planning...') with ZERO counterpart in the hospitality-management row (RMBI802;MBAOP02 — all five units are hotel/hospitality operations: front office, housekeeping, F&B, supporting departments, hotel economics); units IV-V overlap the hotel core topically only. Updating the row would (a) drop the MICE units (older session -> backfill-only) violating zero-GAP, or (b) overwrite the hotel accumulator with a combined-events design. The draft appends as its own row; crossref note to hospitality-management recorded in quirks. The 2019-20 KMT403 sibling (03::10) RETARGETs onto this row (verbatim u1/u2)."},
     # --- B44 commit-run adjudications (adjudicate_b44 marker) ---
     "01_mba_healthcare-hospital_s2_syllabus_2022-23::04::operation-research": {
         "action": "ALLOW",
