@@ -15,7 +15,8 @@ Prints VERIFY|<stem>|PASS / VERIFY|<stem>|FAIL|<detail...>; writes
 """
 import json, os, sys, re, glob
 
-CODE_RE = re.compile(r"\b([A-Z]{2,4})\s?-?(\d{3})([A-Z]?)\b")
+# ISBN978 guard (B38 evidence: doc 07 books page prints ISBN978...; the GAP scan matched SBN978 as a code token — ISBN-prefixed strings are book identifiers, not subject codes)
+CODE_RE = re.compile(r"(?<!ISBN)(?<!Isbn)\b([A-Z]{2,4})\s?-?(\d{3})([A-Z]?)\b(?!\d)")
 LTP_RE = re.compile(r"\b\d\s?-\s?\d\s?-\s?\d\b")
 
 
@@ -388,6 +389,11 @@ def main():
             if LTP_RE.search(ls) or re.search(r"\b\d{2,3}\b.*\b\d{2,3}\b", ls):
                 if len(ls) < 200:
                     for m in CODE_RE.finditer(ls):
+                        # ISBN978 guard (B38 evidence: doc 07 books page prints
+                        # 'ISBN978-...' — the 4-letter head 'ISBN' matches
+                        # [A-Z]{2,4}; a book identifier is not a subject code)
+                        if m.group(1).upper() == "ISBN" or ls[max(0, m.start() - 4):m.start()].upper().endswith("ISBN"):
+                            continue
                         pdf_codes_scheme.add(m.group(1) + m.group(2) + (m.group(3) or ""))
         # only treat as GAP codes that look like syllabus codes (exclude pure table noise: require code appears >=2 times overall OR on a line with a word)
         text_all = full
