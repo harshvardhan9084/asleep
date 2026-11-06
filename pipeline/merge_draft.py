@@ -973,6 +973,33 @@ TIER2_OVERRIDES = {
     "02_btech_y4s8_open-elective-3-4-list_2025-26::13::data-warehousing-data-mining": {
         "action": "RETARGET", "target": "data-warehousing-and-data-mining",
         "reason": "B41 TIE resolution (same row + class as 01::12): the 2025-26 OE-IV doc prints the identical course as BOE-093 (corroborating print); converges on data-warehousing-and-data-mining per the B39 word-order precedent. BOE093 unowned, accumulates."},
+    "01_mba-integrated_y3_syllabus_2026-27::08::corporate-governance-ethics": {
+        "action": "ALLOW",
+        "reason": "B42 TIER2 same-subject ALLOW (fuzzy 86, overlap 22): draft 'Corporate Governance & Ethics' (BMBAI603, MBA 2026-27 y3 NEP print) vs the MBA business-ethics-corporate-governance accumulator (KMBI601;RMBI601, sess 2020-21) — transposed word-order print variant of the same two-concept course (recorded B39 word-order class; same course MBA per §1b so the cross-course guard does not apply). Tier-2 qualified: fuzzy 86 >= 85 with 22 shared distinctive unit terms >= 3. Update-first: the 2026-27 print is the newer session — fieldwise update of the existing MBA row; BMBAI603 unowned, accumulates into code_history."},
+    "10_mba_banking-fin-services_y2_syllabus_2025-26::06::customer-relationship-management-in-bfsi": {
+        "action": "ALLOW",
+        "reason": "B42 TIER2 same-subject ALLOW (fuzzy 89, overlap 26): draft 'CUSTOMER RELATIONSHIP MANAGEMENT IN BFSI' (BMBF-307, MBA 2025-26 Banking-Financial-Services specialization print) vs the MBA customer-relationship-management row (BMBAI306, sess 2025-26, established by the 2025-26 MBA-integrated y2 print) — same course MBA per §1b; draft unit-I explicitly covers the generic CRM core ('Concept, Evolution and Importance of CRM; CRM in Banking, Financial Services and Insurance; CRM Process; Customer Life Cycle; Customer Expectations and Satisfaction...') i.e. the BFSI-context print of the MBA CRM course, NOT a divergent-tail split (recorded B28 same-core-different-tail class does not apply: 26 shared distinctive terms). Tier-2 qualified: fuzzy 89 >= 85, overlap 26 >= 3. Update-first: fieldwise update; BMBF-307 unowned, accumulates into code_history with the BFSI print recorded in source_history."},
+    "09_mba_banking-fin-services_y1_syllabus_2025-26::02::financial-accounting-analysis": {
+        "action": "ALLOW",
+        "reason": "B42-live TIER2 same-subject ALLOW (fuzzy 94, overlap 102): draft 'FINANCIAL ACCOUNTING& ANALYSIS' (BMBF 103, MBA 2025-26 BFSI y1 print) vs the MBA financial-accounting accumulator — 102 shared distinctive unit terms is conclusive same-subject evidence (B41 ALLOW class cited overlaps 70-88); same course MBA per §1b. Update-first: 2025-26 is the newest session — fieldwise update; BMBF103 accumulates."},
+    "09_mba_banking-fin-services_y1_syllabus_2025-26::10::quantitative-techniques-for-managers": {
+        "action": "ALLOW",
+        "reason": "B42-live TIER2 same-subject ALLOW (fuzzy 99, overlap 111): draft 'QUANTITATIVE TECHNIQUES FOR MANAGERS' (BMBF 206, MBA 2025-26 BFSI y1 print) vs the MBA quantitative-techniques accumulator — 111 shared distinctive unit terms, conclusive; same course MBA. Update-first fieldwise update; BMBF206 accumulates."},
+    "10_mba_banking-fin-services_y2_syllabus_2025-26::01::financial-credit-and-risk-analysis": {
+        "action": "ALLOW",
+        "reason": "B42-live TIER2 name-identity ALLOW (fuzzy 100, overlap 0): draft 'FINANCIAL CREDIT AND RISK ANALYSIS' (BMBF 351-era BFSI y2 2025-26 print) vs the same-named MBA row established this same batch from the 2022-23 MBA-integrated y5 print (KMBIFM05, objectives_only_no_units_printed — its units column is empty by print design) — overlap 0 is an artifact of the empty-units counterpart, not divergence; name-identity + same course MBA + same finance-specialization family per the update-first rule. Fieldwise update; the BFSI code accumulates with both prints in source_history."},
+    "10_mba_banking-fin-services_y2_syllabus_2025-26::03::investment-and-portfolio-management": {
+        "action": "ALLOW",
+        "reason": "B42-live TIER2 same-subject ALLOW (fuzzy 89, overlap 43): draft 'INVESTMENT AND PORTFOLIO MANAGEMENT' (BMBF 2025-26 BFSI y2 print) vs the MBA investment-management accumulator — 43 shared distinctive unit terms, conclusive; same course MBA. Update-first fieldwise update; the BFSI code accumulates."},
+    "10_mba_banking-fin-services_y2_syllabus_2025-26::05::financial-markets-and-services": {
+        "action": "ALLOW",
+        "reason": "B42-live TIER2 same-subject ALLOW (fuzzy 87, overlap 60): draft 'FINANCIAL MARKETS AND SERVICES' (BMBF 2025-26 BFSI y2 print) vs the MBA financial-markets accumulator — 60 shared distinctive unit terms, conclusive; same course MBA. Update-first fieldwise update; the BFSI code accumulates."},
+    "10_mba_banking-fin-services_y2_syllabus_2025-26::10::foreign-exchange-and-risk-management": {
+        "action": "ALLOW",
+        "reason": "B42-live TIER2 same-subject ALLOW (fuzzy 86, overlap 73): draft 'FOREIGN EXCHANGE AND RISK MANAGEMENT' (BMBF 2025-26 BFSI y2 print) vs the MBA foreign-exchange accumulator — 73 shared distinctive unit terms, conclusive; same course MBA. Update-first fieldwise update; the BFSI code accumulates."},
+    "10_mba_banking-fin-services_y2_syllabus_2025-26::13::research-project-report-and-viva-voce": {
+        "action": "ALLOW",
+        "reason": "B42-live TIER2 name-identity ALLOW (fuzzy 94, overlap 0): draft 'RESEARCH PROJECT REPORT AND VIVA VOCE' (BMBF-451, MBA 2025-26 BFSI y2 print) vs the same-named MBA project row established this same batch (KMBI1051 scheme_row_only print, 2022-23 — project/viva rows carry no unit structure by print design, so overlap 0 is an artifact); same course MBA, identical course genre per the recorded B41 lab/project row class. Update-first fieldwise update; BMBF-451 accumulates with both prints in source_history."},
     # --- B40 commit-run adjudications (adjudicate_b40 marker) ---
     "03_btech_y3s6_open-elective-1_2020-21::06::understanding-human-being-nature-and-existence-comprehensive": {
         "action": "RETARGET", "target": "understanding-human-being-nature-and-existence-comprehensive",

@@ -28,45 +28,130 @@ for line in open(ENV):
         k, v = line.split("=", 1)
         _cfg[k] = v
 BASE = _cfg["MERCURY_BASE_URL"].rstrip("/")
-KEY = _cfg["MERCURY_API_KEY"]
 MODEL = _cfg.get("MERCURY_MODEL", "mercury-3")
 
 
-def chat(messages, max_tokens=8000, temperature=0.5, json_mode=True, retries=5):
+def _key_pool():
+    """Owner 5-key pool (2026-11-06): rotate every call; crying keys rest, never die."""
+    keys = []
+    for i in range(1, 6):
+        k = (_cfg.get("INCEPTIONLABS_API_KEY" if i == 1 else "INCEPTIONLABS_API_KEY_%d" % i) or "").strip()
+        if k and not k.upper().startswith("PENDING"):
+            keys.append(k)
+    if not keys:
+        k = (_cfg.get("MERCURY_API_KEY") or "").strip()
+        if k:
+            keys.append(k)
+    return keys
+
+
+KEYS = _key_pool()
+REST_S = float(_cfg.get("INCEPTIONLABS_COOLDOWN_SECONDS", "") or 300)
+STATS = "/home/z/my-project/work/pipeline_v2/mercury_stats.json"
+import fcntl as _fcntl
+import threading as _threading
+_TL = _threading.Lock()
+_ROT = {"i": 0}
+_CD = {}
+
+
+def _stats(fn):
+    """Cross-process-safe stats merge (flock) — same file mercury_call.py uses."""
+    os.makedirs(os.path.dirname(STATS), exist_ok=True)
+    with _TL:
+        with open(STATS + ".lock", "a") as lf:
+            _fcntl.flock(lf, _fcntl.LOCK_EX)
+            try:
+                st = json.load(open(STATS))
+            except Exception:
+                st = {"totals": {}, "per_key": {}}
+            st.setdefault("totals", {})
+            st.setdefault("per_key", {})
+            r = fn(st)
+            st["keys_active"] = len(KEYS)
+            json.dump(st, open(STATS, "w"), indent=1, sort_keys=True)
+            _fcntl.flock(lf, _fcntl.LOCK_UN)
+    return r
+
+
+def _bump(st, klabel, field, rest=False):
+    pk = st["per_key"].setdefault(klabel, {})
+    pk["calls"] = pk.get("calls", 0) + 1
+    pk[field] = pk.get(field, 0) + 1
+    st["totals"][field] = st["totals"].get(field, 0) + 1
+    if rest:
+        pk["cooldown_until"] = time.time() + REST_S
+        pk["cooldown_count"] = pk.get("cooldown_count", 0) + 1
+
+
+def chat(messages, max_tokens=8000, temperature=0.5, json_mode=True, retries=8):
     body = {"model": MODEL, "messages": messages, "max_tokens": max_tokens,
             "temperature": temperature}
     if json_mode:
         body["response_format"] = {"type": "json_object"}
     last = None
     for attempt in range(retries + 1):
+        now = time.time()
+
+        def _pick(st):
+            for i in range(len(KEYS)):
+                cd = float(st["per_key"].get(str(i + 1), {}).get("cooldown_until", 0) or 0)
+                if cd > now:
+                    _CD[i] = max(_CD.get(i, 0), cd)
+            elig = [i for i in range(len(KEYS)) if _CD.get(i, 0) <= now]
+            if not elig:
+                return -1
+            i = elig[_ROT["i"] % len(elig)]
+            _ROT["i"] += 1
+            return i
+
+        i = _stats(_pick)
+        if i < 0:  # every key resting — let them rest (owner directive), then retry
+            wake = min(_CD.values()) if _CD else now + REST_S
+            last = "all %d keys resting" % len(KEYS)
+            time.sleep(max(5, min(60, wake - time.time())))
+            continue
+        klabel = str(i + 1)
         try:
             req = urllib.request.Request(
                 BASE + "/chat/completions",
                 data=json.dumps(body).encode(),
-                headers={"Authorization": "Bearer " + KEY,
+                headers={"Authorization": "Bearer " + KEYS[i],
                          "Content-Type": "application/json"})
             with urllib.request.urlopen(req, timeout=240) as r:
                 out = json.loads(r.read())
             msg = out["choices"][0]["message"]
             fr = out["choices"][0].get("finish_reason")
             if msg.get("content") is None:
-                last = f"empty content (finish_reason={fr}, usage={out.get('usage',{}).get('completion_tokens')})"
+                last = f"empty content (key {klabel}, finish_reason={fr})"
+                _stats(lambda st: _bump(st, klabel, "empty", rest=True))
+                _CD[i] = time.time() + REST_S
                 if fr == "length":
                     body["max_tokens"] = min(60000, int(body["max_tokens"] * 2))
-                time.sleep(4)
+                time.sleep(3)
                 continue
+            _stats(lambda st: _bump(st, klabel, "ok"))
             return json.loads(msg["content"])
         except urllib.error.HTTPError as e:
             err = e.read()[:200]
-            last = f"HTTP {e.code}: {err!r}"
-            if e.code == 429:  # rate-limited: back off hard, honor Retry-After
-                wait = float(e.headers.get("Retry-After") or 0) or min(90, 15 * (attempt + 1))
-                time.sleep(wait)
+            last = f"HTTP {e.code} (key {klabel}): {err!r}"
+            if e.code in (429, 402) or e.code >= 500:
+                _stats(lambda st, code=e.code: _bump(
+                    st, klabel, "http_429" if code == 429 else "key_fail", rest=True))
+                _CD[i] = time.time() + REST_S
+                if e.code == 429:  # honor Retry-After, then rotate to the next key
+                    time.sleep(float(e.headers.get("Retry-After") or 0) or min(20, 4 * (attempt + 1)))
+                    continue
+                time.sleep(2)
                 continue
+            _stats(lambda st: _bump(st, klabel, "key_fail"))
+            if e.code in (401, 403):  # auth rejected: rest this key too
+                _CD[i] = time.time() + REST_S
         except Exception as e:  # noqa: BLE001 — engine retries any transport error
-            last = repr(e)[:200]
+            last = repr(e)[:200] + f" (key {klabel})"
+            _stats(lambda st: _bump(st, klabel, "network_fail"))
         if attempt < retries:
-            time.sleep(min(60, 10 * (attempt + 1)))
+            time.sleep(min(30, 4 * (attempt + 1)))
     raise RuntimeError(f"mercury chat failed after {retries+1} attempts: {last}")
 
 
@@ -315,9 +400,27 @@ def draft_doc(parsed_dir, drafts_dir, stem):
     fulltext = open(f"{parsed_dir}/{stem}.fulltext.txt").read()
     PAGES = pages_of(fulltext)
     sha16 = meta.get("sha16", "")
-    inv, subs = inventory(pdf_name, fulltext, session, course)
-    print(f"INVENTORY|{stem}|{len(subs)} subjects (detail {sum(1 for s in subs if s.get('class')=='detail')}, "
-          f"scheme_only {sum(1 for s in subs if s.get('class')!='detail')})")
+    # Inventory cache (bounded-round/resume class): never re-pay the inventory
+    # call once validated; b37_resume.py reads the same file.
+    INVP = f"/home/z/my-project/work/pipeline_v2/inv/{stem}.inv.json"
+    if os.path.exists(INVP):
+        try:
+            subs = json.load(open(INVP))
+            inv = {"doc_title_print": ""}
+            print(f"INVENTORY|{stem}|{len(subs)} subjects (cached)")
+        except Exception:
+            subs = None
+    else:
+        subs = None
+    if subs is None:
+        inv, subs = inventory(pdf_name, fulltext, session, course)
+        try:
+            os.makedirs(os.path.dirname(INVP), exist_ok=True)
+            json.dump(subs, open(INVP, "w"), indent=1, ensure_ascii=False)
+        except Exception:
+            pass
+        print(f"INVENTORY|{stem}|{len(subs)} subjects (detail {sum(1 for s in subs if s.get('class')=='detail')}, "
+              f"scheme_only {sum(1 for s in subs if s.get('class')!='detail')})")
     draft = {"pdf_rel": pdf_rel, "session": session, "course": course, "sha16": sha16,
              "stem": stem, "subjects": [], "non_subject_rows": [],
              "quirks": [f"doc_title_print: {inv.get('doc_title_print','')}"] if inv.get("doc_title_print") else [],
