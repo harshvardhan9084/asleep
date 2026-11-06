@@ -1,3 +1,7 @@
+# CRON-20261106-B40 — B40 — 2026-11-06
+
+rows 2494→2505, codes 5214→5271, +11 appends/~122 updates/!0 repairs (OE universe + 2016-17 NIC + 2025-26 NEP waves)
+
 # CRON-20261106-B39 — B39 — 2026-11-06
 
 rows-2469-to-2494-codes-5129-to-5214-25-appends-143-updates-0-repairs
