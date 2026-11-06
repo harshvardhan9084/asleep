@@ -611,9 +611,46 @@
     "Lab content is printed as three sections ('I. Mould Design using CAD', 'II. CAM Programming', 'III: Mould flow Analysis') instead of a numbered experiment list; section III header prints with a colon ('III:').",
     "Section II prints 'Gide Pillar' (as printed).",
     "Section I item d) prints '2 D /3 D' (spacing as printed).",
-    "Marks taken from printed Semester-V scheme row 8, p.3: PS 25, PE 25, Total 50, Credit 1 (CT/TA/Total-sessional/TE printed blank)."
+    "Marks taken from printed Semester-V scheme row 8, p.3: PS 25, PE 25, Total 50, Credit 1 (CT/TA/Total-sessional/TE printed blank).",
+    "Lab content printed as three lettered sections (I./II./'III:' with colon, p.13), not units and not a numbered experiment list; sections transcribed verbatim into experiments with their printed labels; flagged practical_sections_only_no_units_printed (evidence: p.13 fulltext)."
    ],
-   "flags": []
+   "flags": [
+    "practical_sections_only_no_units_printed"
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "I. Mould Design using CAD — a) Injection Mould design: Design calculations for No. of cavities, Selection of injection moulding machine, shot capacity, plasticizing rate, Clamping force and 2 D / 3 D Modeling for Two plate, Three Plate and split Moulds"
+    },
+    {
+     "no": 2,
+     "exp": "I. Mould Design using CAD — b) Compression Mould Design: Design calculations for No. of cavities, Flash thickness allowances, Design of loading chamber, Bulk factor, Pressure pad, Heaters and 2 D / 3 D Modeling for Compression Mould."
+    },
+    {
+     "no": 3,
+     "exp": "I. Mould Design using CAD — c) Transfer Mould Design: Design calculations for Pot, Bulk factor, Heaters and 2 D / 3 D Modeling for Pot and Plunger transfer Moulds."
+    },
+    {
+     "no": 4,
+     "exp": "I. Mould Design using CAD — d) Blow Mould Design: Design calculations for Clamping force, pinch-off, Head die design, Parison dimensions and 2 D /3 D Modeling for Blow Mould."
+    },
+    {
+     "no": 5,
+     "exp": "II. CAM Programming — Programming and Machining of mould elements (Core, Cavity, Gide Pillar and Guide Bush) using CNC Turning Center and CNC Machining Center."
+    },
+    {
+     "no": 6,
+     "exp": "III: Mould flow Analysis — a) Design Optimization of Plastic Part, Mould and Process parameters optimization using Moldflow Software"
+    },
+    {
+     "no": 7,
+     "exp": "III: Mould flow Analysis — b) Modeling, Mesh Creation, Mesh Checking, Surface repair, Creating Feed system and cooling system."
+    },
+    {
+     "no": 8,
+     "exp": "III: Mould flow Analysis — c) Analysis: Gate location, Moulding window Fill, Flow, Cool, Pack, Warp, Shrinkage, Stress"
+    }
+   ]
   },
   {
    "name": "Plastic Product & Mould Design",
@@ -2266,7 +2303,7 @@
     },
     {
      "no": 2,
-     "text": "Understand of the theories of composite formation and mechanism of load transfer",
+     "text": "Understand of theories of composite formation and mechanism of load transfer",
      "kl": "K2"
     },
     {
@@ -2321,7 +2358,8 @@
     "Contents table (p.2) prints the name as 'Polymer composites' (lowercase c); subject page title prints 'Polymer Composites'.",
     "Unit 3 prints 'wood floor' (for wood flour, as printed) and 'natural fiber' (as printed).",
     "Unit 4 carries an extra sub-heading 'miscellaneous methods' (as printed); Unit 5 carries extra sub-headings 'Testing Quality control & end use of Composites' and 'Application of composite' printed on p.47 (as printed).",
-    "Marks (CT 30/TA 20/Total 50/TE 100/Total 150) taken from printed Semester-VII scheme row 2 'Departmental Elective‐IV', p.45 (scheme effective in Session 2021‐22, Yet to finalized)."
+    "Marks (CT 30/TA 20/Total 50/TE 100/Total 150) taken from printed Semester-VII scheme row 2 'Departmental Elective‐IV', p.45 (scheme effective in Session 2021‐22, Yet to finalized).",
+    "CO-2 transcription carried an inserted 'the' ('Understand of the theories'); print p.46 reads 'Understand of theories of composite formation and mechanism of load transfer' — restored verbatim to print (clean text layer, no garbling)."
    ],
    "flags": []
   },

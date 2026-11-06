@@ -1,0 +1,345 @@
+{
+ "pdf_rel": "",
+ "session": "",
+ "course": "BTech",
+ "sha16": "e06e654542e476ed",
+ "stem": "09_btech_vlsi_y4_syllabus_2026-27",
+ "subjects": [
+  {
+   "name": "VLSI Design",
+   "name_print": "VLSI Design",
+   "codes": [
+    "BEC-701"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Introduction: VLSI Design flow, general design methodologies; \ncritical path and worst-case timing analysis, overview of design \nhierarchy, layers of abstraction, integration density and Moore's \nlaw, VLSI design styles, \npackaging, \nCMOS Logic, Propagation Delay definitions, sheet\nresistance.",
+    "2": "Interconnect \nParameters: \nResistance, \nInductance, \nand \nCapacitance, skin effect and its influence, lumped RC Model, the \ndistributed RC Model, transient Response, RC delay model, Linear \nDelay Model, Logical Effort of Paths, Scaling.",
+    "3": "Dynamic CMOS design: steady-state behavior of dynamic gate \ncircuits, noise considerations in dynamic design, charge sharing, \ncascading dynamic gates, domino logic, np-CMOS logic, problems \nin single-phase clocking, two- phase non-overlapping clocking \nscheme, Sequential CMOS Logic Circuits, \nLayout design.",
+    "4": "Semiconductor Memories: Dynamic Random Access Memories \n(DRAM), Static RAM, non-volatile memories, flash memories, \nPipeline Architecture. \nLow – Power CMOS Logic Circuits: Introduction, Overview of\nPower \nConsumption, Low – Power Design through voltage scaling,",
+    "5": "Introduction to Testing: Faults in digital circuits. Modeling of \nfaults, Functional Modeling at the Logic Level, Functional \nModeling at the Register, Structural Model and Level of Modeling. \nDesign for Testability, Ad Hoc Design for Testability Techniques, \nControllability and Observability, Introduction to Built-in-self-test \n(BIST) Concept."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Express the concept of VLSI design and CMOS circuits and delay study.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Analyze mathematical methods and circuit analysis models in analysis of CMOS digital electronics circuits.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Design and analyze various combinational & sequential circuits based on CMOS technology.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Examine power logic circuits and different semiconductor memories used in present day technology.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Interpret faults in digital circuits, Fault Models and various Testing Methodologies.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Sung-Mo Kang & Yosuf Leblebici, “CMOS Digital Integrated Circuits: Analysis & Design”,Mcgraw Hill, 4th Edition."
+    },
+    {
+     "no": 2,
+     "book": "Neil H.E.Weste, David Money Harris, “CMOS VLSI Design – A circuits and Systems Perspective” Pearson, 4th Edition."
+    },
+    {
+     "no": 3,
+     "book": "D. A. Pucknell and K. Eshraghian, “Basic VLSI Design: Systems and Circuits”, PHI, 3rd Ed.,1994."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "R. J. Baker, H. W. Li, and D. E. Boyce , \" CMOS circuit design, layout, and simulation\", Wiley-IEEE Press, 2007."
+    },
+    {
+     "no": 2,
+     "book": "M. Abramovici, M.A. Breuer and A.D. Friedman, \"Digital Systems and Testable Design\" , Jaico Publishing House."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "VLSI Design Lab",
+   "name_print": "VLSI Design Lab",
+   "codes": [
+    "BEC-751"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": null,
+   "subject_type": "lab",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Designing of logic gates.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Implementation of combinational and sequential circuits using CMOS logic.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Analyze amplifier circuits.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Design sequential circuits such as flip flop.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Do the layout designing for physical analysis of the MOS transistor and MOS based\ncircuits.",
+     "kl": null
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design and analysis of basic of logic Gates: AND, OR, NOT, NAND, NOR, XOR, XNOR."
+    },
+    {
+     "no": 2,
+     "exp": "Design and implementation of Half adder and Full adder using CMOS logic."
+    },
+    {
+     "no": 3,
+     "exp": "To simulate the schematic of the common drain amplifier."
+    },
+    {
+     "no": 4,
+     "exp": "To simulate the schematic of the differential amplifier."
+    },
+    {
+     "no": 5,
+     "exp": "To simulate the schematic of the operational amplifier."
+    },
+    {
+     "no": 6,
+     "exp": "Design of 3-8 decoder using MOS technology."
+    },
+    {
+     "no": 7,
+     "exp": "Design a 4:1 Multiplexer."
+    },
+    {
+     "no": 8,
+     "exp": "Design and implementation of Flip flop circuit."
+    },
+    {
+     "no": 9,
+     "exp": "Layout design of PMOS, NMOS transistors."
+    },
+    {
+     "no": 10,
+     "exp": "Layout design of CMOS inverter and its analysis."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Typo in experiment 1: 'basic of logic Gates' should likely be 'basic logic gates'",
+    "Inconsistent spelling: 'Flip flop' vs 'flip flop'",
+    "Line break in CO5: 'MOS based\ncircuits.'"
+   ],
+   "flags": []
+  },
+  {
+   "name_print": "Mini Project or \nInternship \nAssessment*",
+   "codes": [
+    "BEC752"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": null,
+    "ese_te_pe": null,
+    "total": 100
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Mini Project or \nInternship \nAssessment*"
+  },
+  {
+   "name_print": "Project-I",
+   "codes": [
+    "BEC753"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 10
+   },
+   "credit": 5,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": null,
+    "ese_te_pe": null,
+    "total": 150
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Project-I"
+  },
+  {
+   "name_print": "Start-up and \nEntrepreneurial \nActivity Assessment#",
+   "codes": [
+    "BEC754"
+   ],
+   "semester": 7,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": null,
+    "ese_te_pe": null,
+    "total": 100
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Start-up and \nEntrepreneurial \nActivity Assessment#"
+  },
+  {
+   "name_print": "Drone Systems: Design, Control & Navigation",
+   "codes": [
+    "BEC-074"
+   ],
+   "semester": 7,
+   "ltp": null,
+   "credit": null,
+   "marks": null,
+   "subject_type": "Department Elective-IV",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Drone Systems: Design, Control & Navigation"
+  },
+  {
+   "name_print": "ASIC Design and Verification",
+   "codes": [
+    "BEC-076"
+   ],
+   "semester": 7,
+   "ltp": null,
+   "credit": null,
+   "marks": null,
+   "subject_type": "Department Elective-IV",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "ASIC Design and Verification"
+  },
+  {
+   "name_print": "Mixed Signal Circuits",
+   "codes": [
+    "BEC-077"
+   ],
+   "semester": 7,
+   "ltp": null,
+   "credit": null,
+   "marks": null,
+   "subject_type": "Department Elective-IV",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Mixed Signal Circuits"
+  },
+  {
+   "name_print": "VLSI Design Flow: RTL to GDS",
+   "codes": [
+    "BEC-078"
+   ],
+   "semester": 7,
+   "ltp": null,
+   "credit": null,
+   "marks": null,
+   "subject_type": "Department Elective-IV",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "VLSI Design Flow: RTL to GDS"
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [],
+ "flags": []
+}

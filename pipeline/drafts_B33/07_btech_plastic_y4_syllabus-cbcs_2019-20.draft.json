@@ -759,7 +759,9 @@
     "SCHEME-ROW-ONLY: RPL753 INDUSTRIAL TRAINING appears only in the VII-semester scheme table (p.2, row 8: 'RPL753 INDUSTRIAL TRAINING Core Dept. 0-0-3 [blank] [blank] 100 100 2'); NO detailed syllabus, units, COs or books are printed anywhere in this document.",
     "Marks read as Sessional 100, Total 100 from row values (ESE and CT cells blank in the printed row; VII TOTAL row ESE 450 = 70x5+50+50 contains no Industrial Training component)."
    ],
-   "flags": []
+   "flags": [
+    "scheme_only_print"
+   ]
   },
   {
    "name": "Project-1",
@@ -784,7 +786,9 @@
     "Marks read as Sessional 200, Total 200 (VII TOTAL row ESE 450 contains no Project component).",
     "Same subject name family 'Project' as VIII-semester RPL852 PROJECT-2 (different code, semester, credits) — kept as separate rows."
    ],
-   "flags": []
+   "flags": [
+    "scheme_only_print"
+   ]
   },
   {
    "name": "Plastic Waste Management",
@@ -1218,7 +1222,9 @@
     "SCHEME-ROW-ONLY: RPL851 SEMINAR appears only in the VIII-semester scheme table (p.3, row 4: 'RPL851 SEMINAR Core Dept. 0-0-3 [blank] [blank] 100 100 2'); NO detailed syllabus, units, COs or books are printed anywhere in this document.",
     "Marks read as Sessional 100, Total 100 from row values (ESE and CT cells blank in the printed row; VIII TOTAL row ESE 560 = 70x3+350 contains no Seminar component)."
    ],
-   "flags": []
+   "flags": [
+    "scheme_only_print"
+   ]
   },
   {
    "name": "Project-2",
@@ -1244,7 +1250,9 @@
     "Marks read as ESE 350, Sessional 250, Total 600 (VIII TOTAL row ESE 560 = 70+70+70+350 confirms 350 in the ESE column; sessional 380 = 10+10+10+100+250).",
     "Same subject name family 'Project' as VII-semester RPL754 PROJECT-1 (different code, semester, credits) — kept as separate rows."
    ],
-   "flags": []
+   "flags": [
+    "scheme_only_print"
+   ]
   }
  ],
  "non_subject_rows": [

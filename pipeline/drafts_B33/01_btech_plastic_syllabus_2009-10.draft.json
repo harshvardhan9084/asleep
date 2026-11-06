@@ -2204,78 +2204,78 @@
    "experiments": [
     {
      "no": 1,
-     "exp": "A. CAD Experiments — Line Drawing or Circle Drawing experiment: Writing and validation of computer program."
+     "exp": "Line Drawing or Circle Drawing experiment: Writing and validation of computer program."
     },
     {
      "no": 2,
-     "exp": "A. CAD Experiments — Geometric Transformation algorithm experiment for translation/rotation/scaling: Writing and validation of computer program."
+     "exp": "Geometric Transformation algorithm experiment for translation/rotation/scaling: Writing and validation of computer program."
     },
     {
      "no": 3,
-     "exp": "A. CAD Experiments — Design of machine component or other system experiment: Writing and validation of computer program."
+     "exp": "Design of machine component or other system experiment: Writing and validation of computer program."
     },
     {
      "no": 4,
-     "exp": "A. CAD Experiments — Understanding and use of any 3-D Modeling Software commands."
+     "exp": "Understanding and use of any 3-D Modeling Software commands."
     },
     {
      "no": 5,
-     "exp": "A. CAD Experiments — Pro/E/Idea etc. Experiment: Solid modeling of a machine component"
+     "exp": "Pro/E/Idea etc. Experiment: Solid modeling of a machine component"
     },
     {
      "no": 6,
-     "exp": "A. CAD Experiments — Writing a small program for FEM for 2 spring system and validation of program or using a fem Package"
+     "exp": "Writing a small program for FEM for 2 spring system and validation of program or using a fem Package"
     },
     {
      "no": 7,
-     "exp": "A. CAD Experiments — Root findings or curve fitting experiment: Writing and validation of computer program."
+     "exp": "Root findings or curve fitting experiment: Writing and validation of computer program."
     },
     {
      "no": 8,
-     "exp": "A. CAD Experiments — Numerical differentiation or numerical integration experiment: Writing and validation of computer program."
+     "exp": "Numerical differentiation or numerical integration experiment: Writing and validation of computer program."
     },
     {
      "no": 9,
-     "exp": "B. CAM Experiments — To study the characteristic features of CNC machine"
+     "exp": "To study the characteristic features of CNC machine"
     },
     {
      "no": 10,
-     "exp": "B. CAM Experiments — Part Programming (in word address format) experiment for turning operation (including operations such as grooving and threading) and running on CNC machine"
+     "exp": "Part Programming (in word address format) experiment for turning operation (including operations such as grooving and threading) and running on CNC machine"
     },
     {
      "no": 11,
-     "exp": "B. CAM Experiments — Part Programming (in word address format or ATP) experiment for drilling operation (point to point) and running on CNC machine"
+     "exp": "Part Programming (in word address format or ATP) experiment for drilling operation (point to point) and running on CNC machine"
     },
     {
      "no": 12,
-     "exp": "B. CAM Experiments — Part Programming (in word address format or ATP) experiment for milling operation (contouring) and running on CNC machine"
+     "exp": "Part Programming (in word address format or ATP) experiment for milling operation (contouring) and running on CNC machine"
     },
     {
      "no": 13,
-     "exp": "B. CAM Experiments — Experiment on Robot and programs"
+     "exp": "Experiment on Robot and programs"
     },
     {
      "no": 14,
-     "exp": "B. CAM Experiments — Experiment on Transfer line/Material handling"
+     "exp": "Experiment on Transfer line/Material handling"
     },
     {
      "no": 15,
-     "exp": "B. CAM Experiments — Experiment on difference between ordinary and NC machine, study or retrofitting"
+     "exp": "Experiment on difference between ordinary and NC machine, study or retrofitting"
     },
     {
      "no": 16,
-     "exp": "B. CAM Experiments — Experiment on study of system devices such as motors and feed back devices"
+     "exp": "Experiment on study of system devices such as motors and feed back devices"
     },
     {
      "no": 17,
-     "exp": "B. CAM Experiments — Experiment on Mechatronics and controls"
+     "exp": "Experiment on Mechatronics and controls"
     }
    ],
    "objectives_print": [],
    "eligibility_print": "",
    "prerequisites": "",
    "quirks": [
-    "Printed note: 'Total TEN Experiments are to carried out. FIVE Experiments each from CAD and CAM.' but the lists print EIGHT CAD experiments (A1-A8) and NINE CAM experiments (B1-B9); stored in printed order with section prefixes added for disambiguation.",
+    "Printed note: 'Total TEN Experiments are to carried out. FIVE Experiments each from CAD and CAM.' but the lists print EIGHT CAD experiments (section A, items 1-8) and NINE CAM experiments (section B, items 1-9); stored verbatim in printed order under their printed section headers 'A. CAD Experiments' and 'B. CAM Experiments' (p.29-30).",
     "Printed note typo 'are to carried out' kept verbatim.",
     "'ATP' printed (for APT) in B3/B4 kept verbatim."
    ],
@@ -2377,7 +2377,7 @@
     "Printed lab note: 'Minimum 8 experiments'."
    ],
    "flags": [
-    "code_conflict_EME755_vs_EPL752 (needs_review: same lab printed EME-755 on syllabus page p.30 and EPL-752 in scheme p.6)"
+    "code_conflict_EME755_vs_EPL752_RESOLVED (adjudicated B33: same-document dual print — scheme p.6 prints 'EPL-752 Mould & Die Manufacturing Lab', detail p.30 prints 'EME-755: MOULD & DIE MANUFACTURING LAB'; both codes kept on this one row (dual-print atoms class), primary = detail-page print EME-755)"
    ]
   },
   {
@@ -4456,7 +4456,7 @@
    "name_print": "Pneumatics & Hydraulics. (DE-VI lists pp.7/p.61, codes EMT 601 / EPL 063) / EMT-601 / EPL 065: Pneumatics &Hydraulics (syllabus page — code printed 'EPL 065', missing space in '&Hydraulics')",
    "codes": [
     "EMT601",
-    "EPL065"
+    "EPL063"
    ],
    "semester": 8,
    "ltp": {
@@ -4517,10 +4517,11 @@
    "quirks": [
     "CODE CONFLICT: syllabus-page heading prints 'EMT-601 / EPL 065: Pneumatics &Hydraulics' but the DE-VI list (p.61) and Sem-VIII DE-VI scheme context print 'EMT 601/ EPL 063. Pneumatics & Hydraulics.'; EPL-065 is ALSO printed on the Energy Management syllabus page (p.65) — EPL065 is double-assigned in print. Detail-page codes kept (EMT601, EPL065); conflict flagged.",
     "Unit headings print 'UNIT 1', 'UNIT 2', 'UNITIII' (no space), 'UNIT IV', 'UNIT V' with parenthetical titles.",
-    "Typos kept verbatim: '&Hydraulics', 'Pump Selection -,' stray dash-comma, 'Chandashekhara'."
+    "Typos kept verbatim: '&Hydraulics', 'Pump Selection -,' stray dash-comma, 'Chandashekhara'.",
+    "ADJUDICATED (B33): detail page p.63 prints 'EMT-601 / EPL 065' but the document's own elective lists (p.7 + p.61) print 'EPL-063 / EMT601: Pneumatics & Hydraulics'; EPL-065 is carried by ENERGY MANAGEMENT on three consistent prints (p.7 list, p.61 list, p.65 detail) — G2 single-ownership within BTech: EPL-065 belongs to Energy Management, this row keeps the list print EPL-063 and the p.63 'EPL 065' print is recorded here verbatim as a print misprint (no code invented)."
    ],
    "flags": [
-    "elective_code_conflict_EPL065 (needs_review: Pneumatics & Hydraulics printed EMT-601/EPL-065 on p.63 vs EMT 601/EPL 063 on p.61/p.7 lists; EPL-065 also printed for Energy Management p.65)"
+    "elective_code_conflict_EPL065_RESOLVED (adjudicated B33: EPL-065 -> energy-management (3 consistent prints); this row keeps EMT-601 + EPL-063 list print; p.63 detail 'EPL 065' = recorded misprint)"
    ]
   },
   {
@@ -4642,7 +4643,7 @@
     "Typos kept verbatim: 'Unites of energy', 'thermodynamics,,', 'condevtion', 'Butterwoth', 'C.L Capehart', 'Global warning'."
    ],
    "flags": [
-    "elective_code_conflict_EPL065 (needs_review: shared in print with Pneumatics & Hydraulics p.63)"
+    "elective_code_conflict_EPL065_RESOLVED (adjudicated B33: EPL-065 owned by this row — p.7 list 'EPL-065 / EME-065', p.61 list 'EME-065 / EPL 065', p.65 detail 'EME-065 / EPL 065 : ENERGY MANAGEMENT' all agree; the competing p.63 Pneumatics detail print is the outlier/misprint)"
    ]
   },
   {

@@ -1,0 +1,2318 @@
+{
+ "pdf_rel": "",
+ "session": "",
+ "course": "BTech",
+ "sha16": "4841a4ca5373183c",
+ "stem": "08_btech_vlsi_y3_syllabus-rev_2025-26",
+ "subjects": [
+  {
+   "name": "MICROPROCESSOR & MICROCONTROLLER",
+   "name_print": "MICROPROCESSOR & MICROCONTROLLER",
+   "codes": [
+    "BEC502"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to Microprocessor: Microprocessor architecture and its operations, Memory, Input & output devices, The 8085 MPU- architecture, Pins and signals, Timing Diagrams, Logic devices for interfacing, Memory interfacing, Interfacing output displays, Interfacing input devices, Memory mapped I/O.",
+    "2": "Basic Programming concepts: Flow chart symbols, Data Transfer operations, Arithmetic operations, Logic Operations, Branch operation, writing assembly language programs, Programming techniques: looping, counting and indexing. Additional data transfer and 16-bit arithmetic instruction, Logic operation: rotate, compare, counter and time delays, 8085 Interrupts.",
+    "3": "16-bit Microprocessors (8086): Architecture, Pin Description, Physical address, segmentation, memory organization, Addressing modes. Peripheral Devices: 8237 DMA Controller, 8255 programmable peripheral interface, 8253/8254programmable timer/counter, 8259 programmable interrupt controller, 8251 USART and RS232C.",
+    "4": "8051 Microcontroller Basics: Inside the Computer, Microcontrollers and Embedded Processors, Block Diagram of 8051, PSW and Flag Bits, 8051 Register Banks and Stack, Internal Memory Organization of 8051, IO Port Usage in 8051, Types of Special Function Registers and their uses in 8051, Pins Of 8051. Memory Address Decoding, 8031/51 Interfacing with External ROM And RAM. 8051 Addressing Modes.",
+    "5": "Assembly programming and instruction of 8051: Introduction to 8051 assembly programming, Assembling and running an 8051 program, Data types and Assembler directives, Arithmetic, logic instructions and programs, Jump, loop and call instructions, IO port programming. Programming 8051 Timers. Serial Port Programming, Interrupts Programming, Interfacing: LCD & Keyboard Interfacing, ADC, DAC & Sensor Interfacing, External Memory Interface, Stepper Motor and Waveform generation."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Demonstrate the basic architecture of 8085.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Illustrate the programming model of microprocessors & write program using 8085microprocessors.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Demonstrate the basics of 8086 Microprocessor and interface different external Peripheral Devices like timer, USART etc. with Microprocessor (8085/8086).",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Compare Microprocessors & Microcontrollers, and comprehend the architecture of 8051 microcontroller.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Illustrate the programming model of 8051 and implement them to design projects on real time problems.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Ramesh Gaonkar, “Microprocessor Architecture, Programming, and Applications with the 8085”, 6th Edition, Penram International Publication (India) Pvt. Ltd.,2013"
+    },
+    {
+     "no": 2,
+     "book": "D. V. Hall: Microprocessors Interfacing, TMH 3rd Edition,"
+    },
+    {
+     "no": 3,
+     "book": "Mazidi Ali Muhammad, Mazidi Gillispie Janice, and McKinlay Rolin D., “The 8051 Microcontroller and Embedded Systems using Assembly and C”, Pearson, 2nd Edition,2006"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Kenneth L. Short, “Microprocessors and programmed Logic”, 2nd Ed, Pearson Education Inc.,2003"
+    },
+    {
+     "no": 2,
+     "book": "Barry B. Brey, “The Intel Microprocessors, 8086/8088, 80186/80188, 80286, 80386, 80486, Pentium, Pentium-Pro Processor, Pentium-II, Pentium-III, Pentium-IV, Architecture, Programming & Interfacing”, Eighth Edition, Pearson Prentice Hall, 2009."
+    },
+    {
+     "no": 3,
+     "book": "Shah Satish, “8051 Microcontrollers MCS 51 Family and its variants”, Oxford,2010"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "8253/8254programmable timer/counter — missing space between 8254 and programmable",
+    "8085microprocessors — missing space in CO2",
+    "Double spaces in 'Interfacing: LCD  &  Keyboard  Interfacing' and 'ADC,  DAC  &  Sensor  Interfacing'",
+    "Unit III content wraps across two table rows (16-bit Microprocessors section and Peripheral Devices section)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "INTEGRATED CIRCUITS",
+   "name_print": "INTEGRATED CIRCUITS",
+   "codes": [
+    "BEC-501"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "The 741 IC Op-Amp: General operational amplifier stages (bias circuit, the input stage, \nthe second stage, the output stage, short circuit protection circuitry), device parameters, DC \nand AC analysis of input stage, second stage and output stage, gain, frequency response of \n741, a simplified model, slew rate, relationship between ft and slew rate.",
+    "2": "Linear Applications of IC Op-Amps: Op-Amp based V-I and I-V converters, \ninstrumentation amplifier, generalized impedance converter, simulation of inductors. \nActive Analog filters: Sallen Key second order filter, Designing of second order lowpass \nand high pass Butterworth filter, Introduction to band pass and band stop filter, \nall pass active filters, KHN Filters. Introduction to design of higher order filters.",
+    "3": "Frequency Compensation & Nonlinearity: Frequency Compensation, Compensation of two \nstage Op-Amps, Slewing in two stage Op-Amp. Nonlinearity of Differential Circuits, Effect \nof Negative feedback on Nonlinearity. \nNon-Linear Applications of IC Op-Amps: Basic Log–Anti Log amplifiers using diode \nand BJT, temperature compensated Log-Anti Log amplifiers using diode, peak detectors, \nsample and hold circuits. Op-amp as a comparator and zero crossing detector, astable \nmultivibrator & monostable multivibrator. Generation of triangular \nwaveforms, analog multipliers and their applications.",
+    "4": "Digital Integrated Circuit Design: An overview, CMOS logic gate circuit’s basic \nstructure, CMOS realization of inverters, AND, OR, NAND and NOR gates. Latches and \nFlip flops: the latch, CMOS implementation of SR flip-flops, a simpler CMOS \nimplementation of the clocked SR flip-flop, CMOS implementation of J-K flip- flops, D flip- \nflop circuits.",
+    "5": "Integrated Circuit Timer: Timer IC 555 pin and functional block diagram, Monostable \nand Astable multivibrator using the 555 IC. \nVoltage Controlled Oscillator: VCO IC 566 pin and functional block diagram and \napplications. \nPhase Locked Loop (PLL): Basic principle of PLL, block diagram, working, Ex-OR gates \nand multipliers as phase detectors, applications of PLL."
+   },
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain complete internal analysis of Op-Amp 741-IC.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Examine and design Op-Amp based circuits and basic components of ICs such as various types of filters.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Implement the concept of Op-Amp to design Op-Amp based non-linear applications and wave-shaping circuits.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Analyse and design basic digital IC circuits using CMOS technology.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Describe the functioning of application specific ICs such as 555 timer, VCO IC 566 and PLL.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Microelectronic Circuits, Sedra and Smith, 7th Edition, Oxford, 2017."
+    },
+    {
+     "no": 2,
+     "book": "Behzad Razavi: Design of Analog CMOS Integrated Circuits, TMH"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Gayakwad: Op-Amps and Linear Integrated Circuits, 4th Edition Prentice Hall of India, 2002."
+    },
+    {
+     "no": 2,
+     "book": "Franco, Analog Circuit Design: Discrete & Integrated, TMH, 1st Edition."
+    },
+    {
+     "no": 3,
+     "book": "Salivahnan, Electronics Devices and Circuits, TMH, 3rd Edition, 2015"
+    },
+    {
+     "no": 4,
+     "book": "Millman and Halkias: Integrated Electronics, TMH, 2nd Edition, 2010"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Unit III has '4' and '8' on separate lines after the unit text, likely lecture counts split across lines.",
+    "Unit IV contains 'flip- flops' with a space after hyphen.",
+    "Code printed as 'BEC-501' with a hyphen.",
+    "Subject name printed in all caps."
+   ],
+   "flags": []
+  },
+  {
+   "name": "DIGITAL SIGNAL PROCESSING",
+   "name_print": "DIGITAL SIGNAL PROCESSING",
+   "codes": [
+    "BEC503"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to Digital Signal Processing: Basic elements of digital signal processing, advantages and disadvantages of digital signal processing, Technology used for DSP. Realization of Digital Systems: Introduction- basic building blocks to represent a digital system, recursive and non-recursive systems, basic structures of a digital system: Canonic and Non-Canonic structures.\nIIR Filter Realization: Direct form, cascade realization, parallel form realization, Ladder structures- continued fraction expansion of H (z), example of continued fraction, realization of a ladder structure, design examples.\nFIR Filter Realization: Direct, Cascade, FIR Linear Phase Realization and design examples.",
+    "2": "Infinite Impulse Response Digital (IIR) Filter Design: Introduction to Filters, Impulse Invariant Transformation, Bi-Linear Transformation, All- Pole Analog Filters: Butterworth and Chebyshev, Design of Digital Butterworth and Chebyshev Filters, Frequency Transformations.",
+    "3": "Finite Impulse Response Filter (FIR) Design: Windowing and the Rectangular Window, Gibb’s phenomenon, Other Commonly Used Windows (Hamming, Hanning, Bartlett, Blackmann, Kaiser), Examples of Filter Designs Using Windows. Finite Word length effects in digital filters: Coefficient quantization error, Quantization noise – truncation and rounding, Limit cycle oscillations-dead band effects.",
+    "4": "DFT & FFT: Definitions, Properties of the DFT, Circular Convolution, Linear Convolution using Circular Convolution, Decimation in Time (DIT) Algorithm, Decimation in Frequency (DIF) Algorithm.",
+    "5": "Multirate Digital Signal Processing (MDSP): Introduction, Decimation, Interpolation, Sampling rate conversion: Single and Multistage, applications of MDSP- Sub-band Coding of Speech signals, Quadrature mirror filters, Advantages of MDSP."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Design and describe different types of realizations of digital systems (IIR and FIR) and their utilities.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Select design parameters of analog IIR digital filters (Butterworth and Chebyshev filters) and implement various methods such as impulse invariant transformation and bilinear transformation of conversion of analog to digital filters.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Design FIR filter using various types of window functions.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Define the principle of discrete Fourier transform & its various properties and concept of circular and linear convolution. Also, students will be able to define and implement FFT i.e. a fast computation method of DFT.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Define the concept of decimation and interpolation. Also, they will be able to implement it in various practical applications.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "John G Prokias, Dimitris G Manolakis, Digital Signal Processing. Pearson, 4th Edition, 2007"
+    },
+    {
+     "no": 2,
+     "book": "Johnny R. Johnson, Digital Signal Processing, PHI Learning Pvt Ltd., 2009."
+    },
+    {
+     "no": 3,
+     "book": "S. Salivahanan, A. Vallavaraj, Digital Signal Processing, TMH, 4th Edition 2017."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Oppenheim & Schafer, Digital Signal Processing. Pearson Education 2015"
+    },
+    {
+     "no": 2,
+     "book": "S.K. Mitra, ‘Digital Signal Processing–A Computer Based Approach, TMH, 4th Edition."
+    },
+    {
+     "no": 3,
+     "book": "Digital Signal Processing-a computer-based approach by S. K. Mitra, McGraw Hill."
+    },
+    {
+     "no": 4,
+     "book": "Digital Signal Processing by A. Anand kumar, PHI learning PVT. ltd."
+    },
+    {
+     "no": 5,
+     "book": "Digital Signal Processing - a modern introduction by Ashok Ambardar, Cengage learning."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Code printed as 'BEC-503' with hyphen",
+    "Page header indicates 'Curriculum & Evaluation Scheme (V & VI semester)' without explicit semester assignment for this subject",
+    "'Gibb’s phenomenon' printed (possibly typo for Gibbs)",
+    "'Blackmann' printed (possibly typo for Blackman)",
+    "'Prokias' printed in textbook 1 (possibly typo for Proakis)",
+    "'All- Pole Analog Filters' contains space after hyphen"
+   ],
+   "flags": []
+  },
+  {
+   "name": "INTEGRATED CIRCUITS LAB",
+   "name_print": "INTEGRATED CIRCUITS LAB",
+   "codes": [
+    "BEC-551"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Design different non-linear applications of operational amplifiers such as log, antilog\namplifiers and voltage comparators.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Explain and design different linear applications of operational amplifiers such as filters.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Demonstrate the function of waveforms generator using op-Amp.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Construct multivibrator and oscillator circuits using IC555 and IC566 and perform\nmeasurements of frequency and time.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Design and practically demonstrate the applications based on IC555 and IC566.",
+     "kl": null
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design the following using Op-Amp: (Through Virtual Lab Link 1)\na) A unity gain amplifier.\nb) An inverting amplifier with a gain of “A”.\nc) A non-inverting amplifier with a gain of “A”"
+    },
+    {
+     "no": 2,
+     "exp": "Study and design Log and antilog amplifiers."
+    },
+    {
+     "no": 3,
+     "exp": "Voltage to current and current to voltage convertors."
+    },
+    {
+     "no": 4,
+     "exp": "Second order filters using operational amplifier for: (Through Virtual Lab Link 1)\na) Low pass filter of cutoff frequency 1 KHz.\nb) High pass filter of frequency 12 KHz."
+    },
+    {
+     "no": 5,
+     "exp": "Realization of Band pass filter with unit gain of pass band from 1 KHz to 12 KHz."
+    },
+    {
+     "no": 6,
+     "exp": "Study and design voltage comparator and zero crossing detectors."
+    },
+    {
+     "no": 7,
+     "exp": "Function generator using operational amplifier (sine, triangular & square wave)."
+    },
+    {
+     "no": 8,
+     "exp": "Design and construct astable multivibrator using IC 555 and\na) Plot the output waveform\nb) Measure the frequency of oscillation (Through Virtual Lab Link 2)"
+    },
+    {
+     "no": 9,
+     "exp": "Design and construct a monostable multivibrator using IC 555 and\na) Plot the output waveform\nb) Measure the time delay (Through Virtual Lab Link 2)"
+    },
+    {
+     "no": 10,
+     "exp": "Implement Schmitt Trigger Circuit using IC 555. (Through Virtual Lab Link 2)"
+    },
+    {
+     "no": 11,
+     "exp": "Implement voltage-controlled oscillator   using   IC566   and   plot   the   waveform.\n(Through Virtual Lab Link 2)"
+    },
+    {
+     "no": 12,
+     "exp": "Study and design ramp generator using IC 566."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "URL for Virtual Lab Link 2 is broken across lines: 'http://hecoep.vlabs.ac.in/Experiment8/Theory.html?domain=ElectronicsandCommunicati' and 'ons&lab=Hybrid%20Electronics%20Lab'",
+    "Multiple spaces in experiment 11: 'voltage-controlled oscillator   using   IC566   and   plot   the   waveform.'",
+    "Page header 'Page 18' appears before subject",
+    "Subject code printed as 'BEC-551' with hyphen"
+   ],
+   "flags": []
+  },
+  {
+   "name": "DIGITAL SIGNAL PROCESSING LAB",
+   "name_print": "DIGITAL SIGNAL PROCESSING LAB",
+   "codes": [
+    "BEC553"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Create and visualize various discrete/digital signals using MATLAB/Scilab.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Implement and test the basic operations of Signal processing.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Examine and analyse the spectral parameters of window functions.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Design IIR and FIR filters for band pass, band stop, low pass and high pass filters.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Design the signal processing algorithms using MATLAB/Scilab.",
+     "kl": null
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Introduction to MATLAB and or Open Source Software, Scilab (Using Spoken Tutorial MOOCs)."
+    },
+    {
+     "no": 2,
+     "exp": "Write a Program for the generation of basic signals such as unit impulse, unit step, ramp, exponential, sinusoidal and cosine."
+    },
+    {
+     "no": 3,
+     "exp": "Implement IIR Butterworth analog Low Pass for a 4 KHz cut off frequency."
+    },
+    {
+     "no": 4,
+     "exp": "Verify Blackman and Hamming windowing techniques."
+    },
+    {
+     "no": 5,
+     "exp": "Evaluate 4-point DFT of and IDFT of x(n) = 1, 0 ≤ n ≤ 3; 0 elsewhere."
+    },
+    {
+     "no": 6,
+     "exp": "Verify Linear convolution of two sequences using FFT"
+    },
+    {
+     "no": 7,
+     "exp": "Verify Circular Convolution of two sequences using FFT."
+    },
+    {
+     "no": 8,
+     "exp": "To verify FFT as sample interpolator."
+    },
+    {
+     "no": 9,
+     "exp": "To implement Tone Generation."
+    },
+    {
+     "no": 10,
+     "exp": "To implement floating point arithmetic."
+    },
+    {
+     "no": 11,
+     "exp": "To study about DSP Processors and architecture of TMS320C6713 DSP processor."
+    },
+    {
+     "no": 12,
+     "exp": "VIRTUAL Lab by NME-ICT available at: (Through Virtual Lab)\na) Study of Discrete Fourier Transform (DFT) and its inverse.\nb) Study of FIR filter design using window method: Lowpass and highpass filter.\nc) Study of FIR filter design using window method: Bandpass and Bandstop filter.\nd) Study of Infinite Impulse Response (IIR) filter."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Subject name printed as 'DIGITAL SIGNAL PROCESSING LAB' (typo in 'DIGITAL')",
+    "Code printed as 'BEC-553' with hyphen",
+    "Experiment 6 missing trailing period",
+    "Experiment 12 contains sub-items a)-d) within a single experiment entry",
+    "Virtual Lab Link (http://vlabs.iitkgp.ernet.in/dsp/index.html# and http://vlabs.iitkgp.ernet.in/dsp/ and http://www.vlab.co.in/broad-area-electronics-and-communications) printed after experiment list",
+    "Spoken Tutorial (MOOCs) section printed after experiment list: 'Spoken Tutorial MOOCs, ' Course on Scilab', IIT Bombay (http://spoken-tutorial.org/)'",
+    "CO section header: 'At the end of this course students will demonstrate the ability to:'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "MICROPROCESSOR & MICROCONTROLLER LAB",
+   "name_print": "MICROPROCESSOR & MICROCONTROLLER   LAB",
+   "codes": [
+    "BEC-552"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Use techniques, skills, modern engineering tools, instrumentation and software/hardware \nappropriately to list and demonstrate arithmetic and logical operations on 8-bit data using \nmicroprocessor 8085.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Examine 8085 & 8086 microprocessor and its interfacing with peripheral devices.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "State various conversion techniques using 8085 & 8086 and generate waveforms using 8085.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Implement programming concept of 8051 Microcontroller.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Design concepts to Interface peripheral devices with Microcontroller so as to design Microcontroller \nbased projects.",
+     "kl": null
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write a program using 8085 Microprocessor for Decimal, Hexadecimal addition and \nsubtractionof two Numbers. (Through Virtual Lab Link)."
+    },
+    {
+     "no": 2,
+     "exp": "Write a program using 8085 Microprocessor for addition and subtraction of two BCD numbers."
+    },
+    {
+     "no": 3,
+     "exp": "(Through Virtual Lab Link)."
+    },
+    {
+     "no": 4,
+     "exp": "To perform multiplication and division of two 8 bit numbers using 8085. (Through Virtual \nLab Link)."
+    },
+    {
+     "no": 5,
+     "exp": "To find the largest and smallest number in an array of data using 8085 instruction set."
+    },
+    {
+     "no": 6,
+     "exp": "To write a program using 8086 to arrange an array of data in ascending and descending order."
+    },
+    {
+     "no": 7,
+     "exp": "(Through Virtual Lab Link)."
+    },
+    {
+     "no": 8,
+     "exp": "To convert given Hexadecimal number into its equivalent ASCII number and vice versa using \n8086 instruction set."
+    },
+    {
+     "no": 9,
+     "exp": "To convert given Hexadecimal number into its equivalent BCD number and vice versa using \n8086 instruction set."
+    },
+    {
+     "no": 10,
+     "exp": "To interface 8253 programmable interval timer and verify the operation of 8253 in six \ndifferent modes."
+    },
+    {
+     "no": 11,
+     "exp": "To write a program to initiate 8251 and to check the transmission and reception of character."
+    },
+    {
+     "no": 12,
+     "exp": "Serial communication between two 8085 through RS-232 C port."
+    },
+    {
+     "no": 13,
+     "exp": "Write a program of Flashing LED connected to port 1 of the 8051 Micro Controller"
+    },
+    {
+     "no": 14,
+     "exp": "Write a program to generate 10 kHz square wave using 8051."
+    },
+    {
+     "no": 15,
+     "exp": "Write a program to show the use of INT0 and INT1 of 8051."
+    },
+    {
+     "no": 16,
+     "exp": "Write a program for temperature & to display on intelligent LCD display."
+    }
+   ],
+   "objectives_print": null,
+   "prerequisites": null,
+   "quirks": [
+    "Experiment 3 and 7 consist only of '(Through Virtual Lab Link).' — likely continuation lines from preceding experiments that were assigned their own numbers",
+    "Typo 'subtractionof' (missing space) in experiment 1",
+    "Code printed as 'BEC-552' with hyphen",
+    "Virtual Lab Link: http://vlabs.iitb.ac.in/vlabs-dev/labs_local/microprocessor/labs/explist.php",
+    "Available on: http://www.vlab.co.in/broad-area-electronics-and-communications"
+   ],
+   "flags": []
+  },
+  {
+   "name": "IoT – ARCHITECTURE, COMMUNICATION, TECHNOLOGY & ITS APPLICATIONS",
+   "name_print": "IoT – ARCHITECTURE, COMMUNICATION, TECHNOLOGY & ITS APPLICATIONS",
+   "codes": [
+    "BEC-051"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Introduction to IoTs: Understanding IoT’s fundamentals and Significance, Definition and Characteristics of IoT, Elements of an IoT ecosystem, Sensors, Actuators, Data Management, Overview of Governance, Security, Privacy & Trust, Device Level Energy Issues, IoT Related Standardization.",
+    "2": "IoT Architecture: Software defined networks, Network function virtualization, Difference between SDN and NFV for IoT, IoT Open-source architecture (OIC) - OIC Architecture & Design principles, IoT Devices and deployment models - IoTivity: An Open Source IoT stack, Overview - IoTivity stack architecture, Resource model and Abstraction.",
+    "3": "IoT Communication Protocols: Protocol Standardization for IoT, M2M and WSN Protocols, Issues with IoT Standardization, SCADA and RFID Protocols, Unified Data Standards – Protocols, Short, Medium and Long-Range Wireless Connectivity, Wired Connectivity, IOT Networking – Networking Architecture, Networking Protocols, IoT Devices Application-Level Protocols.",
+    "4": "Interfacing With Physical Devices: Introduction to Arduino and Raspberry Pi- Installation, Interfaces (Serial, SPI, I2C), Introduction to the Arduino environment, the Arduino board, the Arduino IDE, and the Arduino compatible shields together with their libraries. Interfacing Hardware with the Raspberry Pi, Raspberry Pi Remote Access, Communication with devices through the pins of the Raspberry Pi, Range of sensors interfacing such as voltage sensor, ADC and DAC, Temperature and Humidity Sensor DHT11, Motion Detection Sensors and others.",
+    "5": "IoT Applications: Introduction, IoT applications for industry: Future Factory Concepts, Brownfield IoT, Smart Objects, Smart Applications, Four Aspects in your Business to Master IoT, Value Creation from Big Data and Serialization, IoT for Retailing Industry, IoT for Oil and Gas Industry, Opinions on IoT Application and Value for Industry, Home Management, eHealth."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the fundamentals of IoT’s.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Understand the vision of IoT’s from a global context.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Building State of the art architecture in IoT.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Interface mechanism of different Sensors, Gateways, and other external Devices with microcontroller board",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Application of IoT in Industrial and Commercial Building Automation.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Adrian McEwen, Hakim Cassimally, “Designing the Internet of Things”, November 2013, John Wiley and Sons."
+    },
+    {
+     "no": 2,
+     "book": "Zach Shelby, Carsten Bormann, “6LoWPAN: The Wireless Embedded Internet”, John Wiley and Sons."
+    },
+    {
+     "no": 3,
+     "book": "Simon Monk, “Programming the Raspberry Pi: Getting Started with Python”, January 2012, McGraw Hill Professional."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Francis daCosta, “Rethinking the Internet of Things: A Scalable Approach to Connecting Everything”, 1st Edition, Apress Publications, 2013."
+    },
+    {
+     "no": 2,
+     "book": "Dr. Ovidiu Vermesan, Dr. Peter Friess “Internet of Things: Converging Technologies for Smart Environments and Integrated Ecosystems”, River Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Donald Norris, “The Internet of Things: Do-It-Yourself at Home Projects for Arduino, Raspberry Pi and Beagle Bone Black”, McGraw Hill, 2015."
+    },
+    {
+     "no": 4,
+     "book": "Eben Upton and Gareth Halfacree, “Raspberry Pi User Guide”, August 2016, 4th edition, John Wiley & Sons"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": null,
+   "prerequisites": null,
+   "quirks": [
+    "Name printed in all caps with a dash: 'IoT – ARCHITECTURE, COMMUNICATION, TECHNOLOGY & ITS APPLICATIONS'.",
+    "Code printed as 'BEC-051' with a hyphen.",
+    "All five units list 8 lectures each.",
+    "The last reference book lacks a closing period."
+   ],
+   "flags": []
+  },
+  {
+   "name": "INTELLIGENT SYSTEMS AND ROBOTICS",
+   "name_print": "INTELLIGENT SYSTEMS AND ROBOTICS",
+   "codes": [
+    "BEC-053"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "System Modeling: Biological and Cognitive Paradigms for Robot Design, Declarative-Procedural-Reflexive Hierarchy for Decision-Making and Control, Articulated Robots, Joint-Link (Denavit - Hartenberg) Transformations, Mobile Ground Robots, Uninhabited Air Vehicles, Intelligent Agents.",
+    "2": "Control System Principles: Open- and Closed-Loop Control, Time-domain and Frequency-domain Analysis, Optimality and Constraints, Stability and Performance, Adaptation, Control Actuation, Closed-form and Probabilistic Path Planning.",
+    "3": "Computing, Measurement, State, and Parameter Estimation: Sensors and Sensing, Formal and Fuzzy Logic, Turing Machines and Concepts of Machine Learning, Analog and Digital Systems, Probability and Error Models, Sensor-Based Estimation, Extended Kalman and Particle Filters, Simultaneous Location and Mapping (SAM).",
+    "4": "Decision-Making and Machine Learning: Decision Trees, Bayesian Belief Networks, Classification of Data Sets, Task Planning for Individual and Multiple Agents.",
+    "5": "Numerical Methods for Evaluation and Search: Monte Carlo Simulation, Genetic Algorithms, Simulated Annealing, Particle Swarm Optimization, Production Systems, Forward Chaining, Backward Chaining, Training and Implementation of Network Architectures, Feed-Forward Networks, Associative Networks, Cerebellar Model Articulation Controller, Deep-Learning Algorithms."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply the concept of Open- and Closed-Loop Control.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Apply Fourier to understand Time-domain and Frequency-domain Analysis",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Apply the fundamental concepts of Closed-form and Probabilistic Path Planning",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Analyze Formal and Fuzzy Logic.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Analyze Simultaneous Location and Mapping (SAM).",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "H. Asada and J.-J. Slotine, Robot Analysis and Control, J. Wiley & Sons, 1986.C. Asfahl, Robots and Manufacturing Automation, J. Wiley & Sons, 1992."
+    },
+    {
+     "no": 2,
+     "book": "D. Auslander, J. Ridgely, and J. Ringgenberg, Control Software for Mechanical Systems, Prentice-Hall, 2002."
+    },
+    {
+     "no": 3,
+     "book": "G. Bekey, Autonomous Robots, MIT Press, 2005."
+    },
+    {
+     "no": 4,
+     "book": "Albus, J. I., and Meystel, A. M., Engineering of Mind, J. Wiley & Sons, 2001."
+    },
+    {
+     "no": 5,
+     "book": "P. Antsaklis and K. Passino, An Introduction to Intelligent and Autonomous Control, Kluwer, 1993."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "J. Craig, Introduction to Robotics Mechanics and Control, Pearson, 2018"
+    },
+    {
+     "no": 2,
+     "book": "R. Dorf, Robotics and Automated Manufacturing, Reston (Prentice-Hall), 1983"
+    },
+    {
+     "no": 3,
+     "book": "D. Goldberg, Genetic Algorithms in Search, Optimization, and Machine Learning, Addison-Wesley, 1989."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Textbook 1 contains a typo: '1986.C. Asfahl' (missing period or space).",
+    "Course Outcome 2 says 'Apply Fourier' which may be a typo for 'Apply Fourier transform' or similar.",
+    "The code is printed as 'BEC-053' with a hyphen.",
+    "The page header indicates 'Page 9' and 'Curriculum & Evaluation Scheme (V & VI semester)' but no specific semester for this subject."
+   ],
+   "flags": []
+  },
+  {
+   "name": "DIGITAL INTEGRATED CIRCUIT DESIGN",
+   "name_print": "DIGITAL INTEGRATED CIRCUIT DESIGN",
+   "codes": [
+    "BVL051"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Fundamentals of Synthesis and Digital Design Flow:  \nIntroduction to ASIC and FPGA Design Flow: RTL-to-GDSII flow, Role of \nsynthesis in digital design Basics of Hardware Description Languages (HDLs): \nSystem Verilog vs. VHDL for synthesis, RTL coding guidelinesandstyles for \nefficient synthesis. \nIntroduction to Pre-Synthesis Analysis and RTL Quality Checks using Lint, CDC, \nRDC, and Formal Verification technologies such as Siemens Questa SFV, Cadence \nJasperGold and Verisium, Synopsys VC Formal and SpyGlass, etc.",
+    "2": "Introduction to Logic Synthesis: Definition and purpose of synthesis, technology-\nindependent vs. technology-dependent optimizations, synthesis tools overview \n(Siemens EDA – Precision RTL/Aprisa, Cadence – Genus/Innovus, Synopsys – \nDesign Compiler/IC Compiler II), etc.",
+    "3": "Static Timing Analysis (STA) Basics: Fundamentals of Timing Analysis: Setup \ntime, hold time, propagation delay, Clock period, clock skew, and clock jitter.",
+    "4": "Timing Paths: Types of Timing Paths in a Digital Circuit: Data path, clock path, \nasynchronous paths, Critical path analysis. Timing Models and STA Basics: \nTransition time, cell delay, net delay, Wire-load models, parasitic extraction.",
+    "5": "Introduction to Static Timing Analysis (STA), Introduction to Gate-Level \nSimulation (GLS) and verification, understanding Standard Delay Format (SDF), \nGLS using Siemens QuestaSim, Cadence Xcelium, or Synopsys VCS, Functional \nVerification using Siemens Questa Formal/Questa SFV, Cadence JasperGold, or \nSynopsys VC Formal, Pre- and Post-Synthesis Analysis, and Introduction to Power \nAnalysis using Siemens PowerPro, Cadence Joules, or Synopsys PrimePower."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Explain the digital design flow, including RTL-to-GDSII, and the importance of synthesis in ASIC/FPGA design.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Write efficient RTL code in Verilog/VHDL and apply synthesis optimizations.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Perform Static Timing Analysis (STA) by understanding timing parameters and constraints.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Apply functional verification methods and use tools such as Conformal LEC for equivalence checking.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Digital Integrated Circuit Design: From VLSI Architectures to CMOS Fabrication, Hubert Kaeslin, Cambridge University Press, 2008."
+    },
+    {
+     "no": 2,
+     "book": "Verilog HDL: A Guide to Digital Design and Synthesis, Samir Palnitkar, Pearson, 2nd Edition, 2003."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Introduction to VLSI Design Flow, SnehSaurabh, Cambridge University Press 2023."
+    },
+    {
+     "no": 2,
+     "book": "The Designer's Guide to VHDL, Peter J. Ashenden, Morgan Kaufmann, 3rd Edition, 2008."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "RTL coding guidelinesandstyles (missing space between 'guidelines' and 'styles')",
+    "SnehSaurabh (no space between first and last name)",
+    "Syllabus spans pages 11-12 of the curriculum document",
+    "Note about EDA tools appears after Unit V, not part of any unit",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "VLSI TECHNOLOGY",
+   "name_print": "VLSI TECHNOLOGY",
+   "codes": [
+    "BEC-054"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction To IC Technology: SSI, MSI, LSI, VLSI Integrated Circuits.\nCrystal Growth and Wafer Preparation: Electronic Grade Silicon, Czochralski Crystal Growth, Silicon Shaping,Processing Considerations. Wafer Cleaning Technology - Basic Concepts, Wet cleaning, Dry cleaning",
+    "2": "Epitaxy: Vapor-Phase Epitaxy, Molecular Beam Epitaxy, Silicon on Insulators, Epitaxial Evaluation.\nOxidation: Growth Kinetics, Thin Oxides, Oxidation Techniques and Systems, Oxides Properties.",
+    "3": "Lithography: Optical Lithography, Electron beam lithography, Photomasks, Wet Chemical Etching.\nDielectric and Polysilicon Film Deposition: Deposition Processes of Polysilicon, Silicon Dioxide, Silicon Nitride.",
+    "4": "Diffusion: Models of diffusion in solids, Fick’s 1-Dimensional diffusion equation, Diffusion of Impurities in Silicon and Silicon Dioxide, Diffusion Equations, Diffusion Profiles, Diffusion Furnace, Solid, Liquid and Gaseous Sources,\nIon-Implantation: Ion-Implantation Technique, Range Theory, Implantation Equipment.",
+    "5": "Metallization: Metallization Application, Metallization Choices, Physical Vapor Deposition, Vacuum Deposition, Sputtering Apparatus.\nPackaging of VLSI devices: Package Types, Packaging Design Consideration, VLSI Assembly Technologies, Package Fabrication Technologies, CMOS fabrication steps."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Interpret the basics of crystal growth, wafer preparation and wafer cleaning.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Evaluate the process of Epitaxy and oxidation.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Differentiate the lithography, etching and deposition process.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Analyze the process of diffusion and ion implantation",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Express the basic process involved in metallization and packaging.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "S. M. Sze, \"VLSI Technology\", McGraw Hill Publication, 2nd Edition 2017"
+    },
+    {
+     "no": 2,
+     "book": "S.K. Ghandhi, \"VLSI Fabrication Principles\", Willy-India Pvt. Ltd, 2008"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "J. D. Plummer, M. D. Deal and Peter B. Griffin, “Silicon VLSI Technology: Fundamentals, Practice and Modeling\", Pearson Education Publication, 2009"
+    },
+    {
+     "no": 2,
+     "book": "Stephen A. Campbell, \"Fabrication Engineering at the Micro and Nano scale\", Oxford University Press, 2013"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Code printed as 'BEC-054' with hyphen",
+    "Content beyond the Course section is garbled/jumbled in print",
+    "No marks/scheme details printed in the text layer"
+   ],
+   "flags": []
+  },
+  {
+   "name": "LOW POWER VLSI DESIGN",
+   "name_print": "LOW POWER VLSI DESIGN",
+   "codes": [
+    "BVL-052"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "POWER DISSIPATION IN CMOS: Sources of power dissipation – Physics of \npower dissipation in MOSFET devices: The MIS structure, long channel MOSFET, \nSubmicron MOSFET, gate induced drain leakage– Power dissipation in CMOS: \nshort circuit dissipation, dynamic dissipation, load capacitance– Low power VLSI \ndesign: Limits – principles of low power design.",
+    "2": "DESIGN OF LOW POWER CIRCUITS: Transistor and Gate Sizing: Sizing an \nInverter Chain, Transistor and Gate Sizing for Dynamic Power Reduction, \nTransistor Sizing for Leakage Power Reduction - Network Restructuring and \nReorganization: Transistor Network Restructuring, Transistor Network \nPartitioning and Reorganization - Special Latches and Flip-flops: Self-gating Flip-\nflop, Varieties of Boolean Functions, Adjustable Device Threshold Voltage.",
+    "3": "SYNTHESIS FOR LOW POWER: Behavioral Level Transforms, Logic Level \nOptimization for Low power, Circuit Level Optimization",
+    "4": "LOW POWER STATIC RAM ARCHITECTURES:  Organization of a static RAM, MOS \nStatic RAM Memory cell, Banked organization of SRAMs, Reducing voltage \nswings on bit lines, Reducing power in write driver circuits, Reducing power in \nsense amplifier circuits, method for achieving low core voltages from a single \nsupply.",
+    "5": "DESIGN AND TEST OF LOW VOLTAGE CMOS CIRCUITS:  Circuit Design style, \nLeakage current in deep submicrometer transistors, Deep submicrometer \ndevice design issues, Low voltage circuit design techniques, Designing deep \nsubmicrometer ICs with elevated intrinsic leakage, multiple supply voltages."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Able to understand basics of Power Dissipation.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Able to learn low power circuit design",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Able to learn circuit level optimization.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Able to acquire knowledge on SRAM.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Able to design low power circuit at submicron level.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "K. Roy and S. C. Prasad, Low Power CMOS VLSI Circuit Design, John Wiley and Sons, 3 rd Edition, 2009."
+    },
+    {
+     "no": 2,
+     "book": "Jan Rabaey, Low Power Design Essentials, Springer Publications, 1 st Edition, 2009."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Chandrakasan and R. Brodersen, Low-Power CMOS Design, IEEE Press, 1 st Edition, 1995."
+    },
+    {
+     "no": 2,
+     "book": "Chandrakasan, Bowhill, and Fox, Design of High-Performance Microprocessors, IEEE Press, 1st Edition, 2000."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "ANALOG INTEGRATED CIRCUIT DESIGN",
+   "name_print": "ANALOG INTEGRATED CIRCUIT DESIGN",
+   "codes": [
+    "BVL053"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Introduction to System Design and Verification \n• \nFundamentals of System Design: Introduction to system-on-chip (SoC) and \nembedded system design, Hardware/software co-design principles, Model-\nbased design and virtual prototyping. \n• \nVerification Challenges and Methodologies: Importance of verification in \ndigital system design, Directed vs. constrained-random verification, \nCoverage-driven verification (functional, code, FSM, toggle coverage).",
+    "2": "Introduction to Full Custom IC Design Flow, Siemens/Cadence/Synopsys \nSolutions for Custom IC Design, MOSFET Characterization, Schematic Capture \nusing SiemensSolid S- Edit/ Virtuoso Schematic Editor/ Synopsys Custom \nCompiler, Symbol Creation. Testbench Creation using SiemensSolido Design \nEnvironment/ Cadence Virtuoso ADE/Synopsys PrimeWave, Functional \nSimulation using Analog FastSPICE/ Cadence Spectre, or Synopsys HSPICE, \nDelay Estimation, Power estimation, Monte-Carlo.",
+    "3": "Introduction to IC Physical Design Flow, Physical Design (PD) Flow tools \n(Siemens EDA – Aprisa/ Cadence – Innovus/ Synopsys – IC Compiler II), \nFunctional Simulation using Siemens QuestaSim/ Cadence Xcelium/ Synopsys \nVCS, Coverage Analysis using Siemens QuestaSim/Questa Verification \nIQ/Cadence Verisium/Synopsys VCS Verdi, Introduction to TCL Scripting, RTL \nSynthesis using Siemens Precision RTL/Cadence Genus/Synopsys Design \nCompiler.",
+    "4": "Layout Design using Siemens EDA L-Edit/ Cadence Virtuoso Layout \nSuite/Synopsys Custom Compiler, Physical Verification including DRC and LVS \nusing Siemens Calibre/Cadence Pegasus/Synopsys IC Validator (ICV), Parasitic \nExtraction \nusing \nSiemens \nCalibrexACT/CalibrexRC, \nCadence \nQuantus/ \nSynopsys StarRC, Post-Layout Simulation using Siemens Analog FastSPICE \n(AFS)/ Cadence Spectre/Synopsys HSPICE, and Generation of GDSII.",
+    "5": "Physical Implementation using Siemens EDA Aprisa / Cadence Innovus / \nSynopsys IC Compiler II (ICC2), including Floor Planning, Power Planning,  \nPlacement, Clock Tree Synthesis (CTS), Routing, Timing Analysis, Power \nAnalysis, Parasitic Extraction, Generation of GDSII."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand system-level design methodologies and their role in IC design.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Develop and simulate custom IC schematics using Cadence Virtuoso.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Perform functional verification and analyze coverage using Incisive and IMC tools.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Implement IC physical design flow, including synthesis, layout design, and parasitic extraction.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Implement physical implementation steps, including floor planning, power planning, placement, routing, and GDSII generation.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "System Verilog for Verification: A Guide to Learning the Testbench Language Features, Chris Spear & Greg Tumbush, Springer, 2nd Edition, 2012."
+    },
+    {
+     "no": 2,
+     "book": "N.A.Sherwani, \"Algorithms for VLSI Physical Design Automation\", (3/e), Kluwer, 1999."
+    },
+    {
+     "no": 3,
+     "book": "CMOS: Circuit Design, Layout, and Simulation, R. Jacob Baker, Wiley-IEEE, 3rd Edition, 2010."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "UVM Primer: A Step-by-Step Introduction to the Universal Verification Methodology, Mark Glasser, Boston Light Press, 2014."
+    },
+    {
+     "no": 2,
+     "book": "The Complete Formal Verification Guide, SasanIman&Sunita Joshi – Synopsys Press, 2004."
+    },
+    {
+     "no": 3,
+     "book": "Andrew B. Kahng, Jens Lienig, Igor L. Markov, JinHu, VLSI Physical Design: From Graph Partitioning to Timing Closure, Springer, 2011."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Code printed as 'BVL-053' with hyphen",
+    "'SiemensSolid' printed without space (should be 'Siemens Solid')",
+    "'SiemensSolido' printed without space (should be 'Siemens Solido')",
+    "'CalibrexACT/CalibrexRC' - unusual spelling (possibly 'Calibre xACT/xRC')",
+    "'SasanIman&Sunita Joshi' - missing spaces between names",
+    "'JinHu' - missing space between names",
+    "Note after Unit V: 'As mentioned above any ONE of the three EDA tools may be made use of depending upon the availability. The questions asked in exam will not be from any specific EDA tool and will be of generic nature.'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "BIO-MEDICAL SIGNAL PROCESSING",
+   "name_print": "BIO-MEDICAL SIGNAL PROCESSING",
+   "codes": [
+    "BEC056"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to Bio-Medical Signals: Classification, Acquisition and Difficulties during Acquisition. Basics of Electrocardiography, Electroencephalography, Electromyography & electro-retinography Role of Computers in the Analysis, Processing, Monitoring & Control, and image reconstruction in bio-medical field.",
+    "2": "ECG: Measurement of Amplitude and Time Intervals, QRS Detection (Different Methods), ST Segment Analysis, Removal of Baseline Wander and Power line Interferences, Arrhythmia Analysis, Portable Arrhythmia Monitors.",
+    "3": "Data Reduction: Turning Point algorithm, AZTEC Algorithm, Fan Algorithm, Huffman and Modified Huffman Coding, Run Length Coding.",
+    "4": "EEG: Neurological Signal Processing, EEG characteristic, linear prediction theory, Sleep EEG, Dynamics of Sleep/Wake transition. Study of pattern of brain waves, Epilepsy-Transition, detection and Estimation. EEG Analysis By Spectral Estimation: The Bt Method, Periodogram, Maximum Entropy Method & AR Method, Moving Average Method. The ARMA Methods, Maximum Likelihood Method.",
+    "5": "EP Estimation: by Signal Averaging, Adaptive Filtering: - General Structures of Adaptive filters, LMS Adaptive Filter, Adaptive Noise Cancelling, Wavelet Detection: - Introduction, Detection by Structural features, Matched Filtering, Adaptive Wavelet Detection, Detection of Overlapping Wavelets."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "To understand the basics of biomedical signals.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Analyses of ECG signals.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "To Analyze the data reduction techniques.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Analyses of EEG signals.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "To understand the advance techniques of signal processing",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Willis J. Tomkin, \"Biomedical Digital Signal Processing\", PHI."
+    },
+    {
+     "no": 2,
+     "book": "D. C. Reddy, \"Biomedical Signal Processing\", McGraw Hill"
+    },
+    {
+     "no": 3,
+     "book": "Crommwell, Weibel and Pfeifer, \"Biomedical Instrumentation and Measurement\", PHI"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Arnon Cohen, \"Biomedical Signal Processing (volume-I)\", Licrc Press."
+    },
+    {
+     "no": 2,
+     "book": "Rangaraj M. Rangayyan, \"Biomedical Signal Analysis A Case Study Approach\", John Wiley and Sons Inc."
+    },
+    {
+     "no": 3,
+     "book": "John G. Webster, \"Medical instrumentation Application and Design\", John Wiley & Sons Inc."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Typo in textbook 3: 'Crommwell' printed for 'Cromwell'",
+    "Typo in reference book 1: 'Licrc Press' printed for 'CRC Press'",
+    "'The Bt Method' in Unit IV - possibly 'BT Method'",
+    "Course outcomes intro line: 'At the end of this course students will able to' (missing 'be')"
+   ],
+   "flags": []
+  },
+  {
+   "name": "DIGITAL DESIGN WITH FPGA",
+   "name_print": "DIGITAL DESIGN WITH FPGA",
+   "codes": [
+    "BVL601"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "DIGITAL SYSTEM OVERVIEW\nReview of Combinational Circuits: Adder, Subtractor, Code converter, Decoder, \nEncoder, Multiplexer, Demultiplexer\nReview of Sequential Circuits: Flip flops, Shift Registers, Synchronous Counter, \nRipple Counter, MOD Counter, Ring Counter, Johnson Counter",
+    "2": "INTRODUCTION TO VHDL\nVHDL Invariants, VHDL Design units, VHDL Programming Paradigm, Standard \nModels in VHDL Architectures, VHDL Operators, FSM Design using VHDL, \nStructural Modelling Using VHDL, Data Objects, Looping Constructs",
+    "3": "STANDARD DIGITAL CIRCUITS IN VHDL\nDesign of D Flip Flop, 8-bit Shift Register, Synchronous Up/Down Counter; \nDesign of parallel adder/subtractor with accumulator, Serial Adder with \nAccumulator, Design of Binary Multiplier and Binary Divider.",
+    "4": "INTRODUCTION TO FPGA AND ITS ARCHITECTURE\nTypes of Programmable Logic Devices: PLA, PAL, CPLD. FPGA Design flow, \nApplications of FPGA, FPGA Architecture,",
+    "5": "DIGITAL SYSTEM DESIGN USING FPGA\nProgramming Technologies, Introduction to FPGA development environments \n(Vivado, Xilinx), features of commercially available Xilinx / Vivado FPGAs. Design \nand Synthesis of basic circuits such as logic gates, adder, subtractor, decoder, \nmultiplexer. Flipflops, counter using Xilinx /Vivado FPGA."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Review the concept of combinational and sequential digital circuit",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Implement digital circuits using hardware description language",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Understand FPGA design flow.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Understand FPGA Architectures and advanced technologies",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Implementing Digital Systems on FPGAs using VHDL",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Digital Design (4th Edition) by M. Morris R. Mano Michael D. Ciletti"
+    },
+    {
+     "no": 2,
+     "book": "Cem Unsalan, Bora Tar. Digital System Design with FPGA: Implementation using Verilog and VHDL. McGrawHill, First Edition."
+    },
+    {
+     "no": 3,
+     "book": "John V. Old Field, Richrad C. Dorf, Field Programmable Gate Arrays, Wiley, 2008."
+    },
+    {
+     "no": 4,
+     "book": "Bhasker, Jayaram. “A VHDL primer.” (1995)."
+    },
+    {
+     "no": 5,
+     "book": "Wolf, W., FPGA-based System Design, PH/Pearson, (2004) Cheap ed."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Douglas L.Perry, VHDL: “Programming by Example”, McGraw-Hill, 2002."
+    },
+    {
+     "no": 2,
+     "book": "Simon Monk. Programming FPGAs Getting Started with Verilog. McGrawHill, First Edition."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit IV ends with a trailing comma after 'FPGA Architecture'",
+    "Textbook 3 prints 'Richrad C. Dorf' (likely typo for Richard) as printed",
+    "Unit V prints 'Xilinx /Vivado' with inconsistent spacing",
+    "Textbook 5 prints '(2004) Cheap ed.' as an unusual edition notation"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHYSICAL DESIGN FOR VLSI CIRCUITS",
+   "name_print": "PHYSICAL DESIGN FOR VLSI CIRCUITS",
+   "codes": [
+    "BVL602"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction: VLSI Design flow, Physical Design Cycle, VLSI Design Styles,\nCommon EDA Terminology.\nPartitioning – Problem formulation, Classification of Partitioning algorithms,\nKernighan-Lin Algorithm, Simulated Annealing, Fiduccia-Mattheyses (FM)\nAlgorithm.",
+    "2": "Floor Planning – Problem formulation, Classification of floor planning\nalgorithms, constraint-based floor planning, Rectangular Dualization,\nPin Assignment – Problem formulation, Classification of pin assignment\nalgorithms, General and channel Pin assignments.",
+    "3": "Placement – Problem formulation, Placement algorithms: standard cell\nplacement, timing-driven placement, Classification of placement algorithms,\nPartitioning based placement algorithms. Power planning and IR drop\nconsiderations",
+    "4": "Clock Tree Synthesis (CTS) and Routing\nClock distribution challenges: skew, latency, and insertion delay, CTS\nmethodologies: H-tree, X-tree, and balanced clock trees, Clock gating.\nGlobal routing and detailed routing techniques, Routing constraints: DRC, wire\nload models, parasitic extraction",
+    "5": "Timing and Power Analysis\nStatic Timing Analysis (STA): setup and hold analysis, Timing closure challenges\nand optimization techniques\nPower analysis: dynamic, leakage, IR drop, and power grid design"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understood the physical design flow and different VLSI design styles.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Apply partitioning in a given circuit.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Design and optimized floorplans of a circuit.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Optimize placements on the silicon chip and perform complex routing using algorithms.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Design clock trees to distribute the clock signals on the chip while satisfying various constraints like clock skew and wire length.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "N.A.Sherwani , “Algorithms for VLSI Physical Design Automation”, (3/e), Kluwer,1999."
+    },
+    {
+     "no": 2,
+     "book": "Andrew B. Kahng, Jens Lienig, Igor L. Markov, JinHu,VLSI Physical Design: From Graph Partitioning to Timing Closure, Springer, 2011."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "H. Yosuff and S.M. Sait, VLSI Physical Design Automation – Theory and Practice, Cambridge India, 2010."
+    },
+    {
+     "no": 2,
+     "book": "Khosrow Golshan, “Physical Design Essentials-An ASIC Design Implementation Perspective” Springer New York, NY, 2007. DOI: https://doi.org/10.1007/978-0-387-46115-1."
+    },
+    {
+     "no": 3,
+     "book": "S.H. Gerez, “Algorithms for VLSI Design Automation”, John Wiley ,1998."
+    },
+    {
+     "no": 4,
+     "book": "Sung Kyu Lim, Practical Problems in VLSI Physical Design Automation, Springer India, 2011."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Code printed as 'BVL 602' with space between BVL and 602",
+    "Textbook 2: 'JinHu,VLSI' missing space after comma",
+    "Unit headings are roman numerals (I–V) with topic text following on same line",
+    "Semester not explicitly printed for this subject; page covers V & VI semester scheme"
+   ],
+   "flags": []
+  },
+  {
+   "name": "FUNDAMENTALS OF NANOELECTRONICS",
+   "name_print": "FUNDAMENTALS OF NANOELECTRONICS",
+   "codes": [
+    "BVL-061"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Overview of basic Nano electronics, Nano technology and its architectures,\nBasics of Quantum Mechanics: Schrodinger equation, density of states of\nelectrons in nanostructures; Electron transport in nanostructures: Electrons in\nquantum wells, quantum wires and quantum dots   ",
+    "2": "Materials for Nanoelectronics Semiconductors, Crystal lattices: bonding in\ncrystals, Electron energy bands, 2D materials for Semiconductor: Carbon nano-\nmaterials: nanotubes and fullerenes",
+    "3": "Introduction to methods of fabrication of Nano-layers, different approaches,\nphysical vapour deposition, chemical vapour deposition, Formation of Silicon\nDioxide- dry and wet oxidation methods. Fabrication of Nano particle- grinding\nwith iron balls, soil gel techniques: oil in water techniques.",
+    "4": "Introduction to characterization of nanostructures, tools used for of\nNanomaterials characterization, electron microscope, X-Ray Diffraction analysis,\nUV Spectroscopy, Scanning Electron Microscopy (SEM).",
+    "5": "Some Nanostructure Devices:  MOSFET structures, Heterojunctions, Tunnel\njunction and applications of tunneling, Resonant-tunneling diodes; Field-effect\ntransistors, Introduction to MEMS/NEMS"
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "1. Understand basic concepts of Nano-electronic devices and Nano technology.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "2. Understand various aspects of Nano components and material.   ",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "3. Understand fabrication processes involved in making Nano-electronic components",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "4. Understand different characterization techniques for Nano devices",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "5. 5. Study of some Nano electronic structure device",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "G.W. Hanson, Fundamentals of Nano electronics, Pearson, 2009.   "
+    },
+    {
+     "no": 2,
+     "book": "W. Ranier, Nano electronics and Information Technology, Wiley-VCH, 2003.   "
+    },
+    {
+     "no": 3,
+     "book": "K.E. Drexler, Nano systems, Wiley, 1992.   "
+    },
+    {
+     "no": 4,
+     "book": "K. Goser, P. Glosekotter, J. Dienstuhl, Nanoelectronics and nanosystems, Springer 2004."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "C.P. Poole, F. J. Owens, Introduction to Nanotechnology, Wiley, 2003"
+    },
+    {
+     "no": 2,
+     "book": "Supriyo Dutta, Quantum Transport- Atom to transistor, Cambridge, 2013."
+    },
+    {
+     "no": 3,
+     "book": "WR Fahrner – Springe, Nano Terchnology and Nano Electronics – Materials, devices and measurement\nTechniques."
+    },
+    {
+     "no": 4,
+     "book": "Nanotubes and nanowires by C.N.R. Rao and A. Govindaraj, RSC Publishing."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Duplicate numbering in CO5: '5. 5. Study of some Nano electronic structure device'",
+    "Typo in reference book 3: 'Nano Terchnology' (should be Nanotechnology)",
+    "'Springe' instead of 'Springer' in reference book 3",
+    "'soil gel techniques' in unit III (likely sol-gel)",
+    "'tools used for of' in unit IV (grammatical error)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "DRONE TECHNOLOGY",
+   "name_print": "DRONE TECHNOLOGY",
+   "codes": [
+    "BVL062"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Flight Dynamics of Aerial Vehicles: \nDefinitions of Drone, UAV, RPA, Quadcopters -Basic Components and Categories – \nPrinciples of Flight - Flight Maneuvers – Airframes - Creating a Frame: Materials, \nDifferent Frame Shapes – Building Airframes - Flight dynamics - Applications - Future \npotential - Comparison with other aerial vehicles.",
+    "2": "Hardware Anatomy of a Quadcopter: \nPower Train – Propellers, Motors- Total Lift - Electronic Speed Controllers– Flight \nBattery –Radio transmitter and receiver – Flight Controller – GPS, Compass, Camera \nAssembling for Quadcopter – Connectors, Mounting of Propellers and Powering up.",
+    "3": "Introduction to Satellite Communication:  \nKey Flight Safety Rules - Preflight Checklist and Flight Log Information – Flight\nInstructions - Repair and Maintenance: Crash analysis, Common issues, Voltage testing.\nTest and troubleshoot the Flight Controller Board (FCB), Electronic Speed Controller \n(ESC), and its associated peripherals.",
+    "4": "Real World Applications and Case Studies: \nBeneficial Drones, Aerial Photography, Mapping and Surveying, Precision \nAgriculture, Search and Rescue, Infrastructure Inspection, and Conservation. Case \nStudies: Agriculture Weed Classification, Microdrone Surveillances.",
+    "5": "Drone Technology: \n1. Familiarization with Drone Parts. \n2. Assembling the Drone. \n3. Preparation for Drone for Flight, making a flight plan, and basic drone flight training. \n4. Debugging and repairing the drone. \n5. Operation of a Drone for Different Applications."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Apply the concept of Flight dynamics for building a Quadcopter.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Assemble and Program the Quadcopter.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Perform Testing and Control operations on the Quadcopter.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Implement a Quadcopter for real-world applications.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Design and Develop the Drone.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Reg Austin “Unmanned Aircraft Systems UAV design, development and deployment”, Wiley, 2010."
+    },
+    {
+     "no": 2,
+     "book": "Robert C. Nelson, Flight Stability and Automatic Control, McGraw-Hill, Inc, 1998."
+    },
+    {
+     "no": 3,
+     "book": "Kimon P. Valavanis, “Advances in Unmanned Aerial Vehicles: State of the Art and the Road to Autonomy”, Springer, 2007.."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Paul G Fahlstrom, Thomas J Gleason, “Introduction to UAV Systems”, UAV Systems, Inc, 1998"
+    },
+    {
+     "no": 2,
+     "book": "Dr. Armand J. Chaput, “Design of Unmanned Air Vehicle Systems”, Lockheed Martin Aeronautics."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Code printed as 'BVL-062' split across lines with hyphen; spaces removed to 'BVL062'",
+    "Unit I: 'Quadcopters -Basic' missing space after hyphen",
+    "Unit II: 'Controllers– Flight' uses en dash without spacing; 'Battery –Radio' missing space after dash",
+    "Textbook 3 ends with double period '2007..'",
+    "Unit V title 'Drone Technology:' duplicates subject name"
+   ],
+   "flags": []
+  },
+  {
+   "name": "VLSI CIRCUIT TESTING AND TESTABILITY",
+   "name_print": "VLSI CIRCUIT TESTING AND TESTABILITY",
+   "codes": [
+    "BVL603"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "Faults in Digital Circuits: Fault modelling, fault detection, redundancy, equivalence, fault location, fault dominance. Stuck at faults, bridging faults, stuck open faults, Transient faults, Permanent faults.",
+    "2": "Testing and Testability of Combinational Circuits  \nTest generation basics, test generation algorithms, path sensitization, Boolean difference, D-algorithm, PODEM, Testable combinational logic circuit design.",
+    "3": "Testing and Testability of Sequential Circuits  \nTesting of sequential circuits as iterative combinational circuits, State table verification, Test generation based on circuit structure, Design of testable sequential circuits, Ad Hoc design rules, Scan path technique (scan design), Partial scan, Boundary scan",
+    "4": "Memory, Delay, Fault AND IDDQ Testing  \nTestable memory design, RAM fault models, test algorithms for RAMs, Delay faults, Delay test, IDDQ testing, limitations of IDDQ Testing",
+    "5": "Design for testability: controllability and observability, Random test generation, transition count testing, signature analysis, syndrome testable design, RMC, Level sensitive scans design, BIST: LSSD on-chip self-test, BILBO, BIDCO."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the concepts of digital testing and Fault models.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Apply fault equivalence and dominance collapsing.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Apply fault simulation algorithms on digital circuits.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Understand and analyze combinational ATPG algorithms.",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Design testable combinational & sequential circuits.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "P. K. Lala, “Digital Circuit Testing and Testability”, Academic Press."
+    },
+    {
+     "no": 2,
+     "book": "M.L. Bushnell and V.D. Agrawal, “Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits”, Kluwar Academic Publishers."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "N.K. Jha and S.G. Gupta, “Testing of Digital Systems”, Cambridge University Press."
+    },
+    {
+     "no": 2,
+     "book": "Zainalabe Navabi, “Digital System Test and Testable Design: Using HDL Models and Architectures”, Springer."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": null,
+   "prerequisites": null,
+   "quirks": [
+    "unit 1 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "CMOS DIGITAL DESIGN TECHNIQUES",
+   "name_print": "CMOS DIGITAL DESIGN TECHNIQUES",
+   "codes": [
+    "BEC-063"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": null,
+   "units": {
+    "1": "VLSI design flow, VLSI design style, introduction to the basic fabrication processes (wafer preparation, oxidation, diffusion, etching, metallization and lithography, etc.), Fabrication process Flow: basic Steps, the CMOS n-well Process. Metal oxide semiconductor (MOS) structure, Types of MOSFET: Enhancement and Depletion. Structure and operation of MOS transistor.",
+    "2": "Threshold voltage equation and energy band diagram of MOSFET, controlling of threshold voltage, MOSFET current – Voltage Characteristics. Transconductance, Drain conduction. Aspect ratio, process parameters, second order effects, MOS small signal and Large signal model, MOS capacitances. Stick diagram rules for nMOS and CMOS technology, lambda based and micron-based design rules. Layout design for CMOS inverter",
+    "3": "Analysis of different types of inverter circuit, CMOS inverter, transfer characteristic, calculation of propagation delay, rise time, fall time, noise margin and power dissipation for CMOS Inverter. Effect of threshold voltage and supply voltage on Delay and power dissipation. Limitations of CMOS in NANO scale circuit design.",
+    "4": "CMOS logic, Complex Logic Circuits, pseudo NMOS logic, pass transistor logic, Transmission Gate logic and Dynamic logic circuit design. Designing of Combinational logic circuit using CMOS and analysis of various design parameters.",
+    "5": "Sequential MOS Logic circuits, SR Latched circuits, clocked latch and Flip Flop Circuits, CMOS D latch and Edge Triggered Flip Flop, Design of the Schmitt trigger circuit, Dynamic random access and Static random access memory cell design and analysis, Sense amplifier and row and column decoder circuit."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the static and dynamic behavior of MOSFETs (Metal Oxide Semiconductor Field Effect Transistors) and the secondary effects of the MOS transistor model.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "To be aware about the trends in semiconductor technology, and how it impacts scaling and its effect on device density, speed and power consumption.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "To understand MOS transistor as a switch and its capacitance.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Student will be able to design digital systems using MOS circuits (Static and Switching characteristics of inverters)",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Understand the concept behind ASIC (Application Specific Integrated Circuits) design and the different implementation approaches used in industry.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Sung-mo Kang and Yusuf Leblebici, CMOS Digital Integrated Circuit analysis and Design, Tata McGraw-Hill, 3/e."
+    },
+    {
+     "no": 2,
+     "book": "R. Jacob Baker, Harry W. Li and David E. Boyce, CMOS Circuit design, layout and Simulation, PHI, IEEE press, Series Edition,"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Yuan Taur and Tak H. Ning, Fundamentals of Modern VLSI Devices, Cambridge university Press, Special Edition, 1998"
+    },
+    {
+     "no": 2,
+     "book": "Neil H.E. Weste and Kamran Esharhian, Principal of CMOS VLSI design, PHI, 2/e"
+    },
+    {
+     "no": 3,
+     "book": "Jan M. Rabaey, Digital Integrated Circuit, PHI, 2/e"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "MICROCONTROLLERS AND SENSORS FOR IOT APPLICATIONS",
+   "name_print": "MICROCONTROLLERS AND SENSORS FOR IOT APPLICATIONS",
+   "codes": [
+    "BEC064"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": null,
+   "subject_type": "core",
+   "units": {
+    "1": "Fundamentals of IOT: Introduction to IoT, IoT Design Methodology, Design Principles \nfor Connected Devices: Calm and Ambient Technology, Internet Communications \noverview, IoT enabled Technologies – Wireless Sensor Networks, Cloud Computing.",
+    "2": "Data Acquisition with IOT Devices: Prototyping embedded devices: Sensors and \nActuators, Electronics and Power Components, Working mechanism of range of sensors \nand data acquisition, Data processing and analysis, Wireless Data transmission, IoT Point \nto point communication technology, IoT Communication Patterns, Selection of Wireless \ntechnologies ( 6LoWPAN, Zigbee, WIFI, BLE, NFC, LORA, Li-Fi, Widi).",
+    "3": "MSP430 Microcontrollers: Functional Block diagram, Addressing modes, Instruction Set, \nExamples, Reflections on the CPU and Instruction Set, DPR for M.Tech IoT and Sensor \nSystems 2022 19 Exceptions, Clock system. Development: Development Environment, \nAccess to the Microcontroller for Programming and Debugging, Demonstration Boards, \nExamples. Functions, Interrupts, and Low-Power Modes. Functions and Subroutines, \nInterrupts, ISR, Low-Power Modes of Operation.",
+    "4": "Sensor Interfacing and Applications: Sensors interfacing: Sensors interfacing techniques- \nPort Programming, ADC, SPI thermometer, I2C thermometer, PWM generation and \ndemodulation, DTH11Cloud interfacing: Interfacing and data logging with cloud: Thing \nspeak. \nIoT’s Applications – Smart Farming: Smart Greenhouse, Drones for pesticides, Smart \nEnergy Meters, Home automation, Smart Grid and Solar Energy Harvesting, Intelligent \nParking, IoT for Healthcare, and weather analysis.",
+    "5": "Security and Privacy in IoT: The problem- “Identity of Things”, Device On-Boarding, \nSymmetric Encryption Standards: Symmetric Encryption (DES, AES 128), Hashing, \nAuthentication, CCMP Authentication and Encryption protocol, Non-Symmetric \nEncryption Standards: Diffie Hellman (principle, Man in the Middle attack), RSA, Digital \nSignature and Authentication."
+   },
+   "lectures_per_unit": 8,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Introduction to IoTs enabled technologies.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Analyze the mechanism of Data Acquisition and processing.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Understand data classification, process of big data technology, user roles and Detects myths in big \ndata",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Analyze software and management tools for Industrial applications of IoTs",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Understand the Real-World design constraints and challenges.",
+     "kl": null
+    }
+   ],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "A Beginner’s Guide to Internet of Things Security: Attacks, Applications, B.B. Gupta, Aakansha Tiwari, \nCRC Press, Taylor and Francis Group, 2020."
+    },
+    {
+     "no": 2,
+     "book": "Donald Norris, “The Internet of Things: Do-It-Yourself at Home Projects for Arduino, Raspberry Pi and \nBeagleBone Black”, McGraw Hill, 2015."
+    },
+    {
+     "no": 3,
+     "book": "John H. Davies, “MSP430 Microcontroller Basics”, 2011, 2nd ed., Newnes publishing, New York."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Peter Waher, 'Learning Internet of Things', Packt Publishing, 2015."
+    },
+    {
+     "no": 2,
+     "book": "A First Course in Fuzzy and Neural Control by Nguyen, Prasad, Walker, and Walker. CRC 2003."
+    },
+    {
+     "no": 3,
+     "book": "Jacob Fraden, “Hand Book of Modern Sensors: physics, Designs and Applications”, 2014, 4th ed., \nSpringer, New York."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Code printed as 'BEC-064' with hyphen",
+    "Unit III contains stray text 'DPR for M.Tech IoT and Sensor Systems 2022 19'",
+    "Unit IV contains 'DTH11Cloud' - merged words, likely typo for 'DHT11' followed by 'Cloud'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "CMOS DIGITAL DESIGN LAB",
+   "name_print": "CMOS DIGITAL DESIGN LAB",
+   "codes": [
+    "BEC653A"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": null,
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Understand the static and dynamic behavior of MOSFETs (Metal Oxide Semiconductor\nField Effect Transistors) and the secondary effects of the MOS transistor model.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "To be aware about the trends in semiconductor technology, and how it impacts scaling and\nits effect on device density, speed and power consumption.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "To understand MOS transistor as a switch and its capacitance.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Student will be able to design digital systems using MOS circuits (Static and Switching\ncharacteristics of inverters)",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Understand the concept behind ASIC (Application Specific Integrated Circuits) design and\nthe different implementation approaches used in industry.",
+     "kl": null
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Design and analyze the parameters of CMOS inverter using simulation."
+    },
+    {
+     "no": 2,
+     "exp": "Design and Simulate 4-bit adder in structural and behavioral modeling VHDL."
+    },
+    {
+     "no": 3,
+     "exp": "Design and Simulate State machine using VHDL."
+    },
+    {
+     "no": 4,
+     "exp": "Design and Simulate ALU using Packages and user defined datatype."
+    },
+    {
+     "no": 5,
+     "exp": "Design and Simulate Linear Feedback Shift Register"
+    },
+    {
+     "no": 6,
+     "exp": "Design and simulate any combinational circuit using domino CMOS logic."
+    },
+    {
+     "no": 7,
+     "exp": "Design and simulate 2:1 mux using CMOS transmission gate."
+    },
+    {
+     "no": 8,
+     "exp": "Design and simulate decade counter using VHDL."
+    },
+    {
+     "no": 9,
+     "exp": "Design and simulate ripple counter using VHDL."
+    },
+    {
+     "no": 10,
+     "exp": "Design and simulate shift register using VHDL."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Code printed as 'BEC-653A' with hyphens; requested code 'BEC653A' without hyphens",
+    "Course name 'CMOS DIGITAL DESIGN LAB' appears after code 'BEC-653A' in print",
+    "Semester not explicitly stated; page header indicates V & VI semester scheme",
+    "Marks breakdown not printed in extracted text"
+   ],
+   "flags": []
+  },
+  {
+   "name": "CAD (COMPUTER-AIDED DESIGN) FOR ELECTRONICS LAB",
+   "name_print": "CAD (COMPUTER-AIDED DESIGN) FOR ELECTRONICS LAB",
+   "codes": [
+    "BEC653B"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Design and analyze the performance of different type of inverters.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Design and analyze the performance of the basic logic gates using CMOS inverter circuit.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Design and analyze the performance of the memory based digital circuits using CMOS inverter circuit.",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Analyze the performance of the different configuration of MOS amplifier circuits.",
+     "kl": null
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "1. (a) Transient Analysis of BJT inverter using step input. (b) DC Analysis (VTC) of BJT inverter"
+    },
+    {
+     "no": 2,
+     "exp": "2. (a) Transient Analysis of NMOS inverter using step input. \n(b) Transient Analysis of NMOS inverter using pulse input. \n                                 (c) DC Analysis (VTC) of NMOS inverter."
+    },
+    {
+     "no": 3,
+     "exp": "3. (a) Analysis of CMOS inverter using step input. \n              (b) Transient Analysis of CMOS inverter using step input with parameters. \n              (c) Transient Analysis of CMOS inverter using pulse input. \n              (d) Transient Analysis of CMOS inverter using pulse input with parameters. \n              (e) DC Analysis (VTC) of CMOS inverter with and without parameters."
+    },
+    {
+     "no": 4,
+     "exp": "4. Transient & DC Analysis of NAND Gate using CMOS inverter."
+    },
+    {
+     "no": 5,
+     "exp": "5. Transient Analysis of NOR Gate inverter and implementation of XOR gate using NOR gate"
+    },
+    {
+     "no": 6,
+     "exp": "6. To design and perform transient analysis of D latch using CMOS inverter."
+    },
+    {
+     "no": 7,
+     "exp": "7. To design and perform the transient analysis of SR latch circuit using CMOS inverter."
+    },
+    {
+     "no": 8,
+     "exp": "8. To design and perform the transient analysis of CMOS transmission gate."
+    },
+    {
+     "no": 9,
+     "exp": "9. Analysis of frequency response of Common Source amplifiers."
+    },
+    {
+     "no": 10,
+     "exp": "10. Analysis of frequency response of Source Follower amplifiers"
+    },
+    {
+     "no": 11,
+     "exp": "1. Design and Simulation of Full Adder using VHDL program module"
+    },
+    {
+     "no": 12,
+     "exp": "2. Design and Simulation of 4x1 MUX using VHDL program module"
+    },
+    {
+     "no": 13,
+     "exp": "3. Design and Simulation of BCD to Excess-3 code using VHDL program module"
+    },
+    {
+     "no": 14,
+     "exp": "4. Design and Simulation of 3 to 8 decoder using VHDL program module"
+    },
+    {
+     "no": 15,
+     "exp": "5. Design and Simulation of JK Flip-flop using VHDL program module"
+    },
+    {
+     "no": 16,
+     "exp": "6. Design and Simulation of CMOS Inverter using verilog Module"
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Part B heading appears as 'Part B :' with a space before colon.",
+    "Experiment numbering restarts at 1 in Part B (VHDL programs).",
+    "Headings 'PSPICE Experiments:' and 'VHDL PROGRAMS' are printed but are not experiments themselves.",
+    "The page header 'Curriculum & Evaluation Scheme (V & VI semester)' and 'Page 32' appear above the subject detail."
+   ],
+   "flags": []
+  },
+  {
+   "name": "MICROCONTROLLERS AND SENSORS FOR IOT APPLICATIONS LAB",
+   "name_print": "MICROCONTROLLERS AND SENSORS FOR IOT\nAPPLICATIONS LAB",
+   "codes": [
+    "BEC-653C"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": null,
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [
+    {
+     "no": 1,
+     "text": "Introduction to IoTs enabled technologies.",
+     "kl": null
+    },
+    {
+     "no": 2,
+     "text": "Analyze the mechanism of Data Acquisition and processing.",
+     "kl": null
+    },
+    {
+     "no": 3,
+     "text": "Understand data classification, process of big data technology, user roles and Detects myths in big data",
+     "kl": null
+    },
+    {
+     "no": 4,
+     "text": "Analyze software and management tools for Industrial applications of IoTs",
+     "kl": null
+    },
+    {
+     "no": 5,
+     "text": "Understand the Real-World design constraints and challenges.",
+     "kl": null
+    }
+   ],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Write a program on Arduino/Raspberry Pi to upload various data of different sensors onto things peak cloud."
+    },
+    {
+     "no": 2,
+     "exp": "Write a program to create TCP server on Arduino/Raspberry Pi and respond with relevant data of sensor to TCP client when requested."
+    },
+    {
+     "no": 3,
+     "exp": "Analysis IoT Data Logging using Beagle Board."
+    },
+    {
+     "no": 4,
+     "exp": "Indoor Air Quality Analysis using ESP32 & Byte beam Cloud."
+    },
+    {
+     "no": 5,
+     "exp": "Collect sensor data from Arduino/ESP32 and Raspberry Pi and analysis onto MATLAB."
+    },
+    {
+     "no": 6,
+     "exp": "Analysis of ESP32 UART Communication and RS232 TTL serial communication."
+    },
+    {
+     "no": 7,
+     "exp": "Analysis of data received from multiple boards at a time. (Many to one mapping"
+    },
+    {
+     "no": 8,
+     "exp": "Perform LED Blinking operation using MSP 430 GPIOs."
+    },
+    {
+     "no": 9,
+     "exp": "Configure the PWM module of the MSPEXP430FR5969 Launchpad to control the brightness of LED."
+    },
+    {
+     "no": 10,
+     "exp": "PWM based DC Motor Speed Control using MSP430 GPIOs."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Code printed as 'BEC-653C' with hyphen.",
+    "Name printed across two lines: 'MICROCONTROLLERS AND SENSORS FOR IOT' and 'APPLICATIONS LAB'.",
+    "Experiment 7 missing closing parenthesis: '(Many to one mapping'.",
+    "Typo 'things peak cloud' likely 'thingspeak cloud'.",
+    "Typo 'Detects myths' possibly 'Detect myths'.",
+    "Subject type not printed; assumed 'core'."
+   ],
+   "flags": []
+  },
+  {
+   "name_print": "Mini Project/Internship **",
+   "codes": [
+    "BEC-554"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 50,
+    "sessional_total": 50,
+    "ese_te_pe": null,
+    "total": 50
+   },
+   "subject_type": "P",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Mini Project/Internship **"
+  },
+  {
+   "name_print": "Constitution of India, Law and Engineering / Indian Tradition, Culture and Society",
+   "codes": [
+    "BNC501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "T",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Constitution of India, Law and Engineering / Indian Tradition, Culture and Society"
+  },
+  {
+   "name_print": "Constitution of India, Law and Engineering / Indian Tradition, Culture and Society",
+   "codes": [
+    "BNC502"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 2,
+    "t": 0,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10
+   },
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Constitution of India, Law and Engineering / Indian Tradition, Culture and Society",
+   "quirks": []
+  },
+  {
+   "name_print": "CMOS Analog VLSI Design",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "CMOS Analog VLSI Design",
+   "codes": [
+    "BEC058"
+   ]
+  },
+  {
+   "name_print": "Digital Design with FPGA Lab P PC",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Digital Design with FPGA Lab P PC",
+   "codes": [
+    "BVL651"
+   ]
+  },
+  {
+   "name_print": "Physical Design for VLSI Circuits Lab P PC",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Physical Design for VLSI Circuits Lab P PC",
+   "codes": [
+    "BVL652"
+   ]
+  },
+  {
+   "name_print": "Constitution of India, Law and Engineering / Indian Tradition, Culture and Society",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Constitution of India, Law and Engineering / Indian Tradition, Culture and Society",
+   "codes": [
+    "BNC601"
+   ]
+  },
+  {
+   "name_print": "Constitution of India, Law and Engineering / Indian Tradition,",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Constitution of India, Law and Engineering / Indian Tradition,",
+   "codes": [
+    "BNC602"
+   ]
+  },
+  {
+   "name_print": "Microcontrollers: Functional Block diagram, Addressing modes, Instruct",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Microcontrollers: Functional Block diagram, Addressing modes, Instruct",
+   "codes": [
+    "MSP430"
+   ]
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [],
+ "flags": []
+}
