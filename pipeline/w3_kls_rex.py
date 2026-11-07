@@ -25,7 +25,9 @@ queue = json.load(open(f"{BASE}/w3_rex_queue.json"))
 done = {}
 if os.path.exists(RESULTS):
     done = json.load(open(RESULTS))
-todo = [q for q in queue if q["sid"] not in done]
+# resume semantics: retry only rows whose previous attempt failed (api_fail /
+# parse_fail); ok + partial results are final (applied or honest-nulls)
+todo = [q for q in queue if q["sid"] not in done or done[q["sid"]].get("status") in ("api_fail", "parse_fail")]
 print(f"W3-REX|queue={len(queue)} done={len(done)} todo={len(todo)}")
 
 import fitz, hashlib

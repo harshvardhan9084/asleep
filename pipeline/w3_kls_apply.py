@@ -79,6 +79,10 @@ touched = set()
 mismatches = []
 
 def apply_kls(r, kls, rule, evidence):
+    # guard: already backfilled/partially applied rows are not re-written
+    qfl = r.get("quality_flags", "") or ""
+    if "corrected_KLS_BACKFILL" in qfl or "kls_partially_printed" in qfl:
+        return False
     before = r.get("co_kls", "") or ""
     r["co_kls"] = json.dumps(kls, ensure_ascii=False)
     cjson = json.loads(r.get("corrections_json", "") or "[]")
@@ -101,9 +105,9 @@ for sid, w in wins.items():
     r = by_id.get(sid)
     if not r or ncos_of(r) != len(w["kls"]):
         continue
-    apply_kls(r, w["kls"], "KLS_MISSING" if not w["evidence"] else "KLS_BACKFILL",
-              w["evidence"] + " (deterministic text-layer scan)")
-    n_win += 1
+    if apply_kls(r, w["kls"], "KLS_MISSING" if not w["evidence"] else "KLS_BACKFILL",
+                 w["evidence"] + " (deterministic text-layer scan)"):
+        n_win += 1
 
 for sid, res in rex.items():
     r = by_id.get(sid)
@@ -123,7 +127,8 @@ for sid, res in rex.items():
                     kls[idx] = k  # deterministic text-layer wins
         apply_kls(r, kls, "KLS_BACKFILL",
                   "mercury-3 REX over cited doc print (validated K1-K6, count match)")
-        n_rex_ok += 1
+        if "corrected_KLS_BACKFILL" in (r.get("quality_flags", "") or "") or "kls_partially_printed" in (r.get("quality_flags", "") or ""):
+            n_rex_ok += 1
     elif res["status"] == "partial" and kls and any(k for k in kls):
         det = rex_queue.get(sid, {}).get("partial", [])
         if isinstance(det, dict):
@@ -133,13 +138,16 @@ for sid, res in rex.items():
                     kls[idx] = k
         apply_kls(r, kls, "KLS_BACKFILL",
                   "mercury-3 REX over cited doc print (partially printed; nulls = K not printed for that CO)")
-        n_rex_partial += 1
+        if "kls_partially_printed" in (r.get("quality_flags", "") or ""):
+            n_rex_partial += 1
 
 for q in not_printed:
     sid = q["sid"]
     r = by_id.get(sid)
     if not r or sid in touched:
         continue
+    if "kls_raster_candidate" in (r.get("quality_flags", "") or "") or "kls_not_printed" in (r.get("quality_flags", "") or ""):
+        continue  # already flagged (B55) — idempotent re-run guard
     raster = has_raster_co_pages(q.get("shas", []))
     qf_update(r, "KLS_MISSING", "kls_raster_candidate" if raster else "kls_not_printed")
     note = ("W3: no K-levels in any cited doc's text layer"

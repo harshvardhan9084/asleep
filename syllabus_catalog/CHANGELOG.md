@@ -1,3 +1,7 @@
+# CRON-AUTO-B57 — CRON-AUTO-B57 — 2026-11-07
+
+wave stage w3_resume (automated; see manifest)
+
 # CRON-20261108-B56 — B56 — 2026-11-07
 
 rows 3097, codes 6412, +0 appends/~1100 updates/!0 repairs — W4 subject_type normalization (2509 rows, 10-value vocab, raw preserved) + subject_name_display (3083 rows) + W3b legacy co_kls format normalization (293 rows to JSON); 2 G6 containment-gap rows flagged needs_review (lost supplying docs, zero-guess)
