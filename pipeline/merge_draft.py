@@ -955,6 +955,120 @@ DOC_SCOPE = {
 # published B06 manifest ("TIER2_OVERRIDES mechanism added ... per-key,
 # evidence-recorded"), re-evidenced against the drafts + baseline rows.
 TIER2_OVERRIDES = {
+    # --- B49b commit-run adjudications (adjudicate_b49b marker) ---
+    "04_btech_ee_y4_syllabus::03::advanced-microprocessors-and-microcontrollers": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "advanced-microprocessors-and-microcontrollers",
+        "keep_published_codes": {"NEN-032": "engineering-geology"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NEE-032/NEN-032 (BTech EE y4 2016-17 DE print, no-session N-era 2016-17 print) vs NEN-032 currently owned by engineering-geology (sess 2024-25, NEWER than this print). The NEN-032 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally."},
+    "04_btech_ee_y4_syllabus::15::power-system-operation-and-control": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "power-system-operation-and-control",
+        "keep_published_codes": {"NEN-031": "soil-and-water-conservation-engineering"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NEE-031/NEN-031 (BTech EE y4 2016-17 DE print, no-session N-era 2016-17 print) vs NEN-031 currently owned by soil-and-water-conservation-engineering (sess 2025-26, NEWER than this print). The NEN-031 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally."},
+    "04_btech_ee_y4_syllabus::05::embedded-systems": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "embedded-systems",
+        "keep_published_codes": {"NEC-802": "optical-networks"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NEE-043/NEC-802 (BTech EE y4 2016-17 DE print, no-session N-era 2016-17 print) vs NEC-802 currently owned by optical-networks (sess 2021-22, NEWER than this print). The NEC-802 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally."},
+    "04_btech_ee_y4_syllabus::26::database-management-system-and-data-mining-and-warehousing": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "database-management-system-and-data-mining-and-warehousing",
+        "keep_published_codes": {"NOE-083": "product-development"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NOE-083 (BTech EE y4 2016-17 OE print, no-session N-era 2016-17 print) vs NOE-083 currently owned by product-development (sess 2016-17, NEWER than this print). The NOE-083 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally. The doc-05 print of the same subject is NOE-085 (the recorded 04/05 083-vs-085 scheme discrepancy): NOE-085 is unowned and lands on the DBMS row via this update; the 04 print stays with its published same-era owner."},
+    "05_btech_en_y4_syllabus::08::advanced-microprocessors-and-microcontrollers": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "advanced-microprocessors-and-microcontrollers",
+        "keep_published_codes": {"NEN-032": "engineering-geology"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NEE-032/NEN-032 (BTech EN y4 2016-17 DE print, no-session N-era 2016-17 print) vs NEN-032 currently owned by engineering-geology (sess 2024-25, NEWER than this print). The NEN-032 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally."},
+    "05_btech_en_y4_syllabus::10::embedded-systems": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "embedded-systems",
+        "keep_published_codes": {"NEC-802": "optical-networks"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NEE-043/NEC-802 (BTech EN y4 2016-17 DE print, no-session N-era 2016-17 print) vs NEC-802 currently owned by optical-networks (sess 2021-22, NEWER than this print). The NEC-802 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally."},
+    "05_btech_en_y4_syllabus::15::power-system-operation-and-control": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "power-system-operation-and-control",
+        "keep_published_codes": {"NEN-031": "soil-and-water-conservation-engineering"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NEE-031/NEN-031 (BTech EN y4 2016-17 DE print, no-session N-era 2016-17 print) vs NEN-031 currently owned by soil-and-water-conservation-engineering (sess 2025-26, NEWER than this print). The NEN-031 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally."},
+    "05_btech_en_y4_syllabus::17::image-processing": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "image-processing",
+        "keep_published_codes": {"NEN-043": "river-engineering"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NEN-043 (BTech EN y4 2016-17 DE-IV print, no-session N-era 2016-17 print) vs NEN-043 currently owned by river-engineering (sess 2024-25, NEWER than this print). The NEN-043 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally."},
+    "05_btech_en_y4_syllabus::19::power-system-lab": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "power-system-lab",
+        "keep_published_codes": {"NEN-751": "seminar"},
+        "reason": "B49 KEEP (B19 ruling: an older print never steals a code from a newer-session published owner): draft NEN-751 (BTech EN y4 2016-17 practical print, no-session N-era 2016-17 print) vs NEN-751 currently owned by seminar (sess 2019-20, NEWER than this print). The NEN-751 scheme print is recorded as narrative on the updated row; ownership stays with the published owner; G2 single-ownership preserved. The unowned sibling codes of the draft land normally."},
+    "05_btech_en_y4_syllabus::01::project": {
+        "action": "RETARGET",
+        "target": "project-btech",
+        "reason": "B49 commit-mode TIE resolution (B44 intra-batch cascade class - the dry-run laddered against the pre-commit CSV where the second code was unowned/differently owned; doc 04's earlier update in THIS commit created the second candidate): RETARGET pins the name-identity row project-btech (the exact-name accumulator; same course BTech per §1b). Update-first per the owner rule; fieldwise per §3."},
+    "05_btech_en_y4_syllabus::03::project": {
+        "action": "RETARGET",
+        "target": "project-btech",
+        "reason": "B49 commit-mode TIE resolution (B44 intra-batch cascade class - the dry-run laddered against the pre-commit CSV where the second code was unowned/differently owned; doc 04's earlier update in THIS commit created the second candidate): RETARGET pins the name-identity row project-btech (the exact-name accumulator; same course BTech per §1b). Update-first per the owner rule; fieldwise per §3."},
+    "05_btech_en_y4_syllabus::11::flexible-ac-transmission-systems": {
+        "action": "RETARGET",
+        "target": "flexible-ac-transmission-systems",
+        "reason": "B49 commit-mode TIE resolution (B44 intra-batch cascade class - the dry-run laddered against the pre-commit CSV where the second code was unowned/differently owned; doc 04's earlier update in THIS commit created the second candidate): RETARGET pins the name-identity row flexible-ac-transmission-systems (the exact-name accumulator; same course BTech per §1b). Update-first per the owner rule; fieldwise per §3. The target row is the FATS row appended EARLIER IN THIS COMMIT by doc 04 (NEE-033 establishing print); this update unites the EN print (B48 commit-cascade class)."},
+    "05_btech_en_y4_syllabus::12::electric-drives": {
+        "action": "RETARGET",
+        "target": "electric-drives",
+        "reason": "B49 commit-mode TIE resolution (B44 intra-batch cascade class - the dry-run laddered against the pre-commit CSV where the second code was unowned/differently owned; doc 04's earlier update in THIS commit created the second candidate): RETARGET pins the name-identity row electric-drives (the exact-name accumulator; same course BTech per §1b). Update-first per the owner rule; fieldwise per §3. NEN-701 transfers here per the recorded B3 newest-print-wins model (the published owner health-safety-and-environment is the OLDER 2009-10 print; narrative history retained)."},
+    "05_btech_en_y4_syllabus::13::power-station-practice": {
+        "action": "RETARGET",
+        "target": "power-station-practice",
+        "reason": "B49 commit-mode TIE resolution (B44 intra-batch cascade class - the dry-run laddered against the pre-commit CSV where the second code was unowned/differently owned; doc 04's earlier update in THIS commit created the second candidate): RETARGET pins the name-identity row power-station-practice (the exact-name accumulator; same course BTech per §1b). Update-first per the owner rule; fieldwise per §3. NEN-702 transfers here per the recorded B3 newest-print-wins model (owner estimation-and-project-management is the OLDER 2009-10 print; narrative retained)."},
+    # --- B49 commit-run adjudications (adjudicate_b49 marker) ---
+    "01_btech_che_y4_syllabus::19::advance-separation-technology": {
+        "action": "ALLOW",
+        "reason": "B49 TIER2 same-subject ALLOW (fuzzy 98, overlap 36): draft 'Advance Separation Technology' (NCH-033, BTech CHE y4 2016-17 DE-III, 5 verbatim units) vs the BTech advanced-separation-technology accumulator (ECH-051, sess 2009-10, unit1 empty) - the same Chemical-Engineering departmental-elective across eras (printed spelling variance Advance/ADVANCED; unit-I shared distinctive terms 'separation processes, equilibrium and rate governed multistage processes' class). Same course BTech per §1b (cross-course guard clean); tier-2 qualified per RULES §2. Update-first: 2016-17 print is newer -> fieldwise units backfill the empty row per §3; NCH-033 is unowned, accumulates into code_history."},
+    "04_btech_ee_y4_syllabus::09::utilization-of-electrical-energy-and-traction": {
+        "action": "ALLOW",
+        "reason": "B49 TIER2 same-subject ALLOW (fuzzy 88, overlap 68): draft 'UTILIZATION OF ELECTRICAL ENERGY AND TRACTION' (NEE-802, BTech EE y4 2016-17) vs the BTech utilization-of-electrical-energy-electric-traction accumulator (BEE-075;EEE-801;REE-071;KEE-079, sess 2025-26, unit1 empty) - the target's all_codes already own EEE-801, the E-era print of exactly this subject (code-family evidence, B28 ITC class); '&'/'AND' print variance. Same course BTech per §1b; tier-2 qualified per RULES §2. Draft is OLDER (2016-17 < 2025-26) -> backfill of empty unit fields only per §3; NEE-802 unowned, accumulates into code_history."},
+    "04_btech_ee_y4_syllabus::16::ehv-ac-dc-transmission": {
+        "action": "ALLOW",
+        "reason": "B49 TIER2 same-subject ALLOW (fuzzy 86, overlap 93): draft 'EHV AC & DC TRANSMISSION' (NEE-041, BTech EE y4 2016-17) vs the BTech hvdc-ac-transmission accumulator ('HVDC & AC Transmission', BEE-072;EEE-041;REE-085;KEE-072, sess 2025-26, unit1 empty) - the target's all_codes already own EEE-041, the E-era print of this subject (code-family evidence); the EHV->HVDC title drift is era rewording of the same course (recorded B28 ITC era-rewriting class), overlap 93 shared unit terms. Same course BTech per §1b; tier-2 qualified per RULES §2. Draft OLDER -> backfill empty units only; NEE-041 unowned, accumulates into code_history."},
+    "05_btech_en_y4_syllabus::16::ehv-ac-dc-transmission": {
+        "action": "ALLOW",
+        "reason": "B49 TIER2 same-subject ALLOW (fuzzy 86, overlap 95): draft 'EHV AC & DC TRANSMISSION' (NEE-041, BTech EN y4 2016-17 print, the EE/EN shared y4 wave) vs the BTech hvdc-ac-transmission accumulator (sess 2025-26) - identical evidence class to 04_btech_ee_y4_syllabus::16 (EEE-041 owned by the target; EHV->HVDC era rewording; backfill-only update per §3); the commit-mode cascade unites the two same-name prints (B48 recorded class)."},
+    "01_btech_che_y4_syllabus::05::gp": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "general-proficiency",
+        "keep_published_codes": {"NGP-701": "general-proficiency"},
+        "reason": "B49 RETARGET_KEEP_PUBLISHED_CODE_OWNER (recorded B25/B26 GP class + B19 newest-print-wins): draft 'GP' (no-session N-era y4 scheme print, NGP-701) vs the BTech general-proficiency accumulator which ALREADY OWNS NGP-701;NGP-801;GP701;GP801 in all_codes (sess 2026-27). The name-identity 'gp' row (sess 2016-17) owns the NGP301-601 range, NOT the y4 codes. The published code owner wins; the y4 GP scheme print corroborates on the general-proficiency row; the intra-family 'gp'/'general-proficiency' (name,course) variance pair is recorded for owner reconciliation (B48 legacy-pair class). The B3 auto's premise (code slot re-used across DIFFERENT subjects) does not apply - GP is the same subject in both rows."},
+    "01_btech_che_y4_syllabus::13::gp": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "general-proficiency",
+        "keep_published_codes": {"NGP-801": "general-proficiency"},
+        "reason": "B49 RETARGET_KEEP_PUBLISHED_CODE_OWNER (recorded B25/B26 GP class + B19 newest-print-wins): draft 'GP' (no-session N-era y4 scheme print, NGP-801) vs the BTech general-proficiency accumulator which ALREADY OWNS NGP-701;NGP-801;GP701;GP801 in all_codes (sess 2026-27). The name-identity 'gp' row (sess 2016-17) owns the NGP301-601 range, NOT the y4 codes. The published code owner wins; the y4 GP scheme print corroborates on the general-proficiency row; the intra-family 'gp'/'general-proficiency' (name,course) variance pair is recorded for owner reconciliation (B48 legacy-pair class). The B3 auto's premise (code slot re-used across DIFFERENT subjects) does not apply - GP is the same subject in both rows."},
+    "04_btech_ee_y4_syllabus::18::gp": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "general-proficiency",
+        "keep_published_codes": {"NGP-701": "general-proficiency"},
+        "reason": "B49 RETARGET_KEEP_PUBLISHED_CODE_OWNER (recorded B25/B26 GP class + B19 newest-print-wins): draft 'GP' (no-session N-era y4 scheme print, NGP-701) vs the BTech general-proficiency accumulator which ALREADY OWNS NGP-701;NGP-801;GP701;GP801 in all_codes (sess 2026-27). The name-identity 'gp' row (sess 2016-17) owns the NGP301-601 range, NOT the y4 codes. The published code owner wins; the y4 GP scheme print corroborates on the general-proficiency row; the intra-family 'gp'/'general-proficiency' (name,course) variance pair is recorded for owner reconciliation (B48 legacy-pair class). The B3 auto's premise (code slot re-used across DIFFERENT subjects) does not apply - GP is the same subject in both rows."},
+    "04_btech_ee_y4_syllabus::19::gp": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "general-proficiency",
+        "keep_published_codes": {"NGP-801": "general-proficiency"},
+        "reason": "B49 RETARGET_KEEP_PUBLISHED_CODE_OWNER (recorded B25/B26 GP class + B19 newest-print-wins): draft 'GP' (no-session N-era y4 scheme print, NGP-801) vs the BTech general-proficiency accumulator which ALREADY OWNS NGP-701;NGP-801;GP701;GP801 in all_codes (sess 2026-27). The name-identity 'gp' row (sess 2016-17) owns the NGP301-601 range, NOT the y4 codes. The published code owner wins; the y4 GP scheme print corroborates on the general-proficiency row; the intra-family 'gp'/'general-proficiency' (name,course) variance pair is recorded for owner reconciliation (B48 legacy-pair class). The B3 auto's premise (code slot re-used across DIFFERENT subjects) does not apply - GP is the same subject in both rows."},
+    "05_btech_en_y4_syllabus::02::gp": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "general-proficiency",
+        "keep_published_codes": {"NGP-701": "general-proficiency"},
+        "reason": "B49 RETARGET_KEEP_PUBLISHED_CODE_OWNER (recorded B25/B26 GP class + B19 newest-print-wins): draft 'GP' (no-session N-era y4 scheme print, NGP-701) vs the BTech general-proficiency accumulator which ALREADY OWNS NGP-701;NGP-801;GP701;GP801 in all_codes (sess 2026-27). The name-identity 'gp' row (sess 2016-17) owns the NGP301-601 range, NOT the y4 codes. The published code owner wins; the y4 GP scheme print corroborates on the general-proficiency row; the intra-family 'gp'/'general-proficiency' (name,course) variance pair is recorded for owner reconciliation (B48 legacy-pair class). The B3 auto's premise (code slot re-used across DIFFERENT subjects) does not apply - GP is the same subject in both rows."},
+    "05_btech_en_y4_syllabus::04::gp": {
+        "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "general-proficiency",
+        "keep_published_codes": {"NGP-801": "general-proficiency"},
+        "reason": "B49 RETARGET_KEEP_PUBLISHED_CODE_OWNER (recorded B25/B26 GP class + B19 newest-print-wins): draft 'GP' (no-session N-era y4 scheme print, NGP-801) vs the BTech general-proficiency accumulator which ALREADY OWNS NGP-701;NGP-801;GP701;GP801 in all_codes (sess 2026-27). The name-identity 'gp' row (sess 2016-17) owns the NGP301-601 range, NOT the y4 codes. The published code owner wins; the y4 GP scheme print corroborates on the general-proficiency row; the intra-family 'gp'/'general-proficiency' (name,course) variance pair is recorded for owner reconciliation (B48 legacy-pair class). The B3 auto's premise (code slot re-used across DIFFERENT subjects) does not apply - GP is the same subject in both rows."},
+    "09_btech_s3-4_kas302-402h-maths-iv-pde-probability-statistics::00::mathematics-iv": {
+                "action": "RETARGET_KEEP_PUBLISHED_CODE_OWNER",
+        "target": "engg-science-course-maths-iv",
+        "keep_published_codes": {"KAS402": "maths-iv-engg-science-course"},
+        "reason": "B49 TIE resolution (B41 corroborating-copy convergence class): draft 'MATHEMATICS-IV' (KAS302/KAS402/KAS302H/KAS402H, Basic Science Course, 5 verbatim units - the detailed PDE/Probability print) hits a Tier-0 TIE across the flipped-name 2019-20 model-curriculum scheme rows engg-science-course-maths-iv (KAS302;KOE031 owner) and maths-iv-engg-science-course (KAS402 owner). RETARGET pins the update on the KAS302 published owner (first-printed draft code, same 2019-20 era): the 5 verbatim units backfill its empty unit fields (GAP closure per §3 same-era corroboration); KAS302H/KAS402H (unowned H-variant prints) accumulate into all_codes. keep_published_codes=[KAS402] keeps KAS402 with its published owner maths-iv-engg-science-course (G2 single ownership). The flipped-name pair + the bare maths-iv row (no codes) are recorded for owner reconciliation (B48 legacy (name,course)-variance class) - never silently merged."},
     # ---- B47 (2026-11-07 cron): MCA y1/y2 waves 2008-09..2021-22 — 27 evidence-recorded allows ----
     "02_mca_syllabus_2013-14::11::introduction-to-automata-theory-and-languages": {
         "action": "ALLOW",
