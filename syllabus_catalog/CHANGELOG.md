@@ -1,3 +1,7 @@
+# CRON-20261107-B47 — B47 — 2026-11-07
+
+rows 2987-to-3027, codes 6003-to-6145, +40 appends/~147 updates/!0 repairs — FIRST FULL PLAIN-MCA WAVE (y1 2008-09..2024-25 + y2 2009-10..2021-22) via 5-key mercury-3 pool, 0 fallbacks
+
 # CRON-20261107-B46 — B46 — 2026-11-07
 
 rows 2897-to-2987, codes 5885-to-6003, +90 appends/~101 updates/!0 repairs — FIRST FULL MCA WAVE (integrated y1-y4 2017-18..2026-27 + MCA-DD 2016-17 + non-credit bridge) + MBA 2013-14 y2 via 5-key mercury-3 pool, 0 fallbacks

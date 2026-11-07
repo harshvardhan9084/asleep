@@ -955,6 +955,88 @@ DOC_SCOPE = {
 # published B06 manifest ("TIER2_OVERRIDES mechanism added ... per-key,
 # evidence-recorded"), re-evidenced against the drafts + baseline rows.
 TIER2_OVERRIDES = {
+    # ---- B47 (2026-11-07 cron): MCA y1/y2 waves 2008-09..2021-22 — 27 evidence-recorded allows ----
+    "02_mca_syllabus_2013-14::11::introduction-to-automata-theory-and-languages": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 95, overlap 79): draft 'Introduction to Automata Theory and Languages' (NMCA-214, MCA 2013-14 print) vs the MCA introduction-to-automata-theory-languages accumulator (RCAI-604, sess 2019-20) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; NMCA-214 unowned, accumulates into code_history."},
+    "05_mca_y1_scheme_2016-17::02::accounting-financial-management": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 94, overlap 66): draft 'Accounting & Financial Management' (RCA102, MCA 2016-17 print) vs the MCA accounting-and-financial-management accumulator (MCA102, sess 2018-19) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; RCA102 unowned, accumulates into code_history."},
+    "05_mca_y1_scheme_2016-17::07::computer-based-numerical-statistical-techniques": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 96, overlap 105): draft 'Computer Based Numerical & Statistical Techniques' (RCA201, MCA 2016-17 print) vs the MCA computer-based-numerical-and-statistical-techniques-mca accumulator (MCA-105, sess 2004-05) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; RCA201 unowned, accumulates into code_history."},
+    "05_mca_y1_scheme_2016-17::08::data-structures": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 97, overlap 107): draft 'Data Structures' (RCA202, MCA 2016-17 print) vs the MCA data-structure-mca accumulator (BMI203, sess 2024-25) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; RCA202 unowned, accumulates into code_history."},
+    "05_mca_y1_scheme_2016-17::09::introduction-to-automata-theory-formal-languages": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 92, overlap 80): draft 'Introduction to Automata Theory & Formal Languages' (RCA203, MCA 2016-17 print) vs the MCA introduction-to-automata-theory-languages accumulator (RCAI-604, sess 2019-20) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; RCA203 unowned, accumulates into code_history."},
+    "06_mca_y1_syllabus_2020-21::09::object-oriented-programming": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 87, overlap 42): draft 'Object Oriented Programming' (KCA202, MCA 2020-21 print) vs the MCA object-oriented-programming-using-c accumulator (RCAI-301, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; KCA202 unowned, accumulates into code_history."},
+    "06_mca_y1_syllabus_2020-21::10::operating-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 97, overlap 123): draft 'OPERATING SYSTEMS' (KCA203, MCA 2020-21 print) vs the MCA operating-system accumulator (MCA303, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; KCA203 unowned, accumulates into code_history."},
+    "06_mca_y1_syllabus_2020-21::11::database-management-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 98, overlap 133): draft 'DATABASE MANAGEMENT SYSTEMS' (KCA204, MCA 2020-21 print) vs the MCA database-management-system-mca accumulator (MCA304, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; KCA204 unowned, accumulates into code_history."},
+    "07_mca_y1_syllabus_2024-25::10::object-oriented-programming": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 87, overlap 42): draft 'Object Oriented Programming' (BMC202, MCA 2024-25 print) vs the MCA object-oriented-programming-using-c accumulator (RCAI-301, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; BMC202 unowned, accumulates into code_history."},
+    "07_mca_y1_syllabus_2024-25::11::operating-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 97, overlap 123): draft 'Operating Systems' (BMC203, MCA 2024-25 print) vs the MCA operating-system accumulator (MCA303, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; BMC203 unowned, accumulates into code_history."},
+    "07_mca_y1_syllabus_2024-25::12::database-management-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 98, overlap 133): draft 'Database Management Systems' (BMC204, MCA 2024-25 print) vs the MCA database-management-system-mca accumulator (MCA304, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; BMC204 unowned, accumulates into code_history."},
+    "08_mca_y2_scheme-syllabus_2017-18::01::operating-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 97, overlap 39): draft 'Operating Systems' (RCA-301, MCA 2017-18 print) vs the MCA operating-system accumulator (MCA303, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; RCA-301 unowned, accumulates into code_history."},
+    "08_mca_y2_scheme-syllabus_2017-18::06::database-management-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 98, overlap 45): draft 'Database Management Systems' (RCA-401, MCA 2017-18 print) vs the MCA database-management-system-mca accumulator (MCA304, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; RCA-401 unowned, accumulates into code_history."},
+    "08_mca_y2_scheme-syllabus_2017-18::13::data-warehousing-and-mining": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 92, overlap 47): draft 'Data Warehousing and Mining' (RCA-E13, MCA 2017-18 print) vs the MCA data-mining-warehousing accumulator (MCA404(5), sess 2020-21) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; RCA-E13 unowned, accumulates into code_history."},
+    "08_mca_y2_scheme-syllabus_2017-18::18::computer-network": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 97, overlap 44): draft 'COMPUTER NETWORK' (RCA402, MCA 2017-18 print) vs the MCA computer-networks-mca accumulator (MCA301, sess 2026-27) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; RCA402 unowned, accumulates into code_history."},
+    "09_mca_y2_syllabus_2014-15::08::operating-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 97, overlap 51): draft 'OPERATING SYSTEMS' (NMCA311, MCA 2014-15 print) vs the MCA operating-system accumulator (MCA303, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; NMCA311 unowned, accumulates into code_history."},
+    "09_mca_y2_syllabus_2014-15::09::design-and-analysis-of-algorithms": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 98, overlap 88): draft 'Design and Analysis of Algorithms' (NMCA312, MCA 2014-15 print) vs the MCA design-and-analysis-of-algorithm-mca accumulator (MCA302, sess 2019-20) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; NMCA312 unowned, accumulates into code_history."},
+    "09_mca_y2_syllabus_2014-15::10::database-management-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 98, overlap 115): draft 'DATABASE MANAGEMENT SYSTEMS' (NMCA313, MCA 2014-15 print) vs the MCA database-management-system-mca accumulator (MCA304, sess 2025-26) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; NMCA313 unowned, accumulates into code_history."},
+    "09_mca_y2_syllabus_2014-15::13::management-information-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 98, overlap 62): draft 'Management Information Systems' (NMCA411, MCA 2014-15 print) vs the MCA management-information-system-mca accumulator (MCA401, sess 2004-05) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; NMCA411 unowned, accumulates into code_history."},
+    "09_mca_y2_syllabus_2014-15::17::data-warehousing-mining": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 100, overlap 75): draft 'Data Warehousing & Mining' (NMCAE13, MCA 2014-15 print) vs the MCA data-mining-warehousing accumulator (MCA404(5), sess 2020-21) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; NMCAE13 unowned, accumulates into code_history."},
+    "09_mca_y2_syllabus_2014-15::19::distributed-system": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 97, overlap 111): draft 'Distributed System' (NMCAE15, MCA 2014-15 print) vs the MCA distributed-systems accumulator (NBC-9043, sess 2016-17) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; NMCAE15 unowned, accumulates into code_history."},
+    "10_mca_y2_syllabus_2021-22::00::cryptography-network-security": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 94, overlap 118): draft 'Cryptography & Network Security' (KCA011, MCA 2021-22 print) vs the MCA cryptography-and-network-security accumulator (MCA404/(2), sess 2026-27) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; KCA011 unowned, accumulates into code_history."},
+    "10_mca_y2_syllabus_2021-22::01::data-warehousing-data-mining": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 100, overlap 45): draft 'Data Warehousing & Data Mining' (KCA012, MCA 2021-22 print) vs the MCA data-mining-warehousing accumulator (MCA404(5), sess 2020-21) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; KCA012 unowned, accumulates into code_history."},
+    "10_mca_y2_syllabus_2021-22::07::simulation-and-modelling": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 98, overlap 72): draft 'Simulation and Modelling' (KCA023, MCA 2021-22 print) vs the MCA modeling-and-simulation accumulator (MCA402, sess 2016-17) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; KCA023 unowned, accumulates into code_history."},
+    "10_mca_y2_syllabus_2021-22::16::neural-networks": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 97, overlap 68): draft 'Neural Networks' (KCA042, MCA 2021-22 print) vs the MCA neural-network accumulator (MCA505(5), sess 2016-17) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; KCA042 unowned, accumulates into code_history."},
+    "10_mca_y2_syllabus_2021-22::18::modern-application-development": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 content-conclusive ALLOW (fuzzy 90, overlap 25): draft 'Modern Application Development' (KCA044, MCA 2021-22 print) vs the MCA mobile-application-development accumulator (RCAI-E15, sess 2020-21, units EMPTY by print design — B44/B46 empty-units accumulator class so name-identity overlap is structurally low) — the 2021-22 print's units are Kotlin fundamentals + Android architecture (Activities/Intents/lifecycle), i.e. the mobile-application-development course content itself (AKTU's 2021-22 scheme titles it 'Modern Application Development'); recorded B46 era/name-variant ALLOW class (modelling/modeling). Same course MCA per §1b; update-first: the 2021-22 print fills the empty units fieldwise; KCA044 unowned, accumulates into code_history with the Modern/Mobile name variance recorded in the row's print fields."},
+    "10_mca_y2_syllabus_2021-22::19::distributed-database-systems": {
+        "action": "ALLOW",
+        "reason": "B47 TIER2 same-subject ALLOW (fuzzy 98, overlap 19): draft 'Distributed Database Systems' (KCA045, MCA 2021-22 print) vs the MCA distributed-database-system accumulator (MCA502(2), sess 2016-17) — same course MCA per §1b (cross-course guard clean); tier-2 qualified (>=85 with >=3 shared distinctive terms). Update-first: newest-session fieldwise update per §3; KCA045 unowned, accumulates into code_history."},
     "01_btech_y4s8_open-elective-3-4-list_2021-22::03::biomedical-signal-processing": {
         "action": "ALLOW",
         "reason": "B41 TIER2 same-subject ALLOW (fuzzy 98, overlap 88): draft 'BIOMEDICAL SIGNAL PROCESSING' (KOE-082, 2021-22 OE-III print) vs the bio-medical-signal-processing accumulator (EBM-603;RBM602;BEC-056;RIC080;EIC-032;BIC-062;NIC041) — hyphen/space print variance (recorded class; identical class to B40's 06::20 NIC041 ALLOW); unit-I VERBATIM ('Introduction to Bio-Medical Signals: Classification, Acquisition and Difficulties during Acquisition...'). KOE082 unowned in BTech, accumulates cleanly."},
