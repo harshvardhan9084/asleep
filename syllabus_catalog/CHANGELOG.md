@@ -1,3 +1,7 @@
+# CRON-AUTO-B61 — CRON-AUTO-B61 — 2026-11-07
+
+W3 REX retry loop: +improved backfills applied (see manifest)
+
 # CRON-20261108-B60 — B60 — 2026-11-07
 
 W7 final re-audit: zero-known-error report published (2786 corrections inventoried across W1-W6, remaining needs_review classes listed: W5 scheme-mismatch, kls raster-candidates, G6 containment-gaps, TYPE_UNMAPPED, (n)-tokens; release decisions flagged for owner)
