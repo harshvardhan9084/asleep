@@ -22,6 +22,7 @@ BASE = "/home/z/my-project/work/pipeline_v2"
 PROJ = "/home/z/my-project"
 STATE = f"{BASE}/wave_state.json"
 STAGES = ["w3_resume", "w3_apply2", "w5_marks", "w7_reaudit"]
+NO_CSV = {"w3_resume", "w7_reaudit"}  # no registry change -> no CSV in commit (B06 guard exempt)
 
 def load_state():
     if os.path.exists(STATE):
@@ -62,10 +63,15 @@ def main():
         mf = f"{BASE}/manifest_B{batch_no}_{nxt}.md"
         open(mf, "w").write(
             f"# Task ID: CRON-AUTO-B{batch_no} ({nxt})\n\nAutomated wave-runner stage `{nxt}`.\n\n```\n{out}\n```\n")
-        ok = push(f"CRON-AUTO-B{batch_no}", f"wave stage {nxt} (automated; see manifest)", mf)
-        print(f"WAVE_RUNNER|push={'OK' if ok else 'FAIL'} batch=B{batch_no}")
+        pushed = False
+        if nxt not in NO_CSV:
+            pushed = push(f"CRON-AUTO-B{batch_no}", f"wave stage {nxt} (automated; see manifest)", mf)
+            print(f"WAVE_RUNNER|push={'OK' if pushed else 'FAIL'} batch=B{batch_no}")
+        else:
+            print(f"WAVE_RUNNER|no-CSV stage — no push (results recorded in manifest {mf})")
         st["done"].append(nxt)
-        st["batch_next"] = batch_no + 1
+        if pushed or nxt in NO_CSV:
+            st["batch_next"] = batch_no + (1 if pushed else 0)
     else:
         st["notes"].append({"stage": nxt, "rc": rc, "tail": out[-400:], "retry": True})
         if nxt == "w3_resume" and rc == 3:
