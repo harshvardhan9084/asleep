@@ -4076,5 +4076,137 @@ TIER2_OVERRIDES.update({
         "reason": "B46 TIER2 same-subject ALLOW (fuzzy 100, overlap 75): draft 'DATA WAREHOUSING & MINING' (RCAI-E12, MCA-Integrated 2020-21 y4 Sem-VIII elective; detail header prints 'RCAI-E12 : DATA WAREHOUSING& MINING') vs the MCA data-mining-warehousing accumulator (MCA404(5)) — fuzzy 100 + unit-I VERBATIM-shared ('Dss-Uses, Definition, Operational Database. Introduction to Data Warehousing- Data-Mart, Concept of Data-Warehousing, Multi-dimensional Database Structure...' = row 'Dss-Uses, definition, Operational Database. Introduction to DATA Warehousing. Data-Mart, Concept of Data-Warehousing, Multi Dimensional Database Struc...'). Tier-2 qualified: 100>=85, 75>=3. Update-first: RCAI-E12 unowned, accumulates."},
 })
 
+
+# ---- B48 (CRON-20261107-B48) per-key TIER2_OVERRIDES (evidence-recorded; the decision for every flagged
+# draft-subject key is probe-verified by b48_probe_flags.py: same-course guard per §1b + unit-I shared
+# distinctive-term evidence; ISM vs MIS wrong-subject family FORCE_APPENDED per the B28 class; the two
+# TIE clusters resolved RETARGET with era/name evidence). ----
+TIER2_OVERRIDES.update({
+    "01_mca_y2_syllabus_2025-26::00::cryptography-network-security": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 94, overlap 118; unit-I shared distinctive terms 27): draft 'Cryptography & Network Security' (BMC011, 2025-26 print) vs the same-course accumulator cryptography-and-network-security (MCA404/(2), sess 2026-27) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 94>=85 with 118>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "01_mca_y2_syllabus_2025-26::01::data-warehousing-data-mining": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 100, overlap 152; unit-I shared distinctive terms 17): draft 'Data Warehousing & Data Mining' (BMC012, 2025-26 print) vs the same-course accumulator data-mining-warehousing (MCA404(5), sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 100>=85 with 152>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "01_mca_y2_syllabus_2025-26::07::simulation-and-modelling": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 98, overlap 84; unit-I shared distinctive terms 15): draft 'Simulation and Modelling' (BMC023, 2025-26 print) vs the same-course accumulator modeling-and-simulation (MCA402, sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 98>=85 with 84>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "01_mca_y2_syllabus_2025-26::16::neural-networks": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 97, overlap 114; unit-I shared distinctive terms 19): draft 'Neural Networks' (BMC042, 2025-26 print) vs the same-course accumulator neural-network (MCA505(5), sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 97>=85 with 114>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "01_mca_y2_syllabus_2025-26::18::modern-application-development": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 90, overlap 159; unit-I shared distinctive terms 40): draft 'Modern Application Development' (BMC044, 2025-26 print) vs the same-course accumulator mobile-application-development-mca (RCAI-E15, sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 90>=85 with 159>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "01_mca_y2_syllabus_2025-26::19::distributed-database-systems": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 98, overlap 91; unit-I shared distinctive terms 13): draft 'Distributed Database Systems' (BMC045, 2025-26 print) vs the same-course accumulator distributed-database-system (MCA502(2), sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 98>=85 with 91>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "02_mca_y3_syllabus_2010-11::09::simulation-and-modeling": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 100, overlap 70; unit-I shared distinctive terms 15): draft 'Simulation and Modeling' (MCAE22, 2010-11 print) vs the same-course accumulator modeling-and-simulation (MCA402, sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 100>=85 with 70>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "02_mca_y3_syllabus_2010-11::13::information-storage-management": {
+        "action": "FORCE_APPEND",
+        "reason": "B48 wrong-subject FORCE_APPEND (B28 Modelling-and-Simulation class): draft 'Information Storage & Management' (ISM - the storage-technology subject: unit-I 'Data proliferation and the varying value of data with time & usage, Sources of data and states of data creation, Data center requirements...' — the EMC ISM course) vs the Tier-2 hits management-information-system-mca (MCA401) / management-information-systems-mca (MCA411) — BOTH print unit-I 'Foundation of Information Systems: Introduction to information system in business...' — DIFFERENT SUBJECT despite the name fuzzy 88/87 (token similarity only; unit vocabulary disjoint). Same course MCA per §1b. The ISM subject (MCAE26 2010-11 / NMCAE42 2015-16 / RCA-E33 2018-19 prints) appends as its own row; commit-mode cascades unite the three same-name prints; update-first honored at the cascade."},
+    "02_mca_y3_syllabus_2010-11::18::neural-networks": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 97, overlap 67; unit-I shared distinctive terms 8): draft 'Neural Networks' (MCAE35, 2010-11 print) vs the same-course accumulator neural-network (MCA505(5), sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 97>=85 with 67>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "03_mca_y3_syllabus_2015-16::01::computer-network": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 97, overlap 49; unit-I shared distinctive terms 13): draft 'COMPUTER NETWORK' (NMCA-511, 2015-16 print) vs the same-course accumulator computer-networks-mca (MCA301, sess 2026-27) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 97>=85 with 49>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "03_mca_y3_syllabus_2015-16::08::dot-net-framework-and-c": {
+        "action": "RETARGET",
+        "target": "net-framework-and-c",
+        "reason": "B48 TIER2 tie resolution RETARGET: draft 'Dot Net Framework and C#' (NMCA-513, MCA 2015-16 Sem-V core print) vs tie candidates dot-net-framework-c (RCAI-702, 2020-21, shared unit-I terms 14) and net-framework-and-c (MCA503, 2016-17, shared 12) — BOTH are the same '.NET Framework and C#' subject family in the SAME course MCA; retarget to net-framework-and-c (MCA503) as the era-nearest name-identical accumulator (draft print 'Dot Net Framework and C#' = 'Net Framework and C#' modulo the '.'/and print variance); the 2015-16 print is OLDER than both accumulators so §3 makes it backfill-empty-only/corroborating — the newer 2020-21 RCAI-702 row is left untouched; NMCA-513 unowned, accumulates into code_history."},
+    "03_mca_y3_syllabus_2015-16::09::network-security-cryptography": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 94, overlap 106; unit-I shared distinctive terms 24): draft 'Network Security & Cryptography' (NMCAE21, 2015-16 print) vs the same-course accumulator cryptography-and-network-security (MCA404/(2), sess 2026-27) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 94>=85 with 106>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "03_mca_y3_syllabus_2015-16::10::neural-networks": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 97, overlap 67; unit-I shared distinctive terms 8): draft 'Neural Networks' (NMCAE22, 2015-16 print) vs the same-course accumulator neural-network (MCA505(5), sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 97>=85 with 67>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "03_mca_y3_syllabus_2015-16::13::computer-network": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 97, overlap 49; unit-I shared distinctive terms 13): draft 'COMPUTER NETWORK' (NMCAE25*, 2015-16 print) vs the same-course accumulator computer-networks-mca (MCA301, sess 2026-27) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 97>=85 with 49>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "03_mca_y3_syllabus_2015-16::14::dot-net-framework-and-c": {
+        "action": "RETARGET",
+        "target": "net-framework-and-c",
+        "reason": "B48 TIER2 tie resolution RETARGET: the elective-slot print of the same subject ('Dot Net Framework and C#', NMCAE26*, MCA 2015-16 Elective list) vs the same two tie candidates — retarget to net-framework-and-c (MCA503) for the same era-nearest/name-identical evidence as the core NMCA-513 print; the elective print corroborates and backfills only (older print, §3); NMCAE26* unowned, accumulates into code_history."},
+    "03_mca_y3_syllabus_2015-16::16::simulation-and-modeling": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 100, overlap 70; unit-I shared distinctive terms 15): draft 'Simulation and Modeling' (NMCAE32, 2015-16 print) vs the same-course accumulator modeling-and-simulation (MCA402, sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 100>=85 with 70>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "04_mca_y3_syllabus_2018-19::07::modern-application-development": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 90, overlap 25; unit-I shared distinctive terms 1): draft 'Modern Application Development' (RCA-E25, 2018-19 print) vs the same-course accumulator mobile-application-development-mca (RCAI-E15, sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 90>=85 with 25>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "04_mca_y3_syllabus_2018-19::13::simulation-and-modelling": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 98, overlap 70; unit-I shared distinctive terms 15): draft 'Simulation and Modelling' (RCA-E42, 2018-19 print) vs the same-course accumulator modeling-and-simulation (MCA402, sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 98>=85 with 70>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "04_mca_y3_syllabus_2018-19::14::real-time-systems": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 97, overlap 106; unit-I shared distinctive terms 19): draft 'Real Time Systems' (RCA-E43, 2018-19 print) vs the same-course accumulator real-time-system-mca (MCA505(2), sess 2016-17) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 97>=85 with 106>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "05_mca_y5_syllabus_2021-22::05::neural-networks": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 97, overlap 96; unit-I shared distinctive terms 19): draft 'NEURAL NETWORKS' (RCAI024, 2021-22 print) vs the same-course accumulator neural-network (MCA505(5), sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 97>=85 with 96>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "05_mca_y5_syllabus_2021-22::12::distributed-database-systems": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 98, overlap 23; unit-I shared distinctive terms 0): draft 'DISTRIBUTED DATABASE SYSTEMS' (RCAI041, 2021-22 print) vs the same-course accumulator distributed-database-system (MCA502(2), sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 98>=85 with 23>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "05_mca_y5_syllabus_2021-22::13::simulation-and-modeling": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 100, overlap 74; unit-I shared distinctive terms 13): draft 'SIMULATION AND MODELING' (RCAI042, 2021-22 print) vs the same-course accumulator modeling-and-simulation (MCA402, sess 2021-22) — same course MCA per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 100>=85 with 74>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "06_bpharm_syllabus::10::pharmaceutical-chemistry-vi-medicinal-chemistry-i": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 85, overlap 3; unit-I shared distinctive terms 0): draft 'PHARMACEUTICAL CHEMISTRY-VI (MEDICINAL CHEMISTRY-I)' (BOP351, no-session print) vs the same-course accumulator medicinal-chemistry-practical (BP407P, sess 2026-27) — same course BPharm per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 85>=85 with 3>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "07_bpharm_y3_scheme-syllabus-cbcs-rev::00::pharmaceutical-chemistry-vi-medicinal-chemistry-i": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 85, overlap 3; unit-I shared distinctive terms 0): draft 'PHARMACEUTICAL CHEMISTRY-VI (MEDICINAL CHEMISTRY-I)' (RPH-521, no-session print) vs the same-course accumulator medicinal-chemistry-practical (BP407P, sess 2026-27) — same course BPharm per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 85>=85 with 3>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "08_bpharm_y4_syllabus::04::phamacognosy-iv": {
+        "action": "RETARGET",
+        "target": "pharmacognosy-iv",
+        "reason": "B48 TIER2 tie resolution RETARGET: draft 'PHAMACOGNOSY-IV' (BOP-474, BPharm Sem-VIII print, verbatim typo 'PHAMACOGNOSY') vs tie candidates pharmacognosy-i (93) / pharmacognosy-ii (90) / pharmacognosy-iv (97) — retarget to pharmacognosy-iv (RPH-736, 2019-20): fuzzy 97 + 34 shared unit-I distinctive terms (vs 2/0) + the same course-slot identity (Pharmacognosy-IV Sem-VIII); the print typo 'PHAMACOGNOSY-IV' kept verbatim in name_print/quirks; BOP-474 unowned, accumulates into code_history."},
+    "08_bpharm_y4_syllabus::09::pharmaceutics-x-pharmaceutical-biotechnology": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 88, overlap 79; unit-I shared distinctive terms 15): draft 'PHARMACEUTICS-X PHARMACEUTICAL BIOTECHNOLOGY' (BOP-482, no-session print) vs the same-course accumulator pharmaceutical-biotechnology-practical (BP408P, sess 2026-27) — same course BPharm per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 88>=85 with 79>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "08_bpharm_y4_syllabus::11::pharmaceutics-xi-pharmaceutical-management-marketing": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 100, overlap 90; unit-I shared distinctive terms 17): draft 'PHARMACEUTICS-XI PHARMACEUTICAL MANAGEMENT & MARKETING' (BOP-483, no-session print) vs the same-course accumulator pharmaceutics-xi-pharmaceutical-marketing-management (RPH-841, sess 2019-20) — same course BPharm per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 100>=85 with 90>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "08_bpharm_y4_syllabus::12::pharmaceutics-xii-food-neutraceuticals": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 99, overlap 72; unit-I shared distinctive terms 18): draft 'Pharmaceutics-XII (Food & Neutraceuticals)' (BOP-484, no-session print) vs the same-course accumulator pharmaceutics-xii-food-nutraceuticals (RPH-842, sess 2019-20) — same course BPharm per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 99>=85 with 72>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "09_btech_ae_y4_syllabus_2016-17::08::aircraft-rules-and-regulation": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 98, overlap 93; unit-I shared distinctive terms 15): draft 'AIRCRAFT RULES AND REGULATION' (NAE-801, no-session print) vs the same-course accumulator aircraft-rules-and-regulations (KAE075, sess 2020-21) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 98>=85 with 93>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "09_btech_ae_y4_syllabus_2016-17::09::rockets-and-missiles": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 97, overlap 140; unit-I shared distinctive terms 28): draft 'Rockets and Missiles' (NAE051, no-session print) vs the same-course accumulator rocket-and-missiles (RAE070, sess 2019-20) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 97>=85 with 140>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "09_btech_ae_y4_syllabus_2016-17::16::aircraft-materials-non-destructive-testing": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 99, overlap 158; unit-I shared distinctive terms 27): draft 'AIRCRAFT MATERIALS & NON DESTRUCTIVE TESTING' (NAE‐032, no-session print) vs the same-course accumulator aircraft-material-non-destructive-testing (RAE063, sess 2018-19) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 99>=85 with 158>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "09_btech_ae_y4_syllabus_2016-17::21::aircraftdesign-testing": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 98, overlap 84; unit-I shared distinctive terms 4): draft 'AIRCRAFTDESIGN& TESTING' (NAE‐061, no-session print) vs the same-course accumulator aircraft-design-testing (RAE087, sess 2019-20) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 98>=85 with 84>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "09_btech_ae_y4_syllabus_2016-17::22::computational-fluid-dynamics-cfd": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 93, overlap 77; unit-I shared distinctive terms 15): draft 'Computational Fluid Dynamics (CFD)' (NAE‐063, no-session print) vs the same-course accumulator computational-fluid-dynamics (BAE074, sess 2025-26) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 93>=85 with 77>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "09_btech_ae_y4_syllabus_2016-17::23::groundhandling-and-supportsystems": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 93, overlap 135; unit-I shared distinctive terms 15): draft 'GROUNDHANDLING AND SUPPORTSYSTEMS' (NAE‐064, no-session print) vs the same-course accumulator ground-handling-and-supporting-systems (RAE088, sess 2019-20) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 93>=85 with 135>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "10_btech_ag_syllabus::03::waste-and-by-product-utilization": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 98, overlap 91; unit-I shared distinctive terms 6): draft 'Waste and By-Product Utilization' (EAG-014, no-session print) vs the same-course accumulator waste-and-by-products-utilization (NAG062, sess 2016-17) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 98>=85 with 91>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "10_btech_ag_syllabus::12::development-of-processed-products-equipments": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 96, overlap 74; unit-I shared distinctive terms 15): draft 'Development of Processed Products & Equipments' (EAG-025, no-session print) vs the same-course accumulator development-of-processed-products-and-equipments (, sess 2015-16) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 96>=85 with 74>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "10_btech_ag_syllabus::15::production-technology-of-agricultural-machinery": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 89, overlap 61; unit-I shared distinctive terms 10): draft 'Production Technology of Agricultural Machinery' (EAG-028, no-session print) vs the same-course accumulator production-technology-and-agricultural-machineries (, sess 2015-16) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 89>=85 with 61>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "10_btech_ag_syllabus::17::reservoir-and-farm-pond-design": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 91, overlap 53; unit-I shared distinctive terms 10): draft 'Reservoir and Farm Pond Design' (EAG-031, no-session print) vs the same-course accumulator reservoir-and-pond-design (RAG082, sess 2019-20) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 91>=85 with 53>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+    "10_btech_ag_syllabus::18::remote-sensing-and-gis-application": {
+        "action": "RETARGET",
+        "target": "remote-sensing-and-gis-applications",
+        "reason": "B48 TIER2 tie resolution RETARGET: draft 'Remote Sensing and GIS Application' (EAG-032, BTech AG ELECTIVE-II print) vs tie candidates remote-sensing-and-applications (BAC-052, 2025-26, fuzzy 95) and remote-sensing-and-gis-applications (BAG062, 2024-25, fuzzy 99) — retarget to remote-sensing-and-gis-applications: fuzzy 99 (near-exact name identity incl. the GIS term the other row lacks) + the AG code family (EAG-032 AG elective print vs the B.AG.-era BAG062 row) + same course BTech per §1b; unit-I shared-term scan is low (2) on both candidates because the row units are concise, so name identity + code family carry the verdict (recorded B44 overlap-0 name-identity class); EAG-032 unowned, accumulates into code_history."},
+    "10_btech_ag_syllabus::26::soil-and-water-conservation-structures": {
+        "action": "ALLOW",
+        "reason": "B48 TIER2 same-subject ALLOW (fuzzy 87, overlap 70; unit-I shared distinctive terms 2): draft 'Soil and Water Conservation Structures' (EAG-702, no-session print) vs the same-course accumulator water-harvesting-soil-and-water-conservation-structures (KAG-051, sess 2020-21) — same course BTech per §1b (cross-course guard clean); unit-I vocabulary evidence recorded by b48_probe_flags.py. Tier-2 qualified: 87>=85 with 70>=3 shared terms. Update-first per §3; the draft codes are unowned, accumulate into code_history."},
+})
+
 if __name__ == "__main__":
     sys.exit(run(sys.argv[1], sys.argv[2]))

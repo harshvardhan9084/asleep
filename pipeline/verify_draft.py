@@ -118,6 +118,13 @@ def atomic_codes(raw_codes):
     for c in raw_codes or []:
         for m in CODE_RE.finditer(str(c)):
             out.add(m.group(1) + m.group(2) + (m.group(3) or ""))
+        # v17b (B48): 2-letter suffix variants (BOP485PA — BPharm Sem-VIII
+        # elective project pairs) fall outside CODE_RE's single-letter suffix
+        # + \b; parse them so GAP/ORPHAN logic sees the atomic code too.
+        if not CODE_RE.search(str(c)):
+            m2 = re.match(r"^([A-Z]{2,4})\s?-?(\d{3})([A-Z]{1,2})$", re.sub(r"[^A-Za-z0-9]", "", str(c)))
+            if m2:
+                out.add(m2.group(1) + m2.group(2) + m2.group(3))
     return out
 
 
@@ -472,15 +479,33 @@ def main():
                     any(("page" in q or "p." in q) for q in q_l):
                 wrap_codes |= atomic_codes(s.get("codes"))
         orphans, orphan_warns = [], []
+        nospace = re.sub(r"[\s\(\)\-\u2010\u2011]", "", full)
         for c in sorted(draft_codes):
-            if c in pdf_atomic or c in full.replace(" ", ""):
+            if c in pdf_atomic or c in full.replace(" ", "") or c in nospace:
                 continue
             m = CODE_RE.search(c)
             if not m:
+                # v17b: 2-letter-suffix variants never match CODE_RE; if the
+                # paren-stripped no-space text contains the token the print is
+                # attested at WARN level (v17 paren-variant class), else orphan.
+                if c in nospace:
+                    orphan_warns.append(c)
+                    continue
                 orphans.append(c)
                 continue
             pat = re.escape(m.group(1)) + r"[\s\-]*" + re.escape(m.group(2)) \
                   + (re.escape(m.group(3)) if m.group(3) else "")
+            # v17 remedy (B48 evidence: BPharm Sem-VIII electives print the
+            # variant letter PARENTHESIZED, e.g. 'BOP-485 (B)' / 'BOP-485(A)' /
+            # 'BOP-485P (E)' — the letter-suffix token can never match the
+            # contiguous pattern; the paren-variant print IS the same code):
+            # accept base+letter printed as base(<letter>) as an attestation.
+            if m.group(3) and not re.search(pat, full):
+                pat_paren = (re.escape(m.group(1)) + r"[\s\-]*" + re.escape(m.group(2))
+                             + r"\s*\(\s*" + re.escape(m.group(3)) + r"\s*\)")
+                if re.search(pat_paren, full):
+                    orphan_warns.append(c)
+                    continue
             if not re.search(pat, full):
                 # v16 remedy (B28 evidence: doc 06 p.3 prints the CASE VARIANT
                 # 'NoE-044 Space Sciences' — visible print; the linear text
