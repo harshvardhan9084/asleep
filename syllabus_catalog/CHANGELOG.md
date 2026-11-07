@@ -1,3 +1,7 @@
+# CRON-20261108-B52 — B52 — 2026-11-07
+
+rows 3097, codes 6412, +0 appends/~30 updates/!0 repairs — W1 dictionary typo fixes: 52 primary-field corrections on 11 evidence-backed terms (Deshpandey→Deshpande, Trembley→Tremblay, Liptschutz→Lipschutz, Parahami→Parhami, Vravice→Vranesic, Dijikstra→Dijkstra, Warshal→Warshall, Coreman→Cormen, Hopcraft→Hopcroft, Printice→Prentice, Transistive→Transitive), page-cited, before-forms in corrections_json per RULES 6b
+
 # CRON-20261108-B51 — B51 — 2026-11-07
 
 rows 3097, codes 6412, +0 appends/~0 updates/!0 repairs — schema v2 bump (57→63 cols: +subject_name_display +subject_type_norm +quality_flags +corrections_json +code_family +verification_status per owner D2; RULES §6b verbatim-vs-fix amendment per D1; audit_rules.py Phase-2 flag engine: 10390 flags)
