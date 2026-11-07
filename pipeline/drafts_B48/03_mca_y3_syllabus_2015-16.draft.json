@@ -1,0 +1,1269 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2015-16/mca_y3_syllabus_2015-16.pdf",
+ "session": "2015-16",
+ "course": "MCA",
+ "sha16": "1a425db0ddc35c7c",
+ "stem": "03_mca_y3_syllabus_2015-16",
+ "subjects": [
+  {
+   "name_print": "General Proficiency",
+   "codes": [
+    "NGP-501"
+   ],
+   "semester": 5,
+   "ltp": null,
+   "credit": null,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": null,
+    "ese_te_pe": null,
+    "total": 50
+   },
+   "subject_type": "Practicals / Training /Projects",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "General Proficiency"
+  },
+  {
+   "name": "COMPUTER NETWORK",
+   "name_print": "COMPUTER NETWORK",
+   "codes": [
+    "NMCA-511"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction Concepts: Goals and Applications of Networks, Network structure and architecture, \nThe OSI reference model, services, Network Topology Design - Delay Analysis, Back Bone \nDesign, Local Access Network Design, Physical Layer Transmission Media, Switching methods, \nISDN, Terminal Handling.",
+    "2": "Medium Access sub layer: Medium Access sub layer - Channel Allocations, LAN protocols - \nALOHA protocols - Overview of IEEE standards - FDDI. Data Link Layer - Elementary Data \nLink Protocols, Sliding Window protocols, Error Handling.",
+    "3": "Network Layer: Network Layer - Point - to Pont Networks, routing, Congestion control \nInternetworking -TCP / IP, IP packet, IP address, IPv6.",
+    "4": "Transport Layer: Transport Layer - Design issues, connection management, session Layer-\nDesign issues, remote procedure call. Presentation Layer-Design issues, Data compression \ntechniques, cryptography - TCP - Window Management.",
+    "5": "Application Layer: Application Layer: File Transfer, Access and Management, Electronic mail, \nVirtual Terminals, Other application. Example Networks - Internet and Public Networks."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Forouzen, \"Data Communication and Networking\", TMH"
+    },
+    {
+     "no": 2,
+     "book": "A.S. Tanenbaum, Computer Networks, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "W. Stallings, Data and Computer Communication, Macmillan Press"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Anuranjan Misra, “Computer Networks”, Acme Learning"
+    },
+    {
+     "no": 2,
+     "book": "G. Shanmugarathinam, ”Essential of TCP/ IP”, Firewall Media"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Scheme row on page 2 lists code as 'NMCA-511/NMCA-513' combining Computer Network and Dot Net Framework & C#; detail page uses 'NMCA-511'",
+    "Unit headings have inconsistent formatting: 'Unit -I', 'Unit-II', 'Unit - III', 'Unit - IV', 'Unit-V'",
+    "Typo in Unit-III: 'Point - to Pont Networks' (should be 'Point')",
+    "Subject name in scheme row: 'Computer Network / Dot Net Framework & C#*' vs detail page header: 'COMPUTER NETWORK'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Computer Network Lab",
+   "name_print": "Computer Network Lab",
+   "codes": [
+    "NMCA-551"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Programs using TCP Sockets (like date and time server & client, echo server & client, etc.)"
+    },
+    {
+     "no": 2,
+     "exp": "Programs using UDP Sockets (like simple DNS)"
+    },
+    {
+     "no": 3,
+     "exp": "Programs using Raw sockets (like packet capturing and filtering)"
+    },
+    {
+     "no": 4,
+     "exp": "Programs using RPC"
+    },
+    {
+     "no": 5,
+     "exp": "Simulation of sliding window protocols"
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Experiment 1 line contains trailing ' 2.' inline before the next experiment, indicating a wrapped cell/line break in the printed list"
+   ],
+   "flags": []
+  },
+  {
+   "name_print": "Project Based On Software Engineering",
+   "codes": [
+    "NMCA-552"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "Practicals / Training /Projects",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Project Based On Software Engineering"
+  },
+  {
+   "name_print": "Dot Net Framework & C# Lab*",
+   "codes": [
+    "NMCA-553"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 3
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "Practicals / Training /Projects",
+   "quirks": [
+    "scheme table row only (p.2); detailed syllabus not printed in this document; shares combined table row with NMCA-551"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Dot Net Framework & C# Lab*"
+  },
+  {
+   "name_print": "Colloquium",
+   "codes": [
+    "NMCA-611"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 2
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 200,
+    "sessional_total": 200,
+    "ese_te_pe": null,
+    "total": 200
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.3); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Colloquium"
+  },
+  {
+   "name_print": "Project",
+   "codes": [
+    "NMCA-612"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 24
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": 300,
+    "sessional_total": 300,
+    "ese_te_pe": 500,
+    "total": 800
+   },
+   "subject_type": null,
+   "quirks": [
+    "scheme table row only (p.3); detailed syllabus not printed in this document"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Project"
+  },
+  {
+   "name": "Software Engineering",
+   "name_print": "Software Engineering",
+   "codes": [
+    "NMCA512"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-I: Introduction \n\nIntroduction to Software Engineering, Software Components, Software Characteristics, Software \nCrisis, Software Engineering Processes, Similarity and Differences from Conventional \nEngineering Processes, Software Quality Attributes. Software Development Life Cycle (SDLC) \nModels: Water Fall Model, Prototype Model, Spiral Model, Evolutionary Development Models, \nIterative Enhancement Models. \n",
+    "2": "Unit-II: Software Requirement Specifications (SRS) \n\nRequirement Engineering Process: Elicitation, Analysis, Documentation, Review and \nManagement of User Needs, Feasibility Study, Information Modeling, Data Flow Diagrams, \nEntity Relationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS. \n\nSoftware Quality Assurance (SQA): Verification and Validation, SQA Plans, Software Quality \nFrameworks, ISO 9000 Models, SEI-CMM Model. \n",
+    "3": "Unit-III: Software Design \n\nBasic Concept of Software Design, Architectural Design, Low Level Design: Modularization, \nDesign Structure Charts, Pseudo Codes, Flow Charts, Coupling and Cohesion Measures, Design \nStrategies: Function Oriented Design, Object Oriented Design, Top-Down and Bottom-Up \nDesign. Software Measurement and Metrics: Various Size Oriented Measures: Halestead’s \nSoftware Science, Function Point (FP) Based Measures, Cyclomatic Complexity Measures: \nControl Flow Graphs. \n",
+    "4": "Unit-IV: Software Testing \n\nTesting Objectives, Unit Testing, Integration Testing, Acceptance Testing, Regression Testing, \nTesting for Functionality and Testing for Performance, Top-Down and Bottom-Up Testing \nStrategies: Test Drivers and Test Stubs, Structural Testing (White Box Testing), Functional \nTesting (Black Box Testing), Test Data Suit Preparation, Alpha and Beta Testing of Products. \n\nStatic Testing Strategies: Formal Technical Reviews (Peer Reviews), Walk Through, Code \nInspection, Compliance with Design and Coding Standards. \n",
+    "5": "Unit-V: Software Maintenance and Software Project Management \n\nSoftware as an Evolutionary Entity, Need for Maintenance, Categories of Maintenance: \nPreventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-\nEngineering, Reverse Engineering. Software Configuration Management Activities, Change \nControl Process, Software Version Control, An Overview of CASE Tools. Estimation of Various \nParameters such as Cost, Efforts, Schedule/Duration, Constructive Cost Models (COCOMO), \nResource Allocation Models, Software Risk Analysis and Management. \n"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "R. S. Pressman, Software Engineering: A Practitioners Approach, McGraw Hill."
+    },
+    {
+     "no": 2,
+     "book": "Rajib Mall, Fundamentals of Software Engineering, PHI Publication."
+    },
+    {
+     "no": 3,
+     "book": "K. K. Aggarwal and Yogesh Singh, Software Engineering, New Age International Publishers."
+    },
+    {
+     "no": 4,
+     "book": "Pankaj Jalote, Software Engineering, Wiley"
+    },
+    {
+     "no": 5,
+     "book": "Carlo Ghezzi, M. Jarayeri, D. Manodrioli, Fundamentals of Software Engineering, PHI Publication."
+    },
+    {
+     "no": 6,
+     "book": "Ian Sommerville, Software Engineering, Addison Wesley."
+    },
+    {
+     "no": 7,
+     "book": "Kassem Saleh,”Software Engineering”, Cengage Learning."
+    },
+    {
+     "no": 8,
+     "book": "Pfleeger, Software Engineering, Macmillan Publication."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Subject code printed as 'NMCA 512' with a space in the title, while scheme row uses 'NMCA-512'.",
+    "No 'Text Books' section; only 'References:' is printed.",
+    "Reference list spans pages 5 and 6; items 7 and 8 appear on page 6.",
+    "Unit headings use Roman numerals with colon (e.g., 'Unit-I: Introduction').",
+    "Line break splits 'Re-Engineering' across lines in Unit-V."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Dot Net Framework and C#",
+   "name_print": "Dot Net Framework and C#",
+   "codes": [
+    "NMCA513"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit-1\n\nThe .Net framework: Introduction, The Origin of .Net Technology, Common Language \nRuntime (CLR), Common Type System (CTS), Common Language Specification (CLS), \nMicrosoft Intermediate Language (MSIL), Just-In –Time Compilation, Framework Base Classes.",
+    "2": "Unit-II\n\nC -Sharp Language (C#): Introduction, Data Types, Identifiers, Variables, Constants, Literals, \nArray and Strings, Object and Classes, Inheritance and Polymorphism, Operator Overloading, \nInterfaces, Delegates and Events. Type conversion.",
+    "3": "Unit-III\n\nC# Using Libraries: Namespace- System, Input-Output, Multi-Threading, Networking and \nsockets, Managing Console I/O Operations, Windows Forms, Error Handling.",
+    "4": "Unit-IV\n\nAdvanced Features Using C#: Web Services, Window Services, Asp.net Web Form Controls, \nADO.Net. Distributed Application in C#, Unsafe Mode, Graphical Device interface with C#.",
+    "5": "Unit-V\n\n.Net Assemblies and Attribute: .Net Assemblies features and structure, private and share \nassemblies, Built-In attribute and custom attribute. Introduction about generic."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Wiley,” Beginning Visual C# 2008”,Wrox"
+    },
+    {
+     "no": 2,
+     "book": "Fergal Grimes,” Microsoft .Net for Programmers”. (SPI)"
+    },
+    {
+     "no": 3,
+     "book": "Balagurusamy,” Programming with C#”, (TMH)"
+    },
+    {
+     "no": 4,
+     "book": "Mark Michaelis, “Essential C# 3.0: For .NET Framework 3.5, 2/e, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Shibi Parikkar, “ C# with .Net Frame Work” , Firewall Media."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Subject code printed as 'NMCA 513' with space; references section labeled 'References' instead of 'Text Books'."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Network Security & Cryptography",
+   "name_print": "Network Security & Cryptography",
+   "codes": [
+    "NMCAE21"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Introduction to security attacks, services and mechanism, Classical encryption techniques-\nsubstitution ciphers and transposition ciphers, cryptanalysis, steganography, \n\nStream and block ciphers. \n\nModern Block Ciphers: Block ciphers principles, Shannon’s theory of confusion and diffusion, \nfiestal structure, Data encryption standard(DES), Strength of DES, Idea of differential \ncryptanalysis, block cipher modes of operations, Triple DES",
+    "2": "Introduction to group, field, finite field of the form GF(p), modular arithmetic, prime and relative \nprime numbers, Extended Euclidean Algorithm, \n\nAdvanced Encryption Standard (AES) encryption and decryption \n\nFermat’s and Euler’s theorem, Primality testing, Chinese Remainder theorem, Discrete \nLogarithmic Problem, \n\nPrincipals of public key crypto systems, RSA algorithm, security of RSA",
+    "3": "Message Authentication Codes: Authentication requirements, authentication functions, message \nauthentication code, hash functions, birthday attacks, security of hash functions, Secure hash \nalgorithm (SHA) \n\nDigital Signatures: Digital Signatures, Elgamal Digital Signature Techniques, Digital signature \nstandards (DSS), proof of digital signature algorithm,",
+    "4": "Key Management and distribution: Symmetric key distribution, Diffie-Hellman Key Exchange, \nPublic key distribution, X.509 Certificates, Public key Infrastructure. \n\nAuthentication Applications: Kerberos \n\nElectronic mail security: pretty good privacy (PGP), S/MIME.",
+    "5": "IP Security: Architecture, Authentication header, Encapsulating security payloads, combining \nsecurity associations, key management. \n\nIntroduction to  Secure Socket Layer, Secure electronic, transaction (SET) \n.  \nSystem Security: Introductory idea of Intrusion, Intrusion detection, Viruses and related threats, \nfirewalls"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "William Stallings, “Cryptography and Network Security: Principals and Practice”, \nPearson Education."
+    },
+    {
+     "no": 2,
+     "book": "Behrouz A. Frouzan: Cryptography and Network Security, TMH"
+    },
+    {
+     "no": 3,
+     "book": "Bruce Schiener, “Applied Cryptography”. John Wiley & Sons"
+    },
+    {
+     "no": 4,
+     "book": "Bernard Menezes,” Network Security and Cryptography”, Cengage Learning."
+    },
+    {
+     "no": 5,
+     "book": "Atul Kahate, “Cryptography and Network Security”, TMH"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Code printed as 'NMCAE21' on detail page and 'NMCAE 21' in elective list on page 3",
+    "Stray period after '(SET)' in Unit-V",
+    "Typo 'fiestal' (likely 'Feistel') preserved verbatim",
+    "Typo 'Principals' (likely 'Principles') preserved verbatim",
+    "No 'Text Books' section printed; only 'References' section appears on page 9",
+    "Unit headings printed as 'Unit-I' through 'Unit-V' without colons"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Neural Networks",
+   "name_print": "Neural Networks",
+   "codes": [
+    "NMCAE22"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Unit-I: \nNeurocomputing and Neuroscience\n\nHistorical notes, human Brain, neuron Mode l, Knowledge representation, Al and NN. Learning\nprocess: Supervised and unsuperv ised learning, Error correction learning,competitive learning,\nadaptation, statistical nature of the learning process.",
+    "2": "Unit-II: \nData processing\n\nScaling, normalization, Transformation (FT/FFT), principal component analysis, regression, co-\nvariance matrix, eigen values & eigen vectors. Basic Models of Artificial neurons, activation\nFunctions, aggregation function, single neuron computation, multilayer perceptron, least mean\nsquare algorithm, gradient descent rule, nonlinearly separable problems and bench mark\nproblems in NN.",
+    "3": "Unit-III\nMultilayered network architecture, back propagation algorithm, heuristics for making BP-\nalgorithm performs better. Accelerated learning BP (like recursive least square, quick prop,\nRPROP algorithm), approximation properties of RBF networks and comparison with multilayer\nperceptran.",
+    "4": "Unit-IV\nRecurrent network and temporal feed-forward network, implementation with BP, self organizing\nmap and SOM algorithm, properties of feature map and computer simulation. Principal\ncomponent and Independent component analysis, application to image and signal processing.",
+    "5": "Unit-V\nComplex valued NN and complex valued BP, analyticity of activation function, application in\n2D information processing. Complexity analysis of network models. Soft\n\ncomputing. Neuro-Fuzzy-genetic algorithm Integration."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "1. J.A. Anderson, An Intoduction to Neural Networks, MIT"
+    },
+    {
+     "no": 2,
+     "book": "2. Hagen Demuth Beale, Neural Network Design, Cengage Learning"
+    },
+    {
+     "no": 3,
+     "book": "3. R.L. Harvey, Neural Network Principles, PHI"
+    },
+    {
+     "no": 4,
+     "book": "4. Kosko, Neural Network and Fuzzy Sets, PHI"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Scheme table lists subject as 'Neural Network' (singular) while detail page says 'Neural Networks'.",
+    "Unit-I: 'neuron Mode l' has space before 'l'.",
+    "Unit-I: 'unsuperv ised' has space.",
+    "Unit-I: 'Al' instead of 'AI'.",
+    "Unit-I: 'competitive learning' missing comma before 'adaptation'.",
+    "Unit-III: heading printed as 'Unit-III' without colon.",
+    "Unit-III: 'perceptran' typo.",
+    "Unit-V: 'Soft' and 'computing.' split across lines.",
+    "Reference 1: 'Intoduction' typo."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Pattern Recognition",
+   "name_print": "Pattern Recognition",
+   "codes": [
+    "NMCAE23"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Introduction: Basics of pattern recognition, Design principles of pattern recognition system, \nLearning and adaptation, Pattern recognition approaches, Mathematical foundations – Linear \nalgebra, Probability Theory, Expectation, mean and covariance, Normal distribution, multivariate \nnormal densities, Chi squared test.",
+    "2": "Statistical Patten Recognition: Bayesian Decision Theory, Classifiers, Normal density and \ndiscriminant functions,",
+    "3": "Parameter estimation methods: Maximum-Likelihood estimation, Bayesian Parameter \nestimation, Dimension reduction methods - Principal Component Analysis (PCA), Fisher Linear \ndiscriminant analysis, Expectation-maximization (EM), Hidden Markov Models (HMM), \nGaussian mixture models.",
+    "4": "Nonparametric Techniques: Density Estimation, Parzen Windows, K-Nearest Neighbor \nEstimation, Nearest Neighbor Rule, Fuzzy classification.",
+    "5": "Unsupervised Learning & Clustering: Criterion functions for clustering, Clustering Techniques: \nIterative square - error partitional clustering – K means, agglomerative hierarchical clustering, \nCluster validation."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Richard O. Duda, Peter E. Hart and David G. Stork, “Pattern Classification”, 2nd Edition, \nJohn Wiley, 2006."
+    },
+    {
+     "no": 2,
+     "book": "C. M. Bishop, “Pattern Recognition and Machine Learning”, Springer, 2009."
+    },
+    {
+     "no": 3,
+     "book": "S. Theodoridis and K. Koutroumbas, “Pattern Recognition”, 4th Edition, Academic Press, \n2009."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit-II has typo 'Patten' instead of 'Pattern'.",
+    "Unit headings have inconsistent formatting: 'Unit-I', 'Unit-II', 'Unit – III', 'Unit - IV', 'Unit - V'.",
+    "Title line printed as 'NMCAE23:' followed by 'Pattern Recognition' on next line."
+   ],
+   "flags": []
+  },
+  {
+   "name": "CLOUD COMPUTING",
+   "name_print": "CLOUD COMPUTING",
+   "codes": [
+    "NMCAE24"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Introduction\nCloud-definition, benefits, usage scenarios, History of Cloud Computing - Cloud Architecture\n- Types of Clouds - Business models around Clouds – Major Players in Cloud Computing- issues\nin Clouds - Eucalyptus - Nimbus - Open Nebula, Cloud Sim.",
+    "2": "Cloud Services\nTypes of Cloud services: Software as a Service-Platform as a Service –Infrastructure as a Service\n- Database as a Service - Monitoring as a Service –Communication as services.Service\nproviders- Google, Amazon, Microsoft Azure, IBM, Sales force.",
+    "3": "Collaborating Using Cloud Services\nEmail Communication over the Cloud - CRM Management - Project Management-Event\nManagement - Task Management – Calendar - Schedules - Word Processing – Presentation\n– Spreadsheet - Databases – Desktop - Social Networks and Groupware.",
+    "4": "Virtualization For Cloud\nNeed for Virtualization – Pros and cons of Virtualization – Types of Virtualization –System Vm,\nProcess VM, Virtual Machine monitor – Virtual machine properties - Interpretation and binary\ntranslation, HLL VM - Hypervisors – Xen, KVM , VMWare, Virtual Box, Hyper-V.",
+    "5": "Security, Standards And Applications\nSecurity in Clouds: Cloud security challenges – Software as a Service Security,Common\nStandards: The Open Cloud Consortium – The Distributed management Task Force – Standards\nfor application Developers – Standards for Messaging – Standards for Security, End user access\nto cloud computing, Mobile Internet devices and the cloud."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "John Rittinghouse & James Ransome, Cloud Computing, Implementation, Management\nand Strategy, CRC Press, 2010."
+    },
+    {
+     "no": 2,
+     "book": "Michael Miller, Cloud Computing: Web-Based Applications That Change the Way You\nWork and Collaborate Que Publishing, August 2008."
+    },
+    {
+     "no": 3,
+     "book": "James E Smith, Ravi Nair, Virtual Machines, Morgan Kaufmann Publishers, 2006."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "David E.Y. Sarna Implementing and Developing Cloud Application, CRC press 2011."
+    },
+    {
+     "no": 2,
+     "book": "Lee Badger, Tim Grance, Robert Patt-Corner, Jeff Voas, NIST, Draft cloud computing\nsynopsis and recommendation, May 2011."
+    },
+    {
+     "no": 3,
+     "book": "Anthony T Velte, Toby J Velte, Robert Elsenpeter, Cloud Computing : A Practical\nApproach, Tata McGraw-Hill 2010."
+    },
+    {
+     "no": 4,
+     "book": "Haley Beard, Best Practices for Managing and Measuring Processes for On-demand\nComputing, Applications and Data Centers in the Cloud with SLAs, Emereo Pty Limited,\nJuly 2008."
+    },
+    {
+     "no": 5,
+     "book": "G.J.Popek, R.P. Goldberg, Formal requirements for virtualizable third generation\nArchitectures, Communications of the ACM, No.7 Vol.17, July 1974"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Subject name printed as 'CLOUD COMPUTING' (typo: CLOUD instead of CLOUD)",
+    "Unit II: 'Communication as services.Service' - missing space/line break between 'services' and 'Service'",
+    "Unit V: 'Software as a Service Security,Common' - missing space after comma",
+    "Unit II: 'Sales force' printed as two words",
+    "Unit IV: 'System Vm' - odd capitalization of 'Vm'",
+    "Unit IV: 'KVM , VMWare' - space before comma"
+   ],
+   "flags": []
+  },
+  {
+   "name": "COMPUTER NETWORK",
+   "name_print": "COMPUTER NETWORK",
+   "codes": [
+    "NMCAE25*"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Introduction Concepts: Goals and Applications of Networks, Network structure and architecture, \nThe OSI reference model, services, Network Topology Design - Delay Analysis, Back Bone \nDesign, Local Access Network Design, Physical Layer Transmission Media, Switching methods, \nISDN, Terminal Handling.",
+    "2": "Medium Access sub layer: Medium Access sub layer - Channel Allocations, LAN protocols - \nALOHA protocols - Overview of IEEE standards - FDDI. Data Link Layer - Elementary Data \nLink Protocols, Sliding Window protocols, Error Handling.",
+    "3": "Network Layer: Network Layer - Point - to Pont Networks, routing, Congestion control \nInternetworking -TCP / IP, IP packet, IP address, IPv6.",
+    "4": "Transport Layer: Transport Layer - Design issues, connection management, session Layer-\nDesign issues, remote procedure call. Presentation Layer-Design issues, Data compression \ntechniques, cryptography - TCP - Window Management.",
+    "5": "Application Layer: Application Layer: File Transfer, Access and Management, Electronic mail, \nVirtual Terminals, Other application. Example Networks - Internet and Public Networks."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Forouzen, \"Data Communication and Networking\", TMH"
+    },
+    {
+     "no": 2,
+     "book": "A.S. Tanenbaum, Computer Networks, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "W. Stallings, Data and Computer Communication, Macmillan Press"
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Anuranjan Misra, “Computer Networks”, Acme Learning"
+    },
+    {
+     "no": 2,
+     "book": "G. Shanmugarathinam, ”Essential of TCP/ IP”, Firewall Media"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Subject code printed as NMCAE25* without space in elective list, while other elective codes include spaces (e.g., NMCAE 21)",
+    "Detail page header reads: NMCAE25*: COMPUTER NETWORK"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Dot Net Framework and C#",
+   "name_print": "Dot Net Framework and C#",
+   "codes": [
+    "NMCAE26*"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "The .Net framework: Introduction, The Origin of .Net Technology, Common Language \nRuntime (CLR), Common Type System (CTS), Common Language Specification (CLS), \nMicrosoft Intermediate Language (MSIL), Just-In –Time Compilation, Framework Base Classes.",
+    "2": "C -Sharp Language (C#): Introduction, Data Types, Identifiers, Variables, Constants, Literals, \nArray and Strings, Object and Classes, Inheritance and Polymorphism, Operator Overloading, \nInterfaces, Delegates and Events. Type conversion.",
+    "3": "C# Using Libraries: Namespace- System, Input-Output, Multi-Threading, Networking and \nsockets, Managing Console I/O Operations, Windows Forms, Error Handling.",
+    "4": "Advanced Features Using C#: Web Services, Window Services, Asp.net Web Form Controls, \nADO.Net. Distributed Application in C#, Unsafe Mode, Graphical Device interface with C#.",
+    "5": ".Net Assemblies and Attribute: .Net Assemblies features and structure, private and share \nassemblies, Built-In attribute and custom attribute. Introduction about generic."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Wiley,” Beginning Visual C# 2008”,Wrox"
+    },
+    {
+     "no": 2,
+     "book": "Fergal Grimes,” Microsoft .Net for Programmers”. (SPI)"
+    },
+    {
+     "no": 3,
+     "book": "Balagurusamy,” Programming with C#”, (TMH)"
+    },
+    {
+     "no": 4,
+     "book": "Mark Michaelis, “Essential C# 3.0: For .NET Framework 3.5, 2/e, Pearson Education"
+    },
+    {
+     "no": 5,
+     "book": "Shibi Parikkar, “ C# with .Net Frame Work” , Firewall Media."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Code printed as 'NMCAE 26*' with space in heading; scheme table shows 'NMCAE 26*'",
+    "Title on detail page uses 'Dot Net Framework and C#' while scheme table uses 'Dot Net Framework & C#'",
+    "References section labeled 'References' not 'Text Books'",
+    "Unit headings use inconsistent numbering: 'Unit-1', 'Unit-II', 'Unit-III', 'Unit-IV', 'Unit-V'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Image Processing",
+   "name_print": "Image Processing",
+   "codes": [
+    "NMCAE31"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "Introduction and Fundamentals\n\nMotivation and Perspective, Applications, Components of Image Processing System, Element of \nVisual Perception, A Simple Image Model, Sampling and Quantization.\n\nImage Enhancement in Frequency Domain\n\nFourier Transform and the Frequency Domain, Basis of Filtering in Frequency Domain, Filters – \nLow-pass, High-pass; Correspondence Between Filtering in Spatial and Frequency Domain; \nSmoothing Frequency Domain Filters – Gaussian Lowpass Filters; Sharpening Frequency Domain \nFilters – Gaussian Highpass Filters; Homomorphic Filtering.",
+    "2": "Image Enhancement in Spatial Domain\n\nIntroduction; Basic Gray Level Functions – Piecewise-Linear Transformation Functions: Contrast \nStretching; Histogram Specification; Histogram Equalization; Local Enhancement; Enhancement \nusing Arithmetic/Logic Operations – Image Subtraction, Image Averaging; Basics of Spatial \nFiltering; Smoothing - Mean filter, Ordered Statistic Filter; Sharpening – The Laplacian.",
+    "3": "Image Restoration\n\nA Model of Restoration Process, Noise Models, Restoration in the presence of Noise only-Spatial \nFiltering – Mean Filters: Arithmetic Mean filter, Geometric Mean Filter, Order Statistic Filters – \nMedian Filter, Max and Min filters; Periodic Noise Reduction by Frequency Domain Filtering – \nBandpass Filters; Minimum Mean-square Error Restoration.",
+    "4": "Morphological Image Processing\n\nIntroduction, Logic Operations involving Binary Images, Dilation and Erosion, Opening and Closing, \nMorphological Algorithms – Boundary Extraction, Region Filling, Extraction of Connected \nComponents, Convex Hull, Thinning, Thickening",
+    "5": "Registration\n\nIntroduction, Geometric Transformation – Plane to Plane transformation, Mapping, Stereo Imaging – \nAlgorithms to Establish Correspondence, Algorithms to Recover Depth\n\nSegmentation\n\nIntroduction, Region Extraction, Pixel-Based Approach, Multi-level Thresholding, Local \nThresholding, Region-based Approach, Edge and Line Detection: Edge Detection, Edge Operators, \nPattern Fitting Approach, Edge Linking and Edge Following, Edge Elements Extraction by \nThresholding, Edge Detector Performance, Line Detection, Corner Detection."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Digital Image Processing 2nd Edition, Rafael C. Gonzalvez and Richard E. Woods. \nPublished by: Pearson Education."
+    },
+    {
+     "no": 2,
+     "book": "Digital Image Processing and Computer Vision, R.J. Schalkoff. Published by: John \nWiley and Sons, NY."
+    },
+    {
+     "no": 3,
+     "book": "Fundamentals of Digital Image Processing, A.K. Jain. Published by Prentice Hall, \nUpper Saddle River, NJ."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit V heading printed as 'UNIT-V Registration' but unit content also covers Segmentation",
+    "Subject code printed as 'NMCAE 31' with space",
+    "References section lists only three books with no separate Text Books section"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Simulation and Modeling",
+   "name_print": "NMCAE32: Simulation and Modeling",
+   "codes": [
+    "NMCAE32"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "System definition and components, stochastic activities, continuous and discrete systems, system \nmodeling, types of models, static and dynamic physical models, static and dynamic mathematical \nmodels, full corporate model, types of system study.",
+    "2": "System simulation, why & when to simulate, nature and techniques of simulation, comparison of \nsimulation and analytical methods, types of system simulation, real time simulation, hybrid \nsimulation, simulation of pure-pursuit problem, single-server queuing system and an inventory \nproblem, Monte-Carlo simulation, Distributed Lag models, Cobweb model.",
+    "3": "Simulation of continuous systems, analog vs. digital Simulation, Simulation of water reservoir \nsystem, Simulation of a servo system, simulation of an autopilot, \n\nDiscrete system simulation, fixed time-step vs. even to even model, generation of random \nnumbers, test for randomness, Monte-Carlo computation vs. stochastic simulation.",
+    "4": "System dynamics, exponential growth models, exponential decay models, modified exponential \ngrowth models, logistic curves, generalization of growth models, system dynamic diagrams \nIntroduction to SIMSCRIPT: Program, system concepts, origination, and statements, defining the \ntelephone system model.",
+    "5": "Simulation of PERT Networks, critical path computation, uncertainties in activity duration , \nresource allocation and consideration. \n\nSimulation languages and software, continuous and discrete simulation languages, expression \nbased languages, object oriented simulation, general purpose vs. application - oriented simulation \npackages, CSMP-III, MODSIM-III."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Geoftrey Gordon, “ System Simulation”, PHI"
+    },
+    {
+     "no": 2,
+     "book": "Jerry Banks, John S. C Barry L. Nelson David M. Nicol, “Discrete Event System \nSimulation”, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "V P Singh, “System Modeling and simulation”, New Age International."
+    },
+    {
+     "no": 4,
+     "book": "Averill M. Law, W. David Kelton, “System Modeling and simulation and Analysis”, \nTMH"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit numbering uses mixed formats (Unit-1, Unit-II, Unit-III, Unit-IV, Unit-V)",
+    "Typo: 'even to even model' (likely 'event to event')",
+    "Typo: 'Geoftrey Gordon' (likely 'Geoffrey Gordon')",
+    "References section only; no Text Books section printed"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Software Project Management",
+   "name_print": "Software Project Management",
+   "codes": [
+    "NMCAE33"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "Fundamentals of Software Project Management (SPM), Need Identification, Vision and Scope \ndocument, Project Management Cycle, SPM Objectives, Management Spectrum, SPM \nFramework, Software Project Planning, Planning Objectives, Project Plan, Types of project plan, \nStructure of a Software Project Management Plan, Software project estimation, Estimation \nmethods, Estimation models, Decision process.",
+    "2": "Project Elements, Work Breakdown Structure (WBS), Types of WBS, Functions, Activities and \nTasks, Project Life Cycle and Product Life Cycle, Ways to Organize Personnel, Project schedule, \nScheduling Objectives, Building the project schedule, Scheduling terminology and techniques, \nNetwork Diagrams: PERT, CPM, Bar Charts: Milestone Charts, Gantt Charts.",
+    "3": "Dimensions of Project Monitoring & Control, Earned Value Analysis, Earned Value Indicators: \n\nBudgeted Cost for Work Scheduled (BCWS), Cost Variance (CV), Schedule Variance (SV), \nCost Performance Index (CPI), Schedule Performance Index (SPI), Interpretation of Earned \nValue Indicators, Error Tracking, Software Reviews, Types of Review: Inspections, Deskchecks, \nWalkthroughs, Code Reviews, Pair Programming.",
+    "4": "Testing Objectives, Testing Principles, Test Plans, Test Cases, Types of Testing, Levels of \nTesting, Test Strategies, Program Correctness, Program Verification & validation, Testing \nAutomation & Testing Tools, Concept of Software Quality, Software Quality Attributes, \nSoftware Quality Metrics and Indicators, The SEI Capability Maturity Model CMM), SQA \nActivities, Formal SQA Approaches: Proof of correctness, Statistical quality assurance, \nCleanroom process.",
+    "5": "Software Configuration Management: Software Configuration Items and tasks, Baselines, Plan \nfor Change, Change Control, Change Requests Management, Version Control, Risk \nManagement: Risks and risk types, Risk Breakdown Structure (RBS), Risk Management \nProcess: Risk identification, Risk analysis, Risk planning, Risk monitoring, Cost Benefit \nAnalysis, Software Project Management Tools: CASE Tools, Planning and Scheduling Tools, \nMS-Project."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "M. Cotterell, Software Project Management, Tata McGraw-Hill Publication."
+    },
+    {
+     "no": 2,
+     "book": "Royce, Software Project Management, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "Kieron Conway, Software Project Management, Dreamtech Press"
+    },
+    {
+     "no": 4,
+     "book": "S. A. Kelkar, Software Project Management, PHI Publication."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Unit-IV prints 'The SEI Capability Maturity Model CMM)' with a missing opening parenthesis before CMM",
+    "Unit-III contains a blank line between 'Earned Value Indicators:' and 'Budgeted Cost for Work Scheduled (BCWS)'",
+    "Unit headers printed as 'UNIT-I:', 'UNIT-II:', etc. with colon"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Real Time System",
+   "name_print": "Real Time System",
+   "codes": [
+    "NMCAE34"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "Introduction\n\nDefinition, Typical Real Time Applications: Digital Control, High Level Controls, Signal \nProcessing etc., Release Times, Deadlines, and Timing Constraints, Hard Real Time Systems \nand Soft Real Time Systems, Reference Models for Real Time Systems: Processors and \nResources, Temporal Parameters of Real Time Workload, Periodic Task Model, Precedence \nConstraints and Data Dependency.",
+    "2": "Real Time Scheduling\n\nCommon Approaches to Real Time Scheduling: Clock Driven Approach, Weighted \nRound Robin Approach, Priority Driven Approach, Dynamic Versus Static Systems, Optimality \nof Effective-Deadline-First (EDF) and Least-Slack-Time-First (LST) Algorithms, Rate \nMonotonic Algorithm, Offline Versus Online Scheduling, Scheduling Aperiodic and Sporadic \njobs in Priority Driven and Clock Driven Systems.",
+    "3": "Resources Sharing\n\nEffect of Resource Contention and Resource Access Control (RAC), Non-preemptive \nCritical Sections, Basic Priority-Inheritance and Priority-Ceiling Protocols, Stack Based Priority-\nCeiling Protocol, Use of Priority-Ceiling Protocol in Dynamic Priority Systems, Preemption \nCeiling Protocol, Access Control in Multiple-Unit Resources, Controlling Concurrent Accesses \nto Data Objects.",
+    "4": "Real Time Communication\n\nBasic Concepts in Real time Communication, Soft and Hard RT Communication systems, Model \nof Real Time Communication, Priority-Based Service and Weighted Round-Robin Service \nDisciplines for Switched Networks, Medium Access Control Protocols for Broadcast Networks, \nInternet and Resource Reservation Protocols",
+    "5": "Real Time Operating Systems and Databases\n\nFeatures of RTOS, Time Services, UNIX as RTOS, POSIX\n\nIssues, Charecteristic of Temporal data, Temporal Consistencey, Concurrency Control, \nOverview of Commercial Real Time databases"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Real Time Systems by Jane W. S. Liu, Pearson Education Publication."
+    },
+    {
+     "no": 2,
+     "book": "Mall Rajib, “Real Time Systems”, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "Albert M. K. Cheng , “Real-Time Systems: Scheduling, Analysis, and Verification”, \nWiley."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Printed typo 'Charecteristic' in Unit-V",
+    "Printed typo 'Temporal Consistencey' in Unit-V",
+    "Reference 2 has a line break after '2.' in the original print",
+    "POSIX and Issues appear on separate lines in Unit-V"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Advanced Database Management Systems",
+   "name_print": "Advanced Database Management Systems",
+   "codes": [
+    "NMCAE41"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "Transaction and schedules, Concurrent Execution of transaction, Conflict and View \nSerializability, Testing for Serializability, Concepts in Recoverable and Cascadeless \nschedules.",
+    "2": "Lock based protocols, time stamp based protocols, Multiple Granularity and Multiversion \nTechniques, Enforcing serializablity by Locks, Locking system with multiple lock modes, \narchitecture for Locking scheduler",
+    "3": "Distributed Transactions Management, Data Distribution, Fragmentation and Replication \nTechniques, Distributed Commit, Distributed Locking schemes, Long duration transactions, \nMoss Concurrency protocol.",
+    "4": "Issues of Recovery and atomicity in Distributed Databases, Traditional recovery techniques, \nLog based recovery, Recovery with Concurrent Transactions, Recovery in Message passing \nsystems, Checkpoints, Algorithms for recovery line, Concepts in Orphan and Inconsistent \nMessages.",
+    "5": "Distributed Query Processing, Multiway Joins, Semi joins, Cost based query optimization for \ndistributed database, Updating replicated data, protocols for Distributed Deadlock Detection, \nEager and Lazy Replication Techniques"
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Silberschatz, Korth and Sudershan, Database System Concept’, Mc Graw Hill"
+    },
+    {
+     "no": 2,
+     "book": "Ramakrishna and Gehrke,’ Database Management System, Mc Graw Hill"
+    },
+    {
+     "no": 3,
+     "book": "Garcia-Molina, Ullman,Widom,’ Database System Implementation’ Pearson \nEducation"
+    },
+    {
+     "no": 4,
+     "book": "Ceei and Pelagatti,’Distributed Database’, TMH"
+    },
+    {
+     "no": 5,
+     "book": "Singhal and Shivratri, ’Advance Concepts in Operating Systems’ MC Graw Hill"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Unit headings have inconsistent formatting: UNIT-I, UNIT –II, UNIT  III, UNIT –IV, UNIT V",
+    "Reference entries have stray/inconsistent apostrophes (e.g., 'Database System Concept’', 'Gehrke,’', 'Widom,’')"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Information Storage & Management",
+   "name_print": "Information Storage & Management",
+   "codes": [
+    "NMCAE42"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "MCA-Elective-IV",
+   "units": {
+    "1": "Data proliferation and the varying value of data with time & usage, Sources of data and states \nof data creation, Data center requirements and evolution to accommodate storage needs, \nOverview of basic storage management skills and activities, The five pillars of technology, \nOverview of storage infrastructure components, Evolution of storage, Information Lifecycle \nManagement concept, Data categorization within an enterprise, Storage and Regulations.",
+    "2": "Intelligent disk subsystems overview, Contrast of integrated vs. modular arrays, Component \narchitecture of intelligent disk subsystems, Disk physical structure components, properties, \nperformance, and specifications, Logical partitioning of disks, RAID & parity algorithms, hot \nsparing, Physical vs. logical disk organization, protection, and back end management, Array \ncaching properties and algorithms, Front end connectivity and queuing properties, Front end \nto host storage provisioning, mapping, and operation, Interaction of file systems with storage, \nStorage system connectivity protocols.",
+    "3": "JBOD, DAS, SAN, NAS, & CAS evolution, Direct Attached Storage (DAS) environments: \nelements, connectivity, & management, Storage Area Networks (SAN): elements & \nconnectivity, Fibre Channel principles, standards, & network management principles, SAN \nmanagement principles, Network Attached Storage (NAS): elements, connectivity options, \nconnectivity protocols (NFS, CIFS, ftp), & management principles, IP SAN elements, \nstandards (SCSI, FCIP, FCP), connectivity principles, security, and management principles, \nContent Addressable Storage (CAS): elements, connectivity options, standards, and \nmanagement principles, Hybrid Storage solutions overview including technologies like \nvirtualization & appliances.",
+    "4": "Business Continuity and Disaster Recovery Basics, Local business continuity \ntechniques, Remote business continuity techniques, Disaster Recovery principles & \ntechniques.",
+    "5": "Management philosophies (holistic vs. system & component), Industry management \nstandards (SNMP, SMI-S, CIM), Standard framework applications, Key management metrics \n(thresholds, availability, capacity, security, performance), Metric analysis methodologies & \ntrend analysis, Reactive and pro-active management best practices, Provisioning & \nconfiguration change planning, Problem reporting, prioritization, and handling techniques, \nManagement tools overview."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Information Storage and Management Storing, Managing, and Protecting Digital Information , by EMC, Hopkinton and Massachusetts, Wiley, ISBN: 9788126521470"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Reference line contains a stray comma before 'by': 'Digital Information , by EMC'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Software Testing",
+   "name_print": "Software Testing",
+   "codes": [
+    "NMCAE43"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "Unit-I: Introduction \nFaults, Errors, and Failures, Basics of software testing, Testing objectives, Principles of \ntesting, Requirements, behavior and correctness, Testing and debugging, Test metrics and \nmeasurements, Verification, Validation and Testing, Types of testing, Software Quality and \nReliability, Software defect tracking.",
+    "2": "Unit-II: White Box and Black Box Testing \nWhite box testing, static testing, static analysis tools, Structural testing: Unit/Code functional \ntesting, Code coverage testing, Code complexity testing, Black Box testing, Requirements \nbased testing, Boundary value analysis, Equivalence partitioning, state/graph based testing, \nModel based testing and model checking, Differences between white box and Black box \ntesting.",
+    "3": "Unit-III: Integration, System, and Acceptance Testing \nTop down and Bottom up integration, Bi-directional integration, System integration, Scenario \nTesting, Defect Bash, Functional versus Non-functional testing, Design/Architecture \nverification, Deployment testing, Beta testing, Scalability testing, Reliability testing, Stress \ntesting, Acceptance testing: Acceptance criteria, test cases selection and execution,",
+    "4": "Unit-IV: Test Selection & Minimization for Regression Testing \nRegression testing, Regression test process, Initial Smoke or Sanity test, Selection of \nregression tests, Execution Trace, Dynamic Slicing, Test Minimization, Tools for regression \ntesting, Ad hoc Testing: Pair testing, Exploratory testing, Iterative testing, Defect seeding.",
+    "5": "Unit-V: Test Management and Automation \nTest Planning, Management, Execution and Reporting, Software Test Automation: Scope of \nautomation, Design & Architecture for automation, Generic requirements for test tool \nframework, Test tool selection, Testing in Object Oriented Systems."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "S. Desikan and G. Ramesh, “Software Testing: Principles and Practices”, Pearson \nEducation."
+    },
+    {
+     "no": 2,
+     "book": "Aditya P. Mathur, “Fundamentals of Software Testing”, Pearson Education."
+    },
+    {
+     "no": 3,
+     "book": "Naik and Tripathy, “Software Testing and Quality Assurance”, Wiley"
+    },
+    {
+     "no": 4,
+     "book": "K. K. Aggarwal and Yogesh Singh, “Software Engineering”, New Age International \nPublication."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Subject heading printed as 'NMCAE43:  Software Testing' with double space before 'Software Testing'",
+    "Detail page does not print LTP/marks/credit; those values come from the generic MCA-Elective-IV scheme row on page 2",
+    "References section labeled 'References:' rather than 'Text Books'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "BIG DATA",
+   "name_print": "BIG DATA",
+   "codes": [
+    "NMCAE44"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": null,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 100,
+    "total": 150
+   },
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "UNDERSTANDING BIG DATA \nWhat is big data,why big data,convergence of key trends, unstructured \ndata, industry examples of big data, web analytics,big data and \nmarketing,fraud and big data,risk and big data ,credit risk management, \nbig data and algorithmic trading,big data and healthcare,big  \ndata in medicine,advertising and big data,big data technologies, \nintroduction to Hadoop,open source technologies,cloud and big data \nmobile business intelligence,Crowd sourcing  \nanalytics ,inter and trans firewall analytics",
+    "2": "NOSQL DATA MANAGEMENT  \nIntroduction to NoSQL , aggregate data models ,aggregates ,key-value \nand document data models, relationships, graph databases, schema less \ndatabases ,materialized views,distribution models ,sharding , master-\nslave replication , peer-peer replication , sharding and  \nreplication , consistency , relaxing consistency , version stamps , map-\nreduce , partitioning and  \ncombining , composing map-reduce calculations",
+    "3": "BASICS OF HADOOP   \nData format , analyzing data with Hadoop , scaling out , Hadoop \nstreaming , Hadoop pipes , \ndesign of Hadoop distributed file system (HDFS) , HDFS concepts , \nJava interface , data flow ,Hadoop I/O , data integrity , compression , \nserialization , Avro  file-based data structures",
+    "4": "MAP REDUCE APPLICATIONS \nMap Reduce workflows , unit tests with MRUnit , test data and local \ntests – anatomy of Map Reduce job run , classic Map-reduce , YARN , \nfailures in classic Map-reduce and YARN , job scheduling , shuffle and \nsort , task execution , MapReduce types , input formats , output formats \n.",
+    "5": "HADOOP RELATED TOOLS \nHbase,data model and implementations, Hbase clients ,Hbase examples \n– praxis.Cassandra ,cassandra data model , cassandra examples , \ncassandra clients , Hadoop integration.  \nPig , Grunt , pig data model , Pig Latin , developing and testing Pig \nLatin scripts. Hive , data types and file formats , HiveQL data definition \n, HiveQL data manipulation – HiveQL queries"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Michael Minelli, Michelle Chambers, and Ambiga Dhiraj, \"Big Data, Big Analytics: Emerging Business Intelligence and Analytic Trends for Today's Businesses\", Wiley, 2013."
+    },
+    {
+     "no": 2,
+     "book": "P. J. Sadalage and M. Fowler, \"NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence\", Addison-Wesley Professional, 2012."
+    },
+    {
+     "no": 3,
+     "book": "Tom White, \"Hadoop: The Definitive Guide\", Third Edition, O'Reilley, 2012."
+    },
+    {
+     "no": 4,
+     "book": "Eric Sammer, \"Hadoop Operations\", O'Reilley, 2012."
+    },
+    {
+     "no": 5,
+     "book": "E. Capriolo, D. Wampler, and J. Rutherglen, \"Programming Hive\", O'Reilley, 2012."
+    },
+    {
+     "no": 6,
+     "book": "Lars George, \"HBase: The Definitive Guide\", O'Reilley, 2011."
+    },
+    {
+     "no": 7,
+     "book": "Eben Hewitt, \"Cassandra: The Definitive Guide\", O'Reilley, 2010."
+    },
+    {
+     "no": 8,
+     "book": "Alan Gates, \"Programming Pig\", O'Reilley, 2011."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "LTP '3 1 0' printed on separate line before unit table",
+    "Odd double spaces in text e.g., 'big  data', 'Crowd sourcing  analytics', 'sharding and  replication', 'partitioning and  combining', 'Avro  file-based'",
+    "'inter and trans firewall analytics' appears as printed (possibly intended 'inter and trans firewall analytics')"
+   ],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [],
+ "flags": []
+}

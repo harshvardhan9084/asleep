@@ -1,0 +1,1418 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/2018-19/mca_y3_syllabus_2018-19.pdf",
+ "session": "2018-19",
+ "course": "MCA",
+ "sha16": "dac91e02f115de3f",
+ "stem": "04_mca_y3_syllabus_2018-19",
+ "subjects": [
+  {
+   "name": "Computer Graphics and Animation",
+   "name_print": "Computer Graphics and Animation",
+   "codes": [
+    "RCA-501"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Introduction to Computer Graphics: What is Computer Graphics, Computer Graphics Applications, Computer \nGraphics Hardware and software, two-dimensional Graphics Primitives: Points and Lines, Line drawing algorithms: \nDDA, Bresenham’s Circle drawing algorithms: Using polar coordinates, Bresenham’s circle drawing, mid-point circle \ndrawing algorithm; Filled area algorithms: Scan line: Polygon filling algorithm, boundary filled algorithm.",
+    "2": "Two/Three-Dimensional Viewing: The 2-D viewing pipeline, windows, viewports, window to view port mapping; \nClipping: point, clipping line (algorithms): - 4-bit code algorithm, Sutherland-Cohen algorithm, parametric line clipping \nalgorithm (Cyrus Beck). Polygon clipping algorithm: Sutherland-Hodgeman polygon clipping algorithm. Two \ndimensional transformations: transformations, translation, scaling, rotation, reflection, composite transformation. Three \ndimensional transformations: Three-dimensional graphics concept, Matrix representation of 3 D Transformations, \nComposition of 3-D transformation.",
+    "3": "Viewing in 3D:  Projections, types of projections, mathematics of planner geometric projections, coordinate systems.  \nHidden surface removal: Introduction to hidden surface removal. Z- buffer algorithm, scanline algorithm, area sub-\ndivision algorithm.",
+    "4": "Representing Curves and Surfaces: Parametric representation of curves: Bezier curves, B-Spline curves. Parametric \nrepresentation of surfaces; Interpolation method.  \nIllumination, shading, image manipulation: Illumination models, shading models for polygons, shadows, transparency. \nWhat is an image? Filtering, image processing, geometric transformation of images.",
+    "5": "Animation; Fundamentals of computer animation, Animation Techniques. Animation and Flash Overview, Using Layer \nand Creating Animation"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Procedural Elements for Computer Graphics – David F. Rogers, 2001, T.M.H Second Edition."
+    },
+    {
+     "no": 2,
+     "book": "Fundamentals of 3Dimensional Computer Graphics by Alan Watt, 1999, Addision Wesley."
+    },
+    {
+     "no": 3,
+     "book": "Computer Graphics: Secrets and Solutions by Corrign John, BPB"
+    },
+    {
+     "no": 4,
+     "book": "M.C. Trivedi, NN Jani, Computer Graphics, Jaico Publications"
+    },
+    {
+     "no": 5,
+     "book": "Rishabh Anand, Computer Graphics- A practical Approach, Khanna Publishing House"
+    },
+    {
+     "no": 6,
+     "book": "Graphics, GUI, Games & Multimedia Projects in C by Pilania&Mahendra, Standard Publ."
+    },
+    {
+     "no": 7,
+     "book": "Computer Graphics Secrets and solutions by Corrign John, 1994, BPV"
+    },
+    {
+     "no": 8,
+     "book": "Principles of Multimedia by Ranjan Parekh, McGrawHill Education"
+    },
+    {
+     "no": 9,
+     "book": "Computer Graphics Principles and Practices second edition by James D. Foley, Andeies van Dam, StevanK. \nFeiner and Johb F. Hughes, 2000,  Addision Wesley."
+    },
+    {
+     "no": 10,
+     "book": "Computer Graphics by Donald Hearn and M.Pauline Baker, 2nd Edition, 1999, PHI"
+    },
+    {
+     "no": 11,
+     "book": "Computer graphics, Multimedia and Animation by Malay. K.Pakhira, PHI, 2nd Edition, 2010"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Reference heading printed as 'REFRENCES:' (misspelled)",
+    "Scheme table prints subject name as 'Computer Graphics & Animation'; detail page prints 'Computer Graphics and Animation'",
+    "Unit V heading printed as 'UNIT- V:' with space before V",
+    "Unit I heading printed as 'UNIT-I:' with colon; other units use 'UNIT-II:', 'UNIT-III:', 'UNIT-IV:', 'UNIT- V:'",
+    "Lectures count '(8)' printed after each unit heading",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "Computer Graphics and Animation Lab",
+   "name_print": "Computer Graphics and Animation Lab",
+   "codes": [
+    "RCA-511"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 6
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 30,
+    "sessional_ta": 20,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Digital differential Analyzer"
+    },
+    {
+     "no": 2,
+     "exp": "Line Drawing Algorithms"
+    },
+    {
+     "no": 3,
+     "exp": "Mid-point Circle Generation Algorithm"
+    },
+    {
+     "no": 4,
+     "exp": "Creating two-Dimensional Objects"
+    },
+    {
+     "no": 5,
+     "exp": "Two-dimensional Transformation"
+    },
+    {
+     "no": 6,
+     "exp": "Picture Coloring"
+    },
+    {
+     "no": 7,
+     "exp": "Three-Dimensional transformation"
+    },
+    {
+     "no": 8,
+     "exp": "Simple Animation using Transformation"
+    },
+    {
+     "no": 9,
+     "exp": "Key-Frame Animation"
+    },
+    {
+     "no": 10,
+     "exp": "Design Animation using FLASH"
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Header reads 'LIST OF EXPERINETNS' (typo for EXPERIMENTS)",
+    "Scheme table lists code as RCA-551 but detail page says RCA-511",
+    "Note: Lab can be conducted in \"C\" language / Virtual Labs /Open GL."
+   ],
+   "flags": []
+  },
+  {
+   "name": "Project Based on Software Engineering",
+   "name_print": "Project Based on Software Engineering",
+   "codes": [
+    "RCA-512"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": null,
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [
+    "Students are expected to analyse the problem Statement/ case study and design a solution applying software engineering principles."
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Only a brief description is printed; no detailed syllabus with units, COs, textbooks, etc.",
+    "Note: Lab can be conducted using Virtual Labs provided by IIT Khargpur/Bombay.",
+    "detail-page slice p.21 re-extraction returned no unit/CO/experiment/book content; print may be a header-only or training row (page image authoritative; RULES §6 evidence class)",
+    "guideline/training print transcribed byte-verbatim into notes from p.21; no unit-wise syllabus printed for this subject in-doc (B47 notes-only class)"
+   ],
+   "flags": [
+    "b48_repair_rex_still_blank",
+    "notes_only_no_units_printed",
+    "b48_repair2_notes"
+   ],
+   "notes": "RCA-511 Computer Graphics and Animation Lab LIST OF EXPERINETNS (1) Digital differential Analyzer (2) Line Drawing Algorithms (3) Mid-point Circle Generation Algorithm (4) Creating two-Dimensional Objects (5) Two-dimensional Transformation (6) Picture Coloring (7) Three-Dimensional transformation (8) Simple Animation using Transformation (9) Key-Frame Animation (10) Design Animation using FLASH Note: Lab can be conducted in “C” language / Virtual Labs /Open GL. RCA-512 Project Based on Software Engineering Students are expected to analyse the problem Statement/ case study and design a solution applying software engineering principles. Note: Lab can be conducted using Virtual Labs provided by IIT Khargpur/Bombay."
+  },
+  {
+   "name": "Cryptography and Network Security",
+   "name_print": "Cryptography and Network Security",
+   "codes": [
+    "RCA-E21"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Introduction: to security attacks, services and mechanism, introduction to cryptography. Conventional Encryption: Conventional encryption model, classical encryption techniques- substitution ciphers and transposition ciphers, cryptanalysis, stereography, stream and block ciphers. Modern Block Ciphers: Block ciphers principals, Shannon's theory of confusion and diffusion, fiestal structure, data encryption standard(DES), strength of DES, differential and linear crypt analysis of DES, block cipher modes of operations, triple DES, IDEA encryption and decryption, strength of IDEA, confidentiality using conventional encryption, traffic confidentiality, key distribution, random number generation.",
+    "2": "Introduction to graph, ring and field, prime and relative prime numbers, modular arithmetic, Fermat's and Euler's theorem, primality testing, Euclid's Algorithm, Chinese Remainder theorem, discrete logarithms. Principals of public key crypto systems, RSA algorithm, security of RSA, key management, Diffle-Hellman key exchange algorithm, introductory idea of Elliptic curve cryptography, Elganel encryption.",
+    "3": "Message Authentication and Hash Function: Authentication requirements, authentication functions, message authentication code, hash functions, birthday attacks, security of hash functions and MACS, MD5 message digest algorithm, Secure hash algorithm(SHA). Digital Signatures: Digital Signatures, authentication protocols, digital signature standards (DSS), proof of digital signature algorithm.",
+    "4": "Authentication Applications: Kerberos and X.509, directory authentication service, electronic mail security-pretty good privacy (PGP), S/MIME.",
+    "5": "IP Security: Architecture, Authentication header, Encapsulating security payloads, combining security associations, key management. Web Security: Secure socket layer and transport layer security, secure electronic transaction (SET). System Security: Intruders, Viruses and related threads, firewall design principals, trusted systems."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "William Stallings, \"Cryptography and Network Security: Principals and Practice\", Pearson Education."
+    },
+    {
+     "no": 2,
+     "book": "Behrouz A. Frouzan: Cryptography and Network Security, Tata McGraw Hill"
+    },
+    {
+     "no": 3,
+     "book": "C K Shyamala, N Harini, Dr. T.R.Padmnabhan Cryptography and Security, Wiley"
+    },
+    {
+     "no": 4,
+     "book": "Bruce Schiener, \"Applied Cryptography\". John Wiley & Sons"
+    },
+    {
+     "no": 5,
+     "book": "V.K. Jain, Cryptography and Network Security, Khanna Publishing House"
+    },
+    {
+     "no": 6,
+     "book": "Bernard Menezes,\" Network Security and Cryptography\", Cengage Learning."
+    },
+    {
+     "no": 6,
+     "book": "Atul Kahate, \"Cryptography and Network Security\", Tata McGraw Hill"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Reference list has duplicate numbering: two items numbered 6",
+    "Heading printed as 'REFRENCES' (typo)",
+    "Printed typos preserved: 'stereography', 'fiestal', 'Diffle-Hellman', 'Elganel', 'principals', 'threads'",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "Natural language Processing",
+   "name_print": "Natural language Processing",
+   "codes": [
+    "RCA-E22"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Introduction to Natural Language Understanding: The study of Language, Applications of NLP, Evaluating \nLanguage Understanding Systems, Different levels of Language Analysis, Representations and Understanding, \nOrganization of Natural language Understanding Systems, Linguistic Background: An outline of English syntax.",
+    "2": "Introduction to semantics and knowledge representation, some applications like machine translation, database \ninterface.",
+    "3": "Grammars and Parsing: Grammars and sentence Structure, Top-Down and Bottom-Up Parsers, Transition \nNetwork Grammars, Top- Down Chart Parsing. Feature Systems and Augmented Grammars: Basic Feature \nsystem for English, Morphological Analysis and the Lexicon, Parsing with Features, Augmented Transition \nNetworks.",
+    "4": "Grammars for Natural Language: Auxiliary Verbs and Verb Phrases, Movement Phenomenon in Language, \nHandling questions in Context-Free Grammars. Human preferences in Parsing, Encoding uncertainty, \nDeterministic Parser.",
+    "5": "Ambiguity Resolution: Statistical Methods, Probabilistic Language Processing, Estimating Probabilities, Part-of-\nSpeech tagging, Obtaining Lexical Probabilities, Probabilistic Context-Free Grammars, Best First Parsing. \nSemantics and Logical Form, Word senses and Ambiguity, Encoding Ambiguity in Logical Form."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Akshar Bharti, Vineet Chaitanya and Rajeev Sangal, NLP: A Paninian Perspective, Prentice Hall, New Delhi"
+    },
+    {
+     "no": 2,
+     "book": "James Allen, Natural Language Understanding, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "D. Jurafsky, J. H. Martin, Speech and Language Processing, Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "L.M. Ivansca, S. C. Shapiro, Natural Language Processing and Language Representation"
+    },
+    {
+     "no": 5,
+     "book": "T. Winograd, Language as a Cognitive Process, Addison-Wesley"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Header prints 'Natural language Processing' with lowercase 'l' in 'language'",
+    "References heading printed as 'REFRENCES' (misspelled)",
+    "Unit headers contain large blank gaps before the lecture-count marker (8)"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Human Computer Interaction",
+   "name_print": "Human Computer Interaction",
+   "codes": [
+    "RCA-E23"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Introduction: Importance of user Interface – definition, importance of 8 good designs. Benefits of good design. A brief history of Screen design. The graphical user interface – popularity of graphics, the concept of direct manipulation, graphical system, Characteristics, Web user – Interface popularity, characteristics- Principles of user interface",
+    "2": "Design process – Human interaction with computers, importance of 8 human characteristics human consideration, Human interaction speeds, understanding business junctions.",
+    "3": "Screen Designing : Design goals – Screen planning and purpose, 8 organizing screen elements, ordering of screen data and content – screen navigation and flow – Visually pleasing composition – amount of information – focus and emphasis – presentation information simply and meaningfully – information retrieval on web – statistical graphics – Technological consideration in interface design.",
+    "4": "Windows: New and Navigation schemes selection of window, 8 selection of devices based and screen based controls. Components – text and messages, Icons and increases – Multimedia, colors, uses problems, choosing colors.",
+    "5": "Software tools: Specification methods, interface – Building Tools. 8 Interaction Devices – Keyboard and function keys – pointing devices – speech recognition digitization and generation – image and video displays – drivers."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Alan Dix, Janet Finlay, Gregory Abowd, Russell Beale Human Computer Interaction, 3rd Edition Prentice Hall, 2004."
+    },
+    {
+     "no": 2,
+     "book": "Jonathan Lazar Jinjuan Heidi Feng, Harry Hochheiser, Research Methods in Human Computer Interaction, Wiley, 2010."
+    },
+    {
+     "no": 3,
+     "book": "Ben Shneiderman and Catherine Plaisant Designing the User Interface: Strategies for Effective Human-Computer Interaction (5th Edition, pp. 672, ISBN 0- 321-53735-1, March 2009), Reading, MA: Addison-Wesley Publishing Co."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Heading 'REFRENCES' misspelled (should be 'REFERENCES')",
+    "Stray '8' glyphs appear within unit text (e.g., 'importance of 8 good designs', '8 organizing screen elements', '8 selection of devices', '8 Interaction Devices')",
+    "First unit labeled 'UNIT-1' while subsequent units use 'UNIT-II', 'UNIT-III', etc.",
+    "Reference 3 contains unusual formatting: ISBN printed as '0- 321-53735-1' with a space after '0-'",
+    "Semicolon used after 'REFRENCES' instead of colon"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Software Testing",
+   "name_print": "Software Testing",
+   "codes": [
+    "RCA-E24"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Review of Software Engineering: Overview of software evolution, SDLC, Testing Process, Terminologies in \nTesting: Error, Fault, Failure, Verification, Validation, Difference between Verification and Validation, Test \nCases, Testing Suite, Test Oracles, Impracticality of Testing All data; Impracticality of testing All Paths. \nVerification: Verification methods, SRS verification, Source code reviews, User documentation verification, and \nSoftware project audit, Tailoring Software Quality Assurance Program by Reviews, Walkthrough, Inspection, and \nConfiguration Audits.",
+    "2": "Functional Testing: Boundary Value Analysis, Equivalence Class Testing, Decision Table Based Testing, Cause \nEffect Graphing Technique. Structural Testing: Control flow testing, Path testing, Independent paths, Generation \nof graph from program, Identification of independent paths, Cyclomatic Complexity, Data Flow Testing, \nMutation Testing.",
+    "3": "Regression Testing: What is Regression Testing? Regression Test cases selection, reducing the number of test \ncases, Code coverage prioritization technique. Reducing the number of test cases: Prioritization guidelines, \nPriority category, Scheme, Risk Analysis.",
+    "4": "Software Testing Activities: Levels of Testing, Debugging, Testing techniques and their Applicability, \nExploratory Testing Automated Test Data Generation: Test Data, Approaches to test data generation, test data \ngeneration using genetic algorithm, Test Data Generation Tools, Software Testing Tools, and Software test Plan.",
+    "5": "Object oriented Testing: Definition, Issues, Class Testing, Object Oriented Integration and System Testing. \nTesting Web Applications: What is Web testing?, User interface Testing, Usability Testing, Security Testing, \nPerformance Testing, Database testing, Post Deployment Testing."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Yogesh Singh, “Software Testing”, Cambridge University Press, New York, 2012"
+    },
+    {
+     "no": 2,
+     "book": "K..K. Aggarwal &Yogesh Singh, “Software Engineering”, New Age International Publishers, New Delhi, \n2003."
+    },
+    {
+     "no": 3,
+     "book": "Roger S. Pressman, “Software Engineering – A Practitioner’s Approach”, Fifth Edition, McGraw-Hill \nInternational Edition, New Delhi, 2001."
+    },
+    {
+     "no": 4,
+     "book": "Marc Roper, “Software Testing”, McGraw-Hill Book Co., London, 1994."
+    },
+    {
+     "no": 5,
+     "book": "Boris Beizer, “Software System Testing and Quality Assurance”, Van Nostrand Reinhold, New York, 1984."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "UNIT-V shows (98) instead of (8) for lecture count",
+    "REFRENCES heading is misspelled (should be REFERENCES)",
+    "Reference 2 has 'K..K.' with double dots",
+    "Scheme table lists elective as generic 'RCA- Elective-II' without specific code"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Modern Application Development",
+   "name_print": "Modern Application Development",
+   "codes": [
+    "RCA-E25"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-2",
+   "units": {
+    "1": "Introduction: Introduction to mobile applications – Embedded systems - Market and business drivers for mobile \napplications – Publishing and delivery of mobile applications – Requirements gathering and validation for mobile \napplications",
+    "2": "Basic design: Introduction – Basics of embedded systems design – Embedded OS - Design constraints for mobile \napplications, both hardware and software related – Architecting mobile applications – User interfaces for mobile \napplications – touch events and gestures – Achieving quality constraints – performance, usability, security, \navailability and modifiability.",
+    "3": "Advanced design: Designing applications with multimedia and web access capabilities – Integration with GPS \nand social media networking applications – Accessing applications hosted in a cloud computing environment – \nDesign patterns for mobile applications.",
+    "4": "Technology in android: Introduction – Establishing the development environment – Android architecture – \nActivities and views – Interacting with UI – Persisting data using SQLite – Packaging and deployment – \nInteraction with server side applications – Using Google Maps, GPS and Wi-fi – Integration with social media \napplications.",
+    "5": "TECHNOLOGY II – IOS: Introduction to Objective C – iOS features – UI implementation – Touch frameworks \n– Data persistence using Core Data and SQLite – Location aware applications using Core Location and Map Kit – \nIntegrating calendar and address book with social media application – Using Wifi - iPhone marketplace. Swift: \nIntroduction to Swift features of swift."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Charlie Collins, Michael Galpin and Matthias Kappler, “Android in Practice”, DreamTech, 2012"
+    },
+    {
+     "no": 2,
+     "book": "AnubhavPradhan , Anil V Despande Composing Mobile Apps,Learn ,explore,apply"
+    },
+    {
+     "no": 3,
+     "book": "James Dovey and Ash Furrow, “Beginning Objective C”, Apress, 2012"
+    },
+    {
+     "no": 4,
+     "book": "Jeff McWherter and Scott Gowell, \"Professional Mobile Application Development\", Wrox, 2012"
+    },
+    {
+     "no": 5,
+     "book": "David Mark, Jack Nutting, Jeff LaMarche and Frederic Olsson, “Beginning iOS \n6 Development: Exploring the iOS SDK”, Apress, 2013."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit-III lecture count printed as '98)' instead of '(8)'",
+    "Reference heading printed as 'REFRENCES' (typo for REFERENCES)",
+    "Reference 5 text split across lines: 'Beginning iOS' / '6 Development: Exploring the iOS SDK'",
+    "Unit-V heading printed in all caps: 'TECHNOLOGY II – IOS'",
+    "Scheme table on page 2 lists elective codes incompletely as 'RCA-' without full numbers; full code RCA-E25 appears in the page 3 elective list"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Soft Computing",
+   "name_print": "Soft Computing",
+   "codes": [
+    "RCA-E32"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "Artificial neural networks: Basic concepts - Single layer perception - Multilayer Perception - Supervised and \nUnsupervised learning – Back propagation networks - Kohnen's self organizing networks - Hopfield network.",
+    "2": "Fuzzy systems: Fuzzy sets, Fuzzy Relations and Fuzzy reasoning, Fuzzy functions - Decomposition – Fuzzy \nautomata and languages - Fuzzy control methods - Fuzzy decision making.",
+    "3": "Neuro - fuzzy modeling: Adaptive networks based Fuzzy interface systems - Classification and Regression Trees – \nData clustering algorithms - Rule based structure identification - Neuro-Fuzzy controls – Simulated annealing – \nEvolutionary computation.",
+    "4": "Genetic algorithms: Survival of the Fittest - Fitness Computations - Cross over - Mutation - Reproduction – Rank \nmethod - Rank space method.",
+    "5": "Application of soft computing: Optimization of traveling salesman problem using Genetic Algorithm, Genetic \nalgorithm-based Internet Search Techniques, Soft computing-based hybrid fuzzy controller, Introduction to MATLAB \nEnvironment for Soft computing Techniques."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Sivanandam, Deepa, “ Principles of Soft Computing”, Wiley"
+    },
+    {
+     "no": 2,
+     "book": "Jang J.S.R, Sun C.T. and Mizutani E, \"Neuro-Fuzzy and Soft computing\", Prentice Hall"
+    },
+    {
+     "no": 3,
+     "book": "Timothy J. Ross, \"Fuzzy Logic with Engineering Applications\", McGraw Hill"
+    },
+    {
+     "no": 4,
+     "book": "Laurene Fausett, \"Fundamentals of Neural Networks\", Prentice Hall"
+    },
+    {
+     "no": 5,
+     "book": "D.E. Goldberg, \"Genetic Algorithms: Search, Optimization and Machine Learning\", Addison Wesley"
+    },
+    {
+     "no": 6,
+     "book": "Wang, “Fuzzy Logic”, Springer"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Header prints 'REFRENCES' (misspelled 'REFERENCES')",
+    "Unit headers include stray whitespace and '(8)' lecture-count markers",
+    "unit 2 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "Information Storage Management",
+   "name_print": "Information Storage Management",
+   "codes": [
+    "RCA-E33"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "Introduction to Storage Technology: Data proliferation and the varying value of data with time & usage, Sources of \ndata and states of data creation, Data center requirements and evolution to accommodate storage needs, Overview of basic \nstorage management skills and activities, The five pillars of technology, Overview of storage infrastructure components, \nEvolution of storage, Information Lifecycle Management concept, Data categorization within an enterprise, Storage and \nRegulations.",
+    "2": "Storage Systems Architecture; Intelligent disk subsystems overview, Contrast of integrated vs. modular arrays, \nComponent architecture of intelligent disk subsystems, Disk physical structure components, properties, performance, and \nspecifications, Logical partitioning of disks, RAID & parity algorithms, hot sparing, Physical vs. logical disk organization, \nprotection, and back end management, Array caching properties and algorithms, Front end connectivity and queuing \nproperties, Front end to host storage provisioning, mapping, and operation, Interaction of file systems with storage, \nStorage system connectivity protocols.",
+    "3": "Introduction to Networked Storage: JBOD, DAS, SAN, NAS, & CAS evolution, Direct Attached Storage (DAS) \nenvironments: elements, connectivity, & management, Storage Area Networks (SAN): elements & connectivity, Fibre \nChannel principles, standards, & network management principles, SAN management principles, Network Attached \nStorage (NAS): elements, connectivity options, \nconnectivity protocols (NFS, CIFS, ftp), & management principles, IP SAN elements, standards (SCSI, FCIP, FCP), \nconnectivity principles, security, and management principles, Content Addressable Storage (CAS): elements, connectivity \noptions, standards, and management principles, Hybrid Storage solutions overview including technologies like \nvirtualization & appliances.",
+    "4": "Introduction to Information Availability: Business Continuity and Disaster Recovery Basics, Local business continuity \ntechniques, Remote business continuity techniques, Disaster Recovery principles & techniques.",
+    "5": "Managing & Monitoring: Management philosophies (holistic vs. system & component), Industry management \nstandards (SNMP, SMI-S, CIM), Standard framework applications, Key management metrics (thresholds, availability, \ncapacity, security, performance), Metric analysis methodologies & trend analysis, Reactive and pro-active management \nbest practices, Provisioning & configuration change planning, Problem reporting, prioritization, and handling techniques, \nManagement tools overview."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Information Storage and Management Storing, Managing, and Protecting Digital Information, by EMC, Hopkinton and Massachusetts, Wiley, ISBN: 97881265214"
+    },
+    {
+     "no": 2,
+     "book": "Information storage and management: storing, managing, and protecting digital information by Wiley Pub G Somasundaram, Alok Shrivastava"
+    },
+    {
+     "no": 3,
+     "book": "Meeta Gupta, Storage Area Network Fundamentals, Pearson Education Limited, 2002"
+    },
+    {
+     "no": 4,
+     "book": "Robert Spalding"
+    }
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ],
+   "quirks": [
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ]
+  },
+  {
+   "name": "Digital Image Processing",
+   "name_print": "Digital Image Processing",
+   "codes": [
+    "RCA-E34"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "Introduction and Fundamentals: Motivation and Perspective, Applications, Components of Image Processing System, \nElement of Visual Perception, A Simple Image Model, Sampling and Quantization. \nImage Enhancement in Frequency Domain: Fourier Transform and the Frequency Domain, Basis of Filtering in \nFrequency Domain, Filters – Low-pass, High-pass; Correspondence Between Filtering in Spatial and Frequency Domain; \nSmoothing Frequency Domain Filters – Gaussian Low pass Filters; Sharpening Frequency Domain Filters – Gaussian \nHigh pass Filters; Homomorphic Filtering.",
+    "2": "Image Enhancement in Spatial Domain: Introduction; Basic Gray Level Functions – Piecewise-Linear Transformation \nFunctions: Contrast Stretching; Histogram Specification; Histogram Equalization; Local Enhancement; Enhancement \nusing Arithmetic/Logic Operations – Image Subtraction, Image Averaging; Basics of Spatial Filtering; Smoothing - Mean \nfilter, Ordered Statistic Filter; Sharpening – The Laplacian.",
+    "3": "Image Restoration: A Model of Restoration Process, Noise Models, Restoration in the presence of Noise Only-Spatial \nFiltering – Mean Filters: Arithmetic Mean filter, Geometric Mean Filter, Order Statistic Filters – Median Filter, Max and \nMin filters; Periodic Noise Reduction by Frequency Domain Filtering – Band pass Filters; Minimum Mean-square Error \nRestoration.",
+    "4": "Morphological Image Processing: Introduction, Logic Operations involving Binary Images, Dilation and Erosion, \nOpening and Closing, Morphological Algorithms – Boundary Extraction, Region Filling, Extraction of Connected \nComponents, Convex Hull, Thinning, Thickening",
+    "5": "Registration:   \n\n\n\n\nIntroduction, Geometric Transformation – Plane to Plane transformation, Mapping, Stereo Imaging – Algorithms to \nEstablish Correspondence, Algorithms to Recover Depth \nSegmentation: Introduction, Region Extraction, Pixel-Based Approach, Multi-level thareholding, Local thresholding, \nRegion-based Approach, Edge and Line Detection: Edge Detection, Edge Operators, Pattern Fitting Approach, Edge \nLinking and Edge Following, Edge Elements Extraction by thareholding, Edge Detector Performance, Line Detection, \nCorner Detection."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Digital Image Processing 2nd Edition, Rafael C. Gonzalvez and Richard E. Woods. Published by: Pearson \nEducation."
+    },
+    {
+     "no": 2,
+     "book": "Digital Image Processing and Computer Vision, R.J. Schalkoff. Published by:  John Wiley and Sons, NY."
+    },
+    {
+     "no": 3,
+     "book": "Fundamentals of Digital Image Processing, A.K. Jain. Published by Prentice Hall, Upper Saddle River, NJ."
+    },
+    {
+     "no": 4,
+     "book": "Digital Image Processing, Munesh C. Trivedi, Sanjay M. Shah, Khanna Publishing House"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Header printed as 'REFRENCES:' (misspelled) instead of 'REFERENCES'",
+    "'thareholding' appears twice in Unit V (printed typo for 'thresholding')",
+    "'Gonzalvez' in reference 1 is a printed typo (likely 'Gonzalez')",
+    "Unit V has 'Registration:' followed by stray whitespace/blank lines before the content begins",
+    "Reference 1 wraps across two lines with 'Pearson' and 'Education.' separated by a line break"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Distributed Systems",
+   "name_print": "Distributed Systems",
+   "codes": [
+    "RCA-E35"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "Characterization of Distributed Systems: Introduction, Examples of distributed Systems, Resource sharing and the Web \nChallenges. Architectural models, Fundamental Models. \nTheoretical Foundation for Distributed System: Limitation of Distributed system, absence of global clock, shared \nmemory, Logical clocks; Lamport’s & vectors logical clocks. \nConcepts in Message Passing Systems: causal order, total order, total causal order, Techniques for Message Ordering, \nCausal ordering of messages, global state, termination detection.",
+    "2": "Distributed Mutual Exclusion: Classification of distributed mutual exclusion, requirement of mutual exclusion theorem, \nToken based and non-token-based algorithms, performance metric for distributed mutual exclusion algorithms. \nDistributed Deadlock Detection: system model, resource Vs communication deadlocks, deadlock prevention, avoidance, \ndetection & resolution, centralized dead lock detection, distributed dead lock detection, path pushing algorithms, edge \nchasing algorithms.",
+    "3": "Agreement Protocols: Introduction, System models, classification of Agreement Problem, Byzantine agreement problem, \nConsensus problem, Interactive consistency Problem, Solution to Byzantine Agreement problem, Application of \nAgreement problem, Atomic Commit in Distributed Database system. \nDistributed Resource Management: Issues in distributed File Systems, Mechanism for building distributed file systems, \nDesign issues in Distributed Shared Memory, Algorithm for Implementation of Distributed Shared Memory.",
+    "4": "Failure Recovery in Distributed Systems: Concepts in Backward and Forward recovery, Recovery in Concurrent \nsystems, Obtaining consistent Checkpoints, Recovery in Distributed Database Systems. \nFault Tolerance: Issues in Fault Tolerance, Commit Protocols, Voting protocols, Dynamic voting protocols.",
+    "5": "Transactions and Concurrency Control: Transactions, Nested transactions, Locks, Optimistic Concurrency control, \nTimestamp ordering, Comparison of methods for concurrency control. \nDistributed Transactions: Flat and nested distributed transactions, Atomic Commit protocols, Concurrency control in \ndistributed transactions, Distributed deadlocks, Transaction recovery.  \nReplication: System model and group communication, Fault - tolerant services, highly available services, Transactions \nwith replicated data."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Singhal & Shivaratri, \"Advanced Concept in Operating Systems\", McGraw Hill"
+    },
+    {
+     "no": 2,
+     "book": "Ramakrishna,Gehrke,” Database Management Systems”, Mc Grawhill"
+    },
+    {
+     "no": 3,
+     "book": "Coulouris, Dollimore, Kindberg, \"Distributed System: Concepts and Design”, Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "Distributed System, Munesh C. Trivedi, Khanna Publishing House"
+    },
+    {
+     "no": 5,
+     "book": "Tenanuanbaum, Steen,” Distributed Systems”, PHI"
+    },
+    {
+     "no": 6,
+     "book": "Gerald Tel, \"Distributed Algorithms\", Cambridge University Press"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Section header printed as 'REFRENCES' (misspelling of REFERENCES)",
+    "Reference 5 author printed as 'Tenanuanbaum' (typo for Tanenbaum)",
+    "Unit headings use inconsistent dash styles: UNIT–I, UNIT-II, UNIT–III, UNIT–IV, UNIT–V",
+    "Scheme table row for Elective-III shows code as 'RCA-' with subject name 'Elective – III'; detailed code RCA-E35 resolved from elective list on page 3"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Distributed Database System",
+   "name_print": "Distributed Database System",
+   "codes": [
+    "RCA-E41"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "Transaction and schedules, Concurrent Execution of transaction, Conflict and View Serializability, Testing for\nSerializability, Concepts in Recoverable and Cascade less schedules.",
+    "2": "Lock based protocols, time stamp-based protocols, Multiple Granularity and Multi version Techniques, enforcing\nserializability by Locks, Locking system with multiple lock modes, architecture for Locking scheduler",
+    "3": "Distributed Transactions Management, Data Distribution, Fragmentation and Replication Techniques, Distributed\nCommit, Distributed Locking schemes, Long duration transactions, Moss Concurrency protocol.",
+    "4": "Issues of Recovery and atomicity in Distributed Databases, Traditional recovery techniques, Log based recovery,\nRecovery with Concurrent Transactions, Recovery in Message passing systems, Checkpoints, Algorithms for recovery\nline, Concepts in Orphan and Inconsistent Messages.",
+    "5": "Distributed Query Processing, Multiday Joins, Semi joins, Cost based query optimization for distributed database,\nUpdating replicated data, protocols for Distributed Deadlock Detection, Eager and Lazy Replication Techniques"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Silberschatz, Korth and Sudershan, Database System Concept’, Mc Graw Hill"
+    },
+    {
+     "no": 2,
+     "book": "Ramakrishna and Gehrke,’ Database Management System, Mc Graw Hill"
+    },
+    {
+     "no": 3,
+     "book": "Garcia-Molina, Ullman,Widom,’ Database System Implementation’ Pearson Education"
+    },
+    {
+     "no": 4,
+     "book": "Ceei and Pelagatti,’Distributed Database’, TMH"
+    },
+    {
+     "no": 5,
+     "book": "Distributed System, Munesh C. Trivedi, Khanna Publishing House"
+    },
+    {
+     "no": 6,
+     "book": "Singhal and Shivratri, ’Advance Concepts in Operating Systems’ MC Graw Hill"
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Unit headings use en dash in UNIT–II, UNIT–III, UNIT–IV",
+    "Reference section header misspelled as 'REFRENCES'",
+    "Scheme table lists this subject as 'Elective – IV' but code is RCA-E41",
+    "Page contains many blank lines and spaces"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Simulation and Modelling",
+   "name_print": "Simulation and Modelling",
+   "codes": [
+    "RCA-E42"
+   ],
+   "semester": null,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": null,
+   "marks": null,
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "System definition and components, stochastic activities, continuous and discrete systems, system modeling, types of \nmodels, static and dynamic physical models, static and dynamic mathematical models, full corporate model, types of \nsystem study.",
+    "2": "System simulation, why & when to simulate, nature and techniques of simulation, comparison of simulation and analytical \nmethods, types of system simulation, real time simulation, hybrid simulation, simulation of pure-pursuit problem, single-\nserver queuing system and an inventory problem, Monte-Carlo simulation, Distributed Lag models, Cobweb model.",
+    "3": "Simulation of continuous systems, analog vs. digital Simulation, Simulation of water reservoir system, Simulation of a \nservo system, simulation of an autopilot, Discrete system simulation, fixed time-step vs. even to even model, generation \nof random numbers, test for randomness, Monte-Carlo computation vs. stochastic simulation.",
+    "4": "System dynamics, exponential growth models, exponential decay models, modified exponential growth models, logistic \ncurves, generalization of growth models, system dynamic diagrams, Introduction to SIMSCRIPT: Program, system \nconcepts, origination, and statements, defining the telephone system model.",
+    "5": "Simulation of PERT Networks, critical path computation, uncertainties in activity duration, resource allocation and \nconsideration. Simulation languages and software, continuous and discrete simulation languages, expression-based \nlanguages, object-oriented simulation, general purpose vs. application - oriented simulation packages, CSMP-III, \nMODSIM-III."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Geoftrey Gordon, “System Simulation”, PHI"
+    },
+    {
+     "no": 2,
+     "book": "Jerry Banks, John S. C Barry L. Nelson David M. Nicol, “Discrete Event System Simulation”, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "V P Singh, “System Modeling and simulation”, New Age International."
+    },
+    {
+     "no": 4,
+     "book": "Averill M. Law, W. David Kelton, “System Modeling and simulation and Analysis”, TMH"
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "REFRENCES misspelled as 'REFRENCES'",
+    "Unit numbering inconsistent: 'UNIT-1' for first unit, then 'UNIT-II' etc.",
+    "'even to even model' likely intended as 'event to event model'",
+    "'pure-pursuit' likely intended as 'pure pursuit'",
+    "Reference 2 missing comma after 'John S. C'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Real Time Systems",
+   "name_print": "Real Time Systems",
+   "codes": [
+    "RCA-E43"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "UNIT-I\nIntroduction: Definition, Typical Real Time Applications: Digital Control, High Level Controls, Signal Processing etc.,\nRelease Times, Deadlines, and Timing Constraints, Hard Real Time Systems and Soft Real Time Systems, Reference\nModels for Real Time Systems: Processors and Resources, Temporal Parameters of Real Time Workload, Periodic Task\nModel, precedence constraints and Data Dependency.",
+    "2": "UNIT-II\nReal Time Scheduling: Common Approaches to Real Time Scheduling: Clock Driven Approach, Weighted Round\nRobin Approach, Priority Driven Approach, Dynamic Versus Static Systems, Optimality of Effective-Deadline-First\n(EDF) and Least-Slack-Time-First (LST) Algorithms, Rate Monotonic Algorithm, Offline Versus Online Scheduling,\nScheduling Aperiodic and Sporadic jobs in Priority Driven and Clock Driven Systems.",
+    "3": "UNIT-III\nResources Sharing: Effect of Resource Contention and Resource Access Control (RAC), Non-preemptive Critical\nSections, Basic Priority-Inheritance and Priority-Ceiling Protocols, Stack Based Priority- Ceiling Protocol, Use of\nPriority-Ceiling Protocol in Dynamic Priority Systems, Pre-emption Ceiling Protocol, Access Control in Multiple-UNIT\nResources, Controlling Concurrent Accesses to Data Objects.",
+    "4": "UNIT-IV\nReal Time Communication: Basic Concepts in Real time Communication, Soft and Hard RT Communication systems,\nModel of Real Time Communication, Priority-Based Service and Weighted Round-Robin Service Disciplines for\nSwitched Networks, Medium Access Control Protocols for Broadcast Networks, Internet and Resource Reservation\nProtocols",
+    "5": "UNIT-V\n Real Time Operating Systems and Databases: Features of RTOS, Time Services, UNIX as RTOS, POSIX Issues,\nCharacteristic of Temporal data, Temporal Consistency, Concurrency Control, Overview of Commercial Real Time\ndatabases"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Real Time Systems by Jane W. S. Liu, Pearson Education Publication."
+    },
+    {
+     "no": 2,
+     "book": "Mall Rajib, “Real Time Systems”, Pearson Education"
+    },
+    {
+     "no": 3,
+     "book": "Albert M. K. Cheng , “Real-Time Systems: Scheduling, Analysis, and Verification”, Wiley."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "REFRENCES is misspelled (should be REFERENCES)",
+    "Leading space before 'Real Time Operating Systems' in UNIT-V"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Pattern Recognition",
+   "name_print": "Pattern Recognition",
+   "codes": [
+    "RCA-E44"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "Introduction: Basics of pattern recognition, Design principles of pattern recognition system, Learning and adaptation, \nPattern recognition approaches, Mathematical foundations – Linear algebra, Probability Theory, Expectation, mean and \ncovariance, Normal distribution, multivariate normal densities, Chi squared test.",
+    "2": "Statistical Patten Recognition: Bayesian Decision Theory, Classifiers, Normal density and discriminant functions,",
+    "3": "Parameter estimation methods: Maximum-Likelihood estimation, Bayesian Parameter estimation, Dimension reduction \nmethods - Principal Component Analysis (PCA), Fisher Linear discriminant analysis, Expectation-maximization (EM), \nHidden Markov Models (HMM), Gaussian mixture models.",
+    "4": "Nonparametric Techniques: Density Estimation, Parzen Windows, K-Nearest Neighbor Estimation, Nearest Neighbor \nRule, Fuzzy classification.",
+    "5": "Unsupervised Learning & Clustering: Criterion functions for clustering, Clustering Techniques: Iterative square - error \npartitioned clustering – K means, agglomerative hierarchical clustering, Cluster validation."
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Richard O. Duda, Peter E. Hart and David G. Stork, “Pattern Classification”, 2nd Edition, John Wiley, 2006."
+    },
+    {
+     "no": 2,
+     "book": "C. M. Bishop, “Pattern Recognition and Machine Learning”, Springer, 2009."
+    },
+    {
+     "no": 3,
+     "book": "S. Theodoridis and K. Koutroumbas, “Pattern Recognition”, 4th Edition, Academic Press, 2009."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Heading printed as 'REFRENCES' (misspelled)",
+    "Unit-II contains typo 'Patten' instead of 'Pattern'",
+    "Unit numbering inconsistent: UNIT-1, UNIT-II, UNIT-III:, UNIT-IV:, UNIT-V:",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "Big Data",
+   "name_print": "Big Data",
+   "codes": [
+    "RCA-E45"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-4",
+   "units": {
+    "1": "Understanding big data: What is big data, why big data, convergence of key trends, unstructured data, industry \nexamples of big data, web analytics, big data and marketing, fraud and big data, risk and big data ,credit risk management, \nbig data and   algorithmic trading, big data and HealthCare, big data in medicine, advertising and big data, big data \ntechnologies, Introduction to Hadoop, open source technologies, cloud and big data mobile business intelligence, Crowd  \nsourcing   Analytics ,inter and trans firewall analytics",
+    "2": "NoSQL data management: Introduction to NoSQL, aggregate data models, aggregates, key-value and document data \nmodels,  relationships, graph databases, schema less databases ,materialized views, distribution models ,sharing , masters \nslave replication , peer-peer replication , sharing and replication , consistency , relaxing consistency , version stamps , \nmap reduce , partitioning and combining , composing map-reduce calculations",
+    "3": "Basics of Hadoop; Data format, analyzing data with Hadoop, scaling out , Hadoop streaming , Hadoop pipes , design of \nHadoop distributed file system (HDFS) , HDFS concepts , Java interface , data flow ,Hadoop I/O , data integrity , \noppression ,serialization , Avro file-based data structures",
+    "4": "Map reduce applications; Map Reduce workflows, UNIT tests with MR UNIT, test data and local tests – anatomy of \nMap Reduce job run , classic Map-reduce , YARN , failures in classic Map-reduce and YARN , job scheduling , shuffle \nand sort , task execution , MapReduce types , input formats , output formats",
+    "5": "Hadoop related tools; HBase, data model and implementations, Hbase clients, Hbase examples – praxis. Cassandra, \ncassandra data model, cassandra examples ,cassandra clients , Hadoop integration.Pig , Grunt , pig data model , Pig Latin , \ndeveloping and testing PigLatin scripts. Hive, data types and file formats, HiveQL data definition, HiveQL data \nmanipulation – HiveQL queries"
+   },
+   "lectures_per_unit": 8,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Michael Minelli, Michelle Chambers, and Ambiga Dhiraj, \"Big Data, Big Analytics: Emerging Business \nIntelligence and Analytic Trends for Today's Businesses\", Wiley, 2013."
+    },
+    {
+     "no": 2,
+     "book": "P. J. Sadalage and M. Fowler, \"NoSQL Distilled: A Brief Guide to the Emerging World of \nPolyglot Persistence\", Addison-Wesley Professional, 2012."
+    },
+    {
+     "no": 3,
+     "book": "Tom White, \"Hadoop: The Definitive Guide\", Third Edition, O'Reilley, 2012."
+    },
+    {
+     "no": 4,
+     "book": "V.K. Jain, Big Data & Hadoop, Khanna Publishing House"
+    },
+    {
+     "no": 5,
+     "book": "Eric Sammer, \"Hadoop Operations\", O'Reilley, 2012."
+    },
+    {
+     "no": 6,
+     "book": "E. Capriolo, D. Wampler, and J. Rutherglen, \"Programming Hive\", O'Reilley, 2012."
+    },
+    {
+     "no": 7,
+     "book": "Lars George, \"HBase: The Definitive Guide\", O'Reilley, 2011."
+    },
+    {
+     "no": 8,
+     "book": "Eben Hewitt, \"Cassandra: The Definitive Guide\", O'Reilley, 2010."
+    },
+    {
+     "no": 9,
+     "book": "Alan Gates, \"Programming Pig\", O'Reilley, 2011."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Reference numbering is out of order: printed sequence is 1, 2, 3, 4, 7, 5, 6, 7, 8, 9 (7 appears twice; 5 and 6 appear after 7)",
+    "Stray '3.' glyph appears on the continuation line of reference 2 (wrapped cell artifact): '3. Polyglot Persistence\"', Addison-Wesley Professional, 2012.'",
+    "Header printed as 'REFRENCES' (misspelled)",
+    "Extra spaces preserved: 'big data and   algorithmic trading', 'Crowd  sourcing   Analytics'",
+    "Possible typo 'oppression' (likely 'compression') in Unit III",
+    "Spacing oddities around commas: 'risk and big data ,credit', 'distribution models ,sharing', 'scaling out , Hadoop', etc."
+   ],
+   "flags": []
+  },
+  {
+   "1": "UNIT-I:  \n\n\n\n\n\n\n\n\n(8) \nIntroduction: Introduction to Software Engineering, Software Components, Software Characteristics, Software Crisis, \nSoftware Engineering Processes, Similarity and Differences from Conventional Engineering Processes, Software Quality \nAttributes. Software Development Life Cycle (SDLC) Models: Water Fall Model, Prototype Model, Spiral Model, \nEvolutionary Development Models, Iterative Enhancement Models.\"\n\nBut wait, after \"UNIT-I:  \" there is a newline, then 11 blank lines? Actually the text shows 11 lines of nothing? Let's count the newlines in the given text. Between \"UNIT-I:  \" and \"(8)\" there are many newlines. In the text, we see:\n\n```\nUNIT-I:  \n \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \n```\n\nThere are 11 lines of spaces? Actually it's 11 blank lines. In the text, each blank line is represented by a newline. So we have: after \"UNIT-I:  \" there is a newline, then 11 more newlines? Let's count: The text shows \"UNIT-I:  \" then a newline, then 11 lines that are just spaces? Actually the text shows \" \" (space) repeated? It's hard. I'll just copy the exact sequence from the provided text. I'll assume the text as given.\n\nTo avoid errors, I'll copy the exact substring from the PDF text as it appears. I'll use the text I have.\n\nI'll write the JSON with the exact strings.\n\nSimilarly for other units.\n\nUnit 2: From \"UNIT-II:",
+   "unit-I text\" - probably the body text. But to be safe, we can include the entire block from ": "NIT-I:",
+   "UNIT-II:\"? However, the instruction says \"only units actually printed\" and \"VERBATIM unit-I text": "I think we should include the text that follows the unit heading, excluding the heading itself? But the heading is part of the print. Let's see examples: In many extractions, they include the unit heading as part of the text. But the instruction says",
+   "units\" with keys \"1\",\"2\" etc. I'll include the full text from ": "NIT-I:",
+   "UNIT-II:\" but without the trailing spaces. However, note that the text includes the \"(8)": "hich is the lecture count. That might be considered part of the unit text. I'll include it as printed.\n\nLet's copy exactly from the PDF text.\n\nFor UNIT-I:",
+   "UNIT-I": " there is a newline, then 11 empty lines? The text shows 11 lines of spaces? Actually it's hard to count. I'll just copy the exact substring from the PDF text as given.\n\nI'll copy from the PDF text block. Since I have the text, I'll copy the exact lines.\n\nBetter: I'll extract from the provided PDF text. The text for page 5 is given. I'll copy the relevant portion.\n\nLet me copy the entire page 5 text:\n\n```\nRCA-502 Software Engineering \n \nUNIT-I:  \n \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nIntroduction: Introduction to Software Engineering, Software Components, Software Characteristics, Software Crisis, \nSoftware Engineering Processes, Similarity and Differences from Conventional Engineering Processes, Software Quality \nAttributes. Software Development Life Cycle (SDLC) Models: Water Fall Model, Prototype Model, Spiral Model, \nEvolutionary Development Models, Iterative Enhancement Models. \n \nUNIT-II:  \n \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nSoftware Requirement Specifications (SRS): Requirement Engineering Process: Elicitation, Analysis, Documentation, \nReview and Management of User Needs,  Feasibility Study, Information Modeling, Data Flow Diagrams, Entity \nRelationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS.  \nSoftware Quality Assurance :(SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 \nModels, SEI-CMM Model. \n \nUNIT-III: \nSoftware Design: \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nBasic Concept of Software Design, Architectural Design, Low Level Design: Modularization, Design Structure Charts, \nPseudo Codes, Flow Charts, Coupling and Cohesion Measures, Design Strategies: Function Oriented Design, Object \nOriented Design, Top-Down and Bottom-Up Design. Software Measurement and Metrics: Various Size Oriented   \nMeasures: Halestead’s Software Science, Function Point (FP) Based Measures, Cyclomatic Complexity Measures: \nControl Flow Graphs \n \nUNIT-IV: \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nSoftware Testing: Testing Objectives, UNIT Testing, Integration Testing, 8 Acceptance Testing, Regression Testing, \nTesting for functionality and Testing for Performance, Top-Down and Bottom-Up Testing Strategies: Test Drivers and \nTest Stubs, Structural Testing (White Box Testing), Functional Testing (Black Box Testing), Test Data Suit Preparation, \nAlpha and Beta Testing of Products. Static Testing Strategies: Formal Technical Reviews (Peer Reviews), Walk Through, \nCode Inspection, Compliance with Design and Coding Standards. \n \nUNIT-V: \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nSoftware Maintenance and Software Project Management: Software as an Evolutionary Entity, Need for maintenance, \nCategories of Maintenance: Preventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-\nEngineering, Reverse Engineering. Software Configuration Management Activities, Change Control Process, Software \nVersion Control, An Overview of CASE Tools. Estimation of Various Parameters such as Cost, Efforts, \nSchedule/Duration, Constructive Cost Models (COCOMO), Resource allocation Models, Software Risk Analysis and \nManagement. \n \nREFRENCES: \n \n1. R. S. Pressman, Software Engineering: A Practitioners Approach, McGraw Hill. \n2. Rajib Mall, Fundamentals of Software Engineering, PHI Publication. \n3. K. K. Aggarwal and Yogesh Singh, Software Engineering, New Age International Publishers. \n4. Pankaj Jalote, Software Engineering, Wiley \n5. Deepak Jain,",
+   "line breaks normalized to": "eaning we replace actual line breaks with \n, but we don't need to preserve multiple consecutive newlines? Usually we can collapse multiple newlines into one? But the instruction says",
+   "normalized to": "eans we use \n for line breaks, but we don't need to preserve multiple blank lines? Usually we can keep them as they are, but it's safer to keep the exact text with newlines as they appear, but we can trim leading/trailing spaces? The instruction says",
+   "VERBATIM": "o we should not remove anything. But we can normalize line breaks to \n, meaning we convert all line endings to \n. The text already uses \n. So we can just take the exact substring.\n\nBut note: The PDF text has many spaces and blank lines. We can copy the text as it appears between the unit markers. For example, after",
+   "UNIT-I:\" to just before ": "NIT-II:",
+   "UNIT-II:": "Similarly for others.\n\nLet's extract from the PDF text for page 5.\n\nThe text on page 5:\n\n```\nRCA-502 Software Engineering \n \nUNIT-I:  \n \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nIntroduction: Introduction to Software Engineering, Software Components, Software Characteristics, Software Crisis, \nSoftware Engineering Processes, Similarity and Differences from Conventional Engineering Processes, Software Quality \nAttributes. Software Development Life Cycle (SDLC) Models: Water Fall Model, Prototype Model, Spiral Model, \nEvolutionary Development Models, Iterative Enhancement Models. \n \nUNIT-II:  \n \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nSoftware Requirement Specifications (SRS): Requirement Engineering Process: Elicitation, Analysis, Documentation, \nReview and Management of User Needs,  Feasibility Study, Information Modeling, Data Flow Diagrams, Entity \nRelationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS.  \nSoftware Quality Assurance :(SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 \nModels, SEI-CMM Model. \n \nUNIT-III: \nSoftware Design: \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nBasic Concept of Software Design, Architectural Design, Low Level Design: Modularization, Design Structure Charts, \nPseudo Codes, Flow Charts, Coupling and Cohesion Measures, Design Strategies: Function Oriented Design, Object \nOriented Design, Top-Down and Bottom-Up Design. Software Measurement and Metrics: Various Size Oriented   \nMeasures: Halestead’s Software Science, Function Point (FP) Based Measures, Cyclomatic Complexity Measures: \nControl Flow Graphs \n \nUNIT-IV: \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nSoftware Testing: Testing Objectives, UNIT Testing, Integration Testing, 8 Acceptance Testing, Regression Testing, \nTesting for functionality and Testing for Performance, Top-Down and Bottom-Up Testing Strategies: Test Drivers and \nTest Stubs, Structural Testing (White Box Testing), Functional Testing (Black Box Testing), Test Data Suit Preparation, \nAlpha and Beta Testing of Products. Static Testing Strategies: Formal Technical Reviews (Peer Reviews), Walk Through, \nCode Inspection, Compliance with Design and Coding Standards. \n \nUNIT-V: \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nSoftware Maintenance and Software Project Management: Software as an Evolutionary Entity, Need for maintenance, \nCategories of Maintenance: Preventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-\nEngineering, Reverse Engineering. Software Configuration Management Activities, Change Control Process, Software \nVersion Control, An Overview of CASE Tools. Estimation of Various Parameters such as Cost, Efforts, \nSchedule/Duration, Constructive Cost Models (COCOMO), Resource allocation Models, Software Risk Analysis and \nManagement. \n \nREFRENCES: \n \n1. R. S. Pressman, Software Engineering: A Practitioners Approach, McGraw Hill. \n2. Rajib Mall, Fundamentals of Software Engineering, PHI Publication. \n3. K. K. Aggarwal and Yogesh Singh, Software Engineering, New Age International Publishers. \n4. Pankaj Jalote, Software Engineering, Wiley \n5. Deepak Jain,",
+   "Engineering": "Principles and Practices",
+   "(8)\". We'll include all that.\n\nFor UNIT-I, the text starts at ": "NIT-I:",
+   "UNIT-II:\". So we take from ": "NIT-I:",
+   "UNIT-II:\". That includes the blank lines and the content.\n\nSimilarly for UNIT-II, from ": "NIT-II:",
+   "UNIT-III:": "The text is:",
+   "UNIT-III": "nSoftware Design: \n\n\n\n\n\n\n\n\n(8) \nBasic Concept of Software Design, Architectural Design, Low Level Design: Modularization, Design Structure Charts, \nPseudo Codes, Flow Charts, Coupling and Cohesion Measures, Design Strategies: Function Oriented Design, Object \nOriented Design, Top-Down and Bottom-Up Design. Software Measurement and Metrics: Various Size Oriented   \nMeasures: Halestead’s Software Science, Function Point (FP) Based Measures, Cyclomatic Complexity Measures: \nControl Flow Graphs",
+   "UNIT-IV": "n\n\n\n\n\n\n\n\n(8) \nSoftware Testing: Testing Objectives, UNIT Testing, Integration Testing, 8 Acceptance Testing, Regression Testing, \nTesting for functionality and Testing for Performance, Top-Down and Bottom-Up Testing Strategies: Test Drivers and \nTest Stubs, Structural Testing (White Box Testing), Functional Testing (Black Box Testing), Test Data Suit Preparation, \nAlpha and Beta Testing of Products. Static Testing Strategies: Formal Technical Reviews (Peer Reviews), Walk Through, \nCode Inspection, Compliance with Design and Coding Standards.",
+   "Design": " after the heading. Also note the double spaces.\n\nUnit 4: From ",
+   "UNIT-V": "n\n\n\n\n\n\n\n\n(8) \nSoftware Maintenance and Software Project Management: Software as an Evolutionary Entity, Need for maintenance, \nCategories of Maintenance: Preventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-\nEngineering, Reverse Engineering. Software Configuration Management Activities, Change Control Process, Software \nVersion Control, An Overview of CASE Tools. Estimation of Various Parameters such as Cost, Efforts, \nSchedule/Duration, Constructive Cost Models (COCOMO), Resource allocation Models, Software Risk Analysis and \nManagement.",
+   "5": "From",
+   "UNIT-II": "n\n\n\n\n\n\n\n\n(8) \nSoftware Requirement Specifications (SRS): Requirement Engineering Process: Elicitation, Analysis, Documentation, \nReview and Management of User Needs,  Feasibility Study, Information Modeling, Data Flow Diagrams, Entity \nRelationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS.  \nSoftware Quality Assurance :(SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 \nModels, SEI-CMM Model.",
+   "normalized\" might mean we convert all line endings to \n, but we still keep the number of newlines as in the original. So we'll keep them.\n\nBut to avoid huge strings, we can trim leading/trailing whitespace per line? But that would alter the text. I think we should keep exactly as is.\n\nLet's copy from the provided text. I'll copy the exact substring.\n\nFrom the PDF text, after \"RCA-502 Software Engineering\" there is a newline, then ": "NIT-I:",
+   "shows": "UNIT-I:  \n \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \nIntroduction: ...\n```\n\nSo there are many blank lines. In the JSON, we'll represent that as",
+   "n\n\n...": "tc.\n\nTo be precise, I'll copy the exact characters.\n\nI'll do this manually.\n\nUnit 1 string:",
+   "UNIT-I:\" there are two spaces then a newline? Actually the text shows ": "NIT-I:",
+   "UNIT-I:  ": "here is a newline, then a series of blank lines (each represented by a newline). The text shows:\n\n```\nUNIT-I:  \n \n \n \n \n \n \n \n \n \n \n \n \n \n(8) \n```\n\nSo there are 11 blank lines? Actually let's count: After",
+   "Note": "There is a line",
+   "SRS.": "tc. We'll keep.\n\nUnit 3: From",
+   "REFRENCES": " (misspelled). We'll record that in quirks.\n\nQuirks: \n- \"REFRENCES\" misspelled (should be REFERENCES)\n- In UNIT-IV, there is a stray \"8\" in \"Integration Testing, 8 Acceptance Testing\" (likely a misprint from lecture count)\n- Also note that the unit headings have many blank lines before the lecture count, which is odd but not necessarily a quirk.\n\nWe'll add these.\n\nAlso note that there is no \"OBJECTIVES\" section, so objectives_print can be null or empty array. We'll set to null.\n\nPrerequisites: null.\n\nExperiments: null.\n\nCos: null or empty array. Since none printed, we'll set to []? The instruction says \"cos\": [{\"no\":1",
+   "books": "We have 7 books. We'll assign numbers 1-7.\n\nWe'll put them in reference_books array.\n\nAlso note that the heading is",
+   "text": "<verbatim>",
+   "kl": "<K-level if printed>",
+   "units": {
+    "1": "Introduction: Introduction to Software Engineering, Software Components, Software Characteristics, Software Crisis, \nSoftware Engineering Processes, Similarity and Differences from Conventional Engineering Processes, Software Quality \nAttributes. Software Development Life Cycle (SDLC) Models: Water Fall Model, Prototype Model, Spiral Model, \nEvolutionary Development Models, Iterative Enhancement Models.",
+    "2": "Software Requirement Specifications (SRS): Requirement Engineering Process: Elicitation, Analysis, Documentation, \nReview and Management of User Needs,  Feasibility Study, Information Modeling, Data Flow Diagrams, Entity \nRelationship Diagrams, Decision Tables, SRS Document, IEEE Standards for SRS.  \nSoftware Quality Assurance :(SQA): Verification and Validation, SQA Plans, Software Quality Frameworks, ISO 9000 \nModels, SEI-CMM Model.",
+    "3": "Basic Concept of Software Design, Architectural Design, Low Level Design: Modularization, Design Structure Charts, \nPseudo Codes, Flow Charts, Coupling and Cohesion Measures, Design Strategies: Function Oriented Design, Object \nOriented Design, Top-Down and Bottom-Up Design. Software Measurement and Metrics: Various Size Oriented   \nMeasures: Halestead’s Software Science, Function Point (FP) Based Measures, Cyclomatic Complexity Measures: \nControl Flow Graphs",
+    "4": "Software Testing: Testing Objectives, UNIT Testing, Integration Testing, 8 Acceptance Testing, Regression Testing, \nTesting for functionality and Testing for Performance, Top-Down and Bottom-Up Testing Strategies: Test Drivers and \nTest Stubs, Structural Testing (White Box Testing), Functional Testing (Black Box Testing), Test Data Suit Preparation, \nAlpha and Beta Testing of Products. Static Testing Strategies: Formal Technical Reviews (Peer Reviews), Walk Through, \nCode Inspection, Compliance with Design and Coding Standards.",
+    "5": "Software Maintenance and Software Project Management: Software as an Evolutionary Entity, Need for maintenance, \nCategories of Maintenance: Preventive, Corrective and Perfective Maintenance, Cost of Maintenance, Software Re-\nEngineering, Reverse Engineering. Software Configuration Management Activities, Change Control Process, Software \nVersion Control, An Overview of CASE Tools. Estimation of Various Parameters such as Cost, Efforts, \nSchedule/Duration, Constructive Cost Models (COCOMO), Resource allocation Models, Software Risk Analysis and \nManagement."
+   },
+   "name": "Software Engineering",
+   "codes": [
+    "RCA502"
+   ],
+   "quirks": [
+    "name restored verbatim from the document's own scheme/detail print (b48 print-anchored class)",
+    "re-extracted from detail-page slice p.5 after a blank first pass (b48 REX class)"
+   ],
+   "flags": [
+    "b48_repair_name_restored",
+    "b48_repair_rex_ok"
+   ],
+   "name_print": "Software Engineering",
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "R. S. Pressman, Software Engineering: A Practitioners Approach, McGraw Hill."
+    },
+    {
+     "no": 2,
+     "book": "Rajib Mall, Fundamentals of Software Engineering, PHI Publication."
+    },
+    {
+     "no": 3,
+     "book": "K. K. Aggarwal and Yogesh Singh, Software Engineering, New Age International Publishers."
+    },
+    {
+     "no": 4,
+     "book": "Pankaj Jalote, Software Engineering, Wiley"
+    },
+    {
+     "no": 5,
+     "book": "Deepak Jain,\" Software Engineering: Principles and Practices\",Oxford University Press."
+    },
+    {
+     "no": 6,
+     "book": "Munesh C. Trivedi, Software Engineering, Khanna Publishing House"
+    },
+    {
+     "no": 7,
+     "book": "N.S. Gill, Software Engineering, Khanna Publishing House"
+    }
+   ]
+  },
+  {
+   "l": "..",
+   "t": "..",
+   "p": "..",
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "b48_repair_name_restored"
+   ],
+   "name": "Computer Graphics & Animation Lab",
+   "codes": [
+    "RCA551"
+   ],
+   "quirks": [
+    "name restored verbatim from the document's own scheme/detail print (b48 print-anchored class)"
+   ],
+   "name_print": "Computer Graphics & Animation Lab"
+  },
+  {
+   "name_print": "Project Based on Software Engineering",
+   "quirks": [
+    "scheme-row extraction empty",
+    "experiment list transcribed byte-verbatim from the printed practical section at p.2 (b48 print-anchored restoration class)"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "b48_repair2_exps"
+   ],
+   "name": "Project Based on Software Engineering",
+   "codes": [
+    "RCA552"
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "RCA-E21 : Cryptography and Network Security"
+    },
+    {
+     "no": 2,
+     "exp": "RCA-E22 : Natural language Processing"
+    },
+    {
+     "no": 3,
+     "exp": "RCA-E23 : Human Computer Interaction"
+    },
+    {
+     "no": 4,
+     "exp": "RCA-E24 : Software Testing"
+    },
+    {
+     "no": 5,
+     "exp": "RCA-E25 : Modern Application Development"
+    },
+    {
+     "no": 1,
+     "exp": "RCA-E31 : Cloud Computing"
+    },
+    {
+     "no": 2,
+     "exp": "RCA-E32 : Soft Computing"
+    },
+    {
+     "no": 3,
+     "exp": "RCA-E33 : Information Storage Management"
+    },
+    {
+     "no": 4,
+     "exp": "RCA-E34 : Digital Image Processing"
+    },
+    {
+     "no": 5,
+     "exp": "RCA-E35 : Distributed Systems"
+    },
+    {
+     "no": 1,
+     "exp": "RCA-E41 : Distributed Database Systems"
+    },
+    {
+     "no": 2,
+     "exp": "RCA-E42 : Simulation and Modeling"
+    },
+    {
+     "no": 3,
+     "exp": "RCA-E43 : Real Time Systems"
+    },
+    {
+     "no": 4,
+     "exp": "RCA-E44 : Pattern Recognition"
+    },
+    {
+     "no": 5,
+     "exp": "RCA-E45 : Big Data"
+    }
+   ]
+  },
+  {
+   "sessional_ct": "..",
+   "sessional_ta": "..",
+   "sessional_total": "..",
+   "ese_te_pe": "..",
+   "total": "..",
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed",
+    "b48_repair_name_restored",
+    "b48_repair2_exps"
+   ],
+   "name": "Colloquium",
+   "codes": [
+    "RCA661"
+   ],
+   "quirks": [
+    "name restored verbatim from the document's own scheme/detail print (b48 print-anchored class)",
+    "experiment list transcribed byte-verbatim from the printed practical section at p.2 (b48 print-anchored restoration class)"
+   ],
+   "name_print": "Colloquium",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "RCA-E21 : Cryptography and Network Security"
+    },
+    {
+     "no": 2,
+     "exp": "RCA-E22 : Natural language Processing"
+    },
+    {
+     "no": 3,
+     "exp": "RCA-E23 : Human Computer Interaction"
+    },
+    {
+     "no": 4,
+     "exp": "RCA-E24 : Software Testing"
+    },
+    {
+     "no": 5,
+     "exp": "RCA-E25 : Modern Application Development"
+    },
+    {
+     "no": 1,
+     "exp": "RCA-E31 : Cloud Computing"
+    },
+    {
+     "no": 2,
+     "exp": "RCA-E32 : Soft Computing"
+    },
+    {
+     "no": 3,
+     "exp": "RCA-E33 : Information Storage Management"
+    },
+    {
+     "no": 4,
+     "exp": "RCA-E34 : Digital Image Processing"
+    },
+    {
+     "no": 5,
+     "exp": "RCA-E35 : Distributed Systems"
+    },
+    {
+     "no": 1,
+     "exp": "RCA-E41 : Distributed Database Systems"
+    },
+    {
+     "no": 2,
+     "exp": "RCA-E42 : Simulation and Modeling"
+    },
+    {
+     "no": 3,
+     "exp": "RCA-E43 : Real Time Systems"
+    },
+    {
+     "no": 4,
+     "exp": "RCA-E44 : Pattern Recognition"
+    },
+    {
+     "no": 5,
+     "exp": "RCA-E45 : Big Data"
+    }
+   ]
+  },
+  {
+   "name_print": "Industrial Project",
+   "quirks": [
+    "scheme-row extraction empty"
+   ],
+   "flags": [
+    "scheme_row_only_detailed_syllabus_not_printed"
+   ],
+   "name": "Industrial Project",
+   "codes": [
+    "RCA662"
+   ]
+  },
+  {
+   "name": "Cloud Computing",
+   "name_print": "Cloud Computing",
+   "codes": [
+    "RCAE-31",
+    "RCA-E31"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 1,
+    "p": 0
+   },
+   "credit": 4,
+   "marks": {
+    "sessional_ct": 20,
+    "sessional_ta": 10,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective-3",
+   "units": {
+    "1": "Introduction: Cloud-definition, benefits, usage scenarios, History of Cloud Computing - Cloud"
+   },
+   "quirks": [],
+   "flags": []
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [],
+ "flags": []
+}

@@ -1,0 +1,2599 @@
+{
+ "pdf_rel": "repo_asleep/PDFs/5-course/no_session_found/bpharm_y3_scheme-syllabus-cbcs-rev.pdf",
+ "session": "",
+ "course": "BPharm",
+ "sha16": "b2d1ea61547479fd",
+ "stem": "07_bpharm_y3_scheme-syllabus-cbcs-rev",
+ "subjects": [
+  {
+   "name": "PHARMACEUTICAL CHEMISTRY-VI (MEDICINAL CHEMISTRY-I)",
+   "name_print": "PHARMACEUTICAL CHEMISTRY-VI (MEDICINAL CHEMISTRY-I)",
+   "codes": [
+    "RPH-521"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Unit I\nBasic principles of medicinal chemistry: Physicochemical parameters in relation to biological \nactivity, Stereochemical (Geometrical, Optical and Conformational) aspects of drug design, \nBioisosterism. Drug-receptor interaction (forces), Concept of pro-drugs (Bio-precursor and Carrier \nlinked). \nClassification, mode of action, uses, recent advances and structure activity relationship of \nthe following classes of drugs (Synthetic procedures of individually mentioned drugs only).",
+    "2": "Unit II\nDrugs acting at autonomic nervous system Cholinergic drugs: Methacholine, Pilocarpine. \nAnticholinergic drugs: Atropine. Anticholinesterases: Neostigmine, Physostigmine. \nAdrenergic drugs: Ephedrine, Adrenaline, Salbutamol.",
+    "3": "Unit III\nDrugs acting at central nervous system General anaesthetics: Methohexital, Ketamine. Local \nanaesthetics: Benzocaine, Lignocaine. \nSkeletal muscle relaxants: Succinylcholine, Pancuronium. \nOpioid analgesics: Pethidine, Pentazocine. \nAntitussives: Cramiphen, Dextromethorphen.",
+    "4": "Unit IV\nAnxiolytics: Diazepam. \nSedatives and hypnotics: Phenobarbitone, Alprazolam. \nAnticonvulsants: Phenytoin, Ethosuximide, Valproic Acid, Vigabatrin. \nDrugs  for  neurodegenerative  disorders:  Alzheimer’s  disease  (Tacrine),  Parkinson’s  disease \n(Levodopa).",
+    "5": "Unit V\nAntidepressants: Imipramine, Amitriptyline, Fluoxetine. \nAntipsychotic: Chlorpromazine, Haloperidol. \nCNS Stimulants and psychedelics: Amphetamine, Caffeine. \nAntispasmodics: Dicyclomine."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Abraham D.J., Burger’s Medicinal Chemistry and Drug Discovery, John Wiley and Sons Inc., New York."
+    },
+    {
+     "no": 2,
+     "book": "Block J.H.  and  Beale  J.M.,  Wilson and  Gisvold’s Textbook of  Organic Medicinal  and Pharmaceutical Chemistry, Lippincott Williams and Wilkins."
+    },
+    {
+     "no": 3,
+     "book": "Lemke T.L., Williams D.A., Roche V.F. and Zito S.W., Foye's Principles of Medicinal Chemistry, Lippincott Williams and Wilkins."
+    },
+    {
+     "no": 4,
+     "book": "Vardanyan R.S. and Hruby V.J., Synthesis of Essential Drugs, Elsevier."
+    },
+    {
+     "no": 5,
+     "book": "Singh H. and Kapoor V.K., Medicinal and Pharmaceutical Chemistry, Vallabh Prakashan, Delhi."
+    },
+    {
+     "no": 6,
+     "book": "Nogrady  T.,  Medicinal  Chemistry:  A  Biochemical  Approach,  Oxford  University  Press, NewYork."
+    },
+    {
+     "no": 7,
+     "book": "Silverman R.B., The Organic Chemistry of Drug Design and Drug Action, Elsevier."
+    },
+    {
+     "no": 8,
+     "book": "Korolkovas A., Essentials of Medicinal Chemistry, John Wiley and Sons Inc., New York."
+    },
+    {
+     "no": 9,
+     "book": "Larsen P.K., Liljefors T. and Madsen U. Textbook of Drug Design and Discovery, Taylor and Francis Inc."
+    },
+    {
+     "no": 10,
+     "book": "Mann F.G. and Saunders B.C., Practical Organic Chemistry, Orient Longman Limited."
+    },
+    {
+     "no": 11,
+     "book": "Furniss  B.S.,  Hannaford A.J.,  Smith  P.W.G.  and  Tatchell  A.  R.,  Vogel’s  Textbook  of Practical Organic Chemistry, Dorling Kindersley (India) Pvt. Ltd. (Pearson Education Ltd.)."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit V text is split across pages 3 and 4; joined with newline.",
+    "Typo 'Cramiphen' likely should be 'Caramiphen'.",
+    "Typo 'Dextromethorphen' likely should be 'Dextromethorphan'.",
+    "Curly apostrophes in 'Alzheimer’s' and 'Parkinson’s'.",
+    "Book list has 'NewYork' without space.",
+    "The scheme row prints subject name as 'Pharmaceutical Chemistry-VI (Medicinal Chemistry-I)' while detail page prints 'PHARMACEUTICAL CHEMISTRY-VI (MEDICINAL CHEMISTRY-I)'.",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "PHARMACEUTICAL CHEMISTRY-VI (MEDICINAL CHEMISTRY-I) PRACTICAL",
+   "name_print": "PHARMACEUTICAL CHEMISTRY-VI  \n(MEDICINAL CHEMISTRY-I) PRACTICAL",
+   "codes": [
+    "RPH-521P"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Abraham D.J., Burger’s Medicinal Chemistry and Drug Discovery, John Wiley and Sons Inc., New York."
+    },
+    {
+     "no": 2,
+     "book": "Block J.H.  and  Beale  J.M.,  Wilson and  Gisvold’s Textbook of  Organic Medicinal  and  Pharmaceutical Chemistry, Lippincott Williams and Wilkins."
+    },
+    {
+     "no": 3,
+     "book": "Lemke T.L., Williams D.A., Roche V.F. and Zito S.W., Foye's Principles of Medicinal Chemistry, Lippincott Williams and Wilkins."
+    },
+    {
+     "no": 4,
+     "book": "Vardanyan R.S. and Hruby V.J., Synthesis of Essential Drugs, Elsevier."
+    },
+    {
+     "no": 5,
+     "book": "Singh H. and Kapoor V.K., Medicinal and Pharmaceutical Chemistry, Vallabh Prakashan, Delhi."
+    },
+    {
+     "no": 6,
+     "book": "Nogrady  T.,  Medicinal  Chemistry:  A  Biochemical  Approach,  Oxford  University  Press, NewYork."
+    },
+    {
+     "no": 7,
+     "book": "Silverman R.B., The Organic Chemistry of Drug Design and Drug Action, Elsevier."
+    },
+    {
+     "no": 8,
+     "book": "Korolkovas A., Essentials of Medicinal Chemistry, John Wiley and Sons Inc., New York."
+    },
+    {
+     "no": 9,
+     "book": "Larsen P.K., Liljefors T. and Madsen U. Textbook of Drug Design and Discovery, Taylor and Francis Inc."
+    },
+    {
+     "no": 10,
+     "book": "Mann F.G. and Saunders B.C., Practical Organic Chemistry, Orient Longman Limited."
+    },
+    {
+     "no": 11,
+     "book": "Furniss  B.S.,  Hannaford A.J.,  Smith  P.W.G.  and  Tatchell  A.  R.,  Vogel’s  Textbook  of Practical Organic Chemistry, Dorling Kindersley (India) Pvt. Ltd. (Pearson Education Ltd.)."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Synthesis of Phenytoin."
+    },
+    {
+     "no": 2,
+     "exp": "To evaluate the Pharmacopoeial standards of Phenytoin."
+    },
+    {
+     "no": 3,
+     "exp": "Synthesis of Benzocaine."
+    },
+    {
+     "no": 4,
+     "exp": "To evaluate Pharmacopoeial standards of Benzocaine."
+    },
+    {
+     "no": 5,
+     "exp": "Synthesis of Benzamide."
+    },
+    {
+     "no": 6,
+     "exp": "To evaluate the synthesized Benzamide."
+    },
+    {
+     "no": 7,
+     "exp": "Synthesis of Caffeine."
+    },
+    {
+     "no": 8,
+     "exp": "To evaluate the synthesized Caffeine."
+    },
+    {
+     "no": 9,
+     "exp": "Synthesis of Phenobarbitone."
+    },
+    {
+     "no": 10,
+     "exp": "To evaluate the Pharmacopoeial standards of Phenobarbitone."
+    },
+    {
+     "no": 11,
+     "exp": "Synthesis of Thiobarbituric acid derivatives."
+    },
+    {
+     "no": 12,
+     "exp": "To evaluate the synthesized Thiobarbituric acid derivatives."
+    },
+    {
+     "no": 13,
+     "exp": "Synthesis of Piperazin-2, 5-dione derivatives."
+    },
+    {
+     "no": 14,
+     "exp": "To evaluate the synthesized Piperazin-2,5-dione derivatives."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Item 13 prints 'Piperazin-2, 5-dione derivatives' with space after comma; item 14 prints 'Piperazin-2,5-dione derivatives' without space.",
+    "Header wraps across lines: 'PHARMACEUTICAL CHEMISTRY-VI' / '(MEDICINAL CHEMISTRY-I) PRACTICAL'",
+    "Introductory paragraph before experiments: 'Synthesis of selected drugs from the course content involving two or more steps and characterize/evaluate their Pharmacopoeial standards (if available).'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Pharmaceutics-VI (Pharmaceutical Technology-I)",
+   "name_print": "PHARMACEUTICS-VI\n(PHARMACEUTICAL TECHNOLOGY-I)",
+   "codes": [
+    "RPH-522"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Preformulation studies: Significance of physical form, particle size, shape, density, wetting, \ndielectric constant, solubility, dissolution and stability on formulation development. Brief \nintroduction to ICH guidelines for stability.",
+    "2": "Biphasic liquid dosage forms (suspensions and emulsions): Vehicles, additives, stabilizers, \npreservatives,  suspending  agents,  emulsifying  agents,   colors  and   flavors;  manufacturing, \npackaging and evaluation. Brief introduction to multiple emulsion, microemulsion, nanoemulsion \nand nanosuspension.",
+    "3": "Semisolid dosage forms: Classification, skin permeation enhancement methods, semisolid bases \nand their selection, general formulation of semisolids and clear gel manufacturing procedures, \npackaging and evaluation. Introduction to in situ gels and hydrogels. \nSuppositories: Bases, manufacturing procedures, packaging and evaluation. Introduction to liquid \nsuppositories.",
+    "4": "Ophthalmic, nasal, otic and parenteral products: Significance and formulation details, \nequipment for large scale manufacturing, in-vitro methods of evaluation, containers and closures, \nprefilling treatments. Ophthalmic, nasal, otic and parenteral preparations (Sterile water for \ninjection, water for injection, suspension and sterile powder).",
+    "5": "Pharmaceutical   aerosols:   Definition,   propellants,   general   formulation,   manufacturing, \npackaging, evaluation and pharmaceutical applications. \nVeterinary dosage forms: Animal dosage forms like solid, liquid oral, parenteral, pastes, pellets \nand implants; regulatory requirements for approval of animal drugs."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Remington’s Pharmaceutical Sciences, Vol. I & Vol. II, Mack Publishing Co., U.S.A."
+    },
+    {
+     "no": 2,
+     "book": "Cooper J.W. and Gunn G., Tutorial Pharmacy, Petman Books Ltd., London."
+    },
+    {
+     "no": 3,
+     "book": "Lachman L., Lieberman H.A, Kanig J.L., Theory and Practice of Industrial Pharmacy, Lea & \nFebiger, Philadelphia, U.S.A."
+    },
+    {
+     "no": 4,
+     "book": "Khar R.  K.,  Vyas  S.P.,  Ahmad  F.,    Jain  G.  K.,  The  Theory and  Practice  of  Industrial \nPharmacy, 4th Edition, CBS Publishers and Distributors."
+    },
+    {
+     "no": 5,
+     "book": "Ansel, H.C., Introduction to Pharmaceutical Dosage Forms, Lea and Febiger, Philadelphia, \nU.S.A."
+    },
+    {
+     "no": 6,
+     "book": "Juliano, R.L., Drug Delivery Systems, Oxford University Press, Oxford."
+    },
+    {
+     "no": 7,
+     "book": "Brittain, H. G., Polymorphism in Pharmaceuticals Solids."
+    },
+    {
+     "no": 8,
+     "book": "Turco S. J., Sterile Dosage Form-Their Preparation and Clinical Application, LWW."
+    },
+    {
+     "no": 9,
+     "book": "Hardee G.E., Baggot J.D., Development and Formulation of Veterinary Dosage Forms, 2nd \nEdition, CRC Press."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "a.   Suspensions."
+    },
+    {
+     "no": 2,
+     "exp": "b.  Emulsions."
+    },
+    {
+     "no": 3,
+     "exp": "c.   Ear drops."
+    },
+    {
+     "no": 4,
+     "exp": "d.  Eye drops."
+    },
+    {
+     "no": 5,
+     "exp": "e.   Nasal drops."
+    },
+    {
+     "no": 6,
+     "exp": "f.   Topical gels."
+    },
+    {
+     "no": 7,
+     "exp": "g.   Ointments."
+    },
+    {
+     "no": 8,
+     "exp": "h.  Pastes."
+    },
+    {
+     "no": 9,
+     "exp": "i.   Suppositories."
+    },
+    {
+     "no": 10,
+     "exp": "2.  Formulation and evaluation of disodium EDTA injection IP (vials)."
+    },
+    {
+     "no": 11,
+     "exp": "3.  Formulation and evaluation of water for infection IP (ampoules)."
+    },
+    {
+     "no": 12,
+     "exp": "4.  To perform tip or bead and pull sealing of ampoules."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Practical list uses letters a-i for the first set of items, then numbered items 2-4 (no item numbered 1).",
+    "Printed 'water for infection IP' (likely typo for 'water for injection IP').",
+    "Unit IV contains 'prefilling treatments' as printed.",
+    "Subject name printed in uppercase with a line break between the main title and parenthetical subtitle."
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHARMACEUTICS-VI (PHARMACEUTICAL TECHNOLOGY-I) PRACTICAL",
+   "name_print": "PHARMACEUTICS-VI \n(PHARMACEUTICAL TECHNOLOGY-I) PRACTICAL",
+   "codes": [
+    "RPH-522P"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Remington’s Pharmaceutical Sciences, Vol. I & Vol. II, Mack Publishing Co., U.S.A."
+    },
+    {
+     "no": 2,
+     "book": "Cooper J.W. and Gunn G., Tutorial Pharmacy, Petman Books Ltd., London."
+    },
+    {
+     "no": 3,
+     "book": "Lachman L., Lieberman H.A, Kanig J.L., Theory and Practice of Industrial Pharmacy, Lea & Febiger, Philadelphia, U.S.A."
+    },
+    {
+     "no": 4,
+     "book": "Khar R.  K.,  Vyas  S.P.,  Ahmad  F.,    Jain  G.  K.,  The  Theory and  Practice  of  Industrial Pharmacy, 4th Edition, CBS Publishers and Distributors."
+    },
+    {
+     "no": 5,
+     "book": "Ansel, H.C., Introduction to Pharmaceutical Dosage Forms, Lea and Febiger, Philadelphia, U.S.A."
+    },
+    {
+     "no": 6,
+     "book": "Juliano, R.L., Drug Delivery Systems, Oxford University Press, Oxford."
+    },
+    {
+     "no": 7,
+     "book": "Brittain, H. G., Polymorphism in Pharmaceuticals Solids."
+    },
+    {
+     "no": 8,
+     "book": "Turco S. J., Sterile Dosage Form-Their Preparation and Clinical Application, LWW."
+    },
+    {
+     "no": 9,
+     "book": "Hardee G.E., Baggot J.D., Development and Formulation of Veterinary Dosage Forms, 2nd Edition, CRC Press."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Formulation and evaluation of the following dosage forms containing drugs mentioned in IP. \na.   Suspensions. \nb.  Emulsions.  \nc.   Ear drops.  \nd.  Eye drops. \ne.   Nasal drops.  \nf.   Topical gels.  \ng.   Ointments. \nh.  Pastes. \ni.   Suppositories."
+    },
+    {
+     "no": 2,
+     "exp": "Formulation and evaluation of disodium EDTA injection IP (vials)."
+    },
+    {
+     "no": 3,
+     "exp": "Formulation and evaluation of water for infection IP (ampoules)."
+    },
+    {
+     "no": 4,
+     "exp": "To perform tip or bead and pull sealing of ampoules."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Numbering inconsistency: first experiment uses lettered sub-items (a-i), then subsequent experiments are numbered 2, 3, 4 (skipping 1)",
+    "Printed typo: 'water for infection IP' (should likely be 'water for injection IP')",
+    "Superscript ordinal '2nd' in book 9 is split across lines"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHARMACEUTICS-VII (PHARMACEUTICAL & FOOD MICROBIOLOGY)",
+   "name_print": "PHARMACEUTICS-VII (PHARMACEUTICAL & FOOD MICROBIOLOGY)",
+   "codes": [
+    "RPH-523",
+    "RPH-623"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "A.  Introduction to scope of food and pharmaceutical microbiology. B.  Optical microscopy and \nelectron microscopy. \nC.  Identification of microbes: Structure of bacterial cell, stains and types of staining techniques. \nD.  Classification of bacteria based on temperature, pH and oxygen requirements.",
+    "2": "A.  Nutrition, cultivation and isolation of bacteria and viruses. \nB.  Factory and hospital hygiene- control of microbial contamination during manufacture, concept \nand design of clean and aseptic areas, nosocomial infections and their control.",
+    "3": "Control of microbes \nA.  Disinfection, factors influencing disinfectants, dynamics of disinfection, disinfectants and \nantiseptics and their evaluation. \nB.  Methods of sterilization, validation of sterilization methods and equipments.",
+    "4": "Food Microbiology \nA.  Microbial flora of fresh food: egg, meat, fruits and vegetables.  \nB.  Microbial spoilage of foods. \nC.  Elementary techniques of industrial food preservation-radiation, low and high temperatures. \nD.  Probiotics in food: Benefits of probiotic foods, brief introduction to probiotic milk, yogurt and \nice-cream.",
+    "5": "A.  Sterility testing as per I.P.  \nB.  Preservative efficacy. \nC.  Microbial assays of antibiotics: Oxytetracycline and Erythromycin. \nD.  Microbial assays of Vitamin B12."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Aneja K.R., Experiments in Microbiology, Plant Pathology, Tissue Culture & Mushroom \nCultivation, Vishwa Prakashan."
+    },
+    {
+     "no": 2,
+     "book": "Gunasekaran P., Lab Mannual of Microbiology, New Age Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Davis, Dulbetco, Eisen Microbiology."
+    },
+    {
+     "no": 4,
+     "book": "Stanier R.Y., Ingraham, J.L., Wheelis M.L., Painter P.R. General Microbiology, Macmillan \nPress Limited."
+    },
+    {
+     "no": 5,
+     "book": "Hugo and Russell, Pharmaceutical Microbiology, Black Well Scientific Publication, Oxford."
+    },
+    {
+     "no": 6,
+     "book": "Prescott L.M., Harley J.P. and Klien D.A., Microbiology, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Sykes G., Disinfection and Sterilization: Theory and Practice, General and Industrial \nChemistry Seris, Spon."
+    },
+    {
+     "no": 8,
+     "book": "Pelczar and Reid, Microbiology, Tata McGraw Hill, Delhi."
+    },
+    {
+     "no": 9,
+     "book": "Bean H. S., Beckett A. H. and Carless J. E., Advances in Pharmaceutical Sciences. Vol. 1. \nAcademic Press Inc. Elsevier."
+    },
+    {
+     "no": 10,
+     "book": "Virella G. Microbiology and Infectious Diseases, William & Wilkins."
+    },
+    {
+     "no": 11,
+     "book": "Ananthanarayan R., Paniker C.K.J., Textbook of Microbiology, Orient Longman."
+    },
+    {
+     "no": 12,
+     "book": "Fundamental Food Microbiology, Bibek Ray, Arun Bhunia, CRC Press."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of sterilization methods and equipments \n• Dry heat \n• Moist heat."
+    },
+    {
+     "no": 2,
+     "exp": "Preparation of various types of culture media."
+    },
+    {
+     "no": 3,
+     "exp": "Isolation of bacteria."
+    },
+    {
+     "no": 4,
+     "exp": "Sub-culturing of common bacteria, fungi and yeast."
+    },
+    {
+     "no": 5,
+     "exp": "Identification and staining of bacteria \n• Simple staining \n• Gram staining \n• Acid fast staining \n• Hanging drop preparation."
+    },
+    {
+     "no": 6,
+     "exp": "Microbial examination of foods."
+    },
+    {
+     "no": 7,
+     "exp": "Evaluation of disinfectants and antiseptics."
+    },
+    {
+     "no": 8,
+     "exp": "Phenol coefficient test, minimum inhibitory concentration."
+    },
+    {
+     "no": 9,
+     "exp": "Test for sterility of pharmaceutical products as per IP."
+    },
+    {
+     "no": 10,
+     "exp": "Microbial assay of antibiotics as per IP."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Detail page header combines codes as 'RPH-523/RPH-623'",
+    "Scheme table (page 1) pairs RPH-523 with RPH-530 for 5th semester; page 2 pairs RPH-630 with RPH-623 for 6th semester",
+    "Textbook 9 continues on next page: 'Academic Press Inc. Elsevier.'",
+    "Experiment list item 1 has sub-bullets (Dry heat, Moist heat), numbering then continues from 2",
+    "Practical header on page 10 shows 'RPH-523P/RPH-623P'"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHARMACEUTICS-VII (PHARMACEUTICAL & FOOD MICROBIOLOGY)",
+   "name_print": "PHARMACEUTICS-VII (PHARMACEUTICAL & FOOD MICROBIOLOGY)",
+   "codes": [
+    "RPH-523",
+    "RPH-623"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "A.  Introduction to scope of food and pharmaceutical microbiology. B.  Optical microscopy and \nelectron microscopy. \nC.  Identification of microbes: Structure of bacterial cell, stains and types of staining techniques. \nD.  Classification of bacteria based on temperature, pH and oxygen requirements.",
+    "2": "A.  Nutrition, cultivation and isolation of bacteria and viruses. \nB.  Factory and hospital hygiene- control of microbial contamination during manufacture, concept \nand design of clean and aseptic areas, nosocomial infections and their control.",
+    "3": "Control of microbes \nA.  Disinfection, factors influencing disinfectants, dynamics of disinfection, disinfectants and \nantiseptics and their evaluation. \nB.  Methods of sterilization, validation of sterilization methods and equipments.",
+    "4": "Food Microbiology \nA.  Microbial flora of fresh food: egg, meat, fruits and vegetables.  \nB.  Microbial spoilage of foods. \nC.  Elementary techniques of industrial food preservation-radiation, low and high temperatures. \nD.  Probiotics in food: Benefits of probiotic foods, brief introduction to probiotic milk, yogurt and \nice-cream.",
+    "5": "A.  Sterility testing as per I.P.  \nB.  Preservative efficacy. \nC.  Microbial assays of antibiotics: Oxytetracycline and Erythromycin. \nD.  Microbial assays of Vitamin B12."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Aneja K.R., Experiments in Microbiology, Plant Pathology, Tissue Culture & Mushroom Cultivation, Vishwa Prakashan."
+    },
+    {
+     "no": 2,
+     "book": "Gunasekaran P., Lab Mannual of Microbiology, New Age Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Davis, Dulbetco, Eisen Microbiology."
+    },
+    {
+     "no": 4,
+     "book": "Stanier R.Y., Ingraham, J.L., Wheelis M.L., Painter P.R. General Microbiology, Macmillan Press Limited."
+    },
+    {
+     "no": 5,
+     "book": "Hugo and Russell, Pharmaceutical Microbiology, Black Well Scientific Publication, Oxford."
+    },
+    {
+     "no": 6,
+     "book": "Prescott L.M., Harley J.P. and Klien D.A., Microbiology, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Sykes G., Disinfection and Sterilization: Theory and Practice, General and Industrial Chemistry Seris, Spon."
+    },
+    {
+     "no": 8,
+     "book": "Pelczar and Reid, Microbiology, Tata McGraw Hill, Delhi."
+    },
+    {
+     "no": 9,
+     "book": "Bean H. S., Beckett A. H. and Carless J. E., Advances in Pharmaceutical Sciences. Vol. 1. Academic Press Inc. Elsevier."
+    },
+    {
+     "no": 10,
+     "book": "Virella G. Microbiology and Infectious Diseases, William & Wilkins."
+    },
+    {
+     "no": 11,
+     "book": "Ananthanarayan R., Paniker C.K.J., Textbook of Microbiology, Orient Longman."
+    },
+    {
+     "no": 12,
+     "book": "Fundamental Food Microbiology, Bibek Ray, Arun Bhunia, CRC Press."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of sterilization methods and equipments \n• Dry heat \n• Moist heat."
+    },
+    {
+     "no": 2,
+     "exp": "Preparation of various types of culture media."
+    },
+    {
+     "no": 3,
+     "exp": "Isolation of bacteria."
+    },
+    {
+     "no": 4,
+     "exp": "Sub-culturing of common bacteria, fungi and yeast."
+    },
+    {
+     "no": 5,
+     "exp": "Identification and staining of bacteria \n• Simple staining \n• Gram staining \n• Acid fast staining \n• Hanging drop preparation."
+    },
+    {
+     "no": 6,
+     "exp": "Microbial examination of foods."
+    },
+    {
+     "no": 7,
+     "exp": "Evaluation of disinfectants and antiseptics."
+    },
+    {
+     "no": 8,
+     "exp": "Phenol coefficient test, minimum inhibitory concentration."
+    },
+    {
+     "no": 9,
+     "exp": "Test for sterility of pharmaceutical products as per IP."
+    },
+    {
+     "no": 10,
+     "exp": "Microbial assay of antibiotics as per IP."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Detail page header prints both codes 'RPH-523/RPH-623' (subject shared across 5th and 6th semesters)",
+    "Experiment 1 is unnumbered ('Study of sterilization methods and equipments') with sub-bullets, while experiments 2-10 are numbered",
+    "Book 9 on page 10 ends mid-entry and continues on page 11 ('Academic Press Inc. Elsevier.')",
+    "'Lab Mannual' printed (likely typo for 'Lab Manual')",
+    "'Seris' printed (likely typo for 'Series')",
+    "'Dulbetco' printed (likely typo for 'Dulbecco')",
+    "'Klien' printed (likely typo for 'Klein')"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHARMACEUTICS-VII (PHARMACEUTICAL & FOOD MICROBIOLOGY) PRACTICAL",
+   "name_print": "PHARMACEUTICS-VII (PHARMACEUTICAL & FOOD MICROBIOLOGY)\nPRACTICAL",
+   "codes": [
+    "RPH-523P",
+    "RPH-623P"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Aneja K.R., Experiments in Microbiology, Plant Pathology, Tissue Culture & Mushroom Cultivation, Vishwa Prakashan."
+    },
+    {
+     "no": 2,
+     "book": "Gunasekaran P., Lab Mannual of Microbiology, New Age Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Davis, Dulbetco, Eisen Microbiology."
+    },
+    {
+     "no": 4,
+     "book": "Stanier R.Y., Ingraham, J.L., Wheelis M.L., Painter P.R. General Microbiology, Macmillan Press Limited."
+    },
+    {
+     "no": 5,
+     "book": "Hugo and Russell, Pharmaceutical Microbiology, Black Well Scientific Publication, Oxford."
+    },
+    {
+     "no": 6,
+     "book": "Prescott L.M., Harley J.P. and Klien D.A., Microbiology, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Sykes G., Disinfection and Sterilization: Theory and Practice, General and Industrial Chemistry Seris, Spon."
+    },
+    {
+     "no": 8,
+     "book": "Pelczar and Reid, Microbiology, Tata McGraw Hill, Delhi."
+    },
+    {
+     "no": 9,
+     "book": "Bean H. S., Beckett A. H. and Carless J. E., Advances in Pharmaceutical Sciences. Vol. 1.\nAcademic Press Inc. Elsevier."
+    },
+    {
+     "no": 10,
+     "book": "Virella G. Microbiology and Infectious Diseases, William & Wilkins."
+    },
+    {
+     "no": 11,
+     "book": "Ananthanarayan R., Paniker C.K.J., Textbook of Microbiology, Orient Longman."
+    },
+    {
+     "no": 12,
+     "book": "Fundamental Food Microbiology, Bibek Ray, Arun Bhunia, CRC Press."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of sterilization methods and equipments\n• Dry heat\n• Moist heat."
+    },
+    {
+     "no": 2,
+     "exp": "Preparation of various types of culture media."
+    },
+    {
+     "no": 3,
+     "exp": "Isolation of bacteria."
+    },
+    {
+     "no": 4,
+     "exp": "Sub-culturing of common bacteria, fungi and yeast."
+    },
+    {
+     "no": 5,
+     "exp": "Identification and staining of bacteria\n• Simple staining\n• Gram staining\n• Acid fast staining\n• Hanging drop preparation."
+    },
+    {
+     "no": 6,
+     "exp": "Microbial examination of foods."
+    },
+    {
+     "no": 7,
+     "exp": "Evaluation of disinfectants and antiseptics."
+    },
+    {
+     "no": 8,
+     "exp": "Phenol coefficient test, minimum inhibitory concentration."
+    },
+    {
+     "no": 9,
+     "exp": "Test for sterility of pharmaceutical products as per IP."
+    },
+    {
+     "no": 10,
+     "exp": "Microbial assay of antibiotics as per IP."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Header on detail page shows RPH-523P/RPH-623P while scheme table shows RPH-523P/RPH-530P",
+    "First experiment lacks a number; subsequent items are numbered 2-10",
+    "Book 9 is split across pages"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHARMACEUTICS-VII (PHARMACEUTICAL & FOOD MICROBIOLOGY) PRACTICAL",
+   "name_print": "PHARMACEUTICS-VII (PHARMACEUTICAL & FOOD MICROBIOLOGY) \nPRACTICAL",
+   "codes": [
+    "RPH-523P",
+    "RPH-623P"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Aneja K.R., Experiments in Microbiology, Plant Pathology, Tissue Culture & Mushroom Cultivation, Vishwa Prakashan."
+    },
+    {
+     "no": 2,
+     "book": "Gunasekaran P., Lab Mannual of Microbiology, New Age Publishers."
+    },
+    {
+     "no": 3,
+     "book": "Davis, Dulbetco, Eisen Microbiology."
+    },
+    {
+     "no": 4,
+     "book": "Stanier R.Y., Ingraham, J.L., Wheelis M.L., Painter P.R. General Microbiology, Macmillan Press Limited."
+    },
+    {
+     "no": 5,
+     "book": "Hugo and Russell, Pharmaceutical Microbiology, Black Well Scientific Publication, Oxford."
+    },
+    {
+     "no": 6,
+     "book": "Prescott L.M., Harley J.P. and Klien D.A., Microbiology, McGraw Hill."
+    },
+    {
+     "no": 7,
+     "book": "Sykes G., Disinfection and Sterilization: Theory and Practice, General and Industrial Chemistry Seris, Spon."
+    },
+    {
+     "no": 8,
+     "book": "Pelczar and Reid, Microbiology, Tata McGraw Hill, Delhi."
+    },
+    {
+     "no": 9,
+     "book": "Bean H. S., Beckett A. H. and Carless J. E., Advances in Pharmaceutical Sciences. Vol. 1. Academic Press Inc. Elsevier."
+    },
+    {
+     "no": 10,
+     "book": "Virella G. Microbiology and Infectious Diseases, William & Wilkins."
+    },
+    {
+     "no": 11,
+     "book": "Ananthanarayan R., Paniker C.K.J., Textbook of Microbiology, Orient Longman."
+    },
+    {
+     "no": 12,
+     "book": "Fundamental Food Microbiology, Bibek Ray, Arun Bhunia, CRC Press."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Study of sterilization methods and equipments \n• Dry heat \n• Moist heat."
+    },
+    {
+     "no": 2,
+     "exp": "Preparation of various types of culture media."
+    },
+    {
+     "no": 3,
+     "exp": "Isolation of bacteria."
+    },
+    {
+     "no": 4,
+     "exp": "Sub-culturing of common bacteria, fungi and yeast."
+    },
+    {
+     "no": 5,
+     "exp": "Identification and staining of bacteria \n• Simple staining \n• Gram staining \n• Acid fast staining \n• Hanging drop preparation."
+    },
+    {
+     "no": 6,
+     "exp": "Microbial examination of foods."
+    },
+    {
+     "no": 7,
+     "exp": "Evaluation of disinfectants and antiseptics."
+    },
+    {
+     "no": 8,
+     "exp": "Phenol coefficient test, minimum inhibitory concentration."
+    },
+    {
+     "no": 9,
+     "exp": "Test for sterility of pharmaceutical products as per IP."
+    },
+    {
+     "no": 10,
+     "exp": "Microbial assay of antibiotics as per IP."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "First practical item lacks numbering; list begins with 'Study of sterilization methods and equipments' without '1.'",
+    "Practical numbering jumps from unnumbered first item to 2",
+    "Code printed as 'RPH-523P/RPH-623P' on detail page",
+    "Subject name split across two lines in print",
+    "Reference book 9 continues across page break from page 10 to page 11"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHARMACOLOGY-I (PHARMACOLOGY & TOXICOLOGY)",
+   "name_print": "PHARMACOLOGY-I (PHARMACOLOGY & TOXICOLOGY)",
+   "codes": [
+    "RPH-524"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "A. General Pharmacology: Introduction to pharmacology, routes of drug administration, \ncombined effect of drugs, factors modifying drug action. Discovery and development of new \ndrugs. Bioassay of drugs. \nB. Basic Concepts of Pharmacokinetics and Pharmacodynamics: Absorption, distribution, \nmetabolism and excretion. Principles of drug action, mechanisms of drug action, receptors.",
+    "2": "Pharmacology of ANS: Drug acting on autonomic nervous system: \nA. Cholinergic system: Parasympathomimetic (cholinergic) drugs, parasympatholytic (anti- \ncholinergic) drugs, drug acting on autonomic ganglia (stimulants and blocking agents). \nB.  Adrenergic system: Sympathomimetic (adrenergic) drugs, sympatholytic (anti-adrenergic) \ndrugs.",
+    "3": "Drugs acting on PNS: Local anesthetics, skeletal muscle relaxants (peripherally and centrally \nacting muscle relaxants).",
+    "4": "Pharmacology of CNS: General anaesthetics, alcohols and disulfiram, sedative and hypnotics. \nantiepileptic drugs, drugs for neurodegenerative diseases, opioid analgesics and their antagonists. \nPsychopharmacological Agents: Anti anxiety agents, antipsychotics, antidepressants.",
+    "5": "Principles of Toxicology: Definition of poison, general principles for treatment of poisoning with \nparticular reference to barbiturates, opioids, organophosphorous and atropine poisoning. Heavy \nmetal antagonists."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Katzung B.G., Basic and Clinical Pharmacology, Prentice Hall, International"
+    },
+    {
+     "no": 2,
+     "book": "Barar F.S.K., Text Book of Pharmacology, Interprint, New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Rang M.P., Dale, M.M., Riter J.M., Pharmacology, Churchill Livingstone."
+    },
+    {
+     "no": 4,
+     "book": "Tripathi K.D., Essentials of Medical Pharmacology, Jay Pee Publishers, New Delhi."
+    },
+    {
+     "no": 5,
+     "book": "Satoskar and Bhandarkar, Pharmacology and Pharmacotherapeutics, Popular Prakashan Pvt. \nLtd., Bombay."
+    },
+    {
+     "no": 6,
+     "book": "Kulkarni S.K., Hand Book of Experimental Pharmacology, Vallabh Prakashan, Delhi."
+    },
+    {
+     "no": 7,
+     "book": "Bothra S.B.; Essentials of Experimental Pharmacology, Vol. 1, General Concepts, PharmaMed \nPress."
+    },
+    {
+     "no": 8,
+     "book": "Ghosh,  M.N.;  Fundamentals  of  Experimental  Pharmacology,  Scientific  Book  Agency, \nCalcutta."
+    },
+    {
+     "no": 9,
+     "book": "Grover J.K., Experiments in Pharmacy and Pharmacology, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 10,
+     "book": "Goodman & Gilman’s, The Pharmacological Basis of Therapeutics, Ed; Brunton L., Lazo \nJ., Parker K., McGraw Hill Professional."
+    },
+    {
+     "no": 11,
+     "book": "Laurence, D.R. and Bannet P.N., Clinical Pharmacology, Churchill Livingstone."
+    },
+    {
+     "no": 12,
+     "book": "Craig C.R. and Stitzel, R.R., Modern Pharmacology, 4th Edition, Little Brown and Co."
+    },
+    {
+     "no": 13,
+     "book": "Sheffield Bioscience Programs, U.K., ISBN, 1-874758-02-6."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Use of computer simulated (CDs or video cassettes) for pharmacology practical where \npossible."
+    },
+    {
+     "no": 2,
+     "exp": "Preparation of different solutions for experiments. Drug dilutions, use of molar and w/v \nsolutions in experimental pharmacology. Common laboratory animals and anesthetics used in \nanimal studies. Commonly used instruments in experimental pharmacology. Some common \nand standard techniques."
+    },
+    {
+     "no": 3,
+     "exp": "Study of different routes of administration of drugs in mice/rats."
+    },
+    {
+     "no": 4,
+     "exp": "To study the effect of hepatic microsomal enzyme inhibitors and induction on the \npentobarbitone sleeping time in mice, using software alternative to use of animals."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Subject name printed in different casing: scheme table shows 'Pharmacology-I (Pharmacology & Toxicology)', detail page shows 'PHARMACOLOGY-I (PHARMACOLOGY & TOXICOLOGY)'",
+    "Book list items 7 and 8 use semicolons instead of commas after author names",
+    "Book item 13 references Sheffield Bioscience Programs (software) rather than a textbook",
+    "Scheme table splits subject name across two lines",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "PHARMACOLOGY-I (PHARMACOLOGY & TOXICOLOGY) PRACTICAL",
+   "name_print": "PHARMACOLOGY-I\n(PHARMACOLOGY & TOXICOLOGY) PRACTICAL",
+   "codes": [
+    "RPH-524P"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Katzung B.G., Basic and Clinical Pharmacology, Prentice Hall, International"
+    },
+    {
+     "no": 2,
+     "book": "Barar F.S.K., Text Book of Pharmacology, Interprint, New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Rang M.P., Dale, M.M., Riter J.M., Pharmacology, Churchill Livingstone."
+    },
+    {
+     "no": 4,
+     "book": "Tripathi K.D., Essentials of Medical Pharmacology, Jay Pee Publishers, New Delhi."
+    },
+    {
+     "no": 5,
+     "book": "Satoskar and Bhandarkar, Pharmacology and Pharmacotherapeutics, Popular Prakashan Pvt. Ltd., Bombay."
+    },
+    {
+     "no": 6,
+     "book": "Kulkarni S.K., Hand Book of Experimental Pharmacology, Vallabh Prakashan, Delhi."
+    },
+    {
+     "no": 7,
+     "book": "Bothra S.B.; Essentials of Experimental Pharmacology, Vol. 1, General Concepts, PharmaMed Press."
+    },
+    {
+     "no": 8,
+     "book": "Ghosh, M.N.; Fundamentals of Experimental Pharmacology, Scientific Book Agency, Calcutta."
+    },
+    {
+     "no": 9,
+     "book": "Grover J.K., Experiments in Pharmacy and Pharmacology, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 10,
+     "book": "Goodman & Gilman’s, The Pharmacological Basis of Therapeutics, Ed; Brunton L., Lazo J., Parker K., McGraw Hill Professional."
+    },
+    {
+     "no": 11,
+     "book": "Laurence, D.R. and Bannet P.N., Clinical Pharmacology, Churchill Livingstone."
+    },
+    {
+     "no": 12,
+     "book": "Craig C.R. and Stitzel, R.R., Modern Pharmacology, 4th Edition, Little Brown and Co."
+    },
+    {
+     "no": 13,
+     "book": "Sheffield Bioscience Programs, U.K., ISBN, 1-874758-02-6."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Use of computer simulated (CDs or video cassettes) for pharmacology practical where possible."
+    },
+    {
+     "no": 2,
+     "exp": "Preparation of different solutions for experiments. Drug dilutions, use of molar and w/v solutions in experimental pharmacology. Common laboratory animals and anesthetics used in animal studies. Commonly used instruments in experimental pharmacology. Some common and standard techniques."
+    },
+    {
+     "no": 3,
+     "exp": "Study of different routes of administration of drugs in mice/rats."
+    },
+    {
+     "no": 4,
+     "exp": "To study the effect of hepatic microsomal enzyme inhibitors and induction on the pentobarbitone sleeping time in mice, using software alternative to use of animals."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Scheme table row serial number is '9.' for this subject",
+    "Subject name appears in title case in scheme table ('Pharmacology-I (Pharmacology & Toxicology) Practical') vs all-caps on detail page",
+    "No units printed for this practical; only 'Suggested Practicals' section",
+    "Book list items 12 and 13 appear on separate line after item 11 with extra blank line"
+   ],
+   "flags": []
+  },
+  {
+   "name": "ENVIRONMENT & ECOLOGY",
+   "name_print": "ENVIRONMENT & ECOLOGY",
+   "codes": [
+    "RPH-525",
+    "RPH625"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Environment studies: Definition, scope and importance. Natural resources-renewable and non \nrenewable, utilization, exploitation and associated problems of forests. Water resources, mineral \nresources, food resources, energy resources, land resources, equitable use of resources for \nsustainable life style, role of an individual in conservation.",
+    "2": "Components of  ecosystem.  Green  house  gases  and  green  house  effect.  Biodiversity and its \nconservation with special reference to India.",
+    "3": "Environmental pollution: Introduction, causes and control measures of air, water, soil, marine, \nnoise, thermal, nuclear pollutions.",
+    "4": "Law related to environmental protection: Air (Prevention and Control of pollution) Act-1987, \nWater prevention and Control of Pollution Act-1974.",
+    "5": "Environmental Protection Act -1986, Noise Pollution Act, Hazardous Wastes Act, Hazardous \nChemicals Act, Hazardous Microorganisms Act, Biomedical Waste Act, Provisions applicable to \nDrugs and Cosmetic Act."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Manoharachary C., Reddy P.J., Principles of Environmental Studies, BS Publications, \nHyderabad."
+    },
+    {
+     "no": 2,
+     "book": "Trivedy R.K., Handbook of Environmental Laws, Acts, Guidelines, Compliances and \nStandards, Vol. I and II, Pharma Book Syndicate, Hyderabad."
+    },
+    {
+     "no": 3,
+     "book": "Relevant Acts and Rules Published by Government of India with latest amendments."
+    },
+    {
+     "no": 4,
+     "book": "Reddy M.A., Text book of Environmental Science and Technology, BS Publications, \nHyderabad."
+    },
+    {
+     "no": 5,
+     "book": "Sinha S., Shukla M., Siddiqui A., Agrawal N. A., Text book of Environment and Ecology for \nPharmacy Students, AITBS Publishers, Delhi, India."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Detail page header prints 'RPH-525/RPH625' (second code lacks hyphen; scheme table shows 'RPH-525/RPH-531' for combined row)",
+    "Scheme table row 5 combines 'Environment & Ecology/ Professional Communication' under codes RPH-525/RPH-531",
+    "unit 2 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "HOSPITAL TRAINING-I",
+   "name_print": "HOSPITAL TRAINING-I",
+   "codes": [
+    "RPH-526P"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "practical",
+   "units": {
+    "1": "Drug  design:  Basic  concepts  of  drug  design,  introduction  to  analogue  based  drug  design, \nstructure based drug design, introduction to basic concepts of QSAR, molecular descriptors (2D \nand 3D parameters), quantitative models, introduction to 2D and 3D QSAR methodologies.",
+    "2": "Cardiovascular agents \nAntiarrhythmic drugs: Atenolol, Procainamide. Antianginal drugs: Isosorbide dinitrate. \nAntihypertensive drugs: Captopril, Amlodipine. Antihyperlipedmics: Lovastatin, Clofibrate.",
+    "3": "Hypoglycaemics: Insulin, Metformin, Tolbutamide, Glibenclamide, Alogliptin. \nDiuretics: Acetazolamide, Chlorthiazide, Furosemide, Spironolactone. \nThyroid and antithyroids: Carbimazole, Propylthiouracil, Methimazole.",
+    "4": "Non steroidal anti-inflammatory drugs (NSAIDS) and analgesics: Aspirin, Paracetamol, \nIbuprofen, Diclofenac, Mefenamic Acid. \nCoxibs: Celecoxib. \nAnticoagulants: Heparin, Warfarin.",
+    "5": "Antihistaminics: Diphenhydramine, Chlorpheniramine, Ranitidine. \nProton pump inhibitors: Rabeprazole. \nCosmeceuticals: Isotretinoin, Minoxidil, Tazarotene."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Scheme row has no L-T-P values; detail page contains only a brief description without units/COs.",
+    "detail-page slice p.15 re-extraction returned no unit/CO/experiment/book content; print may be a header-only or training row (page image authoritative; RULES §6 evidence class)",
+    "units transcribed byte-verbatim from the printed section at p.15 (b48 print-anchored re-transcription after blank first pass)"
+   ],
+   "flags": [
+    "b48_repair_rex_still_blank",
+    "b48_repair2_units"
+   ]
+  },
+  {
+   "name": "PHARMACEUTICAL CHEMISTRY-VII (MEDICINAL CHEMISTRY-II)",
+   "name_print": "PHARMACEUTICAL CHEMISTRY-VII (MEDICINAL CHEMISTRY-II)",
+   "codes": [
+    "RPH-627"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Drug  design:  Basic  concepts  of  drug  design,  introduction  to  analogue  based  drug  design, \nstructure based drug design, introduction to basic concepts of QSAR, molecular descriptors (2D \nand 3D parameters), quantitative models, introduction to 2D and 3D QSAR methodologies.",
+    "2": "Cardiovascular agents \nAntiarrhythmic drugs: Atenolol, Procainamide. Antianginal drugs: Isosorbide dinitrate. \nAntihypertensive drugs: Captopril, Amlodipine. Antihyperlipedmics: Lovastatin, Clofibrate.",
+    "3": "Hypoglycaemics: Insulin, Metformin, Tolbutamide, Glibenclamide, Alogliptin. \nDiuretics: Acetazolamide, Chlorthiazide, Furosemide, Spironolactone. \nThyroid and antithyroids: Carbimazole, Propylthiouracil, Methimazole.",
+    "4": "Non steroidal anti-inflammatory drugs (NSAIDS) and analgesics: Aspirin, Paracetamol, \nIbuprofen, Diclofenac, Mefenamic Acid. \nCoxibs: Celecoxib. \nAnticoagulants: Heparin, Warfarin.",
+    "5": "Antihistaminics: Diphenhydramine, Chlorpheniramine, Ranitidine. \nProton pump inhibitors: Rabeprazole. \nCosmeceuticals: Isotretinoin, Minoxidil, Tazarotene."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [
+    "Classification, mode of action, uses, recent advances and structure activity relationship of the following classes of drug (Synthetic procedures of individually mentioned drugs only)."
+   ],
+   "prerequisites": null,
+   "quirks": [
+    "Introductory line before Unit I not part of any unit.",
+    "unit 2 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "PHARMACEUTICAL CHEMISTRY-VII (MEDICINAL CHEMISTRY-II) PRACTICAL",
+   "name_print": "PHARMACEUTICAL CHEMISTRY-VII\n(MEDICINAL CHEMISTRY-II) PRACTICAL",
+   "codes": [
+    "RPH-627P"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Lemke T.L., Williams D.A., Roche V.F. and Zito S.W., Foyes Principles of Medicinal\nChemistry, Lippincott Williams and Wilkins."
+    },
+    {
+     "no": 2,
+     "book": "Block J.H.  and  Beale  J.M.,  Wilson and  Gisvold’s Textbook  of  Organic Medicinal and\nPharmaceutical Chemistry, Lippincott Williams and Wilkins."
+    },
+    {
+     "no": 3,
+     "book": "Patrick G.L., An Introduction to Medicinal Chemistry, Oxford University Press."
+    },
+    {
+     "no": 4,
+     "book": "Vardanyan R.S. and Hruby V.J., Synthesis of Essential Drugs, Elsevier."
+    },
+    {
+     "no": 5,
+     "book": "Singh H. and Kapoor V.K., Medicinal and Pharmaceutical Chemistry, Vallabh Prakashan,\nDelhi."
+    },
+    {
+     "no": 6,
+     "book": "Abraham D.J., Burger’s Medicinal Chemistry and Drug Discovery, John Wiley and Sons Inc.,\nNew York."
+    },
+    {
+     "no": 7,
+     "book": "Jie-Jack Li, Douglas, S. Johnson, Dhago R. Sliskovic, Bruce, D. Roth. Contemporary Drug\nSynthesis, John Wiley & Sons Inc."
+    },
+    {
+     "no": 8,
+     "book": "Korolkovas A., Essentials of Medicinal Chemistry, John Wiley and Sons Inc., New York."
+    },
+    {
+     "no": 9,
+     "book": "Pharmacopoeia of India, Ministry of Health, Govt. of India."
+    },
+    {
+     "no": 10,
+     "book": "Lednicer D., The Strategies for Organic Chemistry of Drug Synthesis, John Wiley and Sons\nInc., New York."
+    },
+    {
+     "no": 11,
+     "book": "Burger A., A Guide to the Chemical Basis of Drug Design, A Wiley Interscience Publication\n(John Wiley & Sons), New York."
+    },
+    {
+     "no": 12,
+     "book": "Nogrady  T.,  Medicinal  Chemistry:  A  Biochemical  Approach,  Oxford  University  Press,\nNewYork."
+    },
+    {
+     "no": 13,
+     "book": "Silverman R.B., The Organic Chemistry of Drug Design and Drug Action, Elsevier."
+    },
+    {
+     "no": 14,
+     "book": "Larsen P.K., Liljefors T. and Madsen U. Textbook of Drug Design and Discovery, Taylor\nand Francis Inc."
+    },
+    {
+     "no": 15,
+     "book": "Perun T.J. and Propst C.L., Computer-aided Drug Design Methods and Applications, Saurabh\nPrakashan Pvt.Ltd., New Delhi."
+    },
+    {
+     "no": 16,
+     "book": "Martin Y.C., Quantitative Drug Design: A Critical Introduction, 2nd  Edition, CRC Press,\nLondon."
+    },
+    {
+     "no": 17,
+     "book": "Purcell W.P., Bass G.E., Clayton J.M., Strategy of Drug Design: A Guide to Biological\nActivity, PharmaMed Press."
+    },
+    {
+     "no": 18,
+     "book": "Mann F.G. and Saunders B.C., Practical Organic Chemistry, Orient Longman Limited."
+    },
+    {
+     "no": 19,
+     "book": "Furniss  B.S.,  Hannaford A.J.,  Smith  P.W.G.  and  Tatchell  A.  R.,  Vogel’s  Textbook  of\nPractical Organic Chemistry, Dorling Kindersley (India) Pvt. Ltd. (Pearson Education Ltd.)."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Synthesis of Paracetamol."
+    },
+    {
+     "no": 2,
+     "exp": "To evaluate the Pharmacopoeial standards of Paracetamol."
+    },
+    {
+     "no": 3,
+     "exp": "Synthesis of Anthranilic Acid."
+    },
+    {
+     "no": 4,
+     "exp": "To characterize the synthesized Anthranilic Acid."
+    },
+    {
+     "no": 5,
+     "exp": "Synthesis of antipyrine (2,3-Dimethyl-1-phenyl-pyrazol-5-one)."
+    },
+    {
+     "no": 6,
+     "exp": "To characterize antipyrine (2,3-Dimethyl-1-phenyl-pyrazol-5-one)."
+    },
+    {
+     "no": 7,
+     "exp": "Few experiments based on Green Chemistry Approach."
+    },
+    {
+     "no": 8,
+     "exp": "To study the Cartesian and internal coordinates for small molecules [MOLDEN (freeware \nprogram)]."
+    },
+    {
+     "no": 9,
+     "exp": "To study the architecture of Protein Data Bank (PDB) file."
+    },
+    {
+     "no": 10,
+     "exp": "To study the Hansch and Free Wilson analysis (any free statistical program)."
+    },
+    {
+     "no": 11,
+     "exp": "To study the protein-ligand interaction [AUTODOCK (freeware)]."
+    },
+    {
+     "no": 12,
+     "exp": "To develop and validate a 3D-QSAR model [Open3D-QSAR (freeware program) or any\nother licensed program]."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "The practical page includes an introductory paragraph before the numbered list of suggested practicals.",
+    "The subject name is printed on two lines: 'PHARMACEUTICAL CHEMISTRY-VII' and '(MEDICINAL CHEMISTRY-II) PRACTICAL'.",
+    "The book list is titled 'BOOKS RECOMMENDED' and is treated as reference books.",
+    "Item 8 in experiments has a line break within the text: 'freeware \nprogram]'.",
+    "Item 12 in experiments has a line break: 'any\nother licensed program]'.",
+    "Some book entries contain double spaces (e.g., 'Block J.H.  and  Beale  J.M.')."
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHARMACEUTICS-VIII (PHARMACEUTICAL TECHNOLOGY-II)",
+   "name_print": "PHARMACEUTICS-VIII (PHARMACEUTICAL TECHNOLOGY-II)",
+   "codes": [
+    "RPH-628"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Pharmaceutical polymers: Classification of polymers, synonyms,  storage and pharmaceutical \napplications of Carbomers, Microcrystalline cellulose, Chitosan, Cyclodextrin, Hydroxypropyl \nmethyl cellulose, Polyethylene glycol, Polymethyl methacrylate, Polyvinyl pyrrolidone (PVP), \nPoly(lactic co-glycolic) acid, Poloxamers.",
+    "2": "Tablets: Classification, granulation technology on large-scale, physics of tablets making, different \ntypes of tablet compression machinery and the equipment, evaluation of tablets. \nCoating of tablets: Types of coating, film forming materials, formulation of coating solution, \nequipment for coating process, evaluation of coated tablet.",
+    "3": "Capsules: Advantages and disadvantages of capsule dosage form, material for production of hard \ngelatin capsule, size of capsules, methods of capsule filling. Soft gelatin capsules- preparation and \ncapsule content, importance of base adsorption and minim/gm factors. Quality control, stability \ntesting and storage of capsule dosage form.",
+    "4": "Controlled and sustained release dosage forms: Basic mechanism of sustained and controlled \nrelease, definition, advantages and limitations of liposomes, niosomes, resealed erythrocytes, \ndendrimers, solid lipid nanoparticle (SLN), nano lipid carriers (NLC), implants and transdermal \npatches. \nMicro-particles:  Introduction, polymers, methods  of  preparation  (solvent  evaporation, spray \ndrying, emulsion cross linking method), evaluations (particle size, surface characterizations, Poly \ndispersity index, entrapment and loading, in-vitro release and release kinetics).",
+    "5": "Nanoparticles: Introduction, methods of preparation (emulsion solvent evaporation, double \nemulsion solvent evaporation, coacervation-phase separation technique), evaluation (particle size, \nsurface characterizations, poly dispersity index, entrapment and loading, in-vitro release and \nrelease kinetics). \nPackaging  of  Pharmaceutical  Products:  Packaging  component  types,  specifications  and \nmethods of evaluation, stability aspects of packaging equipments, factors  affecting choice of \ncontainers, legal and other official requirements for containers, package testing."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Remington: The Science and Practice of Pharmacy Pharmaceutical Sciences Vol. I and III, \nMack Publishing Company, U.S.A."
+    },
+    {
+     "no": 2,
+     "book": "Avis R.E., Pharmaceutical Dosage Forms: Parenteral Medication, Vol-I, Marcel Dekker-Inc, \nNew York & Basel."
+    },
+    {
+     "no": 3,
+     "book": "Ansel H.C., Introduction to Pharmaceutical Dosage Forms, Lea &  Febiger, Philadelphia, U.S.A."
+    },
+    {
+     "no": 4,
+     "book": "Khar R.  K.,  Vyas  S.P.,  Ahmad  F.,    Jain  G.  K.,  The  Theory and  Practice  of  Industrial \nPharmacy, 4th Edition, CBS Publishers and Distributors."
+    },
+    {
+     "no": 5,
+     "book": "Juliano R.C., Drug Delivery Systems, Oxford University Press, Oxford."
+    },
+    {
+     "no": 6,
+     "book": "Herbert A., Liebermann, Lachman L., Theory and Practice of Industrial Pharmacy, Lea and \nFebiger, Philadelphia, U.S.A."
+    },
+    {
+     "no": 7,
+     "book": "Potdar M. A., C-GMP for Pharmaceuticals."
+    },
+    {
+     "no": 8,
+     "book": "Dinda S. C., Advances in Pharmaceutical Technology, PharmaMed Press."
+    },
+    {
+     "no": 9,
+     "book": "Ansel H.C., Pharmaceutical Dosage Form and Drug Delivery System."
+    },
+    {
+     "no": 10,
+     "book": "Sankar,  V.  Ramesh  S.,  Shanmugam  V.,  A  Text  book  of  Novel  Drug  Delivery System, \nPharmaMed Press."
+    },
+    {
+     "no": 11,
+     "book": "Chaurasia M. K., Chaurasia M., Jain N. K., Novel Carriers for Drug Delivery, 1st  Edition, \nPharmaMed Press."
+    },
+    {
+     "no": 12,
+     "book": "Rao M.Y., Jithan A.V., Advances in Drug Delivery, Vol. I-III, PharmaMed Press."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Preparation,  evaluation  and  packaging  of  the  following  dosage  forms  containing  drugs \nmentioned in IP. \na)  Capsules. \nb)  Microcapsules and microspheres.  \nc)  Tablets. \nd)  Film coated tablets. \ne)  Enteric coated tablets"
+    },
+    {
+     "no": 2,
+     "exp": "To perform film coating of tablets."
+    },
+    {
+     "no": 3,
+     "exp": "To study the gel strength and gelling time of different grades of carbomers and HPMC."
+    },
+    {
+     "no": 4,
+     "exp": "To formulate and evaluate sustained release dosage forms."
+    },
+    {
+     "no": 5,
+     "exp": "To perform the evaluations of packages (containers and closures) and packaging materials."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Unit V text is split across pages 19-20 (page break mid-sentence: 'in-vitro release and' / 'release kinetics).')",
+    "Scheme table (page 2) prints 'Pharmaceutics-VIII (Pharmaceutical Technology-II)' while detail page (page 19) prints 'PHARMACEUTICS-VIII (PHARMACEUTICAL TECHNOLOGY-II)' with different capitalization",
+    "The practical section header on page 21 is 'RPH-628P' (practical code) but the experiments are listed under the same subject",
+    "Book 1 in BOOKS RECOMMENDED says 'Vol. I and III' while other subjects list 'Vol. I & II' - printed as-is"
+   ],
+   "flags": []
+  },
+  {
+   "name": "Pharmaceutics-VIII (Pharmaceutical Technology-II) Practical",
+   "name_print": "PHARMACEUTICS-VIII (PHARMACEUTICAL TECHNOLOGY-II) PRACTICAL",
+   "codes": [
+    "RPH-628P"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "practical",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Remington: The Science and Practice of Pharmacy Pharmaceutical Sciences Vol. I and III, \nMack Publishing Company, U.S.A."
+    },
+    {
+     "no": 2,
+     "book": "Avis R.E., Pharmaceutical Dosage Forms: Parenteral Medication, Vol-I, Marcel Dekker-Inc, \nNew York & Basel."
+    },
+    {
+     "no": 3,
+     "book": "Ansel H.C., Introduction to Pharmaceutical Dosage Forms, Lea &  Febiger, Philadelphia, U.S.A."
+    },
+    {
+     "no": 4,
+     "book": "Khar R.  K.,  Vyas  S.P.,  Ahmad  F.,    Jain  G.  K.,  The  Theory and  Practice  of  Industrial \nPharmacy, 4th Edition, CBS Publishers and Distributors."
+    },
+    {
+     "no": 5,
+     "book": "Juliano R.C., Drug Delivery Systems, Oxford University Press, Oxford."
+    },
+    {
+     "no": 6,
+     "book": "Herbert A., Liebermann, Lachman L., Theory and Practice of Industrial Pharmacy, Lea and \nFebiger, Philadelphia, U.S.A."
+    },
+    {
+     "no": 7,
+     "book": "Potdar M. A., C-GMP for Pharmaceuticals."
+    },
+    {
+     "no": 8,
+     "book": "Dinda S. C., Advances in Pharmaceutical Technology, PharmaMed Press."
+    },
+    {
+     "no": 9,
+     "book": "Ansel H.C., Pharmaceutical Dosage Form and Drug Delivery System."
+    },
+    {
+     "no": 10,
+     "book": "Sankar,  V.  Ramesh  S.,  Shanmugam  V.,  A  Text  book  of  Novel  Drug  Delivery System, \nPharmaMed Press."
+    },
+    {
+     "no": 11,
+     "book": "Chaurasia M. K., Chaurasia M., Jain N. K., Novel Carriers for Drug Delivery, 1st  Edition, \nPharmaMed Press."
+    },
+    {
+     "no": 12,
+     "book": "Rao M.Y., Jithan A.V., Advances in Drug Delivery, Vol. I-III, PharmaMed Press."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Preparation,  evaluation  and  packaging  of  the  following  dosage  forms  containing  drugs \nmentioned in IP. \na)  Capsules. \nb)  Microcapsules and microspheres.  \nc)  Tablets. \nd)  Film coated tablets. \ne)  Enteric coated tablets"
+    },
+    {
+     "no": 2,
+     "exp": "To perform film coating of tablets."
+    },
+    {
+     "no": 3,
+     "exp": "To study the gel strength and gelling time of different grades of carbomers and HPMC."
+    },
+    {
+     "no": 4,
+     "exp": "To formulate and evaluate sustained release dosage forms."
+    },
+    {
+     "no": 5,
+     "exp": "To perform the evaluations of packages (containers and closures) and packaging materials."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Experiment 1 contains sub-items a) through e) within a single numbered experiment",
+    "Sub-item e) 'Enteric coated tablets' lacks the trailing period present on other sub-items",
+    "No units, course outcomes, objectives, or prerequisites are printed for this practical subject"
+   ],
+   "flags": []
+  },
+  {
+   "name": "PHARMACOLOGY-II",
+   "name_print": "PHARMACOLOGY-II",
+   "codes": [
+    "RPH-629"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Pharmacology of CVS: Cardiac glycosides, antihypertensive drugs, antianginal drugs, antiarrhythmics, antihyperlipidemics.",
+    "2": "Drugs acting on haemopoeitic system: Haematinics, Vit. K and anticoagulants, fibrinolytics and antiplatelet drugs, plasma volume expanders.\nDrugs acting on respiratory system: Anti-asthmatic drugs, antitussives and expectorants, respiratory stimulants.",
+    "3": "Autocoids: Histamine, 5HT and its antagonists, prostaglandins, thromboxane, leukotrienes, angiotensin, bradykinin.",
+    "4": "NSAIDS, Anti-gout drugs, diuretics, immunomodulators, anticancer agents.",
+    "5": "Drugs acting on GIT: Antacids and antiulcer drugs, laxatives and anti-diarrhoeal agents, emetics and anti-emetics."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Katzung, B.G. Basic and Clinical Pharmacology, Prentice Hall International."
+    },
+    {
+     "no": 2,
+     "book": "Barar F.S.K., Text Book of Pharmacology, Interprint, New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Rang M.P. Dale M.M., Riter J.M., Pharmacology Churchill Livingstone."
+    },
+    {
+     "no": 4,
+     "book": "Tripathi, K.D. Essentials of Medical Pharmacology, Jay Pee Publishers, New Delhi."
+    },
+    {
+     "no": 5,
+     "book": "Satoskar & Bhandarkar; Pharmacology & Pharmacotherapeutics, Popular Prakashan Pvt. Ltd., Bombay."
+    },
+    {
+     "no": 6,
+     "book": "Kulkarni S.K., Hand Book of Experimental Pharmacology, Vallabh Prakashan, Delhi."
+    },
+    {
+     "no": 7,
+     "book": "Bothra S.B., Essentials of Experimental Pharmacology, Vol. 1, General Concepts, PharmaMed Press."
+    },
+    {
+     "no": 8,
+     "book": "Ghosh, M.N., Fundamentals of Experimental Pharmacology, Scientific Book Agency, Calcutta."
+    },
+    {
+     "no": 9,
+     "book": "Grover J.K., Experiments in Pharmacy and Pharmacology, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 10,
+     "book": "Goodman and Gilman, The Pharmacological basis of Therapeutics, Edited by Hardman J.G."
+    },
+    {
+     "no": 11,
+     "book": "Laurence, D.R. and Bannet P.N., Clinical Pharmacology, Churchill Livingstone."
+    },
+    {
+     "no": 12,
+     "book": "Craig, C.R. and Stitzel, R.R., Modern Pharmacology, Little Brown and Co."
+    },
+    {
+     "no": 13,
+     "book": "Sheffield Bioscience Programs, U.K., ISBN, 1-874758-02-6."
+    },
+    {
+     "no": 14,
+     "book": "Udaykumar Padmaja, Medical Pharmacology, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 15,
+     "book": "Saif S. R., Pharmacology Review, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 16,
+     "book": "Gupta P.K., Essential Concepts in Toxicology, PharmaMed Press."
+    },
+    {
+     "no": 17,
+     "book": "Mukhopadhyay K., Undergratuate Pharmacology, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 18,
+     "book": "Pillai K.K., Experimental Pharmacology, CBS Publishers, New Delhi."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To record the dose response curve (DRC) of Acetylcholine using chicken ileum."
+    },
+    {
+     "no": 2,
+     "exp": "To study the parallel shift of DRC in presence of competitive antagonist on DRC of Acetylcholine using chicken ileum."
+    },
+    {
+     "no": 3,
+     "exp": "To study effect of Physostigmine on DRC of acetylcholine using chicken ileum."
+    },
+    {
+     "no": 4,
+     "exp": "To study the CRC of Histamine on guinea pig ileum."
+    },
+    {
+     "no": 5,
+     "exp": "Study of the effect of antihistaminics using software."
+    }
+   ],
+   "objectives_print": null,
+   "prerequisites": null,
+   "quirks": [
+    "Unit II prints 'haemopoeitic' (typo for 'haemopoietic')",
+    "Unit III prints 'Autocoids' (usually 'Autacoids')",
+    "Unit III prints '5HT' without space",
+    "Book 17 prints 'Undergratuate' (typo for 'Undergraduate')",
+    "Experiment 4 prints 'CRC' (likely meant 'DRC')",
+    "Scheme table prints L-T-P as '3---0---0'",
+    "Practical subject RPH-629P appears on separate page 23",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "PHARMACOLOGY-II PRACTICAL",
+   "name_print": "PHARMACOLOGY-II PRACTICAL",
+   "codes": [
+    "RPH-629P"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Katzung, B.G. Basic and Clinical Pharmacology, Prentice Hall International."
+    },
+    {
+     "no": 2,
+     "book": "Barar F.S.K., Text Book of Pharmacology, Interprint, New Delhi."
+    },
+    {
+     "no": 3,
+     "book": "Rang M.P. Dale M.M., Riter J.M., Pharmacology Churchill Livingstone."
+    },
+    {
+     "no": 4,
+     "book": "Tripathi, K.D. Essentials of Medical Pharmacology, Jay Pee Publishers, New Delhi."
+    },
+    {
+     "no": 5,
+     "book": "Satoskar & Bhandarkar; Pharmacology & Pharmacotherapeutics, Popular Prakashan Pvt. Ltd., \nBombay."
+    },
+    {
+     "no": 6,
+     "book": "Kulkarni S.K., Hand Book of Experimental Pharmacology, Vallabh Prakashan, Delhi."
+    },
+    {
+     "no": 7,
+     "book": "Bothra S.B., Essentials of Experimental Pharmacology, Vol. 1, General Concepts, PharmaMed \nPress."
+    },
+    {
+     "no": 8,
+     "book": "Ghosh,  M.N.,  Fundamentals  of  Experimental  Pharmacology,  Scientific  Book  Agency, \nCalcutta."
+    },
+    {
+     "no": 9,
+     "book": "Grover J.K., Experiments in Pharmacy and Pharmacology, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 10,
+     "book": "Goodman and Gilman, The Pharmacological basis of Therapeutics, Edited by Hardman J.G."
+    },
+    {
+     "no": 11,
+     "book": "Laurence, D.R. and Bannet P.N., Clinical Pharmacology, Churchill Livingstone."
+    },
+    {
+     "no": 12,
+     "book": "Craig, C.R. and Stitzel, R.R., Modern Pharmacology, Little Brown and Co."
+    },
+    {
+     "no": 13,
+     "book": "Sheffield Bioscience Programs, U.K., ISBN, 1-874758-02-6."
+    },
+    {
+     "no": 14,
+     "book": "Udaykumar Padmaja, Medical Pharmacology, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 15,
+     "book": "Saif S. R., Pharmacology Review, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 16,
+     "book": "Gupta P.K., Essential Concepts in Toxicology, PharmaMed Press."
+    },
+    {
+     "no": 17,
+     "book": "Mukhopadhyay K., Undergratuate Pharmacology, CBS Publishers, New Delhi."
+    },
+    {
+     "no": 18,
+     "book": "Pillai K.K., Experimental Pharmacology, CBS Publishers, New Delhi."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "To record the dose response curve (DRC) of Acetylcholine using chicken ileum."
+    },
+    {
+     "no": 2,
+     "exp": "To  study  the  parallel  shift  of  DRC  in  presence  of  competitive  antagonist  on  DRC  of \nAcetylcholine using chicken ileum."
+    },
+    {
+     "no": 3,
+     "exp": "To study effect of Physostigmine on DRC of acetylcholine using chicken ileum."
+    },
+    {
+     "no": 4,
+     "exp": "To study the CRC of Histamine on guinea pig ileum."
+    },
+    {
+     "no": 5,
+     "exp": "Study of the effect of antihistaminics using software."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [],
+   "flags": []
+  },
+  {
+   "name": "PHARMACOGNOSY-III",
+   "name_print": "PHARMACOGNOSY-III",
+   "codes": [
+    "RPH-630",
+    "RPH-530"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "departmental-elective",
+   "units": {
+    "1": "Phytochemical screening:  \nA.  Introduction, principles and types of extraction methods/techniques. \nB. An introduction to active constituents of drugs: Classification, isolation, properties and \nqualitative chemical tests of alkaloids, saponins, cardenolides and bufadienolides, cynogenetic \nglycosides, flavanoids and leucoanthocyanidine.",
+    "2": "Study of the biological sources, commercial varieties, chemical constituents, uses, diagnostic \nmacroscopic and microscopic features, substitutes/adulterants and specific chemical tests of drugs \ncontaining the following glycosides- \nSaponins: Liquorice, Ginseng, Dioscorea, Coleus species. Cardioactive sterols: Digitals, Squill, \nStropanthus, Thevetia. Anthraquinone cathartics: Aloe, Senna, Rhubarb, Cascara.",
+    "3": "Tannins: Study of tannins and tannin containing drugs like gumbir (pale catechu), black catechu, \ngall and myrobalans (Harde, Baheda, Arjuna and Ashoka).",
+    "4": "Plant bitters and sweeteners: Introduction to plant bitters and sweeteners, biological source, \nchemical nature and therapeutic uses of bitter and sweetener principles of the following drugs- \nPlant bitters: Chiratin (Momordica charantia), rotenone (Derris elliptica), limonin and naringin \n(Citrus fruits). \nPlant sweeteners: Thaumatin (Thaumatococcus danielli), stevioside and  rebaudioside (Stevia \nrebaudiana), neohesperidin (Citrus aurantium).",
+    "5": "Study  of  traditional  drugs:  Common  vernacular  name,  biological  sources,  morphology, \nchemical  nature  of  chief  constituents,  common  uses  and  pharmacology  of  the  following \nindigenous  drugs:  Psoralea,  Gentian,  Saffron,  Chirata,  Quassia,  Amla,  Kantkari,  Shatavari, \nTylophora,  Bhilwa,  Punarnava,  Chitrak,  Apamarg,  Gokhru,  Shankhpushpi,  Brahmi,  Methi, \nLehsun, Palash, Gymnema, Shilajit, Nagarmotha."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Header prints both codes RPH-630/RPH-530; subject requested for RPH-530.",
+    "Unit V continues across page break from page 24 to page 25.",
+    "Apparent typos preserved: cynogenetic, flavanoids, gumbir, Digitals, Stropanthus, Harde, etc.",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "PHARMACOGNOSY-III",
+   "name_print": "PHARMACOGNOSY-III",
+   "codes": [
+    "RPH-630P",
+    "RPH-530P"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 0,
+    "t": 0,
+    "p": 4
+   },
+   "credit": 2,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Trease, G.E., and Evans, W.C., Pharmacognosy, Bailliere Tindall East Baorne, U.K."
+    },
+    {
+     "no": 2,
+     "book": "Wallis. T.E. “Text Book of Pharmacognosy” J&A Churchill Ltd. London."
+    },
+    {
+     "no": 3,
+     "book": "Kokate C.K., Gokhale A.S., Gokhale S.B., Cultivation of Medicinal Plants, Nirali Prakashan."
+    },
+    {
+     "no": 4,
+     "book": "Tyler  V.E.,  Lynnr  B.  and  Robbers  J.E.,  Pharmacognosy,  8th   Edition,  Lea  &  Febiger,  Philadelphia."
+    },
+    {
+     "no": 5,
+     "book": "Harborne J.B., Phytochemical method, Chapman & Hall International Edition, London."
+    },
+    {
+     "no": 6,
+     "book": "Medicinal Plants of India, Vol. I & II, Indian Council of Medical Reasearch, New Delhi."
+    },
+    {
+     "no": 7,
+     "book": "Nadkarni A.K., Indian Materia Medica, Vol- 1&2, Popular Prakashan (P) Ltd. Bombay."
+    },
+    {
+     "no": 8,
+     "book": "Sukh Dev, A Selection of Prime Ayurvedic Plant Drug, Anamaya Publisher New Delhi."
+    },
+    {
+     "no": 9,
+     "book": "Indian Herbal Pharmacopoeia, Vol. I & II, ICMR & RRL, Jammu."
+    },
+    {
+     "no": 10,
+     "book": "Indian Ayurvedic Pharmacopoeia, Govt. of India."
+    },
+    {
+     "no": 11,
+     "book": "The  Wealth  of  India,  Raw  Materials  (All  volumes)  Council  of  Scientific  &  Industrial  Research, New Delhi."
+    },
+    {
+     "no": 12,
+     "book": "Rastogi R. P. and Mehrotra B.N., Compendium of Indian Medicinal Plants I-IV, Publications\n& Information Directorate/Central Drug Research Institute, New Delhi."
+    },
+    {
+     "no": 13,
+     "book": "American Herbal Pharmacopoeia, Botanical Pharmacognosy: Microscopic Characterization of Botanical Medicines, Taylor & Francis Group."
+    },
+    {
+     "no": 14,
+     "book": "Wallis T.E., Analytical Microscopy, J & A Churchill Ltd., London."
+    },
+    {
+     "no": 15,
+     "book": "Kokate C.K., Practical Pharmacognosy, Vallabh Prakashan, New Delhi."
+    },
+    {
+     "no": 16,
+     "book": "Iyengar M.A., Pharmacognosy of Powdered Crude Drugs, PharmaMed Press."
+    },
+    {
+     "no": 17,
+     "book": "Iyengar, M.A. and Nayak S.C.K., Anatomy of Powdered Crude Drugs, PharmaMed Press."
+    }
+   ],
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Morphology and microscopy (powder) of Liquorice along with its chemical tests."
+    },
+    {
+     "no": 2,
+     "exp": "Morphology of Aloe and chemical tests on Aloe-extract."
+    },
+    {
+     "no": 3,
+     "exp": "Morphology and microscopy (powder) of Rhubarb."
+    },
+    {
+     "no": 4,
+     "exp": "Morphology of Psoralia, Saffron and Chirata."
+    },
+    {
+     "no": 5,
+     "exp": "Morphology of Amla, Kantkari, Shatavari and Vach."
+    },
+    {
+     "no": 6,
+     "exp": "Morphology of Punarnava, Apamarg, Gokhru, and Shankhpushpi."
+    },
+    {
+     "no": 7,
+     "exp": "Morphology of Brahmi, Methi, Lehsun and Palash."
+    },
+    {
+     "no": 8,
+     "exp": "a)  Morphology of Nagarmotha and Neem."
+    },
+    {
+     "no": 9,
+     "exp": "b)  Identification Tests for Guggul lipids."
+    },
+    {
+     "no": 10,
+     "exp": "Test for identification of glycosides (saponin and anthraquinone)."
+    },
+    {
+     "no": 11,
+     "exp": "Test for identification of tannins."
+    },
+    {
+     "no": 12,
+     "exp": "Tests for identification of steroids."
+    },
+    {
+     "no": 13,
+     "exp": "Tests for identification of flavonoids."
+    },
+    {
+     "no": 14,
+     "exp": "A report on marketed preparations based on traditional drugs mentioned in theory."
+    }
+   ],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Numbering of experiments: items 1-7, then a) and b) under 7, then 8-12.",
+    "Typo 'Psoralia' instead of 'Psoralea' in experiment 4.",
+    "Book 12 spans across pages 26-27.",
+    "Heading includes both codes RPH-630P and RPH-530P."
+   ],
+   "flags": []
+  },
+  {
+   "name": "PROFESSIONAL COMMUNICATION",
+   "name_print": "PROFESSIONAL COMMUNICATION",
+   "codes": [
+    "RPH-631",
+    "RPH-531"
+   ],
+   "semester": 5,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Written skills: \na.   Proposal writing formats.  \nb.  Report writing. \nc.   Business letters.  \nd.  Applications. \ne.   Covering letters. \nf.   Curriculum Vitae designing.",
+    "2": "a.   Barriers to communication, time management simulation exercise. b.  Leadership skills. \nc.   Team work BSC (Boss, subordinates and colleagues).",
+    "3": "1.  Group discussions (GDs). \na.   Tips.  \nb.  GD. \n2.  Non verbal aspects of communication.",
+    "4": "a.   Corporate communication, corporate expectation, office etiquettes.  \nb.  Extempore.",
+    "5": "1.  Interview Tips: \na.   What should be done before the interview, during the interview, after the interview and on \nthe day of interview? \nb.  Various questions that may be asked in an interview. \nc.   Model interview (video-shooting and displaying optional). \n2.  Exit interview."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Raman M. and Sharma, S., Technical Communications- Principles & Practice, 2nd  Edition, Oxford University Press."
+    },
+    {
+     "no": 2,
+     "book": "Sharma,  R.  C.  and  Krishna Mohan, Business  Correspondence and  Report  Writing,  Tata McGraw Hill Co."
+    },
+    {
+     "no": 3,
+     "book": "Lesikar, R.V., Pettit J.V., Flateley M.E., Lesikar’s Basic Business Communication, 8th Edition, McGraw Hill Companies."
+    }
+   ],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Detail page heading reads 'RPH-631/RPH-531' covering both 5th and 6th semester codes",
+    "'BOOKS RECOMMEDNDED' is a printed typo for 'BOOKS RECOMMENDED'",
+    "Unit II content begins on same line as unit heading",
+    "Unit III mixes numbered (1., 2.) and lettered (a., b.) sub-items",
+    "unit 1 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 2 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 5 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "name": "INDUSTRIAL TRAINING",
+   "name_print": "INDUSTRIAL TRAINING",
+   "codes": [
+    "RPH-632P"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": null,
+    "t": null,
+    "p": null
+   },
+   "credit": 1,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 50,
+    "ese_te_pe": 50,
+    "total": 100
+   },
+   "subject_type": "practical/project",
+   "units": {},
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": "",
+   "quirks": [
+    "Detailed syllabus consists of a single paragraph describing training requirements; no units, COs, or books printed.",
+    "detail-page slice p.30 re-extraction returned no unit/CO/experiment/book content; print may be a header-only or training row (page image authoritative; RULES §6 evidence class)",
+    "guideline/training print transcribed byte-verbatim into notes from p.30; no unit-wise syllabus printed for this subject in-doc (B47 notes-only class)"
+   ],
+   "flags": [
+    "b48_repair_rex_still_blank",
+    "notes_only_no_units_printed",
+    "b48_repair2_notes"
+   ],
+   "notes": "RPH-632P INDUSTRIAL TRAINING The training shall include training at an approved pharmaceutical unit for a minimum of 30 days. The industrial training shall compose of observation of various manufacturing sections, packaging section and testing section. It shall also include the study of GMP requirements, SOPs, batch production records (BPRs), analysis records etc. May be performed at the end of the 5th semester."
+  },
+  {
+   "name": "ENVIRONMENT & ECOLOGY",
+   "name_print": "ENVIRONMENT & ECOLOGY",
+   "codes": [
+    "RPH525",
+    "RPH625"
+   ],
+   "semester": 6,
+   "ltp": {
+    "l": 3,
+    "t": 0,
+    "p": 0
+   },
+   "credit": 3,
+   "marks": {
+    "sessional_ct": null,
+    "sessional_ta": null,
+    "sessional_total": 30,
+    "ese_te_pe": 70,
+    "total": 100
+   },
+   "subject_type": "core",
+   "units": {
+    "1": "Environment studies: Definition, scope and importance. Natural resources-renewable and non\nrenewable, utilization, exploitation and associated problems of forests. Water resources, mineral\nresources, food resources, energy resources, land resources, equitable use of resources for\nsustainable life style, role of an individual in conservation.",
+    "2": "Components of  ecosystem.  Green  house  gases  and  green  house  effect.  Biodiversity and its\nconservation with special reference to India.",
+    "3": "Environmental pollution: Introduction, causes and control measures of air, water, soil, marine,\nnoise, thermal, nuclear pollutions.",
+    "4": "Law related to environmental protection: Air (Prevention and Control of pollution) Act-1987,\nWater prevention and Control of Pollution Act-1974.",
+    "5": "Environmental Protection Act -1986, Noise Pollution Act, Hazardous Wastes Act, Hazardous\nChemicals Act, Hazardous Microorganisms Act, Biomedical Waste Act, Provisions applicable to\nDrugs and Cosmetic Act."
+   },
+   "lectures_per_unit": null,
+   "cos": [],
+   "textbooks": [
+    {
+     "no": 1,
+     "book": "Manoharachary C., Reddy P.J., Principles of Environmental Studies, BS Publications,\nHyderabad."
+    },
+    {
+     "no": 2,
+     "book": "Trivedy R.K., Handbook of Environmental Laws, Acts, Guidelines, Compliances and\nStandards, Vol. I and II, Pharma Book Syndicate, Hyderabad."
+    },
+    {
+     "no": 3,
+     "book": "Relevant Acts and Rules Published by Government of India with latest amendments."
+    },
+    {
+     "no": 4,
+     "book": "Reddy M.A., Text book of Environmental Science and Technology, BS Publications,\nHyderabad."
+    },
+    {
+     "no": 5,
+     "book": "Sinha S., Shukla M., Siddiqui A., Agrawal N. A., Text book of Environment and Ecology for\nPharmacy Students, AITBS Publishers, Delhi, India."
+    }
+   ],
+   "reference_books": [],
+   "experiments": [],
+   "objectives_print": [],
+   "prerequisites": null,
+   "quirks": [
+    "Detail page header prints 'RPH-525/RPH625' with inconsistent hyphenation (missing hyphen before 625)",
+    "Subject code appears as RPH-525 in 5th semester scheme and RPH-625 in 6th semester scheme; detail page covers both",
+    "Scheme table on page 1 lists 'Environment & Ecology' with lowercase '&' while detail page uses all-caps 'ENVIRONMENT & ECOLOGY'",
+    "unit 2 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 3 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence",
+    "unit 4 containment below threshold after one corrective re-extraction; text-layer fragment likely garbled or off-page (RULES §6 — page image is authoritative); kept as extracted, flagged for verify evidence"
+   ],
+   "flags": [
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk",
+    "unit_containment_low_print_quirk"
+   ]
+  },
+  {
+   "sessional_ct": "int|null>",
+   "sessional_ta": "int|null>",
+   "sessional_total": "int|null>",
+   "ese_te_pe": "int|null>",
+   "total": "int|null>",
+   "units": {
+    "1": "Phytochemical screening:  \nA.  Introduction, principles and types of extraction methods/techniques. \nB. An introduction to active constituents of drugs: Classification, isolation, properties and \nqualitative chemical tests of alkaloids, saponins, cardenolides and bufadienolides, cynogenetic \nglycosides, flavanoids and leucoanthocyanidine.",
+    "2": "Study of the biological sources, commercial varieties, chemical constituents, uses, diagnostic \nmacroscopic and microscopic features, substitutes/adulterants and specific chemical tests of drugs \ncontaining the following glycosides- \nSaponins: Liquorice, Ginseng, Dioscorea, Coleus species. Cardioactive sterols: Digitals, Squill, \nStropanthus, Thevetia. Anthraquinone cathartics: Aloe, Senna, Rhubarb, Cascara.",
+    "3": "Tannins: Study of tannins and tannin containing drugs like gumbir (pale catechu), black catechu, \ngall and myrobalans (Harde, Baheda, Arjuna and Ashoka).",
+    "4": "Plant bitters and sweeteners: Introduction to plant bitters and sweeteners, biological source, \nchemical nature and therapeutic uses of bitter and sweetener principles of the following drugs- \nPlant bitters: Chiratin (Momordica charantia), rotenone (Derris elliptica), limonin and naringin \n(Citrus fruits). \nPlant sweeteners: Thaumatin (Thaumatococcus danielli), stevioside and  rebaudioside (Stevia \nrebaudiana), neohesperidin (Citrus aurantium).",
+    "5": "Study  of  traditional  drugs:  Common  vernacular  name,  biological  sources,  morphology, \nchemical  nature  of  chief  constituents,  common  uses  and  pharmacology  of  the  following \nindigenous  drugs:  Psoralea,  Gentian,  Saffron,  Chirata,  Quassia,  Amla,  Kantkari,  Shatavari,"
+   },
+   "name": "PHARMACOGNOSY-III",
+   "codes": [
+    "RPH630"
+   ],
+   "quirks": [
+    "name restored verbatim from the document's own scheme/detail print (b48 print-anchored class)",
+    "re-extracted from detail-page slice p.24 after a blank first pass (b48 REX class)"
+   ],
+   "flags": [
+    "b48_repair_name_restored",
+    "b48_repair_rex_ok"
+   ],
+   "name_print": "PHARMACOGNOSY-III"
+  },
+  {
+   "l": 0,
+   "t": 0,
+   "p": 4,
+   "units": {},
+   "name": "PHARMACOGNOSY-III",
+   "codes": [
+    "RPH630P"
+   ],
+   "quirks": [
+    "name restored verbatim from the document's own scheme/detail print (b48 print-anchored class)",
+    "re-extracted from detail-page slice p.26 after a blank first pass (b48 REX class)"
+   ],
+   "flags": [
+    "b48_repair_name_restored",
+    "b48_repair_rex_ok"
+   ],
+   "name_print": "PHARMACOGNOSY-III",
+   "experiments": [
+    {
+     "no": 1,
+     "exp": "Morphology and microscopy (powder) of Liquorice along with its chemical tests."
+    },
+    {
+     "no": 2,
+     "exp": "Morphology of Aloe and chemical tests on Aloe-extract."
+    },
+    {
+     "no": 3,
+     "exp": "Morphology and microscopy (powder) of Rhubarb."
+    },
+    {
+     "no": 4,
+     "exp": "Morphology of Psoralia, Saffron and Chirata."
+    },
+    {
+     "no": 5,
+     "exp": "Morphology of Amla, Kantkari, Shatavari and Vach."
+    },
+    {
+     "no": 6,
+     "exp": "Morphology of Punarnava, Apamarg, Gokhru, and Shankhpushpi."
+    },
+    {
+     "no": 7,
+     "exp": "Morphology of Brahmi, Methi, Lehsun and Palash."
+    },
+    {
+     "no": 8,
+     "exp": "Morphology of Nagarmotha and Neem."
+    },
+    {
+     "no": 9,
+     "exp": "Identification Tests for Guggul lipids."
+    },
+    {
+     "no": 10,
+     "exp": "Test for identification of glycosides (saponin and anthraquinone)."
+    },
+    {
+     "no": 11,
+     "exp": "Test for identification of tannins."
+    },
+    {
+     "no": 12,
+     "exp": "Tests for identification of steroids."
+    },
+    {
+     "no": 13,
+     "exp": "Tests for identification of flavonoids."
+    },
+    {
+     "no": 14,
+     "exp": "A report on marketed preparations based on traditional drugs mentioned in theory."
+    }
+   ],
+   "reference_books": [
+    {
+     "no": 1,
+     "book": "Trease, G.E., and Evans, W.C., Pharmacognosy, Bailliere Tindall East Baorne, U.K."
+    },
+    {
+     "no": 2,
+     "book": "Wallis. T.E. “Text Book of Pharmacognosy” J&A Churchill Ltd. London."
+    },
+    {
+     "no": 3,
+     "book": "Kokate C.K., Gokhale A.S., Gokhale S.B., Cultivation of Medicinal Plants, Nirali Prakashan."
+    },
+    {
+     "no": 4,
+     "book": "Tyler  V.E.,  Lynnr  B.  and  Robbers  J.E.,  Pharmacognosy,  8th   Edition,  Lea  &  Febiger, \nPhiladelphia."
+    },
+    {
+     "no": 5,
+     "book": "Harborne J.B., Phytochemical method, Chapman & Hall International Edition, London."
+    },
+    {
+     "no": 6,
+     "book": "Medicinal Plants of India, Vol. I & II, Indian Council of Medical Reasearch, New Delhi."
+    },
+    {
+     "no": 7,
+     "book": "Nadkarni A.K., Indian Materia Medica, Vol- 1&2, Popular Prakashan (P) Ltd. Bombay."
+    },
+    {
+     "no": 8,
+     "book": "Sukh Dev, A Selection of Prime Ayurvedic Plant Drug, Anamaya Publisher New Delhi."
+    },
+    {
+     "no": 9,
+     "book": "Indian Herbal Pharmacopoeia, Vol. I & II, ICMR & RRL, Jammu."
+    },
+    {
+     "no": 10,
+     "book": "Indian Ayurvedic Pharmacopoeia, Govt. of India."
+    },
+    {
+     "no": 11,
+     "book": "The  Wealth  of  India,  Raw  Materials  (All  volumes)  Council  of  Scientific  &  Industrial \nResearch, New Delhi."
+    },
+    {
+     "no": 12,
+     "book": "Rastogi R. P. and Mehrotra B.N., Compendium of Indian Medicinal Plants I-IV, Publications"
+    }
+   ]
+  },
+  {
+   "l": 3,
+   "t": 0,
+   "p": 0,
+   "units": {
+    "1": "Written skills: \na.   Proposal writing formats.  \nb.  Report writing. \nc.   Business letters.  \nd.  Applications. \ne.   Covering letters.  \nf.   Curriculum Vitae designing.",
+    "2": "a.   Barriers to communication, time management simulation exercise. b.  Leadership skills. \nc.   Team work BSC (Boss, subordinates and colleagues).",
+    "3": "1.  Group discussions (GDs). \na.   Tips.  \nb.  GD. \n2.  Non verbal aspects of communication.",
+    "4": "a.   Corporate communication, corporate expectation, office etiquettes.  \nb.  Extempore.",
+    "5": "1.  Interview Tips: \na.   What should be done before the interview, during the interview, after the interview and on \nthe day of interview? \nb.  Various questions that may be asked in an interview. \nc.   Model interview (video-shooting and displaying optional). \n2.  Exit interview."
+   },
+   "name": "PROFESSIONAL COMMUNICATION",
+   "codes": [
+    "RPH631"
+   ],
+   "quirks": [
+    "name restored verbatim from the document's own scheme/detail print (b48 print-anchored class)",
+    "re-extracted from detail-page slice p.28 after a blank first pass (b48 REX class)"
+   ],
+   "flags": [
+    "b48_repair_name_restored",
+    "b48_repair_rex_ok"
+   ],
+   "name_print": "PROFESSIONAL COMMUNICATION"
+  }
+ ],
+ "non_subject_rows": [],
+ "quirks": [],
+ "flags": []
+}
