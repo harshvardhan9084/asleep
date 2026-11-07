@@ -24,7 +24,10 @@ REF_HEADER = ["subject_id","row_kind","subject_name","subject_name_print","prima
 "co_kls","units_count","lectures_per_unit","unit1_text","unit2_text","unit3_text","unit4_text",
 "unit5_text","textbooks_structured","reference_books_structured","experiments_structured",
 "choice_group_id","choice_group_policy","eligibility_print","k_era_pool_codes","source_syllabus",
-"source_scheme_line","source_history","change_note_vs_previous","notes","objectives_print"]
+"source_scheme_line","source_history","change_note_vs_previous","notes","objectives_print",
+# schema v2 (owner decision D2, 2026-11-08): 6 new columns appended (RULES §5 G1)
+"subject_name_display","subject_type_norm","quality_flags","corrections_json",
+"code_family","verification_status"]
 
 CODE_RE = re.compile(r"\b([A-Z]{2,4})\s?-?(\d{3})([A-Z]?)\b")
 STOP = set("""the of and to a in for with on by an as at or be is are from that this it its into

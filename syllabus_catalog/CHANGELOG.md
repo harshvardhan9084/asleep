@@ -1,3 +1,7 @@
+# CRON-20261108-B51 — B51 — 2026-11-07
+
+rows 3097, codes 6412, +0 appends/~0 updates/!0 repairs — schema v2 bump (57→63 cols: +subject_name_display +subject_type_norm +quality_flags +corrections_json +code_family +verification_status per owner D2; RULES §6b verbatim-vs-fix amendment per D1; audit_rules.py Phase-2 flag engine: 10390 flags)
+
 # CRON-20261107-B50 — B50 — 2026-11-07
 
 rows 3088-to-3097, codes 6384-to-6412, +9 appends/~44 updates/!0 repairs — corpus-completing wave (Maths-III CE/EV + UHV-II + ROE-030..049 science-OE + UPTU master MBA + MCA-211 scan) via 5-key mercury-3 pool, 0 T2T fallbacks; queue 0 pending

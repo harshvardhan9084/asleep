@@ -109,8 +109,12 @@ never wildcard patterns (`BOE3**`) or ranges (`KOE031-038`) which live in
 
 ## §5 Gates (commit blockers)
 
-- **G1 schema**: header equals the 57-column reference header exactly (order
-  preserved). No column may be added/removed/reordered by the pipeline.
+- **G1 schema**: header equals the reference header exactly (order preserved).
+  No column may be added/removed/reordered by the pipeline. Schema v2
+  (owner decision D2, 2026-11-08): 63 columns = the original 57 + 6 appended
+  (subject_name_display, subject_type_norm, quality_flags, corrections_json,
+  code_family, verification_status). The reference header lives in
+  merge_draft.py `REF_HEADER`.
 - **G2 code idempotency** (scoped per course, §1b): within each course, every
   specific code token (regex `^[A-Z]{2,4}[0-9]{3}[A-Z]?$`) is owned by
   EXACTLY ONE row across primary_code + all_codes. The SAME printed code may
@@ -134,6 +138,30 @@ never wildcard patterns (`BOE3**`) or ranges (`KOE031-038`) which live in
   evidence.
 - Keep printed typos verbatim ('SQl', 'HandlingHTTP', etc.) — record a quirk
   note; never silently correct print.
+
+### §6b Verbatim-vs-fix policy (owner directive D1, 2026-11-08 — amends §6 for PRIMARY fields)
+
+§6 remains in force for EVIDENCE surfaces: `*_print` columns,
+`source_scheme_line`, `subject_category_print`, `eligibility_print`,
+`objectives_print` and every quirk note stay VERBATIM forever.
+
+For PRIMARY data fields (subject_name, unit1..unit5_text, co1..co6_text,
+textbooks_structured / reference_books_structured / experiments_structured
+entries, notes-free descriptive fields):
+
+1. FIX, don't keep: known misspellings/decoding artifacts are corrected in the
+   primary field; the printed (uncorrected) form survives in the evidence
+   surfaces above and inside the row's `corrections_json` "before" value.
+2. Every correction appends to the row's `corrections_json`:
+   `{"field","before","after","rule","evidence"}` — evidence = page-cited print
+   (`<file>#<sha16> pp.N`) and/or an authoritative reference (standard
+   spellings; corpus cross-row consistency where the same author/algorithm is
+   printed correctly elsewhere). A `quality_flags` tag is set and
+   `change_note_vs_previous` records the wave + rule id.
+3. Corrections require evidence; zero-guess (§4) is unchanged: inconclusive
+   cases get a `needs_review` quality flag and are left untouched.
+4. No correction may change printed marks/scheme numbers without the scheme
+   line proving the extraction error (see W5 wave definition).
 
 ## §7 Draft spec (drafts/NN_<stem>.draft.json)
 
