@@ -43,7 +43,31 @@ def push(batch, summary, manifest):
     return rc == 0
 
 def main():
+    loop = "--loop" in sys.argv
     st = load_state()
+    if loop:
+        # hourly cron mode: retry REX leftovers, apply if results changed, push
+        before = {}
+        rp = f"{BASE}/w3_rex_results.json"
+        if os.path.exists(rp):
+            before = json.load(open(rp))
+        rc, out = run([sys.executable, f"{PROJ}/scripts/pipeline_v2/w3_kls_rex.py"])
+        after = json.load(open(rp)) if os.path.exists(rp) else {}
+        improved = sum(1 for k, v in after.items()
+                       if before.get(k, {}).get("status") != v.get("status") and v.get("status") in ("ok", "partial"))
+        if rc == 3 or not improved:
+            print(f"WAVE_LOOP|NOOP|rex_improved={improved} rc={rc} (todo=0 or all keys resting)")
+            return 0
+        rc2, out2 = run([sys.executable, f"{PROJ}/scripts/pipeline_v2/w3_kls_apply.py"])
+        if rc2 == 0:
+            mf = f"{BASE}/manifest_B{st.get('batch_next', 61)}_loop.md"
+            open(mf, "w").write(f"# Task ID: CRON-AUTO-B{st.get('batch_next', 61)} (w3-loop)\n\n```\n{out}\n{out2}\n```\n")
+            ok = push(f"CRON-AUTO-B{st.get('batch_next', 61)}", f"W3 REX retry loop: +improved backfills applied (see manifest)", mf)
+            print(f"WAVE_LOOP|push={'OK' if ok else 'FAIL'}")
+            if ok:
+                st["batch_next"] = st.get("batch_next", 61) + 1
+                save_state(st)
+        return rc2
     nxt = next((s for s in STAGES if s not in st["done"]), None)
     if not nxt:
         print("WAVE_RUNNER|all stages done — nothing to do")

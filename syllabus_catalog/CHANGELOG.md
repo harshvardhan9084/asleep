@@ -1,3 +1,7 @@
+# CRON-AUTO-B60 — CRON-AUTO-B60 — 2026-11-07
+
+W3 REX retry loop: +improved backfills applied (see manifest)
+
 # CRON-AUTO-B59 — CRON-AUTO-B59 — 2026-11-07
 
 wave stage w5_marks (automated; see manifest)
