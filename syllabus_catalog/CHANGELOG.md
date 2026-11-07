@@ -1,3 +1,7 @@
+# CRON-20261108-B55 — B55 — 2026-11-07
+
+rows 3097, codes 6412, +0 appends/~560 updates/!0 repairs — W3 co_kls backfill run 1: 552 backfills (539 deterministic text-layer scans + 13 mercury-3 REX) with corrections_json; 528 honest flags (raster-candidate/not-printed); T2T: 235 calls, 134 ok, 3x429 (1.3%), 37 empty, 23 all-resting exits, 5/5 keys active, 0 subagent fallbacks
+
 # CRON-20261108-B54 — B54 — 2026-11-07
 
 rows 3097, codes 6412, +0 appends/~172 updates/!0 repairs — W6 artifact cleanup: 978 deterministic edits (guarded ., collapse with abbrev/initialism preservation, ,,/ space-comma normalization, math-italic NFKC); (n)-tokens kept needs_review (LR(0) notation collision); 1932 corrections across W1+W2+W6
