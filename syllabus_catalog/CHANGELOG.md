@@ -1,3 +1,7 @@
+# CRON-20261107-B46 — B46 — 2026-11-07
+
+rows 2897-to-2987, codes 5885-to-6003, +90 appends/~101 updates/!0 repairs — FIRST FULL MCA WAVE (integrated y1-y4 2017-18..2026-27 + MCA-DD 2016-17 + non-credit bridge) + MBA 2013-14 y2 via 5-key mercury-3 pool, 0 fallbacks
+
 # CRON-20261107-B45 — B45 — 2026-11-06
 
 rows 2867-to-2897, codes 5729-to-5885, +30 appends/~208 updates/!0 repairs — MBA Tourism-Mgmt (4 sessions) + Travel-Tourism (2 sessions) + 2018-19 y1 model-curriculum + 2008-09/2016-17 y1 schemes + 2019-20 y2 model-curriculum-rev via 5-key mercury-3 pool, 0 fallbacks
