@@ -1,3 +1,7 @@
+# CRON-AUTO-B59 — CRON-AUTO-B59 — 2026-11-07
+
+wave stage w5_marks (automated; see manifest)
+
 # CRON-AUTO-B58 — CRON-AUTO-B58 — 2026-11-07
 
 wave stage w3_apply2 (automated; see manifest)
