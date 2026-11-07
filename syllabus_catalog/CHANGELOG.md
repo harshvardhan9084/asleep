@@ -1,3 +1,7 @@
+# CRON-20261108-B56 — B56 — 2026-11-07
+
+rows 3097, codes 6412, +0 appends/~1100 updates/!0 repairs — W4 subject_type normalization (2509 rows, 10-value vocab, raw preserved) + subject_name_display (3083 rows) + W3b legacy co_kls format normalization (293 rows to JSON); 2 G6 containment-gap rows flagged needs_review (lost supplying docs, zero-guess)
+
 # CRON-20261108-B55 — B55 — 2026-11-07
 
 rows 3097, codes 6412, +0 appends/~560 updates/!0 repairs — W3 co_kls backfill run 1: 552 backfills (539 deterministic text-layer scans + 13 mercury-3 REX) with corrections_json; 528 honest flags (raster-candidate/not-printed); T2T: 235 calls, 134 ok, 3x429 (1.3%), 37 empty, 23 all-resting exits, 5/5 keys active, 0 subagent fallbacks
