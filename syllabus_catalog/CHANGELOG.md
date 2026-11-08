@@ -1,3 +1,7 @@
+# CRON-AUTO-B64 — CRON-AUTO-B64 — 2026-11-08
+
+W8c subject_type vocab normalization: 443 rows to controlled vocab (429 recorded-norm copy, 7 owner lab mapping, 6 BSC phrase, 1 VA print); 71 remain needs_review with decision memo; via G1/G2/G3/G6
+
 # CRON-20261108-B63 — CRON-20261108-B63 — 2026-11-08
 
 W8a audit-results hygiene: auditor-accuracy adjudications (KLS_BADVAL 140->0 K-ranges/nulls accepted; Warshal FP guard; BOOK_NUMART volume/year FPs out) + 24 evidence-backed edits (Warshalll x2, Behrooz Parhami, Geoffrey, 20 entry-start numbering strips) via G1/G2/G3/G6; 2 G6-gap rows deferred; flags 6025->5844
