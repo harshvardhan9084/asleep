@@ -70,6 +70,29 @@ def num(x):
         return None
 
 
+# W9a (owner wave 2026-11-08): publisher-token ending whitelist from the
+# corpus ending distribution of the 574 BOOK_TRUNC leftovers - entries ending
+# with these tokens (or an edition-year / author-at-end form) are complete
+# citation prints, not truncations. Mirrors w9a_book_trunc.py classify.
+_PUB_SUFFIXES = (
+    "new delhi", "mcgraw hill", "mcgraw-hill", "graw hill", "tata mcgraw",
+    "prentice hall", "crc press", "morgan kaufmann", "addison wesley",
+    "addision wesley", "universities press", "university press",
+    "pearson education", "wiley india", "john wiley", "phi learning",
+    "s. chand", "dhanpat rai", "khanna publishers", "himalaya publishing",
+    "publishing house", "india publication", "oxford publication",
+    "cengage learning", "learning publication", "jones and bartlett",
+    "and sons", "& sons", "and co", "& co", "& company", "and company",
+    "of india", "prentice-hall",
+    "hill", "wiley", "phi", "tmh", "pearson", "springer", "kluwer", "narosa",
+    "elsevier", "cambridge", "oxford", "cengage", "kaufmann", "wesley",
+    "press", "publishers", "publication", "publications", "publishing",
+    "delhi", "mumbai", "chand", "rai", "khanna", "katson", "education",
+    "learning", "house", "hall", "sons", "company", "india", "university",
+    "ibh", "galgotia", "wheeler", "prakashan", "international",
+)
+
+
 def iter_book_strings(r):
     for col in JSON_FIELDS:
         arr = jload(r.get(col, "") or "")
@@ -118,8 +141,18 @@ def audit_row(r, primary_owners):
         # merged entries: 2+ 'author, title' blocks joined by '; ' with distinct surnames
         if re.search(r"[a-z]\)\s*[A-Z][a-z]+,\s*[A-Z]", t) or re.search(r";\s*[A-Z][a-z]+,\s*[A-Z][a-z]+.*(?:Delhi|Publishing|Publication|Publishers|Edition)", t):
             add("BOOK_MERGED", "needs_review", f"possible merged print entry: {t[:90]!r}", field=f"{col}[{i}]")
-        if (re.search(r"(New Delhi|Publishers?|Edition|Publications)\.?$", t) is None
-                and re.search(r"\b(Concepts|Techniques|Fundamentals|Systems|Analysis|Theory)\b", t)
+        # W9a upgrade: publisher-whitelist / edition-year / author-at-end
+        # endings are complete citation prints; a head-broken start
+        # (lowercase / mid-word / year-led) still flags regardless of ending
+        _start_bad = (re.match(r"^['\"“”]?[a-z]", t)
+                      or re.match(r"^['\"“”]?(?:19|20)\d{2}\b.*,", t))
+        _tail = re.sub(r"[.,;]?\s*['\"“”]*$", "", t.strip()).rstrip()
+        _end_ok = (bool(re.search(r"(?:19|20)\d{2}[.,;)]?['\"“”]*$", _tail))
+                   or _tail.lower().endswith(_PUB_SUFFIXES)
+                   or bool(re.search(r"\b(?:by|ed\.?|eds\.?)\s+[A-Za-z.\s]{1,40}$",
+                                     _tail, re.I)))
+        if (re.search(r"\b(Concepts|Techniques|Fundamentals|Systems|Analysis|Theory)\b", t)
+                and (_start_bad or not _end_ok)
                 and not t.rstrip().endswith((".", "?", ")", '"'))):
             add("BOOK_TRUNC", "needs_review", f"possibly truncated entry: {t[-80:]!r}", field=f"{col}[{i}]")
 
@@ -269,6 +302,49 @@ def main():
                         n_probe += 1
         if n_probe:
             res["w8b_probe_reclassified"] = n_probe
+
+    # W9a probe evidence override (owner wave 2026-11-08): BOOK_TRUNC verdicts
+    # from the printed-books-list probe (cited docs first, then global corpus
+    # page index; text-layer + bounded OCR; raw-prefix cross-doc heal applied
+    # in W9a apply). Zero data change here - actions/details updated only.
+    try:
+        ck9 = json.load(open("/home/z/my-project/work/pipeline_v2/w9a_ckpt.json"))
+        pr9 = ck9.get("results", {})
+    except Exception:
+        pr9 = {}
+    n9 = 0
+    if pr9:
+        for sid, fl in out.items():
+            for f in fl:
+                if f.get("rule") != "BOOK_TRUNC":
+                    continue
+                pr = pr9.get(f"{sid}::{f.get('field', '')}")
+                if not pr:
+                    continue
+                st = pr.get("status")
+                ev = pr.get("evidence", "")
+                if st == "verified_complete":
+                    f["action"] = "accepted-print"
+                    f["detail"] += f" | W9a probe: printed entry verified complete (verbatim print) at {ev}"
+                    n9 += 1
+                elif st == "print_garbled":
+                    f["action"] = "needs_review"
+                    f["detail"] += f" | W9a probe: source print itself ends abruptly (print-faithful storage) at {ev}"
+                    n9 += 1
+                elif st == "corroborated_elsewhere":
+                    f["action"] = "needs_review"
+                    f["detail"] += f" | W9a probe: same book printed in a different form in {ev}; row's own print not recoverable - stored form kept"
+                    n9 += 1
+                elif st == "no_print_found":
+                    f["action"] = "needs_review"
+                    f["detail"] += f" | W9a probe: no printed books-list entry recovered ({pr.get('pages_probed', 0)} pages: text-layer + OCR + corpus index)"
+                    n9 += 1
+                elif st == "sha_unresolved":
+                    f["action"] = "needs_review"
+                    f["detail"] += " | W9a probe: cited doc sha not locally resolvable post-reset - re-supply PDF to resume"
+                    n9 += 1
+        if n9:
+            res["w9a_probe_reclassified"] = n9
     with open(a.out, "w") as fh:
         json.dump(res, fh, indent=1, ensure_ascii=False)
     if not a.quiet:

@@ -1,3 +1,7 @@
+# CRON-20261108-B66 — CRON-20261108-B66 — 2026-11-08
+
+W9a BOOK_TRUNC adjudication: 574 flags = 388 auditor-FP (publisher-whitelist rule upgrade) + 186 page-probed (1 verbatim heal applied, 36 accepted-print verified, 149 honest needs_review with page-cited probe notes); flags 5399->~4994
+
 # CRON-AUTO-B65 — CRON-AUTO-B65 — 2026-11-08
 
 W8b page-image evidence wave: 519 KLS leftovers probed (text-layer + 200dpi OCR, zero-guess title gate); 2 verbatim backfills applied (eng-graphics-lab K2x5+K3; mba project mgmt legacy-K7 garbage replaced), 498 probe-confirmed no-print + 19 missing-doc reclassified needs_review; flags 5844->5399; via G1/G2/G3/G6
