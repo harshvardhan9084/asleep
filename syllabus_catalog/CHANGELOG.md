@@ -1,3 +1,7 @@
+# CRON-20261108-B63 — CRON-20261108-B63 — 2026-11-08
+
+W8a audit-results hygiene: auditor-accuracy adjudications (KLS_BADVAL 140->0 K-ranges/nulls accepted; Warshal FP guard; BOOK_NUMART volume/year FPs out) + 24 evidence-backed edits (Warshalll x2, Behrooz Parhami, Geoffrey, 20 entry-start numbering strips) via G1/G2/G3/G6; 2 G6-gap rows deferred; flags 6025->5844
+
 # CRON-AUTO-B62 — CRON-AUTO-B62 — 2026-11-08
 
 W3 REX retry loop: +improved backfills applied (see manifest)

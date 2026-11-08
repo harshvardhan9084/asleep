@@ -37,7 +37,8 @@ W1_DICT = {
     "Parahami":    {"fix": "Parhami",    "ev": "ref: Behrooz Parhami, Computer Architecture (Oxford)", "wave": "W1"},
     "Vravice":     {"fix": "Vranesic",   "ev": "ref: Hamacher–Vranesic–Zaky, Computer Organization; entry co-authors confirm", "wave": "W1"},
     "Dijikstra":   {"fix": "Dijkstra",   "ev": "xrow: corpus prints 'Dijkstra' correctly on 7 other rows (E. W. Dijkstra, shortest path)", "wave": "W1"},
-    "Warshal":     {"fix": "Warshall",   "ev": "ref: Stephen Warshall (transitive closure); \\b-guarded so 'Warshall' itself never matches", "wave": "W1"},
+    "Warshal":     {"fix": "Warshall",   "pat": r"\bWarshal\b|\bWarshalll\b", "ev": "ref: Stephen Warshall (transitive closure); word-bounded so the correct 'Warshall' (2 l's) never matches; xrow: corpus prints 'Warshall' correctly on 5+ rows", "wave": "W1"},
+    "Geoftrey":    {"fix": "Geoffrey",    "ev": "xrow: corpus prints 'Geoffrey' correctly on 15 rows (Geoffrey Gordon, System Simulation, PHI)", "wave": "W1"},
     "Insertation": {"fix": "Insertion",  "ev": "ref: standard operation name 'Insertion' (sorting)", "wave": "W1"},
     "Boothbub":    {"fix": None,         "ev": None, "wave": None},  # placeholder: no auto-fix
 }
@@ -100,14 +101,18 @@ def audit_row(r, primary_owners):
         hay[f"{col}[{i}]"] = t
     for fld, text in hay.items():
         for wrong, meta in W1_TERMS.items():
-            if re.search(re.escape(wrong), text, re.IGNORECASE):
+            pat = meta.get("pat") or re.escape(wrong)
+            if re.search(pat, text, re.IGNORECASE):
                 add("AUTH_TYPO_" + wrong.lower(), f"fix:{meta['wave']}",
                     f"{wrong!r} → {meta['fix']!r} ({meta['ev']})", field=fld)
 
     # --- W2: book-entry hygiene
     for col, i, t in iter_book_strings(r):
-        if re.search(r"(?<![A-Za-z0-9])(\d{1,2})\.\s*[A-Z]", t) or re.search(r"\b\d{1,2}\.(?=[A-Z])", t[1:]):
-            add("BOOK_NUMART", "fix:W2", f"embedded numbering artifact: {t[:90]!r}", field=f"{col}[{i}]")
+        # entry-start list numbering only — 'Vol. N.' / 'NNNN-NN.' / mid-entry
+        # citation numbers are legitimate print (W8a adjudication of the W2
+        # leftovers: 32 of 33 residual flags were volume/year false positives)
+        if re.match(r"^\s*\d{1,2}[\.\)]\s*[^\s]", t):
+            add("BOOK_NUMART", "fix:W2", f"entry-start numbering artifact: {t[:90]!r}", field=f"{col}[{i}]")
         if " , " in t or re.search(r"\s,;", t):
             add("BOOK_SPACECOMMA", "fix:W2", "space-comma artifact in entry", field=f"{col}[{i}]")
         # merged entries: 2+ 'author, title' blocks joined by '; ' with distinct surnames
@@ -145,9 +150,15 @@ def audit_row(r, primary_owners):
     if ncos and isinstance(kls, list):
         if len(kls) < ncos:
             add("KLS_SHORT", "fix:W3", f"co_kls has {len(kls)} of {ncos} K-levels", field="co_kls")
-        bad = [k for k in kls if not (isinstance(k, str) and re.fullmatch(r"K[1-6]", k.strip()))]
+        # printed K-ranges ('K1/K2' = the doc prints K1 or K2) are legitimate
+        # print (W8a adjudication: all 140 residual flags were ranges) — only
+        # values outside K1-K6 tokens/ranges are bad
+        bad = [k for k in kls if k is not None and
+               not (isinstance(k, str) and re.fullmatch(r"K[1-6](/K[1-6])*", k.strip()))]
+        # None entries are RECORDED honest nulls ('K not printed for this CO',
+        # W3 partial backfills) — evidence, not errors
         if bad:
-            add("KLS_BADVAL", "needs_review", f"K-levels outside K1-K6: {bad[:6]}", field="co_kls")
+            add("KLS_BADVAL", "needs_review", f"K-levels outside K1-K6 tokens/ranges: {bad[:6]}", field="co_kls")
     elif ncos and not isinstance(kls, list):
         add("KLS_MISSING", "fix:W3", f"{ncos} COs but co_kls empty", field="co_kls")
 
