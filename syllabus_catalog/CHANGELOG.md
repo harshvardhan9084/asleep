@@ -1,3 +1,7 @@
+# CRON-AUTO-B65 — CRON-AUTO-B65 — 2026-11-08
+
+W8b page-image evidence wave: 519 KLS leftovers probed (text-layer + 200dpi OCR, zero-guess title gate); 2 verbatim backfills applied (eng-graphics-lab K2x5+K3; mba project mgmt legacy-K7 garbage replaced), 498 probe-confirmed no-print + 19 missing-doc reclassified needs_review; flags 5844->5399; via G1/G2/G3/G6
+
 # CRON-AUTO-B64 — CRON-AUTO-B64 — 2026-11-08
 
 W8c subject_type vocab normalization: 443 rows to controlled vocab (429 recorded-norm copy, 7 owner lab mapping, 6 BSC phrase, 1 VA print); 71 remain needs_review with decision memo; via G1/G2/G3/G6

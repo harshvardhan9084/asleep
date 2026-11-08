@@ -237,6 +237,38 @@ def main():
            "csv": a.csv, "rows_scanned": len(rows),
            "rows_flagged": len(out), "total_flags": sum(summary.values()),
            "summary": dict(summary.most_common()), "rows": out}
+
+    # W8b probe evidence override (zero data change): rows whose cited docs were
+    # probe-read (text-layer + OCR raster) without a recoverable printed K
+    # sequence keep the flag but as needs_review with the probe verdict, not
+    # fix:W3 — no further extraction attempt is warranted without new documents.
+    try:
+        import os
+        ck = json.load(open("/home/z/my-project/work/pipeline_v2/w8b_ocr_ckpt.json"))
+        probe = ck.get("results", {})
+    except Exception:
+        probe = {}
+    n_probe = 0
+    if probe:
+        for sid, fl in out.items():
+            pr = probe.get(sid)
+            if not pr:
+                continue
+            for f in fl:
+                if f.get("rule") in ("KLS_MISSING", "KLS_SHORT"):
+                    if pr.get("status") == "no_clean_sequence":
+                        f["action"] = "needs_review"
+                        f["detail"] = (f"{f['detail'][:150]} | W8b probe: no recoverable printed "
+                                       f"K sequence in cited docs ({pr.get('pages_probed', 0)} pages: "
+                                       "text-layer + OCR raster)")
+                        n_probe += 1
+                    elif pr.get("status") == "sha_unresolved":
+                        f["action"] = "needs_review"
+                        f["detail"] = (f"{f['detail'][:150]} | W8b probe: cited doc sha not locally "
+                                       "resolvable post-reset — re-supply PDF to resume")
+                        n_probe += 1
+        if n_probe:
+            res["w8b_probe_reclassified"] = n_probe
     with open(a.out, "w") as fh:
         json.dump(res, fh, indent=1, ensure_ascii=False)
     if not a.quiet:
