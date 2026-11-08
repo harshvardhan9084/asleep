@@ -1,3 +1,7 @@
+# CRON-20261108-B67 — CRON-20261108-B67 — 2026-11-08
+
+W9b scheme adjudications: 401 flags = 12 accepted-print (AKTU's own tables break the arithmetic) + 15 rows/31 print-proved field edits (credit 3->4 x3 latest-print; PS/TE labs sess 100->50; ct/ta extraction inventions emptied x8) + 269 honest needs_review with probe notes; via G1/G2/G3/G6
+
 # CRON-20261108-B66 — CRON-20261108-B66 — 2026-11-08
 
 W9a BOOK_TRUNC adjudication: 574 flags = 388 auditor-FP (publisher-whitelist rule upgrade) + 186 page-probed (1 verbatim heal applied, 36 accepted-print verified, 149 honest needs_review with page-cited probe notes); flags 5399->~4994

@@ -345,6 +345,46 @@ def main():
                     n9 += 1
         if n9:
             res["w9a_probe_reclassified"] = n9
+
+    # W9b probe evidence override (owner wave 2026-11-08): scheme-adjudication
+    # verdicts from the printed-scheme-row probe (provenance quotes + verbatim
+    # pipe rows + code-anchored doc probe; invariant-gated unique repairs
+    # applied in W9b apply). Zero data change here - actions/details only.
+    try:
+        adj = json.load(open("/home/z/my-project/work/pipeline_v2/w9b_adjudication.json"))
+        vd = adj.get("verdicts", {})
+    except Exception:
+        vd = {}
+    flag_rules = ("CREDIT_FORMULA", "SESS_SUM", "MARKS_SUM")
+    n10 = 0
+    if vd:
+        for sid, fl in out.items():
+            if not any(f.get("rule") in flag_rules for f in fl):
+                continue
+            v = vd.get(sid)
+            if not v:
+                continue
+            st = v.get("status")
+            ev = v.get("evidence", "")
+            if st == "accepted-print":
+                note = f" | W9b probe: printed scheme row matches storage ({ev}) - AKTU's own table breaks the arithmetic"
+            elif st == "no_print_found":
+                note = " | W9b probe: no printed scheme row recoverable (quote has no numbers; cited scheme docs missing or code-anchored row not found)"
+            elif st == "sha_unresolved":
+                note = " | W9b probe: cited scheme docs not locally resolvable post-reset - re-supply PDF to resume"
+            elif st == "stored_matches_no_print":
+                note = f" | W9b probe: printed row found ({ev}) but its numbers do not support any invariant-consistent repair of the stored values - stored form kept (zero-guess)"
+            elif st == "ambiguous":
+                note = f" | W9b probe: multiple invariant-consistent repairs possible from the printed row ({ev}) - not adjudicable without the printed column header"
+            else:
+                continue
+            for f in fl:
+                if f.get("rule") in flag_rules:
+                    f["action"] = "needs_review" if st != "accepted-print" else "accepted-print"
+                    f["detail"] = f["detail"][:180] + note
+                    n10 += 1
+        if n10:
+            res["w9b_probe_reclassified"] = n10
     with open(a.out, "w") as fh:
         json.dump(res, fh, indent=1, ensure_ascii=False)
     if not a.quiet:
