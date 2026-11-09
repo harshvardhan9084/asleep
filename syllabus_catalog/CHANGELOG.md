@@ -1,3 +1,7 @@
+# CRON-20261110-B75 — CRON-20261110-B75 — 2026-11-09
+
+W9b round-2 scheme invariants: 281 probed (12 accepted-print / 71 stored-matches-no-print / 198 no-print, 0 repairs exist); audit v22 accepted-print recorded-honest drop + durable W9b2 notes (281 verdicts); flags 892->879; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261110-B74 — CRON-20261110-B74 — 2026-11-09
 
 W10c TYPE_EMPTY corpus round: 385 probed code-anchored (print_category 31 written via same-page governing section headers incl. Department-Elective-<slot> grammar fix; cross_page 36 not written - demonstrated unsafe; 318 honest probe notes), audit reproduction 31/31; flags 923->892; G1/G2(6412)/G3/G6 PASS

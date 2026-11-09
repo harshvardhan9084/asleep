@@ -280,14 +280,21 @@ def audit_row(r, primary_owners):
 
     # --- W5: marks/credit formula variance (needs_review by design; per-row
     #     evidence reads decide faithful-print keep+flag vs extraction-error fix)
+    # v22 (2026-11-10, B75): durable W9b2 accepted-print verdicts (printed
+    # scheme row matches storage verbatim — AKTU's own table breaks the
+    # arithmetic) are recorded-honest, same semantics as v21 W9a
+    # verified_complete / v19 / v20: page-cited print evidence disproves the
+    # error suspicion, zero data change, flags dropped (scan-side via notes
+    # marker, ckpt drop kept as fallback).
+    _w9b2_ap = "W9b2 probe: accepted-print" in (r.get("notes", "") or "")
     L, T, P, cr = num(r.get("L")), num(r.get("T")), num(r.get("P")), num(r.get("credit"))
-    if None not in (L, T, P, cr) and abs(cr - (L + T + P / 2)) > 0.01:
+    if None not in (L, T, P, cr) and abs(cr - (L + T + P / 2)) > 0.01 and not _w9b2_ap:
         add("CREDIT_FORMULA", "needs_review", f"credit {cr:g} != L+T+P/2 = {L + T + P/2:g} (W5: faithful-print keep+flag vs fix-from-print)", field="credit")
     stt, ese, tm = num(r.get("sessional_total")), num(r.get("ese_te_pe")), num(r.get("total_marks"))
-    if None not in (stt, ese, tm) and abs(tm - (stt + ese)) > 0.01:
+    if None not in (stt, ese, tm) and abs(tm - (stt + ese)) > 0.01 and not _w9b2_ap:
         add("MARKS_SUM", "needs_review", f"total {tm:g} != sessional {stt:g} + ese {ese:g} (W5)", field="total_marks")
     ct, ta = num(r.get("sessional_ct")), num(r.get("sessional_ta"))
-    if None not in (ct, ta, stt) and abs(stt - (ct + ta)) > 0.01:
+    if None not in (ct, ta, stt) and abs(stt - (ct + ta)) > 0.01 and not _w9b2_ap:
         add("SESS_SUM", "needs_review", f"sessional_total {stt:g} != ct {ct:g} + ta {ta:g} (W5)", field="sessional_total")
 
     # --- consistency / codes
@@ -446,7 +453,8 @@ def main():
     except Exception:
         vd = {}
     flag_rules = ("CREDIT_FORMULA", "SESS_SUM", "MARKS_SUM")
-    n10 = 0
+    n10 = n10drop = 0
+    drops10 = []
     if vd:
         for sid, fl in out.items():
             if not any(f.get("rule") in flag_rules for f in fl):
@@ -457,7 +465,14 @@ def main():
             st = v.get("status")
             ev = v.get("evidence", "")
             if st == "accepted-print":
-                note = f" | W9b probe: printed scheme row matches storage ({ev}) - AKTU's own table breaks the arithmetic"
+                # v22: printed scheme row matches storage verbatim =
+                # recorded-honest (B67 class; zero data change; evidence in
+                # w9b ckpt + durable notes marker W9b2).
+                for f in fl:
+                    if f.get("rule") in flag_rules:
+                        drops10.append((sid, f))
+                        n10drop += 1
+                continue
             elif st == "no_print_found":
                 note = " | W9b probe: no printed scheme row recoverable (quote has no numbers; cited scheme docs missing or code-anchored row not found)"
             elif st == "sha_unresolved":
@@ -470,11 +485,20 @@ def main():
                 continue
             for f in fl:
                 if f.get("rule") in flag_rules:
-                    f["action"] = "needs_review" if st != "accepted-print" else "accepted-print"
+                    f["action"] = "needs_review"
                     f["detail"] = f["detail"][:180] + note
                     n10 += 1
+        for sid, f in drops10:
+            lst = out.get(sid)
+            if lst and f in lst:
+                lst.remove(f)
+                summary[f.get("rule")] -= 1
+                if not lst:
+                    out.pop(sid, None)
         if n10:
             res["w9b_probe_reclassified"] = n10
+        if n10drop:
+            res["w9b_probe_accepted_print_skipped"] = n10drop
     # v21: refresh snapshot fields after probe-evidence drops (rows/flags moved)
     res["rows_flagged"] = len(out)
     res["total_flags"] = sum(summary.values())
