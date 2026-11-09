@@ -1,3 +1,7 @@
+# CRON-20261110-B73 — CRON-20261110-B73 — 2026-11-09
+
+W9a round-2 BOOK_TRUNC: classify 1 auditor-FP (year+page citation tail whitelist) + 168 probed (78 print_garbled / 40 no_print / 24 verified_complete / 23 corroborated / 3 sha_unresolved, page-cited); audit v21 verified_complete recorded-honest drop + durable W9a2 notes (168 verdicts, 127 rows, notes-only diff); flags 948->923; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261109-B72 — B72 — 2026-11-09
 
 W10d TOKEN_N_LOWER recorded-honest: 26 flags->0 (10 rows, all spans probe-verified verbatim in cited docs: printed inline lecture-hour annotations / LR(0) notation); audit v20 guard; w3_kls_rex queue-rebuild patch post-reset; flags 974->948; G1/G2(6412)/G3/G6 PASS

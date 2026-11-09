@@ -159,6 +159,12 @@ def audit_row(r, primary_owners):
                     f"{wrong!r} → {meta['fix']!r} ({meta['ev']})", field=fld)
 
     # --- W2: book-entry hygiene
+    # v21 durability (2026-11-10, B73): durable W9a2 probe verdicts recorded in
+    # the row's notes (evidence surface, survives resets) skip BOOK_TRUNC
+    # emission per verified field — same recorded-honest class as the ckpt
+    # drop below (kept as fallback for rows without notes coverage).
+    _w9a2_vc = set(re.findall(r"W9a2 probe: verified_complete @ (\S+)",
+                              r.get("notes", "") or ""))
     for col, i, t in iter_book_strings(r):
         # entry-start list numbering only — 'Vol. N.' / 'NNNN-NN.' / mid-entry
         # citation numbers are legitimate print (W8a adjudication of the W2
@@ -177,12 +183,14 @@ def audit_row(r, primary_owners):
                       or re.match(r"^['\"“”]?(?:19|20)\d{2}\b.*,", t))
         _tail = re.sub(r"[.,;]?\s*['\"“”]*$", "", t.strip()).rstrip()
         _end_ok = (bool(re.search(r"(?:19|20)\d{2}[.,;)]?['\"“”]*$", _tail))
+                   or bool(re.search(r"(?:19|20)\d{2},\s*\d{1,4}[.,;)]?['\"“”]*$", _tail))
                    or _tail.lower().endswith(_PUB_SUFFIXES)
                    or bool(re.search(r"\b(?:by|ed\.?|eds\.?)\s+[A-Za-z.\s]{1,40}$",
                                      _tail, re.I)))
         if (re.search(r"\b(Concepts|Techniques|Fundamentals|Systems|Analysis|Theory)\b", t)
                 and (_start_bad or not _end_ok)
-                and not t.rstrip().endswith((".", "?", ")", '"'))):
+                and not t.rstrip().endswith((".", "?", ")", '"'))
+                and f"{col}[{i}]" not in _w9a2_vc):
             add("BOOK_TRUNC", "needs_review", f"possibly truncated entry: {t[-80:]!r}", field=f"{col}[{i}]")
 
     # --- W6: punctuation / unicode artifacts
@@ -378,7 +386,8 @@ def main():
         pr9 = ck9.get("results", {})
     except Exception:
         pr9 = {}
-    n9 = 0
+    n9 = n9drop = 0
+    drops9 = []
     if pr9:
         for sid, fl in out.items():
             for f in fl:
@@ -390,9 +399,15 @@ def main():
                 st = pr.get("status")
                 ev = pr.get("evidence", "")
                 if st == "verified_complete":
-                    f["action"] = "accepted-print"
-                    f["detail"] += f" | W9a probe: printed entry verified complete (verbatim print) at {ev}"
-                    n9 += 1
+                    # v21 (2026-11-10, B73): printed entry verified complete
+                    # (verbatim print at cited page) = auditor false positive
+                    # recorded-honest — B66 accepted-print class, same
+                    # semantics as v19 kls_not_printed / v20 TOKEN_N: the
+                    # stored entry matches the print, so the truncation
+                    # suspicion is disproven by page-cited evidence. Zero
+                    # data change; flag dropped (evidence stays in w9a ckpt).
+                    drops9.append((sid, f))
+                    n9drop += 1
                 elif st == "print_garbled":
                     f["action"] = "needs_review"
                     f["detail"] += f" | W9a probe: source print itself ends abruptly (print-faithful storage) at {ev}"
@@ -409,8 +424,17 @@ def main():
                     f["action"] = "needs_review"
                     f["detail"] += " | W9a probe: cited doc sha not locally resolvable post-reset - re-supply PDF to resume"
                     n9 += 1
+        for sid, f in drops9:
+            lst = out.get(sid)
+            if lst and f in lst:
+                lst.remove(f)
+                summary[f.get("rule", "BOOK_TRUNC")] -= 1
+                if not lst:
+                    out.pop(sid, None)
         if n9:
             res["w9a_probe_reclassified"] = n9
+        if n9drop:
+            res["w9a_probe_verified_complete_skipped"] = n9drop
 
     # W9b probe evidence override (owner wave 2026-11-08): scheme-adjudication
     # verdicts from the printed-scheme-row probe (provenance quotes + verbatim
@@ -451,6 +475,10 @@ def main():
                     n10 += 1
         if n10:
             res["w9b_probe_reclassified"] = n10
+    # v21: refresh snapshot fields after probe-evidence drops (rows/flags moved)
+    res["rows_flagged"] = len(out)
+    res["total_flags"] = sum(summary.values())
+    res["summary"] = dict(summary.most_common())
     with open(a.out, "w") as fh:
         json.dump(res, fh, indent=1, ensure_ascii=False)
     if not a.quiet:
