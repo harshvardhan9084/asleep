@@ -103,6 +103,27 @@ def iter_book_strings(r):
                     yield col, i, t
 
 
+_ABBREV_WORDS = {"e.g", "i.e", "viz", "etc", "no", "inc", "ltd", "co", "corp", "pvt",
+                 "sons", "bros", "dr", "mr", "mrs", "st", "vs", "vol", "pp", "fig",
+                 "eq", "approx", "jr", "sr", "etc.", "al", "ed", "eds"}
+
+
+def _abbrev_guard(text, dot_pos):
+    """v17: same guard as w6_artifacts.is_abbrev (self-contained copy — that
+    script is a wave runner with top-level side effects, not importable)."""
+    start = max(text.rfind(" ", 0, dot_pos), text.rfind("\n", 0, dot_pos), 0)
+    word = text[start:dot_pos].strip()
+    if not word:
+        return False
+    if word.lstrip("(").lower() in _ABBREV_WORDS:
+        return True
+    if re.fullmatch(r"[A-Za-z]", word):
+        return True
+    if re.fullmatch(r"(?:[A-Za-z]\.)+[A-Za-z]", word):
+        return True
+    return False
+
+
 def audit_row(r, primary_owners):
     flags = []
     sid = r.get("subject_id", "")
@@ -157,8 +178,14 @@ def audit_row(r, primary_owners):
             add("BOOK_TRUNC", "needs_review", f"possibly truncated entry: {t[-80:]!r}", field=f"{col}[{i}]")
 
     # --- W6: punctuation / unicode artifacts
+    # v17 remedy (W10a adjudication, W9a auditor-FP precedent): '.,' behind a
+    # W6 abbreviation guard (etc., / i.e., / e.g., / viz., / No., / initials,
+    # dotted initialisms) is legitimate print — the W6 fixer keeps it, so the
+    # auditor must not flag it. Flag only a NON-guarded '.,' (or ',,').
     for fld, text in hay.items():
-        if re.search(r"\.,|,,|,\s*,", text):
+        _punct_bad = bool(re.search(r",,|,\s*,", text)) or any(
+            not _abbrev_guard(text, m.start()) for m in re.finditer(r"\.,", text))
+        if _punct_bad:
             add("PUNCT_ARTIFACT", "fix:W6", "stray '.,'/',,' punctuation", field=fld)
         if MATH_BLOCK.search(text):
             add("MATH_ITALIC", "fix:W6", "math-italic Unicode decode artifact", field=fld)

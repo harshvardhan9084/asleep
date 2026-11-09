@@ -23,7 +23,7 @@ TF = [f"unit{i}_text" for i in range(1, 6)] + [f"co{i}_text" for i in range(1, 7
 JF = ["textbooks_structured", "reference_books_structured", "experiments_structured"]
 
 ABBREV = {"e.g", "i.e", "viz", "etc", "No", "Inc", "Ltd", "Co", "Corp", "Pvt", "Sons",
-          "Bros", "Dr", "Mr", "Mrs", "St", "vs", "Vol", "pp", "Fig", "Eq", "approx", "Jr", "Sr"}
+          "Bros", "Dr", "Mr", "Mrs", "St", "vs", "Vol", "pp", "Fig", "Eq", "approx", "Jr", "Sr", "al", "ed", "eds"}
 
 
 def is_abbrev(text, dot_pos):
@@ -32,7 +32,7 @@ def is_abbrev(text, dot_pos):
     word = text[start:dot_pos].strip()
     if not word:
         return False
-    if word.lower() in {a.lower() for a in ABBREV}:
+    if word.lstrip("(").lower() in {a.lower() for a in ABBREV}:
         return True
     if re.fullmatch(r"[A-Za-z]", word):          # single initial: 'J.,'
         return True
@@ -101,6 +101,7 @@ for r in rows:
         except Exception:
             continue
         k = "exp" if col == "experiments_structured" else "book"
+        _arr_changed = False
         for i, b in enumerate(arr):
             if not isinstance(b, dict):
                 continue
@@ -111,6 +112,10 @@ for r in rows:
             if new != t:
                 edits_here.append((f"{col}[{i}]", t, new, "PUNCT_ARTIFACT", "+".join(sorted(set(changed)))))
                 b[k] = new
+                _arr_changed = True
+        if _arr_changed:  # W10a2 remedy (B70): actually persist the JF edit —
+            r[col] = json.dumps(arr, ensure_ascii=False)  # B54-B69 mutated the
+            # parsed array only (metadata-only corrections); write-back missing.
     if edits_here:
         cjson = json.loads(r.get("corrections_json", "") or "[]")
         qf = [f for f in (r.get("quality_flags", "") or "").split(";") if f.strip()]

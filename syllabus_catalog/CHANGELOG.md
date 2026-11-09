@@ -1,3 +1,7 @@
+# CRON-20261109-B70 — CRON-AUTO-B70 — 2026-11-09
+
+W10a/a2 flag-fix program: PUNCT_ARTIFACT 3281->0 (W6-rerun TF fixes + audit v18 abbrev guard al/ed/eds/paren + W10a2 actual book-field write-back 369 fixes + 180 no-op ledger repairs; B54 write-back bug found and patched); flags 4908->1627; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261109-B69 — CRON-AUTO-B69 — 2026-11-09
 
 owner-directive prune: -12 non-subject rows (8 semester_summary + 2 program_rule + 2 elective_pool, zero course codes) + -k_era_pool_codes column (1 cell in 3097, on a deleted pool row; pool membership lives in all_codes+choice_group_id); schema 63->62 v2.1, rows 3097->3085; G1/G2(6412)/G3/G6 PASS
