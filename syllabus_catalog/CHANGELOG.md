@@ -1,3 +1,7 @@
+# CRON-20261110-B74 — CRON-20261110-B74 — 2026-11-09
+
+W10c TYPE_EMPTY corpus round: 385 probed code-anchored (print_category 31 written via same-page governing section headers incl. Department-Elective-<slot> grammar fix; cross_page 36 not written - demonstrated unsafe; 318 honest probe notes), audit reproduction 31/31; flags 923->892; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261110-B73 — CRON-20261110-B73 — 2026-11-09
 
 W9a round-2 BOOK_TRUNC: classify 1 auditor-FP (year+page citation tail whitelist) + 168 probed (78 print_garbled / 40 no_print / 24 verified_complete / 23 corroborated / 3 sha_unresolved, page-cited); audit v21 verified_complete recorded-honest drop + durable W9a2 notes (168 verdicts, 127 rows, notes-only diff); flags 948->923; G1/G2(6412)/G3/G6 PASS
