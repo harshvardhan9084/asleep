@@ -12,7 +12,7 @@
 - Verdicts (385): print_category 31 (same-page governing header) / cross_page_section 36 / no_header_above 178 / no_code_print_found 140.
 
 ## Apply (w10c_apply.py)
-- WRITES only for the 31 print_category rows → subject_type ∈ {open-elective 5, departmental-elective 11, elective 15} — wait, corrected split: from ckpt cats across both verdict classes the same-page 31 reproduce as written (per-row split in corrections_json). Each write: corrections_json {before:'',after:<cat>,rule:TYPE_EMPTY,evidence:<file#sha p.N>,wave:W10c} + verification_status=corrected + corrected_W10C_CATEGORY tag + subject_type_norm mirror + change_note + notes marker.
+- WRITES only for the 31 print_category rows → subject_type ∈ {elective 18, departmental-elective 10, open-elective 3} (per-row split in corrections_json). Each write: corrections_json {before:'',after:<cat>,rule:TYPE_EMPTY,evidence:<file#sha p.N>,wave:W10c} + verification_status=corrected + corrected_W10C_CATEGORY tag + subject_type_norm mirror + change_note + notes marker.
 - cross_page_section deliberately NOT written: doc-continuity demonstrated unsafe on textile-era schemes (cores listed pages after unrelated section headers, e.g. ETEF-304 wet-processing). Honest flags kept.
 - Durable "W10c probe:" notes on all 385 targets (idempotent) — probe evidence survives resets; ckpt committed to syllabus_catalog/runs/w10c_ckpt.json.
 
