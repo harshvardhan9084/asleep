@@ -23,7 +23,7 @@ REF_HEADER = ["subject_id","row_kind","subject_name","subject_name_print","prima
 "prerequisites","co_count","co1_text","co2_text","co3_text","co4_text","co6_text","co5_text",
 "co_kls","units_count","lectures_per_unit","unit1_text","unit2_text","unit3_text","unit4_text",
 "unit5_text","textbooks_structured","reference_books_structured","experiments_structured",
-"choice_group_id","choice_group_policy","eligibility_print","k_era_pool_codes","source_syllabus",
+"choice_group_id","choice_group_policy","eligibility_print","source_syllabus",
 "source_scheme_line","source_history","change_note_vs_previous","notes","objectives_print",
 # schema v2 (owner decision D2, 2026-11-08): 6 new columns appended (RULES §5 G1)
 "subject_name_display","subject_type_norm","quality_flags","corrections_json",
@@ -40,7 +40,7 @@ def norm_code(c):
 
 def codes_of_row(r):
     toks = set()
-    for field in ("primary_code", "all_codes", "code_history_all", "k_era_pool_codes"):
+    for field in ("primary_code", "all_codes", "code_history_all"):
         for m in CODE_RE.finditer(r.get(field, "") or ""):
             toks.add(m.group(1) + m.group(2) + (m.group(3) or ""))
     return toks
@@ -167,8 +167,7 @@ def cross_course_hits(dsub, rows, course):
 # ---------------- ladder ----------------
 
 # B2 remedy (brain clause, recorded): Tier-0 identity is restricted to
-# OWNERSHIP tokens (primary_code + all_codes) plus exact k_era_pool_codes
-# tokens. code_history_all is a NARRATIVE field by recorded v6/B01 design (it
+# OWNERSHIP tokens (primary_code + all_codes). code_history_all is a NARRATIVE field by recorded v6/B01 design (it
 # documents misprints, retirements and code-slot re-use: e.g. BCS403's history
 # says it "replaces the retired KCS403 Microprocessor slot" — KCS403(2021-22)
 # Microprocessor and BCS403(2023-24) OOP-with-Java are DIFFERENT subjects; a

@@ -1,3 +1,7 @@
+# CRON-20261109-B69 — CRON-AUTO-B69 — 2026-11-09
+
+owner-directive prune: -12 non-subject rows (8 semester_summary + 2 program_rule + 2 elective_pool, zero course codes) + -k_era_pool_codes column (1 cell in 3097, on a deleted pool row; pool membership lives in all_codes+choice_group_id); schema 63->62 v2.1, rows 3097->3085; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261108-B68 — CRON-20261108-B68 — 2026-11-08
 
 W9c W8c memo adjudication: all 71 TYPE_RAW rows mapped to the controlled vocab via committed precedent classes (recorded_copy with per-row citations); TYPE_RAW 71->0; subject_type+norm set, corrections_json before/after; via G1/G2/G3/G6
