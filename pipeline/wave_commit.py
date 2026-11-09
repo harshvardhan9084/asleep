@@ -158,7 +158,7 @@ def refresh_flags_consumed(wave_rules_fixed):
         doc = json.load(open(AUDIT_FLAGS))
     except Exception:
         return
-    for sid, fl in doc.get("rows", {}).items():
+    for sid, fl in list(doc.get("rows", {}).items()):
         keep = []
         for f in fl:
             rl = f.get("rule", "")

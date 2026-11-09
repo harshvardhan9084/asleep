@@ -67,6 +67,27 @@ for sid, fl in flags_doc.get("rows", {}).items():
         if f.get("rule") in ("KLS_MISSING", "KLS_SHORT") and f.get("action", "").startswith("fix:"):
             targets.append(sid)
             break
+# audit v19 (2026-11-09): raster-candidate rows carry needs_review KLS flags —
+# still the real OCR evidence path. Select them from the CSV tags directly.
+for r in rows:
+    if r.get("row_kind") != "subject":
+        continue
+    qf = r.get("quality_flags", "") or ""
+    if "kls_raster_candidate" not in qf:
+        continue
+    sid = r["subject_id"]
+    if sid in targets:
+        continue
+    kls = None
+    try:
+        kls = json.loads(r.get("co_kls", "") or "[]") if (r.get("co_kls", "") or "").strip() else None
+    except Exception:
+        kls = None
+    ncos = sum(1 for i in range(1, 7) if (r.get(f"co{i}_text", "") or "").strip())
+    if not ncos:
+        continue
+    if not isinstance(kls, list) or len(kls) < ncos:
+        targets.append(sid)
 targets = sorted(set(targets))
 if SMOKE:
     targets = targets[:2]

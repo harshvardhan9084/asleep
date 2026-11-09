@@ -1,3 +1,7 @@
+# CRON-20261109-B71 — CRON-AUTO-B71 — 2026-11-09
+
+W10b+W3+W8b flag-fix run: TYPE_EMPTY 521->385 (136 evidence writes, §6b), audit v19 vocab+KLS recorded-honest semantics, W3 KLS 517->0 (prompt restored post-reset, parse K-range contract fix, 22 REX zero-null honest) + W8b OCR 109pg null-tag 12; flags 1627->974; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261109-B70 — CRON-AUTO-B70 — 2026-11-09
 
 W10a/a2 flag-fix program: PUNCT_ARTIFACT 3281->0 (W6-rerun TF fixes + audit v18 abbrev guard al/ed/eds/paren + W10a2 actual book-field write-back 369 fixes + 180 no-op ledger repairs; B54 write-back bug found and patched); flags 4908->1627; G1/G2(6412)/G3/G6 PASS

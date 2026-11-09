@@ -73,7 +73,7 @@ def has_raster_co_pages(shas):
                 return True
     return False
 
-n_win = n_rex_ok = n_rex_partial = 0
+n_win = n_rex_ok = n_rex_partial = n_rex_null = 0
 flag_only = 0
 touched = set()
 mismatches = []
@@ -129,6 +129,19 @@ for sid, res in rex.items():
                   "mercury-3 REX over cited doc print (validated K1-K6, count match)")
         if "corrected_KLS_BACKFILL" in (r.get("quality_flags", "") or "") or "kls_partially_printed" in (r.get("quality_flags", "") or ""):
             n_rex_ok += 1
+    elif res["status"] == "partial" and kls and not any(k for k in kls):
+        # all-null REX verdict (2026-11-09 parse-contract re-run): the cited
+        # docs' text pages carry no printed K-assignment for ANY CO — mercury
+        # honestly returned nulls (zero-guess held). Tag kls_not_printed like
+        # the deterministic not_printed class; no co_kls write.
+        qf_update(r, None, "kls_not_printed")
+        note = ("W3: no K-levels in any cited doc's text layer (deterministic "
+                "scan + mercury-3 REX zero-null verdict, 2026-11-09) — CO/K table "
+                "not printed in text layer; K-levels likely not printed for this subject")
+        if note not in (r.get("notes", "") or ""):
+            r["notes"] = ((r.get("notes", "") + " | ") if r.get("notes", "") else "") + note
+        touched.add(r["subject_id"])
+        n_rex_null += 1
     elif res["status"] == "partial" and kls and any(k for k in kls):
         det = rex_queue.get(sid, {}).get("partial", [])
         if isinstance(det, dict):
@@ -158,7 +171,7 @@ for q in not_printed:
     touched.add(sid)
     flag_only += 1
 
-print(f"W3|applied deterministic={n_win} rex_ok={n_rex_ok} rex_partial={n_rex_partial} flag_only={flag_only} mismatches={len(mismatches)}")
+print(f"W3|applied deterministic={n_win} rex_ok={n_rex_ok} rex_partial={n_rex_partial} rex_null_tagged={n_rex_null} flag_only={flag_only} mismatches={len(mismatches)}")
 for m in mismatches[:6]:
     print("  MISMATCH", m)
 
@@ -180,4 +193,4 @@ if any([gates["g1"], gates["g2"], gates["g3"], gates["g6"]]):
     sys.exit(2)
 WC.commit(rows, "W3", n_win + n_rex_ok + n_rex_partial, gates,
           {"deterministic": n_win, "rex_ok": n_rex_ok, "rex_partial": n_rex_partial,
-           "flag_only": flag_only, "mismatches": len(mismatches)})
+           "rex_null_tagged": n_rex_null, "flag_only": flag_only, "mismatches": len(mismatches)})

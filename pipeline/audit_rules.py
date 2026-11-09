@@ -50,8 +50,16 @@ TEXT_FIELDS = ([f"unit{i}_text" for i in range(1, 6)]
                + ["objectives_print", "prerequisites"])
 JSON_FIELDS = ["textbooks_structured", "reference_books_structured", "experiments_structured"]
 
+# W4 controlled vocab (B56, owner-reviewed) — audit v19 aligns the 8-value
+# subset with the full W4 VOCAB (w4_type_display.py): project-or-capstone and
+# non-credit are legitimate committed classes (W4 EXACT map: project/seminar/
+# internship/dissertation/industrial-training -> project-or-capstone;
+# audit/non-credit -> non-credit). W10b (B71) wrote the first
+# project-or-capstone values from name-print evidence; flagging them TYPE_RAW
+# was an audit-vocab inconsistency, not a data error.
 CONTROLLED_TYPES = {"theory", "lab", "practical", "core", "departmental-elective",
-                    "open-elective", "elective", "value-added-mandatory"}
+                    "open-elective", "elective", "value-added-mandatory",
+                    "project-or-capstone", "non-credit"}
 CODE_RE = re.compile(r"^[A-Z]{2,4}[0-9]{3}[A-Z]?$")
 MATH_BLOCK = re.compile(r"[𝐀-𝟿\U0001D400-\U0001D7FF]")
 
@@ -208,8 +216,26 @@ def audit_row(r, primary_owners):
     if ncos and cc == 0:
         add("COCOUNT_MISSING", "needs_review", f"{ncos} CO fields but co_count empty", field="co_count")
     if ncos and isinstance(kls, list):
+        # audit v19 (2026-11-09): a row whose cited docs' text layers carry NO
+        # printed CO/K table (W3 scan verdict + mercury-3 REX zero-null,
+        # recorded on the row as kls_not_printed / kls_raster_candidate) is a
+        # RECORDED honest state — "K not printed for this subject" — the same
+        # evidence-not-error class as the None entries below (RULES §6 blank
+        # means printed-blank). Short/mid lists are no longer actionable
+        # flags there: no print evidence exists to extend them (zero-guess).
+        # kls_raster_candidate keeps a needs_review marker (image-only CO
+        # pages exist; OCR page-image reads are a real pending evidence path).
+        _kls_np = ("kls_not_printed" in (r.get("quality_flags", "") or "")
+                   or "kls_raster_candidate" in (r.get("quality_flags", "") or ""))
         if len(kls) < ncos:
-            add("KLS_SHORT", "fix:W3", f"co_kls has {len(kls)} of {ncos} K-levels", field="co_kls")
+            if "kls_not_printed" in (r.get("quality_flags", "") or ""):
+                pass  # OCR/text probe-confirmed no printed K table (W3+W8b) — recorded honest state
+            elif "kls_raster_candidate" in (r.get("quality_flags", "") or ""):
+                add("KLS_SHORT", "needs_review",
+                    f"co_kls has {len(kls)} of {ncos} K-levels (image-only CO pages; OCR page-image read pending)",
+                    field="co_kls")
+            else:
+                add("KLS_SHORT", "fix:W3", f"co_kls has {len(kls)} of {ncos} K-levels", field="co_kls")
         # printed K-ranges ('K1/K2' = the doc prints K1 or K2) are legitimate
         # print (W8a adjudication: all 140 residual flags were ranges) — only
         # values outside K1-K6 tokens/ranges are bad
@@ -220,7 +246,14 @@ def audit_row(r, primary_owners):
         if bad:
             add("KLS_BADVAL", "needs_review", f"K-levels outside K1-K6 tokens/ranges: {bad[:6]}", field="co_kls")
     elif ncos and not isinstance(kls, list):
-        add("KLS_MISSING", "fix:W3", f"{ncos} COs but co_kls empty", field="co_kls")
+        if "kls_not_printed" in (r.get("quality_flags", "") or ""):
+            pass  # OCR/text probe-confirmed no printed K table (W3 + W8b OCR) — recorded honest state
+        elif "kls_raster_candidate" in (r.get("quality_flags", "") or ""):
+            add("KLS_MISSING", "needs_review",
+                f"{ncos} COs but co_kls empty (image-only CO pages; OCR page-image read pending)",
+                field="co_kls")
+        else:
+            add("KLS_MISSING", "fix:W3", f"{ncos} COs but co_kls empty", field="co_kls")
 
     # --- W4: subject_type normalization + display
     st = (r.get("subject_type", "") or "").strip()

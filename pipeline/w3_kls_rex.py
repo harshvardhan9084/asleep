@@ -104,7 +104,12 @@ def parse_kls(txt, n):
     for o in arr:
         if isinstance(o, dict) and isinstance(o.get("no"), int) and 1 <= o["no"] <= n:
             kl = o.get("kl")
-            if isinstance(kl, str) and re.fullmatch(r"K[1-6]", kl.strip().upper()):
+            if isinstance(kl, str) and re.fullmatch(r"K[1-6](/K[1-6])*", kl.strip().upper()):
+                # W8a adjudication (audit v18/v19): printed K-RANGES ("K1/K2" =
+                # the doc prints K1 or K2) are legitimate print — parse accepts
+                # them verbatim (uppercase, order preserved). First W3 run
+                # (2026-11-09) rejected ranges -> 22 all-null false partials;
+                # results reset and re-run with this contract.
                 kls[o["no"]] = kl.strip().upper()
             else:
                 kls[o["no"]] = None
