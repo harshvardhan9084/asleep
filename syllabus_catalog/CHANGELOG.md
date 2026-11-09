@@ -1,3 +1,7 @@
+# CRON-20261109-B72 — B72 — 2026-11-09
+
+W10d TOKEN_N_LOWER recorded-honest: 26 flags->0 (10 rows, all spans probe-verified verbatim in cited docs: printed inline lecture-hour annotations / LR(0) notation); audit v20 guard; w3_kls_rex queue-rebuild patch post-reset; flags 974->948; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261109-B71 — CRON-AUTO-B71 — 2026-11-09
 
 W10b+W3+W8b flag-fix run: TYPE_EMPTY 521->385 (136 evidence writes, §6b), audit v19 vocab+KLS recorded-honest semantics, W3 KLS 517->0 (prompt restored post-reset, parse K-range contract fix, 22 REX zero-null honest) + W8b OCR 109pg null-tag 12; flags 1627->974; G1/G2(6412)/G3/G6 PASS

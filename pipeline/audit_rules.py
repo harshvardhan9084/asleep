@@ -50,7 +50,7 @@ TEXT_FIELDS = ([f"unit{i}_text" for i in range(1, 6)]
                + ["objectives_print", "prerequisites"])
 JSON_FIELDS = ["textbooks_structured", "reference_books_structured", "experiments_structured"]
 
-# W4 controlled vocab (B56, owner-reviewed) — audit v19 aligns the 8-value
+# W4 controlled vocab (B56, owner-reviewed) — audit v19/v20 aligns the 8-value
 # subset with the full W4 VOCAB (w4_type_display.py): project-or-capstone and
 # non-credit are legitimate committed classes (W4 EXACT map: project/seminar/
 # internship/dissertation/industrial-training -> project-or-capstone;
@@ -186,6 +186,12 @@ def audit_row(r, primary_owners):
             add("BOOK_TRUNC", "needs_review", f"possibly truncated entry: {t[-80:]!r}", field=f"{col}[{i}]")
 
     # --- W6: punctuation / unicode artifacts
+    # audit v20 (2026-11-09, W10d recorded-honest semantics): rows whose
+    # w10d_token_n_faithful_print tag records that every (n)+lowercase span was
+    # probed verbatim in the cited docs' text layers (printed inline
+    # lecture-hour annotations / academic notation) are no longer flags — same
+    # evidence-not-error class as the kls_not_printed entries (v19).
+    _tokn_honest = "w10d_token_n_faithful_print" in (r.get("quality_flags", "") or "")
     # v17 remedy (W10a adjudication, W9a auditor-FP precedent): '.,' behind a
     # W6 abbreviation guard (etc., / i.e., / e.g., / viz., / No., / initials,
     # dotted initialisms) is legitimate print — the W6 fixer keeps it, so the
@@ -197,7 +203,7 @@ def audit_row(r, primary_owners):
             add("PUNCT_ARTIFACT", "fix:W6", "stray '.,'/',,' punctuation", field=fld)
         if MATH_BLOCK.search(text):
             add("MATH_ITALIC", "fix:W6", "math-italic Unicode decode artifact", field=fld)
-        if re.search(r"\(\d{1,2}\)\s+[a-z]", text):
+        if not _tokn_honest and re.search(r"\(\d{1,2}\)\s+[a-z]", text):
             add("TOKEN_N_LOWER", "needs_review", "(n) lowercase stray token", field=fld)
     nm = r.get("subject_name", "") or ""
     if re.search(r"\.,|,,|  ", nm):

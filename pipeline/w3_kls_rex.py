@@ -21,7 +21,41 @@ PROMPT = "/home/z/my-project/scripts/pipeline_v2/w3_rex_prompt.md"
 RESULTS = f"{BASE}/w3_rex_results.json"
 
 rows = {r["subject_id"]: r for r in csv.DictReader(open(CSV, newline="", encoding="utf-8"))}
-queue = json.load(open(f"{BASE}/w3_rex_queue.json"))
+QF = f"{BASE}/w3_rex_queue.json"
+if os.path.exists(QF):
+    queue = json.load(open(QF))
+else:
+    # Queue file lost to a workspace reset: rebuild deterministically from the
+    # registry (same signature the B71 scan used). True REX leftovers are only
+    # rows whose co_kls array is shorter than co_count (or absent while CO texts
+    # exist) and which carry NO recorded W3 verdict tag; applied rows and
+    # evidence-recorded rows (kls_not_printed; raster-tag rows whose array is
+    # complete) are final. B71 durable truth: rex_queue=22, all-null verdicts
+    # tagged; this rebuild yields 0 -> W3 closed (audit v19: no KLS flags).
+    queue = []
+    for sid, r in rows.items():
+        blob = " ".join((r.get("quality_flags") or "", r.get("corrections_json") or "",
+                         r.get("notes") or ""))
+        if "kls_not_printed" in blob or "kls_raster_candidate" in blob:
+            continue
+        try:
+            n = int(r.get("co_count") or 0)
+        except ValueError:
+            n = 0
+        if n <= 0:
+            continue
+        ck = (r.get("co_kls") or "").strip()
+        kls = None
+        if ck:
+            try:
+                kls = json.loads(ck)
+            except Exception:
+                kls = None
+        if not isinstance(kls, list) or len(kls) < n:
+            if sum(1 for i in range(1, 7) if (r.get(f"co{i}_text") or "").strip()):
+                shas = re.findall(r"#([0-9a-f]{16})", r.get("source_syllabus") or "")
+                queue.append({"sid": sid, "co_count": n, "shas": shas})
+    print(f"W3-REX|queue file absent -> rebuilt from registry: {len(queue)} leftovers")
 done = {}
 if os.path.exists(RESULTS):
     done = json.load(open(RESULTS))
@@ -116,6 +150,11 @@ def parse_kls(txt, n):
     return [kls.get(i) for i in range(1, n + 1)] if len(kls) == n else None
 
 # ---- tiny test call (owner directive: confirm API BEFORE batch drafting)
+# Only when there is real REX work: an empty todo is the honest COMPLETE state
+# and must not spend an API call.
+if not todo:
+    print("W3-REX|COMPLETE {'ok': 0, 'parse_fail': 0, 'api_fail': 0, 'partial': 0} (todo=0 — W3 closed)")
+    sys.exit(0)
 rc, out = call_mercury("Reply with the single word: OK")
 print(f"W3-REX|tiny_test rc={rc} out={out[:40]!r}")
 if rc != 0:
