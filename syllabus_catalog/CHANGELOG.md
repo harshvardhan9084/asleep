@@ -1,3 +1,7 @@
+# CRON-20261110-B76 — CRON-20261110-B76 — 2026-11-10
+
+W10c2 full-doc re-probe + B74 integrity re-audit: wrap-masquerade grammar class discovered (wrapped name-cell tails masquerading as section headers); 22 B74 writes reverted page-cited, 1 tightened write (BTT051 dept-elective); durable W10c2 probe+reaudit notes; flags 879->900 (honest re-flag); G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261110-B75 — CRON-20261110-B75 — 2026-11-09
 
 W9b round-2 scheme invariants: 281 probed (12 accepted-print / 71 stored-matches-no-print / 198 no-print, 0 repairs exist); audit v22 accepted-print recorded-honest drop + durable W9b2 notes (281 verdicts); flags 892->879; G1/G2(6412)/G3/G6 PASS
