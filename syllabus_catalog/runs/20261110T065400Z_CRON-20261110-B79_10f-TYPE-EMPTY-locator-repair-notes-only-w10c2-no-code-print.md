@@ -1,0 +1,15 @@
+# CRON-20261110-B79 — W10f TYPE_EMPTY locator repair (notes-only) — audit-side evidence round
+
+- Start state: flags 816 (B78 @c83deb3); workspace reset #61 recovered (.env 7 keys, repo clone @c83deb3, CSV md5 c32cf5c0 verified, toolchain re-synced, corpus_map rebuilt 610 shas).
+- wave_runner --loop: NOOP (w3_kls_rex queue rebuild → 0 leftovers; todo=0, W3 closed).
+- W10f locator repair (new scripts/pipeline_v2/w10f_locator_reprobe.py):
+  - Discovery: w10c2's no_code_print_found verdicts (140 rows) are partially FALSE — codes with 5+ letter prefixes (BMBAI304, RMBI MK08, BMBAOM04) escape the variant regex ^([A-Z]{2,4})(\d{3}[A-Z]?)$; verified 4/4 sampled rows' codes print in cited docs (e.g. "BMBAI 304" @ mba_business-analytics_y2_syllabus_2025-26.pdf#89395bea p.8).
+  - Re-probe of all 375 TYPE_EMPTY rows with a token-concat locator (1-3 adjacent alnum tokens, squash equality, shape-guarded so scheme number columns cannot concat-fake a code) + the COMMITTED B74/B76 header grammar unchanged (MAX_GAP=8, wrap-continuation, column-header isolation, semester-break, differing-intervening-header).
+  - Verdicts: code_found_no_header 283 / code_really_absent 58 / no_primary_code 34 / print_category 0 / conflicting_headers 0.
+  - Zero writes: no governing section header anywhere on the newly-anchored pages under the committed grammar (the MBA "Elective 5:" slot labels and "Elective Subjects in <Sem>"/"ELECTIVE PAPERS" forms stay excluded per B76 tightness — no grammar expansion without owner adjudication).
+  - CSV diff: notes-only, 369 cells, all appends ("W10f probe:" verdicts correcting/confirming the W10c2 locator record; verified vs backup: 0 non-notes cells changed).
+- Negative-evidence closure recorded (cumulative, B79): for all 375 TYPE_EMPTY rows — name/-lab suffix arm 0 contacts (subject_name, subject_name_print, source_scheme_line all scanned); scheme-category arm 0 usable prints (694 code-printing pages scanned → 1 Category-label cell, value 'Periods', a table-header artifact); header grammar 0 survivors after locator repair. The auditor contract's both arms are page-level exhausted; rows stay honestly flagged.
+- Flags: 816 (unchanged — evidence-completeness round, zero data writes). Gates G1 PASS / G2 PASS codes=6412 / G3 PASS / G6 PASS (touched=0, notes are non-content per B74/B75/B76/B78 convention).
+- Smoke incident (recorded): first smoke run committed 6 wrong notes (locator w=1 shape-guard bug: letters-only guard rejected mixed-alnum codes); CSV restored from pre-commit backup (md5 c32cf5c0 re-verified), locator fixed (single-token exact equality needs no shape guard), re-ran — 6/6 correct verdicts; no wrong data shipped.
+- T2T transparency (owner standing directive): calls_attempted=0, http_200=0, 429=0, 402/key-fails=0, empty_after_retry=0, subagent_fallbacks=0, keys active in .env=5 (+cooldown 300s). Zero LLM/T2T usage — all reads deterministic fitz text-layer; no OCR this round.
+- Durable artifacts: runs/w10f_ckpt.json (375 verdicts), scripts w10f_locator_reprobe.py, this manifest.
