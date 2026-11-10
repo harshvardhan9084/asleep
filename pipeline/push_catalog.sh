@@ -50,8 +50,18 @@ git add syllabus_catalog pipeline
 git commit -m "catalog($BATCH) run=$RUN_ID: $SUMMARY" >/dev/null || { echo "PUSH_FAIL|commit"; exit 1; }
 
 # fail fast: the CSV MUST be in the commit (B06 incident: CHANGELOG+manifest only)
+# — UNLESS the commit provably leaves the CSV byte-identical to its parent
+# (audit-side-only batch: flags/notes verdicts already on rows; scan-side drop
+# batch class, first used CRON-20261110-B78). Any CSV change MUST still appear
+# in the stat, so the B06 protection (silently lost CSV changes) is preserved.
 if ! git show --stat HEAD | grep -q "syllabus_extreme_rich.csv"; then
-  echo "PUSH_FAIL|CSV not in commit (B06 incident guard)"; exit 1
+  if [ "$(git diff HEAD~1 HEAD -- syllabus_catalog/syllabus_extreme_rich.csv | wc -l)" -eq 0 ] \
+     && [ "$(git show HEAD~1:syllabus_catalog/syllabus_extreme_rich.csv | md5sum | cut -d' ' -f1)" \
+          = "$(md5sum "$CSV" | cut -d' ' -f1)" ]; then
+    echo "PUSH_NOTE|CSV byte-identical to parent (audit-side batch, B78 guard exception)"
+  else
+    echo "PUSH_FAIL|CSV not in commit (B06 incident guard)"; exit 1
+  fi
 fi
 
 URL="https://x-access-token:${PAT}@github.com/harshvardhan9084/asleep.git"

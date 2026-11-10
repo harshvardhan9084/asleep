@@ -1,3 +1,7 @@
+# CRON-20261110-B78 — CRON-20261110-B78 — 2026-11-10
+
+W9a2 BOOK_TRUNC round-2: print_garbled 78 audit-v24 recorded-honest drop (durable page-cited notes verified 78/78; stored==print squash-equal, print-faithful per 6b); no_print_found 40 final-honest (round-2 OCR-coverage: 0 docs >60 weak pages, round-1 cap never truncated); corroborated 23 + sha_unresolved 3 (2 shas absent from 610-doc corpus) stay flagged; flags 894->816; loop NOOP; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261110-B77 — CRON-20261110-B77 — 2026-11-10
 
 W9c3 BOOK_MERGED faithful-print verification: 6/6 entries squash-contained in cited docs (Author; Title is AKTU's own print), recorded-honest drop + audit v23 scan-side skip; DISPLAY_MISSING 2 deferred honestly (documented G6 containment-gap rows); flags 900->894; G1/G2(6412)/G3/G6 PASS

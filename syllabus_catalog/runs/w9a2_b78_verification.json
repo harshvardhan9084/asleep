@@ -1,0 +1,30 @@
+{
+ "run": "CRON-20261110-B78",
+ "wave": "W9a2-BOOK_TRUNC round-2 (post-B77 leftovers)",
+ "flag_state_before": 894,
+ "flag_state_after": 816,
+ "verdicts": {
+  "print_garbled_78": "audit v24 recorded-honest drop \u2014 durable notes verified present on all 78 (sid,field) targets; each page-cited (#sha p.N); stored string squash-equal to the printed entry at the cited page (print-faithful; abrupt ending is the source print's own state, \u00a76b verbatim-vs-fix)",
+  "no_print_found_40": "final-honest: round-2 OCR-coverage check across all 68 cited docs \u2014 0 docs have >60 weak (raster) pages, i.e. the round-1 pass-2 OCR cap never truncated exploration; no printed books list exists in any cited doc; stays flagged",
+  "corroborated_elsewhere_23": "stays flagged \u2014 fuller print exists only in non-cited corpus docs (junction-convention conflict); row's own print not recoverable; zero-guess keep (B73 boundary)",
+  "sha_unresolved_2shas_3flags": "re-checked post-reset: shas 09291fd4fad1262e, 79a6daf1f0cd9310 absent from the 610-doc corpus (exact + prefix12-16 match); cited docs not ingested; stays flagged"
+ },
+ "loop": "wave_runner --loop: NOOP (W3 rex queue=0, todo=0 \u2014 W3 closed)",
+ "gates": {
+  "g1": "PASS",
+  "g2": "PASS (codes=6412)",
+  "g3": "PASS",
+  "g6": "PASS (touched=0)"
+ },
+ "t2t_transparency": {
+  "calls_attempted": 0,
+  "http_200": 0,
+  "http_429": 0,
+  "key_fails": 0,
+  "empty_after_retry": 0,
+  "subagent_fallbacks": 0,
+  "keys_active_in_env": 5,
+  "note": "zero LLM/T2T calls this run \u2014 all reads deterministic fitz text-layer + local tesseract OCR already cached; no mercury_stats deltas"
+ },
+ "audit_upgrade": "audit_rules.py v24: W9a2 print_garbled verdicts join v21/v22/v23 recorded-honest scan-side class (per-field notes-keyed guard)"
+}

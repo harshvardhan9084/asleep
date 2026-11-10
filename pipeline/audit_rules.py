@@ -159,12 +159,18 @@ def audit_row(r, primary_owners):
                     f"{wrong!r} → {meta['fix']!r} ({meta['ev']})", field=fld)
 
     # --- W2: book-entry hygiene
-    # v21 durability (2026-11-10, B73): durable W9a2 probe verdicts recorded in
-    # the row's notes (evidence surface, survives resets) skip BOOK_TRUNC
-    # emission per verified field — same recorded-honest class as the ckpt
-    # drop below (kept as fallback for rows without notes coverage).
+    # v24 durability (2026-11-10, B78): W9a2 print_garbled verdicts join the
+    # same recorded-honest class — the probe read the printed books list at the
+    # cited page and the printed entry is squash-equal to the stored string, so
+    # the entry is print-faithful; an abrupt ending is the source print's own
+    # state (§6b verbatim-vs-fix: nothing to alter). OCR-coverage check (B78):
+    # every cited doc of the no_print_found set has ≤60 weak pages, i.e. the
+    # round-1 pass-2 OCR cap never truncated exploration — no_print_found and
+    # corroborated_elsewhere verdicts carry no print evidence and stay flagged.
     _w9a2_vc = set(re.findall(r"W9a2 probe: verified_complete @ (\S+)",
                               r.get("notes", "") or ""))
+    _w9a2_vc |= set(re.findall(r"W9a2 probe: print_garbled @ (\S+)",
+                               r.get("notes", "") or ""))
     for col, i, t in iter_book_strings(r):
         # entry-start list numbering only — 'Vol. N.' / 'NNNN-NN.' / mid-entry
         # citation numbers are legitimate print (W8a adjudication of the W2
