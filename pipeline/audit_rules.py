@@ -298,7 +298,14 @@ def audit_row(r, primary_owners):
     # verified_complete / v19 / v20: page-cited print evidence disproves the
     # error suspicion, zero data change, flags dropped (scan-side via notes
     # marker, ckpt drop kept as fallback).
-    _w9b2_ap = "W9b2 probe: accepted-print" in (r.get("notes", "") or "")
+    # v25 (2026-11-10, B80): W10g header-mapped accepted-print verdicts join
+    # the same recorded-honest class — the GOVERNING (newest-session) print's
+    # scheme row was extracted column-exact via table headers and verifies
+    # every flagged-invariant operand (incl. NC-credit mandatory courses and
+    # prints that leave the total cell blank while stating the components);
+    # fixed rows satisfy all invariants post-correction and never re-flag.
+    _w9b2_ap = ("W9b2 probe: accepted-print" in (r.get("notes", "") or "")
+                or "W10g probe: accepted-print" in (r.get("notes", "") or ""))
     L, T, P, cr = num(r.get("L")), num(r.get("T")), num(r.get("P")), num(r.get("credit"))
     if None not in (L, T, P, cr) and abs(cr - (L + T + P / 2)) > 0.01 and not _w9b2_ap:
         add("CREDIT_FORMULA", "needs_review", f"credit {cr:g} != L+T+P/2 = {L + T + P/2:g} (W5: faithful-print keep+flag vs fix-from-print)", field="credit")

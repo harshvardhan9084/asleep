@@ -1,3 +1,7 @@
+# CRON-20261110-B80 — CRON-AUTO-B80 — 2026-11-10
+
+W10g scheme-invariant round-3 re-probe (header-mapped find_tables, latest-print-wins): 269 rows -> accepted-print 27 (audit v25 recorded-honest drop) / fixed 6 rows 11 cells (column-exact, page-cited, 6b(4)) / keep 76 / no_print 160; flags 816->778; corpus_map md5 convention fix; loop NOOP; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261110-B79 — CRON-20261110-B79 — 2026-11-10
 
 W10f TYPE_EMPTY locator repair (notes-only): w10c2 no_code_print_found verdicts partially false (5+letter-prefix codes BMBAI304/RMBI MK08 escape variant regex; 4/4 sampled print in cited docs); token-concat locator re-probe of all 375 (committed B74/B76 grammar unchanged): code_found_no_header 283 / code_really_absent 58 / no_primary_code 34 / print_category 0 (no grammar expansion per B76 tightness); notes-only diff 369 cells verified; both auditor arms (name-suffix, scheme-category) page-level exhausted; flags 816 unchanged; loop NOOP; smoke locator bug caught+fixed pre-push (CSV restored from backup); G1/G2(6412)/G3/G6 PASS
