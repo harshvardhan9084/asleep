@@ -1,3 +1,7 @@
+# CRON-20261110-B77 — CRON-20261110-B77 — 2026-11-10
+
+W9c3 BOOK_MERGED faithful-print verification: 6/6 entries squash-contained in cited docs (Author; Title is AKTU's own print), recorded-honest drop + audit v23 scan-side skip; DISPLAY_MISSING 2 deferred honestly (documented G6 containment-gap rows); flags 900->894; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261110-B76 — CRON-20261110-B76 — 2026-11-10
 
 W10c2 full-doc re-probe + B74 integrity re-audit: wrap-masquerade grammar class discovered (wrapped name-cell tails masquerading as section headers); 22 B74 writes reverted page-cited, 1 tightened write (BTT051 dept-elective); durable W10c2 probe+reaudit notes; flags 879->900 (honest re-flag); G1/G2(6412)/G3/G6 PASS

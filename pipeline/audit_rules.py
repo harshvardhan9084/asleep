@@ -174,8 +174,14 @@ def audit_row(r, primary_owners):
         if " , " in t or re.search(r"\s,;", t):
             add("BOOK_SPACECOMMA", "fix:W2", "space-comma artifact in entry", field=f"{col}[{i}]")
         # merged entries: 2+ 'author, title' blocks joined by '; ' with distinct surnames
-        if re.search(r"[a-z]\)\s*[A-Z][a-z]+,\s*[A-Z]", t) or re.search(r";\s*[A-Z][a-z]+,\s*[A-Z][a-z]+.*(?:Delhi|Publishing|Publication|Publishers|Edition)", t):
-            add("BOOK_MERGED", "needs_review", f"possible merged print entry: {t[:90]!r}", field=f"{col}[{i}]")
+        # v23 durability (2026-11-10, B77): W9c3 faithful-print verdicts recorded
+        # in the row's notes (full entry squash-contained in the cited doc — the
+        # 'merged' look is AKTU's own print) skip emission per verified field;
+        # same recorded-honest class as v21 W9a2 / v22 W9b2.
+        if not re.search(r"W9c3 probe: faithful-print " + re.escape(f"{col}[{i}]") + r"(?=\s|@|$)",
+                         r.get("notes", "") or ""):
+            if re.search(r"[a-z]\)\s*[A-Z][a-z]+,\s*[A-Z]", t) or re.search(r";\s*[A-Z][a-z]+,\s*[A-Z][a-z]+.*(?:Delhi|Publishing|Publication|Publishers|Edition)", t):
+                add("BOOK_MERGED", "needs_review", f"possible merged print entry: {t[:90]!r}", field=f"{col}[{i}]")
         # W9a upgrade: publisher-whitelist / edition-year / author-at-end
         # endings are complete citation prints; a head-broken start
         # (lowercase / mid-word / year-led) still flags regardless of ending
