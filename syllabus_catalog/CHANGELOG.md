@@ -1,3 +1,7 @@
+# OWNER-CONFIG — CFG2 — 2026-11-11
+
+cron prompt v2 sanitized (job 524259 replaces 512756): quality-cascade flow T1 first then T3-T13, wave_runner retired, constant-push + audit discipline, 165 other_courses parked; secret values only in scheduler
+
 # OWNER-QT1 — QT1 — 2026-11-11
 
 T1/T2/T12 stage-1 probes ledger-only: T1 1377 pairs -> 5 dup findings + 199 next-stage; T2 G2 PASS 6412; T12 437 cited 6 unresolved; no CSV change, flags 443
