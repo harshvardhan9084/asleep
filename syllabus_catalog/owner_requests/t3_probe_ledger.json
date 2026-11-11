@@ -1,0 +1,4447 @@
+{
+ "test_id": "T3",
+ "run_id": "CRON-20261112-B83",
+ "generated_at": "2026-11-11T17:48:25.280908+00:00",
+ "csv_md5": "95f41cfa2f1c505047c5620eef30dc7e",
+ "rows_scanned": 3080,
+ "families_established": {
+  "BCA|BBC": "CS",
+  "BPharm|BOP": "PHAR",
+  "BPharm|BP": "PHAR",
+  "BTech|AAS": "MATH",
+  "BTech|BCE": "CE",
+  "BTech|BCH": "CHE",
+  "BTech|BCS": "CS",
+  "BTech|BEC": "ECE",
+  "BTech|BFT": "BIO",
+  "BTech|EBT": "BIO",
+  "BTech|ECE": "CE",
+  "BTech|ECS": "CS",
+  "BTech|ECT": "TEXT",
+  "BTech|EEC": "ECE",
+  "BTech|EEE": "EE",
+  "BTech|EME": "ME",
+  "BTech|EPL": "CHE",
+  "BTech|KEC": "ECE",
+  "BTech|KEE": "EE",
+  "BTech|KHT": "TEXT",
+  "BTech|NCS": "CS",
+  "BTech|NME": "ME",
+  "BTech|NPE": "CHE",
+  "BTech|RCT": "TEXT",
+  "BTech|REC": "ECE",
+  "BTech|RTT": "TEXT",
+  "MBA|BMBAB": "MGMT",
+  "MBA|BMBAI": "MGMT",
+  "MBA|BMLS": "MGMT",
+  "MBA|KMBI": "MGMT",
+  "MCA|BMI": "CS",
+  "MCA|MCA": "CS",
+  "MCA|RCAI": "CS"
+ },
+ "families_total": 265,
+ "grammar_crosscheck": {
+  "AGRI": [
+   "AG",
+   "BAE",
+   "BAG",
+   "BAI",
+   "BVE",
+   "BVL",
+   "EAG",
+   "KAD",
+   "KAE",
+   "KAG",
+   "NAE",
+   "NAG",
+   "RAE",
+   "RAG",
+   "RVE"
+  ],
+  "BIO": [
+   "BBI",
+   "BBT",
+   "BFT",
+   "BMN",
+   "BT",
+   "EBT",
+   "EFT",
+   "ETDT",
+   "KBT",
+   "KFT",
+   "NBT",
+   "NFT",
+   "RBT",
+   "RFT"
+  ],
+  "CE": [
+   "ACE",
+   "BCE",
+   "CE",
+   "ECE",
+   "KCE",
+   "NCE",
+   "RCE"
+  ],
+  "CHE": [
+   "BCH",
+   "CH",
+   "EC",
+   "ECH",
+   "KCH",
+   "KWS",
+   "NCH",
+   "RCH"
+  ],
+  "CS": [
+   "AAI",
+   "ACS",
+   "AI",
+   "AID",
+   "BADS",
+   "BCAI",
+   "BCAM",
+   "BCC",
+   "BCCS",
+   "BCDS",
+   "BCIT",
+   "BCS",
+   "BDS",
+   "BIC",
+   "BMC",
+   "BMI",
+   "CAI",
+   "CDS",
+   "CS",
+   "DS",
+   "EIC",
+   "IT",
+   "KAI",
+   "KCA",
+   "KCS",
+   "KDS",
+   "KIC",
+   "KIT",
+   "MCA",
+   "NBC",
+   "NCS",
+   "NIC",
+   "NIT",
+   "NMCA",
+   "RCA",
+   "RCAI",
+   "RCS",
+   "RIC",
+   "RIT"
+  ],
+  "ECE": [
+   "AEC",
+   "BCBS",
+   "BCY",
+   "BEC",
+   "ECE",
+   "ECF",
+   "ECT",
+   "ECY",
+   "EI",
+   "EIC",
+   "ETC",
+   "ETE",
+   "ETEF",
+   "KEC",
+   "NEC",
+   "REC"
+  ],
+  "EE": [
+   "AEE",
+   "BEE",
+   "BEN",
+   "EE",
+   "EEC",
+   "EEE",
+   "EEN",
+   "EEV",
+   "KEE",
+   "KEN",
+   "NEE",
+   "NEN",
+   "REE",
+   "REN",
+   "REV"
+  ],
+  "HOTEL": [
+   "BHT",
+   "HT",
+   "KHT"
+  ],
+  "ME": [
+   "AME",
+   "BME",
+   "BMN",
+   "BPE",
+   "BPI",
+   "EME",
+   "EMT",
+   "EPI",
+   "EPL",
+   "KME",
+   "KML",
+   "KOT",
+   "KPE",
+   "KPI",
+   "ME",
+   "MN",
+   "NME",
+   "NPE",
+   "NPI",
+   "RBM",
+   "RME",
+   "RMI",
+   "RPE",
+   "RPI",
+   "RPL"
+  ],
+  "MGMT": [
+   "BMB",
+   "BMBA",
+   "BMBF",
+   "BMLS",
+   "BMN",
+   "FM",
+   "KBMA",
+   "KMB",
+   "KMBA",
+   "KMBF",
+   "KMBN",
+   "KMHC",
+   "KMLS",
+   "KMT",
+   "KMTT",
+   "MB",
+   "MBA",
+   "MBTM",
+   "MK",
+   "NMB",
+   "NONCREDIT",
+   "RMB",
+   "RMT"
+  ],
+  "PHAR": [
+   "BOP",
+   "BP",
+   "PCA",
+   "RCA",
+   "RPH",
+   "RVE"
+  ],
+  "TEXT": [
+   "BCT",
+   "BHT",
+   "BTT",
+   "EACT",
+   "ECT",
+   "EHTT",
+   "ETDT",
+   "ETT",
+   "KCT",
+   "KHT",
+   "KTT",
+   "RCT",
+   "RTC",
+   "RTT",
+   "TBT",
+   "TT"
+  ]
+ },
+ "stage1_skip_reasons": {
+  "name_none": 715,
+  "name_generic": 963,
+  "family_tiny": 77,
+  "secondary_domain_cluster": 290,
+  "name_multi": 126,
+  "accumulator_has_domain_code": 46,
+  "no_primary_code": 189,
+  "not_established_domain": 79,
+  "pool_family": 122,
+  "unresolvable_family_O": 1
+ },
+ "secondary_domain_clusters_recorded": {
+  "BPharm|RPH:name_dom=PHARx7": [
+   "pharmaceutical-chemistry-viii-medicinal-chemistry-iii",
+   "pharmaceutics-ix-biopharmaceutics-pharmacokinetics",
+   "pharmacology-iii-pharmacology-pharmacovigilance",
+   "pharmacognosy-iv",
+   "pharmaceutical-analysis-iii-pharmaceutical-analysis-quality-",
+   "pharmaceutical-chemistry-ix-chemistry-of-natural-products",
+   "clinical-pharmacy"
+  ],
+  "BTech|BAC:name_dom=ECEx3": [
+   "adaptive-signal-processing",
+   "radar-and-satellite-communication",
+   "wireless-communications-networks"
+  ],
+  "BTech|BAS:name_dom=MATHx3": [
+   "mathematics-iv",
+   "mathematics-iii-partial-differential-equations-statistical-a",
+   "mathematics-v"
+  ],
+  "BTech|BBI:name_dom=BIOx6": [
+   "fundamentals-of-biochemistry",
+   "applied-microbiology-and-immunology",
+   "metabolomics-and-metabolic-engineering",
+   "biophysics",
+   "bioprocess-engineering",
+   "biostatistics"
+  ],
+  "BTech|BBI:name_dom=CSx3": [
+   "programming-in-c-and-c",
+   "internet-programming",
+   "java-programming-btech"
+  ],
+  "BTech|BCIT:name_dom=CSx3": [
+   "mobile-application-development-for-iot",
+   "computer-vision",
+   "data-science-in-iot"
+  ],
+  "BTech|BCT:name_dom=TEXTx5": [
+   "carpet-textile-testing-i",
+   "fabric-technology-iii",
+   "carpet-textile-testing-ii",
+   "home-textile-technology",
+   "knitting-and-nonwovens"
+  ],
+  "BTech|BEE:name_dom=EEx3": [
+   "power-system-protection",
+   "electric-drives",
+   "electrical-machine-ii"
+  ],
+  "BTech|BHT:name_dom=TEXTx5": [
+   "knitting-non-woven-technology",
+   "textile-reinforced-composites",
+   "advanced-woven-fabric-manufacture",
+   "application-of-computer-in-color-matching-textile-design",
+   "advanced-fabric-structure"
+  ],
+  "BTech|BME:name_dom=MEx3": [
+   "advance-manufacturing-processes",
+   "turbo-machines",
+   "cad-cam"
+  ],
+  "BTech|BTT:name_dom=TEXTx3": [
+   "fabric-structure-design-analysis",
+   "technical-textiles-non-woven-technology-functional-textiles",
+   "sustainability-in-textile-industry"
+  ],
+  "BTech|EAG:name_dom=CEx5": [
+   "surveying-levelling",
+   "watershed-hydrology",
+   "irrigation-and-drainage-engineering",
+   "groundwater-wells-and-pumps-engg",
+   "reinforced-cement-concrete"
+  ],
+  "BTech|EBM:name_dom=BIOx4": [
+   "bio-materials",
+   "bio-mechanics",
+   "bioinformatics",
+   "design-and-modeling-of-biomedical-systems"
+  ],
+  "BTech|EC:name_dom=TEXTx5": [
+   "principle-of-fabric-manufacture",
+   "chemistry-of-dyes-colour-chemistry",
+   "textile-auxiliaries",
+   "yarn-manufacture",
+   "fabric-manufacture"
+  ],
+  "BTech|ECH:name_dom=CHEx9": [
+   "chemical-engineering-thermodynamics",
+   "mass-transfer-operations-i",
+   "chemical-technology-ii-inorganic",
+   "optimization-techniques-in-chemical-engineering",
+   "mass-transfer-operations-ii",
+   "fluidization-engineering",
+   "multiphase-reactor-design",
+   "petrochemical-technology"
+  ],
+  "BTech|ECH:name_dom=MGMTx3": [
+   "industrial-pollution-abatement-waste-management",
+   "hazardous-waste-management",
+   "industrial-safety-and-hazard-management"
+  ],
+  "BTech|EF:name_dom=TEXTx3": [
+   "fibre-production-characterization",
+   "fabric-tech-ii",
+   "post-spinning-operation"
+  ],
+  "BTech|EFT:name_dom=BIOx6": [
+   "basic-food-microbiology",
+   "food-additives",
+   "food-chemistry",
+   "food-biochemistry-biotechnology",
+   "food-preservation-processing-principles",
+   "food-product-and-process-development"
+  ],
+  "BTech|EMT:name_dom=MEx6": [
+   "plant-layout-and-design",
+   "advanced-casting-processes",
+   "tool-engineering",
+   "modern-manufacturing-methods",
+   "advanced-manufacturing-systems",
+   "jit-manufacturing"
+  ],
+  "BTech|ETE:name_dom=TEXTx5": [
+   "nonwoven",
+   "yarn-manufacture-iii",
+   "yarn-manufacture-iv",
+   "fabric-manufacture-iv",
+   "yarn-fabric-production"
+  ],
+  "BTech|ETEF:name_dom=TEXTx6": [
+   "theory-of-textile-structure",
+   "process-control-in-spinning",
+   "process-control-in-weaving",
+   "fabric-structure",
+   "fabric-analysis",
+   "ec011-structure-properties-of-fibre"
+  ],
+  "BTech|KAG:name_dom=AGRIx3": [
+   "farm-machinery-and-equipment",
+   "field-operation-and-maintenance-of-tractor-farm-machinery",
+   "building-materials-and-agriculture-structures"
+  ],
+  "BTech|KAG:name_dom=MEx3": [
+   "theory-of-machine-and-machine-design",
+   "thermodynamics-refrigeration-and-air-conditioning",
+   "mechanics-of-tillage-and-traction"
+  ],
+  "BTech|KAI:name_dom=CSx3": [
+   "intelligent-database-system",
+   "data-warehousing-and-data-mining",
+   "optimization-in-machine-learning"
+  ],
+  "BTech|KAS:name_dom=MATHx4": [
+   "physics",
+   "mathematics-i",
+   "mathematics-ii",
+   "mathematics-iii-integral-transform-discrete-maths"
+  ],
+  "BTech|KBT:name_dom=BIOx3": [
+   "techniques-in-biotechnology",
+   "microbiology-immunology",
+   "biostatistics-design-of-experiments"
+  ],
+  "BTech|KBT:name_dom=MATHx3": [
+   "elementary-mathematics-i",
+   "elementary-mathematics-ii",
+   "descriptive-statistics-process-control"
+  ],
+  "BTech|KCE:name_dom=CEx4": [
+   "surveying-and-geomatics",
+   "hydraulic-engineering-and-machines",
+   "railway-waterway-and-airway-engineering",
+   "irrigation-and-water-resource-engineering"
+  ],
+  "BTech|KCS:name_dom=CSx4": [
+   "compiler-design",
+   "web-technology",
+   "programming-for-problem-solving",
+   "software-testing"
+  ],
+  "BTech|KCT:name_dom=TEXTx6": [
+   "yarn-technology-i",
+   "fabric-technology-i",
+   "textile-fibres",
+   "yarn-technology-ii",
+   "fabric-technology-ii",
+   "textile-testing"
+  ],
+  "BTech|KDS:name_dom=CSx5": [
+   "distributed-system",
+   "introduction-to-data-analytics-and-visualization",
+   "big-data-and-analytics",
+   "deep-learning",
+   "service-oriented-architecture"
+  ],
+  "BTech|KIC:name_dom=ECEx4": [
+   "measurements-instrumentation",
+   "signal-processing",
+   "embedded-systems-design",
+   "optical-instrumentation"
+  ],
+  "BTech|KME:name_dom=MEx6": [
+   "fundamentals-of-mechanical-engineering-mechatronics",
+   "mechatronics-systems",
+   "manufacturing-processes",
+   "industrial-engineering",
+   "computer-integrated-manufacturing",
+   "advance-welding"
+  ],
+  "BTech|KMT:name_dom=MEx3": [
+   "lean-manufacturing",
+   "mould-design-and-manufacturing",
+   "manufacturing-strategies"
+  ],
+  "BTech|KOT:name_dom=CSx4": [
+   "introduction-to-internet-of-things",
+   "programming-and-interfacing-with-microcontrollers",
+   "iot-architecture-and-protocols",
+   "big-data-analytics-for-iot"
+  ],
+  "BTech|KTT:name_dom=TEXTx6": [
+   "textile-fibre-ii",
+   "multi-long-fibre-spinning",
+   "textile-design-colour",
+   "advance-weaving-technology",
+   "garment-manufacture-technology-theory-of-textile-structure",
+   "process-control-in-spinning-weaving-mill-planning-organizati"
+  ],
+  "BTech|NAG:name_dom=MATHx3": [
+   "engineering-mathematics-i",
+   "engineering-physics",
+   "engineering-mathematics-ii"
+  ],
+  "BTech|NBT:name_dom=BIOx3": [
+   "nano-biotechnology",
+   "industrial-biotechnology",
+   "metabolic-engineering"
+  ],
+  "BTech|NCH:name_dom=CHEx4": [
+   "chemical-reaction-engineering-i",
+   "chemical-technology-i",
+   "chemical-technology-ii",
+   "petroleum-engineering"
+  ],
+  "BTech|NEC:name_dom=ECEx3": [
+   "industrial-electronics",
+   "analog-signal-processing",
+   "analog-digital-electronics"
+  ],
+  "BTech|NIC:name_dom=ECEx5": [
+   "transducer-and-sensors",
+   "microcontrollers-for-embedded-systems",
+   "industrial-instrumentation",
+   "opto-electronics",
+   "intelligent-instrumentation"
+  ],
+  "BTech|NIT:name_dom=MGMTx3": [
+   "management-information-systems",
+   "information-retrieval-and-management",
+   "e-business-strategies"
+  ],
+  "BTech|RAG:name_dom=AGRIx3": [
+   "elementary-agriculture",
+   "farm-machinery-and-equipment-i",
+   "farm-machinery-and-equipment-ii"
+  ],
+  "BTech|RAG:name_dom=MGMTx4": [
+   "water-quality-and-management-measures",
+   "precision-agricultural-and-system-management",
+   "agribusiness-management-and-trade",
+   "entrepreneurship-development"
+  ],
+  "BTech|RAS:name_dom=MATHx4": [
+   "engineering-physics-i",
+   "engineering-physics-ii",
+   "elementary-mathematics-iii",
+   "mathematics-iii"
+  ],
+  "BTech|RCH:name_dom=CHEx5": [
+   "chemical-reaction-engineering",
+   "chemical-engg-fluid-mechanics",
+   "fluidization-engg",
+   "petroleum-refining",
+   "polymer-technology"
+  ],
+  "BTech|REE:name_dom=EEx4": [
+   "power-system-optimization",
+   "computer-aided-power-system-analysis",
+   "power-transmission-distribution",
+   "electrical-machines-controls"
+  ],
+  "BTech|RME:name_dom=MEx4": [
+   "advanced-manufacturing-science",
+   "additive-manufacturing",
+   "manufacturing-of-composites",
+   "manufacturing-science-technology-ii"
+  ],
+  "BTech|RME:name_dom=MGMTx3": [
+   "product-data-management",
+   "supply-chain-management",
+   "industrial-safety-engineering"
+  ],
+  "BTech|RPE:name_dom=CHEx5": [
+   "chemical-reaction-kinetics",
+   "heat-and-mass-transfer-for-petroleum-engg",
+   "thermodynamics-for-petroleum-engg",
+   "petroleum-refining-and-petrochemicals",
+   "petroleum-geology"
+  ],
+  "MBA|BMBF:name_dom=MGMTx3": [
+   "tax-planning-management",
+   "treasury-management-in-banking",
+   "insurance-and-risk-management"
+  ],
+  "MBA|KMBA:name_dom=CSx3": [
+   "data-mining-techniques-predictive-modeling-and-pattern-disco",
+   "introduction-to-python",
+   "machine-learning-and-artificial-intelligence-using-python"
+  ],
+  "MBA|KMBA:name_dom=MGMTx4": [
+   "basics-of-data-management-with-r",
+   "supply-chain-analytics",
+   "business-modeling-with-spreadsheets",
+   "business-applications-of-block-chain-technologies"
+  ],
+  "MBA|KMBAI:name_dom=MGMTx4": [
+   "principles-practices-of-management",
+   "computer-applications-in-management",
+   "organizational-behaviour",
+   "fundamentals-of-accounting"
+  ],
+  "MBA|KMBF:name_dom=MGMTx6": [
+   "banking-and-micro-finance",
+   "banking-laws-and-practices",
+   "corporate-retail-banking-products",
+   "financial-management-corporate-finance",
+   "bank-credit-management",
+   "fintech-for-business"
+  ],
+  "MBA|KMBIHR:name_dom=MGMTx3": [
+   "human-resource-development-strategies-and-systems",
+   "performance-and-reward-management",
+   "talent-management"
+  ],
+  "MBA|KMBIIB:name_dom=MGMTx4": [
+   "cross-cultural-business-management",
+   "global-sourcing-and-business-development",
+   "international-marketing",
+   "international-logistics-management"
+  ],
+  "MBA|KMHC:name_dom=MGMTx3": [
+   "healthcare-policy-and-insurance",
+   "hospital-operation-management",
+   "communication-andpatient-relation-management"
+  ],
+  "MBA|KMT:name_dom=HOTELx4": [
+   "tourism-concepts-impacts",
+   "tourism-resources",
+   "travel-agency-and-tour-operators",
+   "international-tourism"
+  ],
+  "MBA|KMTT:name_dom=MGMTx4": [
+   "tourist-behaviour-cross-cultural-management",
+   "domestic-and-international-ticketing-foreign-exchange-manage",
+   "destination-planning-and-management",
+   "event-management"
+  ],
+  "MBA|MBA:name_dom=MGMTx6": [
+   "communication-for-management",
+   "entrepreneurship-development-mba",
+   "corporate-governance-values-ethics",
+   "e-business",
+   "entrepreneurship-ethics-corporate-governance",
+   "international-business-and-trade"
+  ],
+  "MBA|MK:name_dom=MGMTx6": [
+   "digital-marketing-mba",
+   "marketing-of-services",
+   "industrial-marketing",
+   "rural-marketing",
+   "integrated-marketing-communication-and-brand-management",
+   "sales-and-distribution-management"
+  ],
+  "MBA|RMBI:name_dom=MGMTx6": [
+   "operations-management",
+   "foreign-exchange-forex-risk-management",
+   "international-supply-chain-management",
+   "marketing-analytics",
+   "b2b-service-marketing",
+   "product-and-brand-management"
+  ],
+  "MBA|RMBIHR:name_dom=MGMTx3": [
+   "international-human-resource-management",
+   "strategic-human-resource-management",
+   "organisational-design-and-change-management"
+  ],
+  "MBA|RMT:name_dom=HOTELx5": [
+   "tourism-behaviour-theory-practice",
+   "tourism-policy-planning-and-development",
+   "e-tourism-and-tour-packages",
+   "geography-of-international-tourism",
+   "emerging-trends-in-tourism"
+  ],
+  "MCA|KCA:name_dom=CSx5": [
+   "theory-of-automata-formal-languages",
+   "big-data-mca",
+   "data-analytics-mca",
+   "blockchain-architecture",
+   "machine-learning-techniques-mca"
+  ],
+  "MCA|MCA:name_dom=MGMTx3": [
+   "accounting-and-financial-management",
+   "organizational-structure-and-personnel-management",
+   "management-information-systems-mca"
+  ],
+  "MCA|NBC:name_dom=CSx5": [
+   "computer-graphics-mca",
+   "advanced-dbms-mca",
+   "computer-architecture-mca",
+   "digital-image-processing-mca",
+   "cloud-computing-mca"
+  ],
+  "MCA|RCA:name_dom=CSx3": [
+   "computer-concepts-and-principles-of-programming",
+   "computer-organization-architecture",
+   "introduction-to-programming-and-computer-organization"
+  ]
+ },
+ "stage1_candidates": 86,
+ "stage2_verdict_counts": {
+  "print_agrees_attested": 76,
+  "code_not_in_any_cited_doc": 3,
+  "no_citation": 7
+ },
+ "candidates_stage2": [
+  {
+   "sid": "mine-surveying-i",
+   "course": "BTech",
+   "primary_code": "BMN303",
+   "family": "BMN",
+   "expected_domain": "(small n=35)",
+   "name_domain": "CE",
+   "name_kw": "surveying",
+   "subject_name": "Mine Surveying \u2013 I",
+   "subject_name_print": "BMN303- MINE SURVEYING \u2013 I",
+   "all_codes": "BMN303",
+   "code_history_all": "BMN303 (2024-25, sem-3)",
+   "effective_session_latest": "2024-25",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "51bd6d355e13d6e1",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "51bd6d355e13d6e1",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "51bd6d355e13d6e1",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "BMN303 || Mine Surveying \u2013 I || T || PC"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "mine-surveying-ii",
+   "course": "BTech",
+   "primary_code": "BMN401",
+   "family": "BMN",
+   "expected_domain": "(small n=35)",
+   "name_domain": "CE",
+   "name_kw": "surveying",
+   "subject_name": "Mine Surveying \u2013 II",
+   "subject_name_print": "BMN401 MINE SURVEYING II",
+   "all_codes": "BMN401",
+   "code_history_all": "BMN401 (2024-25, sem-4)",
+   "effective_session_latest": "2024-25",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "51bd6d355e13d6e1",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "51bd6d355e13d6e1",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "51bd6d355e13d6e1",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "BMN401 || Mine Surveying \u2013 II || T || PC"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "digital-electronics-bca",
+   "course": "BCA",
+   "primary_code": "BBC201",
+   "family": "BBC",
+   "expected_domain": "CS",
+   "name_domain": "ECE",
+   "name_kw": "digital electronics",
+   "subject_name": "Digital Electronics",
+   "subject_name_print": "Digital Electronics | detailed-doc print: BBC201: DIGITAL ELECTRONICS | detailed-doc print: BBC201: DIGITAL ELECTRONICS",
+   "all_codes": "BBC201",
+   "code_history_all": "BBC201 (2024-25, sem-2)",
+   "effective_session_latest": "2024-25",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "2204b086b198e649",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "2204b086b198e649",
+     []
+    ],
+    [
+     "e7ea34a11ef5b730",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "2204b086b198e649",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "BBC201 || Digital Electronics || 3 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "biochemistry-theory",
+   "course": "BPharm",
+   "primary_code": "BP202T",
+   "family": "BP",
+   "expected_domain": "PHAR",
+   "name_domain": "BIO",
+   "name_kw": "biochemistry",
+   "subject_name": "Biochemistry (Theory)",
+   "subject_name_print": "Biochemistry (Theory)",
+   "all_codes": "BP202T",
+   "code_history_all": "BP202T (2026-27, sem-2)",
+   "effective_session_latest": "2026-27",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "97b5d901f34c75a4",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "97b5d901f34c75a4",
+     []
+    ],
+    [
+     "28cd10357b812c41",
+     []
+    ],
+    [
+     "2a058fb8112db1e5",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "97b5d901f34c75a4",
+     "cited_pages": [],
+     "found_page": 34,
+     "verdict": "found",
+     "print": "BP202T Biochemistry (Theory) || 3 || 15 || 15"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "biostatistics-and-research-methodology-theory",
+   "course": "BPharm",
+   "primary_code": "BP701T",
+   "family": "BP",
+   "expected_domain": "PHAR",
+   "name_domain": "BIO",
+   "name_kw": "biostatistics",
+   "subject_name": "Biostatistics and Research Methodology (Theory)",
+   "subject_name_print": "Biostatistics and Research Methodology (Theory)",
+   "all_codes": "BP701T",
+   "code_history_all": "BP701T (2026-27, sem-7)",
+   "effective_session_latest": "2026-27",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "97b5d901f34c75a4",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "97b5d901f34c75a4",
+     []
+    ],
+    [
+     "28cd10357b812c41",
+     []
+    ],
+    [
+     "826b5486096df387",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "97b5d901f34c75a4",
+     "cited_pages": [],
+     "found_page": 174,
+     "verdict": "found",
+     "print": "BP701T || Biostatistics and Research || Methodology (Theory) || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "advanced-instrumentation-techniques",
+   "course": "BPharm",
+   "primary_code": "BP811ET",
+   "family": "BP",
+   "expected_domain": "PHAR",
+   "name_domain": "ECE",
+   "name_kw": "instrumentation",
+   "subject_name": "ADVANCED INSTRUMENTATION TECHNIQUES",
+   "subject_name_print": "BP811ET. ADVANCED INSTRUMENTATION TECHNIQUES (Theory) | detailed-doc print: ADVANCED INSTRUMENTATION TECHNIQUES (Theory) | detailed-doc print: BP811ET. ADVANCED INSTRUMENTATION TECHNIQUES (Theory)",
+   "all_codes": "BP811ET",
+   "code_history_all": "BP811ET (2019-20, sem-8)",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "28cd10357b812c41",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "28cd10357b812c41",
+     []
+    ],
+    [
+     "826b5486096df387",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "28cd10357b812c41",
+     "cited_pages": [],
+     "found_page": 9,
+     "verdict": "found",
+     "print": "BP811ET Advanced Instrumentation || Techniques* || BP812ET Dietary Supplements and || Nutraceuticals*"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "iot-architecture-communication-technology-its-applications",
+   "course": "BTech",
+   "primary_code": "BEC-051",
+   "family": "BEC",
+   "expected_domain": "ECE",
+   "name_domain": "CS",
+   "name_kw": "iot architecture",
+   "subject_name": "IoT \u2013 Architecture, Communication, Technology & its applications",
+   "subject_name_print": "IoT \u2013 ARCHITECTURE, COMMUNICATION, TECHNOLOGY & ITS APPLICATIONS",
+   "all_codes": "BEC-051",
+   "code_history_all": "BEC-051 (2025-26, sem-5)",
+   "effective_session_latest": "2025-26",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "328fc29743da6525",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "328fc29743da6525",
+     []
+    ],
+    [
+     "3559fa634ed9fdab",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "328fc29743da6525",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "BEC-051 || IoT \u2013 Architecture, Communication, Technology & its applications || BEC-053 || Intelligent Systems and Robotics"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "fundamental-of-manufacturing-technology",
+   "course": "BTech",
+   "primary_code": "KAE402",
+   "family": "KAE",
+   "expected_domain": "(small n=36)",
+   "name_domain": "ME",
+   "name_kw": "manufacturing",
+   "subject_name": "Fundamental of Manufacturing Technology",
+   "subject_name_print": "FUNDAMENTAL OF MANUFACTURING TECHNOLOGY",
+   "all_codes": "KAE402",
+   "code_history_all": "KAE402 (2019-20, sem-4)",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "bb44652f18f23570",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "bb44652f18f23570",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "bb44652f18f23570",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KAE402 || Fundamental of Manufacturing Technology || 3 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "dairy-and-food-engineering",
+   "course": "BTech",
+   "primary_code": "EAG-601",
+   "family": "EAG",
+   "expected_domain": "(small n=52)",
+   "name_domain": "BIO",
+   "name_kw": "food",
+   "subject_name": "Dairy and Food Engineering",
+   "subject_name_print": "DAIRY AND FOOD ENGINEERING   (EAG-601)     4 (3+1) | detailed-doc print: DAIRY AND FOOD ENGINEERING | detailed-doc print: DAIRY AND FOOD ENGINEERING | detailed-doc print: DAIRY AND FOOD ENGINEERING | detailed-doc print: Dairy and Food Engineering",
+   "all_codes": "EAG-601;KAG-063;BAG063;NAG-602;RAG702",
+   "code_history_all": "EAG-601 (2011-12, sem-6) -> KAG-063 (2020-21) - codes printed with detailed syllabus in btech_ag_y3_scheme-syllabus_2020-21.pdf -> BAG063 (2024-25) - codes printed with detailed syllabus in btech_ag_y3_syllabus_2024-25.pdf -> NAG-602 (2015-16) - codes printed with detailed syllabus in btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf -> RAG702 (2019-20) - codes printed with detailed syllabus in btech_ag_y4_syllabus-cbcs_2019-20.pdf",
+   "effective_session_latest": "2011-12",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "9a8392667e90e4a3",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "9a8392667e90e4a3",
+     []
+    ],
+    [
+     "7cc09310bd72356b",
+     []
+    ],
+    [
+     "02a51ac056f20f11",
+     []
+    ],
+    [
+     "69b6c3c47a3fbcb0",
+     []
+    ],
+    [
+     "8ca5b389f76d66d5",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "9a8392667e90e4a3",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "EAG-601 || Dairy & Food Engg || 3 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "engineering-properties-of-biological-materials-food-quality",
+   "course": "BTech",
+   "primary_code": "EAG-602",
+   "family": "EAG",
+   "expected_domain": "(small n=52)",
+   "name_domain": "BIO",
+   "name_kw": "food",
+   "subject_name": "Engineering Properties of Biological Materials & Food Quality",
+   "subject_name_print": "ENGINEERING PROPERTIES OF BIOLOGICAL MATERIALS & FOOD QUALITY   (EAG-602)     3 (2+1) | detailed-doc print: ENGINEERING PROPERTIES OF BIOLOGICAL MATERIAL",
+   "all_codes": "EAG-602;NAG-505",
+   "code_history_all": "EAG-602 (2011-12, sem-6) -> NAG-505 (2015-16) - codes printed with detailed syllabus in btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf",
+   "effective_session_latest": "2011-12",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "9a8392667e90e4a3",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "9a8392667e90e4a3",
+     []
+    ],
+    [
+     "69b6c3c47a3fbcb0",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "9a8392667e90e4a3",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "EAG-602 || EPBM & Food Quality || 2 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "fundamentals-of-computer-programming",
+   "course": "BTech",
+   "primary_code": "NAG-205",
+   "family": "NAG",
+   "expected_domain": "(small n=24)",
+   "name_domain": "CS",
+   "name_kw": "programming",
+   "subject_name": "Fundamentals of Computer Programming",
+   "subject_name_print": "NAG-205 : Fundamentals of Computer Programming | detailed-doc print: Fundamentals of Computer and Programming",
+   "all_codes": "NAG-205;RAG204",
+   "code_history_all": "NAG-205 (2013-14, sem-2) -> RAG204 (2016-17) - codes printed with detailed syllabus in btech_ag_syllabus_2016-17.pdf",
+   "effective_session_latest": "2013-14",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "e7827e01a2bbd920",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "e7827e01a2bbd920",
+     []
+    ],
+    [
+     "e1289ac95e742765",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "e7827e01a2bbd920",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "NAG205 || Fundamentals of Computer || Programming || 2"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "soil-water-conservation-engineering-and-watershed-hydrology",
+   "course": "BTech",
+   "primary_code": "KAG402",
+   "family": "KAG",
+   "expected_domain": "(small n=37)",
+   "name_domain": "CE",
+   "name_kw": "hydrology",
+   "subject_name": "Soil & Water Conservation Engineering and Watershed Hydrology",
+   "subject_name_print": "SOIL & WATER CONSERVATION ENGINEERING AND WATERSHED HYDROLOGY",
+   "all_codes": "KAG402;RAG403",
+   "code_history_all": "KAG402 (2019-20, sem-4) -> RAG403 (2017-18) - codes printed with detailed syllabus in btech_ag_y2_scheme-syllabus_2017-18.pdf",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "ef348f31546b304f",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "ef348f31546b304f",
+     []
+    ],
+    [
+     "9a0417ba1d09dfef",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "ef348f31546b304f",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KAG402 || Soil, Water conservation Engineering and Watershed || Hydrology || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "basic-electronics-and-instrumentation",
+   "course": "BTech",
+   "primary_code": "NAG-301",
+   "family": "NAG",
+   "expected_domain": "(small n=24)",
+   "name_domain": "ECE",
+   "name_kw": "electronics",
+   "subject_name": "Basic Electronics and Instrumentation",
+   "subject_name_print": "Basic Electronics and Instrumentation",
+   "all_codes": "NAG-301;EAG-303",
+   "code_history_all": "NAG-301 (2014-15, sem-3) -> EAG-303 (2009-10) - codes printed with detailed syllabus in btech_ag_y3-4_syllabus_2009-10.pdf",
+   "effective_session_latest": "2014-15",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "544eb3ca93b0e4a5",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "544eb3ca93b0e4a5",
+     []
+    ],
+    [
+     "afe36bc54d1565e0",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "544eb3ca93b0e4a5",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "NAG-301 || Basic Electronics and || Instrumentation || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "electrical-circuits-and-electrical-machine",
+   "course": "BTech",
+   "primary_code": "EAG-401",
+   "family": "EAG",
+   "expected_domain": "(small n=52)",
+   "name_domain": "EE",
+   "name_kw": "electrical machine",
+   "subject_name": "Electrical Circuits and Electrical machine",
+   "subject_name_print": "Electrical Circuits and Electrical machine",
+   "all_codes": "EAG-401",
+   "code_history_all": "EAG-401 (2009-10, sem-4)",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "afe36bc54d1565e0",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "afe36bc54d1565e0",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "afe36bc54d1565e0",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "EAG-401 || Electrical Circuits & Machines || 3 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "food-quality-control",
+   "course": "BTech",
+   "primary_code": "KAG-059",
+   "family": "KAG",
+   "expected_domain": "(small n=37)",
+   "name_domain": "BIO",
+   "name_kw": "food",
+   "subject_name": "Food Quality & Control",
+   "subject_name_print": "FOOD QUALITY & CONTROL",
+   "all_codes": "KAG-059;RAG055;BAG059;NAG-013",
+   "code_history_all": "KAG-059 (2020-21, sem-5) -> RAG055 (2018-19) - codes printed with detailed syllabus in btech_ag_y3_syllabus_2018-19.pdf -> BAG059 (2024-25) - codes printed with detailed syllabus in btech_ag_y3_syllabus_2024-25.pdf -> NAG-013 (2016-17) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2016-17.pdf",
+   "effective_session_latest": "2020-21",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "7cc09310bd72356b",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "7cc09310bd72356b",
+     []
+    ],
+    [
+     "d411cec7864d334a",
+     []
+    ],
+    [
+     "02a51ac056f20f11",
+     []
+    ],
+    [
+     "7e8aff45877e1934",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "7cc09310bd72356b",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KAG 059 Food Quality & Control"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "hydraulic-drives-and-control",
+   "course": "BTech",
+   "primary_code": "KAG-060",
+   "family": "KAG",
+   "expected_domain": "(small n=37)",
+   "name_domain": "CE",
+   "name_kw": "hydraulic",
+   "subject_name": "Hydraulic drives and control",
+   "subject_name_print": "HYDRAULIC DRIVES AND CONTROL",
+   "all_codes": "KAG-060;RAG062;BAG060",
+   "code_history_all": "KAG-060 (2020-21, sem-6) -> RAG062 (2018-19) - codes printed with detailed syllabus in btech_ag_y3_syllabus_2018-19.pdf -> BAG060 (2024-25) - codes printed with detailed syllabus in btech_ag_y3_syllabus_2024-25.pdf",
+   "effective_session_latest": "2020-21",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "7cc09310bd72356b",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "7cc09310bd72356b",
+     []
+    ],
+    [
+     "d411cec7864d334a",
+     []
+    ],
+    [
+     "02a51ac056f20f11",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "7cc09310bd72356b",
+     "cited_pages": [],
+     "found_page": 26,
+     "verdict": "found",
+     "print": "KAG 060-064 || Departmental Elective-III || 3 || 0"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "food-packaging-technology",
+   "course": "BTech",
+   "primary_code": "RAG054",
+   "family": "RAG",
+   "expected_domain": "(small n=49)",
+   "name_domain": "BIO",
+   "name_kw": "food",
+   "subject_name": "Food Packaging Technology",
+   "subject_name_print": "Food Packaging Technology",
+   "all_codes": "RAG054;NAG-033;KAG076;BAG073;EAG-035",
+   "code_history_all": "RAG054 (2018-19, sem-5) -> NAG-033 (2016-17) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2016-17.pdf -> KAG076 (2021-22) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2021-22.pdf -> BAG073 (2025-26) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2025-26.pdf -> EAG-035 () - codes printed with detailed syllabus in btech_ag_syllabus.pdf",
+   "effective_session_latest": "2018-19",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "d411cec7864d334a",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "d411cec7864d334a",
+     []
+    ],
+    [
+     "7e8aff45877e1934",
+     []
+    ],
+    [
+     "2b917b5533712443",
+     []
+    ],
+    [
+     "75359220655d0243",
+     []
+    ],
+    [
+     "d653fca183edc5fb",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "d411cec7864d334a",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "4. RAG 054 Food Packaging Technology || 5. RAG 055 Food Quality and Control"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "minor-irrigation-and-command-area-development",
+   "course": "BTech",
+   "primary_code": "RAG080",
+   "family": "RAG",
+   "expected_domain": "(small n=49)",
+   "name_domain": "CE",
+   "name_kw": "irrigation",
+   "subject_name": "Minor Irrigation and Command area Development",
+   "subject_name_print": "Minor Irrigation and Command area Development | detailed-doc print: Minor Irrigation and Command Area Development | detailed-doc print: Minor Irrigation and Command Area Development",
+   "all_codes": "RAG080;KAG075;EAG-021",
+   "code_history_all": "NAG-021 (2015-16, sem-6) -> RAG080 (2019-20) - codes printed with detailed syllabus in btech_ag_y4_syllabus-cbcs_2019-20.pdf; NAG-021 (2015-16, sem-6 print) \u2014 token REPRINTED by the 2016-17 y4 document on its detail pages for a different subject (document-level code reuse across sessions); ownership moved to the newer print per CODE-REASSIGNED-ACROSS-SESSIONS semantics; the newer subject row is appended by B08 (CRON-20261030-B08). -> KAG075 (2021-22) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2021-22.pdf -> EAG-021 () - codes printed with detailed syllabus in btech_ag_syllabus.pdf",
+   "effective_session_latest": "2015-16",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "69b6c3c47a3fbcb0",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "69b6c3c47a3fbcb0",
+     []
+    ],
+    [
+     "8ca5b389f76d66d5",
+     []
+    ],
+    [
+     "2b917b5533712443",
+     []
+    ],
+    [
+     "d653fca183edc5fb",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "69b6c3c47a3fbcb0",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "69b6c3c47a3fbcb0",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "8ca5b389f76d66d5",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "RAG080 || Minor irrigation and command area development || 2 || RAG081"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "testing-of-agricultural-machinery-and-tractors",
+   "course": "BTech",
+   "primary_code": "RAG079A",
+   "family": "RAG",
+   "expected_domain": "(small n=49)",
+   "name_domain": "ME",
+   "name_kw": "tractors",
+   "subject_name": "Testing of Agricultural Machinery and Tractors",
+   "subject_name_print": "Testing of Agricultural Machinery and Tractors",
+   "all_codes": "RAG079A;NAG-031;EAG-037",
+   "code_history_all": "RAG079A (2019-20, sem-7) -> NAG-031 (2016-17) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2016-17.pdf -> EAG-037 () - codes printed with detailed syllabus in btech_ag_syllabus.pdf",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "8ca5b389f76d66d5",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "8ca5b389f76d66d5",
+     []
+    ],
+    [
+     "7e8aff45877e1934",
+     []
+    ],
+    [
+     "d653fca183edc5fb",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "8ca5b389f76d66d5",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "RAG079A || Testing of Agricultural equipment and Tractors || 6 || RAG079B"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "micro-irrigation-systems-design",
+   "course": "BTech",
+   "primary_code": "NAG-022",
+   "family": "NAG",
+   "expected_domain": "(small n=24)",
+   "name_domain": "CE",
+   "name_kw": "irrigation",
+   "subject_name": "Micro Irrigation Systems Design",
+   "subject_name_print": "2- Micro Irrigation Systems Design (NAG-022)",
+   "all_codes": "NAG-022;EAG-033",
+   "code_history_all": "NAG-022 (2016-17, sem-7) -> EAG-033 () - codes printed with detailed syllabus in btech_ag_syllabus.pdf",
+   "effective_session_latest": "2016-17",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "7e8aff45877e1934",
+     [
+      1
+     ]
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "7e8aff45877e1934",
+     []
+    ],
+    [
+     "d653fca183edc5fb",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "7e8aff45877e1934",
+     "cited_pages": [
+      1
+     ],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7e8aff45877e1934",
+     "cited_pages": [],
+     "found_page": 5,
+     "verdict": "found",
+     "print": "(NAG-022) || 4 (3+1) || UNIT- I || Past, present and future need of micro-irrigation systems, Role of Govt. for the promotion of"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "machine-learning-network-security",
+   "course": "BTech",
+   "primary_code": "KAD075",
+   "family": "KAD",
+   "expected_domain": "(small n=5)",
+   "name_domain": "CS",
+   "name_kw": "machine learning",
+   "subject_name": "Machine Learning & Network Security",
+   "subject_name_print": "Machine Learning & Network Security",
+   "all_codes": "KAD075",
+   "code_history_all": "KAD075 (2024-25, sem-7)",
+   "effective_session_latest": "2024-25",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "d0af03923e1b8b64",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "d0af03923e1b8b64",
+     []
+    ],
+    [
+     "01306748db62aecf",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "d0af03923e1b8b64",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "7. KAD075 || Machine Learning & Network Security"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "microprocessor-its-applications",
+   "course": "BTech",
+   "primary_code": "EBM-502",
+   "family": "EBM",
+   "expected_domain": "(small n=32)",
+   "name_domain": "ECE",
+   "name_kw": "microprocessor",
+   "subject_name": "MICROPROCESSOR & ITS APPLICATIONS",
+   "subject_name_print": "MICROPROCESSOR & ITS APPLICATIONS | detailed-doc print: EBM 502  MICROPROCESSOR & ITS APPLICATIONS | detailed-doc print: MICROPROCESSOR & APPLICATION",
+   "all_codes": "EBM-502;RBM503",
+   "code_history_all": "EBM-502 (2010-11, sem-5) -> RBM503 (2017-18) - codes printed with detailed syllabus in btech_bme_y3_syllabus_2017-18.pdf",
+   "effective_session_latest": "2010-11",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "5cc5a89a9c439987",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "5cc5a89a9c439987",
+     []
+    ],
+    [
+     "d71e761d73879ea5",
+     []
+    ],
+    [
+     "9b9305a2b763d1e5",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "5cc5a89a9c439987",
+     "cited_pages": [],
+     "found_page": 4,
+     "verdict": "found",
+     "print": "EBM-502 || Micro-Processor & || its Applications || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "laser-fiber-optics-and-its-medical-application",
+   "course": "BTech",
+   "primary_code": "EBM-011",
+   "family": "EBM",
+   "expected_domain": "(small n=32)",
+   "name_domain": "TEXT",
+   "name_kw": "fiber",
+   "subject_name": "LASER & FIBER OPTICS AND ITS MEDICAL APPLICATION",
+   "subject_name_print": "LASER & FIBER OPTICS AND ITS MEDICAL APPLICATION | detailed-doc print: EBM 011 LASER & FIBER OPTICS AND ITS MEDICAL APPLICATION | detailed-doc print: LASER & FIBER OPTICS AND ITS MEDICAL APPLICATION",
+   "all_codes": "EBM-011;RBM061;RBM-061",
+   "code_history_all": "EBM-011 (2010-11, sem-6) -> RBM061 + RBM-061 (2017-18) - codes printed with detailed syllabus in btech_bme_y3_syllabus_2017-18.pdf",
+   "effective_session_latest": "2010-11",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "5cc5a89a9c439987",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "5cc5a89a9c439987",
+     []
+    ],
+    [
+     "d71e761d73879ea5",
+     []
+    ],
+    [
+     "9b9305a2b763d1e5",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "5cc5a89a9c439987",
+     "cited_pages": [],
+     "found_page": 5,
+     "verdict": "found",
+     "print": "EBM 011 : Laser & Fibre Optics & Its Medical Applications. || EBM 012 :Rehabilitation Engineering. || EBM 013 : Bio-Mechanics || EEC 013 : Advance Semiconductor Devices"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "applied-chemistry-for-biomolecules-and-bioprocess-systems",
+   "course": "BTech",
+   "primary_code": "AAS102F",
+   "family": "AAS",
+   "expected_domain": "MATH",
+   "name_domain": "BIO",
+   "name_kw": "bioprocess",
+   "subject_name": "Applied Chemistry for Biomolecules and Bioprocess Systems",
+   "subject_name_print": "Applied Chemistry for Biomolecules and Bioprocess Systems",
+   "all_codes": "AAS102F;AAS202F",
+   "code_history_all": "AAS102F (2026-27, sem-[1, 2]) / AAS202F (2026-27, sem-[1, 2])",
+   "effective_session_latest": "2026-27",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "49a930c63f3156b9",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "49a930c63f3156b9",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "49a930c63f3156b9",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "AAS102F || Physics of Materials || and Biomaterials  / || Applied Chemistry"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "molecular-modeling-and-drug-design",
+   "course": "BTech",
+   "primary_code": "EBT-041",
+   "family": "EBT",
+   "expected_domain": "BIO",
+   "name_domain": "PHAR",
+   "name_kw": "drug",
+   "subject_name": "Molecular Modeling and Drug Design",
+   "subject_name_print": "MOLECULAR MODELING AND DRUG DESIGN | detailed-doc print: NBT-013: Molecular Modeling & Drug Design | detailed-doc print: Molecular Modeling & Drug Design | detailed-doc print: Molecular Modeling & Drug Design",
+   "all_codes": "EBT-041;NBT-013;KBT058;BBT058",
+   "code_history_all": "EBT-041 (2009-10, sem-7) -> NBT-013 (2015-16) - codes printed with detailed syllabus in btech_bt_syllabus_2015-16.pdf -> KBT058 (2020-21) - codes printed with detailed syllabus in btech_bt_y3_syllabus_2020-21.pdf -> BBT058 (2024-25) - codes printed with detailed syllabus in btech_bt_y3_syllabus_2024-25.pdf",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "2f6cdc135e2e6643",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "2f6cdc135e2e6643",
+     []
+    ],
+    [
+     "7ae4e38503d235fd",
+     []
+    ],
+    [
+     "abdc219693a0bf7f",
+     []
+    ],
+    [
+     "421ea0b792f7ab84",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "2f6cdc135e2e6643",
+     "cited_pages": [],
+     "found_page": 8,
+     "verdict": "found",
+     "print": "EBT-041- || EBT-042 || Departmental Elective-IV || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "fluid-mechanics-for-biotechnology",
+   "course": "BTech",
+   "primary_code": "RCE309",
+   "family": "RCE",
+   "expected_domain": "(small n=21)",
+   "name_domain": "BIO",
+   "name_kw": "biotechnology",
+   "subject_name": "Fluid Mechanics for Biotechnology",
+   "subject_name_print": "Fluid Mechanics for Biotechnology",
+   "all_codes": "RCE309",
+   "code_history_all": "RCE309 (2017-18, sem-3)",
+   "effective_session_latest": "2017-18",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "30cfa6b02bc4d971",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "30cfa6b02bc4d971",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "30cfa6b02bc4d971",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "3. RCE309 || Fluid Mechanics for || Biotechnology || 3-0-0"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "industrial-manufacturing-process",
+   "course": "BTech",
+   "primary_code": "ECT501",
+   "family": "ECT",
+   "expected_domain": "TEXT",
+   "name_domain": "ME",
+   "name_kw": "manufacturing",
+   "subject_name": "Industrial Manufacturing Process",
+   "subject_name_print": "Industrial Manufacturing Process",
+   "all_codes": "ECT501",
+   "code_history_all": "ECT501 (2009-10, sem-5)",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "2ac6e53d06c52026",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "2ac6e53d06c52026",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "2ac6e53d06c52026",
+     "cited_pages": [],
+     "found_page": 4,
+     "verdict": "found",
+     "print": "ECT-501 || Industrial Manufacturing Process || 3 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "computer-aided-designing-manufacturing-textiles",
+   "course": "BTech",
+   "primary_code": "ETDT703",
+   "family": "ETDT",
+   "expected_domain": "(small n=6)",
+   "name_domain": "ME",
+   "name_kw": "manufacturing",
+   "subject_name": "Computer Aided Designing & Manufacturing (Textiles)",
+   "subject_name_print": "Computer Aided Designing & Manufacturing (Textiles)",
+   "all_codes": "ETDT703",
+   "code_history_all": "ETDT703 (2009-10, sem-7)",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "2ac6e53d06c52026",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "2ac6e53d06c52026",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "2ac6e53d06c52026",
+     "cited_pages": [],
+     "found_page": 6,
+     "verdict": "found",
+     "print": "ETDT-703 || Departmental Elective-III || Computer Aided Designing || (Carpet & Textiles)"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "chemical-processing-of-textiles-i",
+   "course": "BTech",
+   "primary_code": "KCT403",
+   "family": "KCT",
+   "expected_domain": "(small n=17)",
+   "name_domain": "CHE",
+   "name_kw": "chemical",
+   "subject_name": "Chemical Processing of Textiles I",
+   "subject_name_print": "Chemical Processing of Textiles I | detailed-doc print: KHT-401: CHEMICAL PROCESSING OF TEXTILE-I",
+   "all_codes": "KCT403;RCT305;RCT405;KHT-401;KHT401",
+   "code_history_all": "KCT403 (2019-20, sem-4) -> RCT305 + RCT405 (2017-18) - codes printed with detailed syllabus in btech_carpet-textile_y2_scheme-syllabus_2017-18.pdf -> KHT-401 + KHT401 (2021-22) - codes printed with detailed syllabus in btech_handloom-textile_y2_syllabus_2021-22.pdf",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "85fc0a911e174919",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "85fc0a911e174919",
+     []
+    ],
+    [
+     "5e07ff5fe10cd6c3",
+     []
+    ],
+    [
+     "ae09f754a72d1829",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "85fc0a911e174919",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KCT403 || Chemical Processing of || Textiles I || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "chemical-processing-of-textiles-ii",
+   "course": "BTech",
+   "primary_code": "RCT402",
+   "family": "RCT",
+   "expected_domain": "TEXT",
+   "name_domain": "CHE",
+   "name_kw": "chemical",
+   "subject_name": "Chemical Processing of Textiles\u2013II",
+   "subject_name_print": "Chemical Processing of Textiles\u2013II | detailed-doc print: BCT502 Chemical Processing of Textiles II | detailed-doc print: Chemical Processing of Textiles II | detailed-doc print: KHT 502 CHEMICAL PROCESSING OF TEXTILES \u2013 II | detailed-doc print: CHEMI",
+   "all_codes": "RCT402;BCT-502;BCT502;KCT-502;KHT-502;KHT 502;BHT-502;BHT 502",
+   "code_history_all": "RCT402 (2017-18, sem-4) -> BCT-502 + BCT502 (2024-25) - codes printed with detailed syllabus in btech_carpet-textile_y3_syllabus_2024-25.pdf -> KCT-502 (2020-21) - codes printed with detailed syllabus in btech_carpet-textile_y3_model-curriculum_2020-21.pdf -> KHT-502 + KHT 502 (2022-23) - codes printed with detailed syllabus in btech_handloom-textile_y3_syllabus-rev_2022-23.pdf -> BHT-502 + BHT 502 (2024-25) - codes printed with detailed syllabus in btech_handloom-textile_y3_syllabus_2024-25.pdf",
+   "effective_session_latest": "2017-18",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "5e07ff5fe10cd6c3",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "5e07ff5fe10cd6c3",
+     []
+    ],
+    [
+     "020ea64f9757080b",
+     []
+    ],
+    [
+     "641f700a7ab5d96d",
+     []
+    ],
+    [
+     "5b4f665023beefb6",
+     []
+    ],
+    [
+     "63638e5ff918b18c",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "5e07ff5fe10cd6c3",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "5. RCT402 || Chemical Processing of || Textiles\u2013II || 3-0-0"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "chemical-processing-of-textiles-iii",
+   "course": "BTech",
+   "primary_code": "BCT-061",
+   "family": "BCT",
+   "expected_domain": "(small n=12)",
+   "name_domain": "CHE",
+   "name_kw": "chemical",
+   "subject_name": "Chemical Processing of Textiles \u2013 III",
+   "subject_name_print": "BCT061 Chemical Processing of Textiles \u2013 III",
+   "all_codes": "BCT-061;BCT061;KCT-061",
+   "code_history_all": "BCT-061 (2024-25, sem-6) / BCT061 (2024-25, sem-6) -> KCT-061 (2020-21) - codes printed with detailed syllabus in btech_carpet-textile_y3_model-curriculum_2020-21.pdf",
+   "effective_session_latest": "2024-25",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "020ea64f9757080b",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "020ea64f9757080b",
+     []
+    ],
+    [
+     "641f700a7ab5d96d",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "020ea64f9757080b",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "BCT-061/ || BCT-062/ || BCT-063 || Chemical Processing of"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "plastic-analysis-of-structures",
+   "course": "BTech",
+   "primary_code": "ECE042",
+   "family": "ECE",
+   "expected_domain": "CE",
+   "name_domain": "CHE",
+   "name_kw": "plastic",
+   "subject_name": "Plastic Analysis of Structures",
+   "subject_name_print": "Plastic Analysis of Structures | detailed-doc print: NCE \u2013 042 Plastic Analysis of Structures",
+   "all_codes": "ECE042;NCE042",
+   "code_history_all": "ECE042 (2010-11, sem-7) -> NCE042 (2016-17) - codes printed with detailed syllabus in btech_ce_y4_syllabus_2016-17.pdf",
+   "effective_session_latest": "2010-11",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "441c7c04a2569344",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "441c7c04a2569344",
+     []
+    ],
+    [
+     "52245ed4397dccfc",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "441c7c04a2569344",
+     "cited_pages": [],
+     "found_page": 6,
+     "verdict": "found",
+     "print": "ECE 042 - Plastic Analysis of Structures || ECE 043 - Open Channel Flow || ECE 044 \u2013 Tunnel Engineering || Departmental Elective-V"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "mechanical-operations",
+   "course": "BTech",
+   "primary_code": "ECH302",
+   "family": "ECH",
+   "expected_domain": "(small n=39)",
+   "name_domain": "ME",
+   "name_kw": "mechanical",
+   "subject_name": "MECHANICAL OPERATIONS",
+   "subject_name_print": "MECHANICAL OPERATIONS | detailed-doc print: NCH302: MECHANICAL OPERATIONS (2:1:0) | detailed-doc print: Mechanical Operations",
+   "all_codes": "ECH302;RCH302;NCH302;KCH401",
+   "code_history_all": "ECH302 (2009-10, sem-3) -> RCH302 (2017-18) - codes printed with detailed syllabus in btech_che_y2_scheme-syllabus_2017-18.pdf -> NCH302 (2014-15) - codes printed with detailed syllabus in btech_che_y2_syllabus-rev_2014-15.pdf -> KCH401 (2019-20) - codes printed with detailed syllabus in btech_che_y2_syllabus_2019-20.pdf",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "c0a99d3733f78578",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "c0a99d3733f78578",
+     []
+    ],
+    [
+     "6f38756d90d55d99",
+     []
+    ],
+    [
+     "7953702843e0bfb6",
+     []
+    ],
+    [
+     "440a08377e3a411c",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "c0a99d3733f78578",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "ECH302 || Mechanical Operations || 2 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "heat-transfer-operations",
+   "course": "BTech",
+   "primary_code": "EEV-043",
+   "family": "EEV",
+   "expected_domain": "(small n=29)",
+   "name_domain": "ME",
+   "name_kw": "heat transfer",
+   "subject_name": "HEAT TRANSFER OPERATIONS",
+   "subject_name_print": "HEAT TRANSFER OPERATIONS | detailed-doc print: Heat Transfer Operations | detailed-doc print: EEV-043- HEAT TRANSFER OPERATIONS",
+   "all_codes": "KCH303;EEV-043",
+   "code_history_all": "ECH402 (2009-10, sem-4) -> KCH303 (2019-20) - codes printed with detailed syllabus in btech_che_y2_syllabus_2019-20.pdf -> EEV-043 (2009-10) - codes printed with detailed syllabus in btech_env_syllabus_2009-10.pdf; ECH402 re-assigned by AKTU to Heat Transfer per the 2009-10 scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model)",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "c0a99d3733f78578",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "c0a99d3733f78578",
+     []
+    ],
+    [
+     "440a08377e3a411c",
+     []
+    ],
+    [
+     "9ca59c30578733b0",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "c0a99d3733f78578",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "c0a99d3733f78578",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "440a08377e3a411c",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9ca59c30578733b0",
+     "cited_pages": [],
+     "found_page": 6,
+     "verdict": "found",
+     "print": "EEV043 || Departmental Elective- || IV || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "heat-transfer",
+   "course": "BTech",
+   "primary_code": "RCH405",
+   "family": "RCH",
+   "expected_domain": "(small n=26)",
+   "name_domain": "ME",
+   "name_kw": "heat transfer",
+   "subject_name": "Heat Transfer",
+   "subject_name_print": "HEAT TRANSFER | detailed-doc print: RCH405 Heat Transfer (scheme row, Sem IV)",
+   "all_codes": "RCH405;NCH402;ECH402",
+   "code_history_all": "RCH405 (2017-18, sem-4) -> NCH402 (2014-15) - codes printed with detailed syllabus in btech_che_y2_syllabus-rev_2014-15.pdf -> ECH402 (2009-10) - codes printed with detailed syllabus in btech_ft_syllabus-rev_2009-10.pdf",
+   "effective_session_latest": "2017-18",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "6f38756d90d55d99",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "6f38756d90d55d99",
+     []
+    ],
+    [
+     "7953702843e0bfb6",
+     []
+    ],
+    [
+     "834e84015a481092",
+     []
+    ],
+    [
+     "cbbe78b0fd8083e9",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "6f38756d90d55d99",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "6. RCH405 || Heat Transfer || 3-0-0 || 70"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "mobile-and-wireless-security",
+   "course": "BTech",
+   "primary_code": "BCCS061",
+   "family": "BCCS",
+   "expected_domain": "(small n=8)",
+   "name_domain": "ECE",
+   "name_kw": "wireless",
+   "subject_name": "Mobile and Wireless Security",
+   "subject_name_print": "Mobile and Wireless Security (BCCS061)",
+   "all_codes": "BCCS061",
+   "code_history_all": "BCCS061 (2024-25, sem-6)",
+   "effective_session_latest": "2024-25",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "fc3ef7939b690319",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "fc3ef7939b690319",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "fc3ef7939b690319",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "BCCS061/ || BCDS062/ || BCS063/ || BCS064"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "sensors-actuators-and-signal-processing",
+   "course": "BTech",
+   "primary_code": "KOT051",
+   "family": "KOT",
+   "expected_domain": "(small n=10)",
+   "name_domain": "ECE",
+   "name_kw": "signal",
+   "subject_name": "Sensors, Actuators and Signal Processing",
+   "subject_name_print": "KOT 051                 SENSORS, ACTUATORS AND SIGNAL PROCESSING",
+   "all_codes": "KOT051",
+   "code_history_all": "KOT051 (2022-23, sem-5)",
+   "effective_session_latest": "2022-23",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "8b30bb16dfd71134",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "8b30bb16dfd71134",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "8b30bb16dfd71134",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "3. KOT051 || Sensors, Actuators and Signal Processing || 4. KCS054 || Object Oriented System Design"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "computer-system-security-python-programming",
+   "course": "BTech",
+   "primary_code": "KNC301H",
+   "family": "KNC",
+   "expected_domain": "(small n=7)",
+   "name_domain": "CS",
+   "name_kw": "programming",
+   "subject_name": "Computer System Security/Python Programming",
+   "subject_name_print": "Computer System Security/Python Programming",
+   "all_codes": "KNC301H;KNC302H;KNC301;KNC302",
+   "code_history_all": "KNC301H (2022-23, sem-3) / KNC302H (2022-23, sem-3) -> KNC301 () - codes printed with detailed syllabus in  -> KNC302 () - codes printed with detailed syllabus in ",
+   "effective_session_latest": "2022-23",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "cc4748ed815ef975",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "cc4748ed815ef975",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "cc4748ed815ef975",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "KNC301H/ || KNC302H || Computer System || Security/Python"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "python-programming-computer-system-security",
+   "course": "BTech",
+   "primary_code": "KNC402H",
+   "family": "KNC",
+   "expected_domain": "(small n=7)",
+   "name_domain": "CS",
+   "name_kw": "programming",
+   "subject_name": "Python Programming/Computer System Security",
+   "subject_name_print": "Python Programming/Computer System Security",
+   "all_codes": "KNC402H;KNC401H;KNC402;KNC401",
+   "code_history_all": "KNC402H (2022-23, sem-4) / KNC401H (2022-23, sem-4) -> KNC402 () - codes printed with detailed syllabus in  -> KNC401 () - codes printed with detailed syllabus in ",
+   "effective_session_latest": "2022-23",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "cc4748ed815ef975",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "cc4748ed815ef975",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "cc4748ed815ef975",
+     "cited_pages": [],
+     "found_page": 4,
+     "verdict": "found",
+     "print": "KNC402H/ || KNC401H || Python || Programming/Computer"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "applied-chemistry-for-emerging-electronics-and-futuristic-de",
+   "course": "BTech",
+   "primary_code": "AAS102C",
+   "family": "AAS",
+   "expected_domain": "MATH",
+   "name_domain": "ECE",
+   "name_kw": "electronics",
+   "subject_name": "Applied Chemistry for Emerging Electronics and Futuristic Devices",
+   "subject_name_print": "Applied Chemistry for Emerging Electronics and Futuristic Devices",
+   "all_codes": "AAS102C;AAS202C",
+   "code_history_all": "AAS102C (2026-27) / AAS202C (2026-27)",
+   "effective_session_latest": "2026-27",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "b98bd23c56a3c812",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "b98bd23c56a3c812",
+     []
+    ],
+    [
+     "17778c4a3a6a7a09",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "b98bd23c56a3c812",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "AAS102C || Quantum Physics and || Electronic Sensors / || Applied Chemistry"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "advance-programming-in-engineering",
+   "course": "BTech",
+   "primary_code": "REC073",
+   "family": "REC",
+   "expected_domain": "ECE",
+   "name_domain": "CS",
+   "name_kw": "programming",
+   "subject_name": "Advance Programming in Engineering",
+   "subject_name_print": "REC073 ADVANCE PROGRAMMING IN ENGINEERING | detailed-doc print: ADVANCE PROGRAMMING IN ENGINEERING",
+   "all_codes": "REC073",
+   "code_history_all": "REC073 (2019-20, sem-7)",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "b875786af75ea86d",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "b875786af75ea86d",
+     []
+    ],
+    [
+     "6048802d2ff4cbdb",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "b875786af75ea86d",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "REC073 Advance Programming in Engineering || Elective \u2013 IV REC 07* Departmental Elective IV || 1. || REC075 Optical Communication"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "thermal-hydraulic-machines",
+   "course": "BTech",
+   "primary_code": "NME-309",
+   "family": "NME",
+   "expected_domain": "ME",
+   "name_domain": "CE",
+   "name_kw": "hydraulic",
+   "subject_name": "Thermal & Hydraulic Machines",
+   "subject_name_print": "THERMAL  AND  HYDRAULIC  MACHINES | detailed-doc print: THERMAL AND HYDRAULIC MACHINES",
+   "all_codes": "NME-309;EME-309;RMI501",
+   "code_history_all": "NME-309 (2014-15, sem-3) -> EME-309 (2009-10) - codes printed with detailed syllabus in btech_ee_syllabus_2009-10.pdf -> RMI501 (2018-19) - codes printed with detailed syllabus in btech_me-ind_y3_syllabus_2018-19.pdf",
+   "effective_session_latest": "2014-15",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "2a559deeb26d4e0d",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "2a559deeb26d4e0d",
+     []
+    ],
+    [
+     "8f2892a46c32012b",
+     []
+    ],
+    [
+     "3b9e1f6b2ca6efca",
+     []
+    ],
+    [
+     "df5b69780b912bb8",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "2a559deeb26d4e0d",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "NME-309 || Thermal & Hydraulic || Machines || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "instrumentation-process-control",
+   "course": "BTech",
+   "primary_code": "NEE-403",
+   "family": "NEE",
+   "expected_domain": "(small n=14)",
+   "name_domain": "ECE",
+   "name_kw": "instrumentation",
+   "subject_name": "Instrumentation & Process Control",
+   "subject_name_print": "ELECTRICAL INSTRUMENTATION AND PROCESS CONTROL | detailed-doc print: INSTRUMENTATION & PROCESS CONTROL (scheme row 'BCH 604'; detail header 'COURSE TITLE:INSTRUMENTATION &  PROCESS CONTROL') | detailed-doc print: INSTRUMENTATION & PROCESS CONTROL",
+   "all_codes": "NEE-403;BCH 604;BCH604;KCH 604",
+   "code_history_all": "NEE-403 (2014-15, sem-4) -> BCH 604 + BCH604 (2024-25) - codes printed with detailed syllabus in btech_ft_s5-6_syllabus_2024-25.pdf -> KCH 604 (2020-21) - codes printed with detailed syllabus in btech_ft_y3_scheme-syllabus_2020-21.pdf",
+   "effective_session_latest": "2014-15",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "2a559deeb26d4e0d",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "2a559deeb26d4e0d",
+     []
+    ],
+    [
+     "dc6eee55aae5dadc",
+     []
+    ],
+    [
+     "3b5860baf691c4a1",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "2a559deeb26d4e0d",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "NEE-403 || Instrumentation & || Process Control || 2"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "power-electronics",
+   "course": "BTech",
+   "primary_code": "EEE-602",
+   "family": "EEE",
+   "expected_domain": "EE",
+   "name_domain": "ECE",
+   "name_kw": "electronics",
+   "subject_name": "Power Electronics",
+   "subject_name_print": "POWER    ELECTRONICS | detailed-doc print: POWER ELECTRONICS | detailed-doc print: BEE603: POWER ELECTRONICS | detailed-doc print: POWER ELECTRONICS | detailed-doc print: POWER ELECTRONICS | detailed-doc print: BEE603: POWER ELECTRONICS | detailed-do",
+   "all_codes": "EEE-602;KEE603;BEE603;REE601",
+   "code_history_all": "EEE-602 (2009-10, sem-6) -> KEE603 (2020-21) - codes printed with detailed syllabus in btech_ee_y3_model-curriculum-rev-aicte_2020-21.pdf -> BEE603 (2024-25) - codes printed with detailed syllabus in btech_ee_y3_syllabus_2024-25.pdf -> REE601 (2018-19) - codes printed with detailed syllabus in btech_eee-ece-ee_y3_syllabus_2018-19.pdf",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "8f2892a46c32012b",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "8f2892a46c32012b",
+     []
+    ],
+    [
+     "8bba5a23e7feb769",
+     []
+    ],
+    [
+     "d5fe2023680b3af8",
+     []
+    ],
+    [
+     "a0cf580ebf4be896",
+     []
+    ],
+    [
+     "e7c6f352c36de776",
+     []
+    ],
+    [
+     "036329f4428dd944",
+     []
+    ],
+    [
+     "ed6c9a21ce3d9c93",
+     []
+    ],
+    [
+     "3b9e1f6b2ca6efca",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "8f2892a46c32012b",
+     "cited_pages": [],
+     "found_page": 5,
+     "verdict": "found",
+     "print": "EEE-602 || Power Electronics || 3 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "sensors-and-transducers",
+   "course": "BTech",
+   "primary_code": "KEE052",
+   "family": "KEE",
+   "expected_domain": "EE",
+   "name_domain": "ECE",
+   "name_kw": "sensors",
+   "subject_name": "Sensors and Transducers",
+   "subject_name_print": "SENSORS AND TRANSDUCERS | detailed-doc print: BEE052: SENSORS AND TRANSDUCERS | detailed-doc print: SENSORS AND TRANSDUCERS | detailed-doc print: BEE052: SENSORS AND TRANSDUCERS | detailed-doc print: BEE052: SENSORS AND TRANSDUCERS",
+   "all_codes": "KEE052;BEE052",
+   "code_history_all": "KEE052 (2020-21, sem-5) -> BEE052 (2024-25) - codes printed with detailed syllabus in btech_ee_y3_syllabus_2024-25.pdf",
+   "effective_session_latest": "2020-21",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "8bba5a23e7feb769",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "8bba5a23e7feb769",
+     []
+    ],
+    [
+     "d5fe2023680b3af8",
+     []
+    ],
+    [
+     "e7c6f352c36de776",
+     []
+    ],
+    [
+     "036329f4428dd944",
+     []
+    ],
+    [
+     "ed6c9a21ce3d9c93",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "8bba5a23e7feb769",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KEE052   Sensors and Transducers || KEE053   Industrial Automation and Control || KEE054   Electrical Standards and Engineering Practices || DEPARTMENT ELECTIVE - II"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "environmental-chemistry-microbiology",
+   "course": "BTech",
+   "primary_code": "EEV-401",
+   "family": "EEV",
+   "expected_domain": "(small n=29)",
+   "name_domain": "BIO",
+   "name_kw": "microbiology",
+   "subject_name": "Environmental Chemistry & Microbiology",
+   "subject_name_print": "EEV-401: Environmental Chemistry & Microbiology | detailed-doc print: NEN 301: Environmental Chemistry and Microbiology | detailed-doc print: Environmental Chemistry and Microbiology (L-T-P  3-1-0) Credit \u2013 4 | detailed-doc print: REV302: ENVIRONMENT",
+   "all_codes": "EEV-401;NEN-301;KNE301;REV302",
+   "code_history_all": "EEV-401 (2009-10, sem-4) -> NEN-301 (2014-15) - codes printed with detailed syllabus in btech_env_syllabus_2014-15.pdf -> KNE301 (2019-20) - codes printed with detailed syllabus in btech_env_y2_model-curriculum_2019-20.pdf -> REV302 (2017-18) - codes printed with detailed syllabus in btech_env_y2_scheme-syllabus_2017-18.pdf",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "9ca59c30578733b0",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "9ca59c30578733b0",
+     []
+    ],
+    [
+     "bf7c400a47cff23f",
+     []
+    ],
+    [
+     "c49f2650dbd0203b",
+     []
+    ],
+    [
+     "90e8d156a80db8ea",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "9ca59c30578733b0",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "EEV 401 || Environmental || Chemistry and || Microbiology"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "design-of-waste-water-system",
+   "course": "BTech",
+   "primary_code": "EEV801",
+   "family": "EEV",
+   "expected_domain": "(small n=29)",
+   "name_domain": "CE",
+   "name_kw": "waste water",
+   "subject_name": "Design of Waste Water System",
+   "subject_name_print": "EEV801: Design of Waste Water System",
+   "all_codes": "EEV801",
+   "code_history_all": "EEV801 (2009-10, sem-8)",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "9ca59c30578733b0",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "9ca59c30578733b0",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "9ca59c30578733b0",
+     "cited_pages": [],
+     "found_page": 7,
+     "verdict": "found",
+     "print": "EEV801 || Design of Waste water || system s || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "fundamentals-of-mass-transfer-and-chemical-engineering",
+   "course": "BTech",
+   "primary_code": "NEN501",
+   "family": "NEN",
+   "expected_domain": "(small n=15)",
+   "name_domain": "CHE",
+   "name_kw": "chemical",
+   "subject_name": "Fundamentals of Mass Transfer and Chemical Engineering",
+   "subject_name_print": "Fundamentals of Mass Transfer and Chemical Engineering",
+   "all_codes": "NEN501",
+   "code_history_all": "NEN501 (2015-16, sem-5)",
+   "effective_session_latest": "2015-16",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "f18b9892a800b47a",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "f18b9892a800b47a",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "f18b9892a800b47a",
+     "cited_pages": [],
+     "found_page": 4,
+     "verdict": "found",
+     "print": "NEN 501: Fundamentals of Mass Transfer and Chemical Engineering || L  T  P || 3  1  0 || Unit 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "structural-analysis-for-environmental-engineering",
+   "course": "BTech",
+   "primary_code": "REV403",
+   "family": "REV",
+   "expected_domain": "(small n=17)",
+   "name_domain": "CE",
+   "name_kw": "structural analysis",
+   "subject_name": "Structural Analysis for Environmental Engineering",
+   "subject_name_print": "REV403: STRUCTURAL ANALYSIS FOR ENVIRONMENTAL ENGINEERING",
+   "all_codes": "REV403",
+   "code_history_all": "REV403 (2017-18, sem-4)",
+   "effective_session_latest": "2017-18",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "90e8d156a80db8ea",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "90e8d156a80db8ea",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "90e8d156a80db8ea",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "6. REV403 || Structural Analysis for || Environmental Engineering || 3-1-0"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "hse-for-offshore-and-petroleum-industries",
+   "course": "BTech",
+   "primary_code": "REV061",
+   "family": "REV",
+   "expected_domain": "(small n=17)",
+   "name_domain": "CHE",
+   "name_kw": "petroleum",
+   "subject_name": "HSE for offshore and petroleum industries",
+   "subject_name_print": "HSE for offshore and petroleum industries",
+   "all_codes": "REV061",
+   "code_history_all": "REV061 (2018-19, sem-6)",
+   "effective_session_latest": "2018-19",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "332ce6312d25dcd7",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "332ce6312d25dcd7",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "332ce6312d25dcd7",
+     "cited_pages": [],
+     "found_page": 12,
+     "verdict": "found",
+     "print": "REV061 || RCE-062 || REV-063 || DEPTT. ELECTIVE"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "transport-process-heat-and-mass-transfer",
+   "course": "BTech",
+   "primary_code": "REV063",
+   "family": "REV",
+   "expected_domain": "(small n=17)",
+   "name_domain": "CHE",
+   "name_kw": "mass transfer",
+   "subject_name": "Transport Process: Heat and Mass Transfer",
+   "subject_name_print": "Transport Process: Heat and Mass Transfer",
+   "all_codes": "REV063",
+   "code_history_all": "REV063 (2018-19, sem-6)",
+   "effective_session_latest": "2018-19",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "332ce6312d25dcd7",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "332ce6312d25dcd7",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "332ce6312d25dcd7",
+     "cited_pages": [],
+     "found_page": 12,
+     "verdict": "found",
+     "print": "REV-063 || DEPTT. ELECTIVE || COURSE-II || HSE FOR OFFSHORE"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "heat-transfer-and-operation",
+   "course": "BTech",
+   "primary_code": "REV077",
+   "family": "REV",
+   "expected_domain": "(small n=17)",
+   "name_domain": "ME",
+   "name_kw": "heat transfer",
+   "subject_name": "Heat Transfer and Operation",
+   "subject_name_print": "HEAT TRANSFER AND OPERATION",
+   "all_codes": "REV077",
+   "code_history_all": "REV077 (2019-20, sem-7)",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "c0bbcb3dacaaf505",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "c0bbcb3dacaaf505",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "c0bbcb3dacaaf505",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "REV077 || REV078 || Elective -4 || Process Engineering and"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "instrumentation-and-process-control",
+   "course": "BTech",
+   "primary_code": "ECH507",
+   "family": "ECH",
+   "expected_domain": "(small n=39)",
+   "name_domain": "ECE",
+   "name_kw": "instrumentation",
+   "subject_name": "Instrumentation and Process Control",
+   "subject_name_print": "ECH- 507 : INSTRUMENTATION AND PROCESS CONTROL | detailed-doc print: NCH- 507 : INSTRUMENTATION AND PROCESS CONTROL\n\nL : T: P\n3 : 1: 0",
+   "all_codes": "ECH507;NCH-507",
+   "code_history_all": "ECH507 (2009-10, sem-5) -> NCH-507 (2015-16) - codes printed with detailed syllabus in btech_ft_syllabus_2015-16.pdf",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "834e84015a481092",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "834e84015a481092",
+     []
+    ],
+    [
+     "6228f90ed89f20f4",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "834e84015a481092",
+     "cited_pages": [],
+     "found_page": 4,
+     "verdict": "found",
+     "print": "ECH 507 Instrumentation and Process Control || 2 || 1 || 0"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "bioprocess-engineering-principles",
+   "course": "BTech",
+   "primary_code": "NCH017",
+   "family": "NCH",
+   "expected_domain": "(small n=22)",
+   "name_domain": "BIO",
+   "name_kw": "bioprocess",
+   "subject_name": "Bioprocess Engineering Principles",
+   "subject_name_print": "NCH017: BIOPROCESS ENGINEERING PRINCIPLES | detailed-doc print: BIOPROCESS ENGINEERING PRINCIPLES",
+   "all_codes": "NCH017",
+   "code_history_all": "NCH017 (2016-17, sem-7)",
+   "effective_session_latest": "2016-17",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "3b901f828959a8cd",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "3b901f828959a8cd",
+     []
+    ],
+    [
+     "9ef4e84f74fad8d3",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "3b901f828959a8cd",
+     "cited_pages": [],
+     "found_page": 1,
+     "verdict": "found",
+     "print": "NCH017 to || 019 || Open Elective from other department || 3"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "software-reliability",
+   "course": "BTech",
+   "primary_code": "NIT-082",
+   "family": "NIT",
+   "expected_domain": "(small n=11)",
+   "name_domain": "ME",
+   "name_kw": "reliability",
+   "subject_name": "Software Reliability",
+   "subject_name_print": "SOFTWARE RELIABILITY",
+   "all_codes": "NIT-082;EIT-063",
+   "code_history_all": "NIT-082 (2016-17, sem-8) -> EIT-063 (2010-11) - codes printed with detailed syllabus in btech_y3-4_syllabus_2010-11.pdf",
+   "effective_session_latest": "2016-17",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "3f83735be23e91f4",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "3f83735be23e91f4",
+     []
+    ],
+    [
+     "b2009ce82c644c34",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "3f83735be23e91f4",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "5. NIT-082  Software Reliability"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "programming-data-structures-and-algorithms-using-python",
+   "course": "BTech",
+   "primary_code": "KME056",
+   "family": "KME",
+   "expected_domain": "(small n=32)",
+   "name_domain": "CS",
+   "name_kw": "programming",
+   "subject_name": "Programming, Data Structures and Algorithms Using Python",
+   "subject_name_print": "Programming, Data Structures And Algorithms Using Python",
+   "all_codes": "KME056",
+   "code_history_all": "KME056 (2020-21, sem-5)",
+   "effective_session_latest": "2020-21",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "ac5aa46cc1cddded",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "ac5aa46cc1cddded",
+     []
+    ],
+    [
+     "be2a8d8948a6c2d6",
+     []
+    ],
+    [
+     "749493b449640e50",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "ac5aa46cc1cddded",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KME\u00a0056 || Elective\u00a0II || Programming,\u00a0Data\u00a0Structures\u00a0and\u00a0Algorithms || Using\u00a0Python"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "computer-graphics-and-product-modeling",
+   "course": "BTech",
+   "primary_code": "KME075",
+   "family": "KME",
+   "expected_domain": "(small n=32)",
+   "name_domain": "CS",
+   "name_kw": "computer graphics",
+   "subject_name": "Computer Graphics and Product Modeling",
+   "subject_name_print": "Computer Graphics and Product Modeling | detailed-doc print: Departmental Elective \u2013 IV Subject Code: BME073 Computer Graphics and Product Modeling L T P: 3 0 0",
+   "all_codes": "KME075;BME073",
+   "code_history_all": "KME075 (2020-21, sem-7) -> BME073 (2025-26) - codes printed with detailed syllabus in btech_me-ind_y4_syllabus_2025-26.pdf",
+   "effective_session_latest": "2020-21",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "ac5aa46cc1cddded",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "ac5aa46cc1cddded",
+     []
+    ],
+    [
+     "a664da8df2b68ed7",
+     []
+    ],
+    [
+     "72ffdc4ec8f31053",
+     []
+    ],
+    [
+     "be2a8d8948a6c2d6",
+     []
+    ],
+    [
+     "3cf7784768f67986",
+     []
+    ],
+    [
+     "99d084e82fa37354",
+     []
+    ],
+    [
+     "2e50304ddbcc9f22",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "ac5aa46cc1cddded",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KME\u00a0075 || Elective\u00a0V || Computer\u00a0Graphics\u00a0and\u00a0product\u00a0modeling || 3\u00a00\u00a00"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "fundamentals-of-biomedical-engineering",
+   "course": "BTech",
+   "primary_code": "EME-066",
+   "family": "EME",
+   "expected_domain": "ME",
+   "name_domain": "BIO",
+   "name_kw": "biomedical",
+   "subject_name": "Fundamentals of Biomedical Engineering",
+   "subject_name_print": "EME-066 : FUNDAMENTALS OF BIOMEDICAL ENGINEERING (detail heading p.74) | scheme p.9 Department Elective-VI pool: '6. EME-066 | Fundamentals of Bio Medical Engineering'",
+   "all_codes": "EME-066",
+   "code_history_all": "EME-066 (2009-10, sem-8)",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "c46b141f3ee05115",
+     [
+      9
+     ]
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "c46b141f3ee05115",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "c46b141f3ee05115",
+     "cited_pages": [
+      9
+     ],
+     "found_page": 9,
+     "verdict": "found",
+     "print": "EME-066 || Departmental Elective \u2013 VI || 3 || 1"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": false
+  },
+  {
+   "sid": "applied-electronics-microprocessor",
+   "course": "BTech",
+   "primary_code": "EMT \u2013 042",
+   "family": "EMT",
+   "expected_domain": "(small n=20)",
+   "name_domain": "ECE",
+   "name_kw": "microprocessor",
+   "subject_name": "Applied Electronics & Microprocessor",
+   "subject_name_print": "Applied Electronics & Microprocessor",
+   "all_codes": "EMT \u2013 042;EMT-042",
+   "code_history_all": "EMT \u2013 042 (2010-11, sem-7) / EMT-042 (2010-11, sem-7)",
+   "effective_session_latest": "2010-11",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "5f4df8f382ad0b54",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "5f4df8f382ad0b54",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "5f4df8f382ad0b54",
+     "cited_pages": [],
+     "found_page": 4,
+     "verdict": "found",
+     "print": "5. EMT-042 || Applied Electronics & Microprocessor || 6. EMT-043 || Logistics & Supply Chain management"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "mine-automation-data-analytics",
+   "course": "BTech",
+   "primary_code": "BMN-073",
+   "family": "BMN",
+   "expected_domain": "(small n=35)",
+   "name_domain": "CS",
+   "name_kw": "data analytics",
+   "subject_name": "Mine Automation & Data Analytics",
+   "subject_name_print": "Subject Code: BMN-073 Mine Automation & Data Analytics",
+   "all_codes": "BMN-073;BMN 073",
+   "code_history_all": "BMN-073 (2026-27, sem-7) / BMN 073 (2026-27, sem-7)",
+   "effective_session_latest": "2026-27",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "1b93096db8304b23",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "1b93096db8304b23",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "1b93096db8304b23",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "BMN 073 || Mine || Economics || Mine Safety"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "instrumentation-and-control",
+   "course": "BTech",
+   "primary_code": "RPI061",
+   "family": "RPI",
+   "expected_domain": "(small n=12)",
+   "name_domain": "ECE",
+   "name_kw": "instrumentation",
+   "subject_name": "INSTRUMENTATION AND CONTROL",
+   "subject_name_print": "INSTRUMENTATION AND CONTROL",
+   "all_codes": "RPI061",
+   "code_history_all": "RPI061 (2018-19, sem-6)",
+   "effective_session_latest": "2018-19",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "819674f872d40b8d",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "819674f872d40b8d",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "819674f872d40b8d",
+     "cited_pages": [],
+     "found_page": 17,
+     "verdict": "found",
+     "print": "RPI061, || 062 || RME065, || 066"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "biomedical-plastics",
+   "course": "BTech",
+   "primary_code": "BPE072",
+   "family": "BPE",
+   "expected_domain": "(small n=6)",
+   "name_domain": "BIO",
+   "name_kw": "biomedical",
+   "subject_name": "Biomedical Plastics",
+   "subject_name_print": "Biomedical Plastics",
+   "all_codes": "BPE072;KPE 072",
+   "code_history_all": "BPE072 (, sem-7) -> KPE 072 (2020-21) - codes printed with detailed syllabus in btech_plastic_syllabus_2020-21.pdf",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [
+    [
+     "96ae7889163bcb53",
+     []
+    ],
+    [
+     "b973ca1fcea7820e",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_syllabus",
+     "sha16": "96ae7889163bcb53",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "b973ca1fcea7820e",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "code_not_in_any_cited_doc"
+  },
+  {
+   "sid": "polymer-structure-and-property-relationship",
+   "course": "BTech",
+   "primary_code": "BPE074",
+   "family": "BPE",
+   "expected_domain": "(small n=6)",
+   "name_domain": "CHE",
+   "name_kw": "polymer",
+   "subject_name": "Polymer Structure and Property Relationship",
+   "subject_name_print": "Polymer Structure and Property\nRelationship | detailed-doc print: Polymer Structure And Property Relationship | detailed-doc print: Polymer Structure And Property Relationship",
+   "all_codes": "BPE074;KPE 074",
+   "code_history_all": "BPE074 (, sem-7) -> KPE 074 (2020-21) - codes printed with detailed syllabus in btech_plastic_syllabus_2020-21.pdf",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [
+    [
+     "96ae7889163bcb53",
+     []
+    ],
+    [
+     "b973ca1fcea7820e",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_syllabus",
+     "sha16": "96ae7889163bcb53",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "b973ca1fcea7820e",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "code_not_in_any_cited_doc"
+  },
+  {
+   "sid": "principle-of-chemical-engineering",
+   "course": "BTech",
+   "primary_code": "EF402",
+   "family": "EF",
+   "expected_domain": "(small n=9)",
+   "name_domain": "CHE",
+   "name_kw": "chemical",
+   "subject_name": "Principle of Chemical Engineering",
+   "subject_name_print": "Principle of Chemical Engineering",
+   "all_codes": "EF402",
+   "code_history_all": "EF402 (, sem-4)",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [],
+   "page_evidence": [],
+   "verdict": "no_citation"
+  },
+  {
+   "sid": "instrumentation-automatic-control",
+   "course": "BTech",
+   "primary_code": "EF503",
+   "family": "EF",
+   "expected_domain": "(small n=9)",
+   "name_domain": "ECE",
+   "name_kw": "instrumentation",
+   "subject_name": "Instrumentation & Automatic Control",
+   "subject_name_print": "Instrumentation & Automatic Control",
+   "all_codes": "EF503",
+   "code_history_all": "EF503 ()",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [],
+   "page_evidence": [],
+   "verdict": "no_citation"
+  },
+  {
+   "sid": "technical-textiles-advances-in-chemical-processing",
+   "course": "BTech",
+   "primary_code": "RTT051",
+   "family": "RTT",
+   "expected_domain": "TEXT",
+   "name_domain": "CHE",
+   "name_kw": "chemical",
+   "subject_name": "Technical Textiles /Advances in Chemical Processing",
+   "subject_name_print": "Technical Textiles /Advances in Chemical Processing",
+   "all_codes": "RTT051;RTT053",
+   "code_history_all": "RTT051 () -> RTT053 () - codes printed with detailed syllabus in ",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [],
+   "page_evidence": [],
+   "verdict": "no_citation"
+  },
+  {
+   "sid": "advances-in-chemical-processing",
+   "course": "BTech",
+   "primary_code": "RTC080",
+   "family": "RTC",
+   "expected_domain": "(small n=13)",
+   "name_domain": "CHE",
+   "name_kw": "chemical",
+   "subject_name": "Advances in Chemical Processing",
+   "subject_name_print": "Advances in Chemical Processing",
+   "all_codes": "RTC080",
+   "code_history_all": "RTC080 (2019-20)",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "70b2d05bfb452830",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "70b2d05bfb452830",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "70b2d05bfb452830",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "RTC080/ || RTT083 || DEPARTMENTAL || ELECTIVES-5"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "instrumentation",
+   "course": "BTech",
+   "primary_code": "EPL021",
+   "family": "EPL",
+   "expected_domain": "CHE",
+   "name_domain": "ECE",
+   "name_kw": "instrumentation",
+   "subject_name": "INSTRUMENTATION",
+   "subject_name_print": "Instrumentation. (DE-II lists pp.5/p.38) / EPL 021: Instrumentation (syllabus page)",
+   "all_codes": "EPL021",
+   "code_history_all": "EPL021 (2009-10, sem-6)",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "aa8219d685bc8cdb",
+     [
+      5,
+      38
+     ]
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "aa8219d685bc8cdb",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "aa8219d685bc8cdb",
+     "cited_pages": [
+      5,
+      38
+     ],
+     "found_page": 5,
+     "verdict": "found",
+     "print": "EPL-021: Instrumentation. || EPL-022/ECH-022: Computational Fluid Dynamics || EPL-023/ECH-023: Statistical Design Of Experiments || EPL-024: Plastic Extrusion Technology."
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": false
+  },
+  {
+   "sid": "fibre-technology",
+   "course": "BTech",
+   "primary_code": "EPL025",
+   "family": "EPL",
+   "expected_domain": "CHE",
+   "name_domain": "TEXT",
+   "name_kw": "fibre",
+   "subject_name": "FIBRE TECHNOLOGY",
+   "subject_name_print": "Fiber Technology. (DE-II list p.5) / Fiber Technology (DE-II list p.38) / EPL 025: FIBRE TECHNOLOGY (syllabus page) | detailed-doc print: Fiber Technology (p.3 DE-II list & p.16 DE-II list) / RPL 064: FIBRE TECHNOLOGY (subject header; 'FIBRE' vs list",
+   "all_codes": "EPL025;RPL064;KPE 064;BPE064",
+   "code_history_all": "EPL025 (2009-10, sem-6) -> RPL064 (2018-19) - codes printed with detailed syllabus in btech_plastic_syllabus_2018-19.pdf -> KPE 064 (2020-21) - codes printed with detailed syllabus in btech_plastic_syllabus_2020-21.pdf -> BPE064 (2024-25) - codes printed with detailed syllabus in btech_plastic_y3_syllabus_2024-25.pdf",
+   "effective_session_latest": "2009-10",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "aa8219d685bc8cdb",
+     [
+      5,
+      38
+     ]
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "aa8219d685bc8cdb",
+     []
+    ],
+    [
+     "df2392d3a5902d2a",
+     []
+    ],
+    [
+     "96ae7889163bcb53",
+     []
+    ],
+    [
+     "765c83575ea56515",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "aa8219d685bc8cdb",
+     "cited_pages": [
+      5,
+      38
+     ],
+     "found_page": 5,
+     "verdict": "found",
+     "print": "EPL-025: Fiber Technology. || EPL-026: Mould Making Techniques. || S. || No."
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": false
+  },
+  {
+   "sid": "heat-mass-transfer-same-as-kme-501",
+   "course": "BTech",
+   "primary_code": "KPE 056",
+   "family": "KPE",
+   "expected_domain": "(small n=24)",
+   "name_domain": "CHE",
+   "name_kw": "mass transfer",
+   "subject_name": "Heat & Mass Transfer (Same as KME 501)",
+   "subject_name_print": "Heat & Mass Transfer (Same as KME 501)",
+   "all_codes": "KPE 056",
+   "code_history_all": "KPE 056 (2020-21, sem-5)",
+   "effective_session_latest": "2020-21",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "96ae7889163bcb53",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "96ae7889163bcb53",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "96ae7889163bcb53",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KPE\u00a0056 || Elective\u00a0II || Heat\u00a0and Mass\u00a0Transfer || 3\u00a00\u00a00"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "fundamentals-of-polymer-science",
+   "course": "BTech",
+   "primary_code": "KPE303",
+   "family": "KPE",
+   "expected_domain": "(small n=24)",
+   "name_domain": "CHE",
+   "name_kw": "polymer",
+   "subject_name": "Fundamentals of Polymer Science",
+   "subject_name_print": "FUNDAMENTALS OF POLYMER SCIENCE",
+   "all_codes": "KPE303;RPL402",
+   "code_history_all": "KPE303 (2019-20, sem-3) -> RPL402 (2017-18) - codes printed with detailed syllabus in btech_plastic_y2_scheme-syllabus_2017-18.pdf",
+   "effective_session_latest": "2019-20",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "dc50e72083d2b628",
+     [
+      1,
+      1
+     ]
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "dc50e72083d2b628",
+     [
+      1,
+      1
+     ]
+    ],
+    [
+     "d18ea6ac8bd95522",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "dc50e72083d2b628",
+     "cited_pages": [
+      1,
+      1
+     ],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "dc50e72083d2b628",
+     "cited_pages": [
+      1,
+      1
+     ],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "d18ea6ac8bd95522",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "code_not_in_any_cited_doc"
+  },
+  {
+   "sid": "chemical-processing-of-textiles",
+   "course": "BTech",
+   "primary_code": "KTT503",
+   "family": "KTT",
+   "expected_domain": "(small n=12)",
+   "name_domain": "CHE",
+   "name_kw": "chemical",
+   "subject_name": "Chemical Processing of Textiles",
+   "subject_name_print": "Chemical Processing of Textiles",
+   "all_codes": "KTT503;BTT503",
+   "code_history_all": "KTT503 () -> BTT503 () - codes printed with detailed syllabus in ",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [],
+   "page_evidence": [],
+   "verdict": "no_citation"
+  },
+  {
+   "sid": "digital-integrated-circuit-design",
+   "course": "BTech",
+   "primary_code": "BVL051",
+   "family": "BVL",
+   "expected_domain": "(small n=9)",
+   "name_domain": "EE",
+   "name_kw": "circuit",
+   "subject_name": "DIGITAL INTEGRATED CIRCUIT DESIGN",
+   "subject_name_print": "DIGITAL INTEGRATED CIRCUIT DESIGN",
+   "all_codes": "BVL051",
+   "code_history_all": "BVL051 ()",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [],
+   "page_evidence": [],
+   "verdict": "no_citation"
+  },
+  {
+   "sid": "low-power-vlsi-design",
+   "course": "BTech",
+   "primary_code": "BVL-052",
+   "family": "BVL",
+   "expected_domain": "(small n=9)",
+   "name_domain": "ECE",
+   "name_kw": "vlsi",
+   "subject_name": "LOW POWER VLSI DESIGN",
+   "subject_name_print": "LOW POWER VLSI DESIGN",
+   "all_codes": "BVL-052",
+   "code_history_all": "BVL-052 ()",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [],
+   "page_evidence": [],
+   "verdict": "no_citation"
+  },
+  {
+   "sid": "physical-design-for-vlsi-circuits",
+   "course": "BTech",
+   "primary_code": "BVL602",
+   "family": "BVL",
+   "expected_domain": "(small n=9)",
+   "name_domain": "ECE",
+   "name_kw": "vlsi",
+   "subject_name": "PHYSICAL DESIGN FOR VLSI CIRCUITS",
+   "subject_name_print": "PHYSICAL DESIGN FOR VLSI CIRCUITS",
+   "all_codes": "BVL602",
+   "code_history_all": "BVL602 ()",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [],
+   "cites_syllabus": [],
+   "page_evidence": [],
+   "verdict": "no_citation"
+  },
+  {
+   "sid": "information-security-and-cyber-laws",
+   "course": "BTech",
+   "primary_code": "EIT505",
+   "family": "EIT",
+   "expected_domain": "(small n=6)",
+   "name_domain": "CS",
+   "name_kw": "information security",
+   "subject_name": "Information Security and Cyber Laws",
+   "subject_name_print": "Information Security and Cyber Laws",
+   "all_codes": "EIT505",
+   "code_history_all": "EIT505 (2010-11)",
+   "effective_session_latest": "2010-11",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "b2009ce82c644c34",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "b2009ce82c644c34",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "b2009ce82c644c34",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "EIT-505 || Information Security || and Cyber Laws || 2-1-0"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "operations-research-mba",
+   "course": "MBA",
+   "primary_code": "KMBI502",
+   "family": "KMBI",
+   "expected_domain": "MGMT",
+   "name_domain": "ME",
+   "name_kw": "operations research",
+   "subject_name": "OPERATIONS RESEARCH",
+   "subject_name_print": "OPERATIONS RESEARCH | detailed-doc print: OPERATION RESEARCH",
+   "all_codes": "KMBI502;RMBI502;KMHC205;MBA024;NMBA025;MBA213",
+   "code_history_all": "KMBI502 (2020-21) -> RMBI502 (2019-20) - codes printed with detailed syllabus in mba-integrated_y3_syllabus_2019-20.pdf -> KMHC205 (2022-23) - codes printed with detailed syllabus in mba_healthcare-hospital_s2_syllabus_2022-23.pdf -> MBA024 (2008-09) - codes printed with detailed syllabus in mba_syllabus_2008-09.pdf -> NMBA025 (2013-14) - codes printed with detailed syllabus in mba_syllabus_2013-14.pdf -> MBA213 () - codes printed with detailed syllabus in mba_syllabus.pdf",
+   "effective_session_latest": "2022-23",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "5f66b41dedb475d9",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "5f66b41dedb475d9",
+     []
+    ],
+    [
+     "f3b81ebda2e73e90",
+     []
+    ],
+    [
+     "cd19c14e26a1c66a",
+     []
+    ],
+    [
+     "68d20890457ebae8",
+     []
+    ],
+    [
+     "01412a9dc739ca69",
+     []
+    ],
+    [
+     "02aff4a3f724d9b3",
+     []
+    ],
+    [
+     "28155ba1c3c908af",
+     []
+    ],
+    [
+     "69dc350828669675",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "5f66b41dedb475d9",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KMBI502 || Operations Research || 3 || 2"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "foundations-of-analytics-and-artificial-intelligence",
+   "course": "MBA",
+   "primary_code": "BMBAI504",
+   "family": "BMBAI",
+   "expected_domain": "MGMT",
+   "name_domain": "CS",
+   "name_kw": "artificial intelligence",
+   "subject_name": "Foundations of Analytics and Artificial Intelligence",
+   "subject_name_print": "Foundations of Analytics and Artificial Intelligence",
+   "all_codes": "BMBAI504",
+   "code_history_all": "BMBAI504 (2026-27)",
+   "effective_session_latest": "2026-27",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "a13c4bcd248efb3b",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "a13c4bcd248efb3b",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "a13c4bcd248efb3b",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "BMBAI504 || MDC || Foundations || of Analytics"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "e-commerce-mba",
+   "course": "MBA",
+   "primary_code": "KMBIIT01",
+   "family": "KMBIIT",
+   "expected_domain": "(small n=4)",
+   "name_domain": "CS",
+   "name_kw": "e commerce",
+   "subject_name": "E-COMMERCE",
+   "subject_name_print": "E-COMMERCE",
+   "all_codes": "KMBIIT01",
+   "code_history_all": "KMBIIT01 (2021-22)",
+   "effective_session_latest": "2021-22",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "bc43ca7c9773579e",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "bc43ca7c9773579e",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "bc43ca7c9773579e",
+     "cited_pages": [],
+     "found_page": 4,
+     "verdict": "found",
+     "print": "KMBI IT 01 || E-Commerce || Elective 2: || KMBI IT 02"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "exploratory-and-predictive-analytics-using-python",
+   "course": "MBA",
+   "primary_code": "BMBA201",
+   "family": "BMBA",
+   "expected_domain": "(small n=4)",
+   "name_domain": "CS",
+   "name_kw": "python",
+   "subject_name": "EXPLORATORY AND PREDICTIVE ANALYTICS USING PYTHON",
+   "subject_name_print": "EXPLORATORY AND PREDICTIVE ANALYTICS USING PYTHON",
+   "all_codes": "BMBA201",
+   "code_history_all": "BMBA201 (2024-25, sem-2)",
+   "effective_session_latest": "2024-25",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "24e7ded99e84b815",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "24e7ded99e84b815",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "24e7ded99e84b815",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "1 BMBA201 Exploratory and Predictive || Analytics Using Python || 2 || 0"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "team-building-leadership",
+   "course": "MBA",
+   "primary_code": "MBAHR3",
+   "family": "MBAHR",
+   "expected_domain": "MBA-spec-HR",
+   "name_domain": "MGMT",
+   "name_kw": "leadership",
+   "subject_name": "Team Building & Leadership\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026",
+   "subject_name_print": "Team Building & Leadership\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 | detailed-doc print: TEAM BUILDING & LEADERSHIP | detailed-doc print: Team Building & Leadership\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026    (IV Semester)",
+   "all_codes": "MBAHR3;MBAHR03",
+   "code_history_all": "MBAHR3 (2004-05, sem-4) -> MBAHR03 (2008-09) - codes printed with detailed syllabus in mba_syllabus_2008-09.pdf",
+   "effective_session_latest": "2008-09",
+   "extra": "armB-name matches spec LS, family suffix HR",
+   "cites_scheme": [
+    [
+     "da3736500f724173",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "da3736500f724173",
+     []
+    ],
+    [
+     "68d20890457ebae8",
+     []
+    ],
+    [
+     "02aff4a3f724d9b3",
+     []
+    ],
+    [
+     "69dc350828669675",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "da3736500f724173",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "3.       MBA HR 3         Team Building & Leadership\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 (IV Semester) || 4.       MBA HR 4         Negotiation & Counseling \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 (IV Semester) || Specialization Group : Marketing || Course Code"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "system-analysis-design-and-software-engineering",
+   "course": "MBA",
+   "primary_code": "MBAIT2",
+   "family": "MBAIT",
+   "expected_domain": "(small n=4)",
+   "name_domain": "CS",
+   "name_kw": "software engineering",
+   "subject_name": "System Analysis & Design and Software Engineering\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.",
+   "subject_name_print": "System Analysis & Design and Software Engineering\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. | detailed-doc print: SYSTEM ANALYSIS & DESIGN AND SOFTWARE ENGINEERING | detailed-doc print: SYSTEM ANALYSIS & DESIGN AND SOFTWARE ENGINEERING | detailed-doc print: SYSTEM ANALYSIS & D",
+   "all_codes": "MBAIT2;MBAIT02;NMBAIT02",
+   "code_history_all": "MBAIT2 (2004-05, sem-3) -> MBAIT02 (2008-09) - codes printed with detailed syllabus in mba_syllabus_2008-09.pdf -> NMBAIT02 (2013-14) - codes printed with detailed syllabus in mba_syllabus_2013-14.pdf",
+   "effective_session_latest": "2013-14",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "da3736500f724173",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "da3736500f724173",
+     []
+    ],
+    [
+     "68d20890457ebae8",
+     []
+    ],
+    [
+     "01412a9dc739ca69",
+     []
+    ],
+    [
+     "02aff4a3f724d9b3",
+     []
+    ],
+    [
+     "28155ba1c3c908af",
+     []
+    ],
+    [
+     "69dc350828669675",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "da3736500f724173",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "2.       MBA IT 2          System Analysis & Design and Software || Engineering\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.  (III Semester) || 3.       MBA IT 3          Data Communication & Network \u2026\u2026\u2026\u2026\u2026\u2026 (IV Semester) || 4.       MBA IT 4          Internet & Visual Basic\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. (IV Semester)"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "digital-health-care-and-e-commerce",
+   "course": "MBA",
+   "primary_code": "KMHC208",
+   "family": "KMHC",
+   "expected_domain": "(small n=10)",
+   "name_domain": "CS",
+   "name_kw": "e commerce",
+   "subject_name": "Digital Health Care and E-Commerce",
+   "subject_name_print": "DIGITAL HEALTHCARE AND ELECTRONIC COMMERCE",
+   "all_codes": "KMHC208",
+   "code_history_all": "KMHC208 (2022-23)",
+   "effective_session_latest": "2022-23",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "cd19c14e26a1c66a",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "cd19c14e26a1c66a",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "cd19c14e26a1c66a",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "8 KMHC208 Digital Health Care and || E - Commerce || 2 || 0"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "production-planning-control-mba",
+   "course": "MBA",
+   "primary_code": "RMBOP03",
+   "family": "RMBOP",
+   "expected_domain": "(small n=4)",
+   "name_domain": "ME",
+   "name_kw": "production planning",
+   "subject_name": "PRODUCTION PLANNING & CONTROL",
+   "subject_name_print": "PRODUCTION PLANNING & CONTROL",
+   "all_codes": "RMBOP03",
+   "code_history_all": "RMBOP03 (2017-18)",
+   "effective_session_latest": "2017-18",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "f08a94f197845778",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "f08a94f197845778",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "f08a94f197845778",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "RMBOP03 || Production Planning & Control"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "embedded-systems-mca",
+   "course": "MCA",
+   "primary_code": "NBC-8054",
+   "family": "NBC",
+   "expected_domain": "(small n=23)",
+   "name_domain": "ECE",
+   "name_kw": "embedded",
+   "subject_name": "EMBEDDED SYSTEMS",
+   "subject_name_print": "EMBEDDED SYSTEMS",
+   "all_codes": "NBC-8054",
+   "code_history_all": "NBC-8054 (2016-17, sem-8)",
+   "effective_session_latest": "2016-17",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "4c4757568f431526",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "4c4757568f431526",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "4c4757568f431526",
+     "cited_pages": [],
+     "found_page": 9,
+     "verdict": "found",
+     "print": "NBC-8054 : EMBEDDED SYSTEMS || Unit-I || Introduction to embedded systems: Classification, Characteristics and requirements, Applications || Unit-II"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  },
+  {
+   "sid": "vibration-and-aeroelasticity",
+   "course": "BTech",
+   "primary_code": "NAE062",
+   "family": "NAE",
+   "expected_domain": "(small n=5)",
+   "name_domain": "ME",
+   "name_kw": "vibration",
+   "subject_name": "VIBRATION AND AEROELASTICITY",
+   "subject_name_print": "VIBRATION\u00a0AND\u00a0AEROELASTICITY",
+   "all_codes": "NAE062",
+   "code_history_all": "NAE062 (, sem-8)",
+   "effective_session_latest": "",
+   "extra": "armA-rare-technical-domain",
+   "cites_scheme": [
+    [
+     "a52c57aa91f6deba",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "a52c57aa91f6deba",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "a52c57aa91f6deba",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "NAE-062 Vibration & Aero Elasticity || NAE-063 Computational Fluid Dynamics || NAE-064 Ground Handling and Supporting System || Open Electives \u2013 I"
+    }
+   ],
+   "verdict": "print_agrees_attested",
+   "as_drafted_citation": true
+  }
+ ],
+ "note": "ledger-only. established = corpus-derived (family n>=10, detectable>=8, share>=0.70); word-bounded keyword matching (fore'casting' bug fixed); pool/audit/GP families out of scope by design; service domains (MATH/MGMT/HOTEL) are universal curriculum components, never arm-A; stage-2 = name-near-code window match on the row's OWN cited docs (cited pages first, whole-doc fallback for pp.as-drafted citations; range-header lines only via adjacent-name rule); print wins per 6b/B76 \u2014 print_agrees rows are recorded composition/attested classes; rows whose cited docs never print the code are the mis-attribution review set."
+}

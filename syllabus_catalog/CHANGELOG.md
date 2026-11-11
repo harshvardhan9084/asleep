@@ -1,3 +1,7 @@
+# CRON-20261112-B83 — CRON-20261112-B83 — 2026-11-11
+
+T3 stage-1+2 ledger-only: corpus-derived rule table (265 fams, 33 established, word-bounded classifier), 86 candidates -> 76 print-attested composition classes (6b print-wins, no CSV change) + 10 review set (3 code-not-in-cited-doc BPE072/BPE074/KPE303, 7 no-citation EF402/EF503/RTT051/KTT503/BVL051/BVL-052/BVL602); flags 442 unchanged, gates n/a (no CSV mutation); MBA-spec arm 0; T8 next
+
 # CRON-20261111-B82 — CRON-20261111-B82 — 2026-11-11
 
 T1 consolidation: 5 duplicate findings resolved ALLOW via 6b page evidence (control-system+i, ICE-fuels+fuel, CAD+CAD, BPharm PC-VI+VII, MCA .NET) — rows 3085->3080, +9 codes unioned, 1 B28class demote recorded; flags 443->442; G1/G2(6412)/G3/G6 PASS
