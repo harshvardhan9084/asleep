@@ -1,3 +1,7 @@
+# CRON-20261111-B82 — CRON-20261111-B82 — 2026-11-11
+
+T1 consolidation: 5 duplicate findings resolved ALLOW via 6b page evidence (control-system+i, ICE-fuels+fuel, CAD+CAD, BPharm PC-VI+VII, MCA .NET) — rows 3085->3080, +9 codes unioned, 1 B28class demote recorded; flags 443->442; G1/G2(6412)/G3/G6 PASS
+
 # OWNER-CONFIG — CFG2 — 2026-11-11
 
 cron prompt v2 sanitized (job 524259 replaces 512756): quality-cascade flow T1 first then T3-T13, wave_runner retired, constant-push + audit discipline, 165 other_courses parked; secret values only in scheduler
