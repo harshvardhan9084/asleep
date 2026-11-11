@@ -1,3 +1,7 @@
+# CRON-20261112-B84 — CRON-20261112-B84 — 2026-11-11
+
+T8 stage-1+2 ledger-only: corpus-derived branch rule table (99 fams, 27 established, 11 universal), 7 candidates -> 6 print-attested cross-branch service compositions + 1 era multi-scheme service row (ECE-251 CAEG, variant-aware scan, 6b print-wins, no CSV change) + 0 incoherence fix candidates; coverage 1156 branch-bearing / 1924 without branch_names; flags 442 unchanged, gates n/a (no CSV mutation); T7 next
+
 # CRON-20261112-B83 — CRON-20261112-B83 — 2026-11-11
 
 T3 stage-1+2 ledger-only: corpus-derived rule table (265 fams, 33 established, word-bounded classifier), 86 candidates -> 76 print-attested composition classes (6b print-wins, no CSV change) + 10 review set (3 code-not-in-cited-doc BPE072/BPE074/KPE303, 7 no-citation EF402/EF503/RTT051/KTT503/BVL051/BVL-052/BVL602); flags 442 unchanged, gates n/a (no CSV mutation); MBA-spec arm 0; T8 next

@@ -1,0 +1,604 @@
+{
+ "test_id": "T8",
+ "run_id": "CRON-20261112-B84",
+ "generated_at": "2026-11-11T18:28:33.017930+00:00",
+ "csv_md5": "95f41cfa2f1c505047c5620eef30dc7e",
+ "rows_scanned": 3080,
+ "coverage": {
+  "subject_rows": 3080,
+  "branch_bearing_rows": 1156,
+  "rows_without_branch_names": 1924,
+  "note": "branch coherence is uncheckable without a stored branch \u2014 never invent one; only BTech+MCA carry branch data",
+  "courses_with_branch_data": [
+   "BTech",
+   "MCA"
+  ]
+ },
+ "families_established": {
+  "BTech|BBI": "bioinformatics",
+  "BTech|BCE": "civilengineering",
+  "BTech|BCH": "chemicalengineering",
+  "BTech|BCT": "carpettextiletechnology",
+  "BTech|BEE": "electricalengineering",
+  "BTech|BMN": "miningengineering",
+  "BTech|EAG": "agriculturalengineering",
+  "BTech|EBM": "biomedicalengineering",
+  "BTech|ECE": "civilengineering",
+  "BTech|ECH": "chemicalengineering",
+  "BTech|ECT": "carpettextiletechnology",
+  "BTech|EMT": "manufacturingtechnology",
+  "BTech|KAG": "agriculturalengineering",
+  "BTech|KBT": "biotechnology",
+  "BTech|KCE": "civilengineering",
+  "BTech|KCT": "carpettextiletechnology",
+  "BTech|KEE": "electricalengineering",
+  "BTech|NAG": "agriculturalengineering",
+  "BTech|NCH": "chemicalengineering",
+  "BTech|NPE": "petroleumengineering",
+  "BTech|RAE": "aeronauticalengineering",
+  "BTech|RAG": "agriculturalengineering",
+  "BTech|RBT": "biotechnology",
+  "BTech|RCE": "civilengineering",
+  "BTech|RCH": "chemicalengineering",
+  "BTech|RCT": "carpettextiletechnology",
+  "BTech|RPE": "petroleumengineering"
+ },
+ "families_universal": [
+  "BTech|AAS",
+  "BTech|BAS",
+  "BTech|BCC",
+  "BTech|BCS",
+  "BTech|BVE",
+  "BTech|KAS",
+  "BTech|NEC",
+  "BTech|REC",
+  "BTech|REE",
+  "BTech|RME",
+  "MCA|RAS"
+ ],
+ "families_table_size": 99,
+ "stage1_skip_reasons": {
+  "universal_family": 140,
+  "family_spread_no_majority": 132,
+  "family_small_branchdata": 119,
+  "no_prefix": 44,
+  "pool_family": 44
+ },
+ "stage1_candidates": 7,
+ "stage2_verdict_counts": {
+  "era_multi_scheme_service_row": 1,
+  "print_agrees_stored_attested": 6
+ },
+ "candidates_stage2": [
+  {
+   "sid": "computer-aided-engineering-graphics",
+   "course": "BTech",
+   "primary_code": "ECE-251",
+   "family": "ECE",
+   "family_branch": "civilengineering",
+   "branch_stored": "Agricultural Engineering",
+   "branch_tokens": [
+    "agriculturalengineering"
+   ],
+   "subject_name": "Computer Aided Engineering Graphics",
+   "subject_name_print": "NCE-151/251 : Computer Aided Engineering Graphics | detailed-doc print: Computer Aided Engineering Graphics* | detailed-doc print: RCE151/RCE251 Computer Aided Engineering Graphics | detailed-doc print: NCE-151/251 : Computer Aided Engineering Graphi",
+   "all_codes": "RCE151;RCE251;ECE-251",
+   "code_history_all": "NCE-151 (2013-14, sem-2) / NCE-251 (2013-14, sem-2) -> RCE151 + RCE251 (2017-18) - codes printed with detailed syllabus in btech_ag_y2_scheme-syllabus_2017-18.pdf -> ECE-151 + ECE-251 (2009-10) - codes printed with detailed syllabus in btech_bt_syllabus_2009-10.pdf; NCE151 re-assigned by AKTU to Workshop Practice/ Computer Aided Engg. Graphics per the  scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model); NCE251 re-assigned by AKTU to Workshop Practice/ Computer Aided Engg. Graphics per the  scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model); ECE151 re-assigned by AKTU to Workshop Practice/ Computer Aided Engg. Graphics per the 2008-09 scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model)",
+   "effective_session_latest": "2013-14",
+   "cites_scheme": [
+    [
+     "e7827e01a2bbd920",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "e7827e01a2bbd920",
+     []
+    ],
+    [
+     "9a0417ba1d09dfef",
+     []
+    ],
+    [
+     "4f7ec6fc868ac99a",
+     []
+    ],
+    [
+     "2f6cdc135e2e6643",
+     []
+    ],
+    [
+     "1abd7406c71bb68e",
+     []
+    ],
+    [
+     "7f23681aed03cd34",
+     []
+    ],
+    [
+     "30cfa6b02bc4d971",
+     []
+    ],
+    [
+     "5e07ff5fe10cd6c3",
+     []
+    ],
+    [
+     "7757cf07f29ab03b",
+     []
+    ],
+    [
+     "59146449255604f8",
+     []
+    ],
+    [
+     "bddd363be8c50739",
+     []
+    ],
+    [
+     "cbbe78b0fd8083e9",
+     []
+    ],
+    [
+     "3b33f0320c9b61d1",
+     []
+    ],
+    [
+     "a1eadc45e6ecbb98",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "e7827e01a2bbd920",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": "",
+     "doc_title": "1 | UTTAR PRADESH UNIVERSITY | LUCKNOW | Syllabus | [Effective from Session 2013-14] | (1st Year) | [B.Tech. Agricultural Engineering]",
+     "title_prints_stored_branch": true
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "e7827e01a2bbd920",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": "",
+     "doc_title": "1 | UTTAR PRADESH UNIVERSITY | LUCKNOW | Syllabus | [Effective from Session 2013-14] | (1st Year) | [B.Tech. Agricultural Engineering]",
+     "title_prints_stored_branch": true
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9a0417ba1d09dfef",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": "",
+     "doc_title": "1 | DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY | LUCKNOW | Study & Evaluation Scheme with Syllabus | for | B.Tech. Second Year | Agricultural Engineering | On | Choice Based Credit System | (Effective from the Session: 2017-18)",
+     "title_prints_stored_branch": true
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "4f7ec6fc868ac99a",
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": "",
+     "doc_title": "DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY | LUCKNOW | Evaluation Scheme & Syllabus | for | B.Tech. First Year | (Civil/Computer/Chemical/Electrical/Electronics/Mechanical/Textile/Carpet/) | On | Choice Based Credit System | (Effective from the Session: 2016-17) | DR. A.P.J. ABDUL KALAM TECHNICAL U",
+     "title_prints_stored_branch": false
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "2f6cdc135e2e6643",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "ECE-251/ || EWS-251 || Computer Aided || Graphics /",
+     "doc_title": "1 | G.B. TECHNICAL UNIVERSITY, | LUCKNOW | Syllabus | 1st, 2nd, 3rd and 4th Year | (Effective from session : 2009-10) | B. TECH. BIO-TECHNOLOGY",
+     "title_prints_stored_branch": false,
+     "doc_stored_branch_mentions": [],
+     "doc_family_branch_mentions": [],
+     "found_page_has_stored_branch": false,
+     "found_page_has_family_branch": false
+    }
+   ],
+   "verdict": "era_multi_scheme_service_row"
+  },
+  {
+   "sid": "engineering-graphics-and-design",
+   "course": "BTech",
+   "primary_code": "KCE101",
+   "family": "KCE",
+   "family_branch": "civilengineering",
+   "branch_stored": "Agricultural Engineering",
+   "branch_tokens": [
+    "agriculturalengineering"
+   ],
+   "subject_name": "Engineering Graphics and Design",
+   "subject_name_print": "Engineering Graphics and Design",
+   "all_codes": "KCE101;KCE201",
+   "code_history_all": "KCE101 (2018-19, sem-1) -> KCE201 (2018-19) - codes printed with detailed syllabus in btech_ag_syllabus-aicte_2018-19.pdf",
+   "effective_session_latest": "2018-19",
+   "cites_scheme": [
+    [
+     "6cc2ad19ea57c8f7",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "6cc2ad19ea57c8f7",
+     []
+    ],
+    [
+     "7ddb3baa8918a1d1",
+     []
+    ],
+    [
+     "b686fd84fcbe5544",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "6cc2ad19ea57c8f7",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KCE101/ || KWS101 || Engineering Graphics & || Design/Workshop",
+     "doc_title": "DR. A.P.J. ABDUL KALAM TECHNICAL | UNIVERSITYLUCKNOW | Evaluation Scheme & Syllabus for | B. Tech. (Agriculture Engg.) | AS PER | AICTE MODEL CURRICULUM | (Effective from the Session: 2018-19)",
+     "title_prints_stored_branch": true,
+     "doc_stored_branch_mentions": [
+      [
+       1,
+       "agricultureengg"
+      ],
+      [
+       2,
+       "agricultureengg"
+      ],
+      [
+       35,
+       "agriculturalengineering"
+      ]
+     ],
+     "doc_family_branch_mentions": [],
+     "found_page_has_stored_branch": true,
+     "found_page_has_family_branch": false
+    }
+   ],
+   "verdict": "print_agrees_stored_attested"
+  },
+  {
+   "sid": "engineering-graphics-design-lab",
+   "course": "BTech",
+   "primary_code": "KCE-151P",
+   "family": "KCE",
+   "family_branch": "civilengineering",
+   "branch_stored": "Agricultural Engineering",
+   "branch_tokens": [
+    "agriculturalengineering"
+   ],
+   "subject_name": "Engineering Graphics & Design Lab",
+   "subject_name_print": "ENGINEERING GRAPHICS AND DESIGN LAB | detailed-doc print: ENGINEERING GRAPHICS & DESIGN LAB | detailed-doc print: ENGINEERING GRAPHICS AND DESIGN LAB | detailed-doc print: BCE151/ BCE251: ENGINEERING GRAPHICS & DESIGN LAB | detailed-doc print: BCE151",
+   "all_codes": "KCE-151P;BCE151;BCE251;KCE-251P;KCE251P;KCE151PH",
+   "code_history_all": "KCE-151P (2020-21, sem-1) / KCE-151P (2020-21, sem-1) -> BCE151 + BCE251 (2022-23) - codes printed with detailed syllabus in btech_ag_y1_syllabus_2022-23.pdf -> KCE-251P + KCE251P (2020-21) - codes printed with detailed syllabus in btech_common_y1_model-curriculum_2020-21.pdf -> KCE151PH () - codes printed with detailed syllabus in ",
+   "effective_session_latest": "2020-21",
+   "cites_scheme": [
+    [
+     "3e2c219acdd97acf",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "3e2c219acdd97acf",
+     []
+    ],
+    [
+     "84195404a1800d61",
+     []
+    ],
+    [
+     "0d00a279e82ec901",
+     []
+    ],
+    [
+     "65ba77f6adefc408",
+     []
+    ],
+    [
+     "7b3d338328997e93",
+     []
+    ],
+    [
+     "0a0b8671c3e6d768",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "3e2c219acdd97acf",
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "KCE151P Engineering Graphics & Design || Lab || 0 || 1",
+     "doc_title": "Revised Structure B. Tech AG 1st Year | DR. A.P.J. ABDUL KALAM TECHNICAL | UNIVERSITY, UTTAR PRADESH, LUCKNOW | REVISED EVALUATION SCHEME | & | SYLLABUS | FOR | B. TECH. I YEAR | Agriculture (AG) | ON | AICTE MODEL CURRICULUM) | [Effective from the Session: 2020-21]",
+     "title_prints_stored_branch": false,
+     "doc_stored_branch_mentions": [
+      [
+       2,
+       "agricultureengineering"
+      ],
+      [
+       3,
+       "agricultureengineering"
+      ],
+      [
+       4,
+       "agricultureengineering"
+      ]
+     ],
+     "doc_family_branch_mentions": [],
+     "found_page_has_stored_branch": true,
+     "found_page_has_family_branch": false
+    }
+   ],
+   "verdict": "print_agrees_stored_attested"
+  },
+  {
+   "sid": "strength-of-materials-and-theory-of-structure",
+   "course": "BTech",
+   "primary_code": "RCE308",
+   "family": "RCE",
+   "family_branch": "civilengineering",
+   "branch_stored": "Agricultural Engineering",
+   "branch_tokens": [
+    "agriculturalengineering"
+   ],
+   "subject_name": "Strength of Materials and Theory of Structure",
+   "subject_name_print": "RCE308: STRENGTH OF MATERIALS AND THEORY OF STRUCTURE",
+   "all_codes": "RCE308",
+   "code_history_all": "RCE308 (2017-18, sem-3)",
+   "effective_session_latest": "2017-18",
+   "cites_scheme": [
+    [
+     "9a0417ba1d09dfef",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "9a0417ba1d09dfef",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "9a0417ba1d09dfef",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "5. RCE308 || Strength of Materials & Theory of || Structure || 3-1-0",
+     "doc_title": "1 | DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY | LUCKNOW | Study & Evaluation Scheme with Syllabus | for | B.Tech. Second Year | Agricultural Engineering | On | Choice Based Credit System | (Effective from the Session: 2017-18)",
+     "title_prints_stored_branch": true,
+     "doc_stored_branch_mentions": [
+      [
+       1,
+       "agriculturalengineering"
+      ],
+      [
+       12,
+       "agriculturalengineering"
+      ],
+      [
+       16,
+       "agriculturalengineering"
+      ]
+     ],
+     "doc_family_branch_mentions": [],
+     "found_page_has_stored_branch": false,
+     "found_page_has_family_branch": false
+    }
+   ],
+   "verdict": "print_agrees_stored_attested"
+  },
+  {
+   "sid": "strength-of-materials-and-theory-of-structure-lab",
+   "course": "BTech",
+   "primary_code": "RCE358",
+   "family": "RCE",
+   "family_branch": "civilengineering",
+   "branch_stored": "Agricultural Engineering",
+   "branch_tokens": [
+    "agriculturalengineering"
+   ],
+   "subject_name": "Strength of Materials and Theory of Structure Lab",
+   "subject_name_print": "RCE358: STRENGTH OF MATERIALS AND THEORY OF STRUCTURE LAB",
+   "all_codes": "RCE358",
+   "code_history_all": "RCE358 (2017-18, sem-3)",
+   "effective_session_latest": "2017-18",
+   "cites_scheme": [
+    [
+     "9a0417ba1d09dfef",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "9a0417ba1d09dfef",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "9a0417ba1d09dfef",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "9. RCE358 || Strength of Materials & Theory of || Structure Lab || 0-0-2",
+     "doc_title": "1 | DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY | LUCKNOW | Study & Evaluation Scheme with Syllabus | for | B.Tech. Second Year | Agricultural Engineering | On | Choice Based Credit System | (Effective from the Session: 2017-18)",
+     "title_prints_stored_branch": true,
+     "doc_stored_branch_mentions": [
+      [
+       1,
+       "agriculturalengineering"
+      ],
+      [
+       12,
+       "agriculturalengineering"
+      ],
+      [
+       16,
+       "agriculturalengineering"
+      ]
+     ],
+     "doc_family_branch_mentions": [],
+     "found_page_has_stored_branch": false,
+     "found_page_has_family_branch": false
+    }
+   ],
+   "verdict": "print_agrees_stored_attested"
+  },
+  {
+   "sid": "fluid-mechanics-for-biotechnology",
+   "course": "BTech",
+   "primary_code": "RCE309",
+   "family": "RCE",
+   "family_branch": "civilengineering",
+   "branch_stored": "Biotechnology",
+   "branch_tokens": [
+    "biotechnology"
+   ],
+   "subject_name": "Fluid Mechanics for Biotechnology",
+   "subject_name_print": "Fluid Mechanics for Biotechnology",
+   "all_codes": "RCE309",
+   "code_history_all": "RCE309 (2017-18, sem-3)",
+   "effective_session_latest": "2017-18",
+   "cites_scheme": [
+    [
+     "30cfa6b02bc4d971",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "30cfa6b02bc4d971",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "30cfa6b02bc4d971",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "3. RCE309 || Fluid Mechanics for || Biotechnology || 3-0-0",
+     "doc_title": "1 | DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY | LUCKNOW | Study & Evaluation Scheme with Syllabus | for | B.Tech. Second Year | Biotechnology | On | Choice Based Credit System | (Effective from the Session: 2017-18)",
+     "title_prints_stored_branch": true,
+     "doc_stored_branch_mentions": [
+      [
+       1,
+       "biotechnology"
+      ],
+      [
+       2,
+       "biotechnology"
+      ],
+      [
+       5,
+       "biotechnology"
+      ],
+      [
+       6,
+       "biotechnology"
+      ],
+      [
+       9,
+       "biotechnology"
+      ]
+     ],
+     "doc_family_branch_mentions": [],
+     "found_page_has_stored_branch": true,
+     "found_page_has_family_branch": false
+    }
+   ],
+   "verdict": "print_agrees_stored_attested"
+  },
+  {
+   "sid": "fluid-mechanics-for-biotechnology-lab",
+   "course": "BTech",
+   "primary_code": "RCE359",
+   "family": "RCE",
+   "family_branch": "civilengineering",
+   "branch_stored": "Biotechnology",
+   "branch_tokens": [
+    "biotechnology"
+   ],
+   "subject_name": "Fluid Mechanics for Biotechnology Lab",
+   "subject_name_print": "Fluid Mechanics for Biotechnology Lab",
+   "all_codes": "RCE359",
+   "code_history_all": "RCE359 (2017-18, sem-3)",
+   "effective_session_latest": "2017-18",
+   "cites_scheme": [
+    [
+     "30cfa6b02bc4d971",
+     []
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "30cfa6b02bc4d971",
+     []
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "30cfa6b02bc4d971",
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "7. RCE359 || Fluid Mechanics for || Biotechnology Lab || 0-0-2",
+     "doc_title": "1 | DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY | LUCKNOW | Study & Evaluation Scheme with Syllabus | for | B.Tech. Second Year | Biotechnology | On | Choice Based Credit System | (Effective from the Session: 2017-18)",
+     "title_prints_stored_branch": true,
+     "doc_stored_branch_mentions": [
+      [
+       1,
+       "biotechnology"
+      ],
+      [
+       2,
+       "biotechnology"
+      ],
+      [
+       5,
+       "biotechnology"
+      ],
+      [
+       6,
+       "biotechnology"
+      ],
+      [
+       9,
+       "biotechnology"
+      ]
+     ],
+     "doc_family_branch_mentions": [],
+     "found_page_has_stored_branch": true,
+     "found_page_has_family_branch": false
+    }
+   ],
+   "verdict": "print_agrees_stored_attested"
+  }
+ ],
+ "note": "ledger-only. rule table corpus-derived: family established for a branch when n>=10 branch-bearing rows and top-branch share>=0.60; spread>=8-branch families are universal composition (BOE/BCS elective classes) and never candidates; <10-row families cannot establish a rule honestly (suppressed, recorded); compat = squash equality/containment/prefix>=12 (Engg/Engineering, CSE(AI) suffix); stage-2 = own-cited-doc code locate + whole-doc branch-mention scan (variant-aware: AKTU prints both 'Agricultural' and 'Agriculture' Engineering); title context recorded for every resolvable doc even when the code is text-layer-absent; print wins per 6b/B76: print_agrees rows are recorded cross-branch service-composition classes, era_multi_scheme_service_row = code printed in another scheme's doc while other cited docs carry the stored branch in their titles (define-once multi-scheme row, no contradiction), print_proven rows would be fix candidates for a later multi-confirmed batch \u2014 NO fixes, NO flags this batch."
+}
