@@ -1,3 +1,7 @@
+# CRON-20261111-B81 — CRON-AUTO-B81 — 2026-11-11
+
+W11a computable-sums policy (owner directive "calculating is not inventing"): marks/credit DAG rebuilt from finest printed components (stt=ct+ta, tm=stt+ese, credit=L+T+P/2) — 385 rows / 462 cells (306 conflict-fixes + 156 silent fills the audit never fired on); superseded prints preserved in corrections_json before+evidence; attested prints never touched; flags 778->443 (CREDIT_FORMULA/SESS_SUM/MARKS_SUM all ->0; remaining 443 = TYPE_EMPTY 375 + BOOK_TRUNC 66 + DISPLAY_MISSING 2, none computable); CSV md5 b1da9c97->51093a9e; G1/G2(6412)/G3/G6 PASS
+
 # CRON-20261110-B80 — CRON-AUTO-B80 — 2026-11-10
 
 W10g scheme-invariant round-3 re-probe (header-mapped find_tables, latest-print-wins): 269 rows -> accepted-print 27 (audit v25 recorded-honest drop) / fixed 6 rows 11 cells (column-exact, page-cited, 6b(4)) / keep 76 / no_print 160; flags 816->778; corpus_map md5 convention fix; loop NOOP; G1/G2(6412)/G3/G6 PASS
