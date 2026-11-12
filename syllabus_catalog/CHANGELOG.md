@@ -1,3 +1,7 @@
+# CRON-20261112-B91 — B91 — 2026-11-12
+
+B91 remediation consolidation: owner Q 'what do we do with test results -> wanted clean faithful CSV' => T1-T13 evidence converted to plan workbook (6 sheets, download + owner_requests) + BOOK_TRUNC dry-run stage-1 LEDGER-ONLY (65 flags -> 12 restorable_from_print + 9 stored_matches_print stale + 1 ambiguous + 37 not_in_text_layer + 4 block_not_found + 2 slug-mismatch; DISPLAY_MISSING 2 restorable from subject_name_print; proposed B92 = 12+2 value restores page-image-verified + 9 flag retirements + 2 slug remaps; 149-item page-image review queue listed); 0 CSV changes, flags 442 unchanged, gates n/a, T2T calls=0
+
 # CRON-20261112-B90 — CRON-20261112-B90 — 2026-11-12
 
 T13 buyer-grade 100-row spot audit REPORT-ONLY (fixed-seed 20261113 sample, 10 checks; check-model corrections: flags vs audit-of-record active set, experiments key 'exp', pool-slot rows noted not issued) => 34 clean / 64 minor (57 repair-history marks, 7 pool-slot, 9 known-T12-sha refs) / 2 issues (BOP364+RTT602 effective_session_latest_empty, honest needs_review, no fix) + 0 new unresolved shas + 0 flag mismatches; flags 442 unchanged, gates n/a; CASCADE COMPLETE (T1-T13 all executed) -> audit-only unless owner opens new item
