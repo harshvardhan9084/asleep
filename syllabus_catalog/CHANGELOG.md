@@ -1,3 +1,7 @@
+# CRON-20261112-B86 — CRON-20261112-B86 — 2026-11-12
+
+T10 stage-1+2 ledger-only: CO-dup clusters (78 exact/166 rows + 15 near/31 rows, pool 1326) -> 89 print-attested (>=2 member docs print same shared COs; shared-elective composition, no fix) + 1 drafting_side review (KIC-052 COs beyond own EI-2020-21 print; page-image check later) + 3 inconclusive (UHV sha-unresolvable, KEC101TH/BEC653A no_citation) + 0 fix candidates; member prints 192/197 found; flags 442 unchanged, gates n/a (no CSV mutation); T11 next
+
 # CRON-20261112-B85 — CRON-20261112-B85 — 2026-11-12
 
 T7 stage-1+2 ledger-only: corpus-derived family session windows (85 est, n>=10/core>=5%), 24 candidates (era_forward 16 / era_backward 8) -> 6 print-attested cross-era carryovers + 18 effective-session provenance review (code prints in own cited docs, other-session only; UNfixed) + 0 session-year fix candidates; letter-grammar secondary (cross-course false positives); program_year bulk-default observation recorded (0 candidates); flags 442 unchanged, gates n/a (no CSV mutation); T10 next
