@@ -1,3 +1,7 @@
+# CRON-20261112-B88 — CRON-20261112-B88 — 2026-11-12
+
+T9 stage-1+2 ledger-only: within-row book dup (211 rows/282 groups: 165 cross-list TB&RB + 18 exact-within + 99 near-dup J>=0.85) -> block-scoped print counting (v2; v1 cited-pages degenerate) => 16 attested (block prints >=2x, no fix) + 41 fallback review + 71 drafting_side review (print once, stored twice; UNfixed, page-image check later) + 83 text-layer unverified + 0 CSV changes; flags 442 unchanged, gates n/a; T6 next
+
 # CRON-20261112-B87 — CRON-20261112-B87 — 2026-11-12
 
 T11 stage-1+2 ledger-only: cross-course same-code (lensA 5 pairs: 4 attested shared prints incl BVA251 x3 + RAS254 name-variant, 1 unverified UHV sha; lensB 3 xref listing anomalies: NGP401/RAS254/RHU001 code-field listings, prints coherent) -> 0 collisions, 0 fix candidates; classifier corrected mid-run (printed-name cross-check, print-wins); flags 442 unchanged, gates n/a (no CSV mutation); T9 next
