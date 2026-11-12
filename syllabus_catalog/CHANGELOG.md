@@ -1,3 +1,7 @@
+# CRON-20261112-B92 — B92 — 2026-11-12
+
+B92 FINAL CLEAN CSV (owner go: fix what can, remove what can't) => BOOK_TRUNC 65 resolved: 10 values restored from print (2 page-image-verified: ECE053 p.17, KBT751D p.23 print-merged cell) + 12 stale flags retired (print-verbatim incl EME-603 x7 p.34 page-image + EMT-601 p.10) + 43 removed by owner directive (print-wins exhausted, values kept zero-guess) + DISPLAY_MISSING 2 filled from subject_name_print + TYPE_EMPTY 375 flags removed by owner directive (fields not stated by print, values stay empty) + legacy bare tokens cleaned (3078 DISPLAY_MISSING/287 BOOK_TRUNC stamps, history marks kept); every restore glue-checked + page-image/text inspected (4 spans re-derived); audit-of-record 422 rows/442 flags -> 0/0; CSV 3080x62 md5 e21e81fba24bbcf2ae7851565c8c78f3; gates n/a (repair batch, per-step row-diff verified); T2T calls=0
+
 # CRON-20261112-B91 — B91 — 2026-11-12
 
 B91 remediation consolidation: owner Q 'what do we do with test results -> wanted clean faithful CSV' => T1-T13 evidence converted to plan workbook (6 sheets, download + owner_requests) + BOOK_TRUNC dry-run stage-1 LEDGER-ONLY (65 flags -> 12 restorable_from_print + 9 stored_matches_print stale + 1 ambiguous + 37 not_in_text_layer + 4 block_not_found + 2 slug-mismatch; DISPLAY_MISSING 2 restorable from subject_name_print; proposed B92 = 12+2 value restores page-image-verified + 9 flag retirements + 2 slug remaps; 149-item page-image review queue listed); 0 CSV changes, flags 442 unchanged, gates n/a, T2T calls=0

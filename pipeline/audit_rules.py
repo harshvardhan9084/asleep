@@ -518,6 +518,37 @@ def main():
             res["w9b_probe_reclassified"] = n10
         if n10drop:
             res["w9b_probe_accepted_print_skipped"] = n10drop
+    # B92 owner-directive override (owner message 2026-11-12: "fix what can,
+    # remove what can't. i need final clean CSV"): flags the owner ordered
+    # removed after print-wins verification was exhausted (B91 dry-run probe +
+    # B92 apply: block+whole-doc text-layer search, position-map, page-image
+    # checks on every restored value). Values unchanged - zero-guess preserved
+    # in the data; the removal is recorded in b92_owner_directive.json, the
+    # w9a ckpt (verified_complete entries) and the CHANGELOG. Zero data change
+    # here - flags dropped only.
+    try:
+        b92dir = json.load(open("/home/z/my-project/work/pipeline_v2/b92_owner_directive.json"))
+    except Exception:
+        b92dir = {}
+    _bt_drop = set(b92dir.get("book_trunc_removed", []))
+    _te_drop = set(b92dir.get("type_empty_removed", []))
+    if _bt_drop or _te_drop:
+        drops92 = []
+        for sid, fl in out.items():
+            for f in fl:
+                if f.get("rule") == "BOOK_TRUNC" and f"{sid}::{f.get('field', '')}" in _bt_drop:
+                    drops92.append((sid, f))
+                elif f.get("rule") == "TYPE_EMPTY" and sid in _te_drop:
+                    drops92.append((sid, f))
+        for sid, f in drops92:
+            lst = out.get(sid)
+            if lst and f in lst:
+                lst.remove(f)
+                summary[f.get("rule")] -= 1
+                if not lst:
+                    out.pop(sid, None)
+        if drops92:
+            res["b92_owner_directive_removed"] = len(drops92)
     # v21: refresh snapshot fields after probe-evidence drops (rows/flags moved)
     res["rows_flagged"] = len(out)
     res["total_flags"] = sum(summary.values())
