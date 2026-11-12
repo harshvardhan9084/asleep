@@ -1,3 +1,7 @@
+# CRON-20261112-B89 — CRON-20261112-B89 — 2026-11-12
+
+T6 stage-1 ledger-only (10% sample: 203 of 2026 prose rows, deterministic every-10th offset 5): squashed verbatim containment + 24-char shingle fallback => rows: 179 attested_verbatim (88.2%, units 916/971 verbatim) + 15 mixed_overlap (28 high/14 partial/13 not-in-doc) + 6 unit_text_not_found_review (EBM-803, RBT082/85/88, NCH-702, EEC-304; UNfixed, page-image stage-2 later; text-layer absence != absence per 6b) + 3 no_citation; 0 CSV changes; flags 442 unchanged, gates n/a; T13 next (final test of the plan)
+
 # CRON-20261112-B88 — CRON-20261112-B88 — 2026-11-12
 
 T9 stage-1+2 ledger-only: within-row book dup (211 rows/282 groups: 165 cross-list TB&RB + 18 exact-within + 99 near-dup J>=0.85) -> block-scoped print counting (v2; v1 cited-pages degenerate) => 16 attested (block prints >=2x, no fix) + 41 fallback review + 71 drafting_side review (print once, stored twice; UNfixed, page-image check later) + 83 text-layer unverified + 0 CSV changes; flags 442 unchanged, gates n/a; T6 next
