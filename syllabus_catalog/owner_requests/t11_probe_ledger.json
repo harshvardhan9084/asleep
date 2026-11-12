@@ -1,0 +1,894 @@
+{
+ "run_id": "CRON-20261112-B87",
+ "test": "T11 cross-course same-code consistency",
+ "policy": "LEDGER-ONLY stage-1+2; no CSV/quality_flags change; print wins per 6b/B76",
+ "rule": {
+  "lens_A": "primary_code groups spanning >=2 course_name values; pairwise identity = normalized name ratio >=0.8",
+  "lens_B": "code primary-owned in course X and listed in all_codes/code_history_all of a course-Y row; identity split identical",
+  "stage2": "own-cited-doc code locate + printed-name check per row (fitz text layer, cited pages first)"
+ },
+ "counts": {
+  "subject_rows": 3080,
+  "lensA_cross_course_pairs": 5,
+  "lensA_same_identity": 4,
+  "lensA_identity_mismatch": 1,
+  "lensA_same_course_pairs_skipped": 0,
+  "lensB_xref_mismatch": 3,
+  "lensB_same_identity_refs": 8,
+  "lensB_same_course_skipped": 0
+ },
+ "candidates_stage2": [
+  {
+   "lens": "A(primary_key)",
+   "code": "bva251",
+   "class": "same_identity",
+   "name_ratio": 1.0,
+   "names": [
+    "Sports and Yoga",
+    "SPORTS AND YOGA"
+   ],
+   "verdict": "attested_cross_course_shared",
+   "rows": [
+    {
+     "sid": "sports-and-yoga",
+     "course": "BCA",
+     "primary_code": "BVA251",
+     "subject_name": "Sports and Yoga",
+     "checked_code": "bva251",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "2204b086b198e649",
+       "doc": "bca_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVA251 || Sports and Yoga* || 0 || 0"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "e7ea34a11ef5b730",
+       "doc": " bca_y1_syllabus_2025-26.pdf",
+       "doc_session": 2025,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVA251 || Sports and Yoga* || 0 || 0"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "f470979b001ac7f0",
+       "doc": " bca_y2_syllabus_2025-26.pdf",
+       "doc_session": 2025,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      }
+     ]
+    },
+    {
+     "sid": "sports-and-yoga-btech",
+     "course": "BTech",
+     "primary_code": "BVA251",
+     "subject_name": "SPORTS AND YOGA",
+     "checked_code": "bva251",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "d03047a588ce0938",
+       "doc": "btech_y1s2_bva251-sports-and-yoga_2022-23.pdf",
+       "doc_session": 2022,
+       "cited_pages": [],
+       "found_page": 1,
+       "verdict": "found",
+       "print": "BVA251: SPORTS AND YOGA || Objective of the Course: || \uf0b7 || To maintain mental and physical wellness upright and develop ability in the"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lens": "A(primary_key)",
+   "code": "bva251",
+   "class": "same_identity",
+   "name_ratio": 1.0,
+   "names": [
+    "Sports and Yoga",
+    "SPORTS AND YOGA"
+   ],
+   "verdict": "attested_cross_course_shared",
+   "rows": [
+    {
+     "sid": "sports-and-yoga",
+     "course": "BCA",
+     "primary_code": "BVA251",
+     "subject_name": "Sports and Yoga",
+     "checked_code": "bva251",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "2204b086b198e649",
+       "doc": "bca_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVA251 || Sports and Yoga* || 0 || 0"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "e7ea34a11ef5b730",
+       "doc": " bca_y1_syllabus_2025-26.pdf",
+       "doc_session": 2025,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVA251 || Sports and Yoga* || 0 || 0"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "f470979b001ac7f0",
+       "doc": " bca_y2_syllabus_2025-26.pdf",
+       "doc_session": 2025,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      }
+     ]
+    },
+    {
+     "sid": "sports-and-yoga-mca",
+     "course": "MCA",
+     "primary_code": "BVA251",
+     "subject_name": "SPORTS AND YOGA",
+     "checked_code": "bva251",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "62ead51d44a5e4ea",
+       "doc": "mca-integrated_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVA251 || Sports and Yoga* || 0 || 0"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "b84b485c8419a816",
+       "doc": " mca-integrated_y2_syllabus_2025-26.pdf",
+       "doc_session": 2025,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "d50305830baaa549",
+       "doc": " mca_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVA251 || Sports and Yoga** || 0 || 0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lens": "A(primary_key)",
+   "code": "bva251",
+   "class": "same_identity",
+   "name_ratio": 1.0,
+   "names": [
+    "SPORTS AND YOGA",
+    "SPORTS AND YOGA"
+   ],
+   "verdict": "attested_cross_course_shared",
+   "rows": [
+    {
+     "sid": "sports-and-yoga-btech",
+     "course": "BTech",
+     "primary_code": "BVA251",
+     "subject_name": "SPORTS AND YOGA",
+     "checked_code": "bva251",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "d03047a588ce0938",
+       "doc": "btech_y1s2_bva251-sports-and-yoga_2022-23.pdf",
+       "doc_session": 2022,
+       "cited_pages": [],
+       "found_page": 1,
+       "verdict": "found",
+       "print": "BVA251: SPORTS AND YOGA || Objective of the Course: || \uf0b7 || To maintain mental and physical wellness upright and develop ability in the"
+      }
+     ]
+    },
+    {
+     "sid": "sports-and-yoga-mca",
+     "course": "MCA",
+     "primary_code": "BVA251",
+     "subject_name": "SPORTS AND YOGA",
+     "checked_code": "bva251",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "62ead51d44a5e4ea",
+       "doc": "mca-integrated_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVA251 || Sports and Yoga* || 0 || 0"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "b84b485c8419a816",
+       "doc": " mca-integrated_y2_syllabus_2025-26.pdf",
+       "doc_session": 2025,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "d50305830baaa549",
+       "doc": " mca_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVA251 || Sports and Yoga** || 0 || 0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lens": "A(primary_key)",
+   "code": "bve301",
+   "class": "same_identity",
+   "name_ratio": 1.0,
+   "names": [
+    "Universal Human Values and Professional Ethics",
+    "Universal Human Values and Professional Ethics"
+   ],
+   "verdict": "unverified_shared_pair",
+   "rows": [
+    {
+     "sid": "universal-human-values-and-professional-ethics",
+     "course": "BTech",
+     "primary_code": "BVE301",
+     "subject_name": "Universal Human Values and Professional Ethics",
+     "checked_code": "bve301",
+     "verdict": "inconclusive_doc_unresolved",
+     "page_evidence": [
+      {
+       "src": "source_syllabus",
+       "sha16": "13bd875d098f99df",
+       "doc": "Common-Subjects-2nd-Year-AKTU-08092023.pdf",
+       "doc_session": null,
+       "verdict": "doc_unresolvable"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "ef348f31546b304f",
+       "doc": " btech_ag_y2_model-curriculum_2019-20.pdf",
+       "doc_session": 2019,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "9a0417ba1d09dfef",
+       "doc": " btech_ag_y2_scheme-syllabus_2017-18.pdf",
+       "doc_session": 2017,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "ba8f92863189a2b2",
+       "doc": " btech_bme_y2_model-curriculum_2019-20.pdf",
+       "doc_session": 2019,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "30cfa6b02bc4d971",
+       "doc": " btech_bt_y2_scheme-syllabus_2017-18.pdf",
+       "doc_session": 2017,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "85fc0a911e174919",
+       "doc": " btech_carpet-textile_y2_model-curriculum_2019-20.pdf",
+       "doc_session": 2019,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "7757cf07f29ab03b",
+       "doc": " btech_ce_y2_scheme-syllabus_2017-18.pdf",
+       "doc_session": 2017,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "39be9cd7bd3de4c2",
+       "doc": " btech_eee-ece_y2_model-curriculum_2019-20.pdf",
+       "doc_session": 2019,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      }
+     ]
+    },
+    {
+     "sid": "universal-human-values-and-professional-ethics-bca",
+     "course": "BCA",
+     "primary_code": "BVE301",
+     "subject_name": "Universal Human Values and Professional Ethics",
+     "checked_code": "bve301",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "f470979b001ac7f0",
+       "doc": "bca_y2_syllabus_2025-26.pdf",
+       "doc_session": 2025,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "BVE301 || Universal Human Values and || Professional Ethics || 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lens": "A(primary_key)",
+   "code": "ras254",
+   "class": "identity_mismatch",
+   "name_ratio": 0.769,
+   "names": [
+    "Professional Communication Laboratory Practicals",
+    "Professional Communication Lab"
+   ],
+   "verdict": "attested_cross_course_shared",
+   "rows": [
+    {
+     "sid": "professional-communication-laboratory-practicals",
+     "course": "BTech",
+     "primary_code": "RAS254",
+     "subject_name": "Professional Communication Laboratory Practicals",
+     "checked_code": "ras254",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "e7827e01a2bbd920",
+       "doc": "btech_ag_syllabus_2013-14.pdf",
+       "doc_session": 2013,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "4f7ec6fc868ac99a",
+       "doc": " btech_all-branch_y1_scheme_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": 3,
+       "verdict": "found",
+       "print": "RAS 254 || Computer Progm. Lab/ || Professional Communication || Lab"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "1abd7406c71bb68e",
+       "doc": " btech_bt_syllabus_2013-14.pdf",
+       "doc_session": 2013,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "7f23681aed03cd34",
+       "doc": " btech_bt_y1_scheme_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": 23,
+       "verdict": "found",
+       "print": "RAS154/RAS254 || PROFESSIONAL COMMUNICATION LABORATORY PRACTICALS || Interactive and Communicative Practical with emphasis on Oral Presentation/Spoken || Communication based on International Phonetic Alphabets (I.P.A)"
+      }
+     ]
+    },
+    {
+     "sid": "professional-communication-lab-mca",
+     "course": "MCA",
+     "primary_code": "RAS254",
+     "subject_name": "Professional Communication Lab",
+     "checked_code": "ras254",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "7a5ca0422590c615",
+       "doc": "mca-integrated_y1_scheme-syllabus_2017-18.pdf",
+       "doc_session": 2017,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "6. RAS254 || Professional Communication || Lab || 0-0-2"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "62ead51d44a5e4ea",
+       "doc": " mca-integrated_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "413af7f0008252fa",
+       "doc": " mca_y1_scheme_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "cba0170836c31577",
+       "doc": " mca_y1_syllabus_2020-21.pdf",
+       "doc_session": 2020,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "d50305830baaa549",
+       "doc": " mca_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lens": "B(code_fields)",
+   "code": "ngp401",
+   "class": "xref_identity_mismatch",
+   "name_ratio": 0.19,
+   "names": [
+    "GP",
+    "General Proficiency"
+   ],
+   "verdict": "xref_listing_review",
+   "rows": [
+    {
+     "sid": "gp",
+     "course": "BTech",
+     "primary_code": "NGP401",
+     "subject_name": "GP",
+     "checked_code": "ngp401",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "5237159af8a1340a",
+       "doc": "btech_applied-electronics-ece-ei_syllabus_2016-17_2.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "1abd7406c71bb68e",
+       "doc": " btech_bt_syllabus_2013-14.pdf",
+       "doc_session": 2013,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "7ae4e38503d235fd",
+       "doc": " btech_bt_syllabus_2015-16.pdf",
+       "doc_session": 2015,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "43311ba67427581a",
+       "doc": " btech_che_syllabus_2015-16.pdf",
+       "doc_session": 2015,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "1afbf6359a6d0f7c",
+       "doc": " btech_cse_syllabus_2015-16.pdf",
+       "doc_session": 2015,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "1a96cda0c39e4902",
+       "doc": " btech_ece_syllabus_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "539a5b5954ed22b7",
+       "doc": " btech_ece_syllabus_2016-17_2.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "5c9b900ce01c01e2",
+       "doc": " btech_it_syllabus_2015-16.pdf",
+       "doc_session": 2015,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "43eec64d11cdf3e2",
+       "doc": " btech_it_y2_syllabus-rev_2014-15.pdf",
+       "doc_session": 2014,
+       "cited_pages": [],
+       "found_page": 3,
+       "verdict": "found",
+       "print": "NGP-401 || GP || 50 || 50"
+      }
+     ]
+    },
+    {
+     "sid": "general-proficiency-mca",
+     "course": "MCA",
+     "primary_code": "NGP-701",
+     "subject_name": "General Proficiency",
+     "checked_code": "ngp401",
+     "verdict": "code_print_not_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "4c4757568f431526",
+       "doc": "mca-dd_y4-5_syllabus_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "0d1f63d783b9e075",
+       "doc": " mca_syllabus_2008-09.pdf",
+       "doc_session": 2008,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "6def047eef60054e",
+       "doc": " mca_syllabus_2013-14.pdf",
+       "doc_session": 2013,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "d801a5222ca32643",
+       "doc": " mca_y1_scheme-syllabus_2008-09.pdf",
+       "doc_session": 2008,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "d17aecccf44a27b6",
+       "doc": " mca_y1_scheme-syllabus_2009-10.pdf",
+       "doc_session": 2009,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "328835122d45eda6",
+       "doc": " mca_y2_syllabus_2014-15.pdf",
+       "doc_session": 2014,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "a4f273baab09cdb9",
+       "doc": " mca_y3_syllabus_2010-11.pdf",
+       "doc_session": 2010,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "1a425db0ddc35c7c",
+       "doc": " mca_y3_syllabus_2015-16.pdf",
+       "doc_session": 2015,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lens": "B(code_fields)",
+   "code": "ras254",
+   "class": "xref_identity_mismatch",
+   "name_ratio": 0.769,
+   "names": [
+    "Professional Communication Lab",
+    "Professional Communication Laboratory Practicals"
+   ],
+   "verdict": "xref_listing_review",
+   "rows": [
+    {
+     "sid": "professional-communication-lab-mca",
+     "course": "MCA",
+     "primary_code": "RAS254",
+     "subject_name": "Professional Communication Lab",
+     "checked_code": "ras254",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "7a5ca0422590c615",
+       "doc": "mca-integrated_y1_scheme-syllabus_2017-18.pdf",
+       "doc_session": 2017,
+       "cited_pages": [],
+       "found_page": 2,
+       "verdict": "found",
+       "print": "6. RAS254 || Professional Communication || Lab || 0-0-2"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "62ead51d44a5e4ea",
+       "doc": " mca-integrated_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "413af7f0008252fa",
+       "doc": " mca_y1_scheme_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "cba0170836c31577",
+       "doc": " mca_y1_syllabus_2020-21.pdf",
+       "doc_session": 2020,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "d50305830baaa549",
+       "doc": " mca_y1_syllabus_2024-25.pdf",
+       "doc_session": 2024,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      }
+     ]
+    },
+    {
+     "sid": "professional-communication-laboratory-practicals",
+     "course": "BTech",
+     "primary_code": "RAS254",
+     "subject_name": "Professional Communication Laboratory Practicals",
+     "checked_code": "ras254",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "e7827e01a2bbd920",
+       "doc": "btech_ag_syllabus_2013-14.pdf",
+       "doc_session": 2013,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "4f7ec6fc868ac99a",
+       "doc": " btech_all-branch_y1_scheme_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": 3,
+       "verdict": "found",
+       "print": "RAS 254 || Computer Progm. Lab/ || Professional Communication || Lab"
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "1abd7406c71bb68e",
+       "doc": " btech_bt_syllabus_2013-14.pdf",
+       "doc_session": 2013,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "7f23681aed03cd34",
+       "doc": " btech_bt_y1_scheme_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": 23,
+       "verdict": "found",
+       "print": "RAS154/RAS254 || PROFESSIONAL COMMUNICATION LABORATORY PRACTICALS || Interactive and Communicative Practical with emphasis on Oral Presentation/Spoken || Communication based on International Phonetic Alphabets (I.P.A)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "lens": "B(code_fields)",
+   "code": "rhu001",
+   "class": "xref_identity_mismatch",
+   "name_ratio": 0.174,
+   "names": [
+    "Human Values & Professional Ethics",
+    "Cyber Security"
+   ],
+   "verdict": "xref_listing_review",
+   "rows": [
+    {
+     "sid": "human-values-professional-ethics-mca",
+     "course": "MCA",
+     "primary_code": "RHU001",
+     "subject_name": "Human Values & Professional Ethics",
+     "checked_code": "rhu001",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "413af7f0008252fa",
+       "doc": "mca_y1_scheme_2016-17.pdf",
+       "doc_session": 2016,
+       "cited_pages": [],
+       "found_page": 3,
+       "verdict": "found",
+       "print": "RHU001 Human Values & || Professional || Ethics || 3"
+      }
+     ]
+    },
+    {
+     "sid": "cyber-security-mba",
+     "course": "MBA",
+     "primary_code": "RCA405",
+     "subject_name": "Cyber Security",
+     "checked_code": "rhu001",
+     "verdict": "code_print_found",
+     "page_evidence": [
+      {
+       "src": "source_scheme_line",
+       "sha16": "f08a94f197845778",
+       "doc": "mba_syllabus_2017-18.pdf",
+       "doc_session": 2017,
+       "cited_pages": [],
+       "found_page": null,
+       "verdict": "code_not_in_doc",
+       "print": ""
+      },
+      {
+       "src": "source_syllabus",
+       "sha16": "05191e71a9af1e27",
+       "doc": " mba_tourism-mgmt_syllabus_2017-18.pdf",
+       "doc_session": 2017,
+       "cited_pages": [],
+       "found_page": 3,
+       "verdict": "found",
+       "print": "RHU001 || Cyber Security || 3 0 0 || 20"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "generated_utc": "2026-11-12T14:32:31.678222+00:00"
+}

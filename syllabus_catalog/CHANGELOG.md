@@ -1,3 +1,7 @@
+# CRON-20261112-B87 — CRON-20261112-B87 — 2026-11-12
+
+T11 stage-1+2 ledger-only: cross-course same-code (lensA 5 pairs: 4 attested shared prints incl BVA251 x3 + RAS254 name-variant, 1 unverified UHV sha; lensB 3 xref listing anomalies: NGP401/RAS254/RHU001 code-field listings, prints coherent) -> 0 collisions, 0 fix candidates; classifier corrected mid-run (printed-name cross-check, print-wins); flags 442 unchanged, gates n/a (no CSV mutation); T9 next
+
 # CRON-20261112-B86 — CRON-20261112-B86 — 2026-11-12
 
 T10 stage-1+2 ledger-only: CO-dup clusters (78 exact/166 rows + 15 near/31 rows, pool 1326) -> 89 print-attested (>=2 member docs print same shared COs; shared-elective composition, no fix) + 1 drafting_side review (KIC-052 COs beyond own EI-2020-21 print; page-image check later) + 3 inconclusive (UHV sha-unresolvable, KEC101TH/BEC653A no_citation) + 0 fix candidates; member prints 192/197 found; flags 442 unchanged, gates n/a (no CSV mutation); T11 next
