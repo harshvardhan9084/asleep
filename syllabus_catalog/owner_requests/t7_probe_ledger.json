@@ -1,0 +1,3332 @@
+{
+ "test_id": "T7",
+ "run_id": "CRON-20261112-B85",
+ "generated_at": "2026-11-12T08:26:18.542352+00:00",
+ "csv_md5": "95f41cfa2f1c505047c5620eef30dc7e",
+ "rows_scanned": 3080,
+ "families_with_windows": {
+  "BCA|BBC": "2024-2026 (n=44)",
+  "BPharm|BOP": "2013-2013 (n=40)",
+  "BPharm|BP": "2019-2026 (n=111)",
+  "BPharm|RPH": "2016-2019 (n=33)",
+  "BTech|AAS": "2026-2026 (n=39)",
+  "BTech|BBI": "2025-2026 (n=36)",
+  "BTech|BCE": "2024-2025 (n=30)",
+  "BTech|BCH": "2024-2025 (n=30)",
+  "BTech|BCS": "2023-2025 (n=34)",
+  "BTech|BCT": "2024-2025 (n=12)",
+  "BTech|BEC": "2024-2026 (n=31)",
+  "BTech|BEE": "2024-2025 (n=13)",
+  "BTech|BFT": "2024-2025 (n=21)",
+  "BTech|BHT": "2024-2025 (n=16)",
+  "BTech|BMN": "2024-2026 (n=35)",
+  "BTech|EAG": "2008-2011 (n=40)",
+  "BTech|EBM": "2010-2011 (n=32)",
+  "BTech|EBT": "2009-2016 (n=39)",
+  "BTech|ECE": "2009-2010 (n=47)",
+  "BTech|ECH": "2009-2016 (n=39)",
+  "BTech|ECS": "2009-2010 (n=21)",
+  "BTech|ECT": "2009-2009 (n=33)",
+  "BTech|EEC": "2009-2011 (n=31)",
+  "BTech|EEE": "2009-2009 (n=28)",
+  "BTech|EEV": "2009-2009 (n=29)",
+  "BTech|EFT": "2009-2009 (n=16)",
+  "BTech|EME": "2009-2009 (n=34)",
+  "BTech|EMT": "2010-2010 (n=20)",
+  "BTech|EPL": "2009-2009 (n=36)",
+  "BTech|KAE": "2019-2020 (n=36)",
+  "BTech|KAG": "2018-2020 (n=37)",
+  "BTech|KBT": "2018-2021 (n=19)",
+  "BTech|KCE": "2018-2021 (n=14)",
+  "BTech|KCS": "2021-2024 (n=21)",
+  "BTech|KCT": "2019-2021 (n=17)",
+  "BTech|KEC": "2019-2021 (n=26)",
+  "BTech|KEE": "2019-2021 (n=22)",
+  "BTech|KHT": "2021-2022 (n=26)",
+  "BTech|KIC": "2020-2021 (n=14)",
+  "BTech|KME": "2019-2020 (n=32)",
+  "BTech|KOT": "2022-2022 (n=10)",
+  "BTech|KPE": "2019-2020 (n=24)",
+  "BTech|NAG": "2013-2016 (n=24)",
+  "BTech|NBT": "2014-2016 (n=19)",
+  "BTech|NCH": "2014-2016 (n=22)",
+  "BTech|NCS": "2014-2016 (n=30)",
+  "BTech|NEC": "2014-2016 (n=19)",
+  "BTech|NEE": "2014-2015 (n=12)",
+  "BTech|NEN": "2014-2016 (n=15)",
+  "BTech|NIC": "2016-2016 (n=10)",
+  "BTech|NIT": "2014-2016 (n=11)",
+  "BTech|NME": "2013-2016 (n=19)",
+  "BTech|NPE": "2017-2017 (n=18)",
+  "BTech|RAE": "2018-2019 (n=25)",
+  "BTech|RAG": "2016-2019 (n=49)",
+  "BTech|RAS": "2009-2018 (n=10)",
+  "BTech|RBT": "2017-2019 (n=17)",
+  "BTech|RCE": "2017-2019 (n=21)",
+  "BTech|RCH": "2017-2019 (n=26)",
+  "BTech|RCS": "2016-2019 (n=13)",
+  "BTech|RCT": "2017-2019 (n=30)",
+  "BTech|REC": "2017-2025 (n=26)",
+  "BTech|REE": "2009-2025 (n=24)",
+  "BTech|REV": "2017-2019 (n=17)",
+  "BTech|RFT": "2017-2019 (n=12)",
+  "BTech|RME": "2017-2019 (n=31)",
+  "BTech|RMI": "2018-2018 (n=10)",
+  "BTech|RPE": "2017-2017 (n=10)",
+  "BTech|RPI": "2018-2024 (n=12)",
+  "MBA|BMBAB": "2024-2025 (n=25)",
+  "MBA|BMBAI": "2024-2026 (n=28)",
+  "MBA|BMLS": "2024-2025 (n=12)",
+  "MBA|KMBA": "2020-2025 (n=12)",
+  "MBA|KMBAI": "2018-2025 (n=12)",
+  "MBA|KMBF": "2025-2025 (n=11)",
+  "MBA|KMBI": "2019-2025 (n=36)",
+  "MBA|KMHC": "2022-2022 (n=10)",
+  "MBA|RMBI": "2017-2025 (n=13)",
+  "MBA|RMT": "2017-2021 (n=10)",
+  "MCA|BMI": "2024-2026 (n=26)",
+  "MCA|KCA": "2020-2025 (n=14)",
+  "MCA|MCA": "2004-2025 (n=71)",
+  "MCA|NBC": "2016-2025 (n=23)",
+  "MCA|RCA": "2016-2024 (n=12)",
+  "MCA|RCAI": "2017-2025 (n=33)"
+ },
+ "letter_generation_windows_secondary": {
+  "BCA|B": "2024-2026 (n=46)",
+  "BPharm|B": "2013-2026 (n=151)",
+  "BPharm|R": "2016-2019 (n=35)",
+  "BTech|A": "2026-2026 (n=51)",
+  "BTech|B": "2023-2026 (n=362)",
+  "BTech|E": "2009-2011 (n=516)",
+  "BTech|K": "2019-2024 (n=397)",
+  "BTech|N": "2014-2017 (n=227)",
+  "BTech|R": "2017-2019 (n=393)",
+  "MBA|B": "2024-2026 (n=100)",
+  "MBA|K": "2018-2025 (n=129)",
+  "MBA|M": "2004-2026 (n=29)",
+  "MBA|R": "2017-2025 (n=49)",
+  "MCA|B": "2024-2026 (n=29)",
+  "MCA|M": "2004-2025 (n=74)",
+  "MCA|N": "2013-2025 (n=30)",
+  "MCA|R": "2016-2025 (n=52)"
+ },
+ "stage1_skip_reasons": {
+  "family_small_window": 443,
+  "pool_or_no_code": 312,
+  "undated_row": 177
+ },
+ "stage1_candidates": 24,
+ "stage1_direction_counts": {
+  "era_backward": 8,
+  "era_forward": 16
+ },
+ "stage2_verdict_counts": {
+  "attested_cross_era_carryover": 6,
+  "effective_session_provenance_review": 18
+ },
+ "candidates_stage2": [
+  {
+   "sid": "remedial-biology-practical",
+   "course": "BPharm",
+   "primary_code": "BP112RBP",
+   "family": "BP",
+   "row_session": "2017-18",
+   "row_session_year": 2017,
+   "family_window": "2019-2026",
+   "family_window_n": 111,
+   "direction": "era_backward",
+   "first_introduced_session": "2017-18",
+   "subject_name": "Remedial Biology (Practical)",
+   "all_codes": "BP112RBP",
+   "code_history_all": "BP112RBP (2017-18, sem-1)",
+   "semester_slots": "1",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "2a058fb8112db1e5",
+     [],
+     "bpharm_y1_syllabus_2017-18.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "2a058fb8112db1e5",
+     [],
+     "bpharm_y1_syllabus_2017-18.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "2a058fb8112db1e5",
+     "doc": "bpharm_y1_syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "BP112RBP Remedial Biology\u2013 Practical || 2 || 10 || 15"
+    }
+   ],
+   "verdict": "attested_cross_era_carryover"
+  },
+  {
+   "sid": "soil-and-water-conservation-engineering",
+   "course": "BTech",
+   "primary_code": "EAG-604",
+   "family": "EAG",
+   "row_session": "2025-26",
+   "row_session_year": 2025,
+   "family_window": "2008-2011",
+   "family_window_n": 40,
+   "direction": "era_forward",
+   "first_introduced_session": "2011-12",
+   "subject_name": "Soil and Water Conservation Engineering",
+   "all_codes": "EAG-604;NAG-502;KOE078;EEV-503;REV084;NEN031;KNE074;BOE078",
+   "code_history_all": "EAG-604 (2011-12, sem-6) -> NAG-502 (2015-16) - codes printed with detailed syllabus in btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf -> KOE078 (2021-22) - codes printed with detailed syllabus in btech_common_y4_hsmc-courses_2021-22.pdf -> EEV-503 (2009-10) - codes printed with detailed syllabus in btech_env_syllabus_2009-10.pdf -> REV084 (2019-20) - codes printed with detailed syllabus in btech_env_y4_syllabus-cbcs_2019-20.pdf -> NEN031 (2016-17) - codes printed with detailed syllabus in btech_env_y4_syllabus_2016-17.pdf -> KNE074 (2021-22) - codes printed with detailed syllabus in btech_env_y4_syllabus_2021-22.pdf -> BOE078 () - codes printed with detailed syllabus in ",
+   "semester_slots": "6",
+   "program_year": "3",
+   "cites_scheme": [
+    [
+     "9a8392667e90e4a3",
+     [],
+     "btech_ag_syllabus_2011-12.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "9a8392667e90e4a3",
+     [],
+     "btech_ag_syllabus_2011-12.pdf"
+    ],
+    [
+     "69b6c3c47a3fbcb0",
+     [],
+     " btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf"
+    ],
+    [
+     "9f353dd680d7c524",
+     [],
+     " btech_common_y4_hsmc-courses_2021-22.pdf"
+    ],
+    [
+     "9ca59c30578733b0",
+     [],
+     " btech_env_syllabus_2009-10.pdf"
+    ],
+    [
+     "c0bbcb3dacaaf505",
+     [],
+     " btech_env_y4_syllabus-cbcs_2019-20.pdf"
+    ],
+    [
+     "c2eff0f0adde9801",
+     [],
+     " btech_env_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "bf77e3978ffc422f",
+     [],
+     " btech_env_y4_syllabus_2021-22.pdf"
+    ],
+    [
+     "db9295d089de9858",
+     [],
+     " btech_y4s7_open-elective-2_2021-22.pdf"
+    ],
+    [
+     "7e25b41673d2a508",
+     [],
+     " btech_y4s7_open-electives_2025-26.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "9a8392667e90e4a3",
+     "doc": "btech_ag_syllabus_2011-12.pdf",
+     "doc_session": 2011,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "EAG-604 || Soil & Water Conservation Engg || 2 || 1"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "69b6c3c47a3fbcb0",
+     "doc": " btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf",
+     "doc_session": 2015,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9f353dd680d7c524",
+     "doc": " btech_common_y4_hsmc-courses_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9ca59c30578733b0",
+     "doc": " btech_env_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "c0bbcb3dacaaf505",
+     "doc": " btech_env_y4_syllabus-cbcs_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "c2eff0f0adde9801",
+     "doc": " btech_env_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "bf77e3978ffc422f",
+     "doc": " btech_env_y4_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "db9295d089de9858",
+     "doc": " btech_y4s7_open-elective-2_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7e25b41673d2a508",
+     "doc": " btech_y4s7_open-electives_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "computer-aided-engineering-graphics",
+   "course": "BTech",
+   "primary_code": "ECE-251",
+   "family": "ECE",
+   "row_session": "2013-14",
+   "row_session_year": 2013,
+   "family_window": "2009-2010",
+   "family_window_n": 47,
+   "direction": "era_forward",
+   "first_introduced_session": "2013-14",
+   "subject_name": "Computer Aided Engineering Graphics",
+   "all_codes": "RCE151;RCE251;ECE-251",
+   "code_history_all": "NCE-151 (2013-14, sem-2) / NCE-251 (2013-14, sem-2) -> RCE151 + RCE251 (2017-18) - codes printed with detailed syllabus in btech_ag_y2_scheme-syllabus_2017-18.pdf -> ECE-151 + ECE-251 (2009-10) - codes printed with detailed syllabus in btech_bt_syllabus_2009-10.pdf; NCE151 re-assigned by AKTU to Workshop Practice/ Computer Aided Engg. Graphics per the  scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model); NCE251 re-assigned by AKTU to Workshop Practice/ Computer Aided Engg. Graphics per the  scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model); ECE151 re-assigned by AKTU to Workshop Practice/ Computer Aided Engg. Graphics per the 2008-09 scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model)",
+   "semester_slots": "2",
+   "program_year": "1",
+   "cites_scheme": [
+    [
+     "e7827e01a2bbd920",
+     [],
+     "btech_ag_syllabus_2013-14.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "e7827e01a2bbd920",
+     [],
+     "btech_ag_syllabus_2013-14.pdf"
+    ],
+    [
+     "9a0417ba1d09dfef",
+     [],
+     " btech_ag_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "4f7ec6fc868ac99a",
+     [],
+     " btech_all-branch_y1_scheme_2016-17.pdf"
+    ],
+    [
+     "2f6cdc135e2e6643",
+     [],
+     " btech_bt_syllabus_2009-10.pdf"
+    ],
+    [
+     "1abd7406c71bb68e",
+     [],
+     " btech_bt_syllabus_2013-14.pdf"
+    ],
+    [
+     "7f23681aed03cd34",
+     [],
+     " btech_bt_y1_scheme_2016-17.pdf"
+    ],
+    [
+     "30cfa6b02bc4d971",
+     [],
+     " btech_bt_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "5e07ff5fe10cd6c3",
+     [],
+     " btech_carpet-textile_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "7757cf07f29ab03b",
+     [],
+     " btech_ce_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "59146449255604f8",
+     [],
+     " btech_ece_y2_syllabus_2017-18.pdf"
+    ],
+    [
+     "bddd363be8c50739",
+     [],
+     " btech_ee_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "cbbe78b0fd8083e9",
+     [],
+     " btech_ft_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "3b33f0320c9b61d1",
+     [],
+     " btech_it_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "a1eadc45e6ecbb98",
+     [],
+     " btech_textile-chemistry_y2_scheme-syllabus_2017-18.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "e7827e01a2bbd920",
+     "doc": "btech_ag_syllabus_2013-14.pdf",
+     "doc_session": 2013,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9a0417ba1d09dfef",
+     "doc": " btech_ag_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "4f7ec6fc868ac99a",
+     "doc": " btech_all-branch_y1_scheme_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "2f6cdc135e2e6643",
+     "doc": " btech_bt_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "ECE-251/ || EWS-251 || Computer Aided || Graphics /"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "1abd7406c71bb68e",
+     "doc": " btech_bt_syllabus_2013-14.pdf",
+     "doc_session": 2013,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7f23681aed03cd34",
+     "doc": " btech_bt_y1_scheme_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "30cfa6b02bc4d971",
+     "doc": " btech_bt_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "5e07ff5fe10cd6c3",
+     "doc": " btech_carpet-textile_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7757cf07f29ab03b",
+     "doc": " btech_ce_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "59146449255604f8",
+     "doc": " btech_ece_y2_syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "bddd363be8c50739",
+     "doc": " btech_ee_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "cbbe78b0fd8083e9",
+     "doc": " btech_ft_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3b33f0320c9b61d1",
+     "doc": " btech_it_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "a1eadc45e6ecbb98",
+     "doc": " btech_textile-chemistry_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "programming-for-problem-solving",
+   "course": "BTech",
+   "primary_code": "KCS101",
+   "family": "KCS",
+   "row_session": "2018-19",
+   "row_session_year": 2018,
+   "family_window": "2021-2024",
+   "family_window_n": 21,
+   "direction": "era_backward",
+   "first_introduced_session": "2018-19",
+   "subject_name": "Programming for Problem Solving",
+   "all_codes": "KCS101;KCS201;KCS-101T;KCS-201T;BCS101;BCS201;KCS151PH;KCS251PH;KCS101TH;KCS201TH",
+   "code_history_all": "KCS101 (2018-19, sem-1) -> KCS201 (2018-19) - codes printed with detailed syllabus in btech_ag_syllabus-aicte_2018-19.pdf -> KCS-101T + KCS-201T (2020-21) - codes printed with detailed syllabus in btech_ag_y1_model-curriculum_2020-21.pdf -> BCS101 + BCS201 (2022-23) - codes printed with detailed syllabus in btech_ag_y1_syllabus_2022-23.pdf -> KCS151PH + KCS251PH () - codes printed with detailed syllabus in  -> KCS101TH + KCS201TH () - codes printed with detailed syllabus in ",
+   "semester_slots": "1",
+   "program_year": "1",
+   "cites_scheme": [
+    [
+     "6cc2ad19ea57c8f7",
+     [],
+     "btech_ag_syllabus-aicte_2018-19.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "6cc2ad19ea57c8f7",
+     [],
+     "btech_ag_syllabus-aicte_2018-19.pdf"
+    ],
+    [
+     "3e2c219acdd97acf",
+     [],
+     " btech_ag_y1_model-curriculum_2020-21.pdf"
+    ],
+    [
+     "84195404a1800d61",
+     [],
+     " btech_ag_y1_syllabus_2022-23.pdf"
+    ],
+    [
+     "7ddb3baa8918a1d1",
+     [],
+     " btech_bt_syllabus-aicte_2018-19.pdf"
+    ],
+    [
+     "0d00a279e82ec901",
+     [],
+     " btech_bt_y1_model-curriculum_2020-21.pdf"
+    ],
+    [
+     "65ba77f6adefc408",
+     [],
+     " btech_bt_y1_syllabus_2022-23.pdf"
+    ],
+    [
+     "7b3d338328997e93",
+     [],
+     " btech_common-ex-ag-bt_y1_syllabus_2022-23.pdf"
+    ],
+    [
+     "b686fd84fcbe5544",
+     [],
+     " btech_common_syllabus-aicte_2018-19.pdf"
+    ],
+    [
+     "0a0b8671c3e6d768",
+     [],
+     " btech_common_y1_model-curriculum_2020-21.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "6cc2ad19ea57c8f7",
+     "doc": "btech_ag_syllabus-aicte_2018-19.pdf",
+     "doc_session": 2018,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KCS101 || Basic Electrical || Engineering/Programming || for Problem Solving"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3e2c219acdd97acf",
+     "doc": " btech_ag_y1_model-curriculum_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "KCS101T Programming for Problem || Solving || 3 || 0"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "84195404a1800d61",
+     "doc": " btech_ag_y1_syllabus_2022-23.pdf",
+     "doc_session": 2022,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7ddb3baa8918a1d1",
+     "doc": " btech_bt_syllabus-aicte_2018-19.pdf",
+     "doc_session": 2018,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KCS101 || Basic Electrical || Engineering/Programming || for Problem Solving"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "0d00a279e82ec901",
+     "doc": " btech_bt_y1_model-curriculum_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "KCS101T || Programming for Problem Solving || 3 || 0"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "65ba77f6adefc408",
+     "doc": " btech_bt_y1_syllabus_2022-23.pdf",
+     "doc_session": 2022,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7b3d338328997e93",
+     "doc": " btech_common-ex-ag-bt_y1_syllabus_2022-23.pdf",
+     "doc_session": 2022,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "b686fd84fcbe5544",
+     "doc": " btech_common_syllabus-aicte_2018-19.pdf",
+     "doc_session": 2018,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KCS101 || Basic Electrical || Engineering/Programming || for Problem Solving"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "0a0b8671c3e6d768",
+     "doc": " btech_common_y1_model-curriculum_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": 4,
+     "verdict": "found",
+     "print": "KCS101T/ || KME101T || Programming for Problem Solving / || Fundamentals of Mechanical"
+    }
+   ],
+   "verdict": "attested_cross_era_carryover"
+  },
+  {
+   "sid": "aircraft-system-and-maintenance-lab",
+   "course": "BTech",
+   "primary_code": "KAE-771",
+   "family": "KAE",
+   "row_session": "2021-22",
+   "row_session_year": 2021,
+   "family_window": "2019-2020",
+   "family_window_n": 36,
+   "direction": "era_forward",
+   "first_introduced_session": "2021-22",
+   "subject_name": "Aircraft System and Maintenance Lab",
+   "all_codes": "KAE-771;KAE-751;BAE751",
+   "code_history_all": "KAE-771 (2021-22, sem-7) / KAE-751 (2021-22, sem-7) -> BAE751 (2025-26) - codes printed with detailed syllabus in btech_ae_y4_syllabus_2025-26.pdf",
+   "semester_slots": "7",
+   "program_year": "4",
+   "cites_scheme": [
+    [
+     "6eec1505e6f7eab9",
+     [],
+     "btech_ae_y4_syllabus_2021-22.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "6eec1505e6f7eab9",
+     [],
+     "btech_ae_y4_syllabus_2021-22.pdf"
+    ],
+    [
+     "f203b50ecf038f52",
+     [],
+     " btech_ae_y4_syllabus_2025-26.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "6eec1505e6f7eab9",
+     "doc": "btech_ae_y4_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "Subject Code:KAE-771 || Aircraft System and Maintenance Lab || L T P: 0 0 2 || Credits:1"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "f203b50ecf038f52",
+     "doc": " btech_ae_y4_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "attested_cross_era_carryover"
+  },
+  {
+   "sid": "basic-electronics-engineering-lab",
+   "course": "BTech",
+   "primary_code": "BEC151",
+   "family": "BEC",
+   "row_session": "2022-23",
+   "row_session_year": 2022,
+   "family_window": "2024-2026",
+   "family_window_n": 31,
+   "direction": "era_backward",
+   "first_introduced_session": "2022-23",
+   "subject_name": "Basic Electronics Engineering Lab",
+   "all_codes": "BEC151;BEC251",
+   "code_history_all": "BEC151 (2022-23, sem-1) / BEC251 (2022-23, sem-1)",
+   "semester_slots": "1",
+   "program_year": "1",
+   "cites_scheme": [
+    [
+     "84195404a1800d61",
+     [],
+     "btech_ag_y1_syllabus_2022-23.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "84195404a1800d61",
+     [],
+     "btech_ag_y1_syllabus_2022-23.pdf"
+    ],
+    [
+     "65ba77f6adefc408",
+     [],
+     " btech_bt_y1_syllabus_2022-23.pdf"
+    ],
+    [
+     "7b3d338328997e93",
+     [],
+     " btech_common-ex-ag-bt_y1_syllabus_2022-23.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "84195404a1800d61",
+     "doc": "btech_ag_y1_syllabus_2022-23.pdf",
+     "doc_session": 2022,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "BEC151 || Basic Electrical Engineering || Lab/ Basic Electronics || Engineering Lab"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "65ba77f6adefc408",
+     "doc": " btech_bt_y1_syllabus_2022-23.pdf",
+     "doc_session": 2022,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "BEC151 || Basic Electrical || Engineering Lab/ Basic || Electronics"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7b3d338328997e93",
+     "doc": " btech_common-ex-ag-bt_y1_syllabus_2022-23.pdf",
+     "doc_session": 2022,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "BEC151 || Basic Electrical || Engineering Lab/ Basic || Electronics Engineering"
+    }
+   ],
+   "verdict": "attested_cross_era_carryover"
+  },
+  {
+   "sid": "renewable-energy-sources",
+   "course": "BTech",
+   "primary_code": "KAG-057",
+   "family": "KAG",
+   "row_session": "2025-26",
+   "row_session_year": 2025,
+   "family_window": "2018-2020",
+   "family_window_n": 37,
+   "direction": "era_forward",
+   "first_introduced_session": "2020-21",
+   "subject_name": "Renewable Energy Sources",
+   "all_codes": "KAG-057;BAG057;NAG-081;KOE074;ROE086;KOE060A;BOE074",
+   "code_history_all": "KAG-057 (2020-21, sem-5) -> BAG057 (2024-25) - codes printed with detailed syllabus in btech_ag_y3_syllabus_2024-25.pdf -> NAG-081 (2016-17) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2016-17.pdf -> KOE074 (2021-22) - codes printed with detailed syllabus in btech_common_y4_hsmc-courses_2021-22.pdf -> ROE086 (2019-20) - codes printed with detailed syllabus in btech_open-electives_2019-20.pdf -> KOE060A () - codes printed with detailed syllabus in  -> BOE074 () - codes printed with detailed syllabus in ",
+   "semester_slots": "5",
+   "program_year": "3",
+   "cites_scheme": [
+    [
+     "7cc09310bd72356b",
+     [],
+     "btech_ag_y3_scheme-syllabus_2020-21.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "7cc09310bd72356b",
+     [],
+     "btech_ag_y3_scheme-syllabus_2020-21.pdf"
+    ],
+    [
+     "02a51ac056f20f11",
+     [],
+     " btech_ag_y3_syllabus_2024-25.pdf"
+    ],
+    [
+     "7e8aff45877e1934",
+     [],
+     " btech_ag_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "9f353dd680d7c524",
+     [],
+     " btech_common_y4_hsmc-courses_2021-22.pdf"
+    ],
+    [
+     "3ad2353279d419ea",
+     [],
+     " btech_open-electives_2019-20.pdf"
+    ],
+    [
+     "cff8a21a7f52052f",
+     [],
+     " btech_y4_open-electives_2020-21.pdf"
+    ],
+    [
+     "db9295d089de9858",
+     [],
+     " btech_y4s7_open-elective-2_2021-22.pdf"
+    ],
+    [
+     "7e25b41673d2a508",
+     [],
+     " btech_y4s7_open-electives_2025-26.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "7cc09310bd72356b",
+     "doc": "btech_ag_y3_scheme-syllabus_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KAG 057 Renewable Energy Sources || KAG 053 Seed Process Engineering || KAG 058 Landscape Irrigation Design and Management || KAG 054 Developments of Process Products"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "02a51ac056f20f11",
+     "doc": " btech_ag_y3_syllabus_2024-25.pdf",
+     "doc_session": 2024,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7e8aff45877e1934",
+     "doc": " btech_ag_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9f353dd680d7c524",
+     "doc": " btech_common_y4_hsmc-courses_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3ad2353279d419ea",
+     "doc": " btech_open-electives_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "cff8a21a7f52052f",
+     "doc": " btech_y4_open-electives_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "db9295d089de9858",
+     "doc": " btech_y4s7_open-elective-2_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7e25b41673d2a508",
+     "doc": " btech_y4s7_open-electives_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "watershed-planning-and-management",
+   "course": "BTech",
+   "primary_code": "RAG072",
+   "family": "RAG",
+   "row_session": "2015-16",
+   "row_session_year": 2015,
+   "family_window": "2016-2019",
+   "family_window_n": 49,
+   "direction": "era_backward",
+   "first_introduced_session": "2015-16",
+   "subject_name": "Watershed Planning and Management",
+   "all_codes": "RAG072;KAG070;KAG-070;BAG070;BAG-070;EAG-013",
+   "code_history_all": "NAG-011 (2015-16, sem-6) -> RAG072 (2019-20) - codes printed with detailed syllabus in btech_ag_y4_syllabus-cbcs_2019-20.pdf; NAG-011 (2015-16, sem-6 print) \u2014 token REPRINTED by the 2016-17 y4 document on its detail pages for a different subject (document-level code reuse across sessions); ownership moved to the newer print per CODE-REASSIGNED-ACROSS-SESSIONS semantics; the newer subject row is appended by B08 (CRON-20261030-B08). -> KAG070 + KAG-070 (2021-22) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2021-22.pdf -> BAG070 + BAG-070 (2025-26) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2025-26.pdf -> EAG-013 () - codes printed with detailed syllabus in btech_ag_syllabus.pdf",
+   "semester_slots": "6",
+   "program_year": "3",
+   "cites_scheme": [
+    [
+     "69b6c3c47a3fbcb0",
+     [],
+     "btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "69b6c3c47a3fbcb0",
+     [],
+     "btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf"
+    ],
+    [
+     "8ca5b389f76d66d5",
+     [],
+     " btech_ag_y4_syllabus-cbcs_2019-20.pdf"
+    ],
+    [
+     "2b917b5533712443",
+     [],
+     " btech_ag_y4_syllabus_2021-22.pdf"
+    ],
+    [
+     "75359220655d0243",
+     [],
+     " btech_ag_y4_syllabus_2025-26.pdf"
+    ],
+    [
+     "d653fca183edc5fb",
+     [],
+     " btech_ag_syllabus.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "69b6c3c47a3fbcb0",
+     "doc": "btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf",
+     "doc_session": 2015,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "8ca5b389f76d66d5",
+     "doc": " btech_ag_y4_syllabus-cbcs_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "RAG072 || Watershed Planning and management || 4 || RAG073"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "2b917b5533712443",
+     "doc": " btech_ag_y4_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "75359220655d0243",
+     "doc": " btech_ag_y4_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "d653fca183edc5fb",
+     "doc": " btech_ag_syllabus.pdf",
+     "doc_session": null,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "minor-irrigation-and-command-area-development",
+   "course": "BTech",
+   "primary_code": "RAG080",
+   "family": "RAG",
+   "row_session": "2015-16",
+   "row_session_year": 2015,
+   "family_window": "2016-2019",
+   "family_window_n": 49,
+   "direction": "era_backward",
+   "first_introduced_session": "2015-16",
+   "subject_name": "Minor Irrigation and Command area Development",
+   "all_codes": "RAG080;KAG075;EAG-021",
+   "code_history_all": "NAG-021 (2015-16, sem-6) -> RAG080 (2019-20) - codes printed with detailed syllabus in btech_ag_y4_syllabus-cbcs_2019-20.pdf; NAG-021 (2015-16, sem-6 print) \u2014 token REPRINTED by the 2016-17 y4 document on its detail pages for a different subject (document-level code reuse across sessions); ownership moved to the newer print per CODE-REASSIGNED-ACROSS-SESSIONS semantics; the newer subject row is appended by B08 (CRON-20261030-B08). -> KAG075 (2021-22) - codes printed with detailed syllabus in btech_ag_y4_syllabus_2021-22.pdf -> EAG-021 () - codes printed with detailed syllabus in btech_ag_syllabus.pdf",
+   "semester_slots": "6",
+   "program_year": "3",
+   "cites_scheme": [
+    [
+     "69b6c3c47a3fbcb0",
+     [],
+     "btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "69b6c3c47a3fbcb0",
+     [],
+     "btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf"
+    ],
+    [
+     "8ca5b389f76d66d5",
+     [],
+     " btech_ag_y4_syllabus-cbcs_2019-20.pdf"
+    ],
+    [
+     "2b917b5533712443",
+     [],
+     " btech_ag_y4_syllabus_2021-22.pdf"
+    ],
+    [
+     "d653fca183edc5fb",
+     [],
+     " btech_ag_syllabus.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "69b6c3c47a3fbcb0",
+     "doc": "btech_ag_y3s5-6_scheme-syllabus_2015-16.pdf",
+     "doc_session": 2015,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "8ca5b389f76d66d5",
+     "doc": " btech_ag_y4_syllabus-cbcs_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "RAG080 || Minor irrigation and command area development || 2 || RAG081"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "2b917b5533712443",
+     "doc": " btech_ag_y4_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "d653fca183edc5fb",
+     "doc": " btech_ag_syllabus.pdf",
+     "doc_session": null,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "entrepreneurship-development",
+   "course": "BTech",
+   "primary_code": "RAG088",
+   "family": "RAG",
+   "row_session": "2025-26",
+   "row_session_year": 2025,
+   "family_window": "2016-2019",
+   "family_window_n": 49,
+   "direction": "era_forward",
+   "first_introduced_session": "2019-20",
+   "subject_name": "Entrepreneurship Development",
+   "all_codes": "RAG088;NOE071;EOE -071;ROE082;KOE083;BOE084",
+   "code_history_all": "RAG088 (2019-20, sem-8) -> NOE071 (2016-17) - codes printed with detailed syllabus in btech_ce_y4_syllabus_2016-17.pdf -> EOE -071 (2009-10) - codes printed with detailed syllabus in btech_ee_syllabus_2009-10.pdf -> ROE082 (2019-20) - codes printed with detailed syllabus in btech_open-electives_2019-20.pdf -> KOE083 (2021-22) - codes printed with detailed syllabus in btech_y4s8_open-elective-3-4-list_2021-22.pdf -> BOE084 (2025-26) - codes printed with detailed syllabus in btech_y4s8_open-elective-3-4-list_2025-26.pdf",
+   "semester_slots": "8",
+   "program_year": "4",
+   "cites_scheme": [
+    [
+     "8ca5b389f76d66d5",
+     [],
+     "btech_ag_y4_syllabus-cbcs_2019-20.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "8ca5b389f76d66d5",
+     [],
+     "btech_ag_y4_syllabus-cbcs_2019-20.pdf"
+    ],
+    [
+     "52245ed4397dccfc",
+     [],
+     " btech_ce_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "206f3f97648e72e0",
+     [],
+     " btech_cse_syllabus_2016-17.pdf"
+    ],
+    [
+     "3298dc1f8195fb2f",
+     [],
+     " btech_ece_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "8f2892a46c32012b",
+     [],
+     " btech_ee_syllabus_2009-10.pdf"
+    ],
+    [
+     "c2eff0f0adde9801",
+     [],
+     " btech_env_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "834e84015a481092",
+     [],
+     " btech_ft_syllabus-rev_2009-10.pdf"
+    ],
+    [
+     "3b901f828959a8cd",
+     [],
+     " btech_ft_syllabus_2016-17.pdf"
+    ],
+    [
+     "3f83735be23e91f4",
+     [],
+     " btech_it_syllabus_2016-17.pdf"
+    ],
+    [
+     "db1f836f585af9c4",
+     [],
+     " btech_open-electives-science_2009-10.pdf"
+    ],
+    [
+     "3ad2353279d419ea",
+     [],
+     " btech_open-electives_2019-20.pdf"
+    ],
+    [
+     "cff8a21a7f52052f",
+     [],
+     " btech_y4_open-electives_2020-21.pdf"
+    ],
+    [
+     "4337a701ed611aa4",
+     [],
+     " btech_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "7638826dcfb8d329",
+     [],
+     " btech_y4s8_open-elective-3-4-list_2021-22.pdf"
+    ],
+    [
+     "ef8c5f5c23a8dc17",
+     [],
+     " btech_y4s8_open-elective-3-4-list_2025-26.pdf"
+    ],
+    [
+     "10e3bacc85ce9d53",
+     [],
+     " btech_ee_y4_syllabus.pdf"
+    ],
+    [
+     "6c79d3014995e423",
+     [],
+     " btech_en_y4_syllabus.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "8ca5b389f76d66d5",
+     "doc": "btech_ag_y4_syllabus-cbcs_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "RAG088 || Entrepreneurship Development || 4 || RAG089"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "52245ed4397dccfc",
+     "doc": " btech_ce_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "206f3f97648e72e0",
+     "doc": " btech_cse_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3298dc1f8195fb2f",
+     "doc": " btech_ece_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "8f2892a46c32012b",
+     "doc": " btech_ee_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "c2eff0f0adde9801",
+     "doc": " btech_env_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "834e84015a481092",
+     "doc": " btech_ft_syllabus-rev_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3b901f828959a8cd",
+     "doc": " btech_ft_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3f83735be23e91f4",
+     "doc": " btech_it_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "db1f836f585af9c4",
+     "doc": " btech_open-electives-science_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3ad2353279d419ea",
+     "doc": " btech_open-electives_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "cff8a21a7f52052f",
+     "doc": " btech_y4_open-electives_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "4337a701ed611aa4",
+     "doc": " btech_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7638826dcfb8d329",
+     "doc": " btech_y4s8_open-elective-3-4-list_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "ef8c5f5c23a8dc17",
+     "doc": " btech_y4s8_open-elective-3-4-list_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "10e3bacc85ce9d53",
+     "doc": " btech_ee_y4_syllabus.pdf",
+     "doc_session": null,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "6c79d3014995e423",
+     "doc": " btech_en_y4_syllabus.pdf",
+     "doc_session": null,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "elements-of-mechanical-engineering-lab",
+   "course": "BTech",
+   "primary_code": "RME151",
+   "family": "RME",
+   "row_session": "2016-17",
+   "row_session_year": 2016,
+   "family_window": "2017-2019",
+   "family_window_n": 31,
+   "direction": "era_backward",
+   "first_introduced_session": "2016-17",
+   "subject_name": "Elements of Mechanical Engineering Lab",
+   "all_codes": "RME151;RME251",
+   "code_history_all": "RME151 (2016-17, sem-1) / RME251 (2016-17, sem-1)",
+   "semester_slots": "1",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "4f7ec6fc868ac99a",
+     [],
+     "btech_all-branch_y1_scheme_2016-17.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "4f7ec6fc868ac99a",
+     [],
+     "btech_all-branch_y1_scheme_2016-17.pdf"
+    ],
+    [
+     "7f23681aed03cd34",
+     [],
+     " btech_bt_y1_scheme_2016-17.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "4f7ec6fc868ac99a",
+     "doc": "btech_all-branch_y1_scheme_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "RME151 || Basic Electrical Engg Lab/ || Elements of Mechanical Engg || Lab"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7f23681aed03cd34",
+     "doc": " btech_bt_y1_scheme_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "RME-151 || Workshop Practice || 0-0-3 || 50"
+    }
+   ],
+   "verdict": "attested_cross_era_carryover"
+  },
+  {
+   "sid": "measurement-and-metrology",
+   "course": "BTech",
+   "primary_code": "RME401",
+   "family": "RME",
+   "row_session": "2009-10",
+   "row_session_year": 2009,
+   "family_window": "2017-2019",
+   "family_window_n": 31,
+   "direction": "era_backward",
+   "first_introduced_session": "2009-10",
+   "subject_name": "Measurement and Metrology",
+   "all_codes": "BME701;RME401;EME403",
+   "code_history_all": "EME403 (2009-10, sem-4) -> BME701 (2025-26) - codes printed with detailed syllabus in btech_au_y4_syllabus_2025-26.pdf -> RME401 (2017-18) - codes printed with detailed syllabus in btech_me_y2_scheme-syllabus_2017-18.pdf; EME403 re-assigned by AKTU to Applied Thermodynamics per the 2017-18 scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model) -> EME403 (2009-10) - codes printed with detailed syllabus in btech_plastic_syllabus_2009-10.pdf",
+   "semester_slots": "4",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "4584e7dda5e56523",
+     [],
+     "btech_au_syllabus_2009-10.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "4584e7dda5e56523",
+     [],
+     "btech_au_syllabus_2009-10.pdf"
+    ],
+    [
+     "6278e31233d5562d",
+     [],
+     " btech_au_y4_syllabus_2025-26.pdf"
+    ],
+    [
+     "72ffdc4ec8f31053",
+     [],
+     " btech_me-ind_y4_syllabus_2025-26.pdf"
+    ],
+    [
+     "c46b141f3ee05115",
+     [],
+     " btech_me-pe_syllabus_2009-10.pdf"
+    ],
+    [
+     "15ccfbe9a0ef83e4",
+     [],
+     " btech_me_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "99d084e82fa37354",
+     [],
+     " btech_me_y4_syllabus_2025-26.pdf"
+    ],
+    [
+     "2e50304ddbcc9f22",
+     [],
+     " btech_mfg-tech_y4_syllabus_2025-26.pdf"
+    ],
+    [
+     "9f28c9e3cc3715fa",
+     [],
+     " btech_pe-ipe_y4_syllabus_2025-26.pdf"
+    ],
+    [
+     "aa8219d685bc8cdb",
+     [],
+     " btech_plastic_syllabus_2009-10.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "4584e7dda5e56523",
+     "doc": "btech_au_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "6278e31233d5562d",
+     "doc": " btech_au_y4_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "72ffdc4ec8f31053",
+     "doc": " btech_me-ind_y4_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "c46b141f3ee05115",
+     "doc": " btech_me-pe_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "15ccfbe9a0ef83e4",
+     "doc": " btech_me_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "4. RME401 || Measurement and Metrology || 3-0-0 || 70"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "99d084e82fa37354",
+     "doc": " btech_me_y4_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "2e50304ddbcc9f22",
+     "doc": " btech_mfg-tech_y4_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9f28c9e3cc3715fa",
+     "doc": " btech_pe-ipe_y4_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "aa8219d685bc8cdb",
+     "doc": " btech_plastic_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "bio-medical-signal-processing",
+   "course": "BTech",
+   "primary_code": "EBM-603",
+   "family": "EBM",
+   "row_session": "2025-26",
+   "row_session_year": 2025,
+   "family_window": "2010-2011",
+   "family_window_n": 32,
+   "direction": "era_forward",
+   "first_introduced_session": "2010-11",
+   "subject_name": "BIO-MEDICAL SIGNAL PROCESSING",
+   "all_codes": "EBM-603;RBM602;RBM-602;BEC-056;RIC080;EIC-032;BIC-062;NIC041;KOE082;BOE083",
+   "code_history_all": "EBM-603 (2010-11, sem-6) -> RBM602 + RBM-602 (2017-18) - codes printed with detailed syllabus in btech_bme_y3_syllabus_2017-18.pdf -> BEC-056 (2024-25) - codes printed with detailed syllabus in btech_ece_y3_syllabus_2024-25.pdf -> RIC080 (2019-20) - codes printed with detailed syllabus in btech_ei_y4_syllabus-cbcs_2019-20.pdf -> EIC-032 (2011-12) - codes printed with detailed syllabus in btech_ic_y4_syllabus_2011-12.pdf -> BIC-062 (2024-25) - codes printed with detailed syllabus in btech_y3_syllabus_2024-25.pdf -> NIC041 () - codes printed with detailed syllabus in  -> KOE082 (2021-22) - codes printed with detailed syllabus in btech_y4s8_open-elective-3-4-list_2021-22.pdf -> BOE083 (2025-26) - codes printed with detailed syllabus in btech_y4s8_open-elective-3-4-list_2025-26.pdf",
+   "semester_slots": "6",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "5cc5a89a9c439987",
+     [],
+     "btech_bme_syllabus_2009-10.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "5cc5a89a9c439987",
+     [],
+     "btech_bme_syllabus_2009-10.pdf"
+    ],
+    [
+     "d71e761d73879ea5",
+     [],
+     " btech_bme_syllabus_2011-12.pdf"
+    ],
+    [
+     "9b9305a2b763d1e5",
+     [],
+     " btech_bme_y3_syllabus_2017-18.pdf"
+    ],
+    [
+     "3559fa634ed9fdab",
+     [],
+     " btech_ece_y3_syllabus_2024-25.pdf"
+    ],
+    [
+     "6048802d2ff4cbdb",
+     [],
+     " btech_ei_y4_syllabus-cbcs_2019-20.pdf"
+    ],
+    [
+     "37696a8dd3df79ac",
+     [],
+     " btech_ic_y4_syllabus_2011-12.pdf"
+    ],
+    [
+     "a0443eca3e118887",
+     [],
+     " btech_y3_syllabus_2024-25.pdf"
+    ],
+    [
+     "4337a701ed611aa4",
+     [],
+     " btech_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "7638826dcfb8d329",
+     [],
+     " btech_y4s8_open-elective-3-4-list_2021-22.pdf"
+    ],
+    [
+     "ef8c5f5c23a8dc17",
+     [],
+     " btech_y4s8_open-elective-3-4-list_2025-26.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "5cc5a89a9c439987",
+     "doc": "btech_bme_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": 5,
+     "verdict": "found",
+     "print": "EBM-603 Bio- Medical Signal || Processing || 3 || 1"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "d71e761d73879ea5",
+     "doc": " btech_bme_syllabus_2011-12.pdf",
+     "doc_session": 2011,
+     "cited_pages": [],
+     "found_page": 5,
+     "verdict": "found",
+     "print": "EBM-603 || Biomedical Signal || 3 || 1"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9b9305a2b763d1e5",
+     "doc": " btech_bme_y3_syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3559fa634ed9fdab",
+     "doc": " btech_ece_y3_syllabus_2024-25.pdf",
+     "doc_session": 2024,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "6048802d2ff4cbdb",
+     "doc": " btech_ei_y4_syllabus-cbcs_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "37696a8dd3df79ac",
+     "doc": " btech_ic_y4_syllabus_2011-12.pdf",
+     "doc_session": 2011,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "a0443eca3e118887",
+     "doc": " btech_y3_syllabus_2024-25.pdf",
+     "doc_session": 2024,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "4337a701ed611aa4",
+     "doc": " btech_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "7638826dcfb8d329",
+     "doc": " btech_y4s8_open-elective-3-4-list_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "ef8c5f5c23a8dc17",
+     "doc": " btech_y4s8_open-elective-3-4-list_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "project-engineering-and-management",
+   "course": "BTech",
+   "primary_code": "RCH076",
+   "family": "RCH",
+   "row_session": "2009-10",
+   "row_session_year": 2009,
+   "family_window": "2017-2019",
+   "family_window_n": 26,
+   "direction": "era_backward",
+   "first_introduced_session": "2009-10",
+   "subject_name": "PROJECT ENGINEERING AND MANAGEMENT",
+   "all_codes": "RCH076",
+   "code_history_all": "ECH043 (2009-10, sem-7) -> RCH076 (2019-20) - codes printed with detailed syllabus in btech_che_y4_syllabus_2019-20.pdf; ECH043 re-assigned by AKTU to INDUSTRIAL SAFETY AND HAZARD MANAGEMENT per the 2009-10 scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model)",
+   "semester_slots": "7",
+   "program_year": "2-4",
+   "cites_scheme": [
+    [
+     "c0a99d3733f78578",
+     [],
+     "btech_che_y2-4_syllabus_2009-10.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "c0a99d3733f78578",
+     [],
+     "btech_che_y2-4_syllabus_2009-10.pdf"
+    ],
+    [
+     "8502954d3fcefcb6",
+     [],
+     " btech_che_y4_syllabus_2019-20.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "c0a99d3733f78578",
+     "doc": "btech_che_y2-4_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "8502954d3fcefcb6",
+     "doc": " btech_che_y4_syllabus_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "RCH076: Project Engg & Management || RCH077: Fuel Cell Technology || RCH078: Advance Numerical Analysis"
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "real-time-system",
+   "course": "BTech",
+   "primary_code": "NCS-082",
+   "family": "NCS",
+   "row_session": "2020-21",
+   "row_session_year": 2020,
+   "family_window": "2014-2016",
+   "family_window_n": 30,
+   "direction": "era_forward",
+   "first_introduced_session": "2016-17",
+   "subject_name": "Real Time System",
+   "all_codes": "NCS-082;KCS-063;NEC-013R;NEC013R;REC053;ECS-081;KOE-061",
+   "code_history_all": "NCS-082 (2016-17, sem-8) -> KCS-063 (2020-21) - codes printed with detailed syllabus in btech_cse_y3_syllabus_2020-21.pdf -> NEC-013R + NEC013R (2016-17) - codes printed with detailed syllabus in btech_ece_syllabus_2016-17.pdf -> REC053 (2018-19) - codes printed with detailed syllabus in btech_ece_y3_syllabus_2018-19.pdf -> ECS-081 (2010-11) - codes printed with detailed syllabus in btech_y3-4_syllabus_2010-11.pdf -> KOE-061 () - codes printed with detailed syllabus in ",
+   "semester_slots": "8",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "206f3f97648e72e0",
+     [],
+     "btech_cse_syllabus_2016-17.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "206f3f97648e72e0",
+     [],
+     "btech_cse_syllabus_2016-17.pdf"
+    ],
+    [
+     "83d30b67c88b7036",
+     [],
+     " btech_cse_y3_syllabus_2020-21.pdf"
+    ],
+    [
+     "1a96cda0c39e4902",
+     [],
+     " btech_ece_syllabus_2016-17.pdf"
+    ],
+    [
+     "539a5b5954ed22b7",
+     [],
+     " btech_ece_syllabus_2016-17_2.pdf"
+    ],
+    [
+     "c631ec6e28ce78f9",
+     [],
+     " btech_ece_y3_syllabus_2018-19.pdf"
+    ],
+    [
+     "3f83735be23e91f4",
+     [],
+     " btech_it_syllabus_2016-17.pdf"
+    ],
+    [
+     "b2009ce82c644c34",
+     [],
+     " btech_y3-4_syllabus_2010-11.pdf"
+    ],
+    [
+     "ff5f0fe097f3f4bd",
+     [],
+     " btech_y3s6_open-elective-1-aicte_2020-21.pdf"
+    ],
+    [
+     "a7b5fe659acf462d",
+     [],
+     " btech_y3s6_open-elective-1_2020-21.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "206f3f97648e72e0",
+     "doc": "btech_cse_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "3. NCS-082 Real Time System || 4. NCS-083 Cluster Computing || 5. NCS-084 Grid Computing || Departmental Elective VI"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "83d30b67c88b7036",
+     "doc": " btech_cse_y3_syllabus_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "1a96cda0c39e4902",
+     "doc": " btech_ece_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "539a5b5954ed22b7",
+     "doc": " btech_ece_syllabus_2016-17_2.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "c631ec6e28ce78f9",
+     "doc": " btech_ece_y3_syllabus_2018-19.pdf",
+     "doc_session": 2018,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3f83735be23e91f4",
+     "doc": " btech_it_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "2. NCS-082 Real Time System || 3. NCS-084 Grid Computing || 4. NCS-801  Digital Image Processing || 5. NIT-080  Natural Language Processing"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "b2009ce82c644c34",
+     "doc": " btech_y3-4_syllabus_2010-11.pdf",
+     "doc_session": 2010,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "ff5f0fe097f3f4bd",
+     "doc": " btech_y3s6_open-elective-1-aicte_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "a7b5fe659acf462d",
+     "doc": " btech_y3s6_open-elective-1_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "embedded-systems",
+   "course": "BTech",
+   "primary_code": "NCS-087",
+   "family": "NCS",
+   "row_session": "2024-25",
+   "row_session_year": 2024,
+   "family_window": "2014-2016",
+   "family_window_n": 30,
+   "direction": "era_forward",
+   "first_introduced_session": "2016-17",
+   "subject_name": "Embedded Systems",
+   "all_codes": "NCS-087;RCS070;KEN 062;BEN062;EEC-047;ECS-083;KOE-062;BOE062;NEE-043",
+   "code_history_all": "NCS-087 (2016-17, sem-8) -> RCS070 (2019-20) - codes printed with detailed syllabus in btech_cse_y4_syllabus-cbcs_2019-20.pdf -> KEN 062 (2020-21) - codes printed with detailed syllabus in btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21.pdf -> BEN062 (2024-25) - codes printed with detailed syllabus in btech_eee-ece_y3_syllabus_2024-25.pdf -> EEC-047 (2009-10) - codes printed with detailed syllabus in btech_en_syllabus_2009-10.pdf -> ECS-083 (2010-11) - codes printed with detailed syllabus in btech_y3-4_syllabus_2010-11.pdf -> KOE-062 () - codes printed with detailed syllabus in  -> BOE062 () - codes printed with detailed syllabus in  -> NEE-043 () - codes printed with detailed syllabus in btech_ee_y4_syllabus.pdf; NEC802 printed on this  scheme for this subject \u2014 code stays owned by optical-networks per the newer establishing print (newest-print-wins era model; recorded B19 adjudication: older draft never steals a code from a newer-session published owner); NEC802 printed on this  scheme for this subject \u2014 code stays owned by optical-networks per the newer establishing print (newest-print-wins era model; recorded B19 adjudication: older draft never steals a code from a newer-session published owner)",
+   "semester_slots": "8",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "206f3f97648e72e0",
+     [],
+     "btech_cse_syllabus_2016-17.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "206f3f97648e72e0",
+     [],
+     "btech_cse_syllabus_2016-17.pdf"
+    ],
+    [
+     "e27c3cd6e59d042d",
+     [],
+     " btech_cse_y4_syllabus-cbcs_2019-20.pdf"
+    ],
+    [
+     "e7c6f352c36de776",
+     [],
+     " btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21.pdf"
+    ],
+    [
+     "036329f4428dd944",
+     [],
+     " btech_eee-ece_y3_syllabus_2024-25.pdf"
+    ],
+    [
+     "3b9e1f6b2ca6efca",
+     [],
+     " btech_en_syllabus_2009-10.pdf"
+    ],
+    [
+     "3f83735be23e91f4",
+     [],
+     " btech_it_syllabus_2016-17.pdf"
+    ],
+    [
+     "b2009ce82c644c34",
+     [],
+     " btech_y3-4_syllabus_2010-11.pdf"
+    ],
+    [
+     "ff5f0fe097f3f4bd",
+     [],
+     " btech_y3s6_open-elective-1-aicte_2020-21.pdf"
+    ],
+    [
+     "a7b5fe659acf462d",
+     [],
+     " btech_y3s6_open-elective-1_2020-21.pdf"
+    ],
+    [
+     "f987c26d1e14903f",
+     [],
+     " btech_y3s6_open-elective-1_2024-25.pdf"
+    ],
+    [
+     "10e3bacc85ce9d53",
+     [],
+     " btech_ee_y4_syllabus.pdf"
+    ],
+    [
+     "6c79d3014995e423",
+     [],
+     " btech_en_y4_syllabus.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "206f3f97648e72e0",
+     "doc": "btech_cse_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "3. NCS-087 Embedded Systems || 4. NCS-088 Semantic Web and Web || Services"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "e27c3cd6e59d042d",
+     "doc": " btech_cse_y4_syllabus-cbcs_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "e7c6f352c36de776",
+     "doc": " btech_eee-ece_y3_model-curriculum-rev-aicte_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "036329f4428dd944",
+     "doc": " btech_eee-ece_y3_syllabus_2024-25.pdf",
+     "doc_session": 2024,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3b9e1f6b2ca6efca",
+     "doc": " btech_en_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3f83735be23e91f4",
+     "doc": " btech_it_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "2. NCS-087 Embedded Systems || 3. NCS-088 Semantic Web and Web || Services || 4. NIT-081 Software Quality Engineering"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "b2009ce82c644c34",
+     "doc": " btech_y3-4_syllabus_2010-11.pdf",
+     "doc_session": 2010,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "ff5f0fe097f3f4bd",
+     "doc": " btech_y3s6_open-elective-1-aicte_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "a7b5fe659acf462d",
+     "doc": " btech_y3s6_open-elective-1_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "f987c26d1e14903f",
+     "doc": " btech_y3s6_open-elective-1_2024-25.pdf",
+     "doc_session": 2024,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "10e3bacc85ce9d53",
+     "doc": " btech_ee_y4_syllabus.pdf",
+     "doc_session": null,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "6c79d3014995e423",
+     "doc": " btech_en_y4_syllabus.pdf",
+     "doc_session": null,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "micro-and-smart-systems",
+   "course": "BTech",
+   "primary_code": "KEC-077",
+   "family": "KEC",
+   "row_session": "2025-26",
+   "row_session_year": 2025,
+   "family_window": "2019-2021",
+   "family_window_n": 26,
+   "direction": "era_forward",
+   "first_introduced_session": "2021-22",
+   "subject_name": "Micro and Smart Systems",
+   "all_codes": "KEC-077;KEC077;REC088;EIC-034;EOE-075;ROE084;NIC043;BIC073",
+   "code_history_all": "KEC-077 (2021-22, sem-7) / KEC077 (2021-22, sem-7) -> REC088 (2019-20) - codes printed with detailed syllabus in btech_ece_y4_syllabus-rev_2019-20.pdf -> EIC-034 + EOE-075 (2011-12) - codes printed with detailed syllabus in btech_ece_y4_syllabus_2011-12.pdf -> NOE-075 (2016-17) - codes printed with detailed syllabus in btech_ece_y4_syllabus_2016-17.pdf; NOE075 re-assigned by AKTU to Mobile Application Development per the 2016-17 scheme/syllabus print \u2014 narrative mention retained (code-reassigned across sessions; owner directive 2026-10-28 \u00a71b era model) -> ROE084 (2019-20) - codes printed with detailed syllabus in btech_open-electives_2019-20.pdf -> NIC043 () - codes printed with detailed syllabus in  -> BIC073 () - codes printed with detailed syllabus in ",
+   "semester_slots": "7",
+   "program_year": "4",
+   "cites_scheme": [
+    [
+     "0579856dc67bbeff",
+     [],
+     "btech_ece_y4_syllabus-rcode_2021-22.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "0579856dc67bbeff",
+     [],
+     "btech_ece_y4_syllabus-rcode_2021-22.pdf"
+    ],
+    [
+     "b875786af75ea86d",
+     [],
+     " btech_ece_y4_syllabus-rev_2019-20.pdf"
+    ],
+    [
+     "cd8250b44c898bd0",
+     [],
+     " btech_ece_y4_syllabus_2011-12.pdf"
+    ],
+    [
+     "3298dc1f8195fb2f",
+     [],
+     " btech_ece_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "2eeb39a0520c9d28",
+     [
+      1
+     ],
+     " btech_ei_syllabus_2021-22.pdf"
+    ],
+    [
+     "6048802d2ff4cbdb",
+     [],
+     " btech_ei_y4_syllabus-cbcs_2019-20.pdf"
+    ],
+    [
+     "37696a8dd3df79ac",
+     [],
+     " btech_ic_y4_syllabus_2011-12.pdf"
+    ],
+    [
+     "3ad2353279d419ea",
+     [],
+     " btech_open-electives_2019-20.pdf"
+    ],
+    [
+     "cff8a21a7f52052f",
+     [],
+     " btech_y4_open-electives_2020-21.pdf"
+    ],
+    [
+     "4337a701ed611aa4",
+     [],
+     " btech_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "5f58df14a6a5bcf9",
+     [],
+     " btech_y4_syllabus_2025-26.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "0579856dc67bbeff",
+     "doc": "btech_ece_y4_syllabus-rcode_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KEC-077 || KEC-078 || Course Title || Department Elective-IV"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "b875786af75ea86d",
+     "doc": " btech_ece_y4_syllabus-rev_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "cd8250b44c898bd0",
+     "doc": " btech_ece_y4_syllabus_2011-12.pdf",
+     "doc_session": 2011,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3298dc1f8195fb2f",
+     "doc": " btech_ece_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "2eeb39a0520c9d28",
+     "doc": " btech_ei_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [
+      1
+     ],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "6048802d2ff4cbdb",
+     "doc": " btech_ei_y4_syllabus-cbcs_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "37696a8dd3df79ac",
+     "doc": " btech_ic_y4_syllabus_2011-12.pdf",
+     "doc_session": 2011,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3ad2353279d419ea",
+     "doc": " btech_open-electives_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "cff8a21a7f52052f",
+     "doc": " btech_y4_open-electives_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "4337a701ed611aa4",
+     "doc": " btech_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "5f58df14a6a5bcf9",
+     "doc": " btech_y4_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "digital-system-design-using-vhdl",
+   "course": "BTech",
+   "primary_code": "EEC 032",
+   "family": "EEC",
+   "row_session": "2016-17",
+   "row_session_year": 2016,
+   "family_window": "2009-2011",
+   "family_window_n": 31,
+   "direction": "era_forward",
+   "first_introduced_session": "2011-12",
+   "subject_name": "DIGITAL SYSTEM DESIGN USING VHDL",
+   "all_codes": "EEC 032;NEC 042;EEC-048;NEC042/NIC-044",
+   "code_history_all": "EEC 032 (2011-12, sem-8) -> NEC 042 (2016-17) - codes printed with detailed syllabus in btech_ece_y4_syllabus_2016-17.pdf -> EEC-048 (2009-10) - codes printed with detailed syllabus in btech_en_syllabus_2009-10.pdf -> NEC042/NIC-044 () - codes printed with detailed syllabus in ",
+   "semester_slots": "8",
+   "program_year": "4",
+   "cites_scheme": [
+    [
+     "cd8250b44c898bd0",
+     [],
+     "btech_ece_y4_syllabus_2011-12.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "cd8250b44c898bd0",
+     [],
+     "btech_ece_y4_syllabus_2011-12.pdf"
+    ],
+    [
+     "3298dc1f8195fb2f",
+     [],
+     " btech_ece_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "3b9e1f6b2ca6efca",
+     [],
+     " btech_en_syllabus_2009-10.pdf"
+    ],
+    [
+     "37696a8dd3df79ac",
+     [],
+     " btech_ic_y4_syllabus_2011-12.pdf"
+    ],
+    [
+     "4337a701ed611aa4",
+     [],
+     " btech_y4_syllabus_2016-17.pdf"
+    ],
+    [
+     "3df4372918162433",
+     [],
+     " btech_y4_syllabus_2016-17_2.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "cd8250b44c898bd0",
+     "doc": "btech_ece_y4_syllabus_2011-12.pdf",
+     "doc_session": 2011,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "EEC 032 || Digital System Design using VHDL || 3. || EEC 033"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3298dc1f8195fb2f",
+     "doc": " btech_ece_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3b9e1f6b2ca6efca",
+     "doc": " btech_en_syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "37696a8dd3df79ac",
+     "doc": " btech_ic_y4_syllabus_2011-12.pdf",
+     "doc_session": 2011,
+     "cited_pages": [],
+     "found_page": 3,
+     "verdict": "found",
+     "print": "5. EEC-032 || Digital System Design using VHDL"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "4337a701ed611aa4",
+     "doc": " btech_y4_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "3df4372918162433",
+     "doc": " btech_y4_syllabus_2016-17_2.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "plastic-recycling-waste-management",
+   "course": "BTech",
+   "primary_code": "KPE 751",
+   "family": "KPE",
+   "row_session": "2021-22",
+   "row_session_year": 2021,
+   "family_window": "2019-2020",
+   "family_window_n": 24,
+   "direction": "era_forward",
+   "first_introduced_session": "2021-22",
+   "subject_name": "Plastic Recycling & Waste Management",
+   "all_codes": "KPE 751",
+   "code_history_all": "KPE 751 (2021-22, sem-7)",
+   "semester_slots": "7",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "b973ca1fcea7820e",
+     [],
+     "btech_plastic_y4_syllabus_2021-22.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "b973ca1fcea7820e",
+     [],
+     "btech_plastic_y4_syllabus_2021-22.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "b973ca1fcea7820e",
+     "doc": "btech_plastic_y4_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KPE 751 || Plastic Recycling & Waste || Management || 0"
+    }
+   ],
+   "verdict": "attested_cross_era_carryover"
+  },
+  {
+   "sid": "business-ethics-corporate-governance",
+   "course": "MBA",
+   "primary_code": "KMBI601",
+   "family": "KMBI",
+   "row_session": "2026-27",
+   "row_session_year": 2026,
+   "family_window": "2019-2025",
+   "family_window_n": 36,
+   "direction": "era_forward",
+   "first_introduced_session": "2020-21",
+   "subject_name": "BUSINESS ETHICS & CORPORATE GOVERNANCE",
+   "all_codes": "KMBI601;RMBI601;BMBAI603",
+   "code_history_all": "KMBI601 (2020-21) -> RMBI601 (2019-20) - codes printed with detailed syllabus in mba-integrated_y3_syllabus_2019-20.pdf -> BMBAI603 (2026-27) - codes printed with detailed syllabus in mba-integrated_y3_syllabus_2026-27.pdf",
+   "semester_slots": "",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "5f66b41dedb475d9",
+     [],
+     "mba-integrated_y3_model-curriculum_2020-21.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "5f66b41dedb475d9",
+     [],
+     "mba-integrated_y3_model-curriculum_2020-21.pdf"
+    ],
+    [
+     "f3b81ebda2e73e90",
+     [],
+     " mba-integrated_y3_syllabus_2019-20.pdf"
+    ],
+    [
+     "a13c4bcd248efb3b",
+     [],
+     " mba-integrated_y3_syllabus_2026-27.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "5f66b41dedb475d9",
+     "doc": "mba-integrated_y3_model-curriculum_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "KMBI601 || Business Ethics & || Corporate || Governance"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "f3b81ebda2e73e90",
+     "doc": " mba-integrated_y3_syllabus_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "a13c4bcd248efb3b",
+     "doc": " mba-integrated_y3_syllabus_2026-27.pdf",
+     "doc_session": 2026,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "computer-networks-mca",
+   "course": "MCA",
+   "primary_code": "MCA301",
+   "family": "MCA",
+   "row_session": "2026-27",
+   "row_session_year": 2026,
+   "family_window": "2004-2025",
+   "family_window_n": 71,
+   "direction": "era_forward",
+   "first_introduced_session": "2004-05",
+   "subject_name": "COMPUTER NETWORKS",
+   "all_codes": "MCA301;BMI503;RCAI-804;MCA-414;RCA402;RCA-402;KCA303;BMC303;NMCA-511;NMCAE25*",
+   "code_history_all": "MCA301 (2004-05) -> BMI503 (2026-27) - codes printed with detailed syllabus in mca-integrated_y3_syllabus_2026-27.pdf -> RCAI-804 (2020-21) - codes printed with detailed syllabus in mca-integrated_y4_syllabus_2020-21.pdf -> MCA-414 (2009-10) - codes printed with detailed syllabus in mca_y1_scheme-syllabus_2009-10.pdf -> RCA402 + RCA-402 (2017-18) - codes printed with detailed syllabus in mca_y2_scheme-syllabus_2017-18.pdf -> KCA303 (2021-22) - codes printed with detailed syllabus in mca_y2_syllabus_2021-22.pdf -> BMC303 (2025-26) - codes printed with detailed syllabus in mca_y2_syllabus_2025-26.pdf -> NMCA-511 (2015-16) - codes printed with detailed syllabus in mca_y3_syllabus_2015-16.pdf -> NMCAE25* (2015-16) - codes printed with detailed syllabus in mca_y3_syllabus_2015-16.pdf",
+   "semester_slots": "",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "ab5c068f2ca37915",
+     [],
+     "mba_electives_2004-05_2.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "ab5c068f2ca37915",
+     [],
+     "mba_electives_2004-05_2.pdf"
+    ],
+    [
+     "047c7c8deed42470",
+     [],
+     " mca-integrated_y3_syllabus_2026-27.pdf"
+    ],
+    [
+     "b3c5743eb5e159b5",
+     [],
+     " mca-integrated_y4_syllabus_2020-21.pdf"
+    ],
+    [
+     "d17aecccf44a27b6",
+     [],
+     " mca_y1_scheme-syllabus_2009-10.pdf"
+    ],
+    [
+     "1849f3a91f41d7b2",
+     [],
+     " mca_y2_scheme-syllabus_2017-18.pdf"
+    ],
+    [
+     "9b0edf6dd621c4d1",
+     [],
+     " mca_y2_syllabus_2021-22.pdf"
+    ],
+    [
+     "833a8b7ef60f0826",
+     [],
+     " mca_y2_syllabus_2025-26.pdf"
+    ],
+    [
+     "1a425db0ddc35c7c",
+     [],
+     " mca_y3_syllabus_2015-16.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "ab5c068f2ca37915",
+     "doc": "mba_electives_2004-05_2.pdf",
+     "doc_session": 2004,
+     "cited_pages": [],
+     "found_page": 10,
+     "verdict": "found",
+     "print": "MCA 301 || Unit-I || Introductory Concepts:  Goals and Applications of Networks, Network structure and architecture, the || OSI reference model, services, networks topology, Physical Layer- transmission, switching methods,"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "047c7c8deed42470",
+     "doc": " mca-integrated_y3_syllabus_2026-27.pdf",
+     "doc_session": 2026,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "b3c5743eb5e159b5",
+     "doc": " mca-integrated_y4_syllabus_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "d17aecccf44a27b6",
+     "doc": " mca_y1_scheme-syllabus_2009-10.pdf",
+     "doc_session": 2009,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "1849f3a91f41d7b2",
+     "doc": " mca_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9b0edf6dd621c4d1",
+     "doc": " mca_y2_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "833a8b7ef60f0826",
+     "doc": " mca_y2_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "1a425db0ddc35c7c",
+     "doc": " mca_y3_syllabus_2015-16.pdf",
+     "doc_session": 2015,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "cryptography-and-network-security",
+   "course": "MCA",
+   "primary_code": "MCA404/(2)",
+   "family": "MCA",
+   "row_session": "2026-27",
+   "row_session_year": 2026,
+   "family_window": "2004-2025",
+   "family_window_n": 71,
+   "direction": "era_forward",
+   "first_introduced_session": "2004-05",
+   "subject_name": "CRYPTOGRAPHY AND NETWORK SECURITY",
+   "all_codes": "MCA404/(2);BMI011;KCA011;BMC011;NMCAE21;RCA-E21;RCAI021",
+   "code_history_all": "MCA404/(2) (2004-05) -> BMI011 (2026-27) - codes printed with detailed syllabus in mca-integrated_y3_syllabus_2026-27.pdf -> KCA011 (2021-22) - codes printed with detailed syllabus in mca_y2_syllabus_2021-22.pdf -> BMC011 (2025-26) - codes printed with detailed syllabus in mca_y2_syllabus_2025-26.pdf -> NMCAE21 (2015-16) - codes printed with detailed syllabus in mca_y3_syllabus_2015-16.pdf -> RCA-E21 (2018-19) - codes printed with detailed syllabus in mca_y3_syllabus_2018-19.pdf -> RCAI021 (2021-22) - codes printed with detailed syllabus in mca_y5_syllabus_2021-22.pdf",
+   "semester_slots": "",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "ab5c068f2ca37915",
+     [],
+     "mba_electives_2004-05_2.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "ab5c068f2ca37915",
+     [],
+     "mba_electives_2004-05_2.pdf"
+    ],
+    [
+     "047c7c8deed42470",
+     [],
+     " mca-integrated_y3_syllabus_2026-27.pdf"
+    ],
+    [
+     "9b0edf6dd621c4d1",
+     [],
+     " mca_y2_syllabus_2021-22.pdf"
+    ],
+    [
+     "833a8b7ef60f0826",
+     [],
+     " mca_y2_syllabus_2025-26.pdf"
+    ],
+    [
+     "1a425db0ddc35c7c",
+     [],
+     " mca_y3_syllabus_2015-16.pdf"
+    ],
+    [
+     "dac91e02f115de3f",
+     [],
+     " mca_y3_syllabus_2018-19.pdf"
+    ],
+    [
+     "c0687594a4e7aea3",
+     [],
+     " mca_y5_syllabus_2021-22.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "ab5c068f2ca37915",
+     "doc": "mba_electives_2004-05_2.pdf",
+     "doc_session": 2004,
+     "cited_pages": [],
+     "found_page": 16,
+     "verdict": "found",
+     "print": "MCA 404/(2) || L T  P || 3  1  0 || L T  P"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "047c7c8deed42470",
+     "doc": " mca-integrated_y3_syllabus_2026-27.pdf",
+     "doc_session": 2026,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9b0edf6dd621c4d1",
+     "doc": " mca_y2_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "833a8b7ef60f0826",
+     "doc": " mca_y2_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "1a425db0ddc35c7c",
+     "doc": " mca_y3_syllabus_2015-16.pdf",
+     "doc_session": 2015,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "dac91e02f115de3f",
+     "doc": " mca_y3_syllabus_2018-19.pdf",
+     "doc_session": 2018,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "c0687594a4e7aea3",
+     "doc": " mca_y5_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "cloud-computing-mca",
+   "course": "MCA",
+   "primary_code": "NBC-9051",
+   "family": "NBC",
+   "row_session": "2026-27",
+   "row_session_year": 2026,
+   "family_window": "2016-2025",
+   "family_window_n": 23,
+   "direction": "era_forward",
+   "first_introduced_session": "2016-17",
+   "subject_name": "CLOUD COMPUTING",
+   "all_codes": "NBC-9051;BMI014;KCA014;BMC014;NMCAE24;RCAE-31;RCA-E31;RCAI031",
+   "code_history_all": "NBC-9051 (2016-17, sem-9) -> BMI014 (2026-27) - codes printed with detailed syllabus in mca-integrated_y3_syllabus_2026-27.pdf -> KCA014 (2021-22) - codes printed with detailed syllabus in mca_y2_syllabus_2021-22.pdf -> BMC014 (2025-26) - codes printed with detailed syllabus in mca_y2_syllabus_2025-26.pdf -> NMCAE24 (2015-16) - codes printed with detailed syllabus in mca_y3_syllabus_2015-16.pdf -> RCAE-31 + RCA-E31 (2018-19) - codes printed with detailed syllabus in mca_y3_syllabus_2018-19.pdf -> RCAI031 (2021-22) - codes printed with detailed syllabus in mca_y5_syllabus_2021-22.pdf",
+   "semester_slots": "9",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "4c4757568f431526",
+     [],
+     "mca-dd_y4-5_syllabus_2016-17.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "4c4757568f431526",
+     [],
+     "mca-dd_y4-5_syllabus_2016-17.pdf"
+    ],
+    [
+     "047c7c8deed42470",
+     [],
+     " mca-integrated_y3_syllabus_2026-27.pdf"
+    ],
+    [
+     "9b0edf6dd621c4d1",
+     [],
+     " mca_y2_syllabus_2021-22.pdf"
+    ],
+    [
+     "833a8b7ef60f0826",
+     [],
+     " mca_y2_syllabus_2025-26.pdf"
+    ],
+    [
+     "1a425db0ddc35c7c",
+     [],
+     " mca_y3_syllabus_2015-16.pdf"
+    ],
+    [
+     "dac91e02f115de3f",
+     [],
+     " mca_y3_syllabus_2018-19.pdf"
+    ],
+    [
+     "c0687594a4e7aea3",
+     [],
+     " mca_y5_syllabus_2021-22.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "4c4757568f431526",
+     "doc": "mca-dd_y4-5_syllabus_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": 15,
+     "verdict": "found",
+     "print": "NBC-9051 : CLOUD COMPUTING || Unit-I || Introduction to Cloud Computing || Cloud computing, Properties & Characteristics, Service models, Deployment models, Virtualization concepts"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "047c7c8deed42470",
+     "doc": " mca-integrated_y3_syllabus_2026-27.pdf",
+     "doc_session": 2026,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "9b0edf6dd621c4d1",
+     "doc": " mca_y2_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "833a8b7ef60f0826",
+     "doc": " mca_y2_syllabus_2025-26.pdf",
+     "doc_session": 2025,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "1a425db0ddc35c7c",
+     "doc": " mca_y3_syllabus_2015-16.pdf",
+     "doc_session": 2015,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "dac91e02f115de3f",
+     "doc": " mca_y3_syllabus_2018-19.pdf",
+     "doc_session": 2018,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "c0687594a4e7aea3",
+     "doc": " mca_y5_syllabus_2021-22.pdf",
+     "doc_session": 2021,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  },
+  {
+   "sid": "cyber-security-mca",
+   "course": "MCA",
+   "primary_code": "RCAI-505",
+   "family": "RCAI",
+   "row_session": "2026-27",
+   "row_session_year": 2026,
+   "family_window": "2017-2025",
+   "family_window_n": 33,
+   "direction": "era_forward",
+   "first_introduced_session": "2019-20",
+   "subject_name": "Cyber Security",
+   "all_codes": "RCAI-505;BMI601;KCAA01;BMC106;RCA-305",
+   "code_history_all": "RCAI-505 (2019-20, sem-5) -> BMI601 (2026-27) - codes printed with detailed syllabus in mca-integrated_y3_syllabus_2026-27.pdf -> KCAA01 (2020-21) - codes printed with detailed syllabus in mca_y1_syllabus_2020-21.pdf -> BMC106 (2024-25) - codes printed with detailed syllabus in mca_y1_syllabus_2024-25.pdf -> RCA-305 (2017-18) - codes printed with detailed syllabus in mca_y2_scheme-syllabus_2017-18.pdf",
+   "semester_slots": "5",
+   "program_year": "2",
+   "cites_scheme": [
+    [
+     "25cf90c3dc6e39c5",
+     [],
+     "mca-integrated_y3_syllabus-cbcs_2019-20.pdf"
+    ]
+   ],
+   "cites_syllabus": [
+    [
+     "25cf90c3dc6e39c5",
+     [],
+     "mca-integrated_y3_syllabus-cbcs_2019-20.pdf"
+    ],
+    [
+     "047c7c8deed42470",
+     [],
+     " mca-integrated_y3_syllabus_2026-27.pdf"
+    ],
+    [
+     "413af7f0008252fa",
+     [],
+     " mca_y1_scheme_2016-17.pdf"
+    ],
+    [
+     "cba0170836c31577",
+     [],
+     " mca_y1_syllabus_2020-21.pdf"
+    ],
+    [
+     "d50305830baaa549",
+     [],
+     " mca_y1_syllabus_2024-25.pdf"
+    ],
+    [
+     "1849f3a91f41d7b2",
+     [],
+     " mca_y2_scheme-syllabus_2017-18.pdf"
+    ]
+   ],
+   "page_evidence": [
+    {
+     "src": "cites_scheme",
+     "sha16": "25cf90c3dc6e39c5",
+     "doc": "mca-integrated_y3_syllabus-cbcs_2019-20.pdf",
+     "doc_session": 2019,
+     "cited_pages": [],
+     "found_page": 2,
+     "verdict": "found",
+     "print": "RCAI-505 Cyber Security || 3-1-0 || 70 || 20"
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "047c7c8deed42470",
+     "doc": " mca-integrated_y3_syllabus_2026-27.pdf",
+     "doc_session": 2026,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "413af7f0008252fa",
+     "doc": " mca_y1_scheme_2016-17.pdf",
+     "doc_session": 2016,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "cba0170836c31577",
+     "doc": " mca_y1_syllabus_2020-21.pdf",
+     "doc_session": 2020,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "d50305830baaa549",
+     "doc": " mca_y1_syllabus_2024-25.pdf",
+     "doc_session": 2024,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    },
+    {
+     "src": "cites_syllabus",
+     "sha16": "1849f3a91f41d7b2",
+     "doc": " mca_y2_scheme-syllabus_2017-18.pdf",
+     "doc_session": 2017,
+     "cited_pages": [],
+     "found_page": null,
+     "verdict": "code_not_in_doc",
+     "print": ""
+    }
+   ],
+   "verdict": "effective_session_provenance_review"
+  }
+ ],
+ "data_quality_observations": {
+  "program_year_distribution_by_course": {
+   "BCA": {
+    "2": 46
+   },
+   "BPharm": {
+    "2": 268
+   },
+   "BTech": {
+    "2": 1412,
+    "3": 341,
+    "4": 252,
+    "1": 105,
+    "2,3,4": 43,
+    "2-4": 38,
+    "3;4": 35,
+    "2;3": 1
+   },
+   "MBA": {
+    "2": 338
+   },
+   "MCA": {
+    "2": 201
+   }
+  },
+  "note": "program_year is bulk-defaulted ('2') for every BCA/MCA/MBA/BPharm row and 1,412/2,227 BTech rows \u2014 a drafting artifact, NOT adjudicated here (a naive slots-vs-year check would flag ~1,141 rows; fixing needs per-row print evidence per 6b/\u00a74; owner-visible note only, zero T7 candidates). Session-format sanity: 0 malformed effective_session_latest values."
+ },
+ "note": "ledger-only. rule table corpus-derived: family established with a core session window [min,max] over >=5%-share sessions when n>=10 dated rows; hits direction-tagged era_forward (suspicious) vs era_backward (mostly first-print rows); letter-level grammar kept as secondary context (letter rules false-positive across courses: B = BTech-era AND BPharm BP); stage-2 = own-cited-doc code locate with doc-session parsed from the cited filename; print wins per 6b/B76 \u2014 attested carryovers recorded as composition classes, provenance-review candidates stay UNfixed for a later multi-confirmed batch; ALL cited docs scanned (no early stop) so multi-era accumulator rows are judged on every doc they cite; NO fixes, NO flags this batch."
+}

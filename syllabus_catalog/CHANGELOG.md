@@ -1,3 +1,7 @@
+# CRON-20261112-B85 — CRON-20261112-B85 — 2026-11-12
+
+T7 stage-1+2 ledger-only: corpus-derived family session windows (85 est, n>=10/core>=5%), 24 candidates (era_forward 16 / era_backward 8) -> 6 print-attested cross-era carryovers + 18 effective-session provenance review (code prints in own cited docs, other-session only; UNfixed) + 0 session-year fix candidates; letter-grammar secondary (cross-course false positives); program_year bulk-default observation recorded (0 candidates); flags 442 unchanged, gates n/a (no CSV mutation); T10 next
+
 # CRON-20261112-B84 — CRON-20261112-B84 — 2026-11-11
 
 T8 stage-1+2 ledger-only: corpus-derived branch rule table (99 fams, 27 established, 11 universal), 7 candidates -> 6 print-attested cross-branch service compositions + 1 era multi-scheme service row (ECE-251 CAEG, variant-aware scan, 6b print-wins, no CSV change) + 0 incoherence fix candidates; coverage 1156 branch-bearing / 1924 without branch_names; flags 442 unchanged, gates n/a (no CSV mutation); T7 next
