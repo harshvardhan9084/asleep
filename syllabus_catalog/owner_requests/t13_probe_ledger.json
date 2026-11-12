@@ -1,0 +1,1299 @@
+{
+ "run_id": "CRON-20261112-B90",
+ "test": "T13 buyer-grade 100-row spot audit (report-only quality gate)",
+ "policy": "REPORT-ONLY; no CSV/quality_flags change; deterministic fixed-seed sample (recorded)",
+ "rule": {
+  "sample": "random.Random(20261113).sample(sorted-by-subject_id, 100); list recorded below",
+  "checks": [
+   "identity",
+   "numeric_sane",
+   "semester_sane",
+   "co_complete",
+   "units_complete",
+   "books_parse",
+   "citations",
+   "display",
+   "flag_consistency",
+   "session_coherence(info)"
+  ]
+ },
+ "counts": {
+  "rows_total": 3080,
+  "sampled": 100,
+  "row_verdicts": {
+   "minor": 64,
+   "clean": 34,
+   "issues": 2
+  },
+  "issue_classes": {
+   "identity:effective_session_latest_empty": 2
+  },
+  "note_classes": {
+   "flags_history:1_corrected_marks": 43,
+   "session:cited_docs_older_than_latest max=2009 latest=2016": 1,
+   "identity:pool_slot_row_no_single_code": 7,
+   "flags_history:2_corrected_marks": 13,
+   "citation:known_unresolved_4f09e009": 1,
+   "citation:1_unresolvable_sha_refs": 1,
+   "citation:known_unresolved_e18a3256": 2,
+   "citation:2_unresolvable_sha_refs": 4,
+   "flags_history:3_corrected_marks": 1,
+   "citation:known_unresolved_65731720": 2,
+   "citation:known_unresolved_09291fd4": 2,
+   "citation:known_unresolved_79a6daf1": 2,
+   "session:cited_docs_older_than_latest max=2020 latest=2024": 1
+  },
+  "clean_pct": 34.0
+ },
+ "sample": [
+  {
+   "sid": "data-communication-network",
+   "course": "MBA",
+   "primary_code": "MBAIT3",
+   "subject_name": "Data Communication & Network \u2026\u2026\u2026\u2026\u2026\u2026",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_BOOK_NUMART"
+  },
+  {
+   "sid": "advanced-separation-technology",
+   "course": "BTech",
+   "primary_code": "ECH051",
+   "subject_name": "ADVANCED SEPARATION TECHNOLOGY",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "session:cited_docs_older_than_latest max=2009 latest=2016"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING"
+  },
+  {
+   "sid": "communication-lab-1",
+   "course": "BTech",
+   "primary_code": "NEC 552A",
+   "subject_name": "Communication Lab - 1",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "hsmc-1-hsmc-2",
+   "course": "BTech",
+   "primary_code": "",
+   "subject_name": "HSMC -1 #/ HSMC-2 #",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "identity:pool_slot_row_no_single_code",
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "risks-management-in-supply-chain-and-logistics",
+   "course": "MBA",
+   "primary_code": "BMLS402",
+   "subject_name": "Risks Management in Supply Chain and Logistics",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "TYPE_EMPTY;DISPLAY_MISSING;corrected_BOOK_SPACECOMMA;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "advanced-casting-processes",
+   "course": "BTech",
+   "primary_code": "EMT-012",
+   "subject_name": "Advanced Casting Processes",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "measurement-lab",
+   "course": "BTech",
+   "primary_code": "EEC-453",
+   "subject_name": "MEASUREMENT LAB",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "automotive-transmission",
+   "course": "BTech",
+   "primary_code": "KAU 501",
+   "subject_name": "Automotive Transmission",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_KLS_BACKFILL;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "operating-systems-lab",
+   "course": "BTech",
+   "primary_code": "BCS451",
+   "subject_name": "Operating System Lab",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "citation:known_unresolved_4f09e009",
+    "citation:1_unresolvable_sha_refs"
+   ],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "communication-skills-lab-mca",
+   "course": "MCA",
+   "primary_code": "BMI152",
+   "subject_name": "COMMUNICATION SKILLS LAB",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "KLS_MISSING;DISPLAY_MISSING;corrected_KLS_FORMAT_NORMALIZE"
+  },
+  {
+   "sid": "building-science-and-engineering",
+   "course": "BTech",
+   "primary_code": "BOE314",
+   "subject_name": "Building Science and Engineering",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "citation:known_unresolved_e18a3256",
+    "citation:known_unresolved_e18a3256",
+    "citation:2_unresolvable_sha_refs"
+   ],
+   "quality_flags": "DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "applied-chemistry-for-emerging-electronics-and-futuristic-de",
+   "course": "BTech",
+   "primary_code": "AAS102C",
+   "subject_name": "Applied Chemistry for Emerging Electronics and Futuristic Devices",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_KLS_BACKFILL;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "information-systems",
+   "course": "BCA",
+   "primary_code": "BBC205",
+   "subject_name": "Information Systems",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;KLS_MISSING;DISPLAY_MISSING;corrected_KLS_FORMAT_NORMALIZE"
+  },
+  {
+   "sid": "applied-engineering-chemistry-lab",
+   "course": "BTech",
+   "primary_code": "ECY351",
+   "subject_name": "APPLIED ENGINEERING CHEMISTRY LAB",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING;w5_scheme_mismatch"
+  },
+  {
+   "sid": "pharmacognosy-iii",
+   "course": "BPharm",
+   "primary_code": "BOP364",
+   "subject_name": "PHARMACOGNOSY-III",
+   "verification_status": "unreviewed",
+   "row_verdict": "issues",
+   "issues": [
+    "identity:effective_session_latest_empty"
+   ],
+   "notes": [],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING"
+  },
+  {
+   "sid": "carpet-manufacturing-i-practical",
+   "course": "BTech",
+   "primary_code": "ECT551",
+   "subject_name": "CARPET MANUFACTURING \u2013 I (PRACTICAL)",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "procurement-storage-and-warehouse-management",
+   "course": "MBA",
+   "primary_code": "BMLS207",
+   "subject_name": "PROCUREMENT, STORAGE AND WAREHOUSE MANAGEMENT",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;TYPE_EMPTY;DISPLAY_MISSING;corrected_BOOK_NUMART"
+  },
+  {
+   "sid": "financial-accounting",
+   "course": "MBA",
+   "primary_code": "BMBAI-103",
+   "subject_name": "FINANCIAL ACCOUNTING",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING"
+  },
+  {
+   "sid": "aircraft-materials-nondestructive-testing",
+   "course": "BTech",
+   "primary_code": "KAE054",
+   "subject_name": "Aircraft Materials & Nondestructive Testing",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:3_corrected_marks"
+   ],
+   "quality_flags": "KLS_MISSING;DISPLAY_MISSING;corrected_PUNCT_ARTIFACT;corrected_KLS_FORMAT_NORMALIZE;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "farm-machinery-and-equipment-ii-lab",
+   "course": "BTech",
+   "primary_code": "RAG552",
+   "subject_name": "Farm Machinery and Equipment-II Lab",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "neural-network",
+   "course": "MCA",
+   "primary_code": "MCA505(5)",
+   "subject_name": "NEURAL NETWORK",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "advanced-geo-physics",
+   "course": "BTech",
+   "primary_code": "NPE043",
+   "subject_name": "Advanced Geo Physics",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "social-media-analytics-and-data-analysis",
+   "course": "BTech",
+   "primary_code": "BCAM061",
+   "subject_name": "Social Media Analytics and Data Analysis",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "citation:known_unresolved_65731720",
+    "citation:known_unresolved_65731720",
+    "citation:2_unresolvable_sha_refs",
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "BOOK_TRUNC;PUNCT_ARTIFACT;KLS_MISSING;DISPLAY_MISSING;corrected_KLS_FORMAT_NORMALIZE"
+  },
+  {
+   "sid": "survey-field-work",
+   "course": "BTech",
+   "primary_code": "ECE353",
+   "subject_name": "Survey Field Work",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING;w5_scheme_mismatch"
+  },
+  {
+   "sid": "wireless-and-mobile-communication",
+   "course": "BTech",
+   "primary_code": "BEC071",
+   "subject_name": "Wireless and Mobile Communication",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "team-building-leadership",
+   "course": "MBA",
+   "primary_code": "MBAHR3",
+   "subject_name": "Team Building & Leadership\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "fibre-science",
+   "course": "BTech",
+   "primary_code": "ECT304",
+   "subject_name": "Fibre Science",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "numerical-methods-for-chemical-engineer",
+   "course": "BTech",
+   "primary_code": "BCH053",
+   "subject_name": "Numerical Methods for Chemical Engineer",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "textile-fibre-lab",
+   "course": "BTech",
+   "primary_code": "RCT451",
+   "subject_name": "Textile Fibre Lab",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_W10B_TYPE_EVIDENCE"
+  },
+  {
+   "sid": "machine-learning-techniques-mca",
+   "course": "MCA",
+   "primary_code": "KCA054",
+   "subject_name": "Machine Learning Techniques",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_KLS_BACKFILL;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "engineering-managerial-economics",
+   "course": "BTech",
+   "primary_code": "",
+   "subject_name": "Engineering & Managerial Economics",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "identity:pool_slot_row_no_single_code"
+   ],
+   "quality_flags": "TYPE_EMPTY;DISPLAY_MISSING"
+  },
+  {
+   "sid": "applied-biostatistics-and-data-analytics-for-pharmaceutical-",
+   "course": "BPharm",
+   "primary_code": "BP201T",
+   "subject_name": "Applied Biostatistics and Data Analytics for Pharmaceutical Sciences (Theory)",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "modern-manufacturing-methods",
+   "course": "BTech",
+   "primary_code": "EMT-701",
+   "subject_name": "Modern Manufacturing Methods",
+   "verification_status": "corrected",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING"
+  },
+  {
+   "sid": "instrumentation-and-control",
+   "course": "BTech",
+   "primary_code": "RPI061",
+   "subject_name": "INSTRUMENTATION AND CONTROL",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "fundamentals-of-e-commerce",
+   "course": "MCA",
+   "primary_code": "MCA413",
+   "subject_name": "Fundamentals of E-Commerce",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "TYPE_EMPTY;DISPLAY_MISSING;corrected_W10C_CATEGORY"
+  },
+  {
+   "sid": "systemic-pharmacology-i-practical",
+   "course": "BPharm",
+   "primary_code": "BP410P",
+   "subject_name": "Systemic Pharmacology I (Practical)",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "utilization-of-electrical-energy-electric-traction",
+   "course": "BTech",
+   "primary_code": "BEE075",
+   "subject_name": "Utilization of Electrical Energy & Electric Traction",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "ergonomics-workplace-design",
+   "course": "BTech",
+   "primary_code": "BPI051",
+   "subject_name": "Ergonomics & Workplace Design",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "compiler-design",
+   "course": "BTech",
+   "primary_code": "KCS502",
+   "subject_name": "Compiler Design",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "citation:known_unresolved_09291fd4",
+    "citation:known_unresolved_09291fd4",
+    "citation:2_unresolvable_sha_refs",
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "BOOK_TRUNC;TOKEN_N_LOWER;KLS_MISSING;DISPLAY_MISSING;corrected_KLS_FORMAT_NORMALIZE;w10d_token_n_faithful_print"
+  },
+  {
+   "sid": "control-system-laboratory",
+   "course": "BTech",
+   "primary_code": "REE553",
+   "subject_name": "Control System Laboratory",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_KLS_BACKFILL;w5_scheme_mismatch"
+  },
+  {
+   "sid": "basic-element-of-mechanical-engineering-lab",
+   "course": "BTech",
+   "primary_code": "RAG252",
+   "subject_name": "BASIC ELEMENT OF MECHANICAL ENGINEERING LAB",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "herbal-drug-technology",
+   "course": "BPharm",
+   "primary_code": "",
+   "subject_name": "HERBAL DRUG TECHNOLOGY",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "identity:pool_slot_row_no_single_code"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;w5_scheme_mismatch"
+  },
+  {
+   "sid": "mini-project-lab-mca",
+   "course": "MCA",
+   "primary_code": "BMI552",
+   "subject_name": "Mini Project Lab",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_W10B_TYPE_EVIDENCE"
+  },
+  {
+   "sid": "yarn-technology-iii",
+   "course": "BTech",
+   "primary_code": "RCT 502",
+   "subject_name": "Yarn Technology-III",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "instrumentation",
+   "course": "BTech",
+   "primary_code": "EPL021",
+   "subject_name": "INSTRUMENTATION",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "environment-ecology-mba",
+   "course": "MBA",
+   "primary_code": "KMBI306",
+   "subject_name": "ENVIRONMENT & ECOLOGY",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "TYPE_EMPTY;DISPLAY_MISSING"
+  },
+  {
+   "sid": "instrumentation-lab",
+   "course": "BTech",
+   "primary_code": "NIC-652",
+   "subject_name": "Instrumentation Lab",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING;w5_scheme_mismatch"
+  },
+  {
+   "sid": "fluid-mechanics-open-channel-hydraulics-lab",
+   "course": "BTech",
+   "primary_code": "KAG453",
+   "subject_name": "Fluid Mechanics & Open Channel Hydraulics Lab",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "KLS_MISSING;DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "personal-growth-and-training-development",
+   "course": "MBA",
+   "primary_code": "MBAHR1",
+   "subject_name": "Personal Growth and Training & Development\u2026",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "applied-chemistry-for-smart-systems",
+   "course": "BTech",
+   "primary_code": "AAS102D",
+   "subject_name": "Applied Chemistry for Smart Systems",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "BOOK_TRUNC;DISPLAY_MISSING;corrected_KLS_BACKFILL;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "operations-research",
+   "course": "BTech",
+   "primary_code": "NOE073",
+   "subject_name": "Operations Research",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_KLS_BACKFILL;w5_scheme_mismatch"
+  },
+  {
+   "sid": "management-of-working-capital",
+   "course": "MBA",
+   "primary_code": "MBAFM01",
+   "subject_name": "MANAGEMENT OF WORKING CAPITAL",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "BOOK_TRUNC;KLS_MISSING;DISPLAY_MISSING;corrected_BOOK_SPACECOMMA;corrected_PUNCT_ARTIFACT;kls_not_printed"
+  },
+  {
+   "sid": "solid-mechanics-lab",
+   "course": "BTech",
+   "primary_code": "KCE452",
+   "subject_name": "Solid Mechanics Lab",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "water-treatment-and-supply-engineering",
+   "course": "BTech",
+   "primary_code": "EEV-402",
+   "subject_name": "Water Treatment and Supply Engineering",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;kls_raster_candidate;kls_not_printed"
+  },
+  {
+   "sid": "investment-analysis-and-portfolio-management",
+   "course": "MBA",
+   "primary_code": "FM01",
+   "subject_name": "Investment Analysis and Portfolio Management",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "KLS_MISSING;DISPLAY_MISSING;corrected_KLS_FORMAT_NORMALIZE;corrected_TYPE_NORM_RECORDED;kls_not_printed"
+  },
+  {
+   "sid": "handloom-weaving-technology",
+   "course": "BTech",
+   "primary_code": "KHT-402",
+   "subject_name": "Handloom Weaving Technology",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "TYPE_EMPTY;DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "pharmaceutical-product-development",
+   "course": "BPharm",
+   "primary_code": "BP813ET",
+   "subject_name": "PHARMACEUTICAL PRODUCT DEVELOPMENT",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;w5_scheme_mismatch;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "micro-irrigation-systems-design",
+   "course": "BTech",
+   "primary_code": "NAG-022",
+   "subject_name": "Micro Irrigation Systems Design",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "business-ethics-corporate-governance",
+   "course": "MBA",
+   "primary_code": "KMBI601",
+   "subject_name": "BUSINESS ETHICS & CORPORATE GOVERNANCE",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;KLS_MISSING;DISPLAY_MISSING;corrected_KLS_FORMAT_NORMALIZE;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "ethnic-handloom-fabrics",
+   "course": "BTech",
+   "primary_code": "KHT-052",
+   "subject_name": "Ethnic Handloom Fabrics",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_PUNCT_ARTIFACT;kls_not_printed"
+  },
+  {
+   "sid": "environmental-planning-for-smart-cities",
+   "course": "BTech",
+   "primary_code": "REV074",
+   "subject_name": "Environmental Planning for Smart Cities",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "ai-for-engineering",
+   "course": "BTech",
+   "primary_code": "KMC 101/201",
+   "subject_name": "AI For Engineering",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "active-pharmaceutical-ingredients-and-excipient-sciences-the",
+   "course": "BPharm",
+   "primary_code": "",
+   "subject_name": "Active Pharmaceutical Ingredients and Excipient Sciences (Theory)",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "identity:pool_slot_row_no_single_code"
+   ],
+   "quality_flags": "BOOK_TRUNC;PUNCT_ARTIFACT;DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "web-technology-bca",
+   "course": "BCA",
+   "primary_code": "BBC302",
+   "subject_name": "Web Technology",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;TYPE_EMPTY;DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "computer-simulation-of-ic-engines-process",
+   "course": "BTech",
+   "primary_code": "EAU061",
+   "subject_name": "Computer Simulation of IC Engines Process",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "BOOK_TRUNC;PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "textile-fibre-ii-lab",
+   "course": "BTech",
+   "primary_code": "KTT453",
+   "subject_name": "Textile Fibre-II Lab",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_W10B_TYPE_EVIDENCE"
+  },
+  {
+   "sid": "construction-technology-management",
+   "course": "BTech",
+   "primary_code": "ECE801",
+   "subject_name": "CONSTRUCTION TECHNOLOGY & MANAGEMENT",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_BOOK_SPACECOMMA"
+  },
+  {
+   "sid": "structural-properties-of-fibres",
+   "course": "BTech",
+   "primary_code": "BCT-602",
+   "subject_name": "Structural Properties of Fibres",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;kls_not_printed;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "structural-analysis",
+   "course": "BTech",
+   "primary_code": "BCE502",
+   "subject_name": "Structural Analysis",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "citation:known_unresolved_79a6daf1",
+    "citation:known_unresolved_79a6daf1",
+    "citation:2_unresolvable_sha_refs",
+    "flags_history:2_corrected_marks",
+    "session:cited_docs_older_than_latest max=2020 latest=2024"
+   ],
+   "quality_flags": "BOOK_NUMART;PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_BOOK_MERGED_SPLIT;corrected_BOOK_SPACECOMMA;kls_not_printed"
+  },
+  {
+   "sid": "cmos-analog-vlsi-design",
+   "course": "BTech",
+   "primary_code": "BEC-058",
+   "subject_name": "CMOS ANALOG VLSI DESIGN",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;kls_not_printed;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "big-data-and-analytics",
+   "course": "BTech",
+   "primary_code": "KDS601",
+   "subject_name": "BIG DATA AND ANALYTICS",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "BOOK_TRUNC;KLS_MISSING;DISPLAY_MISSING;corrected_KLS_FORMAT_NORMALIZE"
+  },
+  {
+   "sid": "microprocessors-microcontrollers-lab",
+   "course": "BTech",
+   "primary_code": "REC451",
+   "subject_name": "Microprocessors & Microcontrollers Lab",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_W10B_TYPE_EVIDENCE"
+  },
+  {
+   "sid": "hybrid-vehicle-propulsion",
+   "course": "BTech",
+   "primary_code": "KAU 072",
+   "subject_name": "Hybrid Vehicle Propulsion",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "computer-aided-vehicle-design",
+   "course": "BTech",
+   "primary_code": "EAU051",
+   "subject_name": "Computer Aided Vehicle Design",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "open-elective-i-printed-slot-eoe-071-to-eoe-074",
+   "course": "BTech",
+   "primary_code": "",
+   "subject_name": "Open Elective-I (printed slot: EOE-071 to EOE-074)",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "identity:pool_slot_row_no_single_code",
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_W10B_TYPE_EVIDENCE"
+  },
+  {
+   "sid": "discrete-structures-and-graph-theory",
+   "course": "BTech",
+   "primary_code": "NCS302",
+   "subject_name": "Discrete Structures And Graph Theory",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_AUTH_TYPO_trembley;corrected_BOOK_SPACECOMMA"
+  },
+  {
+   "sid": "industrial-relations-labor-laws",
+   "course": "MBA",
+   "primary_code": "RMBHR03",
+   "subject_name": "INDUSTRIAL RELATIONS & LABOR LAWS",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "TYPE_EMPTY;DISPLAY_MISSING"
+  },
+  {
+   "sid": "food-packaging",
+   "course": "BTech",
+   "primary_code": "BFT071",
+   "subject_name": "Food Packaging",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_BOOK_SPACECOMMA;kls_not_printed;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "supply-chain-management-theory",
+   "course": "BPharm",
+   "primary_code": "",
+   "subject_name": "Supply Chain Management (Theory)",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "identity:pool_slot_row_no_single_code"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "electronic-instrumentation-and-measurements",
+   "course": "BTech",
+   "primary_code": "EEC-403",
+   "subject_name": "ELECTRONIC INSTRUMENTATION AND MEASUREMENTS",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING;kls_raster_candidate;kls_not_printed"
+  },
+  {
+   "sid": "digital-communication-lab",
+   "course": "BTech",
+   "primary_code": "BEC651",
+   "subject_name": "Digital Communication Lab",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "irrigation-and-drainage-engineering",
+   "course": "BTech",
+   "primary_code": "EAG-505",
+   "subject_name": "Irrigation and Drainage Engineering",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_BOOK_SPACECOMMA;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "fruits-vegetables-and-plantation-products-lab",
+   "course": "BTech",
+   "primary_code": "RFT-551",
+   "subject_name": "FRUITS, VEGETABLES AND PLANTATION PRODUCTS LAB",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "bridge-engineering",
+   "course": "BTech",
+   "primary_code": "ECE031",
+   "subject_name": "Bridge Engineering",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "power-system-optimization",
+   "course": "BTech",
+   "primary_code": "REE073",
+   "subject_name": "POWER SYSTEM OPTIMIZATION",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING"
+  },
+  {
+   "sid": "biostatistics",
+   "course": "BTech",
+   "primary_code": "BBI064",
+   "subject_name": "Biostatistics",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "optimization-techniques",
+   "course": "BTech",
+   "primary_code": "BCH052",
+   "subject_name": "Optimization Techniques",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "BOOK_TRUNC;PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "computer-programming-lab-electrical-engg-lab",
+   "course": "BTech",
+   "primary_code": "",
+   "subject_name": "Computer Programming Lab/ Electrical Engg. Lab",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "identity:pool_slot_row_no_single_code",
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_W10B_TYPE_EVIDENCE"
+  },
+  {
+   "sid": "professional-english",
+   "course": "BTech",
+   "primary_code": "KAS204",
+   "subject_name": "PROFESSIONAL ENGLISH",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "PUNCT_ARTIFACT;TYPE_EMPTY;DISPLAY_MISSING;kls_not_printed"
+  },
+  {
+   "sid": "embedded-systems",
+   "course": "BTech",
+   "primary_code": "NCS-087",
+   "subject_name": "Embedded Systems",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:2_corrected_marks"
+   ],
+   "quality_flags": "BOOK_TRUNC;PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_BOOK_SPACECOMMA;corrected_KLS_BACKFILL"
+  },
+  {
+   "sid": "tool-engineering",
+   "course": "BTech",
+   "primary_code": "EMT-021",
+   "subject_name": "Tool Engineering",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING;reviewed_print_ends_here;w5_scheme_mismatch"
+  },
+  {
+   "sid": "novel-techniques-in-food-processing-sector",
+   "course": "BTech",
+   "primary_code": "KFT-073",
+   "subject_name": "NOVEL TECHNIQUES IN FOOD PROCESSING SECTOR",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;kls_not_printed;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "machine-tool-design",
+   "course": "BTech",
+   "primary_code": "RMI602",
+   "subject_name": "Machine Tool Design",
+   "verification_status": "unreviewed",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_TYPE_NORM_RECORDED"
+  },
+  {
+   "sid": "tour-guiding-and-interpretation",
+   "course": "MBA",
+   "primary_code": "MBTM033",
+   "subject_name": "TOUR GUIDING AND INTERPRETATION",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "TYPE_EMPTY;DISPLAY_MISSING"
+  },
+  {
+   "sid": "tissue-engineering-nptel",
+   "course": "BTech",
+   "primary_code": "RBT082",
+   "subject_name": "Tissue Engineering (NPTEL)",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "quality-control",
+   "course": "BTech",
+   "primary_code": "NPI-801",
+   "subject_name": "QUALITY CONTROL",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "water-harvesting-and-soil-conservation-lab",
+   "course": "BTech",
+   "primary_code": "RAG653",
+   "subject_name": "Water Harvesting and Soil Conservation Lab",
+   "verification_status": "unreviewed",
+   "row_verdict": "clean",
+   "issues": [],
+   "notes": [],
+   "quality_flags": "DISPLAY_MISSING"
+  },
+  {
+   "sid": "automotive-aerodynamics",
+   "course": "BTech",
+   "primary_code": "EAU032",
+   "subject_name": "Automotive Aerodynamics",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "PUNCT_ARTIFACT;DISPLAY_MISSING;corrected_PUNCT_ARTIFACT"
+  },
+  {
+   "sid": "computational-geometry",
+   "course": "BTech",
+   "primary_code": "NCS061",
+   "subject_name": "Computational Geometry",
+   "verification_status": "corrected",
+   "row_verdict": "minor",
+   "issues": [],
+   "notes": [
+    "flags_history:1_corrected_marks"
+   ],
+   "quality_flags": "DISPLAY_MISSING;corrected_BOOK_SPACECOMMA"
+  },
+  {
+   "sid": "advanced-spinning-technology",
+   "course": "BTech",
+   "primary_code": "RTT602",
+   "subject_name": "Advanced Spinning Technology",
+   "verification_status": "unreviewed",
+   "row_verdict": "issues",
+   "issues": [
+    "identity:effective_session_latest_empty"
+   ],
+   "notes": [],
+   "quality_flags": "TYPE_EMPTY;DISPLAY_MISSING"
+  }
+ ],
+ "generated_utc": "2026-11-12T17:28:10.685330+00:00"
+}

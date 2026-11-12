@@ -1,3 +1,7 @@
+# CRON-20261112-B90 — CRON-20261112-B90 — 2026-11-12
+
+T13 buyer-grade 100-row spot audit REPORT-ONLY (fixed-seed 20261113 sample, 10 checks; check-model corrections: flags vs audit-of-record active set, experiments key 'exp', pool-slot rows noted not issued) => 34 clean / 64 minor (57 repair-history marks, 7 pool-slot, 9 known-T12-sha refs) / 2 issues (BOP364+RTT602 effective_session_latest_empty, honest needs_review, no fix) + 0 new unresolved shas + 0 flag mismatches; flags 442 unchanged, gates n/a; CASCADE COMPLETE (T1-T13 all executed) -> audit-only unless owner opens new item
+
 # CRON-20261112-B89 — CRON-20261112-B89 — 2026-11-12
 
 T6 stage-1 ledger-only (10% sample: 203 of 2026 prose rows, deterministic every-10th offset 5): squashed verbatim containment + 24-char shingle fallback => rows: 179 attested_verbatim (88.2%, units 916/971 verbatim) + 15 mixed_overlap (28 high/14 partial/13 not-in-doc) + 6 unit_text_not_found_review (EBM-803, RBT082/85/88, NCH-702, EEC-304; UNfixed, page-image stage-2 later; text-layer absence != absence per 6b) + 3 no_citation; 0 CSV changes; flags 442 unchanged, gates n/a; T13 next (final test of the plan)
