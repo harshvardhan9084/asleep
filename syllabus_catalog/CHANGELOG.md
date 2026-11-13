@@ -1,3 +1,7 @@
+# CRON-20261113-B96 — B96 — 2026-11-13
+
+B96 df_year_plan.csv (owner need #1: course+branch+year -> ~6+6 subjects per semester): 7223 printed scheme-line rows x 19 cols rebuilt from 613 source PDFs (deterministic layout parser: SN-delimited rows, midpoint y-bounds, data-driven numeric clusters) + 109 draft JSONs fallback; verified exactly on BTech CSE y3 2024-25 sems 5-6 vs known print; 11 programs, BTech 13 sessions y2-y4 (2024-25: 33 docs, 2025-26: 31, 2026-27: 13 sems 1-8); resolver tool resolve_year_plan.py --demo; of-record CSV untouched 323ffc13 audit 0/0; T2T calls=0
+
 # CRON-20261113-B95 — B95 — 2026-11-13
 
 B95 df_syllabus.csv consumer view (owner request): developer-facing 44 of 62 columns (dropped notes/quality_flags/corrections_json/verification_status + all print surfaces subject_name_print+display+category+eligibility+objectives + source citation chain + change_note + subject_type dup + code_family + row_kind/status constants); of-record CSV byte-identical 323ffc13, audit 0/0, df 3080x44 arrays JSON-verified; diversity stats computed: 5 courses (BTech 2227/MBA 338/BPharm 268/MCA 201/BCA 46), BTech 61 printed branch strings = 48 normalized, 121 subject names span courses, Cyber Security+UHV in all 5 courses, 7219 codes over 19 sessions 2004-05..2026-27, sem breadth 79/45/216/198/399/427/413/199, credit mode 3-4, content 6885+7874 book entries 8808 experiments; 38th reset recovered mid-task, suspected B94 schema regression investigated and DISPROVED (git B94=B93=62 cols); T2T calls=0
