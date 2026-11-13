@@ -1,4 +1,5 @@
 {
+ "run_id": "CRON-20261113-B93 (merged: B73-era wave + B92 re-derivation)",
  "results": {
   "consumer-behaviour-customer-loyalty::textbooks_structured[0]": {
    "status": "print_garbled",
@@ -53,8 +54,8 @@
    "via": "global-index"
   },
   "5g-technology-for-wireless-communication::textbooks_structured[1]": {
-   "status": "no_print_found",
-   "pages_probed": 14
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print list position 2 (btech_act_y4_syllabus_2026-27.pdf p.2 (list position 2))"
   },
   "managerial-economics-mba::textbooks_structured[2]": {
    "status": "no_print_found",
@@ -98,8 +99,8 @@
    "via": "global-index"
   },
   "industrial-biotechnology-lab::reference_books_structured[0]": {
-   "status": "no_print_found",
-   "pages_probed": 23
+   "status": "verified_complete",
+   "evidence": "CSV corrections_json: BOOK_TRUNC_restored_print_B92 | evidence: btech_bt_y4_syllabus_2021-22.pdf p.23 (page-image verified B92; print merges Glazer+Eisenthal in one cell)"
   },
   "pharmacology-iii::textbooks_structured[8]": {
    "status": "verified_complete",
@@ -242,8 +243,8 @@
    "via": "global-index"
   },
   "water-resources-systems::textbooks_structured[3]": {
-   "status": "no_print_found",
-   "pages_probed": 61
+   "status": "verified_complete",
+   "evidence": "CSV corrections_json: BOOK_TRUNC_restored_print_B92 | evidence: btech_ce_y4_syllabus_2016-17.pdf p.17 (page-image verified B92)"
   },
   "machine-foundation-design::textbooks_structured[1]": {
    "status": "print_garbled",
@@ -331,10 +332,8 @@
    "via": "global-index"
   },
   "pneumatics-hydraulics::reference_books_structured[3]": {
-   "status": "corroborated_elsewhere",
-   "evidence": "btech_plastic_y4_syllabus_2016-17.pdf#0750b96bcb757f95 p.22",
-   "note": "same book printed in a different form in a non-cited corpus doc; stored form kept — its own doc's print not recoverable",
-   "pages_probed": 1
+   "status": "verified_complete",
+   "evidence": "B92 manifest: EMT-601 stored entry print-verbatim minus the list letter, p.10 page image (CRON-20261112-B92)"
   },
   "tool-engineering::textbooks_structured[0]": {
    "status": "print_garbled",
@@ -358,8 +357,8 @@
    "via": "global-index"
   },
   "design-and-analysis-of-algorithm::textbooks_structured[1]": {
-   "status": "sha_unresolved",
-   "sha": "09291fd4fad1262e"
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print list position 2 ( btech_ai-ds_y3_syllabus_2024-25.pdf p.2 (list position 2))"
   },
   "management-of-working-capital::textbooks_structured[3]": {
    "status": "no_print_found",
@@ -560,8 +559,8 @@
    "via": "global-index"
   },
   "fundamentals-of-digital-signal-processing::reference_books_structured[2]": {
-   "status": "no_print_found",
-   "pages_probed": 151
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print list position 4 (btech_ee_syllabus_2009-10.pdf p.8 (list position 4))"
   },
   "structural-analysis-for-environmental-engineering::reference_books_structured[8]": {
    "status": "verified_complete",
@@ -790,10 +789,8 @@
    "via": "global-index"
   },
   "security-analysis-and-portfolio-management::reference_books_structured[2]": {
-   "status": "corroborated_elsewhere",
-   "evidence": "mba-integrated_y4_syllabus_2020-21.pdf#1cd601286f00601d p.3",
-   "note": "same book printed in a different form in a non-cited corpus doc; stored form kept — its own doc's print not recoverable",
-   "pages_probed": 1
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print list position 3 (mba-integrated_y4_syllabus-kcode_2021-22.pdf p.3 (list position 3))"
   },
   "security-analysis-and-portfolio-management::reference_books_structured[6]": {
    "status": "print_garbled",
@@ -867,14 +864,12 @@
    "pages_probed": 74
   },
   "theory-of-machines-ii::textbooks_structured[0]": {
-   "status": "no_print_found",
-   "pages_probed": 74
+   "status": "verified_complete",
+   "evidence": "B92 manifest: EME-603 stored entry print-verbatim on its own p.34 books list, verified by page image (CRON-20261112-B92)"
   },
   "theory-of-machines-ii::textbooks_structured[1]": {
-   "status": "corroborated_elsewhere",
-   "evidence": "btech_mfg-tech_syllabus_2020-21.pdf#e441e28ab6b822d4 p.35",
-   "note": "same book printed in a different form in a non-cited corpus doc; stored form kept — its own doc's print not recoverable",
-   "pages_probed": 1
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print (btech_me-pe_syllabus_2009-10.pdf p.6)"
   },
   "theory-of-machines-ii::textbooks_structured[2]": {
    "status": "print_garbled",
@@ -891,24 +886,24 @@
    "via": "global-index"
   },
   "theory-of-machines-ii::textbooks_structured[4]": {
-   "status": "no_print_found",
-   "pages_probed": 74
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print (btech_me-pe_syllabus_2009-10.pdf p.6)"
   },
   "theory-of-machines-ii::textbooks_structured[5]": {
-   "status": "no_print_found",
-   "pages_probed": 74
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print (btech_me-pe_syllabus_2009-10.pdf p.6)"
   },
   "theory-of-machines-ii::textbooks_structured[7]": {
-   "status": "no_print_found",
-   "pages_probed": 74
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print (btech_me-pe_syllabus_2009-10.pdf p.6)"
   },
   "theory-of-machines-ii::textbooks_structured[8]": {
-   "status": "no_print_found",
-   "pages_probed": 74
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print (btech_me-pe_syllabus_2009-10.pdf p.6)"
   },
   "theory-of-machines-ii::textbooks_structured[9]": {
-   "status": "no_print_found",
-   "pages_probed": 74
+   "status": "verified_complete",
+   "evidence": "B93 re-derivation: stored entry equals cited print (btech_me-pe_syllabus_2009-10.pdf p.6)"
   },
   "management-information-system::textbooks_structured[2]": {
    "status": "print_garbled",
@@ -998,26 +993,5 @@
    "status": "no_print_found",
    "pages_probed": 20
   }
- },
- "ocr_cache": {
-  "05191e71a9af1e27:p10": "8. IATA Ticketing Hand Book.\n9. Chand, Mohinder, Travel Agency Management\n",
-  "068b1edbf8596b90:p11": "Syllabus:\n\n4 HTML: Elements, attributes, heading, paragraph, styles, comments, links, images, favicon, tables, list, class, id,\nHTML forms, HTML media, navigation bar.\n\n+ CSS: Types of CSS, colors, background, margins, padding, height, width, text, font, icon, links, list, tables,\ndisplay, z-index, float, overflow, CSS media queries, inline block, navigation bar, image gallery, forms, round\ncorners\n\n4 BOOTSTRAP : Fundamentals of implementing responsive web design ,Use Balsamiq to mockup and\nwireframe websites, The fundamentals of UI design for websites ,How to install the Bootstrap\nframework ,Understanding the Bootstrap grid layout system, How to use bootstrap containers to\nlayout your website easily, Use other Bootstrap components such as buttons ,Adding symbols using\nFont Awesome, Bootstrap carousels. Add Bootstrap cards to your website. Using Bootstrap navigation\nbars,\n\n+ JavaScript script, function, output, statement, variables, operators, datatypes, objects, events, string methods,\nArrays, if else, switch, loop for, loop in, loop for, debugging, validation of forms , Functions and invocation\npatterns Discussion of ECMAScripts Intermediate JavaScript , JS Expressions, Operators, Statements\nand Declarations , Object-Oriented Programming JS Objects and Prototypes, “This, Scope and\nClosures Objects and Prototypes Refactoring and Debugging\n\n1. Meloni, J. C., Kyrnin, J. (2018). HTML, CSS, and JavaScript All in One: Covering HTMLS, CSS3, and ES6, Sams\nTeach Yourself. United Kingdom: Pearson Education.\n\n2. McGrath, M. (2020). HTML, CSS & JavaScript in easy steps. United Kingdom: In Easy Steps Limited.\n\n1. Duckett, J. (2014). Web Design with HTML, CSS, JavaScript and JQuery Set. United Kingdom: Wiley.\n2. Fajfar, |. (2015). Start Programming Using HTML, CSS, and JavaScript. United Kingdom: CRC Press.\n' x. List of Experiments (Indicative & not limited to)\nDesignthefollowingstaticwebpagesrequiredforanonlinebookstorewebsite.\nHOMEPAGE:\n& The static home page must contain three frames.\n+ Top frame: Logo and the college name and links to Homepage, Login\npage, Registration page, Catalogue page and Cart page (the description\nof these pages will be given below).\n",
-  "068b1edbf8596b90:p12": "For example: When you click the link “CSE” the catalogue for CSE Books should be\ndisplayed in the Right frame. Right frame: The pages to the links in the left frame must be\nloaded here. Initially this page contains description of the web site.\nSE ee\nCSE\n= Description of the WebSite\nCIVIL\nLOGINPAGE:\nThis page looks like below:\ntome | tse | tinatn | ete | tot\nCSE\n» in Pi\nEe Login Page\ncee | Passwords: [J]\nCIVIL\nCATOLOGUE PAGE: The catalogue page should contain the details of all the books available in the website in a\ntable. The details should contain the following:\n1. Snap shot of Cover Page.\n2. Author Name.\n3. Publisher.\n4. Price.\n5. Add to cart button.\nHome | login | Registration | Catalogue | cart\nBook:XMLBible\nCSE . Author : Winston\n‘MI Publication:Wiely $40.5 (Add to cart\nECE <=\nEEE Book :Al\nTo eee ws\nrel ication:Pri\nCIVIL = x Publication:Princetonhall\n",
-  "068b1edbf8596b90:p13": "Book : Java 2\nAuthor:Watson $35.5\nPublication:BPBpublications ‘gt Add tocart |\nBook : HTML in 24 hours\nAuthor : Sam Peter $50\nPublication-Sampublication ig Add tocart |\n(CARTPAGE: The cart page contains the details about the books which are added to the cart. The cart page should\nlook like this:\n‘Web Site Name\n4, | Home | Login Registration Catalorue Cart\nCSE Book name Price Quantity Amount\nECE Java 2 $35.5 2 $70\nERE XML bible 340.5 it $40.5\nCIVIL Total amount - $130.5\nREGISTRATION PAGE : Create a\" registration form* with the following fields\n1)Name (Text field)\n2)Password (password field)\na.\n3) E-mailid(text field)\n4) Phone Number(text field)\n35) Sex(radio button)\n6) Date of birth(3 select boxes)\n7) Languages known(checkboxes—English, Telugu, Hindi, Tarnil)\n8) Address(text area)\nJs VALIDATION: Write JavaScript to validate the following fields of the above registration page.\n6.\n1. Name (Name should contains alphabets and the length should not be less than 6 characters).\n2. Password (Password should not be less than 6 characters length).\nJs VALIDATION:\n7.\n3. E-mailid (should not contain any invalid and must follow the standard pattern(nameg@domain.com)\n4. Phone Number(Phone number should contain 10 digits only).\n(C55: Design a web page using CS8(Cascading Style Sheets) which includes the following:\n1) Use different font, styles:\n8. In the style definition you define how each selector should work[font, color etc.). Then, in the body of\nYour pages, you refer to these selectors to activate the styles.\n2) Set a background image for both the page and single elements on the page.\n|\n9. 1) Control the repetition of the image with the background-repeat property.\n2) Define styles for links as\n",
-  "068b1edbf8596b90:p14": "] Adlink\nAcvisited\nAactive\nAchover\nConsider a small topic of your choice on which you can develop static Webpages and try to implement\nall topics of html, C55 and Js within the topic.\nChoose any one topic.\n1. Your Own Portfolio\n10.\n2. To-Do List\n3. Survey Form\n4. ATribute Page\n5. A Questionnaire\n",
-  "06a98edeaab37570:p15": "Page 15\n",
-  "06a98edeaab37570:p71": "Page 71\n",
-  "24e7ded99e84b815:p41": "Page41\n",
-  "3466b96968049cd9:p41": "",
-  "004414cdb2a3deee:p3": "Semester |\n",
-  "004414cdb2a3deee:p21": "Semester I!\n",
-  "c46b141f3ee05115:p45": "DETAILS OF DEPARTMENTAL\nELECTIVES\n",
-  "b4463c0a5bda685f:p24": "",
-  "b4463c0a5bda685f:p25": "",
-  "b4463c0a5bda685f:p26": "LTP\n310\n",
-  "b4463c0a5bda685f:p27": "6\n",
-  "6c00370d9f7d0ba5:p47": "",
-  "a52c57aa91f6deba:p31": "",
-  "ae09f754a72d1829:p11": "HANDLOOM & TEXTILE TECHNOLOGY\nSEMESTER-IV\n"
  }
 }

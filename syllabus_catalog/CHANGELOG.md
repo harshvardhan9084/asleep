@@ -1,3 +1,7 @@
+# CRON-20261113-B93 — B93 — 2026-11-13
+
+B93 reset-proof audit basis: re-derived B92 owner-directive + w9a ckpt deterministically (43 BT removed = exact B92-manifest match + 14 verified_complete with durable page-image/corrections evidence; TE 375), committed both basis files to syllabus_catalog/runs/, patched audit_rules.py with repo fallback => fresh audit 0/0 restored, CSV byte-identical e21e81fba24bbcf2ae7851565c8c78f3 (final clean CSV stands); zero CSV change; T2T calls=0
+
 # CRON-20261112-B92 — B92 — 2026-11-12
 
 B92 FINAL CLEAN CSV (owner go: fix what can, remove what can't) => BOOK_TRUNC 65 resolved: 10 values restored from print (2 page-image-verified: ECE053 p.17, KBT751D p.23 print-merged cell) + 12 stale flags retired (print-verbatim incl EME-603 x7 p.34 page-image + EMT-601 p.10) + 43 removed by owner directive (print-wins exhausted, values kept zero-guess) + DISPLAY_MISSING 2 filled from subject_name_print + TYPE_EMPTY 375 flags removed by owner directive (fields not stated by print, values stay empty) + legacy bare tokens cleaned (3078 DISPLAY_MISSING/287 BOOK_TRUNC stamps, history marks kept); every restore glue-checked + page-image/text inspected (4 spans re-derived); audit-of-record 422 rows/442 flags -> 0/0; CSV 3080x62 md5 e21e81fba24bbcf2ae7851565c8c78f3; gates n/a (repair batch, per-step row-diff verified); T2T calls=0

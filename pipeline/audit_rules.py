@@ -411,7 +411,13 @@ def main():
         ck9 = json.load(open("/home/z/my-project/work/pipeline_v2/w9a_ckpt.json"))
         pr9 = ck9.get("results", {})
     except Exception:
-        pr9 = {}
+        # B93: reset-proof fallback — durable repo copy (same evidence, committed
+        # to syllabus_catalog/runs/ so the audit-of-record survives resets).
+        try:
+            ck9 = json.load(open("/home/z/my-project/work/repo_asleep/syllabus_catalog/runs/w9a_ckpt.json"))
+            pr9 = ck9.get("results", {})
+        except Exception:
+            pr9 = {}
     n9 = n9drop = 0
     drops9 = []
     if pr9:
@@ -529,7 +535,11 @@ def main():
     try:
         b92dir = json.load(open("/home/z/my-project/work/pipeline_v2/b92_owner_directive.json"))
     except Exception:
-        b92dir = {}
+        # B93: reset-proof fallback — durable repo copy.
+        try:
+            b92dir = json.load(open("/home/z/my-project/work/repo_asleep/syllabus_catalog/runs/b92_owner_directive.json"))
+        except Exception:
+            b92dir = {}
     _bt_drop = set(b92dir.get("book_trunc_removed", []))
     _te_drop = set(b92dir.get("type_empty_removed", []))
     if _bt_drop or _te_drop:
