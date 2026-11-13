@@ -1,3 +1,7 @@
+# CRON-20261113-B94 — B94 — 2026-11-13
+
+B94 W12a noted-typo fix (owner D2 2026-11-13): notes column = provenance/quirk evidence (verbatim per S6b) had documented printed typos 'kept as-is' that S6b D1 already required FIXED in primary fields — cascade waves audited truncation/emptiness, never spelling compliance, so they went stale; B94 fixed 159 noted typos across 125 rows / 59 curated patterns (Ardunio->Arduino, Tannenbaum->Tanenbaum, willey/Wiely->Wiley, Addision->Addison, Schieldt->Schildt, Warshal->Warshall, Dijikstra->Dijkstra, MOFET->MOSFET, Paranayama->Pranayama, Debantures->Debentures, Deprecation->Depreciation row-gated, SQl/Lscm casing, 0 leftover occurrences; legit words excluded), printed spellings preserved in corrections_json before + verbatim notes with appended W12a clause; gates G1/G2(6412)/G3/G6(123) PASS, audit 0/0, CSV 3080x62; first attempt rolled back via backup (unit/co write-back bug) and re-applied clean; T2T calls=0
+
 # CRON-20261113-B93 — B93 — 2026-11-13
 
 B93 reset-proof audit basis: re-derived B92 owner-directive + w9a ckpt deterministically (43 BT removed = exact B92-manifest match + 14 verified_complete with durable page-image/corrections evidence; TE 375), committed both basis files to syllabus_catalog/runs/, patched audit_rules.py with repo fallback => fresh audit 0/0 restored, CSV byte-identical e21e81fba24bbcf2ae7851565c8c78f3 (final clean CSV stands); zero CSV change; T2T calls=0
